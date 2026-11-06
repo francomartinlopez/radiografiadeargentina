@@ -139,7 +139,10 @@ function prepararTemporal(g, estado) {
     // en nivel y base 100, el último mandato arranca en el mes previo a asumir
     const desde = estado.periodo === "mandato" && (estado.medida === "nivel" || estado.medida === "base_100" || estado.medida === "acumulado_12m")
       ? desdePeriodo : estado.periodo === "mandato" ? new Date(desdePeriodo.getFullYear(), desdePeriodo.getMonth() + 1, 1) : desdePeriodo;
-    return { nombre: s.nombre, color, puntos: recortar(medidos, desde, estado.medida, g), grueso: s.color !== "gris" };
+    // En las comparaciones entre países la Argentina va más gruesa y el resto más fino
+    const pais = g.tipo === "lineas_pais", esArg = /^Argentina/.test(s.nombre);
+    return { nombre: s.nombre, color, puntos: recortar(medidos, desde, estado.medida, g),
+             grueso: s.color !== "gris" && (!pais || esArg), destacada: pais && esArg, tenue: pais && !esArg };
   }).filter((s) => s.puntos.length);
   const enPorcentaje = !esDiferencia(g) && (estado.medida === "variacion" || estado.medida === "interanual");
   const enDif = esDiferencia(g) && (estado.medida === "variacion" || estado.medida === "interanual");
@@ -281,7 +284,8 @@ function dibujarTemporal(contenedor, cfg) {
       svg.append(svgEl("rect", { x, y: Math.min(Y(p.v), Y(base)), width: ancho, height: Math.abs(Y(p.v) - Y(base)), fill, opacity: p.tramo ? 0.45 : 0.9 }));
     }));
   } else {
-    for (const s of series) {
+    // la serie destacada (Argentina en comparaciones) se dibuja última, por encima de las demás
+    for (const s of [...series.filter((x) => !x.destacada), ...series.filter((x) => x.destacada)]) {
       if (cfg.apilar) {
         const arriba = s.puntos.map((p) => `${X(p.t).toFixed(1)},${Y(p.v).toFixed(1)}`);
         const abajo = s.puntos.slice().reverse().map((p) => `${X(p.t).toFixed(1)},${Y(p.base).toFixed(1)}`);
@@ -292,8 +296,8 @@ function dibujarTemporal(contenedor, cfg) {
       const cerrar = (punteada) => {
         if (tramo.length < 2) return;
         const d = tramo.map((p, i) => `${i ? "L" : "M"}${X(p.t).toFixed(1)},${Y(p.v).toFixed(1)}`).join("");
-        svg.append(svgEl("path", { d, fill: "none", stroke: s.color, "stroke-width": s.grueso ? 2 : 1.4, "stroke-linejoin": "round", "stroke-linecap": "round",
-          "stroke-dasharray": punteada ? "4 3" : null, opacity: s.grueso || cfg.series.length === 1 ? 1 : 0.85 }));
+        svg.append(svgEl("path", { d, fill: "none", stroke: s.color, "stroke-width": s.destacada ? 3 : s.tenue ? 1.3 : s.grueso ? 2 : 1.4, "stroke-linejoin": "round", "stroke-linecap": "round",
+          "stroke-dasharray": punteada ? "4 3" : null, opacity: s.tenue ? 0.7 : s.grueso || cfg.series.length === 1 ? 1 : 0.85 }));
       };
       let actual = null;
       s.puntos.forEach((p, i) => {

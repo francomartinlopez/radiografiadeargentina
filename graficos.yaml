@@ -298,6 +298,10 @@ calculos:
     a: ipi_textiles
     meses: 12
 
+  inflacion_anual_arg:
+    operacion: variacion_anual
+    a: ipc
+
 graficos:
   - id: inflacion_minorista
     tema: 2
@@ -482,16 +486,16 @@ graficos:
     tipo_valor: nivel
     medida_inicial: nivel
     series:
-      - {serie: pibpc_maddison_arg, nombre: "Argentina"}
-      - {serie: pibpc_maddison_bra, nombre: "Brasil"}
-      - {serie: pibpc_maddison_esp, nombre: "España"}
-      - {serie: pibpc_maddison_ita, nombre: "Italia"}
-      - {serie: pibpc_maddison_gbr, nombre: "Gran Bretaña"}
-      - {serie: pibpc_maddison_aus, nombre: "Australia"}
-      - {serie: pibpc_maddison_usa, nombre: "EE.UU."}
+      - {serie: maddison23_arg, nombre: "Argentina"}
+      - {serie: maddison23_bra, nombre: "Brasil"}
+      - {serie: maddison23_esp, nombre: "España"}
+      - {serie: maddison23_ita, nombre: "Italia"}
+      - {serie: maddison23_gbr, nombre: "Gran Bretaña"}
+      - {serie: maddison23_aus, nombre: "Australia"}
+      - {serie: maddison23_usa, nombre: "EE.UU."}
     fuentes:
-      - {nombre: "Maddison Project Database 2020 (Bolt y van Zanden), vía Our World in Data", url: "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2020", nivel: secundaria, nota: "Compila estimaciones de historiadores económicos y estadísticas oficiales de cada país."}
-    metodo: "PIB real por habitante en dólares internacionales de 2011. Antes de 1950 hay años sin dato (sobre todo en Brasil y en el siglo XIX): la línea une los años con dato. La serie llega a 2018, el último año de esta edición."
+      - {nombre: "Maddison Project Database 2023 (Bolt y van Zanden), vía Our World in Data", url: "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023", nivel: secundaria, nota: "Compila estimaciones de historiadores económicos y estadísticas oficiales de cada país."}
+    metodo: "PIB real por habitante en dólares internacionales de 2011 (edición 2023 del Maddison Project, que llega a 2022). Antes de 1950 hay años sin dato (sobre todo en Brasil y en el siglo XIX): la línea une los años con dato. Para años recientes, ver PIB por habitante del Banco Mundial (a paridad de poder adquisitivo de 2021). Reúne las fichas p18 y p428 (ingresos por hogar desde 1850, que no tienen una serie histórica comparable)."
     tramos:
       - {hasta: "1949-12", tipo: estimado, nota: "Antes de 1950 los valores son reconstrucciones históricas del Maddison Project, con mayor margen de error que las cuentas nacionales posteriores."}
 
@@ -1987,7 +1991,7 @@ graficos:
       imagen: 1191
     tipo: lineas_pais
     frecuencia: A
-    desde: '1980'
+    desde: '1995'
     unidad: '% anual'
     tipo_valor: tasa
     medida_inicial: nivel
@@ -1995,8 +1999,8 @@ graficos:
     - nivel
     - variacion
     series:
-    - serie: imf_pcpipch_arg
-      nombre: Argentina
+    - serie: inflacion_anual_arg
+      nombre: Argentina (IPC empalmado)
     - serie: imf_pcpipch_bra
       nombre: Brasil
     - serie: imf_pcpipch_chl
@@ -2016,47 +2020,7 @@ graficos:
       url: https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
       nivel: secundaria
       nota: Compila datos oficiales de cada país con criterios comunes
-    metodo: "Serie del Banco Mundial (FMI, International Financial Statistics). Para la Argentina faltan los años en que el IPC del INDEC no fue reconocido (2014-2016) y 2007-2013 refleja el índice intervenido: el IPC empalmado de este sitio es la referencia para la Argentina."
-
-  - id: deuda_paises
-    tema: 3
-    titulo: 'Deuda pública: Argentina y otros países'
-    que_muestra: Deuda del gobierno central como % del PIB.
-    original:
-      ficha: p64
-      imagen: 1179
-    tipo: lineas_pais
-    frecuencia: A
-    desde: '1990'
-    unidad: '% del PIB'
-    tipo_valor: tasa
-    medida_inicial: nivel
-    medidas:
-    - nivel
-    - variacion
-    series:
-    - serie: imf_ggxwdg_ngdp_arg
-      nombre: Argentina
-    - serie: imf_ggxwdg_ngdp_bra
-      nombre: Brasil
-    - serie: imf_ggxwdg_ngdp_chl
-      nombre: Chile
-    - serie: imf_ggxwdg_ngdp_ury
-      nombre: Uruguay
-    - serie: imf_ggxwdg_ngdp_mex
-      nombre: México
-    - serie: imf_ggxwdg_ngdp_esp
-      nombre: España
-    - serie: imf_ggxwdg_ngdp_ita
-      nombre: Italia
-    - serie: imf_ggxwdg_ngdp_usa
-      nombre: EE.UU.
-    fuentes:
-    - nombre: Banco Mundial, World Development Indicators
-      url: https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS
-      nivel: secundaria
-      nota: Compila datos oficiales de cada país con criterios comunes
-    metodo: Deuda del gobierno central como % del PIB, Banco Mundial (FMI, Government Finance Statistics). La cobertura por país es despareja. El FMI publica la deuda del gobierno general en su World Economic Outlook, pero su sitio no permite la descarga automática.
+    metodo: "Serie del Banco Mundial (FMI, International Financial Statistics). Para la Argentina el Banco Mundial solo tiene datos desde 2018 (no reconoce el IPC intervenido de 2007-2015), así que se usa la variación del promedio anual del IPC empalmado de este sitio (ver Inflación minorista), que se calcula igual. Empieza en 1995 para que las hiperinflaciones de 1989-1990 (Argentina, más de 3.000%) y 1990-1994 (Brasil) no aplasten el resto del gráfico."
 
   - id: gasto_paises
     tema: 3
@@ -2789,6 +2753,7 @@ graficos:
     titulo: "Precio internacional de la soja, el maíz y el trigo"
     que_muestra: "Precio mundial por tonelada, en dólares de hoy."
     original: {ficha: p108, imagen: 1051}
+    gobiernos: false
     tipo: lineas
     frecuencia: M
     desde: "2001-01"
@@ -2810,6 +2775,7 @@ graficos:
     titulo: "Precio internacional del petróleo y el gas"
     que_muestra: "Petróleo Brent y gas natural en EE.UU. (Henry Hub), en dólares de hoy."
     original: {ficha: p109, imagen: 1052}
+    gobiernos: false
     tipo: lineas
     frecuencia: M
     desde: "2001-01"
@@ -2831,6 +2797,7 @@ graficos:
     titulo: "Bolsa de EE.UU. (S&P 500)"
     que_muestra: "Índice S&P 500 de las 500 principales empresas de EE.UU., en puntos de hoy (descontada la inflación de EE.UU.)."
     original: {ficha: p423, imagen: 1205}
+    gobiernos: false
     tipo: lineas
     frecuencia: M
     desde: "1995-01"
@@ -2843,3 +2810,138 @@ graficos:
     fuentes:
       - {nombre: "S&P Dow Jones Indices, vía Yahoo Finance", url: "https://finance.yahoo.com/quote/%5EGSPC", nivel: secundaria}
     metodo: "Cierre mensual llevado a valores de hoy con la inflación de EE.UU. Con escala logarítmica se comparan bien las burbujas de 2000 (puntocom) y 2008 (hipotecas) con la suba actual, que el original mostraba en tres ventanas."
+
+  # ---------- Paso 5 (lote 4), tanda 2: series históricas (Our World in Data) ----------
+
+  - id: alfabetismo_historico
+    tema: 16
+    titulo: "Alfabetismo desde 1850: Argentina y otros países"
+    que_muestra: "Porcentaje de la población adulta que sabe leer y escribir."
+    original: {ficha: p374, imagen: 1444}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1850"
+    unidad: "% de los adultos"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: owid_alfab_arg, nombre: "Argentina"}
+      - {serie: owid_alfab_bra, nombre: "Brasil"}
+      - {serie: owid_alfab_chl, nombre: "Chile"}
+      - {serie: owid_alfab_ury, nombre: "Uruguay"}
+      - {serie: owid_alfab_mex, nombre: "México"}
+      - {serie: owid_alfab_esp, nombre: "España"}
+      - {serie: owid_alfab_ita, nombre: "Italia"}
+      - {serie: owid_alfab_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "Our World in Data, tasas de alfabetización (censos históricos, UNESCO y Banco Mundial)", url: "https://ourworldindata.org/grapher/cross-country-literacy-rates", nivel: terciaria, nota: "Recopila estimaciones históricas de varias fuentes"}
+    metodo: "Datos de censos y estimaciones históricas: hay pocos años por país antes de 1950 (en la Argentina, los censos de 1914, 1947 y posteriores); la línea une los años con dato. Las definiciones de 'alfabetizado' cambian entre países y épocas."
+    tramos:
+      - {hasta: "1949-12", tipo: estimado, nota: "Antes de 1950 son reconstrucciones a partir de censos y estudios históricos, con mayor margen de error."}
+
+  - id: escolaridad_historica
+    tema: 16
+    titulo: "Años de escolaridad desde 1870: Argentina y otros países"
+    que_muestra: "Años promedio de educación de la población de 15 a 64 años."
+    original: {ficha: p370, imagen: 1419}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1870"
+    unidad: "años de estudio"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: owid_escol_arg, nombre: "Argentina"}
+      - {serie: owid_escol_bra, nombre: "Brasil"}
+      - {serie: owid_escol_chl, nombre: "Chile"}
+      - {serie: owid_escol_ury, nombre: "Uruguay"}
+      - {serie: owid_escol_mex, nombre: "México"}
+      - {serie: owid_escol_esp, nombre: "España"}
+      - {serie: owid_escol_ita, nombre: "Italia"}
+      - {serie: owid_escol_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "Lee y Lee (2016), vía Our World in Data", url: "https://ourworldindata.org/grapher/mean-years-of-schooling-long-run", nivel: secundaria, nota: "Base académica de reconstrucción histórica"}
+    metodo: "Estimaciones quinquenales (cada 5 años) de Lee y Lee, que reconstruyen la matrícula histórica. Hasta 2020. El original mostraba la tasa de escolaridad; la serie comparable entre países desde el siglo XIX es la de años promedio de estudio."
+    tramos:
+      - {hasta: "1949-12", tipo: estimado, nota: "Reconstrucción histórica a partir de matrículas escolares."}
+
+  - id: esperanza_vida_historica
+    tema: 14
+    titulo: "Esperanza de vida desde 1850: Argentina y otros países"
+    que_muestra: "Años que viviría en promedio un recién nacido con la mortalidad de cada año."
+    original: {ficha: p415, imagen: 1175}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1850"
+    unidad: "años"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: owid_vida_arg, nombre: "Argentina"}
+      - {serie: owid_vida_bra, nombre: "Brasil"}
+      - {serie: owid_vida_chl, nombre: "Chile"}
+      - {serie: owid_vida_ury, nombre: "Uruguay"}
+      - {serie: owid_vida_mex, nombre: "México"}
+      - {serie: owid_vida_esp, nombre: "España"}
+      - {serie: owid_vida_ita, nombre: "Italia"}
+      - {serie: owid_vida_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "Our World in Data (Riley, Zijdeman y ONU), esperanza de vida", url: "https://ourworldindata.org/grapher/life-expectancy", nivel: terciaria, nota: "Une estimaciones históricas con la serie de la ONU"}
+    metodo: "Antes de 1950 hay datos solo en algunos años (en la Argentina, desde 1875); desde 1950 es la serie anual de la ONU. Complementa Esperanza de vida (Banco Mundial, desde 1960)."
+    tramos:
+      - {hasta: "1949-12", tipo: estimado, nota: "Reconstrucciones históricas con mayor margen de error."}
+
+  - id: mortalidad_infantil_historica
+    tema: 14
+    titulo: "Mortalidad de menores de 5 años desde 1900: Argentina y otros países"
+    que_muestra: "Porcentaje de los nacidos vivos que mueren antes de cumplir 5 años."
+    original: {ficha: p338, imagen: 1433}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1900"
+    unidad: "% de los nacidos vivos"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: owid_mortinf_arg, nombre: "Argentina"}
+      - {serie: owid_mortinf_bra, nombre: "Brasil"}
+      - {serie: owid_mortinf_chl, nombre: "Chile"}
+      - {serie: owid_mortinf_ury, nombre: "Uruguay"}
+      - {serie: owid_mortinf_mex, nombre: "México"}
+      - {serie: owid_mortinf_esp, nombre: "España"}
+      - {serie: owid_mortinf_ita, nombre: "Italia"}
+      - {serie: owid_mortinf_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "Our World in Data (Gapminder y ONU IGME), mortalidad de menores de 5 años", url: "https://ourworldindata.org/grapher/child-mortality", nivel: terciaria}
+    metodo: "La desnutrición histórica del original (ficha p338, con datos 'ilustrativos') no tiene una serie comparable desde 1850; la mortalidad de menores de 5 años es el indicador histórico más cercano y está bien documentado. La subalimentación actual está en el gráfico siguiente."
+    tramos:
+      - {hasta: "1949-12", tipo: estimado, nota: "Reconstrucciones históricas con mayor margen de error."}
+
+  - id: subalimentacion_paises
+    tema: 13
+    titulo: "Subalimentación: Argentina y otros países"
+    que_muestra: "Porcentaje de la población que no consume las calorías mínimas necesarias (estimación de la FAO)."
+    original: {ficha: p338, imagen: 1433}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "2001"
+    unidad: "% de la población"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: owid_subal_arg, nombre: "Argentina"}
+      - {serie: owid_subal_bra, nombre: "Brasil"}
+      - {serie: owid_subal_chl, nombre: "Chile"}
+      - {serie: owid_subal_ury, nombre: "Uruguay"}
+      - {serie: owid_subal_mex, nombre: "México"}
+      - {serie: owid_subal_esp, nombre: "España"}
+      - {serie: owid_subal_ita, nombre: "Italia"}
+      - {serie: owid_subal_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "FAO, prevalencia de la subalimentación (ODS 2.1.1), vía Our World in Data", url: "https://ourworldindata.org/grapher/prevalence-of-undernourishment", nivel: secundaria}
+    metodo: "Estimación de la FAO a partir de la disponibilidad de alimentos y la desigualdad de su consumo, en promedios de tres años. Los países con menos de 2,5% figuran en ese valor mínimo."

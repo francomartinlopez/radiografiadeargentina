@@ -262,6 +262,11 @@ def calculos_propios(catalogo: dict, mensuales: dict) -> tuple[dict, list[str]]:
             elif op == "media_movil":  # promedio de los últimos n meses (p. ej. para sacar el aguinaldo)
                 x = mensuales[c["a"]].sort_index().asfreq("MS")
                 mensuales[nombre] = x.rolling(c.get("meses", 12), min_periods=c.get("meses", 12)).mean().dropna()
+            elif op == "variacion_anual":  # % de variación del promedio anual (solo años completos)
+                x = mensuales[c["a"]].sort_index()
+                anual = x.resample("YS").agg(["mean", "count"])
+                anual = anual[anual["count"] >= 12]["mean"]
+                mensuales[nombre] = (anual.pct_change() * 100).dropna()
             elif op == "escala":
                 mensuales[nombre] = mensuales[c["a"]] * c["factor"]
             else:

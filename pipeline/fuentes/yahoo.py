@@ -20,5 +20,13 @@ def parsear(j: dict) -> pd.Series:
 
 
 def extraer(definicion: dict) -> pd.Series:
-    j = pedir(URL.format(simbolo=definicion["id"]), {"range": "max", "interval": "1mo"}).json()
+    # Con range=max y series muy largas (S&P 500 desde 1927) Yahoo devuelve datos trimestrales:
+    # con "desde" se pide un rango explícito y llegan los cierres mensuales
+    if definicion.get("desde"):
+        import time
+        inicio = int(pd.Timestamp(str(definicion["desde"])).timestamp())
+        params = {"period1": inicio, "period2": int(time.time()), "interval": "1mo"}
+    else:
+        params = {"range": "max", "interval": "1mo"}
+    j = pedir(URL.format(simbolo=definicion["id"]), params).json()
     return parsear(j)

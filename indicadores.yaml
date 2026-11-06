@@ -515,14 +515,6 @@ series:
   imf_pcpipch_esp: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: ESP}
   imf_pcpipch_ita: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: ITA}
   imf_pcpipch_usa: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: USA}
-  imf_ggxwdg_ngdp_arg: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: ARG}
-  imf_ggxwdg_ngdp_bra: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: BRA}
-  imf_ggxwdg_ngdp_chl: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: CHL}
-  imf_ggxwdg_ngdp_ury: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: URY}
-  imf_ggxwdg_ngdp_mex: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: MEX}
-  imf_ggxwdg_ngdp_esp: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: ESP}
-  imf_ggxwdg_ngdp_ita: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: ITA}
-  imf_ggxwdg_ngdp_usa: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: USA}
   imf_ggx_ngdp_arg: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: ARG}
   imf_ggx_ngdp_bra: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: BRA}
   imf_ggx_ngdp_chl: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: CHL}
@@ -671,7 +663,58 @@ series:
   precio_trigo:        {fuente: fred, id: PWHEAMTUSDM}
   precio_brent:        {fuente: fred, id: POILBREUSDM}
   precio_gas_eeuu:     {fuente: fred, id: PNGASUSUSDM}
-  sp500:               {fuente: yahoo, id: "^GSPC"}
+  sp500:               {fuente: yahoo, id: "^GSPC", desde: "1990-01-01"}
+  # Radiografía, lote 4: series históricas de Our World in Data (se bajan en GitHub Actions)
+  owid_alfab_arg: {fuente: owid, id: cross-country-literacy-rates, campo: literacy_rate, pais: ARG}
+  owid_alfab_bra: {fuente: owid, id: cross-country-literacy-rates, campo: literacy_rate, pais: BRA}
+  owid_alfab_chl: {fuente: owid, id: cross-country-literacy-rates, campo: literacy_rate, pais: CHL}
+  owid_alfab_ury: {fuente: owid, id: cross-country-literacy-rates, campo: literacy_rate, pais: URY}
+  owid_alfab_mex: {fuente: owid, id: cross-country-literacy-rates, campo: literacy_rate, pais: MEX}
+  owid_alfab_esp: {fuente: owid, id: cross-country-literacy-rates, campo: literacy_rate, pais: ESP}
+  owid_alfab_ita: {fuente: owid, id: cross-country-literacy-rates, campo: literacy_rate, pais: ITA}
+  owid_alfab_usa: {fuente: owid, id: cross-country-literacy-rates, campo: literacy_rate, pais: USA}
+  owid_escol_arg: {fuente: owid, id: mean-years-of-schooling-long-run, campo: mf_youth_and_adults, pais: ARG}
+  owid_escol_bra: {fuente: owid, id: mean-years-of-schooling-long-run, campo: mf_youth_and_adults, pais: BRA}
+  owid_escol_chl: {fuente: owid, id: mean-years-of-schooling-long-run, campo: mf_youth_and_adults, pais: CHL}
+  owid_escol_ury: {fuente: owid, id: mean-years-of-schooling-long-run, campo: mf_youth_and_adults, pais: URY}
+  owid_escol_mex: {fuente: owid, id: mean-years-of-schooling-long-run, campo: mf_youth_and_adults, pais: MEX}
+  owid_escol_esp: {fuente: owid, id: mean-years-of-schooling-long-run, campo: mf_youth_and_adults, pais: ESP}
+  owid_escol_ita: {fuente: owid, id: mean-years-of-schooling-long-run, campo: mf_youth_and_adults, pais: ITA}
+  owid_escol_usa: {fuente: owid, id: mean-years-of-schooling-long-run, campo: mf_youth_and_adults, pais: USA}
+  owid_subal_arg: {fuente: owid, id: prevalence-of-undernourishment, campo: prevalence_of_undernourishment, pais: ARG}
+  owid_subal_bra: {fuente: owid, id: prevalence-of-undernourishment, campo: prevalence_of_undernourishment, pais: BRA}
+  owid_subal_chl: {fuente: owid, id: prevalence-of-undernourishment, campo: prevalence_of_undernourishment, pais: CHL}
+  owid_subal_ury: {fuente: owid, id: prevalence-of-undernourishment, campo: prevalence_of_undernourishment, pais: URY}
+  owid_subal_mex: {fuente: owid, id: prevalence-of-undernourishment, campo: prevalence_of_undernourishment, pais: MEX}
+  owid_subal_esp: {fuente: owid, id: prevalence-of-undernourishment, campo: prevalence_of_undernourishment, pais: ESP}
+  owid_subal_ita: {fuente: owid, id: prevalence-of-undernourishment, campo: prevalence_of_undernourishment, pais: ITA}
+  owid_subal_usa: {fuente: owid, id: prevalence-of-undernourishment, campo: prevalence_of_undernourishment, pais: USA}
+  owid_vida_arg: {fuente: owid, id: life-expectancy, campo: life_expectancy_0, pais: ARG}
+  owid_vida_bra: {fuente: owid, id: life-expectancy, campo: life_expectancy_0, pais: BRA}
+  owid_vida_chl: {fuente: owid, id: life-expectancy, campo: life_expectancy_0, pais: CHL}
+  owid_vida_ury: {fuente: owid, id: life-expectancy, campo: life_expectancy_0, pais: URY}
+  owid_vida_mex: {fuente: owid, id: life-expectancy, campo: life_expectancy_0, pais: MEX}
+  owid_vida_esp: {fuente: owid, id: life-expectancy, campo: life_expectancy_0, pais: ESP}
+  owid_vida_ita: {fuente: owid, id: life-expectancy, campo: life_expectancy_0, pais: ITA}
+  owid_vida_usa: {fuente: owid, id: life-expectancy, campo: life_expectancy_0, pais: USA}
+  owid_mortinf_arg: {fuente: owid, id: child-mortality, campo: child_mortality_rate, pais: ARG}
+  owid_mortinf_bra: {fuente: owid, id: child-mortality, campo: child_mortality_rate, pais: BRA}
+  owid_mortinf_chl: {fuente: owid, id: child-mortality, campo: child_mortality_rate, pais: CHL}
+  owid_mortinf_ury: {fuente: owid, id: child-mortality, campo: child_mortality_rate, pais: URY}
+  owid_mortinf_mex: {fuente: owid, id: child-mortality, campo: child_mortality_rate, pais: MEX}
+  owid_mortinf_esp: {fuente: owid, id: child-mortality, campo: child_mortality_rate, pais: ESP}
+  owid_mortinf_ita: {fuente: owid, id: child-mortality, campo: child_mortality_rate, pais: ITA}
+  owid_mortinf_usa: {fuente: owid, id: child-mortality, campo: child_mortality_rate, pais: USA}
+  maddison23_arg: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: ARG}
+  maddison23_bra: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: BRA}
+  maddison23_chl: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: CHL}
+  maddison23_ury: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: URY}
+  maddison23_mex: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: MEX}
+  maddison23_esp: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: ESP}
+  maddison23_ita: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: ITA}
+  maddison23_usa: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: USA}
+  maddison23_gbr: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: GBR}
+  maddison23_aus: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: AUS}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
