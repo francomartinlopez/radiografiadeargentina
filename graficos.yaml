@@ -2966,18 +2966,25 @@ graficos:
     - variacion
     series:
     - serie: wb_nv_ind_manf_zs_arg
+      sin_ceros: true
       nombre: Argentina
     - serie: wb_nv_ind_manf_zs_bra
+      sin_ceros: true
       nombre: Brasil
     - serie: wb_nv_ind_manf_zs_esp
+      sin_ceros: true
       nombre: España
     - serie: wb_nv_ind_manf_zs_ita
+      sin_ceros: true
       nombre: Italia
     - serie: wb_nv_ind_manf_zs_gbr
+      sin_ceros: true
       nombre: Gran Bretaña
     - serie: wb_nv_ind_manf_zs_aus
+      sin_ceros: true
       nombre: Australia
     - serie: wb_nv_ind_manf_zs_usa
+      sin_ceros: true
       nombre: EE.UU.
     fuentes:
     - nombre: Banco Mundial, World Development Indicators
@@ -3004,18 +3011,25 @@ graficos:
     - variacion
     series:
     - serie: wb_nv_agr_totl_zs_arg
+      sin_ceros: true
       nombre: Argentina
     - serie: wb_nv_agr_totl_zs_bra
+      sin_ceros: true
       nombre: Brasil
     - serie: wb_nv_agr_totl_zs_esp
+      sin_ceros: true
       nombre: España
     - serie: wb_nv_agr_totl_zs_ita
+      sin_ceros: true
       nombre: Italia
     - serie: wb_nv_agr_totl_zs_gbr
+      sin_ceros: true
       nombre: Gran Bretaña
     - serie: wb_nv_agr_totl_zs_aus
+      sin_ceros: true
       nombre: Australia
     - serie: wb_nv_agr_totl_zs_usa
+      sin_ceros: true
       nombre: EE.UU.
     fuentes:
     - nombre: Banco Mundial, World Development Indicators
