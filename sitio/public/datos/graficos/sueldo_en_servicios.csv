@@ -1,0 +1,521 @@
+serie,fecha,valor,tramo
+Alimentos y bebidas,2017-11-01,233.633689,observado
+Alimentos y bebidas,2017-12-01,234.348986,observado
+Alimentos y bebidas,2018-01-01,234.834303,observado
+Alimentos y bebidas,2018-02-01,235.231874,observado
+Alimentos y bebidas,2018-03-01,235.746785,observado
+Alimentos y bebidas,2018-04-01,236.703983,observado
+Alimentos y bebidas,2018-05-01,237.322245,observado
+Alimentos y bebidas,2018-06-01,236.674718,observado
+Alimentos y bebidas,2018-07-01,235.531759,observado
+Alimentos y bebidas,2018-08-01,234.457177,observado
+Alimentos y bebidas,2018-09-01,232.813624,observado
+Alimentos y bebidas,2018-10-01,230.77137,observado
+Alimentos y bebidas,2018-11-01,229.006646,observado
+Alimentos y bebidas,2018-12-01,226.001651,observado
+Alimentos y bebidas,2019-01-01,223.958347,observado
+Alimentos y bebidas,2019-02-01,221.640797,observado
+Alimentos y bebidas,2019-03-01,219.111408,observado
+Alimentos y bebidas,2019-04-01,216.291131,observado
+Alimentos y bebidas,2019-05-01,213.994534,observado
+Alimentos y bebidas,2019-06-01,211.425162,observado
+Alimentos y bebidas,2019-07-01,210.251748,observado
+Alimentos y bebidas,2019-08-01,209.029934,observado
+Alimentos y bebidas,2019-09-01,208.129249,observado
+Alimentos y bebidas,2019-10-01,208.158342,observado
+Alimentos y bebidas,2019-11-01,207.205651,observado
+Alimentos y bebidas,2019-12-01,205.739633,observado
+Alimentos y bebidas,2020-01-01,204.765894,observado
+Alimentos y bebidas,2020-02-01,204.950943,observado
+Alimentos y bebidas,2020-03-01,204.741617,observado
+Alimentos y bebidas,2020-04-01,203.533571,observado
+Alimentos y bebidas,2020-05-01,201.977004,observado
+Alimentos y bebidas,2020-06-01,200.740209,observado
+Alimentos y bebidas,2020-07-01,199.519013,observado
+Alimentos y bebidas,2020-08-01,198.380181,observado
+Alimentos y bebidas,2020-09-01,197.758793,observado
+Alimentos y bebidas,2020-10-01,196.562668,observado
+Alimentos y bebidas,2020-11-01,195.977686,observado
+Alimentos y bebidas,2020-12-01,195.004017,observado
+Alimentos y bebidas,2021-01-01,193.959588,observado
+Alimentos y bebidas,2021-02-01,192.765672,observado
+Alimentos y bebidas,2021-03-01,192.044714,observado
+Alimentos y bebidas,2021-04-01,192.300242,observado
+Alimentos y bebidas,2021-05-01,192.424964,observado
+Alimentos y bebidas,2021-06-01,191.814327,observado
+Alimentos y bebidas,2021-07-01,191.701684,observado
+Alimentos y bebidas,2021-08-01,191.965998,observado
+Alimentos y bebidas,2021-09-01,192.194309,observado
+Alimentos y bebidas,2021-10-01,192.391849,observado
+Alimentos y bebidas,2021-11-01,192.95913,observado
+Alimentos y bebidas,2021-12-01,193.694095,observado
+Alimentos y bebidas,2022-01-01,194.218376,observado
+Alimentos y bebidas,2022-02-01,194.101146,observado
+Alimentos y bebidas,2022-03-01,194.120869,observado
+Alimentos y bebidas,2022-04-01,193.971682,observado
+Alimentos y bebidas,2022-05-01,194.192277,observado
+Alimentos y bebidas,2022-06-01,194.214979,observado
+Alimentos y bebidas,2022-07-01,193.840711,observado
+Alimentos y bebidas,2022-08-01,193.28987,observado
+Alimentos y bebidas,2022-09-01,192.723346,observado
+Alimentos y bebidas,2022-10-01,191.886495,observado
+Alimentos y bebidas,2022-11-01,191.361525,observado
+Alimentos y bebidas,2022-12-01,191.668174,observado
+Alimentos y bebidas,2023-01-01,191.55742,observado
+Alimentos y bebidas,2023-02-01,191.52738,observado
+Alimentos y bebidas,2023-03-01,191.189719,observado
+Alimentos y bebidas,2023-04-01,190.72936,observado
+Alimentos y bebidas,2023-05-01,190.189776,observado
+Alimentos y bebidas,2023-06-01,190.176196,observado
+Alimentos y bebidas,2023-07-01,190.700991,observado
+Alimentos y bebidas,2023-08-01,190.625901,observado
+Alimentos y bebidas,2023-09-01,190.073014,observado
+Alimentos y bebidas,2023-10-01,189.871309,observado
+Alimentos y bebidas,2023-11-01,188.467399,observado
+Alimentos y bebidas,2023-12-01,182.964815,observado
+Alimentos y bebidas,2024-01-01,179.625099,observado
+Alimentos y bebidas,2024-02-01,177.423949,observado
+Alimentos y bebidas,2024-03-01,174.993594,observado
+Alimentos y bebidas,2024-04-01,174.039853,observado
+Alimentos y bebidas,2024-05-01,172.778204,observado
+Alimentos y bebidas,2024-06-01,171.146464,observado
+Alimentos y bebidas,2024-07-01,169.974964,observado
+Alimentos y bebidas,2024-08-01,169.40326,observado
+Alimentos y bebidas,2024-09-01,169.440217,observado
+Alimentos y bebidas,2024-10-01,169.830917,observado
+Alimentos y bebidas,2024-11-01,171.110399,observado
+Alimentos y bebidas,2024-12-01,176.117628,observado
+Alimentos y bebidas,2025-01-01,179.659668,observado
+Alimentos y bebidas,2025-02-01,182.492559,observado
+Alimentos y bebidas,2025-03-01,185.215214,observado
+Alimentos y bebidas,2025-04-01,186.907753,observado
+Alimentos y bebidas,2025-05-01,188.488552,observado
+Alimentos y bebidas,2025-06-01,190.871889,observado
+Alimentos y bebidas,2025-07-01,192.186082,observado
+Alimentos y bebidas,2025-08-01,193.400276,observado
+Alimentos y bebidas,2025-09-01,194.480473,observado
+Alimentos y bebidas,2025-10-01,194.980482,observado
+Alimentos y bebidas,2025-11-01,194.944412,observado
+Alimentos y bebidas,2025-12-01,194.842692,observado
+Alimentos y bebidas,2026-01-01,194.288774,observado
+Alimentos y bebidas,2026-02-01,193.788755,observado
+Alimentos y bebidas,2026-03-01,193.41488,observado
+Alimentos y bebidas,2026-04-01,193.615412,observado
+Alimentos y bebidas,2026-05-01,193.402418,observado
+Alimentos y bebidas,2026-06-01,192.781191,observado
+"Electricidad, gas y combustibles del hogar",2017-11-01,190.402496,observado
+"Electricidad, gas y combustibles del hogar",2017-12-01,178.446788,observado
+"Electricidad, gas y combustibles del hogar",2018-01-01,169.609131,observado
+"Electricidad, gas y combustibles del hogar",2018-02-01,163.080241,observado
+"Electricidad, gas y combustibles del hogar",2018-03-01,158.090765,observado
+"Electricidad, gas y combustibles del hogar",2018-04-01,153.786738,observado
+"Electricidad, gas y combustibles del hogar",2018-05-01,150.178651,observado
+"Electricidad, gas y combustibles del hogar",2018-06-01,144.676743,observado
+"Electricidad, gas y combustibles del hogar",2018-07-01,140.559726,observado
+"Electricidad, gas y combustibles del hogar",2018-08-01,135.485061,observado
+"Electricidad, gas y combustibles del hogar",2018-09-01,130.373147,observado
+"Electricidad, gas y combustibles del hogar",2018-10-01,124.273011,observado
+"Electricidad, gas y combustibles del hogar",2018-11-01,118.152456,observado
+"Electricidad, gas y combustibles del hogar",2018-12-01,116.260541,observado
+"Electricidad, gas y combustibles del hogar",2019-01-01,114.937348,observado
+"Electricidad, gas y combustibles del hogar",2019-02-01,113.613954,observado
+"Electricidad, gas y combustibles del hogar",2019-03-01,111.959339,observado
+"Electricidad, gas y combustibles del hogar",2019-04-01,110.938392,observado
+"Electricidad, gas y combustibles del hogar",2019-05-01,109.308326,observado
+"Electricidad, gas y combustibles del hogar",2019-06-01,106.80236,observado
+"Electricidad, gas y combustibles del hogar",2019-07-01,105.206528,observado
+"Electricidad, gas y combustibles del hogar",2019-08-01,104.711269,observado
+"Electricidad, gas y combustibles del hogar",2019-09-01,104.24901,observado
+"Electricidad, gas y combustibles del hogar",2019-10-01,104.968416,observado
+"Electricidad, gas y combustibles del hogar",2019-11-01,105.671125,observado
+"Electricidad, gas y combustibles del hogar",2019-12-01,106.75509,observado
+"Electricidad, gas y combustibles del hogar",2020-01-01,107.898123,observado
+"Electricidad, gas y combustibles del hogar",2020-02-01,110.385197,observado
+"Electricidad, gas y combustibles del hogar",2020-03-01,113.167528,observado
+"Electricidad, gas y combustibles del hogar",2020-04-01,115.833131,observado
+"Electricidad, gas y combustibles del hogar",2020-05-01,118.331469,observado
+"Electricidad, gas y combustibles del hogar",2020-06-01,122.606937,observado
+"Electricidad, gas y combustibles del hogar",2020-07-01,125.461013,observado
+"Electricidad, gas y combustibles del hogar",2020-08-01,128.26507,observado
+"Electricidad, gas y combustibles del hogar",2020-09-01,131.184997,observado
+"Electricidad, gas y combustibles del hogar",2020-10-01,134.12499,observado
+"Electricidad, gas y combustibles del hogar",2020-11-01,137.148048,observado
+"Electricidad, gas y combustibles del hogar",2020-12-01,141.782045,observado
+"Electricidad, gas y combustibles del hogar",2021-01-01,145.019266,observado
+"Electricidad, gas y combustibles del hogar",2021-02-01,148.309925,observado
+"Electricidad, gas y combustibles del hogar",2021-03-01,152.235741,observado
+"Electricidad, gas y combustibles del hogar",2021-04-01,156.704617,observado
+"Electricidad, gas y combustibles del hogar",2021-05-01,160.783674,observado
+"Electricidad, gas y combustibles del hogar",2021-06-01,165.878629,observado
+"Electricidad, gas y combustibles del hogar",2021-07-01,170.036066,observado
+"Electricidad, gas y combustibles del hogar",2021-08-01,174.434523,observado
+"Electricidad, gas y combustibles del hogar",2021-09-01,178.943082,observado
+"Electricidad, gas y combustibles del hogar",2021-10-01,183.488623,observado
+"Electricidad, gas y combustibles del hogar",2021-11-01,188.3791,observado
+"Electricidad, gas y combustibles del hogar",2021-12-01,195.614145,observado
+"Electricidad, gas y combustibles del hogar",2022-01-01,201.214677,observado
+"Electricidad, gas y combustibles del hogar",2022-02-01,206.765669,observado
+"Electricidad, gas y combustibles del hogar",2022-03-01,209.605981,observado
+"Electricidad, gas y combustibles del hogar",2022-04-01,212.751174,observado
+"Electricidad, gas y combustibles del hogar",2022-05-01,217.060831,observado
+"Electricidad, gas y combustibles del hogar",2022-06-01,221.059904,observado
+"Electricidad, gas y combustibles del hogar",2022-07-01,223.952078,observado
+"Electricidad, gas y combustibles del hogar",2022-08-01,227.455484,observado
+"Electricidad, gas y combustibles del hogar",2022-09-01,231.598364,observado
+"Electricidad, gas y combustibles del hogar",2022-10-01,234.405721,observado
+"Electricidad, gas y combustibles del hogar",2022-11-01,236.033657,observado
+"Electricidad, gas y combustibles del hogar",2022-12-01,239.311703,observado
+"Electricidad, gas y combustibles del hogar",2023-01-01,240.381104,observado
+"Electricidad, gas y combustibles del hogar",2023-02-01,240.650984,observado
+"Electricidad, gas y combustibles del hogar",2023-03-01,243.464451,observado
+"Electricidad, gas y combustibles del hogar",2023-04-01,244.315874,observado
+"Electricidad, gas y combustibles del hogar",2023-05-01,240.763528,observado
+"Electricidad, gas y combustibles del hogar",2023-06-01,236.590318,observado
+"Electricidad, gas y combustibles del hogar",2023-07-01,234.079072,observado
+"Electricidad, gas y combustibles del hogar",2023-08-01,231.762125,observado
+"Electricidad, gas y combustibles del hogar",2023-09-01,229.920115,observado
+"Electricidad, gas y combustibles del hogar",2023-10-01,230.231928,observado
+"Electricidad, gas y combustibles del hogar",2023-11-01,233.222611,observado
+"Electricidad, gas y combustibles del hogar",2023-12-01,239.129161,observado
+"Electricidad, gas y combustibles del hogar",2024-01-01,246.473549,observado
+"Electricidad, gas y combustibles del hogar",2024-02-01,248.079141,observado
+"Electricidad, gas y combustibles del hogar",2024-03-01,245.153158,observado
+"Electricidad, gas y combustibles del hogar",2024-04-01,238.370505,observado
+"Electricidad, gas y combustibles del hogar",2024-05-01,235.52327,observado
+"Electricidad, gas y combustibles del hogar",2024-06-01,230.612216,observado
+"Electricidad, gas y combustibles del hogar",2024-07-01,226.63386,observado
+"Electricidad, gas y combustibles del hogar",2024-08-01,221.45629,observado
+"Electricidad, gas y combustibles del hogar",2024-09-01,214.522049,observado
+"Electricidad, gas y combustibles del hogar",2024-10-01,206.425909,observado
+"Electricidad, gas y combustibles del hogar",2024-11-01,196.187005,observado
+"Electricidad, gas y combustibles del hogar",2024-12-01,178.260126,observado
+"Electricidad, gas y combustibles del hogar",2025-01-01,162.661838,observado
+"Electricidad, gas y combustibles del hogar",2025-02-01,153.116033,observado
+"Electricidad, gas y combustibles del hogar",2025-03-01,147.666606,observado
+"Electricidad, gas y combustibles del hogar",2025-04-01,147.77955,observado
+"Electricidad, gas y combustibles del hogar",2025-05-01,147.053169,observado
+"Electricidad, gas y combustibles del hogar",2025-06-01,148.523826,observado
+"Electricidad, gas y combustibles del hogar",2025-07-01,148.959989,observado
+"Electricidad, gas y combustibles del hogar",2025-08-01,149.267325,observado
+"Electricidad, gas y combustibles del hogar",2025-09-01,149.745591,observado
+"Electricidad, gas y combustibles del hogar",2025-10-01,150.011557,observado
+"Electricidad, gas y combustibles del hogar",2025-11-01,149.987943,observado
+"Electricidad, gas y combustibles del hogar",2025-12-01,150.151753,observado
+"Electricidad, gas y combustibles del hogar",2026-01-01,150.34229,observado
+"Electricidad, gas y combustibles del hogar",2026-02-01,149.580492,observado
+"Electricidad, gas y combustibles del hogar",2026-03-01,148.254174,observado
+"Electricidad, gas y combustibles del hogar",2026-04-01,146.424249,observado
+"Electricidad, gas y combustibles del hogar",2026-05-01,144.693014,observado
+"Electricidad, gas y combustibles del hogar",2026-06-01,142.139304,observado
+Transporte público,2017-11-01,249.589978,observado
+Transporte público,2017-12-01,253.08979,observado
+Transporte público,2018-01-01,255.837351,observado
+Transporte público,2018-02-01,256.982815,observado
+Transporte público,2018-03-01,258.12685,observado
+Transporte público,2018-04-01,257.939005,observado
+Transporte público,2018-05-01,257.809653,observado
+Transporte público,2018-06-01,255.0199,observado
+Transporte público,2018-07-01,252.989966,observado
+Transporte público,2018-08-01,250.796256,observado
+Transporte público,2018-09-01,247.555705,observado
+Transporte público,2018-10-01,243.633676,observado
+Transporte público,2018-11-01,240.167369,observado
+Transporte público,2018-12-01,234.013247,observado
+Transporte público,2019-01-01,228.621336,observado
+Transporte público,2019-02-01,224.366054,observado
+Transporte público,2019-03-01,219.417631,observado
+Transporte público,2019-04-01,215.347143,observado
+Transporte público,2019-05-01,211.652839,observado
+Transporte público,2019-06-01,208.028886,observado
+Transporte público,2019-07-01,205.795552,observado
+Transporte público,2019-08-01,204.559182,observado
+Transporte público,2019-09-01,204.309897,observado
+Transporte público,2019-10-01,205.299678,observado
+Transporte público,2019-11-01,205.754448,observado
+Transporte público,2019-12-01,207.189236,observado
+Transporte público,2020-01-01,209.826551,observado
+Transporte público,2020-02-01,213.669113,observado
+Transporte público,2020-03-01,217.779889,observado
+Transporte público,2020-04-01,221.136287,observado
+Transporte público,2020-05-01,223.734283,observado
+Transporte público,2020-06-01,228.613252,observado
+Transporte público,2020-07-01,231.558774,observado
+Transporte público,2020-08-01,234.292562,observado
+Transporte público,2020-09-01,237.528499,observado
+Transporte público,2020-10-01,240.628168,observado
+Transporte público,2020-11-01,243.392553,observado
+Transporte público,2020-12-01,246.543977,observado
+Transporte público,2021-01-01,249.240088,observado
+Transporte público,2021-02-01,252.049863,observado
+Transporte público,2021-03-01,255.26485,observado
+Transporte público,2021-04-01,259.67688,observado
+Transporte público,2021-05-01,264.147937,observado
+Transporte público,2021-06-01,269.449757,observado
+Transporte público,2021-07-01,274.224358,observado
+Transporte público,2021-08-01,279.084621,observado
+Transporte público,2021-09-01,283.122526,observado
+Transporte público,2021-10-01,285.156154,observado
+Transporte público,2021-11-01,289.325679,observado
+Transporte público,2021-12-01,292.955674,observado
+Transporte público,2022-01-01,296.037362,observado
+Transporte público,2022-02-01,300.013321,observado
+Transporte público,2022-03-01,304.588717,observado
+Transporte público,2022-04-01,307.938469,observado
+Transporte público,2022-05-01,311.993593,observado
+Transporte público,2022-06-01,317.787495,observado
+Transporte público,2022-07-01,322.004695,observado
+Transporte público,2022-08-01,324.421237,observado
+Transporte público,2022-09-01,326.765439,observado
+Transporte público,2022-10-01,330.669207,observado
+Transporte público,2022-11-01,332.458845,observado
+Transporte público,2022-12-01,339.394049,observado
+Transporte público,2023-01-01,340.444639,observado
+Transporte público,2023-02-01,340.613668,observado
+Transporte público,2023-03-01,340.355667,observado
+Transporte público,2023-04-01,340.629061,observado
+Transporte público,2023-05-01,339.509732,observado
+Transporte público,2023-06-01,337.370291,observado
+Transporte público,2023-07-01,336.167826,observado
+Transporte público,2023-08-01,338.30312,observado
+Transporte público,2023-09-01,341.683391,observado
+Transporte público,2023-10-01,346.177096,observado
+Transporte público,2023-11-01,350.859794,observado
+Transporte público,2023-12-01,356.488605,observado
+Transporte público,2024-01-01,361.841735,observado
+Transporte público,2024-02-01,354.830502,observado
+Transporte público,2024-03-01,346.885093,observado
+Transporte público,2024-04-01,342.39362,observado
+Transporte público,2024-05-01,337.534556,observado
+Transporte público,2024-06-01,332.020947,observado
+Transporte público,2024-07-01,327.987598,observado
+Transporte público,2024-08-01,319.324026,observado
+Transporte público,2024-09-01,308.99122,observado
+Transporte público,2024-10-01,297.626771,observado
+Transporte público,2024-11-01,285.606109,observado
+Transporte público,2024-12-01,268.816726,observado
+Transporte público,2025-01-01,257.939182,observado
+Transporte público,2025-02-01,259.314747,observado
+Transporte público,2025-03-01,261.255053,observado
+Transporte público,2025-04-01,260.315781,observado
+Transporte público,2025-05-01,259.774689,observado
+Transporte público,2025-06-01,258.221449,observado
+Transporte público,2025-07-01,255.16099,observado
+Transporte público,2025-08-01,254.728054,observado
+Transporte público,2025-09-01,255.144115,observado
+Transporte público,2025-10-01,255.001212,observado
+Transporte público,2025-11-01,255.622613,observado
+Transporte público,2025-12-01,255.6723,observado
+Transporte público,2026-01-01,255.515293,observado
+Transporte público,2026-02-01,254.571614,observado
+Transporte público,2026-03-01,252.10128,observado
+Transporte público,2026-04-01,250.244259,observado
+Transporte público,2026-05-01,247.941111,observado
+Transporte público,2026-06-01,244.293628,observado
+Prepagas,2017-11-01,232.680146,observado
+Prepagas,2017-12-01,231.330771,observado
+Prepagas,2018-01-01,230.327957,observado
+Prepagas,2018-02-01,229.689039,observado
+Prepagas,2018-03-01,229.161328,observado
+Prepagas,2018-04-01,228.832443,observado
+Prepagas,2018-05-01,228.512412,observado
+Prepagas,2018-06-01,225.751747,observado
+Prepagas,2018-07-01,224.667917,observado
+Prepagas,2018-08-01,223.524724,observado
+Prepagas,2018-09-01,223.396686,observado
+Prepagas,2018-10-01,222.36732,observado
+Prepagas,2018-11-01,221.975842,observado
+Prepagas,2018-12-01,220.582769,observado
+Prepagas,2019-01-01,220.020514,observado
+Prepagas,2019-02-01,219.44031,observado
+Prepagas,2019-03-01,219.286456,observado
+Prepagas,2019-04-01,219.089082,observado
+Prepagas,2019-05-01,218.012061,observado
+Prepagas,2019-06-01,218.289888,observado
+Prepagas,2019-07-01,217.931378,observado
+Prepagas,2019-08-01,217.927267,observado
+Prepagas,2019-09-01,217.135751,observado
+Prepagas,2019-10-01,217.386984,observado
+Prepagas,2019-11-01,216.269775,observado
+Prepagas,2019-12-01,214.288283,observado
+Prepagas,2020-01-01,213.093572,observado
+Prepagas,2020-02-01,213.400401,observado
+Prepagas,2020-03-01,212.961208,observado
+Prepagas,2020-04-01,211.520803,observado
+Prepagas,2020-05-01,210.638614,observado
+Prepagas,2020-06-01,210.095484,observado
+Prepagas,2020-07-01,210.087788,observado
+Prepagas,2020-08-01,210.914558,observado
+Prepagas,2020-09-01,212.766392,observado
+Prepagas,2020-10-01,215.170444,observado
+Prepagas,2020-11-01,218.479281,observado
+Prepagas,2020-12-01,223.472865,observado
+Prepagas,2021-01-01,226.967752,observado
+Prepagas,2021-02-01,230.509094,observado
+Prepagas,2021-03-01,234.225051,observado
+Prepagas,2021-04-01,238.296113,observado
+Prepagas,2021-05-01,241.580524,observado
+Prepagas,2021-06-01,246.013775,observado
+Prepagas,2021-07-01,250.041826,observado
+Prepagas,2021-08-01,252.491387,observado
+Prepagas,2021-09-01,253.292006,observado
+Prepagas,2021-10-01,252.224455,observado
+Prepagas,2021-11-01,251.479128,observado
+Prepagas,2021-12-01,252.871376,observado
+Prepagas,2022-01-01,252.409584,observado
+Prepagas,2022-02-01,251.601204,observado
+Prepagas,2022-03-01,250.971258,observado
+Prepagas,2022-04-01,250.14974,observado
+Prepagas,2022-05-01,249.627687,observado
+Prepagas,2022-06-01,246.341035,observado
+Prepagas,2022-07-01,243.154296,observado
+Prepagas,2022-08-01,240.511557,observado
+Prepagas,2022-09-01,240.099356,observado
+Prepagas,2022-10-01,239.451967,observado
+Prepagas,2022-11-01,239.429592,observado
+Prepagas,2022-12-01,238.991112,observado
+Prepagas,2023-01-01,238.854095,observado
+Prepagas,2023-02-01,237.926637,observado
+Prepagas,2023-03-01,236.637787,observado
+Prepagas,2023-04-01,236.632168,observado
+Prepagas,2023-05-01,237.358859,observado
+Prepagas,2023-06-01,240.320479,observado
+Prepagas,2023-07-01,242.26504,observado
+Prepagas,2023-08-01,245.288018,observado
+Prepagas,2023-09-01,247.799846,observado
+Prepagas,2023-10-01,251.824788,observado
+Prepagas,2023-11-01,254.430882,observado
+Prepagas,2023-12-01,257.874754,observado
+Prepagas,2024-01-01,258.294484,observado
+Prepagas,2024-02-01,257.818651,observado
+Prepagas,2024-03-01,255.559945,observado
+Prepagas,2024-04-01,252.071761,observado
+Prepagas,2024-05-01,250.23256,observado
+Prepagas,2024-06-01,247.573352,observado
+Prepagas,2024-07-01,245.430262,observado
+Prepagas,2024-08-01,242.457863,observado
+Prepagas,2024-09-01,238.55461,observado
+Prepagas,2024-10-01,233.915101,observado
+Prepagas,2024-11-01,229.070751,observado
+Prepagas,2024-12-01,222.160938,observado
+Prepagas,2025-01-01,219.647442,observado
+Prepagas,2025-02-01,218.457316,observado
+Prepagas,2025-03-01,218.990061,observado
+Prepagas,2025-04-01,220.095572,observado
+Prepagas,2025-05-01,218.518115,observado
+Prepagas,2025-06-01,216.387588,observado
+Prepagas,2025-07-01,215.189202,observado
+Prepagas,2025-08-01,214.257267,observado
+Prepagas,2025-09-01,213.596128,observado
+Prepagas,2025-10-01,213.22535,observado
+Prepagas,2025-11-01,212.97236,observado
+Prepagas,2025-12-01,213.104908,observado
+Prepagas,2026-01-01,213.219955,observado
+Prepagas,2026-02-01,213.346344,observado
+Prepagas,2026-03-01,213.054107,observado
+Prepagas,2026-04-01,213.166117,observado
+Prepagas,2026-05-01,213.135428,observado
+Prepagas,2026-06-01,212.899277,observado
+Educación,2017-11-01,218.064448,observado
+Educación,2017-12-01,216.523118,observado
+Educación,2018-01-01,215.520338,observado
+Educación,2018-02-01,214.794021,observado
+Educación,2018-03-01,213.718202,observado
+Educación,2018-04-01,213.229728,observado
+Educación,2018-05-01,212.884765,observado
+Educación,2018-06-01,211.914391,observado
+Educación,2018-07-01,210.897559,observado
+Educación,2018-08-01,210.246277,observado
+Educación,2018-09-01,210.17227,observado
+Educación,2018-10-01,210.203959,observado
+Educación,2018-11-01,210.747375,observado
+Educación,2018-12-01,211.119119,observado
+Educación,2019-01-01,211.800722,observado
+Educación,2019-02-01,212.662689,observado
+Educación,2019-03-01,213.303949,observado
+Educación,2019-04-01,213.718588,observado
+Educación,2019-05-01,214.099563,observado
+Educación,2019-06-01,214.542844,observado
+Educación,2019-07-01,215.152297,observado
+Educación,2019-08-01,215.676719,observado
+Educación,2019-09-01,216.394658,observado
+Educación,2019-10-01,217.663755,observado
+Educación,2019-11-01,217.652648,observado
+Educación,2019-12-01,217.652744,observado
+Educación,2020-01-01,218.02815,observado
+Educación,2020-02-01,219.171278,observado
+Educación,2020-03-01,219.535869,observado
+Educación,2020-04-01,219.402814,observado
+Educación,2020-05-01,219.206042,observado
+Educación,2020-06-01,219.961777,observado
+Educación,2020-07-01,220.305219,observado
+Educación,2020-08-01,220.833694,observado
+Educación,2020-09-01,221.617212,observado
+Educación,2020-10-01,222.469358,observado
+Educación,2020-11-01,224.239357,observado
+Educación,2020-12-01,227.493851,observado
+Educación,2021-01-01,229.588333,observado
+Educación,2021-02-01,231.965327,observado
+Educación,2021-03-01,233.082657,observado
+Educación,2021-04-01,234.743087,observado
+Educación,2021-05-01,236.193569,observado
+Educación,2021-06-01,237.738533,observado
+Educación,2021-07-01,239.167851,observado
+Educación,2021-08-01,240.105297,observado
+Educación,2021-09-01,240.521164,observado
+Educación,2021-10-01,240.440977,observado
+Educación,2021-11-01,240.633735,observado
+Educación,2021-12-01,240.530912,observado
+Educación,2022-01-01,240.422905,observado
+Educación,2022-02-01,239.646591,observado
+Educación,2022-03-01,240.303358,observado
+Educación,2022-04-01,240.789378,observado
+Educación,2022-05-01,241.778972,observado
+Educación,2022-06-01,242.965978,observado
+Educación,2022-07-01,243.154184,observado
+Educación,2022-08-01,243.976811,observado
+Educación,2022-09-01,245.373837,observado
+Educación,2022-10-01,245.903939,observado
+Educación,2022-11-01,246.58603,observado
+Educación,2022-12-01,248.292567,observado
+Educación,2023-01-01,249.441532,observado
+Educación,2023-02-01,251.038375,observado
+Educación,2023-03-01,251.613307,observado
+Educación,2023-04-01,252.504215,observado
+Educación,2023-05-01,253.247634,observado
+Educación,2023-06-01,254.00113,observado
+Educación,2023-07-01,255.174152,observado
+Educación,2023-08-01,256.387244,observado
+Educación,2023-09-01,257.491716,observado
+Educación,2023-10-01,259.481647,observado
+Educación,2023-11-01,261.18358,observado
+Educación,2023-12-01,263.999854,observado
+Educación,2024-01-01,270.631539,observado
+Educación,2024-02-01,278.207764,observado
+Educación,2024-03-01,280.646329,observado
+Educación,2024-04-01,283.810613,observado
+Educación,2024-05-01,285.721075,observado
+Educación,2024-06-01,288.656337,observado
+Educación,2024-07-01,290.667088,observado
+Educación,2024-08-01,291.659657,observado
+Educación,2024-09-01,292.002638,observado
+Educación,2024-10-01,292.189271,observado
+Educación,2024-11-01,291.465198,observado
+Educación,2024-12-01,289.461187,observado
+Educación,2025-01-01,283.281724,observado
+Educación,2025-02-01,275.601816,observado
+Educación,2025-03-01,273.171172,observado
+Educación,2025-04-01,269.791492,observado
+Educación,2025-05-01,266.741391,observado
+Educación,2025-06-01,262.337756,observado
+Educación,2025-07-01,258.844858,observado
+Educación,2025-08-01,255.643129,observado
+Educación,2025-09-01,252.424061,observado
+Educación,2025-10-01,248.909456,observado
+Educación,2025-11-01,245.661711,observado
+Educación,2025-12-01,241.526866,observado
+Educación,2026-01-01,238.362687,observado
+Educación,2026-02-01,235.557531,observado
+Educación,2026-03-01,234.265294,observado
+Educación,2026-04-01,233.114522,observado
+Educación,2026-05-01,231.697414,observado
+Educación,2026-06-01,229.959593,observado

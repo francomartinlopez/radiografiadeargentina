@@ -201,7 +201,22 @@ def empalme_con_puente(tramos: list[pd.Series], hastas: list, puente: pd.Series 
 def calculos_propios(catalogo: dict, mensuales: dict) -> tuple[dict, list[str]]:
     """Aplica catalogo['calculos'] sobre las series mensuales. Devuelve tramos automáticos por serie."""
     tramos_auto, alertas = {}, []
-    for nombre, c in (catalogo.get("calculos") or {}).items():
+    calculos = catalogo.get("calculos") or {}
+    # Orden de dependencias: un cálculo va después de los cálculos que usa
+    orden, vistos = [], set()
+    def visitar(n):
+        if n in vistos or n not in calculos:
+            return
+        vistos.add(n)
+        c = calculos[n]
+        for dep in [t.get("serie") for t in c.get("tramos", [])] + [c.get(k) for k in ("a", "b", "puente")]:
+            if dep:
+                visitar(dep)
+        orden.append(n)
+    for n in calculos:
+        visitar(n)
+    for nombre in orden:
+        c = calculos[nombre]
         try:
             op = c["operacion"]
             if op == "empalme":
@@ -244,6 +259,9 @@ def calculos_propios(catalogo: dict, mensuales: dict) -> tuple[dict, list[str]]:
                 mensuales[nombre] = pd.concat(partes).sort_index()
             elif op == "porcentaje_pib":
                 mensuales[nombre] = transformar.porcentaje_pib(mensuales[c["a"]], mensuales[c["b"]])
+            elif op == "media_movil":  # promedio de los últimos n meses (p. ej. para sacar el aguinaldo)
+                x = mensuales[c["a"]].sort_index().asfreq("MS")
+                mensuales[nombre] = x.rolling(c.get("meses", 12), min_periods=c.get("meses", 12)).mean().dropna()
             elif op == "escala":
                 mensuales[nombre] = mensuales[c["a"]] * c["factor"]
             else:

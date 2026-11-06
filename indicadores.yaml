@@ -490,6 +490,14 @@ series:
   benef_desempleo:     {fuente: datosgobar, id: "189.1_PRESTACIONLEO_0_0_29"}
   monto_auh:           {fuente: datosgobar, id: "165.1_AAUH_0_0_3"}
   bcra_letras:         {fuente: datosgobar, id: "300.1_AP_PAS_LETNAC_0_M_33"}
+  eph_ocupados:        {fuente: datosgobar, id: "49.2_TAEO_0_0_30"}
+  eph_poblacion:       {fuente: datosgobar, id: "49.2_TAEP_0_0_37"}
+  ipi_alimentos:       {fuente: datosgobar, id: "453.2_ALIMENTOS_DAS_0_0_17_18"}
+  ipi_automotores:     {fuente: datosgobar, id: "453.2_VEHICULOS_TES_0_0_54_37"}
+  ipi_quimicos:        {fuente: datosgobar, id: "453.2_SUSTANCIASCOS_0_0_29_82"}
+  ipi_metales:         {fuente: datosgobar, id: "453.2_INDUSTRIASCAS_0_0_28_0"}
+  ipi_maquinaria:      {fuente: datosgobar, id: "453.2_MAQUINARIAIPO_0_0_17_14"}
+  ipi_textiles:        {fuente: datosgobar, id: "453.2_PRODUCTOS_LES_0_0_18_32"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

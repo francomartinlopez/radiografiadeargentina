@@ -223,6 +223,81 @@ calculos:
     b: base_monetaria
     factor: 100
 
+  informalidad_pct:
+    operacion: escala
+    a: informalidad
+    factor: 100
+  tasa_empleo_eph:
+    operacion: cociente
+    a: eph_ocupados
+    b: eph_poblacion
+    factor: 100
+  sueldo_en_alimentos:
+    operacion: media_movil
+    a: sueldo_en_alimentos_mensual
+    meses: 12
+  sueldo_en_alimentos_mensual:
+    operacion: cociente
+    a: remuneracion_sipa
+    b: ipc_alimentos
+  sueldo_en_luz_gas:
+    operacion: media_movil
+    a: sueldo_en_luz_gas_mensual
+    meses: 12
+  sueldo_en_luz_gas_mensual:
+    operacion: cociente
+    a: remuneracion_sipa
+    b: ipc_electricidad_gas
+  sueldo_en_transporte:
+    operacion: media_movil
+    a: sueldo_en_transporte_mensual
+    meses: 12
+  sueldo_en_transporte_mensual:
+    operacion: cociente
+    a: remuneracion_sipa
+    b: ipc_transporte_publico
+  sueldo_en_prepagas:
+    operacion: media_movil
+    a: sueldo_en_prepagas_mensual
+    meses: 12
+  sueldo_en_prepagas_mensual:
+    operacion: cociente
+    a: remuneracion_sipa
+    b: ipc_prepagas
+  sueldo_en_educacion:
+    operacion: media_movil
+    a: sueldo_en_educacion_mensual
+    meses: 12
+  sueldo_en_educacion_mensual:
+    operacion: cociente
+    a: remuneracion_sipa
+    b: ipc_educacion
+
+  ipi_alimentos_12m:
+    operacion: media_movil
+    a: ipi_alimentos
+    meses: 12
+  ipi_quimicos_12m:
+    operacion: media_movil
+    a: ipi_quimicos
+    meses: 12
+  ipi_metales_12m:
+    operacion: media_movil
+    a: ipi_metales
+    meses: 12
+  ipi_maquinaria_12m:
+    operacion: media_movil
+    a: ipi_maquinaria
+    meses: 12
+  ipi_automotores_12m:
+    operacion: media_movil
+    a: ipi_automotores
+    meses: 12
+  ipi_textiles_12m:
+    operacion: media_movil
+    a: ipi_textiles
+    meses: 12
+
 graficos:
   - id: inflacion_minorista
     tema: 2
@@ -1736,3 +1811,127 @@ graficos:
     fuentes:
       - {nombre: "BCRA (ver gráfico anterior)", nivel: primaria}
     metodo: "(Letras + pases) / base monetaria × 100. Empieza en julio de 2009, cuando arranca la serie de pases del balance publicada en datos.gob.ar; la caída de 2024 es el traspaso de esa deuda al Tesoro."
+
+  # ---------- Paso 4 (lote 2), tanda 3 ----------
+
+  - id: sueldo_en_servicios
+    tema: 3
+    titulo: "Qué compra el sueldo: alimentos, servicios, transporte, salud y educación"
+    que_muestra: "Remuneración promedio formal dividida por el precio de cada rubro del IPC, en base 100. Si sube, el sueldo alcanza para más de ese rubro."
+    original: {ficha: p67, imagen: 1195}
+    tipo: lineas
+    frecuencia: M
+    desde: "2017-11"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: base_100
+    medidas: [base_100, interanual]
+    series:
+      - {serie: sueldo_en_alimentos, nombre: "Alimentos y bebidas"}
+      - {serie: sueldo_en_luz_gas, nombre: "Electricidad, gas y combustibles del hogar"}
+      - {serie: sueldo_en_transporte, nombre: "Transporte público"}
+      - {serie: sueldo_en_prepagas, nombre: "Prepagas"}
+      - {serie: sueldo_en_educacion, nombre: "Educación"}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, remuneración promedio de asalariados registrados (SIPA)", url: "https://www.argentina.gob.ar/trabajo/estadisticas", nivel: primaria}
+      - {nombre: "INDEC, IPC por división y bienes y servicios seleccionados (dic-2016=100)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31", nivel: primaria, nota: "Transporte público y prepagas: GBA; el resto, nacional"}
+    metodo: "Cociente entre la remuneración promedio del SIPA y el índice de precios de cada rubro, promediado en 12 meses para que el aguinaldo de junio y diciembre no genere picos (por eso empieza en noviembre de 2017). No mide cuánto gasta un hogar (eso requiere tarifas y la encuesta de gastos), sino cómo cambia el poder de compra del sueldo frente a cada rubro. Reúne las fichas p67 a p72; los cocientes ingreso/gasto en pesos del original (con tarifas y consumos supuestos) quedan para el lote 6."
+
+  - id: empleo_informalidad
+    tema: 6
+    titulo: "Tasa de empleo e informalidad"
+    que_muestra: "Porcentaje de la población que trabaja, y porcentaje de los asalariados sin aportes jubilatorios (informales)."
+    original: {ficha: p160, imagen: 1078}
+    tipo: lineas
+    frecuencia: T
+    desde: "2003-01"
+    unidad: "%"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion, interanual]
+    series:
+      - {serie: tasa_empleo_eph, nombre: "Tasa de empleo (ocupados / población)"}
+      - {serie: informalidad_pct, nombre: "Asalariados sin descuento jubilatorio"}
+    fuentes:
+      - {nombre: "INDEC, Encuesta Permanente de Hogares (EPH continua), 31 aglomerados", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-31-58", nivel: primaria}
+    metodo: "Tasa de empleo: población ocupada sobre población total de los aglomerados. Informalidad: asalariados a los que no se les hacen aportes jubilatorios, sobre el total de asalariados. Los cuentapropistas informales no entran en este indicador. Reúne las fichas p160, p163, p166 y c1071 (desocupación y subocupación están en su propio gráfico)."
+
+  - id: construya_cemento
+    tema: 11
+    titulo: "Venta de materiales para la construcción"
+    que_muestra: "Índice Construya (ventas de las principales empresas de materiales) y despachos de cemento, en base 100."
+    original: {ficha: p111, imagen: 1102}
+    tipo: lineas
+    frecuencia: M
+    desde: "2017-01"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: base_100
+    medidas: [base_100, nivel, interanual]
+    series:
+      - {serie: construya_desest, nombre: "Índice Construya (desest.)"}
+      - {serie: cemento, nombre: "Despachos de cemento"}
+    fuentes:
+      - {nombre: "Grupo Construya, Índice Construya", url: "https://www.grupoconstruya.com.ar/indice-construya", nivel: secundaria, nota: "Cámara empresaria"}
+      - {nombre: "INDEC, IPI: cemento (Asociación de Fabricantes de Cemento Portland)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-6-18", nivel: primaria}
+    metodo: "El Construya mide volúmenes despachados por empresas líderes de materiales. El original lo pasaba a dólares constantes; como es un índice de cantidades, no tiene sentido convertirlo a dólares, y se muestra en base 100."
+
+  - id: inversion_extranjera
+    tema: 9
+    titulo: "Inversión extranjera directa"
+    que_muestra: "Ingresos netos de inversión extranjera directa en la Argentina, en dólares de hoy."
+    original: {ficha: p232, imagen: 1040}
+    tipo: barras
+    frecuencia: T
+    desde: "2006-01"
+    unidad: "millones de US$ de hoy"
+    tipo_valor: saldo
+    moneda: USD
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: bdp_ied, nombre: "Inversión extranjera directa"}
+    fuentes:
+      - {nombre: "INDEC, Balanza de pagos (MBP6): inversión directa, pasivos", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-35-45", nivel: primaria}
+      - {nombre: "BLS, CPI de EE.UU.", url: "https://fred.stlouisfed.org/series/CPIAUCSL", nivel: primaria, nota: "Deflactor de los dólares"}
+    metodo: "Flujo trimestral de inversión directa de no residentes (aportes, deuda con la casa matriz y utilidades reinvertidas). La apertura por sector del original (energía, minería) no se publica trimestralmente y queda para el lote 3."
+
+  - id: hoteles_restaurantes
+    tema: 11
+    titulo: "Actividad de hoteles y restaurantes"
+    que_muestra: "Nivel de actividad del sector hoteles y restaurantes según el EMAE."
+    original: {ficha: p308, imagen: 1299}
+    tipo: lineas
+    frecuencia: M
+    desde: "2004-01"
+    unidad: "índice 2004=100"
+    tipo_valor: indice
+    medida_inicial: nivel
+    series:
+      - {serie: emae_hoteles, nombre: "Hoteles y restaurantes"}
+    fuentes:
+      - {nombre: "INDEC, EMAE por sector", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48", nivel: primaria}
+    metodo: "Índice sectorial del EMAE (serie original, con estacionalidad). Reúne las fichas p307 y p308: las ventas en pesos de bares, comidas y bebidas del original combinaban datos del INDEC con consultoras sin detallar; acá se usa el indicador oficial de actividad del sector."
+
+  - id: industria_por_sector
+    tema: 1
+    titulo: "Producción industrial por sector"
+    que_muestra: "Índice de producción de las principales ramas de la industria manufacturera, en base 100."
+    original: {ficha: p6, imagen: 1066}
+    tipo: lineas
+    frecuencia: M
+    desde: "2016-12"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: base_100
+    medidas: [base_100, nivel, interanual]
+    series:
+      - {serie: ipi_alimentos_12m, nombre: "Alimentos y bebidas"}
+      - {serie: ipi_quimicos_12m, nombre: "Químicos"}
+      - {serie: ipi_metales_12m, nombre: "Metales básicos"}
+      - {serie: ipi_maquinaria_12m, nombre: "Maquinaria y equipo"}
+      - {serie: ipi_automotores_12m, nombre: "Automotores"}
+      - {serie: ipi_textiles_12m, nombre: "Textiles"}
+    fuentes:
+      - {nombre: "INDEC, Índice de Producción Industrial manufacturero (IPI) por división", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-6-18", nivel: primaria}
+    metodo: "Índices mensuales del IPI base 2016, promediados en 12 meses para sacar la estacionalidad (el INDEC no publica las ramas desestacionalizadas) y llevados a base 100 al inicio del período elegido. Los índices por rama anteriores a 2016 (EMI) tienen otra cobertura y no se empalman acá."

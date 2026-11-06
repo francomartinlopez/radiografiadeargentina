@@ -1,0 +1,703 @@
+serie,fecha,valor,tramo
+Alimentos y bebidas,2016-12-01,139.500238,observado
+Alimentos y bebidas,2017-01-01,139.562567,observado
+Alimentos y bebidas,2017-02-01,138.690225,observado
+Alimentos y bebidas,2017-03-01,138.89366,observado
+Alimentos y bebidas,2017-04-01,138.551829,observado
+Alimentos y bebidas,2017-05-01,139.025553,observado
+Alimentos y bebidas,2017-06-01,139.465718,observado
+Alimentos y bebidas,2017-07-01,140.009093,observado
+Alimentos y bebidas,2017-08-01,140.151363,observado
+Alimentos y bebidas,2017-09-01,139.901111,observado
+Alimentos y bebidas,2017-10-01,140.051716,observado
+Alimentos y bebidas,2017-11-01,140.054497,observado
+Alimentos y bebidas,2017-12-01,139.163708,observado
+Alimentos y bebidas,2018-01-01,139.240939,observado
+Alimentos y bebidas,2018-02-01,139.496276,observado
+Alimentos y bebidas,2018-03-01,139.392496,observado
+Alimentos y bebidas,2018-04-01,139.810018,observado
+Alimentos y bebidas,2018-05-01,139.738999,observado
+Alimentos y bebidas,2018-06-01,139.145447,observado
+Alimentos y bebidas,2018-07-01,139.077242,observado
+Alimentos y bebidas,2018-08-01,138.826039,observado
+Alimentos y bebidas,2018-09-01,138.083183,observado
+Alimentos y bebidas,2018-10-01,138.264649,observado
+Alimentos y bebidas,2018-11-01,137.474069,observado
+Alimentos y bebidas,2018-12-01,137.210977,observado
+Alimentos y bebidas,2019-01-01,136.939921,observado
+Alimentos y bebidas,2019-02-01,136.90386,observado
+Alimentos y bebidas,2019-03-01,135.887249,observado
+Alimentos y bebidas,2019-04-01,135.719081,observado
+Alimentos y bebidas,2019-05-01,135.578408,observado
+Alimentos y bebidas,2019-06-01,135.698677,observado
+Alimentos y bebidas,2019-07-01,136.230842,observado
+Alimentos y bebidas,2019-08-01,136.308608,observado
+Alimentos y bebidas,2019-09-01,136.418918,observado
+Alimentos y bebidas,2019-10-01,136.482011,observado
+Alimentos y bebidas,2019-11-01,136.304619,observado
+Alimentos y bebidas,2019-12-01,137.078005,observado
+Alimentos y bebidas,2020-01-01,137.58187,observado
+Alimentos y bebidas,2020-02-01,138.179166,observado
+Alimentos y bebidas,2020-03-01,138.013412,observado
+Alimentos y bebidas,2020-04-01,137.958804,observado
+Alimentos y bebidas,2020-05-01,137.380947,observado
+Alimentos y bebidas,2020-06-01,137.968826,observado
+Alimentos y bebidas,2020-07-01,137.893827,observado
+Alimentos y bebidas,2020-08-01,137.305608,observado
+Alimentos y bebidas,2020-09-01,138.055337,observado
+Alimentos y bebidas,2020-10-01,137.774936,observado
+Alimentos y bebidas,2020-11-01,138.290625,observado
+Alimentos y bebidas,2020-12-01,137.720583,observado
+Alimentos y bebidas,2021-01-01,137.923062,observado
+Alimentos y bebidas,2021-02-01,138.043872,observado
+Alimentos y bebidas,2021-03-01,139.865858,observado
+Alimentos y bebidas,2021-04-01,140.678721,observado
+Alimentos y bebidas,2021-05-01,141.114988,observado
+Alimentos y bebidas,2021-06-01,141.844107,observado
+Alimentos y bebidas,2021-07-01,142.167519,observado
+Alimentos y bebidas,2021-08-01,143.10879,observado
+Alimentos y bebidas,2021-09-01,143.73878,observado
+Alimentos y bebidas,2021-10-01,143.6742,observado
+Alimentos y bebidas,2021-11-01,144.54815,observado
+Alimentos y bebidas,2021-12-01,145.909653,observado
+Alimentos y bebidas,2022-01-01,145.41119,observado
+Alimentos y bebidas,2022-02-01,145.92046,observado
+Alimentos y bebidas,2022-03-01,146.211916,observado
+Alimentos y bebidas,2022-04-01,146.644689,observado
+Alimentos y bebidas,2022-05-01,147.740857,observado
+Alimentos y bebidas,2022-06-01,148.179752,observado
+Alimentos y bebidas,2022-07-01,148.566668,observado
+Alimentos y bebidas,2022-08-01,149.302689,observado
+Alimentos y bebidas,2022-09-01,149.712363,observado
+Alimentos y bebidas,2022-10-01,150.046223,observado
+Alimentos y bebidas,2022-11-01,150.137409,observado
+Alimentos y bebidas,2022-12-01,149.968718,observado
+Alimentos y bebidas,2023-01-01,150.958871,observado
+Alimentos y bebidas,2023-02-01,150.262695,observado
+Alimentos y bebidas,2023-03-01,150.263215,observado
+Alimentos y bebidas,2023-04-01,150.109201,observado
+Alimentos y bebidas,2023-05-01,150.124444,observado
+Alimentos y bebidas,2023-06-01,149.596619,observado
+Alimentos y bebidas,2023-07-01,148.825908,observado
+Alimentos y bebidas,2023-08-01,147.875829,observado
+Alimentos y bebidas,2023-09-01,146.616544,observado
+Alimentos y bebidas,2023-10-01,146.374409,observado
+Alimentos y bebidas,2023-11-01,145.514409,observado
+Alimentos y bebidas,2023-12-01,144.607307,observado
+Alimentos y bebidas,2024-01-01,143.881972,observado
+Alimentos y bebidas,2024-02-01,143.750453,observado
+Alimentos y bebidas,2024-03-01,141.929186,observado
+Alimentos y bebidas,2024-04-01,140.875304,observado
+Alimentos y bebidas,2024-05-01,140.025605,observado
+Alimentos y bebidas,2024-06-01,139.037614,observado
+Alimentos y bebidas,2024-07-01,139.812366,observado
+Alimentos y bebidas,2024-08-01,140.021816,observado
+Alimentos y bebidas,2024-09-01,140.842262,observado
+Alimentos y bebidas,2024-10-01,141.743593,observado
+Alimentos y bebidas,2024-11-01,142.757407,observado
+Alimentos y bebidas,2024-12-01,143.690954,observado
+Alimentos y bebidas,2025-01-01,144.536767,observado
+Alimentos y bebidas,2025-02-01,145.712235,observado
+Alimentos y bebidas,2025-03-01,146.441422,observado
+Alimentos y bebidas,2025-04-01,147.355917,observado
+Alimentos y bebidas,2025-05-01,147.713726,observado
+Alimentos y bebidas,2025-06-01,148.199755,observado
+Alimentos y bebidas,2025-07-01,147.855702,observado
+Alimentos y bebidas,2025-08-01,147.576595,observado
+Alimentos y bebidas,2025-09-01,147.743427,observado
+Alimentos y bebidas,2025-10-01,147.591951,observado
+Alimentos y bebidas,2025-11-01,146.582907,observado
+Alimentos y bebidas,2025-12-01,146.687363,observado
+Alimentos y bebidas,2026-01-01,146.542837,observado
+Alimentos y bebidas,2026-02-01,145.674738,observado
+Alimentos y bebidas,2026-03-01,146.623438,observado
+Alimentos y bebidas,2026-04-01,146.366555,observado
+Alimentos y bebidas,2026-05-01,145.992816,observado
+Alimentos y bebidas,2026-06-01,146.745288,observado
+Alimentos y bebidas,2026-07-01,146.686717,observado
+Alimentos y bebidas,2026-08-01,146.657633,observado
+Químicos,2016-12-01,144.039995,observado
+Químicos,2017-01-01,144.254325,observado
+Químicos,2017-02-01,143.752419,observado
+Químicos,2017-03-01,143.552704,observado
+Químicos,2017-04-01,143.381605,observado
+Químicos,2017-05-01,143.685769,observado
+Químicos,2017-06-01,144.698418,observado
+Químicos,2017-07-01,144.361705,observado
+Químicos,2017-08-01,144.140038,observado
+Químicos,2017-09-01,143.483579,observado
+Químicos,2017-10-01,143.894619,observado
+Químicos,2017-11-01,143.697836,observado
+Químicos,2017-12-01,144.189154,observado
+Químicos,2018-01-01,144.457737,observado
+Químicos,2018-02-01,144.071586,observado
+Químicos,2018-03-01,143.767954,observado
+Químicos,2018-04-01,143.226411,observado
+Químicos,2018-05-01,142.55927,observado
+Químicos,2018-06-01,141.358692,observado
+Químicos,2018-07-01,140.216714,observado
+Químicos,2018-08-01,139.193747,observado
+Químicos,2018-09-01,138.631518,observado
+Químicos,2018-10-01,137.599715,observado
+Químicos,2018-11-01,136.880001,observado
+Químicos,2018-12-01,135.603389,observado
+Químicos,2019-01-01,134.700394,observado
+Químicos,2019-02-01,134.510144,observado
+Químicos,2019-03-01,133.745761,observado
+Químicos,2019-04-01,133.561711,observado
+Químicos,2019-05-01,133.274687,observado
+Químicos,2019-06-01,132.101053,observado
+Químicos,2019-07-01,131.582784,observado
+Químicos,2019-08-01,131.093828,observado
+Químicos,2019-09-01,129.666391,observado
+Químicos,2019-10-01,129.515866,observado
+Químicos,2019-11-01,129.098419,observado
+Químicos,2019-12-01,128.959945,observado
+Químicos,2020-01-01,129.053317,observado
+Químicos,2020-02-01,129.314625,observado
+Químicos,2020-03-01,129.022616,observado
+Químicos,2020-04-01,127.768929,observado
+Químicos,2020-05-01,126.571812,observado
+Químicos,2020-06-01,127.369562,observado
+Químicos,2020-07-01,128.772227,observado
+Químicos,2020-08-01,129.930863,observado
+Químicos,2020-09-01,131.592701,observado
+Químicos,2020-10-01,131.510076,observado
+Químicos,2020-11-01,131.858826,observado
+Químicos,2020-12-01,132.660839,observado
+Químicos,2021-01-01,132.515189,observado
+Químicos,2021-02-01,132.163308,observado
+Químicos,2021-03-01,133.59293,observado
+Químicos,2021-04-01,135.383568,observado
+Químicos,2021-05-01,136.899617,observado
+Químicos,2021-06-01,138.232447,observado
+Químicos,2021-07-01,139.069434,observado
+Químicos,2021-08-01,139.767294,observado
+Químicos,2021-09-01,140.183905,observado
+Químicos,2021-10-01,140.584919,observado
+Químicos,2021-11-01,141.778205,observado
+Químicos,2021-12-01,142.521486,observado
+Químicos,2022-01-01,143.286887,observado
+Químicos,2022-02-01,144.459621,observado
+Químicos,2022-03-01,145.01126,observado
+Químicos,2022-04-01,145.22006,observado
+Químicos,2022-05-01,145.800622,observado
+Químicos,2022-06-01,146.21446,observado
+Químicos,2022-07-01,146.383417,observado
+Químicos,2022-08-01,147.158298,observado
+Químicos,2022-09-01,147.411146,observado
+Químicos,2022-10-01,147.95587,observado
+Químicos,2022-11-01,147.848569,observado
+Químicos,2022-12-01,147.216978,observado
+Químicos,2023-01-01,146.650053,observado
+Químicos,2023-02-01,145.876515,observado
+Químicos,2023-03-01,145.350992,observado
+Químicos,2023-04-01,145.150071,observado
+Químicos,2023-05-01,145.308282,observado
+Químicos,2023-06-01,145.233728,observado
+Químicos,2023-07-01,145.248946,observado
+Químicos,2023-08-01,144.675912,observado
+Químicos,2023-09-01,144.998934,observado
+Químicos,2023-10-01,144.701258,observado
+Químicos,2023-11-01,143.926754,observado
+Químicos,2023-12-01,142.902949,observado
+Químicos,2024-01-01,141.537906,observado
+Químicos,2024-02-01,141.472462,observado
+Químicos,2024-03-01,140.84678,observado
+Químicos,2024-04-01,139.633451,observado
+Químicos,2024-05-01,138.520416,observado
+Químicos,2024-06-01,136.927302,observado
+Químicos,2024-07-01,136.509766,observado
+Químicos,2024-08-01,136.007083,observado
+Químicos,2024-09-01,134.787443,observado
+Químicos,2024-10-01,134.410359,observado
+Químicos,2024-11-01,134.038661,observado
+Químicos,2024-12-01,134.820367,observado
+Químicos,2025-01-01,135.880923,observado
+Químicos,2025-02-01,135.682092,observado
+Químicos,2025-03-01,134.560445,observado
+Químicos,2025-04-01,134.591861,observado
+Químicos,2025-05-01,135.06008,observado
+Químicos,2025-06-01,135.44523,observado
+Químicos,2025-07-01,135.300972,observado
+Químicos,2025-08-01,135.184915,observado
+Químicos,2025-09-01,135.412129,observado
+Químicos,2025-10-01,135.326485,observado
+Químicos,2025-11-01,134.895678,observado
+Químicos,2025-12-01,134.947284,observado
+Químicos,2026-01-01,135.675267,observado
+Químicos,2026-02-01,135.874484,observado
+Químicos,2026-03-01,137.451546,observado
+Químicos,2026-04-01,139.181484,observado
+Químicos,2026-05-01,138.736832,observado
+Químicos,2026-06-01,139.901197,observado
+Químicos,2026-07-01,139.631765,observado
+Químicos,2026-08-01,140.102032,observado
+Metales básicos,2016-12-01,94.237708,observado
+Metales básicos,2017-01-01,93.764472,observado
+Metales básicos,2017-02-01,93.748122,observado
+Metales básicos,2017-03-01,94.015526,observado
+Metales básicos,2017-04-01,94.247007,observado
+Metales básicos,2017-05-01,94.923331,observado
+Metales básicos,2017-06-01,96.112785,observado
+Metales básicos,2017-07-01,97.922302,observado
+Metales básicos,2017-08-01,101.067263,observado
+Metales básicos,2017-09-01,102.634467,observado
+Metales básicos,2017-10-01,102.3459,observado
+Metales básicos,2017-11-01,103.348647,observado
+Metales básicos,2017-12-01,104.832087,observado
+Metales básicos,2018-01-01,106.196086,observado
+Metales básicos,2018-02-01,108.350883,observado
+Metales básicos,2018-03-01,109.617413,observado
+Metales básicos,2018-04-01,110.388885,observado
+Metales básicos,2018-05-01,110.29725,observado
+Metales básicos,2018-06-01,110.108937,observado
+Metales básicos,2018-07-01,109.679177,observado
+Metales básicos,2018-08-01,110.116989,observado
+Metales básicos,2018-09-01,109.622169,observado
+Metales básicos,2018-10-01,110.747968,observado
+Metales básicos,2018-11-01,109.89465,observado
+Metales básicos,2018-12-01,107.925999,observado
+Metales básicos,2019-01-01,106.588008,observado
+Metales básicos,2019-02-01,103.586033,observado
+Metales básicos,2019-03-01,102.060474,observado
+Metales básicos,2019-04-01,101.619718,observado
+Metales básicos,2019-05-01,101.920426,observado
+Metales básicos,2019-06-01,101.508468,observado
+Metales básicos,2019-07-01,101.092972,observado
+Metales básicos,2019-08-01,100.177715,observado
+Metales básicos,2019-09-01,99.397819,observado
+Metales básicos,2019-10-01,99.68068,observado
+Metales básicos,2019-11-01,99.193395,observado
+Metales básicos,2019-12-01,99.26455,observado
+Metales básicos,2020-01-01,98.96658,observado
+Metales básicos,2020-02-01,99.605626,observado
+Metales básicos,2020-03-01,97.202693,observado
+Metales básicos,2020-04-01,91.306682,observado
+Metales básicos,2020-05-01,86.154428,observado
+Metales básicos,2020-06-01,82.981626,observado
+Metales básicos,2020-07-01,80.307727,observado
+Metales básicos,2020-08-01,78.015401,observado
+Metales básicos,2020-09-01,76.677485,observado
+Metales básicos,2020-10-01,75.637047,observado
+Metales básicos,2020-11-01,75.74904,observado
+Metales básicos,2020-12-01,76.47505,observado
+Metales básicos,2021-01-01,77.587855,observado
+Metales básicos,2021-02-01,78.717016,observado
+Metales básicos,2021-03-01,81.292131,observado
+Metales básicos,2021-04-01,86.502886,observado
+Metales básicos,2021-05-01,90.165806,observado
+Metales básicos,2021-06-01,93.388194,observado
+Metales básicos,2021-07-01,95.931499,observado
+Metales básicos,2021-08-01,97.912802,observado
+Metales básicos,2021-09-01,99.388298,observado
+Metales básicos,2021-10-01,99.835935,observado
+Metales básicos,2021-11-01,100.165737,observado
+Metales básicos,2021-12-01,100.674357,observado
+Metales básicos,2022-01-01,100.327468,observado
+Metales básicos,2022-02-01,100.436301,observado
+Metales básicos,2022-03-01,100.504804,observado
+Metales básicos,2022-04-01,98.80256,observado
+Metales básicos,2022-05-01,99.288923,observado
+Metales básicos,2022-06-01,99.990617,observado
+Metales básicos,2022-07-01,100.312339,observado
+Metales básicos,2022-08-01,100.983825,observado
+Metales básicos,2022-09-01,101.501786,observado
+Metales básicos,2022-10-01,102.048185,observado
+Metales básicos,2022-11-01,102.470248,observado
+Metales básicos,2022-12-01,102.616463,observado
+Metales básicos,2023-01-01,103.438746,observado
+Metales básicos,2023-02-01,103.52345,observado
+Metales básicos,2023-03-01,104.225184,observado
+Metales básicos,2023-04-01,106.665188,observado
+Metales básicos,2023-05-01,107.487297,observado
+Metales básicos,2023-06-01,107.729041,observado
+Metales básicos,2023-07-01,106.831634,observado
+Metales básicos,2023-08-01,106.272768,observado
+Metales básicos,2023-09-01,106.167479,observado
+Metales básicos,2023-10-01,105.975458,observado
+Metales básicos,2023-11-01,105.353035,observado
+Metales básicos,2023-12-01,103.128214,observado
+Metales básicos,2024-01-01,101.519643,observado
+Metales básicos,2024-02-01,99.715799,observado
+Metales básicos,2024-03-01,96.501833,observado
+Metales básicos,2024-04-01,94.750497,observado
+Metales básicos,2024-05-01,92.433112,observado
+Metales básicos,2024-06-01,89.521105,observado
+Metales básicos,2024-07-01,88.706393,observado
+Metales básicos,2024-08-01,87.761436,observado
+Metales básicos,2024-09-01,86.496274,observado
+Metales básicos,2024-10-01,85.468151,observado
+Metales básicos,2024-11-01,84.924596,observado
+Metales básicos,2024-12-01,85.107073,observado
+Metales básicos,2025-01-01,84.965545,observado
+Metales básicos,2025-02-01,84.317221,observado
+Metales básicos,2025-03-01,85.606081,observado
+Metales básicos,2025-04-01,86.121557,observado
+Metales básicos,2025-05-01,87.203198,observado
+Metales básicos,2025-06-01,87.642572,observado
+Metales básicos,2025-07-01,87.488448,observado
+Metales básicos,2025-08-01,87.141552,observado
+Metales básicos,2025-09-01,87.076623,observado
+Metales básicos,2025-10-01,87.136155,observado
+Metales básicos,2025-11-01,86.862993,observado
+Metales básicos,2025-12-01,87.321235,observado
+Metales básicos,2026-01-01,87.317207,observado
+Metales básicos,2026-02-01,86.677388,observado
+Metales básicos,2026-03-01,85.978414,observado
+Metales básicos,2026-04-01,85.143761,observado
+Metales básicos,2026-05-01,84.835333,observado
+Metales básicos,2026-06-01,85.656654,observado
+Metales básicos,2026-07-01,85.782712,observado
+Metales básicos,2026-08-01,86.0312,observado
+Maquinaria y equipo,2016-12-01,146.736341,observado
+Maquinaria y equipo,2017-01-01,146.599399,observado
+Maquinaria y equipo,2017-02-01,146.198817,observado
+Maquinaria y equipo,2017-03-01,146.045715,observado
+Maquinaria y equipo,2017-04-01,148.366063,observado
+Maquinaria y equipo,2017-05-01,149.779091,observado
+Maquinaria y equipo,2017-06-01,152.077932,observado
+Maquinaria y equipo,2017-07-01,154.735008,observado
+Maquinaria y equipo,2017-08-01,157.465418,observado
+Maquinaria y equipo,2017-09-01,159.347244,observado
+Maquinaria y equipo,2017-10-01,163.17594,observado
+Maquinaria y equipo,2017-11-01,165.498217,observado
+Maquinaria y equipo,2017-12-01,165.431853,observado
+Maquinaria y equipo,2018-01-01,165.750787,observado
+Maquinaria y equipo,2018-02-01,167.04653,observado
+Maquinaria y equipo,2018-03-01,167.730418,observado
+Maquinaria y equipo,2018-04-01,166.852805,observado
+Maquinaria y equipo,2018-05-01,165.297946,observado
+Maquinaria y equipo,2018-06-01,162.04251,observado
+Maquinaria y equipo,2018-07-01,158.670279,observado
+Maquinaria y equipo,2018-08-01,155.977634,observado
+Maquinaria y equipo,2018-09-01,151.434211,observado
+Maquinaria y equipo,2018-10-01,144.926053,observado
+Maquinaria y equipo,2018-11-01,138.774385,observado
+Maquinaria y equipo,2018-12-01,135.156926,observado
+Maquinaria y equipo,2019-01-01,130.643246,observado
+Maquinaria y equipo,2019-02-01,126.962024,observado
+Maquinaria y equipo,2019-03-01,123.357194,observado
+Maquinaria y equipo,2019-04-01,120.367527,observado
+Maquinaria y equipo,2019-05-01,118.493802,observado
+Maquinaria y equipo,2019-06-01,117.406598,observado
+Maquinaria y equipo,2019-07-01,117.523882,observado
+Maquinaria y equipo,2019-08-01,115.750902,observado
+Maquinaria y equipo,2019-09-01,114.809184,observado
+Maquinaria y equipo,2019-10-01,114.956586,observado
+Maquinaria y equipo,2019-11-01,114.737499,observado
+Maquinaria y equipo,2019-12-01,115.568333,observado
+Maquinaria y equipo,2020-01-01,117.251685,observado
+Maquinaria y equipo,2020-02-01,118.077299,observado
+Maquinaria y equipo,2020-03-01,115.758803,observado
+Maquinaria y equipo,2020-04-01,111.354465,observado
+Maquinaria y equipo,2020-05-01,108.839323,observado
+Maquinaria y equipo,2020-06-01,108.615137,observado
+Maquinaria y equipo,2020-07-01,108.328883,observado
+Maquinaria y equipo,2020-08-01,108.867813,observado
+Maquinaria y equipo,2020-09-01,111.033267,observado
+Maquinaria y equipo,2020-10-01,113.886134,observado
+Maquinaria y equipo,2020-11-01,116.643294,observado
+Maquinaria y equipo,2020-12-01,120.057544,observado
+Maquinaria y equipo,2021-01-01,121.904585,observado
+Maquinaria y equipo,2021-02-01,123.263934,observado
+Maquinaria y equipo,2021-03-01,130.118531,observado
+Maquinaria y equipo,2021-04-01,138.740522,observado
+Maquinaria y equipo,2021-05-01,144.345031,observado
+Maquinaria y equipo,2021-06-01,148.123834,observado
+Maquinaria y equipo,2021-07-01,151.350372,observado
+Maquinaria y equipo,2021-08-01,155.03744,observado
+Maquinaria y equipo,2021-09-01,159.231788,observado
+Maquinaria y equipo,2021-10-01,160.224015,observado
+Maquinaria y equipo,2021-11-01,162.440823,observado
+Maquinaria y equipo,2021-12-01,164.295505,observado
+Maquinaria y equipo,2022-01-01,165.572049,observado
+Maquinaria y equipo,2022-02-01,168.390402,observado
+Maquinaria y equipo,2022-03-01,169.535175,observado
+Maquinaria y equipo,2022-04-01,172.840182,observado
+Maquinaria y equipo,2022-05-01,175.199957,observado
+Maquinaria y equipo,2022-06-01,178.226047,observado
+Maquinaria y equipo,2022-07-01,181.390969,observado
+Maquinaria y equipo,2022-08-01,183.46449,observado
+Maquinaria y equipo,2022-09-01,184.552165,observado
+Maquinaria y equipo,2022-10-01,184.328805,observado
+Maquinaria y equipo,2022-11-01,183.624968,observado
+Maquinaria y equipo,2022-12-01,183.955023,observado
+Maquinaria y equipo,2023-01-01,184.685944,observado
+Maquinaria y equipo,2023-02-01,184.486564,observado
+Maquinaria y equipo,2023-03-01,185.637122,observado
+Maquinaria y equipo,2023-04-01,185.224095,observado
+Maquinaria y equipo,2023-05-01,184.863094,observado
+Maquinaria y equipo,2023-06-01,183.962995,observado
+Maquinaria y equipo,2023-07-01,181.78697,observado
+Maquinaria y equipo,2023-08-01,181.35945,observado
+Maquinaria y equipo,2023-09-01,179.700545,observado
+Maquinaria y equipo,2023-10-01,180.368021,observado
+Maquinaria y equipo,2023-11-01,179.287066,observado
+Maquinaria y equipo,2023-12-01,173.483371,observado
+Maquinaria y equipo,2024-01-01,169.704135,observado
+Maquinaria y equipo,2024-02-01,165.276539,observado
+Maquinaria y equipo,2024-03-01,158.796953,observado
+Maquinaria y equipo,2024-04-01,153.809541,observado
+Maquinaria y equipo,2024-05-01,150.347683,observado
+Maquinaria y equipo,2024-06-01,145.090043,observado
+Maquinaria y equipo,2024-07-01,143.799409,observado
+Maquinaria y equipo,2024-08-01,140.662988,observado
+Maquinaria y equipo,2024-09-01,138.145617,observado
+Maquinaria y equipo,2024-10-01,136.922902,observado
+Maquinaria y equipo,2024-11-01,137.911752,observado
+Maquinaria y equipo,2024-12-01,141.238518,observado
+Maquinaria y equipo,2025-01-01,143.172821,observado
+Maquinaria y equipo,2025-02-01,146.085868,observado
+Maquinaria y equipo,2025-03-01,148.399336,observado
+Maquinaria y equipo,2025-04-01,150.918763,observado
+Maquinaria y equipo,2025-05-01,152.135534,observado
+Maquinaria y equipo,2025-06-01,153.996517,observado
+Maquinaria y equipo,2025-07-01,153.519267,observado
+Maquinaria y equipo,2025-08-01,152.423277,observado
+Maquinaria y equipo,2025-09-01,153.165406,observado
+Maquinaria y equipo,2025-10-01,152.876338,observado
+Maquinaria y equipo,2025-11-01,150.343084,observado
+Maquinaria y equipo,2025-12-01,148.385095,observado
+Maquinaria y equipo,2026-01-01,146.583811,observado
+Maquinaria y equipo,2026-02-01,143.302105,observado
+Maquinaria y equipo,2026-03-01,141.941811,observado
+Maquinaria y equipo,2026-04-01,139.391458,observado
+Maquinaria y equipo,2026-05-01,136.345015,observado
+Maquinaria y equipo,2026-06-01,134.118274,observado
+Maquinaria y equipo,2026-07-01,130.726367,observado
+Maquinaria y equipo,2026-08-01,127.780604,observado
+Automotores,2016-12-01,132.394334,observado
+Automotores,2017-01-01,134.84949,observado
+Automotores,2017-02-01,134.019664,observado
+Automotores,2017-03-01,134.185745,observado
+Automotores,2017-04-01,133.697941,observado
+Automotores,2017-05-01,135.445934,observado
+Automotores,2017-06-01,137.567512,observado
+Automotores,2017-07-01,138.344405,observado
+Automotores,2017-08-01,139.691239,observado
+Automotores,2017-09-01,141.625428,observado
+Automotores,2017-10-01,143.711721,observado
+Automotores,2017-11-01,143.776149,observado
+Automotores,2017-12-01,143.633279,observado
+Automotores,2018-01-01,143.07143,observado
+Automotores,2018-02-01,146.294259,observado
+Automotores,2018-03-01,148.209341,observado
+Automotores,2018-04-01,150.64811,observado
+Automotores,2018-05-01,151.757415,observado
+Automotores,2018-06-01,150.966546,observado
+Automotores,2018-07-01,152.137227,observado
+Automotores,2018-08-01,153.736968,observado
+Automotores,2018-09-01,151.730065,observado
+Automotores,2018-10-01,151.573449,observado
+Automotores,2018-11-01,150.466089,observado
+Automotores,2018-12-01,147.608567,observado
+Automotores,2019-01-01,146.270735,observado
+Automotores,2019-02-01,144.974891,observado
+Automotores,2019-03-01,140.51583,observado
+Automotores,2019-04-01,137.437253,observado
+Automotores,2019-05-01,134.257379,observado
+Automotores,2019-06-01,130.680595,observado
+Automotores,2019-07-01,127.341687,observado
+Automotores,2019-08-01,123.154995,observado
+Automotores,2019-09-01,121.277107,observado
+Automotores,2019-10-01,119.093972,observado
+Automotores,2019-11-01,116.105604,observado
+Automotores,2019-12-01,114.755563,observado
+Automotores,2020-01-01,115.279666,observado
+Automotores,2020-02-01,113.793367,observado
+Automotores,2020-03-01,110.214516,observado
+Automotores,2020-04-01,100.867846,observado
+Automotores,2020-05-01,92.729013,observado
+Automotores,2020-06-01,89.910144,observado
+Automotores,2020-07-01,87.998954,observado
+Automotores,2020-08-01,86.128445,observado
+Automotores,2020-09-01,87.062935,observado
+Automotores,2020-10-01,86.072754,observado
+Automotores,2020-11-01,87.521376,observado
+Automotores,2020-12-01,90.317168,observado
+Automotores,2021-01-01,91.333537,observado
+Automotores,2021-02-01,90.697575,observado
+Automotores,2021-03-01,97.169678,observado
+Automotores,2021-04-01,106.283273,observado
+Automotores,2021-05-01,114.220762,observado
+Automotores,2021-06-01,120.473906,observado
+Automotores,2021-07-01,123.932212,observado
+Automotores,2021-08-01,127.041161,observado
+Automotores,2021-09-01,129.022728,observado
+Automotores,2021-10-01,130.859462,observado
+Automotores,2021-11-01,133.383958,observado
+Automotores,2021-12-01,135.222792,observado
+Automotores,2022-01-01,133.836526,observado
+Automotores,2022-02-01,136.332151,observado
+Automotores,2022-03-01,136.652659,observado
+Automotores,2022-04-01,139.255817,observado
+Automotores,2022-05-01,141.774654,observado
+Automotores,2022-06-01,143.146324,observado
+Automotores,2022-07-01,145.490883,observado
+Automotores,2022-08-01,148.432329,observado
+Automotores,2022-09-01,150.219842,observado
+Automotores,2022-10-01,152.009827,observado
+Automotores,2022-11-01,152.994454,observado
+Automotores,2022-12-01,152.141448,observado
+Automotores,2023-01-01,153.511704,observado
+Automotores,2023-02-01,154.469253,observado
+Automotores,2023-03-01,156.803699,observado
+Automotores,2023-04-01,157.390848,observado
+Automotores,2023-05-01,158.040341,observado
+Automotores,2023-06-01,158.246835,observado
+Automotores,2023-07-01,157.878644,observado
+Automotores,2023-08-01,158.467531,observado
+Automotores,2023-09-01,158.560873,observado
+Automotores,2023-10-01,158.030362,observado
+Automotores,2023-11-01,157.864361,observado
+Automotores,2023-12-01,157.54126,observado
+Automotores,2024-01-01,156.632146,observado
+Automotores,2024-02-01,155.139987,observado
+Automotores,2024-03-01,151.128499,observado
+Automotores,2024-04-01,149.28788,observado
+Automotores,2024-05-01,146.474806,observado
+Automotores,2024-06-01,141.942953,observado
+Automotores,2024-07-01,141.185263,observado
+Automotores,2024-08-01,139.209344,observado
+Automotores,2024-09-01,138.123231,observado
+Automotores,2024-10-01,138.732956,observado
+Automotores,2024-11-01,138.619105,observado
+Automotores,2024-12-01,139.61775,observado
+Automotores,2025-01-01,141.086277,observado
+Automotores,2025-02-01,142.599816,observado
+Automotores,2025-03-01,142.567524,observado
+Automotores,2025-04-01,143.463322,observado
+Automotores,2025-05-01,145.792832,observado
+Automotores,2025-06-01,148.488321,observado
+Automotores,2025-07-01,147.462417,observado
+Automotores,2025-08-01,146.540223,observado
+Automotores,2025-09-01,146.267865,observado
+Automotores,2025-10-01,145.57462,observado
+Automotores,2025-11-01,142.30093,observado
+Automotores,2025-12-01,139.885771,observado
+Automotores,2026-01-01,137.883855,observado
+Automotores,2026-02-01,134.965253,observado
+Automotores,2026-03-01,135.78118,observado
+Automotores,2026-04-01,134.482068,observado
+Automotores,2026-05-01,132.306262,observado
+Automotores,2026-06-01,131.873665,observado
+Automotores,2026-07-01,131.405975,observado
+Automotores,2026-08-01,130.283398,observado
+Textiles,2016-12-01,109.004555,observado
+Textiles,2017-01-01,108.060301,observado
+Textiles,2017-02-01,106.735,observado
+Textiles,2017-03-01,105.203338,observado
+Textiles,2017-04-01,103.199129,observado
+Textiles,2017-05-01,102.030141,observado
+Textiles,2017-06-01,101.612045,observado
+Textiles,2017-07-01,101.281932,observado
+Textiles,2017-08-01,100.91025,observado
+Textiles,2017-09-01,100.855773,observado
+Textiles,2017-10-01,101.750316,observado
+Textiles,2017-11-01,102.141877,observado
+Textiles,2017-12-01,103.215325,observado
+Textiles,2018-01-01,103.512624,observado
+Textiles,2018-02-01,102.830356,observado
+Textiles,2018-03-01,102.89464,observado
+Textiles,2018-04-01,103.765102,observado
+Textiles,2018-05-01,103.557984,observado
+Textiles,2018-06-01,103.168733,observado
+Textiles,2018-07-01,102.760909,observado
+Textiles,2018-08-01,101.564628,observado
+Textiles,2018-09-01,99.350447,observado
+Textiles,2018-10-01,97.510448,observado
+Textiles,2018-11-01,94.865929,observado
+Textiles,2018-12-01,92.171325,observado
+Textiles,2019-01-01,90.256485,observado
+Textiles,2019-02-01,89.701887,observado
+Textiles,2019-03-01,88.052506,observado
+Textiles,2019-04-01,86.43023,observado
+Textiles,2019-05-01,84.495968,observado
+Textiles,2019-06-01,82.661635,observado
+Textiles,2019-07-01,82.839481,observado
+Textiles,2019-08-01,82.967148,observado
+Textiles,2019-09-01,84.537611,observado
+Textiles,2019-10-01,85.593805,observado
+Textiles,2019-11-01,86.232874,observado
+Textiles,2019-12-01,86.705968,observado
+Textiles,2020-01-01,86.719255,observado
+Textiles,2020-02-01,86.304185,observado
+Textiles,2020-03-01,84.181508,observado
+Textiles,2020-04-01,79.935406,observado
+Textiles,2020-05-01,76.859289,observado
+Textiles,2020-06-01,75.751172,observado
+Textiles,2020-07-01,73.47262,observado
+Textiles,2020-08-01,71.856171,observado
+Textiles,2020-09-01,70.288954,observado
+Textiles,2020-10-01,69.32657,observado
+Textiles,2020-11-01,69.190289,observado
+Textiles,2020-12-01,69.584884,observado
+Textiles,2021-01-01,69.75074,observado
+Textiles,2021-02-01,70.232406,observado
+Textiles,2021-03-01,72.706856,observado
+Textiles,2021-04-01,77.155774,observado
+Textiles,2021-05-01,80.279449,observado
+Textiles,2021-06-01,81.975715,observado
+Textiles,2021-07-01,83.349874,observado
+Textiles,2021-08-01,84.273873,observado
+Textiles,2021-09-01,85.622609,observado
+Textiles,2021-10-01,86.031649,observado
+Textiles,2021-11-01,86.987498,observado
+Textiles,2021-12-01,87.167037,observado
+Textiles,2022-01-01,86.954543,observado
+Textiles,2022-02-01,87.253048,observado
+Textiles,2022-03-01,87.279614,observado
+Textiles,2022-04-01,86.869072,observado
+Textiles,2022-05-01,86.927511,observado
+Textiles,2022-06-01,86.96623,observado
+Textiles,2022-07-01,86.948729,observado
+Textiles,2022-08-01,88.174234,observado
+Textiles,2022-09-01,88.360659,observado
+Textiles,2022-10-01,87.911819,observado
+Textiles,2022-11-01,87.526211,observado
+Textiles,2022-12-01,86.960596,observado
+Textiles,2023-01-01,87.026369,observado
+Textiles,2023-02-01,86.860382,observado
+Textiles,2023-03-01,86.708285,observado
+Textiles,2023-04-01,86.660467,observado
+Textiles,2023-05-01,86.715819,observado
+Textiles,2023-06-01,86.46,observado
+Textiles,2023-07-01,86.824112,observado
+Textiles,2023-08-01,86.351817,observado
+Textiles,2023-09-01,86.504751,observado
+Textiles,2023-10-01,87.693183,observado
+Textiles,2023-11-01,88.156594,observado
+Textiles,2023-12-01,88.184704,observado
+Textiles,2024-01-01,87.922959,observado
+Textiles,2024-02-01,87.4282,observado
+Textiles,2024-03-01,85.628242,observado
+Textiles,2024-04-01,83.650123,observado
+Textiles,2024-05-01,81.865492,observado
+Textiles,2024-06-01,79.805293,observado
+Textiles,2024-07-01,78.409592,observado
+Textiles,2024-08-01,77.555817,observado
+Textiles,2024-09-01,76.006419,observado
+Textiles,2024-10-01,74.317981,observado
+Textiles,2024-11-01,73.04349,observado
+Textiles,2024-12-01,73.091397,observado
+Textiles,2025-01-01,72.720602,observado
+Textiles,2025-02-01,72.989479,observado
+Textiles,2025-03-01,74.057095,observado
+Textiles,2025-04-01,75.378124,observado
+Textiles,2025-05-01,75.926282,observado
+Textiles,2025-06-01,76.270851,observado
+Textiles,2025-07-01,75.456807,observado
+Textiles,2025-08-01,73.957679,observado
+Textiles,2025-09-01,72.536572,observado
+Textiles,2025-10-01,70.985741,observado
+Textiles,2025-11-01,68.803354,observado
+Textiles,2025-12-01,67.432747,observado
+Textiles,2026-01-01,66.43125,observado
+Textiles,2026-02-01,64.675474,observado
+Textiles,2026-03-01,63.212787,observado
+Textiles,2026-04-01,61.526779,observado
+Textiles,2026-05-01,59.741952,observado
+Textiles,2026-06-01,58.644785,observado
+Textiles,2026-07-01,57.74014,observado
+Textiles,2026-08-01,57.138838,observado
