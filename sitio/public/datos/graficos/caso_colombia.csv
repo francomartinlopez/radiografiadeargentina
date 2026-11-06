@@ -1,0 +1,85 @@
+serie,fecha,valor,tramo
+Inflación (%),1998-01-01,18.67698,observado
+Inflación (%),1999-01-01,10.873687,observado
+Inflación (%),2000-01-01,9.225348,observado
+Inflación (%),2001-01-01,7.965561,observado
+Inflación (%),2002-01-01,6.351507,observado
+Inflación (%),2003-01-01,7.129789,observado
+Inflación (%),2004-01-01,5.90402,observado
+Inflación (%),2005-01-01,5.05102,observado
+Inflación (%),2006-01-01,4.293424,observado
+Inflación (%),2007-01-01,5.544385,observado
+Inflación (%),2008-01-01,6.996885,observado
+Inflación (%),2009-01-01,4.202517,observado
+Inflación (%),2010-01-01,2.272002,observado
+Inflación (%),2011-01-01,3.415033,observado
+Inflación (%),2012-01-01,3.169302,observado
+Inflación (%),2013-01-01,2.016992,observado
+Inflación (%),2014-01-01,2.898838,observado
+Inflación (%),2015-01-01,4.989831,observado
+Inflación (%),2016-01-01,7.51346,observado
+Inflación (%),2017-01-01,4.314313,observado
+Inflación (%),2018-01-01,3.240569,observado
+Inflación (%),2019-01-01,3.523019,observado
+Inflación (%),2020-01-01,2.526635,observado
+Inflación (%),2021-01-01,3.495058,observado
+Inflación (%),2022-01-01,10.177231,observado
+Inflación (%),2023-01-01,11.735904,observado
+Inflación (%),2024-01-01,6.609086,observado
+Inflación (%),2025-01-01,5.142229,observado
+Crecimiento del PIB por habitante (%),1998-01-01,-1.215875,observado
+Crecimiento del PIB por habitante (%),1999-01-01,-5.854881,observado
+Crecimiento del PIB por habitante (%),2000-01-01,1.252702,observado
+Crecimiento del PIB por habitante (%),2001-01-01,0.092073,observado
+Crecimiento del PIB por habitante (%),2002-01-01,0.939609,observado
+Crecimiento del PIB por habitante (%),2003-01-01,2.362829,observado
+Crecimiento del PIB por habitante (%),2004-01-01,3.797159,observado
+Crecimiento del PIB por habitante (%),2005-01-01,3.371111,observado
+Crecimiento del PIB por habitante (%),2006-01-01,5.311744,observado
+Crecimiento del PIB por habitante (%),2007-01-01,5.394468,observado
+Crecimiento del PIB por habitante (%),2008-01-01,2.047991,observado
+Crecimiento del PIB por habitante (%),2009-01-01,-0.031705,observado
+Crecimiento del PIB por habitante (%),2010-01-01,3.314349,observado
+Crecimiento del PIB por habitante (%),2011-01-01,5.808235,observado
+Crecimiento del PIB por habitante (%),2012-01-01,2.875696,observado
+Crecimiento del PIB por habitante (%),2013-01-01,4.141294,observado
+Crecimiento del PIB por habitante (%),2014-01-01,3.570307,observado
+Crecimiento del PIB por habitante (%),2015-01-01,2.069232,observado
+Crecimiento del PIB por habitante (%),2016-01-01,1.081149,observado
+Crecimiento del PIB por habitante (%),2017-01-01,-0.101222,observado
+Crecimiento del PIB por habitante (%),2018-01-01,0.695265,observado
+Crecimiento del PIB por habitante (%),2019-01-01,1.360141,observado
+Crecimiento del PIB por habitante (%),2020-01-01,-8.509495,observado
+Crecimiento del PIB por habitante (%),2021-01-01,9.592978,observado
+Crecimiento del PIB por habitante (%),2022-01-01,6.1878,observado
+Crecimiento del PIB por habitante (%),2023-01-01,-0.282234,observado
+Crecimiento del PIB por habitante (%),2024-01-01,0.408621,observado
+Crecimiento del PIB por habitante (%),2025-01-01,1.605959,observado
+Desempleo (% de la población activa),1998-01-01,15.0,observado
+Desempleo (% de la población activa),1999-01-01,20.06,observado
+Desempleo (% de la población activa),2000-01-01,20.52,observado
+Desempleo (% de la población activa),2001-01-01,15.04,observado
+Desempleo (% de la población activa),2002-01-01,14.481,observado
+Desempleo (% de la población activa),2003-01-01,13.221,observado
+Desempleo (% de la población activa),2004-01-01,13.717,observado
+Desempleo (% de la población activa),2005-01-01,11.062,observado
+Desempleo (% de la población activa),2006-01-01,11.088,observado
+Desempleo (% de la población activa),2007-01-01,11.204,observado
+Desempleo (% de la población activa),2008-01-01,11.273,observado
+Desempleo (% de la población activa),2009-01-01,12.066,observado
+Desempleo (% de la población activa),2010-01-01,11.153,observado
+Desempleo (% de la población activa),2011-01-01,10.288,observado
+Desempleo (% de la población activa),2012-01-01,9.959,observado
+Desempleo (% de la población activa),2013-01-01,9.246,observado
+Desempleo (% de la población activa),2014-01-01,8.799,observado
+Desempleo (% de la población activa),2015-01-01,8.572,observado
+Desempleo (% de la población activa),2016-01-01,8.922,observado
+Desempleo (% de la población activa),2017-01-01,9.086,observado
+Desempleo (% de la población activa),2018-01-01,9.36,observado
+Desempleo (% de la población activa),2019-01-01,10.28,observado
+Desempleo (% de la población activa),2020-01-01,15.983,observado
+Desempleo (% de la población activa),2021-01-01,13.898,observado
+Desempleo (% de la población activa),2022-01-01,10.541,observado
+Desempleo (% de la población activa),2023-01-01,9.591,observado
+Desempleo (% de la población activa),2024-01-01,9.619,observado
+Desempleo (% de la población activa),2025-01-01,8.29,observado

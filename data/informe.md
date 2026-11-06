@@ -1,65 +1,218 @@
 # Informe de actualización 2026-11-06
 
-Gráficos publicados: 113
+Gráficos publicados: 118
 
 ## Alertas
 
-- wb_nv_ind_manf_zs_arg: sin datos guardados
-- wb_nv_ind_manf_zs_bra: sin datos guardados
-- wb_nv_ind_manf_zs_esp: sin datos guardados
-- wb_nv_ind_manf_zs_ita: sin datos guardados
-- wb_nv_ind_manf_zs_gbr: sin datos guardados
-- wb_nv_ind_manf_zs_aus: sin datos guardados
-- wb_nv_ind_manf_zs_usa: sin datos guardados
-- wb_nv_agr_totl_zs_arg: sin datos guardados
-- wb_nv_agr_totl_zs_bra: sin datos guardados
-- wb_nv_agr_totl_zs_esp: sin datos guardados
-- wb_nv_agr_totl_zs_ita: sin datos guardados
-- wb_nv_agr_totl_zs_gbr: sin datos guardados
-- wb_nv_agr_totl_zs_aus: sin datos guardados
-- wb_nv_agr_totl_zs_usa: sin datos guardados
-- wb_fp_cpi_totl_zg_chl: sin datos guardados
-- wb_ny_gdp_pcap_kd_zg_chl: sin datos guardados
-- wb_fp_cpi_totl_zg_per: sin datos guardados
-- wb_ny_gdp_pcap_kd_zg_per: sin datos guardados
-- wb_sl_uem_totl_zs_per: sin datos guardados
-- wb_fp_cpi_totl_zg_bra: sin datos guardados
-- wb_ny_gdp_pcap_kd_zg_bra: sin datos guardados
-- wb_fp_cpi_totl_zg_mex: sin datos guardados
-- wb_ny_gdp_pcap_kd_zg_mex: sin datos guardados
-- wb_fp_cpi_totl_zg_col: sin datos guardados
-- wb_ny_gdp_pcap_kd_zg_col: sin datos guardados
-- wb_sl_uem_totl_zs_col: sin datos guardados
-- oni: sin datos guardados
-- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_arg
-- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_bra
-- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_esp
-- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_ita
-- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_gbr
-- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_aus
-- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_usa
-- industria_pib_paises: sin datos, no se publica
-- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_arg
-- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_bra
-- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_esp
-- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_ita
-- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_gbr
-- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_aus
-- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_usa
-- agro_pib_paises: sin datos, no se publica
-- caso_chile: sin datos para la serie wb_fp_cpi_totl_zg_chl
-- caso_chile: sin datos para la serie wb_ny_gdp_pcap_kd_zg_chl
-- caso_peru: sin datos para la serie wb_fp_cpi_totl_zg_per
-- caso_peru: sin datos para la serie wb_ny_gdp_pcap_kd_zg_per
-- caso_peru: sin datos para la serie wb_sl_uem_totl_zs_per
-- caso_peru: sin datos, no se publica
-- caso_brasil: sin datos para la serie wb_fp_cpi_totl_zg_bra
-- caso_brasil: sin datos para la serie wb_ny_gdp_pcap_kd_zg_bra
-- caso_mexico: sin datos para la serie wb_fp_cpi_totl_zg_mex
-- caso_mexico: sin datos para la serie wb_ny_gdp_pcap_kd_zg_mex
-- caso_colombia: sin datos para la serie wb_fp_cpi_totl_zg_col
-- caso_colombia: sin datos para la serie wb_ny_gdp_pcap_kd_zg_col
-- caso_colombia: sin datos para la serie wb_sl_uem_totl_zs_col
-- caso_colombia: sin datos, no se publica
-- el_nino: sin datos para la serie oni
-- el_nino: sin datos, no se publica
+- Series tomadas de Datos de Argentina: 128; bajadas directo: 297
+- venta_gasoil: sin dato nuevo (último 2025-11)
+- venta_nafta_premium: sin dato nuevo (último 2025-11)
+- venta_nafta_super: sin dato nuevo (último 2025-11)
+- natalidad: sin dato nuevo (último 2024-01)
+- benef_auh: sin dato nuevo (último 2025-09)
+- benef_aue: sin dato nuevo (último 2025-09)
+- benef_desempleo: sin dato nuevo (último 2025-09)
+- bcra_letras: sin dato nuevo (último 2025-10)
+- eph_ocupados: sin dato nuevo (último 2026-04)
+- eph_poblacion: sin dato nuevo (último 2026-04)
+- wb_ny_gdp_pcap_pp_kd_arg: sin dato nuevo (último 2025-01)
+- wb_ny_gdp_pcap_pp_kd_bra: sin dato nuevo (último 2025-01)
+- wb_ny_gdp_pcap_pp_kd_chl: sin dato nuevo (último 2025-01)
+- wb_ny_gdp_pcap_pp_kd_ury: sin dato nuevo (último 2025-01)
+- wb_ny_gdp_pcap_pp_kd_mex: sin dato nuevo (último 2025-01)
+- wb_ny_gdp_pcap_pp_kd_esp: sin dato nuevo (último 2025-01)
+- wb_ny_gdp_pcap_pp_kd_ita: sin dato nuevo (último 2025-01)
+- wb_ny_gdp_pcap_pp_kd_usa: sin dato nuevo (último 2025-01)
+- imf_pcpipch_bra: sin dato nuevo (último 2025-01)
+- imf_pcpipch_chl: sin dato nuevo (último 2025-01)
+- imf_pcpipch_ury: sin dato nuevo (último 2025-01)
+- imf_pcpipch_mex: sin dato nuevo (último 2025-01)
+- imf_pcpipch_esp: sin dato nuevo (último 2025-01)
+- imf_pcpipch_ita: sin dato nuevo (último 2025-01)
+- imf_pcpipch_usa: sin dato nuevo (último 2024-01)
+- imf_ggx_ngdp_arg: sin dato nuevo (último 2023-01)
+- imf_ggx_ngdp_bra: sin dato nuevo (último 2023-01)
+- imf_ggx_ngdp_chl: sin dato nuevo (último 2023-01)
+- imf_ggx_ngdp_ury: sin dato nuevo (último 2023-01)
+- imf_ggx_ngdp_mex: sin dato nuevo (último 2023-01)
+- imf_ggx_ngdp_esp: sin dato nuevo (último 2023-01)
+- imf_ggx_ngdp_ita: sin dato nuevo (último 2023-01)
+- imf_ggx_ngdp_usa: sin dato nuevo (último 2023-01)
+- imf_ggr_ngdp_arg: sin dato nuevo (último 2024-01)
+- imf_ggr_ngdp_bra: sin dato nuevo (último 2024-01)
+- imf_ggr_ngdp_chl: sin dato nuevo (último 2024-01)
+- imf_ggr_ngdp_ury: sin dato nuevo (último 2024-01)
+- imf_ggr_ngdp_mex: sin dato nuevo (último 2024-01)
+- imf_ggr_ngdp_esp: sin dato nuevo (último 2024-01)
+- imf_ggr_ngdp_ita: sin dato nuevo (último 2024-01)
+- imf_ggr_ngdp_usa: sin dato nuevo (último 2024-01)
+- wb_ne_rsb_gnfs_zs_arg: sin dato nuevo (último 2025-01)
+- wb_ne_rsb_gnfs_zs_bra: sin dato nuevo (último 2025-01)
+- wb_ne_rsb_gnfs_zs_chl: sin dato nuevo (último 2025-01)
+- wb_ne_rsb_gnfs_zs_ury: sin dato nuevo (último 2025-01)
+- wb_ne_rsb_gnfs_zs_mex: sin dato nuevo (último 2025-01)
+- wb_ne_rsb_gnfs_zs_esp: sin dato nuevo (último 2025-01)
+- wb_ne_rsb_gnfs_zs_ita: sin dato nuevo (último 2025-01)
+- wb_ne_rsb_gnfs_zs_usa: sin dato nuevo (último 2024-01)
+- wb_sl_uem_totl_zs_arg: sin dato nuevo (último 2025-01)
+- wb_sl_uem_totl_zs_bra: sin dato nuevo (último 2025-01)
+- wb_sl_uem_totl_zs_chl: sin dato nuevo (último 2025-01)
+- wb_sl_uem_totl_zs_ury: sin dato nuevo (último 2025-01)
+- wb_sl_uem_totl_zs_mex: sin dato nuevo (último 2025-01)
+- wb_sl_uem_totl_zs_esp: sin dato nuevo (último 2025-01)
+- wb_sl_uem_totl_zs_ita: sin dato nuevo (último 2025-01)
+- wb_sl_uem_totl_zs_usa: sin dato nuevo (último 2025-01)
+- wb_eg_elc_accs_zs_arg: sin dato nuevo (último 2024-01)
+- wb_eg_elc_accs_zs_arg: variación inusual en el último dato (-1.6%)
+- wb_eg_elc_accs_zs_bra: sin dato nuevo (último 2024-01)
+- wb_eg_elc_accs_zs_chl: sin dato nuevo (último 2024-01)
+- wb_eg_elc_accs_zs_ury: sin dato nuevo (último 2024-01)
+- wb_eg_elc_accs_zs_mex: sin dato nuevo (último 2024-01)
+- wb_eg_elc_accs_zs_esp: sin dato nuevo (último 2024-01)
+- wb_eg_elc_accs_zs_ita: sin dato nuevo (último 2024-01)
+- wb_eg_elc_accs_zs_usa: sin dato nuevo (último 2024-01)
+- wb_sp_urb_totl_in_zs_arg: sin dato nuevo (último 2025-01)
+- wb_sp_urb_totl_in_zs_bra: sin dato nuevo (último 2025-01)
+- wb_sp_urb_totl_in_zs_chl: sin dato nuevo (último 2025-01)
+- wb_sp_urb_totl_in_zs_ury: sin dato nuevo (último 2025-01)
+- wb_sp_urb_totl_in_zs_mex: sin dato nuevo (último 2025-01)
+- wb_sp_urb_totl_in_zs_esp: sin dato nuevo (último 2025-01)
+- wb_sp_urb_totl_in_zs_ita: sin dato nuevo (último 2025-01)
+- wb_sp_urb_totl_in_zs_usa: sin dato nuevo (último 2025-01)
+- wb_sp_pop_0014_to_zs_arg: sin dato nuevo (último 2025-01)
+- wb_sp_pop_0014_to_zs_arg: variación inusual en el último dato (-2.7%)
+- wb_sp_pop_0014_to_zs_bra: sin dato nuevo (último 2025-01)
+- wb_sp_pop_0014_to_zs_chl: sin dato nuevo (último 2025-01)
+- wb_sp_pop_0014_to_zs_ury: sin dato nuevo (último 2025-01)
+- wb_sp_pop_0014_to_zs_mex: sin dato nuevo (último 2025-01)
+- wb_sp_pop_0014_to_zs_esp: sin dato nuevo (último 2025-01)
+- wb_sp_pop_0014_to_zs_ita: sin dato nuevo (último 2025-01)
+- wb_sp_pop_0014_to_zs_usa: sin dato nuevo (último 2025-01)
+- wb_sp_dyn_cbrt_in_arg: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_cbrt_in_bra: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_cbrt_in_chl: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_cbrt_in_ury: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_cbrt_in_mex: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_cbrt_in_esp: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_cbrt_in_ita: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_cbrt_in_usa: sin dato nuevo (último 2024-01)
+- wb_se_ter_enrr_arg: sin dato nuevo (último 2023-01)
+- wb_se_ter_enrr_bra: sin dato nuevo (último 2024-01)
+- wb_se_ter_enrr_chl: sin dato nuevo (último 2024-01)
+- wb_se_ter_enrr_ury: sin dato nuevo (último 2023-01)
+- wb_se_ter_enrr_mex: sin dato nuevo (último 2024-01)
+- wb_se_ter_enrr_esp: sin dato nuevo (último 2024-01)
+- wb_se_ter_enrr_ita: sin dato nuevo (último 2023-01)
+- wb_se_ter_enrr_usa: sin dato nuevo (último 2022-01)
+- wb_sh_sta_bass_zs_arg: sin dato nuevo (último 2016-01)
+- wb_sh_sta_bass_zs_bra: sin dato nuevo (último 2024-01)
+- wb_sh_sta_bass_zs_chl: sin dato nuevo (último 2024-01)
+- wb_sh_sta_bass_zs_ury: sin dato nuevo (último 2024-01)
+- wb_sh_sta_bass_zs_mex: sin dato nuevo (último 2024-01)
+- wb_sh_sta_bass_zs_esp: sin dato nuevo (último 2024-01)
+- wb_sh_sta_bass_zs_ita: sin dato nuevo (último 2024-01)
+- wb_sh_sta_bass_zs_usa: sin dato nuevo (último 2024-01)
+- wb_sh_h2o_basw_zs_arg: sin dato nuevo (último 2016-01)
+- wb_sh_h2o_basw_zs_bra: sin dato nuevo (último 2024-01)
+- wb_sh_h2o_basw_zs_chl: sin dato nuevo (último 2024-01)
+- wb_sh_h2o_basw_zs_ury: sin dato nuevo (último 2024-01)
+- wb_sh_h2o_basw_zs_mex: sin dato nuevo (último 2024-01)
+- wb_sh_h2o_basw_zs_esp: sin dato nuevo (último 2024-01)
+- wb_sh_h2o_basw_zs_ita: sin dato nuevo (último 2024-01)
+- wb_sh_h2o_basw_zs_usa: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_le00_in_arg: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_le00_in_bra: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_le00_in_chl: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_le00_in_ury: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_le00_in_mex: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_le00_in_esp: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_le00_in_ita: sin dato nuevo (último 2024-01)
+- wb_sp_dyn_le00_in_usa: sin dato nuevo (último 2024-01)
+- wb_sh_xpd_chex_gd_zs_arg: sin dato nuevo (último 2023-01)
+- wb_sh_xpd_chex_gd_zs_bra: sin dato nuevo (último 2023-01)
+- wb_sh_xpd_chex_gd_zs_chl: sin dato nuevo (último 2024-01)
+- wb_sh_xpd_chex_gd_zs_ury: sin dato nuevo (último 2023-01)
+- wb_sh_xpd_chex_gd_zs_mex: sin dato nuevo (último 2023-01)
+- wb_sh_xpd_chex_gd_zs_esp: sin dato nuevo (último 2023-01)
+- wb_sh_xpd_chex_gd_zs_ita: sin dato nuevo (último 2024-01)
+- wb_sh_xpd_chex_gd_zs_usa: sin dato nuevo (último 2023-01)
+- wb_se_xpd_totl_gd_zs_arg: sin dato nuevo (último 2023-01)
+- wb_se_xpd_totl_gd_zs_bra: sin dato nuevo (último 2022-01)
+- wb_se_xpd_totl_gd_zs_chl: sin dato nuevo (último 2022-01)
+- wb_se_xpd_totl_gd_zs_ury: sin dato nuevo (último 2023-01)
+- wb_se_xpd_totl_gd_zs_mex: sin dato nuevo (último 2022-01)
+- wb_se_xpd_totl_gd_zs_esp: sin dato nuevo (último 2022-01)
+- wb_se_xpd_totl_gd_zs_ita: sin dato nuevo (último 2022-01)
+- wb_se_xpd_totl_gd_zs_usa: sin dato nuevo (último 2021-01)
+- wb_ny_gns_ictr_zs_arg: sin dato nuevo (último 2025-01)
+- wb_ny_gns_ictr_zs_bra: sin dato nuevo (último 2025-01)
+- wb_ny_gns_ictr_zs_chl: sin dato nuevo (último 2025-01)
+- wb_ny_gns_ictr_zs_ury: sin dato nuevo (último 2025-01)
+- wb_ny_gns_ictr_zs_mex: sin dato nuevo (último 2025-01)
+- wb_ny_gns_ictr_zs_esp: sin dato nuevo (último 2025-01)
+- wb_ny_gns_ictr_zs_ita: sin dato nuevo (último 2025-01)
+- wb_ny_gns_ictr_zs_usa: sin dato nuevo (último 2024-01)
+- wb_bx_klt_dinv_wd_gd_zs_arg: sin dato nuevo (último 2025-01)
+- wb_bx_klt_dinv_wd_gd_zs_bra: sin dato nuevo (último 2025-01)
+- wb_bx_klt_dinv_wd_gd_zs_chl: sin dato nuevo (último 2025-01)
+- wb_bx_klt_dinv_wd_gd_zs_ury: sin dato nuevo (último 2025-01)
+- wb_bx_klt_dinv_wd_gd_zs_mex: sin dato nuevo (último 2025-01)
+- wb_bx_klt_dinv_wd_gd_zs_esp: sin dato nuevo (último 2025-01)
+- wb_bx_klt_dinv_wd_gd_zs_ita: sin dato nuevo (último 2025-01)
+- wb_bx_klt_dinv_wd_gd_zs_usa: sin dato nuevo (último 2025-01)
+- wb_vc_ihr_psrc_p5_arg: sin dato nuevo (último 2023-01)
+- wb_vc_ihr_psrc_p5_bra: sin dato nuevo (último 2023-01)
+- wb_vc_ihr_psrc_p5_chl: sin dato nuevo (último 2023-01)
+- wb_vc_ihr_psrc_p5_ury: sin dato nuevo (último 2023-01)
+- wb_vc_ihr_psrc_p5_mex: sin dato nuevo (último 2023-01)
+- wb_vc_ihr_psrc_p5_esp: sin dato nuevo (último 2023-01)
+- wb_vc_ihr_psrc_p5_ita: sin dato nuevo (último 2023-01)
+- wb_vc_ihr_psrc_p5_usa: sin dato nuevo (último 2023-01)
+- sp500: la fuente revisó 147 datos anteriores
+- owid_alfab_arg: sin dato nuevo (último 2020-01)
+- owid_alfab_bra: sin dato nuevo (último 2024-01)
+- owid_alfab_chl: sin dato nuevo (último 2017-01)
+- owid_alfab_ury: sin dato nuevo (último 2024-01)
+- owid_alfab_mex: sin dato nuevo (último 2024-01)
+- owid_alfab_esp: sin dato nuevo (último 2021-01)
+- owid_alfab_ita: sin dato nuevo (último 2019-01)
+- owid_alfab_usa: sin dato nuevo (último 1950-01)
+- owid_escol_arg: sin dato nuevo (último 2020-01)
+- owid_escol_bra: sin dato nuevo (último 2020-01)
+- owid_escol_chl: sin dato nuevo (último 2020-01)
+- owid_escol_ury: sin dato nuevo (último 2020-01)
+- owid_escol_mex: sin dato nuevo (último 2020-01)
+- owid_escol_esp: sin dato nuevo (último 2020-01)
+- owid_escol_ita: sin dato nuevo (último 2020-01)
+- owid_escol_usa: sin dato nuevo (último 2020-01)
+- owid_subal_arg: sin dato nuevo (último 2023-01)
+- owid_subal_bra: sin dato nuevo (último 2023-01)
+- owid_subal_chl: sin dato nuevo (último 2023-01)
+- owid_subal_ury: sin dato nuevo (último 2023-01)
+- owid_subal_mex: sin dato nuevo (último 2023-01)
+- owid_subal_esp: sin dato nuevo (último 2023-01)
+- owid_subal_ita: sin dato nuevo (último 2023-01)
+- owid_subal_usa: sin dato nuevo (último 2023-01)
+- owid_vida_arg: sin dato nuevo (último 2023-01)
+- owid_vida_bra: sin dato nuevo (último 2023-01)
+- owid_vida_chl: sin dato nuevo (último 2023-01)
+- owid_vida_ury: sin dato nuevo (último 2023-01)
+- owid_vida_mex: sin dato nuevo (último 2023-01)
+- owid_vida_esp: sin dato nuevo (último 2023-01)
+- owid_vida_ita: sin dato nuevo (último 2023-01)
+- owid_vida_usa: sin dato nuevo (último 2023-01)
+- owid_mortinf_arg: sin dato nuevo (último 2024-01)
+- owid_mortinf_bra: sin dato nuevo (último 2024-01)
+- owid_mortinf_chl: sin dato nuevo (último 2024-01)
+- owid_mortinf_ury: sin dato nuevo (último 2024-01)
+- owid_mortinf_mex: sin dato nuevo (último 2024-01)
+- owid_mortinf_esp: sin dato nuevo (último 2024-01)
+- owid_mortinf_ita: sin dato nuevo (último 2024-01)
+- owid_mortinf_usa: sin dato nuevo (último 2024-01)
+- maddison23_arg: sin dato nuevo (último 2022-01)
+- maddison23_bra: sin dato nuevo (último 2022-01)
+- maddison23_esp: sin dato nuevo (último 2022-01)
+- maddison23_ita: sin dato nuevo (último 2022-01)
+- maddison23_usa: sin dato nuevo (último 2022-01)
+- maddison23_gbr: sin dato nuevo (último 2022-01)
+- maddison23_aus: sin dato nuevo (último 2022-01)
