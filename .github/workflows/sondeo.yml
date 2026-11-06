@@ -1,0 +1,32 @@
+name: Sondeo de fuentes
+
+# Al empujar a la rama "sondeo", corre pipeline.sondeo (fuentes que solo se alcanzan desde
+# GitHub, como Our World in Data) y guarda el resultado en esa misma rama. No toca main.
+
+on:
+  push:
+    branches: [sondeo]
+    paths-ignore: ["data/sondeo/**"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sondeo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pipeline.sondeo
+      - name: Guardar resultado
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data/sondeo
+          git commit -m "Resultado del sondeo" || echo "sin cambios"
+          git push
