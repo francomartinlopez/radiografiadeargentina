@@ -12,6 +12,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import math
 from datetime import datetime, timezone
@@ -30,6 +31,9 @@ PREVIO_MESES = 24  # meses antes del inicio que se publican para poder calcular 
 TIPOS = {"lineas", "areas", "barras", "barras_gobierno", "lineas_pais", "burbujas"}
 NIVELES = {"primaria", "secundaria", "terciaria", "estimacion"}
 TRAMOS = {"estimado", "interpolado", "proyectado"}
+# Datos de Argentina se actualiza el día 20; Radiografía, el 21. Las series que comparten se toman
+# de su repositorio (ya bajadas y revisadas) y solo se descarga directo lo que no está allá.
+DATOSARGENTINA = "https://raw.githubusercontent.com/francomartinlopez/datosargentina/main/"
 
 
 def cargar() -> tuple[dict, dict]:
@@ -119,6 +123,50 @@ def subconfig(base: dict, catalogo: dict) -> dict:
         "empalmes": {n: d for n, d in base.get("empalmes", {}).items() if n in necesarias},
         "calculos": {n: base["calculos"][n] for n in calc_orden},
     }
+
+
+# ---------- Series compartidas con Datos de Argentina ----------
+
+def traer_de_datosargentina(sub: dict) -> tuple[set, list[str]]:
+    """Copia a data/crudos las series que Datos de Argentina define igual. Devuelve cuáles trajo."""
+    import requests
+    alertas, traidas = [], set()
+    try:
+        r = requests.get(DATOSARGENTINA + "indicadores.yaml", timeout=60)
+        r.raise_for_status()
+        remotas = yaml.safe_load(r.text).get("series", {})
+    except Exception as e:
+        return traidas, [f"Datos de Argentina no disponible ({e}); se descarga todo directo"]
+    for nombre, definicion in sub["series"].items():
+        if remotas.get(nombre) != definicion:
+            continue
+        try:
+            r = requests.get(f"{DATOSARGENTINA}data/crudos/{nombre}.csv", timeout=60)
+            r.raise_for_status()
+            df = pd.read_csv(io.StringIO(r.text), parse_dates=["fecha"])
+            if df.empty:
+                raise ValueError("vacía")
+            nueva = pd.Series(df["valor"].values, index=df["fecha"], dtype=float)
+            anterior = construir.leer_crudo(nombre)
+            if anterior is not None and nueva.index.max() < anterior.index.max():
+                alertas.append(f"{nombre}: Datos de Argentina tiene un dato más viejo que el guardado; se conserva el guardado")
+            else:
+                construir.guardar_crudo(nombre, nueva)
+            traidas.add(nombre)
+        except Exception as e:
+            alertas.append(f"{nombre}: no se pudo traer de Datos de Argentina ({e}); se descarga directo")
+    return traidas, alertas
+
+
+def obtener_series(sub: dict, offline: bool) -> tuple[dict, list[str]]:
+    """Crudos de todas las series: de Datos de Argentina cuando se puede y, el resto, de su fuente."""
+    if offline:
+        return construir.descargar(sub, True)
+    traidas, alertas = traer_de_datosargentina(sub)
+    de_da, a1 = construir.descargar({**sub, "series": {n: d for n, d in sub["series"].items() if n in traidas}}, True)
+    directas, a2 = construir.descargar({**sub, "series": {n: d for n, d in sub["series"].items() if n not in traidas}}, False)
+    alertas.append(f"Series tomadas de Datos de Argentina: {len(de_da)}; bajadas directo: {len(directas)}")
+    return {**de_da, **directas}, alertas + a1 + a2
 
 
 # ---------- Construcción de cada gráfico ----------
@@ -297,7 +345,7 @@ def main() -> None:
     if errores:
         raise SystemExit("Errores en graficos.yaml:\n- " + "\n- ".join(errores))
     sub = subconfig(base, catalogo)
-    crudas, alertas = construir.descargar(sub, args.offline)
+    crudas, alertas = obtener_series(sub, args.offline)
     mensuales, alertas_proc = construir.procesar(sub, crudas)
     alertas += alertas_proc
     graficos = []

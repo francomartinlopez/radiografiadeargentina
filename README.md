@@ -20,7 +20,9 @@ Base técnica: el sistema de [Datos de Argentina](https://github.com/francomarti
 
    El resumen de la corrida queda en `data/informe.md`.
 4. El sitio (`sitio/public`) calcula las medidas a partir del nivel de cada serie: variación, interanual, acumulado de 12 meses y base 100. También permite elegir entre el período completo y el último mandato, y mostrar u ocultar las franjas de gobierno.
-5. El día 20 de cada mes, GitHub Actions corre el proceso y abre un pull request con los cambios y las alertas. Al aprobarlo, Netlify publica la versión nueva.
+5. El día 21 de cada mes (un día después de Datos de Argentina), GitHub Actions corre el proceso y abre un pull request con los cambios y las alertas. Al aprobarlo, Netlify publica la versión nueva.
+   - Las series que comparte con Datos de Argentina se toman de su repositorio, ya actualizadas el día 20.
+   - Solo se descarga directo de la fuente lo que no está allá.
 
 ## Uso local
 

@@ -2,7 +2,7 @@ name: Actualización mensual de datos
 
 on:
   schedule:
-    - cron: "0 12 20 * *"   # día 20 de cada mes, 9:00 de Argentina
+    - cron: "0 12 21 * *"   # día 21 de cada mes, 9:00 de Argentina (un día después de Datos de Argentina)
   workflow_dispatch: {}     # permite lanzarla a mano desde la pestaña Actions
 
 permissions:

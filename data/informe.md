@@ -4,4 +4,4 @@ Gráficos publicados: 4
 
 ## Alertas
 
-- Sin alertas
+- Series tomadas de Datos de Argentina: 8; bajadas directo: 0
