@@ -79,4 +79,4 @@ Además, 14 gráficos son duplicados o variantes y se cierran junto con el gráf
 La correspondencia con Datos de Argentina y la asignación a lotes son automáticas: se confirman gráfico por gráfico al trabajar cada lote.
 
 ## 6. Publicación
-Repositorio nuevo en GitHub, `radiografiadeargentina`, publicado en Netlify; el sitio se llama Radiografía de la Argentina. La base local ya está armada: es la copia de Datos de Argentina con la marca nueva, `netlify.toml`, los gobiernos desde 1999, el plan y el inventario en `docs/`, y las pruebas pasan. Falta crear el repositorio vacío en GitHub para subirla.
+Repositorio: github.com/francomartinlopez/radiografiadeargentina (rama main). Se publica en Netlify (`netlify.toml` publica `sitio/public`, sin compilar). Primer commit subido el 6/11: la base copiada de Datos de Argentina con la marca nueva, los gobiernos desde 1999, el plan y el inventario en `docs/`. Siguiente: paso 1 (motor).
