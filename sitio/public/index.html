@@ -4,72 +4,54 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Radiografía de la Argentina</title>
-<meta name="description" content="Gráficos económicos y sociales de la Argentina con datos públicos, fuente y método de cada dato. Actualización mensual.">
-<link rel="canonical" href="/">
+<meta name="description" content="Gráficos económicos y sociales de la Argentina con datos públicos: de dónde sale cada dato, qué tan confiable es la fuente y cómo se calculó.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Radiografía de la Argentina">
 <meta property="og:title" content="Radiografía de la Argentina">
-<meta property="og:description" content="Gráficos económicos y sociales de la Argentina con datos públicos, fuente y método de cada dato. Actualización mensual.">
-<meta property="og:url" content="/">
-<meta property="og:image" content="vista-previa.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Radiografía de la Argentina: gráficos económicos y sociales">
+<meta property="og:description" content="Gráficos económicos y sociales de la Argentina con datos públicos, fuente y método de cada dato.">
 <meta property="og:locale" content="es_AR">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Radiografía de la Argentina">
-<meta name="twitter:description" content="Gráficos económicos y sociales de la Argentina con datos públicos, fuente y método de cada dato. Actualización mensual.">
-<meta name="twitter:image" content="vista-previa.png">
+<meta name="twitter:card" content="summary">
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 <header class="cabecera">
   <div class="contenedor">
+    <p class="sobretitulo">Datos públicos · fuente y método de cada gráfico</p>
     <h1>Radiografía de la Argentina</h1>
-    <p class="bajada">Gráficos económicos y sociales con datos públicos: de dónde sale cada dato y cómo se calculó. Pesos y dólares en moneda constante de hoy.</p>
+    <p class="bajada">Economía, sociedad e instituciones en gráficos. Cada uno dice de dónde sale el dato, qué tan directa es la fuente y qué parte es estimada. Pesos y dólares en moneda de hoy.</p>
     <p class="meta" id="actualizado"></p>
     <div class="buscador" role="search">
-      <label for="buscar" class="oculto">Buscar un dato</label>
-      <input id="buscar" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar un dato: inflación, litio, Córdoba, jubilaciones…"
-             aria-controls="buscar-resultados" aria-expanded="false" aria-autocomplete="list">
-      <ul id="buscar-resultados" class="buscar-resultados" role="listbox" hidden></ul>
+      <label for="buscar" class="oculto">Buscar un gráfico</label>
+      <input id="buscar" type="search" autocomplete="off" spellcheck="false" placeholder="Buscar un gráfico: inflación, riesgo país, recaudación…">
     </div>
+    <ul class="claves" aria-label="Cómo leer los gráficos">
+      <li><span class="nivel nivel-primaria">Primaria</span> el organismo que produce el dato</li>
+      <li><span class="nivel nivel-secundaria">Secundaria</span> compila o elabora otro (organismo internacional, universidad, cámara)</li>
+      <li><span class="nivel nivel-terciaria">Terciaria</span> un medio que cita a otro</li>
+      <li><span class="nivel nivel-estimacion">Estimación</span> cálculo propio con método explicado</li>
+      <li><span class="alerta-ico" aria-hidden="true">⚠</span> parte o todo el gráfico es estimado, interpolado o proyectado (línea punteada)</li>
+    </ul>
   </div>
 </header>
 
-<nav class="indice" aria-label="Secciones">
-  <div class="contenedor" id="nav-secciones"></div>
+<nav class="indice" aria-label="Temas">
+  <div class="contenedor" id="nav-temas"></div>
 </nav>
 
-<main class="contenedor">
-  <section id="portada" aria-labelledby="t-portada">
-    <h2 id="t-portada" class="oculto">Valores clave</h2>
-    <div class="tarjetas" id="tarjetas"></div>
-  </section>
-
-  <div id="secciones"></div>
-
-  <section id="gobierno" class="seccion" hidden>
-    <h2>Gobierno</h2>
-    <p class="intro">Registros con nombre propio, para todas las gestiones desde 2003. Cada caso tiene fecha, estado y fuentes.</p>
-    <div id="gobierno-bloques"></div>
-  </section>
-
-  <section id="diagnostico" class="seccion" aria-labelledby="t-diagnostico" hidden>
-    <h2 id="t-diagnostico">Diagnóstico</h2>
-    <div id="diagnostico-cuerpo"></div>
-  </section>
+<main class="contenedor" id="temas">
+  <p class="cargando" id="cargando">Cargando gráficos…</p>
+  <p class="sin-resultados" id="sin-resultados" hidden>No hay gráficos que coincidan con la búsqueda.</p>
 </main>
 
 <footer class="pie">
   <div class="contenedor">
-    <p><strong>Metodología.</strong> Las series en pesos se deflactan con un IPC empalmado (GBA hasta 2006, San Luis 2007–2012, CABA 2012–2016 e INDEC nacional desde 2017); las series en dólares, con el IPC de Estados Unidos. "Gestión actual" muestra la serie mes a mes desde diciembre de 2023. "Por gestión" compara la variación interanual de cada mes de mandato entre gobiernos; los primeros meses de cada gestión todavía reflejan en parte la anterior.</p>
+    <p>Los datos se actualizan una vez por mes. Cada gráfico se puede descargar en CSV, con la marca de qué datos son observados y cuáles estimados.</p>
     <p>Código y datos: <a href="https://github.com/francomartinlopez/radiografiadeargentina">github.com/francomartinlopez/radiografiadeargentina</a></p>
   </div>
 </footer>
 
-<div class="tooltip" id="tooltip" role="status" aria-live="polite" hidden></div>
+<div id="tooltip" class="tooltip" role="tooltip" hidden></div>
 <script src="app.js"></script>
 </body>
 </html>

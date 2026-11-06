@@ -1,0 +1,83 @@
+import pandas as pd
+
+from pipeline import radiografia as r
+
+
+def catalogo_base():
+    base, cat = r.cargar()
+    return base, cat
+
+
+def test_catalogo_real_sin_errores():
+    base, cat = catalogo_base()
+    assert r.validar(cat, base) == []
+
+
+def test_validar_detecta_errores():
+    base, cat = catalogo_base()
+    malo = {**cat, "graficos": [
+        {"id": "x", "tema": 99, "titulo": "X", "tipo": "torta", "fuentes": [{"nombre": "A", "nivel": "otra"}],
+         "series": [{"serie": "no_existe"}], "tramos": [{"tipo": "inventado"}]},
+        {"id": "x", "tema": 1, "titulo": "Y", "tipo": "lineas", "fuentes": [{"nombre": "B", "nivel": "primaria"}], "series": [{"serie": "ipc"}]},
+    ]}
+    errores = " | ".join(r.validar(malo, base))
+    for texto in ("tipo 'torta'", "tema 99", "sin nivel válido", "no_existe", "tramo con tipo", "id repetido"):
+        assert texto in errores
+
+
+def test_dependencias_incluye_empalmes():
+    base, _ = catalogo_base()
+    dep = r.dependencias("ipc", base)
+    assert {"ipc", "ipc_gba_historico", "ipc_nacional"} <= dep
+
+
+def test_subconfig_solo_lo_necesario_y_deflactor():
+    base, cat = catalogo_base()
+    sub = r.subconfig(base, cat)
+    assert "recaudacion" in sub["series"] and "ipc_nacional" in sub["series"]
+    assert "litio" not in sub["series"]
+
+
+def test_tramo_por_fecha_y_serie():
+    tramos = [{"desde": "2020-01", "hasta": "2020-12", "tipo": "estimado"}, {"serie": "b", "desde": "2024", "tipo": "proyectado"}]
+    assert r.tramo_de(pd.Timestamp("2020-06-01"), tramos, "a") == "estimado"
+    assert r.tramo_de(pd.Timestamp("2025-06-01"), tramos, "a") is None
+    assert r.tramo_de(pd.Timestamp("2025-06-01"), tramos, "b") == "proyectado"
+
+
+def test_agregar_por_gobierno():
+    _, cat = catalogo_base()
+    meses = pd.date_range("2019-01-01", "2024-12-01", freq="MS")
+    s = pd.Series(1.0, index=meses)
+    s[s.index >= "2020-01-01"] = 3.0
+    cats = {c["categoria"]: c for c in r.agregar_por_gobierno(s, cat["gobiernos"], "promedio")}
+    assert cats["Macri"]["valor"] == 1.0 and cats["Macri"]["n"] == 11  # dic-2019 ya es de A. Fernández
+    assert abs(cats["A. Fernández"]["valor"] - (1 + 3 * 47) / 48) < 1e-6
+    assert cats["Milei"]["n"] == 13  # de diciembre de 2023 a diciembre de 2024
+
+
+def test_construir_grafico_con_tramos_y_previo():
+    _, cat = catalogo_base()
+    meses = pd.date_range("1995-01-01", "2024-12-01", freq="MS")
+    m = {"s": pd.Series(range(len(meses)), index=meses, dtype=float)}
+    g = {"id": "t", "tema": 1, "titulo": "T", "tipo": "lineas", "frecuencia": "M", "desde": "2001-01", "unidad": "u",
+         "series": [{"serie": "s", "nombre": "S"}], "fuentes": [{"nombre": "F", "nivel": "estimacion"}],
+         "tramos": [{"desde": "2024-01", "tipo": "proyectado"}]}
+    out, alertas = r.construir_grafico(g, m, cat)
+    assert alertas == [] and out["alerta"] is True
+    puntos = out["series"][0]["puntos"]
+    assert puntos[0][0] == "1999-01-01"  # 24 meses antes del inicio, para interanual y acumulado
+    assert out["desde"] == "2001-01-01"
+    assert puntos[-1][2] == "proyectado" and len(puntos[-13]) == 2
+    csv = r.csv_de(out)
+    assert csv["fecha"].min() == "2001-01-01" and set(csv["tramo"]) == {"observado", "proyectado"}
+
+
+def test_series_largas_anuales():
+    _, cat = catalogo_base()
+    anios = pd.date_range("1850-01-01", "2020-01-01", freq="YS")
+    m = {"s": pd.Series(1.0, index=anios)}
+    g = {"id": "t", "tema": 19, "titulo": "T", "tipo": "lineas_pais", "frecuencia": "A", "series": [{"serie": "s"}],
+         "fuentes": [{"nombre": "F", "nivel": "secundaria"}]}
+    out, _ = r.construir_grafico(g, m, cat)
+    assert out["desde"] == "1850-01-01" and out["gobiernos"] is False

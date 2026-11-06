@@ -27,7 +27,7 @@ jobs:
         run: python -m pytest -q
 
       - name: Bajar y procesar datos
-        run: python -m pipeline.construir
+        run: python -m pipeline.radiografia
         env:
           INDEC_API_TOKEN: ${{ secrets.INDEC_API_TOKEN }}
 
