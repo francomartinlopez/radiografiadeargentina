@@ -743,6 +743,20 @@ series:
   wb_ny_gdp_pcap_kd_zg_col: {fuente: worldbank, id: "NY.GDP.PCAP.KD.ZG", pais: COL}
   wb_sl_uem_totl_zs_col: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: COL}
   oni:                 {fuente: noaa, url: "https://psl.noaa.gov/data/correlation/oni.data"}
+  # Radiografía, lote 3
+  maq_cosechadoras:    {fuente: archivo, lector: indec_maquinaria, campo: "Cuadro 2|Total"}
+  maq_cosechadoras_nac: {fuente: archivo, lector: indec_maquinaria, campo: "Cuadro 2|Nacionales"}
+  maq_cosechadoras_imp: {fuente: archivo, lector: indec_maquinaria, campo: "Cuadro 2|Importados"}
+  maq_tractores:       {fuente: archivo, lector: indec_maquinaria, campo: "Cuadro 3.1|Total"}
+  maq_tractores_nac:   {fuente: archivo, lector: indec_maquinaria, campo: "Cuadro 3.1|Nacionales"}
+  maq_tractores_imp:   {fuente: archivo, lector: indec_maquinaria, campo: "Cuadro 3.1|Importados"}
+  maq_sembradoras:     {fuente: archivo, lector: indec_maquinaria, campo: "Cuadro 4|Total"}
+  maq_implementos:     {fuente: archivo, lector: indec_maquinaria, campo: "Cuadro 5|Total"}
+  viales_muertos_tasa: {fuente: datosgobar, id: "t_snic_3_victimas_arg"}
+  viales_heridos_tasa: {fuente: datosgobar, id: "t_snic_6_victimas_arg"}
+  viales_muertos:      {fuente: datosgobar, id: "snic_3_victimas_arg"}
+  mortalidad_infantil: {fuente: datosgobar, id: "tmi_arg"}
+  mortalidad_fetal:    {fuente: datosgobar, id: "tmf_arg"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

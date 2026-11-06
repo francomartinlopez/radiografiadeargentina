@@ -32,6 +32,7 @@ ARCHIVOS = {
     "ib_anexo": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-anexo.xlsx",
     "ingresos": INDEC + "sociedad/cuadros_informe_ingresos_{MM}_{AA}.xls",
     "cin": INDEC + "economia/cin_{T}_{AAAA}.xls",
+    "maquinaria": INDEC + "economia/sh_industria_maquinaria_agricola.xls",
 }
 PAGINA_DEUDA = "https://www.argentina.gob.ar/economia/finanzas/datos-trimestrales-de-la-deuda"
 PAGINA_PROVINCIAS = "https://www.argentina.gob.ar/economia/sechacienda/coordinacion-fiscal-provincial/ejecucion-presupuestaria-provincial/ejecuciones"
@@ -920,7 +921,29 @@ def completar_huecos(df: pd.DataFrame, maximo: int = 3) -> pd.DataFrame:
     return pd.DataFrame(salida)
 
 
+
+def indec_maquinaria(campo: str, h: dict | None = None) -> pd.Series:
+    """Informe de la industria de maquinaria agrícola: unidades vendidas por trimestre (desde 2016).
+    campo: 'Cuadro 2|Nacionales' (hoja|columna: Total, Nacionales o Importados)."""
+    h = h or hojas("maquinaria")
+    hoja, col = campo.split("|")
+    df = h[hoja]
+    columna = {"Total": 1, "Nacionales": 2, "Importados": 3}[col]
+    datos, anio = {}, None
+    for _, fila in df.iterrows():
+        etiqueta = _texto(fila.iloc[0]) or _texto(fila.iloc[1] if len(fila) > 1 else "")
+        if re.fullmatch(r"\d{4}", etiqueta.split(".")[0] if etiqueta else ""):
+            anio = int(etiqueta.split(".")[0])
+            continue
+        m = re.match(r"([1-4])\D*trimestre", etiqueta or "")
+        if m and anio:
+            v = pd.to_numeric(fila.iloc[columna], errors="coerce")
+            if pd.notna(v):
+                datos[pd.Timestamp(anio, 3 * int(m[1]) - 2, 1)] = float(v)
+    return pd.Series(datos, dtype=float).sort_index()
+
 LECTORES = {
+    "indec_maquinaria": indec_maquinaria,
     "arca_recaudacion": arca_recaudacion,
     "provincias_iibb": provincias_iibb,
     "economia_politica_ingresos": economia_politica_ingresos,

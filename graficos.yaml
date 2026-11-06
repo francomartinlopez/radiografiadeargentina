@@ -3206,3 +3206,103 @@ graficos:
     fuentes:
       - {nombre: "NOAA (EE.UU.), Oceanic Niño Index", url: "https://psl.noaa.gov/data/correlation/oni.data", nivel: primaria}
     metodo: "Promedio móvil de tres meses de la anomalía de temperatura del mar en la región Niño 3.4. Para cruzarlo con las cosechas, ver Producción de los principales granos: las grandes caídas (2008/09, 2017/18, 2022/23) coinciden con años de La Niña. El pronóstico 2026-2027 del original queda para el lote 6."
+
+  # ---------- Paso 6 (lote 3), tanda 1: archivos oficiales ----------
+
+  - id: maquinaria_agricola
+    tema: 8
+    titulo: "Venta de maquinaria agrícola"
+    que_muestra: "Unidades vendidas en el país de cosechadoras, tractores, sembradoras e implementos (nacionales e importados)."
+    original: {ficha: p196, imagen: 1044}
+    tipo: lineas
+    frecuencia: T
+    desde: "2016-01"
+    unidad: "unidades"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: maq_implementos, nombre: "Implementos"}
+      - {serie: maq_tractores, nombre: "Tractores"}
+      - {serie: maq_sembradoras, nombre: "Sembradoras"}
+      - {serie: maq_cosechadoras, nombre: "Cosechadoras"}
+    fuentes:
+      - {nombre: "INDEC, Informe de la industria de maquinaria agrícola", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-6-20", nivel: primaria}
+    metodo: "Encuesta trimestral del INDEC a fabricantes e importadores, desde 2016. Algunos trimestres de cosechadoras no se publican por secreto estadístico. El tramo 2001-2015 del original (encuesta anterior, con otra cobertura) no se empalma. Reúne las fichas p196 y p208; las ventas por empresa (p183) no son públicas."
+
+  - id: maquinaria_nacional_importada
+    tema: 8
+    titulo: "Tractores y cosechadoras: nacionales e importados"
+    que_muestra: "Unidades vendidas en el país según origen."
+    original: {ficha: p206, imagen: 1336}
+    tipo: lineas
+    frecuencia: T
+    desde: "2016-01"
+    unidad: "unidades"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: maq_tractores_nac, nombre: "Tractores nacionales"}
+      - {serie: maq_tractores_imp, nombre: "Tractores importados"}
+      - {serie: maq_cosechadoras_nac, nombre: "Cosechadoras nacionales"}
+      - {serie: maq_cosechadoras_imp, nombre: "Cosechadoras importadas"}
+    fuentes:
+      - {nombre: "INDEC, Informe de la industria de maquinaria agrícola", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-6-20", nivel: primaria}
+    metodo: "Ventas trimestrales por origen. El INDEC no publica la apertura de algunos trimestres (2022-2024) por secreto estadístico: en esos tramos la línea se corta. Las sembradoras no se abren por origen (secreto estadístico): su total está en el gráfico anterior. Reúne las fichas p205, p206 y p207."
+
+  - id: siniestros_viales
+    tema: 10
+    titulo: "Muertos en siniestros viales"
+    que_muestra: "Víctimas fatales en accidentes de tránsito cada 100.000 habitantes, según las denuncias policiales."
+    original: {ficha: p275, imagen: 1272}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "víctimas cada 100.000 habitantes"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: viales_muertos_tasa, nombre: "Muertos"}
+    fuentes:
+      - {nombre: "Ministerio de Seguridad, Sistema Nacional de Información Criminal (SNIC): homicidios y lesiones culposas en accidentes viales", url: "https://www.argentina.gob.ar/seguridad/estadisticascriminales", nivel: primaria}
+    metodo: "Hechos registrados por las fuerzas policiales; la ANSV publica cifras algo mayores porque suma fallecidos hasta 30 días después del siniestro. Reúne las fichas p275 y p276; las tasas por tipo de vehículo, por parque automotor y por causa (fichas p269-p274, p291-p294) necesitan el parque del DNRPA y quedan para el lote 6."
+
+
+  - id: heridos_viales
+    tema: 10
+    titulo: "Heridos en siniestros viales"
+    que_muestra: "Personas lesionadas en accidentes de tránsito cada 100.000 habitantes, según las denuncias policiales."
+    original: {ficha: p276, imagen: 1273}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "víctimas cada 100.000 habitantes"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: viales_heridos_tasa, nombre: "Heridos"}
+    fuentes:
+      - {nombre: "Ministerio de Seguridad, Sistema Nacional de Información Criminal (SNIC): homicidios y lesiones culposas en accidentes viales", url: "https://www.argentina.gob.ar/seguridad/estadisticascriminales", nivel: primaria}
+    metodo: "Hechos registrados por las fuerzas policiales; la ANSV publica cifras algo mayores porque suma fallecidos hasta 30 días después del siniestro. Reúne las fichas p275 y p276; las tasas por tipo de vehículo, por parque automotor y por causa (fichas p269-p274, p291-p294) necesitan el parque del DNRPA y quedan para el lote 6."
+
+  - id: mortalidad_infantil
+    tema: 14
+    titulo: "Mortalidad infantil y fetal"
+    que_muestra: "Muertes de menores de un año cada 1.000 nacidos vivos, y defunciones fetales cada 1.000 nacimientos."
+    original: {ficha: p323, imagen: 1283}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "cada 1.000 nacidos"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: mortalidad_infantil, nombre: "Mortalidad infantil"}
+      - {serie: mortalidad_fetal, nombre: "Mortalidad fetal"}
+    fuentes:
+      - {nombre: "Ministerio de Salud, Dirección de Estadísticas e Información de Salud (DEIS)", url: "https://www.argentina.gob.ar/salud/deis", nivel: primaria}
+    metodo: "Estadísticas vitales anuales. El original descontaba abortos de la mortalidad fetal; las defunciones fetales publicadas por la DEIS son las registradas (de 22 semanas o más), y esa corrección queda para el lote 7."

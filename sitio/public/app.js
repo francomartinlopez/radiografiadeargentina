@@ -300,7 +300,11 @@ function dibujarTemporal(contenedor, cfg) {
           "stroke-dasharray": punteada ? "4 3" : null, opacity: s.tenue ? 0.7 : s.grueso || cfg.series.length === 1 ? 1 : 0.85 }));
       };
       let actual = null;
+      // en series mensuales y trimestrales, un hueco de datos corta la línea (no se inventa el tramo)
+      const paso = { M: 1, T: 3, S: 6 }[cfg.frecuencia];
+      const meses = (a, b) => (b.t.getFullYear() - a.t.getFullYear()) * 12 + b.t.getMonth() - a.t.getMonth();
       s.puntos.forEach((p, i) => {
+        if (paso && i > 0 && meses(s.puntos[i - 1], p) > paso * 1.5) { cerrar(actual); tramo = []; actual = null; }
         const punteada = !!p.tramo;
         if (actual === null) actual = punteada;
         if (punteada !== actual) { tramo.push(p); cerrar(actual); tramo = [s.puntos[i - 1] || p]; actual = punteada; }
