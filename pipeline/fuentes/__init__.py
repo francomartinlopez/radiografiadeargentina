@@ -15,8 +15,18 @@ REINTENTOS = 3
 CABECERAS = {"User-Agent": "datos-argentina/1.0 (+https://github.com)"}
 
 
+_HOSTS_CAIDOS: set[str] = set()
+
+
 def pedir(url: str, params: dict | None = None, verify: bool = True) -> requests.Response:
-    """GET con reintentos y espera creciente. Lanza la última excepción si todos fallan."""
+    """GET con reintentos y espera creciente. Lanza la última excepción si todos fallan.
+
+    Si un sitio no responde ni siquiera a la conexión, no se vuelve a intentar en esta corrida
+    (evita minutos de esperas cuando una fuente está caída o bloqueada)."""
+    from urllib.parse import urlparse
+    host = urlparse(url).netloc
+    if host in _HOSTS_CAIDOS:
+        raise RuntimeError(f"No se pudo descargar {url}: {host} no respondió antes en esta corrida")
     ultimo_error: Exception | None = None
     for intento in range(REINTENTOS):
         try:
@@ -26,12 +36,15 @@ def pedir(url: str, params: dict | None = None, verify: bool = True) -> requests
         except requests.RequestException as e:  # red, 5xx, 4xx
             ultimo_error = e
             time.sleep(2 ** intento)
+    # Si los tres intentos fallaron al conectar, el sitio está caído o bloqueado: no se insiste
+    if isinstance(ultimo_error, requests.ConnectionError):
+        _HOSTS_CAIDOS.add(host)
     raise RuntimeError(f"No se pudo descargar {url}: {ultimo_error}")
 
 
 def extraer(definicion: dict):
     """Despacha según el campo 'fuente' de la definición de la serie."""
-    from . import archivos, argentinadatos, bcra, csv_url, datosgobar, encuestas, fred, indec_api, manual, owid, yahoo
+    from . import archivos, argentinadatos, bcra, csv_url, datosgobar, encuestas, fred, imf, indec_api, manual, owid, worldbank, yahoo
 
     fuentes = {
         "datosgobar": datosgobar.extraer,
@@ -45,6 +58,8 @@ def extraer(definicion: dict):
         "csv_url": csv_url.extraer,
         "encuestas": encuestas.extraer,
         "indec_api": indec_api.extraer,
+        "worldbank": worldbank.extraer,
+        "imf": imf.extraer,
     }
     tipo = definicion["fuente"]
     if tipo not in fuentes:

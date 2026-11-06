@@ -114,3 +114,13 @@ def test_empalme_puente_interanual():
     assert [m.strftime("%Y-%m") for m in faltan] == ["2015-10", "2015-11", "2015-12", "2016-01", "2016-02"][:len(faltan)]
     oct15 = s[pd.Timestamp("2015-10-01")] / s[pd.Timestamp("2014-10-01")]
     assert abs(oct15 - 1.01 ** 12) < 1e-9
+
+
+def test_worldbank_e_imf_parsean():
+    from pipeline.fuentes import imf, worldbank
+    filas = (("ARG", "2020", 10.5), ("ARG", "2021", None), ("BRA", "2020", 3.0), ("ARG", "2019", 9.0))
+    s = worldbank.parsear(filas, "ARG")
+    assert list(s.values) == [9.0, 10.5] and s.index[0].year == 2019
+    js = {"values": {"GGXWDG_NGDP": {"ARG": {"2019": 88.7, "2020": 102.8, "2099": 50.0}}}}
+    s = imf.parsear(js, "GGXWDG_NGDP", "ARG")
+    assert list(s.values) == [88.7, 102.8]

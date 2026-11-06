@@ -498,6 +498,180 @@ series:
   ipi_metales:         {fuente: datosgobar, id: "453.2_INDUSTRIASCAS_0_0_28_0"}
   ipi_maquinaria:      {fuente: datosgobar, id: "453.2_MAQUINARIAIPO_0_0_17_14"}
   ipi_textiles:        {fuente: datosgobar, id: "453.2_PRODUCTOS_LES_0_0_18_32"}
+  # Radiografía, lote 4: comparaciones entre países (Banco Mundial y FMI; se bajan en GitHub Actions)
+  wb_ny_gdp_pcap_pp_kd_arg: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: ARG}
+  wb_ny_gdp_pcap_pp_kd_bra: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: BRA}
+  wb_ny_gdp_pcap_pp_kd_chl: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: CHL}
+  wb_ny_gdp_pcap_pp_kd_ury: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: URY}
+  wb_ny_gdp_pcap_pp_kd_mex: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: MEX}
+  wb_ny_gdp_pcap_pp_kd_esp: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: ESP}
+  wb_ny_gdp_pcap_pp_kd_ita: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: ITA}
+  wb_ny_gdp_pcap_pp_kd_usa: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: USA}
+  imf_pcpipch_arg: {fuente: imf, id: "PCPIPCH", pais: ARG}
+  imf_pcpipch_bra: {fuente: imf, id: "PCPIPCH", pais: BRA}
+  imf_pcpipch_chl: {fuente: imf, id: "PCPIPCH", pais: CHL}
+  imf_pcpipch_ury: {fuente: imf, id: "PCPIPCH", pais: URY}
+  imf_pcpipch_mex: {fuente: imf, id: "PCPIPCH", pais: MEX}
+  imf_pcpipch_esp: {fuente: imf, id: "PCPIPCH", pais: ESP}
+  imf_pcpipch_ita: {fuente: imf, id: "PCPIPCH", pais: ITA}
+  imf_pcpipch_usa: {fuente: imf, id: "PCPIPCH", pais: USA}
+  imf_ggxwdg_ngdp_arg: {fuente: imf, id: "GGXWDG_NGDP", pais: ARG}
+  imf_ggxwdg_ngdp_bra: {fuente: imf, id: "GGXWDG_NGDP", pais: BRA}
+  imf_ggxwdg_ngdp_chl: {fuente: imf, id: "GGXWDG_NGDP", pais: CHL}
+  imf_ggxwdg_ngdp_ury: {fuente: imf, id: "GGXWDG_NGDP", pais: URY}
+  imf_ggxwdg_ngdp_mex: {fuente: imf, id: "GGXWDG_NGDP", pais: MEX}
+  imf_ggxwdg_ngdp_esp: {fuente: imf, id: "GGXWDG_NGDP", pais: ESP}
+  imf_ggxwdg_ngdp_ita: {fuente: imf, id: "GGXWDG_NGDP", pais: ITA}
+  imf_ggxwdg_ngdp_usa: {fuente: imf, id: "GGXWDG_NGDP", pais: USA}
+  imf_ggx_ngdp_arg: {fuente: imf, id: "GGX_NGDP", pais: ARG}
+  imf_ggx_ngdp_bra: {fuente: imf, id: "GGX_NGDP", pais: BRA}
+  imf_ggx_ngdp_chl: {fuente: imf, id: "GGX_NGDP", pais: CHL}
+  imf_ggx_ngdp_ury: {fuente: imf, id: "GGX_NGDP", pais: URY}
+  imf_ggx_ngdp_mex: {fuente: imf, id: "GGX_NGDP", pais: MEX}
+  imf_ggx_ngdp_esp: {fuente: imf, id: "GGX_NGDP", pais: ESP}
+  imf_ggx_ngdp_ita: {fuente: imf, id: "GGX_NGDP", pais: ITA}
+  imf_ggx_ngdp_usa: {fuente: imf, id: "GGX_NGDP", pais: USA}
+  imf_ggr_ngdp_arg: {fuente: imf, id: "GGR_NGDP", pais: ARG}
+  imf_ggr_ngdp_bra: {fuente: imf, id: "GGR_NGDP", pais: BRA}
+  imf_ggr_ngdp_chl: {fuente: imf, id: "GGR_NGDP", pais: CHL}
+  imf_ggr_ngdp_ury: {fuente: imf, id: "GGR_NGDP", pais: URY}
+  imf_ggr_ngdp_mex: {fuente: imf, id: "GGR_NGDP", pais: MEX}
+  imf_ggr_ngdp_esp: {fuente: imf, id: "GGR_NGDP", pais: ESP}
+  imf_ggr_ngdp_ita: {fuente: imf, id: "GGR_NGDP", pais: ITA}
+  imf_ggr_ngdp_usa: {fuente: imf, id: "GGR_NGDP", pais: USA}
+  wb_ne_rsb_gnfs_zs_arg: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: ARG}
+  wb_ne_rsb_gnfs_zs_bra: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: BRA}
+  wb_ne_rsb_gnfs_zs_chl: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: CHL}
+  wb_ne_rsb_gnfs_zs_ury: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: URY}
+  wb_ne_rsb_gnfs_zs_mex: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: MEX}
+  wb_ne_rsb_gnfs_zs_esp: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: ESP}
+  wb_ne_rsb_gnfs_zs_ita: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: ITA}
+  wb_ne_rsb_gnfs_zs_usa: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: USA}
+  wb_sl_uem_totl_zs_arg: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: ARG}
+  wb_sl_uem_totl_zs_bra: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: BRA}
+  wb_sl_uem_totl_zs_chl: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: CHL}
+  wb_sl_uem_totl_zs_ury: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: URY}
+  wb_sl_uem_totl_zs_mex: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: MEX}
+  wb_sl_uem_totl_zs_esp: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: ESP}
+  wb_sl_uem_totl_zs_ita: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: ITA}
+  wb_sl_uem_totl_zs_usa: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: USA}
+  wb_eg_elc_accs_zs_arg: {fuente: worldbank, id: "EG.ELC.ACCS.ZS", pais: ARG}
+  wb_eg_elc_accs_zs_bra: {fuente: worldbank, id: "EG.ELC.ACCS.ZS", pais: BRA}
+  wb_eg_elc_accs_zs_chl: {fuente: worldbank, id: "EG.ELC.ACCS.ZS", pais: CHL}
+  wb_eg_elc_accs_zs_ury: {fuente: worldbank, id: "EG.ELC.ACCS.ZS", pais: URY}
+  wb_eg_elc_accs_zs_mex: {fuente: worldbank, id: "EG.ELC.ACCS.ZS", pais: MEX}
+  wb_eg_elc_accs_zs_esp: {fuente: worldbank, id: "EG.ELC.ACCS.ZS", pais: ESP}
+  wb_eg_elc_accs_zs_ita: {fuente: worldbank, id: "EG.ELC.ACCS.ZS", pais: ITA}
+  wb_eg_elc_accs_zs_usa: {fuente: worldbank, id: "EG.ELC.ACCS.ZS", pais: USA}
+  wb_sp_urb_totl_in_zs_arg: {fuente: worldbank, id: "SP.URB.TOTL.IN.ZS", pais: ARG}
+  wb_sp_urb_totl_in_zs_bra: {fuente: worldbank, id: "SP.URB.TOTL.IN.ZS", pais: BRA}
+  wb_sp_urb_totl_in_zs_chl: {fuente: worldbank, id: "SP.URB.TOTL.IN.ZS", pais: CHL}
+  wb_sp_urb_totl_in_zs_ury: {fuente: worldbank, id: "SP.URB.TOTL.IN.ZS", pais: URY}
+  wb_sp_urb_totl_in_zs_mex: {fuente: worldbank, id: "SP.URB.TOTL.IN.ZS", pais: MEX}
+  wb_sp_urb_totl_in_zs_esp: {fuente: worldbank, id: "SP.URB.TOTL.IN.ZS", pais: ESP}
+  wb_sp_urb_totl_in_zs_ita: {fuente: worldbank, id: "SP.URB.TOTL.IN.ZS", pais: ITA}
+  wb_sp_urb_totl_in_zs_usa: {fuente: worldbank, id: "SP.URB.TOTL.IN.ZS", pais: USA}
+  wb_sp_pop_0014_to_zs_arg: {fuente: worldbank, id: "SP.POP.0014.TO.ZS", pais: ARG}
+  wb_sp_pop_0014_to_zs_bra: {fuente: worldbank, id: "SP.POP.0014.TO.ZS", pais: BRA}
+  wb_sp_pop_0014_to_zs_chl: {fuente: worldbank, id: "SP.POP.0014.TO.ZS", pais: CHL}
+  wb_sp_pop_0014_to_zs_ury: {fuente: worldbank, id: "SP.POP.0014.TO.ZS", pais: URY}
+  wb_sp_pop_0014_to_zs_mex: {fuente: worldbank, id: "SP.POP.0014.TO.ZS", pais: MEX}
+  wb_sp_pop_0014_to_zs_esp: {fuente: worldbank, id: "SP.POP.0014.TO.ZS", pais: ESP}
+  wb_sp_pop_0014_to_zs_ita: {fuente: worldbank, id: "SP.POP.0014.TO.ZS", pais: ITA}
+  wb_sp_pop_0014_to_zs_usa: {fuente: worldbank, id: "SP.POP.0014.TO.ZS", pais: USA}
+  wb_sp_dyn_cbrt_in_arg: {fuente: worldbank, id: "SP.DYN.CBRT.IN", pais: ARG}
+  wb_sp_dyn_cbrt_in_bra: {fuente: worldbank, id: "SP.DYN.CBRT.IN", pais: BRA}
+  wb_sp_dyn_cbrt_in_chl: {fuente: worldbank, id: "SP.DYN.CBRT.IN", pais: CHL}
+  wb_sp_dyn_cbrt_in_ury: {fuente: worldbank, id: "SP.DYN.CBRT.IN", pais: URY}
+  wb_sp_dyn_cbrt_in_mex: {fuente: worldbank, id: "SP.DYN.CBRT.IN", pais: MEX}
+  wb_sp_dyn_cbrt_in_esp: {fuente: worldbank, id: "SP.DYN.CBRT.IN", pais: ESP}
+  wb_sp_dyn_cbrt_in_ita: {fuente: worldbank, id: "SP.DYN.CBRT.IN", pais: ITA}
+  wb_sp_dyn_cbrt_in_usa: {fuente: worldbank, id: "SP.DYN.CBRT.IN", pais: USA}
+  wb_se_ter_enrr_arg: {fuente: worldbank, id: "SE.TER.ENRR", pais: ARG}
+  wb_se_ter_enrr_bra: {fuente: worldbank, id: "SE.TER.ENRR", pais: BRA}
+  wb_se_ter_enrr_chl: {fuente: worldbank, id: "SE.TER.ENRR", pais: CHL}
+  wb_se_ter_enrr_ury: {fuente: worldbank, id: "SE.TER.ENRR", pais: URY}
+  wb_se_ter_enrr_mex: {fuente: worldbank, id: "SE.TER.ENRR", pais: MEX}
+  wb_se_ter_enrr_esp: {fuente: worldbank, id: "SE.TER.ENRR", pais: ESP}
+  wb_se_ter_enrr_ita: {fuente: worldbank, id: "SE.TER.ENRR", pais: ITA}
+  wb_se_ter_enrr_usa: {fuente: worldbank, id: "SE.TER.ENRR", pais: USA}
+  wb_sh_sta_bass_zs_arg: {fuente: worldbank, id: "SH.STA.BASS.ZS", pais: ARG}
+  wb_sh_sta_bass_zs_bra: {fuente: worldbank, id: "SH.STA.BASS.ZS", pais: BRA}
+  wb_sh_sta_bass_zs_chl: {fuente: worldbank, id: "SH.STA.BASS.ZS", pais: CHL}
+  wb_sh_sta_bass_zs_ury: {fuente: worldbank, id: "SH.STA.BASS.ZS", pais: URY}
+  wb_sh_sta_bass_zs_mex: {fuente: worldbank, id: "SH.STA.BASS.ZS", pais: MEX}
+  wb_sh_sta_bass_zs_esp: {fuente: worldbank, id: "SH.STA.BASS.ZS", pais: ESP}
+  wb_sh_sta_bass_zs_ita: {fuente: worldbank, id: "SH.STA.BASS.ZS", pais: ITA}
+  wb_sh_sta_bass_zs_usa: {fuente: worldbank, id: "SH.STA.BASS.ZS", pais: USA}
+  wb_sh_h2o_basw_zs_arg: {fuente: worldbank, id: "SH.H2O.BASW.ZS", pais: ARG}
+  wb_sh_h2o_basw_zs_bra: {fuente: worldbank, id: "SH.H2O.BASW.ZS", pais: BRA}
+  wb_sh_h2o_basw_zs_chl: {fuente: worldbank, id: "SH.H2O.BASW.ZS", pais: CHL}
+  wb_sh_h2o_basw_zs_ury: {fuente: worldbank, id: "SH.H2O.BASW.ZS", pais: URY}
+  wb_sh_h2o_basw_zs_mex: {fuente: worldbank, id: "SH.H2O.BASW.ZS", pais: MEX}
+  wb_sh_h2o_basw_zs_esp: {fuente: worldbank, id: "SH.H2O.BASW.ZS", pais: ESP}
+  wb_sh_h2o_basw_zs_ita: {fuente: worldbank, id: "SH.H2O.BASW.ZS", pais: ITA}
+  wb_sh_h2o_basw_zs_usa: {fuente: worldbank, id: "SH.H2O.BASW.ZS", pais: USA}
+  wb_sp_dyn_le00_in_arg: {fuente: worldbank, id: "SP.DYN.LE00.IN", pais: ARG}
+  wb_sp_dyn_le00_in_bra: {fuente: worldbank, id: "SP.DYN.LE00.IN", pais: BRA}
+  wb_sp_dyn_le00_in_chl: {fuente: worldbank, id: "SP.DYN.LE00.IN", pais: CHL}
+  wb_sp_dyn_le00_in_ury: {fuente: worldbank, id: "SP.DYN.LE00.IN", pais: URY}
+  wb_sp_dyn_le00_in_mex: {fuente: worldbank, id: "SP.DYN.LE00.IN", pais: MEX}
+  wb_sp_dyn_le00_in_esp: {fuente: worldbank, id: "SP.DYN.LE00.IN", pais: ESP}
+  wb_sp_dyn_le00_in_ita: {fuente: worldbank, id: "SP.DYN.LE00.IN", pais: ITA}
+  wb_sp_dyn_le00_in_usa: {fuente: worldbank, id: "SP.DYN.LE00.IN", pais: USA}
+  wb_sh_xpd_chex_gd_zs_arg: {fuente: worldbank, id: "SH.XPD.CHEX.GD.ZS", pais: ARG}
+  wb_sh_xpd_chex_gd_zs_bra: {fuente: worldbank, id: "SH.XPD.CHEX.GD.ZS", pais: BRA}
+  wb_sh_xpd_chex_gd_zs_chl: {fuente: worldbank, id: "SH.XPD.CHEX.GD.ZS", pais: CHL}
+  wb_sh_xpd_chex_gd_zs_ury: {fuente: worldbank, id: "SH.XPD.CHEX.GD.ZS", pais: URY}
+  wb_sh_xpd_chex_gd_zs_mex: {fuente: worldbank, id: "SH.XPD.CHEX.GD.ZS", pais: MEX}
+  wb_sh_xpd_chex_gd_zs_esp: {fuente: worldbank, id: "SH.XPD.CHEX.GD.ZS", pais: ESP}
+  wb_sh_xpd_chex_gd_zs_ita: {fuente: worldbank, id: "SH.XPD.CHEX.GD.ZS", pais: ITA}
+  wb_sh_xpd_chex_gd_zs_usa: {fuente: worldbank, id: "SH.XPD.CHEX.GD.ZS", pais: USA}
+  wb_se_xpd_totl_gd_zs_arg: {fuente: worldbank, id: "SE.XPD.TOTL.GD.ZS", pais: ARG}
+  wb_se_xpd_totl_gd_zs_bra: {fuente: worldbank, id: "SE.XPD.TOTL.GD.ZS", pais: BRA}
+  wb_se_xpd_totl_gd_zs_chl: {fuente: worldbank, id: "SE.XPD.TOTL.GD.ZS", pais: CHL}
+  wb_se_xpd_totl_gd_zs_ury: {fuente: worldbank, id: "SE.XPD.TOTL.GD.ZS", pais: URY}
+  wb_se_xpd_totl_gd_zs_mex: {fuente: worldbank, id: "SE.XPD.TOTL.GD.ZS", pais: MEX}
+  wb_se_xpd_totl_gd_zs_esp: {fuente: worldbank, id: "SE.XPD.TOTL.GD.ZS", pais: ESP}
+  wb_se_xpd_totl_gd_zs_ita: {fuente: worldbank, id: "SE.XPD.TOTL.GD.ZS", pais: ITA}
+  wb_se_xpd_totl_gd_zs_usa: {fuente: worldbank, id: "SE.XPD.TOTL.GD.ZS", pais: USA}
+  wb_ny_gns_ictr_zs_arg: {fuente: worldbank, id: "NY.GNS.ICTR.ZS", pais: ARG}
+  wb_ny_gns_ictr_zs_bra: {fuente: worldbank, id: "NY.GNS.ICTR.ZS", pais: BRA}
+  wb_ny_gns_ictr_zs_chl: {fuente: worldbank, id: "NY.GNS.ICTR.ZS", pais: CHL}
+  wb_ny_gns_ictr_zs_ury: {fuente: worldbank, id: "NY.GNS.ICTR.ZS", pais: URY}
+  wb_ny_gns_ictr_zs_mex: {fuente: worldbank, id: "NY.GNS.ICTR.ZS", pais: MEX}
+  wb_ny_gns_ictr_zs_esp: {fuente: worldbank, id: "NY.GNS.ICTR.ZS", pais: ESP}
+  wb_ny_gns_ictr_zs_ita: {fuente: worldbank, id: "NY.GNS.ICTR.ZS", pais: ITA}
+  wb_ny_gns_ictr_zs_usa: {fuente: worldbank, id: "NY.GNS.ICTR.ZS", pais: USA}
+  wb_bx_klt_dinv_wd_gd_zs_arg: {fuente: worldbank, id: "BX.KLT.DINV.WD.GD.ZS", pais: ARG}
+  wb_bx_klt_dinv_wd_gd_zs_bra: {fuente: worldbank, id: "BX.KLT.DINV.WD.GD.ZS", pais: BRA}
+  wb_bx_klt_dinv_wd_gd_zs_chl: {fuente: worldbank, id: "BX.KLT.DINV.WD.GD.ZS", pais: CHL}
+  wb_bx_klt_dinv_wd_gd_zs_ury: {fuente: worldbank, id: "BX.KLT.DINV.WD.GD.ZS", pais: URY}
+  wb_bx_klt_dinv_wd_gd_zs_mex: {fuente: worldbank, id: "BX.KLT.DINV.WD.GD.ZS", pais: MEX}
+  wb_bx_klt_dinv_wd_gd_zs_esp: {fuente: worldbank, id: "BX.KLT.DINV.WD.GD.ZS", pais: ESP}
+  wb_bx_klt_dinv_wd_gd_zs_ita: {fuente: worldbank, id: "BX.KLT.DINV.WD.GD.ZS", pais: ITA}
+  wb_bx_klt_dinv_wd_gd_zs_usa: {fuente: worldbank, id: "BX.KLT.DINV.WD.GD.ZS", pais: USA}
+  wb_vc_ihr_psrc_p5_arg: {fuente: worldbank, id: "VC.IHR.PSRC.P5", pais: ARG}
+  wb_vc_ihr_psrc_p5_bra: {fuente: worldbank, id: "VC.IHR.PSRC.P5", pais: BRA}
+  wb_vc_ihr_psrc_p5_chl: {fuente: worldbank, id: "VC.IHR.PSRC.P5", pais: CHL}
+  wb_vc_ihr_psrc_p5_ury: {fuente: worldbank, id: "VC.IHR.PSRC.P5", pais: URY}
+  wb_vc_ihr_psrc_p5_mex: {fuente: worldbank, id: "VC.IHR.PSRC.P5", pais: MEX}
+  wb_vc_ihr_psrc_p5_esp: {fuente: worldbank, id: "VC.IHR.PSRC.P5", pais: ESP}
+  wb_vc_ihr_psrc_p5_ita: {fuente: worldbank, id: "VC.IHR.PSRC.P5", pais: ITA}
+  wb_vc_ihr_psrc_p5_usa: {fuente: worldbank, id: "VC.IHR.PSRC.P5", pais: USA}
+  bigmac_ars:          {fuente: csv_url, url: "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv", filtro: {iso_a3: ARG}, fecha: date, valor: local_price}
+  bigmac_usd_arg:      {fuente: csv_url, url: "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv", filtro: {iso_a3: ARG}, fecha: date, valor: dollar_price}
+  bigmac_usd_usa:      {fuente: csv_url, url: "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv", filtro: {iso_a3: USA}, fecha: date, valor: dollar_price}
+  bigmac_usd_bra:      {fuente: csv_url, url: "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv", filtro: {iso_a3: BRA}, fecha: date, valor: dollar_price}
+  bigmac_usd_chl:      {fuente: csv_url, url: "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv", filtro: {iso_a3: CHL}, fecha: date, valor: dollar_price}
+  bigmac_usd_ury:      {fuente: csv_url, url: "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv", filtro: {iso_a3: URY}, fecha: date, valor: dollar_price}
+  bigmac_usd_mex:      {fuente: csv_url, url: "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv", filtro: {iso_a3: MEX}, fecha: date, valor: dollar_price}
+  precio_soja:         {fuente: fred, id: PSOYBUSDM}
+  precio_maiz:         {fuente: fred, id: PMAIZMTUSDM}
+  precio_trigo:        {fuente: fred, id: PWHEAMTUSDM}
+  precio_brent:        {fuente: fred, id: POILBREUSDM}
+  precio_gas_eeuu:     {fuente: fred, id: PNGASUSUSDM}
+  sp500:               {fuente: yahoo, id: "^GSPC"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

@@ -1935,3 +1935,911 @@ graficos:
     fuentes:
       - {nombre: "INDEC, Índice de Producción Industrial manufacturero (IPI) por división", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-6-18", nivel: primaria}
     metodo: "Índices mensuales del IPI base 2016, promediados en 12 meses para sacar la estacionalidad (el INDEC no publica las ramas desestacionalizadas) y llevados a base 100 al inicio del período elegido. Los índices por rama anteriores a 2016 (EMI) tienen otra cobertura y no se empalman acá."
+
+  # ---------- Paso 5 (lote 4), tanda 1: comparaciones entre países ----------
+
+  - id: pib_pc_paises
+    tema: 1
+    titulo: 'PIB por habitante: Argentina y otros países'
+    que_muestra: PIB por habitante a paridad de poder adquisitivo (dólares internacionales constantes), que corrige las diferencias de precios entre países.
+    original:
+      ficha: p11
+      imagen: 1164
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: US$ PPA constantes
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_ny_gdp_pcap_pp_kd_arg
+      nombre: Argentina
+    - serie: wb_ny_gdp_pcap_pp_kd_bra
+      nombre: Brasil
+    - serie: wb_ny_gdp_pcap_pp_kd_chl
+      nombre: Chile
+    - serie: wb_ny_gdp_pcap_pp_kd_ury
+      nombre: Uruguay
+    - serie: wb_ny_gdp_pcap_pp_kd_mex
+      nombre: México
+    - serie: wb_ny_gdp_pcap_pp_kd_esp
+      nombre: España
+    - serie: wb_ny_gdp_pcap_pp_kd_ita
+      nombre: Italia
+    - serie: wb_ny_gdp_pcap_pp_kd_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Banco Mundial (Programa de Comparación Internacional). Para años anteriores a 1990 ver PIB por habitante desde 1850 (Maddison).
+
+  - id: inflacion_paises
+    tema: 2
+    titulo: 'Inflación anual: Argentina y otros países'
+    que_muestra: Variación promedio anual de los precios al consumidor.
+    original:
+      ficha: p30
+      imagen: 1191
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1980'
+    unidad: '% anual'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: imf_pcpipch_arg
+      nombre: Argentina
+    - serie: imf_pcpipch_bra
+      nombre: Brasil
+    - serie: imf_pcpipch_chl
+      nombre: Chile
+    - serie: imf_pcpipch_ury
+      nombre: Uruguay
+    - serie: imf_pcpipch_mex
+      nombre: México
+    - serie: imf_pcpipch_esp
+      nombre: España
+    - serie: imf_pcpipch_ita
+      nombre: Italia
+    - serie: imf_pcpipch_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: FMI, World Economic Outlook (DataMapper)
+      url: https://www.imf.org/external/datamapper/PCPIPCH
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del FMI (World Economic Outlook). Para la Argentina 2007-2015 el FMI usa estimaciones propias en reemplazo del IPC intervenido. Solo años con dato, sin proyecciones.
+
+  - id: deuda_paises
+    tema: 3
+    titulo: 'Deuda pública: Argentina y otros países'
+    que_muestra: Deuda bruta del gobierno general como % del PIB.
+    original:
+      ficha: p64
+      imagen: 1179
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% del PIB'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: imf_ggxwdg_ngdp_arg
+      nombre: Argentina
+    - serie: imf_ggxwdg_ngdp_bra
+      nombre: Brasil
+    - serie: imf_ggxwdg_ngdp_chl
+      nombre: Chile
+    - serie: imf_ggxwdg_ngdp_ury
+      nombre: Uruguay
+    - serie: imf_ggxwdg_ngdp_mex
+      nombre: México
+    - serie: imf_ggxwdg_ngdp_esp
+      nombre: España
+    - serie: imf_ggxwdg_ngdp_ita
+      nombre: Italia
+    - serie: imf_ggxwdg_ngdp_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: FMI, World Economic Outlook (DataMapper)
+      url: https://www.imf.org/external/datamapper/GGXWDG_NGDP
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del FMI (World Economic Outlook), gobierno general (Nación, provincias y municipios).
+
+  - id: gasto_paises
+    tema: 3
+    titulo: 'Gasto público: Argentina y otros países'
+    que_muestra: Gasto total del gobierno general como % del PIB.
+    original:
+      ficha: p65
+      imagen: 1180
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% del PIB'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: imf_ggx_ngdp_arg
+      nombre: Argentina
+    - serie: imf_ggx_ngdp_bra
+      nombre: Brasil
+    - serie: imf_ggx_ngdp_chl
+      nombre: Chile
+    - serie: imf_ggx_ngdp_ury
+      nombre: Uruguay
+    - serie: imf_ggx_ngdp_mex
+      nombre: México
+    - serie: imf_ggx_ngdp_esp
+      nombre: España
+    - serie: imf_ggx_ngdp_ita
+      nombre: Italia
+    - serie: imf_ggx_ngdp_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: FMI, World Economic Outlook (DataMapper)
+      url: https://www.imf.org/external/datamapper/GGX_NGDP
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del FMI (World Economic Outlook), gobierno general.
+
+  - id: ingresos_estado_paises
+    tema: 3
+    titulo: 'Ingresos del Estado: Argentina y otros países'
+    que_muestra: Ingresos totales del gobierno general (impuestos, aportes y otros) como % del PIB.
+    original:
+      ficha: p60
+      imagen: 1131
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% del PIB'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: imf_ggr_ngdp_arg
+      nombre: Argentina
+    - serie: imf_ggr_ngdp_bra
+      nombre: Brasil
+    - serie: imf_ggr_ngdp_chl
+      nombre: Chile
+    - serie: imf_ggr_ngdp_ury
+      nombre: Uruguay
+    - serie: imf_ggr_ngdp_mex
+      nombre: México
+    - serie: imf_ggr_ngdp_esp
+      nombre: España
+    - serie: imf_ggr_ngdp_ita
+      nombre: Italia
+    - serie: imf_ggr_ngdp_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: FMI, World Economic Outlook (DataMapper)
+      url: https://www.imf.org/external/datamapper/GGR_NGDP
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del FMI (World Economic Outlook), gobierno general. Es la presión fiscal 'general'; la presión sobre el sector formal (descontando la economía informal) que mostraba el original es una estimación y queda para el lote 6. Reúne las fichas p60 y p61.
+
+  - id: balanza_comercial_paises
+    tema: 4
+    titulo: 'Saldo comercial: Argentina y otros países'
+    que_muestra: Exportaciones menos importaciones de bienes y servicios, como % del PIB.
+    original:
+      ficha: p112
+      imagen: 1186
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% del PIB'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_ne_rsb_gnfs_zs_arg
+      nombre: Argentina
+    - serie: wb_ne_rsb_gnfs_zs_bra
+      nombre: Brasil
+    - serie: wb_ne_rsb_gnfs_zs_chl
+      nombre: Chile
+    - serie: wb_ne_rsb_gnfs_zs_ury
+      nombre: Uruguay
+    - serie: wb_ne_rsb_gnfs_zs_mex
+      nombre: México
+    - serie: wb_ne_rsb_gnfs_zs_esp
+      nombre: España
+    - serie: wb_ne_rsb_gnfs_zs_ita
+      nombre: Italia
+    - serie: wb_ne_rsb_gnfs_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/NE.RSB.GNFS.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Banco Mundial (cuentas nacionales).
+
+  - id: desempleo_paises
+    tema: 6
+    titulo: 'Desempleo: Argentina y otros países'
+    que_muestra: Desocupados como % de la población activa (estimación modelada de la OIT).
+    original:
+      ficha: p165
+      imagen: 1189
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1991'
+    unidad: '% de la población activa'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_sl_uem_totl_zs_arg
+      nombre: Argentina
+    - serie: wb_sl_uem_totl_zs_bra
+      nombre: Brasil
+    - serie: wb_sl_uem_totl_zs_chl
+      nombre: Chile
+    - serie: wb_sl_uem_totl_zs_ury
+      nombre: Uruguay
+    - serie: wb_sl_uem_totl_zs_mex
+      nombre: México
+    - serie: wb_sl_uem_totl_zs_esp
+      nombre: España
+    - serie: wb_sl_uem_totl_zs_ita
+      nombre: Italia
+    - serie: wb_sl_uem_totl_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Estimaciones modeladas de la OIT, publicadas por el Banco Mundial, que hacen comparables las encuestas de cada país. Difieren un poco de la tasa del INDEC. Reúne las fichas p164 y p165.
+
+  - id: electricidad_paises
+    tema: 9
+    titulo: 'Acceso a la electricidad: Argentina y otros países'
+    que_muestra: Porcentaje de la población con acceso a electricidad.
+    original:
+      ficha: p244
+      imagen: 1176
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% de la población'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_eg_elc_accs_zs_arg
+      nombre: Argentina
+    - serie: wb_eg_elc_accs_zs_bra
+      nombre: Brasil
+    - serie: wb_eg_elc_accs_zs_chl
+      nombre: Chile
+    - serie: wb_eg_elc_accs_zs_ury
+      nombre: Uruguay
+    - serie: wb_eg_elc_accs_zs_mex
+      nombre: México
+    - serie: wb_eg_elc_accs_zs_esp
+      nombre: España
+    - serie: wb_eg_elc_accs_zs_ita
+      nombre: Italia
+    - serie: wb_eg_elc_accs_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Banco Mundial (SE4ALL).
+
+  - id: urbanizacion_paises
+    tema: 12
+    titulo: 'Población urbana: Argentina y otros países'
+    que_muestra: Porcentaje de la población que vive en ciudades.
+    original:
+      ficha: p318
+      imagen: 1173
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1960'
+    unidad: '% de la población'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_sp_urb_totl_in_zs_arg
+      nombre: Argentina
+    - serie: wb_sp_urb_totl_in_zs_bra
+      nombre: Brasil
+    - serie: wb_sp_urb_totl_in_zs_chl
+      nombre: Chile
+    - serie: wb_sp_urb_totl_in_zs_ury
+      nombre: Uruguay
+    - serie: wb_sp_urb_totl_in_zs_mex
+      nombre: México
+    - serie: wb_sp_urb_totl_in_zs_esp
+      nombre: España
+    - serie: wb_sp_urb_totl_in_zs_ita
+      nombre: Italia
+    - serie: wb_sp_urb_totl_in_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Banco Mundial (División de Población de la ONU).
+
+  - id: menores_paises
+    tema: 12
+    titulo: 'Población de 0 a 14 años: Argentina y otros países'
+    que_muestra: Porcentaje de la población con menos de 15 años.
+    original:
+      ficha: p319
+      imagen: 1174
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1960'
+    unidad: '% de la población'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_sp_pop_0014_to_zs_arg
+      nombre: Argentina
+    - serie: wb_sp_pop_0014_to_zs_bra
+      nombre: Brasil
+    - serie: wb_sp_pop_0014_to_zs_chl
+      nombre: Chile
+    - serie: wb_sp_pop_0014_to_zs_ury
+      nombre: Uruguay
+    - serie: wb_sp_pop_0014_to_zs_mex
+      nombre: México
+    - serie: wb_sp_pop_0014_to_zs_esp
+      nombre: España
+    - serie: wb_sp_pop_0014_to_zs_ita
+      nombre: Italia
+    - serie: wb_sp_pop_0014_to_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SP.POP.0014.TO.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Banco Mundial (ONU). El original hablaba de menores de 18; la serie comparable internacional es la de 0 a 14 años.
+
+  - id: natalidad_paises
+    tema: 12
+    titulo: 'Natalidad: Argentina y otros países'
+    que_muestra: Nacimientos cada 1.000 habitantes por año.
+    original:
+      ficha: p326
+      imagen: 1447
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1960'
+    unidad: nacidos cada 1.000 habitantes
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_sp_dyn_cbrt_in_arg
+      nombre: Argentina
+    - serie: wb_sp_dyn_cbrt_in_bra
+      nombre: Brasil
+    - serie: wb_sp_dyn_cbrt_in_chl
+      nombre: Chile
+    - serie: wb_sp_dyn_cbrt_in_ury
+      nombre: Uruguay
+    - serie: wb_sp_dyn_cbrt_in_mex
+      nombre: México
+    - serie: wb_sp_dyn_cbrt_in_esp
+      nombre: España
+    - serie: wb_sp_dyn_cbrt_in_ita
+      nombre: Italia
+    - serie: wb_sp_dyn_cbrt_in_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SP.DYN.CBRT.IN
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Banco Mundial (ONU). La comparación desde 1850 del original queda para el lote 4b (series históricas).
+
+  - id: educacion_superior_paises
+    tema: 16
+    titulo: 'Acceso a la educación superior: Argentina y otros países'
+    que_muestra: Matrícula terciaria y universitaria como % de la población en edad de cursarla (tasa bruta).
+    original:
+      ficha: p357
+      imagen: 1166
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% (tasa bruta)'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_se_ter_enrr_arg
+      nombre: Argentina
+    - serie: wb_se_ter_enrr_bra
+      nombre: Brasil
+    - serie: wb_se_ter_enrr_chl
+      nombre: Chile
+    - serie: wb_se_ter_enrr_ury
+      nombre: Uruguay
+    - serie: wb_se_ter_enrr_mex
+      nombre: México
+    - serie: wb_se_ter_enrr_esp
+      nombre: España
+    - serie: wb_se_ter_enrr_ita
+      nombre: Italia
+    - serie: wb_se_ter_enrr_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SE.TER.ENRR
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie de la UNESCO publicada por el Banco Mundial. La tasa bruta puede superar el 100% porque cuenta a todos los inscriptos, de cualquier edad.
+
+  - id: cloacas_paises
+    tema: 17
+    titulo: 'Acceso a saneamiento: Argentina y otros países'
+    que_muestra: Porcentaje de la población con al menos saneamiento básico (instalación propia que separa los desechos).
+    original:
+      ficha: p375
+      imagen: 1168
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '2000'
+    unidad: '% de la población'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_sh_sta_bass_zs_arg
+      nombre: Argentina
+    - serie: wb_sh_sta_bass_zs_bra
+      nombre: Brasil
+    - serie: wb_sh_sta_bass_zs_chl
+      nombre: Chile
+    - serie: wb_sh_sta_bass_zs_ury
+      nombre: Uruguay
+    - serie: wb_sh_sta_bass_zs_mex
+      nombre: México
+    - serie: wb_sh_sta_bass_zs_esp
+      nombre: España
+    - serie: wb_sh_sta_bass_zs_ita
+      nombre: Italia
+    - serie: wb_sh_sta_bass_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SH.STA.BASS.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Programa Conjunto OMS-UNICEF (JMP), publicada por el Banco Mundial. Incluye cloaca y también pozo con cámara séptica.
+
+  - id: agua_paises
+    tema: 17
+    titulo: 'Acceso a agua potable: Argentina y otros países'
+    que_muestra: Porcentaje de la población con al menos agua potable básica.
+    original:
+      ficha: p376
+      imagen: 1169
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '2000'
+    unidad: '% de la población'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_sh_h2o_basw_zs_arg
+      nombre: Argentina
+    - serie: wb_sh_h2o_basw_zs_bra
+      nombre: Brasil
+    - serie: wb_sh_h2o_basw_zs_chl
+      nombre: Chile
+    - serie: wb_sh_h2o_basw_zs_ury
+      nombre: Uruguay
+    - serie: wb_sh_h2o_basw_zs_mex
+      nombre: México
+    - serie: wb_sh_h2o_basw_zs_esp
+      nombre: España
+    - serie: wb_sh_h2o_basw_zs_ita
+      nombre: Italia
+    - serie: wb_sh_h2o_basw_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SH.H2O.BASW.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Programa Conjunto OMS-UNICEF (JMP), publicada por el Banco Mundial.
+
+  - id: expectativa_vida_paises
+    tema: 19
+    titulo: 'Esperanza de vida: Argentina y otros países'
+    que_muestra: Años que viviría en promedio un recién nacido con la mortalidad de ese año.
+    original:
+      ficha: p415
+      imagen: 1175
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1960'
+    unidad: años
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_sp_dyn_le00_in_arg
+      nombre: Argentina
+    - serie: wb_sp_dyn_le00_in_bra
+      nombre: Brasil
+    - serie: wb_sp_dyn_le00_in_chl
+      nombre: Chile
+    - serie: wb_sp_dyn_le00_in_ury
+      nombre: Uruguay
+    - serie: wb_sp_dyn_le00_in_mex
+      nombre: México
+    - serie: wb_sp_dyn_le00_in_esp
+      nombre: España
+    - serie: wb_sp_dyn_le00_in_ita
+      nombre: Italia
+    - serie: wb_sp_dyn_le00_in_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SP.DYN.LE00.IN
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Banco Mundial (ONU).
+
+  - id: gasto_salud_paises
+    tema: 14
+    titulo: 'Gasto en salud: Argentina y otros países'
+    que_muestra: Gasto corriente total en salud (público y privado) como % del PIB.
+    original:
+      ficha: c1184
+      imagen: 1184
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '2000'
+    unidad: '% del PIB'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_sh_xpd_chex_gd_zs_arg
+      nombre: Argentina
+    - serie: wb_sh_xpd_chex_gd_zs_bra
+      nombre: Brasil
+    - serie: wb_sh_xpd_chex_gd_zs_chl
+      nombre: Chile
+    - serie: wb_sh_xpd_chex_gd_zs_ury
+      nombre: Uruguay
+    - serie: wb_sh_xpd_chex_gd_zs_mex
+      nombre: México
+    - serie: wb_sh_xpd_chex_gd_zs_esp
+      nombre: España
+    - serie: wb_sh_xpd_chex_gd_zs_ita
+      nombre: Italia
+    - serie: wb_sh_xpd_chex_gd_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie de la OMS publicada por el Banco Mundial.
+
+  - id: gasto_educacion_paises
+    tema: 16
+    titulo: 'Gasto público en educación: Argentina y otros países'
+    que_muestra: Gasto público en educación como % del PIB.
+    original:
+      ficha: c1185
+      imagen: 1185
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% del PIB'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_se_xpd_totl_gd_zs_arg
+      nombre: Argentina
+    - serie: wb_se_xpd_totl_gd_zs_bra
+      nombre: Brasil
+    - serie: wb_se_xpd_totl_gd_zs_chl
+      nombre: Chile
+    - serie: wb_se_xpd_totl_gd_zs_ury
+      nombre: Uruguay
+    - serie: wb_se_xpd_totl_gd_zs_mex
+      nombre: México
+    - serie: wb_se_xpd_totl_gd_zs_esp
+      nombre: España
+    - serie: wb_se_xpd_totl_gd_zs_ita
+      nombre: Italia
+    - serie: wb_se_xpd_totl_gd_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie de la UNESCO publicada por el Banco Mundial.
+
+  - id: ahorro_paises
+    tema: 19
+    titulo: 'Ahorro: Argentina y otros países'
+    que_muestra: Ahorro bruto del país (hogares, empresas y Estado) como % del ingreso nacional.
+    original:
+      ficha: p422
+      imagen: 1192
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% del ingreso nacional'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_ny_gns_ictr_zs_arg
+      nombre: Argentina
+    - serie: wb_ny_gns_ictr_zs_bra
+      nombre: Brasil
+    - serie: wb_ny_gns_ictr_zs_chl
+      nombre: Chile
+    - serie: wb_ny_gns_ictr_zs_ury
+      nombre: Uruguay
+    - serie: wb_ny_gns_ictr_zs_mex
+      nombre: México
+    - serie: wb_ny_gns_ictr_zs_esp
+      nombre: España
+    - serie: wb_ny_gns_ictr_zs_ita
+      nombre: Italia
+    - serie: wb_ny_gns_ictr_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/NY.GNS.ICTR.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Banco Mundial (cuentas nacionales). Mide la capacidad de ahorro del país en conjunto, no la de los hogares por separado.
+
+  - id: ied_paises
+    tema: 19
+    titulo: 'Inversión extranjera directa: Argentina y otros países'
+    que_muestra: Ingresos netos de inversión extranjera directa como % del PIB.
+    original:
+      ficha: p424
+      imagen: 1229
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% del PIB'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_bx_klt_dinv_wd_gd_zs_arg
+      nombre: Argentina
+    - serie: wb_bx_klt_dinv_wd_gd_zs_bra
+      nombre: Brasil
+    - serie: wb_bx_klt_dinv_wd_gd_zs_chl
+      nombre: Chile
+    - serie: wb_bx_klt_dinv_wd_gd_zs_ury
+      nombre: Uruguay
+    - serie: wb_bx_klt_dinv_wd_gd_zs_mex
+      nombre: México
+    - serie: wb_bx_klt_dinv_wd_gd_zs_esp
+      nombre: España
+    - serie: wb_bx_klt_dinv_wd_gd_zs_ita
+      nombre: Italia
+    - serie: wb_bx_klt_dinv_wd_gd_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie del Banco Mundial (FMI, balanza de pagos). En % del PIB para comparar economías de distinto tamaño.
+
+  - id: homicidios_paises
+    tema: 20
+    titulo: 'Homicidios: Argentina y otros países'
+    que_muestra: Homicidios intencionales cada 100.000 habitantes.
+    original:
+      ficha: p443
+      imagen: 1432
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: cada 100.000 habitantes
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_vc_ihr_psrc_p5_arg
+      nombre: Argentina
+    - serie: wb_vc_ihr_psrc_p5_bra
+      nombre: Brasil
+    - serie: wb_vc_ihr_psrc_p5_chl
+      nombre: Chile
+    - serie: wb_vc_ihr_psrc_p5_ury
+      nombre: Uruguay
+    - serie: wb_vc_ihr_psrc_p5_mex
+      nombre: México
+    - serie: wb_vc_ihr_psrc_p5_esp
+      nombre: España
+    - serie: wb_vc_ihr_psrc_p5_ita
+      nombre: Italia
+    - serie: wb_vc_ihr_psrc_p5_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/VC.IHR.PSRC.P5
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Serie de la UNODC publicada por el Banco Mundial. La comparación desde 1850 del original queda para el lote 4b.
+
+
+  - id: big_mac_dolares
+    tema: 2
+    titulo: "Precio del Big Mac en dólares"
+    que_muestra: "Cuánto cuesta una hamburguesa Big Mac en dólares (al tipo de cambio oficial de cada país), en dólares de hoy. Si en la Argentina está más cara que en EE.UU., el peso está caro."
+    original: {ficha: p34, imagen: 1314}
+    tipo: lineas_pais
+    frecuencia: S
+    desde: "2001-01"
+    unidad: "US$ de hoy"
+    tipo_valor: nivel
+    moneda: USD
+    medida_inicial: nivel
+    medidas: [nivel, base_100]
+    series:
+      - {serie: bigmac_usd_arg, nombre: "Argentina"}
+      - {serie: bigmac_usd_usa, nombre: "EE.UU."}
+      - {serie: bigmac_usd_bra, nombre: "Brasil"}
+      - {serie: bigmac_usd_chl, nombre: "Chile"}
+      - {serie: bigmac_usd_ury, nombre: "Uruguay"}
+      - {serie: bigmac_usd_mex, nombre: "México"}
+    fuentes:
+      - {nombre: "The Economist, Índice Big Mac (datos en GitHub)", url: "https://github.com/TheEconomist/big-mac-data", nivel: secundaria, nota: "Relevamiento de precios de The Economist"}
+      - {nombre: "BLS, CPI de EE.UU.", url: "https://fred.stlouisfed.org/series/CPIAUCSL", nivel: primaria, nota: "Deflactor de los dólares"}
+    metodo: "Precio local dividido por el tipo de cambio oficial del momento del relevamiento (una o dos veces por año), llevado a dólares de hoy. Con cepo, el dólar oficial subestima el precio en dólares 'libres'."
+
+  - id: big_mac_pesos
+    tema: 2
+    titulo: "Precio del Big Mac en pesos de hoy"
+    que_muestra: "Precio de una Big Mac en la Argentina, en pesos de hoy."
+    original: {ficha: p33, imagen: 1313}
+    tipo: lineas
+    frecuencia: S
+    desde: "2001-01"
+    unidad: "pesos de hoy"
+    tipo_valor: nivel
+    moneda: ARS
+    medida_inicial: nivel
+    medidas: [nivel, base_100]
+    series:
+      - {serie: bigmac_ars, nombre: "Big Mac"}
+    fuentes:
+      - {nombre: "The Economist, Índice Big Mac (datos en GitHub)", url: "https://github.com/TheEconomist/big-mac-data", nivel: secundaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Precio relevado por The Economist en Buenos Aires, llevado a pesos de hoy con el IPC empalmado."
+
+  - id: precios_granos
+    tema: 4
+    titulo: "Precio internacional de la soja, el maíz y el trigo"
+    que_muestra: "Precio mundial por tonelada, en dólares de hoy."
+    original: {ficha: p108, imagen: 1051}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "US$ de hoy por tonelada"
+    tipo_valor: nivel
+    moneda: USD
+    medida_inicial: nivel
+    series:
+      - {serie: precio_soja, nombre: "Soja"}
+      - {serie: precio_maiz, nombre: "Maíz"}
+      - {serie: precio_trigo, nombre: "Trigo"}
+    fuentes:
+      - {nombre: "FMI, Primary Commodity Prices (vía FRED)", url: "https://fred.stlouisfed.org/series/PSOYBUSDM", nivel: secundaria, nota: "Precios de referencia internacionales"}
+      - {nombre: "BLS, CPI de EE.UU.", url: "https://fred.stlouisfed.org/series/CPIAUCSL", nivel: primaria, nota: "Deflactor de los dólares"}
+    metodo: "Promedio mensual de precios de referencia (soja de EE.UU., maíz y trigo de exportación del Golfo de México), llevado a dólares de hoy. No descuenta retenciones ni fletes: no es lo que cobra el productor argentino."
+
+  - id: precios_energia
+    tema: 4
+    titulo: "Precio internacional del petróleo y el gas"
+    que_muestra: "Petróleo Brent y gas natural en EE.UU. (Henry Hub), en dólares de hoy."
+    original: {ficha: p109, imagen: 1052}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "US$ de hoy"
+    tipo_valor: nivel
+    moneda: USD
+    medida_inicial: base_100
+    medidas: [base_100, nivel, interanual]
+    series:
+      - {serie: precio_brent, nombre: "Petróleo Brent (por barril)"}
+      - {serie: precio_gas_eeuu, nombre: "Gas Henry Hub (por millón de BTU)"}
+    fuentes:
+      - {nombre: "FMI, Primary Commodity Prices (vía FRED)", url: "https://fred.stlouisfed.org/series/POILBREUSDM", nivel: secundaria}
+      - {nombre: "BLS, CPI de EE.UU.", url: "https://fred.stlouisfed.org/series/CPIAUCSL", nivel: primaria, nota: "Deflactor de los dólares"}
+    metodo: "Promedios mensuales en dólares de hoy. Como las unidades son distintas (barril y millón de BTU), arranca en base 100; la vista 'nivel' muestra cada precio en su unidad."
+
+  - id: sp500
+    tema: 19
+    titulo: "Bolsa de EE.UU. (S&P 500)"
+    que_muestra: "Índice S&P 500 de las 500 principales empresas de EE.UU., en puntos de hoy (descontada la inflación de EE.UU.)."
+    original: {ficha: p423, imagen: 1205}
+    tipo: lineas
+    frecuencia: M
+    desde: "1995-01"
+    unidad: "puntos de hoy"
+    tipo_valor: nivel
+    moneda: USD
+    medida_inicial: nivel
+    series:
+      - {serie: sp500, nombre: "S&P 500"}
+    fuentes:
+      - {nombre: "S&P Dow Jones Indices, vía Yahoo Finance", url: "https://finance.yahoo.com/quote/%5EGSPC", nivel: secundaria}
+    metodo: "Cierre mensual llevado a valores de hoy con la inflación de EE.UU. Con escala logarítmica se comparan bien las burbujas de 2000 (puntocom) y 2008 (hipotecas) con la suba actual, que el original mostraba en tres ventanas."
