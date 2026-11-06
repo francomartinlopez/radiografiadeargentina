@@ -66,7 +66,7 @@ function medidasDisponibles(g) {
   if (g.frecuencia !== "A") lista.push("interanual");
   if (g.flujo && (g.frecuencia === "M" || g.frecuencia === "T")) lista.push("acumulado_12m");
   if (!esDiferencia(g)) lista.push("base_100");
-  return lista;
+  return g.medidas ? lista.filter(m => g.medidas.includes(m)) : lista;
 }
 function nombreVariacion(g) {
   return { M: "mensual", T: "trimestral", S: "semestral", A: "anual" }[g.frecuencia] || "";

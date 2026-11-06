@@ -24,7 +24,9 @@ def parsear(texto: str, definicion: dict) -> pd.Series:
         df = df[df[col] == val]
     fechas = df[definicion["fecha"]]
     if pd.api.types.is_numeric_dtype(fechas):
-        idx = pd.to_datetime(fechas.astype(int).astype(str) + "-01-01")
+        df = df[fechas >= 1700]  # las fechas anteriores no entran en el rango de pandas
+        fechas = df[definicion["fecha"]]
+        idx = pd.to_datetime(fechas.astype(int).astype(str) + "-01-01", format="%Y-%m-%d")
     else:
         idx = pd.to_datetime(fechas)
     s = pd.Series(pd.to_numeric(df[definicion["valor"]], errors="coerce").values, index=idx, dtype=float).dropna()

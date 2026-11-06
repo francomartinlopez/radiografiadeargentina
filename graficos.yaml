@@ -69,6 +69,66 @@ gobiernos:
   - {nombre: "Alberto Fernández", corto: "A. Fernández", desde: "2019-12-10"}
   - {nombre: "Javier Milei", corto: "Milei", desde: "2023-12-10"}
 
+# Cálculos propios (sobre las series de indicadores.yaml). Operaciones:
+#   empalme: {tramos: [{serie, hasta}], puente: serie}  encadena variaciones; los meses que ninguna
+#            fuente publicó se completan con la variación de la serie puente y se marcan interpolados
+#   cociente | resta | suma | producto: {a, b, factor}    brecha: (a/b - 1) x 100    escala: {a, factor}
+calculos:
+  emae_largo:
+    operacion: empalme
+    tramos: [{serie: emae1993_original, hasta: "2004-01"}, {serie: emae_original}]
+  emae_desest_largo:
+    operacion: empalme
+    tramos: [{serie: emae1993_desest, hasta: "2004-01"}, {serie: emae_desest}]
+  industria_larga:
+    operacion: empalme
+    tramos: [{serie: emi2004_original, hasta: "2015-09"}, {serie: ipi_original}]
+    puente: emae_industria
+    nota_puente: "El INDEC no publicó el índice industrial entre octubre y diciembre de 2015, y el IPI nuevo recién tiene variación desde febrero de 2016; esos meses se completan con la variación del EMAE de la industria."
+  industria_desest_larga:
+    operacion: empalme
+    tramos: [{serie: emi2004_desest, hasta: "2015-09"}, {serie: ipi_desest}]
+    puente: emae_industria
+    modo_puente: interanual
+    nota_puente: "El INDEC no publicó el índice industrial entre octubre y diciembre de 2015, y el IPI nuevo recién tiene variación desde febrero de 2016; esos meses se completan con la variación interanual del EMAE de la industria aplicada al mismo mes del año anterior."
+  ipim_largo:
+    operacion: empalme
+    tramos: [{serie: ipim1993, hasta: "2015-10"}, {serie: ipim}]
+    puente: ipc
+    nota_puente: "El INDEC no publicó el índice mayorista en noviembre y diciembre de 2015; se usa la variación del IPC empalmado."
+  brecha_ccl:
+    operacion: brecha
+    a: dolar_ccl
+    b: dolar_mayorista
+  brecha_mep:
+    operacion: brecha
+    a: dolar_mep
+    b: dolar_mayorista
+  ipim_usd:
+    operacion: cociente
+    a: ipim_largo
+    b: dolar_mayorista
+  cbt_hogar:
+    operacion: escala
+    a: cbt
+    factor: 3.09
+  ingreso_pc_en_cbt:
+    operacion: cociente
+    a: ipcf_total
+    b: cbt
+  smvm_en_cbt:
+    operacion: cociente
+    a: smvm
+    b: cbt_hogar
+  jubilacion_minima_en_cbt:
+    operacion: cociente
+    a: jubilacion_minima
+    b: cbt_hogar
+  sueldo_sipa_en_cbt:
+    operacion: cociente
+    a: remuneracion_sipa
+    b: cbt_hogar
+
 graficos:
   - id: inflacion_minorista
     tema: 2
@@ -97,15 +157,17 @@ graficos:
     original: {ficha: p8, imagen: 1069}
     tipo: lineas
     frecuencia: M
+    desde: "2001-01"
     unidad: "índice 2004=100"
     tipo_valor: indice
     medida_inicial: nivel
     series:
-      - {serie: emae_original, nombre: "Original", color: gris}
-      - {serie: emae_desest, nombre: "Desestacionalizada"}
+      - {serie: emae_largo, nombre: "Original", color: gris}
+      - {serie: emae_desest_largo, nombre: "Desestacionalizada"}
     fuentes:
-      - {nombre: "INDEC, EMAE base 2004", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48", nivel: primaria}
-    metodo: "Series publicadas por el INDEC, sin transformaciones. Bajadas de la API de Series de Tiempo de datos.gob.ar."
+      - {nombre: "INDEC, EMAE base 1993", url: "https://datos.gob.ar/series/api/series/?ids=10.3_ISOM_1993_M_29", nivel: primaria, hasta: "2003-12"}
+      - {nombre: "INDEC, EMAE base 2004", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48", nivel: primaria, desde: "2004-01"}
+    metodo: "Series publicadas por el INDEC. Antes de 2004 se usa el EMAE base 1993, encadenado a la base 2004 por sus variaciones mensuales, de modo que todo queda en 2004=100. Bajadas de la API de Series de Tiempo de datos.gob.ar. Este gráfico también cubre la ficha p1 del documento."
 
   - id: recaudacion_total
     tema: 3
@@ -263,3 +325,280 @@ graficos:
     metodo: "PIB real por habitante en dólares internacionales de 2011. Antes de 1950 hay años sin dato (sobre todo en Brasil y en el siglo XIX): la línea une los años con dato. La serie llega a 2018, el último año de esta edición."
     tramos:
       - {hasta: "1949-12", tipo: estimado, nota: "Antes de 1950 los valores son reconstrucciones históricas del Maddison Project, con mayor margen de error que las cuentas nacionales posteriores."}
+
+  # ---------- Paso 3, tanda 1 (temas 1 y 2) ----------
+
+  - id: inversion_fbcf
+    tema: 1
+    titulo: "Inversión (formación bruta de capital fijo)"
+    que_muestra: "Inversión en construcción, maquinaria y equipo a precios constantes, según las cuentas nacionales del INDEC."
+    original: {ficha: p0, imagen: 1041}
+    tipo: lineas
+    frecuencia: T
+    unidad: "millones de pesos de 2004"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: fbcf_real, nombre: "Inversión (FBCF)"}
+    fuentes:
+      - {nombre: "INDEC, Oferta y demanda globales (base 2004)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-47", nivel: primaria}
+    metodo: "Serie trimestral a precios de 2004 publicada por el INDEC. El gráfico original mostraba la inversión mensual en dólares sin indicar la fuente; acá se usa el dato oficial trimestral. La serie oficial con esta base empieza en 2004."
+
+  - id: actividad_industrial
+    tema: 1
+    titulo: "Actividad industrial"
+    que_muestra: "Índice de producción industrial manufacturera del INDEC, original y desestacionalizado."
+    original: {ficha: p4, imagen: 1064}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: nivel
+    series:
+      - {serie: industria_larga, nombre: "Original", color: gris}
+      - {serie: industria_desest_larga, nombre: "Desestacionalizada"}
+    fuentes:
+      - {nombre: "INDEC, Estimador Mensual Industrial (EMI) base 2004", url: "https://datos.gob.ar/series/api/series/?ids=12.3_E_2004_M_3", nivel: primaria, hasta: "2015-09"}
+      - {nombre: "INDEC, EMAE de la industria manufacturera", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48", nivel: primaria, desde: "2015-10", hasta: "2016-01", nota: "Puente para los meses sin índice industrial."}
+      - {nombre: "INDEC, Índice de Producción Industrial manufacturero (IPI) base 2016", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-6-18", nivel: primaria, desde: "2016-01"}
+    metodo: "Se encadenan las variaciones mensuales del EMI (hasta septiembre de 2015) y del IPI manufacturero (desde 2016); el nivel queda en la base del IPI (2016=100). El original y su versión sin minería (ficha p5) se reúnen acá: ambos índices del INDEC miden solo la industria manufacturera."
+
+  - id: inflacion_mayorista
+    tema: 2
+    titulo: "Inflación mayorista (IPIM)"
+    que_muestra: "Variación de los precios internos al por mayor."
+    original: {ficha: p23, imagen: 1029}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: variacion
+    series:
+      - {serie: ipim_largo, nombre: "IPIM"}
+    fuentes:
+      - {nombre: "INDEC, IPIM base 1993", url: "https://datos.gob.ar/series/api/series/?ids=106.3_I1NG_1993_M_23", nivel: primaria, hasta: "2015-10"}
+      - {nombre: "IPC empalmado (puente)", nivel: primaria, desde: "2015-11", hasta: "2015-12", nota: "El INDEC no publicó el IPIM esos dos meses."}
+      - {nombre: "INDEC, IPIM base 2015", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-32", nivel: primaria, desde: "2016-01"}
+    metodo: "Se encadenan las variaciones mensuales del IPIM base 1993 y del IPIM base 2015. Entre 2007 y 2015 el IPIM es el del INDEC intervenido: no hay una medición mayorista alternativa con la que reemplazarlo, por eso conviene leer esos años con cautela."
+
+  - id: inflacion_mayorista_usd
+    tema: 2
+    titulo: "Inflación mayorista en dólares"
+    que_muestra: "Cuánto cambian los precios mayoristas medidos en dólares al tipo de cambio oficial. Positivo: la Argentina se encarece en dólares; negativo: se abarata."
+    original: {ficha: p24, imagen: 1030}
+    tipo: lineas
+    frecuencia: M
+    desde: "2002-03"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: interanual
+    medidas: [variacion, interanual, base_100]
+    series:
+      - {serie: ipim_usd, nombre: "IPIM en dólares"}
+    fuentes:
+      - {nombre: "IPIM empalmado (ver Inflación mayorista)", nivel: primaria}
+      - {nombre: "BCRA, tipo de cambio mayorista (Com. A 3500)", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp", nivel: primaria}
+    metodo: "IPIM dividido por el promedio mensual del dólar mayorista oficial. Empieza en marzo de 2002, cuando el BCRA comienza a publicar el mayorista; hasta enero de 2002 regía la convertibilidad (1 peso = 1 dólar)."
+
+  - id: inflacion_minorista_usd
+    tema: 2
+    titulo: "Inflación minorista en dólares"
+    que_muestra: "Cuánto cambian los precios al consumidor medidos en dólares al tipo de cambio oficial."
+    original: {ficha: p26, imagen: 1032}
+    tipo: lineas
+    frecuencia: M
+    desde: "2002-03"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: interanual
+    medidas: [variacion, interanual, base_100]
+    series:
+      - {serie: ipc_usd_oficial, nombre: "IPC en dólares"}
+    fuentes:
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria}
+      - {nombre: "BCRA, tipo de cambio mayorista (Com. A 3500)", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp", nivel: primaria}
+    metodo: "IPC empalmado dividido por el promedio mensual del dólar mayorista oficial. Es la misma serie que usa Datos de Argentina. Empieza en marzo de 2002."
+
+  - id: ipc_ipim_interanual
+    tema: 2
+    titulo: "Inflación minorista y mayorista"
+    que_muestra: "Comparación del IPC y del IPIM."
+    original: {ficha: p36, imagen: 1410}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: interanual
+    series:
+      - {serie: ipc, nombre: "Minorista (IPC)"}
+      - {serie: ipim_largo, nombre: "Mayorista (IPIM)"}
+    fuentes:
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria}
+      - {nombre: "IPIM empalmado (ver Inflación mayorista)", nivel: primaria}
+    metodo: "Las dos series empalmadas de este tema. Reúne el primer panel de las fichas p36 y p42; el segundo panel de esas fichas (agregados monetarios y pasivos del BCRA) va en el tema monetario."
+
+  - id: base_monetaria_real
+    tema: 2
+    titulo: "Base monetaria en pesos de hoy"
+    que_muestra: "Billetes y monedas más depósitos de los bancos en el BCRA, llevados a pesos de hoy."
+    original: {ficha: p27, imagen: 1034}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "millones de pesos de hoy"
+    tipo_valor: nivel
+    moneda: ARS
+    medida_inicial: nivel
+    series:
+      - {serie: base_monetaria, nombre: "Base monetaria"}
+    fuentes:
+      - {nombre: "BCRA, Principales variables: base monetaria", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Promedio mensual de los saldos diarios publicados por el BCRA, llevado a pesos del último mes con dato con el IPC empalmado. Los picos de cada diciembre son estacionales (aguinaldo)."
+
+  - id: tcr_actividad
+    tema: 2
+    titulo: "Tipo de cambio real y actividad"
+    que_muestra: "Tipo de cambio real multilateral del BCRA frente a la actividad económica, ambos llevados a base 100."
+    original: {ficha: p17, imagen: 1315}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: base_100
+    medidas: [base_100, interanual]
+    series:
+      - {serie: itcrm, nombre: "Tipo de cambio real multilateral"}
+      - {serie: emae_desest_largo, nombre: "Actividad (EMAE desest.)"}
+    fuentes:
+      - {nombre: "BCRA, Índice de Tipo de Cambio Real Multilateral (17-12-2015=100)", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Indices_tipo_cambio_multilateral.asp", nivel: primaria}
+      - {nombre: "INDEC, EMAE (ver Actividad económica)", nivel: primaria}
+    metodo: "Las dos series se llevan a base 100 en el primer mes del período elegido para poder verlas en un mismo eje. Un tipo de cambio real más alto significa un peso más barato frente a las monedas de los socios comerciales."
+
+  - id: dolar_real
+    tema: 2
+    titulo: "Dólar oficial y financieros en pesos de hoy"
+    que_muestra: "Cotización mensual promedio del dólar mayorista, el contado con liquidación y el MEP, llevados a pesos de hoy."
+    original: {ficha: p22, imagen: 1480}
+    tipo: lineas
+    frecuencia: M
+    desde: "2002-03"
+    unidad: "pesos de hoy por dólar"
+    tipo_valor: nivel
+    moneda: ARS
+    medida_inicial: nivel
+    series:
+      - {serie: dolar_mayorista, nombre: "Mayorista oficial"}
+      - {serie: dolar_ccl, nombre: "Contado con liquidación"}
+      - {serie: dolar_mep, nombre: "MEP"}
+    fuentes:
+      - {nombre: "BCRA, tipo de cambio mayorista (Com. A 3500)", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp", nivel: primaria}
+      - {nombre: "ArgentinaDatos, cotizaciones CCL y MEP", url: "https://argentinadatos.com", nivel: secundaria, nota: "Recopila cotizaciones de mercado; CCL desde 2013 y MEP desde 2018."}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Promedios mensuales de cotizaciones diarias, llevados a pesos del último mes con dato con el IPC empalmado. El gráfico original incluía el dólar blue; no hay una serie pública confiable y continua desde 2001, por eso no se incluye. La brecha está en el gráfico siguiente."
+
+  - id: brecha_cambiaria
+    tema: 2
+    titulo: "Brecha cambiaria"
+    que_muestra: "Cuánto más caro que el oficial cotizan el contado con liquidación y el MEP, en porcentaje."
+    original: {ficha: p22, imagen: 1480}
+    tipo: lineas
+    frecuencia: M
+    desde: "2013-01"
+    unidad: "%"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion, interanual]
+    series:
+      - {serie: brecha_ccl, nombre: "Contado con liquidación"}
+      - {serie: brecha_mep, nombre: "MEP"}
+    fuentes:
+      - {nombre: "ArgentinaDatos, cotizaciones CCL y MEP", url: "https://argentinadatos.com", nivel: secundaria}
+      - {nombre: "BCRA, tipo de cambio mayorista (Com. A 3500)", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp", nivel: primaria}
+    metodo: "(dólar financiero / dólar mayorista − 1) × 100, con promedios mensuales."
+
+  - id: canasta_basica_real
+    tema: 2
+    titulo: "Canasta Básica Total en pesos de hoy"
+    que_muestra: "Lo que necesita un hogar de cuatro personas (dos adultos y dos chicos) para no ser pobre, en pesos de hoy."
+    original: {ficha: p28, imagen: 1060}
+    tipo: lineas
+    frecuencia: M
+    desde: "2016-04"
+    unidad: "pesos de hoy por mes"
+    tipo_valor: nivel
+    moneda: ARS
+    medida_inicial: nivel
+    series:
+      - {serie: cbt_hogar, nombre: "CBT hogar tipo"}
+    fuentes:
+      - {nombre: "INDEC, Canasta Básica Alimentaria y Total (GBA)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-43-149", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "CBT por adulto equivalente × 3,09 (hogar de un varón y una mujer de 35 años con dos hijos de 6 y 8 años, la referencia del INDEC), llevada a pesos de hoy. El INDEC publica esta serie desde abril de 2016; el original arranca en 2001 y su tramo anterior se agregará como estimación en el lote de estimaciones."
+
+  - id: ingreso_en_canastas
+    tema: 2
+    titulo: "Ingreso por persona en canastas básicas"
+    que_muestra: "Cuántas Canastas Básicas Totales por adulto compra el ingreso per cápita familiar promedio."
+    original: {ficha: p29, imagen: 1119}
+    tipo: lineas
+    frecuencia: T
+    desde: "2016-04"
+    unidad: "canastas"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    series:
+      - {serie: ingreso_pc_en_cbt, nombre: "Ingreso per cápita familiar / CBT"}
+    fuentes:
+      - {nombre: "INDEC, EPH: ingreso per cápita familiar promedio", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-31-60", nivel: primaria}
+      - {nombre: "INDEC, Canasta Básica Total", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-43-149", nivel: primaria}
+    metodo: "Ingreso per cápita familiar promedio del trimestre dividido por el promedio trimestral de la CBT por adulto equivalente. El original mostraba el excedente del ingreso familiar sobre la canasta con un ingreso estimado sin fuente; acá se usan solo datos oficiales. Como el ingreso es por persona y la canasta por adulto, el cociente es una aproximación."
+
+  - id: ingresos_reales
+    tema: 2
+    titulo: "Salarios, jubilaciones y canasta en pesos de hoy"
+    que_muestra: "Salario mínimo, jubilación mínima, remuneración promedio formal y la canasta básica de un hogar tipo, en pesos de hoy."
+    original: {ficha: p31, imagen: 1193}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "pesos de hoy por mes"
+    tipo_valor: nivel
+    moneda: ARS
+    medida_inicial: nivel
+    series:
+      - {serie: remuneracion_sipa, nombre: "Remuneración promedio (SIPA)"}
+      - {serie: smvm, nombre: "Salario mínimo"}
+      - {serie: jubilacion_minima, nombre: "Jubilación mínima"}
+      - {serie: cbt_hogar, nombre: "CBT hogar tipo", color: gris}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, remuneración promedio de asalariados registrados (SIPA)", url: "https://www.argentina.gob.ar/trabajo/estadisticas", nivel: primaria}
+      - {nombre: "Consejo del Salario, Salario Mínimo Vital y Móvil", url: "https://www.argentina.gob.ar/trabajo/consejodelsalario", nivel: primaria}
+      - {nombre: "ANSES, haber mínimo jubilatorio", url: "https://www.anses.gob.ar", nivel: primaria, nota: "Sin bonos."}
+      - {nombre: "INDEC, Canasta Básica Total", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-43-149", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Valores mensuales en pesos corrientes llevados a pesos del último mes con dato con el IPC empalmado. La jubilación mínima no incluye los bonos extraordinarios; la jubilación promedio y el salario informal del original quedan para el lote 2."
+
+  - id: ingresos_en_canastas
+    tema: 2
+    titulo: "Salarios y jubilaciones en canastas básicas"
+    que_muestra: "Cuántas Canastas Básicas Totales de un hogar tipo compra cada ingreso. 1 = cubre justo una canasta."
+    original: {ficha: p32, imagen: 1194}
+    tipo: lineas
+    frecuencia: M
+    desde: "2016-04"
+    unidad: "canastas de un hogar tipo"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    series:
+      - {serie: sueldo_sipa_en_cbt, nombre: "Remuneración promedio (SIPA)"}
+      - {serie: smvm_en_cbt, nombre: "Salario mínimo"}
+      - {serie: jubilacion_minima_en_cbt, nombre: "Jubilación mínima"}
+    fuentes:
+      - {nombre: "Ver Salarios, jubilaciones y canasta en pesos de hoy", nivel: primaria}
+    metodo: "Cada ingreso mensual dividido por la CBT de un hogar tipo (CBT por adulto × 3,09). Los picos de junio y diciembre en la remuneración promedio son el aguinaldo, que el SIPA incluye. Arranca en abril de 2016, cuando el INDEC empieza a publicar la CBT actual."

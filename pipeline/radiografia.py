@@ -49,7 +49,8 @@ def cargar() -> tuple[dict, dict]:
 def validar(catalogo: dict, base: dict) -> list[str]:
     """Errores de carga del catálogo: campos que faltan, valores no válidos o series inexistentes."""
     errores, ids = [], set()
-    conocidas = set(base.get("series", {})) | set(base.get("empalmes", {})) | set(base.get("calculos", {}))
+    conocidas = (set(base.get("series", {})) | set(base.get("empalmes", {})) | set(base.get("calculos", {}))
+                 | set(catalogo.get("calculos") or {}))
     for g in catalogo.get("graficos", []):
         gid = g.get("id", "?")
         if gid in ids:
@@ -113,12 +114,27 @@ def dependencias(nombre: str, base: dict, vistas: set | None = None) -> set:
     return vistas
 
 
+def insumos_propios(nombre: str, catalogo: dict) -> list[str]:
+    """Series de indicadores.yaml que necesita una serie (si es un cálculo propio, sus insumos)."""
+    c = (catalogo.get("calculos") or {}).get(nombre)
+    if not c:
+        return [nombre]
+    salida = []
+    for t in c.get("tramos", []):
+        salida += insumos_propios(t["serie"], catalogo)
+    for k in ("a", "b", "puente"):
+        if c.get(k):
+            salida += insumos_propios(c[k], catalogo)
+    return salida
+
+
 def subconfig(base: dict, catalogo: dict) -> dict:
     """indicadores.yaml reducido a las series que usan los gráficos (y sus deflactores)."""
     necesarias = set()
     for g in catalogo.get("graficos", []):
-        for s in g.get("series", []):
-            dependencias(s["serie"], base, necesarias)
+        for sd in g.get("series", []):
+            for n in insumos_propios(sd["serie"], catalogo):
+                dependencias(n, base, necesarias)
         for b in g.get("burbujas", []):
             dependencias(b["x"], base, necesarias)
             dependencias(b["y"], base, necesarias)
@@ -131,6 +147,95 @@ def subconfig(base: dict, catalogo: dict) -> dict:
         "empalmes": {n: d for n, d in base.get("empalmes", {}).items() if n in necesarias},
         "calculos": {n: base["calculos"][n] for n in calc_orden},
     }
+
+
+# ---------- Cálculos propios de Radiografía (graficos.yaml, sección "calculos") ----------
+
+def empalme_con_puente(tramos: list[pd.Series], hastas: list, puente: pd.Series | None,
+                       modo: str = "mensual") -> tuple[pd.Series, list[pd.Timestamp]]:
+    """Encadena por variaciones como transformar.empalmar, pero los meses sin variación en ninguna
+    fuente (p. ej. cuando el INDEC no publicó) se completan con la variación de la serie puente.
+    Con modo="interanual" el hueco se completa con la variación interanual del puente aplicada al
+    mismo mes del año anterior (sirve cuando la serie es desestacionalizada y el puente no).
+    Devuelve la serie y las fechas completadas (que se marcan como tramo interpolado)."""
+    variaciones, desde = [], None
+    for serie, hasta in zip(tramos, hastas):
+        v = serie.sort_index().pct_change().dropna()
+        if desde is not None:
+            v = v[v.index > desde]
+        if hasta is not None:
+            v = v[v.index <= pd.Timestamp(str(hasta))]
+            desde = pd.Timestamp(str(hasta))
+        variaciones.append(v)
+    var = pd.concat(variaciones)
+    var = var[~var.index.duplicated(keep="last")].sort_index()
+    esperado = pd.date_range(var.index[0], var.index[-1], freq="MS")
+    faltan = list(esperado.difference(var.index))
+    if faltan:
+        if puente is None:
+            raise ValueError(f"empalme con huecos ({faltan[0]:%Y-%m}) y sin serie puente")
+        if modo == "interanual":
+            p = puente.sort_index()
+            nivel_rel = {var.index[0] - pd.DateOffset(months=1): 1.0}
+            for m in esperado:
+                previo = nivel_rel[m - pd.DateOffset(months=1)]
+                if m in var.index:
+                    nivel_rel[m] = previo * (1 + var[m])
+                else:
+                    hace12 = m - pd.DateOffset(months=12)
+                    nivel_rel[m] = nivel_rel[hace12] * p[m] / p[hace12]
+            vp = pd.Series({m: nivel_rel[m] / nivel_rel[m - pd.DateOffset(months=1)] - 1 for m in faltan})
+        else:
+            vp = puente.sort_index().pct_change().reindex(faltan)
+        var = pd.concat([var, vp]).sort_index()
+        if var.isna().any():
+            raise ValueError("la serie puente no cubre los huecos")
+    ultimo = tramos[-1].sort_index().dropna()
+    factores = (1 + var).cumprod()
+    nivel = factores / factores.iloc[-1] * ultimo.iloc[-1]
+    nivel.loc[var.index[0] - pd.DateOffset(months=1)] = nivel.iloc[0] / (1 + var.iloc[0])
+    return nivel.sort_index(), faltan
+
+
+def calculos_propios(catalogo: dict, mensuales: dict) -> tuple[dict, list[str]]:
+    """Aplica catalogo['calculos'] sobre las series mensuales. Devuelve tramos automáticos por serie."""
+    tramos_auto, alertas = {}, []
+    for nombre, c in (catalogo.get("calculos") or {}).items():
+        try:
+            op = c["operacion"]
+            if op == "empalme":
+                series = [mensuales[t["serie"]] for t in c["tramos"]]
+                s, faltan = empalme_con_puente(series, [t.get("hasta") for t in c["tramos"]], mensuales.get(c.get("puente")), c.get("modo_puente", "mensual"))
+                mensuales[nombre] = s
+                if faltan:
+                    nota = c.get("nota_puente", f"Mes sin dato en la fuente; se usa la variación de {c.get('puente')}.")
+                    bloques = []  # meses consecutivos en un solo tramo
+                    for f in sorted(faltan):
+                        if bloques and (f.year - bloques[-1][1].year) * 12 + f.month - bloques[-1][1].month == 1:
+                            bloques[-1][1] = f
+                        else:
+                            bloques.append([f, f])
+                    tramos_auto[nombre] = [{"desde": a.strftime("%Y-%m"), "hasta": b.strftime("%Y-%m"), "tipo": "interpolado", "nota": nota}
+                                           for a, b in bloques]
+            elif op in ("cociente", "resta", "suma", "producto", "brecha"):
+                a, b = mensuales[c["a"]], mensuales[c["b"]]
+                # Si una es trimestral (un dato cada 3 meses), la otra se promedia por trimestre
+                for x, y in (("a", "b"), ("b", "a")):
+                    sx, sy = (a, b) if x == "a" else (b, a)
+                    if len(sx) > 2 and sx.index.to_series().diff().dt.days.median() > 80 and sy.index.to_series().diff().dt.days.median() < 40:
+                        sy = sy.resample("QS").mean()
+                        a, b = (sx, sy) if x == "a" else (sy, sx)
+                a, b = a.align(b, join="inner")
+                mensuales[nombre] = {"cociente": a / b, "resta": a - b, "suma": a + b, "producto": a * b, "brecha": (a / b - 1) * 100}[op].dropna() * c.get("factor", 1)
+            elif op == "escala":
+                mensuales[nombre] = mensuales[c["a"]] * c["factor"]
+            else:
+                alertas.append(f"{nombre}: operación '{op}' desconocida")
+        except KeyError as e:
+            alertas.append(f"{nombre}: falta la serie {e}, no se calcula")
+        except Exception as e:
+            alertas.append(f"{nombre}: error ({e}), no se calcula")
+    return tramos_auto, alertas
 
 
 # ---------- Series compartidas con Datos de Argentina ----------
@@ -295,10 +400,12 @@ def burbujas_de_series(g: dict, mensuales: dict) -> tuple[list[dict], list[str]]
 def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | None, list[str]]:
     alertas = []
     gobiernos = catalogo["gobiernos"]
-    tramos = g.get("tramos", [])
+    auto = [dict(t, serie=sd["serie"]) for sd in g.get("series", [])
+            for t in catalogo.get("_tramos_auto", {}).get(sd["serie"], [])]
+    tramos = g.get("tramos", []) + auto
     salida = {
         k: g[k] for k in ("id", "tema", "titulo", "que_muestra", "original", "tipo", "unidad", "fuentes",
-                          "metodo", "tramos", "estimacion", "sensible", "nota", "eje_x", "eje_y") if g.get(k) is not None
+                          "metodo", "estimacion", "sensible", "nota", "eje_x", "eje_y") if g.get(k) is not None
     }
     salida.update({
         "tema_nombre": catalogo["temas"][g["tema"]],
@@ -309,6 +416,8 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
         "gobiernos": g.get("gobiernos", g["tipo"] in ("lineas", "areas")),
         "alerta": bool(g.get("estimacion") or tramos),
         "niveles_fuente": sorted({f["nivel"] for f in g.get("fuentes", [])}),
+        "medidas": g.get("medidas"),
+        **({"tramos": tramos} if tramos else {}),
     })
     if g.get("burbujas"):
         salida["categorias"], al = burbujas_de_series(g, mensuales)
@@ -396,7 +505,11 @@ def main() -> None:
     sub = subconfig(base, catalogo)
     crudas, alertas = obtener_series(sub, args.offline)
     mensuales, alertas_proc = construir.procesar(sub, crudas)
-    alertas += alertas_proc
+    catalogo["_tramos_auto"], alertas_calc = calculos_propios(catalogo, mensuales)
+    # Las series cerradas (bases viejas, ediciones fijas) no esperan datos nuevos
+    cerradas = {n for n, d in sub["series"].items() if d.get("cerrada")}
+    alertas += alertas_proc + alertas_calc
+    alertas = [a for a in alertas if not (a.split(":")[0] in cerradas and "sin dato nuevo" in a)]
     graficos = []
     for g in catalogo["graficos"]:
         try:

@@ -101,3 +101,16 @@ def test_csv_url_parsea_anios_y_filtro():
     texto = "Entity,Year,GDP per capita\nArgentina,1850,1994\nArgentina,1870,\nBrazil,1850,867\nArgentina,1900,2756\n"
     s = csv_url.parsear(texto, {"filtro": {"Entity": "Argentina"}, "fecha": "Year", "valor": "GDP per capita"})
     assert list(s.index.year) == [1850, 1900] and s.iloc[-1] == 2756
+
+
+def test_empalme_puente_interanual():
+    import pandas as pd
+    from pipeline.radiografia import empalme_con_puente
+    f = pd.date_range("2014-01-01", "2016-12-01", freq="MS")
+    puente = pd.Series([100 * 1.01 ** i for i in range(len(f))], index=f)
+    viejo = pd.Series(range(1, 22), index=f[:21], dtype=float)  # hasta 2015-09
+    nuevo = pd.Series(range(50, 61), index=f[25:], dtype=float)  # desde 2016-02
+    s, faltan = empalme_con_puente([viejo, nuevo], ["2015-09", None], puente, "interanual")
+    assert [m.strftime("%Y-%m") for m in faltan] == ["2015-10", "2015-11", "2015-12", "2016-01", "2016-02"][:len(faltan)]
+    oct15 = s[pd.Timestamp("2015-10-01")] / s[pd.Timestamp("2014-10-01")]
+    assert abs(oct15 - 1.01 ** 12) < 1e-9
