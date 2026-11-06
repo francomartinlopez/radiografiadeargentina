@@ -1,0 +1,9 @@
+# Netlify publica el sitio estático ya generado (no hace falta compilar).
+[build]
+  publish = "sitio/public"
+  command = ""
+
+[[headers]]
+  for = "/datos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

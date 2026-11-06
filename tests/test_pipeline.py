@@ -1,0 +1,234 @@
+from pathlib import Path
+import pandas as pd
+import pytest
+
+from pipeline import transformar, vistas
+from pipeline.fuentes import argentinadatos, bcra, datosgobar, fred
+
+
+def mensual(valores, inicio="2020-01-01"):
+    return pd.Series(valores, index=pd.date_range(inicio, periods=len(valores), freq="MS"), dtype=float)
+
+
+# ---------- extractores: parseo de respuestas ----------
+
+def test_parsear_datosgobar():
+    s = datosgobar.parsear({"data": [["2026-07-01", 100.0], ["2026-08-01", None], ["2026-09-01", 102.5]]})
+    assert list(s.values) == [100.0, 102.5]
+
+
+def test_parsear_bcra_v4_y_v3():
+    v4 = {"results": [{"idVariable": 1, "detalle": [{"fecha": "2026-10-20", "valor": 50153}, {"fecha": "2026-10-19", "valor": 50244}]}]}
+    v3 = {"results": [{"idVariable": 1, "fecha": "2026-10-20", "valor": 50153}]}
+    assert bcra.parsear(v4).index[0] == pd.Timestamp("2026-10-19")
+    assert bcra.parsear(v3).iloc[0] == 50153
+
+
+def test_parsear_argentinadatos_y_fred():
+    s = argentinadatos.parsear([{"fecha": "2026-10-21", "valor": 674}], "valor")
+    assert s.iloc[0] == 674
+    f = fred.parsear("observation_date,CPIAUCSL\n2026-08-01,330.1\n2026-09-01,331.0\n", "CPIAUCSL")
+    assert f.iloc[-1] == 331.0
+
+
+# ---------- transformaciones ----------
+
+def test_a_mensual_promedio_y_cierre():
+    diaria = pd.Series([1.0, 3.0, 10.0], index=pd.to_datetime(["2026-01-05", "2026-01-20", "2026-02-02"]))
+    assert transformar.a_mensual(diaria, "promedio").iloc[0] == 2.0
+    assert transformar.a_mensual(diaria, "cierre").iloc[0] == 3.0
+
+
+def test_empalme_respeta_variaciones_de_cada_tramo():
+    viejo = mensual([100, 110, 121, 999, 999], "2020-01-01")       # 10% mensual hasta mar-2020
+    nuevo = mensual([50, 51, 52.02, 53.0604, 54.1216], "2020-01-01")  # 2% mensual
+    e = transformar.empalmar([(viejo, "2020-03-01"), (nuevo, None)])
+    var = e.pct_change().dropna()
+    assert var.loc["2020-02-01"] == pytest.approx(0.10)
+    assert var.loc["2020-03-01"] == pytest.approx(0.10)
+    assert var.loc["2020-04-01"] == pytest.approx(0.02)
+    assert e.iloc[-1] == pytest.approx(nuevo.iloc[-1])  # nivel de la fuente vigente intacto
+
+
+def test_empalme_detecta_huecos():
+    a = mensual([100, 101], "2020-01-01")
+    b = mensual([200, 202], "2020-06-01")
+    with pytest.raises(ValueError):
+        transformar.empalmar([(a, "2020-02-01"), (b, None)])
+
+
+def test_moneda_constante():
+    nominal = mensual([100, 200])
+    ipc = mensual([1.0, 2.0])
+    real = transformar.a_moneda_constante(nominal, ipc)
+    assert list(real.values) == [200.0, 200.0]  # todo expresado en precios del último mes
+
+
+def test_calculos():
+    a, b = mensual([110, 120]), mensual([100, 100])
+    assert list(transformar.calcular("brecha", a, b).round(6)) == [10.0, 20.0]
+    assert list(transformar.calcular("resta", a, b)) == [10.0, 20.0]
+
+
+# ---------- vistas ----------
+
+def test_vistas_indice():
+    s = mensual([100 * 1.01 ** i for i in range(60)], "2020-01-01")
+    params = {"inicio_historico": "2020-06-01", "base_gestion_actual": "2023-11-01"}
+    gestiones = [{"nombre": "A", "base": "2021-01-01"}, {"nombre": "B", "base": "2023-11-01"}]
+    v = vistas.calcular_vistas(s, "indice", params, gestiones)
+    assert v["intermensual"] == pytest.approx(1.0)
+    assert v["interanual_ultimo"] == pytest.approx((1.01 ** 12 - 1) * 100)
+    # gestión actual: la serie mes a mes desde el primer mes de gobierno
+    assert v["vistas"]["gestion_actual"][0] == ["2023-12-01", round(100 * 1.01 ** 47, 4)]
+    # por gestión: interanual de cada mes, desde el primer mes de mandato
+    assert v["vistas"]["comparativa"]["A"][0] == [1, round((1.01 ** 12 - 1) * 100, 4)]
+    assert v["vistas"]["comparativa"]["A"][-1][0] == 34   # termina en el mes base de B
+
+
+def test_vistas_tasa_en_puntos():
+    s = mensual([7.0, 7.5, 8.0] + [8.0] * 9 + [6.0], "2022-12-01")
+    params = {"inicio_historico": "2003-05-01", "base_gestion_actual": "2023-11-01"}
+    v = vistas.calcular_vistas(s, "tasa", params, [])
+    assert v["intermensual"] == pytest.approx(-2.0)
+    assert v["interanual_ultimo"] == pytest.approx(-1.0)
+
+
+def test_interanual_trimestral():
+    s = pd.Series([10.0, 9.0, 8.0, 7.0, 6.0], index=pd.to_datetime(["2025-01-01", "2025-04-01", "2025-07-01", "2025-10-01", "2026-01-01"]))
+    ia = vistas.interanual(s, "tasa")
+    assert ia.loc["2026-01-01"] == pytest.approx(-4.0)
+
+
+def test_deflactor_se_extiende_y_acumulado():
+    nominal = mensual([100, 100, 100])
+    ipc = mensual([1.0, 2.0])
+    real = transformar.a_moneda_constante(nominal, ipc)
+    assert list(real.values) == [200.0, 100.0, 100.0]
+    acum = transformar.acumulado_12m(mensual([1.0] * 14))
+    assert len(acum) == 3 and acum.iloc[-1] == 12.0
+
+
+def test_saldo_usa_diferencias():
+    idx = pd.date_range("2022-01-01", periods=13, freq="MS")
+    s = pd.Series([-10.0] * 12 + [5.0], index=idx)
+    assert vistas.interanual(s, "saldo").iloc[-1] == 15.0
+    assert vistas.intermensual(s, "saldo") == 15.0
+
+
+def test_vista_historica_mensual():
+    idx = pd.date_range("2003-01-01", periods=6, freq="MS")
+    s = pd.Series([100, 110, 121, 121, 121, 121], index=idx, dtype=float)
+    params = {"inicio_historico": "2003-01-01", "base_gestion_actual": "2003-02-01"}
+    v = vistas.calcular_vistas(s, "indice", params, [], "mensual")
+    assert v["vista_historica"] == "mensual"
+    assert v["vistas"]["desde_2003"][0] == ["2003-02-01", 10.0]
+
+
+def test_acumulado_12m_trimestral():
+    idx = pd.date_range("2024-01-01", periods=6, freq="QS")
+    s = pd.Series([1.0, 2, 3, 4, 5, 6], index=idx)
+    a = transformar.acumulado_12m(s)
+    assert a.iloc[0] == 10 and a.iloc[-1] == 18
+
+
+def test_variacion_contra_cero_no_rompe_json():
+    import json
+    idx = pd.date_range("2022-01-01", periods=14, freq="MS")
+    s = pd.Series([0.0] * 2 + [5.0] * 12, index=idx)
+    params = {"inicio_historico": "2022-01-01", "base_gestion_actual": "2022-06-01"}
+    v = vistas.calcular_vistas(s, "flujo", params, [])
+    json.dumps(v, allow_nan=False)
+
+
+def test_sin_fichas_solas_en_la_grilla():
+    """Cada tramo de fichas comunes entre fichas anchas debe ser par (ver pipeline/diseno.py)."""
+    import yaml
+    from pipeline import diseno
+    config = yaml.safe_load(open(Path(__file__).resolve().parents[1] / "indicadores.yaml", encoding="utf-8"))
+    assert diseno.huecos(config) == []
+
+
+def test_leer_politica_ingresos():
+    from pipeline.fuentes import archivos
+    csv = b"indice_tiempo,jubilaciones_pensiones_otros_regimenes_nacionales,total_politica_ingresos\n2026-08-01,300072.5,6907491.9\n2026-09-01,700462.3,8239244.9\n"
+    df = archivos.leer_politica_ingresos(csv)
+    assert df.loc["2026-09-01", "jubilaciones_pensiones_otros_regimenes_nacionales"] == 700462.3
+    assert list(df.index.strftime("%Y-%m")) == ["2026-08", "2026-09"]
+
+
+def test_meses_y_jurisdicciones():
+    from pipeline.fuentes import archivos as a
+    assert a.numero_mes("SETIEMBRE") == 8 and a.numero_mes("Septiembre ") == 8 and a.numero_mes("Total") is None
+    assert a.slug_jurisdiccion("CORRIENTES (1)") == "corrientes"
+    assert a.slug_jurisdiccion("Chubut (*)") == "chubut" and a.slug_jurisdiccion("C.A.B.A.") == "caba"
+
+
+def test_completar_huecos_solo_cortos():
+    import numpy as np
+    import pandas as pd
+    from pipeline.fuentes import archivos as a
+    i = pd.date_range("2020-01-01", periods=9, freq="MS")
+    df = pd.DataFrame({"x": [1, np.nan, 3, np.nan, np.nan, np.nan, np.nan, 8, 9]}, index=i)
+    r = a.completar_huecos(df)["x"].tolist()
+    assert r[1] == 2 and all(pd.isna(r[3:7]))
+
+
+def test_meses_con_erratas_y_total_empalmado():
+    import numpy as np
+    import pandas as pd
+    from pipeline.fuentes import archivos as a
+    fila = pd.DataFrame([[None, "CONCEPTO", "ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "kUNIO", "kULIO", "AGOSTO", "SETIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE", "TOTAL"]])
+    assert a.columnas_de_meses(fila, 0, 1) == {j: j - 2 for j in range(2, 14)}
+    i = pd.date_range("2020-01-01", periods=36, freq="MS")
+    cols = {k: np.full(36, 10.0) for k in a.JURISDICCIONES}
+    cols["corrientes"][:24] = np.nan  # informa recién el tercer año
+    t = a.total_empalmado(pd.DataFrame(cols, index=i))
+    assert len(t) == 36 and abs(t.iloc[0] - 240) < 1e-9 and abs(t.iloc[-1] - 240) < 1e-9
+
+
+def test_total_empalmado_con_meses_finales_incompletos():
+    import numpy as np
+    import pandas as pd
+    from pipeline.fuentes import archivos as a
+    i = pd.date_range("2020-01-01", periods=36, freq="MS")
+    cols = {k: np.full(36, 10.0) for k in a.JURISDICCIONES}
+    cols["corrientes"][:24] = np.nan
+    cols["santa_fe"][-1] = np.nan  # último mes todavía sin informar
+    t = a.total_empalmado(pd.DataFrame(cols, index=i))
+    assert t.index[0] == i[0] and t.index[-1] == i[-2]
+
+
+def test_indec_api_bloques_y_resto():
+    import pandas as pd
+    from pipeline.fuentes import indec_api as a
+    i = pd.date_range("2025-01-01", periods=2, freq="MS")
+    df = pd.DataFrame({"CN": [1e6, 2e6], "ES": [1e6, 1e6], "FR": [2e6, 0.0], "AR": [5e6, 5e6]}, index=i)
+    assert list(a._por_bloque(df, "china")) == [1.0, 2.0]
+    assert list(a._por_bloque(df, "union_europea")) == [3.0, 1.0]
+    assert list(a._por_bloque(df, "resto")) == [5.0, 5.0]
+    assert list(a._por_bloque(df, "total")) == [9.0, 8.0]
+
+
+def test_mapa_serie_formato():
+    import pandas as pd
+    from pipeline import mapas
+    i = pd.date_range("2002-11-01", periods=30, freq="MS")
+    m = mapas.mapa_serie("x", "X", "Sec", {"Córdoba": pd.Series(range(30), index=i, dtype=float), "Vacía": pd.Series(dtype=float)})
+    assert m["tipo"] == "serie" and list(m["provincias"]) == ["Córdoba"]
+    assert m["provincias"]["Córdoba"][0][0] == "2003-01-01" and m["fecha"] == "2005-04-01"
+
+
+def test_sin_claves_ni_ids_repetidos():
+    """YAML acepta claves repetidas y se queda con la última: un nombre nuevo puede pisar uno viejo."""
+    import collections
+    import re
+    from pathlib import Path
+    texto = Path(__file__).resolve().parents[1].joinpath("indicadores.yaml").read_text(encoding="utf-8")
+    bloques = re.split(r"^(\w+):\s*$", texto, flags=re.M)
+    for i in range(1, len(bloques), 2):
+        claves = re.findall(r"^  ([A-Za-z0-9_]+):", bloques[i + 1], re.M)
+        repetidas = [k for k, v in collections.Counter(claves).items() if v > 1]
+        assert not repetidas, f"claves repetidas en {bloques[i]}: {repetidas}"
+    ids = re.findall(r"^  - \{id: ([A-Za-z0-9_]+)", texto, re.M)
+    assert not [k for k, v in collections.Counter(ids).items() if v > 1]

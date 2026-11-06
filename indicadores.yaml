@@ -1,0 +1,946 @@
+# Catálogo de indicadores — etapa 1 (núcleo de prueba)
+#
+# Cada serie de "series" es un dato crudo que se baja de una fuente.
+# Cada entrada de "indicadores" es lo que se publica en el sitio.
+#
+# tipo_valor:
+#   indice  -> nivel de un índice (IPC, EMAE): variaciones en %
+#   nivel   -> stock o monto (reservas, salario): variaciones en %, se puede deflactar
+#   flujo   -> monto de un período (exportaciones, recaudación): igual que nivel
+#   tasa    -> porcentaje o puntos (desocupación, tasas de interés, riesgo país): variaciones en puntos
+#   saldo   -> monto que cambia de signo (resultado fiscal, saldo comercial): variaciones como diferencia
+# vista_historica: mensual -> la vista "desde 2003" muestra la variación mensual (índices de precios)
+# moneda: ARS | USD | (vacío) -> si es ARS o USD se expresa en moneda constante del último mes.
+
+parametros:
+  inicio_historico: "2003-05-01"      # vista "desde 2003" (asunción de Néstor Kirchner)
+  base_gestion_actual: "2023-11-01"   # mes previo a la asunción del gobierno actual
+
+gestiones:
+  # Radiografía: las franjas arrancan en 1999. Puerta, Rodríguez Saá y Camaño se agrupan como "Transición" en series mensuales.
+  - {nombre: "Fernando de la Rúa", asuncion: "1999-12-10", base: "1999-11-01"}
+  - {nombre: "Transición (Puerta, Rodríguez Saá, Camaño)", asuncion: "2001-12-21", base: "2001-11-01"}
+  - {nombre: "Eduardo Duhalde", asuncion: "2002-01-02", base: "2001-12-01"}
+  - {nombre: "Néstor Kirchner", asuncion: "2003-05-25", base: "2003-04-01"}
+  - {nombre: "Cristina Fernández de Kirchner I", asuncion: "2007-12-10", base: "2007-11-01"}
+  - {nombre: "Cristina Fernández de Kirchner II", asuncion: "2011-12-10", base: "2011-11-01"}
+  - {nombre: "Mauricio Macri", asuncion: "2015-12-10", base: "2015-11-01"}
+  - {nombre: "Alberto Fernández", asuncion: "2019-12-10", base: "2019-11-01"}
+  - {nombre: "Javier Milei", asuncion: "2023-12-10", base: "2023-11-01"}
+
+series:
+  # --- Precios: tramos para el IPC empalmado ---
+  ipc_gba_historico:   {fuente: datosgobar, id: "178.1_NL_GENERAL_0_0_13"}
+  ipc_san_luis:        {fuente: datosgobar, id: "197.1_NIVEL_GENERAL_2014_0_13"}
+  ipc_caba_2012:       {fuente: datosgobar, id: "193.1_NIVEL_GENERAL_JULI_0_13"}
+  ipc_caba_2021:       {fuente: datosgobar, id: "193.2_NIVEL_GENERAL_2021_0_13_2"}
+  ipc_nacional:        {fuente: datosgobar, id: "148.3_INIVELNAL_DICI_M_26"}
+  ipc_nucleo:          {fuente: datosgobar, id: "148.3_INUCLEONAL_DICI_M_19"}
+  ipc_regulados:       {fuente: datosgobar, id: "148.3_IREGULANAL_DICI_M_22"}
+  ipc_alimentos:       {fuente: datosgobar, id: "146.3_IALIMENNAL_DICI_M_45"}
+  # --- Actividad ---
+  emae_desest:         {fuente: datosgobar, id: "143.3_NO_PR_2004_A_31"}
+  ipi_desest:          {fuente: datosgobar, id: "453.1_SERIE_DESEADA_0_0_24_58"}
+  isac_desest:         {fuente: datosgobar, id: "33.2_ISAC_SIN_EDAD_0_M_23_56"}
+  supermercados_desest: {fuente: datosgobar, id: "455.1_VENTAS_PREADA_0_M_44_44"}
+  # --- Empleo e ingresos ---
+  salario_privado:     {fuente: datosgobar, id: "149.1_SOR_PRIADO_OCTU_0_25"}
+  salario_publico:     {fuente: datosgobar, id: "149.1_SOR_PUBICO_OCTU_0_14"}
+  salario_no_registrado: {fuente: datosgobar, id: "149.1_SOR_PRIADO_OCTU_0_28", desplazar_meses: -5}
+  eph_cuenta_propia:   {fuente: archivo, lector: indec_eph_ingresos, campo: cuenta_propia}
+  eph_asal_registrado: {fuente: archivo, lector: indec_eph_ingresos, campo: asalariado_registrado}
+  eph_asal_no_registrado: {fuente: archivo, lector: indec_eph_ingresos, campo: asalariado_no_registrado}
+  smvm:                {fuente: datosgobar, id: "57.1_SMVMM_0_M_34"}
+  jubilacion_minima:   {fuente: datosgobar, id: "58.1_MP_0_M_13"}
+  desocupacion:        {fuente: datosgobar, id: "42.3_EPH_PUNTUATAL_0_M_30"}
+  # --- Sector externo ---
+  exportaciones:       {fuente: datosgobar, id: "75.3_IETG_0_M_31"}
+  importaciones:       {fuente: datosgobar, id: "76.3_ITG_0_M_17"}
+  # --- Fiscal ---
+  resultado_primario:  {fuente: datosgobar, id: "452.3_RESULTADO_RIO_0_M_18_54"}
+  intereses_netos:     {fuente: datosgobar, id: "452.3_INTERESES_TOS_0_M_15_62"}
+  recaudacion:         {fuente: datosgobar, id: "172.3_TL_RECAION_M_0_0_17"}
+  # API de datos del INDEC (requiere el token INDEC_API_TOKEN)
+  ipc_bienes:          {fuente: indec_api, conjunto: ipc, campo: "Nacional|B"}
+  ipc_servicios:       {fuente: indec_api, conjunto: ipc, campo: "Nacional|S"}
+  ipc_alquiler:        {fuente: indec_api, conjunto: ipc, campo: "GBA|04.1.1"}
+  ipc_electricidad_gas: {fuente: indec_api, conjunto: ipc, campo: "GBA|04.5"}
+  ipc_prepagas:        {fuente: indec_api, conjunto: ipc, campo: "GBA|06.4.1"}
+  ipc_transporte_publico: {fuente: indec_api, conjunto: ipc, campo: "GBA|07.3"}
+  ipc_combustibles:    {fuente: indec_api, conjunto: ipc, campo: "GBA|07.2.2"}
+  ipc_telefonia:       {fuente: indec_api, conjunto: ipc, campo: "GBA|08.3"}
+  ipc_restaurantes:    {fuente: indec_api, conjunto: ipc, campo: "GBA|11.1"}
+  ipc_carnes:          {fuente: indec_api, conjunto: ipc, campo: "GBA|01.1.2"}
+  ipc_lacteos:         {fuente: indec_api, conjunto: ipc, campo: "GBA|01.1.4"}
+  ipc_pan:             {fuente: indec_api, conjunto: ipc, campo: "GBA|01.1.1"}
+  ipc_verduras:        {fuente: indec_api, conjunto: ipc, campo: "GBA|01.1.7"}
+  ipc_ropa:            {fuente: indec_api, conjunto: ipc, campo: "GBA|03.1"}
+  ipib:                {fuente: indec_api, conjunto: sipm, campo: "IPIB|NG"}
+  ipp:                 {fuente: indec_api, conjunto: sipm, campo: "IPP|NG"}
+  costo_construccion:  {fuente: indec_api, conjunto: icc, campo: "0"}
+  ipi_minero:          {fuente: indec_api, conjunto: minero, campo: "Índice|Nivel General - IPI Minero"}
+  minero_petroleo:     {fuente: indec_api, conjunto: minero, campo: "Índice|Petróleo crudo"}
+  gas_no_convencional: {fuente: indec_api, conjunto: minero, campo: "Unidades físicas|Gas natural no convencional"}
+  litio:               {fuente: indec_api, conjunto: minero, campo: "Índice|Carbonato de litio y otros minerales de litio"}
+  crianza_men1:        {fuente: indec_api, conjunto: crianza, campo: tot_men1}
+  crianza_1a3:         {fuente: indec_api, conjunto: crianza, campo: tot_1a3}
+  crianza_4a5:         {fuente: indec_api, conjunto: crianza, campo: tot_4a5}
+  crianza_6a12:        {fuente: indec_api, conjunto: crianza, campo: tot_6a12}
+  expo_china: {fuente: indec_api, conjunto: exportaciones, campo: china}
+  expo_brasil: {fuente: indec_api, conjunto: exportaciones, campo: brasil}
+  expo_estados_unidos: {fuente: indec_api, conjunto: exportaciones, campo: estados_unidos}
+  expo_union_europea: {fuente: indec_api, conjunto: exportaciones, campo: union_europea}
+  expo_chile: {fuente: indec_api, conjunto: exportaciones, campo: chile}
+  expo_india: {fuente: indec_api, conjunto: exportaciones, campo: india}
+  expo_vietnam: {fuente: indec_api, conjunto: exportaciones, campo: vietnam}
+  expo_resto: {fuente: indec_api, conjunto: exportaciones, campo: resto}
+  impo_china: {fuente: indec_api, conjunto: importaciones, campo: china}
+  impo_brasil: {fuente: indec_api, conjunto: importaciones, campo: brasil}
+  impo_estados_unidos: {fuente: indec_api, conjunto: importaciones, campo: estados_unidos}
+  impo_union_europea: {fuente: indec_api, conjunto: importaciones, campo: union_europea}
+  impo_paraguay: {fuente: indec_api, conjunto: importaciones, campo: paraguay}
+  impo_resto: {fuente: indec_api, conjunto: importaciones, campo: resto}
+  impo_uso_capital: {fuente: indec_api, conjunto: importaciones_uso, campo: "1"}
+  impo_uso_intermedios: {fuente: indec_api, conjunto: importaciones_uso, campo: "2"}
+  impo_uso_combustibles: {fuente: indec_api, conjunto: importaciones_uso, campo: "3"}
+  impo_uso_piezas: {fuente: indec_api, conjunto: importaciones_uso, campo: "4"}
+  impo_uso_consumo: {fuente: indec_api, conjunto: importaciones_uso, campo: "5"}
+  impo_uso_vehiculos: {fuente: indec_api, conjunto: importaciones_uso, campo: "6"}
+  impo_uso_resto: {fuente: indec_api, conjunto: importaciones_uso, campo: "9"}
+  # Recaudación por impuesto: ARCA (planillas anuales desde 2003) y Recursos Tributarios de Origen Provincial (mensual desde 2017)
+  rec_iva: {fuente: archivo, lector: arca_recaudacion, campo: iva}
+  rec_ganancias: {fuente: archivo, lector: arca_recaudacion, campo: ganancias}
+  rec_cheque: {fuente: archivo, lector: arca_recaudacion, campo: cheque}
+  rec_combustibles: {fuente: archivo, lector: arca_recaudacion, campo: combustibles}
+  rec_seguridad_social: {fuente: archivo, lector: arca_recaudacion, campo: seguridad_social}
+  rec_derechos_exportacion: {fuente: archivo, lector: arca_recaudacion, campo: derechos_exportacion}
+  rec_derechos_importacion: {fuente: archivo, lector: arca_recaudacion, campo: derechos_importacion}
+  iibb_total: {fuente: archivo, lector: provincias_iibb, campo: total}
+  iibb_buenos_aires: {fuente: archivo, lector: provincias_iibb, campo: buenos_aires}
+  iibb_catamarca: {fuente: archivo, lector: provincias_iibb, campo: catamarca}
+  iibb_chaco: {fuente: archivo, lector: provincias_iibb, campo: chaco}
+  iibb_chubut: {fuente: archivo, lector: provincias_iibb, campo: chubut}
+  iibb_caba: {fuente: archivo, lector: provincias_iibb, campo: caba}
+  iibb_cordoba: {fuente: archivo, lector: provincias_iibb, campo: cordoba}
+  iibb_corrientes: {fuente: archivo, lector: provincias_iibb, campo: corrientes}
+  iibb_entre_rios: {fuente: archivo, lector: provincias_iibb, campo: entre_rios}
+  iibb_formosa: {fuente: archivo, lector: provincias_iibb, campo: formosa}
+  iibb_jujuy: {fuente: archivo, lector: provincias_iibb, campo: jujuy}
+  iibb_la_pampa: {fuente: archivo, lector: provincias_iibb, campo: la_pampa}
+  iibb_la_rioja: {fuente: archivo, lector: provincias_iibb, campo: la_rioja}
+  iibb_mendoza: {fuente: archivo, lector: provincias_iibb, campo: mendoza}
+  iibb_misiones: {fuente: archivo, lector: provincias_iibb, campo: misiones}
+  iibb_neuquen: {fuente: archivo, lector: provincias_iibb, campo: neuquen}
+  iibb_rio_negro: {fuente: archivo, lector: provincias_iibb, campo: rio_negro}
+  iibb_salta: {fuente: archivo, lector: provincias_iibb, campo: salta}
+  iibb_san_juan: {fuente: archivo, lector: provincias_iibb, campo: san_juan}
+  iibb_san_luis: {fuente: archivo, lector: provincias_iibb, campo: san_luis}
+  iibb_santa_cruz: {fuente: archivo, lector: provincias_iibb, campo: santa_cruz}
+  iibb_santa_fe: {fuente: archivo, lector: provincias_iibb, campo: santa_fe}
+  iibb_santiago_del_estero: {fuente: archivo, lector: provincias_iibb, campo: santiago_del_estero}
+  iibb_tierra_del_fuego: {fuente: archivo, lector: provincias_iibb, campo: tierra_del_fuego}
+  iibb_tucuman: {fuente: archivo, lector: provincias_iibb, campo: tucuman}
+  # --- Opinión pública ---
+  icg:                 {fuente: datosgobar, id: "370.3_ICG_NIVEL_RAL_0_0_17_94"}
+  satisfaccion_rumbo:  {fuente: manual, id: espop_satisfaccion}
+  aprobacion_promedio: {fuente: encuestas, encuestadora: promedio, medida: aprueba}
+  desaprobacion_promedio: {fuente: encuestas, encuestadora: promedio, medida: desaprueba}
+  aprobacion_atlas:    {fuente: encuestas, encuestadora: AtlasIntel, medida: aprueba}
+  aprobacion_espop:    {fuente: encuestas, encuestadora: "UdeSA (ESPOP)", medida: aprueba}
+  aprobacion_zuban:    {fuente: encuestas, encuestadora: "Zuban Córdoba", medida: aprueba}
+  # --- BCRA (API v4) ---
+  reservas:            {fuente: bcra, id: 1, agregacion: cierre}
+  dolar_mayorista:     {fuente: bcra, id: 5, agregacion: promedio}
+  base_monetaria:      {fuente: bcra, id: 15, agregacion: promedio}
+  tasa_plazo_fijo:     {fuente: bcra, id: 12, agregacion: promedio}
+  prestamos_privados:  {fuente: bcra, id: 26, agregacion: cierre}
+  # --- ArgentinaDatos ---
+  dolar_ccl:           {fuente: argentinadatos, id: "cotizaciones/dolares/contadoconliqui", campo: venta, agregacion: promedio}
+  dolar_mep:           {fuente: argentinadatos, id: "cotizaciones/dolares/bolsa", campo: venta, agregacion: promedio}
+  riesgo_pais:         {fuente: argentinadatos, id: "finanzas/indices/riesgo-pais", campo: valor, agregacion: promedio}
+  # --- Ampliación fase 1 (IDs verificados con pipeline.sondear, oct-2026) ---
+  ipim:                {fuente: datosgobar, id: "448.1_NIVEL_GENERAL_0_0_13_46"}
+  autoservicios_desest: {fuente: datosgobar, id: "456.1_VENTAS_PREADA_0_M_44_40"}
+  shoppings_desest:    {fuente: datosgobar, id: "458.1_VENTAS_TOTADA_0_M_52_56"}
+  produccion_gas:      {fuente: datosgobar, id: "364.3_PRODUCCIoNRAL__25"}
+  produccion_petroleo: {fuente: datosgobar, id: "363.3_PRODUCCIONUDO__28"}
+  produccion_acero:    {fuente: datosgobar, id: "359.3_ACERO_CRUDUDO__11"}
+  asalariados_privados: {fuente: datosgobar, id: "151.1_AARIADODAD_2012_M_31"}
+  gasto_politica_ingresos: {fuente: datosgobar, id: "186.3_TOTAL_POLISOS_0_0_23"}
+  auh_gasto:           {fuente: datosgobar, id: "186.3_ASIGNACIONIAL_0_0_43"}
+  auh_prestaciones:    {fuente: datosgobar, id: "189.1_TOTAL_AUHAUH_0_0_9"}
+  auh_monto:           {fuente: datosgobar, id: "165.1_AAUH_0_0_3"}
+  pnc_gasto:           {fuente: datosgobar, id: "186.3_PENSIONES_VAS_0_0_26"}
+  jub_sipa_gasto:      {fuente: archivo, lector: economia_politica_ingresos, campo: jubilaciones_pensiones_sist_int_previsional_argentino}
+  jub_otros_gasto:     {fuente: archivo, lector: economia_politica_ingresos, campo: jubilaciones_pensiones_otros_regimenes_nacionales}
+  expo_primarios:      {fuente: datosgobar, id: "75.3_IETPP_0_M_43"}
+  expo_moa:            {fuente: datosgobar, id: "74.3_IEMOA_0_M_48"}
+  expo_moi:            {fuente: datosgobar, id: "75.3_ITM_0_M_13"}
+  expo_combustibles:   {fuente: datosgobar, id: "74.2_IECE_0_T_35"}   # la serie mensual no tiene valores en la API
+  impo_combustibles:   {fuente: datosgobar, id: "74.2_IICL_0_T_42"}   # la mensual se corta en 2003
+  terminos_intercambio: {fuente: datosgobar, id: "82.2_ITI_2004_T_27"}
+  gasto_jubilaciones:  {fuente: datosgobar, id: "452.2_JUBILACIONVAS_0_T_36_18"}
+  subsidios_energia:   {fuente: datosgobar, id: "452.2_ENERGIAGIA_0_T_7_79"}   # trimestral: la mensual no tiene valores
+  transf_capital_provincias: {fuente: datosgobar, id: "372.9_GTOS_CAP_T017__50_32"}
+  icc:                 {fuente: datosgobar, id: "380.3_ICC_NACIONNAL_0_T_12"}
+  dolar_tarjeta:       {fuente: argentinadatos, id: "cotizaciones/dolares/tarjeta", campo: venta, agregacion: promedio}
+  depositos_privados_ars: {fuente: bcra, id: 100, agregacion: cierre}
+  depositos_privados_usd: {fuente: bcra, id: 108, agregacion: cierre}
+  compras_divisas_bcra: {fuente: bcra, id: 78, agregacion: suma}
+  prestamos_hipotecarios: {fuente: bcra, id: 112, agregacion: cierre}
+  prestamos_prendarios: {fuente: bcra, id: 113, agregacion: cierre}
+  prestamos_personales: {fuente: bcra, id: 114, agregacion: cierre}
+  prestamos_tarjetas:  {fuente: bcra, id: 115, agregacion: cierre}
+  tasa_personales:     {fuente: bcra, id: 14, agregacion: promedio}
+  tasa_tarjetas:       {fuente: bcra, id: 1215, agregacion: promedio}
+  icl:                 {fuente: bcra, id: 40, agregacion: promedio}
+  # --- Planillas (fuente: archivo) ---
+  pobreza_personas:    {fuente: archivo, lector: indec_pobreza, campo: "Pobreza/Personas"}
+  indigencia_personas: {fuente: archivo, lector: indec_pobreza, campo: "Indigencia/Personas"}
+  pib_real:            {fuente: archivo, lector: indec_oferta_demanda, campo: "Producto Interno Bruto"}
+  consumo_privado:     {fuente: archivo, lector: indec_oferta_demanda, campo: "Consumo privado"}
+  fbcf_real:           {fuente: archivo, lector: indec_oferta_demanda, campo: "Formación bruta de capital fijo"}
+  cbt:                 {fuente: archivo, lector: indec_canastas, campo: CBT}
+  itcrm:               {fuente: archivo, lector: bcra_itcrm, campo: ITCRM}
+  # --- EMAE por sector (base 2004, original) ---
+  emae_agro:           {fuente: datosgobar, id: "11.3_ISOM_2004_M_39"}
+  emae_pesca:          {fuente: datosgobar, id: "11.3_VIPAA_2004_M_5"}
+  emae_mineria:        {fuente: datosgobar, id: "11.3_ISD_2004_M_26"}
+  emae_industria:      {fuente: datosgobar, id: "11.3_VMASD_2004_M_23"}
+  emae_egu:            {fuente: datosgobar, id: "11.3_ITC_2004_M_21"}
+  emae_comercio:       {fuente: datosgobar, id: "11.3_AGCS_2004_M_41"}
+  emae_hoteles:        {fuente: datosgobar, id: "11.3_P_2004_M_20"}
+  emae_transporte:     {fuente: datosgobar, id: "11.3_EMC_2004_M_25"}
+  emae_financiero:     {fuente: datosgobar, id: "11.3_IM_2004_M_25"}
+  emae_inmobiliario:   {fuente: datosgobar, id: "11.3_SEGA_2004_M_48"}
+  emae_adm_publica:    {fuente: datosgobar, id: "11.3_C_2004_M_60"}
+  emae_ensenanza:      {fuente: datosgobar, id: "11.3_CMMR_2004_M_10"}
+  emae_salud:          {fuente: datosgobar, id: "11.3_HR_2004_M_24"}
+  # --- Series originales (sin desestacionalizar), para mostrar junto a la desestacionalizada ---
+  emae_original:       {fuente: datosgobar, id: "143.3_NO_PR_2004_A_21"}
+  ipi_original:        {fuente: datosgobar, id: "453.1_SERIE_ORIGNAL_0_0_14_46"}
+  isac_original:       {fuente: datosgobar, id: "33.2_ISAC_NIVELRAL_0_M_18_63"}
+  supermercados_original: {fuente: datosgobar, id: "455.1_VENTAS_PRENAL_0_M_34_10"}
+  autoservicios_original: {fuente: datosgobar, id: "456.1_VENTAS_PRENAL_0_M_34_85"}
+  shoppings_original:  {fuente: datosgobar, id: "458.1_VENTAS_TOTNAL_0_M_42_19"}
+  asalariados_privados_desest: {fuente: datosgobar, id: "151.1_AARIADOTAC_2012_M_26"}
+  # --- Asalariados privados registrados por rama (miles, sin estacionalidad salvo salud) ---
+  asal_agro:           {fuente: datosgobar, id: "152.1_ACULTUREST_2009_M_47"}
+  asal_pesca:          {fuente: datosgobar, id: "152.1_PA_SIN_EST_2009_M_13"}
+  asal_mineria:        {fuente: datosgobar, id: "152.1_EOTACIOEST_2009_M_30"}   # con estacionalidad (la otra no trae valores)
+  asal_industria:      {fuente: datosgobar, id: "152.1_ISTRIASEST_2009_M_33"}
+  asal_egu:            {fuente: datosgobar, id: "152.1_SNISTROEST_2009_M_40"}
+  asal_construccion:   {fuente: datosgobar, id: "152.1_CTRUCCIEST_2009_M_20"}
+  asal_comercio:       {fuente: datosgobar, id: "152.1_CRCIO_REST_2009_M_29"}
+  asal_hoteles:        {fuente: datosgobar, id: "152.1_HLES_REEST_2009_M_28"}
+  asal_transporte:     {fuente: datosgobar, id: "152.1_TSPORTEEST_2009_M_39"}
+  asal_inmobiliarias:  {fuente: datosgobar, id: "152.1_AVIDADEEST_2009_M_56"}
+  asal_ensenanza:      {fuente: datosgobar, id: "152.1_ENANZA_EST_2009_M_17"}
+  asal_salud:          {fuente: datosgobar, id: "152.1_SICIOS_EST_2009_M_28"}   # con estacionalidad: la desestacionalizada se corta en 2009
+  asal_servicios:      {fuente: datosgobar, id: "152.1_SICIOS_EST_2009_M_46"}   # con estacionalidad (la otra no trae valores)
+  # --- Asalariados privados registrados por provincia (miles, sin estacionalidad) ---
+  asal_prov_buenos_aires: {fuente: datosgobar, id: "154.2_BOS_AIRRES_S_0_0_12"}
+  asal_prov_caba: {fuente: datosgobar, id: "154.2_CABA_S_0_0_4"}
+  asal_prov_catamarca: {fuente: datosgobar, id: "154.2_CMARCARCA_S_0_0_9"}
+  asal_prov_chaco: {fuente: datosgobar, id: "154.2_COACO_S_0_0_5"}
+  asal_prov_chubut: {fuente: datosgobar, id: "154.2_CUTBUT_S_0_0_6"}
+  asal_prov_cordoba: {fuente: datosgobar, id: "154.2_COBAOBA_S_0_0_7"}
+  asal_prov_corrientes: {fuente: datosgobar, id: "154.2_CIENTESTES_S_0_0_10"}
+  asal_prov_entre_rios: {fuente: datosgobar, id: "154.1_EE_RIOSIOS_C_0_0_10"}   # con estacionalidad
+  asal_prov_formosa: {fuente: datosgobar, id: "154.1_FOSAOSA_C_0_0_7"}   # con estacionalidad
+  asal_prov_jujuy: {fuente: datosgobar, id: "154.1_JYJUY_C_0_0_5"}   # con estacionalidad
+  asal_prov_la_pampa: {fuente: datosgobar, id: "154.2_LAMPAMPA_S_0_0_8"}
+  asal_prov_la_rioja: {fuente: datosgobar, id: "154.2_LIOJAOJA_S_0_0_8"}
+  asal_prov_mendoza: {fuente: datosgobar, id: "154.2_MOZAOZA_S_0_0_7"}
+  asal_prov_misiones: {fuente: datosgobar, id: "154.2_MONESNES_S_0_0_8"}
+  asal_prov_neuquen: {fuente: datosgobar, id: "154.2_NUENUEN_S_0_0_7"}
+  asal_prov_rio_negro: {fuente: datosgobar, id: "154.2_RNEGROGRO_S_0_0_9"}
+  asal_prov_salta: {fuente: datosgobar, id: "154.2_SALTA_S_0_0_5"}
+  asal_prov_san_juan: {fuente: datosgobar, id: "154.1_SJUANUAN_C_0_0_8"}   # con estacionalidad
+  asal_prov_san_luis: {fuente: datosgobar, id: "154.2_SLUISUIS_S_0_0_8"}
+  asal_prov_santa_cruz: {fuente: datosgobar, id: "154.2_SA_CRUZRUZ_S_0_0_10"}
+  asal_prov_santa_fe: {fuente: datosgobar, id: "154.2_SA_FE_FE_S_0_0_8"}
+  asal_prov_santiago_del_estero: {fuente: datosgobar, id: "154.2_SIAGO_EERO_S_0_0_15"}
+  asal_prov_tierra_del_fuego: {fuente: datosgobar, id: "154.2_TRA_FUEEGO_S_0_0_12"}
+  asal_prov_tucuman: {fuente: datosgobar, id: "154.2_TMANMAN_S_0_0_7"}
+  # --- Distribución del ingreso (EPH, trimestral, pesos corrientes) ---
+  ipcf_total:          {fuente: datosgobar, id: "301.1_TOTAL_IPCFPCF_0_T_10"}
+  ipcf_decil_3: {fuente: datosgobar, id: "301.1_DECIL_3_IPPCF_0_T_12"}
+  ipcf_decil_4: {fuente: datosgobar, id: "301.1_DECIL_4_IPPCF_0_T_12"}
+  ipcf_decil_5: {fuente: datosgobar, id: "301.1_DECIL_5_IPPCF_0_T_12"}
+  ipcf_decil_6: {fuente: datosgobar, id: "301.1_DECIL_6_IPPCF_0_T_12"}
+  ipcf_decil_7: {fuente: datosgobar, id: "301.1_DECIL_7_IPPCF_0_T_12"}
+  ipcf_decil_8: {fuente: datosgobar, id: "301.1_DECIL_8_IPPCF_0_T_12"}
+  ipcf_decil_9: {fuente: datosgobar, id: "301.1_DECIL_9_IPPCF_0_T_12"}
+  ipcf_decil_10: {fuente: datosgobar, id: "301.1_DECIL_10_IPCF_0_T_13"}
+  gini:                {fuente: datosgobar, id: "65.1_CGI_0_0_21"}
+  # --- Balanza de pagos (INDEC, cuentas internacionales, trimestral desde 2006, millones de US$) ---
+  bdp_cuenta_corriente: {fuente: archivo, lector: indec_cin, campo: "Cuadro 1|1. Cuenta corriente"}
+  bdp_bienes:          {fuente: archivo, lector: indec_cin, campo: "Cuadro 1|1.A.a Bienes"}
+  bdp_servicios:       {fuente: archivo, lector: indec_cin, campo: "Cuadro 1|1.A.b Servicios"}
+  bdp_viajes:          {fuente: archivo, lector: indec_cin, campo: "Cuadro 4|1.A.b.4 Viajes"}
+  bdp_ingreso_primario: {fuente: archivo, lector: indec_cin, campo: "Cuadro 1|1.B Ingreso primario"}
+  bdp_ied:             {fuente: archivo, lector: indec_cin, campo: "Cuadro 1|3.1 Inversión directa>Pasivos"}
+  bdp_reservas:        {fuente: archivo, lector: indec_cin, campo: "Cuadro 1|3.5 Activos de reserva"}
+  # --- Deuda de la Administración Central (Secretaría de Finanzas, saldos trimestrales, millones de US$) ---
+  deuda_total_res:     {fuente: archivo, lector: finanzas_deuda_residencia, campo: total}
+  deuda_externa:       {fuente: archivo, lector: finanzas_deuda_residencia, campo: externa}
+  deuda_interna:       {fuente: archivo, lector: finanzas_deuda_residencia, campo: interna}
+  deuda_titulos:       {fuente: archivo, lector: finanzas_deuda, campo: titulos}
+  deuda_letras:        {fuente: archivo, lector: finanzas_deuda, campo: letras}
+  deuda_organismos:    {fuente: archivo, lector: finanzas_deuda, campo: organismos_internacionales}
+  deuda_bilaterales:   {fuente: archivo, lector: finanzas_deuda, campo: organismos_oficiales}
+  deuda_adelantos:     {fuente: archivo, lector: finanzas_deuda, campo: adelantos_bcra}
+  deuda_otros:         {fuente: archivo, lector: finanzas_deuda, campo: otros}
+  # --- Provincias (Hacienda, serie anual AIF, millones de pesos corrientes) ---
+  prov_resultado_financiero: {fuente: archivo, lector: hacienda_provincias, campo: resultado_financiero}
+  prov_resultado_primario: {fuente: archivo, lector: hacienda_provincias, campo: resultado_primario}
+  prov_ingresos:       {fuente: archivo, lector: hacienda_provincias, campo: ingresos_totales}
+  prov_origen_nacional: {fuente: archivo, lector: hacienda_provincias, campo: tributarios_nacionales}
+  prov_tributos_propios: {fuente: archivo, lector: hacienda_provincias, campo: tributarios_provinciales}
+  # --- Fase 1: cierre ---
+  informalidad:        {fuente: datosgobar, id: "52.2_ASDJ_0_0_37"}
+  empleo_publico:      {fuente: datosgobar, id: "324.1_TOTAL_SECTADO__58"}
+  remuneracion_sipa:   {fuente: datosgobar, id: "153.1_RNERACIDIO_2009_M_21"}
+  homicidios:          {fuente: datosgobar, id: "t_snic_1_victimas_arg"}
+  suicidios:           {fuente: datosgobar, id: "t_snic_31_victimas_arg"}
+  morosidad:           {fuente: datosgobar, id: "332.2_SISTEMA_FIADA__53"}
+  morosidad_publicos:  {fuente: datosgobar, id: "332.2_BANCOS_PUBADA__55"}
+  morosidad_privados:  {fuente: datosgobar, id: "332.2_BANCOS_PRIADA__51"}
+  morosidad_privados_nac: {fuente: datosgobar, id: "332.2_BANCOS_PRIADA__59"}
+  morosidad_no_bancarias: {fuente: datosgobar, id: "332.2_ENTIDADES_ADA__52"}
+  morosidad_pnfc:      {fuente: archivo, lector: bcra_pnfc, campo: "1. Total|Total"}
+  morosidad_fintech:   {fuente: archivo, lector: bcra_pnfc, campo: "2. Grupo de proveedor|Fintech"}
+  morosidad_tarjetas_nb: {fuente: archivo, lector: bcra_pnfc, campo: "2. Grupo de proveedor|Otras emisoras de tarjetas de crédito"}
+  mora_familias:       {fuente: archivo, lector: bcra_ib_lineas, campo: "Familias - Total|Cartera irregular total"}
+  mora_fam_personales: {fuente: archivo, lector: bcra_ib_lineas, campo: "Familias - Total|Personales"}
+  mora_fam_tarjetas:   {fuente: archivo, lector: bcra_ib_lineas, campo: "Familias - Total|Tarjetas de crédito"}
+  mora_fam_prendarios: {fuente: archivo, lector: bcra_ib_lineas, campo: "Familias - Total|Con garantía prendaria"}
+  mora_fam_hipotecarios: {fuente: archivo, lector: bcra_ib_lineas, campo: "Familias - Total|Con garantía hipotecaria"}
+  mora_empresas:       {fuente: archivo, lector: bcra_ib_lineas, campo: "Empresas - Total|Cartera irregular total"}
+  prestamos_personas:  {fuente: bcra, id: 883, agregacion: cierre}
+  remuneracion_asalariados: {fuente: datosgobar, id: "323.1_TOTAL_GENEADO__45"}
+  morosidad_electro:   {fuente: archivo, lector: bcra_pnfc, campo: "2. Grupo de proveedor|Venta de electrodomésticos"}
+  morosidad_coop:      {fuente: archivo, lector: bcra_pnfc, campo: "2. Grupo de proveedor|Cooperativas y mutuales"}
+  pnfc_tarjetas:       {fuente: archivo, lector: bcra_pnfc, campo: "7. Tipo de asistencia|Tarjetas de crédito"}
+  pnfc_personales:     {fuente: archivo, lector: bcra_pnfc, campo: "7. Tipo de asistencia|Préstamos personales"}
+  pnfc_resto:          {fuente: archivo, lector: bcra_pnfc, campo: "7. Tipo de asistencia|Resto de asistencias"}
+  ucii:                {fuente: datosgobar, id: "31.3_UNG_2004_M_18"}
+  escrituras_caba:     {fuente: archivo, lector: escribanos_compraventas}
+  construya:           {fuente: archivo, lector: construya_indice, campo: original}
+  construya_desest:    {fuente: archivo, lector: construya_indice, campo: desestacionalizado}
+  came_ventas:         {fuente: manual, id: came_ventas_minoristas}
+  ipc_corrupcion:      {fuente: manual, id: ipc_corrupcion}
+  odsa_ia:             {fuente: manual, id: odsa_inseguridad_alimentaria}
+  odsa_ia_severa:      {fuente: manual, id: odsa_inseguridad_alimentaria_severa}
+  prod_soja:           {fuente: datosgobar, id: "AGRO_A_Soja_0003"}
+  prod_maiz:           {fuente: datosgobar, id: "AGRO_A_Maiz_0003"}
+  prod_trigo:          {fuente: datosgobar, id: "AGRO_A_Trigo_0003"}
+  prod_girasol:        {fuente: datosgobar, id: "AGRO_A_Girasol_0003"}
+  escrituras_monto:    {fuente: archivo, lector: escribanos_compraventas, campo: monto}
+  cemento:             {fuente: datosgobar, id: "453.2_CEMENTONTO_0_0_7_59"}
+  subocupacion:        {fuente: datosgobar, id: "46.2_ECTST_0_T_36"}
+  monotributistas:     {fuente: datosgobar, id: "151.1_IPENDIEDAD_2012_M_41"}
+  monotributistas_desest: {fuente: datosgobar, id: "151.1_IPENDIETAC_2012_M_36"}
+  autonomos:           {fuente: datosgobar, id: "151.1_IPENDIEDAD_2012_M_39"}
+  soja_precio:         {fuente: fred, id: PSOYBUSDM}
+  retenciones:         {fuente: datosgobar, id: "452.2_DERECHOS_EION_0_T_20_42"}
+  m2:                  {fuente: bcra, id: 109, agregacion: promedio}
+  prestamos_usd:       {fuente: bcra, id: 125, agregacion: cierre}
+  fbcf_corriente:      {fuente: datosgobar, id: "166.2_F_BRUTAIJO_0_0_19"}
+  ventas_autos:        {fuente: datosgobar, id: "330.3_VENTAS_MERLES__34"}
+  produccion_autos:    {fuente: datosgobar, id: "330.3_PRODUCCIONLES__22"}
+  faena_vacuna:        {fuente: datosgobar, id: "41.2_FCV_0_T_18"}
+  fae_privados:        {fuente: datosgobar, id: "182.1_C_K_FINC_CINC_0_M_56"}
+  gasto_auh:           {fuente: datosgobar, id: "186.3_ASIGNACIONIAL_0_0_43"}
+  pib_nominal:         {fuente: datosgobar, id: "4.4_OGP_2004_T_17"}
+  ipc_vivienda:        {fuente: datosgobar, id: "146.3_IVIVIENNAL_DICI_M_52"}
+  ipc_transporte:      {fuente: datosgobar, id: "146.3_ITRANSPNAL_DICI_M_23"}
+  ipc_educacion:       {fuente: datosgobar, id: "146.3_IEDUCACNAL_DICI_M_22"}
+  merval:              {fuente: yahoo, id: "^MERV"}
+  adr_ggal:            {fuente: yahoo, id: "GGAL"}
+  adr_ypf:             {fuente: yahoo, id: "YPF"}
+  adr_pam:           {fuente: yahoo, id: "PAM"}
+  adr_bma:           {fuente: yahoo, id: "BMA"}
+  adr_bbar:          {fuente: yahoo, id: "BBAR"}
+  adr_supv:          {fuente: yahoo, id: "SUPV"}
+  adr_cepu:          {fuente: yahoo, id: "CEPU"}
+  adr_tgs:           {fuente: yahoo, id: "TGS"}
+  adr_teo:           {fuente: yahoo, id: "TEO"}
+  adr_edn:           {fuente: yahoo, id: "EDN"}
+  adr_cresy:         {fuente: yahoo, id: "CRESY"}
+  adr_irs:           {fuente: yahoo, id: "IRS"}
+  adr_loma:          {fuente: yahoo, id: "LOMA"}
+  # IMIG trimestral (la apertura mensual tiene meses vacíos en la API)
+  imig_jubilaciones:   {fuente: datosgobar, id: "452.1_JUBILACIONVAS_0_A_36_30"}
+  imig_pensiones_nc:   {fuente: datosgobar, id: "452.2_PENSIONES_VAS_0_T_26_93"}
+  imig_asignaciones:   {fuente: datosgobar, id: "452.2_ASIGNACIONIJO_0_T_26_195"}
+  imig_pami:           {fuente: datosgobar, id: "452.2_PRESTACIONSJP_0_T_19_19"}
+  imig_otros_programas: {fuente: datosgobar, id: "452.2_OTROS_PROGMAS_0_T_15_7"}
+  imig_subsidios_energia: {fuente: datosgobar, id: "452.2_ENERGIAGIA_0_T_7_79"}
+  imig_subsidios_transporte: {fuente: datosgobar, id: "452.2_TRANSPORTERTE_0_T_10_81"}
+  imig_salarios:       {fuente: datosgobar, id: "452.2_SALARIOSIOS_0_T_8_28"}
+  imig_funcionamiento: {fuente: datosgobar, id: "452.2_OTROS_GASTNTO_0_T_27_58"}
+  imig_intereses:      {fuente: datosgobar, id: "452.2_INTERESES_TOS_0_T_15_4"}
+  gpn_total:           {fuente: datosgobar, id: "451.4_GPN_PIBPIB_0_0_7_95"}
+  gpn_prevision:       {fuente: datosgobar, id: "451.4_GPN_PREVISPIB_0_0_24_69"}
+  gpn_asistencia:      {fuente: datosgobar, id: "451.4_GPN_PROMOCPIB_0_0_35_70"}
+  gpn_economicos:      {fuente: datosgobar, id: "451.4_GPN_SERVICPIB_0_0_28_18"}
+  gpn_deuda:           {fuente: datosgobar, id: "451.4_GPN_SERVICPIB_0_0_31_93"}
+  gpn_defensa:         {fuente: datosgobar, id: "451.4_GPN_DEFENSPIB_0_0_25_96"}
+  gpn_funcionamiento:  {fuente: datosgobar, id: "451.4_GPN_FUNCIOPIB_0_0_29_33"}
+  gpn_educ_basica:     {fuente: datosgobar, id: "451.4_GPN_EDUCACPIB_0_0_24_66"}
+  gpn_educ_superior:   {fuente: datosgobar, id: "451.4_GPN_EDUCACPIB_0_0_31_0"}
+  gpn_salud_publica:   {fuente: datosgobar, id: "451.4_GPN_ATENCIPIB_0_0_22_87"}
+  gpn_pami:            {fuente: datosgobar, id: "451.4_GPN_INSSJYPIB_0_0_21_94"}
+  gpn_obras_sociales:  {fuente: datosgobar, id: "451.4_GPN_OBRAS_PIB_0_0_28_7"}
+  gpn_ciencia:         {fuente: datosgobar, id: "451.4_GPN_CIENCIPIB_0_0_23_73"}
+  gpn_vivienda:        {fuente: datosgobar, id: "451.4_GPN_VIVIENPIB_0_0_26_14"}
+  gpn_empleo:          {fuente: datosgobar, id: "451.4_GPN_PROGRAPIB_0_0_24_2"}
+  calificacion_sp:     {fuente: manual, id: calificacion_sp, escalonada: true}
+  # --- Consumo por habitante: FAO (vía Our World in Data) + cifras oficiales ---
+  fao_vacuna:          {fuente: owid, id: per-capita-meat-type, campo: beef_and_buffalo}
+  fao_aviar:           {fuente: owid, id: per-capita-meat-type, campo: poultry}
+  fao_porcina:         {fuente: owid, id: per-capita-meat-type, campo: meat__pig}
+  fao_leche:           {fuente: owid, id: per-capita-milk-consumption, campo: milk__excluding_butter}
+  consumo_vacuna_sagyp_2024: {fuente: manual, id: consumo_vacuna_sagyp_2024}
+  consumo_vacuna_sagyp: {fuente: manual, id: consumo_vacuna_sagyp}
+  consumo_aviar_sagyp_2024: {fuente: manual, id: consumo_aviar_sagyp_2024}
+  consumo_aviar_sagyp: {fuente: manual, id: consumo_aviar_sagyp}
+  consumo_porcina_sagyp_2024: {fuente: manual, id: consumo_porcina_sagyp_2024}
+  consumo_porcina_sagyp: {fuente: manual, id: consumo_porcina_sagyp}
+  consumo_leche_ocla:  {fuente: manual, id: consumo_leche_ocla}
+  empresas_activas:    {fuente: archivo, lector: oede_empresas, campo: empresas}
+  empresas_aperturas:  {fuente: archivo, lector: oede_empresas, campo: aperturas}
+  empresas_cierres:    {fuente: archivo, lector: oede_empresas, campo: cierres}
+  empresas_neto:       {fuente: archivo, lector: oede_empresas, campo: neto}
+  # --- Reservas netas: balance del BCRA (miles de pesos, mensual) y componentes ---
+  bcra_encajes_usd:    {fuente: datosgobar, id: "300.1_AP_PAS_CUEDAS_0_M_39"}
+  bcra_organismos:     {fuente: datosgobar, id: "300.1_AP_PAS_OBLTER_0_M_36"}
+  bcra_pases:          {fuente: datosgobar, id: "300.1_AP_PAS_OBLASE_0_M_36"}
+  bcra_tc_balance:     {fuente: datosgobar, id: "300.1_TIPO_CAMBIBIO_0_M_11"}
+  bcra_pase_2016:      {fuente: bcra, id: 76, agregacion: cierre}
+  cny_por_usd:         {fuente: fred, id: "DEXCHUS"}
+  swap_china_yuan:     {fuente: manual, id: swap_china_yuan, escalonada: true}
+  swap_eeuu_activado:  {fuente: manual, id: swap_eeuu_activado, escalonada: true}
+  fmi_desembolsos_2025: {fuente: manual, id: fmi_desembolsos_programa_2025, escalonada: true}
+  # --- Deflactor en dólares ---
+  cpi_eeuu:            {fuente: fred, id: "CPIAUCSL"}
+
+# IPC empalmado: se encadenan las variaciones mensuales de cada tramo.
+# 2007-2016 se reemplaza el IPC del INDEC (no confiable) por San Luis y CABA.
+empalmes:
+  ipc:
+    - {serie: ipc_gba_historico, hasta: "2006-12-01"}
+    - {serie: ipc_san_luis,      hasta: "2012-07-01"}
+    - {serie: ipc_caba_2012,     hasta: "2016-12-01"}
+    - {serie: ipc_nacional}
+  consumo_vacuna:
+    - {serie: fao_vacuna, hasta: "2015-01-01"}
+    - {serie: consumo_vacuna_sagyp_2024, hasta: "2024-01-01"}
+    - {serie: consumo_vacuna_sagyp}
+  consumo_aviar:
+    - {serie: fao_aviar, hasta: "2015-01-01"}
+    - {serie: consumo_aviar_sagyp_2024, hasta: "2024-01-01"}
+    - {serie: consumo_aviar_sagyp}
+  consumo_porcina:
+    - {serie: fao_porcina, hasta: "2015-01-01"}
+    - {serie: consumo_porcina_sagyp_2024, hasta: "2024-01-01"}
+    - {serie: consumo_porcina_sagyp}
+  consumo_leche:
+    - {serie: fao_leche, hasta: "2022-01-01"}
+    - {serie: consumo_leche_ocla}
+
+calculos:
+  saldo_comercial: {operacion: resta, a: exportaciones, b: importaciones}
+  brecha_ccl:      {operacion: brecha, a: dolar_ccl, b: dolar_mayorista}
+  # Deciles 1 y 2 vienen vacíos en la API: como cada decil tiene el 10% de las personas, el promedio
+  # total es el promedio de los 10 deciles y el estrato bajo = (10·total − deciles 5 a 10) / 4
+  ipcf_estrato_bajo:  {operacion: combinacion, terminos: {ipcf_total: 2.5, ipcf_decil_5: -0.25, ipcf_decil_6: -0.25, ipcf_decil_7: -0.25, ipcf_decil_8: -0.25, ipcf_decil_9: -0.25, ipcf_decil_10: -0.25}}
+  ipcf_estrato_medio: {operacion: promedio, series: [ipcf_decil_5, ipcf_decil_6, ipcf_decil_7, ipcf_decil_8]}
+  ipcf_estrato_alto:  {operacion: promedio, series: [ipcf_decil_9, ipcf_decil_10]}
+  balanza_energetica: {operacion: resta, a: expo_combustibles, b: impo_combustibles}
+  brecha_mep:      {operacion: brecha, a: dolar_mep, b: dolar_mayorista}
+  brecha_tarjeta:  {operacion: brecha, a: dolar_tarjeta, b: dolar_mayorista}
+  # La serie IMIG de resultado financiero viene vacía en la API: se calcula como primario menos intereses netos
+  resultado_financiero: {operacion: resta, a: resultado_primario, b: intereses_netos}
+  presion_tributaria: {operacion: porcentaje_pib, a: recaudacion, b: pib_nominal}
+  presion_anual:   {operacion: presion_anual, nacional: recaudacion, provincial: prov_tributos_propios, pib: pib_nominal, informalidad: informalidad}
+  pib_jubilaciones: {operacion: porcentaje_pib, a: imig_jubilaciones, b: pib_nominal}
+  pib_pensiones_nc: {operacion: porcentaje_pib, a: imig_pensiones_nc, b: pib_nominal}
+  pib_asignaciones: {operacion: porcentaje_pib, a: imig_asignaciones, b: pib_nominal}
+  pib_pami: {operacion: porcentaje_pib, a: imig_pami, b: pib_nominal}
+  pib_otros_programas: {operacion: porcentaje_pib, a: imig_otros_programas, b: pib_nominal}
+  pib_subsidios_energia: {operacion: porcentaje_pib, a: imig_subsidios_energia, b: pib_nominal}
+  pib_subsidios_transporte: {operacion: porcentaje_pib, a: imig_subsidios_transporte, b: pib_nominal}
+  pib_salarios: {operacion: porcentaje_pib, a: imig_salarios, b: pib_nominal}
+  pib_funcionamiento: {operacion: porcentaje_pib, a: imig_funcionamiento, b: pib_nominal}
+  pib_intereses: {operacion: porcentaje_pib, a: imig_intereses, b: pib_nominal}
+  tasa_real_plazo_fijo: {operacion: tasa_real, a: tasa_plazo_fijo, b: ipc}
+  merval_usd:      {operacion: cociente, a: merval, b: dolar_ccl}
+  ipc_usd_oficial: {operacion: cociente, a: ipc, b: dolar_mayorista}
+  costo_construccion_usd: {operacion: cociente, a: costo_construccion, b: dolar_mayorista}
+  ipc_usd_ccl:     {operacion: cociente, a: ipc, b: dolar_ccl}
+  indice_adr:      {operacion: indice_equiponderado, series: [adr_ggal, adr_ypf, adr_pam, adr_bma, adr_bbar, adr_supv, adr_cepu, adr_tgs, adr_teo, adr_edn, adr_cresy, adr_irs, adr_loma]}
+  reservas_netas:  {operacion: reservas_netas, reservas: reservas, encajes: bcra_encajes_usd, depositos_usd: depositos_privados_usd, swap_yuan: swap_china_yuan,
+                    cny: cny_por_usd, organismos: bcra_organismos, pases: bcra_pases, pase_2016: bcra_pase_2016, swap_eeuu: swap_eeuu_activado, tc_balance: bcra_tc_balance}
+  # Criterio del FMI: además resta los desembolsos acumulados del programa vigente (firmado en abril de 2025)
+  reservas_netas_fmi: {operacion: resta, a: reservas_netas, b: fmi_desembolsos_2025}
+  # PIB y FBCF trimestrales en pesos corrientes vienen anualizados: se dividen por 4
+  ied_inversion:   {operacion: porcentaje_de, a: bdp_ied, b: fbcf_corriente, multiplicar: dolar_mayorista, divisor_b: 4, acumular: 4}
+  salario_total:   {operacion: indice_ponderado, series: [salario_privado, salario_publico, salario_no_registrado], pesos: [50.16, 29.91, 19.93], base: "2016-10-01"}
+  gasto_jub_contributivas: {operacion: combinacion, terminos: {jub_sipa_gasto: 1, jub_otros_gasto: 1}}
+  gasto_social_sin_jub: {operacion: combinacion, terminos: {gasto_politica_ingresos: 1, jub_sipa_gasto: -1, jub_otros_gasto: -1}}
+  granos_total:     {operacion: combinacion, terminos: {prod_soja: 1, prod_maiz: 1, prod_trigo: 1, prod_girasol: 1}}
+  sueldo_en_canastas: {operacion: cociente, a: remuneracion_sipa, b: cbt}
+  escritura_pesos:  {operacion: cociente, a: escrituras_monto, b: escrituras_caba}
+  escritura_usd:    {operacion: cociente, a: escritura_pesos, b: dolar_mayorista}
+  pib_retenciones:  {operacion: porcentaje_pib, a: retenciones, b: pib_nominal}
+  pib_resultado_primario: {operacion: porcentaje_pib, a: resultado_primario, b: pib_nominal}
+  deuda_pib:        {operacion: stock_sobre_flujo_anual, a: deuda_total_res, b: pib_nominal, multiplicar: dolar_mayorista}
+  deuda_hogares_masa: {operacion: stock_sobre_flujo_anual, a: prestamos_personas, b: remuneracion_asalariados}
+  salario_usd:     {operacion: cociente, a: remuneracion_sipa, b: dolar_ccl}
+
+grupos:
+  - {id: inflacion_rubros, nombre: "Inflación por rubro (GBA)", seccion: Precios,
+     nota: "Índice de precios al consumidor del INDEC para el Gran Buenos Aires, aperturas por clase o grupo (base diciembre de 2016). Las aperturas tan finas se publican por región; se usa GBA, la de mayor peso en el índice nacional."}
+  - {id: expo_destino, unidad_ranking: "millones de US$ de hoy, últimos 12 meses", nombre: "Exportaciones por destino", seccion: "Sector externo e inversión", ranking: nivel, sufijo_ranking: " M",
+     nota: "Exportaciones de bienes (FOB) por país de destino, suma de los últimos 12 meses en dólares de hoy (deflactadas con el IPC de EE.UU.). Unión Europea: los 27 miembros actuales en todo el período. Fuente: INDEC, API de datos (comercio exterior)."}
+  - {id: impo_origen, unidad_ranking: "millones de US$ de hoy, últimos 12 meses", nombre: "Importaciones por origen", seccion: "Sector externo e inversión", ranking: nivel, sufijo_ranking: " M",
+     nota: "Importaciones de bienes (CIF) por país de origen, suma de los últimos 12 meses en dólares de hoy. Unión Europea: los 27 miembros actuales. Fuente: INDEC, API de datos (comercio exterior)."}
+  - {id: impo_uso, unidad_ranking: "millones de US$ de hoy, últimos 12 meses", nombre: "Importaciones por uso económico", seccion: "Sector externo e inversión", ranking: nivel, sufijo_ranking: " M",
+     nota: "Importaciones de bienes (CIF) según su destino en la economía, suma de los últimos 12 meses en dólares de hoy. Fuente: INDEC, API de datos (comercio exterior)."}
+  - {id: canasta_crianza, unidad_ranking: "pesos de hoy por mes", nombre: "Canasta de crianza por edad", seccion: "Pobreza y programas sociales", ranking: nivel, sufijo_ranking: "",
+     nota: "Costo mensual de criar a un chico según su edad: bienes y servicios (con la canasta básica total) más el tiempo de cuidado valorizado al salario de una trabajadora de casas particulares. INDEC, desde mayo de 2023; en pesos de hoy."}
+  - {id: deuda_composicion, nombre: "Deuda por instrumento y acreedor", seccion: "Deuda pública", ranking: diferencia, unidad_ranking: "miles de millones de US$ de hoy",
+     escala_ranking: 0.001, sufijo_ranking: " mil M",
+     nota: "Deuda bruta de la Administración Central (Secretaría de Finanzas), saldos a fin de trimestre desde 2019. Bonos y letras incluyen los que están en manos de organismos públicos (BCRA, FGS, Banco Nación): Finanzas no publica la apertura por tenedor en esta serie."}
+  - {id: empleo_sectores, nombre: "Empleo privado registrado por sector", seccion: "Empleo e ingresos", ranking: diferencia, unidad_ranking: "miles de puestos",
+     nota: "Asalariados privados registrados (SIPA), series sin estacionalidad salvo salud. Minería, servicios comunitarios y salud usan la serie con estacionalidad. No incluye intermediación financiera, que no se publica por rama en la API."}
+  - {id: gasto_concepto, nombre: "Gasto de la Administración Nacional por concepto", seccion: "Estado y fiscal", ranking: diferencia, unidad_ranking: "puntos del PIB", escala_ranking: 1, sufijo_ranking: " pp",
+     nota: "Gasto base caja del Sector Público Nacional no financiero (Informe Mensual de Ingresos y Gastos, Ministerio de Economía), últimos 4 trimestres en % del PIB nominal. Datos desde 2016. Para la apertura por función (educación, salud, defensa) con serie larga ver el gráfico de gasto por función, que llega hasta 2023."}
+  - {id: gasto_funcion, nombre: "Gasto público nacional por función (serie larga, hasta 2023)", seccion: "Estado y fiscal", ranking: nivel, unidad_ranking: "% del PIB", sufijo_ranking: "% del PIB",
+     nota: "Gasto de la Administración Pública Nacional por finalidad y función (Ministerio de Economía, serie de gasto público consolidado). La serie se publica con varios años de rezago: el último año disponible es 2023."}
+  - {id: aprobacion_encuestadoras, nombre: "Aprobación del presidente según cada encuestadora", seccion: "Opinión pública", ranking: nivel, unidad_ranking: "% que aprueba, última medición", sufijo_ranking: "%",
+     nota: "Cada encuestadora con su propia pregunta y método: AtlasIntel (¿aprueba o desaprueba el desempeño del presidente?, online por reclutamiento aleatorio), UdeSA–ESPOP (¿aprobás o desaprobás el gobierno del presidente?, online, 1.000 casos) y Zuban Córdoba (nivel de aprobación del gobierno, online, 2.000 casos). Las series históricas se reconstruyeron a partir del gráfico evolutivo del último informe de cada una: los valores leídos del gráfico están redondeados y pueden diferir en ±1 punto del dato original. El detalle de cada encuesta y su fuente está en data/manual/encuestas_aprobacion.csv."}
+  - {id: morosidad_entidades, nombre: "Morosidad por tipo de prestamista: bancos, financieras y billeteras", seccion: "Crédito y alquileres", ranking: diferencia, unidad_ranking: "puntos porcentuales", escala_ranking: 1, sufijo_ranking: " pp",
+     nota: "Irregularidad de la cartera de préstamos al sector privado (BCRA, Informe sobre bancos). Las entidades financieras no bancarias son compañías financieras y cajas de crédito autorizadas por el BCRA. Las billeteras virtuales y fintech (Mercado Pago, Ualá, Naranja X y otras) no son entidades financieras: sus datos vienen del Informe de Proveedores No Financieros de Crédito del BCRA (Central de Deudores), que se publica dos veces por año con unos meses de rezago. En bancos la cartera incluye empresas; en los proveedores no financieros es casi toda de personas. Bancos privados extranjeros no tiene serie mensual en la fuente."}
+  - {id: morosidad_pnfc_tipo, nombre: "Morosidad en fintech, billeteras y otros prestamistas no financieros, por tipo de crédito", seccion: "Crédito y alquileres", ranking: diferencia, unidad_ranking: "puntos porcentuales", escala_ranking: 1, sufijo_ranking: " pp",
+     nota: "Irregularidad de la cartera de los proveedores no financieros de crédito (BCRA, Central de Deudores). Resto incluye préstamos prendarios, hipotecarios y otras financiaciones. Se publica dos veces por año con unos meses de rezago."}
+  - {id: morosidad_familias_tipo, nombre: "Morosidad de las familias por tipo de crédito (y de las empresas)", seccion: "Crédito y alquileres", ranking: diferencia, unidad_ranking: "puntos porcentuales", escala_ranking: 1, sufijo_ranking: " pp",
+     nota: "Irregularidad de las financiaciones del sistema financiero (bancos y entidades financieras) según el anexo del Informe sobre Bancos del BCRA. Familias: préstamos a personas humanas sin destino comercial; empresas: personas jurídicas y crédito comercial a personas humanas. No incluye fintech ni billeteras virtuales (ver el gráfico por tipo de prestamista). Datos desde 2010."}
+  - {id: reservas_componentes, nombre: "Qué se resta de las reservas brutas para llegar a las netas", seccion: "Dólar y finanzas", ranking: nivel, unidad_ranking: "millones de US$ de hoy, último mes", sufijo_ranking: " M",
+     nota: "Componentes de la estimación de reservas netas. El swap con EE.UU. activado (2.500 millones entre noviembre de 2025 y enero de 2026) no se muestra aparte."}
+  - {id: ingresos_tipo_trabajo, nombre: "Ingreso mensual promedio según tipo de trabajo (EPH)", seccion: "Empleo e ingresos", ranking: nivel, unidad_ranking: "pesos de hoy por mes, último trimestre", sufijo_ranking: "",
+     nota: "Ingreso medio de la ocupación principal según los microdatos de la Encuesta Permanente de Hogares (INDEC, 31 aglomerados urbanos), ponderado por el factor de ingresos con imputación de no respuesta. Cálculo propio. Cuenta propia incluye a monotributistas y a cuentapropistas sin registrar: la encuesta no permite separarlos. Asalariados registrados son los que tienen descuento jubilatorio. Trimestral desde el 2do trimestre de 2016, en pesos de hoy (cada trimestre deflactado con el IPC de su mes central). La EPH tiende a subestimar los ingresos, en especial los de los independientes."}
+  - {id: salario_real_tipo, nombre: "Salario real: total, registrado privado, público y no registrado", seccion: "Empleo e ingresos", fecha_comun: true,
+     nota: "Índice de salarios de INDEC (base octubre 2016) deflactado por el IPC. El total usa las ponderaciones oficiales de INDEC (50,16% privado registrado, 29,91% público, 19,93% no registrado). El salario no registrado (asalariados informales del sector privado) surge de la Encuesta Permanente de Hogares y se publica con 5 meses de rezago: acá cada dato se ubica en el mes al que corresponde, por eso el total y el no registrado terminan 5 meses antes. Para que la comparación sea pareja, las barras comparan a todos hasta el último mes que tienen en común. No incluye a cuentapropistas ni monotributistas."}
+  - {id: emae_sectores, nombre: "Actividad por sector (EMAE)", seccion: Actividad,
+     nota: "Serie original (sin desestacionalizar) de INDEC, base 2004. Construcción no tiene serie mensual por sector: se sigue con el ISAC."}
+
+indicadores:
+  - {id: inflacion, nombre: "Inflación (IPC)", seccion: Precios, serie: ipc, tipo_valor: indice, vista_historica: mensual, unidad: "índice", portada: true,
+     nota: "IPC empalmado: GBA hasta 2006, San Luis 2007–2012, CABA 2012–2016 e INDEC nacional desde 2017."}
+  - {id: inflacion_nucleo, nombre: "Inflación núcleo", seccion: Precios, serie: ipc_nucleo, tipo_valor: indice, vista_historica: mensual, unidad: "índice"}
+  - {id: inflacion_regulados, nombre: "Inflación de regulados", seccion: Precios, serie: ipc_regulados, tipo_valor: indice, vista_historica: mensual, unidad: "índice"}
+  - {id: inflacion_alimentos, nombre: "Inflación de alimentos y bebidas", seccion: Precios, serie: ipc_alimentos, tipo_valor: indice, vista_historica: mensual, unidad: "índice"}
+  - {id: inflacion_usd_oficial, nombre: "Inflación en dólares (al dólar oficial)", seccion: Precios, serie: ipc_usd_oficial, tipo_valor: indice, vista_historica: mensual, unidad: "índice",
+     nota: "Cuánto suben los precios medidos en dólares: IPC (empalmado) dividido por el dólar oficial mayorista (BCRA, promedio del mes). Positiva = el país se encarece en dólares; negativa = se abarata. Es la contracara del tipo de cambio real bilateral sin descontar la inflación de Estados Unidos. Cálculo propio."}
+  - {id: inflacion_usd_ccl, nombre: "Inflación en dólares (al contado con liqui)", seccion: Precios, serie: ipc_usd_ccl, tipo_valor: indice, vista_historica: mensual, unidad: "índice",
+     nota: "IPC (empalmado) dividido por el dólar contado con liquidación (promedio del mes, desde 2013). Con cepo, muestra cuánto se encarecieron los precios para quien mide en dólares financieros. Cálculo propio."}
+  - {id: emae, nombre: "Actividad económica (EMAE)", seccion: Actividad, serie: emae_original, desestacionalizada: emae_desest, tipo_valor: indice, unidad: "índice 2004=100", portada: true}
+  - {id: ipi, nombre: "Producción industrial (IPI)", seccion: Actividad, serie: ipi_original, desestacionalizada: ipi_desest, tipo_valor: indice, unidad: "índice"}
+  - {id: isac, nombre: "Construcción (ISAC)", seccion: Actividad, serie: isac_original, desestacionalizada: isac_desest, tipo_valor: indice, unidad: "índice"}
+  - {id: supermercados, nombre: "Ventas en supermercados", seccion: Actividad, serie: supermercados_original, desestacionalizada: supermercados_desest, tipo_valor: indice, unidad: "índice"}
+  - {id: salario_privado, nombre: "Salario real privado registrado", seccion: "Empleo e ingresos", serie: salario_privado, tipo_valor: nivel, moneda: ARS, unidad: "índice real", portada: true}
+  - {id: salario_publico, nombre: "Salario real público", seccion: "Empleo e ingresos", serie: salario_publico, tipo_valor: nivel, moneda: ARS, unidad: "índice real"}
+  - {id: salario_no_registrado, nombre: "Salario real privado no registrado (informal)", seccion: "Empleo e ingresos", serie: salario_no_registrado, tipo_valor: nivel, moneda: ARS, unidad: "índice real",
+     nota: "Índice de salarios de INDEC para asalariados del sector privado no registrados, deflactado por el IPC. INDEC lo publica con 5 meses de rezago porque surge de la Encuesta Permanente de Hogares: el dato que publica para un mes refleja los salarios de 5 meses antes. Acá cada dato se ubica en el mes al que corresponde (y se deflacta con el IPC de ese mes), por eso la serie termina 5 meses antes que la de los registrados. Sin esa corrección el salario informal real aparece con saltos ficticios cuando la inflación cambia de golpe, como en diciembre de 2023."}
+  - {id: eph_cuenta_propia, nombre: "Ingreso real de los trabajadores por cuenta propia (monotributistas y cuentapropistas)", seccion: "Empleo e ingresos", serie: eph_cuenta_propia, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por mes", frecuencia: T,
+     nota: "Ingreso medio de la ocupación principal según los microdatos de la Encuesta Permanente de Hogares (INDEC, 31 aglomerados urbanos), ponderado por el factor de ingresos con imputación de no respuesta. Cálculo propio. Cuenta propia incluye a monotributistas y a cuentapropistas sin registrar: la encuesta no permite separarlos. Asalariados registrados son los que tienen descuento jubilatorio. Trimestral desde el 2do trimestre de 2016, en pesos de hoy (cada trimestre deflactado con el IPC de su mes central). La EPH tiende a subestimar los ingresos, en especial los de los independientes."}
+  - {id: eph_cuenta_propia_g, nombre: "Cuenta propia (monotributistas y cuentapropistas)", seccion: "Empleo e ingresos", serie: eph_cuenta_propia, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por mes", frecuencia: T, grupo: ingresos_tipo_trabajo}
+  - {id: eph_asal_registrado_g, nombre: "Asalariados registrados (formales)", seccion: "Empleo e ingresos", serie: eph_asal_registrado, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por mes", frecuencia: T, grupo: ingresos_tipo_trabajo}
+  - {id: eph_asal_no_registrado_g, nombre: "Asalariados no registrados (informales)", seccion: "Empleo e ingresos", serie: eph_asal_no_registrado, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por mes", frecuencia: T, grupo: ingresos_tipo_trabajo}
+  - {id: salario_total, nombre: "Salario real total (registrado y no registrado)", seccion: "Empleo e ingresos", serie: salario_total, tipo_valor: nivel, moneda: ARS, unidad: "índice real",
+     nota: "Promedio de los índices de salarios de INDEC con las ponderaciones oficiales del índice total: privado registrado 50,16%, público 29,91% y privado no registrado 19,93%, deflactado por el IPC. Cálculo propio: a diferencia del índice total que publica INDEC, el componente no registrado se ubica en el mes al que corresponden sus salarios (INDEC lo publica con 5 meses de rezago), por eso la serie llega hasta 5 meses antes que la de los registrados. No incluye a cuentapropistas ni monotributistas, de los que no hay un índice oficial de ingresos."}
+  - {id: subocupacion, vista_inicial: desde_2003, nombre: "Subocupación", seccion: "Empleo e ingresos", serie: subocupacion, tipo_valor: tasa, escala: 100, unidad: "% de la PEA", frecuencia: T,
+     nota: "EPH (INDEC), 31 aglomerados urbanos. Ocupados que trabajan menos de 35 horas semanales por causas involuntarias y quieren trabajar más."}
+  - {id: salario_total_g, nombre: "Total", seccion: "Empleo e ingresos", serie: salario_total, tipo_valor: nivel, moneda: ARS, unidad: "índice real", grupo: salario_real_tipo}
+  - {id: salario_privado_g, nombre: "Privado registrado", seccion: "Empleo e ingresos", serie: salario_privado, tipo_valor: nivel, moneda: ARS, unidad: "índice real", grupo: salario_real_tipo}
+  - {id: salario_publico_g, nombre: "Público", seccion: "Empleo e ingresos", serie: salario_publico, tipo_valor: nivel, moneda: ARS, unidad: "índice real", grupo: salario_real_tipo}
+  - {id: salario_no_registrado_g, nombre: "Privado no registrado (informal)", seccion: "Empleo e ingresos", serie: salario_no_registrado, tipo_valor: nivel, moneda: ARS, unidad: "índice real", grupo: salario_real_tipo}
+  - {id: smvm, nombre: "Salario mínimo real", seccion: "Empleo e ingresos", serie: smvm, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy"}
+  - {id: jubilacion_minima, nombre: "Jubilación mínima real", seccion: "Pobreza y programas sociales", serie: jubilacion_minima, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy"}
+  - {id: desocupacion, nombre: "Desocupación", seccion: "Empleo e ingresos", serie: desocupacion, tipo_valor: tasa, escala: 100, unidad: "% de la PEA", frecuencia: T, portada: true}
+  - {id: exportaciones, nombre: "Exportaciones", seccion: "Sector externo e inversión", serie: exportaciones, tipo_valor: flujo, moneda: USD, unidad: "millones de US$ de hoy"}
+  - {id: importaciones, nombre: "Importaciones", seccion: "Sector externo e inversión", serie: importaciones, tipo_valor: flujo, moneda: USD, unidad: "millones de US$ de hoy"}
+  - {id: saldo_comercial, nombre: "Saldo comercial", seccion: "Sector externo e inversión", serie: saldo_comercial, tipo_valor: saldo, moneda: USD, unidad: "millones de US$ de hoy", portada: true}
+  - {id: resultado_primario, nombre: "Resultado primario", seccion: "Estado y fiscal", serie: resultado_primario, tipo_valor: saldo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses", portada: true}
+  - {id: resultado_financiero, nombre: "Resultado financiero", seccion: "Estado y fiscal", serie: resultado_financiero, tipo_valor: saldo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses"}
+  - {id: recaudacion, nombre: "Recaudación tributaria", seccion: "Estado y fiscal", serie: recaudacion, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses"}
+  - {id: rec_iva, nombre: "IVA (recaudación neta)", seccion: "Estado y fiscal", serie: rec_iva, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Recaudación mensual de ARCA (ex AFIP), sumada en 12 meses y llevada a pesos de hoy con el IPC. IVA neto de devoluciones y reintegros, impositivo y aduanero. En 2003 y 2004 la planilla trae el IVA bruto."}
+  - {id: rec_ganancias, nombre: "Impuesto a las Ganancias", seccion: "Estado y fiscal", serie: rec_ganancias, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Recaudación mensual de ARCA (ex AFIP), sumada en 12 meses y llevada a pesos de hoy con el IPC. Incluye pagos directos, anticipos y retenciones (también las de la Aduana)."}
+  - {id: rec_seguridad_social, nombre: "Aportes y contribuciones a la seguridad social", seccion: "Estado y fiscal", serie: rec_seguridad_social, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Recaudación mensual de ARCA (ex AFIP), sumada en 12 meses y llevada a pesos de hoy con el IPC. Aportes personales, contribuciones patronales, obras sociales, riesgos del trabajo y la parte previsional del monotributo."}
+  - {id: rec_cheque, nombre: "Impuesto a los débitos y créditos bancarios (al cheque)", seccion: "Estado y fiscal", serie: rec_cheque, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Recaudación mensual de ARCA (ex AFIP), sumada en 12 meses y llevada a pesos de hoy con el IPC. Ley 25.413, vigente desde 2001."}
+  - {id: rec_derechos_exportacion, nombre: "Derechos de exportación (retenciones)", seccion: "Estado y fiscal", serie: rec_derechos_exportacion, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Recaudación mensual de ARCA (ex AFIP), sumada en 12 meses y llevada a pesos de hoy con el IPC. Su peso depende de las alícuotas, los precios internacionales y la cosecha de cada año."}
+  - {id: rec_derechos_importacion, nombre: "Derechos de importación (aranceles)", seccion: "Estado y fiscal", serie: rec_derechos_importacion, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Recaudación mensual de ARCA (ex AFIP), sumada en 12 meses y llevada a pesos de hoy con el IPC. Aranceles de importación; no incluye la tasa de estadística, el IVA ni Ganancias cobrados en la Aduana."}
+  - {id: rec_combustibles, nombre: "Impuestos a los combustibles", seccion: "Estado y fiscal", serie: rec_combustibles, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Recaudación mensual de ARCA (ex AFIP), sumada en 12 meses y llevada a pesos de hoy con el IPC. Impuesto a los combustibles líquidos y al dióxido de carbono (antes, combustibles líquidos y GNC). Su recaudación depende también de las postergaciones de aumentos que dispone el Gobierno."}
+  - {id: iibb_total, nombre: "Ingresos Brutos (provincias)", seccion: "Estado y fiscal", serie: iibb_total, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     variante_principal: "Todas las provincias", nombre_variante: "Ingresos Brutos: {}",
+     variantes: {iibb_buenos_aires: "Buenos Aires", iibb_catamarca: "Catamarca", iibb_chaco: "Chaco", iibb_chubut: "Chubut", iibb_caba: "Ciudad de Buenos Aires", iibb_cordoba: "Córdoba", iibb_corrientes: "Corrientes", iibb_entre_rios: "Entre Ríos", iibb_formosa: "Formosa", iibb_jujuy: "Jujuy", iibb_la_pampa: "La Pampa", iibb_la_rioja: "La Rioja", iibb_mendoza: "Mendoza", iibb_misiones: "Misiones", iibb_neuquen: "Neuquén", iibb_rio_negro: "Río Negro", iibb_salta: "Salta", iibb_san_juan: "San Juan", iibb_san_luis: "San Luis", iibb_santa_cruz: "Santa Cruz", iibb_santa_fe: "Santa Fe", iibb_santiago_del_estero: "Santiago del Estero", iibb_tierra_del_fuego: "Tierra del Fuego", iibb_tucuman: "Tucumán"},
+     nota: "Recaudación del impuesto sobre los Ingresos Brutos que informan las direcciones de rentas de cada provincia (compilación de la Dirección Nacional de Recursos Provinciales), sumada en 12 meses y llevada a pesos de hoy con el IPC nacional. Serie mensual desde 2017. El total suma las 24 jurisdicciones desde 2024; como Corrientes y Santiago del Estero no informaron antes (y La Pampa recién desde 2021), los años anteriores se calculan con la variación de las 21 jurisdicciones con serie completa (empalme). Los meses sueltos sin dato de una provincia (hasta tres seguidos) se completan por interpolación. En Chubut solo incluye lo que cobra la provincia (el resto está delegado en los municipios)."}
+  - {id: icg, nombre: "Confianza en el gobierno (UTDT)", seccion: "Opinión pública", serie: icg, tipo_valor: tasa, unidad: "índice 0 a 5", portada: true}
+  - {id: aprobacion_promedio, vista_inicial: desde_2003, nombre: "Aprobación del presidente (promedio de encuestas)", seccion: "Opinión pública", serie: aprobacion_promedio, tipo_valor: tasa, unidad: "% que aprueba", portada: true,
+     nota: "Promedio simple, mes a mes, de las encuestadoras que midieron ese mes: AtlasIntel (desde 2024), UdeSA–ESPOP (desde diciembre de 2015) y Zuban Córdoba (desde octubre de 2025). Hasta 2023 la serie es solo de UdeSA–ESPOP, que mide con la misma pregunta a Macri, Alberto Fernández y Milei. Se eligieron encuestadoras que publican con regularidad y documentan su método; la lista se amplía a medida que se cargan nuevas mediciones con fuente. La Confianza en el Gobierno de la UTDT (en esta misma sección) es la serie larga desde 2001."}
+  - {id: desaprobacion_promedio, vista_inicial: desde_2003, nombre: "Desaprobación del presidente (promedio de encuestas)", seccion: "Opinión pública", serie: desaprobacion_promedio, tipo_valor: tasa, unidad: "% que desaprueba",
+     nota: "Promedio simple, mes a mes, de las mismas encuestadoras que la aprobación. Aprobación y desaprobación no suman 100: el resto no sabe o no contesta."}
+  - {id: satisfaccion_rumbo, vista_inicial: desde_2003, nombre: "Satisfacción con el rumbo del país", seccion: "Opinión pública", serie: satisfaccion_rumbo, tipo_valor: tasa, unidad: "% algo o muy satisfecho",
+     nota: "Pregunta: ¿cuál dirías que es tu nivel de satisfacción con cómo marchan las cosas en el país? (UdeSA, Encuesta de Satisfacción Política y Opinión Pública, online, 1.000 casos). Misma pregunta para Macri, Alberto Fernández y Milei desde marzo de 2016. Los valores históricos se leyeron del gráfico evolutivo del último informe y pueden diferir en ±1 punto; el último es el dato publicado."}
+  - {id: aprobacion_atlas, nombre: "AtlasIntel", seccion: "Opinión pública", serie: aprobacion_atlas, tipo_valor: tasa, unidad: "% que aprueba", grupo: aprobacion_encuestadoras}
+  - {id: aprobacion_espop, nombre: "UdeSA (ESPOP)", seccion: "Opinión pública", serie: aprobacion_espop, tipo_valor: tasa, unidad: "% que aprueba", grupo: aprobacion_encuestadoras}
+  - {id: aprobacion_zuban, nombre: "Zuban Córdoba", seccion: "Opinión pública", serie: aprobacion_zuban, tipo_valor: tasa, unidad: "% que aprueba", grupo: aprobacion_encuestadoras}
+  - {id: reservas, nombre: "Reservas brutas del BCRA", seccion: "Dólar y finanzas", serie: reservas, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", portada: true}
+  - {id: dolar_mayorista, nombre: "Dólar mayorista (real)", seccion: "Dólar y finanzas", serie: dolar_mayorista, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por dólar"}
+  - {id: dolar_ccl, nombre: "Dólar CCL (real)", seccion: "Dólar y finanzas", serie: dolar_ccl, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por dólar", portada: true}
+  - {id: brecha_ccl, nombre: "Brecha CCL vs. mayorista", seccion: "Dólar y finanzas", serie: brecha_ccl, tipo_valor: tasa, unidad: "%"}
+  - {id: base_monetaria, nombre: "Base monetaria (real)", seccion: "Dólar y finanzas", serie: base_monetaria, tipo_valor: nivel, moneda: ARS, unidad: "millones de pesos de hoy"}
+  - {id: prestamos_privados, nombre: "Préstamos al sector privado (real)", seccion: "Dólar y finanzas", serie: prestamos_privados, tipo_valor: nivel, moneda: ARS, unidad: "millones de pesos de hoy"}
+  - {id: tasa_plazo_fijo, nombre: "Tasa de plazo fijo a 30 días", seccion: "Dólar y finanzas", serie: tasa_plazo_fijo, tipo_valor: tasa, vista_inicial: desde_2003, unidad: "% TNA",
+     nota: "Promedio de las tasas pagadas por los bancos por depósitos a 30 días (BCRA)."}
+  - {id: riesgo_pais, nombre: "Riesgo país", seccion: "Dólar y finanzas", serie: riesgo_pais, tipo_valor: tasa, unidad: "puntos básicos", portada: true}
+  # --- Ampliación fase 1 ---
+  - {id: ipim, nombre: "Precios mayoristas (IPIM)", seccion: Precios, serie: ipim, tipo_valor: indice, vista_historica: mensual, unidad: "índice"}
+  - {id: autoservicios, nombre: "Ventas en autoservicios mayoristas", seccion: Actividad, serie: autoservicios_original, desestacionalizada: autoservicios_desest, tipo_valor: indice, unidad: "índice"}
+  - {id: shoppings, nombre: "Ventas en centros de compras", seccion: Actividad, serie: shoppings_original, desestacionalizada: shoppings_desest, tipo_valor: indice, unidad: "índice"}
+  - {id: came_ventas, nombre: "Ventas minoristas pymes (CAME)", seccion: Actividad, serie: came_ventas, tipo_valor: indice, unidad: "índice dic-2022=100",
+     nota: "Índice de ventas minoristas pymes de la Confederación Argentina de la Mediana Empresa: cantidades vendidas en comercios pymes de todo el país, a precios constantes. Serie con estacionalidad. Los meses de 2023 se calcularon con el índice de 2024 y la variación interanual que publica CAME. Encuesta propia de la cámara, no es una estadística oficial."}
+  - {id: construya, nombre: "Índice Construya", seccion: Actividad, serie: construya, desestacionalizada: construya_desest, tipo_valor: indice, unidad: "índice",
+     nota: "Grupo Construya: volumen de insumos para la construcción vendidos al sector privado por las empresas líderes (ladrillos, cemento, cal, aceros largos, sanitarios, pinturas, cerámicos y otros). Suele anticipar la construcción privada."}
+  - {id: produccion_petroleo, nombre: "Producción de petróleo", seccion: Actividad, serie: produccion_petroleo, tipo_valor: flujo, unidad: "miles de m³ por mes",
+     nota: "Atención: la fuente (Secretaría de Energía vía datos.gob.ar) no publica datos nuevos desde noviembre de 2025."}
+  - {id: produccion_gas, nombre: "Producción de gas natural", seccion: Actividad, serie: produccion_gas, tipo_valor: flujo, unidad: "millones de m³ por mes"}
+  - {id: produccion_acero, nombre: "Producción de acero crudo", seccion: Actividad, serie: produccion_acero, tipo_valor: flujo, unidad: "miles de toneladas por mes"}
+  - {id: asalariados_privados, nombre: "Asalariados privados registrados", seccion: "Empleo e ingresos", serie: asalariados_privados, desestacionalizada: asalariados_privados_desest, tipo_valor: nivel, unidad: "miles de personas"}
+  - {id: monotributistas, nombre: "Monotributistas registrados", seccion: "Empleo e ingresos", serie: monotributistas, desestacionalizada: monotributistas_desest, tipo_valor: nivel, unidad: "miles de personas",
+     nota: "Trabajadores independientes inscriptos en el monotributo (SIPA, Secretaría de Trabajo). No incluye monotributo social ni autónomos. Es la cantidad de inscriptos, no de quienes trabajan efectivamente."}
+  - {id: gasto_politica_ingresos, nombre: "Gasto total en política de ingresos (jubilaciones y programas sociales)", seccion: "Pobreza y programas sociales", serie: gasto_politica_ingresos, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Gasto devengado de la Administración Nacional en programas de seguridad social y transferencias de ingresos (Ministerio de Economía). Incluye jubilaciones y pensiones contributivas (alrededor de tres cuartos del total), pensiones no contributivas, AUH, asignaciones familiares, PUAM, becas, seguro de desempleo y planes de empleo."}
+  - {id: gasto_jub_contributivas, nombre: "Gasto en jubilaciones y pensiones contributivas (ANSES y otros regímenes)", seccion: "Pobreza y programas sociales", serie: gasto_jub_contributivas, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Jubilaciones y pensiones del SIPA (ANSES) más las de otros regímenes nacionales (Fuerzas Armadas, de seguridad y otros). Gasto devengado de la Administración Nacional, misma fuente que el total de política de ingresos."}
+  - {id: gasto_social_sin_jub, nombre: "Gasto en programas sociales (sin jubilaciones contributivas)", seccion: "Pobreza y programas sociales", serie: gasto_social_sin_jub, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Gasto total en política de ingresos menos jubilaciones y pensiones contributivas. Incluye pensiones no contributivas, AUH y Protección Social, asignaciones familiares, Pensión Universal para el Adulto Mayor, becas (Progresar), seguro de desempleo y planes de empleo (Argentina Trabaja, Jefes y Jefas, Familias y otros según el período). Cálculo propio con datos del Ministerio de Economía."}
+  - {id: auh_prestaciones, nombre: "AUH: prestaciones liquidadas", seccion: "Pobreza y programas sociales", serie: auh_prestaciones, tipo_valor: nivel, unidad: "prestaciones (hijos)"}
+  - {id: auh_monto, nombre: "AUH: monto por hijo (real)", seccion: "Pobreza y programas sociales", serie: auh_monto, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy"}
+  - {id: auh_gasto, nombre: "AUH: gasto total", seccion: "Pobreza y programas sociales", serie: auh_gasto, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses"}
+  - {id: pnc_gasto, nombre: "Pensiones no contributivas: gasto", seccion: "Pobreza y programas sociales", serie: pnc_gasto, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses"}
+  - {id: expo_primarios, nombre: "Exportaciones: productos primarios", seccion: "Sector externo e inversión", serie: expo_primarios, tipo_valor: flujo, moneda: USD, unidad: "millones de US$ de hoy"}
+  - {id: expo_moa, nombre: "Exportaciones: manufacturas agropecuarias (MOA)", seccion: "Sector externo e inversión", serie: expo_moa, tipo_valor: flujo, moneda: USD, unidad: "millones de US$ de hoy"}
+  - {id: expo_moi, nombre: "Exportaciones: manufacturas industriales (MOI)", seccion: "Sector externo e inversión", serie: expo_moi, tipo_valor: flujo, moneda: USD, unidad: "millones de US$ de hoy"}
+  - {id: expo_combustibles, nombre: "Exportaciones: combustibles y energía", seccion: "Sector externo e inversión", serie: expo_combustibles, tipo_valor: flujo, moneda: USD, unidad: "millones de US$ de hoy por trimestre", frecuencia: T}
+  - {id: balanza_energetica, nombre: "Balanza comercial energética", seccion: "Sector externo e inversión", serie: balanza_energetica, tipo_valor: saldo, moneda: USD, unidad: "millones de US$ de hoy por trimestre", frecuencia: T,
+     nota: "Exportaciones de combustibles y energía menos importaciones de combustibles y lubricantes."}
+  - {id: terminos_intercambio, nombre: "Términos del intercambio", seccion: "Sector externo e inversión", serie: terminos_intercambio, tipo_valor: indice, unidad: "índice 2004=100", frecuencia: T}
+  - {id: gasto_jubilaciones, nombre: "Gasto en jubilaciones y pensiones contributivas", seccion: "Estado y fiscal", serie: gasto_jubilaciones, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses"}
+  - {id: subsidios_energia, nombre: "Subsidios económicos a la energía", seccion: "Estado y fiscal", serie: subsidios_energia, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses", frecuencia: T}
+  - {id: transf_capital_provincias, nombre: "Transferencias de capital a provincias", seccion: "Estado y fiscal", serie: transf_capital_provincias, tipo_valor: flujo, moneda: ARS, acumulado_12m: true, unidad: "millones de pesos de hoy, últimos 12 meses",
+     nota: "Fondos nacionales para obras y otros gastos de capital de provincias y CABA. No incluye coparticipación."}
+  - {id: icc, nombre: "Confianza del consumidor (UTDT)", seccion: "Opinión pública", serie: icc, tipo_valor: tasa, unidad: "índice 0 a 100"}
+  - {id: ipc_corrupcion, vista_inicial: desde_2003, nombre: "Índice de Percepción de la Corrupción", seccion: "Opinión pública", serie: ipc_corrupcion, tipo_valor: tasa, frecuencia: A, unidad: "puntos de 0 (muy corrupto) a 100 (muy transparente)",
+     nota: "Transparencia Internacional (en Argentina, Poder Ciudadano). Mide cómo perciben la corrupción en el sector público expertos y empresarios, a partir de varias encuestas internacionales. La escala de 0 a 100 rige desde 2012; los años anteriores no son comparables. Cada dato corresponde al año evaluado y se publica a comienzos del año siguiente."}
+  - {id: dolar_tarjeta, nombre: "Dólar tarjeta (real)", seccion: "Dólar y finanzas", serie: dolar_tarjeta, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por dólar"}
+  - {id: brecha_mep, nombre: "Brecha MEP vs. mayorista", seccion: "Dólar y finanzas", serie: brecha_mep, tipo_valor: tasa, unidad: "%"}
+  - {id: brecha_tarjeta, nombre: "Brecha tarjeta vs. mayorista", seccion: "Dólar y finanzas", serie: brecha_tarjeta, tipo_valor: tasa, unidad: "%"}
+  - {id: compras_divisas_bcra, nombre: "Compras netas de divisas del BCRA", seccion: "Dólar y finanzas", serie: compras_divisas_bcra, tipo_valor: saldo, unidad: "millones de US$ por mes",
+     nota: "Suma mensual de la variación de reservas por compra y venta de divisas en el mercado (valores nominales)."}
+  - {id: depositos_privados_ars, nombre: "Depósitos privados en pesos (real)", seccion: "Dólar y finanzas", serie: depositos_privados_ars, tipo_valor: nivel, moneda: ARS, unidad: "millones de pesos de hoy"}
+  - {id: depositos_privados_usd, nombre: "Depósitos privados en dólares", seccion: "Dólar y finanzas", serie: depositos_privados_usd, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy"}
+  - {id: prestamos_personales, nombre: "Préstamos personales (real)", seccion: "Crédito y alquileres", serie: prestamos_personales, tipo_valor: nivel, moneda: ARS, unidad: "millones de pesos de hoy"}
+  - {id: prestamos_tarjetas, nombre: "Financiación con tarjeta de crédito (real)", seccion: "Crédito y alquileres", serie: prestamos_tarjetas, tipo_valor: nivel, moneda: ARS, unidad: "millones de pesos de hoy"}
+  - {id: prestamos_hipotecarios, nombre: "Préstamos hipotecarios (real)", seccion: "Crédito y alquileres", serie: prestamos_hipotecarios, tipo_valor: nivel, moneda: ARS, unidad: "millones de pesos de hoy"}
+  - {id: prestamos_prendarios, nombre: "Préstamos prendarios (real)", seccion: "Crédito y alquileres", serie: prestamos_prendarios, tipo_valor: nivel, moneda: ARS, unidad: "millones de pesos de hoy"}
+  - {id: tasa_personales, nombre: "Tasa de préstamos personales", seccion: "Crédito y alquileres", serie: tasa_personales, tipo_valor: tasa, unidad: "% TNA"}
+  - {id: tasa_tarjetas, nombre: "Tasa de tarjetas de crédito", seccion: "Crédito y alquileres", serie: tasa_tarjetas, tipo_valor: tasa, unidad: "% TNA"}
+  - {id: icl, nombre: "Alquileres: índice de contratos de locación (real)", seccion: "Crédito y alquileres", serie: icl, tipo_valor: nivel, moneda: ARS, unidad: "índice real",
+     nota: "ICL del BCRA (contratos de la ley 27.551) deflactado por el IPC. Mide la actualización de contratos vigentes, no el precio de nuevos alquileres."}
+  # --- Planillas y EMAE por sector ---
+  - {id: pib, nombre: "PIB real", seccion: Actividad, serie: pib_real, tipo_valor: nivel, unidad: "millones de pesos de 2004 por trimestre", frecuencia: T}
+  - {id: consumo_privado, nombre: "Consumo privado real", seccion: Actividad, serie: consumo_privado, tipo_valor: nivel, unidad: "millones de pesos de 2004 por trimestre", frecuencia: T}
+  - {id: cemento, nombre: "Producción de cemento", seccion: Actividad, serie: cemento, tipo_valor: indice, unidad: "índice 2016=100",
+     nota: "Índice de producción industrial manufacturero (INDEC), subclase cemento. Suele anticipar la actividad de la construcción. Serie con estacionalidad."}
+  - {id: inversion, nombre: "Inversión (formación bruta de capital fijo)", seccion: "Sector externo e inversión", serie: fbcf_real, tipo_valor: nivel, unidad: "millones de pesos de 2004 por trimestre", frecuencia: T}
+  - {id: pobreza, nombre: "Pobreza (personas)", seccion: "Pobreza y programas sociales", serie: pobreza_personas, tipo_valor: tasa, unidad: "% de las personas", frecuencia: S, portada: true,
+     nota: "31 aglomerados urbanos, por semestre. INDEC no publicó pobreza entre 2014 y el primer semestre de 2016."}
+  - {id: indigencia, nombre: "Indigencia (personas)", seccion: "Pobreza y programas sociales", serie: indigencia_personas, tipo_valor: tasa, unidad: "% de las personas", frecuencia: S}
+  - {id: cbt, nombre: "Canasta básica total (real)", seccion: "Pobreza y programas sociales", serie: cbt, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por adulto equivalente",
+     nota: "Línea de pobreza para un adulto. Un hogar tipo de cuatro personas equivale a unos 3,09 adultos."}
+  - {id: odsa_ia, vista_inicial: desde_2003, nombre: "Inseguridad alimentaria (UCA)", seccion: "Pobreza y programas sociales", serie: odsa_ia, tipo_valor: tasa, frecuencia: A, unidad: "% de los hogares",
+     nota: "Observatorio de la Deuda Social Argentina (UCA), Encuesta de la Deuda Social Argentina, aglomerados urbanos. Hogares que redujeron la dieta de alimentos por problemas económicos en los últimos 12 meses. Los datos de 2010 a 2016 son empalmes y los de 2020 y 2021 deben tomarse con reserva por los cambios de la pandemia (según el propio ODSA)."}
+  - {id: odsa_ia_severa, vista_inicial: desde_2003, nombre: "Inseguridad alimentaria severa (UCA)", seccion: "Pobreza y programas sociales", serie: odsa_ia_severa, tipo_valor: tasa, frecuencia: A, unidad: "% de los hogares",
+     nota: "Observatorio de la Deuda Social Argentina (UCA). Hogares donde algún integrante pasó hambre por problemas económicos en los últimos 12 meses (experiencia de hambre). Mismas salvedades que la serie total."}
+  - {id: itcrm, nombre: "Tipo de cambio real multilateral", seccion: "Dólar y finanzas", serie: itcrm, tipo_valor: indice, unidad: "índice 17-12-2015 = 100",
+     nota: "Un valor más alto indica un peso más depreciado en términos reales frente a los socios comerciales."}
+  - {id: emae_agro, nombre: "Agro (agricultura, ganadería y silvicultura)", seccion: Actividad, serie: emae_agro, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_pesca, nombre: "Pesca", seccion: Actividad, serie: emae_pesca, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_mineria, nombre: "Minas y canteras", seccion: Actividad, serie: emae_mineria, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_industria, nombre: "Industria manufacturera", seccion: Actividad, serie: emae_industria, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_egu, nombre: "Electricidad, gas y agua", seccion: Actividad, serie: emae_egu, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_comercio, nombre: "Comercio", seccion: Actividad, serie: emae_comercio, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_hoteles, nombre: "Hoteles y restaurantes", seccion: Actividad, serie: emae_hoteles, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_transporte, nombre: "Transporte y comunicaciones", seccion: Actividad, serie: emae_transporte, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_financiero, nombre: "Intermediación financiera", seccion: Actividad, serie: emae_financiero, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_inmobiliario, nombre: "Inmobiliarias y servicios empresariales", seccion: Actividad, serie: emae_inmobiliario, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_adm_publica, nombre: "Administración pública y defensa", seccion: Actividad, serie: emae_adm_publica, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_ensenanza, nombre: "Enseñanza", seccion: Actividad, serie: emae_ensenanza, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: emae_salud, nombre: "Salud", seccion: Actividad, serie: emae_salud, tipo_valor: indice, unidad: "índice 2004=100", grupo: emae_sectores}
+  - {id: empleo_agro, nombre: "Agro", seccion: "Empleo e ingresos", serie: asal_agro, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_pesca, nombre: "Pesca", seccion: "Empleo e ingresos", serie: asal_pesca, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_mineria, nombre: "Minas y canteras", seccion: "Empleo e ingresos", serie: asal_mineria, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_industria, nombre: "Industria manufacturera", seccion: "Empleo e ingresos", serie: asal_industria, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_egu, nombre: "Electricidad, gas y agua", seccion: "Empleo e ingresos", serie: asal_egu, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_construccion, nombre: "Construcción", seccion: "Empleo e ingresos", serie: asal_construccion, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_comercio, nombre: "Comercio", seccion: "Empleo e ingresos", serie: asal_comercio, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_hoteles, nombre: "Hoteles y restaurantes", seccion: "Empleo e ingresos", serie: asal_hoteles, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_transporte, nombre: "Transporte y comunicaciones", seccion: "Empleo e ingresos", serie: asal_transporte, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_inmobiliarias, nombre: "Inmobiliarias y servicios empresariales", seccion: "Empleo e ingresos", serie: asal_inmobiliarias, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_ensenanza, nombre: "Enseñanza", seccion: "Empleo e ingresos", serie: asal_ensenanza, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_salud, nombre: "Salud y servicios sociales", seccion: "Empleo e ingresos", serie: asal_salud, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  - {id: empleo_servicios, nombre: "Servicios comunitarios y personales", seccion: "Empleo e ingresos", serie: asal_servicios, tipo_valor: nivel, unidad: "miles de personas", grupo: empleo_sectores}
+  # --- Ingresos de los hogares (EPH) ---
+  - {id: ingreso_per_capita, nombre: "Ingreso per cápita familiar (real)", seccion: "Empleo e ingresos", serie: ipcf_total, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por persona por mes", frecuencia: T, portada: true,
+     nota: "Ingreso disponible de los hogares por integrante, promedio de la EPH (31 aglomerados), en pesos de hoy. Incluye ingresos laborales y no laborales (jubilaciones, planes, rentas)."}
+  - {id: ingreso_estrato_bajo, nombre: "Ingreso per cápita: estrato bajo (deciles 1 a 4)", seccion: "Empleo e ingresos", serie: ipcf_estrato_bajo, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por persona por mes", frecuencia: T,
+     nota: "Los deciles 1 y 2 no se publican en la serie de datos.gob.ar: el estrato bajo se obtiene del promedio total menos los deciles 5 a 10 (cada decil reúne al 10% de las personas)."}
+  - {id: ingreso_estrato_medio, nombre: "Ingreso per cápita: estrato medio (deciles 5 a 8)", seccion: "Empleo e ingresos", serie: ipcf_estrato_medio, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por persona por mes", frecuencia: T}
+  - {id: ingreso_estrato_alto, nombre: "Ingreso per cápita: estrato alto (deciles 9 y 10)", seccion: "Empleo e ingresos", serie: ipcf_estrato_alto, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por persona por mes", frecuencia: T}
+  - {id: gini, nombre: "Desigualdad: coeficiente de Gini", seccion: "Empleo e ingresos", serie: gini, tipo_valor: tasa, unidad: "coeficiente (0 = igualdad total)", frecuencia: T,
+     nota: "Gini del ingreso per cápita familiar. Va de 0 (todos ganan lo mismo) a 1 (una persona concentra todo el ingreso)."}
+  # --- Balanza de pagos ---
+  - {id: cuenta_corriente, nombre: "Cuenta corriente", seccion: "Sector externo e inversión", serie: bdp_cuenta_corriente, tipo_valor: saldo, moneda: USD, unidad: "millones de US$ de hoy por trimestre", frecuencia: T,
+     nota: "Saldo de bienes, servicios, rentas y transferencias con el resto del mundo (INDEC, desde 2006)."}
+  - {id: bdp_bienes, nombre: "Balanza de bienes (balanza de pagos)", seccion: "Sector externo e inversión", serie: bdp_bienes, tipo_valor: saldo, moneda: USD, unidad: "millones de US$ de hoy por trimestre", frecuencia: T}
+  - {id: bdp_servicios, nombre: "Balanza de servicios", seccion: "Sector externo e inversión", serie: bdp_servicios, tipo_valor: saldo, moneda: USD, unidad: "millones de US$ de hoy por trimestre", frecuencia: T}
+  - {id: bdp_viajes, nombre: "Turismo: saldo de viajes", seccion: "Sector externo e inversión", serie: bdp_viajes, tipo_valor: saldo, moneda: USD, unidad: "millones de US$ de hoy por trimestre", frecuencia: T,
+     nota: "Gasto de extranjeros en el país menos gasto de residentes en el exterior."}
+  - {id: bdp_ingreso_primario, nombre: "Intereses y utilidades (ingreso primario)", seccion: "Sector externo e inversión", serie: bdp_ingreso_primario, tipo_valor: saldo, moneda: USD, unidad: "millones de US$ de hoy por trimestre", frecuencia: T,
+     nota: "Intereses, utilidades y dividendos cobrados menos pagados al exterior."}
+  - {id: ied, nombre: "Inversión extranjera directa (ingresos netos)", seccion: "Sector externo e inversión", serie: bdp_ied, tipo_valor: saldo, moneda: USD, unidad: "millones de US$ de hoy por trimestre", frecuencia: T,
+     nota: "Pasivos de inversión directa de la balanza de pagos: aportes de no residentes a empresas en Argentina, neto de retiros. Un valor negativo es desinversión."}
+  - {id: bdp_reservas, nombre: "Variación de reservas (balanza de pagos)", seccion: "Sector externo e inversión", serie: bdp_reservas, tipo_valor: saldo, moneda: USD, unidad: "millones de US$ de hoy por trimestre", frecuencia: T}
+  # --- Deuda pública ---
+  - {id: deuda_total, nombre: "Deuda bruta de la Administración Central", seccion: "Deuda pública", serie: deuda_total_res, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", frecuencia: T, portada: true,
+     nota: "Saldo a fin de trimestre, sin la deuda elegible no presentada a los canjes. Fuente: Secretaría de Finanzas (desde 1994)."}
+  - {id: deuda_externa, nombre: "Deuda con no residentes (externa)", seccion: "Deuda pública", serie: deuda_externa, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", frecuencia: T}
+  - {id: deuda_interna, nombre: "Deuda con residentes (interna)", seccion: "Deuda pública", serie: deuda_interna, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", frecuencia: T,
+     nota: "Incluye la deuda con organismos públicos locales (BCRA, FGS, Banco Nación) y con privados residentes."}
+  - {id: deuda_pib, vista_inicial: desde_2003, nombre: "Deuda pública en % del PIB", seccion: "Deuda pública", serie: deuda_pib, tipo_valor: tasa, unidad: "% del PIB de los últimos 4 trimestres", frecuencia: T,
+     nota: "Deuda bruta de la Administración Central (Secretaría de Finanzas), pasada a pesos con el dólar oficial promedio del último mes de cada trimestre, sobre el PIB nominal de los últimos 4 trimestres (INDEC). Cálculo propio; la cifra oficial de Finanzas puede diferir levemente por el tipo de cambio usado."}
+  - {id: deuda_c_titulos, nombre: "Bonos (títulos públicos)", seccion: "Deuda pública", serie: deuda_titulos, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", frecuencia: T, grupo: deuda_composicion}
+  - {id: deuda_c_letras, nombre: "Letras del Tesoro", seccion: "Deuda pública", serie: deuda_letras, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", frecuencia: T, grupo: deuda_composicion}
+  - {id: deuda_c_organismos, nombre: "Organismos internacionales (FMI, BID, Banco Mundial y otros)", seccion: "Deuda pública", serie: deuda_organismos, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", frecuencia: T, grupo: deuda_composicion}
+  - {id: deuda_c_bilaterales, nombre: "Organismos oficiales bilaterales (Club de París y otros)", seccion: "Deuda pública", serie: deuda_bilaterales, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", frecuencia: T, grupo: deuda_composicion}
+  - {id: deuda_c_adelantos, nombre: "Adelantos transitorios del BCRA", seccion: "Deuda pública", serie: deuda_adelantos, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", frecuencia: T, grupo: deuda_composicion}
+  - {id: deuda_c_otros, nombre: "Otros (préstamos, pagarés, avales y deuda en pago diferido)", seccion: "Deuda pública", serie: deuda_otros, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", frecuencia: T, grupo: deuda_composicion}
+  # --- Provincias (consolidado) ---
+  - {id: prov_resultado_financiero, nombre: "Resultado financiero de las provincias (consolidado)", seccion: "Estado y fiscal", serie: prov_resultado_financiero, tipo_valor: saldo, moneda: ARS, unidad: "millones de pesos de hoy por año", frecuencia: A,
+     nota: "Suma de las 24 jurisdicciones, base devengado (Secretaría de Hacienda). Datos anuales desde 2005. En 2025 Hacienda no publicó datos de La Pampa, y Santiago del Estero registra un superávit atípicamente alto (más del 20% de sus ingresos)."}
+  - {id: prov_resultado_primario, nombre: "Resultado primario de las provincias (consolidado)", seccion: "Estado y fiscal", serie: prov_resultado_primario, tipo_valor: saldo, moneda: ARS, unidad: "millones de pesos de hoy por año", frecuencia: A}
+  - {id: prov_origen_nacional, nombre: "Recursos de origen nacional de las provincias", seccion: "Estado y fiscal", serie: prov_origen_nacional, tipo_valor: flujo, moneda: ARS, unidad: "millones de pesos de hoy por año", frecuencia: A,
+     nota: "Coparticipación federal y otros impuestos nacionales distribuidos a las provincias."}
+
+  # --- Fase 1: cierre ---
+  - {id: inflacion_vivienda, nombre: "Inflación de vivienda, agua, electricidad y gas", seccion: Precios, serie: ipc_vivienda, tipo_valor: indice, vista_historica: mensual, unidad: "índice",
+     nota: "División del IPC nacional del INDEC que incluye alquileres y las tarifas de agua, electricidad y gas."}
+  - {id: inflacion_transporte, nombre: "Inflación de transporte", seccion: Precios, serie: ipc_transporte, tipo_valor: indice, vista_historica: mensual, unidad: "índice",
+     nota: "Incluye combustibles, compra de vehículos y transporte público."}
+  - {id: inflacion_educacion, nombre: "Inflación de educación", seccion: Precios, serie: ipc_educacion, tipo_valor: indice, vista_historica: mensual, unidad: "índice"}
+  - {id: ventas_autos, nombre: "Ventas de autos al mercado interno", seccion: Actividad, serie: ventas_autos, tipo_valor: flujo, unidad: "unidades por mes",
+     nota: "Automóviles vendidos en el país, nacionales e importados (ADEFA, vía Ministerio de Economía). Serie con estacionalidad."}
+  - {id: produccion_autos, nombre: "Producción de autos", seccion: Actividad, serie: produccion_autos, tipo_valor: flujo, unidad: "unidades por mes", nota: "Automóviles fabricados en el país (ADEFA). Serie con estacionalidad."}
+  - {id: faena_vacuna, nombre: "Faena de ganado vacuno", seccion: Actividad, serie: faena_vacuna, tipo_valor: flujo, unidad: "miles de cabezas por trimestre", frecuencia: T}
+  - {id: informalidad, vista_inicial: desde_2003, nombre: "Asalariados sin descuento jubilatorio (informalidad)", seccion: "Empleo e ingresos", serie: informalidad, tipo_valor: tasa, escala: 100, unidad: "% de los asalariados", frecuencia: T,
+     nota: "EPH (INDEC), 31 aglomerados urbanos. Proporción de asalariados a los que no se les hacen aportes jubilatorios."}
+  - {id: empleo_publico, nombre: "Puestos asalariados registrados en el sector público", seccion: "Empleo e ingresos", serie: empleo_publico, tipo_valor: nivel, unidad: "miles de puestos", frecuencia: T,
+     nota: "Cuenta de generación del ingreso (INDEC): nación, provincias y municipios. Un mismo trabajador puede ocupar más de un puesto."}
+  - {id: remuneracion_sipa, nombre: "Sueldo promedio privado registrado (real)", seccion: "Empleo e ingresos", serie: remuneracion_sipa, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por mes",
+     nota: "Remuneración bruta promedio de los asalariados privados registrados (SIPA). Incluye aguinaldo en junio y diciembre."}
+  - {id: salario_usd, nombre: "Sueldo promedio privado en dólares (CCL)", seccion: "Empleo e ingresos", serie: salario_usd, tipo_valor: nivel, moneda: USD, unidad: "US$ de hoy por mes",
+     nota: "Remuneración bruta promedio SIPA dividida por el dólar contado con liquidación promedio del mes. Incluye aguinaldo en junio y diciembre."}
+  - {id: sueldo_en_canastas, vista_inicial: desde_2003, nombre: "Sueldo promedio medido en canastas básicas", seccion: "Empleo e ingresos", serie: sueldo_en_canastas, tipo_valor: nivel, unidad: "canastas básicas totales por sueldo",
+     nota: "Remuneración bruta promedio de los asalariados privados registrados (SIPA) dividida por la canasta básica total de un adulto equivalente (INDEC, GBA), la que marca la línea de pobreza. Cálculo propio. El sueldo es bruto e incluye aguinaldo en junio y diciembre."}
+  - {id: gasto_auh, nombre: "Gasto en Asignación Universal por Hijo (real)", seccion: "Pobreza y programas sociales", serie: gasto_auh, tipo_valor: flujo, moneda: ARS, acumulado_12m: true,
+     unidad: "millones de pesos de hoy, últimos 12 meses", nota: "Gasto devengado de la Administración Nacional (Ministerio de Economía)."}
+  - {id: fae_privados, nombre: "Compra neta de dólares del sector privado (formación de activos externos)", seccion: "Sector externo e inversión", serie: fae_privados, tipo_valor: saldo, moneda: USD, escala: -1, acumulado_12m: true,
+     unidad: "millones de US$ de hoy, últimos 12 meses", nota: "Balance cambiario del BCRA: compras menos ventas de moneda extranjera para atesoramiento del sector privado no financiero (personas y empresas). Positivo = compra neta."}
+  - {id: presion_tributaria, vista_inicial: desde_2003, nombre: "Presión tributaria nacional", seccion: "Estado y fiscal", serie: presion_tributaria, tipo_valor: tasa, unidad: "% del PIB, últimos 12 meses", frecuencia: T,
+     nota: "Recaudación nacional (impuestos, derechos de exportación y seguridad social, AFIP/ARCA) de los últimos 12 meses sobre el PIB nominal de los últimos 4 trimestres (INDEC). No incluye impuestos provinciales ni municipales."}
+  - {id: gasto_publico_pib, vista_inicial: desde_2003, nombre: "Gasto público nacional", seccion: "Estado y fiscal", serie: gpn_total, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, nota: "Serie de gasto público consolidado; último año disponible: 2023."}
+  - {id: pib_retenciones, vista_inicial: desde_2003, nombre: "Retenciones a las exportaciones", seccion: "Estado y fiscal", serie: pib_retenciones, tipo_valor: tasa, unidad: "% del PIB, últimos 12 meses",
+     nota: "Recaudación por derechos de exportación del Sector Público Nacional (Informe Mensual de Ingresos y Gastos, Ministerio de Economía), suma de 12 meses sobre el PIB nominal."}
+  - {id: gpn_prevision, nombre: "Previsión social (jubilaciones y pensiones)", seccion: "Estado y fiscal", serie: gpn_prevision, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_economicos, nombre: "Servicios económicos (energía, transporte, subsidios)", seccion: "Estado y fiscal", serie: gpn_economicos, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_asistencia, nombre: "Promoción y asistencia social", seccion: "Estado y fiscal", serie: gpn_asistencia, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_funcionamiento, nombre: "Funcionamiento del Estado", seccion: "Estado y fiscal", serie: gpn_funcionamiento, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_deuda, nombre: "Intereses de la deuda", seccion: "Estado y fiscal", serie: gpn_deuda, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_pami, nombre: "PAMI (atención de la salud)", seccion: "Estado y fiscal", serie: gpn_pami, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_obras_sociales, nombre: "Obras sociales (atención de la salud)", seccion: "Estado y fiscal", serie: gpn_obras_sociales, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_salud_publica, nombre: "Atención pública de la salud", seccion: "Estado y fiscal", serie: gpn_salud_publica, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_defensa, nombre: "Defensa y seguridad", seccion: "Estado y fiscal", serie: gpn_defensa, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_educ_superior, nombre: "Educación superior y universitaria", seccion: "Estado y fiscal", serie: gpn_educ_superior, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_educ_basica, nombre: "Educación básica", seccion: "Estado y fiscal", serie: gpn_educ_basica, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_vivienda, nombre: "Vivienda y urbanismo", seccion: "Estado y fiscal", serie: gpn_vivienda, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_ciencia, nombre: "Ciencia y técnica", seccion: "Estado y fiscal", serie: gpn_ciencia, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: gpn_empleo, nombre: "Programas de empleo", seccion: "Estado y fiscal", serie: gpn_empleo, tipo_valor: tasa, unidad: "% del PIB", frecuencia: A, grupo: gasto_funcion}
+  - {id: merval, nombre: "Merval en pesos (real)", seccion: "Dólar y finanzas", serie: merval, tipo_valor: nivel, moneda: ARS, unidad: "puntos en pesos de hoy", nota: "Índice S&P Merval, cierre de cada mes."}
+  - {id: merval_usd, nombre: "Merval en dólares (CCL)", seccion: "Dólar y finanzas", serie: merval_usd, tipo_valor: nivel, moneda: USD, unidad: "puntos en US$ de hoy",
+     nota: "Cierre mensual del Merval dividido por el dólar contado con liquidación promedio del mes."}
+  - {id: adr_ggal, nombre: "Acción de Grupo Galicia en Nueva York (ADR)", seccion: "Dólar y finanzas", serie: adr_ggal, tipo_valor: nivel, moneda: USD, unidad: "US$ de hoy por ADR", nota: "Cierre mensual ajustado por dividendos y divisiones."}
+  - {id: adr_ypf, nombre: "Acción de YPF en Nueva York (ADR)", seccion: "Dólar y finanzas", serie: adr_ypf, tipo_valor: nivel, moneda: USD, unidad: "US$ de hoy por ADR", nota: "Cierre mensual ajustado por dividendos y divisiones."}
+  - {id: morosidad, vista_inicial: desde_2003, nombre: "Morosidad de los préstamos al sector privado", seccion: "Crédito y alquileres", serie: morosidad, tipo_valor: tasa, unidad: "% de la cartera en situación irregular",
+     nota: "Irregularidad de la cartera de financiaciones al sector privado del sistema financiero (BCRA, Informe sobre bancos)."}
+  - {id: mora_familias, nombre: "Morosidad de los créditos a familias", seccion: "Crédito y alquileres", serie: mora_familias, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", portada: true,
+     nota: "Irregularidad de los préstamos de bancos y entidades financieras a personas humanas sin destino comercial (personales, tarjetas, prendarios, hipotecarios y otros), según el anexo del Informe sobre Bancos del BCRA. Situación irregular: deudas con más de 90 días de atraso o en gestión judicial. No incluye fintech ni billeteras virtuales. Datos desde 2010."}
+  - {id: prestamos_usd, vista_inicial: desde_2003, nombre: "Préstamos en dólares al sector privado", seccion: "Crédito y alquileres", serie: prestamos_usd, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy",
+     nota: "Saldo de préstamos en dólares de bancos y entidades financieras a empresas y personas (BCRA), fin de mes, en dólares de hoy. Se usan sobre todo para financiar exportaciones y, desde 2024, también para comprar viviendas y autos."}
+  - {id: mora_fam_total_g, nombre: "Familias: total", seccion: "Crédito y alquileres", serie: mora_familias, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_familias_tipo}
+  - {id: mora_fam_personales, nombre: "Familias: préstamos personales", seccion: "Crédito y alquileres", serie: mora_fam_personales, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_familias_tipo}
+  - {id: mora_fam_tarjetas, nombre: "Familias: tarjetas de crédito", seccion: "Crédito y alquileres", serie: mora_fam_tarjetas, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_familias_tipo}
+  - {id: mora_fam_prendarios, nombre: "Familias: prendarios (autos)", seccion: "Crédito y alquileres", serie: mora_fam_prendarios, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_familias_tipo}
+  - {id: mora_fam_hipotecarios, nombre: "Familias: hipotecarios", seccion: "Crédito y alquileres", serie: mora_fam_hipotecarios, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_familias_tipo}
+  - {id: mora_empresas, nombre: "Empresas: total", seccion: "Crédito y alquileres", serie: mora_empresas, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_familias_tipo}
+  - {id: deuda_hogares_masa, vista_inicial: desde_2003, nombre: "Deuda bancaria de las familias como % de la masa salarial", seccion: "Crédito y alquileres", serie: deuda_hogares_masa, tipo_valor: tasa, unidad: "% de la masa salarial de un año", frecuencia: T,
+     nota: "Saldo de préstamos de bancos y entidades financieras a personas humanas (BCRA, fin de cada trimestre, en pesos y dólares) dividido por la remuneración total al trabajo asalariado de los últimos 4 trimestres, registrado y no registrado (INDEC, cuenta de generación del ingreso). No incluye deudas con fintech, billeteras, casas de electrodomésticos ni cooperativas, ni deudas impagas de servicios o impuestos. La masa salarial se publica con un trimestre de rezago."}
+  - {id: prestamos_personas, nombre: "Deuda bancaria de las familias (real)", seccion: "Crédito y alquileres", serie: prestamos_personas, tipo_valor: nivel, moneda: ARS, unidad: "millones de pesos de hoy",
+     nota: "Saldo total de préstamos de bancos y entidades financieras a personas humanas, en pesos y en dólares convertidos a pesos (BCRA)."}
+  - {id: homicidios, vista_inicial: desde_2003, nombre: "Homicidios dolosos", seccion: "Seguridad", serie: homicidios, tipo_valor: tasa, unidad: "víctimas cada 100.000 habitantes por año", frecuencia: A,
+     nota: "Sistema Nacional de Información Criminal (Ministerio de Seguridad)."}
+  - {id: suicidios, vista_inicial: desde_2003, nombre: "Suicidios", seccion: "Seguridad", serie: suicidios, tipo_valor: tasa, unidad: "víctimas cada 100.000 habitantes por año", frecuencia: A,
+     nota: "Sistema Nacional de Información Criminal (Ministerio de Seguridad). Si vos o alguien cercano lo necesita: Línea 135 (CABA y GBA) o 0800-345-1435, gratis y las 24 horas."}
+  - {id: calificacion_sp, nombre: "Calificación de la deuda soberana (S&P)", seccion: "Deuda pública", serie: calificacion_sp, tipo_valor: tasa, vista_inicial: desde_2003, unidad: "escalón: 0 = default (SD), 3 = CCC−, 4 = CCC, 5 = CCC+, 6 = B−, 7 = B, 8 = B+",
+     nota: "Calificación de largo plazo en moneda extranjera de S&P Global, al cierre de cada mes. Grado de inversión empieza en BBB−, que sería el escalón 12. Carga manual desde 2010 con el historial publicado por countryeconomy.com y FXEmpire."}
+  - {id: intereses_deuda_pib, vista_inicial: desde_2003, nombre: "Intereses de la deuda pagados por el Estado", seccion: "Deuda pública", serie: pib_intereses, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T,
+     nota: "Intereses netos pagados por el Sector Público Nacional (Informe Mensual de Ingresos y Gastos, Ministerio de Economía), últimos 4 trimestres sobre el PIB nominal."}
+  - {id: morosidad_publicos, nombre: "Bancos públicos", seccion: "Crédito y alquileres", serie: morosidad_publicos, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_entidades}
+  - {id: morosidad_privados, nombre: "Bancos privados (total)", seccion: "Crédito y alquileres", serie: morosidad_privados, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_entidades}
+  - {id: morosidad_privados_nac, nombre: "Bancos privados de capital nacional", seccion: "Crédito y alquileres", serie: morosidad_privados_nac, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_entidades}
+  - {id: morosidad_no_bancarias, nombre: "Entidades financieras no bancarias", seccion: "Crédito y alquileres", serie: morosidad_no_bancarias, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_entidades}
+  - {id: morosidad_pnfc, nombre: "Proveedores no financieros de crédito (total)", seccion: "Crédito y alquileres", serie: morosidad_pnfc, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_entidades}
+  - {id: morosidad_fintech, nombre: "Fintech y billeteras virtuales", seccion: "Crédito y alquileres", serie: morosidad_fintech, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_entidades}
+  - {id: morosidad_tarjetas_nb, nombre: "Emisoras de tarjetas no bancarias", seccion: "Crédito y alquileres", serie: morosidad_tarjetas_nb, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_entidades}
+  - {id: morosidad_electro, nombre: "Casas de electrodomésticos", seccion: "Crédito y alquileres", serie: morosidad_electro, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_entidades}
+  - {id: morosidad_coop, nombre: "Cooperativas y mutuales", seccion: "Crédito y alquileres", serie: morosidad_coop, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_entidades}
+  - {id: pnfc_tarjetas, nombre: "Tarjetas de crédito", seccion: "Crédito y alquileres", serie: pnfc_tarjetas, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_pnfc_tipo}
+  - {id: pnfc_personales, nombre: "Préstamos personales", seccion: "Crédito y alquileres", serie: pnfc_personales, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_pnfc_tipo}
+  - {id: pnfc_resto, nombre: "Resto de las financiaciones", seccion: "Crédito y alquileres", serie: pnfc_resto, tipo_valor: tasa, unidad: "% de la cartera en situación irregular", grupo: morosidad_pnfc_tipo}
+  - {id: ucii, nombre: "Uso de la capacidad instalada de la industria", seccion: Actividad, serie: ucii, tipo_valor: tasa, unidad: "% de la capacidad", nota: "INDEC, nivel general. Serie con estacionalidad: enero suele ser el mes más bajo."}
+  - {id: escrituras_caba, nombre: "Escrituras de compraventa en la Ciudad de Buenos Aires", seccion: "Crédito y alquileres", serie: escrituras_caba, tipo_valor: flujo, unidad: "actos por mes",
+     nota: "Colegio de Escribanos de la Ciudad de Buenos Aires. Solo CABA: no hay una serie nacional de escrituras. Serie con estacionalidad (diciembre suele ser el mes más alto)."}
+  - {id: escritura_usd, vista_inicial: desde_2003, nombre: "Valor promedio por escritura de compraventa en CABA", seccion: "Crédito y alquileres", serie: escritura_usd, tipo_valor: nivel, moneda: USD, unidad: "US$ de hoy por escritura",
+     nota: "Monto total escriturado en el mes dividido por la cantidad de escrituras (Colegio de Escribanos de la Ciudad de Buenos Aires), pasado a dólares con el dólar oficial mayorista promedio del mes. Cálculo propio. Refleja el valor de lo que se vende, que depende también del tipo de propiedades que cambian de manos."}
+  - {id: ied_inversion, nombre: "Inversión extranjera directa como % de la inversión total", seccion: "Sector externo e inversión", serie: ied_inversion, tipo_valor: tasa, unidad: "% de la formación bruta de capital fijo, últimos 4 trimestres", frecuencia: T,
+     nota: "Ingresos netos de inversión extranjera directa de los últimos 4 trimestres (balanza de pagos, INDEC) pasados a pesos con el dólar mayorista promedio, sobre la formación bruta de capital fijo a precios corrientes (INDEC). Indica qué parte de la inversión del país se financia con capital extranjero directo."}
+  - {id: soja_precio, vista_inicial: desde_2003, nombre: "Precio internacional de la soja", seccion: "Sector externo e inversión", serie: soja_precio, tipo_valor: nivel, moneda: USD, unidad: "US$ de hoy por tonelada",
+     nota: "Precio de referencia mensual del poroto de soja (FMI, vía FRED), en dólares de hoy. La soja y sus derivados son el principal rubro de exportación del país."}
+  - {id: granos_total, vista_inicial: desde_2003, nombre: "Producción de los cuatro granos principales", seccion: "Sector externo e inversión", serie: granos_total, tipo_valor: nivel, frecuencia: A, escala: 0.000001, unidad: "millones de toneladas por campaña",
+     nota: "Soja, maíz, trigo y girasol, que suman más del 90% de la cosecha de granos. Estimaciones finales de la Secretaría de Agricultura, Ganadería y Pesca por campaña. Las estimaciones de la Bolsa de Comercio de Rosario pueden diferir levemente. La campaña de cada año es la que se siembra ese año y se cosecha al siguiente; las sequías (2008-09, 2017-18, 2022-23) explican las caídas fuertes."}
+  - {id: prod_soja, vista_inicial: desde_2003, nombre: "Producción de soja", seccion: "Sector externo e inversión", serie: prod_soja, tipo_valor: nivel, frecuencia: A, escala: 0.000001, unidad: "millones de toneladas por campaña",
+     nota: "Estimación final de la Secretaría de Agricultura, Ganadería y Pesca por campaña. La soja y sus derivados son el principal rubro de exportación del país."}
+  - {id: pib_jubilaciones, nombre: "Jubilaciones y pensiones contributivas", seccion: "Estado y fiscal", serie: pib_jubilaciones, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: pib_pensiones_nc, nombre: "Pensiones no contributivas", seccion: "Estado y fiscal", serie: pib_pensiones_nc, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: pib_asignaciones, nombre: "Asignaciones familiares y AUH", seccion: "Estado y fiscal", serie: pib_asignaciones, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: pib_pami, nombre: "PAMI (prestaciones del INSSJP)", seccion: "Estado y fiscal", serie: pib_pami, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: pib_otros_programas, nombre: "Otros programas sociales (Progresar, Potenciar y otros)", seccion: "Estado y fiscal", serie: pib_otros_programas, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: pib_subsidios_energia, nombre: "Subsidios a la energía", seccion: "Estado y fiscal", serie: pib_subsidios_energia, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: pib_subsidios_transporte, nombre: "Subsidios al transporte", seccion: "Estado y fiscal", serie: pib_subsidios_transporte, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: pib_salarios, nombre: "Salarios del sector público nacional", seccion: "Estado y fiscal", serie: pib_salarios, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: pib_funcionamiento, nombre: "Otros gastos de funcionamiento", seccion: "Estado y fiscal", serie: pib_funcionamiento, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: pib_intereses, nombre: "Intereses de la deuda (netos)", seccion: "Estado y fiscal", serie: pib_intereses, tipo_valor: tasa, unidad: "% del PIB, últimos 4 trimestres", frecuencia: T, grupo: gasto_concepto}
+  - {id: tasa_real_plazo_fijo, nombre: "Tasa real de plazo fijo", seccion: "Dólar y finanzas", serie: tasa_real_plazo_fijo, tipo_valor: tasa, vista_inicial: desde_2003, unidad: "% anual, descontada la inflación",
+     nota: "Tasa promedio de plazo fijo a 30 días (BCRA) menos la inflación del mismo mes (IPC empalmado), anualizada. Negativa: el plazo fijo perdió contra la inflación."}
+  - {id: consumo_vacuna, nombre: "Consumo de carne vacuna por habitante", seccion: Consumo, serie: consumo_vacuna, tipo_valor: nivel, frecuencia: A, vista_inicial: desde_2003, unidad: "kg por habitante por año", portada: true,
+     nota: "Consumo aparente por habitante. 2015 en adelante: Secretaría de Agricultura, Ganadería y Pesca (SAGyP); 2024 y 2025 con la revisión de población del INDEC, y 2015–2023 llevados a ese nivel manteniendo sus variaciones oficiales. Antes de 2015: variaciones de las hojas de balance de FAO (vía Our World in Data), empalmadas con la serie oficial."}
+  - {id: consumo_aviar, nombre: "Consumo de carne aviar (pollo) por habitante", seccion: Consumo, serie: consumo_aviar, tipo_valor: nivel, frecuencia: A, vista_inicial: desde_2003, unidad: "kg por habitante por año",
+     nota: "Consumo aparente por habitante. 2015 en adelante: Secretaría de Agricultura, Ganadería y Pesca (SAGyP); 2024 y 2025 con la revisión de población del INDEC, y 2015–2023 llevados a ese nivel manteniendo sus variaciones oficiales. Antes de 2015: variaciones de las hojas de balance de FAO (vía Our World in Data), empalmadas con la serie oficial."}
+  - {id: consumo_porcina, nombre: "Consumo de carne porcina por habitante", seccion: Consumo, serie: consumo_porcina, tipo_valor: nivel, frecuencia: A, vista_inicial: desde_2003, unidad: "kg por habitante por año",
+     nota: "Consumo aparente por habitante. 2015 en adelante: Secretaría de Agricultura, Ganadería y Pesca (SAGyP); 2024 y 2025 con la revisión de población del INDEC, y 2015–2023 llevados a ese nivel manteniendo sus variaciones oficiales. Antes de 2015: variaciones de las hojas de balance de FAO (vía Our World in Data), empalmadas con la serie oficial."}
+  - {id: consumo_leche, nombre: "Consumo de leche y lácteos por habitante", seccion: Consumo, serie: consumo_leche, tipo_valor: nivel, frecuencia: A, vista_inicial: desde_2003, unidad: "litros de leche equivalente por habitante por año",
+     nota: "2022 en adelante: Observatorio de la Cadena Láctea Argentina (OCLA), con la proyección de población vigente del INDEC; incluye leche fluida y todos los lácteos expresados en litros de leche. Antes de 2022: variaciones de las hojas de balance de FAO (leche y derivados, sin manteca), empalmadas con la serie de OCLA."}
+  - {id: empresas_activas, nombre: "Empresas con empleo registrado", seccion: Actividad, serie: empresas_activas, tipo_valor: nivel, frecuencia: T, vista_inicial: desde_2003, unidad: "empresas", portada: true,
+     nota: "Empresas privadas con al menos un asalariado registrado (SIPA), procesadas por el Observatorio de Empleo y Dinámica Empresarial de la Secretaría de Trabajo. Series sin estacionalidad. Una apertura es una empresa que empieza a declarar empleados y un cierre una que deja de hacerlo; no equivale a quiebras."}
+  - {id: empresas_neto, nombre: "Creación neta de empresas (aperturas menos cierres)", seccion: Actividad, serie: empresas_neto, tipo_valor: saldo, frecuencia: T, unidad: "empresas por trimestre",
+     nota: "Empresas privadas con al menos un asalariado registrado (SIPA), procesadas por el Observatorio de Empleo y Dinámica Empresarial de la Secretaría de Trabajo. Series sin estacionalidad. Una apertura es una empresa que empieza a declarar empleados y un cierre una que deja de hacerlo; no equivale a quiebras. El saldo puede no coincidir exactamente con la diferencia de aperturas y cierres por reclasificaciones."}
+  - {id: empresas_aperturas, nombre: "Aperturas de empresas", seccion: Actividad, serie: empresas_aperturas, tipo_valor: flujo, frecuencia: T, unidad: "empresas por trimestre", nota: "Empresas privadas con al menos un asalariado registrado (SIPA), procesadas por el Observatorio de Empleo y Dinámica Empresarial de la Secretaría de Trabajo. Series sin estacionalidad. Una apertura es una empresa que empieza a declarar empleados y un cierre una que deja de hacerlo; no equivale a quiebras."}
+  - {id: empresas_cierres, nombre: "Cierres de empresas", seccion: Actividad, serie: empresas_cierres, tipo_valor: flujo, frecuencia: T, unidad: "empresas por trimestre", nota: "Empresas privadas con al menos un asalariado registrado (SIPA), procesadas por el Observatorio de Empleo y Dinámica Empresarial de la Secretaría de Trabajo. Series sin estacionalidad. Una apertura es una empresa que empieza a declarar empleados y un cierre una que deja de hacerlo; no equivale a quiebras."}
+  - {id: reservas_netas, nombre: "Reservas netas del BCRA: criterio de mercado (estimación)", seccion: "Dólar y finanzas", serie: reservas_netas, tipo_valor: saldo, moneda: USD, vista_inicial: desde_2003, unidad: "millones de US$ de hoy", portada: true,
+     nota: "Estimación propia: no hay cifra oficial. Reservas brutas menos encajes de los depósitos en dólares, swap con China (130.000 millones de yuanes desde 2018; 70.000 millones desde 2014), repos y pases en dólares con bancos, obligaciones con organismos internacionales y el tramo activado del swap con el Tesoro de EE.UU. (nov-2025 a ene-2026). Rubros del balance del BCRA vía datos.gob.ar, que se publica con meses de rezago: después del último mes disponible los encajes se estiman con los depósitos privados en dólares y los repos se mantienen en su último valor. Otras metodologías (consultoras, FMI) restan o no otros rubros y dan cifras distintas."}
+  - {id: m2, nombre: "Cantidad de dinero (M2) real", seccion: "Dólar y finanzas", serie: m2, tipo_valor: nivel, moneda: ARS, unidad: "millones de pesos de hoy",
+     nota: "M2: billetes y monedas en poder del público más depósitos en cuenta corriente y caja de ahorro en pesos (BCRA), promedio mensual, en pesos de hoy."}
+  - {id: rn_encajes, nombre: "Encajes de depósitos en dólares en el BCRA", seccion: "Dólar y finanzas", serie: rn_encajes, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", grupo: reservas_componentes}
+  - {id: rn_swap_china, nombre: "Swap con China (valuado en dólares)", seccion: "Dólar y finanzas", serie: rn_swap_china, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", grupo: reservas_componentes}
+  - {id: rn_repos, nombre: "Repos y pases en dólares con bancos", seccion: "Dólar y finanzas", serie: rn_repos, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", grupo: reservas_componentes}
+  - {id: rn_organismos, nombre: "Obligaciones con organismos internacionales", seccion: "Dólar y finanzas", serie: rn_organismos, tipo_valor: nivel, moneda: USD, unidad: "millones de US$ de hoy", grupo: reservas_componentes}
+  - {id: reservas_netas_fmi, nombre: "Reservas netas del BCRA: criterio del FMI (estimación)", seccion: "Dólar y finanzas", serie: reservas_netas_fmi, tipo_valor: saldo, moneda: USD, vista_inicial: desde_2003, unidad: "millones de US$ de hoy", portada: true,
+     nota: "Es la medición que usa el FMI para la meta del acuerdo de 2025 y la que el Gobierno reconoce como negativa: a la estimación de mercado le resta además los desembolsos acumulados del programa vigente con el FMI (12.000 millones en abril de 2025, 2.000 en agosto de 2025 y 1.000 en mayo de 2026), que son deuda del Tesoro. Por eso empieza en abril de 2025. El FMI hace además ajustes de valuación del oro y el yuan que acá no se replican. Referencias: el FMI informó -14.100 millones a fin de 2025 y Econviews estimó unos -7.000 millones en septiembre de 2026."}
+  - {id: presion_consolidada, nombre: "Presión tributaria consolidada (Nación y provincias)", seccion: "Estado y fiscal", serie: presion_consolidada, tipo_valor: tasa, frecuencia: A, vista_inicial: desde_2003, unidad: "% del PIB",
+     nota: "Recaudación nacional (ARCA, incluye seguridad social y los impuestos que se coparticipan) más los impuestos propios de las 24 provincias (Secretaría de Hacienda, Coordinación Fiscal Provincial), sobre el PIB nominal del año (INDEC). No incluye tasas municipales, que no tienen una serie oficial. Si una provincia no informó un año, el consolidado puede subestimarse (en 2025 falta La Pampa)."}
+  - {id: presion_provincial, nombre: "Presión tributaria de las provincias", seccion: "Estado y fiscal", serie: presion_provincial, tipo_valor: tasa, frecuencia: A, vista_inicial: desde_2003, unidad: "% del PIB",
+     nota: "Impuestos propios de las 24 jurisdicciones (Ingresos Brutos, Sellos, Inmobiliario, Automotor y otros) sobre el PIB nominal. Secretaría de Hacienda, Coordinación Fiscal Provincial."}
+  - {id: presion_efectiva_formal, nombre: "Presión tributaria efectiva sobre la economía formal (estimación)", seccion: "Estado y fiscal", serie: presion_efectiva_formal, tipo_valor: tasa, frecuencia: A, vista_inicial: desde_2003, unidad: "% del PIB formal",
+     nota: "Estimación propia de cuánto pesan los impuestos sobre quienes los pagan: la presión consolidada dividida por la proporción de asalariados con aportes jubilatorios (EPH, INDEC), usada como aproximación del peso de la economía formal. No hay medición oficial; otros estudios usan otros supuestos y dan cifras distintas."}
+  - {id: pib_resultado_primario, vista_inicial: desde_2003, nombre: "Resultado primario en % del PIB", seccion: "Estado y fiscal", serie: pib_resultado_primario, tipo_valor: tasa, unidad: "% del PIB, últimos 12 meses",
+     nota: "Resultado primario del Sector Público Nacional no financiero (ingresos menos gastos sin contar intereses), suma de 12 meses sobre el PIB nominal. Cálculo propio."}
+  - {id: indice_adr, nombre: "Índice de acciones argentinas en Nueva York (ADR)", seccion: "Dólar y finanzas", serie: indice_adr, tipo_valor: nivel, moneda: USD, vista_inicial: desde_2003, unidad: "índice dic-2003 = 100, en dólares de hoy", portada: true,
+     nota: "Promedio simple de las variaciones mensuales de 13 empresas argentinas que cotizan en Nueva York: Galicia, YPF, Pampa, Macro, BBVA Argentina, Supervielle, Central Puerto, TGS, Telecom, Edenor, Cresud, IRSA y Loma Negra (cada una entra desde que cotiza). Precios de cierre mensual ajustados por dividendos (Yahoo Finance), expresados en dólares de hoy. Cálculo propio; no es un índice oficial."}
+  - {id: inflacion_bienes, nombre: "Inflación de bienes", seccion: Precios, serie: ipc_bienes, tipo_valor: indice, vista_historica: mensual, unidad: "índice", nota: "IPC nacional (INDEC), bienes. Serie desde diciembre de 2016."}
+  - {id: inflacion_servicios, nombre: "Inflación de servicios", seccion: Precios, serie: ipc_servicios, tipo_valor: indice, vista_historica: mensual, unidad: "índice", nota: "IPC nacional (INDEC), servicios (incluye tarifas, alquileres, educación, salud, transporte y otros). Serie desde diciembre de 2016."}
+  - {id: ipc_alquiler_r, nombre: "Alquiler de la vivienda", seccion: Precios, serie: ipc_alquiler, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_electricidad_gas_r, nombre: "Electricidad, gas y otros combustibles del hogar", seccion: Precios, serie: ipc_electricidad_gas, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_prepagas_r, nombre: "Prepagas", seccion: Precios, serie: ipc_prepagas, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_transporte_publico_r, nombre: "Transporte público", seccion: Precios, serie: ipc_transporte_publico, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_combustibles_r, nombre: "Combustibles para vehículos", seccion: Precios, serie: ipc_combustibles, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_telefonia_r, nombre: "Telefonía e internet", seccion: Precios, serie: ipc_telefonia, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_restaurantes_r, nombre: "Restaurantes y comidas fuera del hogar", seccion: Precios, serie: ipc_restaurantes, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_carnes_r, nombre: "Carnes y derivados", seccion: Precios, serie: ipc_carnes, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_lacteos_r, nombre: "Leche, lácteos y huevos", seccion: Precios, serie: ipc_lacteos, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_pan_r, nombre: "Pan y cereales", seccion: Precios, serie: ipc_pan, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_verduras_r, nombre: "Verduras, tubérculos y legumbres", seccion: Precios, serie: ipc_verduras, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipc_ropa_r, nombre: "Ropa", seccion: Precios, serie: ipc_ropa, tipo_valor: indice, vista_historica: mensual, unidad: "índice", grupo: inflacion_rubros}
+  - {id: ipib, nombre: "Precios mayoristas básicos (IPIB)", seccion: Precios, serie: ipib, tipo_valor: indice, vista_historica: mensual, unidad: "índice", nota: "Índice de precios internos básicos al por mayor (INDEC): precios sin impuestos, de productos nacionales e importados. Serie desde diciembre de 2015."}
+  - {id: ipp, nombre: "Precios al productor (IPP)", seccion: Precios, serie: ipp, tipo_valor: indice, vista_historica: mensual, unidad: "índice", nota: "Índice de precios básicos del productor (INDEC): lo que cobran los productores locales, sin impuestos. Serie desde diciembre de 2015."}
+  - {id: costo_construccion, nombre: "Costo de la construcción (ICC)", seccion: Precios, serie: costo_construccion, tipo_valor: indice, vista_historica: mensual, unidad: "índice", nota: "Índice del costo de la construcción del INDEC (Gran Buenos Aires): materiales, mano de obra y gastos generales de un edificio tipo. Serie desde noviembre de 2015."}
+  - {id: costo_construccion_usd, nombre: "Costo de la construcción en dólares", seccion: Precios, serie: costo_construccion_usd, tipo_valor: indice, vista_historica: mensual, unidad: "índice", nota: "Índice del costo de la construcción (INDEC, GBA) dividido por el dólar oficial mayorista (promedio del mes). Positivo = construir se encarece en dólares. Cálculo propio."}
+  - {id: ipi_minero, nombre: "Producción minera e hidrocarburos (IPI minero)", seccion: Actividad, serie: ipi_minero, tipo_valor: indice, unidad: "índice 2016=100", nota: "Índice de producción industrial minero del INDEC (serie original): petróleo y gas, minerales metalíferos, litio, rocas y otros. Desde 2017."}
+  - {id: minero_petroleo, nombre: "Producción de petróleo crudo", seccion: Actividad, serie: minero_petroleo, tipo_valor: indice, unidad: "índice 2016=100", nota: "Apertura del IPI minero del INDEC (serie original). Desde 2017."}
+  - {id: gas_no_convencional, nombre: "Producción de gas no convencional", seccion: Actividad, serie: gas_no_convencional, tipo_valor: flujo, acumulado_12m: true, unidad: "millones de m³, últimos 12 meses", nota: "Gas natural de reservorios no convencionales (sobre todo Vaca Muerta), en millones de metros cúbicos. INDEC, IPI minero (unidades físicas), desde 2017."}
+  - {id: litio, nombre: "Producción de litio", seccion: Actividad, serie: litio, tipo_valor: indice, unidad: "índice 2016=100", nota: "Apertura del IPI minero del INDEC: carbonato de litio y otros minerales de litio (serie original; el INDEC la publica desde octubre de 2020, antes era confidencial). Las toneladas producidas se publican recién desde junio de 2023 (en agosto de 2026: 8.583 toneladas en el mes)."}
+  - {id: expo_china, nombre: "China", seccion: "Sector externo e inversión", serie: expo_china, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: expo_destino}
+  - {id: expo_brasil, nombre: "Brasil", seccion: "Sector externo e inversión", serie: expo_brasil, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: expo_destino}
+  - {id: expo_union_europea, nombre: "Unión Europea", seccion: "Sector externo e inversión", serie: expo_union_europea, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: expo_destino}
+  - {id: expo_estados_unidos, nombre: "Estados Unidos", seccion: "Sector externo e inversión", serie: expo_estados_unidos, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: expo_destino}
+  - {id: expo_chile, nombre: "Chile", seccion: "Sector externo e inversión", serie: expo_chile, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: expo_destino}
+  - {id: expo_india, nombre: "India", seccion: "Sector externo e inversión", serie: expo_india, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: expo_destino}
+  - {id: expo_vietnam, nombre: "Vietnam", seccion: "Sector externo e inversión", serie: expo_vietnam, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: expo_destino}
+  - {id: expo_resto, nombre: "Resto del mundo", seccion: "Sector externo e inversión", serie: expo_resto, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: expo_destino}
+  - {id: impo_china, nombre: "China", seccion: "Sector externo e inversión", serie: impo_china, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_origen}
+  - {id: impo_brasil, nombre: "Brasil", seccion: "Sector externo e inversión", serie: impo_brasil, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_origen}
+  - {id: impo_union_europea, nombre: "Unión Europea", seccion: "Sector externo e inversión", serie: impo_union_europea, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_origen}
+  - {id: impo_estados_unidos, nombre: "Estados Unidos", seccion: "Sector externo e inversión", serie: impo_estados_unidos, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_origen}
+  - {id: impo_paraguay, nombre: "Paraguay", seccion: "Sector externo e inversión", serie: impo_paraguay, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_origen}
+  - {id: impo_resto, nombre: "Resto del mundo", seccion: "Sector externo e inversión", serie: impo_resto, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_origen}
+  - {id: impo_uso_intermedios, nombre: "Bienes intermedios", seccion: "Sector externo e inversión", serie: impo_uso_intermedios, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_uso}
+  - {id: impo_uso_piezas, nombre: "Piezas y accesorios para bienes de capital", seccion: "Sector externo e inversión", serie: impo_uso_piezas, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_uso}
+  - {id: impo_uso_capital, nombre: "Bienes de capital", seccion: "Sector externo e inversión", serie: impo_uso_capital, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_uso}
+  - {id: impo_uso_consumo, nombre: "Bienes de consumo", seccion: "Sector externo e inversión", serie: impo_uso_consumo, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_uso}
+  - {id: impo_uso_combustibles, nombre: "Combustibles y lubricantes", seccion: "Sector externo e inversión", serie: impo_uso_combustibles, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_uso}
+  - {id: impo_uso_vehiculos, nombre: "Vehículos de pasajeros", seccion: "Sector externo e inversión", serie: impo_uso_vehiculos, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_uso}
+  - {id: impo_uso_resto, nombre: "Resto", seccion: "Sector externo e inversión", serie: impo_uso_resto, tipo_valor: flujo, moneda: USD, acumulado_12m: true, unidad: "millones de US$ de hoy, últimos 12 meses", grupo: impo_uso}
+  - {id: crianza_men1, nombre: "Menores de 1 año", seccion: "Pobreza y programas sociales", serie: crianza_men1, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por mes", grupo: canasta_crianza}
+  - {id: crianza_1a3, nombre: "De 1 a 3 años", seccion: "Pobreza y programas sociales", serie: crianza_1a3, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por mes", grupo: canasta_crianza}
+  - {id: crianza_4a5, nombre: "De 4 y 5 años", seccion: "Pobreza y programas sociales", serie: crianza_4a5, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por mes", grupo: canasta_crianza}
+  - {id: crianza_6a12, nombre: "De 6 a 12 años", seccion: "Pobreza y programas sociales", serie: crianza_6a12, tipo_valor: nivel, moneda: ARS, unidad: "pesos de hoy por mes", grupo: canasta_crianza}
