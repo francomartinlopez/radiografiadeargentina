@@ -455,6 +455,30 @@ series:
   isac2004_desest:     {fuente: datosgobar, id: "32.3_ISE_2004_M_23", cerrada: true}
   salario_privado_2001: {fuente: datosgobar, id: "56.2_SPRMD_2012_M_29", cerrada: true}
   asal_privados_desest: {fuente: datosgobar, id: "152.1_TL_SIN_EST_2009_M_13"}
+  # Radiografía, lote 2
+  elec_residencial:    {fuente: datosgobar, id: "367.3_DEMANDA_REIAL__19"}
+  elec_comercio_industria: {fuente: datosgobar, id: "367.3_COMERCIO_ERIA__20"}
+  elec_total:          {fuente: datosgobar, id: "367.3_DEMANDA_TOTAL__13"}
+  gas_residencial:     {fuente: datosgobar, id: "364.3_RESIDENCIAIAL__11"}
+  gas_industria:       {fuente: datosgobar, id: "364.3_INDUSTRIARIA__9"}
+  gas_centrales:       {fuente: datosgobar, id: "364.3_CENTRALES_CAS__20"}
+  gas_gnc:             {fuente: datosgobar, id: "364.3_GNCGNC__3"}
+  gas_total:           {fuente: datosgobar, id: "364.3_TOTALTAL__5"}
+  venta_gasoil:        {fuente: datosgobar, id: "363.3_VENTAS_DE_OIL__16"}
+  venta_nafta_premium: {fuente: datosgobar, id: "363.3_VENTAS_DE_RON__27"}
+  venta_nafta_super:   {fuente: datosgobar, id: "363.3_VENTAS_DE_RON_II__33"}
+  venta_nafta_comun:   {fuente: datosgobar, id: "363.3_VENTAS_DE_RON__33", cerrada: true}  # dejó de venderse
+  tasa_hipotecarios:   {fuente: datosgobar, id: "89.1_TS_INTEIOS_0_M_34"}
+  tasa_documentos:     {fuente: datosgobar, id: "89.1_TS_INTETOS_0_M_32"}
+  tasa_adelantos:      {fuente: datosgobar, id: "89.1_TS_INTETOS_0_M_31"}
+  tasa_prendarios:     {fuente: datosgobar, id: "89.1_TS_INTEIOS_0_M_32"}
+  prest_documentos_pesos: {fuente: datosgobar, id: "91.1_DETALLE_PRTOS_0_0_56"}
+  prest_adelantos_pesos:  {fuente: datosgobar, id: "91.1_DETALLE_PRTOS_0_0_55"}
+  prest_comerciales_otros_pesos: {fuente: datosgobar, id: "91.1_DETALLE_PRROS_0_0_51"}
+  ucii_2006:           {fuente: datosgobar, id: "29.3_UNG_2006_M_18", cerrada: true}
+  ucii_metalmec_2006:  {fuente: datosgobar, id: "29.3_UMNIA_2006_M_42", cerrada: true}
+  ucii_metales_2006:   {fuente: datosgobar, id: "29.3_UIMB_2006_M_33", cerrada: true}
+  ucii_metales:        {fuente: datosgobar, id: "31.3_UIMB_2004_M_33"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

@@ -454,8 +454,14 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
         return salida, alertas
 
     series = []
+    preparadas = {sd["serie"]: preparar_serie(mensuales.get(sd["serie"]), g, mensuales) for sd in g["series"]}
+    if g["tipo"] == "areas":  # apiladas: se corta en el último período con dato en todas las series
+        ultimos = [x.index.max() for x in preparadas.values() if x is not None and not x.empty]
+        if ultimos:
+            corte = min(ultimos)
+            preparadas = {k: (x[x.index <= corte] if x is not None else None) for k, x in preparadas.items()}
     for sd in g["series"]:
-        s = preparar_serie(mensuales.get(sd["serie"]), g, mensuales)
+        s = preparadas[sd["serie"]]
         if s is None:
             alertas.append(f"{g['id']}: sin datos para la serie {sd['serie']}")
             continue
@@ -535,6 +541,13 @@ def main() -> None:
     cerradas = {n for n, d in sub["series"].items() if d.get("cerrada")}
     alertas += alertas_proc + alertas_calc
     alertas = [a for a in alertas if not (a.split(":")[0] in cerradas and ("sin dato nuevo" in a or "variación inusual" in a))]
+    # "sin dato nuevo" solo importa si el último dato ya está atrasado (más de 5 meses)
+    import re
+    hoy = pd.Timestamp.today()
+    def atrasada(a: str) -> bool:
+        m = re.search(r"sin dato nuevo \(último (\d{4})-(\d{2})\)", a)
+        return not m or (hoy.year - int(m[1])) * 12 + hoy.month - int(m[2]) > 5
+    alertas = [a for a in alertas if atrasada(a)]
     graficos = []
     for g in catalogo["graficos"]:
         try:

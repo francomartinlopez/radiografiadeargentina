@@ -170,6 +170,35 @@ calculos:
     operacion: cociente
     a: merval
     b: dolar_largo
+  venta_naftas_parcial:
+    operacion: suma
+    a: venta_nafta_super
+    b: venta_nafta_comun
+  venta_naftas:
+    operacion: suma
+    a: venta_naftas_parcial
+    b: venta_nafta_premium
+  ucii_largo:
+    operacion: concatenar
+    tramos: [{serie: ucii_2006, hasta: "2015-12"}, {serie: ucii}]
+  ucii_metales_largo:
+    operacion: concatenar
+    tramos: [{serie: ucii_metales_2006, hasta: "2015-12"}, {serie: ucii_metales}]
+  empresas_aperturas_pct:
+    operacion: cociente
+    a: empresas_aperturas
+    b: empresas_activas
+    factor: 100
+  empresas_cierres_pct:
+    operacion: cociente
+    a: empresas_cierres
+    b: empresas_activas
+    factor: 100
+  empresas_neto_pct:
+    operacion: cociente
+    a: empresas_neto
+    b: empresas_activas
+    factor: 100
 
 graficos:
   - id: inflacion_minorista
@@ -1362,3 +1391,207 @@ graficos:
       - {nombre: "ANSES, haber mínimo jubilatorio", url: "https://www.anses.gob.ar", nivel: primaria}
       - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
     metodo: "Haber mínimo vigente en cada mes, sin los bonos extraordinarios, llevado a pesos del último mes con dato. El gasto total en jubilaciones está en Gasto en jubilaciones y programas sociales."
+
+  # ---------- Paso 4 (lote 2), tanda 1: energía, crédito a empresas, tasas, empresas, industria, agro ----------
+
+  - id: demanda_electricidad
+    tema: 9
+    titulo: "Demanda de electricidad"
+    que_muestra: "Energía eléctrica consumida por hogares, por comercios e industrias y en total."
+    original: {ficha: p242, imagen: 1092}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "GWh"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: elec_total, nombre: "Total", color: gris}
+      - {serie: elec_residencial, nombre: "Residencial"}
+      - {serie: elec_comercio_industria, nombre: "Comercio e industria"}
+    fuentes:
+      - {nombre: "CAMMESA, vía Secretaría de Energía (datos.gob.ar)", url: "https://cammesa.com/informe-sintesis-mensual/", nivel: primaria}
+    metodo: "Demanda mensual del Mercado Eléctrico Mayorista. El total empieza en 2001; la apertura por tipo de usuario, en 2005. CAMMESA agrupa comercio e industria pequeña y mediana; los grandes usuarios quedan en el total. Reúne las fichas p235, p237, p239 y p242."
+
+  - id: consumo_gas
+    tema: 9
+    titulo: "Consumo de gas natural por tipo de usuario"
+    que_muestra: "Gas natural entregado a hogares, comercios, industrias, centrales eléctricas y estaciones de GNC."
+    original: {ficha: p243, imagen: 1093}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "millones de m³"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: gas_total, nombre: "Total", color: gris}
+      - {serie: gas_centrales, nombre: "Centrales eléctricas"}
+      - {serie: gas_industria, nombre: "Industria"}
+      - {serie: gas_residencial, nombre: "Residencial"}
+      - {serie: gas_gnc, nombre: "GNC"}
+    fuentes:
+      - {nombre: "ENARGAS, gas entregado por tipo de usuario, vía Secretaría de Energía (datos.gob.ar)", url: "https://www.enargas.gob.ar/secciones/transporte-y-distribucion/datos-operativos-subsidios.php", nivel: primaria}
+    metodo: "Volúmenes mensuales entregados por las distribuidoras y transportistas. El consumo comercial figura en el catálogo oficial pero la serie viene vacía; queda dentro del total. Reúne las fichas p236, p238, p240 y p243."
+
+  - id: venta_combustibles
+    tema: 9
+    titulo: "Venta de combustibles"
+    que_muestra: "Gasoil y naftas vendidos en el mercado interno."
+    original: {ficha: p241, imagen: 1091}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "miles de m³"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: venta_gasoil, nombre: "Gasoil"}
+      - {serie: venta_naftas, nombre: "Naftas (todas)"}
+    fuentes:
+      - {nombre: "Secretaría de Energía, Res. 1104/2004: producción y ventas de derivados", url: "https://datos.gob.ar/dataset/energia-refinacion-comercializacion-petroleo-gas-derivados-tablas-dinamicas", nivel: primaria}
+    metodo: "Ventas mensuales de las refinadoras y comercializadoras. Las naftas suman común, súper y premium."
+
+  - id: credito_empresas
+    tema: 5
+    titulo: "Préstamos a empresas en pesos de hoy"
+    que_muestra: "Saldo de préstamos comerciales en pesos (documentos, adelantos en cuenta corriente y otros), en pesos de hoy."
+    original: {ficha: p146, imagen: 1456}
+    tipo: areas
+    frecuencia: M
+    desde: "2003-01"
+    unidad: "millones de pesos de hoy"
+    tipo_valor: nivel
+    moneda: ARS
+    medida_inicial: nivel
+    series:
+      - {serie: prest_documentos_pesos, nombre: "Documentos"}
+      - {serie: prest_adelantos_pesos, nombre: "Adelantos"}
+      - {serie: prest_comerciales_otros_pesos, nombre: "Otros comerciales"}
+    fuentes:
+      - {nombre: "BCRA, préstamos al sector privado por tipo (promedio mensual de saldos)", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Series.asp", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Promedio mensual de saldos de las líneas comerciales en pesos, llevado a pesos de hoy. No incluye los préstamos comerciales en dólares (sobre todo prefinanciación de exportaciones)."
+
+  - id: tasas_activas
+    tema: 5
+    titulo: "Tasas de interés de los préstamos"
+    que_muestra: "Tasa nominal anual promedio que cobran los bancos según el tipo de préstamo."
+    original: {ficha: p149, imagen: 1523}
+    tipo: lineas
+    frecuencia: M
+    desde: "2002-01"
+    unidad: "% nominal anual"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion, interanual]
+    series:
+      - {serie: tasa_adelantos, nombre: "Adelantos en cuenta corriente"}
+      - {serie: tasa_documentos, nombre: "Documentos a sola firma"}
+      - {serie: tasa_prendarios, nombre: "Prendarios"}
+      - {serie: tasa_hipotecarios, nombre: "Hipotecarios"}
+    fuentes:
+      - {nombre: "BCRA, tasas de interés activas por tipo de préstamo", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Tasas_de_interes.asp", nivel: primaria}
+    metodo: "Promedios mensuales ponderados por monto de las operaciones nuevas en pesos. Desde 2016 una parte creciente de los hipotecarios se otorga en UVA (tasa real), que entra en el promedio con su tasa sin ajuste. Reúne las fichas p149, p151 y p152; la tasa a 'comercios y servicios' del original no existe como serie del BCRA (los adelantos y documentos son las líneas típicas de empresas)."
+
+  - id: empresas_empleadoras
+    tema: 7
+    titulo: "Empresas con empleo registrado"
+    que_muestra: "Cantidad de empresas privadas que tienen al menos un asalariado registrado."
+    original: {ficha: p173, imagen: 995}
+    tipo: lineas
+    frecuencia: T
+    desde: "2001-01"
+    unidad: "empresas"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    series:
+      - {serie: empresas_activas, nombre: "Empresas empleadoras"}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, OEDE: dinámica de empresas (SIPA)", url: "https://www.argentina.gob.ar/trabajo/estadisticas/oede-estadisticas-nacionales", nivel: primaria}
+    metodo: "Empresas con empleo asalariado registrado en el SIPA, por trimestre. Reúne las fichas p173 y p174 (esta citaba a Infobae, que usa la misma fuente)."
+
+  - id: apertura_cierre_empresas
+    tema: 7
+    titulo: "Apertura y cierre de empresas"
+    que_muestra: "Empresas que abren y que cierran en cada trimestre, como porcentaje de las empresas activas, y el saldo."
+    original: {ficha: p177, imagen: 1048}
+    tipo: lineas
+    frecuencia: T
+    desde: "2001-01"
+    unidad: "% de las empresas activas"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion, interanual]
+    series:
+      - {serie: empresas_aperturas_pct, nombre: "Aperturas"}
+      - {serie: empresas_cierres_pct, nombre: "Cierres"}
+      - {serie: empresas_neto_pct, nombre: "Saldo"}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, OEDE: dinámica de empresas (SIPA)", url: "https://www.argentina.gob.ar/trabajo/estadisticas/oede-estadisticas-nacionales", nivel: primaria}
+    metodo: "Aperturas, cierres y saldo del trimestre divididos por las empresas activas. Una empresa 'cierra' para el SIPA cuando deja de declarar asalariados; puede seguir operando sin empleados. Reúne las fichas p177, p178 y p179."
+
+  - id: capacidad_instalada
+    tema: 7
+    titulo: "Uso de la capacidad instalada en la industria"
+    que_muestra: "Porcentaje de la capacidad de producción de las fábricas que se está usando: industria en general, metales básicos y metalmecánica."
+    original: {ficha: p176, imagen: 1004}
+    tipo: lineas
+    frecuencia: M
+    desde: "2002-01"
+    unidad: "% de la capacidad"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion, interanual]
+    series:
+      - {serie: ucii_largo, nombre: "Industria en general"}
+      - {serie: ucii_metalmec_2006, nombre: "Metalmecánica sin automotores (hasta 2015)"}
+      - {serie: ucii_metales_largo, nombre: "Metales básicos"}
+    fuentes:
+      - {nombre: "INDEC, Utilización de la capacidad instalada en la industria (UCII)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-6-17", nivel: primaria}
+    metodo: "Encuesta mensual del INDEC. Se ponen una a continuación de la otra la serie anterior (2002 a septiembre de 2015) y la actual (desde 2016); octubre a diciembre de 2015 no se publicaron y quedan vacíos. La serie actual de metalmecánica figura en el catálogo oficial pero viene vacía, por eso esa línea termina en 2015. El original usaba datos de ADIMRA citados por la prensa; acá se usa el dato oficial del sector."
+
+  - id: produccion_granos
+    tema: 8
+    titulo: "Producción de los principales granos"
+    que_muestra: "Toneladas cosechadas de soja, maíz, trigo y girasol por campaña."
+    original: {ficha: p195, imagen: 1043}
+    tipo: areas
+    frecuencia: A
+    desde: "1990"
+    unidad: "millones de toneladas"
+    escala: 0.000001
+    tipo_valor: flujo
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: prod_soja, nombre: "Soja"}
+      - {serie: prod_maiz, nombre: "Maíz"}
+      - {serie: prod_trigo, nombre: "Trigo"}
+      - {serie: prod_girasol, nombre: "Girasol"}
+    fuentes:
+      - {nombre: "Ministerio de Agricultura, Estimaciones agrícolas", url: "https://datosestimaciones.magyp.gob.ar/", nivel: primaria}
+    metodo: "Producción por campaña agrícola, fechada en el año en que empieza la campaña. La sequía de 2022/23 explica la caída de ese año. El gráfico llega a la última campaña con dato de los cuatro cultivos."
+
+  - id: turismo_viajes
+    tema: 4
+    titulo: "Turismo: saldo de viajes con el exterior"
+    que_muestra: "Gastos de extranjeros en la Argentina menos gastos de argentinos afuera (viajes), en dólares de hoy."
+    original: {ficha: p75, imagen: 1215}
+    tipo: barras
+    frecuencia: T
+    desde: "2006-01"
+    unidad: "millones de US$ de hoy"
+    tipo_valor: saldo
+    moneda: USD
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: bdp_viajes, nombre: "Saldo de viajes"}
+    fuentes:
+      - {nombre: "INDEC, Balanza de pagos (MBP6): viajes", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-35-45", nivel: primaria}
+      - {nombre: "BLS, CPI de EE.UU.", url: "https://fred.stlouisfed.org/series/CPIAUCSL", nivel: primaria, nota: "Deflactor de los dólares"}
+    metodo: "Saldo trimestral de la cuenta viajes de la balanza de pagos (incluye compras con tarjeta en el exterior y turismo). Negativo: los argentinos gastan afuera más de lo que los extranjeros gastan acá. El gasto de empresas en el exterior del original (ficha p76) no tiene una serie separable: queda incluido en servicios."

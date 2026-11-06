@@ -1,0 +1,750 @@
+serie,fecha,valor,tramo
+Industria en general,2002-01-01,48.161691,observado
+Industria en general,2002-02-01,51.117528,observado
+Industria en general,2002-03-01,50.306787,observado
+Industria en general,2002-04-01,55.097668,observado
+Industria en general,2002-05-01,55.182851,observado
+Industria en general,2002-06-01,55.370516,observado
+Industria en general,2002-07-01,56.611092,observado
+Industria en general,2002-08-01,56.859822,observado
+Industria en general,2002-09-01,58.644971,observado
+Industria en general,2002-10-01,59.741126,observado
+Industria en general,2002-11-01,61.194995,observado
+Industria en general,2002-12-01,59.979706,observado
+Industria en general,2003-01-01,58.81758,observado
+Industria en general,2003-02-01,61.109429,observado
+Industria en general,2003-03-01,61.804462,observado
+Industria en general,2003-04-01,63.190908,observado
+Industria en general,2003-05-01,64.165114,observado
+Industria en general,2003-06-01,64.268923,observado
+Industria en general,2003-07-01,65.980137,observado
+Industria en general,2003-08-01,66.222465,observado
+Industria en general,2003-09-01,67.421242,observado
+Industria en general,2003-10-01,69.541687,observado
+Industria en general,2003-11-01,69.865374,observado
+Industria en general,2003-12-01,66.601367,observado
+Industria en general,2004-01-01,65.66984,observado
+Industria en general,2004-02-01,67.104843,observado
+Industria en general,2004-03-01,71.03988,observado
+Industria en general,2004-04-01,68.392056,observado
+Industria en general,2004-05-01,68.917114,observado
+Industria en general,2004-06-01,70.844509,observado
+Industria en general,2004-07-01,71.456338,observado
+Industria en general,2004-08-01,71.479216,observado
+Industria en general,2004-09-01,71.810514,observado
+Industria en general,2004-10-01,70.6282,observado
+Industria en general,2004-11-01,70.425364,observado
+Industria en general,2004-12-01,68.517193,observado
+Industria en general,2005-01-01,68.318736,observado
+Industria en general,2005-02-01,72.308496,observado
+Industria en general,2005-03-01,73.160306,observado
+Industria en general,2005-04-01,72.866326,observado
+Industria en general,2005-05-01,72.520699,observado
+Industria en general,2005-06-01,73.070211,observado
+Industria en general,2005-07-01,72.116858,observado
+Industria en general,2005-08-01,74.314662,observado
+Industria en general,2005-09-01,75.747819,observado
+Industria en general,2005-10-01,74.000191,observado
+Industria en general,2005-11-01,74.776076,observado
+Industria en general,2005-12-01,70.97547,observado
+Industria en general,2006-01-01,67.517538,observado
+Industria en general,2006-02-01,73.521538,observado
+Industria en general,2006-03-01,74.018182,observado
+Industria en general,2006-04-01,73.488355,observado
+Industria en general,2006-05-01,72.885809,observado
+Industria en general,2006-06-01,74.758493,observado
+Industria en general,2006-07-01,73.713858,observado
+Industria en general,2006-08-01,74.558799,observado
+Industria en general,2006-09-01,76.040316,observado
+Industria en general,2006-10-01,75.246915,observado
+Industria en general,2006-11-01,76.182692,observado
+Industria en general,2006-12-01,72.1785,observado
+Industria en general,2007-01-01,67.464814,observado
+Industria en general,2007-02-01,73.834967,observado
+Industria en general,2007-03-01,73.078269,observado
+Industria en general,2007-04-01,73.605078,observado
+Industria en general,2007-05-01,72.364985,observado
+Industria en general,2007-06-01,72.793919,observado
+Industria en general,2007-07-01,69.304486,observado
+Industria en general,2007-08-01,75.759355,observado
+Industria en general,2007-09-01,78.407125,observado
+Industria en general,2007-10-01,77.436619,observado
+Industria en general,2007-11-01,79.274832,observado
+Industria en general,2007-12-01,74.520201,observado
+Industria en general,2008-01-01,70.634395,observado
+Industria en general,2008-02-01,72.399947,observado
+Industria en general,2008-03-01,71.727549,observado
+Industria en general,2008-04-01,76.500711,observado
+Industria en general,2008-05-01,74.858753,observado
+Industria en general,2008-06-01,71.839057,observado
+Industria en general,2008-07-01,73.226919,observado
+Industria en general,2008-08-01,76.361793,observado
+Industria en general,2008-09-01,79.235337,observado
+Industria en general,2008-10-01,76.893844,observado
+Industria en general,2008-11-01,78.213793,observado
+Industria en general,2008-12-01,76.135443,observado
+Industria en general,2009-01-01,64.914752,observado
+Industria en general,2009-02-01,71.326359,observado
+Industria en general,2009-03-01,68.206724,observado
+Industria en general,2009-04-01,73.101702,observado
+Industria en general,2009-05-01,70.423624,observado
+Industria en general,2009-06-01,69.7,observado
+Industria en general,2009-07-01,70.5,observado
+Industria en general,2009-08-01,73.6,observado
+Industria en general,2009-09-01,77.8,observado
+Industria en general,2009-10-01,75.7,observado
+Industria en general,2009-11-01,78.4,observado
+Industria en general,2009-12-01,79.8,observado
+Industria en general,2010-01-01,66.6,observado
+Industria en general,2010-02-01,76.9,observado
+Industria en general,2010-03-01,75.3,observado
+Industria en general,2010-04-01,79.5,observado
+Industria en general,2010-05-01,76.7,observado
+Industria en general,2010-06-01,75.0,observado
+Industria en general,2010-07-01,75.2,observado
+Industria en general,2010-08-01,79.1,observado
+Industria en general,2010-09-01,82.3,observado
+Industria en general,2010-10-01,79.2,observado
+Industria en general,2010-11-01,83.4,observado
+Industria en general,2010-12-01,82.9,observado
+Industria en general,2011-01-01,69.6,observado
+Industria en general,2011-02-01,80.4,observado
+Industria en general,2011-03-01,76.2,observado
+Industria en general,2011-04-01,80.9,observado
+Industria en general,2011-05-01,78.2,observado
+Industria en general,2011-06-01,76.1,observado
+Industria en general,2011-07-01,75.7,observado
+Industria en general,2011-08-01,78.1,observado
+Industria en general,2011-09-01,83.7,observado
+Industria en general,2011-10-01,80.0,observado
+Industria en general,2011-11-01,84.1,observado
+Industria en general,2011-12-01,82.0,observado
+Industria en general,2012-01-01,67.6,observado
+Industria en general,2012-02-01,75.3,observado
+Industria en general,2012-03-01,75.3,observado
+Industria en general,2012-04-01,78.9,observado
+Industria en general,2012-05-01,73.1,observado
+Industria en general,2012-06-01,72.0,observado
+Industria en general,2012-07-01,71.3,observado
+Industria en general,2012-08-01,74.0,observado
+Industria en general,2012-09-01,75.8,observado
+Industria en general,2012-10-01,76.4,observado
+Industria en general,2012-11-01,78.5,observado
+Industria en general,2012-12-01,75.8,observado
+Industria en general,2013-01-01,65.6,observado
+Industria en general,2013-02-01,71.5,observado
+Industria en general,2013-03-01,72.7,observado
+Industria en general,2013-04-01,75.9,observado
+Industria en general,2013-05-01,73.3,observado
+Industria en general,2013-06-01,71.5,observado
+Industria en general,2013-07-01,71.1,observado
+Industria en general,2013-08-01,73.0,observado
+Industria en general,2013-09-01,75.2,observado
+Industria en general,2013-10-01,75.4,observado
+Industria en general,2013-11-01,75.3,observado
+Industria en general,2013-12-01,72.1,observado
+Industria en general,2014-01-01,63.7,observado
+Industria en general,2014-02-01,70.1,observado
+Industria en general,2014-03-01,67.9,observado
+Industria en general,2014-04-01,73.0,observado
+Industria en general,2014-05-01,70.8,observado
+Industria en general,2014-06-01,71.1,observado
+Industria en general,2014-07-01,70.7,observado
+Industria en general,2014-08-01,71.0,observado
+Industria en general,2014-09-01,73.3,observado
+Industria en general,2014-10-01,74.1,observado
+Industria en general,2014-11-01,73.2,observado
+Industria en general,2014-12-01,70.6,observado
+Industria en general,2015-01-01,62.7,observado
+Industria en general,2015-02-01,68.8,observado
+Industria en general,2015-03-01,67.1,observado
+Industria en general,2015-04-01,71.8,observado
+Industria en general,2015-05-01,69.3,observado
+Industria en general,2015-06-01,71.0,observado
+Industria en general,2015-07-01,71.1,observado
+Industria en general,2015-08-01,71.2,observado
+Industria en general,2015-09-01,73.6,observado
+Industria en general,2016-01-01,62.9,observado
+Industria en general,2016-02-01,64.2,observado
+Industria en general,2016-03-01,64.8,observado
+Industria en general,2016-04-01,64.8,observado
+Industria en general,2016-05-01,65.0,observado
+Industria en general,2016-06-01,64.9,observado
+Industria en general,2016-07-01,62.0,observado
+Industria en general,2016-08-01,63.6,observado
+Industria en general,2016-09-01,63.9,observado
+Industria en general,2016-10-01,65.4,observado
+Industria en general,2016-11-01,68.4,observado
+Industria en general,2016-12-01,63.6,observado
+Industria en general,2017-01-01,60.6,observado
+Industria en general,2017-02-01,60.0,observado
+Industria en general,2017-03-01,65.7,observado
+Industria en general,2017-04-01,64.5,observado
+Industria en general,2017-05-01,65.8,observado
+Industria en general,2017-06-01,67.1,observado
+Industria en general,2017-07-01,65.1,observado
+Industria en general,2017-08-01,67.3,observado
+Industria en general,2017-09-01,66.3,observado
+Industria en general,2017-10-01,68.3,observado
+Industria en general,2017-11-01,69.2,observado
+Industria en general,2017-12-01,64.0,observado
+Industria en general,2018-01-01,61.6,observado
+Industria en general,2018-02-01,64.4,observado
+Industria en general,2018-03-01,66.8,observado
+Industria en general,2018-04-01,67.6,observado
+Industria en general,2018-05-01,65.1,observado
+Industria en general,2018-06-01,61.8,observado
+Industria en general,2018-07-01,60.1,observado
+Industria en general,2018-08-01,63.0,observado
+Industria en general,2018-09-01,61.1,observado
+Industria en general,2018-10-01,64.8,observado
+Industria en general,2018-11-01,63.3,observado
+Industria en general,2018-12-01,56.6,observado
+Industria en general,2019-01-01,56.2,observado
+Industria en general,2019-02-01,58.5,observado
+Industria en general,2019-03-01,58.8,observado
+Industria en general,2019-04-01,61.6,observado
+Industria en general,2019-05-01,62.0,observado
+Industria en general,2019-06-01,59.1,observado
+Industria en general,2019-07-01,58.7,observado
+Industria en general,2019-08-01,60.5,observado
+Industria en general,2019-09-01,57.7,observado
+Industria en general,2019-10-01,62.1,observado
+Industria en general,2019-11-01,60.7,observado
+Industria en general,2019-12-01,56.9,observado
+Industria en general,2020-01-01,56.1,observado
+Industria en general,2020-02-01,59.4,observado
+Industria en general,2020-03-01,51.6,observado
+Industria en general,2020-04-01,42.0,observado
+Industria en general,2020-05-01,46.4,observado
+Industria en general,2020-06-01,53.3,observado
+Industria en general,2020-07-01,56.8,observado
+Industria en general,2020-08-01,58.4,observado
+Industria en general,2020-09-01,60.8,observado
+Industria en general,2020-10-01,61.8,observado
+Industria en general,2020-11-01,63.3,observado
+Industria en general,2020-12-01,58.4,observado
+Industria en general,2021-01-01,56.8,observado
+Industria en general,2021-02-01,57.9,observado
+Industria en general,2021-03-01,64.2,observado
+Industria en general,2021-04-01,63.2,observado
+Industria en general,2021-05-01,61.1,observado
+Industria en general,2021-06-01,64.5,observado
+Industria en general,2021-07-01,63.7,observado
+Industria en general,2021-08-01,64.0,observado
+Industria en general,2021-09-01,66.3,observado
+Industria en general,2021-10-01,64.3,observado
+Industria en general,2021-11-01,68.4,observado
+Industria en general,2021-12-01,64.0,observado
+Industria en general,2022-01-01,57.5,observado
+Industria en general,2022-02-01,64.0,observado
+Industria en general,2022-03-01,66.7,observado
+Industria en general,2022-04-01,67.1,observado
+Industria en general,2022-05-01,68.0,observado
+Industria en general,2022-06-01,69.5,observado
+Industria en general,2022-07-01,67.9,observado
+Industria en general,2022-08-01,69.6,observado
+Industria en general,2022-09-01,68.6,observado
+Industria en general,2022-10-01,66.7,observado
+Industria en general,2022-11-01,68.9,observado
+Industria en general,2022-12-01,63.8,observado
+Industria en general,2023-01-01,62.0,observado
+Industria en general,2023-02-01,65.0,observado
+Industria en general,2023-03-01,67.3,observado
+Industria en general,2023-04-01,68.9,observado
+Industria en general,2023-05-01,67.8,observado
+Industria en general,2023-06-01,68.6,observado
+Industria en general,2023-07-01,65.0,observado
+Industria en general,2023-08-01,67.9,observado
+Industria en general,2023-09-01,67.9,observado
+Industria en general,2023-10-01,65.3,observado
+Industria en general,2023-11-01,66.4,observado
+Industria en general,2023-12-01,54.9,observado
+Industria en general,2024-01-01,54.4,observado
+Industria en general,2024-02-01,57.4,observado
+Industria en general,2024-03-01,53.2,observado
+Industria en general,2024-04-01,56.5,observado
+Industria en general,2024-05-01,56.7,observado
+Industria en general,2024-06-01,54.3,observado
+Industria en general,2024-07-01,59.5,observado
+Industria en general,2024-08-01,61.2,observado
+Industria en general,2024-09-01,62.2,observado
+Industria en general,2024-10-01,63.0,observado
+Industria en general,2024-11-01,62.3,observado
+Industria en general,2024-12-01,56.7,observado
+Industria en general,2025-01-01,55.0,observado
+Industria en general,2025-02-01,58.6,observado
+Industria en general,2025-03-01,54.4,observado
+Industria en general,2025-04-01,58.6,observado
+Industria en general,2025-05-01,58.8,observado
+Industria en general,2025-06-01,58.9,observado
+Industria en general,2025-07-01,58.4,observado
+Industria en general,2025-08-01,59.6,observado
+Industria en general,2025-09-01,61.4,observado
+Industria en general,2025-10-01,60.9,observado
+Industria en general,2025-11-01,57.7,observado
+Industria en general,2025-12-01,53.8,observado
+Industria en general,2026-01-01,53.9,observado
+Industria en general,2026-02-01,54.6,observado
+Industria en general,2026-03-01,59.8,observado
+Industria en general,2026-04-01,59.9,observado
+Industria en general,2026-05-01,58.3,observado
+Industria en general,2026-06-01,59.1,observado
+Industria en general,2026-07-01,58.2,observado
+Metalmecánica sin automotores (hasta 2015),2002-01-01,23.175979,observado
+Metalmecánica sin automotores (hasta 2015),2002-02-01,24.983316,observado
+Metalmecánica sin automotores (hasta 2015),2002-03-01,30.437621,observado
+Metalmecánica sin automotores (hasta 2015),2002-04-01,31.270839,observado
+Metalmecánica sin automotores (hasta 2015),2002-05-01,35.978736,observado
+Metalmecánica sin automotores (hasta 2015),2002-06-01,36.2215,observado
+Metalmecánica sin automotores (hasta 2015),2002-07-01,38.48604,observado
+Metalmecánica sin automotores (hasta 2015),2002-08-01,38.71238,observado
+Metalmecánica sin automotores (hasta 2015),2002-09-01,41.662718,observado
+Metalmecánica sin automotores (hasta 2015),2002-10-01,41.37468,observado
+Metalmecánica sin automotores (hasta 2015),2002-11-01,45.229421,observado
+Metalmecánica sin automotores (hasta 2015),2002-12-01,44.337388,observado
+Metalmecánica sin automotores (hasta 2015),2003-01-01,44.500816,observado
+Metalmecánica sin automotores (hasta 2015),2003-02-01,49.614762,observado
+Metalmecánica sin automotores (hasta 2015),2003-03-01,55.851236,observado
+Metalmecánica sin automotores (hasta 2015),2003-04-01,59.245381,observado
+Metalmecánica sin automotores (hasta 2015),2003-05-01,55.120549,observado
+Metalmecánica sin automotores (hasta 2015),2003-06-01,55.608637,observado
+Metalmecánica sin automotores (hasta 2015),2003-07-01,56.485716,observado
+Metalmecánica sin automotores (hasta 2015),2003-08-01,58.623104,observado
+Metalmecánica sin automotores (hasta 2015),2003-09-01,56.033786,observado
+Metalmecánica sin automotores (hasta 2015),2003-10-01,58.795931,observado
+Metalmecánica sin automotores (hasta 2015),2003-11-01,58.0813,observado
+Metalmecánica sin automotores (hasta 2015),2003-12-01,54.2799,observado
+Metalmecánica sin automotores (hasta 2015),2004-01-01,50.772272,observado
+Metalmecánica sin automotores (hasta 2015),2004-02-01,55.107176,observado
+Metalmecánica sin automotores (hasta 2015),2004-03-01,61.840309,observado
+Metalmecánica sin automotores (hasta 2015),2004-04-01,61.151505,observado
+Metalmecánica sin automotores (hasta 2015),2004-05-01,64.246373,observado
+Metalmecánica sin automotores (hasta 2015),2004-06-01,64.174231,observado
+Metalmecánica sin automotores (hasta 2015),2004-07-01,64.368972,observado
+Metalmecánica sin automotores (hasta 2015),2004-08-01,66.758412,observado
+Metalmecánica sin automotores (hasta 2015),2004-09-01,63.064545,observado
+Metalmecánica sin automotores (hasta 2015),2004-10-01,60.816125,observado
+Metalmecánica sin automotores (hasta 2015),2004-11-01,62.306891,observado
+Metalmecánica sin automotores (hasta 2015),2004-12-01,55.95831,observado
+Metalmecánica sin automotores (hasta 2015),2005-01-01,51.847507,observado
+Metalmecánica sin automotores (hasta 2015),2005-02-01,59.415584,observado
+Metalmecánica sin automotores (hasta 2015),2005-03-01,61.994135,observado
+Metalmecánica sin automotores (hasta 2015),2005-04-01,66.091954,observado
+Metalmecánica sin automotores (hasta 2015),2005-05-01,64.349277,observado
+Metalmecánica sin automotores (hasta 2015),2005-06-01,64.885057,observado
+Metalmecánica sin automotores (hasta 2015),2005-07-01,61.012236,observado
+Metalmecánica sin automotores (hasta 2015),2005-08-01,63.793103,observado
+Metalmecánica sin automotores (hasta 2015),2005-09-01,66.321839,observado
+Metalmecánica sin automotores (hasta 2015),2005-10-01,61.512792,observado
+Metalmecánica sin automotores (hasta 2015),2005-11-01,61.781609,observado
+Metalmecánica sin automotores (hasta 2015),2005-12-01,56.50723,observado
+Metalmecánica sin automotores (hasta 2015),2006-01-01,53.170189,observado
+Metalmecánica sin automotores (hasta 2015),2006-02-01,59.236453,observado
+Metalmecánica sin automotores (hasta 2015),2006-03-01,62.471264,observado
+Metalmecánica sin automotores (hasta 2015),2006-04-01,65.245902,observado
+Metalmecánica sin automotores (hasta 2015),2006-05-01,64.357483,observado
+Metalmecánica sin automotores (hasta 2015),2006-06-01,63.879781,observado
+Metalmecánica sin automotores (hasta 2015),2006-07-01,61.396087,observado
+Metalmecánica sin automotores (hasta 2015),2006-08-01,62.799168,observado
+Metalmecánica sin automotores (hasta 2015),2006-09-01,64.126984,observado
+Metalmecánica sin automotores (hasta 2015),2006-10-01,60.9319,observado
+Metalmecánica sin automotores (hasta 2015),2006-11-01,59.78836,observado
+Metalmecánica sin automotores (hasta 2015),2006-12-01,56.323605,observado
+Metalmecánica sin automotores (hasta 2015),2007-01-01,53.517665,observado
+Metalmecánica sin automotores (hasta 2015),2007-02-01,60.170068,observado
+Metalmecánica sin automotores (hasta 2015),2007-03-01,57.73779,observado
+Metalmecánica sin automotores (hasta 2015),2007-04-01,62.917611,observado
+Metalmecánica sin automotores (hasta 2015),2007-05-01,61.936459,observado
+Metalmecánica sin automotores (hasta 2015),2007-06-01,61.844293,observado
+Metalmecánica sin automotores (hasta 2015),2007-07-01,61.604857,observado
+Metalmecánica sin automotores (hasta 2015),2007-08-01,69.368249,observado
+Metalmecánica sin automotores (hasta 2015),2007-09-01,69.25674,observado
+Metalmecánica sin automotores (hasta 2015),2007-10-01,62.40948,observado
+Metalmecánica sin automotores (hasta 2015),2007-11-01,65.079365,observado
+Metalmecánica sin automotores (hasta 2015),2007-12-01,58.761856,observado
+Metalmecánica sin automotores (hasta 2015),2008-01-01,52.59308,observado
+Metalmecánica sin automotores (hasta 2015),2008-02-01,57.049027,observado
+Metalmecánica sin automotores (hasta 2015),2008-03-01,59.73228,observado
+Metalmecánica sin automotores (hasta 2015),2008-04-01,65.296044,observado
+Metalmecánica sin automotores (hasta 2015),2008-05-01,64.735572,observado
+Metalmecánica sin automotores (hasta 2015),2008-06-01,64.167297,observado
+Metalmecánica sin automotores (hasta 2015),2008-07-01,59.888328,observado
+Metalmecánica sin automotores (hasta 2015),2008-08-01,61.290323,observado
+Metalmecánica sin automotores (hasta 2015),2008-09-01,63.5,observado
+Metalmecánica sin automotores (hasta 2015),2008-10-01,59.447005,observado
+Metalmecánica sin automotores (hasta 2015),2008-11-01,64.821,observado
+Metalmecánica sin automotores (hasta 2015),2008-12-01,63.248848,observado
+Metalmecánica sin automotores (hasta 2015),2009-01-01,50.0,observado
+Metalmecánica sin automotores (hasta 2015),2009-02-01,61.632692,observado
+Metalmecánica sin automotores (hasta 2015),2009-03-01,61.166808,observado
+Metalmecánica sin automotores (hasta 2015),2009-04-01,68.427484,observado
+Metalmecánica sin automotores (hasta 2015),2009-05-01,63.680701,observado
+Metalmecánica sin automotores (hasta 2015),2009-06-01,59.7,observado
+Metalmecánica sin automotores (hasta 2015),2009-07-01,59.5,observado
+Metalmecánica sin automotores (hasta 2015),2009-08-01,64.2,observado
+Metalmecánica sin automotores (hasta 2015),2009-09-01,68.2,observado
+Metalmecánica sin automotores (hasta 2015),2009-10-01,61.7,observado
+Metalmecánica sin automotores (hasta 2015),2009-11-01,60.4,observado
+Metalmecánica sin automotores (hasta 2015),2009-12-01,58.0,observado
+Metalmecánica sin automotores (hasta 2015),2010-01-01,45.5,observado
+Metalmecánica sin automotores (hasta 2015),2010-02-01,56.9,observado
+Metalmecánica sin automotores (hasta 2015),2010-03-01,57.0,observado
+Metalmecánica sin automotores (hasta 2015),2010-04-01,69.2,observado
+Metalmecánica sin automotores (hasta 2015),2010-05-01,69.3,observado
+Metalmecánica sin automotores (hasta 2015),2010-06-01,64.9,observado
+Metalmecánica sin automotores (hasta 2015),2010-07-01,66.0,observado
+Metalmecánica sin automotores (hasta 2015),2010-08-01,67.5,observado
+Metalmecánica sin automotores (hasta 2015),2010-09-01,72.8,observado
+Metalmecánica sin automotores (hasta 2015),2010-10-01,69.3,observado
+Metalmecánica sin automotores (hasta 2015),2010-11-01,76.3,observado
+Metalmecánica sin automotores (hasta 2015),2010-12-01,73.0,observado
+Metalmecánica sin automotores (hasta 2015),2011-01-01,57.1,observado
+Metalmecánica sin automotores (hasta 2015),2011-02-01,70.4,observado
+Metalmecánica sin automotores (hasta 2015),2011-03-01,65.8,observado
+Metalmecánica sin automotores (hasta 2015),2011-04-01,76.8,observado
+Metalmecánica sin automotores (hasta 2015),2011-05-01,76.3,observado
+Metalmecánica sin automotores (hasta 2015),2011-06-01,72.0,observado
+Metalmecánica sin automotores (hasta 2015),2011-07-01,70.8,observado
+Metalmecánica sin automotores (hasta 2015),2011-08-01,74.1,observado
+Metalmecánica sin automotores (hasta 2015),2011-09-01,78.9,observado
+Metalmecánica sin automotores (hasta 2015),2011-10-01,74.1,observado
+Metalmecánica sin automotores (hasta 2015),2011-11-01,79.8,observado
+Metalmecánica sin automotores (hasta 2015),2011-12-01,80.9,observado
+Metalmecánica sin automotores (hasta 2015),2012-01-01,62.2,observado
+Metalmecánica sin automotores (hasta 2015),2012-02-01,62.3,observado
+Metalmecánica sin automotores (hasta 2015),2012-03-01,62.4,observado
+Metalmecánica sin automotores (hasta 2015),2012-04-01,75.7,observado
+Metalmecánica sin automotores (hasta 2015),2012-05-01,64.0,observado
+Metalmecánica sin automotores (hasta 2015),2012-06-01,62.0,observado
+Metalmecánica sin automotores (hasta 2015),2012-07-01,63.9,observado
+Metalmecánica sin automotores (hasta 2015),2012-08-01,65.6,observado
+Metalmecánica sin automotores (hasta 2015),2012-09-01,65.6,observado
+Metalmecánica sin automotores (hasta 2015),2012-10-01,63.3,observado
+Metalmecánica sin automotores (hasta 2015),2012-11-01,69.3,observado
+Metalmecánica sin automotores (hasta 2015),2012-12-01,72.5,observado
+Metalmecánica sin automotores (hasta 2015),2013-01-01,54.4,observado
+Metalmecánica sin automotores (hasta 2015),2013-02-01,58.6,observado
+Metalmecánica sin automotores (hasta 2015),2013-03-01,51.6,observado
+Metalmecánica sin automotores (hasta 2015),2013-04-01,68.2,observado
+Metalmecánica sin automotores (hasta 2015),2013-05-01,61.8,observado
+Metalmecánica sin automotores (hasta 2015),2013-06-01,63.0,observado
+Metalmecánica sin automotores (hasta 2015),2013-07-01,58.1,observado
+Metalmecánica sin automotores (hasta 2015),2013-08-01,62.0,observado
+Metalmecánica sin automotores (hasta 2015),2013-09-01,61.8,observado
+Metalmecánica sin automotores (hasta 2015),2013-10-01,60.1,observado
+Metalmecánica sin automotores (hasta 2015),2013-11-01,63.9,observado
+Metalmecánica sin automotores (hasta 2015),2013-12-01,59.7,observado
+Metalmecánica sin automotores (hasta 2015),2014-01-01,48.2,observado
+Metalmecánica sin automotores (hasta 2015),2014-02-01,53.5,observado
+Metalmecánica sin automotores (hasta 2015),2014-03-01,50.7,observado
+Metalmecánica sin automotores (hasta 2015),2014-04-01,53.7,observado
+Metalmecánica sin automotores (hasta 2015),2014-05-01,53.4,observado
+Metalmecánica sin automotores (hasta 2015),2014-06-01,60.7,observado
+Metalmecánica sin automotores (hasta 2015),2014-07-01,60.2,observado
+Metalmecánica sin automotores (hasta 2015),2014-08-01,62.8,observado
+Metalmecánica sin automotores (hasta 2015),2014-09-01,61.7,observado
+Metalmecánica sin automotores (hasta 2015),2014-10-01,60.0,observado
+Metalmecánica sin automotores (hasta 2015),2014-11-01,61.6,observado
+Metalmecánica sin automotores (hasta 2015),2014-12-01,58.7,observado
+Metalmecánica sin automotores (hasta 2015),2015-01-01,51.6,observado
+Metalmecánica sin automotores (hasta 2015),2015-02-01,58.7,observado
+Metalmecánica sin automotores (hasta 2015),2015-03-01,53.6,observado
+Metalmecánica sin automotores (hasta 2015),2015-04-01,58.8,observado
+Metalmecánica sin automotores (hasta 2015),2015-05-01,56.4,observado
+Metalmecánica sin automotores (hasta 2015),2015-06-01,55.4,observado
+Metalmecánica sin automotores (hasta 2015),2015-07-01,60.6,observado
+Metalmecánica sin automotores (hasta 2015),2015-08-01,61.0,observado
+Metalmecánica sin automotores (hasta 2015),2015-09-01,61.3,observado
+Metales básicos,2002-01-01,61.840405,observado
+Metales básicos,2002-02-01,75.511166,observado
+Metales básicos,2002-03-01,78.765945,observado
+Metales básicos,2002-04-01,89.650921,observado
+Metales básicos,2002-05-01,88.821765,observado
+Metales básicos,2002-06-01,85.013475,observado
+Metales básicos,2002-07-01,87.450363,observado
+Metales básicos,2002-08-01,88.647856,observado
+Metales básicos,2002-09-01,87.994059,observado
+Metales básicos,2002-10-01,91.536431,observado
+Metales básicos,2002-11-01,85.783389,observado
+Metales básicos,2002-12-01,84.528901,observado
+Metales básicos,2003-01-01,81.265301,observado
+Metales básicos,2003-02-01,91.929877,observado
+Metales básicos,2003-03-01,95.806069,observado
+Metales básicos,2003-04-01,94.769135,observado
+Metales básicos,2003-05-01,95.670117,observado
+Metales básicos,2003-06-01,92.888719,observado
+Metales básicos,2003-07-01,93.767796,observado
+Metales básicos,2003-08-01,94.685679,observado
+Metales básicos,2003-09-01,91.512978,observado
+Metales básicos,2003-10-01,96.503784,observado
+Metales básicos,2003-11-01,92.448982,observado
+Metales básicos,2003-12-01,91.608812,observado
+Metales básicos,2004-01-01,86.174568,observado
+Metales básicos,2004-02-01,94.752448,observado
+Metales básicos,2004-03-01,93.092694,observado
+Metales básicos,2004-04-01,90.818642,observado
+Metales básicos,2004-05-01,93.524847,observado
+Metales básicos,2004-06-01,91.750298,observado
+Metales básicos,2004-07-01,94.4803,observado
+Metales básicos,2004-08-01,93.861719,observado
+Metales básicos,2004-09-01,92.258909,observado
+Metales básicos,2004-10-01,98.127803,observado
+Metales básicos,2004-11-01,97.844245,observado
+Metales básicos,2004-12-01,93.974916,observado
+Metales básicos,2005-01-01,85.376807,observado
+Metales básicos,2005-02-01,95.215014,observado
+Metales básicos,2005-03-01,96.160147,observado
+Metales básicos,2005-04-01,97.620594,observado
+Metales básicos,2005-05-01,98.523727,observado
+Metales básicos,2005-06-01,93.33008,observado
+Metales básicos,2005-07-01,93.420361,observado
+Metales básicos,2005-08-01,95.158527,observado
+Metales básicos,2005-09-01,87.694163,observado
+Metales básicos,2005-10-01,92.356086,observado
+Metales básicos,2005-11-01,96.695739,observado
+Metales básicos,2005-12-01,93.397331,observado
+Metales básicos,2006-01-01,82.794851,observado
+Metales básicos,2006-02-01,96.65187,observado
+Metales básicos,2006-03-01,97.800116,observado
+Metales básicos,2006-04-01,96.325504,observado
+Metales básicos,2006-05-01,95.823459,observado
+Metales básicos,2006-06-01,97.835609,observado
+Metales básicos,2006-07-01,93.987298,observado
+Metales básicos,2006-08-01,91.269289,observado
+Metales básicos,2006-09-01,96.563533,observado
+Metales básicos,2006-10-01,94.74195,observado
+Metales básicos,2006-11-01,84.191626,observado
+Metales básicos,2006-12-01,77.988365,observado
+Metales básicos,2007-01-01,68.035003,observado
+Metales básicos,2007-02-01,89.573664,observado
+Metales básicos,2007-03-01,92.678335,observado
+Metales básicos,2007-04-01,94.738346,observado
+Metales básicos,2007-05-01,87.830898,observado
+Metales básicos,2007-06-01,89.959263,observado
+Metales básicos,2007-07-01,71.585243,observado
+Metales básicos,2007-08-01,93.604392,observado
+Metales básicos,2007-09-01,94.065426,observado
+Metales básicos,2007-10-01,95.151499,observado
+Metales básicos,2007-11-01,95.763005,observado
+Metales básicos,2007-12-01,92.554782,observado
+Metales básicos,2008-01-01,80.202591,observado
+Metales básicos,2008-02-01,88.068254,observado
+Metales básicos,2008-03-01,94.963691,observado
+Metales básicos,2008-04-01,97.706134,observado
+Metales básicos,2008-05-01,95.64768,observado
+Metales básicos,2008-06-01,97.26941,observado
+Metales básicos,2008-07-01,98.490448,observado
+Metales básicos,2008-08-01,97.050602,observado
+Metales básicos,2008-09-01,94.137488,observado
+Metales básicos,2008-10-01,90.162755,observado
+Metales básicos,2008-11-01,79.676182,observado
+Metales básicos,2008-12-01,67.290896,observado
+Metales básicos,2009-01-01,60.81634,observado
+Metales básicos,2009-02-01,64.678065,observado
+Metales básicos,2009-03-01,56.559919,observado
+Metales básicos,2009-04-01,64.085015,observado
+Metales básicos,2009-05-01,58.897355,observado
+Metales básicos,2009-06-01,66.2,observado
+Metales básicos,2009-07-01,73.2,observado
+Metales básicos,2009-08-01,76.5,observado
+Metales básicos,2009-09-01,78.3,observado
+Metales básicos,2009-10-01,81.9,observado
+Metales básicos,2009-11-01,84.2,observado
+Metales básicos,2009-12-01,93.0,observado
+Metales básicos,2010-01-01,69.0,observado
+Metales básicos,2010-02-01,90.1,observado
+Metales básicos,2010-03-01,86.5,observado
+Metales básicos,2010-04-01,89.8,observado
+Metales básicos,2010-05-01,87.8,observado
+Metales básicos,2010-06-01,84.3,observado
+Metales básicos,2010-07-01,86.8,observado
+Metales básicos,2010-08-01,93.0,observado
+Metales básicos,2010-09-01,88.7,observado
+Metales básicos,2010-10-01,88.3,observado
+Metales básicos,2010-11-01,90.2,observado
+Metales básicos,2010-12-01,94.5,observado
+Metales básicos,2011-01-01,71.5,observado
+Metales básicos,2011-02-01,91.1,observado
+Metales básicos,2011-03-01,84.8,observado
+Metales básicos,2011-04-01,90.3,observado
+Metales básicos,2011-05-01,88.4,observado
+Metales básicos,2011-06-01,84.8,observado
+Metales básicos,2011-07-01,88.1,observado
+Metales básicos,2011-08-01,87.9,observado
+Metales básicos,2011-09-01,84.9,observado
+Metales básicos,2011-10-01,86.5,observado
+Metales básicos,2011-11-01,84.6,observado
+Metales básicos,2011-12-01,83.1,observado
+Metales básicos,2012-01-01,67.3,observado
+Metales básicos,2012-02-01,86.9,observado
+Metales básicos,2012-03-01,85.8,observado
+Metales básicos,2012-04-01,89.7,observado
+Metales básicos,2012-05-01,81.3,observado
+Metales básicos,2012-06-01,83.4,observado
+Metales básicos,2012-07-01,64.6,observado
+Metales básicos,2012-08-01,70.4,observado
+Metales básicos,2012-09-01,74.7,observado
+Metales básicos,2012-10-01,75.3,observado
+Metales básicos,2012-11-01,74.5,observado
+Metales básicos,2012-12-01,68.9,observado
+Metales básicos,2013-01-01,60.4,observado
+Metales básicos,2013-02-01,65.9,observado
+Metales básicos,2013-03-01,83.5,observado
+Metales básicos,2013-04-01,83.8,observado
+Metales básicos,2013-05-01,81.0,observado
+Metales básicos,2013-06-01,75.8,observado
+Metales básicos,2013-07-01,81.2,observado
+Metales básicos,2013-08-01,83.5,observado
+Metales básicos,2013-09-01,83.8,observado
+Metales básicos,2013-10-01,83.7,observado
+Metales básicos,2013-11-01,85.4,observado
+Metales básicos,2013-12-01,81.4,observado
+Metales básicos,2014-01-01,72.0,observado
+Metales básicos,2014-02-01,74.1,observado
+Metales básicos,2014-03-01,82.8,observado
+Metales básicos,2014-04-01,89.2,observado
+Metales básicos,2014-05-01,84.6,observado
+Metales básicos,2014-06-01,85.2,observado
+Metales básicos,2014-07-01,83.3,observado
+Metales básicos,2014-08-01,81.9,observado
+Metales básicos,2014-09-01,84.4,observado
+Metales básicos,2014-10-01,84.6,observado
+Metales básicos,2014-11-01,83.7,observado
+Metales básicos,2014-12-01,83.2,observado
+Metales básicos,2015-01-01,69.4,observado
+Metales básicos,2015-02-01,73.8,observado
+Metales básicos,2015-03-01,75.9,observado
+Metales básicos,2015-04-01,71.5,observado
+Metales básicos,2015-05-01,72.7,observado
+Metales básicos,2015-06-01,79.4,observado
+Metales básicos,2015-07-01,74.5,observado
+Metales básicos,2015-08-01,81.5,observado
+Metales básicos,2015-09-01,79.8,observado
+Metales básicos,2016-01-01,65.2,observado
+Metales básicos,2016-02-01,70.7,observado
+Metales básicos,2016-03-01,63.6,observado
+Metales básicos,2016-04-01,65.2,observado
+Metales básicos,2016-05-01,73.5,observado
+Metales básicos,2016-06-01,73.3,observado
+Metales básicos,2016-07-01,68.5,observado
+Metales básicos,2016-08-01,66.6,observado
+Metales básicos,2016-09-01,65.3,observado
+Metales básicos,2016-10-01,72.8,observado
+Metales básicos,2016-11-01,71.6,observado
+Metales básicos,2016-12-01,62.8,observado
+Metales básicos,2017-01-01,58.4,observado
+Metales básicos,2017-02-01,65.7,observado
+Metales básicos,2017-03-01,75.6,observado
+Metales básicos,2017-04-01,73.6,observado
+Metales básicos,2017-05-01,75.2,observado
+Metales básicos,2017-06-01,73.7,observado
+Metales básicos,2017-07-01,75.9,observado
+Metales básicos,2017-08-01,79.5,observado
+Metales básicos,2017-09-01,81.0,observado
+Metales básicos,2017-10-01,82.9,observado
+Metales básicos,2017-11-01,83.1,observado
+Metales básicos,2017-12-01,73.3,observado
+Metales básicos,2018-01-01,67.4,observado
+Metales básicos,2018-02-01,86.2,observado
+Metales básicos,2018-03-01,88.0,observado
+Metales básicos,2018-04-01,88.6,observado
+Metales básicos,2018-05-01,82.0,observado
+Metales básicos,2018-06-01,80.5,observado
+Metales básicos,2018-07-01,86.3,observado
+Metales básicos,2018-08-01,85.2,observado
+Metales básicos,2018-09-01,84.3,observado
+Metales básicos,2018-10-01,83.9,observado
+Metales básicos,2018-11-01,88.0,observado
+Metales básicos,2018-12-01,69.4,observado
+Metales básicos,2019-01-01,71.7,observado
+Metales básicos,2019-02-01,68.7,observado
+Metales básicos,2019-03-01,74.7,observado
+Metales básicos,2019-04-01,82.0,observado
+Metales básicos,2019-05-01,77.5,observado
+Metales básicos,2019-06-01,80.2,observado
+Metales básicos,2019-07-01,79.3,observado
+Metales básicos,2019-08-01,81.8,observado
+Metales básicos,2019-09-01,79.1,observado
+Metales básicos,2019-10-01,73.1,observado
+Metales básicos,2019-11-01,73.6,observado
+Metales básicos,2019-12-01,66.1,observado
+Metales básicos,2020-01-01,61.5,observado
+Metales básicos,2020-02-01,72.9,observado
+Metales básicos,2020-03-01,58.5,observado
+Metales básicos,2020-04-01,25.1,observado
+Metales básicos,2020-05-01,39.0,observado
+Metales básicos,2020-06-01,48.4,observado
+Metales básicos,2020-07-01,61.0,observado
+Metales básicos,2020-08-01,62.9,observado
+Metales básicos,2020-09-01,68.7,observado
+Metales básicos,2020-10-01,71.3,observado
+Metales básicos,2020-11-01,75.0,observado
+Metales básicos,2020-12-01,73.5,observado
+Metales básicos,2021-01-01,67.7,observado
+Metales básicos,2021-02-01,67.1,observado
+Metales básicos,2021-03-01,76.3,observado
+Metales básicos,2021-04-01,66.0,observado
+Metales básicos,2021-05-01,71.2,observado
+Metales básicos,2021-06-01,74.8,observado
+Metales básicos,2021-07-01,77.4,observado
+Metales básicos,2021-08-01,76.6,observado
+Metales básicos,2021-09-01,80.1,observado
+Metales básicos,2021-10-01,80.2,observado
+Metales básicos,2021-11-01,83.1,observado
+Metales básicos,2021-12-01,77.3,observado
+Metales básicos,2022-01-01,65.3,observado
+Metales básicos,2022-02-01,65.6,observado
+Metales básicos,2022-03-01,76.1,observado
+Metales básicos,2022-04-01,68.7,observado
+Metales básicos,2022-05-01,81.8,observado
+Metales básicos,2022-06-01,87.2,observado
+Metales básicos,2022-07-01,84.4,observado
+Metales básicos,2022-08-01,83.3,observado
+Metales básicos,2022-09-01,81.4,observado
+Metales básicos,2022-10-01,89.6,observado
+Metales básicos,2022-11-01,86.8,observado
+Metales básicos,2022-12-01,81.3,observado
+Metales básicos,2023-01-01,81.7,observado
+Metales básicos,2023-02-01,74.5,observado
+Metales básicos,2023-03-01,77.2,observado
+Metales básicos,2023-04-01,82.0,observado
+Metales básicos,2023-05-01,81.7,observado
+Metales básicos,2023-06-01,81.0,observado
+Metales básicos,2023-07-01,66.5,observado
+Metales básicos,2023-08-01,78.7,observado
+Metales básicos,2023-09-01,85.0,observado
+Metales básicos,2023-10-01,84.5,observado
+Metales básicos,2023-11-01,79.4,observado
+Metales básicos,2023-12-01,64.5,observado
+Metales básicos,2024-01-01,76.3,observado
+Metales básicos,2024-02-01,66.5,observado
+Metales básicos,2024-03-01,50.0,observado
+Metales básicos,2024-04-01,63.7,observado
+Metales básicos,2024-05-01,61.3,observado
+Metales básicos,2024-06-01,56.6,observado
+Metales básicos,2024-07-01,61.5,observado
+Metales básicos,2024-08-01,66.8,observado
+Metales básicos,2024-09-01,72.4,observado
+Metales básicos,2024-10-01,68.9,observado
+Metales básicos,2024-11-01,67.2,observado
+Metales básicos,2024-12-01,52.4,observado
+Metales básicos,2025-01-01,59.3,observado
+Metales básicos,2025-02-01,67.3,observado
+Metales básicos,2025-03-01,64.3,observado
+Metales básicos,2025-04-01,63.9,observado
+Metales básicos,2025-05-01,67.4,observado
+Metales básicos,2025-06-01,64.3,observado
+Metales básicos,2025-07-01,63.9,observado
+Metales básicos,2025-08-01,70.4,observado
+Metales básicos,2025-09-01,70.4,observado
+Metales básicos,2025-10-01,71.1,observado
+Metales básicos,2025-11-01,73.3,observado
+Metales básicos,2025-12-01,57.5,observado
+Metales básicos,2026-01-01,67.6,observado
+Metales básicos,2026-02-01,59.7,observado
+Metales básicos,2026-03-01,73.3,observado
+Metales básicos,2026-04-01,73.4,observado
+Metales básicos,2026-05-01,75.4,observado
+Metales básicos,2026-06-01,68.7,observado
+Metales básicos,2026-07-01,71.8,observado

@@ -1,0 +1,829 @@
+serie,fecha,valor,tramo
+Total,2001-01-01,6866.26,observado
+Total,2001-02-01,6473.1,observado
+Total,2001-03-01,6952.3,observado
+Total,2001-04-01,6183.35,observado
+Total,2001-05-01,6668.94,observado
+Total,2001-06-01,6559.16,observado
+Total,2001-07-01,6806.8,observado
+Total,2001-08-01,6531.18,observado
+Total,2001-09-01,6211.66,observado
+Total,2001-10-01,6268.03,observado
+Total,2001-11-01,6132.66,observado
+Total,2001-12-01,6448.414,observado
+Total,2002-01-01,6471.69,observado
+Total,2002-02-01,5745.32,observado
+Total,2002-03-01,6462.13,observado
+Total,2002-04-01,5970.25,observado
+Total,2002-05-01,6320.57,observado
+Total,2002-06-01,6634.9,observado
+Total,2002-07-01,6891.22,observado
+Total,2002-08-01,6514.58,observado
+Total,2002-09-01,6136.42,observado
+Total,2002-10-01,6344.78,observado
+Total,2002-11-01,6384.03,observado
+Total,2002-12-01,6597.0,observado
+Total,2003-01-01,7009.41,observado
+Total,2003-02-01,6364.91,observado
+Total,2003-03-01,6874.26,observado
+Total,2003-04-01,6280.38,observado
+Total,2003-05-01,6773.8,observado
+Total,2003-06-01,6814.53,observado
+Total,2003-07-01,7321.71,observado
+Total,2003-08-01,7188.13,observado
+Total,2003-09-01,6737.75,observado
+Total,2003-10-01,6906.96,observado
+Total,2003-11-01,6833.97,observado
+Total,2003-12-01,7107.56,observado
+Total,2004-01-01,7620.56,observado
+Total,2004-02-01,6846.54,observado
+Total,2004-03-01,7544.99,observado
+Total,2004-04-01,7011.91,observado
+Total,2004-05-01,7325.25,observado
+Total,2004-06-01,7259.35,observado
+Total,2004-07-01,7576.6,observado
+Total,2004-08-01,7076.07,observado
+Total,2004-09-01,6956.97,observado
+Total,2004-10-01,7087.33,observado
+Total,2004-11-01,7127.32,observado
+Total,2004-12-01,7739.52,observado
+Total,2005-01-01,7983.28,observado
+Total,2005-02-01,7248.88,observado
+Total,2005-03-01,7689.91,observado
+Total,2005-04-01,7213.14,observado
+Total,2005-05-01,7668.55,observado
+Total,2005-06-01,7719.71,observado
+Total,2005-07-01,8061.62,observado
+Total,2005-08-01,7953.5,observado
+Total,2005-09-01,7508.4,observado
+Total,2005-10-01,7403.31,observado
+Total,2005-11-01,7784.34,observado
+Total,2005-12-01,8098.31,observado
+Total,2006-01-01,7957.9,observado
+Total,2006-02-01,7395.7,observado
+Total,2006-03-01,8037.6,observado
+Total,2006-04-01,7555.6,observado
+Total,2006-05-01,8116.1,observado
+Total,2006-06-01,8248.9,observado
+Total,2006-07-01,8313.5,observado
+Total,2006-08-01,8497.0,observado
+Total,2006-09-01,7828.4,observado
+Total,2006-10-01,8025.1,observado
+Total,2006-11-01,7998.1,observado
+Total,2006-12-01,8838.9,observado
+Total,2007-01-01,8743.2,observado
+Total,2007-02-01,8158.2,observado
+Total,2007-03-01,8637.8,observado
+Total,2007-04-01,8010.4,observado
+Total,2007-05-01,8789.5,observado
+Total,2007-06-01,8851.4,observado
+Total,2007-07-01,9024.5,observado
+Total,2007-08-01,9106.5,observado
+Total,2007-09-01,8082.6,observado
+Total,2007-10-01,8370.4,observado
+Total,2007-11-01,8254.4,observado
+Total,2007-12-01,8921.4,observado
+Total,2008-01-01,9175.1,observado
+Total,2008-02-01,8728.8,observado
+Total,2008-03-01,8594.5,observado
+Total,2008-04-01,8286.6,observado
+Total,2008-05-01,8777.8,observado
+Total,2008-06-01,9209.8,observado
+Total,2008-07-01,9127.1,observado
+Total,2008-08-01,9025.3,observado
+Total,2008-09-01,8587.6,observado
+Total,2008-10-01,8477.2,observado
+Total,2008-11-01,8914.9,observado
+Total,2008-12-01,9053.4,observado
+Total,2009-01-01,9086.1,observado
+Total,2009-02-01,8241.6,observado
+Total,2009-03-01,8955.6,observado
+Total,2009-04-01,8104.7,observado
+Total,2009-05-01,8435.3,observado
+Total,2009-06-01,9114.2,observado
+Total,2009-07-01,9508.0,observado
+Total,2009-08-01,8738.4,observado
+Total,2009-09-01,8350.2,observado
+Total,2009-10-01,8420.7,observado
+Total,2009-11-01,8644.0,observado
+Total,2009-12-01,9023.6,observado
+Total,2010-01-01,9740.0,observado
+Total,2010-02-01,8773.9,observado
+Total,2010-03-01,9518.9,observado
+Total,2010-04-01,8434.1,observado
+Total,2010-05-01,8866.4,observado
+Total,2010-06-01,9367.0,observado
+Total,2010-07-01,10081.1,observado
+Total,2010-08-01,9733.1,observado
+Total,2010-09-01,8755.9,observado
+Total,2010-10-01,8567.7,observado
+Total,2010-11-01,8834.6,observado
+Total,2010-12-01,10125.7,observado
+Total,2011-01-01,10231.0,observado
+Total,2011-02-01,9129.0,observado
+Total,2011-03-01,9863.0,observado
+Total,2011-04-01,8917.8,observado
+Total,2011-05-01,9560.4,observado
+Total,2011-06-01,10135.8,observado
+Total,2011-07-01,10562.6,observado
+Total,2011-08-01,10311.9,observado
+Total,2011-09-01,9089.5,observado
+Total,2011-10-01,9062.4,observado
+Total,2011-11-01,9505.9,observado
+Total,2011-12-01,10118.6,observado
+Total,2012-01-01,10806.8,observado
+Total,2012-02-01,10089.2,observado
+Total,2012-03-01,10178.0,observado
+Total,2012-04-01,8970.0,observado
+Total,2012-05-01,9601.7,observado
+Total,2012-06-01,10297.0,observado
+Total,2012-07-01,11071.7,observado
+Total,2012-08-01,10408.3,observado
+Total,2012-09-01,9338.6,observado
+Total,2012-10-01,9608.0,observado
+Total,2012-11-01,10031.4,observado
+Total,2012-12-01,10824.3,observado
+Total,2013-01-01,11134.119345,observado
+Total,2013-02-01,9834.160007,observado
+Total,2013-03-01,9756.129308,observado
+Total,2013-04-01,9307.334163,observado
+Total,2013-05-01,10232.825394,observado
+Total,2013-06-01,10360.537194,observado
+Total,2013-07-01,11156.173393,observado
+Total,2013-08-01,10904.479243,observado
+Total,2013-09-01,10195.872995,observado
+Total,2013-10-01,10045.715632,observado
+Total,2013-11-01,10015.701652,observado
+Total,2013-12-01,12291.286493,observado
+Total,2014-01-01,12004.342368,observado
+Total,2014-02-01,9823.968201,observado
+Total,2014-03-01,9789.798789,observado
+Total,2014-04-01,9595.37435,observado
+Total,2014-05-01,10409.105006,observado
+Total,2014-06-01,10901.714976,observado
+Total,2014-07-01,11363.942102,observado
+Total,2014-08-01,10490.682389,observado
+Total,2014-09-01,9807.544191,observado
+Total,2014-10-01,10706.493141,observado
+Total,2014-11-01,10344.736672,observado
+Total,2014-12-01,11229.37782,observado
+Total,2015-01-01,11706.190093,observado
+Total,2015-02-01,10665.086621,observado
+Total,2015-03-01,11548.527072,observado
+Total,2015-04-01,10026.43476,observado
+Total,2015-05-01,10467.633693,observado
+Total,2015-06-01,11254.419667,observado
+Total,2015-07-01,11907.361919,observado
+Total,2015-08-01,11130.262808,observado
+Total,2015-09-01,10552.903241,observado
+Total,2015-10-01,10722.174389,observado
+Total,2015-11-01,10219.189482,observado
+Total,2015-12-01,11909.435561,observado
+Total,2016-01-01,12344.911762,observado
+Total,2016-02-01,11731.845101,observado
+Total,2016-03-01,10461.47592,observado
+Total,2016-04-01,10292.000856,observado
+Total,2016-05-01,11358.011628,observado
+Total,2016-06-01,11812.94705,observado
+Total,2016-07-01,11929.645375,observado
+Total,2016-08-01,10855.441952,observado
+Total,2016-09-01,10382.081134,observado
+Total,2016-10-01,9956.038875,observado
+Total,2016-11-01,10132.540584,observado
+Total,2016-12-01,11853.854388,observado
+Total,2017-01-01,12524.865646,observado
+Total,2017-02-01,11074.906499,observado
+Total,2017-03-01,11122.231555,observado
+Total,2017-04-01,9793.758585,observado
+Total,2017-05-01,10795.213415,observado
+Total,2017-06-01,11359.330662,observado
+Total,2017-07-01,11796.425757,observado
+Total,2017-08-01,11107.250705,observado
+Total,2017-09-01,10348.584548,observado
+Total,2017-10-01,10227.329313,observado
+Total,2017-11-01,10355.727486,observado
+Total,2017-12-01,12024.595461,observado
+Total,2018-01-01,12350.183342,observado
+Total,2018-02-01,11404.202907,observado
+Total,2018-03-01,11247.242147,observado
+Total,2018-04-01,10493.314602,observado
+Total,2018-05-01,10665.461535,observado
+Total,2018-06-01,11925.912373,observado
+Total,2018-07-01,12607.552746,observado
+Total,2018-08-01,11721.305146,observado
+Total,2018-09-01,9792.369117,observado
+Total,2018-10-01,9904.218691,observado
+Total,2018-11-01,10035.149399,observado
+Total,2018-12-01,10863.012561,observado
+Total,2019-01-01,11698.820402,observado
+Total,2019-02-01,10706.955317,observado
+Total,2019-03-01,10120.057936,observado
+Total,2019-04-01,9572.130645,observado
+Total,2019-05-01,10382.062156,observado
+Total,2019-06-01,10649.85454,observado
+Total,2019-07-01,12004.210187,observado
+Total,2019-08-01,11465.483299,observado
+Total,2019-09-01,10218.087823,observado
+Total,2019-10-01,10380.686879,observado
+Total,2019-11-01,10559.966155,observado
+Total,2019-12-01,11187.742677,observado
+Total,2020-01-01,11993.867057,observado
+Total,2020-02-01,10843.47443,observado
+Total,2020-03-01,11144.232192,observado
+Total,2020-04-01,8537.200407,observado
+Total,2020-05-01,9617.328172,observado
+Total,2020-06-01,10781.714873,observado
+Total,2020-07-01,12183.852641,observado
+Total,2020-08-01,10728.379158,observado
+Total,2020-09-01,10045.02285,observado
+Total,2020-10-01,10013.844018,observado
+Total,2020-11-01,10087.844439,observado
+Total,2020-12-01,11330.177614,observado
+Total,2021-01-01,11941.580986,observado
+Total,2021-02-01,10090.389298,observado
+Total,2021-03-01,11055.214503,observado
+Total,2021-04-01,9817.737877,observado
+Total,2021-05-01,10986.114068,observado
+Total,2021-06-01,12053.804232,observado
+Total,2021-07-01,12418.960365,observado
+Total,2021-08-01,11660.287778,observado
+Total,2021-09-01,10374.79406,observado
+Total,2021-10-01,10451.324175,observado
+Total,2021-11-01,10569.433719,observado
+Total,2021-12-01,12457.845452,observado
+Total,2022-01-01,13067.604932,observado
+Total,2022-02-01,10567.756899,observado
+Total,2022-03-01,10881.578983,observado
+Total,2022-04-01,10147.364071,observado
+Total,2022-05-01,11727.995001,observado
+Total,2022-06-01,13074.470378,observado
+Total,2022-07-01,12639.619366,observado
+Total,2022-08-01,11782.419631,observado
+Total,2022-09-01,10314.000247,observado
+Total,2022-10-01,10221.298638,observado
+Total,2022-11-01,11323.713162,observado
+Total,2022-12-01,13027.412096,observado
+Total,2023-01-01,13593.482594,observado
+Total,2023-02-01,11906.275882,observado
+Total,2023-03-01,13996.904605,observado
+Total,2023-04-01,10046.212478,observado
+Total,2023-05-01,10815.469724,observado
+Total,2023-06-01,12071.781236,observado
+Total,2023-07-01,12477.225903,observado
+Total,2023-08-01,11756.000499,observado
+Total,2023-09-01,10962.244457,observado
+Total,2023-10-01,10454.125794,observado
+Total,2023-11-01,11040.811143,observado
+Total,2023-12-01,11763.004028,observado
+Total,2024-01-01,13090.206981,observado
+Total,2024-02-01,12851.124118,observado
+Total,2024-03-01,11956.626841,observado
+Total,2024-04-01,10004.921217,observado
+Total,2024-05-01,12213.338451,observado
+Total,2024-06-01,11226.223824,observado
+Total,2024-07-01,13226.304292,observado
+Total,2024-08-01,12171.606645,observado
+Total,2024-09-01,10237.192793,observado
+Total,2024-10-01,10678.921134,observado
+Total,2024-11-01,11064.005964,observado
+Total,2024-12-01,11498.928525,observado
+Total,2025-01-01,13605.512563,observado
+Total,2025-02-01,12908.058921,observado
+Total,2025-03-01,11653.169774,observado
+Total,2025-04-01,9822.82491,observado
+Total,2025-05-01,10944.561146,observado
+Total,2025-06-01,12685.14374,observado
+Total,2025-07-01,12901.61855,observado
+Total,2025-08-01,11718.756339,observado
+Total,2025-09-01,10631.54053,observado
+Total,2025-10-01,10591.335541,observado
+Total,2025-11-01,10711.334192,observado
+Total,2025-12-01,13077.047231,observado
+Total,2026-01-01,13145.374526,observado
+Total,2026-02-01,11780.616317,observado
+Total,2026-03-01,11945.035338,observado
+Total,2026-04-01,10579.342832,observado
+Total,2026-05-01,12151.531183,observado
+Total,2026-06-01,12641.171137,observado
+Total,2026-07-01,13063.214629,observado
+Total,2026-08-01,12432.027715,observado
+Residencial,2005-01-01,2717.678,observado
+Residencial,2005-02-01,2298.744,observado
+Residencial,2005-03-01,2384.287,observado
+Residencial,2005-04-01,2184.768,observado
+Residencial,2005-05-01,2479.291,observado
+Residencial,2005-06-01,2679.416,observado
+Residencial,2005-07-01,2896.148,observado
+Residencial,2005-08-01,2737.632,observado
+Residencial,2005-09-01,2454.398,observado
+Residencial,2005-10-01,2266.127,observado
+Residencial,2005-11-01,2415.443,observado
+Residencial,2005-12-01,2572.563,observado
+Residencial,2006-01-01,2830.373,observado
+Residencial,2006-02-01,2515.396,observado
+Residencial,2006-03-01,2474.69,observado
+Residencial,2006-04-01,2258.193,observado
+Residencial,2006-05-01,2696.051,observado
+Residencial,2006-06-01,2963.715,observado
+Residencial,2006-07-01,2993.796,observado
+Residencial,2006-08-01,3107.201,observado
+Residencial,2006-09-01,2614.886,observado
+Residencial,2006-10-01,2530.829,observado
+Residencial,2006-11-01,2551.555,observado
+Residencial,2006-12-01,3071.673,observado
+Residencial,2007-01-01,3079.471,observado
+Residencial,2007-02-01,2790.054,observado
+Residencial,2007-03-01,2853.558,observado
+Residencial,2007-04-01,2610.215,observado
+Residencial,2007-05-01,3161.771,observado
+Residencial,2007-06-01,3576.113,observado
+Residencial,2007-07-01,3807.798,observado
+Residencial,2007-08-01,3726.224,observado
+Residencial,2007-09-01,2838.982,observado
+Residencial,2007-10-01,2810.846,observado
+Residencial,2007-11-01,2717.576,observado
+Residencial,2007-12-01,3138.571,observado
+Residencial,2008-01-01,3420.283,observado
+Residencial,2008-02-01,3073.664,observado
+Residencial,2008-03-01,2894.605,observado
+Residencial,2008-04-01,2764.962,observado
+Residencial,2008-05-01,3102.396,observado
+Residencial,2008-06-01,3699.403,observado
+Residencial,2008-07-01,3626.348,observado
+Residencial,2008-08-01,3438.115,observado
+Residencial,2008-09-01,3061.343,observado
+Residencial,2008-10-01,2898.784,observado
+Residencial,2008-11-01,3159.108,observado
+Residencial,2008-12-01,3471.033,observado
+Residencial,2009-01-01,3533.299,observado
+Residencial,2009-02-01,3105.44,observado
+Residencial,2009-03-01,3336.438,observado
+Residencial,2009-04-01,2813.071,observado
+Residencial,2009-05-01,3047.803,observado
+Residencial,2009-06-01,3721.346,observado
+Residencial,2009-07-01,4052.004,observado
+Residencial,2009-08-01,3502.447,observado
+Residencial,2009-09-01,3023.058,observado
+Residencial,2009-10-01,3027.54,observado
+Residencial,2009-11-01,3065.794,observado
+Residencial,2009-12-01,3336.758,observado
+Residencial,2010-01-01,3931.898,observado
+Residencial,2010-02-01,3361.184,observado
+Residencial,2010-03-01,3540.492,observado
+Residencial,2010-04-01,2875.625,observado
+Residencial,2010-05-01,3296.137,observado
+Residencial,2010-06-01,3825.755,observado
+Residencial,2010-07-01,4346.177,observado
+Residencial,2010-08-01,4043.618,observado
+Residencial,2010-09-01,3237.488,observado
+Residencial,2010-10-01,3018.133,observado
+Residencial,2010-11-01,3155.481,observado
+Residencial,2010-12-01,4020.361,observado
+Residencial,2011-01-01,4215.174,observado
+Residencial,2011-02-01,3363.751,observado
+Residencial,2011-03-01,3622.66,observado
+Residencial,2011-04-01,3051.537,observado
+Residencial,2011-05-01,3561.464,observado
+Residencial,2011-06-01,4211.284,observado
+Residencial,2011-07-01,4613.925,observado
+Residencial,2011-08-01,4289.444,observado
+Residencial,2011-09-01,3342.414,observado
+Residencial,2011-10-01,3138.281,observado
+Residencial,2011-11-01,3485.202,observado
+Residencial,2011-12-01,3969.237,observado
+Residencial,2012-01-01,4505.197835,observado
+Residencial,2012-02-01,4043.826495,observado
+Residencial,2012-03-01,3799.951418,observado
+Residencial,2012-04-01,3123.399968,observado
+Residencial,2012-05-01,3606.52943,observado
+Residencial,2012-06-01,4287.290236,observado
+Residencial,2012-07-01,4950.420934,observado
+Residencial,2012-08-01,4352.486086,observado
+Residencial,2012-09-01,3512.34519,observado
+Residencial,2012-10-01,3532.067419,observado
+Residencial,2012-11-01,3759.790749,observado
+Residencial,2012-12-01,4285.470382,observado
+Residencial,2013-01-01,4538.446146,observado
+Residencial,2013-02-01,3961.686119,observado
+Residencial,2013-03-01,3612.835111,observado
+Residencial,2013-04-01,3239.380702,observado
+Residencial,2013-05-01,3919.668996,observado
+Residencial,2013-06-01,4409.51394,observado
+Residencial,2013-07-01,5088.495112,observado
+Residencial,2013-08-01,4782.603023,observado
+Residencial,2013-09-01,4072.686172,observado
+Residencial,2013-10-01,3744.478197,observado
+Residencial,2013-11-01,3680.736448,observado
+Residencial,2013-12-01,5338.633582,observado
+Residencial,2014-01-01,5350.96724,observado
+Residencial,2014-02-01,3883.77533,observado
+Residencial,2014-03-01,3666.868681,observado
+Residencial,2014-04-01,3542.163135,observado
+Residencial,2014-05-01,4182.488527,observado
+Residencial,2014-06-01,4790.674034,observado
+Residencial,2014-07-01,5115.928828,observado
+Residencial,2014-08-01,4454.936701,observado
+Residencial,2014-09-01,3746.934696,observado
+Residencial,2014-10-01,4186.567587,observado
+Residencial,2014-11-01,3928.614071,observado
+Residencial,2014-12-01,4594.222428,observado
+Residencial,2015-01-01,5096.405805,observado
+Residencial,2015-02-01,4438.153482,observado
+Residencial,2015-03-01,4823.9677,observado
+Residencial,2015-04-01,3756.852843,observado
+Residencial,2015-05-01,4224.672651,observado
+Residencial,2015-06-01,4941.27559,observado
+Residencial,2015-07-01,5513.160882,observado
+Residencial,2015-08-01,4797.705122,observado
+Residencial,2015-09-01,4350.513945,observado
+Residencial,2015-10-01,4362.416913,observado
+Residencial,2015-11-01,3922.901043,observado
+Residencial,2015-12-01,5196.47196,observado
+Residencial,2016-01-01,5651.444906,observado
+Residencial,2016-02-01,5012.872809,observado
+Residencial,2016-03-01,4021.324887,observado
+Residencial,2016-04-01,4104.173856,observado
+Residencial,2016-05-01,4941.165168,observado
+Residencial,2016-06-01,5634.190447,observado
+Residencial,2016-07-01,5614.534651,observado
+Residencial,2016-08-01,4663.796035,observado
+Residencial,2016-09-01,4351.181774,observado
+Residencial,2016-10-01,3953.447552,observado
+Residencial,2016-11-01,3970.327674,observado
+Residencial,2016-12-01,5148.81767,observado
+Residencial,2017-01-01,5681.816626,observado
+Residencial,2017-02-01,4618.2261,observado
+Residencial,2017-03-01,4470.715122,observado
+Residencial,2017-04-01,3754.330119,observado
+Residencial,2017-05-01,4524.024791,observado
+Residencial,2017-06-01,5180.585335,observado
+Residencial,2017-07-01,5460.615925,observado
+Residencial,2017-08-01,4767.354968,observado
+Residencial,2017-09-01,4217.808567,observado
+Residencial,2017-10-01,3979.729611,observado
+Residencial,2017-11-01,4035.43194,observado
+Residencial,2017-12-01,5216.357134,observado
+Residencial,2018-01-01,5468.676184,observado
+Residencial,2018-02-01,4963.984865,observado
+Residencial,2018-03-01,4493.104135,observado
+Residencial,2018-04-01,4084.283375,observado
+Residencial,2018-05-01,4282.854741,observado
+Residencial,2018-06-01,5589.928854,observado
+Residencial,2018-07-01,6193.356918,observado
+Residencial,2018-08-01,5381.905856,observado
+Residencial,2018-09-01,3928.162283,observado
+Residencial,2018-10-01,3944.594703,observado
+Residencial,2018-11-01,4001.581048,observado
+Residencial,2018-12-01,4687.899371,observado
+Residencial,2019-01-01,5280.257409,observado
+Residencial,2019-02-01,4640.570779,observado
+Residencial,2019-03-01,3995.742961,observado
+Residencial,2019-04-01,3647.81235,observado
+Residencial,2019-05-01,4358.227351,observado
+Residencial,2019-06-01,4815.895191,observado
+Residencial,2019-07-01,5807.8299,observado
+Residencial,2019-08-01,5201.899286,observado
+Residencial,2019-09-01,4267.476337,observado
+Residencial,2019-10-01,4222.295957,observado
+Residencial,2019-11-01,4378.76383,observado
+Residencial,2019-12-01,4911.899215,observado
+Residencial,2020-01-01,5593.4474,observado
+Residencial,2020-02-01,4751.384719,observado
+Residencial,2020-03-01,5034.641888,observado
+Residencial,2020-04-01,3863.630775,observado
+Residencial,2020-05-01,4687.33238,observado
+Residencial,2020-06-01,5591.261968,observado
+Residencial,2020-07-01,6521.31556,observado
+Residencial,2020-08-01,5267.341752,observado
+Residencial,2020-09-01,4693.462034,observado
+Residencial,2020-10-01,4428.481525,observado
+Residencial,2020-11-01,4330.623877,observado
+Residencial,2020-12-01,5258.408928,observado
+Residencial,2021-01-01,5661.216932,observado
+Residencial,2021-02-01,4363.836276,observado
+Residencial,2021-03-01,4718.154621,observado
+Residencial,2021-04-01,3891.458974,observado
+Residencial,2021-05-01,5010.924044,observado
+Residencial,2021-06-01,6070.270051,observado
+Residencial,2021-07-01,6268.417449,observado
+Residencial,2021-08-01,5534.851944,observado
+Residencial,2021-09-01,4460.019197,observado
+Residencial,2021-10-01,4481.150233,observado
+Residencial,2021-11-01,4450.331245,observado
+Residencial,2021-12-01,5875.231036,observado
+Residencial,2022-01-01,6464.484064,observado
+Residencial,2022-02-01,4612.567414,observado
+Residencial,2022-03-01,4481.118657,observado
+Residencial,2022-04-01,3999.097408,observado
+Residencial,2022-05-01,5346.350927,observado
+Residencial,2022-06-01,6686.629888,observado
+Residencial,2022-07-01,6277.761203,observado
+Residencial,2022-08-01,5480.926603,observado
+Residencial,2022-09-01,4294.969294,observado
+Residencial,2022-10-01,4191.800322,observado
+Residencial,2022-11-01,4999.888377,observado
+Residencial,2022-12-01,6321.388548,observado
+Residencial,2023-01-01,6817.409084,observado
+Residencial,2023-02-01,5684.562915,observado
+Residencial,2023-03-01,6927.376352,observado
+Residencial,2023-04-01,3985.954278,observado
+Residencial,2023-05-01,4656.383154,observado
+Residencial,2023-06-01,5835.774393,observado
+Residencial,2023-07-01,6277.161519,observado
+Residencial,2023-08-01,5501.921764,observado
+Residencial,2023-09-01,4894.324626,observado
+Residencial,2023-10-01,4396.246597,observado
+Residencial,2023-11-01,4843.967604,observado
+Residencial,2023-12-01,5475.149278,observado
+Residencial,2024-01-01,6486.224939,observado
+Residencial,2024-02-01,6343.135653,observado
+Residencial,2024-03-01,5484.609658,observado
+Residencial,2024-04-01,4253.02067,observado
+Residencial,2024-05-01,6041.515054,observado
+Residencial,2024-06-01,5345.517419,observado
+Residencial,2024-07-01,6891.402589,observado
+Residencial,2024-08-01,5900.98305,observado
+Residencial,2024-09-01,4320.586552,observado
+Residencial,2024-10-01,4548.71839,observado
+Residencial,2024-11-01,4796.444767,observado
+Residencial,2024-12-01,5178.579117,observado
+Residencial,2025-01-01,6855.336501,observado
+Residencial,2025-02-01,6269.121595,observado
+Residencial,2025-03-01,5266.22306,observado
+Residencial,2025-04-01,3991.322629,observado
+Residencial,2025-05-01,4887.294621,observado
+Residencial,2025-06-01,6598.754185,observado
+Residencial,2025-07-01,6564.070558,observado
+Residencial,2025-08-01,5598.129769,observado
+Residencial,2025-09-01,4674.102166,observado
+Residencial,2025-10-01,4469.04875,observado
+Residencial,2025-11-01,4656.511036,observado
+Residencial,2025-12-01,6562.09712,observado
+Residencial,2026-01-01,6497.141379,observado
+Residencial,2026-02-01,5561.497525,observado
+Residencial,2026-03-01,5323.151414,observado
+Residencial,2026-04-01,4463.562615,observado
+Residencial,2026-05-01,5825.605102,observado
+Residencial,2026-06-01,6339.790452,observado
+Residencial,2026-07-01,6643.194389,observado
+Residencial,2026-08-01,6093.065132,observado
+Comercio e industria,2005-01-01,3750.612,observado
+Comercio e industria,2005-02-01,3479.876,observado
+Comercio e industria,2005-03-01,3690.043,observado
+Comercio e industria,2005-04-01,3492.142,observado
+Comercio e industria,2005-05-01,3597.299,observado
+Comercio e industria,2005-06-01,3498.704,observado
+Comercio e industria,2005-07-01,3628.562,observado
+Comercio e industria,2005-08-01,3587.508,observado
+Comercio e industria,2005-09-01,3449.992,observado
+Comercio e industria,2005-10-01,3495.353,observado
+Comercio e industria,2005-11-01,3642.277,observado
+Comercio e industria,2005-12-01,3790.507,observado
+Comercio e industria,2006-01-01,3428.727,observado
+Comercio e industria,2006-02-01,3261.454,observado
+Comercio e industria,2006-03-01,3540.41,observado
+Comercio e industria,2006-04-01,3318.147,observado
+Comercio e industria,2006-05-01,3416.579,observado
+Comercio e industria,2006-06-01,3374.495,observado
+Comercio e industria,2006-07-01,3392.594,observado
+Comercio e industria,2006-08-01,3472.059,observado
+Comercio e industria,2006-09-01,3291.477,observado
+Comercio e industria,2006-10-01,3503.241,observado
+Comercio e industria,2006-11-01,3489.625,observado
+Comercio e industria,2006-12-01,3802.947,observado
+Comercio e industria,2007-01-01,3735.829,observado
+Comercio e industria,2007-02-01,3574.996,observado
+Comercio e industria,2007-03-01,3795.382,observado
+Comercio e industria,2007-04-01,3525.255,observado
+Comercio e industria,2007-05-01,3731.939,observado
+Comercio e industria,2007-06-01,3535.967,observado
+Comercio e industria,2007-07-01,3564.032,observado
+Comercio e industria,2007-08-01,3589.396,observado
+Comercio e industria,2007-09-01,3370.048,observado
+Comercio e industria,2007-10-01,3654.304,observado
+Comercio e industria,2007-11-01,3591.714,observado
+Comercio e industria,2007-12-01,3815.519,observado
+Comercio e industria,2008-01-01,3811.277,observado
+Comercio e industria,2008-02-01,3705.406,observado
+Comercio e industria,2008-03-01,3678.195,observado
+Comercio e industria,2008-04-01,3526.868,observado
+Comercio e industria,2008-05-01,3625.434,observado
+Comercio e industria,2008-06-01,3582.687,observado
+Comercio e industria,2008-07-01,3476.582,observado
+Comercio e industria,2008-08-01,3488.405,observado
+Comercio e industria,2008-09-01,3375.917,observado
+Comercio e industria,2008-10-01,3417.156,observado
+Comercio e industria,2008-11-01,3681.432,observado
+Comercio e industria,2008-12-01,3691.127,observado
+Comercio e industria,2009-01-01,3658.961,observado
+Comercio e industria,2009-02-01,3404.18,observado
+Comercio e industria,2009-03-01,3769.532,observado
+Comercio e industria,2009-04-01,3391.869,observado
+Comercio e industria,2009-05-01,3510.857,observado
+Comercio e industria,2009-06-01,3529.784,observado
+Comercio e industria,2009-07-01,3612.156,observado
+Comercio e industria,2009-08-01,3400.943,observado
+Comercio e industria,2009-09-01,3474.772,observado
+Comercio e industria,2009-10-01,3471.55,observado
+Comercio e industria,2009-11-01,3643.166,observado
+Comercio e industria,2009-12-01,3780.482,observado
+Comercio e industria,2010-01-01,3934.752,observado
+Comercio e industria,2010-02-01,3579.086,observado
+Comercio e industria,2010-03-01,3911.778,observado
+Comercio e industria,2010-04-01,3598.085,observado
+Comercio e industria,2010-05-01,3631.273,observado
+Comercio e industria,2010-06-01,3646.075,observado
+Comercio e industria,2010-07-01,3794.323,observado
+Comercio e industria,2010-08-01,3702.052,observado
+Comercio e industria,2010-09-01,3594.482,observado
+Comercio e industria,2010-10-01,3608.487,observado
+Comercio e industria,2010-11-01,3715.389,observado
+Comercio e industria,2010-12-01,4161.809,observado
+Comercio e industria,2011-01-01,4056.286,observado
+Comercio e industria,2011-02-01,3678.869,observado
+Comercio e industria,2011-03-01,3960.43,observado
+Comercio e industria,2011-04-01,3751.863,observado
+Comercio e industria,2011-05-01,3833.536,observado
+Comercio e industria,2011-06-01,3837.306,observado
+Comercio e industria,2011-07-01,3860.355,observado
+Comercio e industria,2011-08-01,3880.286,observado
+Comercio e industria,2011-09-01,3644.416,observado
+Comercio e industria,2011-10-01,3781.749,observado
+Comercio e industria,2011-11-01,3950.608,observado
+Comercio e industria,2011-12-01,4178.333,observado
+Comercio e industria,2012-01-01,4381.242165,observado
+Comercio e industria,2012-02-01,4020.409505,observado
+Comercio e industria,2012-03-01,4161.500582,observado
+Comercio e industria,2012-04-01,3781.600032,observado
+Comercio e industria,2012-05-01,3804.17057,observado
+Comercio e industria,2012-06-01,3856.709764,observado
+Comercio e industria,2012-07-01,3998.482066,observado
+Comercio e industria,2012-08-01,3859.701914,observado
+Comercio e industria,2012-09-01,3653.95481,observado
+Comercio e industria,2012-10-01,3792.432581,observado
+Comercio e industria,2012-11-01,3986.909251,observado
+Comercio e industria,2012-12-01,4311.929618,observado
+Comercio e industria,2013-01-01,4403.673199,observado
+Comercio e industria,2013-02-01,3923.973888,observado
+Comercio e industria,2013-03-01,3899.194197,observado
+Comercio e industria,2013-04-01,3852.153461,observado
+Comercio e industria,2013-05-01,4015.256398,observado
+Comercio e industria,2013-06-01,3836.723254,observado
+Comercio e industria,2013-07-01,3929.678281,observado
+Comercio e industria,2013-08-01,3915.17622,observado
+Comercio e industria,2013-09-01,3909.286823,observado
+Comercio e industria,2013-10-01,3967.437435,observado
+Comercio e industria,2013-11-01,4096.265204,observado
+Comercio e industria,2013-12-01,4775.052911,observado
+Comercio e industria,2014-01-01,4501.975128,observado
+Comercio e industria,2014-02-01,3875.392871,observado
+Comercio e industria,2014-03-01,3944.030108,observado
+Comercio e industria,2014-04-01,3869.911215,observado
+Comercio e industria,2014-05-01,4007.216479,observado
+Comercio e industria,2014-06-01,3995.140942,observado
+Comercio e industria,2014-07-01,4121.013274,observado
+Comercio e industria,2014-08-01,3946.345688,observado
+Comercio e industria,2014-09-01,3942.809495,observado
+Comercio e industria,2014-10-01,4233.925554,observado
+Comercio e industria,2014-11-01,4181.122601,observado
+Comercio e industria,2014-12-01,4422.155392,observado
+Comercio e industria,2015-01-01,4485.881622,observado
+Comercio e industria,2015-02-01,4195.116419,observado
+Comercio e industria,2015-03-01,4487.951318,observado
+Comercio e industria,2015-04-01,4112.087066,observado
+Comercio e industria,2015-05-01,4096.94637,observado
+Comercio e industria,2015-06-01,4222.780597,observado
+Comercio e industria,2015-07-01,4299.603255,observado
+Comercio e industria,2015-08-01,4221.518892,observado
+Comercio e industria,2015-09-01,4068.358096,observado
+Comercio e industria,2015-10-01,4083.188677,observado
+Comercio e industria,2015-11-01,4073.261068,observado
+Comercio e industria,2015-12-01,4559.777176,observado
+Comercio e industria,2016-01-01,4611.116668,observado
+Comercio e industria,2016-02-01,4674.575348,observado
+Comercio e industria,2016-03-01,4327.849414,observado
+Comercio e industria,2016-04-01,4148.353996,observado
+Comercio e industria,2016-05-01,4359.505856,observado
+Comercio e industria,2016-06-01,4282.498971,observado
+Comercio e industria,2016-07-01,4365.764848,observado
+Comercio e industria,2016-08-01,4249.089462,observado
+Comercio e industria,2016-09-01,4063.593245,observado
+Comercio e industria,2016-10-01,3985.43731,observado
+Comercio e industria,2016-11-01,4142.364061,observado
+Comercio e industria,2016-12-01,4687.28346,observado
+Comercio e industria,2017-01-01,4849.477855,observado
+Comercio e industria,2017-02-01,4551.831478,observado
+Comercio e industria,2017-03-01,4514.651091,observado
+Comercio e industria,2017-04-01,3986.450327,observado
+Comercio e industria,2017-05-01,4136.934659,observado
+Comercio e industria,2017-06-01,4150.183839,observado
+Comercio e industria,2017-07-01,4259.709195,observado
+Comercio e industria,2017-08-01,4209.854414,observado
+Comercio e industria,2017-09-01,4047.932339,observado
+Comercio e industria,2017-10-01,4116.218026,observado
+Comercio e industria,2017-11-01,4172.293125,observado
+Comercio e industria,2017-12-01,4700.319169,observado
+Comercio e industria,2018-01-01,4781.389061,observado
+Comercio e industria,2018-02-01,4409.163668,observado
+Comercio e industria,2018-03-01,4549.204478,observado
+Comercio e industria,2018-04-01,4264.484832,observado
+Comercio e industria,2018-05-01,4232.135998,observado
+Comercio e industria,2018-06-01,4314.391923,observado
+Comercio e industria,2018-07-01,4395.42939,observado
+Comercio e industria,2018-08-01,4291.441737,observado
+Comercio e industria,2018-09-01,3907.997234,observado
+Comercio e industria,2018-10-01,3978.8901,observado
+Comercio e industria,2018-11-01,4041.072386,observado
+Comercio e industria,2018-12-01,4305.440229,observado
+Comercio e industria,2019-01-01,4507.317265,observado
+Comercio e industria,2019-02-01,4236.763494,observado
+Comercio e industria,2019-03-01,4155.841684,observado
+Comercio e industria,2019-04-01,3971.245175,observado
+Comercio e industria,2019-05-01,4051.568954,observado
+Comercio e industria,2019-06-01,3985.740596,observado
+Comercio e industria,2019-07-01,4257.407791,observado
+Comercio e industria,2019-08-01,4206.692542,observado
+Comercio e industria,2019-09-01,3934.53795,observado
+Comercio e industria,2019-10-01,4012.432789,observado
+Comercio e industria,2019-11-01,4144.930896,observado
+Comercio e industria,2019-12-01,4406.841075,observado
+Comercio e industria,2020-01-01,4494.597629,observado
+Comercio e industria,2020-02-01,4218.645382,observado
+Comercio e industria,2020-03-01,4318.451977,observado
+Comercio e industria,2020-04-01,3269.808148,observado
+Comercio e industria,2020-05-01,3424.44383,observado
+Comercio e industria,2020-06-01,3635.874084,observado
+Comercio e industria,2020-07-01,4001.408076,observado
+Comercio e industria,2020-08-01,3741.760249,observado
+Comercio e industria,2020-09-01,3638.96298,observado
+Comercio e industria,2020-10-01,3758.740572,observado
+Comercio e industria,2020-11-01,3851.369101,observado
+Comercio e industria,2020-12-01,4193.858494,observado
+Comercio e industria,2021-01-01,4331.948859,observado
+Comercio e industria,2021-02-01,3880.340804,observado
+Comercio e industria,2021-03-01,4239.221819,observado
+Comercio e industria,2021-04-01,3909.054427,observado
+Comercio e industria,2021-05-01,3995.054976,observado
+Comercio e industria,2021-06-01,4011.805038,observado
+Comercio e industria,2021-07-01,4148.275478,observado
+Comercio e industria,2021-08-01,4087.353908,observado
+Comercio e industria,2021-09-01,3894.843471,observado
+Comercio e industria,2021-10-01,4023.809999,observado
+Comercio e industria,2021-11-01,4120.005402,observado
+Comercio e industria,2021-12-01,4637.279511,observado
+Comercio e industria,2022-01-01,4801.009871,observado
+Comercio e industria,2022-02-01,4185.905605,observado
+Comercio e industria,2022-03-01,4393.401085,observado
+Comercio e industria,2022-04-01,4100.350536,observado
+Comercio e industria,2022-05-01,4327.068463,observado
+Comercio e industria,2022-06-01,4432.274611,observado
+Comercio e industria,2022-07-01,4421.696106,observado
+Comercio e industria,2022-08-01,4344.918827,observado
+Comercio e industria,2022-09-01,4060.319054,observado
+Comercio e industria,2022-10-01,4056.286863,observado
+Comercio e industria,2022-11-01,4287.904184,observado
+Comercio e industria,2022-12-01,4713.01096,observado
+Comercio e industria,2023-01-01,4831.820802,observado
+Comercio e industria,2023-02-01,4409.54575,observado
+Comercio e industria,2023-03-01,5016.569766,observado
+Comercio e industria,2023-04-01,4131.210056,observado
+Comercio e industria,2023-05-01,4164.095397,observado
+Comercio e industria,2023-06-01,4197.267627,observado
+Comercio e industria,2023-07-01,4321.338783,observado
+Comercio e industria,2023-08-01,4286.131279,observado
+Comercio e industria,2023-09-01,4095.419129,observado
+Comercio e industria,2023-10-01,4095.463271,observado
+Comercio e industria,2023-11-01,4237.822727,observado
+Comercio e industria,2023-12-01,4416.089382,observado
+Comercio e industria,2024-01-01,4701.121721,observado
+Comercio e industria,2024-02-01,4619.141978,observado
+Comercio e industria,2024-03-01,4534.521938,observado
+Comercio e industria,2024-04-01,3934.545397,observado
+Comercio e industria,2024-05-01,4202.501044,observado
+Comercio e industria,2024-06-01,3986.352408,observado
+Comercio e industria,2024-07-01,4322.631488,observado
+Comercio e industria,2024-08-01,4241.513376,observado
+Comercio e industria,2024-09-01,3943.76805,observado
+Comercio e industria,2024-10-01,4151.263378,observado
+Comercio e industria,2024-11-01,4254.044165,observado
+Comercio e industria,2024-12-01,4441.356097,observado
+Comercio e industria,2025-01-01,4830.369119,observado
+Comercio e industria,2025-02-01,4692.326965,observado
+Comercio e industria,2025-03-01,4403.502136,observado
+Comercio e industria,2025-04-01,3917.565116,observado
+Comercio e industria,2025-05-01,4071.122618,observado
+Comercio e industria,2025-06-01,4157.164483,observado
+Comercio e industria,2025-07-01,4293.969131,observado
+Comercio e industria,2025-08-01,4122.105814,observado
+Comercio e industria,2025-09-01,3922.582062,observado
+Comercio e industria,2025-10-01,4046.719766,observado
+Comercio e industria,2025-11-01,4027.227775,observado
+Comercio e industria,2025-12-01,4537.296748,observado
+Comercio e industria,2026-01-01,4635.405535,observado
+Comercio e industria,2026-02-01,4284.903268,observado
+Comercio e industria,2026-03-01,4382.336102,observado
+Comercio e industria,2026-04-01,3969.723032,observado
+Comercio e industria,2026-05-01,4075.780308,observado
+Comercio e industria,2026-06-01,4114.308993,observado
+Comercio e industria,2026-07-01,4211.154804,observado
+Comercio e industria,2026-08-01,4100.504724,observado

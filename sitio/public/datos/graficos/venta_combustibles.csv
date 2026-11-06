@@ -1,0 +1,599 @@
+serie,fecha,valor,tramo
+Gasoil,2001-01-01,904.177,observado
+Gasoil,2001-02-01,825.952464,observado
+Gasoil,2001-03-01,969.582,observado
+Gasoil,2001-04-01,955.207,observado
+Gasoil,2001-05-01,983.97184,observado
+Gasoil,2001-06-01,918.2937,observado
+Gasoil,2001-07-01,903.155,observado
+Gasoil,2001-08-01,888.3552,observado
+Gasoil,2001-09-01,821.79,observado
+Gasoil,2001-10-01,859.72931,observado
+Gasoil,2001-11-01,908.715,observado
+Gasoil,2001-12-01,846.90149,observado
+Gasoil,2002-01-01,769.13432,observado
+Gasoil,2002-02-01,782.243,observado
+Gasoil,2002-03-01,829.52465,observado
+Gasoil,2002-04-01,849.65684,observado
+Gasoil,2002-05-01,925.19973,observado
+Gasoil,2002-06-01,833.3464,observado
+Gasoil,2002-07-01,898.8421,observado
+Gasoil,2002-08-01,830.4379,observado
+Gasoil,2002-09-01,794.29288,observado
+Gasoil,2002-10-01,812.22647,observado
+Gasoil,2002-11-01,834.36347,observado
+Gasoil,2002-12-01,869.74898,observado
+Gasoil,2003-01-01,800.04377,observado
+Gasoil,2003-02-01,797.24803,observado
+Gasoil,2003-03-01,905.16999,observado
+Gasoil,2003-04-01,865.888965,observado
+Gasoil,2003-05-01,892.63224,observado
+Gasoil,2003-06-01,830.617,observado
+Gasoil,2003-07-01,848.13928,observado
+Gasoil,2003-08-01,844.38868,observado
+Gasoil,2003-09-01,864.4322,observado
+Gasoil,2003-10-01,909.327913,observado
+Gasoil,2003-11-01,869.167671,observado
+Gasoil,2003-12-01,931.995455,observado
+Gasoil,2004-01-01,865.752195,observado
+Gasoil,2004-02-01,806.156162,observado
+Gasoil,2004-03-01,1000.459679,observado
+Gasoil,2004-04-01,940.9157,observado
+Gasoil,2004-05-01,966.84143,observado
+Gasoil,2004-06-01,931.75966,observado
+Gasoil,2004-07-01,909.90072,observado
+Gasoil,2004-08-01,896.53116,observado
+Gasoil,2004-09-01,918.51107,observado
+Gasoil,2004-10-01,936.70403,observado
+Gasoil,2004-11-01,939.173955,observado
+Gasoil,2004-12-01,1012.015239,observado
+Gasoil,2005-01-01,955.94295,observado
+Gasoil,2005-02-01,846.74855,observado
+Gasoil,2005-03-01,1023.27526,observado
+Gasoil,2005-04-01,1024.14989,observado
+Gasoil,2005-05-01,1012.44434,observado
+Gasoil,2005-06-01,936.5885,observado
+Gasoil,2005-07-01,974.3935,observado
+Gasoil,2005-08-01,999.68504,observado
+Gasoil,2005-09-01,1039.28464,observado
+Gasoil,2005-10-01,1006.76614,observado
+Gasoil,2005-11-01,1045.7278,observado
+Gasoil,2005-12-01,1109.2601,observado
+Gasoil,2006-01-01,966.41938,observado
+Gasoil,2006-02-01,918.86057,observado
+Gasoil,2006-03-01,1073.46609,observado
+Gasoil,2006-04-01,1057.40356,observado
+Gasoil,2006-05-01,1083.76382,observado
+Gasoil,2006-06-01,1073.96541,observado
+Gasoil,2006-07-01,1018.61025,observado
+Gasoil,2006-08-01,1043.06737,observado
+Gasoil,2006-09-01,1070.28907,observado
+Gasoil,2006-10-01,1117.07341,observado
+Gasoil,2006-11-01,1122.4021,observado
+Gasoil,2006-12-01,1102.5936,observado
+Gasoil,2007-01-01,1042.82319,observado
+Gasoil,2007-02-01,978.5853,observado
+Gasoil,2007-03-01,1121.5692,observado
+Gasoil,2007-04-01,1083.68407,observado
+Gasoil,2007-05-01,1164.68462,observado
+Gasoil,2007-06-01,1161.57228,observado
+Gasoil,2007-07-01,1123.3991,observado
+Gasoil,2007-08-01,1156.83715,observado
+Gasoil,2007-09-01,1125.4696,observado
+Gasoil,2007-10-01,1189.8082,observado
+Gasoil,2007-11-01,1201.2844,observado
+Gasoil,2007-12-01,1164.08709,observado
+Gasoil,2008-01-01,1101.51783,observado
+Gasoil,2008-02-01,1057.6238,observado
+Gasoil,2008-03-01,1116.22271,observado
+Gasoil,2008-04-01,1195.57727,observado
+Gasoil,2008-05-01,1201.82085,observado
+Gasoil,2008-06-01,1021.2352,observado
+Gasoil,2008-07-01,1182.17178,observado
+Gasoil,2008-08-01,1166.4402,observado
+Gasoil,2008-09-01,1127.09789,observado
+Gasoil,2008-10-01,1164.55259,observado
+Gasoil,2008-11-01,1094.41727,observado
+Gasoil,2008-12-01,1133.33162,observado
+Gasoil,2009-01-01,1021.75004,observado
+Gasoil,2009-02-01,936.35717,observado
+Gasoil,2009-03-01,1066.29607,observado
+Gasoil,2009-04-01,1083.06967,observado
+Gasoil,2009-05-01,1033.25323,observado
+Gasoil,2009-06-01,1027.037119,observado
+Gasoil,2009-07-01,1023.9321,observado
+Gasoil,2009-08-01,1038.211609,observado
+Gasoil,2009-09-01,1023.067816,observado
+Gasoil,2009-10-01,1078.06024,observado
+Gasoil,2009-11-01,1040.60148,observado
+Gasoil,2009-12-01,1111.303798,observado
+Gasoil,2010-01-01,1055.508848,observado
+Gasoil,2010-02-01,995.455453,observado
+Gasoil,2010-03-01,1212.228686,observado
+Gasoil,2010-04-01,1202.393127,observado
+Gasoil,2010-05-01,1175.342713,observado
+Gasoil,2010-06-01,1122.968709,observado
+Gasoil,2010-07-01,1161.649272,observado
+Gasoil,2010-08-01,1152.065424,observado
+Gasoil,2010-09-01,1122.880501,observado
+Gasoil,2010-10-01,1154.108633,observado
+Gasoil,2010-11-01,1182.398019,observado
+Gasoil,2010-12-01,1238.444503,observado
+Gasoil,2011-01-01,1134.946347,observado
+Gasoil,2011-02-01,1034.470474,observado
+Gasoil,2011-03-01,1217.019719,observado
+Gasoil,2011-04-01,1223.278814,observado
+Gasoil,2011-05-01,1185.206726,observado
+Gasoil,2011-06-01,1157.339895,observado
+Gasoil,2011-07-01,1195.957712,observado
+Gasoil,2011-08-01,1214.721851,observado
+Gasoil,2011-09-01,1208.351738,observado
+Gasoil,2011-10-01,1186.855228,observado
+Gasoil,2011-11-01,1206.537694,observado
+Gasoil,2011-12-01,1245.987544,observado
+Gasoil,2012-01-01,1115.857557,observado
+Gasoil,2012-02-01,990.589936,observado
+Gasoil,2012-03-01,1181.400093,observado
+Gasoil,2012-04-01,1139.48091,observado
+Gasoil,2012-05-01,1146.683756,observado
+Gasoil,2012-06-01,1103.075069,observado
+Gasoil,2012-07-01,1165.875457,observado
+Gasoil,2012-08-01,1131.597694,observado
+Gasoil,2012-09-01,1063.625227,observado
+Gasoil,2012-10-01,1110.988959,observado
+Gasoil,2012-11-01,1178.706479,observado
+Gasoil,2012-12-01,1163.946103,observado
+Gasoil,2013-01-01,1118.35655,observado
+Gasoil,2013-02-01,991.258992,observado
+Gasoil,2013-03-01,1152.176692,observado
+Gasoil,2013-04-01,1198.403573,observado
+Gasoil,2013-05-01,1207.692741,observado
+Gasoil,2013-06-01,1101.249842,observado
+Gasoil,2013-07-01,1175.463115,observado
+Gasoil,2013-08-01,1181.437064,observado
+Gasoil,2013-09-01,1099.847493,observado
+Gasoil,2013-10-01,1183.243175,observado
+Gasoil,2013-11-01,1157.183846,observado
+Gasoil,2013-12-01,1183.601179,observado
+Gasoil,2014-01-01,1109.845314,observado
+Gasoil,2014-02-01,1013.919798,observado
+Gasoil,2014-03-01,1106.59426,observado
+Gasoil,2014-04-01,1268.409939,observado
+Gasoil,2014-05-01,1131.76996,observado
+Gasoil,2014-06-01,1163.076999,observado
+Gasoil,2014-07-01,1226.19113,observado
+Gasoil,2014-08-01,1063.337393,observado
+Gasoil,2014-09-01,1141.514241,observado
+Gasoil,2014-10-01,1176.516758,observado
+Gasoil,2014-11-01,1143.267619,observado
+Gasoil,2014-12-01,1172.238532,observado
+Gasoil,2015-01-01,1106.207889,observado
+Gasoil,2015-02-01,966.886267,observado
+Gasoil,2015-03-01,1091.383723,observado
+Gasoil,2015-04-01,1129.174635,observado
+Gasoil,2015-05-01,1102.954457,observado
+Gasoil,2015-06-01,1129.009788,observado
+Gasoil,2015-07-01,1221.615899,observado
+Gasoil,2015-08-01,1160.486433,observado
+Gasoil,2015-09-01,1113.866211,observado
+Gasoil,2015-10-01,1159.913077,observado
+Gasoil,2015-11-01,1112.962414,observado
+Gasoil,2015-12-01,1120.56254,observado
+Gasoil,2016-01-01,1068.605507,observado
+Gasoil,2016-02-01,1017.511316,observado
+Gasoil,2016-03-01,1145.758141,observado
+Gasoil,2016-04-01,1121.562363,observado
+Gasoil,2016-05-01,1263.050985,observado
+Gasoil,2016-06-01,1261.2648,observado
+Gasoil,2016-07-01,1142.566108,observado
+Gasoil,2016-08-01,1182.312468,observado
+Gasoil,2016-09-01,1078.574574,observado
+Gasoil,2016-10-01,1085.332343,observado
+Gasoil,2016-11-01,1133.689198,observado
+Gasoil,2016-12-01,1174.699266,observado
+Gasoil,2017-01-01,1055.319036,observado
+Gasoil,2017-02-01,952.188792,observado
+Gasoil,2017-03-01,1152.341075,observado
+Gasoil,2017-04-01,1060.929279,observado
+Gasoil,2017-05-01,1192.156567,observado
+Gasoil,2017-06-01,1172.58146,observado
+Gasoil,2017-07-01,1153.593568,observado
+Gasoil,2017-08-01,1190.1796,observado
+Gasoil,2017-09-01,1166.42761,observado
+Gasoil,2017-10-01,1186.285648,observado
+Gasoil,2017-11-01,1229.479967,observado
+Gasoil,2017-12-01,1206.070467,observado
+Gasoil,2018-01-01,1110.467934,observado
+Gasoil,2018-02-01,988.145936,observado
+Gasoil,2018-03-01,1218.188463,observado
+Gasoil,2018-04-01,1157.231525,observado
+Gasoil,2018-05-01,1146.132729,observado
+Gasoil,2018-06-01,1129.722712,observado
+Gasoil,2018-07-01,1141.980717,observado
+Gasoil,2018-08-01,1197.860191,observado
+Gasoil,2018-09-01,1050.361584,observado
+Gasoil,2018-10-01,1124.974708,observado
+Gasoil,2018-11-01,1106.083443,observado
+Gasoil,2018-12-01,1119.805996,observado
+Gasoil,2019-01-01,1039.214038,observado
+Gasoil,2019-02-01,1014.941329,observado
+Gasoil,2019-03-01,1131.907616,observado
+Gasoil,2019-04-01,1138.828548,observado
+Gasoil,2019-05-01,1145.368777,observado
+Gasoil,2019-06-01,1066.557309,observado
+Gasoil,2019-07-01,1189.152423,observado
+Gasoil,2019-08-01,1175.179988,observado
+Gasoil,2019-09-01,1083.671692,observado
+Gasoil,2019-10-01,1133.312879,observado
+Gasoil,2019-11-01,1142.649222,observado
+Gasoil,2019-12-01,1135.428793,observado
+Gasoil,2020-01-01,1053.472969,observado
+Gasoil,2020-02-01,1000.653567,observado
+Gasoil,2020-03-01,922.078871,observado
+Gasoil,2020-04-01,805.583775,observado
+Gasoil,2020-05-01,999.860258,observado
+Gasoil,2020-06-01,921.885171,observado
+Gasoil,2020-07-01,1087.974246,observado
+Gasoil,2020-08-01,1149.944963,observado
+Gasoil,2020-09-01,957.01021,observado
+Gasoil,2020-10-01,965.910534,observado
+Gasoil,2020-11-01,1006.082182,observado
+Gasoil,2020-12-01,1057.199504,observado
+Gasoil,2021-01-01,973.046267,observado
+Gasoil,2021-02-01,924.062904,observado
+Gasoil,2021-03-01,1172.110989,observado
+Gasoil,2021-04-01,1119.578692,observado
+Gasoil,2021-05-01,1156.550507,observado
+Gasoil,2021-06-01,1128.273301,observado
+Gasoil,2021-07-01,1241.743442,observado
+Gasoil,2021-08-01,1164.434999,observado
+Gasoil,2021-09-01,1159.4387,observado
+Gasoil,2021-10-01,1191.269,observado
+Gasoil,2021-11-01,1222.61423,observado
+Gasoil,2021-12-01,1262.32356,observado
+Gasoil,2022-01-01,1126.38285,observado
+Gasoil,2022-02-01,1128.413827,observado
+Gasoil,2022-03-01,1234.026876,observado
+Gasoil,2022-04-01,1304.684689,observado
+Gasoil,2022-05-01,1280.77766,observado
+Gasoil,2022-06-01,1246.762089,observado
+Gasoil,2022-07-01,1279.728533,observado
+Gasoil,2022-08-01,1267.353834,observado
+Gasoil,2022-09-01,1220.788601,observado
+Gasoil,2022-10-01,1186.891808,observado
+Gasoil,2022-11-01,1237.393482,observado
+Gasoil,2022-12-01,1266.21548,observado
+Gasoil,2023-01-01,1162.373073,observado
+Gasoil,2023-02-01,1057.448338,observado
+Gasoil,2023-03-01,1297.31328,observado
+Gasoil,2023-04-01,1222.11346,observado
+Gasoil,2023-05-01,1266.99033,observado
+Gasoil,2023-06-01,1222.7561,observado
+Gasoil,2023-07-01,1218.08966,observado
+Gasoil,2023-08-01,1250.46573,observado
+Gasoil,2023-09-01,1206.7587,observado
+Gasoil,2023-10-01,1253.851746,observado
+Gasoil,2023-11-01,1316.16073,observado
+Gasoil,2023-12-01,1193.577843,observado
+Gasoil,2024-01-01,1125.507682,observado
+Gasoil,2024-02-01,1060.93252,observado
+Gasoil,2024-03-01,1122.90278,observado
+Gasoil,2024-04-01,1146.054126,observado
+Gasoil,2024-05-01,1308.312742,observado
+Gasoil,2024-06-01,1118.40454,observado
+Gasoil,2024-07-01,1226.03459,observado
+Gasoil,2024-08-01,1156.847678,observado
+Gasoil,2024-09-01,1083.633562,observado
+Gasoil,2024-10-01,1189.252025,observado
+Gasoil,2024-11-01,1236.06871,observado
+Gasoil,2024-12-01,1218.247191,observado
+Gasoil,2025-01-01,1136.259043,observado
+Gasoil,2025-02-01,1056.309928,observado
+Gasoil,2025-03-01,1167.260454,observado
+Gasoil,2025-04-01,1217.567434,observado
+Gasoil,2025-05-01,1291.39311,observado
+Gasoil,2025-06-01,1179.192773,observado
+Gasoil,2025-07-01,1267.158566,observado
+Gasoil,2025-08-01,1186.210747,observado
+Gasoil,2025-09-01,1169.87926,observado
+Gasoil,2025-10-01,1219.00236,observado
+Gasoil,2025-11-01,1185.632491,observado
+Naftas (todas),2001-01-01,400.842,observado
+Naftas (todas),2001-02-01,361.222475,observado
+Naftas (todas),2001-03-01,388.929,observado
+Naftas (todas),2001-04-01,353.218,observado
+Naftas (todas),2001-05-01,349.77372,observado
+Naftas (todas),2001-06-01,340.1529,observado
+Naftas (todas),2001-07-01,375.097,observado
+Naftas (todas),2001-08-01,335.73081,observado
+Naftas (todas),2001-09-01,317.672,observado
+Naftas (todas),2001-10-01,341.57771,observado
+Naftas (todas),2001-11-01,328.486,observado
+Naftas (todas),2001-12-01,353.19103,observado
+Naftas (todas),2002-01-01,340.63201,observado
+Naftas (todas),2002-02-01,330.323,observado
+Naftas (todas),2002-03-01,339.1041,observado
+Naftas (todas),2002-04-01,320.66968,observado
+Naftas (todas),2002-05-01,324.57588,observado
+Naftas (todas),2002-06-01,293.77219,observado
+Naftas (todas),2002-07-01,314.2115,observado
+Naftas (todas),2002-08-01,306.3259,observado
+Naftas (todas),2002-09-01,270.08902,observado
+Naftas (todas),2002-10-01,288.9291,observado
+Naftas (todas),2002-11-01,283.01898,observado
+Naftas (todas),2002-12-01,318.8025,observado
+Naftas (todas),2003-01-01,309.39332,observado
+Naftas (todas),2003-02-01,275.27132,observado
+Naftas (todas),2003-03-01,278.80835,observado
+Naftas (todas),2003-04-01,286.233058,observado
+Naftas (todas),2003-05-01,272.06416,observado
+Naftas (todas),2003-06-01,259.8188,observado
+Naftas (todas),2003-07-01,286.9213,observado
+Naftas (todas),2003-08-01,274.62222,observado
+Naftas (todas),2003-09-01,272.5591,observado
+Naftas (todas),2003-10-01,288.9901,observado
+Naftas (todas),2003-11-01,262.8348,observado
+Naftas (todas),2003-12-01,313.31841,observado
+Naftas (todas),2004-01-01,303.62942,observado
+Naftas (todas),2004-02-01,274.74288,observado
+Naftas (todas),2004-03-01,293.24703,observado
+Naftas (todas),2004-04-01,287.6579,observado
+Naftas (todas),2004-05-01,273.67238,observado
+Naftas (todas),2004-06-01,262.3261,observado
+Naftas (todas),2004-07-01,290.8441,observado
+Naftas (todas),2004-08-01,273.87018,observado
+Naftas (todas),2004-09-01,280.40308,observado
+Naftas (todas),2004-10-01,283.70459,observado
+Naftas (todas),2004-11-01,282.15181,observado
+Naftas (todas),2004-12-01,332.35014,observado
+Naftas (todas),2005-01-01,315.52174,observado
+Naftas (todas),2005-02-01,284.15416,observado
+Naftas (todas),2005-03-01,311.77838,observado
+Naftas (todas),2005-04-01,282.84585,observado
+Naftas (todas),2005-05-01,287.69781,observado
+Naftas (todas),2005-06-01,282.49008,observado
+Naftas (todas),2005-07-01,306.67841,observado
+Naftas (todas),2005-08-01,315.25454,observado
+Naftas (todas),2005-09-01,307.51698,observado
+Naftas (todas),2005-10-01,326.37582,observado
+Naftas (todas),2005-11-01,320.32404,observado
+Naftas (todas),2005-12-01,357.09225,observado
+Naftas (todas),2006-01-01,359.82235,observado
+Naftas (todas),2006-02-01,327.39008,observado
+Naftas (todas),2006-03-01,347.67772,observado
+Naftas (todas),2006-04-01,339.37681,observado
+Naftas (todas),2006-05-01,342.1963,observado
+Naftas (todas),2006-06-01,322.00152,observado
+Naftas (todas),2006-07-01,344.95995,observado
+Naftas (todas),2006-08-01,367.55206,observado
+Naftas (todas),2006-09-01,354.99695,observado
+Naftas (todas),2006-10-01,371.04889,observado
+Naftas (todas),2006-11-01,366.1583,observado
+Naftas (todas),2006-12-01,416.86534,observado
+Naftas (todas),2007-01-01,426.04516,observado
+Naftas (todas),2007-02-01,376.52752,observado
+Naftas (todas),2007-03-01,407.58669,observado
+Naftas (todas),2007-04-01,372.5769,observado
+Naftas (todas),2007-05-01,394.77412,observado
+Naftas (todas),2007-06-01,397.83683,observado
+Naftas (todas),2007-07-01,435.5669,observado
+Naftas (todas),2007-08-01,425.58943,observado
+Naftas (todas),2007-09-01,395.48932,observado
+Naftas (todas),2007-10-01,438.49584,observado
+Naftas (todas),2007-11-01,428.0941,observado
+Naftas (todas),2007-12-01,468.1741,observado
+Naftas (todas),2008-01-01,490.22042,observado
+Naftas (todas),2008-02-01,441.87481,observado
+Naftas (todas),2008-03-01,469.86615,observado
+Naftas (todas),2008-04-01,435.69403,observado
+Naftas (todas),2008-05-01,443.74774,observado
+Naftas (todas),2008-06-01,416.70095,observado
+Naftas (todas),2008-07-01,464.4924,observado
+Naftas (todas),2008-08-01,455.83263,observado
+Naftas (todas),2008-09-01,452.58428,observado
+Naftas (todas),2008-10-01,473.04505,observado
+Naftas (todas),2008-11-01,445.61819,observado
+Naftas (todas),2008-12-01,528.44168,observado
+Naftas (todas),2009-01-01,514.73795,observado
+Naftas (todas),2009-02-01,450.04734,observado
+Naftas (todas),2009-03-01,476.148398,observado
+Naftas (todas),2009-04-01,466.48653,observado
+Naftas (todas),2009-05-01,452.93897,observado
+Naftas (todas),2009-06-01,461.218709,observado
+Naftas (todas),2009-07-01,460.290477,observado
+Naftas (todas),2009-08-01,476.73784,observado
+Naftas (todas),2009-09-01,474.46156,observado
+Naftas (todas),2009-10-01,506.39732,observado
+Naftas (todas),2009-11-01,475.70918,observado
+Naftas (todas),2009-12-01,544.1059,observado
+Naftas (todas),2010-01-01,549.773365,observado
+Naftas (todas),2010-02-01,475.309623,observado
+Naftas (todas),2010-03-01,528.367698,observado
+Naftas (todas),2010-04-01,500.451629,observado
+Naftas (todas),2010-05-01,497.403638,observado
+Naftas (todas),2010-06-01,481.946127,observado
+Naftas (todas),2010-07-01,519.525466,observado
+Naftas (todas),2010-08-01,521.343604,observado
+Naftas (todas),2010-09-01,497.495291,observado
+Naftas (todas),2010-10-01,531.991795,observado
+Naftas (todas),2010-11-01,529.346346,observado
+Naftas (todas),2010-12-01,603.403309,observado
+Naftas (todas),2011-01-01,586.317478,observado
+Naftas (todas),2011-02-01,526.02045,observado
+Naftas (todas),2011-03-01,595.951164,observado
+Naftas (todas),2011-04-01,562.427137,observado
+Naftas (todas),2011-05-01,546.650535,observado
+Naftas (todas),2011-06-01,531.549562,observado
+Naftas (todas),2011-07-01,587.848608,observado
+Naftas (todas),2011-08-01,581.698923,observado
+Naftas (todas),2011-09-01,573.137716,observado
+Naftas (todas),2011-10-01,592.938372,observado
+Naftas (todas),2011-11-01,593.592379,observado
+Naftas (todas),2011-12-01,688.01878,observado
+Naftas (todas),2012-01-01,649.582561,observado
+Naftas (todas),2012-02-01,599.72461,observado
+Naftas (todas),2012-03-01,644.84436,observado
+Naftas (todas),2012-04-01,581.823076,observado
+Naftas (todas),2012-05-01,584.920819,observado
+Naftas (todas),2012-06-01,592.501707,observado
+Naftas (todas),2012-07-01,631.356886,observado
+Naftas (todas),2012-08-01,618.845989,observado
+Naftas (todas),2012-09-01,605.280804,observado
+Naftas (todas),2012-10-01,634.372499,observado
+Naftas (todas),2012-11-01,640.080575,observado
+Naftas (todas),2012-12-01,719.061176,observado
+Naftas (todas),2013-01-01,712.753136,observado
+Naftas (todas),2013-02-01,635.287031,observado
+Naftas (todas),2013-03-01,676.357049,observado
+Naftas (todas),2013-04-01,630.034508,observado
+Naftas (todas),2013-05-01,664.13149,observado
+Naftas (todas),2013-06-01,635.261237,observado
+Naftas (todas),2013-07-01,694.249902,observado
+Naftas (todas),2013-08-01,685.284522,observado
+Naftas (todas),2013-09-01,650.248902,observado
+Naftas (todas),2013-10-01,711.848128,observado
+Naftas (todas),2013-11-01,691.346387,observado
+Naftas (todas),2013-12-01,779.492478,observado
+Naftas (todas),2014-01-01,758.628084,observado
+Naftas (todas),2014-02-01,656.685516,observado
+Naftas (todas),2014-03-01,685.528427,observado
+Naftas (todas),2014-04-01,656.69717,observado
+Naftas (todas),2014-05-01,638.640545,observado
+Naftas (todas),2014-06-01,611.802421,observado
+Naftas (todas),2014-07-01,659.546056,observado
+Naftas (todas),2014-08-01,660.298063,observado
+Naftas (todas),2014-09-01,655.547229,observado
+Naftas (todas),2014-10-01,694.730294,observado
+Naftas (todas),2014-11-01,655.306161,observado
+Naftas (todas),2014-12-01,747.634097,observado
+Naftas (todas),2015-01-01,753.987881,observado
+Naftas (todas),2015-02-01,680.980671,observado
+Naftas (todas),2015-03-01,697.298932,observado
+Naftas (todas),2015-04-01,701.614644,observado
+Naftas (todas),2015-05-01,668.520886,observado
+Naftas (todas),2015-06-01,671.995522,observado
+Naftas (todas),2015-07-01,724.55019,observado
+Naftas (todas),2015-08-01,690.305689,observado
+Naftas (todas),2015-09-01,700.245275,observado
+Naftas (todas),2015-10-01,740.805714,observado
+Naftas (todas),2015-11-01,704.520489,observado
+Naftas (todas),2015-12-01,808.712531,observado
+Naftas (todas),2016-01-01,761.780202,observado
+Naftas (todas),2016-02-01,731.394858,observado
+Naftas (todas),2016-03-01,740.393789,observado
+Naftas (todas),2016-04-01,666.379507,observado
+Naftas (todas),2016-05-01,670.47081,observado
+Naftas (todas),2016-06-01,672.454696,observado
+Naftas (todas),2016-07-01,709.324004,observado
+Naftas (todas),2016-08-01,728.612205,observado
+Naftas (todas),2016-09-01,693.379853,observado
+Naftas (todas),2016-10-01,734.985457,observado
+Naftas (todas),2016-11-01,729.619981,observado
+Naftas (todas),2016-12-01,825.423033,observado
+Naftas (todas),2017-01-01,803.896459,observado
+Naftas (todas),2017-02-01,718.325693,observado
+Naftas (todas),2017-03-01,776.380456,observado
+Naftas (todas),2017-04-01,723.085205,observado
+Naftas (todas),2017-05-01,740.257227,observado
+Naftas (todas),2017-06-01,728.767918,observado
+Naftas (todas),2017-07-01,773.894129,observado
+Naftas (todas),2017-08-01,784.507918,observado
+Naftas (todas),2017-09-01,770.462747,observado
+Naftas (todas),2017-10-01,807.833686,observado
+Naftas (todas),2017-11-01,800.647155,observado
+Naftas (todas),2017-12-01,870.443167,observado
+Naftas (todas),2018-01-01,848.594236,observado
+Naftas (todas),2018-02-01,771.662344,observado
+Naftas (todas),2018-03-01,827.481974,observado
+Naftas (todas),2018-04-01,769.633862,observado
+Naftas (todas),2018-05-01,774.579433,observado
+Naftas (todas),2018-06-01,750.405576,observado
+Naftas (todas),2018-07-01,780.94734,observado
+Naftas (todas),2018-08-01,790.575461,observado
+Naftas (todas),2018-09-01,709.283161,observado
+Naftas (todas),2018-10-01,766.109301,observado
+Naftas (todas),2018-11-01,732.455785,observado
+Naftas (todas),2018-12-01,824.739445,observado
+Naftas (todas),2019-01-01,791.089709,observado
+Naftas (todas),2019-02-01,739.608728,observado
+Naftas (todas),2019-03-01,783.545919,observado
+Naftas (todas),2019-04-01,728.0015,observado
+Naftas (todas),2019-05-01,748.2328,observado
+Naftas (todas),2019-06-01,705.204027,observado
+Naftas (todas),2019-07-01,779.45719,observado
+Naftas (todas),2019-08-01,772.43203,observado
+Naftas (todas),2019-09-01,735.20637,observado
+Naftas (todas),2019-10-01,793.207638,observado
+Naftas (todas),2019-11-01,770.06798,observado
+Naftas (todas),2019-12-01,825.35368,observado
+Naftas (todas),2020-01-01,808.639433,observado
+Naftas (todas),2020-02-01,772.21446,observado
+Naftas (todas),2020-03-01,558.636175,observado
+Naftas (todas),2020-04-01,240.974489,observado
+Naftas (todas),2020-05-01,377.758708,observado
+Naftas (todas),2020-06-01,457.47658,observado
+Naftas (todas),2020-07-01,498.865293,observado
+Naftas (todas),2020-08-01,510.71254,observado
+Naftas (todas),2020-09-01,516.086902,observado
+Naftas (todas),2020-10-01,570.660108,observado
+Naftas (todas),2020-11-01,614.706076,observado
+Naftas (todas),2020-12-01,773.363304,observado
+Naftas (todas),2021-01-01,732.414045,observado
+Naftas (todas),2021-02-01,689.33694,observado
+Naftas (todas),2021-03-01,755.05853,observado
+Naftas (todas),2021-04-01,645.3445,observado
+Naftas (todas),2021-05-01,565.23217,observado
+Naftas (todas),2021-06-01,593.88048,observado
+Naftas (todas),2021-07-01,728.57582,observado
+Naftas (todas),2021-08-01,742.82527,observado
+Naftas (todas),2021-09-01,749.29772,observado
+Naftas (todas),2021-10-01,807.20798,observado
+Naftas (todas),2021-11-01,808.68609,observado
+Naftas (todas),2021-12-01,912.23441,observado
+Naftas (todas),2022-01-01,814.67624,observado
+Naftas (todas),2022-02-01,794.80693,observado
+Naftas (todas),2022-03-01,837.73748,observado
+Naftas (todas),2022-04-01,807.25761,observado
+Naftas (todas),2022-05-01,785.603475,observado
+Naftas (todas),2022-06-01,794.34887,observado
+Naftas (todas),2022-07-01,833.116581,observado
+Naftas (todas),2022-08-01,840.15379,observado
+Naftas (todas),2022-09-01,821.15249,observado
+Naftas (todas),2022-10-01,850.60505,observado
+Naftas (todas),2022-11-01,833.756454,observado
+Naftas (todas),2022-12-01,906.62755,observado
+Naftas (todas),2023-01-01,899.154193,observado
+Naftas (todas),2023-02-01,827.57613,observado
+Naftas (todas),2023-03-01,896.39937,observado
+Naftas (todas),2023-04-01,832.36497,observado
+Naftas (todas),2023-05-01,837.24316,observado
+Naftas (todas),2023-06-01,821.96553,observado
+Naftas (todas),2023-07-01,867.0497,observado
+Naftas (todas),2023-08-01,863.48362,observado
+Naftas (todas),2023-09-01,820.48188,observado
+Naftas (todas),2023-10-01,894.142026,observado
+Naftas (todas),2023-11-01,888.340481,observado
+Naftas (todas),2023-12-01,906.465697,observado
+Naftas (todas),2024-01-01,844.056259,observado
+Naftas (todas),2024-02-01,793.222548,observado
+Naftas (todas),2024-03-01,809.99048,observado
+Naftas (todas),2024-04-01,744.028,observado
+Naftas (todas),2024-05-01,784.295539,observado
+Naftas (todas),2024-06-01,746.57679,observado
+Naftas (todas),2024-07-01,823.64829,observado
+Naftas (todas),2024-08-01,805.71246,observado
+Naftas (todas),2024-09-01,764.054289,observado
+Naftas (todas),2024-10-01,855.414303,observado
+Naftas (todas),2024-11-01,849.4635,observado
+Naftas (todas),2024-12-01,891.641375,observado
+Naftas (todas),2025-01-01,863.334575,observado
+Naftas (todas),2025-02-01,794.48944,observado
+Naftas (todas),2025-03-01,849.553447,observado
+Naftas (todas),2025-04-01,801.252088,observado
+Naftas (todas),2025-05-01,824.35378,observado
+Naftas (todas),2025-06-01,790.982464,observado
+Naftas (todas),2025-07-01,849.44025,observado
+Naftas (todas),2025-08-01,831.290812,observado
+Naftas (todas),2025-09-01,818.55282,observado
+Naftas (todas),2025-10-01,867.786965,observado
+Naftas (todas),2025-11-01,826.975653,observado
