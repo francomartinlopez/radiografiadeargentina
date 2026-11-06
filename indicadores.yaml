@@ -471,7 +471,6 @@ series:
   tasa_hipotecarios:   {fuente: datosgobar, id: "89.1_TS_INTEIOS_0_M_34"}
   tasa_documentos:     {fuente: datosgobar, id: "89.1_TS_INTETOS_0_M_32"}
   tasa_adelantos:      {fuente: datosgobar, id: "89.1_TS_INTETOS_0_M_31"}
-  tasa_prendarios:     {fuente: datosgobar, id: "89.1_TS_INTEIOS_0_M_32"}
   prest_documentos_pesos: {fuente: datosgobar, id: "91.1_DETALLE_PRTOS_0_0_56"}
   prest_adelantos_pesos:  {fuente: datosgobar, id: "91.1_DETALLE_PRTOS_0_0_55"}
   prest_comerciales_otros_pesos: {fuente: datosgobar, id: "91.1_DETALLE_PRROS_0_0_51"}

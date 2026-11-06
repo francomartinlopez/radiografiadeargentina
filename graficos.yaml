@@ -1453,7 +1453,7 @@ graficos:
       - {serie: venta_naftas, nombre: "Naftas (todas)"}
     fuentes:
       - {nombre: "Secretaría de Energía, Res. 1104/2004: producción y ventas de derivados", url: "https://datos.gob.ar/dataset/energia-refinacion-comercializacion-petroleo-gas-derivados-tablas-dinamicas", nivel: primaria}
-    metodo: "Ventas mensuales de las refinadoras y comercializadoras. Las naftas suman común, súper y premium."
+    metodo: "Ventas mensuales de las refinadoras y comercializadoras. Las naftas suman común, súper y premium. La Secretaría de Energía publica esta tabla con varios meses de rezago."
 
   - id: credito_empresas
     tema: 5
@@ -1479,7 +1479,7 @@ graficos:
   - id: tasas_activas
     tema: 5
     titulo: "Tasas de interés de los préstamos"
-    que_muestra: "Tasa nominal anual promedio que cobran los bancos según el tipo de préstamo."
+    que_muestra: "Tasa nominal anual promedio que cobran los bancos en adelantos, documentos e hipotecarios."
     original: {ficha: p149, imagen: 1523}
     tipo: lineas
     frecuencia: M
@@ -1491,11 +1491,10 @@ graficos:
     series:
       - {serie: tasa_adelantos, nombre: "Adelantos en cuenta corriente"}
       - {serie: tasa_documentos, nombre: "Documentos a sola firma"}
-      - {serie: tasa_prendarios, nombre: "Prendarios"}
       - {serie: tasa_hipotecarios, nombre: "Hipotecarios"}
     fuentes:
       - {nombre: "BCRA, tasas de interés activas por tipo de préstamo", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Tasas_de_interes.asp", nivel: primaria}
-    metodo: "Promedios mensuales ponderados por monto de las operaciones nuevas en pesos. Desde 2016 una parte creciente de los hipotecarios se otorga en UVA (tasa real), que entra en el promedio con su tasa sin ajuste. Reúne las fichas p149, p151 y p152; la tasa a 'comercios y servicios' del original no existe como serie del BCRA (los adelantos y documentos son las líneas típicas de empresas)."
+    metodo: "Promedios mensuales ponderados por monto de las operaciones nuevas en pesos. Desde 2016 una parte creciente de los hipotecarios se otorga en UVA (tasa real), que entra en el promedio con su tasa sin ajuste. La tasa de prendarios de esta serie se dejó de publicar en 2008 y no se incluye; la de personales está en su propio gráfico. Reúne las fichas p149, p151 y p152; la tasa a 'comercios y servicios' del original no existe como serie del BCRA (los adelantos y documentos son las líneas típicas de empresas)."
 
   - id: empresas_empleadoras
     tema: 7
