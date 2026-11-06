@@ -2945,3 +2945,250 @@ graficos:
     fuentes:
       - {nombre: "FAO, prevalencia de la subalimentación (ODS 2.1.1), vía Our World in Data", url: "https://ourworldindata.org/grapher/prevalence-of-undernourishment", nivel: secundaria}
     metodo: "Estimación de la FAO a partir de la disponibilidad de alimentos y la desigualdad de su consumo, en promedios de tres años. Los países con menos de 2,5% figuran en ese valor mínimo."
+
+  # ---------- Paso 5 (lote 4), tanda 3 ----------
+
+  - id: industria_pib_paises
+    tema: 1
+    titulo: 'Peso de la industria en la economía: Argentina y otros países'
+    que_muestra: Valor agregado de la industria manufacturera como % del PIB.
+    original:
+      ficha: p19
+      imagen: 1428
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1960'
+    unidad: '% del PIB'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_nv_ind_manf_zs_arg
+      nombre: Argentina
+    - serie: wb_nv_ind_manf_zs_bra
+      nombre: Brasil
+    - serie: wb_nv_ind_manf_zs_esp
+      nombre: España
+    - serie: wb_nv_ind_manf_zs_ita
+      nombre: Italia
+    - serie: wb_nv_ind_manf_zs_gbr
+      nombre: Gran Bretaña
+    - serie: wb_nv_ind_manf_zs_aus
+      nombre: Australia
+    - serie: wb_nv_ind_manf_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/NV.IND.MANF.ZS
+      nivel: secundaria
+      nota: Compila cuentas nacionales de cada país
+    metodo: Serie del Banco Mundial (cuentas nacionales de cada país), desde 1960. El tramo 1850-1960 del original no tiene una fuente comparable abierta y queda para el lote 6 (estimaciones).
+
+  - id: agro_pib_paises
+    tema: 1
+    titulo: 'Peso del agro en la economía: Argentina y otros países'
+    que_muestra: Valor agregado de agricultura, ganadería, silvicultura y pesca como % del PIB.
+    original:
+      ficha: p20
+      imagen: 1429
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1960'
+    unidad: '% del PIB'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - variacion
+    series:
+    - serie: wb_nv_agr_totl_zs_arg
+      nombre: Argentina
+    - serie: wb_nv_agr_totl_zs_bra
+      nombre: Brasil
+    - serie: wb_nv_agr_totl_zs_esp
+      nombre: España
+    - serie: wb_nv_agr_totl_zs_ita
+      nombre: Italia
+    - serie: wb_nv_agr_totl_zs_gbr
+      nombre: Gran Bretaña
+    - serie: wb_nv_agr_totl_zs_aus
+      nombre: Australia
+    - serie: wb_nv_agr_totl_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS
+      nivel: secundaria
+      nota: Compila cuentas nacionales de cada país
+    metodo: Serie del Banco Mundial (cuentas nacionales), desde 1960. El tramo 1850-1960 del original queda para el lote 6.
+
+  - id: caso_chile
+    tema: 19
+    titulo: 'Chile desde 1970: inflación, crecimiento y desempleo'
+    que_muestra: Inflación anual, crecimiento del PIB por habitante y desempleo de Chile, para comparar su trayectoria con la argentina.
+    original:
+      ficha: c1145
+      imagen: 1145
+    tipo: lineas
+    frecuencia: A
+    desde: '1970'
+    gobiernos: false
+    unidad: '%'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_fp_cpi_totl_zg_chl
+      nombre: Inflación (%)
+    - serie: wb_ny_gdp_pcap_kd_zg_chl
+      nombre: Crecimiento del PIB por habitante (%)
+    - serie: wb_sl_uem_totl_zs_chl
+      nombre: Desempleo (% de la población activa)
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/country/CHL
+      nivel: secundaria
+      nota: FMI (precios), cuentas nacionales y OIT (desempleo modelado, desde 1991)
+    metodo: 'Series anuales del Banco Mundial. El desempleo comparable empieza en 1991. El original sumaba ingreso frente a canasta, ahorro de los hogares, vivienda formal y otros indicadores sin fuente: esos quedan para el lote 6 (estimaciones). Deuda, gasto y homicidios de Chile están en las comparaciones entre países. Reúne también las fichas c1146 y c1147.'
+
+  - id: caso_peru
+    tema: 19
+    titulo: 'Perú desde 1989: inflación, crecimiento y desempleo'
+    que_muestra: Inflación anual, crecimiento del PIB por habitante y desempleo de Perú, para comparar su trayectoria con la argentina.
+    original:
+      ficha: c1152
+      imagen: 1152
+    tipo: lineas
+    frecuencia: A
+    desde: '1989'
+    gobiernos: false
+    unidad: '%'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_fp_cpi_totl_zg_per
+      nombre: Inflación (%)
+    - serie: wb_ny_gdp_pcap_kd_zg_per
+      nombre: Crecimiento del PIB por habitante (%)
+    - serie: wb_sl_uem_totl_zs_per
+      nombre: Desempleo (% de la población activa)
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/country/PER
+      nivel: secundaria
+      nota: FMI (precios), cuentas nacionales y OIT (desempleo modelado, desde 1991)
+    metodo: 'Series anuales del Banco Mundial. El desempleo comparable empieza en 1991. El original sumaba ingreso frente a canasta, ahorro de los hogares, vivienda formal y otros indicadores sin fuente: esos quedan para el lote 6 (estimaciones). Deuda, gasto y homicidios de Perú están en las comparaciones entre países. Reúne también las fichas c1153 y c1154.'
+
+  - id: caso_brasil
+    tema: 19
+    titulo: 'Brasil desde 1993: inflación, crecimiento y desempleo'
+    que_muestra: Inflación anual, crecimiento del PIB por habitante y desempleo de Brasil, para comparar su trayectoria con la argentina.
+    original:
+      ficha: p407
+      imagen: 1156
+    tipo: lineas
+    frecuencia: A
+    desde: '1993'
+    gobiernos: false
+    unidad: '%'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_fp_cpi_totl_zg_bra
+      nombre: Inflación (%)
+    - serie: wb_ny_gdp_pcap_kd_zg_bra
+      nombre: Crecimiento del PIB por habitante (%)
+    - serie: wb_sl_uem_totl_zs_bra
+      nombre: Desempleo (% de la población activa)
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/country/BRA
+      nivel: secundaria
+      nota: FMI (precios), cuentas nacionales y OIT (desempleo modelado, desde 1991)
+    metodo: 'Series anuales del Banco Mundial. El desempleo comparable empieza en 1991. El original sumaba ingreso frente a canasta, ahorro de los hogares, vivienda formal y otros indicadores sin fuente: esos quedan para el lote 6 (estimaciones). Deuda, gasto y homicidios de Brasil están en las comparaciones entre países.'
+
+  - id: caso_mexico
+    tema: 19
+    titulo: 'México desde 1980: inflación, crecimiento y desempleo'
+    que_muestra: Inflación anual, crecimiento del PIB por habitante y desempleo de México, para comparar su trayectoria con la argentina.
+    original:
+      ficha: p408
+      imagen: 1158
+    tipo: lineas
+    frecuencia: A
+    desde: '1980'
+    gobiernos: false
+    unidad: '%'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_fp_cpi_totl_zg_mex
+      nombre: Inflación (%)
+    - serie: wb_ny_gdp_pcap_kd_zg_mex
+      nombre: Crecimiento del PIB por habitante (%)
+    - serie: wb_sl_uem_totl_zs_mex
+      nombre: Desempleo (% de la población activa)
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/country/MEX
+      nivel: secundaria
+      nota: FMI (precios), cuentas nacionales y OIT (desempleo modelado, desde 1991)
+    metodo: 'Series anuales del Banco Mundial. El desempleo comparable empieza en 1991. El original sumaba ingreso frente a canasta, ahorro de los hogares, vivienda formal y otros indicadores sin fuente: esos quedan para el lote 6 (estimaciones). Deuda, gasto y homicidios de México están en las comparaciones entre países.'
+
+  - id: caso_colombia
+    tema: 19
+    titulo: 'Colombia desde 1998: inflación, crecimiento y desempleo'
+    que_muestra: Inflación anual, crecimiento del PIB por habitante y desempleo de Colombia, para comparar su trayectoria con la argentina.
+    original:
+      ficha: p411
+      imagen: 1163
+    tipo: lineas
+    frecuencia: A
+    desde: '1998'
+    gobiernos: false
+    unidad: '%'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_fp_cpi_totl_zg_col
+      nombre: Inflación (%)
+    - serie: wb_ny_gdp_pcap_kd_zg_col
+      nombre: Crecimiento del PIB por habitante (%)
+    - serie: wb_sl_uem_totl_zs_col
+      nombre: Desempleo (% de la población activa)
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/country/COL
+      nivel: secundaria
+      nota: FMI (precios), cuentas nacionales y OIT (desempleo modelado, desde 1991)
+    metodo: 'Series anuales del Banco Mundial. El desempleo comparable empieza en 1991. El original sumaba ingreso frente a canasta, ahorro de los hogares, vivienda formal y otros indicadores sin fuente: esos quedan para el lote 6 (estimaciones). Deuda, gasto y homicidios de Colombia están en las comparaciones entre países.'
+
+  - id: el_nino
+    tema: 8
+    titulo: "El Niño y La Niña"
+    que_muestra: "Índice Oceánico de El Niño (ONI): temperatura del Pacífico ecuatorial respecto de lo normal. Arriba de +0,5 °C hay El Niño (más lluvias en la región pampeana); abajo de −0,5 °C, La Niña (sequías)."
+    original: {ficha: p203, imagen: 1312}
+    tipo: barras
+    frecuencia: M
+    desde: "2001-01"
+    gobiernos: false
+    unidad: "°C de anomalía"
+    tipo_valor: saldo
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: oni, nombre: "ONI"}
+    fuentes:
+      - {nombre: "NOAA (EE.UU.), Oceanic Niño Index", url: "https://psl.noaa.gov/data/correlation/oni.data", nivel: primaria}
+    metodo: "Promedio móvil de tres meses de la anomalía de temperatura del mar en la región Niño 3.4. Para cruzarlo con las cosechas, ver Producción de los principales granos: las grandes caídas (2008/09, 2017/18, 2022/23) coinciden con años de La Niña. El pronóstico 2026-2027 del original queda para el lote 6."

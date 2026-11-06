@@ -715,6 +715,34 @@ series:
   maddison23_usa: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: USA}
   maddison23_gbr: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: GBR}
   maddison23_aus: {fuente: owid, id: gdp-per-capita-maddison-project-database, campo: gdp_per_capita, pais: AUS}
+  # Radiografía, lote 4 tanda 3
+  wb_nv_ind_manf_zs_arg: {fuente: worldbank, id: "NV.IND.MANF.ZS", pais: ARG}
+  wb_nv_ind_manf_zs_bra: {fuente: worldbank, id: "NV.IND.MANF.ZS", pais: BRA}
+  wb_nv_ind_manf_zs_esp: {fuente: worldbank, id: "NV.IND.MANF.ZS", pais: ESP}
+  wb_nv_ind_manf_zs_ita: {fuente: worldbank, id: "NV.IND.MANF.ZS", pais: ITA}
+  wb_nv_ind_manf_zs_gbr: {fuente: worldbank, id: "NV.IND.MANF.ZS", pais: GBR}
+  wb_nv_ind_manf_zs_aus: {fuente: worldbank, id: "NV.IND.MANF.ZS", pais: AUS}
+  wb_nv_ind_manf_zs_usa: {fuente: worldbank, id: "NV.IND.MANF.ZS", pais: USA}
+  wb_nv_agr_totl_zs_arg: {fuente: worldbank, id: "NV.AGR.TOTL.ZS", pais: ARG}
+  wb_nv_agr_totl_zs_bra: {fuente: worldbank, id: "NV.AGR.TOTL.ZS", pais: BRA}
+  wb_nv_agr_totl_zs_esp: {fuente: worldbank, id: "NV.AGR.TOTL.ZS", pais: ESP}
+  wb_nv_agr_totl_zs_ita: {fuente: worldbank, id: "NV.AGR.TOTL.ZS", pais: ITA}
+  wb_nv_agr_totl_zs_gbr: {fuente: worldbank, id: "NV.AGR.TOTL.ZS", pais: GBR}
+  wb_nv_agr_totl_zs_aus: {fuente: worldbank, id: "NV.AGR.TOTL.ZS", pais: AUS}
+  wb_nv_agr_totl_zs_usa: {fuente: worldbank, id: "NV.AGR.TOTL.ZS", pais: USA}
+  wb_fp_cpi_totl_zg_chl: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: CHL}
+  wb_ny_gdp_pcap_kd_zg_chl: {fuente: worldbank, id: "NY.GDP.PCAP.KD.ZG", pais: CHL}
+  wb_fp_cpi_totl_zg_per: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: PER}
+  wb_ny_gdp_pcap_kd_zg_per: {fuente: worldbank, id: "NY.GDP.PCAP.KD.ZG", pais: PER}
+  wb_sl_uem_totl_zs_per: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: PER}
+  wb_fp_cpi_totl_zg_bra: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: BRA}
+  wb_ny_gdp_pcap_kd_zg_bra: {fuente: worldbank, id: "NY.GDP.PCAP.KD.ZG", pais: BRA}
+  wb_fp_cpi_totl_zg_mex: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: MEX}
+  wb_ny_gdp_pcap_kd_zg_mex: {fuente: worldbank, id: "NY.GDP.PCAP.KD.ZG", pais: MEX}
+  wb_fp_cpi_totl_zg_col: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: COL}
+  wb_ny_gdp_pcap_kd_zg_col: {fuente: worldbank, id: "NY.GDP.PCAP.KD.ZG", pais: COL}
+  wb_sl_uem_totl_zs_col: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: COL}
+  oni:                 {fuente: noaa, url: "https://psl.noaa.gov/data/correlation/oni.data"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

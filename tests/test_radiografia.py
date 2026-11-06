@@ -124,3 +124,10 @@ def test_worldbank_e_imf_parsean():
     js = {"values": {"GGXWDG_NGDP": {"ARG": {"2019": 88.7, "2020": 102.8, "2099": 50.0}}}}
     s = imf.parsear(js, "GGXWDG_NGDP", "ARG")
     assert list(s.values) == [88.7, 102.8]
+
+
+def test_noaa_oni():
+    from pipeline.fuentes import noaa
+    t = " 1950         2026\n1950  -1.32 -1.20 -1.12 -1.08 -1.10 -0.90 -0.62   -0.57  -0.56  -0.62  -0.66 -0.79\n2026  -0.50 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90\n  -99.9\n"
+    s = noaa.parsear(t)
+    assert len(s) == 13 and s.iloc[0] == -1.32 and s.index[-1] == __import__("pandas").Timestamp(2026, 1, 1)

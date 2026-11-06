@@ -1,7 +1,65 @@
 # Informe de actualización 2026-11-06
 
-Gráficos publicados: 110
+Gráficos publicados: 113
 
 ## Alertas
 
-- Sin alertas
+- wb_nv_ind_manf_zs_arg: sin datos guardados
+- wb_nv_ind_manf_zs_bra: sin datos guardados
+- wb_nv_ind_manf_zs_esp: sin datos guardados
+- wb_nv_ind_manf_zs_ita: sin datos guardados
+- wb_nv_ind_manf_zs_gbr: sin datos guardados
+- wb_nv_ind_manf_zs_aus: sin datos guardados
+- wb_nv_ind_manf_zs_usa: sin datos guardados
+- wb_nv_agr_totl_zs_arg: sin datos guardados
+- wb_nv_agr_totl_zs_bra: sin datos guardados
+- wb_nv_agr_totl_zs_esp: sin datos guardados
+- wb_nv_agr_totl_zs_ita: sin datos guardados
+- wb_nv_agr_totl_zs_gbr: sin datos guardados
+- wb_nv_agr_totl_zs_aus: sin datos guardados
+- wb_nv_agr_totl_zs_usa: sin datos guardados
+- wb_fp_cpi_totl_zg_chl: sin datos guardados
+- wb_ny_gdp_pcap_kd_zg_chl: sin datos guardados
+- wb_fp_cpi_totl_zg_per: sin datos guardados
+- wb_ny_gdp_pcap_kd_zg_per: sin datos guardados
+- wb_sl_uem_totl_zs_per: sin datos guardados
+- wb_fp_cpi_totl_zg_bra: sin datos guardados
+- wb_ny_gdp_pcap_kd_zg_bra: sin datos guardados
+- wb_fp_cpi_totl_zg_mex: sin datos guardados
+- wb_ny_gdp_pcap_kd_zg_mex: sin datos guardados
+- wb_fp_cpi_totl_zg_col: sin datos guardados
+- wb_ny_gdp_pcap_kd_zg_col: sin datos guardados
+- wb_sl_uem_totl_zs_col: sin datos guardados
+- oni: sin datos guardados
+- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_arg
+- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_bra
+- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_esp
+- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_ita
+- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_gbr
+- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_aus
+- industria_pib_paises: sin datos para la serie wb_nv_ind_manf_zs_usa
+- industria_pib_paises: sin datos, no se publica
+- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_arg
+- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_bra
+- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_esp
+- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_ita
+- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_gbr
+- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_aus
+- agro_pib_paises: sin datos para la serie wb_nv_agr_totl_zs_usa
+- agro_pib_paises: sin datos, no se publica
+- caso_chile: sin datos para la serie wb_fp_cpi_totl_zg_chl
+- caso_chile: sin datos para la serie wb_ny_gdp_pcap_kd_zg_chl
+- caso_peru: sin datos para la serie wb_fp_cpi_totl_zg_per
+- caso_peru: sin datos para la serie wb_ny_gdp_pcap_kd_zg_per
+- caso_peru: sin datos para la serie wb_sl_uem_totl_zs_per
+- caso_peru: sin datos, no se publica
+- caso_brasil: sin datos para la serie wb_fp_cpi_totl_zg_bra
+- caso_brasil: sin datos para la serie wb_ny_gdp_pcap_kd_zg_bra
+- caso_mexico: sin datos para la serie wb_fp_cpi_totl_zg_mex
+- caso_mexico: sin datos para la serie wb_ny_gdp_pcap_kd_zg_mex
+- caso_colombia: sin datos para la serie wb_fp_cpi_totl_zg_col
+- caso_colombia: sin datos para la serie wb_ny_gdp_pcap_kd_zg_col
+- caso_colombia: sin datos para la serie wb_sl_uem_totl_zs_col
+- caso_colombia: sin datos, no se publica
+- el_nino: sin datos para la serie oni
+- el_nino: sin datos, no se publica
