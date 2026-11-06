@@ -10,7 +10,7 @@ import time
 
 import requests
 
-TIMEOUT = (20, 120)
+TIMEOUT = (20, 90)
 REINTENTOS = 3
 CABECERAS = {"User-Agent": "datos-argentina/1.0 (+https://github.com)"}
 
@@ -36,8 +36,11 @@ def pedir(url: str, params: dict | None = None, verify: bool = True) -> requests
         except requests.RequestException as e:  # red, 5xx, 4xx
             ultimo_error = e
             time.sleep(2 ** intento)
-    # Si los tres intentos fallaron al conectar, el sitio está caído o bloqueado: no se insiste
-    if isinstance(ultimo_error, requests.ConnectionError):
+    # Si los tres intentos fallaron al conectar, por tiempo de espera o porque el sitio niega el
+    # acceso (403), no se insiste con ese sitio en el resto de la corrida
+    negado = isinstance(ultimo_error, requests.HTTPError) and ultimo_error.response is not None \
+        and ultimo_error.response.status_code == 403
+    if isinstance(ultimo_error, (requests.ConnectionError, requests.Timeout)) or negado:
         _HOSTS_CAIDOS.add(host)
     raise RuntimeError(f"No se pudo descargar {url}: {ultimo_error}")
 

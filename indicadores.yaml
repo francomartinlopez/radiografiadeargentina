@@ -507,38 +507,38 @@ series:
   wb_ny_gdp_pcap_pp_kd_esp: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: ESP}
   wb_ny_gdp_pcap_pp_kd_ita: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: ITA}
   wb_ny_gdp_pcap_pp_kd_usa: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: USA}
-  imf_pcpipch_arg: {fuente: imf, id: "PCPIPCH", pais: ARG}
-  imf_pcpipch_bra: {fuente: imf, id: "PCPIPCH", pais: BRA}
-  imf_pcpipch_chl: {fuente: imf, id: "PCPIPCH", pais: CHL}
-  imf_pcpipch_ury: {fuente: imf, id: "PCPIPCH", pais: URY}
-  imf_pcpipch_mex: {fuente: imf, id: "PCPIPCH", pais: MEX}
-  imf_pcpipch_esp: {fuente: imf, id: "PCPIPCH", pais: ESP}
-  imf_pcpipch_ita: {fuente: imf, id: "PCPIPCH", pais: ITA}
-  imf_pcpipch_usa: {fuente: imf, id: "PCPIPCH", pais: USA}
-  imf_ggxwdg_ngdp_arg: {fuente: imf, id: "GGXWDG_NGDP", pais: ARG}
-  imf_ggxwdg_ngdp_bra: {fuente: imf, id: "GGXWDG_NGDP", pais: BRA}
-  imf_ggxwdg_ngdp_chl: {fuente: imf, id: "GGXWDG_NGDP", pais: CHL}
-  imf_ggxwdg_ngdp_ury: {fuente: imf, id: "GGXWDG_NGDP", pais: URY}
-  imf_ggxwdg_ngdp_mex: {fuente: imf, id: "GGXWDG_NGDP", pais: MEX}
-  imf_ggxwdg_ngdp_esp: {fuente: imf, id: "GGXWDG_NGDP", pais: ESP}
-  imf_ggxwdg_ngdp_ita: {fuente: imf, id: "GGXWDG_NGDP", pais: ITA}
-  imf_ggxwdg_ngdp_usa: {fuente: imf, id: "GGXWDG_NGDP", pais: USA}
-  imf_ggx_ngdp_arg: {fuente: imf, id: "GGX_NGDP", pais: ARG}
-  imf_ggx_ngdp_bra: {fuente: imf, id: "GGX_NGDP", pais: BRA}
-  imf_ggx_ngdp_chl: {fuente: imf, id: "GGX_NGDP", pais: CHL}
-  imf_ggx_ngdp_ury: {fuente: imf, id: "GGX_NGDP", pais: URY}
-  imf_ggx_ngdp_mex: {fuente: imf, id: "GGX_NGDP", pais: MEX}
-  imf_ggx_ngdp_esp: {fuente: imf, id: "GGX_NGDP", pais: ESP}
-  imf_ggx_ngdp_ita: {fuente: imf, id: "GGX_NGDP", pais: ITA}
-  imf_ggx_ngdp_usa: {fuente: imf, id: "GGX_NGDP", pais: USA}
-  imf_ggr_ngdp_arg: {fuente: imf, id: "GGR_NGDP", pais: ARG}
-  imf_ggr_ngdp_bra: {fuente: imf, id: "GGR_NGDP", pais: BRA}
-  imf_ggr_ngdp_chl: {fuente: imf, id: "GGR_NGDP", pais: CHL}
-  imf_ggr_ngdp_ury: {fuente: imf, id: "GGR_NGDP", pais: URY}
-  imf_ggr_ngdp_mex: {fuente: imf, id: "GGR_NGDP", pais: MEX}
-  imf_ggr_ngdp_esp: {fuente: imf, id: "GGR_NGDP", pais: ESP}
-  imf_ggr_ngdp_ita: {fuente: imf, id: "GGR_NGDP", pais: ITA}
-  imf_ggr_ngdp_usa: {fuente: imf, id: "GGR_NGDP", pais: USA}
+  imf_pcpipch_arg: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: ARG}
+  imf_pcpipch_bra: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: BRA}
+  imf_pcpipch_chl: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: CHL}
+  imf_pcpipch_ury: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: URY}
+  imf_pcpipch_mex: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: MEX}
+  imf_pcpipch_esp: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: ESP}
+  imf_pcpipch_ita: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: ITA}
+  imf_pcpipch_usa: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: USA}
+  imf_ggxwdg_ngdp_arg: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: ARG}
+  imf_ggxwdg_ngdp_bra: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: BRA}
+  imf_ggxwdg_ngdp_chl: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: CHL}
+  imf_ggxwdg_ngdp_ury: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: URY}
+  imf_ggxwdg_ngdp_mex: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: MEX}
+  imf_ggxwdg_ngdp_esp: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: ESP}
+  imf_ggxwdg_ngdp_ita: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: ITA}
+  imf_ggxwdg_ngdp_usa: {fuente: worldbank, id: "GC.DOD.TOTL.GD.ZS", pais: USA}
+  imf_ggx_ngdp_arg: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: ARG}
+  imf_ggx_ngdp_bra: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: BRA}
+  imf_ggx_ngdp_chl: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: CHL}
+  imf_ggx_ngdp_ury: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: URY}
+  imf_ggx_ngdp_mex: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: MEX}
+  imf_ggx_ngdp_esp: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: ESP}
+  imf_ggx_ngdp_ita: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: ITA}
+  imf_ggx_ngdp_usa: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: USA}
+  imf_ggr_ngdp_arg: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: ARG}
+  imf_ggr_ngdp_bra: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: BRA}
+  imf_ggr_ngdp_chl: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: CHL}
+  imf_ggr_ngdp_ury: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: URY}
+  imf_ggr_ngdp_mex: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: MEX}
+  imf_ggr_ngdp_esp: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: ESP}
+  imf_ggr_ngdp_ita: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: ITA}
+  imf_ggr_ngdp_usa: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: USA}
   wb_ne_rsb_gnfs_zs_arg: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: ARG}
   wb_ne_rsb_gnfs_zs_bra: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: BRA}
   wb_ne_rsb_gnfs_zs_chl: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: CHL}

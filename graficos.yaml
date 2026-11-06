@@ -2012,16 +2012,16 @@ graficos:
     - serie: imf_pcpipch_usa
       nombre: EE.UU.
     fuentes:
-    - nombre: FMI, World Economic Outlook (DataMapper)
-      url: https://www.imf.org/external/datamapper/PCPIPCH
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
       nivel: secundaria
       nota: Compila datos oficiales de cada país con criterios comunes
-    metodo: Serie del FMI (World Economic Outlook). Para la Argentina 2007-2015 el FMI usa estimaciones propias en reemplazo del IPC intervenido. Solo años con dato, sin proyecciones.
+    metodo: "Serie del Banco Mundial (FMI, International Financial Statistics). Para la Argentina faltan los años en que el IPC del INDEC no fue reconocido (2014-2016) y 2007-2013 refleja el índice intervenido: el IPC empalmado de este sitio es la referencia para la Argentina."
 
   - id: deuda_paises
     tema: 3
     titulo: 'Deuda pública: Argentina y otros países'
-    que_muestra: Deuda bruta del gobierno general como % del PIB.
+    que_muestra: Deuda del gobierno central como % del PIB.
     original:
       ficha: p64
       imagen: 1179
@@ -2052,16 +2052,16 @@ graficos:
     - serie: imf_ggxwdg_ngdp_usa
       nombre: EE.UU.
     fuentes:
-    - nombre: FMI, World Economic Outlook (DataMapper)
-      url: https://www.imf.org/external/datamapper/GGXWDG_NGDP
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS
       nivel: secundaria
       nota: Compila datos oficiales de cada país con criterios comunes
-    metodo: Serie del FMI (World Economic Outlook), gobierno general (Nación, provincias y municipios).
+    metodo: Deuda del gobierno central como % del PIB, Banco Mundial (FMI, Government Finance Statistics). La cobertura por país es despareja. El FMI publica la deuda del gobierno general en su World Economic Outlook, pero su sitio no permite la descarga automática.
 
   - id: gasto_paises
     tema: 3
     titulo: 'Gasto público: Argentina y otros países'
-    que_muestra: Gasto total del gobierno general como % del PIB.
+    que_muestra: Gasto del gobierno central como % del PIB.
     original:
       ficha: p65
       imagen: 1180
@@ -2092,16 +2092,16 @@ graficos:
     - serie: imf_ggx_ngdp_usa
       nombre: EE.UU.
     fuentes:
-    - nombre: FMI, World Economic Outlook (DataMapper)
-      url: https://www.imf.org/external/datamapper/GGX_NGDP
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/GC.XPN.TOTL.GD.ZS
       nivel: secundaria
       nota: Compila datos oficiales de cada país con criterios comunes
-    metodo: Serie del FMI (World Economic Outlook), gobierno general.
+    metodo: "Gasto del gobierno central como % del PIB, Banco Mundial (FMI, GFS). No incluye provincias ni municipios: en países federales (Argentina, Brasil, México, EE.UU.) subestima el gasto público total."
 
   - id: ingresos_estado_paises
     tema: 3
     titulo: 'Ingresos del Estado: Argentina y otros países'
-    que_muestra: Ingresos totales del gobierno general (impuestos, aportes y otros) como % del PIB.
+    que_muestra: Ingresos del gobierno central (impuestos, aportes y otros) como % del PIB.
     original:
       ficha: p60
       imagen: 1131
@@ -2132,11 +2132,11 @@ graficos:
     - serie: imf_ggr_ngdp_usa
       nombre: EE.UU.
     fuentes:
-    - nombre: FMI, World Economic Outlook (DataMapper)
-      url: https://www.imf.org/external/datamapper/GGR_NGDP
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/GC.REV.XGRT.GD.ZS
       nivel: secundaria
       nota: Compila datos oficiales de cada país con criterios comunes
-    metodo: Serie del FMI (World Economic Outlook), gobierno general. Es la presión fiscal 'general'; la presión sobre el sector formal (descontando la economía informal) que mostraba el original es una estimación y queda para el lote 6. Reúne las fichas p60 y p61.
+    metodo: Ingresos del gobierno central (sin donaciones) como % del PIB, Banco Mundial (FMI, GFS). No incluye provincias ni municipios. La presión sobre el sector formal (descontando la economía informal) que mostraba el original es una estimación y queda para el lote 6. Reúne las fichas p60 y p61.
 
   - id: balanza_comercial_paises
     tema: 4
