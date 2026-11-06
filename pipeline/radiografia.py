@@ -454,7 +454,12 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
         return salida, alertas
 
     series = []
-    preparadas = {sd["serie"]: preparar_serie(mensuales.get(sd["serie"]), g, mensuales) for sd in g["series"]}
+    def cruda(sd):
+        x = mensuales.get(sd["serie"])
+        if x is not None and sd.get("sin_ceros"):  # fuentes que rellenan con 0 los meses sin dato
+            x = x[x != 0]
+        return x
+    preparadas = {sd["serie"]: preparar_serie(cruda(sd), g, mensuales) for sd in g["series"]}
     if g["tipo"] == "areas":  # apiladas: se corta en el último período con dato en todas las series
         ultimos = [x.index.max() for x in preparadas.values() if x is not None and not x.empty]
         if ultimos:

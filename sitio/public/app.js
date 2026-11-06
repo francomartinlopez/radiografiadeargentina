@@ -48,6 +48,8 @@ function magnitud(unidad, maxAbs) {
   if (maxAbs >= 1e3) return { div: 1e3, unidad: `miles de millones de ${m[1]}` };
   return { div: 1, unidad };
 }
+// Decimales que necesita una marca del eje para no redondear (12,5 no debe verse como 13)
+const decEje = (x, minimo) => { for (let d = minimo; d < 2; d++) if (Math.abs(x * 10 ** d - Math.round(x * 10 ** d)) < 1e-6) return d; return 2; };
 const decimales = (v) => { const a = Math.abs(v); return a >= 100 ? 0 : a >= 10 ? 1 : 2; };
 const esDiferencia = (g) => g.tipo_valor === "tasa" || g.tipo_valor === "saldo";
 function sufijoDif(g) { if (/%/.test(g.unidad)) return " pp"; if (g.unidad === "puntos básicos") return " pb"; return ""; }
@@ -144,13 +146,13 @@ function prepararTemporal(g, estado) {
   const maxAbs = Math.max(0, ...series.flatMap((s) => s.puntos.map((p) => Math.abs(p.v))));
   let formato;
   if (enPorcentaje) {
-    formato = { eje: (y) => fmt(y, maxAbs < 10 ? 1 : 0) + "%", tip: (y) => signo(y, 1) + "%", unidadEje: "" };
+    formato = { eje: (y) => fmt(y, decEje(y, maxAbs < 10 ? 1 : 0)) + "%", tip: (y) => signo(y, 1) + "%", unidadEje: "" };
   } else if (estado.medida === "base_100") {
-    formato = { eje: (y) => fmt(y, 0), tip: (y) => fmt(y, 1), unidadEje: "base 100" };
+    formato = { eje: (y) => fmt(y, decEje(y, 0)), tip: (y) => fmt(y, 1), unidadEje: "base 100" };
   } else {
     const mg = magnitud(g.unidad, maxAbs), suf = enDif ? sufijoDif(g) : "", dec = decimales(maxAbs / mg.div);
     formato = {
-      eje: (y) => fmt(y / mg.div, Math.max(0, dec - 1)) + suf,
+      eje: (y) => fmt(y / mg.div, decEje(y / mg.div, Math.max(0, dec - 1))) + suf,
       tip: (y) => (enDif ? signo(y / mg.div, dec) : fmt(y / mg.div, dec)) + suf,
       unidadEje: enDif ? "" : mg.unidad,
     };
@@ -174,7 +176,7 @@ function prepararCategorias(g) {
   return {
     categorias, series: nombresSerie.map((n, i) => ({ nombre: n, color: css(COLORES[i % COLORES.length]),
       valores: categorias.map((c) => cats.find((x) => x.categoria === c && (x.serie || g.titulo) === n) || null) })),
-    eje: (y) => fmt(y / mg.div, Math.max(0, dec - 1)) + (pct ? "%" : ""),
+    eje: (y) => fmt(y / mg.div, decEje(y / mg.div, Math.max(0, dec - 1))) + (pct ? "%" : ""),
     tip: (y) => fmt(y / mg.div, dec) + (pct ? "%" : ""),
     unidadEje: pct ? "" : mg.unidad,
   };

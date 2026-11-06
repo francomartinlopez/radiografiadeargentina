@@ -478,6 +478,18 @@ series:
   ucii_metalmec_2006:  {fuente: datosgobar, id: "29.3_UMNIA_2006_M_42", cerrada: true}
   ucii_metales_2006:   {fuente: datosgobar, id: "29.3_UIMB_2006_M_33", cerrada: true}
   ucii_metales:        {fuente: datosgobar, id: "31.3_UIMB_2004_M_33"}
+  spn_ird_9306:        {fuente: datosgobar, id: "379.7_GTOS_CAP_I006__41_1", cerrada: true}
+  spn_ird_0714:        {fuente: datosgobar, id: "379.8_GTOS_CAP_I014__41_48", cerrada: true}
+  spn_ird_17:          {fuente: datosgobar, id: "379.9_GTOS_CAP_I017__36_40"}
+  spn_tkap_9306:       {fuente: datosgobar, id: "379.7_GTOS_CAP_T006__32_34", cerrada: true}
+  spn_tkap_0714:       {fuente: datosgobar, id: "379.8_GTOS_CAP_T014__32_34", cerrada: true}
+  spn_tkap_17:         {fuente: datosgobar, id: "379.9_GTOS_CAP_T017__27_3"}
+  natalidad:           {fuente: datosgobar, id: "tn_arg"}
+  benef_auh:           {fuente: datosgobar, id: "189.1_ASIGNACIONADO_II_0_0_44"}
+  benef_aue:           {fuente: datosgobar, id: "189.1_ASIGNACIONAZO_0_0_29"}
+  benef_desempleo:     {fuente: datosgobar, id: "189.1_PRESTACIONLEO_0_0_29"}
+  monto_auh:           {fuente: datosgobar, id: "165.1_AAUH_0_0_3"}
+  bcra_letras:         {fuente: datosgobar, id: "300.1_AP_PAS_LETNAC_0_M_33"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
