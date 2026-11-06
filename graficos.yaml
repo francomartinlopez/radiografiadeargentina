@@ -157,6 +157,19 @@ calculos:
     operacion: escala
     a: fae_privados
     factor: -1
+  isac_largo:
+    operacion: empalme
+    tramos: [{serie: isac2004_original, hasta: "2015-10"}, {serie: isac_original}]
+  isac_desest_largo:
+    operacion: empalme
+    tramos: [{serie: isac2004_desest, hasta: "2015-10"}, {serie: isac_desest}]
+  salario_privado_largo:
+    operacion: empalme
+    tramos: [{serie: salario_privado_2001, hasta: "2015-10"}, {serie: salario_privado}]
+  merval_usd_oficial:
+    operacion: cociente
+    a: merval
+    b: dolar_largo
 
 graficos:
   - id: inflacion_minorista
@@ -1057,3 +1070,295 @@ graficos:
     fuentes:
       - {nombre: "BCRA, Principales variables: tasa de préstamos personales", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp", nivel: primaria}
     metodo: "Promedio mensual de la tasa nominal anual que informa el BCRA. No incluye IVA ni gastos, a diferencia del costo financiero total (CFTEA) del original; la apertura por bancos públicos, privados y billeteras queda para el lote 5."
+
+  # ---------- Paso 3, tanda 3 (resto del lote 1: temas 6 a 22) ----------
+
+  - id: empleo_privado
+    tema: 6
+    titulo: "Empleo asalariado privado registrado"
+    que_muestra: "Cantidad de asalariados registrados en empresas privadas, sin estacionalidad."
+    original: {ficha: p154, imagen: 992}
+    tipo: lineas
+    frecuencia: M
+    desde: "2009-01"
+    unidad: "miles de personas"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    series:
+      - {serie: asal_privados_desest, nombre: "Asalariados privados registrados"}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, SIPA: asalariados registrados del sector privado", url: "https://www.argentina.gob.ar/trabajo/estadisticas/situacion-y-evolucion-del-trabajo-registrado", nivel: primaria}
+    metodo: "Serie mensual desestacionalizada del SIPA. Reúne las fichas p154 y c993 (que mostraba la variación interanual: está en el selector). La serie oficial con esta metodología empieza en 2009; los años 2001-2008 quedan para el lote 2 (series del OEDE)."
+
+  - id: empleo_por_sector
+    tema: 6
+    titulo: "Empleo registrado por sector"
+    que_muestra: "Asalariados registrados privados en la industria, el comercio, la construcción y el agro."
+    original: {ficha: p158, imagen: 1074}
+    tipo: lineas
+    frecuencia: M
+    desde: "2009-01"
+    unidad: "miles de personas"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    series:
+      - {serie: asal_comercio, nombre: "Comercio"}
+      - {serie: asal_industria, nombre: "Industria"}
+      - {serie: asal_construccion, nombre: "Construcción"}
+      - {serie: asal_agro, nombre: "Agro"}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, SIPA: asalariados registrados por rama", url: "https://www.argentina.gob.ar/trabajo/estadisticas/situacion-y-evolucion-del-trabajo-registrado", nivel: primaria}
+    metodo: "Series mensuales desestacionalizadas del SIPA por rama de actividad. Reúne las fichas p158 y p405."
+
+  - id: desocupacion_subocupacion
+    tema: 6
+    titulo: "Desocupación y subocupación"
+    que_muestra: "Porcentaje de la población activa que busca trabajo y no consigue, y de la que trabaja menos horas de las que quisiera."
+    original: {ficha: p155, imagen: 998}
+    tipo: lineas
+    frecuencia: T
+    desde: "2003-01"
+    unidad: "% de la población activa"
+    tipo_valor: tasa
+    escala: 100
+    medida_inicial: nivel
+    medidas: [nivel, variacion, interanual]
+    series:
+      - {serie: desocupacion, nombre: "Desocupación"}
+      - {serie: subocupacion, nombre: "Subocupación"}
+    fuentes:
+      - {nombre: "INDEC, Encuesta Permanente de Hogares (EPH continua), 31 aglomerados", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-31-58", nivel: primaria}
+    metodo: "Tasas trimestrales de la EPH continua, que empieza en 2003. El INDEC no publicó datos del tercer trimestre de 2015 al primero de 2016 (declaración de emergencia estadística): esos trimestres quedan vacíos."
+
+  - id: salarios_reales
+    tema: 6
+    titulo: "Salarios reales"
+    que_muestra: "Poder de compra de los salarios: índice de salarios del INDEC descontada la inflación."
+    original: {ficha: p156, imagen: 1000}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-10"
+    unidad: "índice real"
+    tipo_valor: indice
+    moneda: ARS
+    medida_inicial: base_100
+    medidas: [base_100, variacion, interanual]
+    series:
+      - {serie: salario_privado_largo, nombre: "Privado registrado"}
+      - {serie: salario_publico, nombre: "Público"}
+      - {serie: salario_no_registrado, nombre: "No registrado"}
+    fuentes:
+      - {nombre: "INDEC, Índice de salarios base 2012 (oct-2001 a oct-2015)", url: "https://datos.gob.ar/series/api/series/?ids=56.2_SPRMD_2012_M_29", nivel: primaria, hasta: "2015-10"}
+      - {nombre: "INDEC, Índice de salarios base oct-2016", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-31-61", nivel: primaria, desde: "2015-11"}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Índices nominales divididos por el IPC empalmado y llevados a base 100 al inicio del período elegido. El salario privado registrado encadena el índice viejo del INDEC (desde octubre de 2001, con las modificaciones del decreto 381/07) con el actual. Público y no registrado empiezan con el índice actual; el no registrado se publica con cinco meses de rezago y se corre a su mes de referencia. Reúne las fichas p156 y c1001."
+
+  - id: produccion_hidrocarburos
+    tema: 9
+    titulo: "Producción de petróleo y gas"
+    que_muestra: "Producción mensual de petróleo crudo y gas natural, llevadas a base 100 para compararlas."
+    original: {ficha: p233, imagen: 1042}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "índice"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: base_100
+    medidas: [base_100, interanual, acumulado_12m]
+    series:
+      - {serie: produccion_petroleo, nombre: "Petróleo"}
+      - {serie: produccion_gas, nombre: "Gas natural"}
+    fuentes:
+      - {nombre: "Secretaría de Energía, producción de petróleo y gas (capítulo IV / SESCO)", url: "https://www.argentina.gob.ar/economia/energia/hidrocarburos", nivel: primaria}
+    metodo: "Producción mensual: petróleo en miles de m³ y gas en millones de m³. Como tienen unidades distintas, se muestran en base 100 al inicio del período (el acumulado de 12 meses da los volúmenes en sus unidades)."
+
+  - id: produccion_acero
+    tema: 9
+    titulo: "Producción de acero crudo"
+    que_muestra: "Toneladas de acero crudo producidas en el país por mes."
+    original: {ficha: p234, imagen: 1084}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "miles de toneladas"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: produccion_acero, nombre: "Acero crudo"}
+    fuentes:
+      - {nombre: "Cámara Argentina del Acero, vía Ministerio de Economía (datos.gob.ar)", url: "https://www.acero.org.ar/estadisticas/", nivel: secundaria}
+    metodo: "Producción, no consumo: el original hablaba de consumo aparente (producción + importaciones − exportaciones), que no tiene serie oficial mensual y queda para el lote 5."
+
+  - id: ventas_autos
+    tema: 10
+    titulo: "Ventas de autos al mercado interno"
+    que_muestra: "Unidades vendidas por las terminales en el mercado local por mes."
+    original: {ficha: p251, imagen: 1009}
+    tipo: lineas
+    frecuencia: M
+    desde: "2007-07"
+    unidad: "unidades"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: ventas_autos, nombre: "Ventas al mercado interno"}
+    fuentes:
+      - {nombre: "ADEFA, vía Ministerio de Economía (datos.gob.ar)", url: "https://www.adefa.org.ar/es/estadisticas-mensuales", nivel: secundaria}
+    metodo: "Ventas mayoristas de las terminales (nacionales e importadas) desde julio de 2007. Los patentamientos de 2001-2007 (ACARA) quedan para el lote 5."
+
+  - id: construccion
+    tema: 11
+    titulo: "Actividad de la construcción (ISAC)"
+    que_muestra: "Indicador Sintético de la Actividad de la Construcción del INDEC, original y desestacionalizado."
+    original: {ficha: p301, imagen: 1020}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: nivel
+    series:
+      - {serie: isac_largo, nombre: "Original", color: gris}
+      - {serie: isac_desest_largo, nombre: "Desestacionalizada"}
+    fuentes:
+      - {nombre: "INDEC, ISAC base 2004", url: "https://datos.gob.ar/series/api/series/?ids=32.3_ING_2004_M_18", nivel: primaria, hasta: "2015-10"}
+      - {nombre: "INDEC, ISAC base 2012", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-3-42", nivel: primaria, desde: "2015-11"}
+    metodo: "Se encadenan las variaciones mensuales del ISAC base 2004 y del actual (base 2012); el nivel queda en la base 2012."
+
+  - id: ventas_super_shoppings
+    tema: 11
+    titulo: "Ventas en supermercados, mayoristas y shoppings"
+    que_muestra: "Ventas a precios constantes (descontada la inflación) en supermercados, autoservicios mayoristas y centros de compras."
+    original: {ficha: p305, imagen: 1296}
+    tipo: lineas
+    frecuencia: M
+    desde: "2017-01"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: base_100
+    medidas: [base_100, variacion, interanual]
+    series:
+      - {serie: supermercados_desest, nombre: "Supermercados"}
+      - {serie: autoservicios_desest, nombre: "Autoservicios mayoristas"}
+      - {serie: shoppings_desest, nombre: "Centros de compras"}
+    fuentes:
+      - {nombre: "INDEC, Encuestas de supermercados, autoservicios mayoristas y centros de compras", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-1-34", nivel: primaria}
+    metodo: "Series desestacionalizadas a precios constantes, que el INDEC publica desde 2017. Reúne las fichas p304 y p305. Las encuestas anteriores (2001-2016) tenían otra cobertura y quedan para el lote 2."
+
+  - id: pobreza_indigencia
+    tema: 13
+    titulo: "Pobreza, indigencia e inseguridad alimentaria"
+    que_muestra: "Porcentaje de personas bajo la línea de pobreza y de indigencia (INDEC) y con inseguridad alimentaria severa (UCA)."
+    original: {ficha: p333, imagen: 1340}
+    tipo: lineas
+    frecuencia: S
+    desde: "2010-01"
+    unidad: "% de las personas"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion, interanual]
+    series:
+      - {serie: pobreza_personas, nombre: "Pobreza (INDEC)"}
+      - {serie: indigencia_personas, nombre: "Indigencia (INDEC)"}
+      - {serie: odsa_ia_severa, nombre: "Inseguridad alimentaria severa (UCA)"}
+    fuentes:
+      - {nombre: "INDEC, Incidencia de la pobreza y la indigencia (EPH, 31 aglomerados)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-46-152", nivel: primaria, desde: "2016-07"}
+      - {nombre: "Observatorio de la Deuda Social Argentina (UCA)", url: "https://uca.edu.ar/es/observatorio-de-la-deuda-social-argentina", nivel: secundaria, nota: "Encuesta propia, anual, urbana"}
+    metodo: "Pobreza e indigencia semestrales del INDEC desde el segundo semestre de 2016. Inseguridad alimentaria severa anual de la UCA, que usa otra encuesta y otro concepto (hogares que redujeron la comida por falta de dinero). La desnutrición infantil del original (ficha p334) no tiene serie periódica oficial: queda para el lote 7 (temas sensibles), igual que la pobreza 2001-2015."
+
+  - id: confianza
+    tema: 18
+    titulo: "Confianza del consumidor y en el gobierno"
+    que_muestra: "Índices de la Universidad Torcuato Di Tella, llevados a base 100 para compararlos."
+    original: {ficha: p381, imagen: 1112}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-11"
+    unidad: "índice"
+    tipo_valor: indice
+    medida_inicial: base_100
+    medidas: [base_100, nivel, interanual]
+    series:
+      - {serie: icg, nombre: "Confianza en el gobierno (0 a 5)"}
+      - {serie: icc, nombre: "Confianza del consumidor (0 a 100)"}
+    fuentes:
+      - {nombre: "Universidad Torcuato Di Tella, Índice de Confianza en el Gobierno e Índice de Confianza del Consumidor", url: "https://www.utdt.edu/ver_contenido.php?id_contenido=1351", nivel: primaria, nota: "Encuestas mensuales de una universidad privada"}
+    metodo: "Encuestas mensuales nacionales. Las escalas son distintas (gobierno de 0 a 5, consumidor de 0 a 100): para compararlas conviene la vista base 100. Reúne las fichas p381 a p385, c1026 y c1027; las marcas de resultados electorales del original van como anotación en el lote 7."
+
+  - id: aprobacion_presidente
+    tema: 18
+    titulo: "Aprobación del presidente (promedio de encuestas)"
+    que_muestra: "Porcentaje que aprueba y desaprueba la gestión presidencial, promedio de encuestadoras."
+    original: {ficha: p400, imagen: 1323}
+    tipo: lineas
+    frecuencia: M
+    desde: "2015-12"
+    unidad: "%"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: aprobacion_promedio, nombre: "Aprueba"}
+      - {serie: desaprobacion_promedio, nombre: "Desaprueba"}
+    fuentes:
+      - {nombre: "Encuestadoras privadas, promedio compilado en Datos de Argentina", nivel: secundaria, nota: "Cada encuestadora usa su muestra y su pregunta"}
+    metodo: "Promedio simple mensual de las encuestas publicadas que preguntan por la aprobación de la gestión. La imagen de dirigentes (fichas p401 a p403) queda para el lote 5."
+
+  - id: homicidios
+    tema: 20
+    titulo: "Tasa de homicidios dolosos"
+    que_muestra: "Víctimas de homicidios dolosos cada 100.000 habitantes por año."
+    original: {ficha: p439, imagen: 1265}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "víctimas cada 100.000 habitantes"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: homicidios, nombre: "Homicidios dolosos"}
+    fuentes:
+      - {nombre: "Ministerio de Seguridad, Sistema Nacional de Información Criminal (SNIC)", url: "https://www.argentina.gob.ar/seguridad/estadisticascriminales", nivel: primaria}
+    metodo: "Tasa anual publicada por el SNIC sobre la base de las víctimas registradas por las fuerzas policiales y las proyecciones de población del INDEC."
+
+  - id: merval_dolares
+    tema: 22
+    titulo: "Bolsa de Buenos Aires (Merval) en dólares"
+    que_muestra: "Índice Merval medido en dólares, al tipo de cambio oficial y al contado con liquidación."
+    original: {ficha: p446, imagen: 1053}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "puntos en US$"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    series:
+      - {serie: merval_usd_oficial, nombre: "Al dólar oficial"}
+      - {serie: merval_usd, nombre: "Al contado con liquidación"}
+    fuentes:
+      - {nombre: "BYMA, índice Merval (vía Yahoo Finance)", url: "https://finance.yahoo.com/quote/%5EMERV", nivel: secundaria}
+      - {nombre: "BCRA, dólar mayorista; ArgentinaDatos, CCL", nivel: primaria}
+    metodo: "Cierre mensual del Merval dividido por el dólar del mes (1 peso = 1 dólar hasta 2001). Con cepo, el dólar relevante para un inversor es el CCL, que se publica desde 2013. El original comparaba con bolsas del mundo; esa comparación queda para el lote 4."
+
+  - id: jubilacion_real
+    tema: 22
+    titulo: "Jubilación mínima en pesos de hoy"
+    que_muestra: "Haber mínimo jubilatorio mensual, sin bonos, llevado a pesos de hoy."
+    original: {ficha: p449, imagen: 1120}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "pesos de hoy por mes"
+    tipo_valor: nivel
+    moneda: ARS
+    medida_inicial: nivel
+    series:
+      - {serie: jubilacion_minima, nombre: "Jubilación mínima"}
+    fuentes:
+      - {nombre: "ANSES, haber mínimo jubilatorio", url: "https://www.anses.gob.ar", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Haber mínimo vigente en cada mes, sin los bonos extraordinarios, llevado a pesos del último mes con dato. El gasto total en jubilaciones está en Gasto en jubilaciones y programas sociales."

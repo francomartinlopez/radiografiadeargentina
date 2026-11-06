@@ -459,10 +459,14 @@ function cifra(g) {
   const p = s.puntos[s.puntos.length - 1];
   if (!p) return null;
   const pts = s.puntos.map((q) => ({ t: fecha(q[0]), v: q[1], tramo: q[2] }));
-  if (g.medida_inicial === "variacion" || g.medida_inicial === "interanual") {
-    const med = aplicarMedida(pts, g.medida_inicial, g), u = med[med.length - 1];
+  // Índices en base 100 o reales: el nivel no dice nada solo, se muestra la variación interanual
+  const medCifra = g.medida_inicial === "base_100" ? (g.frecuencia === "A" ? "variacion" : "interanual") : g.medida_inicial;
+  if (medCifra === "variacion" || medCifra === "interanual") {
+    const med = aplicarMedida(pts, medCifra, g), u = med[med.length - 1];
+    if (!u) return null;
     const txt = esDiferencia(g) ? signo(u.v, decimales(u.v)) + sufijoDif(g) : signo(u.v) + "%";
-    return { grande: txt, chica: `${g.medida_inicial === "variacion" ? nombreVariacion(g) : "interanual"} · ${periodo(p[0], g.frecuencia)}` };
+    const prefijo = g.medida_inicial === "base_100" ? `${s.nombre}, ` : "";
+    return { grande: txt, chica: `${prefijo}${medCifra === "variacion" ? nombreVariacion(g) : "interanual"} · ${periodo(p[0], g.frecuencia)}` };
   }
   let v = p[1];
   if (g.tipo === "areas") v = g.series.reduce((t, x) => t + (x.puntos.find((q) => q[0] === p[0])?.[1] || 0), 0);
@@ -478,7 +482,7 @@ function detalle(g) {
     f.desde || f.hasta ? ` (${f.desde ? mesAnio(f.desde) : "inicio"} – ${f.hasta ? mesAnio(f.hasta) : "hoy"})` : "",
     f.nota ? `. ${f.nota}` : "")));
   const tramos = (g.tramos || []).length ? el("ul", {}, ...g.tramos.map((t) => el("li", {},
-    `⚠ ${t.tipo[0].toUpperCase() + t.tipo.slice(1)}${t.serie ? ` (${t.serie})` : ""}: ${t.desde ? mesAnio(String(t.desde)) : "inicio"} – ${t.hasta ? mesAnio(String(t.hasta)) : "hoy"}`,
+    `⚠ ${t.tipo[0].toUpperCase() + t.tipo.slice(1)}${t.serie ? ` (${(g.series.find((x) => x.serie === t.serie) || {}).nombre || t.serie})` : ""}: ${t.desde ? mesAnio(String(t.desde)) : "inicio"} – ${t.hasta ? mesAnio(String(t.hasta)) : "hoy"}`,
     t.nota ? `. ${t.nota}` : ""))) : null;
   return el("details", { class: "detalle" },
     el("summary", { text: "Fuentes y método" }),
