@@ -1,0 +1,1162 @@
+serie,fecha,valor,tramo
+Argentina,1850-01-01,1994.0,estimado
+Argentina,1860-01-01,2160.0,estimado
+Argentina,1870-01-01,2340.0,estimado
+Argentina,1875-01-01,2606.0,estimado
+Argentina,1876-01-01,2611.0,estimado
+Argentina,1877-01-01,2820.0,estimado
+Argentina,1878-01-01,2619.0,estimado
+Argentina,1879-01-01,2664.0,estimado
+Argentina,1880-01-01,2557.0,estimado
+Argentina,1881-01-01,2541.0,estimado
+Argentina,1882-01-01,3108.0,estimado
+Argentina,1883-01-01,3373.0,estimado
+Argentina,1884-01-01,3486.0,estimado
+Argentina,1885-01-01,3904.0,estimado
+Argentina,1886-01-01,3771.0,estimado
+Argentina,1887-01-01,3841.0,estimado
+Argentina,1888-01-01,4219.0,estimado
+Argentina,1889-01-01,4288.0,estimado
+Argentina,1890-01-01,3851.0,estimado
+Argentina,1891-01-01,3631.0,estimado
+Argentina,1892-01-01,4251.0,estimado
+Argentina,1893-01-01,4409.0,estimado
+Argentina,1894-01-01,4968.0,estimado
+Argentina,1895-01-01,5384.0,estimado
+Argentina,1896-01-01,5716.0,estimado
+Argentina,1897-01-01,4500.0,estimado
+Argentina,1898-01-01,4741.0,estimado
+Argentina,1899-01-01,5412.0,estimado
+Argentina,1900-01-01,4583.0,estimado
+Argentina,1901-01-01,4591.0,estimado
+Argentina,1902-01-01,4331.0,estimado
+Argentina,1903-01-01,4769.0,estimado
+Argentina,1904-01-01,5086.0,estimado
+Argentina,1905-01-01,5545.0,estimado
+Argentina,1906-01-01,5608.0,estimado
+Argentina,1907-01-01,5514.0,estimado
+Argentina,1908-01-01,5829.0,estimado
+Argentina,1909-01-01,5896.0,estimado
+Argentina,1910-01-01,6092.0,estimado
+Argentina,1911-01-01,5971.0,estimado
+Argentina,1912-01-01,6223.0,estimado
+Argentina,1913-01-01,6052.0,estimado
+Argentina,1914-01-01,5263.0,estimado
+Argentina,1915-01-01,5171.0,estimado
+Argentina,1916-01-01,4927.0,estimado
+Argentina,1917-01-01,4447.0,estimado
+Argentina,1918-01-01,5177.0,estimado
+Argentina,1919-01-01,5271.0,estimado
+Argentina,1920-01-01,5536.0,estimado
+Argentina,1921-01-01,5533.0,estimado
+Argentina,1922-01-01,5796.0,estimado
+Argentina,1923-01-01,6213.0,estimado
+Argentina,1924-01-01,6464.0,estimado
+Argentina,1925-01-01,6247.0,estimado
+Argentina,1926-01-01,6366.0,estimado
+Argentina,1927-01-01,6625.0,estimado
+Argentina,1928-01-01,6840.0,estimado
+Argentina,1929-01-01,6961.0,estimado
+Argentina,1930-01-01,6503.0,estimado
+Argentina,1931-01-01,5917.0,estimado
+Argentina,1932-01-01,5614.0,estimado
+Argentina,1933-01-01,5772.0,estimado
+Argentina,1934-01-01,6129.0,estimado
+Argentina,1935-01-01,6296.0,estimado
+Argentina,1936-01-01,6236.0,estimado
+Argentina,1937-01-01,6575.0,estimado
+Argentina,1938-01-01,6491.0,estimado
+Argentina,1939-01-01,6612.0,estimado
+Argentina,1940-01-01,6633.0,estimado
+Argentina,1941-01-01,6861.0,estimado
+Argentina,1942-01-01,6829.0,estimado
+Argentina,1943-01-01,6666.0,estimado
+Argentina,1944-01-01,7299.0,estimado
+Argentina,1945-01-01,6943.0,estimado
+Argentina,1946-01-01,7436.0,estimado
+Argentina,1947-01-01,8112.0,estimado
+Argentina,1948-01-01,8372.0,estimado
+Argentina,1949-01-01,8045.0,estimado
+Argentina,1950-01-01,7949.0,observado
+Argentina,1951-01-01,8086.0,observado
+Argentina,1952-01-01,7519.0,observado
+Argentina,1953-01-01,7769.0,observado
+Argentina,1954-01-01,7938.0,observado
+Argentina,1955-01-01,8348.0,observado
+Argentina,1956-01-01,8424.0,observado
+Argentina,1957-01-01,8705.0,observado
+Argentina,1958-01-01,9083.0,observado
+Argentina,1959-01-01,8354.0,observado
+Argentina,1960-01-01,8861.0,observado
+Argentina,1961-01-01,9344.0,observado
+Argentina,1962-01-01,9049.0,observado
+Argentina,1963-01-01,8695.0,observado
+Argentina,1964-01-01,9446.0,observado
+Argentina,1965-01-01,10155.0,observado
+Argentina,1966-01-01,10076.0,observado
+Argentina,1967-01-01,10200.0,observado
+Argentina,1968-01-01,10485.0,observado
+Argentina,1969-01-01,11217.0,observado
+Argentina,1970-01-01,11639.0,observado
+Argentina,1971-01-01,12003.0,observado
+Argentina,1972-01-01,12170.0,observado
+Argentina,1973-01-01,12691.0,observado
+Argentina,1974-01-01,13284.0,observado
+Argentina,1975-01-01,12946.0,observado
+Argentina,1976-01-01,12696.0,observado
+Argentina,1977-01-01,13236.0,observado
+Argentina,1978-01-01,12444.0,observado
+Argentina,1979-01-01,13114.0,observado
+Argentina,1980-01-01,13080.0,observado
+Argentina,1981-01-01,12125.0,observado
+Argentina,1982-01-01,11550.0,observado
+Argentina,1983-01-01,11775.0,observado
+Argentina,1984-01-01,11837.0,observado
+Argentina,1985-01-01,10895.0,observado
+Argentina,1986-01-01,11515.0,observado
+Argentina,1987-01-01,11633.0,observado
+Argentina,1988-01-01,11244.0,observado
+Argentina,1989-01-01,10393.0,observado
+Argentina,1990-01-01,10254.0,observado
+Argentina,1991-01-01,11223.9846,observado
+Argentina,1992-01-01,12267.0836,observado
+Argentina,1993-01-01,12926.7947,observado
+Argentina,1994-01-01,13571.3794,observado
+Argentina,1995-01-01,13086.0365,observado
+Argentina,1996-01-01,13715.2268,observado
+Argentina,1997-01-01,14722.6459,observado
+Argentina,1998-01-01,15185.9587,observado
+Argentina,1999-01-01,14577.8323,observado
+Argentina,2000-01-01,14368.9427,observado
+Argentina,2001-01-01,13651.981,observado
+Argentina,2002-01-01,12094.7728,observado
+Argentina,2003-01-01,13088.565,observado
+Argentina,2004-01-01,14183.2251,observado
+Argentina,2005-01-01,15344.1571,observado
+Argentina,2006-01-01,16490.4736,observado
+Argentina,2007-01-01,17891.9434,observado
+Argentina,2008-01-01,18520.3041,observado
+Argentina,2009-01-01,17328.9758,observado
+Argentina,2010-01-01,18979.9917,observado
+Argentina,2011-01-01,20003.0,observado
+Argentina,2012-01-01,19599.0,observado
+Argentina,2013-01-01,19873.0,observado
+Argentina,2014-01-01,19183.0,observado
+Argentina,2015-01-01,19502.0,observado
+Argentina,2016-01-01,18875.0,observado
+Argentina,2017-01-01,19200.9061,observado
+Argentina,2018-01-01,18556.3831,observado
+Brasil,1850-01-01,867.0,estimado
+Brasil,1851-01-01,926.0,estimado
+Brasil,1852-01-01,901.0,estimado
+Brasil,1853-01-01,846.0,estimado
+Brasil,1854-01-01,818.0,estimado
+Brasil,1855-01-01,824.0,estimado
+Brasil,1856-01-01,854.0,estimado
+Brasil,1857-01-01,915.0,estimado
+Brasil,1858-01-01,974.0,estimado
+Brasil,1859-01-01,966.0,estimado
+Brasil,1860-01-01,991.0,estimado
+Brasil,1861-01-01,982.0,estimado
+Brasil,1862-01-01,936.0,estimado
+Brasil,1863-01-01,956.0,estimado
+Brasil,1864-01-01,971.0,estimado
+Brasil,1865-01-01,1042.0,estimado
+Brasil,1866-01-01,1081.0,estimado
+Brasil,1867-01-01,1170.0,estimado
+Brasil,1868-01-01,1170.0,estimado
+Brasil,1869-01-01,1170.0,estimado
+Brasil,1870-01-01,1084.0,estimado
+Brasil,1871-01-01,1084.0,estimado
+Brasil,1872-01-01,1122.0,estimado
+Brasil,1873-01-01,1089.0,estimado
+Brasil,1874-01-01,1106.0,estimado
+Brasil,1875-01-01,1122.0,estimado
+Brasil,1876-01-01,1081.0,estimado
+Brasil,1877-01-01,1050.0,estimado
+Brasil,1878-01-01,1101.0,estimado
+Brasil,1879-01-01,1109.0,estimado
+Brasil,1880-01-01,1058.0,estimado
+Brasil,1881-01-01,1068.0,estimado
+Brasil,1882-01-01,1093.0,estimado
+Brasil,1883-01-01,1063.0,estimado
+Brasil,1884-01-01,1135.0,estimado
+Brasil,1885-01-01,1055.0,estimado
+Brasil,1886-01-01,1089.0,estimado
+Brasil,1887-01-01,1017.0,estimado
+Brasil,1888-01-01,977.0,estimado
+Brasil,1889-01-01,991.0,estimado
+Brasil,1890-01-01,1084.0,estimado
+Brasil,1891-01-01,1152.0,estimado
+Brasil,1892-01-01,999.0,estimado
+Brasil,1893-01-01,850.0,estimado
+Brasil,1894-01-01,850.0,estimado
+Brasil,1895-01-01,1007.0,estimado
+Brasil,1896-01-01,915.0,estimado
+Brasil,1897-01-01,901.0,estimado
+Brasil,1898-01-01,923.0,estimado
+Brasil,1899-01-01,905.0,estimado
+Brasil,1900-01-01,874.0,estimado
+Brasil,1901-01-01,940.0,estimado
+Brasil,1902-01-01,921.0,estimado
+Brasil,1903-01-01,920.0,estimado
+Brasil,1904-01-01,918.0,estimado
+Brasil,1905-01-01,925.0,estimado
+Brasil,1906-01-01,993.0,estimado
+Brasil,1907-01-01,972.0,estimado
+Brasil,1908-01-01,945.0,estimado
+Brasil,1909-01-01,999.0,estimado
+Brasil,1910-01-01,990.0,estimado
+Brasil,1911-01-01,1076.0,estimado
+Brasil,1912-01-01,1042.0,estimado
+Brasil,1913-01-01,1046.0,estimado
+Brasil,1914-01-01,1004.0,estimado
+Brasil,1915-01-01,1028.0,estimado
+Brasil,1916-01-01,1036.0,estimado
+Brasil,1917-01-01,1086.0,estimado
+Brasil,1918-01-01,1041.0,estimado
+Brasil,1919-01-01,1154.0,estimado
+Brasil,1920-01-01,1242.0,estimado
+Brasil,1921-01-01,1242.0,estimado
+Brasil,1922-01-01,1301.0,estimado
+Brasil,1923-01-01,1347.0,estimado
+Brasil,1924-01-01,1320.0,estimado
+Brasil,1925-01-01,1298.0,estimado
+Brasil,1926-01-01,1299.0,estimado
+Brasil,1927-01-01,1366.0,estimado
+Brasil,1928-01-01,1492.0,estimado
+Brasil,1929-01-01,1465.0,estimado
+Brasil,1930-01-01,1350.0,estimado
+Brasil,1931-01-01,1294.0,estimado
+Brasil,1932-01-01,1312.0,estimado
+Brasil,1933-01-01,1387.0,estimado
+Brasil,1934-01-01,1471.0,estimado
+Brasil,1935-01-01,1482.0,estimado
+Brasil,1936-01-01,1591.0,estimado
+Brasil,1937-01-01,1610.0,estimado
+Brasil,1938-01-01,1643.0,estimado
+Brasil,1939-01-01,1627.0,estimado
+Brasil,1940-01-01,1610.0,estimado
+Brasil,1941-01-01,1683.0,estimado
+Brasil,1942-01-01,1584.0,estimado
+Brasil,1943-01-01,1763.0,estimado
+Brasil,1944-01-01,1785.0,estimado
+Brasil,1945-01-01,1792.0,estimado
+Brasil,1946-01-01,1934.0,estimado
+Brasil,1947-01-01,1956.0,estimado
+Brasil,1948-01-01,2096.0,estimado
+Brasil,1949-01-01,2204.0,estimado
+Brasil,1950-01-01,2236.0,observado
+Brasil,1951-01-01,2279.0,observado
+Brasil,1952-01-01,2377.0,observado
+Brasil,1953-01-01,2418.0,observado
+Brasil,1954-01-01,2531.0,observado
+Brasil,1955-01-01,2675.0,observado
+Brasil,1956-01-01,2672.0,observado
+Brasil,1957-01-01,2793.0,observado
+Brasil,1958-01-01,3005.0,observado
+Brasil,1959-01-01,3201.0,observado
+Brasil,1960-01-01,3398.0,observado
+Brasil,1961-01-01,3585.0,observado
+Brasil,1962-01-01,3711.0,observado
+Brasil,1963-01-01,3623.0,observado
+Brasil,1964-01-01,3637.0,observado
+Brasil,1965-01-01,3617.0,observado
+Brasil,1966-01-01,3747.0,observado
+Brasil,1967-01-01,3795.0,observado
+Brasil,1968-01-01,4050.0,observado
+Brasil,1969-01-01,4313.0,observado
+Brasil,1970-01-01,4635.0,observado
+Brasil,1971-01-01,5024.0,observado
+Brasil,1972-01-01,5480.0,observado
+Brasil,1973-01-01,6086.0,observado
+Brasil,1974-01-01,6416.0,observado
+Brasil,1975-01-01,6582.0,observado
+Brasil,1976-01-01,7079.0,observado
+Brasil,1977-01-01,7248.0,observado
+Brasil,1978-01-01,7425.0,observado
+Brasil,1979-01-01,7736.0,observado
+Brasil,1980-01-01,8249.0,observado
+Brasil,1981-01-01,7709.0,observado
+Brasil,1982-01-01,7587.0,observado
+Brasil,1983-01-01,7203.0,observado
+Brasil,1984-01-01,7438.0,observado
+Brasil,1985-01-01,7862.0,observado
+Brasil,1986-01-01,8281.0,observado
+Brasil,1987-01-01,8402.0,observado
+Brasil,1988-01-01,8230.0,observado
+Brasil,1989-01-01,8333.0,observado
+Brasil,1990-01-01,7842.0,observado
+Brasil,1991-01-01,7888.0485,observado
+Brasil,1992-01-01,7812.7943,observado
+Brasil,1993-01-01,8166.2356,observado
+Brasil,1994-01-01,8615.6887,observado
+Brasil,1995-01-01,8951.6944,observado
+Brasil,1996-01-01,9124.5161,observado
+Brasil,1997-01-01,9409.9465,observado
+Brasil,1998-01-01,9419.1079,observado
+Brasil,1999-01-01,9441.7589,observado
+Brasil,2000-01-01,9834.4244,observado
+Brasil,2001-01-01,9953.3095,observado
+Brasil,2002-01-01,10245.0689,observado
+Brasil,2003-01-01,10354.5954,observado
+Brasil,2004-01-01,10949.6601,observado
+Brasil,2005-01-01,11305.7717,observado
+Brasil,2006-01-01,11766.6057,observado
+Brasil,2007-01-01,12500.0064,observado
+Brasil,2008-01-01,13164.0113,observado
+Brasil,2009-01-01,13180.8909,observado
+Brasil,2010-01-01,14215.6126,observado
+Brasil,2011-01-01,14831.0,observado
+Brasil,2012-01-01,14985.0,observado
+Brasil,2013-01-01,15306.0,observado
+Brasil,2014-01-01,15258.0,observado
+Brasil,2015-01-01,15826.0,observado
+Brasil,2016-01-01,13873.0,observado
+Brasil,2017-01-01,13951.5999,observado
+Brasil,2018-01-01,14033.5656,observado
+España,1850-01-01,1706.0,estimado
+España,1851-01-01,1720.0,estimado
+España,1852-01-01,1785.0,estimado
+España,1853-01-01,1785.0,estimado
+España,1854-01-01,1804.0,estimado
+España,1855-01-01,1892.0,estimado
+España,1856-01-01,1800.0,estimado
+España,1857-01-01,1742.0,estimado
+España,1858-01-01,1774.0,estimado
+España,1859-01-01,1862.0,estimado
+España,1860-01-01,1930.0,estimado
+España,1861-01-01,1932.0,estimado
+España,1862-01-01,1932.0,estimado
+España,1863-01-01,1959.0,estimado
+España,1864-01-01,1946.0,estimado
+España,1865-01-01,1865.0,estimado
+España,1866-01-01,1977.0,estimado
+España,1867-01-01,1946.0,estimado
+España,1868-01-01,1701.0,estimado
+España,1869-01-01,1760.0,estimado
+España,1870-01-01,1809.0,estimado
+España,1871-01-01,1948.0,estimado
+España,1872-01-01,2246.0,estimado
+España,1873-01-01,2428.0,estimado
+España,1874-01-01,2216.0,estimado
+España,1875-01-01,2276.0,estimado
+España,1876-01-01,2346.0,estimado
+España,1877-01-01,2601.0,estimado
+España,1878-01-01,2495.0,estimado
+España,1879-01-01,2316.0,estimado
+España,1880-01-01,2520.0,estimado
+España,1881-01-01,2538.0,estimado
+España,1882-01-01,2547.0,estimado
+España,1883-01-01,2582.0,estimado
+España,1884-01-01,2590.0,estimado
+España,1885-01-01,2493.0,estimado
+España,1886-01-01,2436.0,estimado
+España,1887-01-01,2381.0,estimado
+España,1888-01-01,2475.0,estimado
+España,1889-01-01,2469.0,estimado
+España,1890-01-01,2463.0,estimado
+España,1891-01-01,2509.0,estimado
+España,1892-01-01,2719.0,estimado
+España,1893-01-01,2603.0,estimado
+España,1894-01-01,2633.0,estimado
+España,1895-01-01,2589.0,estimado
+España,1896-01-01,2330.0,estimado
+España,1897-01-01,2469.0,estimado
+España,1898-01-01,2628.0,estimado
+España,1899-01-01,2636.0,estimado
+España,1900-01-01,2676.0,estimado
+España,1901-01-01,2885.0,estimado
+España,1902-01-01,2740.0,estimado
+España,1903-01-01,2713.0,estimado
+España,1904-01-01,2660.0,estimado
+España,1905-01-01,2622.0,estimado
+España,1906-01-01,2775.0,estimado
+España,1907-01-01,2828.0,estimado
+España,1908-01-01,2917.0,estimado
+España,1909-01-01,2978.0,estimado
+España,1910-01-01,2823.0,estimado
+España,1911-01-01,3027.0,estimado
+España,1912-01-01,2915.0,estimado
+España,1913-01-01,3067.0,estimado
+España,1914-01-01,2962.0,estimado
+España,1915-01-01,2973.0,estimado
+España,1916-01-01,3076.0,estimado
+España,1917-01-01,3014.0,estimado
+España,1918-01-01,2979.0,estimado
+España,1919-01-01,3024.0,estimado
+España,1920-01-01,3244.0,estimado
+España,1921-01-01,3322.0,estimado
+España,1922-01-01,3427.0,estimado
+España,1923-01-01,3433.0,estimado
+España,1924-01-01,3518.0,estimado
+España,1925-01-01,3725.0,estimado
+España,1926-01-01,3650.0,estimado
+España,1927-01-01,3959.0,estimado
+España,1928-01-01,3907.0,estimado
+España,1929-01-01,4173.0,estimado
+España,1930-01-01,3923.0,estimado
+España,1931-01-01,3787.0,estimado
+España,1932-01-01,3856.0,estimado
+España,1933-01-01,3690.0,estimado
+España,1934-01-01,3783.0,estimado
+España,1935-01-01,3806.0,estimado
+España,1936-01-01,2876.0,estimado
+España,1937-01-01,2654.0,estimado
+España,1938-01-01,2636.0,estimado
+España,1939-01-01,2885.0,estimado
+España,1940-01-01,3170.0,estimado
+España,1941-01-01,3191.0,estimado
+España,1942-01-01,3394.0,estimado
+España,1943-01-01,3551.0,estimado
+España,1944-01-01,3676.0,estimado
+España,1945-01-01,3357.0,estimado
+España,1946-01-01,3473.0,estimado
+España,1947-01-01,3513.0,estimado
+España,1948-01-01,3478.0,estimado
+España,1949-01-01,3435.0,estimado
+España,1950-01-01,3464.0,observado
+España,1951-01-01,3790.0,observado
+España,1952-01-01,4105.0,observado
+España,1953-01-01,4066.0,observado
+España,1954-01-01,4328.0,observado
+España,1955-01-01,4442.0,observado
+España,1956-01-01,4769.0,observado
+España,1957-01-01,4900.0,observado
+España,1958-01-01,5176.0,observado
+España,1959-01-01,5085.0,observado
+España,1960-01-01,5037.0,observado
+España,1961-01-01,5587.0,observado
+España,1962-01-01,6083.0,observado
+España,1963-01-01,6639.0,observado
+España,1964-01-01,6945.0,observado
+España,1965-01-01,7420.0,observado
+España,1966-01-01,7881.0,observado
+España,1967-01-01,8215.0,observado
+España,1968-01-01,8606.0,observado
+España,1969-01-01,9307.0,observado
+España,1970-01-01,9511.0,observado
+España,1971-01-01,9894.0,observado
+España,1972-01-01,10796.0,observado
+España,1973-01-01,11638.0,observado
+España,1974-01-01,12388.0,observado
+España,1975-01-01,12621.0,observado
+España,1976-01-01,13053.0,observado
+España,1977-01-01,13342.0,observado
+España,1978-01-01,13573.0,observado
+España,1979-01-01,13681.0,observado
+España,1980-01-01,14008.0,observado
+España,1981-01-01,13895.0,observado
+España,1982-01-01,14045.0,observado
+España,1983-01-01,14237.0,observado
+España,1984-01-01,14308.0,observado
+España,1985-01-01,14690.0,observado
+España,1986-01-01,15237.0,observado
+España,1987-01-01,16268.0,observado
+España,1988-01-01,17272.0,observado
+España,1989-01-01,18359.0,observado
+España,1990-01-01,19215.0,observado
+España,1991-01-01,19958.0596,observado
+España,1992-01-01,20329.1677,observado
+España,1993-01-01,20056.5396,observado
+España,1994-01-01,20673.9544,observado
+España,1995-01-01,21522.0968,observado
+España,1996-01-01,22185.0668,observado
+España,1997-01-01,23113.6151,observado
+España,1998-01-01,24284.8613,observado
+España,1999-01-01,25549.5396,observado
+España,2000-01-01,26994.8601,observado
+España,2001-01-01,28153.5536,observado
+España,2002-01-01,28753.3228,observado
+España,2003-01-01,29371.8649,observado
+España,2004-01-01,30088.0926,observado
+España,2005-01-01,30885.602,observado
+España,2006-01-01,31907.4235,observado
+España,2007-01-01,32735.4331,observado
+España,2008-01-01,32844.3261,observado
+España,2009-01-01,31669.6906,observado
+España,2010-01-01,31786.404,observado
+España,2011-01-01,31600.0,observado
+España,2012-01-01,30699.0,observado
+España,2013-01-01,30280.0,observado
+España,2014-01-01,30819.0,observado
+España,2015-01-01,31847.0,observado
+España,2016-01-01,30110.0,observado
+España,2017-01-01,30908.1195,observado
+España,2018-01-01,31496.52,observado
+Italia,1850-01-01,2611.3115,estimado
+Italia,1851-01-01,2611.3115,estimado
+Italia,1852-01-01,2572.9098,estimado
+Italia,1853-01-01,2519.1475,estimado
+Italia,1854-01-01,2350.1803,estimado
+Italia,1855-01-01,2373.2213,estimado
+Italia,1856-01-01,2380.9016,estimado
+Italia,1857-01-01,2572.9098,estimado
+Italia,1858-01-01,2672.7541,estimado
+Italia,1859-01-01,2588.2705,estimado
+Italia,1860-01-01,2572.9098,estimado
+Italia,1861-01-01,2557.5492,estimado
+Italia,1862-01-01,2634.3525,estimado
+Italia,1863-01-01,2688.1148,estimado
+Italia,1864-01-01,2642.0328,estimado
+Italia,1865-01-01,2780.2787,estimado
+Italia,1866-01-01,2588.2705,estimado
+Italia,1867-01-01,2611.3115,estimado
+Italia,1868-01-01,2626.6721,estimado
+Italia,1869-01-01,2695.7951,estimado
+Italia,1870-01-01,2826.3607,estimado
+Italia,1871-01-01,2811.12,estimado
+Italia,1872-01-01,2593.0,estimado
+Italia,1873-01-01,2581.0,estimado
+Italia,1874-01-01,2715.0,estimado
+Italia,1875-01-01,2727.0,estimado
+Italia,1876-01-01,2662.0,estimado
+Italia,1877-01-01,2678.0,estimado
+Italia,1878-01-01,2745.0,estimado
+Italia,1879-01-01,2753.0,estimado
+Italia,1880-01-01,2796.0,estimado
+Italia,1881-01-01,2880.0,estimado
+Italia,1882-01-01,2915.0,estimado
+Italia,1883-01-01,2942.0,estimado
+Italia,1884-01-01,2898.0,estimado
+Italia,1885-01-01,2941.0,estimado
+Italia,1886-01-01,3005.0,estimado
+Italia,1887-01-01,3081.0,estimado
+Italia,1888-01-01,3065.0,estimado
+Italia,1889-01-01,2971.0,estimado
+Italia,1890-01-01,2974.0,estimado
+Italia,1891-01-01,3014.0,estimado
+Italia,1892-01-01,3017.0,estimado
+Italia,1893-01-01,3064.0,estimado
+Italia,1894-01-01,3081.0,estimado
+Italia,1895-01-01,3107.0,estimado
+Italia,1896-01-01,3153.0,estimado
+Italia,1897-01-01,3158.0,estimado
+Italia,1898-01-01,3145.0,estimado
+Italia,1899-01-01,3180.0,estimado
+Italia,1900-01-01,3264.0,estimado
+Italia,1901-01-01,3317.0,estimado
+Italia,1902-01-01,3371.0,estimado
+Italia,1903-01-01,3402.0,estimado
+Italia,1904-01-01,3461.0,estimado
+Italia,1905-01-01,3532.0,estimado
+Italia,1906-01-01,3652.0,estimado
+Italia,1907-01-01,3716.0,estimado
+Italia,1908-01-01,3795.0,estimado
+Italia,1909-01-01,3826.0,estimado
+Italia,1910-01-01,3829.0,estimado
+Italia,1911-01-01,3870.0,estimado
+Italia,1912-01-01,3875.0,estimado
+Italia,1913-01-01,4057.0,estimado
+Italia,1914-01-01,3835.0,estimado
+Italia,1915-01-01,3642.0,estimado
+Italia,1916-01-01,3942.0,estimado
+Italia,1917-01-01,3955.0,estimado
+Italia,1918-01-01,3856.0,estimado
+Italia,1919-01-01,3701.0,estimado
+Italia,1920-01-01,3789.0,estimado
+Italia,1921-01-01,3660.0,estimado
+Italia,1922-01-01,3928.0,estimado
+Italia,1923-01-01,4248.0,estimado
+Italia,1924-01-01,4324.0,estimado
+Italia,1925-01-01,4580.0,estimado
+Italia,1926-01-01,4576.0,estimado
+Italia,1927-01-01,4454.0,estimado
+Italia,1928-01-01,4693.0,estimado
+Italia,1929-01-01,4889.0,estimado
+Italia,1930-01-01,4631.0,estimado
+Italia,1931-01-01,4538.0,estimado
+Italia,1932-01-01,4602.0,estimado
+Italia,1933-01-01,4514.0,estimado
+Italia,1934-01-01,4466.0,estimado
+Italia,1935-01-01,4670.0,estimado
+Italia,1936-01-01,4471.0,estimado
+Italia,1937-01-01,4879.0,estimado
+Italia,1938-01-01,4981.0,estimado
+Italia,1939-01-01,5246.0,estimado
+Italia,1940-01-01,5099.0,estimado
+Italia,1941-01-01,4967.0,estimado
+Italia,1942-01-01,4661.0,estimado
+Italia,1943-01-01,3931.0,estimado
+Italia,1944-01-01,3162.0,estimado
+Italia,1945-01-01,2831.0,estimado
+Italia,1946-01-01,3805.0,estimado
+Italia,1947-01-01,4498.0,estimado
+Italia,1948-01-01,4814.0,estimado
+Italia,1949-01-01,5188.0,estimado
+Italia,1950-01-01,5582.0,observado
+Italia,1951-01-01,5958.0,observado
+Italia,1952-01-01,6371.0,observado
+Italia,1953-01-01,6790.0,observado
+Italia,1954-01-01,7092.0,observado
+Italia,1955-01-01,7453.0,observado
+Italia,1956-01-01,7745.0,observado
+Italia,1957-01-01,8158.0,observado
+Italia,1958-01-01,8544.0,observado
+Italia,1959-01-01,9011.0,observado
+Italia,1960-01-01,9430.0,observado
+Italia,1961-01-01,10158.0,observado
+Italia,1962-01-01,10882.0,observado
+Italia,1963-01-01,11576.0,observado
+Italia,1964-01-01,11934.0,observado
+Italia,1965-01-01,12111.0,observado
+Italia,1966-01-01,12659.0,observado
+Italia,1967-01-01,13476.0,observado
+Italia,1968-01-01,14513.0,observado
+Italia,1969-01-01,15248.0,observado
+Italia,1970-01-01,15492.0,observado
+Italia,1971-01-01,15683.0,observado
+Italia,1972-01-01,16035.0,observado
+Italia,1973-01-01,16950.0,observado
+Italia,1974-01-01,17607.0,observado
+Italia,1975-01-01,17123.0,observado
+Italia,1976-01-01,18147.0,observado
+Italia,1977-01-01,18599.0,observado
+Italia,1978-01-01,19230.0,observado
+Italia,1979-01-01,20275.0,observado
+Italia,1980-01-01,20959.0,observado
+Italia,1981-01-01,21041.0,observado
+Italia,1982-01-01,21123.0,observado
+Italia,1983-01-01,21345.0,observado
+Italia,1984-01-01,21868.0,observado
+Italia,1985-01-01,22469.0,observado
+Italia,1986-01-01,23106.0,observado
+Italia,1987-01-01,23824.0,observado
+Italia,1988-01-01,24743.0,observado
+Italia,1989-01-01,25454.0,observado
+Italia,1990-01-01,26003.0,observado
+Italia,1991-01-01,26570.363,observado
+Italia,1992-01-01,26960.6108,observado
+Italia,1993-01-01,26902.3982,observado
+Italia,1994-01-01,27668.258,observado
+Italia,1995-01-01,28666.3523,observado
+Italia,1996-01-01,29231.2756,observado
+Italia,1997-01-01,29960.6998,observado
+Italia,1998-01-01,30649.6291,observado
+Italia,1999-01-01,31340.4814,observado
+Italia,2000-01-01,32716.9801,observado
+Italia,2001-01-01,33511.4333,observado
+Italia,2002-01-01,33780.054,observado
+Italia,2003-01-01,33917.7994,observado
+Italia,2004-01-01,34472.1276,observado
+Italia,2005-01-01,34872.1266,observado
+Italia,2006-01-01,35713.8042,observado
+Italia,2007-01-01,36310.7349,observado
+Italia,2008-01-01,35942.9393,observado
+Italia,2009-01-01,34055.2256,observado
+Italia,2010-01-01,34765.9379,observado
+Italia,2011-01-01,35151.0,observado
+Italia,2012-01-01,34068.0,observado
+Italia,2013-01-01,33094.0,observado
+Italia,2014-01-01,32829.0,observado
+Italia,2015-01-01,33118.0,observado
+Italia,2016-01-01,33419.0,observado
+Italia,2017-01-01,34027.3374,observado
+Italia,2018-01-01,34364.1682,observado
+Gran Bretaña,1850-01-01,4332.0,estimado
+Gran Bretaña,1851-01-01,4477.0,estimado
+Gran Bretaña,1852-01-01,4626.0,estimado
+Gran Bretaña,1853-01-01,4734.0,estimado
+Gran Bretaña,1854-01-01,4909.0,estimado
+Gran Bretaña,1855-01-01,4748.0,estimado
+Gran Bretaña,1856-01-01,5013.0,estimado
+Gran Bretaña,1857-01-01,5019.0,estimado
+Gran Bretaña,1858-01-01,4879.0,estimado
+Gran Bretaña,1859-01-01,5031.0,estimado
+Gran Bretaña,1860-01-01,5086.0,estimado
+Gran Bretaña,1861-01-01,5024.0,estimado
+Gran Bretaña,1862-01-01,4764.0,estimado
+Gran Bretaña,1863-01-01,5165.0,estimado
+Gran Bretaña,1864-01-01,5255.0,estimado
+Gran Bretaña,1865-01-01,5333.0,estimado
+Gran Bretaña,1866-01-01,5451.0,estimado
+Gran Bretaña,1867-01-01,5424.0,estimado
+Gran Bretaña,1868-01-01,5636.0,estimado
+Gran Bretaña,1869-01-01,5635.0,estimado
+Gran Bretaña,1870-01-01,5829.0,estimado
+Gran Bretaña,1871-01-01,5797.0,estimado
+Gran Bretaña,1872-01-01,5769.0,estimado
+Gran Bretaña,1873-01-01,5842.0,estimado
+Gran Bretaña,1874-01-01,5874.0,estimado
+Gran Bretaña,1875-01-01,5950.0,estimado
+Gran Bretaña,1876-01-01,5938.0,estimado
+Gran Bretaña,1877-01-01,5923.0,estimado
+Gran Bretaña,1878-01-01,5879.0,estimado
+Gran Bretaña,1879-01-01,5786.0,estimado
+Gran Bretaña,1880-01-01,5997.0,estimado
+Gran Bretaña,1881-01-01,6146.0,estimado
+Gran Bretaña,1882-01-01,6269.0,estimado
+Gran Bretaña,1883-01-01,6264.0,estimado
+Gran Bretaña,1884-01-01,6220.0,estimado
+Gran Bretaña,1885-01-01,6132.0,estimado
+Gran Bretaña,1886-01-01,6170.0,estimado
+Gran Bretaña,1887-01-01,6358.0,estimado
+Gran Bretaña,1888-01-01,6585.0,estimado
+Gran Bretaña,1889-01-01,6876.0,estimado
+Gran Bretaña,1890-01-01,6845.0,estimado
+Gran Bretaña,1891-01-01,6781.0,estimado
+Gran Bretaña,1892-01-01,6553.0,estimado
+Gran Bretaña,1893-01-01,6486.0,estimado
+Gran Bretaña,1894-01-01,6851.0,estimado
+Gran Bretaña,1895-01-01,6996.0,estimado
+Gran Bretaña,1896-01-01,7211.0,estimado
+Gran Bretaña,1897-01-01,7229.0,estimado
+Gran Bretaña,1898-01-01,7500.0,estimado
+Gran Bretaña,1899-01-01,7729.0,estimado
+Gran Bretaña,1900-01-01,7594.0,estimado
+Gran Bretaña,1901-01-01,7516.0,estimado
+Gran Bretaña,1902-01-01,7635.0,estimado
+Gran Bretaña,1903-01-01,7482.0,estimado
+Gran Bretaña,1904-01-01,7455.0,estimado
+Gran Bretaña,1905-01-01,7603.0,estimado
+Gran Bretaña,1906-01-01,7782.0,estimado
+Gran Bretaña,1907-01-01,7855.0,estimado
+Gran Bretaña,1908-01-01,7461.0,estimado
+Gran Bretaña,1909-01-01,7557.0,estimado
+Gran Bretaña,1910-01-01,7718.0,estimado
+Gran Bretaña,1911-01-01,7874.0,estimado
+Gran Bretaña,1912-01-01,7954.0,estimado
+Gran Bretaña,1913-01-01,8212.0,estimado
+Gran Bretaña,1914-01-01,8131.0,estimado
+Gran Bretaña,1915-01-01,8639.0,estimado
+Gran Bretaña,1916-01-01,8702.0,estimado
+Gran Bretaña,1917-01-01,8665.0,estimado
+Gran Bretaña,1918-01-01,8630.0,estimado
+Gran Bretaña,1919-01-01,7605.0,estimado
+Gran Bretaña,1920-01-01,7017.0,estimado
+Gran Bretaña,1921-01-01,6792.0,estimado
+Gran Bretaña,1922-01-01,7391.0,estimado
+Gran Bretaña,1923-01-01,7587.0,estimado
+Gran Bretaña,1924-01-01,7844.0,estimado
+Gran Bretaña,1925-01-01,8199.0,estimado
+Gran Bretaña,1926-01-01,7868.0,estimado
+Gran Bretaña,1927-01-01,8472.0,estimado
+Gran Bretaña,1928-01-01,8539.0,estimado
+Gran Bretaña,1929-01-01,8772.0,estimado
+Gran Bretaña,1930-01-01,8673.0,estimado
+Gran Bretaña,1931-01-01,8190.0,estimado
+Gran Bretaña,1932-01-01,8206.0,estimado
+Gran Bretaña,1933-01-01,8411.0,estimado
+Gran Bretaña,1934-01-01,8939.0,estimado
+Gran Bretaña,1935-01-01,9244.0,estimado
+Gran Bretaña,1936-01-01,9620.0,estimado
+Gran Bretaña,1937-01-01,9911.0,estimado
+Gran Bretaña,1938-01-01,9988.0,estimado
+Gran Bretaña,1939-01-01,9982.0,estimado
+Gran Bretaña,1940-01-01,10928.0,estimado
+Gran Bretaña,1941-01-01,11926.0,estimado
+Gran Bretaña,1942-01-01,12176.0,estimado
+Gran Bretaña,1943-01-01,12344.0,estimado
+Gran Bretaña,1944-01-01,11803.0,estimado
+Gran Bretaña,1945-01-01,11247.0,estimado
+Gran Bretaña,1946-01-01,10751.0,estimado
+Gran Bretaña,1947-01-01,10527.0,estimado
+Gran Bretaña,1948-01-01,10753.0,estimado
+Gran Bretaña,1949-01-01,11088.0,estimado
+Gran Bretaña,1950-01-01,11061.0,observado
+Gran Bretaña,1951-01-01,11354.0,observado
+Gran Bretaña,1952-01-01,11303.0,observado
+Gran Bretaña,1953-01-01,11709.0,observado
+Gran Bretaña,1954-01-01,12145.0,observado
+Gran Bretaña,1955-01-01,12541.0,observado
+Gran Bretaña,1956-01-01,12639.0,observado
+Gran Bretaña,1957-01-01,12779.0,observado
+Gran Bretaña,1958-01-01,12698.0,observado
+Gran Bretaña,1959-01-01,13134.0,observado
+Gran Bretaña,1960-01-01,13780.0,observado
+Gran Bretaña,1961-01-01,14118.0,observado
+Gran Bretaña,1962-01-01,14131.0,observado
+Gran Bretaña,1963-01-01,14583.0,observado
+Gran Bretaña,1964-01-01,15251.0,observado
+Gran Bretaña,1965-01-01,15545.0,observado
+Gran Bretaña,1966-01-01,15757.0,observado
+Gran Bretaña,1967-01-01,16018.0,observado
+Gran Bretaña,1968-01-01,16593.0,observado
+Gran Bretaña,1969-01-01,16820.0,observado
+Gran Bretaña,1970-01-01,17162.0,observado
+Gran Bretaña,1971-01-01,17440.0,observado
+Gran Bretaña,1972-01-01,18002.0,observado
+Gran Bretaña,1973-01-01,19168.0,observado
+Gran Bretaña,1974-01-01,18903.0,observado
+Gran Bretaña,1975-01-01,18884.0,observado
+Gran Bretaña,1976-01-01,19311.0,observado
+Gran Bretaña,1977-01-01,19740.0,observado
+Gran Bretaña,1978-01-01,20448.0,observado
+Gran Bretaña,1979-01-01,20988.0,observado
+Gran Bretaña,1980-01-01,20612.0,observado
+Gran Bretaña,1981-01-01,20319.0,observado
+Gran Bretaña,1982-01-01,20650.0,observado
+Gran Bretaña,1983-01-01,21366.0,observado
+Gran Bretaña,1984-01-01,21869.0,observado
+Gran Bretaña,1985-01-01,22579.0,observado
+Gran Bretaña,1986-01-01,23498.0,observado
+Gran Bretaña,1987-01-01,24536.0,observado
+Gran Bretaña,1988-01-01,25679.0,observado
+Gran Bretaña,1989-01-01,26164.0,observado
+Gran Bretaña,1990-01-01,26189.0,observado
+Gran Bretaña,1991-01-01,25792.0128,observado
+Gran Bretaña,1992-01-01,25790.1847,observado
+Gran Bretaña,1993-01-01,26349.342,observado
+Gran Bretaña,1994-01-01,27277.5428,observado
+Gran Bretaña,1995-01-01,27861.2158,observado
+Gran Bretaña,1996-01-01,28472.2482,observado
+Gran Bretaña,1997-01-01,29259.7638,observado
+Gran Bretaña,1998-01-01,30077.3845,observado
+Gran Bretaña,1999-01-01,30932.5362,observado
+Gran Bretaña,2000-01-01,31946.0363,observado
+Gran Bretaña,2001-01-01,32660.4414,observado
+Gran Bretaña,2002-01-01,33271.3025,observado
+Gran Bretaña,2003-01-01,34232.4267,observado
+Gran Bretaña,2004-01-01,34865.7827,observado
+Gran Bretaña,2005-01-01,35623.6256,observado
+Gran Bretaña,2006-01-01,36214.0688,observado
+Gran Bretaña,2007-01-01,36816.6771,observado
+Gran Bretaña,2008-01-01,36264.7906,observado
+Gran Bretaña,2009-01-01,34402.358,observado
+Gran Bretaña,2010-01-01,34754.4723,observado
+Gran Bretaña,2011-01-01,34971.0,observado
+Gran Bretaña,2012-01-01,35185.0,observado
+Gran Bretaña,2013-01-01,35618.0,observado
+Gran Bretaña,2014-01-01,36436.0,observado
+Gran Bretaña,2015-01-01,36941.0,observado
+Gran Bretaña,2016-01-01,37334.0,observado
+Gran Bretaña,2017-01-01,37782.8283,observado
+Gran Bretaña,2018-01-01,38058.0856,observado
+Australia,1850-01-01,3148.0,estimado
+Australia,1851-01-01,3736.0,estimado
+Australia,1852-01-01,4382.0,estimado
+Australia,1853-01-01,4798.0,estimado
+Australia,1854-01-01,4202.0,estimado
+Australia,1855-01-01,3988.0,estimado
+Australia,1856-01-01,4866.0,estimado
+Australia,1857-01-01,4294.0,estimado
+Australia,1858-01-01,3661.0,estimado
+Australia,1859-01-01,4728.0,estimado
+Australia,1860-01-01,4613.0,estimado
+Australia,1861-01-01,4544.0,estimado
+Australia,1862-01-01,4368.0,estimado
+Australia,1863-01-01,4352.0,estimado
+Australia,1864-01-01,4616.0,estimado
+Australia,1865-01-01,4403.0,estimado
+Australia,1866-01-01,4532.0,estimado
+Australia,1867-01-01,4956.0,estimado
+Australia,1868-01-01,5031.0,estimado
+Australia,1869-01-01,4932.0,estimado
+Australia,1870-01-01,5217.0,estimado
+Australia,1871-01-01,5259.0,estimado
+Australia,1872-01-01,5663.0,estimado
+Australia,1873-01-01,6095.0,estimado
+Australia,1874-01-01,6113.0,estimado
+Australia,1875-01-01,6596.0,estimado
+Australia,1876-01-01,6387.0,estimado
+Australia,1877-01-01,6433.0,estimado
+Australia,1878-01-01,6817.0,estimado
+Australia,1879-01-01,6703.0,estimado
+Australia,1880-01-01,6830.0,estimado
+Australia,1881-01-01,7101.0,estimado
+Australia,1882-01-01,6476.0,estimado
+Australia,1883-01-01,7133.0,estimado
+Australia,1884-01-01,6861.0,estimado
+Australia,1885-01-01,7049.0,estimado
+Australia,1886-01-01,6900.0,estimado
+Australia,1887-01-01,7383.0,estimado
+Australia,1888-01-01,7179.0,estimado
+Australia,1889-01-01,7567.0,estimado
+Australia,1890-01-01,7106.0,estimado
+Australia,1891-01-01,7438.0,estimado
+Australia,1892-01-01,6368.0,estimado
+Australia,1893-01-01,5910.0,estimado
+Australia,1894-01-01,6003.0,estimado
+Australia,1895-01-01,5558.0,estimado
+Australia,1896-01-01,5874.0,estimado
+Australia,1897-01-01,5451.0,estimado
+Australia,1898-01-01,6202.0,estimado
+Australia,1899-01-01,6121.0,estimado
+Australia,1900-01-01,6397.0,estimado
+Australia,1901-01-01,6119.0,estimado
+Australia,1902-01-01,6094.0,estimado
+Australia,1903-01-01,6497.0,estimado
+Australia,1904-01-01,6846.0,estimado
+Australia,1905-01-01,6825.0,estimado
+Australia,1906-01-01,7184.0,estimado
+Australia,1907-01-01,7358.0,estimado
+Australia,1908-01-01,7481.0,estimado
+Australia,1909-01-01,7940.0,estimado
+Australia,1910-01-01,8305.0,estimado
+Australia,1911-01-01,8136.0,estimado
+Australia,1912-01-01,8126.0,estimado
+Australia,1913-01-01,8220.0,estimado
+Australia,1914-01-01,8013.0,estimado
+Australia,1915-01-01,7806.0,estimado
+Australia,1916-01-01,7775.0,estimado
+Australia,1917-01-01,7637.0,estimado
+Australia,1918-01-01,7336.0,estimado
+Australia,1919-01-01,7517.0,estimado
+Australia,1920-01-01,7597.0,estimado
+Australia,1921-01-01,7828.0,estimado
+Australia,1922-01-01,8072.0,estimado
+Australia,1923-01-01,8276.0,estimado
+Australia,1924-01-01,8635.0,estimado
+Australia,1925-01-01,8851.0,estimado
+Australia,1926-01-01,8883.0,estimado
+Australia,1927-01-01,8837.0,estimado
+Australia,1928-01-01,8690.0,estimado
+Australia,1929-01-01,8389.0,estimado
+Australia,1930-01-01,7504.0,estimado
+Australia,1931-01-01,6940.0,estimado
+Australia,1932-01-01,7275.0,estimado
+Australia,1933-01-01,7718.0,estimado
+Australia,1934-01-01,8066.0,estimado
+Australia,1935-01-01,8477.0,estimado
+Australia,1936-01-01,8792.0,estimado
+Australia,1937-01-01,9159.0,estimado
+Australia,1938-01-01,9382.0,estimado
+Australia,1939-01-01,9318.0,estimado
+Australia,1940-01-01,9828.0,estimado
+Australia,1941-01-01,10820.0,estimado
+Australia,1942-01-01,11963.0,estimado
+Australia,1943-01-01,12278.0,estimado
+Australia,1944-01-01,11735.0,estimado
+Australia,1945-01-01,11026.0,estimado
+Australia,1946-01-01,10512.0,estimado
+Australia,1947-01-01,10622.0,estimado
+Australia,1948-01-01,11105.0,estimado
+Australia,1949-01-01,11536.0,estimado
+Australia,1950-01-01,11815.0,observado
+Australia,1951-01-01,11966.0,observado
+Australia,1952-01-01,11824.0,observado
+Australia,1953-01-01,11963.0,observado
+Australia,1954-01-01,12419.0,observado
+Australia,1955-01-01,12795.0,observado
+Australia,1956-01-01,12924.0,observado
+Australia,1957-01-01,12895.0,observado
+Australia,1958-01-01,13238.0,observado
+Australia,1959-01-01,13753.0,observado
+Australia,1960-01-01,14013.0,observado
+Australia,1961-01-01,13793.0,observado
+Australia,1962-01-01,14389.0,observado
+Australia,1963-01-01,14983.0,observado
+Australia,1964-01-01,15699.0,observado
+Australia,1965-01-01,16182.0,observado
+Australia,1966-01-01,16324.0,observado
+Australia,1967-01-01,17108.0,observado
+Australia,1968-01-01,17770.0,observado
+Australia,1969-01-01,18428.0,observado
+Australia,1970-01-01,19166.0,observado
+Australia,1971-01-01,19590.0,observado
+Australia,1972-01-01,19772.0,observado
+Australia,1973-01-01,20527.0,observado
+Australia,1974-01-01,20698.0,observado
+Australia,1975-01-01,20993.0,observado
+Australia,1976-01-01,21613.0,observado
+Australia,1977-01-01,21592.0,observado
+Australia,1978-01-01,21948.0,observado
+Australia,1979-01-01,22826.0,observado
+Australia,1980-01-01,22972.0,observado
+Australia,1981-01-01,23368.0,observado
+Australia,1982-01-01,22972.0,observado
+Australia,1983-01-01,22697.0,observado
+Australia,1984-01-01,24009.0,observado
+Australia,1985-01-01,24927.0,observado
+Australia,1986-01-01,25116.0,observado
+Australia,1987-01-01,25971.0,observado
+Australia,1988-01-01,26702.0,observado
+Australia,1989-01-01,27407.0,observado
+Australia,1990-01-01,27373.0,observado
+Australia,1991-01-01,26861.275,observado
+Australia,1992-01-01,27560.1783,observado
+Australia,1993-01-01,28622.4758,observado
+Australia,1994-01-01,29844.1713,observado
+Australia,1995-01-01,30690.0624,observado
+Australia,1996-01-01,31740.4697,observado
+Australia,1997-01-01,32857.9938,observado
+Australia,1998-01-01,34337.1394,observado
+Australia,1999-01-01,35551.0195,observado
+Australia,2000-01-01,36603.045,observado
+Australia,2001-01-01,37275.9912,observado
+Australia,2002-01-01,38567.0655,observado
+Australia,2003-01-01,39523.6552,observado
+Australia,2004-01-01,40887.7253,observado
+Australia,2005-01-01,41904.4459,observado
+Australia,2006-01-01,42650.9859,observado
+Australia,2007-01-01,44033.5838,observado
+Australia,2008-01-01,44421.6405,observado
+Australia,2009-01-01,44686.5414,observado
+Australia,2010-01-01,45400.2234,observado
+Australia,2011-01-01,46132.0,observado
+Australia,2012-01-01,46999.0,observado
+Australia,2013-01-01,47250.0,observado
+Australia,2014-01-01,47867.0,observado
+Australia,2015-01-01,48357.0,observado
+Australia,2016-01-01,48845.0,observado
+Australia,2017-01-01,49265.6135,observado
+Australia,2018-01-01,49830.7993,observado
+EE.UU.,1850-01-01,3631.82,estimado
+EE.UU.,1851-01-01,3778.3784,estimado
+EE.UU.,1852-01-01,3971.2184,estimado
+EE.UU.,1853-01-01,4242.48,estimado
+EE.UU.,1854-01-01,4254.0504,estimado
+EE.UU.,1855-01-01,4161.4872,estimado
+EE.UU.,1856-01-01,4247.6224,estimado
+EE.UU.,1857-01-01,4156.3448,estimado
+EE.UU.,1858-01-01,4176.9144,estimado
+EE.UU.,1859-01-01,4288.7616,estimado
+EE.UU.,1860-01-01,4401.8944,estimado
+EE.UU.,1861-01-01,4311.9024,estimado
+EE.UU.,1862-01-01,4446.8904,estimado
+EE.UU.,1863-01-01,4733.5792,estimado
+EE.UU.,1864-01-01,4889.1368,estimado
+EE.UU.,1865-01-01,4637.1592,estimado
+EE.UU.,1866-01-01,4599.8768,estimado
+EE.UU.,1867-01-01,4751.5776,estimado
+EE.UU.,1868-01-01,4815.8576,estimado
+EE.UU.,1869-01-01,4943.132,estimado
+EE.UU.,1870-01-01,4803.0016,estimado
+EE.UU.,1871-01-01,4918.7056,estimado
+EE.UU.,1872-01-01,4991.9848,estimado
+EE.UU.,1873-01-01,5116.688,estimado
+EE.UU.,1874-01-01,4964.9872,estimado
+EE.UU.,1875-01-01,5105.1176,estimado
+EE.UU.,1876-01-01,5049.8368,estimado
+EE.UU.,1877-01-01,5098.6896,estimado
+EE.UU.,1878-01-01,5198.9664,estimado
+EE.UU.,1879-01-01,5715.7776,estimado
+EE.UU.,1880-01-01,6255.7296,estimado
+EE.UU.,1881-01-01,6317.4384,estimado
+EE.UU.,1882-01-01,6557.8456,estimado
+EE.UU.,1883-01-01,6559.1312,estimado
+EE.UU.,1884-01-01,6523.1344,estimado
+EE.UU.,1885-01-01,6424.1432,estimado
+EE.UU.,1886-01-01,6471.7104,estimado
+EE.UU.,1887-01-01,6616.9832,estimado
+EE.UU.,1888-01-01,6447.284,estimado
+EE.UU.,1889-01-01,6705.6896,estimado
+EE.UU.,1890-01-01,6664.5504,estimado
+EE.UU.,1891-01-01,6811.1088,estimado
+EE.UU.,1892-01-01,7324.0632,estimado
+EE.UU.,1893-01-01,6834.2496,estimado
+EE.UU.,1894-01-01,6510.2784,estimado
+EE.UU.,1895-01-01,7159.5064,estimado
+EE.UU.,1896-01-01,6885.6736,estimado
+EE.UU.,1897-01-01,7406.3416,estimado
+EE.UU.,1898-01-01,7426.9112,estimado
+EE.UU.,1899-01-01,7959.1496,estimado
+EE.UU.,1900-01-01,8037.5712,estimado
+EE.UU.,1901-01-01,8770.3632,estimado
+EE.UU.,1902-01-01,8684.228,estimado
+EE.UU.,1903-01-01,8941.348,estimado
+EE.UU.,1904-01-01,8663.6584,estimado
+EE.UU.,1905-01-01,9121.332,estimado
+EE.UU.,1906-01-01,9980.1128,estimado
+EE.UU.,1907-01-01,9950.544,estimado
+EE.UU.,1908-01-01,8975.9761,estimado
+EE.UU.,1909-01-01,9798.1182,estimado
+EE.UU.,1910-01-01,9636.7827,estimado
+EE.UU.,1911-01-01,9735.8893,estimado
+EE.UU.,1912-01-01,9976.5671,estimado
+EE.UU.,1913-01-01,10107.9694,estimado
+EE.UU.,1914-01-01,9096.372,estimado
+EE.UU.,1915-01-01,9164.1768,estimado
+EE.UU.,1916-01-01,10222.3199,estimado
+EE.UU.,1917-01-01,9769.078,estimado
+EE.UU.,1918-01-01,10471.3058,estimado
+EE.UU.,1919-01-01,10449.7803,estimado
+EE.UU.,1920-01-01,10152.9271,estimado
+EE.UU.,1921-01-01,9674.8805,estimado
+EE.UU.,1922-01-01,10009.7153,estimado
+EE.UU.,1923-01-01,11071.243,estimado
+EE.UU.,1924-01-01,11126.713,estimado
+EE.UU.,1925-01-01,11149.772,estimado
+EE.UU.,1926-01-01,11647.7678,estimado
+EE.UU.,1927-01-01,11532.3979,estimado
+EE.UU.,1928-01-01,11451.069,estimado
+EE.UU.,1929-01-01,11954.2353,estimado
+EE.UU.,1930-01-01,10694.9821,estimado
+EE.UU.,1931-01-01,9930.9634,estimado
+EE.UU.,1932-01-01,8380.5044,estimado
+EE.UU.,1933-01-01,8048.2245,estimado
+EE.UU.,1934-01-01,8667.0918,estimado
+EE.UU.,1935-01-01,9680.8386,estimado
+EE.UU.,1936-01-01,10568.0124,estimado
+EE.UU.,1937-01-01,11295.0989,estimado
+EE.UU.,1938-01-01,10526.1336,estimado
+EE.UU.,1939-01-01,11171.4481,estimado
+EE.UU.,1940-01-01,12005.0952,estimado
+EE.UU.,1941-01-01,13553.4017,estimado
+EE.UU.,1942-01-01,14869.8612,estimado
+EE.UU.,1943-01-01,16050.2174,estimado
+EE.UU.,1944-01-01,16999.3272,estimado
+EE.UU.,1945-01-01,16477.5518,estimado
+EE.UU.,1946-01-01,14822.4665,estimado
+EE.UU.,1947-01-01,14311.5472,estimado
+EE.UU.,1948-01-01,14734.2321,estimado
+EE.UU.,1949-01-01,14196.672,estimado
+EE.UU.,1950-01-01,15240.0,observado
+EE.UU.,1951-01-01,16125.0,observado
+EE.UU.,1952-01-01,16444.0,observado
+EE.UU.,1953-01-01,16917.0,observado
+EE.UU.,1954-01-01,16512.0,observado
+EE.UU.,1955-01-01,17370.0,observado
+EE.UU.,1956-01-01,17397.0,observado
+EE.UU.,1957-01-01,17406.0,observado
+EE.UU.,1958-01-01,16946.0,observado
+EE.UU.,1959-01-01,17900.0,observado
+EE.UU.,1960-01-01,18057.0,observado
+EE.UU.,1961-01-01,18175.0,observado
+EE.UU.,1962-01-01,18976.0,observado
+EE.UU.,1963-01-01,19514.0,observado
+EE.UU.,1964-01-01,20360.0,observado
+EE.UU.,1965-01-01,21390.0,observado
+EE.UU.,1966-01-01,22529.0,observado
+EE.UU.,1967-01-01,22842.0,observado
+EE.UU.,1968-01-01,23691.0,observado
+EE.UU.,1969-01-01,24195.0,observado
+EE.UU.,1970-01-01,23958.0,observado
+EE.UU.,1971-01-01,24394.0,observado
+EE.UU.,1972-01-01,25414.0,observado
+EE.UU.,1973-01-01,26602.0,observado
+EE.UU.,1974-01-01,26286.0,observado
+EE.UU.,1975-01-01,25956.0,observado
+EE.UU.,1976-01-01,27058.0,observado
+EE.UU.,1977-01-01,28001.0,observado
+EE.UU.,1978-01-01,29286.0,observado
+EE.UU.,1979-01-01,29949.0,observado
+EE.UU.,1980-01-01,29611.0,observado
+EE.UU.,1981-01-01,30056.0,observado
+EE.UU.,1982-01-01,29210.0,observado
+EE.UU.,1983-01-01,30158.0,observado
+EE.UU.,1984-01-01,32076.0,observado
+EE.UU.,1985-01-01,33023.0,observado
+EE.UU.,1986-01-01,33850.0,observado
+EE.UU.,1987-01-01,34730.0,observado
+EE.UU.,1988-01-01,35863.0,observado
+EE.UU.,1989-01-01,36756.0,observado
+EE.UU.,1990-01-01,36982.0,observado
+EE.UU.,1991-01-01,36463.9576,observado
+EE.UU.,1992-01-01,37240.299,observado
+EE.UU.,1993-01-01,37761.5352,observado
+EE.UU.,1994-01-01,38807.28,observado
+EE.UU.,1995-01-01,39390.6254,observado
+EE.UU.,1996-01-01,40412.751,observado
+EE.UU.,1997-01-01,41722.6703,observado
+EE.UU.,1998-01-01,43072.758,observado
+EE.UU.,1999-01-01,44575.8486,observado
+EE.UU.,2000-01-01,45886.4705,observado
+EE.UU.,2001-01-01,45878.0092,observado
+EE.UU.,2002-01-01,46266.2959,observado
+EE.UU.,2003-01-01,47157.9953,observado
+EE.UU.,2004-01-01,48492.7171,observado
+EE.UU.,2005-01-01,49654.7614,observado
+EE.UU.,2006-01-01,50489.86,observado
+EE.UU.,2007-01-01,50901.7447,observado
+EE.UU.,2008-01-01,50275.7463,observado
+EE.UU.,2009-01-01,48452.9335,observado
+EE.UU.,2010-01-01,49266.9159,observado
+EE.UU.,2011-01-01,49675.0,observado
+EE.UU.,2012-01-01,50394.0,observado
+EE.UU.,2013-01-01,50863.0,observado
+EE.UU.,2014-01-01,51664.0,observado
+EE.UU.,2015-01-01,52591.0,observado
+EE.UU.,2016-01-01,53015.0,observado
+EE.UU.,2017-01-01,54007.7698,observado
+EE.UU.,2018-01-01,55334.7394,observado

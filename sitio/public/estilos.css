@@ -141,3 +141,5 @@ details.detalle p { margin: 4px 0; }
 
 .pie { margin-top: 48px; padding: 24px 0 40px; border-top: 1px solid var(--borde); font-size: 13px; color: var(--tinta-3); }
 .pie p { margin: 4px 0; }
+.segmentos button:disabled { opacity: 0.4; cursor: not-allowed; }
+.grafico.burbujas { height: 320px; }

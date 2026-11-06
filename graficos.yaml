@@ -143,3 +143,123 @@ graficos:
     fuentes:
       - {nombre: "JP Morgan, EMBI Argentina (vía ArgentinaDatos)", url: "https://argentinadatos.com", nivel: secundaria, nota: "JP Morgan no publica la serie abierta; se toma de una compilación pública."}
     metodo: "Promedio mensual del dato diario."
+
+  - id: recaudacion_por_impuesto
+    tema: 3
+    titulo: "Recaudación por impuesto"
+    que_muestra: "Recaudación nacional por tipo de impuesto (IVA, Ganancias, seguridad social, cheque, combustibles, retenciones, aranceles y el resto), en pesos de hoy."
+    original: {ficha: p56, imagen: 1108}
+    tipo: areas
+    frecuencia: M
+    desde: "2003-01"
+    unidad: "millones de pesos de hoy"
+    tipo_valor: flujo
+    moneda: ARS
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: rec_iva, nombre: "IVA"}
+      - {serie: rec_ganancias, nombre: "Ganancias"}
+      - {serie: rec_seguridad_social, nombre: "Seguridad social"}
+      - {serie: rec_cheque, nombre: "Cheque"}
+      - {serie: rec_combustibles, nombre: "Combustibles"}
+      - {serie: rec_derechos_exportacion, nombre: "Retenciones"}
+      - {serie: rec_derechos_importacion, nombre: "Aranceles"}
+      - {serie: rec_resto, nombre: "Resto"}
+    fuentes:
+      - {nombre: "ARCA (ex AFIP), recaudación mensual por impuesto", url: "https://www.afip.gob.ar/institucional/estudios/recaudacion-mensual.asp", nivel: primaria}
+      - {nombre: "Ministerio de Economía, recaudación tributaria total", url: "https://www.argentina.gob.ar/economia/ingresospublicos/recaudacion", nivel: primaria, nota: "Para calcular el resto"}
+    metodo: "Recaudación mensual de cada impuesto en pesos corrientes, llevada a pesos de hoy con el IPC empalmado. «Resto» es el total menos los impuestos mostrados (Bienes Personales, internos, monotributo impositivo y otros)."
+
+  - id: saldo_comercial
+    tema: 4
+    titulo: "Balanza comercial"
+    que_muestra: "Exportaciones menos importaciones de bienes de cada mes, en dólares de hoy. Arriba de cero, superávit; abajo, déficit."
+    original: {ficha: p106, imagen: 1038}
+    tipo: barras
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "millones de US$ de hoy"
+    tipo_valor: saldo
+    moneda: USD
+    flujo: true
+    medida_inicial: nivel
+    series:
+      - {serie: saldo_comercial, nombre: "Saldo comercial"}
+    fuentes:
+      - {nombre: "INDEC, Intercambio comercial argentino (ICA)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-2-40", nivel: primaria}
+      - {nombre: "FRED, IPC de Estados Unidos (CPI-U)", url: "https://fred.stlouisfed.org/series/CPIAUCSL", nivel: primaria, nota: "Deflactor de los dólares"}
+    metodo: "Exportaciones menos importaciones en dólares corrientes, llevadas a dólares del último mes con dato con el IPC de Estados Unidos."
+
+  - id: inflacion_por_gobierno
+    tema: 2
+    titulo: "Inflación mensual promedio por gobierno"
+    que_muestra: "Promedio de la inflación mensual (IPC empalmado) durante cada gobierno, desde De la Rúa."
+    original: {ficha: p25, imagen: 1031}
+    tipo: barras_gobierno
+    frecuencia: M
+    desde: "2000-01"
+    unidad: "% mensual promedio"
+    tipo_valor: tasa
+    medida_por_gobierno: variacion
+    agregar_por_gobierno: promedio
+    series:
+      - {serie: ipc, nombre: "Inflación mensual"}
+    fuentes:
+      - {nombre: "IPC empalmado: INDEC (GBA hasta 2006 y nacional desde 2017), San Luis (2007–2012) y Ciudad de Buenos Aires (2012–2016)", nivel: primaria}
+    metodo: "Variación mensual del IPC empalmado, promediada para los meses de cada gobierno. El mes de una asunción cuenta para quien gobernó la mayor parte de ese mes. El gobierno actual incluye hasta el último dato."
+
+  - id: sectores_actividad_empleo
+    tema: 6
+    titulo: "Actividad y empleo por sector"
+    que_muestra: "Cada burbuja es un sector: a la derecha, los que más crecieron en actividad; arriba, los que más empleo concentran. El color indica si sumaron o perdieron asalariados registrados en el último año."
+    original: {ficha: p404, imagen: 1124}
+    tipo: burbujas
+    frecuencia: M
+    unidad: ""
+    eje_x: "Actividad: variación interanual promedio de los últimos 6 meses (%)"
+    eje_y: "Participación en el empleo asalariado registrado (%)"
+    meses: 6
+    burbujas:
+      - {categoria: "Agro", x: emae_agro, y: asal_agro}
+      - {categoria: "Pesca", x: emae_pesca, y: asal_pesca}
+      - {categoria: "Minería y petróleo", x: emae_mineria, y: asal_mineria}
+      - {categoria: "Industria", x: emae_industria, y: asal_industria}
+      - {categoria: "Electricidad, gas y agua", x: emae_egu, y: asal_egu}
+      - {categoria: "Construcción", x: isac_original, y: asal_construccion}
+      - {categoria: "Comercio", x: emae_comercio, y: asal_comercio}
+      - {categoria: "Hoteles y restaurantes", x: emae_hoteles, y: asal_hoteles}
+      - {categoria: "Transporte y comunicaciones", x: emae_transporte, y: asal_transporte}
+      - {categoria: "Inmobiliarias y servicios a empresas", x: emae_inmobiliario, y: asal_inmobiliarias}
+      - {categoria: "Enseñanza", x: emae_ensenanza, y: asal_ensenanza}
+      - {categoria: "Salud", x: emae_salud, y: asal_salud}
+    fuentes:
+      - {nombre: "INDEC, EMAE por rama de actividad", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48", nivel: primaria}
+      - {nombre: "INDEC, ISAC (construcción)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-3-42", nivel: primaria}
+      - {nombre: "Secretaría de Trabajo, SIPA: asalariados privados registrados por rama", url: "https://www.argentina.gob.ar/trabajo/estadisticas", nivel: primaria}
+    metodo: "Actividad: promedio de la variación interanual de los últimos 6 meses del EMAE de cada rama; para construcción, el ISAC. Empleo: asalariados privados registrados del SIPA en el último mes con dato de todas las ramas; la participación se calcula sobre la suma de las ramas mostradas. Creó/perdió empleo: variación interanual de esos asalariados mayor a +0,5% o menor a −0,5%."
+
+  - id: pib_per_capita_largo
+    tema: 19
+    titulo: "PIB por habitante desde 1850"
+    que_muestra: "Producto por habitante de la Argentina y de seis países de referencia, en dólares internacionales de 2011 (paridad de poder adquisitivo)."
+    original: {ficha: p18, imagen: 1427}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1850"
+    unidad: "US$ de 2011 (PPA)"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    series:
+      - {serie: pibpc_maddison_arg, nombre: "Argentina"}
+      - {serie: pibpc_maddison_bra, nombre: "Brasil"}
+      - {serie: pibpc_maddison_esp, nombre: "España"}
+      - {serie: pibpc_maddison_ita, nombre: "Italia"}
+      - {serie: pibpc_maddison_gbr, nombre: "Gran Bretaña"}
+      - {serie: pibpc_maddison_aus, nombre: "Australia"}
+      - {serie: pibpc_maddison_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "Maddison Project Database 2020 (Bolt y van Zanden), vía Our World in Data", url: "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2020", nivel: secundaria, nota: "Compila estimaciones de historiadores económicos y estadísticas oficiales de cada país."}
+    metodo: "PIB real por habitante en dólares internacionales de 2011. Antes de 1950 hay años sin dato (sobre todo en Brasil y en el siglo XIX): la línea une los años con dato. La serie llega a 2018, el último año de esta edición."
+    tramos:
+      - {hasta: "1949-12", tipo: estimado, nota: "Antes de 1950 los valores son reconstrucciones históricas del Maddison Project, con mayor margen de error que las cuentas nacionales posteriores."}

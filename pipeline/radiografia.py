@@ -68,7 +68,12 @@ def validar(catalogo: dict, base: dict) -> list[str]:
         for t in g.get("tramos", []):
             if t.get("tipo") not in TRAMOS:
                 errores.append(f"{gid}: tramo con tipo '{t.get('tipo')}' no válido")
-        if g.get("categorias"):
+        if g.get("burbujas"):
+            for b in g["burbujas"]:
+                for k in ("x", "y"):
+                    if b.get(k) not in conocidas:
+                        errores.append(f"{gid}: la serie '{b.get(k)}' no está en indicadores.yaml")
+        elif g.get("categorias"):
             if not (CATEGORIAS / f"{g['categorias']}.csv").exists():
                 errores.append(f"{gid}: no existe data/categorias/{g['categorias']}.csv")
         else:
@@ -114,6 +119,9 @@ def subconfig(base: dict, catalogo: dict) -> dict:
     for g in catalogo.get("graficos", []):
         for s in g.get("series", []):
             dependencias(s["serie"], base, necesarias)
+        for b in g.get("burbujas", []):
+            dependencias(b["x"], base, necesarias)
+            dependencias(b["y"], base, necesarias)
         if g.get("moneda"):
             dependencias(DEFLACTORES[g["moneda"]], base, necesarias)
     calc_orden = [n for n in base.get("calculos", {}) if n in necesarias]
@@ -249,13 +257,48 @@ def leer_categorias(nombre: str) -> list[dict]:
     return filas
 
 
+def burbujas_de_series(g: dict, mensuales: dict) -> tuple[list[dict], list[str]]:
+    """Burbujas a partir de pares de series (p. ej. actividad y empleo por sector).
+
+    x: variación interanual promedio de los últimos `meses` meses de la serie x (actividad).
+    y: participación de la serie y en la suma de todas las y (empleo), en el último mes común.
+    tamano: nivel de y. grupo: según la variación interanual de y (creó / destruyó / sin cambios).
+    """
+    meses = int(g.get("meses", 6))
+    umbral = float(g.get("umbral_grupo", 0.5))
+    pares, alertas = [], []
+    for b in g["burbujas"]:
+        sx, sy = mensuales.get(b["x"]), mensuales.get(b["y"])
+        if sx is None or sy is None:
+            alertas.append(f"{g['id']}: falta {b['x'] if sx is None else b['y']}")
+            continue
+        pares.append((b, sx.dropna(), sy.dropna()))
+    if not pares:
+        return [], alertas
+    fin = min(min(sx.index.max(), sy.index.max()) for _, sx, sy in pares)
+    total_y = sum(float(sy.get(fin, float("nan"))) for _, _, sy in pares)
+    salida = []
+    for b, sx, sy in pares:
+        ia = ((sx / sx.shift(12) - 1) * 100).dropna()
+        ia = ia[ia.index <= fin].iloc[-meses:]
+        y_fin, y_ant = sy.get(fin), sy.get(fin - pd.DateOffset(years=1))
+        if len(ia) < meses or y_fin is None or y_ant is None or not total_y:
+            alertas.append(f"{g['id']}: datos incompletos para {b['categoria']}")
+            continue
+        var_y = (y_fin / y_ant - 1) * 100
+        grupo = "Creó empleo" if var_y > umbral else "Destruyó empleo" if var_y < -umbral else "Sin cambios"
+        salida.append({"categoria": b["categoria"], "x": _f(ia.mean()), "y": _f(y_fin / total_y * 100),
+                       "tamano": _f(y_fin), "var_y": _f(var_y), "grupo": grupo, "fecha": fin.strftime("%Y-%m-%d")})
+    return salida, alertas
+
+
 def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | None, list[str]]:
     alertas = []
     gobiernos = catalogo["gobiernos"]
     tramos = g.get("tramos", [])
     salida = {
         k: g[k] for k in ("id", "tema", "titulo", "que_muestra", "original", "tipo", "unidad", "fuentes",
-                          "metodo", "tramos", "estimacion", "sensible", "nota") if g.get(k) is not None
+                          "metodo", "tramos", "estimacion", "sensible", "nota", "eje_x", "eje_y") if g.get(k) is not None
     }
     salida.update({
         "tema_nombre": catalogo["temas"][g["tema"]],
@@ -267,6 +310,10 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
         "alerta": bool(g.get("estimacion") or tramos),
         "niveles_fuente": sorted({f["nivel"] for f in g.get("fuentes", [])}),
     })
+    if g.get("burbujas"):
+        salida["categorias"], al = burbujas_de_series(g, mensuales)
+        salida["ultimo"] = salida["categorias"][0].get("fecha") if salida["categorias"] else None
+        return (salida if salida["categorias"] else None), alertas + al
     if g.get("categorias"):
         salida["categorias"] = leer_categorias(g["categorias"])
         salida["alerta"] = salida["alerta"] or any(c.get("tramo") for c in salida["categorias"])
@@ -294,6 +341,8 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
         cats = []
         for sd, ser in zip(g["series"], series):
             s = pd.Series({pd.Timestamp(p[0]): p[1] for p in ser["puntos"]})
+            if g.get("medida_por_gobierno") == "variacion":  # p. ej. inflación mensual a partir del índice
+                s = ((s / s.shift(1) - 1) * 100).dropna()
             for c in agregar_por_gobierno(s, gobiernos, g.get("agregar_por_gobierno", "promedio"), desde):
                 cats.append({**c, "serie": ser["nombre"]})
         salida["categorias"] = cats

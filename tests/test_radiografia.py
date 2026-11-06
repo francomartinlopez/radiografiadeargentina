@@ -81,3 +81,23 @@ def test_series_largas_anuales():
          "fuentes": [{"nombre": "F", "nivel": "secundaria"}]}
     out, _ = r.construir_grafico(g, m, cat)
     assert out["desde"] == "1850-01-01" and out["gobiernos"] is False
+
+
+def test_burbujas_de_series():
+    meses = pd.date_range("2023-01-01", "2025-06-01", freq="MS")
+    m = {"x1": pd.Series([100 * 1.01 ** i for i in range(len(meses))], index=meses),
+         "y1": pd.Series([200 + i for i in range(len(meses))], index=meses, dtype=float),
+         "x2": pd.Series(100.0, index=meses), "y2": pd.Series(100.0, index=meses)}
+    g = {"id": "b", "meses": 6, "burbujas": [{"categoria": "A", "x": "x1", "y": "y1"}, {"categoria": "B", "x": "x2", "y": "y2"}]}
+    cats, alertas = r.burbujas_de_series(g, m)
+    a, b = cats
+    assert alertas == [] and abs(a["x"] - (1.01 ** 12 - 1) * 100) < 1e-6 and b["x"] == 0
+    assert abs(a["y"] + b["y"] - 100) < 1e-6
+    assert a["grupo"] == "Creó empleo" and b["grupo"] == "Sin cambios"
+
+
+def test_csv_url_parsea_anios_y_filtro():
+    from pipeline.fuentes import csv_url
+    texto = "Entity,Year,GDP per capita\nArgentina,1850,1994\nArgentina,1870,\nBrazil,1850,867\nArgentina,1900,2756\n"
+    s = csv_url.parsear(texto, {"filtro": {"Entity": "Argentina"}, "fecha": "Year", "valor": "GDP per capita"})
+    assert list(s.index.year) == [1850, 1900] and s.iloc[-1] == 2756

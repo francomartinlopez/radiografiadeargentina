@@ -158,7 +158,9 @@ function prepararTemporal(g, estado) {
   const referencia = enPorcentaje || enDif || g.tipo_valor === "saldo" ? 0 : estado.medida === "base_100" ? 100 : null;
   const apilar = g.tipo === "areas" && ["nivel", "acumulado_12m"].includes(estado.medida);
   const barras = g.tipo === "barras";
-  return { series, ...formato, referencia, tipoX: "fecha", apilar, barras, frecuencia: g.frecuencia,
+  const colorSigno = barras && esDiferencia(g) && series.length === 1;
+  const log = estado.log && series.every((s) => s.puntos.every((p) => p.v > 0));
+  return { series, ...formato, referencia: log ? null : referencia, tipoX: "fecha", apilar, barras, colorSigno, log, frecuencia: g.frecuencia,
            bandas: g.gobiernos && estado.gobiernos };
 }
 
@@ -190,6 +192,13 @@ function ticksLindos(min, max, n = 5) {
   const ini = Math.floor(min / paso) * paso, fin = Math.ceil(max / paso) * paso, t = [];
   for (let v = ini; v <= fin + paso / 2; v += paso) t.push(+v.toFixed(10));
   return t;
+}
+
+function ticksLog(min, max) {
+  const t = [];
+  for (let e = Math.floor(Math.log10(min)); e <= Math.ceil(Math.log10(max)); e++)
+    for (const k of [1, 2, 5]) { const v = k * Math.pow(10, e); if (v >= min / 2.01 && v <= max * 2.01) t.push(v); }
+  return t.length >= 2 ? t : ticksLindos(min, max);
 }
 
 function ticksFecha(x0, x1) {
@@ -235,12 +244,14 @@ function dibujarTemporal(contenedor, cfg) {
   const ys = series.flatMap((s) => s.puntos.flatMap((p) => [p.v, p.base ?? p.v]));
   if (cfg.referencia != null) ys.push(cfg.referencia);
   if (cfg.barras || cfg.apilar) ys.push(0);
-  const ty = ticksLindos(Math.min(...ys), Math.max(...ys));
+  const ty = cfg.log ? ticksLog(Math.min(...ys), Math.max(...ys)) : ticksLindos(Math.min(...ys), Math.max(...ys));
   const y0 = ty[0], y1 = ty[ty.length - 1];
   let x0 = Math.min(...xs), x1 = Math.max(...xs);
   if (cfg.barras) { const pad = (x1 - x0) / Math.max(1, new Set(xs).size) / 2; x0 -= pad; x1 += pad; }
   const X = (x) => m.l + ((+x - x0) / (x1 - x0 || 1)) * (W - m.l - m.r);
-  const Y = (y) => m.t + (1 - (y - y0) / (y1 - y0 || 1)) * (H - m.t - m.b);
+  const Y = cfg.log
+    ? (y) => m.t + (1 - (Math.log10(y) - Math.log10(y0)) / (Math.log10(y1) - Math.log10(y0) || 1)) * (H - m.t - m.b)
+    : (y) => m.t + (1 - (y - y0) / (y1 - y0 || 1)) * (H - m.t - m.b);
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": cfg.titulo });
 
   if (cfg.bandas) dibujarGobiernos(svg, X, x0, x1, m, H);
@@ -264,7 +275,8 @@ function dibujarTemporal(contenedor, cfg) {
     const ancho = Math.max(1, ((W - m.l - m.r) / fechas.length) * 0.8 / (cfg.apilar ? 1 : series.length));
     series.forEach((s, i) => s.puntos.forEach((p) => {
       const base = p.base ?? 0, x = X(+p.t) - (ancho * (cfg.apilar ? 1 : series.length)) / 2 + (cfg.apilar ? 0 : i * ancho);
-      svg.append(svgEl("rect", { x, y: Math.min(Y(p.v), Y(base)), width: ancho, height: Math.abs(Y(p.v) - Y(base)), fill: s.color, opacity: p.tramo ? 0.45 : 0.9 }));
+      const fill = cfg.colorSigno ? css(p.v >= 0 ? "--s3" : "--estimacion") : s.color;
+      svg.append(svgEl("rect", { x, y: Math.min(Y(p.v), Y(base)), width: ancho, height: Math.abs(Y(p.v) - Y(base)), fill, opacity: p.tramo ? 0.45 : 0.9 }));
     }));
   } else {
     for (const s of series) {
@@ -385,26 +397,56 @@ function dibujarCategorias(contenedor, cfg) {
   contenedor.append(svg);
 }
 
-// Burbujas: x, y, tamaño por categoría
+// Burbujas: x, y, tamaño por categoría; color por grupo
+const COLOR_GRUPO = { "Creó empleo": "--s3", "Destruyó empleo": "--estimacion", "Sin cambios": "--gris-serie" };
+function coloresGrupo(cats) {
+  const grupos = [...new Set(cats.map((c) => c.grupo).filter(Boolean))];
+  return Object.fromEntries(grupos.map((gr, i) => [gr, css(COLOR_GRUPO[gr] || COLORES[i % COLORES.length])]));
+}
 function dibujarBurbujas(contenedor, g) {
   contenedor.innerHTML = "";
-  const W = contenedor.clientWidth || 440, H = contenedor.clientHeight || 260, m = { t: 16, r: 16, b: 30, l: 50 };
+  const W = contenedor.clientWidth || 440, H = contenedor.clientHeight || 300, m = { t: 22, r: 16, b: 34, l: 44 };
   const cats = g.categorias.filter((c) => c.x != null && c.y != null);
   const tx = ticksLindos(Math.min(...cats.map((c) => c.x), 0), Math.max(...cats.map((c) => c.x), 0));
-  const ty = ticksLindos(Math.min(...cats.map((c) => c.y), 0), Math.max(...cats.map((c) => c.y), 0));
+  const ty = ticksLindos(0, Math.max(...cats.map((c) => c.y)));
   const X = (v) => m.l + ((v - tx[0]) / (tx[tx.length - 1] - tx[0])) * (W - m.l - m.r);
   const Y = (v) => m.t + (1 - (v - ty[0]) / (ty[ty.length - 1] - ty[0])) * (H - m.t - m.b);
   const maxT = Math.max(...cats.map((c) => c.tamano || 1));
+  const colores = coloresGrupo(cats);
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": g.titulo });
   for (const t of ty) { svg.append(svgEl("line", { class: "grilla-h", x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t) })); const e = svgEl("text", { x: m.l - 6, y: Y(t) + 4, "text-anchor": "end" }); e.textContent = fmt(t, 0); svg.append(e); }
-  for (const t of tx) { const e = svgEl("text", { x: X(t), y: H - 12, "text-anchor": "middle" }); e.textContent = fmt(t, 0); svg.append(e); }
-  if (g.eje_x) { const e = svgEl("text", { x: W - m.r, y: H - 1, "text-anchor": "end" }); e.textContent = g.eje_x; svg.append(e); }
-  cats.forEach((c, i) => {
-    const r = 4 + 22 * Math.sqrt((c.tamano || 1) / maxT);
-    svg.append(svgEl("circle", { cx: X(c.x), cy: Y(c.y), r, fill: css(COLORES[i % COLORES.length]), opacity: c.tramo ? 0.35 : 0.6 }));
-    const e = svgEl("text", { class: "etq-cat", x: X(c.x), y: Y(c.y) + 4, "text-anchor": "middle" }); e.textContent = c.categoria; svg.append(e);
+  for (const t of tx) { const e = svgEl("text", { x: X(t), y: H - 18, "text-anchor": "middle" }); e.textContent = fmt(t, 0); svg.append(e); }
+  if (tx[0] < 0) svg.append(svgEl("line", { class: "ref", x1: X(0), x2: X(0), y1: m.t, y2: H - m.b }));
+  if (g.eje_x) { const e = svgEl("text", { x: W - m.r, y: H - 2, "text-anchor": "end" }); e.textContent = g.eje_x; svg.append(e); }
+  if (g.eje_y) { const e = svgEl("text", { x: 4, y: 11 }); e.textContent = g.eje_y; svg.append(e); }
+  const tip = document.getElementById("tooltip");
+  const ocupadas = [];
+  const ubicar = (x, y, ancho) => { // corre la etiqueta hasta que no se pise con otra
+    for (const dy of [0, 12, -12, 24, -24, 36, -36]) {
+      const caja = [x, y + dy - 10, x + ancho, y + dy + 2];
+      if (!ocupadas.some((o) => caja[0] < o[2] && caja[2] > o[0] && caja[1] < o[3] && caja[3] > o[1])) { ocupadas.push(caja); return y + dy; }
+    }
+    return y;
+  };
+  cats.slice().sort((a, b) => (b.tamano || 0) - (a.tamano || 0)).forEach((c) => {
+    const r = 5 + 20 * Math.sqrt((c.tamano || 1) / maxT);
+    const circ = svgEl("circle", { cx: X(c.x), cy: Y(c.y), r, fill: colores[c.grupo] || css("--s1"), opacity: c.tramo ? 0.3 : 0.55, stroke: colores[c.grupo] || css("--s1") });
+    circ.addEventListener("mousemove", (ev) => {
+      tip.innerHTML = "";
+      tip.append(el("div", { class: "t-fecha", text: c.categoria }),
+        el("div", { class: "t-fila" }, el("span", { text: "Actividad" }), el("span", { text: signo(c.x) + "%" })),
+        el("div", { class: "t-fila" }, el("span", { text: "Participación" }), el("span", { text: fmt(c.y) + "%" })),
+        c.var_y != null ? el("div", { class: "t-fila" }, el("span", { text: "Empleo, interanual" }), el("span", { text: signo(c.var_y) + "%" })) : null);
+      mostrarTip(tip, ev);
+    });
+    circ.addEventListener("mouseleave", () => { tip.hidden = true; });
+    svg.append(circ);
+    const ancho = c.categoria.length * 5.6, derecha = X(c.x) + r + 3 + ancho < W;
+    const lx = derecha ? X(c.x) + r + 3 : X(c.x) - r - 3 - ancho;
+    const e = svgEl("text", { class: "etq-cat", x: lx, y: ubicar(lx, Y(c.y) + 4, ancho) }); e.textContent = c.categoria; svg.append(e);
   });
   contenedor.append(svg);
+  return colores;
 }
 
 /* ---------- Ficha de cada gráfico ---------- */
@@ -450,25 +492,34 @@ function ficha(g) {
   const temporal = !!g.series && g.tipo !== "barras_gobierno";
   const estado = { periodo: "completo", medida: g.medida_inicial || "nivel", gobiernos: true };
   if (temporal && !medidasDisponibles(g).includes(estado.medida)) estado.medida = "nivel";
-  const grafico = el("div", { class: "grafico" });
+  const grafico = el("div", { class: g.tipo === "burbujas" ? "grafico burbujas" : "grafico" });
   const leyendaVista = el("p", { class: "leyenda-vista" });
   const leyenda = el("ul", { class: "leyenda", hidden: true });
   const controles = el("div", { class: "controles" });
   if (temporal) {
     const botones = [["completo", `Completo (desde ${g.frecuencia === "A" ? g.desde.slice(0, 4) : mesAnio(g.desde.slice(0, 7))})`], ["mandato", "Último mandato"]].map(([id, txt]) =>
       el("button", { type: "button", "aria-pressed": String(estado.periodo === id), text: txt, onclick: () => { estado.periodo = id; botones.forEach((b, i) => b.setAttribute("aria-pressed", String(i === (id === "completo" ? 0 : 1)))); render(); } }));
+    if (g.ultimo < META.base_ultimo_mandato) { botones[1].disabled = true; botones[1].title = "La serie termina antes del último mandato"; }
     controles.append(el("div", { class: "segmentos", role: "group", "aria-label": "Período" }, ...botones));
     const sel = el("select", { "aria-label": "Medida", onchange: () => { estado.medida = sel.value; render(); } },
       ...medidasDisponibles(g).map((k) => el("option", { value: k, text: MEDIDAS[k], selected: k === estado.medida })));
     controles.append(sel);
+    const valores = g.series.flatMap((x) => x.puntos.map((p) => p[1]));
+    if (valores.every((v) => v > 0) && Math.max(...valores) / Math.min(...valores) > 15)
+      controles.append(el("label", { class: "chk" }, el("input", { type: "checkbox", onchange: (e) => { estado.log = e.target.checked; render(); } }), "Escala logarítmica"));
     if (g.gobiernos) controles.append(el("label", { class: "chk" },
       el("input", { type: "checkbox", checked: true, onchange: (e) => { estado.gobiernos = e.target.checked; render(); } }), "Gobiernos"));
   }
   function render() {
     tipHide();
     if (!temporal) {
-      leyendaVista.textContent = g.tipo === "barras_gobierno" ? `Por gobierno, en ${g.unidad}.` : (g.unidad ? `En ${g.unidad}.` : "");
-      if (g.tipo === "burbujas") dibujarBurbujas(grafico, g);
+      leyendaVista.textContent = g.tipo === "barras_gobierno" ? `Por gobierno, en ${g.unidad}.` : g.tipo === "burbujas" && g.ultimo ? `Datos a ${periodo(g.ultimo, "M")}.` : (g.unidad ? `En ${g.unidad}.` : "");
+      if (g.tipo === "burbujas") {
+        const colores = dibujarBurbujas(grafico, g);
+        leyenda.innerHTML = ""; leyenda.hidden = false;
+        Object.entries(colores).forEach(([n, c]) => leyenda.append(el("li", {}, el("i", { style: `background:${c};height:8px;width:8px;border-radius:50%` }), n)));
+        leyenda.append(el("li", { text: "Tamaño: cantidad de asalariados" }));
+      }
       else { const cfg = { ...prepararCategorias(g), titulo: g.titulo }; ponerLeyenda(cfg.series, []); dibujarCategorias(grafico, cfg); }
       return;
     }

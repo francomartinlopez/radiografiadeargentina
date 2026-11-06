@@ -1,0 +1,13 @@
+categoria,x,y,tamano,var_y,grupo,fecha
+Agro,12.825102,5.720553,321.178,0.689703,Creó empleo,2026-06-01
+Pesca,49.718992,0.254717,14.301,1.360834,Creó empleo,2026-06-01
+Minería y petróleo,14.366533,1.543533,86.661,-2.578832,Destruyó empleo,2026-06-01
+Industria,-2.037181,19.688778,1105.418,-4.538369,Destruyó empleo,2026-06-01
+"Electricidad, gas y agua",2.225884,1.360434,76.381,0.150788,Sin cambios,2026-06-01
+Construcción,2.788701,6.735024,378.135,-0.32081,Sin cambios,2026-06-01
+Comercio,0.000951,21.694333,1218.019,-3.160897,Destruyó empleo,2026-06-01
+Hoteles y restaurantes,2.296582,4.912746,275.824,-1.702067,Destruyó empleo,2026-06-01
+Transporte y comunicaciones,1.891565,8.986568,504.547,-1.983651,Destruyó empleo,2026-06-01
+Inmobiliarias y servicios a empresas,0.782273,15.694269,881.148,-1.334062,Destruyó empleo,2026-06-01
+Enseñanza,0.128943,7.550436,423.916,-0.002359,Sin cambios,2026-06-01
+Salud,0.4158,5.858608,328.929,-0.052871,Sin cambios,2026-06-01
