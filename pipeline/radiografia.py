@@ -121,7 +121,8 @@ def insumos_propios(nombre: str, catalogo: dict) -> list[str]:
         return [nombre]
     salida = []
     for t in c.get("tramos", []):
-        salida += insumos_propios(t["serie"], catalogo)
+        if "serie" in t:
+            salida += insumos_propios(t["serie"], catalogo)
     for k in ("a", "b", "puente"):
         if c.get(k):
             salida += insumos_propios(c[k], catalogo)
@@ -227,6 +228,22 @@ def calculos_propios(catalogo: dict, mensuales: dict) -> tuple[dict, list[str]]:
                         a, b = (sx, sy) if x == "a" else (sy, sx)
                 a, b = a.align(b, join="inner")
                 mensuales[nombre] = {"cociente": a / b, "resta": a - b, "suma": a + b, "producto": a * b, "brecha": (a / b - 1) * 100}[op].dropna() * c.get("factor", 1)
+            elif op == "concatenar":  # flujos de distintas metodologías, uno a continuación del otro, sin encadenar
+                partes, desde = [], None
+                for t in c["tramos"]:
+                    if "valor" in t:  # tramo fijo (p. ej. 1 peso = 1 dólar en la convertibilidad)
+                        x = pd.Series(float(t["valor"]), index=pd.date_range(str(t["desde"]), str(t["hasta"]), freq="MS"))
+                    else:
+                        x = mensuales[t["serie"]].sort_index()
+                    if desde is not None:
+                        x = x[x.index > desde]
+                    if t.get("hasta"):
+                        desde = pd.Timestamp(str(t["hasta"]))
+                        x = x[x.index <= desde]
+                    partes.append(x)
+                mensuales[nombre] = pd.concat(partes).sort_index()
+            elif op == "porcentaje_pib":
+                mensuales[nombre] = transformar.porcentaje_pib(mensuales[c["a"]], mensuales[c["b"]])
             elif op == "escala":
                 mensuales[nombre] = mensuales[c["a"]] * c["factor"]
             else:
@@ -309,7 +326,15 @@ def preparar_serie(s: pd.Series, g: dict, mensuales: dict) -> pd.Series | None:
         defl = mensuales.get(DEFLACTORES[g["moneda"]])
         if defl is None:
             return None
-        s = transformar.a_moneda_constante(s, defl)
+        periodo = {"A": "YS", "T": "QS"}.get(g.get("frecuencia"))
+        if periodo and (g.get("flujo") or g.get("tipo_valor") == "flujo"):
+            # Flujos anuales o trimestrales: se deflactan con el índice promedio del período,
+            # expresado en moneda del último mes con dato
+            d = defl.dropna().sort_index()
+            prom = d.resample(periodo).mean()
+            s = (s * d.iloc[-1] / prom.reindex(s.index)).dropna()
+        else:
+            s = transformar.a_moneda_constante(s, defl)
     s = s[s.index <= pd.Timestamp.today().normalize()]
     if g.get("desde"):
         desde = pd.Timestamp(str(g["desde"]))
@@ -509,7 +534,7 @@ def main() -> None:
     # Las series cerradas (bases viejas, ediciones fijas) no esperan datos nuevos
     cerradas = {n for n, d in sub["series"].items() if d.get("cerrada")}
     alertas += alertas_proc + alertas_calc
-    alertas = [a for a in alertas if not (a.split(":")[0] in cerradas and "sin dato nuevo" in a)]
+    alertas = [a for a in alertas if not (a.split(":")[0] in cerradas and ("sin dato nuevo" in a or "variación inusual" in a))]
     graficos = []
     for g in catalogo["graficos"]:
         try:

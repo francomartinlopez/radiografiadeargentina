@@ -443,6 +443,14 @@ series:
   emae1993_desest:     {fuente: datosgobar, id: "10.3_ISD_1993_M_31", cerrada: true}
   emi2004_original:    {fuente: datosgobar, id: "12.3_E_2004_M_3", cerrada: true}
   emi2004_desest:      {fuente: datosgobar, id: "12.3_ED_2004_M_12", cerrada: true}
+  spn_primario_9306:   {fuente: datosgobar, id: "379.7_SUPERAVIT_006__28_65", cerrada: true}
+  spn_primario_0714:   {fuente: datosgobar, id: "379.8_SUPERAVIT_014__28_7", cerrada: true}
+  spn_primario_17:     {fuente: datosgobar, id: "379.9_SUPERAVIT_017__23_94"}
+  spn_financiero_9306: {fuente: datosgobar, id: "379.7_RESULTADO_006__43_20", cerrada: true}  # la serie con privatizaciones está vacía en la API
+  spn_financiero_0714: {fuente: datosgobar, id: "379.8_RESULTADO_014__23_17", cerrada: true}
+  spn_financiero_17:   {fuente: datosgobar, id: "379.9_RESULTADO_017__18_38"}
+  rec_dex_largo:       {fuente: datosgobar, id: "142.3_DEREC_2001_M_20"}
+  rec_dim_largo:       {fuente: datosgobar, id: "142.3_DEREC_2001_M_26"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
