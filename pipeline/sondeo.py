@@ -224,7 +224,7 @@ def main() -> None:
             lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:120]))
         except Exception as e:
             lineas.append(f"- {pag}: error {e}")
-    for u, n in [("https://api.db.nomics.world/v22/series/IMF/HPDD?dimensions=%7B%22REF_AREA%22%3A%5B%22AR%22%2C%22BR%22%5D%7D&observations=1", "hpdd.json"), ("https://api.db.nomics.world/v22/series/IMF/WEO:latest?dimensions=%7B%22weo-country%22%3A%5B%22ARG%22%5D%2C%22weo-subject%22%3A%5B%22GGXWDG_NGDP%22%5D%7D&observations=1", "weo.json")]:
+    for u, n in [("https://api.bcra.gob.ar/estadisticas/v4.0/monetarias", "bcra_vars.json")]:
         try:
             r = requests.get(u, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
             lineas.append(f"- {u}: HTTP {r.status_code} {len(r.text)}")
