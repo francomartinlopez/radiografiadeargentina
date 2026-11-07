@@ -4038,12 +4038,12 @@ graficos:
       - {serie: mdb_cardio, nombre: "Cardiovasculares"}
       - {serie: mdb_cancer, nombre: "Cáncer (tumores malignos)"}
       - {serie: mdb_respiratorias, nombre: "Respiratorias (no infecciosas)"}
-      - {serie: mdb_infec_resp, nombre: "Infecciones respiratorias (neumonía, gripe)"}
-      - {serie: mdb_infecciosas, nombre: "Infecciosas y parasitarias (incluye COVID-19)"}
+      - {serie: mdb_infec_resp, nombre: "Infecciones respiratorias (neumonía, gripe, COVID-19)"}
+      - {serie: mdb_infecciosas, nombre: "Otras infecciosas y parasitarias"}
     fuentes:
       - {nombre: "Organización Mundial de la Salud, Mortality Database (datos que envía la DEIS del Ministerio de Salud), procesados por Our World in Data", url: "https://ourworldindata.org/grapher/death-rate-by-cause-who-mdb?country=~ARG", nivel: secundaria}
       - {nombre: "Ministerio de Salud, DEIS: estadísticas vitales", url: "https://www.argentina.gob.ar/salud/deis", nivel: primaria}
-    metodo: "Tasas anuales estandarizadas por edad (con la población estándar de la OMS), para que el envejecimiento de la población no se confunda con más o menos enfermedad. Por eso no coinciden con las tasas brutas de la DEIS. Las bases mensuales de la DEIS se pueden bajar solo desde su servidor, que hoy rechaza las conexiones automáticas; el original mostraba una serie mensual estimada y proyectada que no se publica. Clasificación de causas de la OMS (CIE-10); en la pandemia, la COVID-19 queda dentro de infecciosas."
+    metodo: "Tasas anuales estandarizadas por edad (con la población estándar de la OMS), para que el envejecimiento de la población no se confunda con más o menos enfermedad. Por eso no coinciden con las tasas brutas de la DEIS. Las bases mensuales de la DEIS se pueden bajar solo desde su servidor, que hoy rechaza las conexiones automáticas; el original mostraba una serie mensual estimada y proyectada que no se publica. Clasificación de causas de la OMS (CIE-10); la COVID-19 queda dentro de infecciones respiratorias, de ahí el salto de 2020 y 2021."
 
   - id: mortalidad_5_19
     tema: 14
