@@ -1,6 +1,6 @@
 # Radiografía: pendientes, sin fuente y cosas a revisar
 
-Actualizado el 7/11/2026. Inventario: 298 con gráfico, 181 sin fuente, 0 pendientes.
+Actualizado el 7/11/2026. Inventario: 301 con gráfico, 178 sin fuente, 0 pendientes.
 
 ## 1. A revisar o corregir (hechos con datos parciales)
 
