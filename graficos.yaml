@@ -4858,3 +4858,31 @@ graficos:
       - {nombre: "Fundación Nobel, base de premiados (api.nobelprize.org)", url: "https://api.nobelprize.org/v1/laureate.csv", nivel: primaria}
       - {nombre: "Banco Mundial, población total 2024 (SP.POP.TOTL)", url: "https://data.worldbank.org/indicator/SP.POP.TOTL", nivel: primaria}
     metodo: "Se cuentan personas (no organizaciones) y una sola vez aunque hayan ganado dos premios, según el país de nacimiento con sus fronteras actuales. Por ese criterio, Luis Federico Leloir (Química 1970), que nació en París, figura en Francia: con él, la Argentina tiene cinco premiados (Saavedra Lamas 1936, Houssay 1947, Leloir 1970, Pérez Esquivel 1980 y Milstein 1984), 1,1 por cada 10 millones. El único premiado nacido en Brasil es Peter Medawar, británico. Dividir por la población actual favorece a los países que crecieron poco; es una comparación aproximada, no una medida de calidad científica. Se actualiza a mano cada octubre."
+
+  - id: barrios_populares_region
+    tema: 12
+    titulo: "Población en barrios populares por región"
+    que_muestra: "Porcentaje estimado de la población que vive en villas y asentamientos registrados en el Registro Nacional de Barrios Populares (RENABAP), por región."
+    original: {ficha: p329, imagen: 1537}
+    tipo: barras
+    categorias: barrios_populares_region
+    unidad: "% de la población"
+    tipo_valor: tasa
+    estimacion: "Personas estimadas a partir de las familias registradas en cada barrio (4,27 personas por familia, el promedio que surge del total nacional de 5,28 millones de personas que estima el RENABAP), divididas por la población del Censo 2022."
+    fuentes:
+      - {nombre: "RENABAP, registro de barrios populares, actualización de diciembre de 2023 (6.467 barrios, 1,24 millones de familias)", url: "https://datos.gob.ar/dataset/habitat-registro-nacional-barrios-populares", nivel: primaria}
+      - {nombre: "INDEC, Censo 2022, población por provincia", url: "https://censo.gob.ar/index.php/datos_definitivos_total_pais/", nivel: primaria}
+    metodo: "Regiones: NEA (Chaco, Corrientes, Formosa y Misiones), NOA (Catamarca, Jujuy, La Rioja, Salta, Santiago del Estero y Tucumán), Cuyo (Mendoza, San Juan y San Luis), Centro (Córdoba, Santa Fe, Entre Ríos y La Pampa) y Patagonia (Chubut, Neuquén, Río Negro, Santa Cruz y Tierra del Fuego). Un barrio popular es un conjunto de al menos 8 familias donde más de la mitad no tiene título de propiedad ni acceso regular a dos o más servicios básicos (agua, electricidad o cloacas). Las familias son aproximadas, y el registro es una foto de 2023: no hay una serie que permita ver cómo cambió en el tiempo. El original era una serie mensual por región desde 2001 sin fuente, con valores construidos por bloques."
+
+  - id: barrios_populares_decada
+    tema: 12
+    titulo: "Barrios populares según la década en que se formaron"
+    que_muestra: "Cantidad de villas y asentamientos registrados en el RENABAP en 2023, según la década en que se formó cada barrio."
+    original: {ficha: p329, imagen: 1537}
+    tipo: barras
+    categorias: barrios_populares_decada
+    unidad: "barrios"
+    tipo_valor: nivel
+    fuentes:
+      - {nombre: "RENABAP, registro de barrios populares, actualización de diciembre de 2023", url: "https://datos.gob.ar/dataset/habitat-registro-nacional-barrios-populares", nivel: primaria}
+    metodo: "Cuenta los barrios que seguían existiendo en 2023; los que se urbanizaron o desaparecieron antes no figuran, así que las décadas más viejas quedan subrepresentadas. La década de 2020 está incompleta: abarca hasta el último relevamiento. Familias en los barrios de cada década (aproximadas): 1940s 45.930; 1960s 116.912; 1980s 193.796; 1990s 190.239; 2000s 297.983; 2010s 171.271."
