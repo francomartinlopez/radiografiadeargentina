@@ -167,6 +167,19 @@ def sondear_magyp() -> list[str]:
     return lineas
 
 
+def sondear_xlsx_stock() -> list[str]:
+    url = ("https://www.magyp.gob.ar/sitio/areas/bovinos/informacion_interes/informes/_archivos/"
+           "000001=Series%20de%20stock%20bovino%20y%20mapas/000000_Stock/"
+           "251231_Serie%20stock%20Bovino%20por%20provincia%20al%2031-12%20(2007-2025).xlsx")
+    r = requests.get(url, timeout=180, headers={"User-Agent": "Mozilla/5.0 radiografia-argentina"})
+    lineas = [f"# Serie stock bovino: HTTP {r.status_code}, {len(r.content)} bytes", ""]
+    h = pd.read_excel(io.BytesIO(r.content), sheet_name=None, header=None)
+    lineas.append("Hojas: " + ", ".join(f"{k} {v.shape}" for k, v in h.items()))
+    for k, df in list(h.items())[:4]:
+        lineas += [f"## {k}", "```", df.head(40).to_string(max_cols=14, max_colwidth=22), "```"]
+    return lineas
+
+
 def main() -> None:
     CARPETA.mkdir(parents=True, exist_ok=True)
     lineas = ["# Sondeo de Our World in Data", ""]
@@ -195,7 +208,7 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
-    lineas = sondear_magyp()
+    lineas = sondear_xlsx_stock()
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 
