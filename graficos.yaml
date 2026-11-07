@@ -4373,7 +4373,8 @@ graficos:
     tipo: areas
     frecuencia: A
     desde: "2007"
-    unidad: "cabezas"
+    unidad: "millones de cabezas"
+    escala: 0.000001
     tipo_valor: nivel
     medida_inicial: nivel
     medidas: [nivel, variacion]
