@@ -13,6 +13,7 @@ para organismos que cambiaron de código o se fusionaron)
 from __future__ import annotations
 
 import io
+import time
 import zipfile
 from functools import lru_cache
 from pathlib import Path
@@ -49,6 +50,7 @@ def _actualizar_anio(anio: int) -> None:
     hoy = pd.Timestamp.today()
     if destino.exists() and anio < hoy.year - 1:
         return
+    time.sleep(15)  # el servidor corta la conexión si se le piden muchos archivos seguidos
     try:
         r = pedir(URL.format(a=anio))
     except RuntimeError:

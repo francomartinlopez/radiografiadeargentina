@@ -1,0 +1,1447 @@
+fecha,servicio_id,servicio_desc,devengado
+2016-01-01,1,Auditoría General de la Nación,71.15246923
+2016-02-01,1,Auditoría General de la Nación,67.1436951
+2016-03-01,1,Auditoría General de la Nación,68.69799335
+2016-04-01,1,Auditoría General de la Nación,68.32014704
+2016-05-01,1,Auditoría General de la Nación,68.8742467
+2016-06-01,1,Auditoría General de la Nación,148.42555241
+2016-07-01,1,Auditoría General de la Nación,107.07811547
+2016-08-01,1,Auditoría General de la Nación,84.96474441
+2016-09-01,1,Auditoría General de la Nación,99.70081735
+2016-10-01,1,Auditoría General de la Nación,109.21085587
+2016-11-01,1,Auditoría General de la Nación,93.72813239
+2016-12-01,1,Auditoría General de la Nación,166.92369637
+2016-01-01,101,Fundación Miguel Lillo,9.51590864
+2016-02-01,101,Fundación Miguel Lillo,10.00988124
+2016-03-01,101,Fundación Miguel Lillo,12.12504352
+2016-04-01,101,Fundación Miguel Lillo,10.47305153
+2016-05-01,101,Fundación Miguel Lillo,10.15970464
+2016-06-01,101,Fundación Miguel Lillo,19.767966010000002
+2016-07-01,101,Fundación Miguel Lillo,11.47361023
+2016-08-01,101,Fundación Miguel Lillo,12.03214926
+2016-09-01,101,Fundación Miguel Lillo,13.76307967
+2016-10-01,101,Fundación Miguel Lillo,12.62377566
+2016-11-01,101,Fundación Miguel Lillo,12.736823430000001
+2016-12-01,101,Fundación Miguel Lillo,19.77200019
+2016-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,519.06753763
+2016-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,539.07083076
+2016-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,606.25290145
+2016-04-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,538.61595616
+2016-05-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,597.51678226
+2016-06-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,838.22222709
+2016-07-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,775.2547885
+2016-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,791.03904468
+2016-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,932.23285818
+2016-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,696.17862512
+2016-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,591.28149627
+2016-12-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1393.64644981
+2016-01-01,105,Comisión Nacional de Energía Atómica,102.79537977
+2016-02-01,105,Comisión Nacional de Energía Atómica,136.79637304
+2016-03-01,105,Comisión Nacional de Energía Atómica,328.40411799
+2016-04-01,105,Comisión Nacional de Energía Atómica,178.71061826
+2016-05-01,105,Comisión Nacional de Energía Atómica,256.83542692
+2016-06-01,105,Comisión Nacional de Energía Atómica,470.1591457
+2016-07-01,105,Comisión Nacional de Energía Atómica,212.71739337
+2016-08-01,105,Comisión Nacional de Energía Atómica,356.99904868
+2016-09-01,105,Comisión Nacional de Energía Atómica,306.7665133
+2016-10-01,105,Comisión Nacional de Energía Atómica,324.56173478
+2016-11-01,105,Comisión Nacional de Energía Atómica,298.08867218
+2016-12-01,105,Comisión Nacional de Energía Atómica,612.07412543
+2016-01-01,106,Comisión Nacional de Actividades Espaciales,12.10014727
+2016-02-01,106,Comisión Nacional de Actividades Espaciales,56.202826630000004
+2016-03-01,106,Comisión Nacional de Actividades Espaciales,164.28866487
+2016-04-01,106,Comisión Nacional de Actividades Espaciales,197.37320018
+2016-05-01,106,Comisión Nacional de Actividades Espaciales,204.67935097
+2016-06-01,106,Comisión Nacional de Actividades Espaciales,296.23447453
+2016-07-01,106,Comisión Nacional de Actividades Espaciales,111.59248681
+2016-08-01,106,Comisión Nacional de Actividades Espaciales,144.50997245
+2016-09-01,106,Comisión Nacional de Actividades Espaciales,233.6505728
+2016-10-01,106,Comisión Nacional de Actividades Espaciales,76.42039529
+2016-11-01,106,Comisión Nacional de Actividades Espaciales,86.91032837
+2016-12-01,106,Comisión Nacional de Actividades Espaciales,384.37534297999997
+2016-01-01,107,Administración de Parques Nacionales,32.65847556
+2016-02-01,107,Administración de Parques Nacionales,68.62222928
+2016-03-01,107,Administración de Parques Nacionales,84.93513619
+2016-04-01,107,Administración de Parques Nacionales,61.74990501
+2016-05-01,107,Administración de Parques Nacionales,66.48001047
+2016-06-01,107,Administración de Parques Nacionales,101.1787932
+2016-07-01,107,Administración de Parques Nacionales,69.79498604
+2016-08-01,107,Administración de Parques Nacionales,79.23807784
+2016-09-01,107,Administración de Parques Nacionales,75.90376856
+2016-10-01,107,Administración de Parques Nacionales,84.57028986
+2016-11-01,107,Administración de Parques Nacionales,96.9026803
+2016-12-01,107,Administración de Parques Nacionales,235.08679016
+2016-01-01,108,Instituto Nacional del Agua,12.08290454
+2016-02-01,108,Instituto Nacional del Agua,11.672733939999999
+2016-03-01,108,Instituto Nacional del Agua,12.64717727
+2016-04-01,108,Instituto Nacional del Agua,9.69342641
+2016-05-01,108,Instituto Nacional del Agua,16.06527136
+2016-06-01,108,Instituto Nacional del Agua,20.361664389999998
+2016-07-01,108,Instituto Nacional del Agua,15.35857238
+2016-08-01,108,Instituto Nacional del Agua,16.77423427
+2016-09-01,108,Instituto Nacional del Agua,17.20314903
+2016-10-01,108,Instituto Nacional del Agua,16.351505239999998
+2016-11-01,108,Instituto Nacional del Agua,16.75227013
+2016-12-01,108,Instituto Nacional del Agua,31.95762019
+2016-01-01,109,Sindicatura General de la Nación,32.26659085
+2016-02-01,109,Sindicatura General de la Nación,41.04730213
+2016-03-01,109,Sindicatura General de la Nación,34.16647949
+2016-04-01,109,Sindicatura General de la Nación,31.66153983
+2016-05-01,109,Sindicatura General de la Nación,32.92870714
+2016-06-01,109,Sindicatura General de la Nación,51.22497915
+2016-07-01,109,Sindicatura General de la Nación,38.687788319999996
+2016-08-01,109,Sindicatura General de la Nación,44.93238677
+2016-09-01,109,Sindicatura General de la Nación,45.76666617
+2016-10-01,109,Sindicatura General de la Nación,42.85948337
+2016-11-01,109,Sindicatura General de la Nación,44.32927331
+2016-12-01,109,Sindicatura General de la Nación,77.44174408
+2016-01-01,112,Autoridad Regulatoria Nuclear,14.46425367
+2016-02-01,112,Autoridad Regulatoria Nuclear,18.51681248
+2016-03-01,112,Autoridad Regulatoria Nuclear,34.5788637
+2016-04-01,112,Autoridad Regulatoria Nuclear,16.35401049
+2016-05-01,112,Autoridad Regulatoria Nuclear,22.06245317
+2016-06-01,112,Autoridad Regulatoria Nuclear,32.07735062
+2016-07-01,112,Autoridad Regulatoria Nuclear,19.73445784
+2016-08-01,112,Autoridad Regulatoria Nuclear,27.75309381
+2016-09-01,112,Autoridad Regulatoria Nuclear,48.66358157
+2016-10-01,112,Autoridad Regulatoria Nuclear,31.521442299999997
+2016-11-01,112,Autoridad Regulatoria Nuclear,46.79656761
+2016-12-01,112,Autoridad Regulatoria Nuclear,59.51774752
+2016-01-01,113,Teatro Nacional Cervantes,7.75687796
+2016-02-01,113,Teatro Nacional Cervantes,9.40182496
+2016-03-01,113,Teatro Nacional Cervantes,14.95084011
+2016-04-01,113,Teatro Nacional Cervantes,9.62472739
+2016-05-01,113,Teatro Nacional Cervantes,11.5151414
+2016-06-01,113,Teatro Nacional Cervantes,18.61810408
+2016-07-01,113,Teatro Nacional Cervantes,14.35751938
+2016-08-01,113,Teatro Nacional Cervantes,15.809610719999998
+2016-09-01,113,Teatro Nacional Cervantes,19.16150307
+2016-10-01,113,Teatro Nacional Cervantes,12.96779686
+2016-11-01,113,Teatro Nacional Cervantes,17.44600297
+2016-12-01,113,Teatro Nacional Cervantes,34.95613622
+2016-01-01,114,Instituto Nacional de Asociativismo y Economía Social,16.12823369
+2016-02-01,114,Instituto Nacional de Asociativismo y Economía Social,20.30934194
+2016-03-01,114,Instituto Nacional de Asociativismo y Economía Social,140.33471309
+2016-04-01,114,Instituto Nacional de Asociativismo y Economía Social,21.46139966
+2016-05-01,114,Instituto Nacional de Asociativismo y Economía Social,90.39622768
+2016-06-01,114,Instituto Nacional de Asociativismo y Economía Social,135.34894276
+2016-07-01,114,Instituto Nacional de Asociativismo y Economía Social,22.77313972
+2016-08-01,114,Instituto Nacional de Asociativismo y Economía Social,26.453168690000002
+2016-09-01,114,Instituto Nacional de Asociativismo y Economía Social,105.4161823
+2016-10-01,114,Instituto Nacional de Asociativismo y Economía Social,25.52978142
+2016-11-01,114,Instituto Nacional de Asociativismo y Economía Social,25.34516805
+2016-12-01,114,Instituto Nacional de Asociativismo y Economía Social,166.36455072
+2016-01-01,116,Biblioteca Nacional,25.7442293
+2016-02-01,116,Biblioteca Nacional,28.05779852
+2016-03-01,116,Biblioteca Nacional,40.62601629
+2016-04-01,116,Biblioteca Nacional,28.77038851
+2016-05-01,116,Biblioteca Nacional,38.00588725
+2016-06-01,116,Biblioteca Nacional,47.68441424
+2016-07-01,116,Biblioteca Nacional,35.48893736
+2016-08-01,116,Biblioteca Nacional,39.78328773
+2016-09-01,116,Biblioteca Nacional,43.08265606
+2016-10-01,116,Biblioteca Nacional,47.93113957
+2016-11-01,116,Biblioteca Nacional,44.13482571
+2016-12-01,116,Biblioteca Nacional,71.85860525
+2016-01-01,117,Instituto Nacional del Teatro,4.0750714100000005
+2016-02-01,117,Instituto Nacional del Teatro,6.35482029
+2016-03-01,117,Instituto Nacional del Teatro,9.72792806
+2016-04-01,117,Instituto Nacional del Teatro,5.55211715
+2016-05-01,117,Instituto Nacional del Teatro,9.41923853
+2016-06-01,117,Instituto Nacional del Teatro,16.53020731
+2016-07-01,117,Instituto Nacional del Teatro,15.38700497
+2016-08-01,117,Instituto Nacional del Teatro,19.87168107
+2016-09-01,117,Instituto Nacional del Teatro,17.6136799
+2016-10-01,117,Instituto Nacional del Teatro,10.37884015
+2016-11-01,117,Instituto Nacional del Teatro,18.69441003
+2016-12-01,117,Instituto Nacional del Teatro,98.3915759
+2016-01-01,118,Instituto Nacional de Asuntos Indígenas,4.08909949
+2016-02-01,118,Instituto Nacional de Asuntos Indígenas,4.3500862399999995
+2016-03-01,118,Instituto Nacional de Asuntos Indígenas,4.15756209
+2016-04-01,118,Instituto Nacional de Asuntos Indígenas,5.29390377
+2016-05-01,118,Instituto Nacional de Asuntos Indígenas,8.0453536
+2016-06-01,118,Instituto Nacional de Asuntos Indígenas,8.657080239999999
+2016-07-01,118,Instituto Nacional de Asuntos Indígenas,3.56355416
+2016-08-01,118,Instituto Nacional de Asuntos Indígenas,13.54818867
+2016-09-01,118,Instituto Nacional de Asuntos Indígenas,9.6260172
+2016-10-01,118,Instituto Nacional de Asuntos Indígenas,9.09923863
+2016-11-01,118,Instituto Nacional de Asuntos Indígenas,8.10261072
+2016-12-01,118,Instituto Nacional de Asuntos Indígenas,15.24622724
+2016-01-01,119,Instituto Nacional de Promoción Turística,3.43750648
+2016-02-01,119,Instituto Nacional de Promoción Turística,2.7612300000000003
+2016-03-01,119,Instituto Nacional de Promoción Turística,50.05085394
+2016-04-01,119,Instituto Nacional de Promoción Turística,40.536920869999996
+2016-05-01,119,Instituto Nacional de Promoción Turística,17.58255096
+2016-06-01,119,Instituto Nacional de Promoción Turística,15.6247965
+2016-07-01,119,Instituto Nacional de Promoción Turística,17.23942283
+2016-08-01,119,Instituto Nacional de Promoción Turística,55.237794359999995
+2016-09-01,119,Instituto Nacional de Promoción Turística,38.00841021
+2016-10-01,119,Instituto Nacional de Promoción Turística,29.88269683
+2016-11-01,119,Instituto Nacional de Promoción Turística,31.88642687
+2016-12-01,119,Instituto Nacional de Promoción Turística,252.31471581000002
+2016-01-01,200,Registro Nacional de las Personas,47.61444919
+2016-02-01,200,Registro Nacional de las Personas,120.30547111
+2016-03-01,200,Registro Nacional de las Personas,260.29109002
+2016-04-01,200,Registro Nacional de las Personas,172.1789701
+2016-05-01,200,Registro Nacional de las Personas,143.68198850000002
+2016-06-01,200,Registro Nacional de las Personas,268.80991446
+2016-07-01,200,Registro Nacional de las Personas,215.64086037
+2016-08-01,200,Registro Nacional de las Personas,162.17252296
+2016-09-01,200,Registro Nacional de las Personas,626.44210482
+2016-10-01,200,Registro Nacional de las Personas,109.35394697000001
+2016-11-01,200,Registro Nacional de las Personas,197.56602688
+2016-12-01,200,Registro Nacional de las Personas,252.13381052
+2016-01-01,201,Dirección Nacional de Migraciones,64.2064738
+2016-02-01,201,Dirección Nacional de Migraciones,95.61935872
+2016-03-01,201,Dirección Nacional de Migraciones,128.08737943
+2016-04-01,201,Dirección Nacional de Migraciones,96.2201066
+2016-05-01,201,Dirección Nacional de Migraciones,139.88989645
+2016-06-01,201,Dirección Nacional de Migraciones,206.67870537
+2016-07-01,201,Dirección Nacional de Migraciones,111.57521537
+2016-08-01,201,Dirección Nacional de Migraciones,180.49584023999998
+2016-09-01,201,Dirección Nacional de Migraciones,188.31569719
+2016-10-01,201,Dirección Nacional de Migraciones,132.36141916
+2016-11-01,201,Dirección Nacional de Migraciones,180.45579817
+2016-12-01,201,Dirección Nacional de Migraciones,345.40962265999997
+2016-01-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",1.52889593
+2016-02-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",10.70587025
+2016-03-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",10.57205242
+2016-04-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",3.62808769
+2016-05-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",8.74452269
+2016-06-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",16.63113052
+2016-07-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",7.96471169
+2016-08-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",8.5890248
+2016-09-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",20.41661531
+2016-10-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",6.39707565
+2016-11-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",21.86879342
+2016-12-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",21.9410773
+2016-01-01,203,Agencia Nacional de Seguridad Vial,15.08011408
+2016-02-01,203,Agencia Nacional de Seguridad Vial,19.58943508
+2016-03-01,203,Agencia Nacional de Seguridad Vial,43.24427954
+2016-04-01,203,Agencia Nacional de Seguridad Vial,29.54618192
+2016-05-01,203,Agencia Nacional de Seguridad Vial,32.074403339999996
+2016-06-01,203,Agencia Nacional de Seguridad Vial,55.59396687
+2016-07-01,203,Agencia Nacional de Seguridad Vial,36.99508018
+2016-08-01,203,Agencia Nacional de Seguridad Vial,41.54012592
+2016-09-01,203,Agencia Nacional de Seguridad Vial,43.39264754
+2016-10-01,203,Agencia Nacional de Seguridad Vial,42.4980003
+2016-11-01,203,Agencia Nacional de Seguridad Vial,44.32788989
+2016-12-01,203,Agencia Nacional de Seguridad Vial,97.37793854
+2016-01-01,205,Agencia de Administración de Bienes del Estado,10.16509248
+2016-02-01,205,Agencia de Administración de Bienes del Estado,16.5108164
+2016-03-01,205,Agencia de Administración de Bienes del Estado,15.850000840000002
+2016-04-01,205,Agencia de Administración de Bienes del Estado,12.68081666
+2016-05-01,205,Agencia de Administración de Bienes del Estado,14.49506389
+2016-06-01,205,Agencia de Administración de Bienes del Estado,22.903612680000002
+2016-07-01,205,Agencia de Administración de Bienes del Estado,13.5181967
+2016-08-01,205,Agencia de Administración de Bienes del Estado,18.582094559999998
+2016-09-01,205,Agencia de Administración de Bienes del Estado,22.09010782
+2016-10-01,205,Agencia de Administración de Bienes del Estado,18.84461531
+2016-11-01,205,Agencia de Administración de Bienes del Estado,16.916561780000002
+2016-12-01,205,Agencia de Administración de Bienes del Estado,38.46087302
+2016-01-01,206,Centro Internacional para la Promoción de los Derechos Humanos,0.73317194
+2016-02-01,206,Centro Internacional para la Promoción de los Derechos Humanos,0.8429952000000001
+2016-03-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.39802172
+2016-04-01,206,Centro Internacional para la Promoción de los Derechos Humanos,0.68627155
+2016-05-01,206,Centro Internacional para la Promoción de los Derechos Humanos,0.8857194399999999
+2016-06-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.25638115
+2016-07-01,206,Centro Internacional para la Promoción de los Derechos Humanos,0.74003465
+2016-08-01,206,Centro Internacional para la Promoción de los Derechos Humanos,0.90190924
+2016-09-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.66423083
+2016-10-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.5047391700000001
+2016-11-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.06115045
+2016-12-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.1202788799999999
+2016-01-01,207,Ente Nacional de Comunicaciones,64.263854
+2016-02-01,207,Ente Nacional de Comunicaciones,112.0919009
+2016-03-01,207,Ente Nacional de Comunicaciones,129.40798916
+2016-04-01,207,Ente Nacional de Comunicaciones,74.23995565
+2016-05-01,207,Ente Nacional de Comunicaciones,93.4810207
+2016-06-01,207,Ente Nacional de Comunicaciones,167.12115882
+2016-07-01,207,Ente Nacional de Comunicaciones,86.36669655
+2016-08-01,207,Ente Nacional de Comunicaciones,107.25093054
+2016-09-01,207,Ente Nacional de Comunicaciones,151.53715067
+2016-10-01,207,Ente Nacional de Comunicaciones,98.59173848
+2016-11-01,207,Ente Nacional de Comunicaciones,126.3718636
+2016-12-01,207,Ente Nacional de Comunicaciones,309.94816678
+2016-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1011.81057032
+2016-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1034.03915642
+2016-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1040.5724306500001
+2016-04-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1041.62553193
+2016-05-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1041.69562693
+2016-06-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1604.3182665599998
+2016-07-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1292.04117938
+2016-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1427.31449587
+2016-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1461.75851727
+2016-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1447.9662431399997
+2016-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1460.1515269699998
+2016-12-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",2084.46153892
+2016-01-01,301,Secretaría General de la Presidencia de la Nación,32.61203028
+2016-02-01,301,Secretaría General de la Presidencia de la Nación,349.72502151
+2016-03-01,301,Secretaría General de la Presidencia de la Nación,253.02261613999997
+2016-04-01,301,Secretaría General de la Presidencia de la Nación,242.94507087
+2016-05-01,301,Secretaría General de la Presidencia de la Nación,250.33118901999998
+2016-06-01,301,Secretaría General de la Presidencia de la Nación,123.73695065
+2016-07-01,301,Secretaría General de la Presidencia de la Nación,74.98342477
+2016-08-01,301,Secretaría General de la Presidencia de la Nación,421.10501904
+2016-09-01,301,Secretaría General de la Presidencia de la Nación,373.24603409
+2016-10-01,301,Secretaría General de la Presidencia de la Nación,258.47756823
+2016-11-01,301,Secretaría General de la Presidencia de la Nación,284.32335899
+2016-12-01,301,Secretaría General de la Presidencia de la Nación,187.51751206
+2016-01-01,302,Agencia Federal de Inteligencia,70.29635406999999
+2016-02-01,302,Agencia Federal de Inteligencia,134.31045404
+2016-03-01,302,Agencia Federal de Inteligencia,102.29653311
+2016-04-01,302,Agencia Federal de Inteligencia,102.29957021
+2016-05-01,302,Agencia Federal de Inteligencia,0.28865808
+2016-06-01,302,Agencia Federal de Inteligencia,246.79939371
+2016-07-01,302,Agencia Federal de Inteligencia,114.23930476000001
+2016-08-01,302,Agencia Federal de Inteligencia,124.06678988000002
+2016-09-01,302,Agencia Federal de Inteligencia,132.36678988
+2016-10-01,302,Agencia Federal de Inteligencia,127.36678988
+2016-11-01,302,Agencia Federal de Inteligencia,0.0
+2016-12-01,302,Agencia Federal de Inteligencia,283.04099672
+2016-01-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,20.40710409
+2016-02-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,27.8642571
+2016-03-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,59.8481429
+2016-04-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,23.28505822
+2016-05-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,39.97394616
+2016-06-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,58.3506985
+2016-07-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,37.6017241
+2016-08-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,49.304369460000004
+2016-09-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,61.63326399
+2016-10-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,48.338418069999996
+2016-11-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,51.12564284
+2016-12-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,96.42812721
+2016-01-01,305,Dirección General de Administración - Jefatura de Gabinete,96.22550455
+2016-02-01,305,Dirección General de Administración - Jefatura de Gabinete,166.76163177
+2016-03-01,305,Dirección General de Administración - Jefatura de Gabinete,205.23456372
+2016-04-01,305,Dirección General de Administración - Jefatura de Gabinete,187.76566714
+2016-05-01,305,Dirección General de Administración - Jefatura de Gabinete,254.18264471
+2016-06-01,305,Dirección General de Administración - Jefatura de Gabinete,204.43568471
+2016-07-01,305,Dirección General de Administración - Jefatura de Gabinete,157.51321533
+2016-08-01,305,Dirección General de Administración - Jefatura de Gabinete,302.92348818
+2016-09-01,305,Dirección General de Administración - Jefatura de Gabinete,257.95631048
+2016-10-01,305,Dirección General de Administración - Jefatura de Gabinete,193.68373671999998
+2016-11-01,305,Dirección General de Administración - Jefatura de Gabinete,246.97610171
+2016-12-01,305,Dirección General de Administración - Jefatura de Gabinete,468.11939286
+2016-01-01,307,Ministerio de Relaciones Exteriores y Culto,268.419675
+2016-02-01,307,Ministerio de Relaciones Exteriores y Culto,470.84658276
+2016-03-01,307,Ministerio de Relaciones Exteriores y Culto,617.16421157
+2016-04-01,307,Ministerio de Relaciones Exteriores y Culto,399.73104161
+2016-05-01,307,Ministerio de Relaciones Exteriores y Culto,430.48519683
+2016-06-01,307,Ministerio de Relaciones Exteriores y Culto,977.99045432
+2016-07-01,307,Ministerio de Relaciones Exteriores y Culto,411.28492446
+2016-08-01,307,Ministerio de Relaciones Exteriores y Culto,349.01810444
+2016-09-01,307,Ministerio de Relaciones Exteriores y Culto,791.37220903
+2016-10-01,307,Ministerio de Relaciones Exteriores y Culto,320.0804041
+2016-11-01,307,Ministerio de Relaciones Exteriores y Culto,597.27539265
+2016-12-01,307,Ministerio de Relaciones Exteriores y Culto,1336.70253907
+2016-01-01,310,Ministerio de Salud,205.04097474
+2016-02-01,310,Ministerio de Salud,1284.67296037
+2016-03-01,310,Ministerio de Salud,3701.1290628
+2016-04-01,310,Ministerio de Salud,1208.62324753
+2016-05-01,310,Ministerio de Salud,2092.75414979
+2016-06-01,310,Ministerio de Salud,3445.38768484
+2016-07-01,310,Ministerio de Salud,1516.39461101
+2016-08-01,310,Ministerio de Salud,2051.8747681199998
+2016-09-01,310,Ministerio de Salud,3740.32223397
+2016-10-01,310,Ministerio de Salud,1970.43150576
+2016-11-01,310,Ministerio de Salud,1821.40473017
+2016-12-01,310,Ministerio de Salud,5832.53950122
+2016-01-01,311,Ministerio de Desarrollo Social,6208.11946372
+2016-02-01,311,Ministerio de Desarrollo Social,6146.6105524
+2016-03-01,311,Ministerio de Desarrollo Social,8443.95490302
+2016-04-01,311,Ministerio de Desarrollo Social,7066.86763853
+2016-05-01,311,Ministerio de Desarrollo Social,7523.475203309999
+2016-06-01,311,Ministerio de Desarrollo Social,11205.35998694
+2016-07-01,311,Ministerio de Desarrollo Social,6730.60924439
+2016-08-01,311,Ministerio de Desarrollo Social,8290.96599153
+2016-09-01,311,Ministerio de Desarrollo Social,9384.02890513
+2016-10-01,311,Ministerio de Desarrollo Social,8473.77259631
+2016-11-01,311,Ministerio de Desarrollo Social,8748.11292049
+2016-12-01,311,Ministerio de Desarrollo Social,13392.04071531
+2016-01-01,312,Senado de la Nación,315.80102786
+2016-02-01,312,Senado de la Nación,342.76445005
+2016-03-01,312,Senado de la Nación,310.41062847
+2016-04-01,312,Senado de la Nación,308.56300591
+2016-05-01,312,Senado de la Nación,414.38161136
+2016-06-01,312,Senado de la Nación,535.35518251
+2016-07-01,312,Senado de la Nación,377.70511962
+2016-08-01,312,Senado de la Nación,381.17973185
+2016-09-01,312,Senado de la Nación,436.9563842
+2016-10-01,312,Senado de la Nación,417.4776605
+2016-11-01,312,Senado de la Nación,424.72912981999997
+2016-12-01,312,Senado de la Nación,902.8462868
+2016-01-01,313,Cámara de Diputados,266.08634474
+2016-02-01,313,Cámara de Diputados,254.72710282
+2016-03-01,313,Cámara de Diputados,357.22973946
+2016-04-01,313,Cámara de Diputados,263.80954089
+2016-05-01,313,Cámara de Diputados,449.71704044
+2016-06-01,313,Cámara de Diputados,486.16457304
+2016-07-01,313,Cámara de Diputados,329.56841107
+2016-08-01,313,Cámara de Diputados,332.60565568
+2016-09-01,313,Cámara de Diputados,431.50968468
+2016-10-01,313,Cámara de Diputados,375.91002915
+2016-11-01,313,Cámara de Diputados,388.45358345
+2016-12-01,313,Cámara de Diputados,711.19209062
+2016-01-01,314,Biblioteca del Congreso,82.21135094
+2016-02-01,314,Biblioteca del Congreso,84.73542881
+2016-03-01,314,Biblioteca del Congreso,91.85468283
+2016-04-01,314,Biblioteca del Congreso,85.58693169
+2016-05-01,314,Biblioteca del Congreso,121.6729327
+2016-06-01,314,Biblioteca del Congreso,136.91156178
+2016-07-01,314,Biblioteca del Congreso,94.12337957
+2016-08-01,314,Biblioteca del Congreso,94.64121674
+2016-09-01,314,Biblioteca del Congreso,117.86842373
+2016-10-01,314,Biblioteca del Congreso,110.33014676
+2016-11-01,314,Biblioteca del Congreso,112.03652883
+2016-12-01,314,Biblioteca del Congreso,178.44207259
+2016-01-01,315,Imprenta del Congreso,22.883360030000002
+2016-02-01,315,Imprenta del Congreso,22.65304338
+2016-03-01,315,Imprenta del Congreso,24.03811237
+2016-04-01,315,Imprenta del Congreso,23.02828042
+2016-05-01,315,Imprenta del Congreso,37.78151326
+2016-06-01,315,Imprenta del Congreso,42.634128839999995
+2016-07-01,315,Imprenta del Congreso,47.48151075
+2016-08-01,315,Imprenta del Congreso,28.35805547
+2016-09-01,315,Imprenta del Congreso,35.28096297
+2016-10-01,315,Imprenta del Congreso,31.17963219
+2016-11-01,315,Imprenta del Congreso,32.64205752
+2016-12-01,315,Imprenta del Congreso,63.11301427
+2016-01-01,316,Ayuda Social Personal del Congreso de la Nación,45.378626780000005
+2016-02-01,316,Ayuda Social Personal del Congreso de la Nación,46.849718749999994
+2016-03-01,316,Ayuda Social Personal del Congreso de la Nación,49.01137917
+2016-04-01,316,Ayuda Social Personal del Congreso de la Nación,44.10594578
+2016-05-01,316,Ayuda Social Personal del Congreso de la Nación,58.47223268
+2016-06-01,316,Ayuda Social Personal del Congreso de la Nación,66.467617
+2016-07-01,316,Ayuda Social Personal del Congreso de la Nación,52.8523539
+2016-08-01,316,Ayuda Social Personal del Congreso de la Nación,49.885765979999995
+2016-09-01,316,Ayuda Social Personal del Congreso de la Nación,104.8039203
+2016-10-01,316,Ayuda Social Personal del Congreso de la Nación,67.08119956
+2016-11-01,316,Ayuda Social Personal del Congreso de la Nación,54.59906596
+2016-12-01,316,Ayuda Social Personal del Congreso de la Nación,227.09193073
+2016-01-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),26.56608775
+2016-02-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),25.30601137
+2016-03-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),45.02048084
+2016-04-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),44.8875981
+2016-05-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),212.37584698
+2016-06-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),144.94435088
+2016-07-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),85.64331413000001
+2016-08-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),76.44288813
+2016-09-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),108.84241289
+2016-10-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),142.30321869
+2016-11-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),196.25783254
+2016-12-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),380.39843714
+2016-01-01,319,Defensoría del Pueblo,20.23042212
+2016-02-01,319,Defensoría del Pueblo,19.61875684
+2016-03-01,319,Defensoría del Pueblo,18.18588905
+2016-04-01,319,Defensoría del Pueblo,22.82055515
+2016-05-01,319,Defensoría del Pueblo,21.927637
+2016-06-01,319,Defensoría del Pueblo,36.96906521
+2016-07-01,319,Defensoría del Pueblo,24.670178619999998
+2016-08-01,319,Defensoría del Pueblo,25.16524131
+2016-09-01,319,Defensoría del Pueblo,25.06059019
+2016-10-01,319,Defensoría del Pueblo,25.130270460000002
+2016-11-01,319,Defensoría del Pueblo,25.15557944
+2016-12-01,319,Defensoría del Pueblo,42.39350905
+2016-01-01,320,Consejo de la Magistratura,1640.1742311
+2016-02-01,320,Consejo de la Magistratura,1048.63079749
+2016-03-01,320,Consejo de la Magistratura,1206.20285939
+2016-04-01,320,Consejo de la Magistratura,1491.55443317
+2016-05-01,320,Consejo de la Magistratura,1130.39586984
+2016-06-01,320,Consejo de la Magistratura,3101.15828948
+2016-07-01,320,Consejo de la Magistratura,-12.553231889999994
+2016-08-01,320,Consejo de la Magistratura,2220.7616324699998
+2016-09-01,320,Consejo de la Magistratura,1574.82363448
+2016-10-01,320,Consejo de la Magistratura,1678.32462704
+2016-11-01,320,Consejo de la Magistratura,1725.8277711399999
+2016-12-01,320,Consejo de la Magistratura,2564.06910673
+2016-01-01,321,Instituto Nacional de Estadística y Censos,35.08518047
+2016-02-01,321,Instituto Nacional de Estadística y Censos,40.59064133
+2016-03-01,321,Instituto Nacional de Estadística y Censos,58.83797833
+2016-04-01,321,Instituto Nacional de Estadística y Censos,47.58577963
+2016-05-01,321,Instituto Nacional de Estadística y Censos,56.27849514
+2016-06-01,321,Instituto Nacional de Estadística y Censos,76.52162788
+2016-07-01,321,Instituto Nacional de Estadística y Censos,52.66911227
+2016-08-01,321,Instituto Nacional de Estadística y Censos,58.63684809
+2016-09-01,321,Instituto Nacional de Estadística y Censos,61.348086349999996
+2016-10-01,321,Instituto Nacional de Estadística y Censos,67.65337658
+2016-11-01,321,Instituto Nacional de Estadística y Censos,67.15191584
+2016-12-01,321,Instituto Nacional de Estadística y Censos,132.24199916
+2016-01-01,322,Ministerio de Turismo,16.06324546
+2016-02-01,322,Ministerio de Turismo,36.60791475
+2016-03-01,322,Ministerio de Turismo,136.03256094
+2016-04-01,322,Ministerio de Turismo,35.42455491
+2016-05-01,322,Ministerio de Turismo,56.940442759999996
+2016-06-01,322,Ministerio de Turismo,78.8688797
+2016-07-01,322,Ministerio de Turismo,48.90679409
+2016-08-01,322,Ministerio de Turismo,99.21811632000001
+2016-09-01,322,Ministerio de Turismo,97.69659207
+2016-10-01,322,Ministerio de Turismo,60.32991299
+2016-11-01,322,Ministerio de Turismo,132.09290963
+2016-12-01,322,Ministerio de Turismo,281.86943076
+2016-01-01,323,Comisión Nacional de Comercio Exterior,2.26784324
+2016-02-01,323,Comisión Nacional de Comercio Exterior,2.3829057799999998
+2016-03-01,323,Comisión Nacional de Comercio Exterior,3.14451365
+2016-04-01,323,Comisión Nacional de Comercio Exterior,2.4313811100000002
+2016-05-01,323,Comisión Nacional de Comercio Exterior,2.74816474
+2016-06-01,323,Comisión Nacional de Comercio Exterior,3.7786762
+2016-07-01,323,Comisión Nacional de Comercio Exterior,2.0339622
+2016-08-01,323,Comisión Nacional de Comercio Exterior,4.95354048
+2016-09-01,323,Comisión Nacional de Comercio Exterior,3.77504584
+2016-10-01,323,Comisión Nacional de Comercio Exterior,4.1203549
+2016-11-01,323,Comisión Nacional de Comercio Exterior,3.76045164
+2016-12-01,323,Comisión Nacional de Comercio Exterior,6.65095464
+2016-01-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",56.21673473
+2016-02-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",75.60417395
+2016-03-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",1947.64849638
+2016-04-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",1970.0482046
+2016-05-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",2327.46469968
+2016-06-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",3970.0813879400002
+2016-07-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",2575.01941875
+2016-08-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",3279.66684214
+2016-09-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",5619.79765788
+2016-10-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",4150.77802289
+2016-11-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",3299.72251954
+2016-12-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",6907.40138646
+2016-01-01,326,Policía Federal Argentina,1495.49796994
+2016-02-01,326,Policía Federal Argentina,1664.10400065
+2016-03-01,326,Policía Federal Argentina,1704.70563565
+2016-04-01,326,Policía Federal Argentina,1717.6717016
+2016-05-01,326,Policía Federal Argentina,1665.17128598
+2016-06-01,326,Policía Federal Argentina,2817.4842841
+2016-07-01,326,Policía Federal Argentina,2146.24866545
+2016-08-01,326,Policía Federal Argentina,2175.01146447
+2016-09-01,326,Policía Federal Argentina,2349.04556637
+2016-10-01,326,Policía Federal Argentina,2162.19963748
+2016-11-01,326,Policía Federal Argentina,2262.55714541
+2016-12-01,326,Policía Federal Argentina,3266.57402135
+2016-01-01,327,Ministerio de Transporte (Gastos Propios),2581.5790780400002
+2016-02-01,327,Ministerio de Transporte (Gastos Propios),1609.72094371
+2016-03-01,327,Ministerio de Transporte (Gastos Propios),5199.6206819
+2016-04-01,327,Ministerio de Transporte (Gastos Propios),3634.77270212
+2016-05-01,327,Ministerio de Transporte (Gastos Propios),4413.49152368
+2016-06-01,327,Ministerio de Transporte (Gastos Propios),4826.16259799
+2016-07-01,327,Ministerio de Transporte (Gastos Propios),3482.07426434
+2016-08-01,327,Ministerio de Transporte (Gastos Propios),3930.22572741
+2016-09-01,327,Ministerio de Transporte (Gastos Propios),5720.7552673
+2016-10-01,327,Ministerio de Transporte (Gastos Propios),1967.46600769
+2016-11-01,327,Ministerio de Transporte (Gastos Propios),2314.77759542
+2016-12-01,327,Ministerio de Transporte (Gastos Propios),9189.97588077
+2016-01-01,328,Ministerio de Energía y Minería (Gastos Propios),27.87650391
+2016-02-01,328,Ministerio de Energía y Minería (Gastos Propios),5815.7755652
+2016-03-01,328,Ministerio de Energía y Minería (Gastos Propios),7735.41265094
+2016-04-01,328,Ministerio de Energía y Minería (Gastos Propios),12686.24422671
+2016-05-01,328,Ministerio de Energía y Minería (Gastos Propios),12803.88029133
+2016-06-01,328,Ministerio de Energía y Minería (Gastos Propios),15871.06100149
+2016-07-01,328,Ministerio de Energía y Minería (Gastos Propios),19577.05429099
+2016-08-01,328,Ministerio de Energía y Minería (Gastos Propios),13525.00668982
+2016-09-01,328,Ministerio de Energía y Minería (Gastos Propios),27247.094176510003
+2016-10-01,328,Ministerio de Energía y Minería (Gastos Propios),18756.58021443
+2016-11-01,328,Ministerio de Energía y Minería (Gastos Propios),9078.35754862
+2016-12-01,328,Ministerio de Energía y Minería (Gastos Propios),57708.452500030005
+2016-01-01,329,Ministerio de Comunicaciones (Gastos Propios),0.3254415
+2016-02-01,329,Ministerio de Comunicaciones (Gastos Propios),1.18244467
+2016-03-01,329,Ministerio de Comunicaciones (Gastos Propios),1.99947516
+2016-04-01,329,Ministerio de Comunicaciones (Gastos Propios),1.93602487
+2016-05-01,329,Ministerio de Comunicaciones (Gastos Propios),5.10796207
+2016-06-01,329,Ministerio de Comunicaciones (Gastos Propios),8.17313122
+2016-07-01,329,Ministerio de Comunicaciones (Gastos Propios),7.14787623
+2016-08-01,329,Ministerio de Comunicaciones (Gastos Propios),5.17110152
+2016-09-01,329,Ministerio de Comunicaciones (Gastos Propios),12.71671092
+2016-10-01,329,Ministerio de Comunicaciones (Gastos Propios),4.60838122
+2016-11-01,329,Ministerio de Comunicaciones (Gastos Propios),81.38141938
+2016-12-01,329,Ministerio de Comunicaciones (Gastos Propios),215.49534801
+2016-01-01,330,Ministerio de Educación y Deportes,4455.4263429
+2016-02-01,330,Ministerio de Educación y Deportes,4686.70905258
+2016-03-01,330,Ministerio de Educación y Deportes,7693.47884659
+2016-04-01,330,Ministerio de Educación y Deportes,5222.77062292
+2016-05-01,330,Ministerio de Educación y Deportes,6065.43476174
+2016-06-01,330,Ministerio de Educación y Deportes,10486.16056585
+2016-07-01,330,Ministerio de Educación y Deportes,7249.64270448
+2016-08-01,330,Ministerio de Educación y Deportes,8216.23967226
+2016-09-01,330,Ministerio de Educación y Deportes,9260.02888865
+2016-10-01,330,Ministerio de Educación y Deportes,6363.13126115
+2016-11-01,330,Ministerio de Educación y Deportes,9682.98974977
+2016-12-01,330,Ministerio de Educación y Deportes,17074.82670973
+2016-01-01,331,Servicio Penitenciario Federal,509.08760396
+2016-02-01,331,Servicio Penitenciario Federal,829.40037163
+2016-03-01,331,Servicio Penitenciario Federal,708.56151963
+2016-04-01,331,Servicio Penitenciario Federal,684.05715896
+2016-05-01,331,Servicio Penitenciario Federal,750.16758361
+2016-06-01,331,Servicio Penitenciario Federal,1006.66129461
+2016-07-01,331,Servicio Penitenciario Federal,648.8684419
+2016-08-01,331,Servicio Penitenciario Federal,1020.20656864
+2016-09-01,331,Servicio Penitenciario Federal,1006.9383972
+2016-10-01,331,Servicio Penitenciario Federal,930.31256754
+2016-11-01,331,Servicio Penitenciario Federal,818.4151533
+2016-12-01,331,Servicio Penitenciario Federal,1755.03555206
+2016-01-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),56.44233978
+2016-02-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),65.85518939
+2016-03-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),90.73025174
+2016-04-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),98.67603399
+2016-05-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),125.36372932
+2016-06-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),130.23252154
+2016-07-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),137.8404927
+2016-08-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),133.59170563
+2016-09-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),205.59814596
+2016-10-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),208.81869162
+2016-11-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),118.34594037
+2016-12-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),526.71734203
+2016-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,50.58660305
+2016-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,51.056048110000006
+2016-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,54.11265159
+2016-04-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,51.73180489
+2016-05-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,55.94681967
+2016-06-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,86.77420948999999
+2016-07-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,64.65726956
+2016-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,65.69852646
+2016-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,69.2178905
+2016-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,65.39645800000001
+2016-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,77.27025549
+2016-12-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,111.40247204
+2016-01-01,335,Corte Suprema de Justicia de la Nación,0.0
+2016-02-01,335,Corte Suprema de Justicia de la Nación,348.59030514
+2016-03-01,335,Corte Suprema de Justicia de la Nación,233.30454949
+2016-04-01,335,Corte Suprema de Justicia de la Nación,203.41614852
+2016-05-01,335,Corte Suprema de Justicia de la Nación,213.01557492
+2016-06-01,335,Corte Suprema de Justicia de la Nación,340.64595859
+2016-07-01,335,Corte Suprema de Justicia de la Nación,234.4124773
+2016-08-01,335,Corte Suprema de Justicia de la Nación,237.01915188
+2016-09-01,335,Corte Suprema de Justicia de la Nación,244.3392879
+2016-10-01,335,Corte Suprema de Justicia de la Nación,260.62799546
+2016-11-01,335,Corte Suprema de Justicia de la Nación,262.1811273
+2016-12-01,335,Corte Suprema de Justicia de la Nación,414.05692038
+2016-01-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",36.69045054
+2016-02-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",87.83609902
+2016-03-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",390.89430729000003
+2016-04-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",195.87610827999998
+2016-05-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",148.3580789
+2016-06-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",790.0132527799999
+2016-07-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",222.49521147000002
+2016-08-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",251.53766783999998
+2016-09-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",417.89064028
+2016-10-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",153.5765737
+2016-11-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",173.91996601
+2016-12-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",617.78322117
+2016-01-01,337,Ministerio de Cultura,67.16038806
+2016-02-01,337,Ministerio de Cultura,7.1984894100000005
+2016-03-01,337,Ministerio de Cultura,161.69636807
+2016-04-01,337,Ministerio de Cultura,38.34333569
+2016-05-01,337,Ministerio de Cultura,186.698148
+2016-06-01,337,Ministerio de Cultura,201.42990359
+2016-07-01,337,Ministerio de Cultura,78.93742662
+2016-08-01,337,Ministerio de Cultura,92.57989970999999
+2016-09-01,337,Ministerio de Cultura,323.01643879
+2016-10-01,337,Ministerio de Cultura,48.8396183
+2016-11-01,337,Ministerio de Cultura,264.85377036
+2016-12-01,337,Ministerio de Cultura,551.85433732
+2016-01-01,338,Secretaría Legal y Técnica,15.4351002
+2016-02-01,338,Secretaría Legal y Técnica,16.87590884
+2016-03-01,338,Secretaría Legal y Técnica,16.6632151
+2016-04-01,338,Secretaría Legal y Técnica,14.11695892
+2016-05-01,338,Secretaría Legal y Técnica,14.50891803
+2016-06-01,338,Secretaría Legal y Técnica,22.75928273
+2016-07-01,338,Secretaría Legal y Técnica,16.44457447
+2016-08-01,338,Secretaría Legal y Técnica,19.27178104
+2016-09-01,338,Secretaría Legal y Técnica,20.21362661
+2016-10-01,338,Secretaría Legal y Técnica,20.06860133
+2016-11-01,338,Secretaría Legal y Técnica,19.10318222
+2016-12-01,338,Secretaría Legal y Técnica,35.43630131
+2016-01-01,340,Procuración Penitenciaria,10.99359189
+2016-02-01,340,Procuración Penitenciaria,12.17429044
+2016-03-01,340,Procuración Penitenciaria,16.15636422
+2016-04-01,340,Procuración Penitenciaria,14.08882223
+2016-05-01,340,Procuración Penitenciaria,15.774900480000001
+2016-06-01,340,Procuración Penitenciaria,25.58265807
+2016-07-01,340,Procuración Penitenciaria,14.7401774
+2016-08-01,340,Procuración Penitenciaria,20.52712907
+2016-09-01,340,Procuración Penitenciaria,18.79445844
+2016-10-01,340,Procuración Penitenciaria,21.28372408
+2016-11-01,340,Procuración Penitenciaria,19.24973469
+2016-12-01,340,Procuración Penitenciaria,33.76253346
+2016-01-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",68.02263436999999
+2016-02-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",77.26300643
+2016-03-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",98.39367477
+2016-04-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",79.35091152
+2016-05-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",86.62587653
+2016-06-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",134.45504441
+2016-07-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",107.8920443
+2016-08-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",128.72838527
+2016-09-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",162.989052
+2016-10-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",111.20323344
+2016-11-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",128.86774899
+2016-12-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",347.21914997
+2016-01-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),0.95921077
+2016-02-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),0.9129861
+2016-03-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),166.21768291
+2016-04-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),1.09190203
+2016-05-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),10.22067584
+2016-06-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),220.38172884
+2016-07-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),1.28805097
+2016-08-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),44.45391502999999
+2016-09-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),126.35160231
+2016-10-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),94.96259986999999
+2016-11-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),153.42317619000002
+2016-12-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),678.77923275
+2016-01-01,343,Ministerio de Seguridad,24.44858699
+2016-02-01,343,Ministerio de Seguridad,35.244839049999996
+2016-03-01,343,Ministerio de Seguridad,80.89866974
+2016-04-01,343,Ministerio de Seguridad,66.62176958
+2016-05-01,343,Ministerio de Seguridad,88.37915053
+2016-06-01,343,Ministerio de Seguridad,196.96204575000002
+2016-07-01,343,Ministerio de Seguridad,77.67587041
+2016-08-01,343,Ministerio de Seguridad,121.11534014
+2016-09-01,343,Ministerio de Seguridad,561.30778447
+2016-10-01,343,Ministerio de Seguridad,178.86807416
+2016-11-01,343,Ministerio de Seguridad,116.4745306
+2016-12-01,343,Ministerio de Seguridad,1965.0931059700001
+2016-01-01,345,Consejo Nacional de Coordinación de Políticas Sociales,11.80949391
+2016-02-01,345,Consejo Nacional de Coordinación de Políticas Sociales,13.6869688
+2016-03-01,345,Consejo Nacional de Coordinación de Políticas Sociales,34.967461
+2016-04-01,345,Consejo Nacional de Coordinación de Políticas Sociales,18.14100808
+2016-05-01,345,Consejo Nacional de Coordinación de Políticas Sociales,26.03079834
+2016-06-01,345,Consejo Nacional de Coordinación de Políticas Sociales,38.52962664
+2016-07-01,345,Consejo Nacional de Coordinación de Políticas Sociales,45.04768256
+2016-08-01,345,Consejo Nacional de Coordinación de Políticas Sociales,45.96067764
+2016-09-01,345,Consejo Nacional de Coordinación de Políticas Sociales,39.49217136
+2016-10-01,345,Consejo Nacional de Coordinación de Políticas Sociales,22.53592669
+2016-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,45.66806445
+2016-12-01,345,Consejo Nacional de Coordinación de Políticas Sociales,145.05689483
+2016-01-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,3.0930134600000003
+2016-02-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,6.40316964
+2016-03-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,7.62664625
+2016-04-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,3.96365076
+2016-05-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,8.54345043
+2016-06-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,11.94516321
+2016-07-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,4.95161685
+2016-08-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,7.86479954
+2016-09-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,10.42406027
+2016-10-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,6.44632288
+2016-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,11.15797306
+2016-12-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,11.94459758
+2016-06-01,347,Sistema Federal de Medios y Contenidos Públicos,40.70281054
+2016-07-01,347,Sistema Federal de Medios y Contenidos Públicos,110.45058673
+2016-08-01,347,Sistema Federal de Medios y Contenidos Públicos,142.50604615
+2016-09-01,347,Sistema Federal de Medios y Contenidos Públicos,131.8186223
+2016-10-01,347,Sistema Federal de Medios y Contenidos Públicos,47.66118428
+2016-11-01,347,Sistema Federal de Medios y Contenidos Públicos,155.72008254
+2016-12-01,347,Sistema Federal de Medios y Contenidos Públicos,203.00470397
+2016-01-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",103.11795534
+2016-02-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",302.50896981
+2016-03-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",950.3992664
+2016-04-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",176.03842492
+2016-05-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",280.52930258
+2016-06-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",724.95488798
+2016-07-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",242.50795929
+2016-08-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",563.31105999
+2016-09-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",737.58416912
+2016-10-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",307.06207954
+2016-11-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",643.4983308
+2016-12-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",1606.9052553
+2016-01-01,355,Servicio de la Deuda Pública,3608.55260577
+2016-02-01,355,Servicio de la Deuda Pública,6261.704038780001
+2016-03-01,355,Servicio de la Deuda Pública,18448.81393958
+2016-04-01,355,Servicio de la Deuda Pública,12865.143719239999
+2016-05-01,355,Servicio de la Deuda Pública,15897.33566285
+2016-06-01,355,Servicio de la Deuda Pública,35520.79763092
+2016-07-01,355,Servicio de la Deuda Pública,3462.89459579
+2016-08-01,355,Servicio de la Deuda Pública,2563.06960236
+2016-09-01,355,Servicio de la Deuda Pública,25414.29069845
+2016-10-01,355,Servicio de la Deuda Pública,26242.137106770002
+2016-11-01,355,Servicio de la Deuda Pública,11134.40193572
+2016-12-01,355,Servicio de la Deuda Pública,145049.90208934
+2016-01-01,356,Obligaciones a Cargo del Tesoro,2034.0771505199998
+2016-02-01,356,Obligaciones a Cargo del Tesoro,6933.38622175
+2016-03-01,356,Obligaciones a Cargo del Tesoro,11304.00434094
+2016-04-01,356,Obligaciones a Cargo del Tesoro,10282.15965184
+2016-05-01,356,Obligaciones a Cargo del Tesoro,10582.91957857
+2016-06-01,356,Obligaciones a Cargo del Tesoro,13805.7276076
+2016-07-01,356,Obligaciones a Cargo del Tesoro,8894.03692723
+2016-08-01,356,Obligaciones a Cargo del Tesoro,15220.49687284
+2016-09-01,356,Obligaciones a Cargo del Tesoro,14238.03148017
+2016-10-01,356,Obligaciones a Cargo del Tesoro,13065.94226194
+2016-11-01,356,Obligaciones a Cargo del Tesoro,5978.86424124
+2016-12-01,356,Obligaciones a Cargo del Tesoro,45008.307213269996
+2016-01-01,357,Ministerio de Hacienda y Finanzas Públicas,109.59793493
+2016-02-01,357,Ministerio de Hacienda y Finanzas Públicas,131.76528996
+2016-03-01,357,Ministerio de Hacienda y Finanzas Públicas,180.01037336
+2016-04-01,357,Ministerio de Hacienda y Finanzas Públicas,136.24974507
+2016-05-01,357,Ministerio de Hacienda y Finanzas Públicas,159.50454452
+2016-06-01,357,Ministerio de Hacienda y Finanzas Públicas,236.24262488
+2016-07-01,357,Ministerio de Hacienda y Finanzas Públicas,132.08022931
+2016-08-01,357,Ministerio de Hacienda y Finanzas Públicas,201.32998089
+2016-09-01,357,Ministerio de Hacienda y Finanzas Públicas,206.52418477
+2016-10-01,357,Ministerio de Hacienda y Finanzas Públicas,150.36320391
+2016-11-01,357,Ministerio de Hacienda y Finanzas Públicas,180.17326385
+2016-12-01,357,Ministerio de Hacienda y Finanzas Públicas,337.01230038
+2016-01-01,360,Procuración General de la Nación,289.65132733
+2016-02-01,360,Procuración General de la Nación,290.68414036
+2016-03-01,360,Procuración General de la Nación,405.80113132
+2016-04-01,360,Procuración General de la Nación,331.70794091
+2016-05-01,360,Procuración General de la Nación,333.22335402
+2016-06-01,360,Procuración General de la Nación,564.77919693
+2016-07-01,360,Procuración General de la Nación,384.82186704
+2016-08-01,360,Procuración General de la Nación,384.40732113999996
+2016-09-01,360,Procuración General de la Nación,392.54917051
+2016-10-01,360,Procuración General de la Nación,386.34444618
+2016-11-01,360,Procuración General de la Nación,479.93898107
+2016-12-01,360,Procuración General de la Nación,680.29685675
+2016-01-01,361,Defensoría General de la Nación,162.35220227
+2016-02-01,361,Defensoría General de la Nación,170.52828687
+2016-03-01,361,Defensoría General de la Nación,231.12255989
+2016-04-01,361,Defensoría General de la Nación,185.29867896
+2016-05-01,361,Defensoría General de la Nación,188.82992735
+2016-06-01,361,Defensoría General de la Nación,317.44297165
+2016-07-01,361,Defensoría General de la Nación,217.1390208
+2016-08-01,361,Defensoría General de la Nación,216.54113801999998
+2016-09-01,361,Defensoría General de la Nación,226.05933667
+2016-10-01,361,Defensoría General de la Nación,215.37936671
+2016-11-01,361,Defensoría General de la Nación,290.3056743
+2016-12-01,361,Defensoría General de la Nación,384.39371556000003
+2016-01-01,362,Ministerio de Producción,55.80994164
+2016-02-01,362,Ministerio de Producción,429.49468078
+2016-03-01,362,Ministerio de Producción,408.99065982
+2016-04-01,362,Ministerio de Producción,67.52542065
+2016-05-01,362,Ministerio de Producción,334.53090402
+2016-06-01,362,Ministerio de Producción,563.86979059
+2016-07-01,362,Ministerio de Producción,390.60364099000003
+2016-08-01,362,Ministerio de Producción,191.25366821
+2016-09-01,362,Ministerio de Producción,1597.01514253
+2016-10-01,362,Ministerio de Producción,255.04464936
+2016-11-01,362,Ministerio de Producción,544.60391687
+2016-12-01,362,Ministerio de Producción,1338.55830417
+2016-01-01,363,Ministerio de Agroindustria,128.28465406
+2016-02-01,363,Ministerio de Agroindustria,378.60152713
+2016-03-01,363,Ministerio de Agroindustria,590.99660116
+2016-04-01,363,Ministerio de Agroindustria,208.98851394000002
+2016-05-01,363,Ministerio de Agroindustria,382.29756601
+2016-06-01,363,Ministerio de Agroindustria,1082.6568166
+2016-07-01,363,Ministerio de Agroindustria,374.27128581
+2016-08-01,363,Ministerio de Agroindustria,432.61632956
+2016-09-01,363,Ministerio de Agroindustria,567.1766392
+2016-10-01,363,Ministerio de Agroindustria,317.02199779
+2016-11-01,363,Ministerio de Agroindustria,612.36945545
+2016-12-01,363,Ministerio de Agroindustria,1103.6994083
+2016-01-01,366,Ministerio de Modernización,0.0
+2016-03-01,366,Ministerio de Modernización,55.65597712
+2016-04-01,366,Ministerio de Modernización,53.3140297
+2016-05-01,366,Ministerio de Modernización,55.99220277
+2016-06-01,366,Ministerio de Modernización,125.24652994
+2016-07-01,366,Ministerio de Modernización,79.04760328
+2016-08-01,366,Ministerio de Modernización,80.08311715
+2016-09-01,366,Ministerio de Modernización,186.19147301
+2016-10-01,366,Ministerio de Modernización,129.55030474
+2016-11-01,366,Ministerio de Modernización,138.49911394
+2016-12-01,366,Ministerio de Modernización,715.45632311
+2016-01-01,370,Ministerio de Defensa (Gastos Propios),29.92192819
+2016-02-01,370,Ministerio de Defensa (Gastos Propios),30.55043998
+2016-03-01,370,Ministerio de Defensa (Gastos Propios),195.83267995
+2016-04-01,370,Ministerio de Defensa (Gastos Propios),42.1527863
+2016-05-01,370,Ministerio de Defensa (Gastos Propios),55.77010867
+2016-06-01,370,Ministerio de Defensa (Gastos Propios),240.77352058
+2016-07-01,370,Ministerio de Defensa (Gastos Propios),277.61466172
+2016-08-01,370,Ministerio de Defensa (Gastos Propios),233.39245540000002
+2016-09-01,370,Ministerio de Defensa (Gastos Propios),61.46957406
+2016-10-01,370,Ministerio de Defensa (Gastos Propios),61.31583447
+2016-11-01,370,Ministerio de Defensa (Gastos Propios),145.6849695
+2016-12-01,370,Ministerio de Defensa (Gastos Propios),273.45142644000003
+2016-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,6.43616852
+2016-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,9.501414460000001
+2016-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,208.75585116
+2016-04-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,33.6069496
+2016-05-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,42.05227935
+2016-06-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,56.56362713
+2016-07-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,23.94417446
+2016-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,33.94232941
+2016-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,72.08068006
+2016-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,47.51729461
+2016-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,52.625677350000004
+2016-12-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,520.6582774
+2016-01-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,14.29150387
+2016-02-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,14.78383283
+2016-03-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,17.98143486
+2016-04-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,14.59730551
+2016-05-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,14.778885370000001
+2016-06-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,24.32227285
+2016-07-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,18.14206032
+2016-08-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,19.73862859
+2016-09-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,23.59277106
+2016-10-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,20.24740039
+2016-11-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,19.96441134
+2016-12-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,48.10354882
+2016-01-01,374,Estado Mayor General del Ejercito,1456.61830554
+2016-02-01,374,Estado Mayor General del Ejercito,1391.5240934
+2016-03-01,374,Estado Mayor General del Ejercito,1752.2579089399999
+2016-04-01,374,Estado Mayor General del Ejercito,1359.23067783
+2016-05-01,374,Estado Mayor General del Ejercito,1656.71536135
+2016-06-01,374,Estado Mayor General del Ejercito,3022.58373132
+2016-07-01,374,Estado Mayor General del Ejercito,1546.4123037
+2016-08-01,374,Estado Mayor General del Ejercito,1835.2764892999999
+2016-09-01,374,Estado Mayor General del Ejercito,2056.93394773
+2016-10-01,374,Estado Mayor General del Ejercito,2024.12335007
+2016-11-01,374,Estado Mayor General del Ejercito,2453.70279433
+2016-12-01,374,Estado Mayor General del Ejercito,3684.87049414
+2016-01-01,375,Gendarmería Nacional,1442.18624946
+2016-02-01,375,Gendarmería Nacional,1542.99751753
+2016-03-01,375,Gendarmería Nacional,1760.21412069
+2016-04-01,375,Gendarmería Nacional,1523.63931045
+2016-05-01,375,Gendarmería Nacional,1541.47990406
+2016-06-01,375,Gendarmería Nacional,2769.56156374
+2016-07-01,375,Gendarmería Nacional,2095.97121824
+2016-08-01,375,Gendarmería Nacional,2272.14845165
+2016-09-01,375,Gendarmería Nacional,2370.57869376
+2016-10-01,375,Gendarmería Nacional,2218.81431843
+2016-11-01,375,Gendarmería Nacional,2482.72936033
+2016-12-01,375,Gendarmería Nacional,3557.94435426
+2016-01-01,376,Subsecreataría del Servicio Logístico de la Defensa,0.0
+2016-02-01,376,Subsecreataría del Servicio Logístico de la Defensa,0.0
+2016-03-01,376,Subsecreataría del Servicio Logístico de la Defensa,1.12608439
+2016-04-01,376,Subsecreataría del Servicio Logístico de la Defensa,1.50782434
+2016-05-01,376,Subsecreataría del Servicio Logístico de la Defensa,0.30469517
+2016-06-01,376,Subsecreataría del Servicio Logístico de la Defensa,1.09775146
+2016-07-01,376,Subsecreataría del Servicio Logístico de la Defensa,0.0
+2016-08-01,376,Subsecreataría del Servicio Logístico de la Defensa,0.85223303
+2016-09-01,376,Subsecreataría del Servicio Logístico de la Defensa,1.92566157
+2016-10-01,376,Subsecreataría del Servicio Logístico de la Defensa,0.41639958
+2016-11-01,376,Subsecreataría del Servicio Logístico de la Defensa,2.23231383
+2016-12-01,376,Subsecreataría del Servicio Logístico de la Defensa,2.87631361
+2016-01-01,379,Estado Mayor General de la Armada,708.08227611
+2016-02-01,379,Estado Mayor General de la Armada,751.81031965
+2016-03-01,379,Estado Mayor General de la Armada,848.26176563
+2016-04-01,379,Estado Mayor General de la Armada,786.87033388
+2016-05-01,379,Estado Mayor General de la Armada,807.22574327
+2016-06-01,379,Estado Mayor General de la Armada,1546.99757963
+2016-07-01,379,Estado Mayor General de la Armada,1030.89143911
+2016-08-01,379,Estado Mayor General de la Armada,1109.68686395
+2016-09-01,379,Estado Mayor General de la Armada,1114.76985118
+2016-10-01,379,Estado Mayor General de la Armada,1057.15825375
+2016-11-01,379,Estado Mayor General de la Armada,1219.1043088
+2016-12-01,379,Estado Mayor General de la Armada,1905.29046316
+2016-01-01,380,Prefectura Naval Argentina,727.52007821
+2016-02-01,380,Prefectura Naval Argentina,899.75303671
+2016-03-01,380,Prefectura Naval Argentina,1112.5970255
+2016-04-01,380,Prefectura Naval Argentina,771.6862844
+2016-05-01,380,Prefectura Naval Argentina,788.97467356
+2016-06-01,380,Prefectura Naval Argentina,2032.4820447500001
+2016-07-01,380,Prefectura Naval Argentina,999.01235288
+2016-08-01,380,Prefectura Naval Argentina,1286.2860066
+2016-09-01,380,Prefectura Naval Argentina,1837.70776742
+2016-10-01,380,Prefectura Naval Argentina,1099.94724998
+2016-11-01,380,Prefectura Naval Argentina,1424.92113257
+2016-12-01,380,Prefectura Naval Argentina,2872.67437105
+2016-01-01,381,Estado Mayor General de la Fuerza Aérea,549.784511
+2016-02-01,381,Estado Mayor General de la Fuerza Aérea,552.47357221
+2016-03-01,381,Estado Mayor General de la Fuerza Aérea,1012.38394734
+2016-04-01,381,Estado Mayor General de la Fuerza Aérea,586.56675434
+2016-05-01,381,Estado Mayor General de la Fuerza Aérea,626.38122735
+2016-06-01,381,Estado Mayor General de la Fuerza Aérea,1610.51428339
+2016-07-01,381,Estado Mayor General de la Fuerza Aérea,688.10726578
+2016-08-01,381,Estado Mayor General de la Fuerza Aérea,855.81669392
+2016-09-01,381,Estado Mayor General de la Fuerza Aérea,1245.58911367
+2016-10-01,381,Estado Mayor General de la Fuerza Aérea,785.16082601
+2016-11-01,381,Estado Mayor General de la Fuerza Aérea,870.80937677
+2016-12-01,381,Estado Mayor General de la Fuerza Aérea,1900.79724587
+2016-01-01,382,Policía de Seguridad Aeroportuaria,135.131374
+2016-02-01,382,Policía de Seguridad Aeroportuaria,143.10040603
+2016-03-01,382,Policía de Seguridad Aeroportuaria,162.92911994
+2016-04-01,382,Policía de Seguridad Aeroportuaria,153.68821499999999
+2016-05-01,382,Policía de Seguridad Aeroportuaria,158.4757897
+2016-06-01,382,Policía de Seguridad Aeroportuaria,245.35959644
+2016-07-01,382,Policía de Seguridad Aeroportuaria,176.5160737
+2016-08-01,382,Policía de Seguridad Aeroportuaria,209.7015557
+2016-09-01,382,Policía de Seguridad Aeroportuaria,225.66844395
+2016-10-01,382,Policía de Seguridad Aeroportuaria,206.04032727
+2016-11-01,382,Policía de Seguridad Aeroportuaria,213.95245995
+2016-12-01,382,Policía de Seguridad Aeroportuaria,335.69396856000003
+2016-01-01,450,Instituto Geográfico Nacional,7.37212577
+2016-02-01,450,Instituto Geográfico Nacional,7.934772290000001
+2016-03-01,450,Instituto Geográfico Nacional,14.97843308
+2016-04-01,450,Instituto Geográfico Nacional,8.26361036
+2016-05-01,450,Instituto Geográfico Nacional,8.21799559
+2016-06-01,450,Instituto Geográfico Nacional,17.44138875
+2016-07-01,450,Instituto Geográfico Nacional,10.02101979
+2016-08-01,450,Instituto Geográfico Nacional,10.60738547
+2016-09-01,450,Instituto Geográfico Nacional,17.751153940000002
+2016-10-01,450,Instituto Geográfico Nacional,11.58837535
+2016-11-01,450,Instituto Geográfico Nacional,11.16634071
+2016-12-01,450,Instituto Geográfico Nacional,24.73054788
+2016-01-01,451,Dirección General de Fabricaciones Militares,117.82071925
+2016-02-01,451,Dirección General de Fabricaciones Militares,117.44323286000001
+2016-03-01,451,Dirección General de Fabricaciones Militares,169.13535325
+2016-04-01,451,Dirección General de Fabricaciones Militares,106.72446551
+2016-05-01,451,Dirección General de Fabricaciones Militares,146.25855698
+2016-06-01,451,Dirección General de Fabricaciones Militares,252.51445078
+2016-07-01,451,Dirección General de Fabricaciones Militares,155.87240993
+2016-08-01,451,Dirección General de Fabricaciones Militares,198.62328926
+2016-09-01,451,Dirección General de Fabricaciones Militares,214.04253574
+2016-10-01,451,Dirección General de Fabricaciones Militares,203.5911126
+2016-11-01,451,Dirección General de Fabricaciones Militares,194.23563687
+2016-12-01,451,Dirección General de Fabricaciones Militares,306.52500545
+2016-01-01,452,Servicio Meteorológico Nacional,1.4049836
+2016-02-01,452,Servicio Meteorológico Nacional,32.56579948
+2016-03-01,452,Servicio Meteorológico Nacional,45.38630016
+2016-04-01,452,Servicio Meteorológico Nacional,21.2399525
+2016-05-01,452,Servicio Meteorológico Nacional,26.37117515
+2016-06-01,452,Servicio Meteorológico Nacional,36.31987895
+2016-07-01,452,Servicio Meteorológico Nacional,26.52386466
+2016-08-01,452,Servicio Meteorológico Nacional,31.55839993
+2016-09-01,452,Servicio Meteorológico Nacional,38.24079803
+2016-10-01,452,Servicio Meteorológico Nacional,35.74231493
+2016-11-01,452,Servicio Meteorológico Nacional,36.40954745
+2016-12-01,452,Servicio Meteorológico Nacional,107.46128441
+2016-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,1205.49497671
+2016-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,1259.83008613
+2016-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,1234.65989081
+2016-04-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,1228.20499939
+2016-05-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,1226.49308285
+2016-06-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2297.86399099
+2016-07-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,6.56713509
+2016-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,3564.42134181
+2016-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,1887.91614383
+2016-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,1875.23345844
+2016-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,1876.32184364
+2016-12-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2789.76837993
+2016-01-01,602,Comisión Nacional de Valores,11.16918404
+2016-02-01,602,Comisión Nacional de Valores,11.23037025
+2016-03-01,602,Comisión Nacional de Valores,15.19052729
+2016-04-01,602,Comisión Nacional de Valores,12.473337729999999
+2016-05-01,602,Comisión Nacional de Valores,13.80630776
+2016-06-01,602,Comisión Nacional de Valores,27.449745970000002
+2016-07-01,602,Comisión Nacional de Valores,15.08100711
+2016-08-01,602,Comisión Nacional de Valores,17.77557969
+2016-09-01,602,Comisión Nacional de Valores,17.637073389999998
+2016-10-01,602,Comisión Nacional de Valores,17.29951764
+2016-11-01,602,Comisión Nacional de Valores,15.30026004
+2016-12-01,602,Comisión Nacional de Valores,41.48935233
+2016-01-01,603,Superintendencia de Seguros de la Nación,23.72307417
+2016-02-01,603,Superintendencia de Seguros de la Nación,26.48584972
+2016-03-01,603,Superintendencia de Seguros de la Nación,34.01886186
+2016-04-01,603,Superintendencia de Seguros de la Nación,20.96918931
+2016-05-01,603,Superintendencia de Seguros de la Nación,28.87988701
+2016-06-01,603,Superintendencia de Seguros de la Nación,36.67347475
+2016-07-01,603,Superintendencia de Seguros de la Nación,23.14921677
+2016-08-01,603,Superintendencia de Seguros de la Nación,33.55492396
+2016-09-01,603,Superintendencia de Seguros de la Nación,30.43580567
+2016-10-01,603,Superintendencia de Seguros de la Nación,30.43991768
+2016-11-01,603,Superintendencia de Seguros de la Nación,28.867902479999998
+2016-12-01,603,Superintendencia de Seguros de la Nación,47.43507174
+2016-01-01,604,Dirección Nacional de Vialidad,720.27982382
+2016-02-01,604,Dirección Nacional de Vialidad,2738.39501156
+2016-03-01,604,Dirección Nacional de Vialidad,2977.51323096
+2016-04-01,604,Dirección Nacional de Vialidad,1581.15144378
+2016-05-01,604,Dirección Nacional de Vialidad,3709.71078975
+2016-06-01,604,Dirección Nacional de Vialidad,3552.47802333
+2016-07-01,604,Dirección Nacional de Vialidad,1659.5403908800001
+2016-08-01,604,Dirección Nacional de Vialidad,2537.83762277
+2016-09-01,604,Dirección Nacional de Vialidad,5100.96125769
+2016-10-01,604,Dirección Nacional de Vialidad,1911.0115265
+2016-11-01,604,Dirección Nacional de Vialidad,2332.84365858
+2016-12-01,604,Dirección Nacional de Vialidad,3785.7734963499997
+2016-01-01,606,Instituto Nacional de Tecnología Agropecuaria,255.70627928
+2016-02-01,606,Instituto Nacional de Tecnología Agropecuaria,289.26788318
+2016-03-01,606,Instituto Nacional de Tecnología Agropecuaria,403.59424788
+2016-04-01,606,Instituto Nacional de Tecnología Agropecuaria,279.89192185
+2016-05-01,606,Instituto Nacional de Tecnología Agropecuaria,303.6279003
+2016-06-01,606,Instituto Nacional de Tecnología Agropecuaria,525.83631302
+2016-07-01,606,Instituto Nacional de Tecnología Agropecuaria,334.4514985
+2016-08-01,606,Instituto Nacional de Tecnología Agropecuaria,406.91825073
+2016-09-01,606,Instituto Nacional de Tecnología Agropecuaria,448.46638142
+2016-10-01,606,Instituto Nacional de Tecnología Agropecuaria,368.04886247
+2016-11-01,606,Instituto Nacional de Tecnología Agropecuaria,69.21211531
+2016-12-01,606,Instituto Nacional de Tecnología Agropecuaria,1002.33982923
+2016-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,10.06671272
+2016-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,12.2888621
+2016-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,96.35434568
+2016-04-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,10.77579665
+2016-05-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,13.86631828
+2016-06-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,21.82424357
+2016-07-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,31.49906845
+2016-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,18.01766012
+2016-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,100.25765121
+2016-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,17.634887589999998
+2016-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,17.71087472
+2016-12-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,152.34961615
+2016-01-01,608,Instituto Nacional de Tecnología Industrial,94.05499938
+2016-02-01,608,Instituto Nacional de Tecnología Industrial,91.85475535
+2016-03-01,608,Instituto Nacional de Tecnología Industrial,121.61203955
+2016-04-01,608,Instituto Nacional de Tecnología Industrial,94.19720524
+2016-05-01,608,Instituto Nacional de Tecnología Industrial,109.03266543000001
+2016-06-01,608,Instituto Nacional de Tecnología Industrial,156.06946084999998
+2016-07-01,608,Instituto Nacional de Tecnología Industrial,118.84360206
+2016-08-01,608,Instituto Nacional de Tecnología Industrial,59.61118084
+2016-09-01,608,Instituto Nacional de Tecnología Industrial,252.70872931
+2016-10-01,608,Instituto Nacional de Tecnología Industrial,136.68139557
+2016-11-01,608,Instituto Nacional de Tecnología Industrial,37.81801346
+2016-12-01,608,Instituto Nacional de Tecnología Industrial,456.67727076
+2016-01-01,609,Instituto Nacional de Vitivinicultura,17.04326981
+2016-02-01,609,Instituto Nacional de Vitivinicultura,18.331844620000002
+2016-03-01,609,Instituto Nacional de Vitivinicultura,29.074117259999998
+2016-04-01,609,Instituto Nacional de Vitivinicultura,19.29918564
+2016-05-01,609,Instituto Nacional de Vitivinicultura,22.44023112
+2016-06-01,609,Instituto Nacional de Vitivinicultura,35.17405671
+2016-07-01,609,Instituto Nacional de Vitivinicultura,22.35611541
+2016-08-01,609,Instituto Nacional de Vitivinicultura,25.71571526
+2016-09-01,609,Instituto Nacional de Vitivinicultura,30.66547736
+2016-10-01,609,Instituto Nacional de Vitivinicultura,26.30192914
+2016-11-01,609,Instituto Nacional de Vitivinicultura,25.516029669999998
+2016-12-01,609,Instituto Nacional de Vitivinicultura,51.27366378
+2016-01-01,612,Tribunal de Tasaciones de la Nación,2.46145249
+2016-02-01,612,Tribunal de Tasaciones de la Nación,2.6522758300000002
+2016-03-01,612,Tribunal de Tasaciones de la Nación,2.71547156
+2016-04-01,612,Tribunal de Tasaciones de la Nación,2.42081173
+2016-05-01,612,Tribunal de Tasaciones de la Nación,2.63920616
+2016-06-01,612,Tribunal de Tasaciones de la Nación,4.33733623
+2016-07-01,612,Tribunal de Tasaciones de la Nación,2.96103692
+2016-08-01,612,Tribunal de Tasaciones de la Nación,3.39486775
+2016-09-01,612,Tribunal de Tasaciones de la Nación,3.5454787899999998
+2016-10-01,612,Tribunal de Tasaciones de la Nación,3.4187516
+2016-11-01,612,Tribunal de Tasaciones de la Nación,4.98967653
+2016-12-01,612,Tribunal de Tasaciones de la Nación,13.807661529999999
+2016-01-01,613,Ente Nacional de Obras Hídricas de Saneamiento,9.35154524
+2016-02-01,613,Ente Nacional de Obras Hídricas de Saneamiento,134.26519947
+2016-03-01,613,Ente Nacional de Obras Hídricas de Saneamiento,100.51571368
+2016-04-01,613,Ente Nacional de Obras Hídricas de Saneamiento,103.20837697
+2016-05-01,613,Ente Nacional de Obras Hídricas de Saneamiento,110.6305694
+2016-06-01,613,Ente Nacional de Obras Hídricas de Saneamiento,123.8415045
+2016-07-01,613,Ente Nacional de Obras Hídricas de Saneamiento,99.55816468
+2016-08-01,613,Ente Nacional de Obras Hídricas de Saneamiento,108.19621667999999
+2016-09-01,613,Ente Nacional de Obras Hídricas de Saneamiento,102.84550061
+2016-10-01,613,Ente Nacional de Obras Hídricas de Saneamiento,82.49356012
+2016-11-01,613,Ente Nacional de Obras Hídricas de Saneamiento,760.68909401
+2016-12-01,613,Ente Nacional de Obras Hídricas de Saneamiento,435.39432388
+2016-01-01,614,Instituto Nacional de Semillas,5.7062616
+2016-02-01,614,Instituto Nacional de Semillas,7.07260194
+2016-03-01,614,Instituto Nacional de Semillas,7.47403123
+2016-04-01,614,Instituto Nacional de Semillas,3.0462928299999996
+2016-05-01,614,Instituto Nacional de Semillas,13.51942775
+2016-06-01,614,Instituto Nacional de Semillas,10.61942447
+2016-07-01,614,Instituto Nacional de Semillas,7.6128718300000005
+2016-08-01,614,Instituto Nacional de Semillas,9.1723049
+2016-09-01,614,Instituto Nacional de Semillas,14.0348156
+2016-10-01,614,Instituto Nacional de Semillas,10.42396948
+2016-11-01,614,Instituto Nacional de Semillas,2.92673281
+2016-12-01,614,Instituto Nacional de Semillas,52.900370360000004
+2016-01-01,620,Tribunal Fiscal de la Nación,8.62464323
+2016-02-01,620,Tribunal Fiscal de la Nación,8.60311847
+2016-03-01,620,Tribunal Fiscal de la Nación,10.27701499
+2016-04-01,620,Tribunal Fiscal de la Nación,9.47965957
+2016-05-01,620,Tribunal Fiscal de la Nación,9.246406050000001
+2016-06-01,620,Tribunal Fiscal de la Nación,14.470119200000001
+2016-07-01,620,Tribunal Fiscal de la Nación,11.20089627
+2016-08-01,620,Tribunal Fiscal de la Nación,7.26492433
+2016-09-01,620,Tribunal Fiscal de la Nación,14.13959973
+2016-10-01,620,Tribunal Fiscal de la Nación,10.87946528
+2016-11-01,620,Tribunal Fiscal de la Nación,12.197150650000001
+2016-12-01,620,Tribunal Fiscal de la Nación,17.65198952
+2016-01-01,622,Instituto Nacional de la Propiedad Industrial,10.38840165
+2016-02-01,622,Instituto Nacional de la Propiedad Industrial,19.29450002
+2016-03-01,622,Instituto Nacional de la Propiedad Industrial,25.71917967
+2016-04-01,622,Instituto Nacional de la Propiedad Industrial,11.19124089
+2016-05-01,622,Instituto Nacional de la Propiedad Industrial,17.55178692
+2016-06-01,622,Instituto Nacional de la Propiedad Industrial,34.23705192
+2016-07-01,622,Instituto Nacional de la Propiedad Industrial,16.589698339999998
+2016-08-01,622,Instituto Nacional de la Propiedad Industrial,18.82617142
+2016-09-01,622,Instituto Nacional de la Propiedad Industrial,45.17125314
+2016-10-01,622,Instituto Nacional de la Propiedad Industrial,16.77725308
+2016-11-01,622,Instituto Nacional de la Propiedad Industrial,24.9152468
+2016-12-01,622,Instituto Nacional de la Propiedad Industrial,62.45333437
+2016-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,96.54795816
+2016-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,221.67204900000002
+2016-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,460.07048082
+2016-04-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,218.18741155
+2016-05-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,217.47626849
+2016-06-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,403.15296897
+2016-07-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,161.31798788
+2016-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,341.26127521
+2016-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,438.34067847
+2016-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,238.50419901
+2016-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,359.57596733
+2016-12-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,722.46568838
+2016-01-01,624,Servicio Geológico Minero Argentino,14.89371292
+2016-02-01,624,Servicio Geológico Minero Argentino,15.934122109999999
+2016-03-01,624,Servicio Geológico Minero Argentino,19.13399996
+2016-04-01,624,Servicio Geológico Minero Argentino,14.77698126
+2016-05-01,624,Servicio Geológico Minero Argentino,17.94436374
+2016-06-01,624,Servicio Geológico Minero Argentino,27.98375056
+2016-07-01,624,Servicio Geológico Minero Argentino,20.27901837
+2016-08-01,624,Servicio Geológico Minero Argentino,24.04867552
+2016-09-01,624,Servicio Geológico Minero Argentino,21.06718231
+2016-10-01,624,Servicio Geológico Minero Argentino,25.35753002
+2016-11-01,624,Servicio Geológico Minero Argentino,21.31118414
+2016-12-01,624,Servicio Geológico Minero Argentino,48.08438564
+2016-01-01,651,Ente Nacional Regulador del Gas,32.71520191
+2016-02-01,651,Ente Nacional Regulador del Gas,34.446655990000004
+2016-03-01,651,Ente Nacional Regulador del Gas,47.96664845
+2016-04-01,651,Ente Nacional Regulador del Gas,37.39446255
+2016-05-01,651,Ente Nacional Regulador del Gas,42.39344176
+2016-06-01,651,Ente Nacional Regulador del Gas,59.5459776
+2016-07-01,651,Ente Nacional Regulador del Gas,51.62849831
+2016-08-01,651,Ente Nacional Regulador del Gas,53.22076381
+2016-09-01,651,Ente Nacional Regulador del Gas,51.35691935
+2016-10-01,651,Ente Nacional Regulador del Gas,49.70648929
+2016-11-01,651,Ente Nacional Regulador del Gas,52.5787687
+2016-12-01,651,Ente Nacional Regulador del Gas,106.03883278
+2016-01-01,652,Ente Nacional Regulador de la Electricidad,20.60234453
+2016-02-01,652,Ente Nacional Regulador de la Electricidad,21.18126358
+2016-03-01,652,Ente Nacional Regulador de la Electricidad,26.29484295
+2016-04-01,652,Ente Nacional Regulador de la Electricidad,19.96832993
+2016-05-01,652,Ente Nacional Regulador de la Electricidad,23.12529653
+2016-06-01,652,Ente Nacional Regulador de la Electricidad,34.69089732
+2016-07-01,652,Ente Nacional Regulador de la Electricidad,24.93399843
+2016-08-01,652,Ente Nacional Regulador de la Electricidad,30.57986552
+2016-09-01,652,Ente Nacional Regulador de la Electricidad,32.08728459
+2016-10-01,652,Ente Nacional Regulador de la Electricidad,27.33178319
+2016-11-01,652,Ente Nacional Regulador de la Electricidad,3.1580518
+2016-12-01,652,Ente Nacional Regulador de la Electricidad,76.52064222999999
+2016-01-01,656,Organismo Regulador de Seguridad de Presas,5.31553473
+2016-02-01,656,Organismo Regulador de Seguridad de Presas,5.11292384
+2016-03-01,656,Organismo Regulador de Seguridad de Presas,5.9721712799999995
+2016-04-01,656,Organismo Regulador de Seguridad de Presas,4.25455328
+2016-05-01,656,Organismo Regulador de Seguridad de Presas,5.0765499
+2016-06-01,656,Organismo Regulador de Seguridad de Presas,6.0910696699999995
+2016-07-01,656,Organismo Regulador de Seguridad de Presas,4.66433806
+2016-08-01,656,Organismo Regulador de Seguridad de Presas,5.58075637
+2016-09-01,656,Organismo Regulador de Seguridad de Presas,5.83610078
+2016-10-01,656,Organismo Regulador de Seguridad de Presas,7.0653311
+2016-11-01,656,Organismo Regulador de Seguridad de Presas,7.39320814
+2016-12-01,656,Organismo Regulador de Seguridad de Presas,11.25990716
+2016-01-01,661,Comisión Nacional de Regulación del Transporte,30.608234619999998
+2016-02-01,661,Comisión Nacional de Regulación del Transporte,33.04716653
+2016-03-01,661,Comisión Nacional de Regulación del Transporte,37.6286986
+2016-04-01,661,Comisión Nacional de Regulación del Transporte,34.22735799
+2016-05-01,661,Comisión Nacional de Regulación del Transporte,34.03963974
+2016-06-01,661,Comisión Nacional de Regulación del Transporte,64.03548812
+2016-07-01,661,Comisión Nacional de Regulación del Transporte,44.37092318
+2016-08-01,661,Comisión Nacional de Regulación del Transporte,47.24309767
+2016-09-01,661,Comisión Nacional de Regulación del Transporte,59.91079223
+2016-10-01,661,Comisión Nacional de Regulación del Transporte,39.29693015
+2016-11-01,661,Comisión Nacional de Regulación del Transporte,41.50624539
+2016-12-01,661,Comisión Nacional de Regulación del Transporte,96.58980982
+2016-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,3.84499547
+2016-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,12.447283429999999
+2016-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,44.36495096
+2016-04-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,13.564748479999999
+2016-05-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,14.05714365
+2016-06-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,27.05087181
+2016-07-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,13.53218976
+2016-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,21.20701559
+2016-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,26.94053509
+2016-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,18.68057762
+2016-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,20.69078113
+2016-12-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,43.50366948
+2016-01-01,669,Administración Nacional de Aviación Civil,85.06755275
+2016-02-01,669,Administración Nacional de Aviación Civil,150.24112964
+2016-03-01,669,Administración Nacional de Aviación Civil,234.20667389
+2016-04-01,669,Administración Nacional de Aviación Civil,93.06745702
+2016-05-01,669,Administración Nacional de Aviación Civil,173.47791178
+2016-06-01,669,Administración Nacional de Aviación Civil,337.1645246
+2016-07-01,669,Administración Nacional de Aviación Civil,163.48336435000002
+2016-08-01,669,Administración Nacional de Aviación Civil,118.40530454
+2016-09-01,669,Administración Nacional de Aviación Civil,151.52487108
+2016-10-01,669,Administración Nacional de Aviación Civil,145.60270096
+2016-11-01,669,Administración Nacional de Aviación Civil,86.33090006
+2016-12-01,669,Administración Nacional de Aviación Civil,542.22228003
+2016-01-01,670,Unidad de Información Finaciera,5.50934677
+2016-02-01,670,Unidad de Información Finaciera,0.63236896
+2016-03-01,670,Unidad de Información Finaciera,13.682812199999999
+2016-04-01,670,Unidad de Información Finaciera,0.32821029
+2016-05-01,670,Unidad de Información Finaciera,3.31408209
+2016-06-01,670,Unidad de Información Finaciera,13.09775403
+2016-07-01,670,Unidad de Información Finaciera,7.20427529
+2016-08-01,670,Unidad de Información Finaciera,1.9546939600000002
+2016-09-01,670,Unidad de Información Finaciera,27.739814159999998
+2016-10-01,670,Unidad de Información Finaciera,14.08945528
+2016-11-01,670,Unidad de Información Finaciera,5.61475228
+2016-12-01,670,Unidad de Información Finaciera,45.52303926
+2016-01-01,671,Junta de Investigación de Accidentes de Aviación Civil,0.38629539999999996
+2016-02-01,671,Junta de Investigación de Accidentes de Aviación Civil,2.3605093100000003
+2016-03-01,671,Junta de Investigación de Accidentes de Aviación Civil,2.64350611
+2016-04-01,671,Junta de Investigación de Accidentes de Aviación Civil,3.1450877
+2016-05-01,671,Junta de Investigación de Accidentes de Aviación Civil,3.24471091
+2016-06-01,671,Junta de Investigación de Accidentes de Aviación Civil,4.31544368
+2016-07-01,671,Junta de Investigación de Accidentes de Aviación Civil,6.70255367
+2016-08-01,671,Junta de Investigación de Accidentes de Aviación Civil,1.50688975
+2016-09-01,671,Junta de Investigación de Accidentes de Aviación Civil,5.68205594
+2016-10-01,671,Junta de Investigación de Accidentes de Aviación Civil,4.282529719999999
+2016-11-01,671,Junta de Investigación de Accidentes de Aviación Civil,7.78647951
+2016-12-01,671,Junta de Investigación de Accidentes de Aviación Civil,5.6135379400000005
+2016-01-01,802,Fondo Nacional de las Artes,2.56163174
+2016-02-01,802,Fondo Nacional de las Artes,3.07279921
+2016-03-01,802,Fondo Nacional de las Artes,3.99241269
+2016-04-01,802,Fondo Nacional de las Artes,3.4590603399999997
+2016-05-01,802,Fondo Nacional de las Artes,4.73814705
+2016-06-01,802,Fondo Nacional de las Artes,8.48181281
+2016-07-01,802,Fondo Nacional de las Artes,3.65848547
+2016-08-01,802,Fondo Nacional de las Artes,5.40289285
+2016-09-01,802,Fondo Nacional de las Artes,6.07734232
+2016-10-01,802,Fondo Nacional de las Artes,7.40142199
+2016-11-01,802,Fondo Nacional de las Artes,12.24964242
+2016-12-01,802,Fondo Nacional de las Artes,36.21238016
+2016-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,4.19596435
+2016-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,5.60023288
+2016-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,8.81051982
+2016-04-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,5.31164954
+2016-05-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,6.80612136
+2016-06-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,12.69721098
+2016-07-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,5.96748905
+2016-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,9.23866792
+2016-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,8.22298245
+2016-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,9.26956173
+2016-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,10.38141357
+2016-12-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,14.77919799
+2016-01-01,850,Administración Nacional de la Seguridad Social,44169.59958603
+2016-02-01,850,Administración Nacional de la Seguridad Social,48381.51289706
+2016-03-01,850,Administración Nacional de la Seguridad Social,61998.77958547
+2016-04-01,850,Administración Nacional de la Seguridad Social,54489.82741722
+2016-05-01,850,Administración Nacional de la Seguridad Social,58992.90161783
+2016-06-01,850,Administración Nacional de la Seguridad Social,83444.28446348
+2016-07-01,850,Administración Nacional de la Seguridad Social,60033.84450248
+2016-08-01,850,Administración Nacional de la Seguridad Social,57256.30288656
+2016-09-01,850,Administración Nacional de la Seguridad Social,72425.00431327
+2016-10-01,850,Administración Nacional de la Seguridad Social,70179.70608778
+2016-11-01,850,Administración Nacional de la Seguridad Social,51915.094042050005
+2016-12-01,850,Administración Nacional de la Seguridad Social,125509.27421469
+2016-01-01,852,Superintendencia de Riesgos del Trabajo,13.28228525
+2016-02-01,852,Superintendencia de Riesgos del Trabajo,23.0826863
+2016-03-01,852,Superintendencia de Riesgos del Trabajo,40.467098469999996
+2016-04-01,852,Superintendencia de Riesgos del Trabajo,15.34991887
+2016-05-01,852,Superintendencia de Riesgos del Trabajo,21.49413593
+2016-06-01,852,Superintendencia de Riesgos del Trabajo,43.32122991
+2016-07-01,852,Superintendencia de Riesgos del Trabajo,18.03027605
+2016-08-01,852,Superintendencia de Riesgos del Trabajo,24.69787388
+2016-09-01,852,Superintendencia de Riesgos del Trabajo,40.644432880000004
+2016-10-01,852,Superintendencia de Riesgos del Trabajo,20.39908143
+2016-11-01,852,Superintendencia de Riesgos del Trabajo,26.51080405
+2016-12-01,852,Superintendencia de Riesgos del Trabajo,67.07589227
+2016-01-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),39.99746908
+2016-02-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),40.38694863
+2016-03-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),46.92028978
+2016-04-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),41.56893698
+2016-05-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),44.13330243
+2016-06-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),79.66488161
+2016-07-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),66.58287093
+2016-08-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),80.60370546
+2016-09-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),74.69240543
+2016-10-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),47.29869973
+2016-11-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),56.226378430000004
+2016-12-01,881,Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA),51.478352969999996
+2016-01-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',6.29491658
+2016-02-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',9.4244
+2016-03-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',16.27036567
+2016-04-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',9.66254322
+2016-05-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',12.01860797
+2016-06-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',23.24741616
+2016-07-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',13.27973639
+2016-08-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',18.26289935
+2016-09-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',18.62079005
+2016-10-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',21.810890880000002
+2016-11-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',20.80630735
+2016-12-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',39.54959034
+2016-01-01,903,Hospital Nacional Dr. Baldomero Sommer,9.6958893
+2016-02-01,903,Hospital Nacional Dr. Baldomero Sommer,46.50410719
+2016-03-01,903,Hospital Nacional Dr. Baldomero Sommer,41.63662417
+2016-04-01,903,Hospital Nacional Dr. Baldomero Sommer,30.149753410000002
+2016-05-01,903,Hospital Nacional Dr. Baldomero Sommer,37.92407562
+2016-06-01,903,Hospital Nacional Dr. Baldomero Sommer,59.81562177
+2016-07-01,903,Hospital Nacional Dr. Baldomero Sommer,42.98597868
+2016-08-01,903,Hospital Nacional Dr. Baldomero Sommer,49.024518889999996
+2016-09-01,903,Hospital Nacional Dr. Baldomero Sommer,55.239254599999995
+2016-10-01,903,Hospital Nacional Dr. Baldomero Sommer,6.86433212
+2016-11-01,903,Hospital Nacional Dr. Baldomero Sommer,83.21467651
+2016-12-01,903,Hospital Nacional Dr. Baldomero Sommer,104.31270698
+2016-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",35.70913081
+2016-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",36.69633937
+2016-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",54.54077539
+2016-04-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",37.82539304
+2016-05-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",45.44348737
+2016-06-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",72.6358521
+2016-07-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",53.11741786
+2016-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",57.36579803
+2016-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",57.57678359
+2016-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",55.05723862
+2016-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",53.79966379
+2016-12-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",136.29117736
+2016-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,5.85569915
+2016-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,5.96922277
+2016-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,8.93008796
+2016-04-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,8.18173133
+2016-05-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,6.28109535
+2016-06-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,14.43747745
+2016-07-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,9.573794079999999
+2016-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,9.28448351
+2016-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,12.44835143
+2016-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,11.14140145
+2016-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,15.92284267
+2016-12-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,52.02668975
+2016-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,27.75814964
+2016-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,29.5507077
+2016-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,45.49407873
+2016-04-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,32.13397676
+2016-05-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,42.739666
+2016-06-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,59.36017708
+2016-07-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,35.37657813
+2016-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,50.20634153
+2016-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,54.8675483
+2016-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,45.68774606
+2016-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,54.99216077
+2016-12-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,85.50677722
+2016-01-01,908,Hospital Nacional Profesor Alejandro Posadas,149.10996233
+2016-02-01,908,Hospital Nacional Profesor Alejandro Posadas,149.16188173
+2016-03-01,908,Hospital Nacional Profesor Alejandro Posadas,205.12625409
+2016-04-01,908,Hospital Nacional Profesor Alejandro Posadas,164.27533794
+2016-05-01,908,Hospital Nacional Profesor Alejandro Posadas,192.23954068
+2016-06-01,908,Hospital Nacional Profesor Alejandro Posadas,291.86489406
+2016-07-01,908,Hospital Nacional Profesor Alejandro Posadas,188.37559126
+2016-08-01,908,Hospital Nacional Profesor Alejandro Posadas,238.20279283999997
+2016-09-01,908,Hospital Nacional Profesor Alejandro Posadas,267.24572384
+2016-10-01,908,Hospital Nacional Profesor Alejandro Posadas,217.02627393
+2016-11-01,908,Hospital Nacional Profesor Alejandro Posadas,261.90643535
+2016-12-01,908,Hospital Nacional Profesor Alejandro Posadas,418.9550322
+2016-01-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,17.55906067
+2016-02-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,19.870468499999998
+2016-03-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,45.97967544
+2016-04-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,32.16168711
+2016-05-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,32.87696959
+2016-06-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,44.804589
+2016-07-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,35.26243281
+2016-08-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,47.33407235
+2016-09-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,45.28241403
+2016-10-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,43.62011868
+2016-11-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,46.19562721
+2016-12-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,97.00888774
+2016-01-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,8.14724574
+2016-02-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,8.99156646
+2016-03-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,11.47950984
+2016-04-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,11.92480161
+2016-05-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,10.47672721
+2016-06-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,17.82624423
+2016-07-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,12.65130406
+2016-08-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,16.61484257
+2016-09-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,17.05055579
+2016-10-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,14.53992603
+2016-11-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,16.91897329
+2016-12-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,27.4002016
+2016-01-01,912,Servicio Nacional de Rehabilitación,8.81217617
+2016-02-01,912,Servicio Nacional de Rehabilitación,11.11396733
+2016-03-01,912,Servicio Nacional de Rehabilitación,25.44828028
+2016-04-01,912,Servicio Nacional de Rehabilitación,12.23911376
+2016-05-01,912,Servicio Nacional de Rehabilitación,14.7896743
+2016-06-01,912,Servicio Nacional de Rehabilitación,28.75095675
+2016-07-01,912,Servicio Nacional de Rehabilitación,14.01690225
+2016-08-01,912,Servicio Nacional de Rehabilitación,20.55968694
+2016-09-01,912,Servicio Nacional de Rehabilitación,27.06546721
+2016-10-01,912,Servicio Nacional de Rehabilitación,16.98973045
+2016-11-01,912,Servicio Nacional de Rehabilitación,25.24387566
+2016-12-01,912,Servicio Nacional de Rehabilitación,36.06624881
+2016-01-01,914,Superintendencia de Servicios de Salud,39.6683323
+2016-02-01,914,Superintendencia de Servicios de Salud,282.80353699
+2016-03-01,914,Superintendencia de Servicios de Salud,805.75834088
+2016-04-01,914,Superintendencia de Servicios de Salud,444.08080084999995
+2016-05-01,914,Superintendencia de Servicios de Salud,576.78320311
+2016-06-01,914,Superintendencia de Servicios de Salud,643.40907107
+2016-07-01,914,Superintendencia de Servicios de Salud,555.10080262
+2016-08-01,914,Superintendencia de Servicios de Salud,1400.5664960699999
+2016-09-01,914,Superintendencia de Servicios de Salud,1304.58527774
+2016-10-01,914,Superintendencia de Servicios de Salud,887.68011833
+2016-11-01,914,Superintendencia de Servicios de Salud,933.32416361
+2016-12-01,914,Superintendencia de Servicios de Salud,1016.22699454

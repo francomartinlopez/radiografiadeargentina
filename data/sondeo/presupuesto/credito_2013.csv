@@ -1,0 +1,1381 @@
+fecha,servicio_id,servicio_desc,devengado
+2013-01-01,1,Auditoría General de la Nación,29.42069378
+2013-02-01,1,Auditoría General de la Nación,28.39347384
+2013-03-01,1,Auditoría General de la Nación,29.1737148
+2013-04-01,1,Auditoría General de la Nación,28.78470391
+2013-05-01,1,Auditoría General de la Nación,29.62294689
+2013-06-01,1,Auditoría General de la Nación,56.30150127
+2013-07-01,1,Auditoría General de la Nación,38.12766491
+2013-08-01,1,Auditoría General de la Nación,35.85841199
+2013-09-01,1,Auditoría General de la Nación,38.21534875
+2013-10-01,1,Auditoría General de la Nación,36.87432753
+2013-11-01,1,Auditoría General de la Nación,36.70962579
+2013-12-01,1,Auditoría General de la Nación,67.18577473
+2013-01-01,101,Fundación Miguel Lillio,4.13092766
+2013-02-01,101,Fundación Miguel Lillio,4.15425661
+2013-03-01,101,Fundación Miguel Lillio,4.21350828
+2013-04-01,101,Fundación Miguel Lillio,4.47963817
+2013-05-01,101,Fundación Miguel Lillio,4.73460422
+2013-06-01,101,Fundación Miguel Lillio,7.20594403
+2013-07-01,101,Fundación Miguel Lillio,4.96962483
+2013-08-01,101,Fundación Miguel Lillio,5.10584066
+2013-09-01,101,Fundación Miguel Lillio,6.15373597
+2013-10-01,101,Fundación Miguel Lillio,5.55449042
+2013-11-01,101,Fundación Miguel Lillio,5.98641131
+2013-12-01,101,Fundación Miguel Lillio,12.88215415
+2013-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,197.8806719
+2013-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,200.05589749
+2013-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,264.49450221
+2013-04-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,206.80730938
+2013-05-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,233.70235802
+2013-06-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,353.27809258
+2013-07-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,231.52853299
+2013-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,283.17863844
+2013-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,414.80569697
+2013-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,254.99805658999998
+2013-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,289.34681424999997
+2013-12-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,454.75933732
+2013-01-01,105,Comisión Nacional de Energía Atómica,51.1165229
+2013-02-01,105,Comisión Nacional de Energía Atómica,62.32109181
+2013-03-01,105,Comisión Nacional de Energía Atómica,97.39007939
+2013-04-01,105,Comisión Nacional de Energía Atómica,72.62041872
+2013-05-01,105,Comisión Nacional de Energía Atómica,84.68980133
+2013-06-01,105,Comisión Nacional de Energía Atómica,141.20807267
+2013-07-01,105,Comisión Nacional de Energía Atómica,88.4197917
+2013-08-01,105,Comisión Nacional de Energía Atómica,101.06483164
+2013-09-01,105,Comisión Nacional de Energía Atómica,132.43460989
+2013-10-01,105,Comisión Nacional de Energía Atómica,107.20323621
+2013-11-01,105,Comisión Nacional de Energía Atómica,118.65179266
+2013-12-01,105,Comisión Nacional de Energía Atómica,369.44932339
+2013-01-01,106,Comisión Nacional de Actividades Espaciales,23.05289059
+2013-02-01,106,Comisión Nacional de Actividades Espaciales,22.23237795
+2013-03-01,106,Comisión Nacional de Actividades Espaciales,143.66958322
+2013-04-01,106,Comisión Nacional de Actividades Espaciales,32.65900878
+2013-05-01,106,Comisión Nacional de Actividades Espaciales,50.429171600000004
+2013-06-01,106,Comisión Nacional de Actividades Espaciales,103.51128665
+2013-07-01,106,Comisión Nacional de Actividades Espaciales,39.31366147
+2013-08-01,106,Comisión Nacional de Actividades Espaciales,79.66192962
+2013-09-01,106,Comisión Nacional de Actividades Espaciales,96.21749906
+2013-10-01,106,Comisión Nacional de Actividades Espaciales,12.836115379999999
+2013-11-01,106,Comisión Nacional de Actividades Espaciales,56.85285343
+2013-12-01,106,Comisión Nacional de Actividades Espaciales,437.62572163
+2013-01-01,107,Administración de Parques Nacionales,17.2229132
+2013-02-01,107,Administración de Parques Nacionales,25.381553059999998
+2013-03-01,107,Administración de Parques Nacionales,39.98693229
+2013-04-01,107,Administración de Parques Nacionales,28.2050192
+2013-05-01,107,Administración de Parques Nacionales,29.79308344
+2013-06-01,107,Administración de Parques Nacionales,52.41498581
+2013-07-01,107,Administración de Parques Nacionales,31.51851792
+2013-08-01,107,Administración de Parques Nacionales,37.95467119
+2013-09-01,107,Administración de Parques Nacionales,49.65385696
+2013-10-01,107,Administración de Parques Nacionales,28.50386389
+2013-11-01,107,Administración de Parques Nacionales,25.94160565
+2013-12-01,107,Administración de Parques Nacionales,87.03646403
+2013-01-01,108,Instituto Nacional del Agua,4.77445733
+2013-02-01,108,Instituto Nacional del Agua,6.324440050000001
+2013-03-01,108,Instituto Nacional del Agua,6.41531689
+2013-04-01,108,Instituto Nacional del Agua,4.5062394999999995
+2013-05-01,108,Instituto Nacional del Agua,7.68992967
+2013-06-01,108,Instituto Nacional del Agua,13.14721959
+2013-07-01,108,Instituto Nacional del Agua,7.46526769
+2013-08-01,108,Instituto Nacional del Agua,8.50777835
+2013-09-01,108,Instituto Nacional del Agua,9.82102162
+2013-10-01,108,Instituto Nacional del Agua,7.39358175
+2013-11-01,108,Instituto Nacional del Agua,8.59448815
+2013-12-01,108,Instituto Nacional del Agua,18.11477455
+2013-01-01,109,Sindicatura General de la Nación,14.33299155
+2013-02-01,109,Sindicatura General de la Nación,12.97155755
+2013-03-01,109,Sindicatura General de la Nación,17.3767286
+2013-04-01,109,Sindicatura General de la Nación,14.439058170000001
+2013-05-01,109,Sindicatura General de la Nación,15.998044010000001
+2013-06-01,109,Sindicatura General de la Nación,25.06794064
+2013-07-01,109,Sindicatura General de la Nación,16.52425559
+2013-08-01,109,Sindicatura General de la Nación,20.2806132
+2013-09-01,109,Sindicatura General de la Nación,20.35634904
+2013-10-01,109,Sindicatura General de la Nación,18.95843837
+2013-11-01,109,Sindicatura General de la Nación,20.44277315
+2013-12-01,109,Sindicatura General de la Nación,33.67107539
+2013-01-01,112,Autoridad Regulatoria Nuclear,7.143805550000001
+2013-02-01,112,Autoridad Regulatoria Nuclear,7.55152515
+2013-03-01,112,Autoridad Regulatoria Nuclear,9.82029045
+2013-04-01,112,Autoridad Regulatoria Nuclear,8.68000576
+2013-05-01,112,Autoridad Regulatoria Nuclear,9.00276515
+2013-06-01,112,Autoridad Regulatoria Nuclear,13.71644433
+2013-07-01,112,Autoridad Regulatoria Nuclear,9.23996048
+2013-08-01,112,Autoridad Regulatoria Nuclear,11.54561962
+2013-09-01,112,Autoridad Regulatoria Nuclear,10.63262129
+2013-10-01,112,Autoridad Regulatoria Nuclear,11.052727
+2013-11-01,112,Autoridad Regulatoria Nuclear,11.75336944
+2013-12-01,112,Autoridad Regulatoria Nuclear,34.89179982
+2013-01-01,113,Teatro Nacional Cervantes,0.09660024
+2013-02-01,113,Teatro Nacional Cervantes,6.35909908
+2013-03-01,113,Teatro Nacional Cervantes,4.24789347
+2013-04-01,113,Teatro Nacional Cervantes,4.20467282
+2013-05-01,113,Teatro Nacional Cervantes,2.1039137500000002
+2013-06-01,113,Teatro Nacional Cervantes,9.53779231
+2013-07-01,113,Teatro Nacional Cervantes,5.63595462
+2013-08-01,113,Teatro Nacional Cervantes,6.32362891
+2013-09-01,113,Teatro Nacional Cervantes,7.65633364
+2013-10-01,113,Teatro Nacional Cervantes,6.28820001
+2013-11-01,113,Teatro Nacional Cervantes,1.4621406099999998
+2013-12-01,113,Teatro Nacional Cervantes,17.7592484
+2013-01-01,114,Instituto Nacional de Asociativismo y Economía Social,7.38758981
+2013-02-01,114,Instituto Nacional de Asociativismo y Economía Social,11.56512552
+2013-03-01,114,Instituto Nacional de Asociativismo y Economía Social,97.68487978
+2013-04-01,114,Instituto Nacional de Asociativismo y Economía Social,8.95948004
+2013-05-01,114,Instituto Nacional de Asociativismo y Economía Social,15.18546788
+2013-06-01,114,Instituto Nacional de Asociativismo y Economía Social,185.15193303
+2013-07-01,114,Instituto Nacional de Asociativismo y Economía Social,19.869769129999998
+2013-08-01,114,Instituto Nacional de Asociativismo y Economía Social,110.92939173
+2013-09-01,114,Instituto Nacional de Asociativismo y Economía Social,101.02887664000001
+2013-10-01,114,Instituto Nacional de Asociativismo y Economía Social,25.1395659
+2013-11-01,114,Instituto Nacional de Asociativismo y Economía Social,46.01869714
+2013-12-01,114,Instituto Nacional de Asociativismo y Economía Social,157.39535826
+2013-01-01,115,Comisión Nacional de Comunicaciones,20.01794483
+2013-02-01,115,Comisión Nacional de Comunicaciones,21.26905958
+2013-03-01,115,Comisión Nacional de Comunicaciones,25.97660309
+2013-04-01,115,Comisión Nacional de Comunicaciones,20.20107178
+2013-05-01,115,Comisión Nacional de Comunicaciones,30.91008346
+2013-06-01,115,Comisión Nacional de Comunicaciones,35.31134746
+2013-07-01,115,Comisión Nacional de Comunicaciones,25.55628596
+2013-08-01,115,Comisión Nacional de Comunicaciones,27.06526531
+2013-09-01,115,Comisión Nacional de Comunicaciones,48.21535492
+2013-10-01,115,Comisión Nacional de Comunicaciones,28.94038182
+2013-11-01,115,Comisión Nacional de Comunicaciones,34.41479208
+2013-12-01,115,Comisión Nacional de Comunicaciones,68.80625581
+2013-01-01,116,Biblioteca Nacional,7.93004464
+2013-02-01,116,Biblioteca Nacional,3.79872822
+2013-03-01,116,Biblioteca Nacional,19.19858408
+2013-04-01,116,Biblioteca Nacional,7.24263658
+2013-05-01,116,Biblioteca Nacional,13.20110829
+2013-06-01,116,Biblioteca Nacional,13.68284821
+2013-07-01,116,Biblioteca Nacional,11.1061624
+2013-08-01,116,Biblioteca Nacional,25.35465529
+2013-09-01,116,Biblioteca Nacional,21.72386341
+2013-10-01,116,Biblioteca Nacional,16.13617825
+2013-11-01,116,Biblioteca Nacional,17.38383815
+2013-12-01,116,Biblioteca Nacional,31.23436769
+2013-01-01,117,Instituto Nacional del Teatro,0.5023963499999999
+2013-02-01,117,Instituto Nacional del Teatro,4.67426489
+2013-03-01,117,Instituto Nacional del Teatro,4.88464822
+2013-04-01,117,Instituto Nacional del Teatro,4.95417348
+2013-05-01,117,Instituto Nacional del Teatro,3.80615199
+2013-06-01,117,Instituto Nacional del Teatro,6.1145432
+2013-07-01,117,Instituto Nacional del Teatro,4.01362353
+2013-08-01,117,Instituto Nacional del Teatro,7.66485735
+2013-09-01,117,Instituto Nacional del Teatro,7.28102796
+2013-10-01,117,Instituto Nacional del Teatro,5.7536862300000005
+2013-11-01,117,Instituto Nacional del Teatro,9.4417442
+2013-12-01,117,Instituto Nacional del Teatro,24.04680236
+2013-01-01,118,Instituto Nacional de Asuntos Indígenas,1.2276277
+2013-02-01,118,Instituto Nacional de Asuntos Indígenas,3.9622347999999996
+2013-03-01,118,Instituto Nacional de Asuntos Indígenas,3.54663585
+2013-04-01,118,Instituto Nacional de Asuntos Indígenas,2.86950769
+2013-05-01,118,Instituto Nacional de Asuntos Indígenas,8.59834661
+2013-06-01,118,Instituto Nacional de Asuntos Indígenas,7.40238686
+2013-07-01,118,Instituto Nacional de Asuntos Indígenas,4.33836208
+2013-08-01,118,Instituto Nacional de Asuntos Indígenas,13.57376563
+2013-09-01,118,Instituto Nacional de Asuntos Indígenas,4.22212423
+2013-10-01,118,Instituto Nacional de Asuntos Indígenas,4.23465555
+2013-11-01,118,Instituto Nacional de Asuntos Indígenas,6.4838459
+2013-12-01,118,Instituto Nacional de Asuntos Indígenas,7.233032720000001
+2013-01-01,119,Instituto Nacional de Promoción Turística,1.69329321
+2013-02-01,119,Instituto Nacional de Promoción Turística,5.19642798
+2013-03-01,119,Instituto Nacional de Promoción Turística,28.55585548
+2013-04-01,119,Instituto Nacional de Promoción Turística,9.59811927
+2013-05-01,119,Instituto Nacional de Promoción Turística,21.58876912
+2013-06-01,119,Instituto Nacional de Promoción Turística,19.83494819
+2013-07-01,119,Instituto Nacional de Promoción Turística,25.45519521
+2013-08-01,119,Instituto Nacional de Promoción Turística,23.99668482
+2013-09-01,119,Instituto Nacional de Promoción Turística,27.35513743
+2013-10-01,119,Instituto Nacional de Promoción Turística,26.38135599
+2013-11-01,119,Instituto Nacional de Promoción Turística,56.862438180000005
+2013-12-01,119,Instituto Nacional de Promoción Turística,198.79199719
+2013-01-01,200,Registro Nacional de las Personas,32.317779800000004
+2013-02-01,200,Registro Nacional de las Personas,62.60497065
+2013-03-01,200,Registro Nacional de las Personas,65.12943524
+2013-04-01,200,Registro Nacional de las Personas,67.87926998
+2013-05-01,200,Registro Nacional de las Personas,100.14445184
+2013-06-01,200,Registro Nacional de las Personas,103.72954935
+2013-07-01,200,Registro Nacional de las Personas,73.46875759
+2013-08-01,200,Registro Nacional de las Personas,103.09593335000001
+2013-09-01,200,Registro Nacional de las Personas,122.31801851
+2013-10-01,200,Registro Nacional de las Personas,51.56242175
+2013-11-01,200,Registro Nacional de las Personas,86.73373341
+2013-12-01,200,Registro Nacional de las Personas,338.45916791999997
+2013-01-01,201,Dirección Nacional de Migraciones,35.00088185
+2013-02-01,201,Dirección Nacional de Migraciones,37.00652898
+2013-03-01,201,Dirección Nacional de Migraciones,56.00522
+2013-04-01,201,Dirección Nacional de Migraciones,37.53512801
+2013-05-01,201,Dirección Nacional de Migraciones,51.48917916
+2013-06-01,201,Dirección Nacional de Migraciones,83.65539528
+2013-07-01,201,Dirección Nacional de Migraciones,47.6358703
+2013-08-01,201,Dirección Nacional de Migraciones,45.58645506
+2013-09-01,201,Dirección Nacional de Migraciones,76.58965958
+2013-10-01,201,Dirección Nacional de Migraciones,67.91049366
+2013-11-01,201,Dirección Nacional de Migraciones,71.13512595
+2013-12-01,201,Dirección Nacional de Migraciones,135.49867077
+2013-01-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",2.5305312
+2013-02-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",5.057842
+2013-03-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",6.1602856699999995
+2013-04-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",3.62969587
+2013-05-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",4.68948453
+2013-06-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",7.40660939
+2013-07-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",3.9304366799999997
+2013-08-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",3.93957835
+2013-09-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",7.527760349999999
+2013-10-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",3.5874266599999998
+2013-11-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",5.97678299
+2013-12-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",13.38570707
+2013-01-01,203,Agencia Nacional de Seguridad Vial,10.13735244
+2013-02-01,203,Agencia Nacional de Seguridad Vial,23.67894034
+2013-03-01,203,Agencia Nacional de Seguridad Vial,18.66052372
+2013-04-01,203,Agencia Nacional de Seguridad Vial,17.41729341
+2013-05-01,203,Agencia Nacional de Seguridad Vial,22.14869879
+2013-06-01,203,Agencia Nacional de Seguridad Vial,32.73147445
+2013-07-01,203,Agencia Nacional de Seguridad Vial,17.84846748
+2013-08-01,203,Agencia Nacional de Seguridad Vial,16.99907431
+2013-09-01,203,Agencia Nacional de Seguridad Vial,23.67515163
+2013-10-01,203,Agencia Nacional de Seguridad Vial,16.9256833
+2013-11-01,203,Agencia Nacional de Seguridad Vial,22.10430612
+2013-12-01,203,Agencia Nacional de Seguridad Vial,39.14551524
+2013-01-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,17.31583903
+2013-02-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,18.66032423
+2013-03-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,20.95281322
+2013-04-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,19.56595915
+2013-05-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,21.308457
+2013-06-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,31.55275842
+2013-07-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,22.39526799
+2013-08-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,23.579983979999998
+2013-09-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,23.71247033
+2013-10-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,27.11179732
+2013-11-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,24.56525481
+2013-12-01,204,Autoridad Federal de Servicios de Comunicación Audiovisual,42.59386582
+2013-01-01,205,Agencia de Administración de Bienes del Estado,3.91878692
+2013-02-01,205,Agencia de Administración de Bienes del Estado,4.94293612
+2013-03-01,205,Agencia de Administración de Bienes del Estado,6.47369442
+2013-04-01,205,Agencia de Administración de Bienes del Estado,4.77859826
+2013-05-01,205,Agencia de Administración de Bienes del Estado,5.6414103
+2013-06-01,205,Agencia de Administración de Bienes del Estado,8.12174345
+2013-07-01,205,Agencia de Administración de Bienes del Estado,5.55202243
+2013-08-01,205,Agencia de Administración de Bienes del Estado,7.048813470000001
+2013-09-01,205,Agencia de Administración de Bienes del Estado,6.85491554
+2013-10-01,205,Agencia de Administración de Bienes del Estado,6.796692
+2013-11-01,205,Agencia de Administración de Bienes del Estado,32.66576313
+2013-12-01,205,Agencia de Administración de Bienes del Estado,31.95359733
+2013-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",439.09362666
+2013-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",448.77295813
+2013-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",451.98006179000004
+2013-04-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",448.38075630000003
+2013-05-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",443.81570278000004
+2013-06-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",628.41193835
+2013-07-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",459.38264718
+2013-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",599.8310611
+2013-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",564.2718589799999
+2013-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",573.95305512
+2013-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",519.3169831800001
+2013-12-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",830.28958819
+2013-01-01,301,Secretaría General de la Presidencia de la Nación,20.587659239999997
+2013-02-01,301,Secretaría General de la Presidencia de la Nación,44.72681487
+2013-03-01,301,Secretaría General de la Presidencia de la Nación,71.35673835
+2013-04-01,301,Secretaría General de la Presidencia de la Nación,38.6501506
+2013-05-01,301,Secretaría General de la Presidencia de la Nación,65.87533293
+2013-06-01,301,Secretaría General de la Presidencia de la Nación,71.39196454
+2013-07-01,301,Secretaría General de la Presidencia de la Nación,51.023889950000004
+2013-08-01,301,Secretaría General de la Presidencia de la Nación,81.16384408
+2013-09-01,301,Secretaría General de la Presidencia de la Nación,92.60917543000001
+2013-10-01,301,Secretaría General de la Presidencia de la Nación,64.05341934
+2013-11-01,301,Secretaría General de la Presidencia de la Nación,48.80860395
+2013-12-01,301,Secretaría General de la Presidencia de la Nación,133.05880195
+2013-01-01,302,Secretaría de Inteligencia,43.67900903
+2013-02-01,302,Secretaría de Inteligencia,44.36212693
+2013-03-01,302,Secretaría de Inteligencia,43.4162606
+2013-04-01,302,Secretaría de Inteligencia,44.24779031
+2013-05-01,302,Secretaría de Inteligencia,43.766730710000004
+2013-06-01,302,Secretaría de Inteligencia,57.0413966
+2013-07-01,302,Secretaría de Inteligencia,46.44680669
+2013-08-01,302,Secretaría de Inteligencia,50.06829755
+2013-09-01,302,Secretaría de Inteligencia,51.565980010000004
+2013-10-01,302,Secretaría de Inteligencia,52.355161730000006
+2013-11-01,302,Secretaría de Inteligencia,51.7487308
+2013-12-01,302,Secretaría de Inteligencia,60.831357940000004
+2013-01-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,4.44314092
+2013-02-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,4.63474112
+2013-03-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,12.260971159999999
+2013-04-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,5.80724483
+2013-05-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,4.65227527
+2013-06-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,14.9062977
+2013-07-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,5.85028001
+2013-08-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,7.68194031
+2013-09-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,16.14009603
+2013-10-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,7.60710338
+2013-11-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,13.3360472
+2013-12-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,29.45508784
+2013-01-01,305,Dirección General de Administración - Jefatura de Gabinete,99.44097085
+2013-02-01,305,Dirección General de Administración - Jefatura de Gabinete,208.38154358
+2013-03-01,305,Dirección General de Administración - Jefatura de Gabinete,252.26716892000002
+2013-04-01,305,Dirección General de Administración - Jefatura de Gabinete,274.1926237
+2013-05-01,305,Dirección General de Administración - Jefatura de Gabinete,303.50617257
+2013-06-01,305,Dirección General de Administración - Jefatura de Gabinete,405.72750990000003
+2013-07-01,305,Dirección General de Administración - Jefatura de Gabinete,342.06311916
+2013-08-01,305,Dirección General de Administración - Jefatura de Gabinete,392.74092527
+2013-09-01,305,Dirección General de Administración - Jefatura de Gabinete,404.63576246
+2013-10-01,305,Dirección General de Administración - Jefatura de Gabinete,397.00532913
+2013-11-01,305,Dirección General de Administración - Jefatura de Gabinete,342.37247158
+2013-12-01,305,Dirección General de Administración - Jefatura de Gabinete,613.76666541
+2013-01-01,307,Ministerio de Relaciones Exteriores y Culto,130.1480074
+2013-02-01,307,Ministerio de Relaciones Exteriores y Culto,140.89287654
+2013-03-01,307,Ministerio de Relaciones Exteriores y Culto,261.04546876
+2013-04-01,307,Ministerio de Relaciones Exteriores y Culto,142.62009645
+2013-05-01,307,Ministerio de Relaciones Exteriores y Culto,200.36714358
+2013-06-01,307,Ministerio de Relaciones Exteriores y Culto,388.35818109
+2013-07-01,307,Ministerio de Relaciones Exteriores y Culto,159.00065919
+2013-08-01,307,Ministerio de Relaciones Exteriores y Culto,158.63619716
+2013-09-01,307,Ministerio de Relaciones Exteriores y Culto,347.30312363
+2013-10-01,307,Ministerio de Relaciones Exteriores y Culto,168.82417599
+2013-11-01,307,Ministerio de Relaciones Exteriores y Culto,187.98644733
+2013-12-01,307,Ministerio de Relaciones Exteriores y Culto,556.53427635
+2013-01-01,310,Ministerio de Salud,162.58383546
+2013-02-01,310,Ministerio de Salud,613.72976291
+2013-03-01,310,Ministerio de Salud,1320.21634139
+2013-04-01,310,Ministerio de Salud,775.64858782
+2013-05-01,310,Ministerio de Salud,814.58822627
+2013-06-01,310,Ministerio de Salud,1319.90612695
+2013-07-01,310,Ministerio de Salud,538.93357702
+2013-08-01,310,Ministerio de Salud,850.9087444099999
+2013-09-01,310,Ministerio de Salud,1435.28898967
+2013-10-01,310,Ministerio de Salud,713.64082607
+2013-11-01,310,Ministerio de Salud,982.5763911399999
+2013-12-01,310,Ministerio de Salud,2157.61079274
+2013-01-01,311,Ministerio de Desarrollo Social,2195.75303068
+2013-02-01,311,Ministerio de Desarrollo Social,2523.13486215
+2013-03-01,311,Ministerio de Desarrollo Social,2974.70620033
+2013-04-01,311,Ministerio de Desarrollo Social,2842.9367385699998
+2013-05-01,311,Ministerio de Desarrollo Social,3100.97011986
+2013-06-01,311,Ministerio de Desarrollo Social,4515.49251938
+2013-07-01,311,Ministerio de Desarrollo Social,3143.38963996
+2013-08-01,311,Ministerio de Desarrollo Social,3395.13018519
+2013-09-01,311,Ministerio de Desarrollo Social,4085.38596138
+2013-10-01,311,Ministerio de Desarrollo Social,3719.90531273
+2013-11-01,311,Ministerio de Desarrollo Social,726.68178019
+2013-12-01,311,Ministerio de Desarrollo Social,8203.76401448
+2013-01-01,312,Senado de la Nación,98.62625318
+2013-02-01,312,Senado de la Nación,108.6951259
+2013-03-01,312,Senado de la Nación,113.70423724
+2013-04-01,312,Senado de la Nación,122.19258674
+2013-05-01,312,Senado de la Nación,116.63824351
+2013-06-01,312,Senado de la Nación,211.69763942
+2013-07-01,312,Senado de la Nación,151.841068
+2013-08-01,312,Senado de la Nación,146.00657661
+2013-09-01,312,Senado de la Nación,146.51987248
+2013-10-01,312,Senado de la Nación,150.01401165
+2013-11-01,312,Senado de la Nación,148.07065805
+2013-12-01,312,Senado de la Nación,219.28055471
+2013-01-01,313,Cámara de Diputados,113.00293786
+2013-02-01,313,Cámara de Diputados,125.48967962
+2013-03-01,313,Cámara de Diputados,127.27799277
+2013-04-01,313,Cámara de Diputados,155.32767975
+2013-05-01,313,Cámara de Diputados,139.40536058
+2013-06-01,313,Cámara de Diputados,219.94576527
+2013-07-01,313,Cámara de Diputados,206.84494331
+2013-08-01,313,Cámara de Diputados,166.07454621
+2013-09-01,313,Cámara de Diputados,196.26492851999998
+2013-10-01,313,Cámara de Diputados,167.24111053
+2013-11-01,313,Cámara de Diputados,58.32413127
+2013-12-01,313,Cámara de Diputados,393.31575756
+2013-01-01,314,Biblioteca del Congreso,28.92622988
+2013-02-01,314,Biblioteca del Congreso,29.31706513
+2013-03-01,314,Biblioteca del Congreso,30.535639590000002
+2013-04-01,314,Biblioteca del Congreso,31.26501394
+2013-05-01,314,Biblioteca del Congreso,33.72179366
+2013-06-01,314,Biblioteca del Congreso,65.41528215
+2013-07-01,314,Biblioteca del Congreso,43.07748959
+2013-08-01,314,Biblioteca del Congreso,41.82807156
+2013-09-01,314,Biblioteca del Congreso,43.5720581
+2013-10-01,314,Biblioteca del Congreso,42.14961523
+2013-11-01,314,Biblioteca del Congreso,44.89158129
+2013-12-01,314,Biblioteca del Congreso,75.01904069
+2013-01-01,315,Imprenta del Congreso,9.87049615
+2013-02-01,315,Imprenta del Congreso,9.77245173
+2013-03-01,315,Imprenta del Congreso,10.423017980000001
+2013-04-01,315,Imprenta del Congreso,11.6994907
+2013-05-01,315,Imprenta del Congreso,11.15725015
+2013-06-01,315,Imprenta del Congreso,20.77721738
+2013-07-01,315,Imprenta del Congreso,12.760582
+2013-08-01,315,Imprenta del Congreso,16.45912442
+2013-09-01,315,Imprenta del Congreso,15.352431200000002
+2013-10-01,315,Imprenta del Congreso,13.41918325
+2013-11-01,315,Imprenta del Congreso,14.86468692
+2013-12-01,315,Imprenta del Congreso,38.90825819
+2013-01-01,316,Ayuda Social Personal del Congreso de la Nación,12.815482150000001
+2013-02-01,316,Ayuda Social Personal del Congreso de la Nación,13.81568752
+2013-03-01,316,Ayuda Social Personal del Congreso de la Nación,14.03680247
+2013-04-01,316,Ayuda Social Personal del Congreso de la Nación,13.6317213
+2013-05-01,316,Ayuda Social Personal del Congreso de la Nación,13.55120496
+2013-06-01,316,Ayuda Social Personal del Congreso de la Nación,23.97306074
+2013-07-01,316,Ayuda Social Personal del Congreso de la Nación,16.059213240000002
+2013-08-01,316,Ayuda Social Personal del Congreso de la Nación,16.61303263
+2013-09-01,316,Ayuda Social Personal del Congreso de la Nación,32.77746975
+2013-10-01,316,Ayuda Social Personal del Congreso de la Nación,25.483383699999997
+2013-11-01,316,Ayuda Social Personal del Congreso de la Nación,27.114199369999998
+2013-12-01,316,Ayuda Social Personal del Congreso de la Nación,59.765254569999996
+2013-01-01,317,Secretaría de Ambiente y Desarrollo Sustentable,12.83209267
+2013-02-01,317,Secretaría de Ambiente y Desarrollo Sustentable,13.8195972
+2013-03-01,317,Secretaría de Ambiente y Desarrollo Sustentable,58.50994969
+2013-04-01,317,Secretaría de Ambiente y Desarrollo Sustentable,14.10535086
+2013-05-01,317,Secretaría de Ambiente y Desarrollo Sustentable,25.05280937
+2013-06-01,317,Secretaría de Ambiente y Desarrollo Sustentable,48.569937010000004
+2013-07-01,317,Secretaría de Ambiente y Desarrollo Sustentable,33.77317071
+2013-08-01,317,Secretaría de Ambiente y Desarrollo Sustentable,68.29533449
+2013-09-01,317,Secretaría de Ambiente y Desarrollo Sustentable,142.49518091
+2013-10-01,317,Secretaría de Ambiente y Desarrollo Sustentable,67.15363943
+2013-11-01,317,Secretaría de Ambiente y Desarrollo Sustentable,49.712310439999996
+2013-12-01,317,Secretaría de Ambiente y Desarrollo Sustentable,401.49421242
+2013-01-01,319,Defensoría del Pueblo,7.44197944
+2013-02-01,319,Defensoría del Pueblo,7.70108125
+2013-03-01,319,Defensoría del Pueblo,7.8182149
+2013-04-01,319,Defensoría del Pueblo,8.00196459
+2013-05-01,319,Defensoría del Pueblo,8.14773027
+2013-06-01,319,Defensoría del Pueblo,15.57668198
+2013-07-01,319,Defensoría del Pueblo,9.813418669999999
+2013-08-01,319,Defensoría del Pueblo,9.85462433
+2013-09-01,319,Defensoría del Pueblo,10.5156902
+2013-10-01,319,Defensoría del Pueblo,10.51540018
+2013-11-01,319,Defensoría del Pueblo,9.984044560000001
+2013-12-01,319,Defensoría del Pueblo,15.18609323
+2013-01-01,320,Consejo de la Magistratura,0.0
+2013-02-01,320,Consejo de la Magistratura,923.57302244
+2013-03-01,320,Consejo de la Magistratura,487.94184723
+2013-04-01,320,Consejo de la Magistratura,476.49130556
+2013-05-01,320,Consejo de la Magistratura,636.59968939
+2013-06-01,320,Consejo de la Magistratura,40.746051030000004
+2013-07-01,320,Consejo de la Magistratura,1269.91770237
+2013-08-01,320,Consejo de la Magistratura,9.8511192
+2013-09-01,320,Consejo de la Magistratura,1208.66123402
+2013-10-01,320,Consejo de la Magistratura,45.72182112
+2013-11-01,320,Consejo de la Magistratura,567.39112429
+2013-12-01,320,Consejo de la Magistratura,1543.78051948
+2013-01-01,321,Instituto Nacional de Estadística y Censos,19.06767675
+2013-02-01,321,Instituto Nacional de Estadística y Censos,19.77538138
+2013-03-01,321,Instituto Nacional de Estadística y Censos,22.33901795
+2013-04-01,321,Instituto Nacional de Estadística y Censos,19.5058481
+2013-05-01,321,Instituto Nacional de Estadística y Censos,32.66305509
+2013-06-01,321,Instituto Nacional de Estadística y Censos,47.77917192
+2013-07-01,321,Instituto Nacional de Estadística y Censos,25.11569359
+2013-08-01,321,Instituto Nacional de Estadística y Censos,37.07927081
+2013-09-01,321,Instituto Nacional de Estadística y Censos,30.39083109
+2013-10-01,321,Instituto Nacional de Estadística y Censos,44.9422918
+2013-11-01,321,Instituto Nacional de Estadística y Censos,32.15594348
+2013-12-01,321,Instituto Nacional de Estadística y Censos,70.54101593
+2013-01-01,322,Ministerio de Turismo,12.80616028
+2013-02-01,322,Ministerio de Turismo,18.83649181
+2013-03-01,322,Ministerio de Turismo,22.66557046
+2013-04-01,322,Ministerio de Turismo,19.09901776
+2013-05-01,322,Ministerio de Turismo,31.53445265
+2013-06-01,322,Ministerio de Turismo,39.12872009
+2013-07-01,322,Ministerio de Turismo,30.59061037
+2013-08-01,322,Ministerio de Turismo,33.60825887
+2013-09-01,322,Ministerio de Turismo,41.48313844
+2013-10-01,322,Ministerio de Turismo,27.12898761
+2013-11-01,322,Ministerio de Turismo,55.70487292
+2013-12-01,322,Ministerio de Turismo,189.86414292
+2013-01-01,323,Comisión Nacional de Comercio Exterior,0.95765834
+2013-02-01,323,Comisión Nacional de Comercio Exterior,0.9741464599999999
+2013-03-01,323,Comisión Nacional de Comercio Exterior,0.9322621999999999
+2013-04-01,323,Comisión Nacional de Comercio Exterior,0.94983705
+2013-05-01,323,Comisión Nacional de Comercio Exterior,0.92608788
+2013-06-01,323,Comisión Nacional de Comercio Exterior,1.59400419
+2013-07-01,323,Comisión Nacional de Comercio Exterior,1.10611336
+2013-08-01,323,Comisión Nacional de Comercio Exterior,1.35745201
+2013-09-01,323,Comisión Nacional de Comercio Exterior,1.39590807
+2013-10-01,323,Comisión Nacional de Comercio Exterior,1.3527655
+2013-11-01,323,Comisión Nacional de Comercio Exterior,1.5100895
+2013-12-01,323,Comisión Nacional de Comercio Exterior,2.52204762
+2013-01-01,325,Ministerio del Interior y Transporte (Gastos Propios),663.99952833
+2013-02-01,325,Ministerio del Interior y Transporte (Gastos Propios),2336.71571302
+2013-03-01,325,Ministerio del Interior y Transporte (Gastos Propios),2437.3414644500003
+2013-04-01,325,Ministerio del Interior y Transporte (Gastos Propios),1009.5953774
+2013-05-01,325,Ministerio del Interior y Transporte (Gastos Propios),1427.10081693
+2013-06-01,325,Ministerio del Interior y Transporte (Gastos Propios),3145.01918867
+2013-07-01,325,Ministerio del Interior y Transporte (Gastos Propios),2981.97506478
+2013-08-01,325,Ministerio del Interior y Transporte (Gastos Propios),3311.55959426
+2013-09-01,325,Ministerio del Interior y Transporte (Gastos Propios),3229.57588904
+2013-10-01,325,Ministerio del Interior y Transporte (Gastos Propios),2012.51948879
+2013-11-01,325,Ministerio del Interior y Transporte (Gastos Propios),2321.66553884
+2013-12-01,325,Ministerio del Interior y Transporte (Gastos Propios),3569.53563858
+2013-01-01,326,Policía Federal Argentina,515.20428622
+2013-02-01,326,Policía Federal Argentina,546.08154505
+2013-03-01,326,Policía Federal Argentina,604.71591675
+2013-04-01,326,Policía Federal Argentina,577.55746051
+2013-05-01,326,Policía Federal Argentina,644.06310046
+2013-06-01,326,Policía Federal Argentina,1016.0982922
+2013-07-01,326,Policía Federal Argentina,569.30778516
+2013-08-01,326,Policía Federal Argentina,860.94259388
+2013-09-01,326,Policía Federal Argentina,799.90038849
+2013-10-01,326,Policía Federal Argentina,757.76256156
+2013-11-01,326,Policía Federal Argentina,799.49125595
+2013-12-01,326,Policía Federal Argentina,1127.21263445
+2013-01-01,330,Ministerio de Educación,1949.06812476
+2013-02-01,330,Ministerio de Educación,2162.32069548
+2013-03-01,330,Ministerio de Educación,3143.4628882800002
+2013-04-01,330,Ministerio de Educación,2572.19424262
+2013-05-01,330,Ministerio de Educación,2867.04791134
+2013-06-01,330,Ministerio de Educación,4399.02100298
+2013-07-01,330,Ministerio de Educación,2381.37428773
+2013-08-01,330,Ministerio de Educación,3006.43346065
+2013-09-01,330,Ministerio de Educación,4012.20645927
+2013-10-01,330,Ministerio de Educación,3133.25954899
+2013-11-01,330,Ministerio de Educación,2790.4276426
+2013-12-01,330,Ministerio de Educación,6295.241273
+2013-01-01,331,Servicio Penitenciario Federal,272.9269308
+2013-02-01,331,Servicio Penitenciario Federal,287.14360779000003
+2013-03-01,331,Servicio Penitenciario Federal,288.79862231
+2013-04-01,331,Servicio Penitenciario Federal,286.52819393
+2013-05-01,331,Servicio Penitenciario Federal,310.55038679
+2013-06-01,331,Servicio Penitenciario Federal,380.52959509
+2013-07-01,331,Servicio Penitenciario Federal,311.36044933
+2013-08-01,331,Servicio Penitenciario Federal,300.89184023
+2013-09-01,331,Servicio Penitenciario Federal,305.04150735999997
+2013-10-01,331,Servicio Penitenciario Federal,294.50518422
+2013-11-01,331,Servicio Penitenciario Federal,352.79038158
+2013-12-01,331,Servicio Penitenciario Federal,489.90121013
+2013-01-01,332,Ministerio de Justicia y Derechos Humanos,30.14037269
+2013-02-01,332,Ministerio de Justicia y Derechos Humanos,39.86045873
+2013-03-01,332,Ministerio de Justicia y Derechos Humanos,61.53164532
+2013-04-01,332,Ministerio de Justicia y Derechos Humanos,50.61876485
+2013-05-01,332,Ministerio de Justicia y Derechos Humanos,70.96072619
+2013-06-01,332,Ministerio de Justicia y Derechos Humanos,126.00992459
+2013-07-01,332,Ministerio de Justicia y Derechos Humanos,63.29145173
+2013-08-01,332,Ministerio de Justicia y Derechos Humanos,96.99486882
+2013-09-01,332,Ministerio de Justicia y Derechos Humanos,118.95515669
+2013-10-01,332,Ministerio de Justicia y Derechos Humanos,52.36902197
+2013-11-01,332,Ministerio de Justicia y Derechos Humanos,149.61524404
+2013-12-01,332,Ministerio de Justicia y Derechos Humanos,245.91842210000002
+2013-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,18.32190178
+2013-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,19.8117942
+2013-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,21.202646509999997
+2013-04-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,21.408133499999998
+2013-05-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,29.1436046
+2013-06-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,36.73447283
+2013-07-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,23.67031795
+2013-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,25.7066823
+2013-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,31.3619052
+2013-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,30.04396939
+2013-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,29.09919761
+2013-12-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,61.9447507
+2013-01-01,335,Corte Suprema de Justicia de la Nación,0.0
+2013-02-01,335,Corte Suprema de Justicia de la Nación,148.19612026
+2013-03-01,335,Corte Suprema de Justicia de la Nación,81.58745284
+2013-04-01,335,Corte Suprema de Justicia de la Nación,76.44191539
+2013-05-01,335,Corte Suprema de Justicia de la Nación,102.04136023
+2013-06-01,335,Corte Suprema de Justicia de la Nación,124.3432031
+2013-07-01,335,Corte Suprema de Justicia de la Nación,94.03205711
+2013-08-01,335,Corte Suprema de Justicia de la Nación,89.51717889
+2013-09-01,335,Corte Suprema de Justicia de la Nación,108.09836693
+2013-10-01,335,Corte Suprema de Justicia de la Nación,97.17662159
+2013-11-01,335,Corte Suprema de Justicia de la Nación,99.96305749
+2013-12-01,335,Corte Suprema de Justicia de la Nación,147.92224017
+2013-01-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",11.7556329
+2013-02-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",15.75004068
+2013-03-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",114.04889990000001
+2013-04-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",64.73340904
+2013-05-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",115.8995213
+2013-06-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",232.24555626
+2013-07-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",55.8408726
+2013-08-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",90.66529536
+2013-09-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",340.26567153
+2013-10-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",90.5453395
+2013-11-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",88.63096702
+2013-12-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",317.79534693
+2013-01-01,337,Secretaría de Cultura,27.4767141
+2013-02-01,337,Secretaría de Cultura,33.68068709
+2013-03-01,337,Secretaría de Cultura,74.59376797
+2013-04-01,337,Secretaría de Cultura,38.61538622
+2013-05-01,337,Secretaría de Cultura,60.23190212
+2013-06-01,337,Secretaría de Cultura,107.89781619
+2013-07-01,337,Secretaría de Cultura,73.4908834
+2013-08-01,337,Secretaría de Cultura,76.52037125
+2013-09-01,337,Secretaría de Cultura,82.03754441
+2013-10-01,337,Secretaría de Cultura,43.56714922
+2013-11-01,337,Secretaría de Cultura,128.54580181
+2013-12-01,337,Secretaría de Cultura,227.45289359999998
+2013-01-01,338,Secretaría Legal y Técnica,6.0015839699999995
+2013-02-01,338,Secretaría Legal y Técnica,6.46689995
+2013-03-01,338,Secretaría Legal y Técnica,6.90843655
+2013-04-01,338,Secretaría Legal y Técnica,6.19027593
+2013-05-01,338,Secretaría Legal y Técnica,5.18693213
+2013-06-01,338,Secretaría Legal y Técnica,12.90781
+2013-07-01,338,Secretaría Legal y Técnica,7.1044538600000005
+2013-08-01,338,Secretaría Legal y Técnica,8.01965953
+2013-09-01,338,Secretaría Legal y Técnica,9.05520141
+2013-10-01,338,Secretaría Legal y Técnica,9.50479322
+2013-11-01,338,Secretaría Legal y Técnica,9.2754855
+2013-12-01,338,Secretaría Legal y Técnica,13.33539441
+2013-01-01,340,Procuración Penitenciaria,4.40249378
+2013-02-01,340,Procuración Penitenciaria,4.89150759
+2013-03-01,340,Procuración Penitenciaria,4.71836596
+2013-04-01,340,Procuración Penitenciaria,4.29825024
+2013-05-01,340,Procuración Penitenciaria,5.29812539
+2013-06-01,340,Procuración Penitenciaria,9.49341698
+2013-07-01,340,Procuración Penitenciaria,5.67253115
+2013-08-01,340,Procuración Penitenciaria,5.96170221
+2013-09-01,340,Procuración Penitenciaria,7.1987392
+2013-10-01,340,Procuración Penitenciaria,6.52210192
+2013-11-01,340,Procuración Penitenciaria,6.46158588
+2013-12-01,340,Procuración Penitenciaria,13.330747169999999
+2013-01-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",36.74073276
+2013-02-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",34.92937822
+2013-03-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",50.99092359
+2013-04-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",45.05856275
+2013-05-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",51.62950517
+2013-06-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",68.58473344
+2013-07-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",52.192919520000004
+2013-08-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",59.01679755
+2013-09-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",66.77751447
+2013-10-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",53.74240474
+2013-11-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",53.91712701
+2013-12-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",116.90373479
+2013-01-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),0.71567525
+2013-02-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),0.65688757
+2013-03-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),1.36478673
+2013-04-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),1.01457294
+2013-05-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),3.5803838700000004
+2013-06-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),69.70566181000001
+2013-07-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),0.98088883
+2013-08-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),1.2007511
+2013-09-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),36.54181494000001
+2013-10-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),1.06419865
+2013-11-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),1.67470345
+2013-12-01,342,SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR),57.272865519999996
+2013-01-01,343,Ministerio de Seguridad,7.52360744
+2013-02-01,343,Ministerio de Seguridad,17.31739149
+2013-03-01,343,Ministerio de Seguridad,27.79728949
+2013-04-01,343,Ministerio de Seguridad,15.983763680000001
+2013-05-01,343,Ministerio de Seguridad,37.5619515
+2013-06-01,343,Ministerio de Seguridad,72.78784998
+2013-07-01,343,Ministerio de Seguridad,46.92297293
+2013-08-01,343,Ministerio de Seguridad,68.00927107
+2013-09-01,343,Ministerio de Seguridad,125.96206585
+2013-10-01,343,Ministerio de Seguridad,29.69349672
+2013-11-01,343,Ministerio de Seguridad,58.65205829
+2013-12-01,343,Ministerio de Seguridad,72.71672461
+2013-01-01,344,Unidad de Información Financiera,2.26689539
+2013-02-01,344,Unidad de Información Financiera,2.15270556
+2013-03-01,344,Unidad de Información Financiera,2.5022876999999997
+2013-04-01,344,Unidad de Información Financiera,2.14407832
+2013-05-01,344,Unidad de Información Financiera,2.0207984700000003
+2013-06-01,344,Unidad de Información Financiera,3.9589687000000002
+2013-07-01,344,Unidad de Información Financiera,0.12266305999999999
+2013-08-01,344,Unidad de Información Financiera,0.04972269
+2013-09-01,344,Unidad de Información Financiera,0.09214326
+2013-10-01,344,Unidad de Información Financiera,0.0
+2013-01-01,345,Consejo Nacional de Coordinación de Políticas Sociales,4.25719445
+2013-02-01,345,Consejo Nacional de Coordinación de Políticas Sociales,10.46088145
+2013-03-01,345,Consejo Nacional de Coordinación de Políticas Sociales,6.90807394
+2013-04-01,345,Consejo Nacional de Coordinación de Políticas Sociales,10.5794778
+2013-05-01,345,Consejo Nacional de Coordinación de Políticas Sociales,13.09220459
+2013-06-01,345,Consejo Nacional de Coordinación de Políticas Sociales,21.52029954
+2013-07-01,345,Consejo Nacional de Coordinación de Políticas Sociales,13.69785826
+2013-08-01,345,Consejo Nacional de Coordinación de Políticas Sociales,13.60200511
+2013-09-01,345,Consejo Nacional de Coordinación de Políticas Sociales,27.333617059999998
+2013-10-01,345,Consejo Nacional de Coordinación de Políticas Sociales,28.93437172
+2013-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,26.41307774
+2013-12-01,345,Consejo Nacional de Coordinación de Políticas Sociales,41.35435375
+2013-05-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,0.0
+2013-06-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,2.0106117500000003
+2013-07-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,1.41730209
+2013-08-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,1.70520578
+2013-09-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,1.7083138
+2013-10-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,1.69576093
+2013-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,1.90466733
+2013-12-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,4.38978573
+2013-01-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",45.13604347
+2013-02-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",197.66529099
+2013-03-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",532.86444652
+2013-04-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",103.40214659
+2013-05-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",210.47324823
+2013-06-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",465.75677798
+2013-07-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",112.29423408
+2013-08-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",288.54668653
+2013-09-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",527.09514023
+2013-10-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",114.54730013
+2013-11-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",376.20143687
+2013-12-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",662.13443165
+2013-01-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",2809.5278157099997
+2013-02-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",2169.6517667000003
+2013-03-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",4181.60308346
+2013-04-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",4189.2897483
+2013-05-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",5745.439736099999
+2013-06-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",6369.93577499
+2013-07-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",6989.124161990001
+2013-08-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",3791.74144444
+2013-09-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",6649.24501356
+2013-10-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",3244.86764919
+2013-11-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",4819.54960252
+2013-12-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",11895.95410475
+2013-01-01,355,Servicio de la Deuda Pública,2529.03429026
+2013-02-01,355,Servicio de la Deuda Pública,1536.7302437600001
+2013-03-01,355,Servicio de la Deuda Pública,2636.03899288
+2013-04-01,355,Servicio de la Deuda Pública,4498.13891317
+2013-05-01,355,Servicio de la Deuda Pública,2720.61346475
+2013-06-01,355,Servicio de la Deuda Pública,4690.5558529400005
+2013-07-01,355,Servicio de la Deuda Pública,2660.4838098600003
+2013-08-01,355,Servicio de la Deuda Pública,2433.80525103
+2013-09-01,355,Servicio de la Deuda Pública,3517.0507540500003
+2013-10-01,355,Servicio de la Deuda Pública,3326.73799378
+2013-11-01,355,Servicio de la Deuda Pública,8660.76655566
+2013-12-01,355,Servicio de la Deuda Pública,5485.78050943
+2013-01-01,356,Obligaciones a Cargo del Tesoro,1857.26827919
+2013-02-01,356,Obligaciones a Cargo del Tesoro,4174.41523141
+2013-03-01,356,Obligaciones a Cargo del Tesoro,5632.47256385
+2013-04-01,356,Obligaciones a Cargo del Tesoro,1202.53538377
+2013-05-01,356,Obligaciones a Cargo del Tesoro,7939.36293228
+2013-06-01,356,Obligaciones a Cargo del Tesoro,8865.97981854
+2013-07-01,356,Obligaciones a Cargo del Tesoro,5668.49861616
+2013-08-01,356,Obligaciones a Cargo del Tesoro,6582.64252374
+2013-09-01,356,Obligaciones a Cargo del Tesoro,12644.64960774
+2013-10-01,356,Obligaciones a Cargo del Tesoro,4172.88409118
+2013-11-01,356,Obligaciones a Cargo del Tesoro,6935.5676725
+2013-12-01,356,Obligaciones a Cargo del Tesoro,22516.88929972
+2013-01-01,357,Ministerio de Economía y Finanzas Públicas,60.06828975
+2013-02-01,357,Ministerio de Economía y Finanzas Públicas,122.24265946999999
+2013-03-01,357,Ministerio de Economía y Finanzas Públicas,164.27415163999999
+2013-04-01,357,Ministerio de Economía y Finanzas Públicas,91.8455332
+2013-05-01,357,Ministerio de Economía y Finanzas Públicas,122.87662065
+2013-06-01,357,Ministerio de Economía y Finanzas Públicas,249.6279345
+2013-07-01,357,Ministerio de Economía y Finanzas Públicas,1437.18464591
+2013-08-01,357,Ministerio de Economía y Finanzas Públicas,468.77340265
+2013-09-01,357,Ministerio de Economía y Finanzas Públicas,1274.31642616
+2013-10-01,357,Ministerio de Economía y Finanzas Públicas,1233.65211836
+2013-11-01,357,Ministerio de Economía y Finanzas Públicas,448.06570153
+2013-12-01,357,Ministerio de Economía y Finanzas Públicas,2976.9562130000004
+2013-01-01,360,Procuración General de la Nación,100.29072458
+2013-02-01,360,Procuración General de la Nación,102.52725127
+2013-03-01,360,Procuración General de la Nación,106.7698092
+2013-04-01,360,Procuración General de la Nación,104.77373116999999
+2013-05-01,360,Procuración General de la Nación,179.90836802
+2013-06-01,360,Procuración General de la Nación,172.44968672
+2013-07-01,360,Procuración General de la Nación,114.93378188
+2013-08-01,360,Procuración General de la Nación,116.73392000999999
+2013-09-01,360,Procuración General de la Nación,153.6810261
+2013-10-01,360,Procuración General de la Nación,131.64704246
+2013-11-01,360,Procuración General de la Nación,134.06414893000002
+2013-12-01,360,Procuración General de la Nación,231.45984649
+2013-01-01,361,Defensoría General de la Nación,54.36592355
+2013-02-01,361,Defensoría General de la Nación,56.1369841
+2013-03-01,361,Defensoría General de la Nación,63.05147098
+2013-04-01,361,Defensoría General de la Nación,56.707406739999996
+2013-05-01,361,Defensoría General de la Nación,73.79939227
+2013-06-01,361,Defensoría General de la Nación,94.90375507
+2013-07-01,361,Defensoría General de la Nación,63.33674805
+2013-08-01,361,Defensoría General de la Nación,65.1657783
+2013-09-01,361,Defensoría General de la Nación,86.49059183
+2013-10-01,361,Defensoría General de la Nación,71.90551528
+2013-11-01,361,Defensoría General de la Nación,73.69134144
+2013-12-01,361,Defensoría General de la Nación,124.86184362
+2013-01-01,362,Ministerio de Industria,10.40052952
+2013-02-01,362,Ministerio de Industria,11.3208521
+2013-03-01,362,Ministerio de Industria,125.57252084
+2013-04-01,362,Ministerio de Industria,17.26828809
+2013-05-01,362,Ministerio de Industria,45.34242974
+2013-06-01,362,Ministerio de Industria,73.05335473
+2013-07-01,362,Ministerio de Industria,29.0338093
+2013-08-01,362,Ministerio de Industria,26.8750951
+2013-09-01,362,Ministerio de Industria,99.98779759
+2013-10-01,362,Ministerio de Industria,17.74248043
+2013-11-01,362,Ministerio de Industria,50.11201692
+2013-12-01,362,Ministerio de Industria,319.86300961
+2013-01-01,363,"Ministerio de Agricultura, Ganadería y Pesca",52.49371821
+2013-02-01,363,"Ministerio de Agricultura, Ganadería y Pesca",162.98187104
+2013-03-01,363,"Ministerio de Agricultura, Ganadería y Pesca",142.92217195
+2013-04-01,363,"Ministerio de Agricultura, Ganadería y Pesca",191.80780177
+2013-05-01,363,"Ministerio de Agricultura, Ganadería y Pesca",218.33145322000001
+2013-06-01,363,"Ministerio de Agricultura, Ganadería y Pesca",326.99660803
+2013-07-01,363,"Ministerio de Agricultura, Ganadería y Pesca",267.63506767
+2013-08-01,363,"Ministerio de Agricultura, Ganadería y Pesca",279.21001398
+2013-09-01,363,"Ministerio de Agricultura, Ganadería y Pesca",328.3888744
+2013-10-01,363,"Ministerio de Agricultura, Ganadería y Pesca",239.59059689
+2013-11-01,363,"Ministerio de Agricultura, Ganadería y Pesca",311.68123727
+2013-12-01,363,"Ministerio de Agricultura, Ganadería y Pesca",626.00482875
+2013-01-01,370,Ministerio de Defensa (Gastos Propios),21.92222745
+2013-02-01,370,Ministerio de Defensa (Gastos Propios),26.37534552
+2013-03-01,370,Ministerio de Defensa (Gastos Propios),70.87167381
+2013-04-01,370,Ministerio de Defensa (Gastos Propios),22.67124331
+2013-05-01,370,Ministerio de Defensa (Gastos Propios),19.58512435
+2013-06-01,370,Ministerio de Defensa (Gastos Propios),24.823330549999998
+2013-07-01,370,Ministerio de Defensa (Gastos Propios),137.83952697
+2013-08-01,370,Ministerio de Defensa (Gastos Propios),32.90089599
+2013-09-01,370,Ministerio de Defensa (Gastos Propios),217.47946174
+2013-10-01,370,Ministerio de Defensa (Gastos Propios),33.26542602
+2013-11-01,370,Ministerio de Defensa (Gastos Propios),74.85388308
+2013-12-01,370,Ministerio de Defensa (Gastos Propios),254.97838897000003
+2013-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,2.2384540200000003
+2013-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,11.49045099
+2013-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,29.51018635
+2013-04-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,15.87150364
+2013-05-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,37.14011877
+2013-06-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,101.37958266
+2013-07-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,36.63661336
+2013-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,16.79252962
+2013-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,39.94893951
+2013-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,41.403100439999996
+2013-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,48.94410257
+2013-12-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,223.63276402
+2013-01-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,6.72692551
+2013-02-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,6.94288906
+2013-03-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,7.97209767
+2013-04-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,7.4005550399999995
+2013-05-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,8.01128939
+2013-06-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,11.40794956
+2013-07-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,8.43374084
+2013-08-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,9.44497164
+2013-09-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,10.27071347
+2013-10-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,9.21132645
+2013-11-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,10.25239889
+2013-12-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,15.8029352
+2013-01-01,374,Estado Mayor General del Ejercito,506.07096616
+2013-02-01,374,Estado Mayor General del Ejercito,507.62181442
+2013-03-01,374,Estado Mayor General del Ejercito,855.88476842
+2013-04-01,374,Estado Mayor General del Ejercito,559.0860223
+2013-05-01,374,Estado Mayor General del Ejercito,605.27497905
+2013-06-01,374,Estado Mayor General del Ejercito,1086.9063595
+2013-07-01,374,Estado Mayor General del Ejercito,609.28798622
+2013-08-01,374,Estado Mayor General del Ejercito,730.98581053
+2013-09-01,374,Estado Mayor General del Ejercito,893.88249367
+2013-10-01,374,Estado Mayor General del Ejercito,821.27199208
+2013-11-01,374,Estado Mayor General del Ejercito,877.62212053
+2013-12-01,374,Estado Mayor General del Ejercito,2432.52077876
+2013-01-01,375,Gendarmería Nacional,482.56036685
+2013-02-01,375,Gendarmería Nacional,594.33238139
+2013-03-01,375,Gendarmería Nacional,813.67604422
+2013-04-01,375,Gendarmería Nacional,530.24340994
+2013-05-01,375,Gendarmería Nacional,621.72473104
+2013-06-01,375,Gendarmería Nacional,1018.48462144
+2013-07-01,375,Gendarmería Nacional,691.86535196
+2013-08-01,375,Gendarmería Nacional,743.41080651
+2013-09-01,375,Gendarmería Nacional,831.4154203
+2013-10-01,375,Gendarmería Nacional,657.3057770199999
+2013-11-01,375,Gendarmería Nacional,814.70003067
+2013-12-01,375,Gendarmería Nacional,1529.03277712
+2013-01-01,376,Dirección General del Servicio Logístico de la Defensa,0.15855595
+2013-02-01,376,Dirección General del Servicio Logístico de la Defensa,0.025966
+2013-03-01,376,Dirección General del Servicio Logístico de la Defensa,0.57922681
+2013-04-01,376,Dirección General del Servicio Logístico de la Defensa,1.28406577
+2013-05-01,376,Dirección General del Servicio Logístico de la Defensa,0.63905655
+2013-06-01,376,Dirección General del Servicio Logístico de la Defensa,0.23082028
+2013-07-01,376,Dirección General del Servicio Logístico de la Defensa,0.0
+2013-08-01,376,Dirección General del Servicio Logístico de la Defensa,0.0
+2013-09-01,376,Dirección General del Servicio Logístico de la Defensa,0.6136364
+2013-10-01,376,Dirección General del Servicio Logístico de la Defensa,0.21196583
+2013-11-01,376,Dirección General del Servicio Logístico de la Defensa,0.13843777
+2013-12-01,376,Dirección General del Servicio Logístico de la Defensa,178.97740931
+2013-01-01,379,Estado Mayor General de la Armada,295.33161907
+2013-02-01,379,Estado Mayor General de la Armada,313.58804113
+2013-03-01,379,Estado Mayor General de la Armada,360.94779873
+2013-04-01,379,Estado Mayor General de la Armada,346.92341566
+2013-05-01,379,Estado Mayor General de la Armada,339.34402747
+2013-06-01,379,Estado Mayor General de la Armada,564.92845766
+2013-07-01,379,Estado Mayor General de la Armada,366.43836368
+2013-08-01,379,Estado Mayor General de la Armada,378.91764141
+2013-09-01,379,Estado Mayor General de la Armada,536.59422574
+2013-10-01,379,Estado Mayor General de la Armada,420.65970415
+2013-11-01,379,Estado Mayor General de la Armada,502.97496078
+2013-12-01,379,Estado Mayor General de la Armada,847.35778665
+2013-01-01,380,Prefectura Naval Argentina,289.64801339
+2013-02-01,380,Prefectura Naval Argentina,354.26917859
+2013-03-01,380,Prefectura Naval Argentina,442.18016358
+2013-04-01,380,Prefectura Naval Argentina,281.01722792
+2013-05-01,380,Prefectura Naval Argentina,368.57748418
+2013-06-01,380,Prefectura Naval Argentina,579.33520959
+2013-07-01,380,Prefectura Naval Argentina,281.18190266
+2013-08-01,380,Prefectura Naval Argentina,439.77670496
+2013-09-01,380,Prefectura Naval Argentina,537.06314081
+2013-10-01,380,Prefectura Naval Argentina,317.64026434
+2013-11-01,380,Prefectura Naval Argentina,473.27524752
+2013-12-01,380,Prefectura Naval Argentina,865.64937498
+2013-01-01,381,Estado Mayor General de la Fuerza Aérea,249.94578878000002
+2013-02-01,381,Estado Mayor General de la Fuerza Aérea,239.44216841
+2013-03-01,381,Estado Mayor General de la Fuerza Aérea,363.15354308
+2013-04-01,381,Estado Mayor General de la Fuerza Aérea,261.95410077
+2013-05-01,381,Estado Mayor General de la Fuerza Aérea,319.56036694
+2013-06-01,381,Estado Mayor General de la Fuerza Aérea,651.6323845100001
+2013-07-01,381,Estado Mayor General de la Fuerza Aérea,279.34311799
+2013-08-01,381,Estado Mayor General de la Fuerza Aérea,401.63050371
+2013-09-01,381,Estado Mayor General de la Fuerza Aérea,522.56332459
+2013-10-01,381,Estado Mayor General de la Fuerza Aérea,325.03226194
+2013-11-01,381,Estado Mayor General de la Fuerza Aérea,403.27115935
+2013-12-01,381,Estado Mayor General de la Fuerza Aérea,999.4224346
+2013-01-01,382,Policía de Seguridad Aeroportuaria,41.00144145
+2013-02-01,382,Policía de Seguridad Aeroportuaria,40.80235158
+2013-03-01,382,Policía de Seguridad Aeroportuaria,43.11033163
+2013-04-01,382,Policía de Seguridad Aeroportuaria,47.04326211
+2013-05-01,382,Policía de Seguridad Aeroportuaria,56.95304539
+2013-06-01,382,Policía de Seguridad Aeroportuaria,65.5683606
+2013-07-01,382,Policía de Seguridad Aeroportuaria,56.76323332
+2013-08-01,382,Policía de Seguridad Aeroportuaria,61.177795180000004
+2013-09-01,382,Policía de Seguridad Aeroportuaria,76.31589038
+2013-10-01,382,Policía de Seguridad Aeroportuaria,59.20853937
+2013-11-01,382,Policía de Seguridad Aeroportuaria,77.00452912
+2013-12-01,382,Policía de Seguridad Aeroportuaria,176.8078437
+2013-01-01,450,Instituto Geográfico Nacional,2.78642263
+2013-02-01,450,Instituto Geográfico Nacional,3.01987667
+2013-03-01,450,Instituto Geográfico Nacional,2.98904482
+2013-04-01,450,Instituto Geográfico Nacional,3.26138188
+2013-05-01,450,Instituto Geográfico Nacional,4.57332461
+2013-06-01,450,Instituto Geográfico Nacional,5.86206319
+2013-07-01,450,Instituto Geográfico Nacional,4.03167794
+2013-08-01,450,Instituto Geográfico Nacional,4.5839843799999995
+2013-09-01,450,Instituto Geográfico Nacional,4.87422076
+2013-10-01,450,Instituto Geográfico Nacional,4.48844502
+2013-11-01,450,Instituto Geográfico Nacional,4.44562255
+2013-12-01,450,Instituto Geográfico Nacional,17.12745206
+2013-01-01,451,Dirección General de Fabricaciones Militares,49.895877
+2013-02-01,451,Dirección General de Fabricaciones Militares,36.4218
+2013-03-01,451,Dirección General de Fabricaciones Militares,54.37529
+2013-04-01,451,Dirección General de Fabricaciones Militares,46.08283185
+2013-05-01,451,Dirección General de Fabricaciones Militares,55.559857
+2013-06-01,451,Dirección General de Fabricaciones Militares,101.4636929
+2013-07-01,451,Dirección General de Fabricaciones Militares,60.0
+2013-08-01,451,Dirección General de Fabricaciones Militares,64.5100001
+2013-09-01,451,Dirección General de Fabricaciones Militares,65.12470970999999
+2013-10-01,451,Dirección General de Fabricaciones Militares,57.07105
+2013-11-01,451,Dirección General de Fabricaciones Militares,51.513381890000005
+2013-12-01,451,Dirección General de Fabricaciones Militares,294.65586043999997
+2013-01-01,452,Servicio Meteorológico Nacional,5.26267912
+2013-02-01,452,Servicio Meteorológico Nacional,8.27059536
+2013-03-01,452,Servicio Meteorológico Nacional,8.78669747
+2013-04-01,452,Servicio Meteorológico Nacional,9.47463735
+2013-05-01,452,Servicio Meteorológico Nacional,10.82824243
+2013-06-01,452,Servicio Meteorológico Nacional,15.63677718
+2013-07-01,452,Servicio Meteorológico Nacional,11.19525292
+2013-08-01,452,Servicio Meteorológico Nacional,11.18811537
+2013-09-01,452,Servicio Meteorológico Nacional,12.48985645
+2013-10-01,452,Servicio Meteorológico Nacional,9.911082
+2013-11-01,452,Servicio Meteorológico Nacional,11.837676980000001
+2013-12-01,452,Servicio Meteorológico Nacional,24.13504773
+2013-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,448.47971793
+2013-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,446.13333136
+2013-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,470.62205091
+2013-04-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,27.00940564
+2013-05-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,988.39317143
+2013-06-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,744.3689134
+2013-07-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,504.50326225
+2013-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,505.45596882
+2013-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,766.83530017
+2013-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,617.09193109
+2013-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,109.11847483
+2013-12-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,1418.12299688
+2013-01-01,602,Comisión Nacional de Valores,3.15690787
+2013-02-01,602,Comisión Nacional de Valores,3.2896731200000002
+2013-03-01,602,Comisión Nacional de Valores,4.16015238
+2013-04-01,602,Comisión Nacional de Valores,3.13742373
+2013-05-01,602,Comisión Nacional de Valores,3.99220294
+2013-06-01,602,Comisión Nacional de Valores,6.6184233599999995
+2013-07-01,602,Comisión Nacional de Valores,4.41527709
+2013-08-01,602,Comisión Nacional de Valores,5.26956818
+2013-09-01,602,Comisión Nacional de Valores,6.56241786
+2013-10-01,602,Comisión Nacional de Valores,4.3548319
+2013-11-01,602,Comisión Nacional de Valores,6.73049709
+2013-12-01,602,Comisión Nacional de Valores,15.29246856
+2013-01-01,603,Superintendencia de Seguros de la Nación,10.20640096
+2013-02-01,603,Superintendencia de Seguros de la Nación,12.13750085
+2013-03-01,603,Superintendencia de Seguros de la Nación,17.31531058
+2013-04-01,603,Superintendencia de Seguros de la Nación,13.21654099
+2013-05-01,603,Superintendencia de Seguros de la Nación,14.218768260000001
+2013-06-01,603,Superintendencia de Seguros de la Nación,24.531415199999998
+2013-07-01,603,Superintendencia de Seguros de la Nación,10.77346368
+2013-08-01,603,Superintendencia de Seguros de la Nación,15.85010194
+2013-09-01,603,Superintendencia de Seguros de la Nación,17.04564886
+2013-10-01,603,Superintendencia de Seguros de la Nación,16.09865721
+2013-11-01,603,Superintendencia de Seguros de la Nación,16.59171649
+2013-12-01,603,Superintendencia de Seguros de la Nación,32.27153653
+2013-01-01,604,Dirección Nacional de Vialidad,136.62546312
+2013-02-01,604,Dirección Nacional de Vialidad,675.52191613
+2013-03-01,604,Dirección Nacional de Vialidad,1850.57450584
+2013-04-01,604,Dirección Nacional de Vialidad,654.67840446
+2013-05-01,604,Dirección Nacional de Vialidad,1301.534191
+2013-06-01,604,Dirección Nacional de Vialidad,1437.36760349
+2013-07-01,604,Dirección Nacional de Vialidad,1291.96415093
+2013-08-01,604,Dirección Nacional de Vialidad,1525.79521328
+2013-09-01,604,Dirección Nacional de Vialidad,1791.46169953
+2013-10-01,604,Dirección Nacional de Vialidad,1519.82825339
+2013-11-01,604,Dirección Nacional de Vialidad,1770.88878119
+2013-12-01,604,Dirección Nacional de Vialidad,3056.60189041
+2013-01-01,606,Instituto Nacional de Tecnología Agropecuaria,125.72648968
+2013-02-01,606,Instituto Nacional de Tecnología Agropecuaria,134.81433229
+2013-03-01,606,Instituto Nacional de Tecnología Agropecuaria,172.63983079
+2013-04-01,606,Instituto Nacional de Tecnología Agropecuaria,144.54327679
+2013-05-01,606,Instituto Nacional de Tecnología Agropecuaria,158.38690377
+2013-06-01,606,Instituto Nacional de Tecnología Agropecuaria,248.42046792
+2013-07-01,606,Instituto Nacional de Tecnología Agropecuaria,163.70999431
+2013-08-01,606,Instituto Nacional de Tecnología Agropecuaria,185.95417712
+2013-09-01,606,Instituto Nacional de Tecnología Agropecuaria,216.71043346
+2013-10-01,606,Instituto Nacional de Tecnología Agropecuaria,191.02468435
+2013-11-01,606,Instituto Nacional de Tecnología Agropecuaria,189.06876461
+2013-12-01,606,Instituto Nacional de Tecnología Agropecuaria,311.82200481
+2013-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,5.50955762
+2013-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,5.94676138
+2013-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,5.84775404
+2013-04-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,6.20246152
+2013-05-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,6.347894999999999
+2013-06-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,12.08173951
+2013-07-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,6.51778247
+2013-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,9.106288769999999
+2013-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,10.87330766
+2013-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,6.99173975
+2013-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,7.81726415
+2013-12-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,25.54514511
+2013-01-01,608,Instituto Nacional de Tecnología Industrial,26.68266161
+2013-02-01,608,Instituto Nacional de Tecnología Industrial,27.76308781
+2013-03-01,608,Instituto Nacional de Tecnología Industrial,35.302957479999996
+2013-04-01,608,Instituto Nacional de Tecnología Industrial,30.450629850000002
+2013-05-01,608,Instituto Nacional de Tecnología Industrial,29.80068738
+2013-06-01,608,Instituto Nacional de Tecnología Industrial,43.1009798
+2013-07-01,608,Instituto Nacional de Tecnología Industrial,37.20362506
+2013-08-01,608,Instituto Nacional de Tecnología Industrial,50.78269081
+2013-09-01,608,Instituto Nacional de Tecnología Industrial,50.03585305
+2013-10-01,608,Instituto Nacional de Tecnología Industrial,59.31110269
+2013-11-01,608,Instituto Nacional de Tecnología Industrial,39.467575610000004
+2013-12-01,608,Instituto Nacional de Tecnología Industrial,193.94539878
+2013-01-01,609,Instituto Nacional de Vitivinicultura,8.37219225
+2013-02-01,609,Instituto Nacional de Vitivinicultura,9.3704961
+2013-03-01,609,Instituto Nacional de Vitivinicultura,12.24628097
+2013-04-01,609,Instituto Nacional de Vitivinicultura,10.02007006
+2013-05-01,609,Instituto Nacional de Vitivinicultura,10.232634899999999
+2013-06-01,609,Instituto Nacional de Vitivinicultura,20.56975063
+2013-07-01,609,Instituto Nacional de Vitivinicultura,11.44703523
+2013-08-01,609,Instituto Nacional de Vitivinicultura,13.28516907
+2013-09-01,609,Instituto Nacional de Vitivinicultura,14.33262744
+2013-10-01,609,Instituto Nacional de Vitivinicultura,13.99605566
+2013-11-01,609,Instituto Nacional de Vitivinicultura,14.7373449
+2013-12-01,609,Instituto Nacional de Vitivinicultura,46.34987394
+2013-01-01,612,Tribunal de Tasaciones de la Nación,1.21898857
+2013-02-01,612,Tribunal de Tasaciones de la Nación,1.21641966
+2013-03-01,612,Tribunal de Tasaciones de la Nación,1.2641283300000001
+2013-04-01,612,Tribunal de Tasaciones de la Nación,1.19941862
+2013-05-01,612,Tribunal de Tasaciones de la Nación,1.2922990300000001
+2013-06-01,612,Tribunal de Tasaciones de la Nación,2.05084073
+2013-07-01,612,Tribunal de Tasaciones de la Nación,1.34853721
+2013-08-01,612,Tribunal de Tasaciones de la Nación,1.46515459
+2013-09-01,612,Tribunal de Tasaciones de la Nación,1.71642376
+2013-10-01,612,Tribunal de Tasaciones de la Nación,1.4416293
+2013-11-01,612,Tribunal de Tasaciones de la Nación,1.53153007
+2013-12-01,612,Tribunal de Tasaciones de la Nación,2.4752019
+2013-01-01,613,Ente Nacional de Obras Hídricas de Saneamiento,55.46398125
+2013-02-01,613,Ente Nacional de Obras Hídricas de Saneamiento,47.7920241
+2013-03-01,613,Ente Nacional de Obras Hídricas de Saneamiento,265.77584225
+2013-04-01,613,Ente Nacional de Obras Hídricas de Saneamiento,120.79069702
+2013-05-01,613,Ente Nacional de Obras Hídricas de Saneamiento,229.41549688
+2013-06-01,613,Ente Nacional de Obras Hídricas de Saneamiento,243.92974341000001
+2013-07-01,613,Ente Nacional de Obras Hídricas de Saneamiento,92.31964014
+2013-08-01,613,Ente Nacional de Obras Hídricas de Saneamiento,173.88053884
+2013-09-01,613,Ente Nacional de Obras Hídricas de Saneamiento,492.41742534
+2013-10-01,613,Ente Nacional de Obras Hídricas de Saneamiento,155.72687609
+2013-11-01,613,Ente Nacional de Obras Hídricas de Saneamiento,321.90866279
+2013-12-01,613,Ente Nacional de Obras Hídricas de Saneamiento,470.0712638
+2013-01-01,614,Instituto Nacional de Semillas,2.6494521
+2013-02-01,614,Instituto Nacional de Semillas,2.56617543
+2013-03-01,614,Instituto Nacional de Semillas,3.68665278
+2013-04-01,614,Instituto Nacional de Semillas,3.47997971
+2013-05-01,614,Instituto Nacional de Semillas,3.69108184
+2013-06-01,614,Instituto Nacional de Semillas,5.58426413
+2013-07-01,614,Instituto Nacional de Semillas,3.8142753
+2013-08-01,614,Instituto Nacional de Semillas,5.0865439299999995
+2013-09-01,614,Instituto Nacional de Semillas,4.54060923
+2013-10-01,614,Instituto Nacional de Semillas,4.25774749
+2013-11-01,614,Instituto Nacional de Semillas,10.67564283
+2013-12-01,614,Instituto Nacional de Semillas,12.14954541
+2013-01-01,620,Tribunal Fiscal de la Nación,3.47742543
+2013-02-01,620,Tribunal Fiscal de la Nación,4.53984003
+2013-03-01,620,Tribunal Fiscal de la Nación,3.98194582
+2013-04-01,620,Tribunal Fiscal de la Nación,4.3218786300000005
+2013-05-01,620,Tribunal Fiscal de la Nación,5.39694451
+2013-06-01,620,Tribunal Fiscal de la Nación,7.24975948
+2013-07-01,620,Tribunal Fiscal de la Nación,4.40904847
+2013-08-01,620,Tribunal Fiscal de la Nación,4.63444297
+2013-09-01,620,Tribunal Fiscal de la Nación,5.11442423
+2013-10-01,620,Tribunal Fiscal de la Nación,5.1112980299999995
+2013-11-01,620,Tribunal Fiscal de la Nación,5.43032975
+2013-12-01,620,Tribunal Fiscal de la Nación,7.39521895
+2013-01-01,622,Instituto Nacional de la Propiedad Industrial,5.48481568
+2013-02-01,622,Instituto Nacional de la Propiedad Industrial,5.11958639
+2013-03-01,622,Instituto Nacional de la Propiedad Industrial,6.22975613
+2013-04-01,622,Instituto Nacional de la Propiedad Industrial,5.8499375
+2013-05-01,622,Instituto Nacional de la Propiedad Industrial,6.09266542
+2013-06-01,622,Instituto Nacional de la Propiedad Industrial,11.18362721
+2013-07-01,622,Instituto Nacional de la Propiedad Industrial,5.31842612
+2013-08-01,622,Instituto Nacional de la Propiedad Industrial,7.97712812
+2013-09-01,622,Instituto Nacional de la Propiedad Industrial,10.69406948
+2013-10-01,622,Instituto Nacional de la Propiedad Industrial,5.8932411799999995
+2013-11-01,622,Instituto Nacional de la Propiedad Industrial,8.02548956
+2013-12-01,622,Instituto Nacional de la Propiedad Industrial,21.27913283
+2013-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,77.99248075
+2013-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,96.34286705
+2013-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,131.89064481
+2013-04-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,108.01838352
+2013-05-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,120.96304007
+2013-06-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,171.19705865
+2013-07-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,116.11803012
+2013-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,152.14167875
+2013-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,150.59494683
+2013-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,126.14604839
+2013-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,171.57866585
+2013-12-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,288.29267472
+2013-01-01,624,Servicio Geológico Minero Argentino,7.7121873800000005
+2013-02-01,624,Servicio Geológico Minero Argentino,7.98834084
+2013-03-01,624,Servicio Geológico Minero Argentino,8.3014833
+2013-04-01,624,Servicio Geológico Minero Argentino,8.84150497
+2013-05-01,624,Servicio Geológico Minero Argentino,8.92791952
+2013-06-01,624,Servicio Geológico Minero Argentino,14.041569860000001
+2013-07-01,624,Servicio Geológico Minero Argentino,10.00303015
+2013-08-01,624,Servicio Geológico Minero Argentino,10.11989506
+2013-09-01,624,Servicio Geológico Minero Argentino,10.4735042
+2013-10-01,624,Servicio Geológico Minero Argentino,10.88764165
+2013-11-01,624,Servicio Geológico Minero Argentino,10.40553702
+2013-12-01,624,Servicio Geológico Minero Argentino,18.085386670000002
+2013-01-01,651,Ente Nacional Regulador del Gas,12.3952119
+2013-02-01,651,Ente Nacional Regulador del Gas,16.08907473
+2013-03-01,651,Ente Nacional Regulador del Gas,15.80887122
+2013-04-01,651,Ente Nacional Regulador del Gas,14.39204737
+2013-05-01,651,Ente Nacional Regulador del Gas,14.890885579999999
+2013-06-01,651,Ente Nacional Regulador del Gas,23.77938726
+2013-07-01,651,Ente Nacional Regulador del Gas,16.23304758
+2013-08-01,651,Ente Nacional Regulador del Gas,18.399631030000002
+2013-09-01,651,Ente Nacional Regulador del Gas,19.83719943
+2013-10-01,651,Ente Nacional Regulador del Gas,20.35668459
+2013-11-01,651,Ente Nacional Regulador del Gas,22.18586508
+2013-12-01,651,Ente Nacional Regulador del Gas,46.143721289999995
+2013-01-01,652,Ente Nacional Regulador de la Electricidad,7.0024311
+2013-02-01,652,Ente Nacional Regulador de la Electricidad,9.5783556
+2013-03-01,652,Ente Nacional Regulador de la Electricidad,11.68454086
+2013-04-01,652,Ente Nacional Regulador de la Electricidad,8.335350609999999
+2013-05-01,652,Ente Nacional Regulador de la Electricidad,10.4214545
+2013-06-01,652,Ente Nacional Regulador de la Electricidad,19.50018791
+2013-07-01,652,Ente Nacional Regulador de la Electricidad,14.12520777
+2013-08-01,652,Ente Nacional Regulador de la Electricidad,11.25327172
+2013-09-01,652,Ente Nacional Regulador de la Electricidad,15.03586565
+2013-10-01,652,Ente Nacional Regulador de la Electricidad,8.70068166
+2013-11-01,652,Ente Nacional Regulador de la Electricidad,12.99985382
+2013-12-01,652,Ente Nacional Regulador de la Electricidad,34.22593968
+2013-01-01,656,Organismo Regulador de Seguridad de Presas,2.32346245
+2013-02-01,656,Organismo Regulador de Seguridad de Presas,1.85449599
+2013-03-01,656,Organismo Regulador de Seguridad de Presas,2.30476662
+2013-04-01,656,Organismo Regulador de Seguridad de Presas,2.24535537
+2013-05-01,656,Organismo Regulador de Seguridad de Presas,2.24164062
+2013-06-01,656,Organismo Regulador de Seguridad de Presas,3.37918799
+2013-07-01,656,Organismo Regulador de Seguridad de Presas,2.46983752
+2013-08-01,656,Organismo Regulador de Seguridad de Presas,2.67845966
+2013-09-01,656,Organismo Regulador de Seguridad de Presas,2.81585463
+2013-10-01,656,Organismo Regulador de Seguridad de Presas,2.6690544800000002
+2013-11-01,656,Organismo Regulador de Seguridad de Presas,2.95049422
+2013-12-01,656,Organismo Regulador de Seguridad de Presas,7.904356249999999
+2013-01-01,661,Comisión Nacional de Regulación del Transporte,8.98144111
+2013-02-01,661,Comisión Nacional de Regulación del Transporte,12.1155562
+2013-03-01,661,Comisión Nacional de Regulación del Transporte,14.99644564
+2013-04-01,661,Comisión Nacional de Regulación del Transporte,12.859558309999999
+2013-05-01,661,Comisión Nacional de Regulación del Transporte,12.996672969999999
+2013-06-01,661,Comisión Nacional de Regulación del Transporte,22.55865153
+2013-07-01,661,Comisión Nacional de Regulación del Transporte,14.97178232
+2013-08-01,661,Comisión Nacional de Regulación del Transporte,13.431037230000001
+2013-09-01,661,Comisión Nacional de Regulación del Transporte,21.50630113
+2013-10-01,661,Comisión Nacional de Regulación del Transporte,10.93505234
+2013-11-01,661,Comisión Nacional de Regulación del Transporte,17.91017773
+2013-12-01,661,Comisión Nacional de Regulación del Transporte,49.79506373
+2013-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,5.58704732
+2013-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,5.81407881
+2013-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,19.10172374
+2013-04-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,5.7697665
+2013-05-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,8.32683245
+2013-06-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,33.80046557
+2013-07-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,5.78047468
+2013-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,9.39481176
+2013-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,22.93224012
+2013-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,6.8363622
+2013-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,7.12754633
+2013-12-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,62.91484971
+2013-01-01,669,Administración Nacional de Aviación Civil,64.43721921
+2013-02-01,669,Administración Nacional de Aviación Civil,48.2780102
+2013-03-01,669,Administración Nacional de Aviación Civil,115.72178404
+2013-04-01,669,Administración Nacional de Aviación Civil,61.464570800000004
+2013-05-01,669,Administración Nacional de Aviación Civil,77.90400588
+2013-06-01,669,Administración Nacional de Aviación Civil,149.70833403
+2013-07-01,669,Administración Nacional de Aviación Civil,55.62307921
+2013-08-01,669,Administración Nacional de Aviación Civil,97.53014348
+2013-09-01,669,Administración Nacional de Aviación Civil,151.05260308
+2013-10-01,669,Administración Nacional de Aviación Civil,90.7317817
+2013-11-01,669,Administración Nacional de Aviación Civil,68.43989391
+2013-12-01,669,Administración Nacional de Aviación Civil,459.56509487
+2013-07-01,670,Unidad de Información Financiera,2.06587695
+2013-08-01,670,Unidad de Información Financiera,2.70856532
+2013-09-01,670,Unidad de Información Financiera,2.57569685
+2013-10-01,670,Unidad de Información Financiera,3.35607989
+2013-11-01,670,Unidad de Información Financiera,3.98450407
+2013-12-01,670,Unidad de Información Financiera,8.41235924
+2013-01-01,802,Fondo Nacional de las Artes,1.20852359
+2013-02-01,802,Fondo Nacional de las Artes,0.26949534999999997
+2013-03-01,802,Fondo Nacional de las Artes,2.73805384
+2013-04-01,802,Fondo Nacional de las Artes,1.64081027
+2013-05-01,802,Fondo Nacional de las Artes,0.87482324
+2013-06-01,802,Fondo Nacional de las Artes,3.06416532
+2013-07-01,802,Fondo Nacional de las Artes,1.94009115
+2013-08-01,802,Fondo Nacional de las Artes,2.37536432
+2013-09-01,802,Fondo Nacional de las Artes,2.60990208
+2013-10-01,802,Fondo Nacional de las Artes,2.80850725
+2013-11-01,802,Fondo Nacional de las Artes,1.94885141
+2013-12-01,802,Fondo Nacional de las Artes,5.05663968
+2013-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,2.10983198
+2013-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,2.46456597
+2013-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,3.55796327
+2013-04-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,2.50345061
+2013-05-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,3.38894325
+2013-06-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,4.49090834
+2013-07-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,2.79503785
+2013-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,5.13175238
+2013-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,3.83550521
+2013-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,3.44241139
+2013-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,4.5076442199999995
+2013-12-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,7.593627870000001
+2013-01-01,850,Administración Nacional de la Seguridad Social,0.0
+2013-02-01,850,Administración Nacional de la Seguridad Social,35332.82966995
+2013-03-01,850,Administración Nacional de la Seguridad Social,19723.255939849998
+2013-04-01,850,Administración Nacional de la Seguridad Social,20218.62655607
+2013-05-01,850,Administración Nacional de la Seguridad Social,20532.85405332
+2013-06-01,850,Administración Nacional de la Seguridad Social,30571.77556214
+2013-07-01,850,Administración Nacional de la Seguridad Social,21475.61960804
+2013-08-01,850,Administración Nacional de la Seguridad Social,21773.87585018
+2013-09-01,850,Administración Nacional de la Seguridad Social,24410.11481994
+2013-10-01,850,Administración Nacional de la Seguridad Social,24064.85652846
+2013-11-01,850,Administración Nacional de la Seguridad Social,20906.69617816
+2013-12-01,850,Administración Nacional de la Seguridad Social,38847.622337040004
+2013-01-01,852,Superintendencia de Riesgos del Trabajo,4.2488538799999995
+2013-02-01,852,Superintendencia de Riesgos del Trabajo,6.41011632
+2013-03-01,852,Superintendencia de Riesgos del Trabajo,8.80971558
+2013-04-01,852,Superintendencia de Riesgos del Trabajo,5.42327495
+2013-05-01,852,Superintendencia de Riesgos del Trabajo,7.25030589
+2013-06-01,852,Superintendencia de Riesgos del Trabajo,11.62894305
+2013-07-01,852,Superintendencia de Riesgos del Trabajo,6.709686280000001
+2013-08-01,852,Superintendencia de Riesgos del Trabajo,9.02762493
+2013-09-01,852,Superintendencia de Riesgos del Trabajo,14.4536024
+2013-10-01,852,Superintendencia de Riesgos del Trabajo,6.605288089999999
+2013-11-01,852,Superintendencia de Riesgos del Trabajo,12.428061360000001
+2013-12-01,852,Superintendencia de Riesgos del Trabajo,21.51220897
+2013-01-01,902,Centro Nacional de Reeducación Social,3.49374165
+2013-02-01,902,Centro Nacional de Reeducación Social,3.48911834
+2013-03-01,902,Centro Nacional de Reeducación Social,4.76617947
+2013-04-01,902,Centro Nacional de Reeducación Social,4.27404704
+2013-05-01,902,Centro Nacional de Reeducación Social,4.02703418
+2013-06-01,902,Centro Nacional de Reeducación Social,7.02948489
+2013-07-01,902,Centro Nacional de Reeducación Social,4.78357564
+2013-08-01,902,Centro Nacional de Reeducación Social,6.23270691
+2013-09-01,902,Centro Nacional de Reeducación Social,6.71097039
+2013-10-01,902,Centro Nacional de Reeducación Social,8.74583252
+2013-11-01,902,Centro Nacional de Reeducación Social,7.85254535
+2013-12-01,902,Centro Nacional de Reeducación Social,18.03580126
+2013-01-01,903,Hospital Nacional Dr. Baldomero Sommer,12.05427107
+2013-02-01,903,Hospital Nacional Dr. Baldomero Sommer,12.74528915
+2013-03-01,903,Hospital Nacional Dr. Baldomero Sommer,20.28403024
+2013-04-01,903,Hospital Nacional Dr. Baldomero Sommer,15.141577980000001
+2013-05-01,903,Hospital Nacional Dr. Baldomero Sommer,15.45434642
+2013-06-01,903,Hospital Nacional Dr. Baldomero Sommer,23.37149608
+2013-07-01,903,Hospital Nacional Dr. Baldomero Sommer,14.534901829999999
+2013-08-01,903,Hospital Nacional Dr. Baldomero Sommer,20.17559391
+2013-09-01,903,Hospital Nacional Dr. Baldomero Sommer,19.2050451
+2013-10-01,903,Hospital Nacional Dr. Baldomero Sommer,15.80530571
+2013-11-01,903,Hospital Nacional Dr. Baldomero Sommer,19.91619192
+2013-12-01,903,Hospital Nacional Dr. Baldomero Sommer,44.53461816
+2013-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",13.99967163
+2013-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",16.43881984
+2013-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",15.67816159
+2013-04-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",16.76139598
+2013-05-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",17.66100086
+2013-06-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",27.195487
+2013-07-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",17.694072679999998
+2013-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",20.59468631
+2013-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",16.6371948
+2013-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",21.63081249
+2013-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",26.97814294
+2013-12-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",56.68513243
+2013-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3.13484196
+2013-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3.35270476
+2013-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,7.78414729
+2013-04-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,6.0057585200000005
+2013-05-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,5.0714871200000005
+2013-06-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,13.84019242
+2013-07-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3.74703913
+2013-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,4.4380732400000005
+2013-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,5.56642759
+2013-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,5.45429703
+2013-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,5.04130442
+2013-12-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,23.77073931
+2013-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,13.89775094
+2013-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,15.2887345
+2013-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,19.21616818
+2013-04-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,15.48136255
+2013-05-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,18.78965379
+2013-06-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,31.67143265
+2013-07-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,18.70135549
+2013-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,21.95882936
+2013-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,27.24834197
+2013-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,19.56527861
+2013-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,23.9849308
+2013-12-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,47.13622899
+2013-01-01,908,Hospital Nacional Dr. Alejandro Posadas,49.24462194
+2013-02-01,908,Hospital Nacional Dr. Alejandro Posadas,56.4431007
+2013-03-01,908,Hospital Nacional Dr. Alejandro Posadas,54.49222683
+2013-04-01,908,Hospital Nacional Dr. Alejandro Posadas,60.27250527
+2013-05-01,908,Hospital Nacional Dr. Alejandro Posadas,61.507221720000004
+2013-06-01,908,Hospital Nacional Dr. Alejandro Posadas,108.24349568999999
+2013-07-01,908,Hospital Nacional Dr. Alejandro Posadas,63.54919289000001
+2013-08-01,908,Hospital Nacional Dr. Alejandro Posadas,73.74914692
+2013-09-01,908,Hospital Nacional Dr. Alejandro Posadas,81.61811468
+2013-10-01,908,Hospital Nacional Dr. Alejandro Posadas,73.18730766
+2013-11-01,908,Hospital Nacional Dr. Alejandro Posadas,77.04374366
+2013-12-01,908,Hospital Nacional Dr. Alejandro Posadas,133.9589975
+2013-01-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,9.11464597
+2013-02-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,13.32142838
+2013-03-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,13.395773010000001
+2013-04-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,12.87224869
+2013-05-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,13.79185164
+2013-06-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,17.68264081
+2013-07-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,17.12952636
+2013-08-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,14.85768584
+2013-09-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,16.68421125
+2013-10-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,15.58862054
+2013-11-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,17.25799523
+2013-12-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,26.28975289
+2013-01-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,4.06658454
+2013-02-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,4.22015146
+2013-03-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,4.95136489
+2013-04-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,4.582431929999999
+2013-05-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,5.05610033
+2013-06-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,7.91078721
+2013-07-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,5.8593289
+2013-08-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,6.03823247
+2013-09-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,6.72407241
+2013-10-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,5.81165893
+2013-11-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,5.88689315
+2013-12-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,11.36074353
+2013-01-01,912,Servicio Nacional de Rehabilitación,4.08015803
+2013-02-01,912,Servicio Nacional de Rehabilitación,4.85955737
+2013-03-01,912,Servicio Nacional de Rehabilitación,5.77654475
+2013-04-01,912,Servicio Nacional de Rehabilitación,5.1956354099999995
+2013-05-01,912,Servicio Nacional de Rehabilitación,5.39871784
+2013-06-01,912,Servicio Nacional de Rehabilitación,7.94133722
+2013-07-01,912,Servicio Nacional de Rehabilitación,5.42626656
+2013-08-01,912,Servicio Nacional de Rehabilitación,8.04696654
+2013-09-01,912,Servicio Nacional de Rehabilitación,13.632156460000001
+2013-10-01,912,Servicio Nacional de Rehabilitación,6.496169640000001
+2013-11-01,912,Servicio Nacional de Rehabilitación,6.68965378
+2013-12-01,912,Servicio Nacional de Rehabilitación,15.92785174
+2013-01-01,914,Superintendencia de Servicios de Salud,12.47588183
+2013-02-01,914,Superintendencia de Servicios de Salud,169.06210266
+2013-03-01,914,Superintendencia de Servicios de Salud,143.82227583
+2013-04-01,914,Superintendencia de Servicios de Salud,108.80506131
+2013-05-01,914,Superintendencia de Servicios de Salud,122.54864982
+2013-06-01,914,Superintendencia de Servicios de Salud,116.46705103000001
+2013-07-01,914,Superintendencia de Servicios de Salud,117.35683879999999
+2013-08-01,914,Superintendencia de Servicios de Salud,138.17622587
+2013-09-01,914,Superintendencia de Servicios de Salud,176.41250449
+2013-10-01,914,Superintendencia de Servicios de Salud,132.86125644999998
+2013-11-01,914,Superintendencia de Servicios de Salud,124.24822248
+2013-12-01,914,Superintendencia de Servicios de Salud,316.01741051
