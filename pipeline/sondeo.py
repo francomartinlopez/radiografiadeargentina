@@ -224,6 +224,40 @@ def main() -> None:
             lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:300]))
         except Exception as e:
             lineas.append(f"- {pag}: error {e}")
+    # Informes mensuales de pagos minoristas del BCRA: probar nombres y guardar el texto
+    import subprocess, sys as _sys, time as _t
+    subprocess.run([_sys.executable, "-m", "pip", "install", "-q", "pypdf"], check=False)
+    from pypdf import PdfReader
+    meses = [("ene", "enero"), ("feb", "febrero"), ("mar", "marzo"), ("abr", "abril"), ("may", "mayo"), ("jun", "junio"),
+             ("jul", "julio"), ("ago", "agosto"), ("sep", "septiembre"), ("oct", "octubre"), ("nov", "noviembre"), ("dic", "diciembre")]
+    dest = CARPETA / "pagos"; dest.mkdir(exist_ok=True)
+    for anio in range(2019, 2027):
+        for m, (ab, comp) in enumerate(meses, 1):
+            if (anio, m) > (2026, 10) or (dest / f"{anio}-{m:02d}.txt").exists():
+                continue
+            hallado = None
+            for nombre in (ab, comp):
+                for base in ("https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/", "https://www.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/"):
+                    for pref in ("informe-mensual-de-pagos-minoristas-", "Informe-Mensual-de-Pagos-Minoristas-", "Informe-mensual-de-pagos-minoristas-"):
+                        u = f"{base}{pref}{nombre}-{anio}.pdf"
+                        try:
+                            r = requests.get(u, timeout=60, headers={"User-Agent": "radiografia-argentina/1.0"})
+                        except Exception:
+                            continue
+                        if r.ok and r.content[:4] == b"%PDF":
+                            hallado = (u, r.content); break
+                    if hallado: break
+                if hallado: break
+            if hallado:
+                try:
+                    txt = "\n".join((pg.extract_text() or "") for pg in PdfReader(io.BytesIO(hallado[1])).pages[:6])
+                except Exception as e:
+                    txt = f"ERROR {e}"
+                (dest / f"{anio}-{m:02d}.txt").write_text(hallado[0] + "\n" + txt, encoding="utf-8")
+                lineas.append(f"- pagos {anio}-{m:02d}: {hallado[0]}")
+            else:
+                lineas.append(f"- pagos {anio}-{m:02d}: no encontrado")
+            _t.sleep(0.5)
     for u, n in []:
         try:
             r = requests.get(u, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
