@@ -1,0 +1,225 @@
+https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-septiembre-2025.pdf
+ 
+  
+
+Informe Mensual de Pagos Minoristas | septiembre de 2025 | BCRA | 2 
+ 
+ Informe Mensual  
+ de Pagos Minoristas 
+ septiembre de 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Informe Mensual de Pagos Minoristas | septiembre de 2025 | BCRA | 3 
+ 
+Informe Mensual 
+de Pagos Minoristas 
+septiembre de 20251  
+ 
+ 
+En septiembre los e nvíos de dinero (transferencias inmediatas “push” 2) reportaron un 
+crecimiento en cantidades del 23,5 % i.a. 
+− En pesos: se registraron 649,2 millones de transacciones por $  70,2 billones, que 
+implican incrementos interanuales de 23,5 % y 22,8 % en cantidades y en montos reales3, 
+respectivamente. El 75,8 % de las transacciones tuvo como origen y/o destino una CVU4. 
+− En moneda extranjera: se registraron 2,1 millones de operaciones (27,2 % i.a.) por USD 
+3.393,4 millones (37 % i.a. en moneda de origen). 
+ 
+Los i ngresos de dinero (transferencias inmediatas “pull ”) alcanzaron 37,7 millones 
+operaciones5 en septiembre 
+− Se realizaron 37,7 millones de transferencias por $ 3,3 billones, representando una baja 
+de -1,6 % en cantidades y un aumento de 24,9 % en montos reales. 
+ 
+Los pagos con transferencia (PCT6) interoperables mediante el QR totalizaron 71,6 millones 
+de operaciones  
+− Se efectuaron 72,8 millones de operaciones de PCT (44 % i.a.), por un total de $  1,41 
+billones (56,6 % i.a. en términos reales -deflactados por IPC-). 
+o QR: el 98,2 % de los PCT se inició con códigos QR, lo que representa 71,6 millones 
+de pagos (54,3 % i.a.) por $ 1,38 billones (71,7 % i.a. en términos reales). El 55,6 % 
+fue realizado por clientes que utilizaron sus cuentas a la vista (CBU) y en un 44,4 % 
+sus cuentas de pago  (CVU). Por su parte, el 58,1  % de las operaciones fueron 
+acreditadas en cuentas de pago, mientras que el 41,9 % restante fue canalizado a 
+cuentas a la vista. 
+Actualmente s e encuentran registradas ante el BCRA  78 billeteras digitales 
+ 
+1 El mes de análisis es septiembre de 2025, excepto para extracciones, tarjetas de crédito, tarjetas de débito, tarjetas de transporte y 
+VQR que la información corresponde a agosto de 2025 (último dato disponible), y de tarjetas prepagas que se incluyen los datos 
+disponibles a junio de 2025 (último dato disponible).   
+2 Contempla las transferencias inmediatas “push” de personas humanas y jurídicas, dentro y entre los esquemas administrados por 
+Red Link, Newpay y COELSA. No se incluyen las transferencias intra-entidad financiera, intra-PSPCP ni los pagos con transferencia. 
+3 Las variaciones porcentuales interanuales de montos se realizan con importes deflactados a pesos de diciembre de 2016, a partir 
+de lo informado por el INDEC en el reporte sobre el “Índice de precios al consumidor con cobertura nacional”. 
+4 Se incluyen las transferencias inmediatas entre dos CVU, desde una CVU hacia una CBU y desde una CBU hacia una CVU.  
+5 Corresponde a operaciones con consentimiento explicito y tácito. 
+6 La serie de pagos con transferencia interoperable consolida la información presentada anteriormente como “Pago Electrónico 
+Inmediato”, correspondiente a pagos iniciados con credenciales de tarjetas de débito administrados por Red Link y Newpay. A esta 
+se le adiciona a partir del 7 de diciembre de 2020 la información sobre pagos iniciados utilizando códigos QR abiertos entre cuentas 
+de pago y cuentas bancarias, administrados por COELSA, Red Link y Newpay. 
+Informe Mensual de Pagos Minoristas | septiembre de 2025 | BCRA | 4 
+ 
+interoperables7 y 55 aceptadores de PCT. 
+o Con claves aleatorias: el 1,8 % utilizó un token para el inicio de los PCT; se trata de 
+1,3 millones de operaciones (-69,5 % i.a.) por $ 35,1 mil millones (-64,6 % i.a. en 
+términos reales).  
+ 
+Cuentas de pago y fondos invertidos a través de los PSPCP  
+En agosto, sobre un total de 55,3 millones de cuentas  de cuentas de pago , 12,1 millones 
+tuvieron saldo por un total de $ 0,5 billones de pesos. Por su parte, los saldos invertidos en FCI 
+de dinero alcanzaron los $ 5,5 billones en igual mes. Considerados en forma conjunta, ambos 
+conceptos representaron el 6,3 % del total de los depósitos en pesos del sector privado. En la 
+actualidad se encuentran incorporados en el Registro de Proveedores de Servicios de Pago un 
+total de 194 PSPCP8.   
+ 
+Débito directo  
+En septiembre se realizaron 11,9 millones de débitos directos (-2,4 % i.a.) por un total de $ 1,7 
+billones (crecimiento de 8,8 % i.a.  en términos reales ). L a tasa de  efectividad9 alcanzó el   
+44,4 %. 
+ 
+Cheques. El 81,8 % de los montos compensados en septiembre correspondió a ECHEQ  
+− Se compensaron 5,3 millones de cheques (físicos y electrónicos) por un total de $  20,3 
+billones. La participación del ECHEQ sobre el total de compensados alcanzó el 58,9 % en 
+cantidades (3,1 millones de cheques electrónicos) y 81,8 % en montos ($ 16,6 billones). 
+− Rechazos por motivo “sin fondos suficientes”: la relación con el total de compensados 
+alcanzó 1,7 % en cantidades y 1,4 % en montos. 
+ 
+Tarjetas. El uso de las tarjetas de crédito superó a las de débito 
+ 
+− Débito: se efectuaron 178 millones de transacciones por $ 4,7 billones en agosto (último 
+dato disponible), con variaciones del -15,3 % i.a. en cantidades y del -13,5 % i.a. en montos 
+reales. 
+− Crédito: se observaron incrementos interanuales de 9 % en cantidades y 5 % en montos 
+reales, realizándose 180,4 millones de pagos por $  9,4 billones. Los canales  más 
+utilizados fueron POS y QR que representaron 39,1 % de la cantidad total, e-commerce 
+con el 37 % y débito automático con 14,2 %. El QR interoperable alcanzó el 4,3 % del total 
+de tarjetas de crédito . Por su parte, la modalidad en un pago representó  87 % en 
+cantidades y 64 % montos del total de operaciones con tarjetas de crédito.  
+ 
+7 https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Proveedores-servicios-de-billeteras-digitales-Interoperables.asp 
+8 https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Proveedores-servicios-de-pago-ofrecen-cuentas-de-pago.asp 
+9 El indicador de efectividad del débito directo mide la relación de las operaciones presentadas a la compensación contra las 
+acreditadas en cuentas de las empresas. 
+Informe Mensual de Pagos Minoristas | septiembre de 2025 | BCRA | 5 
+ 
+− Tarjeta prepaga : se realizaron 34,1 millones de pagos por $  0,59 billones, lo que 
+representa incrementos del 23,4 % y 18,6 % i.a., en cantidades y montos reales 
+respectivamente. 
+ 
+Tarjetas prepagas de transporte 
+Se realizaron 351,2 millones de viajes ( -10,6 % i.a.) mediante la tarjeta SUBE, que totalizaron      
+$ 0,15 billones (crecimiento de 3,7 % i.a. en términos reales).  
+ 
+Viaje con QR 
+Bajo la modalidad VQR se realizaron 4,6 millones de viajes en agosto, que totalizaron $ 4,7 mil 
+millones. 
+ 
+Factura electrónica MiPyME (FCEM)   
+En el mes de análisis el 87 % de las operaciones se efectuaron en pesos, ingresando al sistema 
+de circulación abierta (SCA) 67,6 miles de facturas por $ 1,4 billones. 
+ 
+Extracciones  
+El 90 % de las extracciones se realizó desde cajeros automáticos. 
+− Cajeros automáticos: en agosto (último dato disponible) se realizaron 52,8 millones de 
+extracciones de los 17.622 cajeros disponibles (ATM) por un total de $ 4 billones, siendo 
+aproximadamente 3.000 la cantidad promedio de extracciones en cada ATM en el mes. 
+El monto de extracción promedio alcanzó $ 76,1 miles.  
+− Extrabancarias con tarjeta de débito 10: 3,7 millones de extracciones por $ 0,2 billones, 
+con un monto promedio de $ 59,1 miles.  
+− Extrabancarias desde cuentas de pago intra PSPCP (“closed loop”): 2 millones de 
+extracciones por $ 0,1 billones, siendo el monto promedio de $ 55,1 miles. 
+ 
+ 
+ 
+  
+ 
+10 Extracciones de efectivo realizadas luego de una compra con tarjeta de débito (Visa, Mastercard y Cabal) en un comercio adherido 
+al servicio o extracciones de efectivo en empresas de cobranzas extrabancarias. 
+Informe Mensual de Pagos Minoristas | septiembre de 2025 | BCRA | 6 
+ 
+I. Principales instrumentos 
+ 
+Gráfico 1.1. Participación de los principales instrumentos de pago (monto nominal – datos a última fecha 
+disponible)  
+ 
+ 
+Gráfico 1.2. Participación de los principales instrumentos de pago (cantidad – datos a última fecha 
+disponible)  
+Trx Inmediatas 
+"pull" 
+6,1%
+Trx Inmediatas "push" 
+53,0%
+Trx 
+Alto 
+valor 
+1,0% …PCT interop. 6,0%
+T. Crédito 
+14,7%
+T. Débito 
+14,5%
+T. Prepagas 
+2,8%
+…
+…
+DD.DD. 
+1,0%
+Alto valor 
+entre 
+empresas
+71%
+Inmediatas 
+"push" 26%
+En lote 1%
+Inmediatas 
+"pull" 1,2%
+Crédito 
+64%
+Débito 32%
+Prepagas  4%
+ECHEQ
+82%
+Cheques 
+18%
+$ 0
+$ 5
+$ 10
+$ 15
+$ 20
+$ 25
+$ 0
+$ 50
+$ 100
+$ 150
+$ 200
+$ 250
+$ 300
+Transferencias
+(eje izq.)
+Cheques
+(eje der.)
+Pagos con
+transferencia
+(eje der.)
+Tarjetas
+(eje der.)
+Débitos directos
+(eje der.)
+billonesbillones

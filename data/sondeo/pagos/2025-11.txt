@@ -1,0 +1,165 @@
+https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-noviembre-2025.pdf
+ 
+  
+
+Informe Mensual de Pagos Minoristas | noviembre de 2025 | BCRA | 2 
+ 
+ Informe Mensual  
+ de Pagos Minoristas 
+ noviembre de 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Informe Mensual de Pagos Minoristas | noviembre de 2025 | BCRA | 3 
+ 
+Informe Mensual 
+de Pagos Minoristas 
+noviembre de 20251  
+ 
+ 
+En noviembre los envíos de dinero en pesos (transferencias inmediatas “push”2) reportaron 
+un crecimiento en cantidades del 20,3 % i.a. 
+− En pesos: se registraron 666,3 millones de transacciones por $  70,1 billones, que 
+implican incrementos interanuales de 20,3 % y 18,2 % en cantidades y en montos reales3, 
+respectivamente. El 73 % de las transacciones tuvo como origen y/o destino una CVU4. 
+− En moneda extranjera : se registraron 1,8 millones de operaciones (2,7 % i.a.) por USD 
+2.638,8 millones (-14,2 % i.a. en moneda de origen). 
+ 
+Los ingresos de dinero en pesos (transferencias inmediatas “pull”) alcanzaron 39,2 millones 
+de operaciones5 en noviembre. 
+− Se realizaron 39,2 millones de transferencias por $ 3,5 billones, representando una baja 
+de -3,4 % en cantidad es y un aumento de 10,2 % en montos  reales en términos 
+interanuales. 
+ 
+Los pagos con transferencia (PCT6) interoperables mediante el QR totalizaron 75,8 millones 
+de operaciones en pesos. 
+− Se efectuaron 76,9 millones de operaciones de PCT (29,1 % i.a.) en pesos, por un total de 
+$ 1,6 billones (37 % i.a. en términos reales). 
+o QR: el 98,4 % de los PCT se inició con códigos QR, lo que representa 75,8 millones 
+de pagos (35,9 % i.a.) por $ 1,6 billones (45,8 % i.a. en términos reales). El 52,6 % 
+fue realizado por clientes que utilizaron sus cuentas a la vista (CBU) y en un 47,4 % 
+en sus cuentas de pago  (CVU). Por su parte  en comercios el 5 7,8 % d e las 
+operaciones fueron acredita das en cuentas de pago, mientras que el 4 2,2 % 
+restante fue canalizado a cuentas a la vista. 
+Actualmente s e encuentran registradas ante el BCRA  84 billeteras digitales 
+ 
+1 El mes de análisis es noviembre de 2025 excepto para extracciones, tarjetas de crédito, tarjetas de débito y tarjetas de transporte 
+que la información corresponde a octubre de 2025 (último dato disponible), tarjetas prepagas corresponde a septiembre de 2025.   
+2 Contempla las transferencias inmediatas “push” de personas humanas y jurídicas, dentro y entre los esquemas administrados por 
+Red Link, Newpay y COELSA. No se incluyen las transferencias intra-entidad financiera, intra-PSPCP ni los pagos con transferencia. 
+3 Las variaciones porcentuales interanuales de montos se realizan con importes deflactados a pesos de diciembre de 2016, a partir 
+de lo informado por el INDEC en el reporte sobre el “Índice de precios al consumidor con cobertura nacional”. 
+4 Se incluyen las transferencias inmediatas entre dos CVU, desde una CVU hacia una CBU y desde una CBU hacia una CVU.  
+5 Corresponde a operaciones con consentimiento explicito y tácito. 
+6 La serie de pagos con transferencia interoperable consolida la información presentada anteriormente como “Pago Electrónico 
+Inmediato”, correspondiente a pagos iniciados con credenciales de tarjetas de débito administrados por Red Link y Newpay. A esta 
+se le adiciona a partir del 7 de diciembre de 2020 la información sobre pagos iniciados utilizando códigos QR abiertos entre cuentas 
+de pago y cuentas bancarias, administrados por COELSA, Red Link y Newpay. 
+Informe Mensual de Pagos Minoristas | noviembre de 2025 | BCRA | 4 
+ 
+interoperables7 y 61 aceptadores de PCT. 
+o Con claves aleatorias: el 1,6 % utilizó un token para el inicio de los PCT; se trata de 
+1,2 millones de operaciones (-68,7 % i.a.) por $ 38,5 mil millones (-59,9 % i.a. en 
+términos reales).  
+ 
+Cuentas de pago y fondos invertidos a través de los PSPCP  
+En octubre, sobre un total de 61,7 millones de cuentas de pago , 14,6 millones tuvieron saldo 
+por un total de  $ 0,6 billones de pesos. Por su parte, los saldos invertidos en FCI de dinero 
+alcanzaron los $ 5,6 billones en igual mes. Considerados en forma conjunta, ambos conceptos 
+representaron el 6,3 % del total de los depósitos en pesos del sector privado. En la actualidad 
+se encuentran incorporados en el Registro de Proveedores de Servicios de Pago un total de 
+205 PSPCP8.   
+ 
+Débito directo  
+En noviembre se realizaron 11,3 millones de débitos directos (-6,8 % i.a.) por un total de $ 1,7 
+billones (-1,9 % i.a. en términos reales). La tasa de efectividad9 alcanzó el 45,1 %. 
+ 
+Cheques. El 82,5 % de los montos compensados en noviembre correspondió a ECHEQ  
+− Se compensaron 4,7 millones de cheques (físicos y electrónicos) por un total de $  18,6 
+billones. La participación del ECHEQ sobre el total de compensados alcanzó el 60,1 % en 
+cantidades (2,8 millones de cheques electrónicos) y 82,5 % en montos ($ 15,3 billones). 
+− Rechazos por motivo “sin fondos suficientes”: la relación con el total de compensados 
+alcanzó 2,2 % en cantidades y 1,7 % en montos. 
+ 
+Tarjetas. El uso de las tarjetas de crédito superó a las de débito 
+ 
+− Débito: se efectuaron  177 millones de transacciones por $  4,7 billones de pesos en 
+octubre (último dato disponible), con variaciones del -13,3 % i.a. en cantidades y del -13,3 
+% i.a. en montos reales.  
+Asimismo en octubre se realizaron, en moneda extranjera, 10,3 miles de transacciones 
+por USD 6,4 millones, el 99 % fueron cursadas a través del canal e -commerce. Como 
+resultado, en el acumulado febrero (inicio de operatoria) a octubre de 2025 se cursaron 
+44.810 operaciones en dólares, totalizando USD 31,4 millones. 
+− Crédito: se observa ron incrementos interanuales de 7,4 % en cantidades y 1,8 % en 
+montos reales, realizándose 188,9 millones de pagos por $ 10 billones. Los canales más 
+utilizados fueron POS y QR que representaron 39,2 % de la cantidad total, e-commerce 
+con el 37 % y débito automático con 14,2 %. El QR interoperable alcanzó el 4,7 % del total 
+ 
+7 https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Proveedores-servicios-de-billeteras-digitales-Interoperables.asp 
+8 https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Proveedores-servicios-de-pago-ofrecen-cuentas-de-pago.asp 
+9 El indicador de efectividad del débito directo mide la relación de las operaciones presentadas a la compensación contra las 
+acreditadas en cuentas de las empresas. 
+Informe Mensual de Pagos Minoristas | noviembre de 2025 | BCRA | 5 
+ 
+de tarjetas de crédito . Por su parte, la modalidad en un pago representó  90,7 % en 
+cantidades y 73,8 % montos del total de operaciones con tarjetas de crédito.  
+ 
+Transporte 
+− Tarjetas prepagas de transporte : se realizaron 385,5 millones de viajes ( -3,7 % i.a.) 
+mediante la tarjeta SUBE en octubre, que totalizaron $ 0,17 billones (crecimiento de 2,3 
+% i.a. en términos reales).  
+− Viaje con QR: se realizaron en noviembre 19,1 millones de viajes, que totalizaron $ 19,1 
+mil millones. 
+ 
+Factura electrónica MiPyME (FCEM)   
+En el mes de análisis el 85,7 % de las operaciones se efectuaron en pesos, ingresando al 
+sistema de circulación abierta (SCA) 73,6 miles de facturas por $ 1,4 billones. 
+ 
+Extracciones  
+El 89 % de las extracciones se realizó desde cajeros automáticos. 
+− Cajeros automáticos: en octubre (último dato disponible) se realizaron 49,8 millones de 
+extracciones de los 17. 507 cajeros disponibles (ATM) por un total de $  4,1 billones, 
+siendo aproximadamente 2.846 la cantidad promedio de extracciones en cada ATM  en 
+el mes. El monto de extracción promedio alcanzó $ 81,6 miles.  
+− Extrabancarias con tarjeta de débito 10: 3,7 millones de extracciones por $ 0,2 billones, 
+con un monto promedio de $ 60,4 miles.  
+− Extrabancarias desde cuentas de pago intra PSPCP (“closed loop”): 2,2 millones de 
+extracciones por $ 0,1 billones, siendo el monto promedio de $ 55,7 miles. 
+ 
+  
+ 
+10 Extracciones de efectivo realizadas luego de una compra con tarjeta de débito (Visa, Mastercard y Cabal) en un comercio adherido 
+al servicio o extracciones de efectivo en empresas de cobranzas extrabancarias. 
+Informe Mensual de Pagos Minoristas | noviembre de 2025 | BCRA | 6 
+ 
+Resumen normativo de noviembre  
+ 
+Comunicación A 8353. Fecha: 12/11/25 
+La norma establece nuevas medidas para la gestión y unificación de garantías en la cámara  
+electrónica de compensación de bajo valor (COELSA), especialmente en lo referente a las 
+operaciones de cajeros automáticos y transferencias inmediatas. Por otro lado, se permitirá 
+que en el horario en que el MEP esté operativo y durante el ciclo de compensación de cheques, 
+débitos directos y transferencias en lote (diferidas), COELSA pueda sustituir pedidos de 
+refuerzo de garantías con exceso de cobertura existentes en  DEBIN. El objetivo principal es 
+mejorar la eficiencia operativa y económica de las entidades financieras, simplificando el 
+manejo de garantías y permitiendo un uso más eficiente de los recursos. 
+  

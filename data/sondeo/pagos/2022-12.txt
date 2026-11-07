@@ -1,0 +1,250 @@
+https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-diciembre-2022.pdf
+ 
+
+ 
+Informe Mensual  
+de Pagos Minoristas 
+Diciembre de 2022 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sobre el uso del lenguaje inclusivo en esta publicación 
+ 
+El uso de un lenguaje que no discrimine y que permita visibilizar todas las identidades de género es 
+un compromiso institucional del Banco Central de la República Argentina. A su vez quienes hemos 
+realizado esta publicación reconocemos la influencia del lenguaje sobre las ideas, los sentimientos, 
+los modos de pensar y los esquemas de valoración.  
+ 
+En este documento se ha procurado evitar el lenguaje sexista y binario. Sin embargo, a fin de facilitar 
+la lectura no se incluyen recursos como “@” o “x”. 
+ 
+ 
+Informe Mensual  
+de Pagos Minoristas 
+Diciembre de 20221 
+ 
+ 
+ 
+− Transferencias inmediatas “push”: casi 100 millones más de operaciones que un año 
+atrás.  
+o Administradas por redes:  se efectuaron 193,8 millones de transferencias 
+inmediatas “push”2 por $ 5 billones, que se traducen en crecimientos interanuales 
+del 98,8 % y del 18,7 %, en cantidades y en montos3 respectivamente. El 55,6 % del 
+total tuvo como origen y/o destino una CVU 4, llegando a los 107,6 millones de 
+operaciones.  
+o Intra PSPCP 5: los envíos inmediatos de dinero intra PSPCP superaron los 84,1 
+millones de transacciones (176,6 % i.a.) por $ 266,5 mil millones (97,3 % i.a.). 
+ 
+− Pagos con transferencia (PCT 6): el QR interoperable sigue ganando participación 
+como opción de pago.   
+o PCT interoperables: alcanzan los 30,9 millones de operaciones (41,4 % i.a.) por 
+un total de $ 173,9 mil millones (-0,4 % i.a.).  
+ Iniciados con QR: el 24,3 % se inició con QR interoperables, que representa 
+más de 7,5 millones de pagos. El 85,9 % fue realizado por clientes que 
+utilizaron sus cuentas a la vista y en un 14,1 % sus cuentas de pago. 
+Asimismo, el 61,3 % de los comercios acreditaron en cuentas a la vista y un 
+38,7 % en cuentas de pago. 
+ Iniciados en POS con credenciales de tarjeta: el 45,2 % de los pagos se 
+realizaron a través de la lectura de las credenciales de la tarjeta de débito 
+en una terminal de punto de venta (POS), superando los 13,9 millones de 
+operaciones. 
+ 
+1 El mes de análisis es diciembre de 2022, excepto transferencias inmediatas “push” y pagos con transferencia intra PSPCP 
+(proveedor de servicios de pago que ofrece cuentas de pago), tarjetas de crédito, tarjetas de débito y tarjetas de transporte que la 
+información es a noviembre de 2022 y tarjetas prepagas que se incluyen los datos disponibles a septiembre de 2022. 
+2 Contempla solo las transferencias inmediatas “push” entre personas humanas y jurídicas dentro y entre los esquemas 
+administrados por Red Link, Prisma y COELSA. No se incluyen las transferencias intra-entidad financiera, intra PSPCP ni los pagos 
+con transferencia. 
+3 Las variaciones porcentuales y los gráficos (a excepción del gráfico 1) han sido realizados con importes deflactados a pesos de 
+diciembre de 2016, a partir de lo informado por el INDEC en el reporte sobre el “Índice de precios al consumidor con cobertura 
+nacional”. 
+4 Se incluyen solo las transferencias inmediatas entre dos CVU, desde una CVU hacia una CBU y desde una CBU hacia una CVU.  
+5 Proveedor de servicios de pago que ofrece cuentas de pago. 
+6 La serie de pagos con transferencia interoperable consolida la información presentada anteriormente como “Pago Electrónico 
+Inmediato”, correspondiente a pagos iniciados con credenciales de tarjetas de débito administrados por Red Link y Prisma. A esta se 
+le adiciona a partir del 7 de diciembre de 2020 la información sobre pagos iniciados utilizando códigos QR abiertos entre cuentas de 
+pago y cuentas bancarias, administrados por COELSA, Red Link y Prisma. 
+ 
+ Iniciados con claves aleatorias: 3,7 millones de las transacciones utilizaron 
+un token para su inicio (11,9 %).  
+ Iniciados con botón de pago: el 18,6 % tuvieron su origen en operaciones vía 
+web, alcanzando los 5,7 millones de pagos. 
+o PCT intra 7 PSPCP:  alcanzaron los 133,8 millones de pagos por $ 381,1 mil 
+millones, con crecimientos interanuales del 119,1 % en cantidades y del 66,3 % en 
+montos.  
+ Iniciados con QR: alcanzaron el 19,1 %, 25,5 millones de transacciones (134 
+% i.a) y $ 62,7 mil millones (78,6 % i.a). 
+ Iniciados en la web : registraron el 80,9 %, 108,3 millones (115,8 % i.a) y $ 
+318,4 mil millones (64,1 % i.a.). 
+ 
+− Cuentas de pago y fondos invertidos a través de los PSPCP: se registraron en el mes 
+de octubre 15,5 millones de cuentas de pago con saldo y totalizando $ 78,2 mil millones, 
+en tanto que los saldos invertidos en FCI de dinero alcanzaron los $ 109,4 mil millones. 
+Ambos conceptos, considerados en forma conjunta, alcanzan el 1,28 % del total de los 
+depósitos del sector privado, que fue de $ 14,7 billones en el mes mencionado. 
+ 
+− Débito inmediato (DEBIN): los débitos inmediatos se incrementaron en un 12,1 % 
+respecto al mes precedente y un 378,5 % i.a., alcanzando los 26,7 millones de 
+operaciones por $ 247,6 mil millones, de los cuales el 0,3 % corresponde a DEBIN spot 
+y el 99,7 % a recurrentes en cantidad de operaciones. 
+ 
+− Débito directo: se realizaron 11,4 millones de débitos (7,6 % i.a.) por $ 209 mil millones 
+(-1,5 % i.a.), con una tasa de efectividad8 que alcanzó el 51,7 %. 
+ 
+− Cheques: el 57,9 % de los montos compensados corresponde a ECHEQ. 
+o Se compensaron 5 millones de cheques (físicos y electrónicos) por un total de $ 
+2,3 billones. La participación del ECHEQ sobre el total de compensados alcanzó 
+el 33,1 % en cantidades (1,7 millones de cheques electrónicos) y 57,9 % en monto 
+($ 1,3 billones). 
+o Rechazos por motivo “sin fondos suficientes”: la relación con el total de 
+compensados sigue mostrando tasas estables, del 0,9 % en cantidades y 0,6 % en 
+montos. 
+  
+ 
+7 Pagos con transferencia intra PSPCP refiere a las operaciones que se realizan entre clientes de un mismo PSPCP con fondos 
+disponibles en las cuentas de pago, son iniciados vía web o a través de la lectura de un código QR. 
+8 El indicador de efectividad del débito directo mide la relación de las operaciones presentadas a la compensación contra las 
+acreditadas en cuentas de las empresas. 
+ 
+ 
+− Tarjetas: tasas interanuales negativas con crédito por segundo mes consecutivo.  
+o Las transacciones con tarjeta de débito alcanzaron los 175,7 millones por $ 660,4 
+mil millones, representando variaciones del 15,5 % i.a. en cantidades y del -0,5 % 
+i.a. en montos. 
+o En las operaciones con crédito se observan variaciones interanuales del -1,7 % en 
+cantidades y del -11,6 % en montos, realizándose 103,4 millones de pagos por $ 
+820,4 mil millones. 
+ 
+−  Tarjetas prepagas de transporte: se realizaron 397,6 millones de viajes (15,3 % i.a.) 
+mediante la tarjeta SUBE, que totalizaron $ 8,6 mil millones (-12,8 % i.a.).  
+ 
+− Factura electrónica MiPyME (FCEM):  en el mes de diciembre el 88,5 % de las 
+operaciones se efectuaron en pesos, ingresando al sistema de circulación abierta (SCA) 
+102,9 miles de facturas por $ 195,4 mil millones. 
+ 
+  
+ 
+Principales instrumentos 
+ 
+Gráfico 1. Participación de los principales instrumentos de pago (monto nominal)  
+ 
+ 
+ 
+Gráfico 2. Operaciones con tarjeta de crédito 9, tarjeta de débito10 y PCT interoperables e intra PSPCP 
+(cantidad) 
+ 
+ 
+ 
+9 Comprende operaciones efectuadas con tarjetas de crédito American Express, Argencard, Cabal, Diners, Makro, Mastercard, 
+Naranja, Visa y Walmart. 
+10 Comprende operaciones efectuadas con tarjetas de débito Cabal, Maestro, Mastercard y Visa. 
+ 
+Alto valor 
+entre 
+empresas
+77%
+Inmediatas 
+"push" (1) 
+18%
+En lote 3%
+Intra PSPCP (2) 1%
+PCT 
+interoperables (1) 
+31%
+Crédito (2) 
+54%
+Débito (2) 
+44%
+Prepagas (3) 
+2%
+PCT intra 
+PSPCP (2) 
+69%
+$ 0
+$ 500
+$ 1.000
+$ 1.500
+$ 2.000
+$ 2.500
+$ 0
+$ 5.000
+$ 10.000
+$ 15.000
+$ 20.000
+$ 25.000
+$ 30.000
+Transferencias
+(eje izq.)
+Cheques
+(eje der.)
+Extracciones ATM
+(eje der.)
+Pagos con
+transferencia
+(eje der.)
+Tarjetas
+(eje der.)
+Débitos directos
+(eje der.)
+Débitos inmediatos
+(eje der.)
+miles de millones
+miles de millones
+(1) Administrados por COELSA, Red Link y Prisma.
+(2) Información correspondiente a noviembre 2022.
+(3) Información correspondiente a septiembre 2022.
+ -
+ 20
+ 40
+ 60
+ 80
+ 100
+ 120
+ 140
+ 160
+ 180
+ 200
+nov-18
+ene-19
+mar-19
+may-19
+jul-19
+sep-19
+nov-19
+ene-20
+mar-20
+may-20
+jul-20
+sep-20
+nov-20
+ene-21
+mar-21
+may-21
+jul-21
+sep-21
+nov-21
+ene-22
+mar-22
+may-22
+jul-22
+sep-22
+nov-22
+millones
+Tarjeta de crédito Tarjeta de débito Pago con transferencia

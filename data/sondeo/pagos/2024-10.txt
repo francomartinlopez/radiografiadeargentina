@@ -1,0 +1,228 @@
+https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-oct-2024.pdf
+   
+ 
+   
+ 
+  
+
+   
+ 
+Informe Mensual de Pagos Minoristas | octubre de 2024 | BCRA | 2 
+ 
+ Informe Mensual  
+ de Pagos Minoristas 
+ Octubre de 2024   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+   
+ 
+Informe Mensual de Pagos Minoristas | octubre de 2024 | BCRA | 3 
+ 
+Informe Mensual 
+de Pagos Minoristas 
+Octubre de 20241  
+ 
+Envíos de dinero (transferencias inmediatas “push” 2): reportaron un crecimiento en 
+cantidades del 65,4 % i.a. 
+− En pesos: se registraron 591 millones de transacciones por $ 52,4 billones, que implican 
+incrementos interanuales del 65,4 % y del 22,5 %, en cantidades y en montos 3 
+respectivamente. El 68,8 % tuvo como origen y/o destino una CVU4. 
+− En moneda extranjera: se registraron 2,3 millones de operaciones (149,6 % i.a.) por USD 
+4.082 millones (166,7 % i.a.).  
+ 
+Ingresos de dinero (transferencias inmediatas “pull”): alcanzaron 40,9 millones operaciones5. 
+− Se realizaron 40,9 millones de  transferencias por $ 2,2 billones, lo que representa un  
+incremento del 6,7 % en cantidades y del 10,2 % en montos, respecto a septiembre.  
+ 
+Pagos con transferencia (PCT 6): el QR interoperable alcanzó los 52,3 millones de 
+operaciones.  
+− Interoperables7: se efectuaron 56,4 millones de operaciones (62,4 % i.a.) por un total de 
+$ 791,3 mil millones (-3,9 % i.a.). 
+o QR: el 92,6 % se inició con QR interoperables, que representa 52,3 millones de 
+pagos (144,2 % i.a.) por $ 715,1 mil millones (103,5 % i.a.). El 69,2 % fue realizado 
+por clientes que utilizaron sus cuentas a la vista y en un 30,8 % sus cuentas de 
+pago. Asimismo, el 49,8% de los comercios acreditaron en cuentas a la vista y un 
+50,2 % en cuentas de pago. 
+Actualmente s e encuentran registradas ante el BCRA 65 billeteras digitales 
+interoperables8. 
+ 
+1 El mes de análisis es  octubre de 2024, excepto extracciones, tarjetas de crédito, tarjetas de débito  y tarjetas de transporte que la 
+información corresponde al mes de septiembre de 2024 y tarjetas prepagas que se incluyen los datos disponibles a septiembre de 
+2024.   
+2 Contempla solo las transferencias inmediatas “push” entre personas humanas y jurídicas dentro y entre los esquemas 
+administrados por Red Link, Newpay y COELSA. No se incluyen las transferencias intra-entidad financiera, intra PSPCP ni los pagos 
+con transferencia. 
+3 Las variaciones porcentuales y los gráficos (a excepción del gráfico 1) han sido realizados con importes deflactados a pesos de 
+diciembre de 2016, a partir de lo informado por el INDEC en el reporte sobre el “Índice de precios al consumidor con cobertur a 
+nacional”. 
+4 Se incluyen solo las transferencias inmediatas entre dos CVU, desde una CVU hacia una CBU y desde una CBU hacia una CVU.  
+5 Corresponde a operaciones con consentimiento explicito y tácito. 
+6 La serie de pagos con transferencia interoperable consolida la información presentada anteriormente como “Pago Electrónico 
+Inmediato”, correspondiente a pagos iniciados con credenciales de tarjetas de débito administrados por Red Link y Newpay. A esta 
+se le adiciona a partir del 7 de diciembre de 2020 la información sobre pagos iniciados utilizando códigos QR abiertos entre cuentas 
+de pago y cuentas bancarias, administrados por COELSA, Red Link y Newpay. 
+7 Las transacciones PCT (ex PEI), con credenciales de tarjeta de débito en comercios migraron al canal tarjeta de débito. 
+8 https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Proveedores-servicios-de-billeteras-digitales-Interoperables.asp 
+   
+ 
+Informe Mensual de Pagos Minoristas | octubre de 2024 | BCRA | 4 
+ 
+o Con claves aleatorias:  el 7,4 % utilizó un token para su inicio ; se trata de  4,2 
+millones de operaciones (-29,3 % i.a.) por $ 76,3 mil millones (-41,3 % i.a.).  
+ 
+Cuentas de pago y fondos invertidos a través de los PSPCP:  
+ 
+En septiembre sobre un total de 5 1,5 millones de cuentas, se registraron 1 4,5 millones de 
+cuentas de pago con saldo que suman 405,5 mil millones de pesos, mientras que los saldos 
+invertidos en FCI de dinero alcanzaron los 3,1 billones de pesos. Ambos conceptos, 
+considerados en forma conjunta, representan el 5,35 % del total de los depósitos del sector 
+privado, que fue de $ 65,1 billones en el mes mencionado . En la actualidad  se encuentran 
+incorporados en el registro 168 PSPCP9.  
+ 
+Débito directo:  
+ 
+Se realizaron 12,5 millones de débitos (8,5 % i.a.) por $ 1,3 billones (3,1 % i.a.), con una tasa de 
+efectividad10 que alcanzó el 54,6 %. 
+ 
+Cheques: el 76,3 % de los montos compensados corresponde al ECHEQ.  
+− Se compensaron 5,5 millones de cheques (físicos y electrónicos) por un total de $ 15 
+billones. La participación del ECHEQ sobre el total de compensados alcanzó el 50,8 % en 
+cantidades (2,8 millones de cheques electrónicos) y 76,3 % en monto ($ 11,5 billones). 
+− Rechazos por motivo “sin fondos suficientes”: la relación con el total de compensados 
+alcanzó el 0,65 % en cantidades y 0,5 % en montos. 
+ 
+Tarjetas: el uso de las tarjetas de débito se mantiene por sobre las de crédito. 
+ 
+− Débito: se efectuaron 234,5 millones de transacciones por $ 4,6 billones, con variaciones 
+del 6,7 % i.a. en cantidades y del -4,2 % i.a. en montos. 
+− Crédito: se observan variaciones interanuales del 20,9 % en cantidades y del 6,4 % en 
+montos, realizándose 162,3 millones de pagos por $ 6,7 billones. 
+− Tarjeta prepaga: se realizaron 42,3 millones de pagos por $ 616,6 mil millones, lo que 
+representa incrementos del 97,3 % y 65,9 % i.a., en cantidades y montos respectivamente. 
+ 
+ 
+Tarjetas prepagas de transporte:  
+ 
+Se realizaron 394,6 millones de viajes (-5,5 % i.a.) mediante la tarjeta SUBE, que totalizaron  $ 
+123,4 mil millones (118,2 % i.a.).  
+ 
+ 
+9 https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Proveedores-servicios-de-pago-ofrecen-cuentas-de-pago.asp 
+10 El indicador de efectividad del débito directo mide la relación de las operaciones presentadas a la compensación contra las 
+acreditadas en cuentas de las empresas. 
+   
+ 
+Informe Mensual de Pagos Minoristas | octubre de 2024 | BCRA | 5 
+ 
+Factura electrónica MiPyME (FCEM):   
+ 
+En el mes de análisis el 88,8 % de las operaciones se efectuaron en pesos, ingresando al 
+sistema de circulación abierta (SCA) 116,7 miles de facturas por $ 1,1 billones. 
+ 
+Extracciones: 
+ 
+El 90 % de las extracciones se realiza desde cajeros automáticos. 
+ 
+− Cajeros automáticos: se realizaron 83,3 millones de extracciones de los 17.056 ATM por 
+un total de $ 2,8 billones, siendo la cantidad promedio de extracciones en cada ATM de 
+4.883. El monto de extracción promedio alcanzó $ 33,3 miles.  
+− Extrabancarias con tarjeta de débito 11: 5,6 millones por $ 223,5 mil millones, con un 
+monto promedio de $ 40 miles.  
+− Extrabancarias desde cuentas de pago intra PSPCP (“closed loop”): 3,3 millones por $ 
+131,8 mil millones, siendo el monto promedio de $ 40,6 miles. 
+ 
+ 
+ 
+  
+ 
+11 Extracciones de efectivo realizadas luego de una compra con tarjeta de débito (Visa, Mastercard y Cabal) en un comercio adherido 
+al servicio o extracciones de efectivo en empresas de cobranzas extrabancarias. 
+   
+ 
+Informe Mensual de Pagos Minoristas | octubre de 2024 | BCRA | 6 
+ 
+Principales instrumentos 
+ 
+Gráfico 1. Participación de los principales instrumentos de pago (monto nominal)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Alto valor 
+entre 
+empresas
+70%
+Inmediatas 
+"push" 27%
+En lote 1%
+Inmediatas 
+"pull" 1,2%
+Crédito 
+56%
+Débito 
+38%
+Prepagas  5%
+ECHEQ
+76%
+Cheques 
+24%
+$ 0
+$ 2
+$ 4
+$ 6
+$ 8
+$ 10
+$ 12
+$ 14
+$ 16
+$ 0
+$ 50
+$ 100
+$ 150
+$ 200
+$ 250
+Transferencias
+(eje izq.)
+Cheques
+(eje der.)
+Pagos con
+transferencia
+(eje der.)
+Tarjetas
+(eje der.)
+Débitos directos
+(eje der.)
+billonesbillones

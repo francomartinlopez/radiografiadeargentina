@@ -1,0 +1,259 @@
+https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-febrero-2023.pdf
+ 
+ 
+  
+
+ 
+Informe Mensual de Pagos Minoristas | Febrero de 2023 | BCRA | 1 
+ Informe Mensual  
+ de Pagos Minoristas 
+ Febrero de 2023 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Sobre el uso del lenguaje inclusivo en esta publicación 
+ 
+El uso de un lenguaje que no discrimine y que permita visibilizar todas las identidades de género es 
+un compromiso institucional del Banco Central de la República Argentina. A su vez quienes hemos 
+realizado esta publicación reconocemos la influencia del lenguaje sobre las ideas, los sentimientos, 
+los modos de pensar y los esquemas de valoración.  
+ 
+En este documento se ha procurado evitar el lenguaje sexista y binario. Sin embargo, a fin de facilitar 
+la lectura no se incluyen recursos como “@” o “x”. 
+ 
+ 
+ 
+Informe Mensual de Pagos Minoristas | Febrero de 2023 | BCRA | 2 
+Informe Mensual 
+de Pagos Minoristas 
+Febrero de 20231 
+ 
+ 
+ 
+ 
+ 
+− Transferencias inmediatas “push”: alcanzaron más de 261 millones de operaciones.  
+o Administradas por redes:  se efectuaron 176,2 millones de transferencias 
+inmediatas “push”1 por $ 4,5 billones, que se traducen en crecimientos 
+interanuales del 105,4 % y del 19 %, en cantidades y en montos2 respectivamente. 
+El 59,4 % del total tuvo como origen y/o destino una CVU 3, llegando a los 104,7 
+millones de operaciones.  
+o Intra PSPCP4: los envíos inmediatos de dinero intra PSPCP alcanzaron los 84,6 
+millones de transacciones (166,7 % i.a.) por $ 325,8 mil millones (99,6 % i.a.). 
+ 
+− Pagos con transferencia (PCT5): el QR interoperable se afianza como opción de pago. 
+Los pagos con transferencia alcanzaron 167,3 millones de operaciones por un total de 
+$ 651,5 mil millones, conformados en un 16,1 % por pagos interoperables y en un 84% 
+por pagos intra PSPC P, mientras que los montos representan un 23,3  % y 77 % 
+respectivamente. 
+o PCT interoperables: alcanzan los 27 millones de operaciones (48,3 % i.a.) por un 
+total de $ 153,1 mil millones (-1,2 % i.a.).  
+▪ Iniciados con QR: el 26,9 % se inició con QR interoperables, que representa 
+más de 7,2 millones de pagos.  El 8 3,5 % fue realizado por clientes que 
+utilizaron sus cuentas a la vista y en un 1 6,5 % sus cuentas de pago. 
+Asimismo, el 58,2 % de los comercios acreditaron en cuentas a la vista y un 
+41,8 % en cuentas de pago. 
+ 
+1 El mes de análisis es febrero de 2023, excepto transferencias inmediatas “push” y pagos con transferencia intra PSPCP (proveedor 
+de servicios de pago que ofrece cuentas de pago), tarjetas de crédito, tarjetas de débito y tarjetas de transporte que la inf ormación 
+es a enero de 2023 y tarjetas prepagas que se incluyen los datos disponibles a septiembre de 2022.   
+1 Contempla solo las transferencias inmediatas “push ” entre personas humanas y jurídicas dentro y entre los esquemas 
+administrados por Red Link, Prisma y COELSA. No se incluyen las transferencias intra -entidad financiera, intra PSPCP ni los pagos 
+con transferencia. 
+2 Las variaciones porcentuales y los gráficos (a excepción del gráfico 1) han sido realizados con importes deflactados a pesos de 
+diciembre de 2016, a partir de lo informado por el INDEC en el reporte sobre el “Índice de precios al consumidor con cobertur a 
+nacional”. 
+3 Se incluyen solo las transferencias inmediatas entre dos CVU, desde una CVU hacia una CBU y desde una CBU hacia una CVU.  
+4 Proveedor de servicios de pago que ofrece cuentas de pago. 
+5 La serie de pagos con transferencia interoperable consolida la información presentada anteriormente como “Pago Electrónico 
+Inmediato”, correspondiente a pagos iniciados con credenciales de tarjetas de débito administrados por Red Link y Prisma. A esta se 
+le adiciona a partir del 7 de diciembre de 2020 la información sobre pagos iniciados utilizando códigos QR abiertos entre cuentas de 
+pago y cuentas bancarias, administrados por COELSA, Red Link y Prisma. 
+ 
+Informe Mensual de Pagos Minoristas | Febrero de 2023 | BCRA | 3 
+▪ Iniciados en POS con credenciales de tarjeta: el 41,2 % de los pagos se 
+realizaron a través de la lectura de las credenciales de la tarjeta de débito 
+en una terminal de pu nto de venta (POS), alcanzando los 11,1 millones de 
+operaciones. 
+▪ Iniciados con claves aleatorias: 3,6 millones de las transacciones utilizaron 
+un token para su inicio (13,6 %).  
+▪ Iniciados con botón de pago: el 18,3 % tuvieron su origen en operaciones vía 
+web, alcanzando los 4,9 millones de pagos. 
+o PCT intra 6 PSPCP: alcanzaron los 140,3 millones de pagos por $ 499,7 mil 
+millones, con crecimientos interanuales del 136,2 % en cantidades y del 92,2 % en 
+montos.  
+▪ Iniciados con QR : representaron el 18,4 %, con 25,8 millones de 
+transacciones (98 % i.a) por $ 80,6 mil millones (65,5 % i.a). 
+▪ Iniciados en la web: registraron el 81,6 %, con 114,5 millones (146,93 % i.a) 
+de operaciones por $ 419,1 mil millones (98,3 % i.a.). 
+ 
+− Cuentas de pago y fondos invertidos a través de los PSPCP: se registraron en el mes 
+de enero 15,5 millones de cuentas de pago con un saldo total de $ 95,9 mil millones, en 
+tanto que los saldos invertidos en FCI de dinero alcanzaron los $ 154,8 mil millones. 
+Ambos conceptos, considerados en forma conjunta, representan el 1,57 % del total de 
+los depósitos del sector privado, que fue de $ 16,7 billones en el mes mencionado. 
+ 
+− Débito inmediato (DEBIN): los débitos inmediatos disminuyeron un 2,3 % respecto al 
+mes precedente con un crecimiento del 169,4 % i.a., alcanzando los 22,2 millones de 
+operaciones por $ 233,5 mil millones; en cantidad de operaciones, el 0,4 % corresponde 
+a DEBIN ocasional y el 99,6 % a DEBIN recurrente. 
+ 
+− Débito directo:  se realizaron 11,1 millones de débitos ( 12,4 % i.a.) por $ 2 33,9 mil 
+millones (7,1 % i.a.), con una tasa de efectividad7 que alcanzó el 54,5 %. 
+ 
+− Cheques: el 60% de los montos compensados corresponde al ECHEQ.  
+o Se compensaron 4,3 millones de cheques (físicos y electrónicos) por un total de 
+$ 2,2 billones. La participación del ECHEQ sobre el total de compensados alcanzó 
+el 35,1 % en cantidades (1,5 millones de cheques electrónicos) y 60 % en monto 
+($ 1,3 billones). 
+ 
+ 
+ 
+6 Pagos con transferencia intra PSPCP refiere a las operaciones que se realizan entre clientes de un mismo PSPCP con fondos 
+disponibles en las cuentas de pago, son iniciados vía web o a través de la lectura de un código QR. 
+7 El indicador de efectividad del débito directo mide la relación de las operaciones  presentadas a la compensación contra las 
+acreditadas en cuentas de las empresas. 
+ 
+Informe Mensual de Pagos Minoristas | Febrero de 2023 | BCRA | 4 
+o Rechazos por motivo “sin fondos suficientes”: la relación con el total de 
+compensados evidenció, en el presente informe , una disminución en las  tasas 
+alcanzando el 0,76 % en cantidades y 0,54 % en montos. 
+o En virtud de la medida de fuerza gremial del 23  de febrero, los cheques 
+rechazados por fuerza mayor alcanzaron los 196 miles, por un monto de $ 77,6 
+billones. 
+ 
+− Tarjetas: el uso de las tarjetas de débito supera a las de crédito 
+o Las transacciones con tarjeta de débito alcanzaron los 189,7 millones por $ 831,3 
+mil millones, representando variaciones del 16,5 % i.a. en cantidades y del 2,4 % 
+i.a. en montos. 
+o En las operaciones con crédito se observan variaciones interanuales del 8,5 % en 
+cantidades y del 0,1 % en montos, realizándose 105,3 millones de pagos por $ 
+886,4 mil millones. 
+ 
+−  Tarjetas prepagas de transporte: se realizaron 339,5 millones de viajes ( 43 % i.a .) 
+mediante la tarjeta SUBE, que totalizaron $ 9,5 mil millones (22,7 % i.a.).  
+ 
+− Factura electrónica MiPyME (FCEM):  en el mes de febrero el 88,1 % de las operaciones 
+se efectuaron en pesos, ingresando al sistema de circulación abierta (SCA) 95,3 miles 
+de facturas por $ 183,9 billones. 
+ 
+− Extracciones cajeros automáticos: se realizaron 89,5 millones de extracciones de los 
+17.427 ATM  por un total de $ 1.046,8 billones, siendo la cantidad  promedio de 
+extracciones por mes en cada ATM de 5.136 operaciones con un monto promedio de 
+$11,7 miles. 
+  
+ 
+Informe Mensual de Pagos Minoristas | Febrero de 2023 | BCRA | 5 
+Principales instrumentos 
+ 
+Gráfico 1. Participación de los principales instrumentos de pago (monto nominal)  
+ 
+ 
+ 
+Gráfico 2. Operaciones con tarjeta de crédito8, tarjeta de débito9 y PCT interoperables e intra PSPCP 
+(cantidad) 
+ 
+ 
+8 Comprende operaciones efectuadas con tarjetas de crédito American Express, Argencard, Cabal, Diners, Makro, Mastercard, 
+Naranja, Visa y Walmart. 
+9 Comprende operaciones efectuadas con tarjetas de débito Cabal, Maestro, Mastercard y Visa. 
+ 
+Alto valor 
+entre 
+empresas
+77%
+Inmediatas 
+"push" 19%
+En lote 
+3%
+Intra PSPCP 1%
+Interoperables 
+23%
+Crédito 50%
+Débito 47%
+Prepagas  3%
+Intra PSPCP 
+77%…
+ECHEQ
+60%
+$ 0
+$ 500
+$ 1.000
+$ 1.500
+$ 2.000
+$ 2.500
+$ 0
+$ 5.000
+$ 10.000
+$ 15.000
+$ 20.000
+$ 25.000
+$ 30.000
+Transferencias
+(eje izq.)
+Cheques
+(eje der.)
+Extracciones ATM
+(eje der.)
+Pagos con
+transferencia
+(eje der.)
+Tarjetas
+(eje der.)
+Débitos directos
+(eje der.)
+Débitos inmediatos
+(eje der.)
+miles de millones
+miles de millones
+0
+50
+100
+150
+200
+250
+ene-19
+mar-19
+may-19
+jul-19
+sep-19
+nov-19
+ene-20
+mar-20
+may-20
+jul-20
+sep-20
+nov-20
+ene-21
+mar-21
+may-21
+jul-21
+sep-21
+nov-21
+ene-22
+mar-22
+may-22
+jul-22
+sep-22
+nov-22
+ene-23
+millones
+Tarjeta de crédito Tarjeta de débito Pago con transferencia
