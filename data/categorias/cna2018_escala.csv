@@ -1,0 +1,13 @@
+categoria,serie,valor,fuente_url
+Hasta 25 ha,% de las explotaciones,32.8,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+Hasta 25 ha,% de la superficie,0.5,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+25 a 100 ha,% de las explotaciones,21.8,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+25 a 100 ha,% de la superficie,1.8,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+100 a 500 ha,% de las explotaciones,25.4,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+100 a 500 ha,% de la superficie,9.3,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+500 a 2.500 ha,% de las explotaciones,15.0,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+500 a 2.500 ha,% de la superficie,24.4,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+2.500 a 10.000 ha,% de las explotaciones,4.0,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+2.500 a 10.000 ha,% de la superficie,28.2,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+Más de 10.000 ha,% de las explotaciones,1.1,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
+Más de 10.000 ha,% de la superficie,35.9,https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf
