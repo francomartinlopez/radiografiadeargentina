@@ -1,0 +1,1564 @@
+fecha,servicio_id,servicio_desc,devengado
+2023-01-01,1,Auditoría General de la Nación,1057.38368803
+2023-02-01,1,Auditoría General de la Nación,1085.48739126
+2023-03-01,1,Auditoría General de la Nación,1122.81009375
+2023-04-01,1,Auditoría General de la Nación,1099.29566234
+2023-05-01,1,Auditoría General de la Nación,1111.9588831199999
+2023-06-01,1,Auditoría General de la Nación,1628.46859856
+2023-07-01,1,Auditoría General de la Nación,1632.78976749
+2023-08-01,1,Auditoría General de la Nación,2152.58948959
+2023-09-01,1,Auditoría General de la Nación,2220.19704064
+2023-10-01,1,Auditoría General de la Nación,2189.40535346
+2023-11-01,1,Auditoría General de la Nación,2745.18094444
+2023-12-01,1,Auditoría General de la Nación,4241.92742335
+2023-01-01,101,Fundación Miguel Lillo,118.43077673
+2023-02-01,101,Fundación Miguel Lillo,121.29125703
+2023-03-01,101,Fundación Miguel Lillo,149.14826156
+2023-04-01,101,Fundación Miguel Lillo,155.01113042
+2023-05-01,101,Fundación Miguel Lillo,171.35068953
+2023-06-01,101,Fundación Miguel Lillo,270.91588752
+2023-07-01,101,Fundación Miguel Lillo,197.55275717
+2023-08-01,101,Fundación Miguel Lillo,226.22578045
+2023-09-01,101,Fundación Miguel Lillo,249.04628257000002
+2023-10-01,101,Fundación Miguel Lillo,267.50117966
+2023-11-01,101,Fundación Miguel Lillo,319.46751736
+2023-12-01,101,Fundación Miguel Lillo,525.1464764899999
+2023-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,7721.27010967
+2023-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,9344.039506070001
+2023-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,10940.43831386
+2023-04-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,10657.49193093
+2023-05-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,11486.868519540001
+2023-06-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,18515.512292030002
+2023-07-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,13970.444948209999
+2023-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,15868.41642595
+2023-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,19788.894519859998
+2023-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,19808.385090159998
+2023-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,24397.28043002
+2023-12-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,36610.60096463
+2023-01-01,105,Comisión Nacional de Energía Atómica,1535.0756525
+2023-02-01,105,Comisión Nacional de Energía Atómica,3837.05728438
+2023-03-01,105,Comisión Nacional de Energía Atómica,5691.38952051
+2023-04-01,105,Comisión Nacional de Energía Atómica,3179.56108456
+2023-05-01,105,Comisión Nacional de Energía Atómica,5110.256828070001
+2023-06-01,105,Comisión Nacional de Energía Atómica,9842.37737903
+2023-07-01,105,Comisión Nacional de Energía Atómica,4337.53290402
+2023-08-01,105,Comisión Nacional de Energía Atómica,4676.09953917
+2023-09-01,105,Comisión Nacional de Energía Atómica,14263.970389600001
+2023-10-01,105,Comisión Nacional de Energía Atómica,5373.27084036
+2023-11-01,105,Comisión Nacional de Energía Atómica,10285.2137499
+2023-12-01,105,Comisión Nacional de Energía Atómica,18416.10430159
+2023-01-01,106,Comisión Nacional de Actividades Espaciales,215.0680686
+2023-02-01,106,Comisión Nacional de Actividades Espaciales,579.27593234
+2023-03-01,106,Comisión Nacional de Actividades Espaciales,1735.78230986
+2023-04-01,106,Comisión Nacional de Actividades Espaciales,756.9478485
+2023-05-01,106,Comisión Nacional de Actividades Espaciales,1496.04245195
+2023-06-01,106,Comisión Nacional de Actividades Espaciales,1976.92092338
+2023-07-01,106,Comisión Nacional de Actividades Espaciales,1280.64150368
+2023-08-01,106,Comisión Nacional de Actividades Espaciales,858.89546739
+2023-09-01,106,Comisión Nacional de Actividades Espaciales,1892.8549700400001
+2023-10-01,106,Comisión Nacional de Actividades Espaciales,1814.3528730599999
+2023-11-01,106,Comisión Nacional de Actividades Espaciales,3601.02158409
+2023-12-01,106,Comisión Nacional de Actividades Espaciales,3024.02280433
+2023-01-01,107,Administración de Parques Nacionales,884.24850501
+2023-02-01,107,Administración de Parques Nacionales,988.79116858
+2023-03-01,107,Administración de Parques Nacionales,2010.06724291
+2023-04-01,107,Administración de Parques Nacionales,1547.0950925099999
+2023-05-01,107,Administración de Parques Nacionales,2218.30594796
+2023-06-01,107,Administración de Parques Nacionales,3152.79524268
+2023-07-01,107,Administración de Parques Nacionales,2034.0432468
+2023-08-01,107,Administración de Parques Nacionales,2004.19317866
+2023-09-01,107,Administración de Parques Nacionales,3081.6358683
+2023-10-01,107,Administración de Parques Nacionales,3423.6818059899997
+2023-11-01,107,Administración de Parques Nacionales,3441.0113426
+2023-12-01,107,Administración de Parques Nacionales,5724.92384147
+2023-01-01,108,Instituto Nacional del Agua,97.78749186
+2023-02-01,108,Instituto Nacional del Agua,118.17072436
+2023-03-01,108,Instituto Nacional del Agua,225.24541338
+2023-04-01,108,Instituto Nacional del Agua,136.71037165
+2023-05-01,108,Instituto Nacional del Agua,181.35484937
+2023-06-01,108,Instituto Nacional del Agua,194.93144736
+2023-07-01,108,Instituto Nacional del Agua,192.4781763
+2023-08-01,108,Instituto Nacional del Agua,167.99681041
+2023-09-01,108,Instituto Nacional del Agua,203.00925413000002
+2023-10-01,108,Instituto Nacional del Agua,279.9186087
+2023-11-01,108,Instituto Nacional del Agua,303.9090586
+2023-12-01,108,Instituto Nacional del Agua,438.89429423
+2023-01-01,109,Sindicatura General de la Nación,284.68271681
+2023-02-01,109,Sindicatura General de la Nación,326.80885804999997
+2023-03-01,109,Sindicatura General de la Nación,371.41922296
+2023-04-01,109,Sindicatura General de la Nación,282.46153767
+2023-05-01,109,Sindicatura General de la Nación,353.17581878
+2023-06-01,109,Sindicatura General de la Nación,750.5997463
+2023-07-01,109,Sindicatura General de la Nación,446.99419862999997
+2023-08-01,109,Sindicatura General de la Nación,521.5364156300001
+2023-09-01,109,Sindicatura General de la Nación,602.08994745
+2023-10-01,109,Sindicatura General de la Nación,696.3520339
+2023-11-01,109,Sindicatura General de la Nación,698.74547874
+2023-12-01,109,Sindicatura General de la Nación,1579.45325918
+2023-01-01,112,Autoridad Regulatoria Nuclear,186.11461762
+2023-02-01,112,Autoridad Regulatoria Nuclear,215.85060096
+2023-03-01,112,Autoridad Regulatoria Nuclear,306.77379221
+2023-04-01,112,Autoridad Regulatoria Nuclear,258.67472272
+2023-05-01,112,Autoridad Regulatoria Nuclear,286.94283099
+2023-06-01,112,Autoridad Regulatoria Nuclear,408.9079464
+2023-07-01,112,Autoridad Regulatoria Nuclear,387.77869374
+2023-08-01,112,Autoridad Regulatoria Nuclear,334.48736128
+2023-09-01,112,Autoridad Regulatoria Nuclear,404.94797931
+2023-10-01,112,Autoridad Regulatoria Nuclear,488.22557634
+2023-11-01,112,Autoridad Regulatoria Nuclear,673.48005243
+2023-12-01,112,Autoridad Regulatoria Nuclear,1660.09114269
+2023-01-01,113,Teatro Nacional Cervantes,115.88934268999999
+2023-02-01,113,Teatro Nacional Cervantes,132.13829966
+2023-03-01,113,Teatro Nacional Cervantes,181.40332557
+2023-04-01,113,Teatro Nacional Cervantes,160.31356439
+2023-05-01,113,Teatro Nacional Cervantes,125.90595286
+2023-06-01,113,Teatro Nacional Cervantes,424.06694224
+2023-07-01,113,Teatro Nacional Cervantes,187.7277947
+2023-08-01,113,Teatro Nacional Cervantes,242.91229282999998
+2023-09-01,113,Teatro Nacional Cervantes,383.41306639
+2023-10-01,113,Teatro Nacional Cervantes,288.20812886
+2023-11-01,113,Teatro Nacional Cervantes,270.13349685
+2023-12-01,113,Teatro Nacional Cervantes,728.38982753
+2023-01-01,114,Instituto Nacional de Asociativismo y Economía Social,152.98421671
+2023-02-01,114,Instituto Nacional de Asociativismo y Economía Social,1828.02356036
+2023-03-01,114,Instituto Nacional de Asociativismo y Economía Social,971.98352125
+2023-04-01,114,Instituto Nacional de Asociativismo y Economía Social,428.93472839000003
+2023-05-01,114,Instituto Nacional de Asociativismo y Economía Social,719.40641672
+2023-06-01,114,Instituto Nacional de Asociativismo y Economía Social,1656.12009265
+2023-07-01,114,Instituto Nacional de Asociativismo y Economía Social,484.56911527
+2023-08-01,114,Instituto Nacional de Asociativismo y Economía Social,732.23893361
+2023-09-01,114,Instituto Nacional de Asociativismo y Economía Social,1516.82537153
+2023-10-01,114,Instituto Nacional de Asociativismo y Economía Social,486.56969608
+2023-11-01,114,Instituto Nacional de Asociativismo y Economía Social,846.35612722
+2023-12-01,114,Instituto Nacional de Asociativismo y Economía Social,3856.39587545
+2023-01-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',318.49352352
+2023-02-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',403.95243575
+2023-03-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',535.6659364
+2023-04-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',536.43989401
+2023-05-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',675.85699668
+2023-06-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1588.84099193
+2023-07-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',918.77094118
+2023-08-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',966.98641815
+2023-09-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1627.2282350100002
+2023-10-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1292.53855867
+2023-11-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1607.4089935700001
+2023-12-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2008.39259776
+2023-01-01,117,Instituto Nacional del Teatro,82.15533398000001
+2023-02-01,117,Instituto Nacional del Teatro,116.14537149
+2023-03-01,117,Instituto Nacional del Teatro,201.90502531
+2023-04-01,117,Instituto Nacional del Teatro,141.26962178
+2023-05-01,117,Instituto Nacional del Teatro,231.38810897
+2023-06-01,117,Instituto Nacional del Teatro,359.69093322000003
+2023-07-01,117,Instituto Nacional del Teatro,157.67531264
+2023-08-01,117,Instituto Nacional del Teatro,216.38147698
+2023-09-01,117,Instituto Nacional del Teatro,298.35414688
+2023-10-01,117,Instituto Nacional del Teatro,303.90413772
+2023-11-01,117,Instituto Nacional del Teatro,374.59647685
+2023-12-01,117,Instituto Nacional del Teatro,405.68262873
+2023-01-01,118,Instituto Nacional de Asuntos Indígenas,77.33678176
+2023-02-01,118,Instituto Nacional de Asuntos Indígenas,8.36981697
+2023-03-01,118,Instituto Nacional de Asuntos Indígenas,250.12358107
+2023-04-01,118,Instituto Nacional de Asuntos Indígenas,92.15678831
+2023-05-01,118,Instituto Nacional de Asuntos Indígenas,90.47190142
+2023-06-01,118,Instituto Nacional de Asuntos Indígenas,240.09128362
+2023-07-01,118,Instituto Nacional de Asuntos Indígenas,153.5213103
+2023-08-01,118,Instituto Nacional de Asuntos Indígenas,97.49278974
+2023-09-01,118,Instituto Nacional de Asuntos Indígenas,333.29249806
+2023-10-01,118,Instituto Nacional de Asuntos Indígenas,127.57242499000002
+2023-11-01,118,Instituto Nacional de Asuntos Indígenas,273.06238319
+2023-12-01,118,Instituto Nacional de Asuntos Indígenas,398.97072198
+2023-01-01,119,Instituto Nacional de Promoción Turística,97.70886953
+2023-02-01,119,Instituto Nacional de Promoción Turística,143.81559489
+2023-03-01,119,Instituto Nacional de Promoción Turística,533.4354928
+2023-04-01,119,Instituto Nacional de Promoción Turística,406.93476772
+2023-05-01,119,Instituto Nacional de Promoción Turística,1289.2701815599999
+2023-06-01,119,Instituto Nacional de Promoción Turística,984.3829317599999
+2023-07-01,119,Instituto Nacional de Promoción Turística,441.47819055
+2023-08-01,119,Instituto Nacional de Promoción Turística,1158.30903377
+2023-09-01,119,Instituto Nacional de Promoción Turística,973.2575183
+2023-10-01,119,Instituto Nacional de Promoción Turística,1203.3824929999998
+2023-11-01,119,Instituto Nacional de Promoción Turística,612.61105812
+2023-12-01,119,Instituto Nacional de Promoción Turística,2336.2979918300002
+2023-01-01,121,Banco Nacional de Datos Genéticos (BNDG),20.86710414
+2023-02-01,121,Banco Nacional de Datos Genéticos (BNDG),51.11988608
+2023-03-01,121,Banco Nacional de Datos Genéticos (BNDG),39.98362842
+2023-04-01,121,Banco Nacional de Datos Genéticos (BNDG),33.54019251
+2023-05-01,121,Banco Nacional de Datos Genéticos (BNDG),58.76818339
+2023-06-01,121,Banco Nacional de Datos Genéticos (BNDG),66.00803905
+2023-07-01,121,Banco Nacional de Datos Genéticos (BNDG),56.01579306
+2023-08-01,121,Banco Nacional de Datos Genéticos (BNDG),119.28871786
+2023-09-01,121,Banco Nacional de Datos Genéticos (BNDG),130.22162517
+2023-10-01,121,Banco Nacional de Datos Genéticos (BNDG),116.21643962
+2023-11-01,121,Banco Nacional de Datos Genéticos (BNDG),93.6126217
+2023-12-01,121,Banco Nacional de Datos Genéticos (BNDG),279.18868505
+2023-01-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",491.09274251000005
+2023-02-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",900.75966037
+2023-03-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1797.0624895400001
+2023-04-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",868.5955764400001
+2023-05-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1254.00192889
+2023-06-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",2819.57744493
+2023-07-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1155.34711865
+2023-08-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",2174.13824202
+2023-09-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",4654.58501185
+2023-10-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1374.5925897
+2023-11-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",3427.83330614
+2023-12-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",3821.30622683
+2023-01-01,200,Registro Nacional de las Personas (RENAPER),800.49183715
+2023-02-01,200,Registro Nacional de las Personas (RENAPER),1087.3060101
+2023-03-01,200,Registro Nacional de las Personas (RENAPER),3156.0340555899998
+2023-04-01,200,Registro Nacional de las Personas (RENAPER),771.5369571699999
+2023-05-01,200,Registro Nacional de las Personas (RENAPER),2983.25256997
+2023-06-01,200,Registro Nacional de las Personas (RENAPER),3353.08877191
+2023-07-01,200,Registro Nacional de las Personas (RENAPER),1927.02468679
+2023-08-01,200,Registro Nacional de las Personas (RENAPER),4388.139144610001
+2023-09-01,200,Registro Nacional de las Personas (RENAPER),4632.07975134
+2023-10-01,200,Registro Nacional de las Personas (RENAPER),3951.31213945
+2023-11-01,200,Registro Nacional de las Personas (RENAPER),3205.6491844800003
+2023-12-01,200,Registro Nacional de las Personas (RENAPER),12679.11386908
+2023-01-01,201,Dirección Nacional de Migraciones,1110.59177722
+2023-02-01,201,Dirección Nacional de Migraciones,1534.08410303
+2023-03-01,201,Dirección Nacional de Migraciones,1946.22409582
+2023-04-01,201,Dirección Nacional de Migraciones,1664.46808752
+2023-05-01,201,Dirección Nacional de Migraciones,2498.23561686
+2023-06-01,201,Dirección Nacional de Migraciones,3681.58126683
+2023-07-01,201,Dirección Nacional de Migraciones,2619.21101132
+2023-08-01,201,Dirección Nacional de Migraciones,3090.26921881
+2023-09-01,201,Dirección Nacional de Migraciones,4425.36581071
+2023-10-01,201,Dirección Nacional de Migraciones,3786.80962155
+2023-11-01,201,Dirección Nacional de Migraciones,4544.88899149
+2023-12-01,201,Dirección Nacional de Migraciones,8289.19342831
+2023-01-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",56.21365191
+2023-02-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",117.37311349000001
+2023-03-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",117.16524456
+2023-04-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",105.64377809
+2023-05-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",144.04058097
+2023-06-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",196.45974116
+2023-07-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",161.58780817
+2023-08-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",169.479992
+2023-09-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",245.8681182
+2023-10-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",227.44920531
+2023-11-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",212.54847324
+2023-12-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",467.66074313
+2023-01-01,203,Agencia Nacional de Seguridad Vial,303.26451163
+2023-02-01,203,Agencia Nacional de Seguridad Vial,235.92795765
+2023-03-01,203,Agencia Nacional de Seguridad Vial,499.99042556
+2023-04-01,203,Agencia Nacional de Seguridad Vial,390.06339073
+2023-05-01,203,Agencia Nacional de Seguridad Vial,394.13660803
+2023-06-01,203,Agencia Nacional de Seguridad Vial,800.60467367
+2023-07-01,203,Agencia Nacional de Seguridad Vial,503.57154894
+2023-08-01,203,Agencia Nacional de Seguridad Vial,416.88095304
+2023-09-01,203,Agencia Nacional de Seguridad Vial,871.09088624
+2023-10-01,203,Agencia Nacional de Seguridad Vial,745.61987146
+2023-11-01,203,Agencia Nacional de Seguridad Vial,767.67992874
+2023-12-01,203,Agencia Nacional de Seguridad Vial,1304.56431059
+2023-01-01,205,Agencia de Administración de Bienes del Estado,120.88676729999999
+2023-02-01,205,Agencia de Administración de Bienes del Estado,214.22693712
+2023-03-01,205,Agencia de Administración de Bienes del Estado,235.31462246
+2023-04-01,205,Agencia de Administración de Bienes del Estado,189.38782229
+2023-05-01,205,Agencia de Administración de Bienes del Estado,343.04111589
+2023-06-01,205,Agencia de Administración de Bienes del Estado,404.29310731
+2023-07-01,205,Agencia de Administración de Bienes del Estado,227.20352395
+2023-08-01,205,Agencia de Administración de Bienes del Estado,456.48098259
+2023-09-01,205,Agencia de Administración de Bienes del Estado,447.26335127
+2023-10-01,205,Agencia de Administración de Bienes del Estado,343.77370115
+2023-11-01,205,Agencia de Administración de Bienes del Estado,620.29912057
+2023-12-01,205,Agencia de Administración de Bienes del Estado,824.90237105
+2023-01-01,206,Centro Internacional para la Promoción de los Derechos Humanos,9.84057826
+2023-02-01,206,Centro Internacional para la Promoción de los Derechos Humanos,11.788584
+2023-03-01,206,Centro Internacional para la Promoción de los Derechos Humanos,51.445115439999995
+2023-04-01,206,Centro Internacional para la Promoción de los Derechos Humanos,242.27444012
+2023-05-01,206,Centro Internacional para la Promoción de los Derechos Humanos,12.642323619999999
+2023-06-01,206,Centro Internacional para la Promoción de los Derechos Humanos,296.78531901
+2023-07-01,206,Centro Internacional para la Promoción de los Derechos Humanos,24.40494751
+2023-08-01,206,Centro Internacional para la Promoción de los Derechos Humanos,19.33423622
+2023-09-01,206,Centro Internacional para la Promoción de los Derechos Humanos,25.78838568
+2023-10-01,206,Centro Internacional para la Promoción de los Derechos Humanos,30.79953688
+2023-11-01,206,Centro Internacional para la Promoción de los Derechos Humanos,33.340497580000005
+2023-12-01,206,Centro Internacional para la Promoción de los Derechos Humanos,75.22179278
+2023-01-01,207,Ente Nacional de Comunicaciones,882.25643857
+2023-02-01,207,Ente Nacional de Comunicaciones,928.1955326
+2023-03-01,207,Ente Nacional de Comunicaciones,1147.64555261
+2023-04-01,207,Ente Nacional de Comunicaciones,1289.4522443
+2023-05-01,207,Ente Nacional de Comunicaciones,1359.05629607
+2023-06-01,207,Ente Nacional de Comunicaciones,2064.69424304
+2023-07-01,207,Ente Nacional de Comunicaciones,1450.45529801
+2023-08-01,207,Ente Nacional de Comunicaciones,1625.03267382
+2023-09-01,207,Ente Nacional de Comunicaciones,2009.5489195
+2023-10-01,207,Ente Nacional de Comunicaciones,1917.61141999
+2023-11-01,207,Ente Nacional de Comunicaciones,2663.22079667
+2023-12-01,207,Ente Nacional de Comunicaciones,3861.09158847
+2023-01-01,208,Agencia Nacional de Materiales Controlados,22.47141405
+2023-02-01,208,Agencia Nacional de Materiales Controlados,50.75178881
+2023-03-01,208,Agencia Nacional de Materiales Controlados,71.4354769
+2023-04-01,208,Agencia Nacional de Materiales Controlados,73.47269346
+2023-05-01,208,Agencia Nacional de Materiales Controlados,72.0683777
+2023-06-01,208,Agencia Nacional de Materiales Controlados,106.82730271
+2023-07-01,208,Agencia Nacional de Materiales Controlados,25.95301122
+2023-08-01,208,Agencia Nacional de Materiales Controlados,123.08396551
+2023-09-01,208,Agencia Nacional de Materiales Controlados,143.78195915999999
+2023-10-01,208,Agencia Nacional de Materiales Controlados,124.23989906
+2023-11-01,208,Agencia Nacional de Materiales Controlados,155.19179091
+2023-12-01,208,Agencia Nacional de Materiales Controlados,182.90765177
+2023-01-01,209,Agencia de Acceso a la Información Pública,27.05229023
+2023-02-01,209,Agencia de Acceso a la Información Pública,23.36909109
+2023-03-01,209,Agencia de Acceso a la Información Pública,50.81108359
+2023-04-01,209,Agencia de Acceso a la Información Pública,33.84781837
+2023-05-01,209,Agencia de Acceso a la Información Pública,55.49618697
+2023-06-01,209,Agencia de Acceso a la Información Pública,89.05278206
+2023-07-01,209,Agencia de Acceso a la Información Pública,41.52240235
+2023-08-01,209,Agencia de Acceso a la Información Pública,92.08380669
+2023-09-01,209,Agencia de Acceso a la Información Pública,79.75885843
+2023-10-01,209,Agencia de Acceso a la Información Pública,93.1703322
+2023-11-01,209,Agencia de Acceso a la Información Pública,107.87088838000001
+2023-12-01,209,Agencia de Acceso a la Información Pública,244.31057779
+2023-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",35419.3612631
+2023-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",35497.68617328
+2023-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",44006.377871
+2023-04-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",43949.70499852
+2023-05-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",43806.85834395
+2023-06-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",71453.0269668
+2023-07-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",60761.53412935
+2023-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",63590.007722660004
+2023-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",64083.38243437
+2023-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",80238.8963465
+2023-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",81285.00784399
+2023-12-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",143757.1751834
+2023-01-01,301,Secretaría General de la Presidencia de la Nación,482.59457919
+2023-02-01,301,Secretaría General de la Presidencia de la Nación,643.07622868
+2023-03-01,301,Secretaría General de la Presidencia de la Nación,1320.06052336
+2023-04-01,301,Secretaría General de la Presidencia de la Nación,792.3885001
+2023-05-01,301,Secretaría General de la Presidencia de la Nación,1009.42643276
+2023-06-01,301,Secretaría General de la Presidencia de la Nación,1947.6716251
+2023-07-01,301,Secretaría General de la Presidencia de la Nación,861.1165175
+2023-08-01,301,Secretaría General de la Presidencia de la Nación,1654.53776916
+2023-09-01,301,Secretaría General de la Presidencia de la Nación,2217.50383224
+2023-10-01,301,Secretaría General de la Presidencia de la Nación,1655.69558072
+2023-11-01,301,Secretaría General de la Presidencia de la Nación,2959.72625172
+2023-12-01,301,Secretaría General de la Presidencia de la Nación,2918.09570677
+2023-01-01,302,Agencia Federal de Inteligencia,512.54619009
+2023-02-01,302,Agencia Federal de Inteligencia,724.89928951
+2023-03-01,302,Agencia Federal de Inteligencia,864.025852
+2023-04-01,302,Agencia Federal de Inteligencia,678.40749006
+2023-05-01,302,Agencia Federal de Inteligencia,897.23967548
+2023-06-01,302,Agencia Federal de Inteligencia,1588.0438475400001
+2023-07-01,302,Agencia Federal de Inteligencia,1307.57650074
+2023-08-01,302,Agencia Federal de Inteligencia,1423.2851574
+2023-09-01,302,Agencia Federal de Inteligencia,1391.53693828
+2023-10-01,302,Agencia Federal de Inteligencia,1426.99661812
+2023-11-01,302,Agencia Federal de Inteligencia,1561.8131758700001
+2023-12-01,302,Agencia Federal de Inteligencia,2675.24007806
+2023-01-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),373.922975
+2023-02-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),987.26832585
+2023-03-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1198.12227237
+2023-04-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1031.38931937
+2023-05-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1606.44226147
+2023-06-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1747.70896218
+2023-07-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1384.83860758
+2023-08-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1771.98012082
+2023-09-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),2159.36673786
+2023-10-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1965.10412697
+2023-11-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),2164.75499033
+2023-12-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),2343.5513169299998
+2023-01-01,305,Jefatura de Gabinete de Ministros,881.10731967
+2023-02-01,305,Jefatura de Gabinete de Ministros,1188.5590590900001
+2023-03-01,305,Jefatura de Gabinete de Ministros,5686.27109233
+2023-04-01,305,Jefatura de Gabinete de Ministros,1703.17250623
+2023-05-01,305,Jefatura de Gabinete de Ministros,3659.08756309
+2023-06-01,305,Jefatura de Gabinete de Ministros,12392.837213669998
+2023-07-01,305,Jefatura de Gabinete de Ministros,2369.49070504
+2023-08-01,305,Jefatura de Gabinete de Ministros,3105.26838382
+2023-09-01,305,Jefatura de Gabinete de Ministros,6096.687488670001
+2023-10-01,305,Jefatura de Gabinete de Ministros,17206.99885341
+2023-11-01,305,Jefatura de Gabinete de Ministros,5286.13242149
+2023-12-01,305,Jefatura de Gabinete de Ministros,7219.93612803
+2023-01-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",5963.7870419
+2023-02-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",5852.09979425
+2023-03-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",11308.37668631
+2023-04-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",7505.87670148
+2023-05-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",7612.87098026
+2023-06-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",16457.7940253
+2023-07-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",10051.36761435
+2023-08-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",12918.41825865
+2023-09-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",17827.25687027
+2023-10-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",8981.98904672
+2023-11-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",12062.47190369
+2023-12-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",62293.856479199996
+2023-01-01,310,Ministerio de Salud,11118.22781887
+2023-02-01,310,Ministerio de Salud,13704.32501659
+2023-03-01,310,Ministerio de Salud,36130.228659429995
+2023-04-01,310,Ministerio de Salud,15445.30878681
+2023-05-01,310,Ministerio de Salud,28584.04992353
+2023-06-01,310,Ministerio de Salud,24546.53809666
+2023-07-01,310,Ministerio de Salud,18690.61000539
+2023-08-01,310,Ministerio de Salud,31363.28186857
+2023-09-01,310,Ministerio de Salud,44843.445348
+2023-10-01,310,Ministerio de Salud,39549.97924459
+2023-11-01,310,Ministerio de Salud,38917.161121469995
+2023-12-01,310,Ministerio de Salud,87880.50103407
+2023-01-01,311,Ministerio de Desarrollo Social,86435.44232614
+2023-02-01,311,Ministerio de Desarrollo Social,103357.94418023
+2023-03-01,311,Ministerio de Desarrollo Social,141932.57076405
+2023-04-01,311,Ministerio de Desarrollo Social,125300.76275313999
+2023-05-01,311,Ministerio de Desarrollo Social,154387.09466467
+2023-06-01,311,Ministerio de Desarrollo Social,148481.10503551
+2023-07-01,311,Ministerio de Desarrollo Social,188312.8080739
+2023-08-01,311,Ministerio de Desarrollo Social,177062.76312668002
+2023-09-01,311,Ministerio de Desarrollo Social,224730.7004567
+2023-10-01,311,Ministerio de Desarrollo Social,242403.26330192998
+2023-11-01,311,Ministerio de Desarrollo Social,137505.62127875
+2023-12-01,311,Ministerio de Desarrollo Social,365200.3311611
+2023-01-01,312,Honorable Senado de la Nación Argentina,3196.63508026
+2023-02-01,312,Honorable Senado de la Nación Argentina,2780.95313269
+2023-03-01,312,Honorable Senado de la Nación Argentina,4462.46613767
+2023-04-01,312,Honorable Senado de la Nación Argentina,3620.07192007
+2023-05-01,312,Honorable Senado de la Nación Argentina,3686.3373199800003
+2023-06-01,312,Honorable Senado de la Nación Argentina,5947.5019343799995
+2023-07-01,312,Honorable Senado de la Nación Argentina,4787.86268505
+2023-08-01,312,Honorable Senado de la Nación Argentina,5767.771441270001
+2023-09-01,312,Honorable Senado de la Nación Argentina,5760.3397659
+2023-10-01,312,Honorable Senado de la Nación Argentina,6338.630295649999
+2023-11-01,312,Honorable Senado de la Nación Argentina,8242.278228950001
+2023-12-01,312,Honorable Senado de la Nación Argentina,11009.54364936
+2023-01-01,313,Honorable Cámara de Diputados de la Nación Argentina,3908.58453436
+2023-02-01,313,Honorable Cámara de Diputados de la Nación Argentina,4319.7992868
+2023-03-01,313,Honorable Cámara de Diputados de la Nación Argentina,4104.86915027
+2023-04-01,313,Honorable Cámara de Diputados de la Nación Argentina,4485.06428634
+2023-05-01,313,Honorable Cámara de Diputados de la Nación Argentina,4652.99211159
+2023-06-01,313,Honorable Cámara de Diputados de la Nación Argentina,5349.20151954
+2023-07-01,313,Honorable Cámara de Diputados de la Nación Argentina,5930.58779449
+2023-08-01,313,Honorable Cámara de Diputados de la Nación Argentina,7560.5319632499995
+2023-09-01,313,Honorable Cámara de Diputados de la Nación Argentina,6843.59206487
+2023-10-01,313,Honorable Cámara de Diputados de la Nación Argentina,8920.62090922
+2023-11-01,313,Honorable Cámara de Diputados de la Nación Argentina,10436.09546744
+2023-12-01,313,Honorable Cámara de Diputados de la Nación Argentina,17679.23202549
+2023-01-01,314,Biblioteca del Congreso de la Nación,901.73326787
+2023-02-01,314,Biblioteca del Congreso de la Nación,936.06899563
+2023-03-01,314,Biblioteca del Congreso de la Nación,952.7735006500001
+2023-04-01,314,Biblioteca del Congreso de la Nación,1005.51725843
+2023-05-01,314,Biblioteca del Congreso de la Nación,1022.23162968
+2023-06-01,314,Biblioteca del Congreso de la Nación,1411.93040017
+2023-07-01,314,Biblioteca del Congreso de la Nación,1335.5890382599998
+2023-08-01,314,Biblioteca del Congreso de la Nación,1727.61326594
+2023-09-01,314,Biblioteca del Congreso de la Nación,1816.71585527
+2023-10-01,314,Biblioteca del Congreso de la Nación,1759.35701977
+2023-11-01,314,Biblioteca del Congreso de la Nación,2128.15238907
+2023-12-01,314,Biblioteca del Congreso de la Nación,3239.41706536
+2023-01-01,315,Imprenta del Congreso de la Nación,261.94955108
+2023-02-01,315,Imprenta del Congreso de la Nación,274.77039009
+2023-03-01,315,Imprenta del Congreso de la Nación,278.48482683000003
+2023-04-01,315,Imprenta del Congreso de la Nación,286.89114556
+2023-05-01,315,Imprenta del Congreso de la Nación,302.2704506
+2023-06-01,315,Imprenta del Congreso de la Nación,410.18283646
+2023-07-01,315,Imprenta del Congreso de la Nación,356.86424046
+2023-08-01,315,Imprenta del Congreso de la Nación,504.92151185
+2023-09-01,315,Imprenta del Congreso de la Nación,461.96069074
+2023-10-01,315,Imprenta del Congreso de la Nación,461.69715698
+2023-11-01,315,Imprenta del Congreso de la Nación,599.41809761
+2023-12-01,315,Imprenta del Congreso de la Nación,1770.0459922
+2023-01-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),739.01898103
+2023-02-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),783.85127386
+2023-03-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),713.17237636
+2023-04-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),835.80918978
+2023-05-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),765.6337079499999
+2023-06-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),998.1843826
+2023-07-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),1066.94161913
+2023-08-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),1225.94818297
+2023-09-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),2159.27261063
+2023-10-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),1959.46498355
+2023-11-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),1401.05315167
+2023-12-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),2996.70635035
+2023-01-01,317,Ministerio de Ambiente y Desarrollo Sostenible,663.44203431
+2023-02-01,317,Ministerio de Ambiente y Desarrollo Sostenible,1870.62843267
+2023-03-01,317,Ministerio de Ambiente y Desarrollo Sostenible,1763.86431458
+2023-04-01,317,Ministerio de Ambiente y Desarrollo Sostenible,3912.9826336399997
+2023-05-01,317,Ministerio de Ambiente y Desarrollo Sostenible,3099.02066167
+2023-06-01,317,Ministerio de Ambiente y Desarrollo Sostenible,4103.38512875
+2023-07-01,317,Ministerio de Ambiente y Desarrollo Sostenible,2679.10421321
+2023-08-01,317,Ministerio de Ambiente y Desarrollo Sostenible,3576.19376819
+2023-09-01,317,Ministerio de Ambiente y Desarrollo Sostenible,4848.46743139
+2023-10-01,317,Ministerio de Ambiente y Desarrollo Sostenible,4699.6617203099995
+2023-11-01,317,Ministerio de Ambiente y Desarrollo Sostenible,8812.193947220001
+2023-12-01,317,Ministerio de Ambiente y Desarrollo Sostenible,6858.21072402
+2023-01-01,319,Defensoría del Pueblo de la Nación,216.76309328
+2023-02-01,319,Defensoría del Pueblo de la Nación,233.15165406999998
+2023-03-01,319,Defensoría del Pueblo de la Nación,242.76609258
+2023-04-01,319,Defensoría del Pueblo de la Nación,236.08912594
+2023-05-01,319,Defensoría del Pueblo de la Nación,244.0569558
+2023-06-01,319,Defensoría del Pueblo de la Nación,350.61101365999997
+2023-07-01,319,Defensoría del Pueblo de la Nación,318.37878127
+2023-08-01,319,Defensoría del Pueblo de la Nación,430.23151571
+2023-09-01,319,Defensoría del Pueblo de la Nación,427.82239687
+2023-10-01,319,Defensoría del Pueblo de la Nación,443.96369434
+2023-11-01,319,Defensoría del Pueblo de la Nación,517.12685839
+2023-12-01,319,Defensoría del Pueblo de la Nación,908.63082093
+2023-01-01,320,Consejo de la Magistratura,19752.86818846
+2023-02-01,320,Consejo de la Magistratura,19985.1848576
+2023-03-01,320,Consejo de la Magistratura,28092.15759836
+2023-04-01,320,Consejo de la Magistratura,24271.98731436
+2023-05-01,320,Consejo de la Magistratura,24188.40684615
+2023-06-01,320,Consejo de la Magistratura,53597.181333450004
+2023-07-01,320,Consejo de la Magistratura,31992.17814309
+2023-08-01,320,Consejo de la Magistratura,32036.52586965
+2023-09-01,320,Consejo de la Magistratura,37806.47617801
+2023-10-01,320,Consejo de la Magistratura,53055.47442841
+2023-11-01,320,Consejo de la Magistratura,42129.7076386
+2023-12-01,320,Consejo de la Magistratura,87192.64254464001
+2023-01-01,321,Instituto Nacional de Estadística y Censos,432.53351755
+2023-02-01,321,Instituto Nacional de Estadística y Censos,693.49370744
+2023-03-01,321,Instituto Nacional de Estadística y Censos,711.65033227
+2023-04-01,321,Instituto Nacional de Estadística y Censos,647.73907029
+2023-05-01,321,Instituto Nacional de Estadística y Censos,1487.7059933700002
+2023-06-01,321,Instituto Nacional de Estadística y Censos,1068.69718756
+2023-07-01,321,Instituto Nacional de Estadística y Censos,782.12269473
+2023-08-01,321,Instituto Nacional de Estadística y Censos,1501.84852209
+2023-09-01,321,Instituto Nacional de Estadística y Censos,1590.13527063
+2023-10-01,321,Instituto Nacional de Estadística y Censos,943.87129078
+2023-11-01,321,Instituto Nacional de Estadística y Censos,1522.7170710999999
+2023-12-01,321,Instituto Nacional de Estadística y Censos,2663.80262563
+2023-01-01,322,Ministerio de Turismo y Deportes,708.61457252
+2023-02-01,322,Ministerio de Turismo y Deportes,1929.71565059
+2023-03-01,322,Ministerio de Turismo y Deportes,2455.31372218
+2023-04-01,322,Ministerio de Turismo y Deportes,1114.4309554200001
+2023-05-01,322,Ministerio de Turismo y Deportes,18402.56432322
+2023-06-01,322,Ministerio de Turismo y Deportes,4284.09578591
+2023-07-01,322,Ministerio de Turismo y Deportes,3100.72720947
+2023-08-01,322,Ministerio de Turismo y Deportes,3846.15364073
+2023-09-01,322,Ministerio de Turismo y Deportes,16888.67774591
+2023-10-01,322,Ministerio de Turismo y Deportes,3919.05513931
+2023-11-01,322,Ministerio de Turismo y Deportes,4654.65727462
+2023-12-01,322,Ministerio de Turismo y Deportes,2601.63694294
+2023-01-01,323,Comisión Nacional de Comercio Exterior,14.82655991
+2023-02-01,323,Comisión Nacional de Comercio Exterior,23.40541248
+2023-03-01,323,Comisión Nacional de Comercio Exterior,34.61623906
+2023-04-01,323,Comisión Nacional de Comercio Exterior,27.8131945
+2023-05-01,323,Comisión Nacional de Comercio Exterior,27.81999399
+2023-06-01,323,Comisión Nacional de Comercio Exterior,49.441866850000004
+2023-07-01,323,Comisión Nacional de Comercio Exterior,33.03599166
+2023-08-01,323,Comisión Nacional de Comercio Exterior,36.28236073
+2023-09-01,323,Comisión Nacional de Comercio Exterior,44.46867727
+2023-10-01,323,Comisión Nacional de Comercio Exterior,45.476357820000004
+2023-11-01,323,Comisión Nacional de Comercio Exterior,53.04761502
+2023-12-01,323,Comisión Nacional de Comercio Exterior,82.56829392
+2023-01-01,325,Ministerio del Interior,2372.28578185
+2023-02-01,325,Ministerio del Interior,3544.52048177
+2023-03-01,325,Ministerio del Interior,7070.46921601
+2023-04-01,325,Ministerio del Interior,2793.79113081
+2023-05-01,325,Ministerio del Interior,21497.04968377
+2023-06-01,325,Ministerio del Interior,16904.53439666
+2023-07-01,325,Ministerio del Interior,22186.11182022
+2023-08-01,325,Ministerio del Interior,23260.6020184
+2023-09-01,325,Ministerio del Interior,35523.30385354
+2023-10-01,325,Ministerio del Interior,9562.35402385
+2023-11-01,325,Ministerio del Interior,50165.77031002
+2023-12-01,325,Ministerio del Interior,142959.74526477
+2023-01-01,326,Policía Federal Argentina,13175.66413469
+2023-02-01,326,Policía Federal Argentina,14171.05594206
+2023-03-01,326,Policía Federal Argentina,17043.21964722
+2023-04-01,326,Policía Federal Argentina,17220.50939597
+2023-05-01,326,Policía Federal Argentina,17265.53524403
+2023-06-01,326,Policía Federal Argentina,25373.15587666
+2023-07-01,326,Policía Federal Argentina,22824.08377377
+2023-08-01,326,Policía Federal Argentina,23505.33497357
+2023-09-01,326,Policía Federal Argentina,25339.25873077
+2023-10-01,326,Policía Federal Argentina,28164.53002317
+2023-11-01,326,Policía Federal Argentina,29820.4037272
+2023-12-01,326,Policía Federal Argentina,50141.78942861
+2023-01-01,327,Ministerio de Transporte,11694.72348955
+2023-02-01,327,Ministerio de Transporte,47147.27332629
+2023-03-01,327,Ministerio de Transporte,31123.09010334
+2023-04-01,327,Ministerio de Transporte,40641.84363296
+2023-05-01,327,Ministerio de Transporte,24506.90822445
+2023-06-01,327,Ministerio de Transporte,41234.58319081
+2023-07-01,327,Ministerio de Transporte,42444.15897331
+2023-08-01,327,Ministerio de Transporte,46506.60646488
+2023-09-01,327,Ministerio de Transporte,80328.33929206
+2023-10-01,327,Ministerio de Transporte,53357.98388749
+2023-11-01,327,Ministerio de Transporte,92081.56424008
+2023-12-01,327,Ministerio de Transporte,67165.38752391
+2023-01-01,328,Secretaría de Energía,106.47539696
+2023-02-01,328,Secretaría de Energía,140686.29032378
+2023-03-01,328,Secretaría de Energía,121544.76060826001
+2023-04-01,328,Secretaría de Energía,116065.04942581001
+2023-05-01,328,Secretaría de Energía,124592.89824876
+2023-06-01,328,Secretaría de Energía,288889.81323776
+2023-07-01,328,Secretaría de Energía,168710.87832483
+2023-08-01,328,Secretaría de Energía,292894.48070737
+2023-09-01,328,Secretaría de Energía,180557.97997542
+2023-10-01,328,Secretaría de Energía,113921.35844137
+2023-11-01,328,Secretaría de Energía,187486.65984211
+2023-12-01,328,Secretaría de Energía,327088.53812306
+2023-01-01,330,Ministerio de Educación,80453.74655137
+2023-02-01,330,Ministerio de Educación,115809.86026074
+2023-03-01,330,Ministerio de Educación,165304.15859297
+2023-04-01,330,Ministerio de Educación,115132.3424916
+2023-05-01,330,Ministerio de Educación,114786.46420312
+2023-06-01,330,Ministerio de Educación,284489.70120877
+2023-07-01,330,Ministerio de Educación,169718.85241794
+2023-08-01,330,Ministerio de Educación,231151.63843455
+2023-09-01,330,Ministerio de Educación,265263.22473704
+2023-10-01,330,Ministerio de Educación,231772.11897425
+2023-11-01,330,Ministerio de Educación,250970.20181064
+2023-12-01,330,Ministerio de Educación,390654.40693769
+2023-01-01,331,Servicio Penitenciario Federal,4628.5923017
+2023-02-01,331,Servicio Penitenciario Federal,5392.21892834
+2023-03-01,331,Servicio Penitenciario Federal,6858.05934594
+2023-04-01,331,Servicio Penitenciario Federal,5821.75073369
+2023-05-01,331,Servicio Penitenciario Federal,6548.45651721
+2023-06-01,331,Servicio Penitenciario Federal,10927.39173404
+2023-07-01,331,Servicio Penitenciario Federal,8093.96722556
+2023-08-01,331,Servicio Penitenciario Federal,10205.16680917
+2023-09-01,331,Servicio Penitenciario Federal,13174.92423156
+2023-10-01,331,Servicio Penitenciario Federal,12558.56103296
+2023-11-01,331,Servicio Penitenciario Federal,13674.251852219999
+2023-12-01,331,Servicio Penitenciario Federal,25726.38920713
+2023-01-01,332,Ministerio de Justicia y Derechos Humanos,544.11025711
+2023-02-01,332,Ministerio de Justicia y Derechos Humanos,1376.61349816
+2023-03-01,332,Ministerio de Justicia y Derechos Humanos,1331.09251692
+2023-04-01,332,Ministerio de Justicia y Derechos Humanos,748.48826968
+2023-05-01,332,Ministerio de Justicia y Derechos Humanos,1016.88237458
+2023-06-01,332,Ministerio de Justicia y Derechos Humanos,2237.57850672
+2023-07-01,332,Ministerio de Justicia y Derechos Humanos,1025.44763127
+2023-08-01,332,Ministerio de Justicia y Derechos Humanos,1655.99326304
+2023-09-01,332,Ministerio de Justicia y Derechos Humanos,2465.07613005
+2023-10-01,332,Ministerio de Justicia y Derechos Humanos,1907.5397705
+2023-11-01,332,Ministerio de Justicia y Derechos Humanos,2673.74104312
+2023-12-01,332,Ministerio de Justicia y Derechos Humanos,3645.1013218
+2023-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,481.39689684
+2023-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,525.11687025
+2023-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,542.4712064
+2023-04-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,620.51120171
+2023-05-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,750.62969535
+2023-06-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1059.17404577
+2023-07-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,662.82569631
+2023-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1172.03451586
+2023-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,982.8697617199999
+2023-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1069.0493170500001
+2023-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1241.77370992
+2023-12-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2050.4712292199997
+2023-01-01,335,Corte Suprema de Justicia de la Nación,0.0
+2023-02-01,335,Corte Suprema de Justicia de la Nación,5366.13277564
+2023-03-01,335,Corte Suprema de Justicia de la Nación,3897.7559479799997
+2023-04-01,335,Corte Suprema de Justicia de la Nación,3392.78536804
+2023-05-01,335,Corte Suprema de Justicia de la Nación,3430.16938838
+2023-06-01,335,Corte Suprema de Justicia de la Nación,7318.23367005
+2023-07-01,335,Corte Suprema de Justicia de la Nación,4462.10957071
+2023-08-01,335,Corte Suprema de Justicia de la Nación,4438.73187769
+2023-09-01,335,Corte Suprema de Justicia de la Nación,5355.93044661
+2023-10-01,335,Corte Suprema de Justicia de la Nación,7391.67682449
+2023-11-01,335,Corte Suprema de Justicia de la Nación,5954.24774105
+2023-12-01,335,Corte Suprema de Justicia de la Nación,12085.29143056
+2023-01-01,336,"Ministerio de Ciencia, Tecnología e Innovación",568.31977006
+2023-02-01,336,"Ministerio de Ciencia, Tecnología e Innovación",3746.24857682
+2023-03-01,336,"Ministerio de Ciencia, Tecnología e Innovación",4298.97290043
+2023-04-01,336,"Ministerio de Ciencia, Tecnología e Innovación",2623.60909757
+2023-05-01,336,"Ministerio de Ciencia, Tecnología e Innovación",4360.87130231
+2023-06-01,336,"Ministerio de Ciencia, Tecnología e Innovación",15536.28934907
+2023-07-01,336,"Ministerio de Ciencia, Tecnología e Innovación",10122.09903614
+2023-08-01,336,"Ministerio de Ciencia, Tecnología e Innovación",4580.15487204
+2023-09-01,336,"Ministerio de Ciencia, Tecnología e Innovación",10093.10580411
+2023-10-01,336,"Ministerio de Ciencia, Tecnología e Innovación",4889.19861187
+2023-11-01,336,"Ministerio de Ciencia, Tecnología e Innovación",6385.26592285
+2023-12-01,336,"Ministerio de Ciencia, Tecnología e Innovación",4066.99070584
+2023-01-01,337,Ministerio de Cultura,1563.51922748
+2023-02-01,337,Ministerio de Cultura,2422.04474593
+2023-03-01,337,Ministerio de Cultura,2920.60847354
+2023-04-01,337,Ministerio de Cultura,2582.98174246
+2023-05-01,337,Ministerio de Cultura,3067.86953912
+2023-06-01,337,Ministerio de Cultura,6358.01659604
+2023-07-01,337,Ministerio de Cultura,3306.1322332
+2023-08-01,337,Ministerio de Cultura,4483.85283033
+2023-09-01,337,Ministerio de Cultura,6784.26784129
+2023-10-01,337,Ministerio de Cultura,4993.2705671
+2023-11-01,337,Ministerio de Cultura,6605.05979779
+2023-12-01,337,Ministerio de Cultura,8315.01941224
+2023-01-01,338,Secretaría Legal y Técnica,150.78113028
+2023-02-01,338,Secretaría Legal y Técnica,135.01063193
+2023-03-01,338,Secretaría Legal y Técnica,265.79616793
+2023-04-01,338,Secretaría Legal y Técnica,218.58724099
+2023-05-01,338,Secretaría Legal y Técnica,191.35155133
+2023-06-01,338,Secretaría Legal y Técnica,488.53603738
+2023-07-01,338,Secretaría Legal y Técnica,375.75869403999997
+2023-08-01,338,Secretaría Legal y Técnica,230.35620296
+2023-09-01,338,Secretaría Legal y Técnica,496.11825186
+2023-10-01,338,Secretaría Legal y Técnica,376.34336448
+2023-11-01,338,Secretaría Legal y Técnica,571.66956411
+2023-12-01,338,Secretaría Legal y Técnica,739.78072615
+2023-01-01,340,Procuración Penitenciaria de la Nación,196.02162487
+2023-02-01,340,Procuración Penitenciaria de la Nación,259.1372042
+2023-03-01,340,Procuración Penitenciaria de la Nación,269.35191855
+2023-04-01,340,Procuración Penitenciaria de la Nación,260.94532018
+2023-05-01,340,Procuración Penitenciaria de la Nación,298.26976183
+2023-06-01,340,Procuración Penitenciaria de la Nación,448.35245155
+2023-07-01,340,Procuración Penitenciaria de la Nación,342.96910147
+2023-08-01,340,Procuración Penitenciaria de la Nación,411.17921252
+2023-09-01,340,Procuración Penitenciaria de la Nación,562.51593484
+2023-10-01,340,Procuración Penitenciaria de la Nación,642.47723593
+2023-11-01,340,Procuración Penitenciaria de la Nación,752.32802644
+2023-12-01,340,Procuración Penitenciaria de la Nación,934.2846951500001
+2023-01-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",689.40602011
+2023-02-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",1334.02996872
+2023-03-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",1225.1879266400001
+2023-04-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",1694.74279179
+2023-05-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",1693.62312424
+2023-06-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",1980.43196142
+2023-07-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",1768.52154632
+2023-08-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",2106.4046347
+2023-09-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",2681.40367141
+2023-10-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",2255.82692177
+2023-11-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",4029.1702095
+2023-12-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",3506.67874066
+2023-01-01,343,Ministerio de Seguridad,484.49505084
+2023-02-01,343,Ministerio de Seguridad,865.29904117
+2023-03-01,343,Ministerio de Seguridad,8714.30814485
+2023-04-01,343,Ministerio de Seguridad,1659.11404489
+2023-05-01,343,Ministerio de Seguridad,2412.3609541
+2023-06-01,343,Ministerio de Seguridad,4630.63087805
+2023-07-01,343,Ministerio de Seguridad,4462.92135248
+2023-08-01,343,Ministerio de Seguridad,6323.55283716
+2023-09-01,343,Ministerio de Seguridad,11070.562311650001
+2023-10-01,343,Ministerio de Seguridad,2381.16665202
+2023-11-01,343,Ministerio de Seguridad,4093.6065833000002
+2023-12-01,343,Ministerio de Seguridad,5940.11115702
+2023-01-01,345,Consejo Nacional de Coordinación de Políticas Sociales,110.52068176
+2023-02-01,345,Consejo Nacional de Coordinación de Políticas Sociales,135.59368371
+2023-03-01,345,Consejo Nacional de Coordinación de Políticas Sociales,210.95193215999998
+2023-04-01,345,Consejo Nacional de Coordinación de Políticas Sociales,204.89717889
+2023-05-01,345,Consejo Nacional de Coordinación de Políticas Sociales,201.45880947
+2023-06-01,345,Consejo Nacional de Coordinación de Políticas Sociales,428.63715482
+2023-07-01,345,Consejo Nacional de Coordinación de Políticas Sociales,161.73731617
+2023-08-01,345,Consejo Nacional de Coordinación de Políticas Sociales,309.72779166
+2023-09-01,345,Consejo Nacional de Coordinación de Políticas Sociales,553.60485748
+2023-10-01,345,Consejo Nacional de Coordinación de Políticas Sociales,329.96016103
+2023-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,330.67998309
+2023-12-01,345,Consejo Nacional de Coordinación de Políticas Sociales,826.22727209
+2023-01-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,45.44833018
+2023-02-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,75.16398414
+2023-03-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,84.24877094
+2023-04-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,78.65356381000001
+2023-05-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,82.19025809
+2023-06-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,105.01399521
+2023-07-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,111.39897475000001
+2023-08-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,133.48578462
+2023-09-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,154.62118698999998
+2023-10-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,142.63063171
+2023-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,172.74475712
+2023-12-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,312.97604167
+2023-01-01,347,Secretaría de Medios y Comunicación Pública,733.38464543
+2023-02-01,347,Secretaría de Medios y Comunicación Pública,1111.44237243
+2023-03-01,347,Secretaría de Medios y Comunicación Pública,1082.37131992
+2023-04-01,347,Secretaría de Medios y Comunicación Pública,1985.43125663
+2023-05-01,347,Secretaría de Medios y Comunicación Pública,2889.02023011
+2023-06-01,347,Secretaría de Medios y Comunicación Pública,4179.50223911
+2023-07-01,347,Secretaría de Medios y Comunicación Pública,3796.58478467
+2023-08-01,347,Secretaría de Medios y Comunicación Pública,3805.46610066
+2023-09-01,347,Secretaría de Medios y Comunicación Pública,5647.943480479999
+2023-10-01,347,Secretaría de Medios y Comunicación Pública,4950.68133701
+2023-11-01,347,Secretaría de Medios y Comunicación Pública,3582.26415107
+2023-12-01,347,Secretaría de Medios y Comunicación Pública,1847.30004292
+2023-01-01,349,Procuración del Tesoro de la Nación,6.20447145
+2023-02-01,349,Procuración del Tesoro de la Nación,101.33417758
+2023-03-01,349,Procuración del Tesoro de la Nación,170.02592986
+2023-04-01,349,Procuración del Tesoro de la Nación,96.08860409
+2023-05-01,349,Procuración del Tesoro de la Nación,109.7048297
+2023-06-01,349,Procuración del Tesoro de la Nación,219.24088195000002
+2023-07-01,349,Procuración del Tesoro de la Nación,127.17329275
+2023-08-01,349,Procuración del Tesoro de la Nación,149.43063836
+2023-09-01,349,Procuración del Tesoro de la Nación,173.80539824000002
+2023-10-01,349,Procuración del Tesoro de la Nación,189.47260501
+2023-11-01,349,Procuración del Tesoro de la Nación,91.04445379
+2023-12-01,349,Procuración del Tesoro de la Nación,478.57577209000004
+2023-01-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",3409.30144576
+2023-02-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",5478.67590556
+2023-03-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",5750.22646367
+2023-04-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",4167.84326206
+2023-05-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",6661.8530408
+2023-06-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",11206.57010071
+2023-07-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",5339.97207288
+2023-08-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",9856.78284501
+2023-09-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",13330.76649042
+2023-10-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",11067.06250659
+2023-11-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",14249.79765299
+2023-12-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",22993.36197766
+2023-01-01,355,Servicio de la Deuda Pública,158368.51156415002
+2023-02-01,355,Servicio de la Deuda Pública,339513.47542828
+2023-03-01,355,Servicio de la Deuda Pública,188551.52360477
+2023-04-01,355,Servicio de la Deuda Pública,168399.53205136
+2023-05-01,355,Servicio de la Deuda Pública,311153.51332254
+2023-06-01,355,Servicio de la Deuda Pública,186399.49854275
+2023-07-01,355,Servicio de la Deuda Pública,328664.45209308
+2023-08-01,355,Servicio de la Deuda Pública,454061.95425861
+2023-09-01,355,Servicio de la Deuda Pública,199240.02932809002
+2023-10-01,355,Servicio de la Deuda Pública,204056.40017436998
+2023-11-01,355,Servicio de la Deuda Pública,549426.76682203
+2023-12-01,355,Servicio de la Deuda Pública,380303.72032117995
+2023-01-01,356,Obligaciones a Cargo del Tesoro,15593.1593522
+2023-02-01,356,Obligaciones a Cargo del Tesoro,172370.45203127
+2023-03-01,356,Obligaciones a Cargo del Tesoro,208905.58847977998
+2023-04-01,356,Obligaciones a Cargo del Tesoro,124610.77123385
+2023-05-01,356,Obligaciones a Cargo del Tesoro,267285.77163679
+2023-06-01,356,Obligaciones a Cargo del Tesoro,354305.33107625
+2023-07-01,356,Obligaciones a Cargo del Tesoro,171295.77483993
+2023-08-01,356,Obligaciones a Cargo del Tesoro,208699.19860166
+2023-09-01,356,Obligaciones a Cargo del Tesoro,321804.29696308
+2023-10-01,356,Obligaciones a Cargo del Tesoro,262178.65024267
+2023-11-01,356,Obligaciones a Cargo del Tesoro,330184.67311779
+2023-12-01,356,Obligaciones a Cargo del Tesoro,472489.6489816
+2023-01-01,357,Ministerio de Economía,845.15455843
+2023-02-01,357,Ministerio de Economía,2192.48691048
+2023-03-01,357,Ministerio de Economía,4231.6970845099995
+2023-04-01,357,Ministerio de Economía,1713.29627895
+2023-05-01,357,Ministerio de Economía,3640.15819702
+2023-06-01,357,Ministerio de Economía,8969.13869949
+2023-07-01,357,Ministerio de Economía,7327.35177811
+2023-08-01,357,Ministerio de Economía,9843.15658977
+2023-09-01,357,Ministerio de Economía,7322.90979353
+2023-10-01,357,Ministerio de Economía,4189.79812181
+2023-11-01,357,Ministerio de Economía,11417.46965995
+2023-12-01,357,Ministerio de Economía,22571.107371770002
+2023-01-01,360,Procuración General de la Nación,5688.94754675
+2023-02-01,360,Procuración General de la Nación,5589.82229466
+2023-03-01,360,Procuración General de la Nación,7878.43038214
+2023-04-01,360,Procuración General de la Nación,6798.1934014
+2023-05-01,360,Procuración General de la Nación,6865.71829846
+2023-06-01,360,Procuración General de la Nación,15034.00180275
+2023-07-01,360,Procuración General de la Nación,9083.15191332
+2023-08-01,360,Procuración General de la Nación,8931.791119810001
+2023-09-01,360,Procuración General de la Nación,10774.99791499
+2023-10-01,360,Procuración General de la Nación,15159.92618666
+2023-11-01,360,Procuración General de la Nación,12007.0278778
+2023-12-01,360,Procuración General de la Nación,27009.35329849
+2023-01-01,361,Defensoría General de la Nación,3147.90913967
+2023-02-01,361,Defensoría General de la Nación,3166.81112673
+2023-03-01,361,Defensoría General de la Nación,4492.75357156
+2023-04-01,361,Defensoría General de la Nación,3780.1523145700003
+2023-05-01,361,Defensoría General de la Nación,3869.95374404
+2023-06-01,361,Defensoría General de la Nación,8533.59076682
+2023-07-01,361,Defensoría General de la Nación,5039.81989479
+2023-08-01,361,Defensoría General de la Nación,5089.09376252
+2023-09-01,361,Defensoría General de la Nación,6140.25561322
+2023-10-01,361,Defensoría General de la Nación,8610.02148258
+2023-11-01,361,Defensoría General de la Nación,6828.74541817
+2023-12-01,361,Defensoría General de la Nación,14890.19280522
+2023-01-01,362,Secretaría de Industria y Desarrollo Productivo,667.1582226300001
+2023-02-01,362,Secretaría de Industria y Desarrollo Productivo,2534.75374006
+2023-03-01,362,Secretaría de Industria y Desarrollo Productivo,11198.43143536
+2023-04-01,362,Secretaría de Industria y Desarrollo Productivo,11192.03341505
+2023-05-01,362,Secretaría de Industria y Desarrollo Productivo,14423.565647619998
+2023-06-01,362,Secretaría de Industria y Desarrollo Productivo,11370.250347019999
+2023-07-01,362,Secretaría de Industria y Desarrollo Productivo,6608.79464623
+2023-08-01,362,Secretaría de Industria y Desarrollo Productivo,6603.01336568
+2023-09-01,362,Secretaría de Industria y Desarrollo Productivo,26817.90794273
+2023-10-01,362,Secretaría de Industria y Desarrollo Productivo,7158.17107122
+2023-11-01,362,Secretaría de Industria y Desarrollo Productivo,15607.78197503
+2023-12-01,362,Secretaría de Industria y Desarrollo Productivo,6110.032202740001
+2023-01-01,363,"Secretaría de Agricultura, Ganadería y Pesca",1526.66189844
+2023-02-01,363,"Secretaría de Agricultura, Ganadería y Pesca",1799.38122157
+2023-03-01,363,"Secretaría de Agricultura, Ganadería y Pesca",13274.26867109
+2023-04-01,363,"Secretaría de Agricultura, Ganadería y Pesca",4398.68051229
+2023-05-01,363,"Secretaría de Agricultura, Ganadería y Pesca",4495.0980277
+2023-06-01,363,"Secretaría de Agricultura, Ganadería y Pesca",8556.92975289
+2023-07-01,363,"Secretaría de Agricultura, Ganadería y Pesca",7811.0517617099995
+2023-08-01,363,"Secretaría de Agricultura, Ganadería y Pesca",6242.13184156
+2023-09-01,363,"Secretaría de Agricultura, Ganadería y Pesca",12828.026532060001
+2023-10-01,363,"Secretaría de Agricultura, Ganadería y Pesca",11408.80417236
+2023-11-01,363,"Secretaría de Agricultura, Ganadería y Pesca",14325.43416168
+2023-12-01,363,"Secretaría de Agricultura, Ganadería y Pesca",14445.22880921
+2023-01-01,364,Ministerio de Obras Públicas,5149.39162018
+2023-02-01,364,Ministerio de Obras Públicas,17029.31209463
+2023-03-01,364,Ministerio de Obras Públicas,36514.763553490004
+2023-04-01,364,Ministerio de Obras Públicas,14075.111321459999
+2023-05-01,364,Ministerio de Obras Públicas,34283.61624702
+2023-06-01,364,Ministerio de Obras Públicas,34711.44258011
+2023-07-01,364,Ministerio de Obras Públicas,20129.48798896
+2023-08-01,364,Ministerio de Obras Públicas,43340.29795406
+2023-09-01,364,Ministerio de Obras Públicas,40328.64892144
+2023-10-01,364,Ministerio de Obras Públicas,49819.42206079
+2023-11-01,364,Ministerio de Obras Públicas,42192.02226815
+2023-12-01,364,Ministerio de Obras Públicas,14495.70894664
+2023-01-01,365,Ministerio de Desarrollo Territorial y Hábitat,12427.06455723
+2023-02-01,365,Ministerio de Desarrollo Territorial y Hábitat,14010.73256721
+2023-03-01,365,Ministerio de Desarrollo Territorial y Hábitat,13925.53625788
+2023-04-01,365,Ministerio de Desarrollo Territorial y Hábitat,33919.64078147
+2023-05-01,365,Ministerio de Desarrollo Territorial y Hábitat,19018.314044990002
+2023-06-01,365,Ministerio de Desarrollo Territorial y Hábitat,18207.882097079997
+2023-07-01,365,Ministerio de Desarrollo Territorial y Hábitat,59286.111489860006
+2023-08-01,365,Ministerio de Desarrollo Territorial y Hábitat,8335.101140769999
+2023-09-01,365,Ministerio de Desarrollo Territorial y Hábitat,39606.279774129995
+2023-10-01,365,Ministerio de Desarrollo Territorial y Hábitat,56951.14683722
+2023-11-01,365,Ministerio de Desarrollo Territorial y Hábitat,16883.26454454
+2023-12-01,365,Ministerio de Desarrollo Territorial y Hábitat,3754.68052421
+2023-01-01,368,Secretaría de Comunicación y Prensa,79.85337025
+2023-02-01,368,Secretaría de Comunicación y Prensa,166.15600274
+2023-03-01,368,Secretaría de Comunicación y Prensa,146.77780283
+2023-04-01,368,Secretaría de Comunicación y Prensa,207.5933685
+2023-05-01,368,Secretaría de Comunicación y Prensa,233.29238078
+2023-06-01,368,Secretaría de Comunicación y Prensa,939.780898
+2023-07-01,368,Secretaría de Comunicación y Prensa,625.6485952
+2023-08-01,368,Secretaría de Comunicación y Prensa,381.92848957999996
+2023-09-01,368,Secretaría de Comunicación y Prensa,887.99197194
+2023-10-01,368,Secretaría de Comunicación y Prensa,529.71533892
+2023-11-01,368,Secretaría de Comunicación y Prensa,959.15826746
+2023-12-01,368,Secretaría de Comunicación y Prensa,483.21265739
+2023-01-01,369,Oficina de Presupuesto del Congreso,14.678511630000001
+2023-02-01,369,Oficina de Presupuesto del Congreso,9.4768577
+2023-03-01,369,Oficina de Presupuesto del Congreso,9.13923769
+2023-04-01,369,Oficina de Presupuesto del Congreso,8.72109349
+2023-05-01,369,Oficina de Presupuesto del Congreso,7.720223880000001
+2023-06-01,369,Oficina de Presupuesto del Congreso,9.07888981
+2023-07-01,369,Oficina de Presupuesto del Congreso,5.58532072
+2023-08-01,369,Oficina de Presupuesto del Congreso,22.803132729999998
+2023-09-01,369,Oficina de Presupuesto del Congreso,28.292119080000003
+2023-10-01,369,Oficina de Presupuesto del Congreso,29.673573330000004
+2023-11-01,369,Oficina de Presupuesto del Congreso,28.80839314
+2023-12-01,369,Oficina de Presupuesto del Congreso,153.60153596
+2023-01-01,370,Ministerio de Defensa (Gastos Propios),326.6543815
+2023-02-01,370,Ministerio de Defensa (Gastos Propios),1255.29053667
+2023-03-01,370,Ministerio de Defensa (Gastos Propios),1629.47563626
+2023-04-01,370,Ministerio de Defensa (Gastos Propios),1932.1616580199998
+2023-05-01,370,Ministerio de Defensa (Gastos Propios),1989.9473321
+2023-06-01,370,Ministerio de Defensa (Gastos Propios),2056.16027195
+2023-07-01,370,Ministerio de Defensa (Gastos Propios),1871.54021173
+2023-08-01,370,Ministerio de Defensa (Gastos Propios),1335.52331882
+2023-09-01,370,Ministerio de Defensa (Gastos Propios),3139.5161850599998
+2023-10-01,370,Ministerio de Defensa (Gastos Propios),2760.8956237
+2023-11-01,370,Ministerio de Defensa (Gastos Propios),2541.88729585
+2023-12-01,370,Ministerio de Defensa (Gastos Propios),3688.12453771
+2023-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),88.81342244
+2023-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),353.91250505
+2023-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),981.69535788
+2023-04-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),234.68127356
+2023-05-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),247.30023035
+2023-06-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),328.83171294
+2023-07-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),480.19590158000005
+2023-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),257.834574
+2023-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2134.0165982000003
+2023-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),523.78003042
+2023-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),427.89720094
+2023-12-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),5952.05838445
+2023-01-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),141.69483003
+2023-02-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),163.60464037
+2023-03-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),196.53478978
+2023-04-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),190.80812671
+2023-05-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),209.18176579000001
+2023-06-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),378.3110942
+2023-07-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),241.54895947
+2023-08-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),286.41344824000004
+2023-09-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),409.56464193
+2023-10-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),343.36553495
+2023-11-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),423.47890757
+2023-12-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),844.1490459
+2023-01-01,374,Estado Mayor General del Ejército Argentino,16713.98493821
+2023-02-01,374,Estado Mayor General del Ejército Argentino,18052.43673407
+2023-03-01,374,Estado Mayor General del Ejército Argentino,24423.31749699
+2023-04-01,374,Estado Mayor General del Ejército Argentino,22721.56093964
+2023-05-01,374,Estado Mayor General del Ejército Argentino,24241.35919658
+2023-06-01,374,Estado Mayor General del Ejército Argentino,36121.39225997
+2023-07-01,374,Estado Mayor General del Ejército Argentino,32506.53431501
+2023-08-01,374,Estado Mayor General del Ejército Argentino,35743.49101238
+2023-09-01,374,Estado Mayor General del Ejército Argentino,41602.34719979
+2023-10-01,374,Estado Mayor General del Ejército Argentino,45850.13979078
+2023-11-01,374,Estado Mayor General del Ejército Argentino,50993.22766676
+2023-12-01,374,Estado Mayor General del Ejército Argentino,94538.31768196
+2023-01-01,375,Gendarmería Nacional,18065.01389854
+2023-02-01,375,Gendarmería Nacional,18629.10404361
+2023-03-01,375,Gendarmería Nacional,23987.76822983
+2023-04-01,375,Gendarmería Nacional,23509.39175994
+2023-05-01,375,Gendarmería Nacional,23746.39373358
+2023-06-01,375,Gendarmería Nacional,35115.00805795
+2023-07-01,375,Gendarmería Nacional,31253.38522943
+2023-08-01,375,Gendarmería Nacional,32999.93304237
+2023-09-01,375,Gendarmería Nacional,34642.43107747
+2023-10-01,375,Gendarmería Nacional,38695.72116736
+2023-11-01,375,Gendarmería Nacional,47508.15995324
+2023-12-01,375,Gendarmería Nacional,72471.45440486
+2023-01-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,14.79316174
+2023-02-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.9817791299999999
+2023-03-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,6.31188326
+2023-04-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,7.66222844
+2023-05-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,3.32755633
+2023-06-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1869.29172688
+2023-07-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,3.49633889
+2023-08-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,20.4448641
+2023-09-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,678.14076343
+2023-10-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,11.929574910000001
+2023-11-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,9.0780377
+2023-12-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,31.022997139999998
+2023-01-01,379,Estado Mayor General de la Armada Argentina,8276.65711915
+2023-02-01,379,Estado Mayor General de la Armada Argentina,9649.90145743
+2023-03-01,379,Estado Mayor General de la Armada Argentina,11927.44792817
+2023-04-01,379,Estado Mayor General de la Armada Argentina,12121.88626819
+2023-05-01,379,Estado Mayor General de la Armada Argentina,13156.51802007
+2023-06-01,379,Estado Mayor General de la Armada Argentina,18190.71653035
+2023-07-01,379,Estado Mayor General de la Armada Argentina,16316.45284501
+2023-08-01,379,Estado Mayor General de la Armada Argentina,16636.28777912
+2023-09-01,379,Estado Mayor General de la Armada Argentina,19811.81956797
+2023-10-01,379,Estado Mayor General de la Armada Argentina,22116.82123923
+2023-11-01,379,Estado Mayor General de la Armada Argentina,25097.36795947
+2023-12-01,379,Estado Mayor General de la Armada Argentina,45505.62421236
+2023-01-01,380,Prefectura Naval Argentina,9555.16866731
+2023-02-01,380,Prefectura Naval Argentina,9693.95145259
+2023-03-01,380,Prefectura Naval Argentina,12951.67111733
+2023-04-01,380,Prefectura Naval Argentina,11968.99149088
+2023-05-01,380,Prefectura Naval Argentina,12349.81869947
+2023-06-01,380,Prefectura Naval Argentina,18692.874028219998
+2023-07-01,380,Prefectura Naval Argentina,16275.85807801
+2023-08-01,380,Prefectura Naval Argentina,17179.80965919
+2023-09-01,380,Prefectura Naval Argentina,19999.39644728
+2023-10-01,380,Prefectura Naval Argentina,19764.10879329
+2023-11-01,380,Prefectura Naval Argentina,22215.71171393
+2023-12-01,380,Prefectura Naval Argentina,41702.77706396
+2023-01-01,381,Estado Mayor General de la Fuerza Aérea Argentina,6471.18280613
+2023-02-01,381,Estado Mayor General de la Fuerza Aérea Argentina,7429.22487241
+2023-03-01,381,Estado Mayor General de la Fuerza Aérea Argentina,10998.35456448
+2023-04-01,381,Estado Mayor General de la Fuerza Aérea Argentina,9317.06920689
+2023-05-01,381,Estado Mayor General de la Fuerza Aérea Argentina,9707.09284543
+2023-06-01,381,Estado Mayor General de la Fuerza Aérea Argentina,18690.23043961
+2023-07-01,381,Estado Mayor General de la Fuerza Aérea Argentina,11962.844847370001
+2023-08-01,381,Estado Mayor General de la Fuerza Aérea Argentina,14201.06562525
+2023-09-01,381,Estado Mayor General de la Fuerza Aérea Argentina,20780.11735744
+2023-10-01,381,Estado Mayor General de la Fuerza Aérea Argentina,17009.61056606
+2023-11-01,381,Estado Mayor General de la Fuerza Aérea Argentina,19126.757146
+2023-12-01,381,Estado Mayor General de la Fuerza Aérea Argentina,41112.06415732
+2023-01-01,382,Policía de Seguridad Aeroportuaria,2058.54217471
+2023-02-01,382,Policía de Seguridad Aeroportuaria,2390.79425382
+2023-03-01,382,Policía de Seguridad Aeroportuaria,3264.33461127
+2023-04-01,382,Policía de Seguridad Aeroportuaria,2835.54932194
+2023-05-01,382,Policía de Seguridad Aeroportuaria,2478.85049766
+2023-06-01,382,Policía de Seguridad Aeroportuaria,4505.32620799
+2023-07-01,382,Policía de Seguridad Aeroportuaria,3916.30425076
+2023-08-01,382,Policía de Seguridad Aeroportuaria,3827.3539799
+2023-09-01,382,Policía de Seguridad Aeroportuaria,4979.6221102
+2023-10-01,382,Policía de Seguridad Aeroportuaria,4358.16671165
+2023-11-01,382,Policía de Seguridad Aeroportuaria,6196.18819018
+2023-12-01,382,Policía de Seguridad Aeroportuaria,10898.54728614
+2023-01-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",136.71662121
+2023-02-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",99.32142082
+2023-03-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",169.47450768
+2023-04-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",112.79902274
+2023-05-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",150.67873297
+2023-06-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",192.61356312
+2023-07-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",164.00361295
+2023-08-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",248.44782256
+2023-09-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",240.984048
+2023-10-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",314.61957845
+2023-11-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",461.37919411
+2023-12-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",1064.98853144
+2023-01-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",5315.11284329
+2023-02-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",554.03897696
+2023-03-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",12110.35005807
+2023-04-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",6141.24067695
+2023-05-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",653.24148262
+2023-06-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",10970.152117149999
+2023-07-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",382.46204937
+2023-08-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",6362.09587982
+2023-09-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",11249.009889670002
+2023-10-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",7399.24925226
+2023-11-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",8337.96959012
+2023-12-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",9572.03097748
+2023-01-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),28.7928986
+2023-02-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),52.5513051
+2023-03-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),74.9021613
+2023-04-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),60.10694648
+2023-05-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),64.55016875
+2023-06-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),92.38077439
+2023-07-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),93.10676319
+2023-08-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),121.72163048
+2023-09-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),141.61297132
+2023-10-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),172.37749132
+2023-11-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),158.70980266
+2023-12-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),296.75718465
+2023-01-01,450,Instituto Geográfico Nacional,70.69660984
+2023-02-01,450,Instituto Geográfico Nacional,90.27991336
+2023-03-01,450,Instituto Geográfico Nacional,104.62084819
+2023-04-01,450,Instituto Geográfico Nacional,100.3774816
+2023-05-01,450,Instituto Geográfico Nacional,131.15576251
+2023-06-01,450,Instituto Geográfico Nacional,181.64774882
+2023-07-01,450,Instituto Geográfico Nacional,131.8735582
+2023-08-01,450,Instituto Geográfico Nacional,173.91775462
+2023-09-01,450,Instituto Geográfico Nacional,204.6123504
+2023-10-01,450,Instituto Geográfico Nacional,197.74633096
+2023-11-01,450,Instituto Geográfico Nacional,237.23362502
+2023-12-01,450,Instituto Geográfico Nacional,559.97168601
+2023-01-01,452,Servicio Meteorológico Nacional,239.56588613
+2023-02-01,452,Servicio Meteorológico Nacional,58.88619774
+2023-03-01,452,Servicio Meteorológico Nacional,772.83995432
+2023-04-01,452,Servicio Meteorológico Nacional,250.47206809
+2023-05-01,452,Servicio Meteorológico Nacional,392.4675398
+2023-06-01,452,Servicio Meteorológico Nacional,1000.1378141199999
+2023-07-01,452,Servicio Meteorológico Nacional,526.11944799
+2023-08-01,452,Servicio Meteorológico Nacional,415.59934507
+2023-09-01,452,Servicio Meteorológico Nacional,1848.79371984
+2023-10-01,452,Servicio Meteorológico Nacional,430.86836725
+2023-11-01,452,Servicio Meteorológico Nacional,1456.03632243
+2023-12-01,452,Servicio Meteorológico Nacional,2162.48542544
+2023-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,21417.48610161
+2023-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,21850.43862178
+2023-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,29882.58001632
+2023-04-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,30037.55759036
+2023-05-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,30455.64458032
+2023-06-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,47448.81036674
+2023-07-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,44771.59991785
+2023-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,46156.973869710004
+2023-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,46411.71716802
+2023-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,46697.94370841
+2023-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,70730.85101314
+2023-12-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,106691.77402592
+2023-01-01,602,Comisión Nacional de Valores,171.46611084
+2023-02-01,602,Comisión Nacional de Valores,206.44674793
+2023-03-01,602,Comisión Nacional de Valores,244.43767806
+2023-04-01,602,Comisión Nacional de Valores,275.14534388
+2023-05-01,602,Comisión Nacional de Valores,266.30928067
+2023-06-01,602,Comisión Nacional de Valores,424.66819847
+2023-07-01,602,Comisión Nacional de Valores,292.09248551
+2023-08-01,602,Comisión Nacional de Valores,336.97708588
+2023-09-01,602,Comisión Nacional de Valores,384.67583565
+2023-10-01,602,Comisión Nacional de Valores,442.79769333999997
+2023-11-01,602,Comisión Nacional de Valores,363.63245656
+2023-12-01,602,Comisión Nacional de Valores,1016.29059858
+2023-01-01,603,Superintendencia de Seguros de la Nación,279.07367174
+2023-02-01,603,Superintendencia de Seguros de la Nación,133.78241272
+2023-03-01,603,Superintendencia de Seguros de la Nación,1008.0846495000001
+2023-04-01,603,Superintendencia de Seguros de la Nación,26.57337257
+2023-05-01,603,Superintendencia de Seguros de la Nación,921.52602956
+2023-06-01,603,Superintendencia de Seguros de la Nación,1155.23620553
+2023-07-01,603,Superintendencia de Seguros de la Nación,487.98355538
+2023-08-01,603,Superintendencia de Seguros de la Nación,755.42836258
+2023-09-01,603,Superintendencia de Seguros de la Nación,1364.4157797999999
+2023-10-01,603,Superintendencia de Seguros de la Nación,705.5948168699999
+2023-11-01,603,Superintendencia de Seguros de la Nación,1320.72442943
+2023-12-01,603,Superintendencia de Seguros de la Nación,2086.5292320500002
+2023-01-01,604,Dirección Nacional de Vialidad,4620.08456546
+2023-02-01,604,Dirección Nacional de Vialidad,22244.44202348
+2023-03-01,604,Dirección Nacional de Vialidad,45336.30045773
+2023-04-01,604,Dirección Nacional de Vialidad,33804.48301104
+2023-05-01,604,Dirección Nacional de Vialidad,31716.0439217
+2023-06-01,604,Dirección Nacional de Vialidad,50075.67396469
+2023-07-01,604,Dirección Nacional de Vialidad,13138.7052152
+2023-08-01,604,Dirección Nacional de Vialidad,43369.47001815
+2023-09-01,604,Dirección Nacional de Vialidad,55164.410752949996
+2023-10-01,604,Dirección Nacional de Vialidad,51612.9675617
+2023-11-01,604,Dirección Nacional de Vialidad,37152.992557800004
+2023-12-01,604,Dirección Nacional de Vialidad,60742.64039225
+2023-01-01,606,Instituto Nacional de Tecnología Agropecuaria,96.27160780999999
+2023-02-01,606,Instituto Nacional de Tecnología Agropecuaria,5538.92947947
+2023-03-01,606,Instituto Nacional de Tecnología Agropecuaria,4127.36893284
+2023-04-01,606,Instituto Nacional de Tecnología Agropecuaria,3433.27354898
+2023-05-01,606,Instituto Nacional de Tecnología Agropecuaria,6210.75916231
+2023-06-01,606,Instituto Nacional de Tecnología Agropecuaria,9112.13910701
+2023-07-01,606,Instituto Nacional de Tecnología Agropecuaria,6779.68418429
+2023-08-01,606,Instituto Nacional de Tecnología Agropecuaria,7409.94187352
+2023-09-01,606,Instituto Nacional de Tecnología Agropecuaria,9341.90475466
+2023-10-01,606,Instituto Nacional de Tecnología Agropecuaria,5562.41710714
+2023-11-01,606,Instituto Nacional de Tecnología Agropecuaria,11561.88834847
+2023-12-01,606,Instituto Nacional de Tecnología Agropecuaria,17563.66814038
+2023-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,183.06039248
+2023-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,244.06771425
+2023-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,289.02299641
+2023-04-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,238.01751767
+2023-05-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,283.4815426
+2023-06-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,634.65592173
+2023-07-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,156.54656709
+2023-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,663.57139135
+2023-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,706.72368442
+2023-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,543.7775882
+2023-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,693.4050918300001
+2023-12-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1461.56795833
+2023-01-01,608,Instituto Nacional de Tecnología Industrial,982.07520229
+2023-02-01,608,Instituto Nacional de Tecnología Industrial,1067.62454345
+2023-03-01,608,Instituto Nacional de Tecnología Industrial,2002.35763328
+2023-04-01,608,Instituto Nacional de Tecnología Industrial,1095.98488789
+2023-05-01,608,Instituto Nacional de Tecnología Industrial,1880.2926897
+2023-06-01,608,Instituto Nacional de Tecnología Industrial,3477.59276922
+2023-07-01,608,Instituto Nacional de Tecnología Industrial,1643.30388199
+2023-08-01,608,Instituto Nacional de Tecnología Industrial,3024.95560793
+2023-09-01,608,Instituto Nacional de Tecnología Industrial,2901.44679594
+2023-10-01,608,Instituto Nacional de Tecnología Industrial,2899.78916874
+2023-11-01,608,Instituto Nacional de Tecnología Industrial,3040.44315614
+2023-12-01,608,Instituto Nacional de Tecnología Industrial,7054.3613271
+2023-01-01,609,Instituto Nacional de Vitivinicultura,202.72691504
+2023-02-01,609,Instituto Nacional de Vitivinicultura,242.72542921
+2023-03-01,609,Instituto Nacional de Vitivinicultura,267.35378846
+2023-04-01,609,Instituto Nacional de Vitivinicultura,259.39140977
+2023-05-01,609,Instituto Nacional de Vitivinicultura,377.74178474
+2023-06-01,609,Instituto Nacional de Vitivinicultura,504.35280332
+2023-07-01,609,Instituto Nacional de Vitivinicultura,359.84091994
+2023-08-01,609,Instituto Nacional de Vitivinicultura,438.42411821999997
+2023-09-01,609,Instituto Nacional de Vitivinicultura,524.40325634
+2023-10-01,609,Instituto Nacional de Vitivinicultura,556.22879733
+2023-11-01,609,Instituto Nacional de Vitivinicultura,571.53264512
+2023-12-01,609,Instituto Nacional de Vitivinicultura,1106.27417589
+2023-01-01,612,Tribunal de Tasaciones de la Nación,41.360014920000005
+2023-02-01,612,Tribunal de Tasaciones de la Nación,49.14485176
+2023-03-01,612,Tribunal de Tasaciones de la Nación,55.99293463
+2023-04-01,612,Tribunal de Tasaciones de la Nación,54.53317494
+2023-05-01,612,Tribunal de Tasaciones de la Nación,44.39096377
+2023-06-01,612,Tribunal de Tasaciones de la Nación,119.48536302000001
+2023-07-01,612,Tribunal de Tasaciones de la Nación,75.54048377
+2023-08-01,612,Tribunal de Tasaciones de la Nación,86.63456867
+2023-09-01,612,Tribunal de Tasaciones de la Nación,106.10611555
+2023-10-01,612,Tribunal de Tasaciones de la Nación,113.74487596
+2023-11-01,612,Tribunal de Tasaciones de la Nación,104.94889626
+2023-12-01,612,Tribunal de Tasaciones de la Nación,234.24692922
+2023-01-01,613,Ente Nacional de Obras Hídricas de Saneamiento,2057.87233083
+2023-02-01,613,Ente Nacional de Obras Hídricas de Saneamiento,4421.27205041
+2023-03-01,613,Ente Nacional de Obras Hídricas de Saneamiento,7963.02564312
+2023-04-01,613,Ente Nacional de Obras Hídricas de Saneamiento,5481.23085138
+2023-05-01,613,Ente Nacional de Obras Hídricas de Saneamiento,6146.66997009
+2023-06-01,613,Ente Nacional de Obras Hídricas de Saneamiento,6808.99524871
+2023-07-01,613,Ente Nacional de Obras Hídricas de Saneamiento,4726.55039153
+2023-08-01,613,Ente Nacional de Obras Hídricas de Saneamiento,4511.00784372
+2023-09-01,613,Ente Nacional de Obras Hídricas de Saneamiento,9113.89077839
+2023-10-01,613,Ente Nacional de Obras Hídricas de Saneamiento,8202.28335829
+2023-11-01,613,Ente Nacional de Obras Hídricas de Saneamiento,8368.16255142
+2023-12-01,613,Ente Nacional de Obras Hídricas de Saneamiento,5122.3119943599995
+2023-01-01,614,Instituto Nacional de Semillas,55.71565779
+2023-02-01,614,Instituto Nacional de Semillas,159.45608929
+2023-03-01,614,Instituto Nacional de Semillas,213.21460989
+2023-04-01,614,Instituto Nacional de Semillas,137.60773191
+2023-05-01,614,Instituto Nacional de Semillas,265.20544275000003
+2023-06-01,614,Instituto Nacional de Semillas,363.53969285
+2023-07-01,614,Instituto Nacional de Semillas,167.86895037
+2023-08-01,614,Instituto Nacional de Semillas,299.87396323
+2023-09-01,614,Instituto Nacional de Semillas,349.70142568
+2023-10-01,614,Instituto Nacional de Semillas,313.82433007000003
+2023-11-01,614,Instituto Nacional de Semillas,400.1248578
+2023-12-01,614,Instituto Nacional de Semillas,1202.82401168
+2023-01-01,620,Tribunal Fiscal de la Nación,137.8849566
+2023-02-01,620,Tribunal Fiscal de la Nación,151.73852657999998
+2023-03-01,620,Tribunal Fiscal de la Nación,195.19807136
+2023-04-01,620,Tribunal Fiscal de la Nación,168.44300616
+2023-05-01,620,Tribunal Fiscal de la Nación,275.45635183999997
+2023-06-01,620,Tribunal Fiscal de la Nación,366.69407402
+2023-07-01,620,Tribunal Fiscal de la Nación,276.03993305
+2023-08-01,620,Tribunal Fiscal de la Nación,302.37229377999995
+2023-09-01,620,Tribunal Fiscal de la Nación,375.29211279
+2023-10-01,620,Tribunal Fiscal de la Nación,441.44779511999997
+2023-11-01,620,Tribunal Fiscal de la Nación,402.6262805
+2023-12-01,620,Tribunal Fiscal de la Nación,721.09825783
+2023-01-01,622,Instituto Nacional de la Propiedad Industrial,108.97132515
+2023-02-01,622,Instituto Nacional de la Propiedad Industrial,80.12603475
+2023-03-01,622,Instituto Nacional de la Propiedad Industrial,317.79061727
+2023-04-01,622,Instituto Nacional de la Propiedad Industrial,221.20116299999998
+2023-05-01,622,Instituto Nacional de la Propiedad Industrial,223.01021199000002
+2023-06-01,622,Instituto Nacional de la Propiedad Industrial,384.97134274
+2023-07-01,622,Instituto Nacional de la Propiedad Industrial,300.530915
+2023-08-01,622,Instituto Nacional de la Propiedad Industrial,329.69788803
+2023-09-01,622,Instituto Nacional de la Propiedad Industrial,446.57274934000003
+2023-10-01,622,Instituto Nacional de la Propiedad Industrial,395.6461822
+2023-11-01,622,Instituto Nacional de la Propiedad Industrial,233.50439605
+2023-12-01,622,Instituto Nacional de la Propiedad Industrial,1225.93861462
+2023-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,1759.71805669
+2023-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,2797.47951014
+2023-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,3777.64386219
+2023-04-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,3267.43112807
+2023-05-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,4611.43795664
+2023-06-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,6314.17120624
+2023-07-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,4103.89495059
+2023-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,3640.71338833
+2023-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,8161.0211734800005
+2023-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,9990.52312949
+2023-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,5508.59961966
+2023-12-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,14311.82732891
+2023-01-01,624,Servicio Geológico Minero Argentino,118.9396924
+2023-02-01,624,Servicio Geológico Minero Argentino,176.50374011
+2023-03-01,624,Servicio Geológico Minero Argentino,195.4862644
+2023-04-01,624,Servicio Geológico Minero Argentino,165.08604159
+2023-05-01,624,Servicio Geológico Minero Argentino,316.63345385
+2023-06-01,624,Servicio Geológico Minero Argentino,363.4950992
+2023-07-01,624,Servicio Geológico Minero Argentino,235.14450952
+2023-08-01,624,Servicio Geológico Minero Argentino,295.77126431
+2023-09-01,624,Servicio Geológico Minero Argentino,355.61440963
+2023-10-01,624,Servicio Geológico Minero Argentino,383.27637459
+2023-11-01,624,Servicio Geológico Minero Argentino,416.81681774
+2023-12-01,624,Servicio Geológico Minero Argentino,660.15744114
+2023-01-01,651,Ente Nacional Regulador del Gas,760.66754323
+2023-02-01,651,Ente Nacional Regulador del Gas,855.79629247
+2023-03-01,651,Ente Nacional Regulador del Gas,1022.82527878
+2023-04-01,651,Ente Nacional Regulador del Gas,965.16045509
+2023-05-01,651,Ente Nacional Regulador del Gas,1124.41782167
+2023-06-01,651,Ente Nacional Regulador del Gas,1623.45115794
+2023-07-01,651,Ente Nacional Regulador del Gas,1351.05229505
+2023-08-01,651,Ente Nacional Regulador del Gas,1347.8483006000001
+2023-09-01,651,Ente Nacional Regulador del Gas,1809.6788004
+2023-10-01,651,Ente Nacional Regulador del Gas,2015.82854971
+2023-11-01,651,Ente Nacional Regulador del Gas,1779.09847305
+2023-12-01,651,Ente Nacional Regulador del Gas,4336.18173117
+2023-01-01,652,Ente Nacional Regulador de la Electricidad,174.52431737
+2023-02-01,652,Ente Nacional Regulador de la Electricidad,137.60440809
+2023-03-01,652,Ente Nacional Regulador de la Electricidad,533.5569267000001
+2023-04-01,652,Ente Nacional Regulador de la Electricidad,163.74878834
+2023-05-01,652,Ente Nacional Regulador de la Electricidad,318.06805107
+2023-06-01,652,Ente Nacional Regulador de la Electricidad,397.0181302
+2023-07-01,652,Ente Nacional Regulador de la Electricidad,306.60087296
+2023-08-01,652,Ente Nacional Regulador de la Electricidad,247.66977034
+2023-09-01,652,Ente Nacional Regulador de la Electricidad,573.1477326300001
+2023-10-01,652,Ente Nacional Regulador de la Electricidad,432.02794973
+2023-11-01,652,Ente Nacional Regulador de la Electricidad,465.4578714
+2023-12-01,652,Ente Nacional Regulador de la Electricidad,808.19770398
+2023-01-01,656,Organismo Regulador de Seguridad de Presas,39.97999786
+2023-02-01,656,Organismo Regulador de Seguridad de Presas,39.07758624
+2023-03-01,656,Organismo Regulador de Seguridad de Presas,43.86598764
+2023-04-01,656,Organismo Regulador de Seguridad de Presas,43.06850944
+2023-05-01,656,Organismo Regulador de Seguridad de Presas,45.59178807
+2023-06-01,656,Organismo Regulador de Seguridad de Presas,70.28112025
+2023-07-01,656,Organismo Regulador de Seguridad de Presas,52.48405286
+2023-08-01,656,Organismo Regulador de Seguridad de Presas,56.5744853
+2023-09-01,656,Organismo Regulador de Seguridad de Presas,141.9267948
+2023-10-01,656,Organismo Regulador de Seguridad de Presas,115.01566335
+2023-11-01,656,Organismo Regulador de Seguridad de Presas,105.71667918
+2023-12-01,656,Organismo Regulador de Seguridad de Presas,180.78198807
+2023-01-01,661,Comisión Nacional de Regulación del Transporte,453.35454687
+2023-02-01,661,Comisión Nacional de Regulación del Transporte,449.40463831999995
+2023-03-01,661,Comisión Nacional de Regulación del Transporte,903.71083963
+2023-04-01,661,Comisión Nacional de Regulación del Transporte,652.87863969
+2023-05-01,661,Comisión Nacional de Regulación del Transporte,1263.82584621
+2023-06-01,661,Comisión Nacional de Regulación del Transporte,1387.25511665
+2023-07-01,661,Comisión Nacional de Regulación del Transporte,790.9575971400001
+2023-08-01,661,Comisión Nacional de Regulación del Transporte,1447.19059014
+2023-09-01,661,Comisión Nacional de Regulación del Transporte,1368.6427853100001
+2023-10-01,661,Comisión Nacional de Regulación del Transporte,1304.94319369
+2023-11-01,661,Comisión Nacional de Regulación del Transporte,1165.60679984
+2023-12-01,661,Comisión Nacional de Regulación del Transporte,3111.39221287
+2023-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,155.80560331
+2023-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,124.45861792000001
+2023-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,267.79587615
+2023-04-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,157.11218297
+2023-05-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,272.50777709
+2023-06-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,329.49857898
+2023-07-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,239.947898
+2023-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,241.25630329
+2023-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,326.8790923
+2023-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,64.42752695
+2023-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,631.7499506199999
+2023-12-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,665.1865951
+2023-01-01,669,Administración Nacional de Aviación Civil,678.21163056
+2023-02-01,669,Administración Nacional de Aviación Civil,729.34188799
+2023-03-01,669,Administración Nacional de Aviación Civil,975.94295151
+2023-04-01,669,Administración Nacional de Aviación Civil,853.29795198
+2023-05-01,669,Administración Nacional de Aviación Civil,715.7743378499999
+2023-06-01,669,Administración Nacional de Aviación Civil,1859.80813761
+2023-07-01,669,Administración Nacional de Aviación Civil,871.46049912
+2023-08-01,669,Administración Nacional de Aviación Civil,1302.07236831
+2023-09-01,669,Administración Nacional de Aviación Civil,2339.93509869
+2023-10-01,669,Administración Nacional de Aviación Civil,1812.78900298
+2023-11-01,669,Administración Nacional de Aviación Civil,2045.06036569
+2023-12-01,669,Administración Nacional de Aviación Civil,4126.7053073
+2023-01-01,670,Unidad de Información Financiera,116.44272488
+2023-02-01,670,Unidad de Información Financiera,115.15359978
+2023-03-01,670,Unidad de Información Financiera,206.22017481
+2023-04-01,670,Unidad de Información Financiera,163.26899904
+2023-05-01,670,Unidad de Información Financiera,191.03475648999998
+2023-06-01,670,Unidad de Información Financiera,272.90243935
+2023-07-01,670,Unidad de Información Financiera,290.7036022
+2023-08-01,670,Unidad de Información Financiera,251.30491339
+2023-09-01,670,Unidad de Información Financiera,320.79344447
+2023-10-01,670,Unidad de Información Financiera,315.41340495
+2023-11-01,670,Unidad de Información Financiera,382.51781568999996
+2023-12-01,670,Unidad de Información Financiera,647.35353202
+2023-01-01,671,Junta de Seguridad en el Transporte,153.91494812
+2023-02-01,671,Junta de Seguridad en el Transporte,253.73718258
+2023-03-01,671,Junta de Seguridad en el Transporte,586.33463534
+2023-04-01,671,Junta de Seguridad en el Transporte,262.60153998
+2023-05-01,671,Junta de Seguridad en el Transporte,361.78955870000004
+2023-06-01,671,Junta de Seguridad en el Transporte,567.10787332
+2023-07-01,671,Junta de Seguridad en el Transporte,295.72510123
+2023-08-01,671,Junta de Seguridad en el Transporte,720.47982877
+2023-09-01,671,Junta de Seguridad en el Transporte,804.91838893
+2023-10-01,671,Junta de Seguridad en el Transporte,888.44640253
+2023-11-01,671,Junta de Seguridad en el Transporte,1476.2727108499998
+2023-12-01,671,Junta de Seguridad en el Transporte,1305.90205856
+2023-01-01,672,Ente Nacional de Control y Gestión de la Vía Navegable,0.0
+2023-05-01,672,Ente Nacional de Control y Gestión de la Vía Navegable,0.0
+2023-08-01,672,Ente Nacional de Control y Gestión de la Vía Navegable,0.0
+2023-01-01,802,Fondo Nacional de las Artes,35.52862101
+2023-02-01,802,Fondo Nacional de las Artes,48.83756788
+2023-03-01,802,Fondo Nacional de las Artes,58.421486370000004
+2023-04-01,802,Fondo Nacional de las Artes,26.82333706
+2023-05-01,802,Fondo Nacional de las Artes,68.65396172
+2023-06-01,802,Fondo Nacional de las Artes,170.28434318
+2023-07-01,802,Fondo Nacional de las Artes,55.97065322
+2023-08-01,802,Fondo Nacional de las Artes,147.27715258
+2023-09-01,802,Fondo Nacional de las Artes,162.30528681
+2023-10-01,802,Fondo Nacional de las Artes,133.70457527
+2023-11-01,802,Fondo Nacional de las Artes,119.51682747
+2023-12-01,802,Fondo Nacional de las Artes,393.37196637
+2023-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,44.31525685
+2023-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,66.39538275
+2023-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,113.42019123
+2023-04-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,77.62971572000001
+2023-05-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,78.2614927
+2023-06-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,177.65791723
+2023-07-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,82.59546284
+2023-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,163.94073679
+2023-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,181.51063624
+2023-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,164.40458347
+2023-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,115.50591033
+2023-12-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,335.25741946
+2023-01-01,850,Administración Nacional de la Seguridad Social,745826.06788185
+2023-02-01,850,Administración Nacional de la Seguridad Social,727093.90248276
+2023-03-01,850,Administración Nacional de la Seguridad Social,920568.31684449
+2023-04-01,850,Administración Nacional de la Seguridad Social,876019.2413173
+2023-05-01,850,Administración Nacional de la Seguridad Social,900599.48948718
+2023-06-01,850,Administración Nacional de la Seguridad Social,1443569.00226407
+2023-07-01,850,Administración Nacional de la Seguridad Social,1079719.38626447
+2023-08-01,850,Administración Nacional de la Seguridad Social,1132991.55513446
+2023-09-01,850,Administración Nacional de la Seguridad Social,1383208.78404529
+2023-10-01,850,Administración Nacional de la Seguridad Social,1511040.74236343
+2023-11-01,850,Administración Nacional de la Seguridad Social,1570171.28326984
+2023-12-01,850,Administración Nacional de la Seguridad Social,2462389.22313659
+2023-01-01,852,Superintendencia de Riesgos del Trabajo,95.68886589
+2023-02-01,852,Superintendencia de Riesgos del Trabajo,223.23877864
+2023-03-01,852,Superintendencia de Riesgos del Trabajo,230.24806604999998
+2023-04-01,852,Superintendencia de Riesgos del Trabajo,275.98017526
+2023-05-01,852,Superintendencia de Riesgos del Trabajo,258.55669734
+2023-06-01,852,Superintendencia de Riesgos del Trabajo,375.41434214000003
+2023-07-01,852,Superintendencia de Riesgos del Trabajo,323.90924301
+2023-08-01,852,Superintendencia de Riesgos del Trabajo,326.45923296
+2023-09-01,852,Superintendencia de Riesgos del Trabajo,369.02797899
+2023-10-01,852,Superintendencia de Riesgos del Trabajo,429.80602462
+2023-11-01,852,Superintendencia de Riesgos del Trabajo,438.30840994
+2023-12-01,852,Superintendencia de Riesgos del Trabajo,798.58359457
+2023-01-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',164.06424121999999
+2023-02-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',381.69935853
+2023-03-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',337.67257839
+2023-04-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',310.60426927
+2023-05-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',274.17286659
+2023-06-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',704.68134429
+2023-07-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',343.93173075
+2023-08-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',524.30980003
+2023-09-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',783.61112317
+2023-10-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',561.03089798
+2023-11-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',856.64608959
+2023-12-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1429.30525499
+2023-01-01,903,Hospital Nacional Dr. Baldomero Sommer,373.53161256
+2023-02-01,903,Hospital Nacional Dr. Baldomero Sommer,576.00376494
+2023-03-01,903,Hospital Nacional Dr. Baldomero Sommer,817.0564652
+2023-04-01,903,Hospital Nacional Dr. Baldomero Sommer,612.53275421
+2023-05-01,903,Hospital Nacional Dr. Baldomero Sommer,809.29793007
+2023-06-01,903,Hospital Nacional Dr. Baldomero Sommer,1320.67109905
+2023-07-01,903,Hospital Nacional Dr. Baldomero Sommer,763.77976383
+2023-08-01,903,Hospital Nacional Dr. Baldomero Sommer,865.6777805899999
+2023-09-01,903,Hospital Nacional Dr. Baldomero Sommer,1200.78627892
+2023-10-01,903,Hospital Nacional Dr. Baldomero Sommer,1149.00480794
+2023-11-01,903,Hospital Nacional Dr. Baldomero Sommer,1641.55393257
+2023-12-01,903,Hospital Nacional Dr. Baldomero Sommer,2269.67048252
+2023-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",485.95199252000003
+2023-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",519.06306346
+2023-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",949.21912269
+2023-04-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",758.54922817
+2023-05-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",837.61735205
+2023-06-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",1283.21592131
+2023-07-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",953.67806728
+2023-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",1178.79498667
+2023-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",1228.92244886
+2023-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",1491.94311903
+2023-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",1173.28994209
+2023-12-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2950.69640717
+2023-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,160.66268451
+2023-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,190.46798248
+2023-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,402.83707227
+2023-04-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,233.21080331000002
+2023-05-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,438.26153489
+2023-06-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,779.57680105
+2023-07-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,225.3993647
+2023-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,436.98119605
+2023-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,532.20568798
+2023-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,498.90552814
+2023-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1358.44613766
+2023-12-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2224.71871737
+2023-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,497.07354995
+2023-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,522.93573957
+2023-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,1103.71871472
+2023-04-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,739.33297556
+2023-05-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,889.42077236
+2023-06-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,1321.44155653
+2023-07-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,798.05336442
+2023-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,948.10121093
+2023-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,1504.12848375
+2023-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,1196.84098368
+2023-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,1566.6587772
+2023-12-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3114.70034832
+2023-01-01,908,Hospital Nacional Profesor Alejandro Posadas,2181.93265134
+2023-02-01,908,Hospital Nacional Profesor Alejandro Posadas,3242.42387909
+2023-03-01,908,Hospital Nacional Profesor Alejandro Posadas,4185.78044083
+2023-04-01,908,Hospital Nacional Profesor Alejandro Posadas,3098.72810578
+2023-05-01,908,Hospital Nacional Profesor Alejandro Posadas,3697.20212951
+2023-06-01,908,Hospital Nacional Profesor Alejandro Posadas,5707.99863439
+2023-07-01,908,Hospital Nacional Profesor Alejandro Posadas,4410.04304818
+2023-08-01,908,Hospital Nacional Profesor Alejandro Posadas,4748.40804531
+2023-09-01,908,Hospital Nacional Profesor Alejandro Posadas,5957.99569644
+2023-10-01,908,Hospital Nacional Profesor Alejandro Posadas,5625.3474888499995
+2023-11-01,908,Hospital Nacional Profesor Alejandro Posadas,7083.09327053
+2023-12-01,908,Hospital Nacional Profesor Alejandro Posadas,10798.70341285
+2023-01-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',188.08293942
+2023-02-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',568.19678716
+2023-03-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',813.85643287
+2023-04-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',453.56431853
+2023-05-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',673.88899005
+2023-06-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1157.7082891100001
+2023-07-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',729.7990301
+2023-08-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1022.7735645399999
+2023-09-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',932.93308887
+2023-10-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',853.72532791
+2023-11-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1116.04224002
+2023-12-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',2024.29004931
+2023-01-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,160.36439423
+2023-02-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,209.47852478
+2023-03-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,234.6925035
+2023-04-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,215.30196889
+2023-05-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,230.14498006
+2023-06-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,395.03774455
+2023-07-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,270.05086558
+2023-08-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,309.24027341
+2023-09-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,428.94752872
+2023-10-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,379.07119016
+2023-11-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,493.92452465
+2023-12-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,823.7385045
+2023-01-01,914,Superintendencia de Servicios de Salud,539.35171146
+2023-02-01,914,Superintendencia de Servicios de Salud,2555.54574197
+2023-03-01,914,Superintendencia de Servicios de Salud,5004.76215832
+2023-04-01,914,Superintendencia de Servicios de Salud,922.22675511
+2023-05-01,914,Superintendencia de Servicios de Salud,6763.655073559999
+2023-06-01,914,Superintendencia de Servicios de Salud,4350.75839181
+2023-07-01,914,Superintendencia de Servicios de Salud,1304.92382101
+2023-08-01,914,Superintendencia de Servicios de Salud,6310.963181589999
+2023-09-01,914,Superintendencia de Servicios de Salud,25462.0781119
+2023-10-01,914,Superintendencia de Servicios de Salud,1679.64671061
+2023-11-01,914,Superintendencia de Servicios de Salud,19557.427981509998
+2023-12-01,914,Superintendencia de Servicios de Salud,11772.82938089
+2023-01-01,915,Instituto Nacional del Cáncer (INC),46.38341963
+2023-02-01,915,Instituto Nacional del Cáncer (INC),19.40235183
+2023-03-01,915,Instituto Nacional del Cáncer (INC),104.58870198
+2023-04-01,915,Instituto Nacional del Cáncer (INC),68.20807709
+2023-05-01,915,Instituto Nacional del Cáncer (INC),101.53358466
+2023-06-01,915,Instituto Nacional del Cáncer (INC),347.03806623
+2023-07-01,915,Instituto Nacional del Cáncer (INC),30.38635985
+2023-08-01,915,Instituto Nacional del Cáncer (INC),98.0019997
+2023-09-01,915,Instituto Nacional del Cáncer (INC),388.9545468
+2023-10-01,915,Instituto Nacional del Cáncer (INC),126.87355755
+2023-11-01,915,Instituto Nacional del Cáncer (INC),1258.78357366
+2023-12-01,915,Instituto Nacional del Cáncer (INC),289.97344228
+2023-01-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),11.58073619
+2023-02-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),6.78313275
+2023-03-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),27.228720709999997
+2023-04-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),21.08589869
+2023-05-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),11.45356545
+2023-06-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),84.73624491
+2023-07-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),24.43376195
+2023-08-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),23.90765576
+2023-09-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),146.8123705
+2023-10-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),24.299628
+2023-11-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),94.49823773
+2023-12-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),54.85309821
+2023-01-01,917,Agencia Nacional de Discapacidad,46076.49392577
+2023-02-01,917,Agencia Nacional de Discapacidad,20401.09867061
+2023-03-01,917,Agencia Nacional de Discapacidad,136638.2932576
+2023-04-01,917,Agencia Nacional de Discapacidad,54309.81605813
+2023-05-01,917,Agencia Nacional de Discapacidad,98162.29843887
+2023-06-01,917,Agencia Nacional de Discapacidad,122873.78618982
+2023-07-01,917,Agencia Nacional de Discapacidad,91537.99078867
+2023-08-01,917,Agencia Nacional de Discapacidad,105937.29920086
+2023-09-01,917,Agencia Nacional de Discapacidad,143749.5919414
+2023-10-01,917,Agencia Nacional de Discapacidad,134249.00384062
+2023-11-01,917,Agencia Nacional de Discapacidad,72246.1452521
+2023-12-01,917,Agencia Nacional de Discapacidad,303096.13394754997

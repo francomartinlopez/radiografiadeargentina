@@ -1,0 +1,1461 @@
+fecha,servicio_id,servicio_desc,devengado
+2025-01-01,1,Auditoría General de la Nación,5621.5850282599995
+2025-02-01,1,Auditoría General de la Nación,5303.92539816
+2025-03-01,1,Auditoría General de la Nación,5410.9033585
+2025-04-01,1,Auditoría General de la Nación,5934.3434619399995
+2025-05-01,1,Auditoría General de la Nación,5518.64498603
+2025-06-01,1,Auditoría General de la Nación,8655.67117638
+2025-07-01,1,Auditoría General de la Nación,5716.95278189
+2025-08-01,1,Auditoría General de la Nación,5495.01051698
+2025-09-01,1,Auditoría General de la Nación,6510.5611788100005
+2025-10-01,1,Auditoría General de la Nación,6022.91710334
+2025-11-01,1,Auditoría General de la Nación,5629.1852437
+2025-12-01,1,Auditoría General de la Nación,9432.89187636
+2025-01-01,101,Fundación Miguel Lillo,604.34713044
+2025-02-01,101,Fundación Miguel Lillo,608.43276211
+2025-03-01,101,Fundación Miguel Lillo,702.07459749
+2025-04-01,101,Fundación Miguel Lillo,675.744738
+2025-05-01,101,Fundación Miguel Lillo,706.11746167
+2025-06-01,101,Fundación Miguel Lillo,1057.1861391
+2025-07-01,101,Fundación Miguel Lillo,663.43284122
+2025-08-01,101,Fundación Miguel Lillo,726.2991857
+2025-09-01,101,Fundación Miguel Lillo,731.62038435
+2025-10-01,101,Fundación Miguel Lillo,699.13765552
+2025-11-01,101,Fundación Miguel Lillo,747.92515825
+2025-12-01,101,Fundación Miguel Lillo,1168.1525463
+2025-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,40702.28697513
+2025-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,43670.48741175
+2025-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,45831.40849775
+2025-04-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,44936.05917434
+2025-05-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,46907.249300460004
+2025-06-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,61440.685366770005
+2025-07-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,47089.94127514
+2025-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,50154.76986138
+2025-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,51301.23297415
+2025-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,47149.30072551
+2025-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,49137.38716782
+2025-12-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,73412.26993068
+2025-01-01,105,Comisión Nacional de Energía Atómica,8509.06064021
+2025-02-01,105,Comisión Nacional de Energía Atómica,19154.37881947
+2025-03-01,105,Comisión Nacional de Energía Atómica,16872.89313215
+2025-04-01,105,Comisión Nacional de Energía Atómica,16518.133074459998
+2025-05-01,105,Comisión Nacional de Energía Atómica,13960.3678484
+2025-06-01,105,Comisión Nacional de Energía Atómica,23770.90384634
+2025-07-01,105,Comisión Nacional de Energía Atómica,14486.08815871
+2025-08-01,105,Comisión Nacional de Energía Atómica,14543.30819598
+2025-09-01,105,Comisión Nacional de Energía Atómica,21331.56380975
+2025-10-01,105,Comisión Nacional de Energía Atómica,20729.99653512
+2025-11-01,105,Comisión Nacional de Energía Atómica,18391.85617689
+2025-12-01,105,Comisión Nacional de Energía Atómica,42900.98916227
+2025-01-01,106,Comisión Nacional de Actividades Espaciales,1485.54411298
+2025-02-01,106,Comisión Nacional de Actividades Espaciales,3984.1419461100004
+2025-03-01,106,Comisión Nacional de Actividades Espaciales,4036.39826713
+2025-04-01,106,Comisión Nacional de Actividades Espaciales,3631.85188992
+2025-05-01,106,Comisión Nacional de Actividades Espaciales,6169.6745140699995
+2025-06-01,106,Comisión Nacional de Actividades Espaciales,4730.11431312
+2025-07-01,106,Comisión Nacional de Actividades Espaciales,2749.23371143
+2025-08-01,106,Comisión Nacional de Actividades Espaciales,2631.42456446
+2025-09-01,106,Comisión Nacional de Actividades Espaciales,17384.48277447
+2025-10-01,106,Comisión Nacional de Actividades Espaciales,2657.36472267
+2025-11-01,106,Comisión Nacional de Actividades Espaciales,2167.1214064600003
+2025-12-01,106,Comisión Nacional de Actividades Espaciales,18348.84092898
+2025-01-01,107,Administración de Parques Nacionales,3281.77261655
+2025-02-01,107,Administración de Parques Nacionales,7077.93900525
+2025-03-01,107,Administración de Parques Nacionales,7071.84431935
+2025-04-01,107,Administración de Parques Nacionales,5836.34471554
+2025-05-01,107,Administración de Parques Nacionales,5097.54707734
+2025-06-01,107,Administración de Parques Nacionales,11497.18744018
+2025-07-01,107,Administración de Parques Nacionales,4909.71354039
+2025-08-01,107,Administración de Parques Nacionales,5594.20724371
+2025-09-01,107,Administración de Parques Nacionales,8178.11507693
+2025-10-01,107,Administración de Parques Nacionales,5229.28894698
+2025-11-01,107,Administración de Parques Nacionales,6600.73212875
+2025-12-01,107,Administración de Parques Nacionales,14957.66514964
+2025-01-01,108,Instituto Nacional del Agua,512.05357817
+2025-02-01,108,Instituto Nacional del Agua,549.70045219
+2025-03-01,108,Instituto Nacional del Agua,698.1164932500001
+2025-04-01,108,Instituto Nacional del Agua,609.4623227
+2025-05-01,108,Instituto Nacional del Agua,530.80020309
+2025-06-01,108,Instituto Nacional del Agua,808.12741522
+2025-07-01,108,Instituto Nacional del Agua,502.86982718999997
+2025-08-01,108,Instituto Nacional del Agua,509.53097169
+2025-09-01,108,Instituto Nacional del Agua,746.05964882
+2025-10-01,108,Instituto Nacional del Agua,602.02897925
+2025-11-01,108,Instituto Nacional del Agua,594.2811277
+2025-12-01,108,Instituto Nacional del Agua,907.5549116
+2025-01-01,109,Sindicatura General de la Nación,1485.65877162
+2025-02-01,109,Sindicatura General de la Nación,1607.81171639
+2025-03-01,109,Sindicatura General de la Nación,1717.75182643
+2025-04-01,109,Sindicatura General de la Nación,1569.81298183
+2025-05-01,109,Sindicatura General de la Nación,1654.19402816
+2025-06-01,109,Sindicatura General de la Nación,2514.61409038
+2025-07-01,109,Sindicatura General de la Nación,1620.25394078
+2025-08-01,109,Sindicatura General de la Nación,1754.83313407
+2025-09-01,109,Sindicatura General de la Nación,1706.41065368
+2025-10-01,109,Sindicatura General de la Nación,1634.61156138
+2025-11-01,109,Sindicatura General de la Nación,1691.90204647
+2025-12-01,109,Sindicatura General de la Nación,3947.83406367
+2025-01-01,112,Autoridad Regulatoria Nuclear,1067.80617548
+2025-02-01,112,Autoridad Regulatoria Nuclear,1081.2498438
+2025-03-01,112,Autoridad Regulatoria Nuclear,1407.94203011
+2025-04-01,112,Autoridad Regulatoria Nuclear,1225.79660201
+2025-05-01,112,Autoridad Regulatoria Nuclear,1122.8372387699999
+2025-06-01,112,Autoridad Regulatoria Nuclear,2340.35178856
+2025-07-01,112,Autoridad Regulatoria Nuclear,2231.74931749
+2025-08-01,112,Autoridad Regulatoria Nuclear,1387.34368556
+2025-09-01,112,Autoridad Regulatoria Nuclear,2933.41295024
+2025-10-01,112,Autoridad Regulatoria Nuclear,1339.05057521
+2025-11-01,112,Autoridad Regulatoria Nuclear,1546.48710211
+2025-12-01,112,Autoridad Regulatoria Nuclear,2915.71425685
+2025-01-01,113,Teatro Nacional Cervantes,663.11455843
+2025-02-01,113,Teatro Nacional Cervantes,743.46382986
+2025-03-01,113,Teatro Nacional Cervantes,956.20049812
+2025-04-01,113,Teatro Nacional Cervantes,808.62926128
+2025-05-01,113,Teatro Nacional Cervantes,908.23421335
+2025-06-01,113,Teatro Nacional Cervantes,1268.7177718
+2025-07-01,113,Teatro Nacional Cervantes,851.81735348
+2025-08-01,113,Teatro Nacional Cervantes,881.38014505
+2025-09-01,113,Teatro Nacional Cervantes,1126.3219584
+2025-10-01,113,Teatro Nacional Cervantes,996.40863201
+2025-11-01,113,Teatro Nacional Cervantes,637.68226352
+2025-12-01,113,Teatro Nacional Cervantes,2269.0366267599998
+2025-01-01,114,Instituto Nacional de Asociativismo y Economía Social,581.01911061
+2025-02-01,114,Instituto Nacional de Asociativismo y Economía Social,1008.8548360899999
+2025-03-01,114,Instituto Nacional de Asociativismo y Economía Social,2337.52666283
+2025-04-01,114,Instituto Nacional de Asociativismo y Economía Social,742.1831656
+2025-05-01,114,Instituto Nacional de Asociativismo y Economía Social,1015.07736327
+2025-06-01,114,Instituto Nacional de Asociativismo y Economía Social,2672.66957536
+2025-07-01,114,Instituto Nacional de Asociativismo y Economía Social,670.65609976
+2025-08-01,114,Instituto Nacional de Asociativismo y Economía Social,1030.6656982
+2025-09-01,114,Instituto Nacional de Asociativismo y Economía Social,1882.6312993
+2025-10-01,114,Instituto Nacional de Asociativismo y Economía Social,966.42062634
+2025-11-01,114,Instituto Nacional de Asociativismo y Economía Social,1191.39210191
+2025-12-01,114,Instituto Nacional de Asociativismo y Economía Social,2762.68087486
+2025-01-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1589.40323712
+2025-02-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1505.73666859
+2025-03-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2040.23193634
+2025-04-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1973.96920898
+2025-05-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1988.82643482
+2025-06-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2808.90873501
+2025-07-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2251.10104708
+2025-08-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2007.41151448
+2025-09-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1950.4782702300001
+2025-10-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2486.83568361
+2025-11-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2107.86098565
+2025-12-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',5009.53382925
+2025-01-01,117,Instituto Nacional del Teatro,311.84650608
+2025-02-01,117,Instituto Nacional del Teatro,371.71023916
+2025-03-01,117,Instituto Nacional del Teatro,539.8711220499999
+2025-04-01,117,Instituto Nacional del Teatro,429.57659221000006
+2025-05-01,117,Instituto Nacional del Teatro,348.45014929
+2025-06-01,117,Instituto Nacional del Teatro,635.39403867
+2025-07-01,117,Instituto Nacional del Teatro,311.78551438
+2025-08-01,117,Instituto Nacional del Teatro,236.78218469
+2025-09-01,117,Instituto Nacional del Teatro,276.8020002
+2025-10-01,117,Instituto Nacional del Teatro,275.51437985
+2025-11-01,117,Instituto Nacional del Teatro,397.14276304
+2025-12-01,117,Instituto Nacional del Teatro,927.9470913499999
+2025-01-01,118,Instituto Nacional de Asuntos Indígenas,353.27588796
+2025-02-01,118,Instituto Nacional de Asuntos Indígenas,378.40306881
+2025-03-01,118,Instituto Nacional de Asuntos Indígenas,534.71317964
+2025-04-01,118,Instituto Nacional de Asuntos Indígenas,388.08539077
+2025-05-01,118,Instituto Nacional de Asuntos Indígenas,403.48423081
+2025-06-01,118,Instituto Nacional de Asuntos Indígenas,589.42489095
+2025-07-01,118,Instituto Nacional de Asuntos Indígenas,401.8413512
+2025-08-01,118,Instituto Nacional de Asuntos Indígenas,458.44094501
+2025-09-01,118,Instituto Nacional de Asuntos Indígenas,393.90743184
+2025-10-01,118,Instituto Nacional de Asuntos Indígenas,407.44207413
+2025-11-01,118,Instituto Nacional de Asuntos Indígenas,442.4728432
+2025-12-01,118,Instituto Nacional de Asuntos Indígenas,596.35321984
+2025-01-01,119,Instituto Nacional de Promoción Turística,232.0853048
+2025-02-01,119,Instituto Nacional de Promoción Turística,304.46091558
+2025-03-01,119,Instituto Nacional de Promoción Turística,777.26278589
+2025-04-01,119,Instituto Nacional de Promoción Turística,302.19280097999996
+2025-05-01,119,Instituto Nacional de Promoción Turística,282.97681052
+2025-06-01,119,Instituto Nacional de Promoción Turística,1604.08506532
+2025-07-01,119,Instituto Nacional de Promoción Turística,303.48944716
+2025-08-01,119,Instituto Nacional de Promoción Turística,929.0064959499999
+2025-09-01,119,Instituto Nacional de Promoción Turística,1150.1674536199998
+2025-10-01,119,Instituto Nacional de Promoción Turística,1568.78099066
+2025-11-01,119,Instituto Nacional de Promoción Turística,652.84466407
+2025-12-01,119,Instituto Nacional de Promoción Turística,4058.8169439400003
+2025-01-01,121,Banco Nacional de Datos Genéticos (BNDG),124.02860478000001
+2025-02-01,121,Banco Nacional de Datos Genéticos (BNDG),142.87097691
+2025-03-01,121,Banco Nacional de Datos Genéticos (BNDG),193.14303438
+2025-04-01,121,Banco Nacional de Datos Genéticos (BNDG),117.97193901
+2025-05-01,121,Banco Nacional de Datos Genéticos (BNDG),171.48809353000001
+2025-06-01,121,Banco Nacional de Datos Genéticos (BNDG),151.71330318
+2025-07-01,121,Banco Nacional de Datos Genéticos (BNDG),126.96278862999999
+2025-08-01,121,Banco Nacional de Datos Genéticos (BNDG),0.0
+2025-09-01,121,Banco Nacional de Datos Genéticos (BNDG),250.84970848
+2025-10-01,121,Banco Nacional de Datos Genéticos (BNDG),147.92797905
+2025-11-01,121,Banco Nacional de Datos Genéticos (BNDG),169.84890908
+2025-12-01,121,Banco Nacional de Datos Genéticos (BNDG),528.49782885
+2025-01-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",442.50350928
+2025-02-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1374.15670332
+2025-03-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",2408.40355648
+2025-04-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1045.32115538
+2025-05-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1145.25954058
+2025-06-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",2707.08531856
+2025-07-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",609.27259766
+2025-08-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1092.01040614
+2025-09-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",2478.67766903
+2025-10-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1565.98624738
+2025-11-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1905.42125686
+2025-12-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",2783.38208017
+2025-01-01,200,Registro Nacional de las Personas (RENAPER),4252.7060418500005
+2025-02-01,200,Registro Nacional de las Personas (RENAPER),8806.9537106
+2025-03-01,200,Registro Nacional de las Personas (RENAPER),16043.25483873
+2025-04-01,200,Registro Nacional de las Personas (RENAPER),10257.640044
+2025-05-01,200,Registro Nacional de las Personas (RENAPER),20281.5219457
+2025-06-01,200,Registro Nacional de las Personas (RENAPER),14293.33662432
+2025-07-01,200,Registro Nacional de las Personas (RENAPER),11942.50561021
+2025-08-01,200,Registro Nacional de las Personas (RENAPER),9989.90141722
+2025-09-01,200,Registro Nacional de las Personas (RENAPER),38423.38363443
+2025-10-01,200,Registro Nacional de las Personas (RENAPER),11346.1552574
+2025-11-01,200,Registro Nacional de las Personas (RENAPER),8725.76219527
+2025-12-01,200,Registro Nacional de las Personas (RENAPER),82500.99164929
+2025-01-01,201,Dirección Nacional de Migraciones,8134.49049473
+2025-02-01,201,Dirección Nacional de Migraciones,8970.78745147
+2025-03-01,201,Dirección Nacional de Migraciones,11570.83722479
+2025-04-01,201,Dirección Nacional de Migraciones,10360.39061634
+2025-05-01,201,Dirección Nacional de Migraciones,10355.83433592
+2025-06-01,201,Dirección Nacional de Migraciones,18167.231109
+2025-07-01,201,Dirección Nacional de Migraciones,10450.19929012
+2025-08-01,201,Dirección Nacional de Migraciones,9753.08877426
+2025-09-01,201,Dirección Nacional de Migraciones,13417.54425234
+2025-10-01,201,Dirección Nacional de Migraciones,13252.36219926
+2025-11-01,201,Dirección Nacional de Migraciones,11526.47016987
+2025-12-01,201,Dirección Nacional de Migraciones,27348.44520267
+2025-01-01,203,Agencia Nacional de Seguridad Vial,1310.66143099
+2025-02-01,203,Agencia Nacional de Seguridad Vial,1433.09431577
+2025-03-01,203,Agencia Nacional de Seguridad Vial,1508.5253707900001
+2025-04-01,203,Agencia Nacional de Seguridad Vial,1421.76358702
+2025-05-01,203,Agencia Nacional de Seguridad Vial,1396.76291131
+2025-06-01,203,Agencia Nacional de Seguridad Vial,2360.35469565
+2025-07-01,203,Agencia Nacional de Seguridad Vial,1416.5533157
+2025-08-01,203,Agencia Nacional de Seguridad Vial,116.14135732999999
+2025-09-01,203,Agencia Nacional de Seguridad Vial,2544.7900742
+2025-10-01,203,Agencia Nacional de Seguridad Vial,1704.02470693
+2025-11-01,203,Agencia Nacional de Seguridad Vial,1545.26920131
+2025-12-01,203,Agencia Nacional de Seguridad Vial,2729.29981869
+2025-01-01,205,Agencia de Administración de Bienes del Estado,825.2390549
+2025-02-01,205,Agencia de Administración de Bienes del Estado,745.0336697399999
+2025-03-01,205,Agencia de Administración de Bienes del Estado,1209.34362214
+2025-04-01,205,Agencia de Administración de Bienes del Estado,846.85704101
+2025-05-01,205,Agencia de Administración de Bienes del Estado,942.98938927
+2025-06-01,205,Agencia de Administración de Bienes del Estado,1729.32681064
+2025-07-01,205,Agencia de Administración de Bienes del Estado,1289.42862033
+2025-08-01,205,Agencia de Administración de Bienes del Estado,951.7387353400001
+2025-09-01,205,Agencia de Administración de Bienes del Estado,1210.32780162
+2025-10-01,205,Agencia de Administración de Bienes del Estado,1198.82303728
+2025-11-01,205,Agencia de Administración de Bienes del Estado,1308.12853942
+2025-12-01,205,Agencia de Administración de Bienes del Estado,1952.23424426
+2025-01-01,206,Centro Internacional para la Promoción de los Derechos Humanos,43.96469661
+2025-02-01,206,Centro Internacional para la Promoción de los Derechos Humanos,82.15576004
+2025-03-01,206,Centro Internacional para la Promoción de los Derechos Humanos,65.44609154999999
+2025-04-01,206,Centro Internacional para la Promoción de los Derechos Humanos,4.21082116
+2025-05-01,206,Centro Internacional para la Promoción de los Derechos Humanos,124.96969351
+2025-06-01,206,Centro Internacional para la Promoción de los Derechos Humanos,131.64816711
+2025-07-01,206,Centro Internacional para la Promoción de los Derechos Humanos,56.49881514
+2025-08-01,206,Centro Internacional para la Promoción de los Derechos Humanos,72.1129935
+2025-09-01,206,Centro Internacional para la Promoción de los Derechos Humanos,109.68435243
+2025-10-01,206,Centro Internacional para la Promoción de los Derechos Humanos,61.135252359999996
+2025-11-01,206,Centro Internacional para la Promoción de los Derechos Humanos,80.48298749
+2025-12-01,206,Centro Internacional para la Promoción de los Derechos Humanos,299.46752306
+2025-01-01,207,Ente Nacional de Comunicaciones,3784.49634458
+2025-02-01,207,Ente Nacional de Comunicaciones,4242.52885287
+2025-03-01,207,Ente Nacional de Comunicaciones,3922.67872292
+2025-04-01,207,Ente Nacional de Comunicaciones,4403.1112270700005
+2025-05-01,207,Ente Nacional de Comunicaciones,4193.04660076
+2025-06-01,207,Ente Nacional de Comunicaciones,8849.21522665
+2025-07-01,207,Ente Nacional de Comunicaciones,4034.97075653
+2025-08-01,207,Ente Nacional de Comunicaciones,4763.21522733
+2025-09-01,207,Ente Nacional de Comunicaciones,7563.03348118
+2025-10-01,207,Ente Nacional de Comunicaciones,4129.0060042899995
+2025-11-01,207,Ente Nacional de Comunicaciones,4341.2269476
+2025-12-01,207,Ente Nacional de Comunicaciones,10075.50292616
+2025-01-01,208,Agencia Nacional de Materiales Controlados,183.41149941
+2025-02-01,208,Agencia Nacional de Materiales Controlados,180.8955187
+2025-03-01,208,Agencia Nacional de Materiales Controlados,202.08236571
+2025-04-01,208,Agencia Nacional de Materiales Controlados,1378.2046189
+2025-05-01,208,Agencia Nacional de Materiales Controlados,663.18033894
+2025-06-01,208,Agencia Nacional de Materiales Controlados,792.98811198
+2025-07-01,208,Agencia Nacional de Materiales Controlados,425.60317098999997
+2025-08-01,208,Agencia Nacional de Materiales Controlados,738.78795859
+2025-09-01,208,Agencia Nacional de Materiales Controlados,626.7191653
+2025-10-01,208,Agencia Nacional de Materiales Controlados,577.63300308
+2025-11-01,208,Agencia Nacional de Materiales Controlados,594.67921866
+2025-12-01,208,Agencia Nacional de Materiales Controlados,1061.80988739
+2025-01-01,209,Agencia de Acceso a la Información Pública,151.8439889
+2025-02-01,209,Agencia de Acceso a la Información Pública,155.49738091999998
+2025-03-01,209,Agencia de Acceso a la Información Pública,193.1782819
+2025-04-01,209,Agencia de Acceso a la Información Pública,125.60284472000001
+2025-05-01,209,Agencia de Acceso a la Información Pública,145.44960484
+2025-06-01,209,Agencia de Acceso a la Información Pública,274.40247292
+2025-07-01,209,Agencia de Acceso a la Información Pública,129.84201185
+2025-08-01,209,Agencia de Acceso a la Información Pública,213.91824658000002
+2025-09-01,209,Agencia de Acceso a la Información Pública,177.40162339
+2025-10-01,209,Agencia de Acceso a la Información Pública,175.84605632999998
+2025-11-01,209,Agencia de Acceso a la Información Pública,170.04716645000002
+2025-12-01,209,Agencia de Acceso a la Información Pública,272.90498659
+2025-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",189666.57853944998
+2025-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",187806.93550458
+2025-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",198042.11861746
+2025-04-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",198003.97993791
+2025-05-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",212634.69629383
+2025-06-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",70713.20412558
+2025-07-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",452302.71627227
+2025-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",226724.04717447
+2025-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",222278.39380538
+2025-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",227036.94971298001
+2025-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",229955.64872761
+2025-12-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",346721.08455482
+2025-01-01,301,Secretaría General de la Presidencia de la Nación,2190.68760667
+2025-02-01,301,Secretaría General de la Presidencia de la Nación,5881.83611603
+2025-03-01,301,Secretaría General de la Presidencia de la Nación,4555.41329841
+2025-04-01,301,Secretaría General de la Presidencia de la Nación,6649.63583103
+2025-05-01,301,Secretaría General de la Presidencia de la Nación,4098.23966437
+2025-06-01,301,Secretaría General de la Presidencia de la Nación,5053.61912438
+2025-07-01,301,Secretaría General de la Presidencia de la Nación,8412.42050859
+2025-08-01,301,Secretaría General de la Presidencia de la Nación,2848.01172501
+2025-09-01,301,Secretaría General de la Presidencia de la Nación,3814.8144459699997
+2025-10-01,301,Secretaría General de la Presidencia de la Nación,3149.38869537
+2025-11-01,301,Secretaría General de la Presidencia de la Nación,3109.7255983600003
+2025-12-01,301,Secretaría General de la Presidencia de la Nación,9314.76326044
+2025-01-01,302,Secretaría de Inteligencia de Estado,4440.670305
+2025-02-01,302,Secretaría de Inteligencia de Estado,4013.69126608
+2025-03-01,302,Secretaría de Inteligencia de Estado,5378.08174933
+2025-04-01,302,Secretaría de Inteligencia de Estado,4788.2320621399995
+2025-05-01,302,Secretaría de Inteligencia de Estado,5091.5408676100005
+2025-06-01,302,Secretaría de Inteligencia de Estado,17409.50502428
+2025-07-01,302,Secretaría de Inteligencia de Estado,6063.7199187100005
+2025-08-01,302,Secretaría de Inteligencia de Estado,6100.6720110100005
+2025-09-01,302,Secretaría de Inteligencia de Estado,13487.73864687
+2025-10-01,302,Secretaría de Inteligencia de Estado,5025.51320365
+2025-11-01,302,Secretaría de Inteligencia de Estado,3787.298604
+2025-12-01,302,Secretaría de Inteligencia de Estado,29610.79701464
+2025-01-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),4573.48628336
+2025-02-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),4495.97625929
+2025-03-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6742.25498968
+2025-04-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),5020.5178602
+2025-05-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),4802.48757382
+2025-06-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6746.09421733
+2025-07-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1093.66301607
+2025-08-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),9470.46297199
+2025-09-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),5989.18664634
+2025-10-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),5157.77327874
+2025-11-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1425.46042837
+2025-12-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),10685.061927499999
+2025-01-01,305,Vicejefatura de Gabinete Ejecutiva,3573.02705195
+2025-02-01,305,Vicejefatura de Gabinete Ejecutiva,3938.99705142
+2025-03-01,305,Vicejefatura de Gabinete Ejecutiva,4449.63884741
+2025-04-01,305,Vicejefatura de Gabinete Ejecutiva,3680.32244248
+2025-05-01,305,Vicejefatura de Gabinete Ejecutiva,4556.62736475
+2025-06-01,305,Vicejefatura de Gabinete Ejecutiva,5557.53496128
+2025-07-01,305,Vicejefatura de Gabinete Ejecutiva,4435.26608112
+2025-08-01,305,Vicejefatura de Gabinete Ejecutiva,2913.5316662
+2025-09-01,305,Vicejefatura de Gabinete Ejecutiva,3307.5133707600003
+2025-10-01,305,Vicejefatura de Gabinete Ejecutiva,2705.10233279
+2025-11-01,305,Vicejefatura de Gabinete Ejecutiva,2977.14427029
+2025-12-01,305,Vicejefatura de Gabinete Ejecutiva,3884.0693893
+2025-01-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",21619.609800140002
+2025-02-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",31766.21620289
+2025-03-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",68864.3259194
+2025-04-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",31065.29221114
+2025-05-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",32312.08100258
+2025-06-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",74930.25205452
+2025-07-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",35332.67146353
+2025-08-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",44401.477885
+2025-09-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",54059.44577329
+2025-10-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",40397.0501854
+2025-11-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",40547.89268019
+2025-12-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",111623.59291937
+2025-01-01,310,Ministerio de Salud,30887.52866722
+2025-02-01,310,Ministerio de Salud,111290.52413569001
+2025-03-01,310,Ministerio de Salud,104361.21613962
+2025-04-01,310,Ministerio de Salud,91416.96460278
+2025-05-01,310,Ministerio de Salud,125534.65738386
+2025-06-01,310,Ministerio de Salud,148822.27715042
+2025-07-01,310,Ministerio de Salud,109786.77905471
+2025-08-01,310,Ministerio de Salud,117094.29525133
+2025-09-01,310,Ministerio de Salud,162125.40914832
+2025-10-01,310,Ministerio de Salud,126033.2169436
+2025-11-01,310,Ministerio de Salud,36231.53746222
+2025-12-01,310,Ministerio de Salud,210943.04638298
+2025-01-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",214718.61659232
+2025-02-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",209339.3780391
+2025-03-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",222650.27356348
+2025-04-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",220889.85434466
+2025-05-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",218832.51756506
+2025-06-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",222811.49144254
+2025-07-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",210407.74124836
+2025-08-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",215731.65736792
+2025-09-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",233832.70779129
+2025-10-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",214190.28846481
+2025-11-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",219973.64652081
+2025-12-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",242999.12855755
+2025-01-01,312,Honorable Senado de la Nación Argentina,9673.24295313
+2025-02-01,312,Honorable Senado de la Nación Argentina,12812.73737889
+2025-03-01,312,Honorable Senado de la Nación Argentina,13146.103728850001
+2025-04-01,312,Honorable Senado de la Nación Argentina,14190.16037749
+2025-05-01,312,Honorable Senado de la Nación Argentina,13745.72535884
+2025-06-01,312,Honorable Senado de la Nación Argentina,23907.22393551
+2025-07-01,312,Honorable Senado de la Nación Argentina,12584.80726651
+2025-08-01,312,Honorable Senado de la Nación Argentina,15432.67434575
+2025-09-01,312,Honorable Senado de la Nación Argentina,18388.89253859
+2025-10-01,312,Honorable Senado de la Nación Argentina,15627.38258679
+2025-11-01,312,Honorable Senado de la Nación Argentina,11639.516529499999
+2025-12-01,312,Honorable Senado de la Nación Argentina,29835.64246391
+2025-01-01,313,Honorable Cámara de Diputados de la Nación Argentina,14249.584131220001
+2025-02-01,313,Honorable Cámara de Diputados de la Nación Argentina,15003.58281036
+2025-03-01,313,Honorable Cámara de Diputados de la Nación Argentina,15143.13248611
+2025-04-01,313,Honorable Cámara de Diputados de la Nación Argentina,14911.58561812
+2025-05-01,313,Honorable Cámara de Diputados de la Nación Argentina,14834.00610745
+2025-06-01,313,Honorable Cámara de Diputados de la Nación Argentina,24661.56738691
+2025-07-01,313,Honorable Cámara de Diputados de la Nación Argentina,16334.66471685
+2025-08-01,313,Honorable Cámara de Diputados de la Nación Argentina,18364.85366177
+2025-09-01,313,Honorable Cámara de Diputados de la Nación Argentina,17189.40717255
+2025-10-01,313,Honorable Cámara de Diputados de la Nación Argentina,16521.31904395
+2025-11-01,313,Honorable Cámara de Diputados de la Nación Argentina,17249.84669999
+2025-12-01,313,Honorable Cámara de Diputados de la Nación Argentina,32031.11479402
+2025-01-01,314,Biblioteca del Congreso de la Nación,3444.21835286
+2025-02-01,314,Biblioteca del Congreso de la Nación,3405.1098073000003
+2025-03-01,314,Biblioteca del Congreso de la Nación,3462.76327992
+2025-04-01,314,Biblioteca del Congreso de la Nación,3835.19806312
+2025-05-01,314,Biblioteca del Congreso de la Nación,3658.23772888
+2025-06-01,314,Biblioteca del Congreso de la Nación,5414.38284541
+2025-07-01,314,Biblioteca del Congreso de la Nación,3898.30050203
+2025-08-01,314,Biblioteca del Congreso de la Nación,4134.29408088
+2025-09-01,314,Biblioteca del Congreso de la Nación,3940.40858211
+2025-10-01,314,Biblioteca del Congreso de la Nación,4119.42089063
+2025-11-01,314,Biblioteca del Congreso de la Nación,4030.79957886
+2025-12-01,314,Biblioteca del Congreso de la Nación,6166.93923487
+2025-01-01,315,Imprenta del Congreso de la Nación,1050.0
+2025-02-01,315,Imprenta del Congreso de la Nación,1015.21624631
+2025-03-01,315,Imprenta del Congreso de la Nación,960.98236143
+2025-04-01,315,Imprenta del Congreso de la Nación,1040.85716487
+2025-05-01,315,Imprenta del Congreso de la Nación,942.8479116
+2025-06-01,315,Imprenta del Congreso de la Nación,1470.15974923
+2025-07-01,315,Imprenta del Congreso de la Nación,1056.08792015
+2025-08-01,315,Imprenta del Congreso de la Nación,1075.35387838
+2025-09-01,315,Imprenta del Congreso de la Nación,1011.36423328
+2025-10-01,315,Imprenta del Congreso de la Nación,1038.0186465
+2025-11-01,315,Imprenta del Congreso de la Nación,1022.73259383
+2025-12-01,315,Imprenta del Congreso de la Nación,1807.9449028
+2025-01-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),4858.71320932
+2025-02-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),4596.85920563
+2025-03-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),4592.37934638
+2025-04-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),8889.08062528
+2025-05-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),3293.68265908
+2025-06-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),4032.1386410699997
+2025-07-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),4182.51834814
+2025-08-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),3614.5619004299997
+2025-09-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5474.22229606
+2025-10-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5896.21652889
+2025-11-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),2044.4235577
+2025-12-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),21708.16761581
+2025-01-01,317,Ambiente,1198.01674177
+2025-02-01,317,Ambiente,6508.84725773
+2025-03-01,317,Ambiente,4992.58024687
+2025-04-01,317,Ambiente,3782.53070477
+2025-05-01,317,Ambiente,2653.2278743
+2025-06-01,317,Ambiente,8693.772703519999
+2025-07-01,317,Ambiente,1106.72375259
+2025-08-01,317,Ambiente,2026.0445116600001
+2025-09-01,317,Ambiente,1919.42627571
+2025-10-01,317,Ambiente,1585.4236735099998
+2025-11-01,317,Ambiente,2552.58166991
+2025-12-01,317,Ambiente,3866.76491457
+2025-01-01,319,Defensoría del Pueblo de la Nación,906.8852865399999
+2025-02-01,319,Defensoría del Pueblo de la Nación,949.87830105
+2025-03-01,319,Defensoría del Pueblo de la Nación,827.4689055
+2025-04-01,319,Defensoría del Pueblo de la Nación,912.23083178
+2025-05-01,319,Defensoría del Pueblo de la Nación,860.97404695
+2025-06-01,319,Defensoría del Pueblo de la Nación,1426.30208466
+2025-07-01,319,Defensoría del Pueblo de la Nación,968.35846569
+2025-08-01,319,Defensoría del Pueblo de la Nación,1064.89669951
+2025-09-01,319,Defensoría del Pueblo de la Nación,1011.35419304
+2025-10-01,319,Defensoría del Pueblo de la Nación,1117.8551644
+2025-11-01,319,Defensoría del Pueblo de la Nación,960.63326216
+2025-12-01,319,Defensoría del Pueblo de la Nación,1812.02360218
+2025-01-01,320,Consejo de la Magistratura,110904.37573822
+2025-02-01,320,Consejo de la Magistratura,110659.65640972
+2025-03-01,320,Consejo de la Magistratura,117864.32956541
+2025-04-01,320,Consejo de la Magistratura,123149.49136016
+2025-05-01,320,Consejo de la Magistratura,124511.90271086
+2025-06-01,320,Consejo de la Magistratura,185961.66780928
+2025-07-01,320,Consejo de la Magistratura,129333.70710439
+2025-08-01,320,Consejo de la Magistratura,133636.54968289
+2025-09-01,320,Consejo de la Magistratura,132947.43632529
+2025-10-01,320,Consejo de la Magistratura,132800.10367801
+2025-11-01,320,Consejo de la Magistratura,137824.75184871998
+2025-12-01,320,Consejo de la Magistratura,229301.56965762
+2025-01-01,321,Instituto Nacional de Estadística y Censos (INDEC),1465.98607807
+2025-02-01,321,Instituto Nacional de Estadística y Censos (INDEC),3181.51096822
+2025-03-01,321,Instituto Nacional de Estadística y Censos (INDEC),2796.75522625
+2025-04-01,321,Instituto Nacional de Estadística y Censos (INDEC),2232.72288933
+2025-05-01,321,Instituto Nacional de Estadística y Censos (INDEC),2602.42873085
+2025-06-01,321,Instituto Nacional de Estadística y Censos (INDEC),6421.32365521
+2025-07-01,321,Instituto Nacional de Estadística y Censos (INDEC),1943.5588737
+2025-08-01,321,Instituto Nacional de Estadística y Censos (INDEC),2586.37881146
+2025-09-01,321,Instituto Nacional de Estadística y Censos (INDEC),4085.47896979
+2025-10-01,321,Instituto Nacional de Estadística y Censos (INDEC),2236.77500775
+2025-11-01,321,Instituto Nacional de Estadística y Censos (INDEC),2884.79723211
+2025-12-01,321,Instituto Nacional de Estadística y Censos (INDEC),5899.29737875
+2025-01-01,322,Turismo y Deportes,2347.53867733
+2025-02-01,322,Turismo y Deportes,3443.67405731
+2025-03-01,322,Turismo y Deportes,4486.48925667
+2025-04-01,322,Turismo y Deportes,2333.18743676
+2025-05-01,322,Turismo y Deportes,3970.77169694
+2025-06-01,322,Turismo y Deportes,4168.6286831
+2025-07-01,322,Turismo y Deportes,3446.68509138
+2025-08-01,322,Turismo y Deportes,4125.42338501
+2025-09-01,322,Turismo y Deportes,7413.592731199999
+2025-10-01,322,Turismo y Deportes,4682.49583013
+2025-11-01,322,Turismo y Deportes,5310.69317071
+2025-12-01,322,Turismo y Deportes,5176.33781633
+2025-01-01,325,Vicejefatura de Gabinete del Interior,8475.15111099
+2025-02-01,325,Vicejefatura de Gabinete del Interior,22350.29241274
+2025-03-01,325,Vicejefatura de Gabinete del Interior,31814.38662179
+2025-04-01,325,Vicejefatura de Gabinete del Interior,12516.1446424
+2025-05-01,325,Vicejefatura de Gabinete del Interior,146205.50084752
+2025-06-01,325,Vicejefatura de Gabinete del Interior,42473.48793898
+2025-07-01,325,Vicejefatura de Gabinete del Interior,86051.77156595999
+2025-08-01,325,Vicejefatura de Gabinete del Interior,42340.03013913
+2025-09-01,325,Vicejefatura de Gabinete del Interior,52556.427067360004
+2025-10-01,325,Vicejefatura de Gabinete del Interior,71365.20719239
+2025-11-01,325,Vicejefatura de Gabinete del Interior,21024.489977229998
+2025-12-01,325,Vicejefatura de Gabinete del Interior,86869.34958857
+2025-01-01,326,Policía Federal Argentina (PFA),60713.4051378
+2025-02-01,326,Policía Federal Argentina (PFA),63086.539452469995
+2025-03-01,326,Policía Federal Argentina (PFA),67041.4075977
+2025-04-01,326,Policía Federal Argentina (PFA),66174.34275022
+2025-05-01,326,Policía Federal Argentina (PFA),69484.70456205
+2025-06-01,326,Policía Federal Argentina (PFA),94812.97129565
+2025-07-01,326,Policía Federal Argentina (PFA),70909.06558659
+2025-08-01,326,Policía Federal Argentina (PFA),72832.24215313
+2025-09-01,326,Policía Federal Argentina (PFA),72034.329975
+2025-10-01,326,Policía Federal Argentina (PFA),71531.37204771
+2025-11-01,326,Policía Federal Argentina (PFA),78166.09380422
+2025-12-01,326,Policía Federal Argentina (PFA),112922.15745533
+2025-01-01,330,Secretaría de Educación,307223.73335295
+2025-02-01,330,Secretaría de Educación,368195.10335459
+2025-03-01,330,Secretaría de Educación,491311.62698217
+2025-04-01,330,Secretaría de Educación,413217.93628665
+2025-05-01,330,Secretaría de Educación,469231.95881596
+2025-06-01,330,Secretaría de Educación,624108.8411992
+2025-07-01,330,Secretaría de Educación,397570.12206069
+2025-08-01,330,Secretaría de Educación,487822.15184619
+2025-09-01,330,Secretaría de Educación,505198.94402142003
+2025-10-01,330,Secretaría de Educación,455444.69775475
+2025-11-01,330,Secretaría de Educación,421714.57988057
+2025-12-01,330,Secretaría de Educación,791809.70871884
+2025-01-01,331,Servicio Penitenciario Federal,27550.90783974
+2025-02-01,331,Servicio Penitenciario Federal,30751.098498620002
+2025-03-01,331,Servicio Penitenciario Federal,43037.43822632
+2025-04-01,331,Servicio Penitenciario Federal,33221.44462821
+2025-05-01,331,Servicio Penitenciario Federal,35222.42308913
+2025-06-01,331,Servicio Penitenciario Federal,61355.70037372
+2025-07-01,331,Servicio Penitenciario Federal,35625.06289022
+2025-08-01,331,Servicio Penitenciario Federal,37941.14454675
+2025-09-01,331,Servicio Penitenciario Federal,40202.71263589
+2025-10-01,331,Servicio Penitenciario Federal,40113.58197946
+2025-11-01,331,Servicio Penitenciario Federal,39754.987955410004
+2025-12-01,331,Servicio Penitenciario Federal,68580.70023645
+2025-01-01,332,Ministerio de Justicia,3211.14570674
+2025-02-01,332,Ministerio de Justicia,11848.27630621
+2025-03-01,332,Ministerio de Justicia,9433.80785766
+2025-04-01,332,Ministerio de Justicia,8250.92983861
+2025-05-01,332,Ministerio de Justicia,11565.66733962
+2025-06-01,332,Ministerio de Justicia,13481.95839492
+2025-07-01,332,Ministerio de Justicia,8576.78533883
+2025-08-01,332,Ministerio de Justicia,22403.77871322
+2025-09-01,332,Ministerio de Justicia,14050.00075901
+2025-10-01,332,Ministerio de Justicia,12575.65965087
+2025-11-01,332,Ministerio de Justicia,13418.80887334
+2025-12-01,332,Ministerio de Justicia,27260.258338980002
+2025-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2074.6579611
+2025-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2375.40125736
+2025-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2127.31253548
+2025-04-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1426.3914244
+2025-05-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1373.7030757
+2025-06-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2511.06403276
+2025-07-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1480.2184794999998
+2025-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1707.39433939
+2025-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1813.05336131
+2025-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1613.18137194
+2025-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1639.25242164
+2025-12-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2721.25888208
+2025-01-01,335,Corte Suprema de Justicia de la Nación,15624.0255829
+2025-02-01,335,Corte Suprema de Justicia de la Nación,15157.80328083
+2025-03-01,335,Corte Suprema de Justicia de la Nación,16429.69364993
+2025-04-01,335,Corte Suprema de Justicia de la Nación,17946.84109309
+2025-05-01,335,Corte Suprema de Justicia de la Nación,17335.0519642
+2025-06-01,335,Corte Suprema de Justicia de la Nación,26325.42058225
+2025-07-01,335,Corte Suprema de Justicia de la Nación,18776.45643145
+2025-08-01,335,Corte Suprema de Justicia de la Nación,19691.86348861
+2025-09-01,335,Corte Suprema de Justicia de la Nación,19257.74949746
+2025-10-01,335,Corte Suprema de Justicia de la Nación,20019.521390410002
+2025-11-01,335,Corte Suprema de Justicia de la Nación,21227.04579701
+2025-12-01,335,Corte Suprema de Justicia de la Nación,34638.98795159
+2025-01-01,336,"Secretaría de Innovación, Ciencia y Tecnología",1730.06966517
+2025-02-01,336,"Secretaría de Innovación, Ciencia y Tecnología",2939.25733035
+2025-03-01,336,"Secretaría de Innovación, Ciencia y Tecnología",12957.036281140001
+2025-04-01,336,"Secretaría de Innovación, Ciencia y Tecnología",4008.77450814
+2025-05-01,336,"Secretaría de Innovación, Ciencia y Tecnología",10308.52228388
+2025-06-01,336,"Secretaría de Innovación, Ciencia y Tecnología",8642.8542132
+2025-07-01,336,"Secretaría de Innovación, Ciencia y Tecnología",4286.69544878
+2025-08-01,336,"Secretaría de Innovación, Ciencia y Tecnología",7263.84749613
+2025-09-01,336,"Secretaría de Innovación, Ciencia y Tecnología",38218.27291983
+2025-10-01,336,"Secretaría de Innovación, Ciencia y Tecnología",7877.8058953
+2025-11-01,336,"Secretaría de Innovación, Ciencia y Tecnología",12643.43844711
+2025-12-01,336,"Secretaría de Innovación, Ciencia y Tecnología",32490.79614124
+2025-01-01,337,Secretaría de Cultura,5339.2543152
+2025-02-01,337,Secretaría de Cultura,6757.7449755
+2025-03-01,337,Secretaría de Cultura,6881.4867576
+2025-04-01,337,Secretaría de Cultura,7781.3381099
+2025-05-01,337,Secretaría de Cultura,7721.89646655
+2025-06-01,337,Secretaría de Cultura,11879.39427404
+2025-07-01,337,Secretaría de Cultura,8677.92887438
+2025-08-01,337,Secretaría de Cultura,8904.31984387
+2025-09-01,337,Secretaría de Cultura,14103.37904069
+2025-10-01,337,Secretaría de Cultura,12380.92924521
+2025-11-01,337,Secretaría de Cultura,15522.747512330001
+2025-12-01,337,Secretaría de Cultura,22013.55381805
+2025-01-01,338,Secretaría Legal y Técnica,860.655659
+2025-02-01,338,Secretaría Legal y Técnica,721.10420151
+2025-03-01,338,Secretaría Legal y Técnica,1131.45266156
+2025-04-01,338,Secretaría Legal y Técnica,851.1030813599999
+2025-05-01,338,Secretaría Legal y Técnica,865.90786466
+2025-06-01,338,Secretaría Legal y Técnica,1274.11990265
+2025-07-01,338,Secretaría Legal y Técnica,908.82064068
+2025-08-01,338,Secretaría Legal y Técnica,810.80061684
+2025-09-01,338,Secretaría Legal y Técnica,852.2241628300001
+2025-10-01,338,Secretaría Legal y Técnica,844.97242672
+2025-11-01,338,Secretaría Legal y Técnica,849.1662995099999
+2025-12-01,338,Secretaría Legal y Técnica,1513.36364088
+2025-01-01,340,Procuración Penitenciaria de la Nación,970.64213224
+2025-02-01,340,Procuración Penitenciaria de la Nación,1076.65968095
+2025-03-01,340,Procuración Penitenciaria de la Nación,1190.33498571
+2025-04-01,340,Procuración Penitenciaria de la Nación,1080.83968806
+2025-05-01,340,Procuración Penitenciaria de la Nación,2801.58777438
+2025-06-01,340,Procuración Penitenciaria de la Nación,1721.6781076
+2025-07-01,340,Procuración Penitenciaria de la Nación,1310.61127092
+2025-08-01,340,Procuración Penitenciaria de la Nación,1044.8018875
+2025-09-01,340,Procuración Penitenciaria de la Nación,1302.18018173
+2025-10-01,340,Procuración Penitenciaria de la Nación,1036.36353883
+2025-11-01,340,Procuración Penitenciaria de la Nación,1144.30603682
+2025-12-01,340,Procuración Penitenciaria de la Nación,2304.8319305
+2025-01-01,343,Ministerio de Seguridad Nacional,3365.76329003
+2025-02-01,343,Ministerio de Seguridad Nacional,7492.38468712
+2025-03-01,343,Ministerio de Seguridad Nacional,24866.83246434
+2025-04-01,343,Ministerio de Seguridad Nacional,22859.45299839
+2025-05-01,343,Ministerio de Seguridad Nacional,123332.01693445
+2025-06-01,343,Ministerio de Seguridad Nacional,18486.12962648
+2025-07-01,343,Ministerio de Seguridad Nacional,24114.84522978
+2025-08-01,343,Ministerio de Seguridad Nacional,23844.469310790002
+2025-09-01,343,Ministerio de Seguridad Nacional,23514.24509087
+2025-10-01,343,Ministerio de Seguridad Nacional,27409.48177973
+2025-11-01,343,Ministerio de Seguridad Nacional,15831.43412842
+2025-12-01,343,Ministerio de Seguridad Nacional,66273.00035097
+2025-01-01,345,Consejo Nacional de Coordinación de Políticas Sociales,206.89010429
+2025-02-01,345,Consejo Nacional de Coordinación de Políticas Sociales,464.50367066
+2025-03-01,345,Consejo Nacional de Coordinación de Políticas Sociales,333.07539039
+2025-04-01,345,Consejo Nacional de Coordinación de Políticas Sociales,328.19673894
+2025-05-01,345,Consejo Nacional de Coordinación de Políticas Sociales,262.4229532
+2025-06-01,345,Consejo Nacional de Coordinación de Políticas Sociales,778.3819251
+2025-07-01,345,Consejo Nacional de Coordinación de Políticas Sociales,231.93364966
+2025-08-01,345,Consejo Nacional de Coordinación de Políticas Sociales,351.75431525
+2025-09-01,345,Consejo Nacional de Coordinación de Políticas Sociales,664.54577947
+2025-10-01,345,Consejo Nacional de Coordinación de Políticas Sociales,248.082715
+2025-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,503.70814252
+2025-12-01,345,Consejo Nacional de Coordinación de Políticas Sociales,770.92464547
+2025-01-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,770.6487229900001
+2025-02-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,207.30021941
+2025-03-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,231.29558536
+2025-04-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,219.16778861999998
+2025-05-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,235.81190275
+2025-06-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,296.13726902999997
+2025-07-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,234.76947743
+2025-08-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,220.59143305
+2025-09-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,256.71797033999997
+2025-10-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,201.91848914
+2025-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,221.76477738
+2025-12-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,904.50239655
+2025-01-01,349,Procuración del Tesoro de la Nación,372.03044039
+2025-02-01,349,Procuración del Tesoro de la Nación,475.37497228
+2025-03-01,349,Procuración del Tesoro de la Nación,550.44722611
+2025-04-01,349,Procuración del Tesoro de la Nación,431.50627914
+2025-05-01,349,Procuración del Tesoro de la Nación,635.55942753
+2025-06-01,349,Procuración del Tesoro de la Nación,907.9910446499999
+2025-07-01,349,Procuración del Tesoro de la Nación,428.422121
+2025-08-01,349,Procuración del Tesoro de la Nación,1293.39500615
+2025-09-01,349,Procuración del Tesoro de la Nación,718.72167276
+2025-10-01,349,Procuración del Tesoro de la Nación,475.63131451
+2025-11-01,349,Procuración del Tesoro de la Nación,919.0156823
+2025-12-01,349,Procuración del Tesoro de la Nación,953.58486924
+2025-01-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",88721.44527287
+2025-02-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",89551.29038397
+2025-03-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",91038.75312763
+2025-04-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",86173.1957031
+2025-05-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",91749.43113274
+2025-06-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",92720.34910049
+2025-07-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",88869.90227408
+2025-08-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",90670.35886876
+2025-09-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",89080.38748466
+2025-10-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",88389.26443747
+2025-11-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",17798.68337042
+2025-12-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",174017.44476811
+2025-01-01,355,Servicio de la Deuda Pública,119128.98611408
+2025-02-01,355,Servicio de la Deuda Pública,1413370.57486792
+2025-03-01,355,Servicio de la Deuda Pública,404793.83991855
+2025-04-01,355,Servicio de la Deuda Pública,294677.37429399
+2025-05-01,355,Servicio de la Deuda Pública,1196178.9076781499
+2025-06-01,355,Servicio de la Deuda Pública,1734929.3322591898
+2025-07-01,355,Servicio de la Deuda Pública,841238.14713519
+2025-08-01,355,Servicio de la Deuda Pública,1210260.15536337
+2025-09-01,355,Servicio de la Deuda Pública,459239.53495808
+2025-10-01,355,Servicio de la Deuda Pública,463748.86277157
+2025-11-01,355,Servicio de la Deuda Pública,1777336.0527713702
+2025-12-01,355,Servicio de la Deuda Pública,437192.62551927
+2025-01-01,356,Obligaciones a Cargo del Tesoro,284088.649968
+2025-02-01,356,Obligaciones a Cargo del Tesoro,440299.63067938003
+2025-03-01,356,Obligaciones a Cargo del Tesoro,479448.21784045
+2025-04-01,356,Obligaciones a Cargo del Tesoro,442232.10176941
+2025-05-01,356,Obligaciones a Cargo del Tesoro,312904.45513674
+2025-06-01,356,Obligaciones a Cargo del Tesoro,678055.35279099
+2025-07-01,356,Obligaciones a Cargo del Tesoro,720468.41977573
+2025-08-01,356,Obligaciones a Cargo del Tesoro,370088.82690915
+2025-09-01,356,Obligaciones a Cargo del Tesoro,805734.6185388799
+2025-10-01,356,Obligaciones a Cargo del Tesoro,470353.5578068
+2025-11-01,356,Obligaciones a Cargo del Tesoro,155085.53720591
+2025-12-01,356,Obligaciones a Cargo del Tesoro,965469.90109056
+2025-01-01,357,Ministerio de Economía,139696.36135266
+2025-02-01,357,Ministerio de Economía,106389.98916918
+2025-03-01,357,Ministerio de Economía,166280.94293025
+2025-04-01,357,Ministerio de Economía,217423.34277667
+2025-05-01,357,Ministerio de Economía,449378.07157323003
+2025-06-01,357,Ministerio de Economía,106013.7451457
+2025-07-01,357,Ministerio de Economía,469327.26989600004
+2025-08-01,357,Ministerio de Economía,565318.44204605
+2025-09-01,357,Ministerio de Economía,425064.39233411
+2025-10-01,357,Ministerio de Economía,641831.05495027
+2025-11-01,357,Ministerio de Economía,476118.87000994
+2025-12-01,357,Ministerio de Economía,724949.47517936
+2025-01-01,360,Procuración General de la Nación,32961.78133099
+2025-02-01,360,Procuración General de la Nación,32730.08377757
+2025-03-01,360,Procuración General de la Nación,35291.89536606
+2025-04-01,360,Procuración General de la Nación,35063.05278661
+2025-05-01,360,Procuración General de la Nación,39758.79632041
+2025-06-01,360,Procuración General de la Nación,55946.26220875
+2025-07-01,360,Procuración General de la Nación,38785.834921329995
+2025-08-01,360,Procuración General de la Nación,40074.72462937
+2025-09-01,360,Procuración General de la Nación,41250.23234958
+2025-10-01,360,Procuración General de la Nación,40143.46791039
+2025-11-01,360,Procuración General de la Nación,42420.20909518
+2025-12-01,360,Procuración General de la Nación,75022.46370005
+2025-01-01,361,Defensoría General de la Nación,17868.27158031
+2025-02-01,361,Defensoría General de la Nación,18239.21739986
+2025-03-01,361,Defensoría General de la Nación,19245.43751975
+2025-04-01,361,Defensoría General de la Nación,19856.60130443
+2025-05-01,361,Defensoría General de la Nación,20744.9962475
+2025-06-01,361,Defensoría General de la Nación,30524.2705164
+2025-07-01,361,Defensoría General de la Nación,21027.1704535
+2025-08-01,361,Defensoría General de la Nación,22332.24121322
+2025-09-01,361,Defensoría General de la Nación,22136.13157027
+2025-10-01,361,Defensoría General de la Nación,22392.95544265
+2025-11-01,361,Defensoría General de la Nación,23766.21023297
+2025-12-01,361,Defensoría General de la Nación,40302.19982062
+2025-01-01,362,Secretaría de Industria y Desarrollo Productivo,5403.40427952
+2025-02-01,362,Secretaría de Industria y Desarrollo Productivo,7881.93164557
+2025-03-01,362,Secretaría de Industria y Desarrollo Productivo,11680.93027058
+2025-04-01,362,Secretaría de Industria y Desarrollo Productivo,13351.737545349999
+2025-05-01,362,Secretaría de Industria y Desarrollo Productivo,11630.54657544
+2025-06-01,362,Secretaría de Industria y Desarrollo Productivo,14274.79048139
+2025-07-01,362,Secretaría de Industria y Desarrollo Productivo,11128.507794180001
+2025-08-01,362,Secretaría de Industria y Desarrollo Productivo,10994.42449863
+2025-09-01,362,Secretaría de Industria y Desarrollo Productivo,16498.65715052
+2025-10-01,362,Secretaría de Industria y Desarrollo Productivo,7401.68473879
+2025-11-01,362,Secretaría de Industria y Desarrollo Productivo,11727.4004536
+2025-12-01,362,Secretaría de Industria y Desarrollo Productivo,40643.29766409
+2025-01-01,368,Secretaría de Comunicación y Medios,0.0
+2025-02-01,368,Secretaría de Comunicación y Medios,47.839
+2025-03-01,368,Secretaría de Comunicación y Medios,14.127426289999999
+2025-04-01,368,Secretaría de Comunicación y Medios,488.37596377
+2025-05-01,368,Secretaría de Comunicación y Medios,473.88907419000003
+2025-06-01,368,Secretaría de Comunicación y Medios,1206.15340357
+2025-07-01,368,Secretaría de Comunicación y Medios,545.29587268
+2025-08-01,368,Secretaría de Comunicación y Medios,888.86449337
+2025-09-01,368,Secretaría de Comunicación y Medios,836.2790310400001
+2025-10-01,368,Secretaría de Comunicación y Medios,1015.50566528
+2025-11-01,368,Secretaría de Comunicación y Medios,720.49482098
+2025-12-01,368,Secretaría de Comunicación y Medios,1175.67681699
+2025-01-01,369,Oficina de Presupuesto del Congreso,78.56316029999999
+2025-02-01,369,Oficina de Presupuesto del Congreso,82.55585332
+2025-03-01,369,Oficina de Presupuesto del Congreso,96.91540778000001
+2025-04-01,369,Oficina de Presupuesto del Congreso,98.6839197
+2025-05-01,369,Oficina de Presupuesto del Congreso,95.82288815
+2025-06-01,369,Oficina de Presupuesto del Congreso,138.1897808
+2025-07-01,369,Oficina de Presupuesto del Congreso,100.48526546000001
+2025-08-01,369,Oficina de Presupuesto del Congreso,103.01176139
+2025-09-01,369,Oficina de Presupuesto del Congreso,112.12835552
+2025-10-01,369,Oficina de Presupuesto del Congreso,109.43320631
+2025-11-01,369,Oficina de Presupuesto del Congreso,107.42554116000001
+2025-12-01,369,Oficina de Presupuesto del Congreso,246.96923789
+2025-01-01,370,Ministerio de Defensa,1834.4210323300001
+2025-02-01,370,Ministerio de Defensa,2506.26194539
+2025-03-01,370,Ministerio de Defensa,4436.66362035
+2025-04-01,370,Ministerio de Defensa,3711.01693695
+2025-05-01,370,Ministerio de Defensa,3224.97037074
+2025-06-01,370,Ministerio de Defensa,3427.1898837100002
+2025-07-01,370,Ministerio de Defensa,2226.77396877
+2025-08-01,370,Ministerio de Defensa,8310.496140899999
+2025-09-01,370,Ministerio de Defensa,7562.76185803
+2025-10-01,370,Ministerio de Defensa,12855.76342016
+2025-11-01,370,Ministerio de Defensa,2901.84827705
+2025-12-01,370,Ministerio de Defensa,9475.07115843
+2025-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2651.82949631
+2025-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1455.36086518
+2025-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2710.50490386
+2025-04-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1283.85119443
+2025-05-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2244.11153643
+2025-06-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2207.18396527
+2025-07-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1502.76873895
+2025-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1573.79066962
+2025-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),14336.60970059
+2025-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2327.97443979
+2025-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),3208.6028485
+2025-12-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),5415.69463573
+2025-01-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),788.68765692
+2025-02-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),846.4236958
+2025-03-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),910.31512375
+2025-04-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),911.659247
+2025-05-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),940.57262814
+2025-06-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1253.46849602
+2025-07-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),889.29549463
+2025-08-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),887.59991755
+2025-09-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),856.5242995
+2025-10-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),890.83944907
+2025-11-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),979.00884962
+2025-12-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1585.8520855200002
+2025-01-01,374,Estado Mayor General del Ejército Argentino (EMGE),97214.28134946
+2025-02-01,374,Estado Mayor General del Ejército Argentino (EMGE),100089.52772485
+2025-03-01,374,Estado Mayor General del Ejército Argentino (EMGE),116688.7546081
+2025-04-01,374,Estado Mayor General del Ejército Argentino (EMGE),105507.52509308
+2025-05-01,374,Estado Mayor General del Ejército Argentino (EMGE),118980.64573967
+2025-06-01,374,Estado Mayor General del Ejército Argentino (EMGE),171359.85170908002
+2025-07-01,374,Estado Mayor General del Ejército Argentino (EMGE),107744.93356425
+2025-08-01,374,Estado Mayor General del Ejército Argentino (EMGE),131671.46846365998
+2025-09-01,374,Estado Mayor General del Ejército Argentino (EMGE),147036.16249481
+2025-10-01,374,Estado Mayor General del Ejército Argentino (EMGE),142472.70170882
+2025-11-01,374,Estado Mayor General del Ejército Argentino (EMGE),125156.35358653999
+2025-12-01,374,Estado Mayor General del Ejército Argentino (EMGE),241042.54417544
+2025-01-01,375,Gendarmería Nacional Argentina (GNA),83943.03561101
+2025-02-01,375,Gendarmería Nacional Argentina (GNA),90484.21824558
+2025-03-01,375,Gendarmería Nacional Argentina (GNA),94947.64272381
+2025-04-01,375,Gendarmería Nacional Argentina (GNA),94783.45282504
+2025-05-01,375,Gendarmería Nacional Argentina (GNA),104608.42267368
+2025-06-01,375,Gendarmería Nacional Argentina (GNA),134847.64281781
+2025-07-01,375,Gendarmería Nacional Argentina (GNA),98617.15450939
+2025-08-01,375,Gendarmería Nacional Argentina (GNA),105299.63560046
+2025-09-01,375,Gendarmería Nacional Argentina (GNA),101873.91538186
+2025-10-01,375,Gendarmería Nacional Argentina (GNA),107753.83595671
+2025-11-01,375,Gendarmería Nacional Argentina (GNA),116586.15481328001
+2025-12-01,375,Gendarmería Nacional Argentina (GNA),155249.9710372
+2025-01-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.85389598
+2025-02-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,11.449189699999998
+2025-03-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,3.9029646799999997
+2025-04-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,3.2691215
+2025-05-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,6.93730243
+2025-06-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,4.92279919
+2025-07-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,12.162030390000002
+2025-08-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,4.72076136
+2025-09-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,32.843459249999995
+2025-10-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,361.89779019
+2025-11-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,269.7291774
+2025-12-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2142.98947426
+2025-01-01,377,Infraestructura Económica y Social,15845.50262418
+2025-02-01,377,Infraestructura Económica y Social,50939.3876341
+2025-03-01,377,Infraestructura Económica y Social,202333.30968893997
+2025-04-01,377,Infraestructura Económica y Social,87785.19438921001
+2025-05-01,377,Infraestructura Económica y Social,86989.72383722999
+2025-06-01,377,Infraestructura Económica y Social,104661.01107520999
+2025-07-01,377,Infraestructura Económica y Social,81852.98320968
+2025-08-01,377,Infraestructura Económica y Social,118135.32225124999
+2025-09-01,377,Infraestructura Económica y Social,140791.49846360998
+2025-10-01,377,Infraestructura Económica y Social,128539.1288058
+2025-11-01,377,Infraestructura Económica y Social,125640.45029569001
+2025-12-01,377,Infraestructura Económica y Social,185176.73373225
+2025-01-01,379,Estado Mayor General de la Armada Argentina (EMGA),43873.86924426
+2025-02-01,379,Estado Mayor General de la Armada Argentina (EMGA),49892.37469455
+2025-03-01,379,Estado Mayor General de la Armada Argentina (EMGA),53509.627029409996
+2025-04-01,379,Estado Mayor General de la Armada Argentina (EMGA),56594.85411396
+2025-05-01,379,Estado Mayor General de la Armada Argentina (EMGA),56369.5227167
+2025-06-01,379,Estado Mayor General de la Armada Argentina (EMGA),89148.02719106
+2025-07-01,379,Estado Mayor General de la Armada Argentina (EMGA),55891.1747086
+2025-08-01,379,Estado Mayor General de la Armada Argentina (EMGA),63175.858353820004
+2025-09-01,379,Estado Mayor General de la Armada Argentina (EMGA),62606.02262417
+2025-10-01,379,Estado Mayor General de la Armada Argentina (EMGA),67224.59676031
+2025-11-01,379,Estado Mayor General de la Armada Argentina (EMGA),70559.09935846
+2025-12-01,379,Estado Mayor General de la Armada Argentina (EMGA),105900.27084917
+2025-01-01,380,Prefectura Naval Argentina (PNA),43429.30221771
+2025-02-01,380,Prefectura Naval Argentina (PNA),45982.92323629
+2025-03-01,380,Prefectura Naval Argentina (PNA),53403.89929395
+2025-04-01,380,Prefectura Naval Argentina (PNA),47679.88362892
+2025-05-01,380,Prefectura Naval Argentina (PNA),53774.5906598
+2025-06-01,380,Prefectura Naval Argentina (PNA),74816.58884674001
+2025-07-01,380,Prefectura Naval Argentina (PNA),51374.105389749995
+2025-08-01,380,Prefectura Naval Argentina (PNA),54638.7913934
+2025-09-01,380,Prefectura Naval Argentina (PNA),56867.42123929
+2025-10-01,380,Prefectura Naval Argentina (PNA),55464.454043180005
+2025-11-01,380,Prefectura Naval Argentina (PNA),60315.30617325
+2025-12-01,380,Prefectura Naval Argentina (PNA),85252.83211033
+2025-01-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),36349.3992807
+2025-02-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),41720.06175103
+2025-03-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),52379.448182269996
+2025-04-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),41957.32689787
+2025-05-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),45276.58954709
+2025-06-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),74617.56849462
+2025-07-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),46100.41536029
+2025-08-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),47065.68696353
+2025-09-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),60113.93157398
+2025-10-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),49212.09358972
+2025-11-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),52819.9773621
+2025-12-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),96577.27661851
+2025-01-01,382,Policía de Seguridad Aeroportuaria (PSA),9736.84019669
+2025-02-01,382,Policía de Seguridad Aeroportuaria (PSA),12482.08469868
+2025-03-01,382,Policía de Seguridad Aeroportuaria (PSA),15934.34961773
+2025-04-01,382,Policía de Seguridad Aeroportuaria (PSA),13370.08146665
+2025-05-01,382,Policía de Seguridad Aeroportuaria (PSA),14635.87389598
+2025-06-01,382,Policía de Seguridad Aeroportuaria (PSA),19279.40186932
+2025-07-01,382,Policía de Seguridad Aeroportuaria (PSA),13787.49479622
+2025-08-01,382,Policía de Seguridad Aeroportuaria (PSA),14260.23572988
+2025-09-01,382,Policía de Seguridad Aeroportuaria (PSA),14280.16719417
+2025-10-01,382,Policía de Seguridad Aeroportuaria (PSA),14803.15122957
+2025-11-01,382,Policía de Seguridad Aeroportuaria (PSA),14661.59828986
+2025-12-01,382,Policía de Seguridad Aeroportuaria (PSA),22903.96574488
+2025-01-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",574.76871484
+2025-02-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",621.53500724
+2025-03-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",559.01578024
+2025-04-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",592.8995
+2025-05-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",591.04186096
+2025-06-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",837.67048396
+2025-07-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",604.72340836
+2025-08-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",616.70052393
+2025-09-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",635.18121811
+2025-10-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",657.56299568
+2025-11-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",575.22361427
+2025-12-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",1539.4608065099999
+2025-01-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),316.19825635
+2025-02-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),327.36006671
+2025-03-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),329.30247086
+2025-04-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),352.65171655
+2025-05-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),348.28582723
+2025-06-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),569.27898714
+2025-07-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),356.94991969
+2025-08-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),415.92060627
+2025-09-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),502.76922579
+2025-10-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),417.44008918
+2025-11-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),455.42087336
+2025-12-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),775.20102618
+2025-01-01,388,Ministerio de Capital Humano,380.26250832
+2025-02-01,388,Ministerio de Capital Humano,334.3270865
+2025-03-01,388,Ministerio de Capital Humano,1055.69422222
+2025-04-01,388,Ministerio de Capital Humano,715.4841514
+2025-05-01,388,Ministerio de Capital Humano,620.8195155
+2025-06-01,388,Ministerio de Capital Humano,1238.13112946
+2025-07-01,388,Ministerio de Capital Humano,600.13013434
+2025-08-01,388,Ministerio de Capital Humano,962.83125015
+2025-09-01,388,Ministerio de Capital Humano,718.20302065
+2025-10-01,388,Ministerio de Capital Humano,1089.77131783
+2025-11-01,388,Ministerio de Capital Humano,878.11035086
+2025-12-01,388,Ministerio de Capital Humano,1919.87340717
+2025-01-01,389,Ministerio de Desregulación y Transformación del Estado,52.2956763
+2025-02-01,389,Ministerio de Desregulación y Transformación del Estado,141.45774473
+2025-03-01,389,Ministerio de Desregulación y Transformación del Estado,84.52316992
+2025-04-01,389,Ministerio de Desregulación y Transformación del Estado,166.89004701
+2025-05-01,389,Ministerio de Desregulación y Transformación del Estado,108.70285637
+2025-06-01,389,Ministerio de Desregulación y Transformación del Estado,110.30112804000001
+2025-07-01,389,Ministerio de Desregulación y Transformación del Estado,88.35027097000001
+2025-08-01,389,Ministerio de Desregulación y Transformación del Estado,1332.99719858
+2025-09-01,389,Ministerio de Desregulación y Transformación del Estado,2003.2461604
+2025-10-01,389,Ministerio de Desregulación y Transformación del Estado,1063.76289307
+2025-11-01,389,Ministerio de Desregulación y Transformación del Estado,1606.12809399
+2025-12-01,389,Ministerio de Desregulación y Transformación del Estado,2619.94590546
+2025-01-01,450,Instituto Geográfico Nacional,408.04639195
+2025-02-01,450,Instituto Geográfico Nacional,523.4919202
+2025-03-01,450,Instituto Geográfico Nacional,522.98888746
+2025-04-01,450,Instituto Geográfico Nacional,516.18608807
+2025-05-01,450,Instituto Geográfico Nacional,550.17289654
+2025-06-01,450,Instituto Geográfico Nacional,886.31059973
+2025-07-01,450,Instituto Geográfico Nacional,526.61490584
+2025-08-01,450,Instituto Geográfico Nacional,532.64479769
+2025-09-01,450,Instituto Geográfico Nacional,585.67415124
+2025-10-01,450,Instituto Geográfico Nacional,547.3838172
+2025-11-01,450,Instituto Geográfico Nacional,565.88806216
+2025-12-01,450,Instituto Geográfico Nacional,1100.78853255
+2025-01-01,452,Servicio Meteorológico Nacional,1046.83793652
+2025-02-01,452,Servicio Meteorológico Nacional,1409.8975297000002
+2025-03-01,452,Servicio Meteorológico Nacional,2845.77605211
+2025-04-01,452,Servicio Meteorológico Nacional,1308.28326148
+2025-05-01,452,Servicio Meteorológico Nacional,1816.4994434100001
+2025-06-01,452,Servicio Meteorológico Nacional,3392.01432076
+2025-07-01,452,Servicio Meteorológico Nacional,1258.86888116
+2025-08-01,452,Servicio Meteorológico Nacional,2401.12666225
+2025-09-01,452,Servicio Meteorológico Nacional,2282.36071346
+2025-10-01,452,Servicio Meteorológico Nacional,2004.65872729
+2025-11-01,452,Servicio Meteorológico Nacional,2079.49507481
+2025-12-01,452,Servicio Meteorológico Nacional,5377.11289139
+2025-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,133460.02225902
+2025-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,139019.37253643
+2025-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,143838.12738575
+2025-04-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,143954.34934042
+2025-05-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,155771.39017124
+2025-06-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,223698.65703098
+2025-07-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,150288.34098305998
+2025-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,162038.42781495998
+2025-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,160109.46801825
+2025-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,160888.31199874
+2025-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,162694.53449259
+2025-12-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,241971.54170161
+2025-01-01,602,Comisión Nacional de Valores,944.82390235
+2025-02-01,602,Comisión Nacional de Valores,1241.11391839
+2025-03-01,602,Comisión Nacional de Valores,1013.69823803
+2025-04-01,602,Comisión Nacional de Valores,1334.34130231
+2025-05-01,602,Comisión Nacional de Valores,1072.83149224
+2025-06-01,602,Comisión Nacional de Valores,1993.45388005
+2025-07-01,602,Comisión Nacional de Valores,878.21549327
+2025-08-01,602,Comisión Nacional de Valores,1747.1693402
+2025-09-01,602,Comisión Nacional de Valores,1638.62088822
+2025-10-01,602,Comisión Nacional de Valores,1493.9675670899999
+2025-11-01,602,Comisión Nacional de Valores,1358.21211824
+2025-12-01,602,Comisión Nacional de Valores,2703.49867322
+2025-01-01,603,Superintendencia de Seguros de la Nación,1665.74156862
+2025-02-01,603,Superintendencia de Seguros de la Nación,2331.34109944
+2025-03-01,603,Superintendencia de Seguros de la Nación,5178.59198395
+2025-04-01,603,Superintendencia de Seguros de la Nación,221.74285139
+2025-05-01,603,Superintendencia de Seguros de la Nación,3896.1005086
+2025-06-01,603,Superintendencia de Seguros de la Nación,4471.65850228
+2025-07-01,603,Superintendencia de Seguros de la Nación,1326.83152892
+2025-08-01,603,Superintendencia de Seguros de la Nación,2323.99850028
+2025-09-01,603,Superintendencia de Seguros de la Nación,3254.90380024
+2025-10-01,603,Superintendencia de Seguros de la Nación,1783.86632988
+2025-11-01,603,Superintendencia de Seguros de la Nación,2207.98536827
+2025-12-01,603,Superintendencia de Seguros de la Nación,4794.9503505699995
+2025-01-01,604,Dirección Nacional de Vialidad,612.20450099
+2025-02-01,604,Dirección Nacional de Vialidad,36343.38045687
+2025-03-01,604,Dirección Nacional de Vialidad,75973.27873359
+2025-04-01,604,Dirección Nacional de Vialidad,46805.70154987
+2025-05-01,604,Dirección Nacional de Vialidad,37119.959758
+2025-06-01,604,Dirección Nacional de Vialidad,99830.36086465
+2025-07-01,604,Dirección Nacional de Vialidad,19910.12598694
+2025-08-01,604,Dirección Nacional de Vialidad,22503.23933595
+2025-09-01,604,Dirección Nacional de Vialidad,76988.95507064
+2025-10-01,604,Dirección Nacional de Vialidad,47822.72068457
+2025-11-01,604,Dirección Nacional de Vialidad,53348.26247252
+2025-12-01,604,Dirección Nacional de Vialidad,73351.87289058
+2025-01-01,606,Instituto Nacional de Tecnología Agropecuaria,14911.505637279999
+2025-02-01,606,Instituto Nacional de Tecnología Agropecuaria,16766.26467901
+2025-03-01,606,Instituto Nacional de Tecnología Agropecuaria,18072.88020901
+2025-04-01,606,Instituto Nacional de Tecnología Agropecuaria,16804.124598039998
+2025-05-01,606,Instituto Nacional de Tecnología Agropecuaria,18276.84491372
+2025-06-01,606,Instituto Nacional de Tecnología Agropecuaria,26412.36079088
+2025-07-01,606,Instituto Nacional de Tecnología Agropecuaria,16285.07730806
+2025-08-01,606,Instituto Nacional de Tecnología Agropecuaria,16246.6319831
+2025-09-01,606,Instituto Nacional de Tecnología Agropecuaria,20254.120088210002
+2025-10-01,606,Instituto Nacional de Tecnología Agropecuaria,17524.27736633
+2025-11-01,606,Instituto Nacional de Tecnología Agropecuaria,18514.776228130002
+2025-12-01,606,Instituto Nacional de Tecnología Agropecuaria,29588.6028946
+2025-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1046.19177247
+2025-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1173.86332447
+2025-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1209.23926907
+2025-04-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,330.31221165
+2025-05-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1308.46960025
+2025-06-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2931.94742596
+2025-07-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,293.69523353
+2025-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1473.4850150099999
+2025-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,3348.82241009
+2025-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,408.49172400000003
+2025-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1512.01030063
+2025-12-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,6950.40631545
+2025-01-01,608,Instituto Nacional de Tecnología Industrial,3548.6274855
+2025-02-01,608,Instituto Nacional de Tecnología Industrial,5712.66129307
+2025-03-01,608,Instituto Nacional de Tecnología Industrial,6229.05146385
+2025-04-01,608,Instituto Nacional de Tecnología Industrial,5254.8005822000005
+2025-05-01,608,Instituto Nacional de Tecnología Industrial,5636.80053433
+2025-06-01,608,Instituto Nacional de Tecnología Industrial,7780.45373689
+2025-07-01,608,Instituto Nacional de Tecnología Industrial,5547.71518861
+2025-08-01,608,Instituto Nacional de Tecnología Industrial,5801.01824943
+2025-09-01,608,Instituto Nacional de Tecnología Industrial,6343.7428449
+2025-10-01,608,Instituto Nacional de Tecnología Industrial,5315.43203762
+2025-11-01,608,Instituto Nacional de Tecnología Industrial,8594.200096049999
+2025-12-01,608,Instituto Nacional de Tecnología Industrial,14740.48674183
+2025-01-01,609,Instituto Nacional de Vitivinicultura,1127.5711692300001
+2025-02-01,609,Instituto Nacional de Vitivinicultura,1180.24107249
+2025-03-01,609,Instituto Nacional de Vitivinicultura,1633.9963416399999
+2025-04-01,609,Instituto Nacional de Vitivinicultura,1209.89594695
+2025-05-01,609,Instituto Nacional de Vitivinicultura,1319.0362921400001
+2025-06-01,609,Instituto Nacional de Vitivinicultura,1902.90445286
+2025-07-01,609,Instituto Nacional de Vitivinicultura,1186.50153791
+2025-08-01,609,Instituto Nacional de Vitivinicultura,1416.24256821
+2025-09-01,609,Instituto Nacional de Vitivinicultura,1304.62910612
+2025-10-01,609,Instituto Nacional de Vitivinicultura,1351.57099531
+2025-11-01,609,Instituto Nacional de Vitivinicultura,1283.67491698
+2025-12-01,609,Instituto Nacional de Vitivinicultura,2246.31134949
+2025-01-01,612,Tribunal de Tasaciones de la Nación,216.97887873
+2025-02-01,612,Tribunal de Tasaciones de la Nación,235.67797276
+2025-03-01,612,Tribunal de Tasaciones de la Nación,254.24568079
+2025-04-01,612,Tribunal de Tasaciones de la Nación,166.63748169
+2025-05-01,612,Tribunal de Tasaciones de la Nación,326.96228421
+2025-06-01,612,Tribunal de Tasaciones de la Nación,378.88025094
+2025-07-01,612,Tribunal de Tasaciones de la Nación,170.36785544
+2025-08-01,612,Tribunal de Tasaciones de la Nación,260.23689246
+2025-09-01,612,Tribunal de Tasaciones de la Nación,340.33255415
+2025-10-01,612,Tribunal de Tasaciones de la Nación,175.50682575
+2025-11-01,612,Tribunal de Tasaciones de la Nación,282.4608971
+2025-12-01,612,Tribunal de Tasaciones de la Nación,494.49567383
+2025-01-01,614,Instituto Nacional de Semillas,504.02385782
+2025-02-01,614,Instituto Nacional de Semillas,684.81082795
+2025-03-01,614,Instituto Nacional de Semillas,744.59351196
+2025-04-01,614,Instituto Nacional de Semillas,522.43266451
+2025-05-01,614,Instituto Nacional de Semillas,832.4367827899999
+2025-06-01,614,Instituto Nacional de Semillas,1004.37663685
+2025-07-01,614,Instituto Nacional de Semillas,505.29980058
+2025-08-01,614,Instituto Nacional de Semillas,280.95251862000003
+2025-09-01,614,Instituto Nacional de Semillas,1233.39895086
+2025-10-01,614,Instituto Nacional de Semillas,650.45229311
+2025-11-01,614,Instituto Nacional de Semillas,654.20228252
+2025-12-01,614,Instituto Nacional de Semillas,5962.34812167
+2025-01-01,620,Tribunal Fiscal de la Nación,880.1941841800001
+2025-02-01,620,Tribunal Fiscal de la Nación,906.50891001
+2025-03-01,620,Tribunal Fiscal de la Nación,917.76608853
+2025-04-01,620,Tribunal Fiscal de la Nación,1016.79717048
+2025-05-01,620,Tribunal Fiscal de la Nación,1046.6337303100001
+2025-06-01,620,Tribunal Fiscal de la Nación,1560.66297961
+2025-07-01,620,Tribunal Fiscal de la Nación,1040.60227611
+2025-08-01,620,Tribunal Fiscal de la Nación,1044.0968220299999
+2025-09-01,620,Tribunal Fiscal de la Nación,1090.4184536100001
+2025-10-01,620,Tribunal Fiscal de la Nación,1095.91518687
+2025-11-01,620,Tribunal Fiscal de la Nación,1143.1839243099998
+2025-12-01,620,Tribunal Fiscal de la Nación,1822.42181581
+2025-01-01,622,Instituto Nacional de la Propiedad Industrial,527.40439985
+2025-02-01,622,Instituto Nacional de la Propiedad Industrial,980.08415693
+2025-03-01,622,Instituto Nacional de la Propiedad Industrial,929.89973578
+2025-04-01,622,Instituto Nacional de la Propiedad Industrial,926.59425177
+2025-05-01,622,Instituto Nacional de la Propiedad Industrial,914.8600982
+2025-06-01,622,Instituto Nacional de la Propiedad Industrial,1580.78255254
+2025-07-01,622,Instituto Nacional de la Propiedad Industrial,890.8488453
+2025-08-01,622,Instituto Nacional de la Propiedad Industrial,927.75243742
+2025-09-01,622,Instituto Nacional de la Propiedad Industrial,1489.44942716
+2025-10-01,622,Instituto Nacional de la Propiedad Industrial,822.32535601
+2025-11-01,622,Instituto Nacional de la Propiedad Industrial,978.85195032
+2025-12-01,622,Instituto Nacional de la Propiedad Industrial,3333.84423448
+2025-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,8712.10882147
+2025-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,11831.45283168
+2025-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,17477.08701718
+2025-04-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,13688.508969299999
+2025-05-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,13360.408132
+2025-06-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,21560.36277854
+2025-07-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,12453.348203130001
+2025-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,16961.29832206
+2025-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,17004.24374508
+2025-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,13939.80782309
+2025-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,16071.28313863
+2025-12-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,35277.00617895
+2025-01-01,624,Servicio Geológico Minero Argentino,686.50804128
+2025-02-01,624,Servicio Geológico Minero Argentino,802.75454145
+2025-03-01,624,Servicio Geológico Minero Argentino,863.90508566
+2025-04-01,624,Servicio Geológico Minero Argentino,775.71122833
+2025-05-01,624,Servicio Geológico Minero Argentino,832.7187926
+2025-06-01,624,Servicio Geológico Minero Argentino,1327.25246002
+2025-07-01,624,Servicio Geológico Minero Argentino,803.44326458
+2025-08-01,624,Servicio Geológico Minero Argentino,843.75666877
+2025-09-01,624,Servicio Geológico Minero Argentino,1193.47766081
+2025-10-01,624,Servicio Geológico Minero Argentino,908.31127544
+2025-11-01,624,Servicio Geológico Minero Argentino,885.7765867200001
+2025-12-01,624,Servicio Geológico Minero Argentino,2891.68700805
+2025-01-01,651,Ente Nacional Regulador del Gas,4368.512822860001
+2025-02-01,651,Ente Nacional Regulador del Gas,4176.41253026
+2025-03-01,651,Ente Nacional Regulador del Gas,4418.290601629999
+2025-04-01,651,Ente Nacional Regulador del Gas,4227.9758829
+2025-05-01,651,Ente Nacional Regulador del Gas,4431.68607172
+2025-06-01,651,Ente Nacional Regulador del Gas,6668.21113722
+2025-07-01,651,Ente Nacional Regulador del Gas,4199.0768332200005
+2025-08-01,651,Ente Nacional Regulador del Gas,4186.0560227
+2025-09-01,651,Ente Nacional Regulador del Gas,4499.87134233
+2025-10-01,651,Ente Nacional Regulador del Gas,4264.13765661
+2025-11-01,651,Ente Nacional Regulador del Gas,4390.72663243
+2025-12-01,651,Ente Nacional Regulador del Gas,7836.50935254
+2025-01-01,652,Ente Nacional Regulador de la Electricidad,512.5698983999999
+2025-02-01,652,Ente Nacional Regulador de la Electricidad,1374.96902903
+2025-03-01,652,Ente Nacional Regulador de la Electricidad,997.47353761
+2025-04-01,652,Ente Nacional Regulador de la Electricidad,1095.10005587
+2025-05-01,652,Ente Nacional Regulador de la Electricidad,880.8323537599999
+2025-06-01,652,Ente Nacional Regulador de la Electricidad,2607.2159214999997
+2025-07-01,652,Ente Nacional Regulador de la Electricidad,1034.93061268
+2025-08-01,652,Ente Nacional Regulador de la Electricidad,1249.31142905
+2025-09-01,652,Ente Nacional Regulador de la Electricidad,2012.60014679
+2025-10-01,652,Ente Nacional Regulador de la Electricidad,1480.32818327
+2025-11-01,652,Ente Nacional Regulador de la Electricidad,1535.88519666
+2025-12-01,652,Ente Nacional Regulador de la Electricidad,3811.99895575
+2025-01-01,656,Organismo Regulador de Seguridad de Presas,188.18150324
+2025-02-01,656,Organismo Regulador de Seguridad de Presas,263.51375065
+2025-03-01,656,Organismo Regulador de Seguridad de Presas,202.62923562999998
+2025-04-01,656,Organismo Regulador de Seguridad de Presas,199.53141721
+2025-05-01,656,Organismo Regulador de Seguridad de Presas,204.07515209
+2025-06-01,656,Organismo Regulador de Seguridad de Presas,325.86810291
+2025-07-01,656,Organismo Regulador de Seguridad de Presas,193.69242242
+2025-08-01,656,Organismo Regulador de Seguridad de Presas,217.80361456
+2025-09-01,656,Organismo Regulador de Seguridad de Presas,209.86793773
+2025-10-01,656,Organismo Regulador de Seguridad de Presas,207.79003325
+2025-11-01,656,Organismo Regulador de Seguridad de Presas,192.74582798
+2025-12-01,656,Organismo Regulador de Seguridad de Presas,420.48947143
+2025-01-01,661,Comisión Nacional de Regulación del Transporte,2487.50532229
+2025-02-01,661,Comisión Nacional de Regulación del Transporte,2491.69262717
+2025-03-01,661,Comisión Nacional de Regulación del Transporte,4427.53267481
+2025-04-01,661,Comisión Nacional de Regulación del Transporte,2640.68120671
+2025-05-01,661,Comisión Nacional de Regulación del Transporte,2775.45880564
+2025-06-01,661,Comisión Nacional de Regulación del Transporte,5049.47925364
+2025-07-01,661,Comisión Nacional de Regulación del Transporte,2744.0266035199998
+2025-08-01,661,Comisión Nacional de Regulación del Transporte,3294.1817496800004
+2025-09-01,661,Comisión Nacional de Regulación del Transporte,3460.22465039
+2025-10-01,661,Comisión Nacional de Regulación del Transporte,2977.96985268
+2025-11-01,661,Comisión Nacional de Regulación del Transporte,2690.14408816
+2025-12-01,661,Comisión Nacional de Regulación del Transporte,7842.0898941899995
+2025-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,596.57190393
+2025-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,781.07754684
+2025-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,645.77704793
+2025-04-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,600.79719646
+2025-05-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,650.38482961
+2025-06-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,931.5400770900001
+2025-07-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,820.1735960999999
+2025-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,845.46242337
+2025-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,879.19487256
+2025-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,588.90799718
+2025-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,571.3084417700001
+2025-12-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,938.90768923
+2025-01-01,669,Administración Nacional de Aviación Civil,3664.63030447
+2025-02-01,669,Administración Nacional de Aviación Civil,4248.66376978
+2025-03-01,669,Administración Nacional de Aviación Civil,7009.73530439
+2025-04-01,669,Administración Nacional de Aviación Civil,2858.47428275
+2025-05-01,669,Administración Nacional de Aviación Civil,4099.33436118
+2025-06-01,669,Administración Nacional de Aviación Civil,7614.52719573
+2025-07-01,669,Administración Nacional de Aviación Civil,3214.60467693
+2025-08-01,669,Administración Nacional de Aviación Civil,4495.3630793600005
+2025-09-01,669,Administración Nacional de Aviación Civil,6427.6225808
+2025-10-01,669,Administración Nacional de Aviación Civil,4474.37810258
+2025-11-01,669,Administración Nacional de Aviación Civil,4232.79031038
+2025-12-01,669,Administración Nacional de Aviación Civil,16068.49069706
+2025-01-01,670,Unidad de Información Financiera,364.59030163
+2025-02-01,670,Unidad de Información Financiera,645.44710041
+2025-03-01,670,Unidad de Información Financiera,839.14069163
+2025-04-01,670,Unidad de Información Financiera,115.16660537
+2025-05-01,670,Unidad de Información Financiera,1317.72445073
+2025-06-01,670,Unidad de Información Financiera,934.14760333
+2025-07-01,670,Unidad de Información Financiera,678.28868239
+2025-08-01,670,Unidad de Información Financiera,1037.53526938
+2025-09-01,670,Unidad de Información Financiera,1250.8376534200002
+2025-10-01,670,Unidad de Información Financiera,773.73900021
+2025-11-01,670,Unidad de Información Financiera,779.59651306
+2025-12-01,670,Unidad de Información Financiera,1724.25599031
+2025-01-01,671,Junta de Seguridad en el Transporte,739.25973558
+2025-02-01,671,Junta de Seguridad en el Transporte,689.22043013
+2025-03-01,671,Junta de Seguridad en el Transporte,748.23287831
+2025-04-01,671,Junta de Seguridad en el Transporte,654.28873335
+2025-05-01,671,Junta de Seguridad en el Transporte,701.33057703
+2025-06-01,671,Junta de Seguridad en el Transporte,943.34411393
+2025-07-01,671,Junta de Seguridad en el Transporte,491.50491832
+2025-08-01,671,Junta de Seguridad en el Transporte,260.80478529
+2025-09-01,671,Junta de Seguridad en el Transporte,3015.13059839
+2025-10-01,671,Junta de Seguridad en el Transporte,676.44783661
+2025-11-01,671,Junta de Seguridad en el Transporte,696.6162423
+2025-12-01,671,Junta de Seguridad en el Transporte,1008.05481969
+2025-04-01,673,Agencia Nacional de Puertos y Navegación,0.0
+2025-06-01,673,Agencia Nacional de Puertos y Navegación,120.4
+2025-07-01,673,Agencia Nacional de Puertos y Navegación,132.765098
+2025-08-01,673,Agencia Nacional de Puertos y Navegación,189.2
+2025-09-01,673,Agencia Nacional de Puertos y Navegación,2634.8064495599997
+2025-10-01,673,Agencia Nacional de Puertos y Navegación,257.32765046
+2025-11-01,673,Agencia Nacional de Puertos y Navegación,768.19053639
+2025-12-01,673,Agencia Nacional de Puertos y Navegación,2227.34195827
+2025-01-01,802,Fondo Nacional de las Artes,119.10142082
+2025-02-01,802,Fondo Nacional de las Artes,244.97086806000002
+2025-03-01,802,Fondo Nacional de las Artes,283.13765949000003
+2025-04-01,802,Fondo Nacional de las Artes,161.39220474
+2025-05-01,802,Fondo Nacional de las Artes,216.95007028
+2025-06-01,802,Fondo Nacional de las Artes,486.73000203000004
+2025-07-01,802,Fondo Nacional de las Artes,169.23444855
+2025-08-01,802,Fondo Nacional de las Artes,215.65645336
+2025-09-01,802,Fondo Nacional de las Artes,252.04056703999998
+2025-10-01,802,Fondo Nacional de las Artes,151.15001991
+2025-11-01,802,Fondo Nacional de las Artes,187.03789593
+2025-12-01,802,Fondo Nacional de las Artes,1115.00465856
+2025-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,319.82596892
+2025-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,332.29138547
+2025-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,353.78985571
+2025-04-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,367.88833227
+2025-05-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,357.5408865
+2025-06-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,761.9966234
+2025-07-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,394.68478045
+2025-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,292.32735604
+2025-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,658.29700858
+2025-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,375.75756789999997
+2025-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,1063.7462550999999
+2025-12-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,1360.74517
+2025-01-01,850,Administración Nacional de la Seguridad Social,4336023.35262103
+2025-02-01,850,Administración Nacional de la Seguridad Social,4411584.22334689
+2025-03-01,850,Administración Nacional de la Seguridad Social,4994671.737204759
+2025-04-01,850,Administración Nacional de la Seguridad Social,4617753.59615402
+2025-05-01,850,Administración Nacional de la Seguridad Social,4779473.94312841
+2025-06-01,850,Administración Nacional de la Seguridad Social,6921622.29768647
+2025-07-01,850,Administración Nacional de la Seguridad Social,5050553.11561928
+2025-08-01,850,Administración Nacional de la Seguridad Social,5053574.56898487
+2025-09-01,850,Administración Nacional de la Seguridad Social,5337934.58193192
+2025-10-01,850,Administración Nacional de la Seguridad Social,5323781.23738567
+2025-11-01,850,Administración Nacional de la Seguridad Social,5482649.38557239
+2025-12-01,850,Administración Nacional de la Seguridad Social,7958408.17761313
+2025-01-01,852,Superintendencia de Riesgos del Trabajo,910.5688529099999
+2025-02-01,852,Superintendencia de Riesgos del Trabajo,670.6140554499999
+2025-03-01,852,Superintendencia de Riesgos del Trabajo,1217.68370157
+2025-04-01,852,Superintendencia de Riesgos del Trabajo,942.264338
+2025-05-01,852,Superintendencia de Riesgos del Trabajo,1487.6675234
+2025-06-01,852,Superintendencia de Riesgos del Trabajo,1545.66510467
+2025-07-01,852,Superintendencia de Riesgos del Trabajo,1016.3451959800001
+2025-08-01,852,Superintendencia de Riesgos del Trabajo,1019.76883258
+2025-09-01,852,Superintendencia de Riesgos del Trabajo,1173.4857836400001
+2025-10-01,852,Superintendencia de Riesgos del Trabajo,992.23505989
+2025-11-01,852,Superintendencia de Riesgos del Trabajo,959.1706419
+2025-12-01,852,Superintendencia de Riesgos del Trabajo,2065.98620002
+2025-01-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1524.01618939
+2025-02-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1307.34344527
+2025-03-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1230.50590117
+2025-04-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1073.78790499
+2025-05-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1118.04729236
+2025-06-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1553.48370985
+2025-07-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',801.67816609
+2025-08-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',2123.57181509
+2025-09-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1688.91050388
+2025-10-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1113.82214118
+2025-11-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1046.7427349
+2025-12-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',3324.98494305
+2025-01-01,903,Hospital Nacional Dr. Baldomero Sommer,2694.32302275
+2025-02-01,903,Hospital Nacional Dr. Baldomero Sommer,2696.2363050999998
+2025-03-01,903,Hospital Nacional Dr. Baldomero Sommer,2891.91576194
+2025-04-01,903,Hospital Nacional Dr. Baldomero Sommer,1979.14690047
+2025-05-01,903,Hospital Nacional Dr. Baldomero Sommer,2165.47609305
+2025-06-01,903,Hospital Nacional Dr. Baldomero Sommer,4596.3355982699995
+2025-07-01,903,Hospital Nacional Dr. Baldomero Sommer,1712.76457884
+2025-08-01,903,Hospital Nacional Dr. Baldomero Sommer,3377.89021021
+2025-09-01,903,Hospital Nacional Dr. Baldomero Sommer,3285.64245312
+2025-10-01,903,Hospital Nacional Dr. Baldomero Sommer,3175.15847122
+2025-11-01,903,Hospital Nacional Dr. Baldomero Sommer,3045.82882496
+2025-12-01,903,Hospital Nacional Dr. Baldomero Sommer,5960.060321800001
+2025-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2638.18133703
+2025-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3287.46700337
+2025-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3751.40910558
+2025-04-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3254.33171927
+2025-05-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2556.22604803
+2025-06-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",5496.00579839
+2025-07-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3278.95273897
+2025-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3570.13803539
+2025-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3229.88169963
+2025-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",4002.43821294
+2025-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2833.2304733399997
+2025-12-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",9766.85008118
+2025-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1763.76902848
+2025-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,942.70083431
+2025-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2197.36152766
+2025-04-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2620.18461065
+2025-05-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3732.16228428
+2025-06-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3364.65685233
+2025-07-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2001.51693423
+2025-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2177.56500177
+2025-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,6868.38803198
+2025-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3034.7014746199998
+2025-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2647.69780044
+2025-12-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,8543.13907273
+2025-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,2426.8094202
+2025-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3564.0965583400002
+2025-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3909.21060099
+2025-04-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3158.68597442
+2025-05-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3351.44281188
+2025-06-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,4704.03371454
+2025-07-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3046.60688554
+2025-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3788.59060423
+2025-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,6213.98987852
+2025-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3533.62661093
+2025-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3485.28942861
+2025-12-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,7263.7393685
+2025-01-01,908,Hospital Nacional Profesor Alejandro Posadas,8745.11661398
+2025-02-01,908,Hospital Nacional Profesor Alejandro Posadas,15698.473292080002
+2025-03-01,908,Hospital Nacional Profesor Alejandro Posadas,15180.04316553
+2025-04-01,908,Hospital Nacional Profesor Alejandro Posadas,6144.14768679
+2025-05-01,908,Hospital Nacional Profesor Alejandro Posadas,23544.22837887
+2025-06-01,908,Hospital Nacional Profesor Alejandro Posadas,19771.26941242
+2025-07-01,908,Hospital Nacional Profesor Alejandro Posadas,16267.47447013
+2025-08-01,908,Hospital Nacional Profesor Alejandro Posadas,14492.14312954
+2025-09-01,908,Hospital Nacional Profesor Alejandro Posadas,19421.97869635
+2025-10-01,908,Hospital Nacional Profesor Alejandro Posadas,16888.3700503
+2025-11-01,908,Hospital Nacional Profesor Alejandro Posadas,14077.90905919
+2025-12-01,908,Hospital Nacional Profesor Alejandro Posadas,36695.83622184
+2025-01-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1795.93998618
+2025-02-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1937.83227466
+2025-03-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',2915.06531326
+2025-04-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1654.16844119
+2025-05-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',2924.19249269
+2025-06-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',3527.97422473
+2025-07-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1381.3808643300001
+2025-08-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',2550.22457951
+2025-09-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',5289.31182888
+2025-10-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',2155.07915658
+2025-11-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',2892.43755888
+2025-12-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',7714.02267996
+2025-01-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,822.8120613599999
+2025-02-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,911.23569858
+2025-03-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,967.64182959
+2025-04-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,929.55342494
+2025-05-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,822.4669487699999
+2025-06-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,1560.1188683
+2025-07-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,857.0059950599999
+2025-08-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,919.01926064
+2025-09-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,2121.63447661
+2025-10-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,1033.71277444
+2025-11-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,1047.9481825
+2025-12-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,1976.78737826
+2025-01-01,914,Superintendencia de Servicios de Salud,5890.59538748
+2025-02-01,914,Superintendencia de Servicios de Salud,6513.76865309
+2025-03-01,914,Superintendencia de Servicios de Salud,10395.13939013
+2025-04-01,914,Superintendencia de Servicios de Salud,8814.52038889
+2025-05-01,914,Superintendencia de Servicios de Salud,8922.46545576
+2025-06-01,914,Superintendencia de Servicios de Salud,10890.23772091
+2025-07-01,914,Superintendencia de Servicios de Salud,6440.7946708
+2025-08-01,914,Superintendencia de Servicios de Salud,8089.7740661
+2025-09-01,914,Superintendencia de Servicios de Salud,7724.130824440001
+2025-10-01,914,Superintendencia de Servicios de Salud,11818.92997807
+2025-11-01,914,Superintendencia de Servicios de Salud,5588.44983074
+2025-12-01,914,Superintendencia de Servicios de Salud,9568.50404829
+2025-01-01,915,Instituto Nacional del Cáncer (INC),168.54971143
+2025-02-01,915,Instituto Nacional del Cáncer (INC),0.0
+2025-03-01,915,Instituto Nacional del Cáncer (INC),569.9455225
+2025-04-01,915,Instituto Nacional del Cáncer (INC),290.20968547
+2025-05-01,915,Instituto Nacional del Cáncer (INC),246.80792326000002
+2025-06-01,915,Instituto Nacional del Cáncer (INC),403.94302007
+2025-07-01,915,Instituto Nacional del Cáncer (INC),258.66238924
+2025-08-01,915,Instituto Nacional del Cáncer (INC),97.33492321
+2025-09-01,915,Instituto Nacional del Cáncer (INC),442.28542941
+2025-10-01,915,Instituto Nacional del Cáncer (INC),143.46236104
+2025-11-01,915,Instituto Nacional del Cáncer (INC),255.94242024
+2025-12-01,915,Instituto Nacional del Cáncer (INC),29.643807159999998
+2025-01-01,917,Agencia Nacional de Discapacidad,331641.67820164
+2025-02-01,917,Agencia Nacional de Discapacidad,373842.13622607
+2025-03-01,917,Agencia Nacional de Discapacidad,380453.07140376
+2025-04-01,917,Agencia Nacional de Discapacidad,383995.45646396
+2025-05-01,917,Agencia Nacional de Discapacidad,145533.69016713998
+2025-06-01,917,Agencia Nacional de Discapacidad,765207.53047801
+2025-07-01,917,Agencia Nacional de Discapacidad,66764.4731844
+2025-08-01,917,Agencia Nacional de Discapacidad,712875.3880154201
+2025-09-01,917,Agencia Nacional de Discapacidad,367390.87733719003
+2025-10-01,917,Agencia Nacional de Discapacidad,394529.20245075
+2025-11-01,917,Agencia Nacional de Discapacidad,346022.59258243
+2025-12-01,917,Agencia Nacional de Discapacidad,671820.03199643

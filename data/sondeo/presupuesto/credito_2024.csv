@@ -1,0 +1,1531 @@
+fecha,servicio_id,servicio_desc,devengado
+2024-01-01,1,Auditoría General de la Nación,2907.33988074
+2024-02-01,1,Auditoría General de la Nación,4077.00340598
+2024-03-01,1,Auditoría General de la Nación,3823.09241386
+2024-04-01,1,Auditoría General de la Nación,4319.99977443
+2024-05-01,1,Auditoría General de la Nación,4510.73955538
+2024-06-01,1,Auditoría General de la Nación,6394.7153358
+2024-07-01,1,Auditoría General de la Nación,4482.16809726
+2024-08-01,1,Auditoría General de la Nación,5107.86412446
+2024-09-01,1,Auditoría General de la Nación,5129.9531875
+2024-10-01,1,Auditoría General de la Nación,5030.84643398
+2024-11-01,1,Auditoría General de la Nación,5426.48821444
+2024-12-01,1,Auditoría General de la Nación,8814.54198662
+2024-01-01,101,Fundación Miguel Lillo,312.94529719999997
+2024-02-01,101,Fundación Miguel Lillo,357.78250697
+2024-03-01,101,Fundación Miguel Lillo,339.41002139
+2024-04-01,101,Fundación Miguel Lillo,474.72651486
+2024-05-01,101,Fundación Miguel Lillo,439.66933969999997
+2024-06-01,101,Fundación Miguel Lillo,788.03015639
+2024-07-01,101,Fundación Miguel Lillo,494.53409524
+2024-08-01,101,Fundación Miguel Lillo,505.89194927
+2024-09-01,101,Fundación Miguel Lillo,673.7247989
+2024-10-01,101,Fundación Miguel Lillo,590.5416171100001
+2024-11-01,101,Fundación Miguel Lillo,655.1764532999999
+2024-12-01,101,Fundación Miguel Lillo,1101.73942609
+2024-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,24660.56478572
+2024-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,38558.14965675
+2024-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,36083.05878476
+2024-04-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,36708.32126832
+2024-05-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,36704.44844811
+2024-06-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,58805.98427277
+2024-07-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,40733.68491646
+2024-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,44328.516248570006
+2024-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,42566.331177550004
+2024-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,41566.164707820004
+2024-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,42715.0810633
+2024-12-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,60745.36784603
+2024-01-01,105,Comisión Nacional de Energía Atómica,4309.70530465
+2024-02-01,105,Comisión Nacional de Energía Atómica,11842.682479090001
+2024-03-01,105,Comisión Nacional de Energía Atómica,17964.71456971
+2024-04-01,105,Comisión Nacional de Energía Atómica,7970.48592655
+2024-05-01,105,Comisión Nacional de Energía Atómica,6457.14439405
+2024-06-01,105,Comisión Nacional de Energía Atómica,32137.942921089998
+2024-07-01,105,Comisión Nacional de Energía Atómica,3671.4711420700005
+2024-08-01,105,Comisión Nacional de Energía Atómica,30286.10979223
+2024-09-01,105,Comisión Nacional de Energía Atómica,27761.335430659998
+2024-10-01,105,Comisión Nacional de Energía Atómica,10121.84167224
+2024-11-01,105,Comisión Nacional de Energía Atómica,19376.80576757
+2024-12-01,105,Comisión Nacional de Energía Atómica,23002.41336555
+2024-01-01,106,Comisión Nacional de Actividades Espaciales,622.33992528
+2024-02-01,106,Comisión Nacional de Actividades Espaciales,2943.17796116
+2024-03-01,106,Comisión Nacional de Actividades Espaciales,3428.22717469
+2024-04-01,106,Comisión Nacional de Actividades Espaciales,2826.95182549
+2024-05-01,106,Comisión Nacional de Actividades Espaciales,2258.3325948
+2024-06-01,106,Comisión Nacional de Actividades Espaciales,2795.19426009
+2024-07-01,106,Comisión Nacional de Actividades Espaciales,3587.52770756
+2024-08-01,106,Comisión Nacional de Actividades Espaciales,1068.56371016
+2024-09-01,106,Comisión Nacional de Actividades Espaciales,3566.39937397
+2024-10-01,106,Comisión Nacional de Actividades Espaciales,1117.34389686
+2024-11-01,106,Comisión Nacional de Actividades Espaciales,4119.23558364
+2024-12-01,106,Comisión Nacional de Actividades Espaciales,22878.4388825
+2024-01-01,107,Administración de Parques Nacionales,2326.26421732
+2024-02-01,107,Administración de Parques Nacionales,4951.39692211
+2024-03-01,107,Administración de Parques Nacionales,4699.20494412
+2024-04-01,107,Administración de Parques Nacionales,4290.73540315
+2024-05-01,107,Administración de Parques Nacionales,3659.28665375
+2024-06-01,107,Administración de Parques Nacionales,7297.7400684799995
+2024-07-01,107,Administración de Parques Nacionales,3710.49985504
+2024-08-01,107,Administración de Parques Nacionales,6248.9871682699995
+2024-09-01,107,Administración de Parques Nacionales,4907.78513718
+2024-10-01,107,Administración de Parques Nacionales,3946.20358824
+2024-11-01,107,Administración de Parques Nacionales,7198.31862734
+2024-12-01,107,Administración de Parques Nacionales,12696.01890642
+2024-01-01,108,Instituto Nacional del Agua,286.7688455
+2024-02-01,108,Instituto Nacional del Agua,436.68545593
+2024-03-01,108,Instituto Nacional del Agua,594.67695915
+2024-04-01,108,Instituto Nacional del Agua,485.99905252
+2024-05-01,108,Instituto Nacional del Agua,452.74257527000003
+2024-06-01,108,Instituto Nacional del Agua,805.07555844
+2024-07-01,108,Instituto Nacional del Agua,634.03056126
+2024-08-01,108,Instituto Nacional del Agua,488.12917404
+2024-09-01,108,Instituto Nacional del Agua,742.46605144
+2024-10-01,108,Instituto Nacional del Agua,515.5222049
+2024-11-01,108,Instituto Nacional del Agua,634.79608302
+2024-12-01,108,Instituto Nacional del Agua,782.32595267
+2024-01-01,109,Sindicatura General de la Nación,777.2557325500001
+2024-02-01,109,Sindicatura General de la Nación,1356.52614485
+2024-03-01,109,Sindicatura General de la Nación,1185.5490313
+2024-04-01,109,Sindicatura General de la Nación,1291.49642261
+2024-05-01,109,Sindicatura General de la Nación,1344.72386846
+2024-06-01,109,Sindicatura General de la Nación,1879.40657031
+2024-07-01,109,Sindicatura General de la Nación,1583.6490511700001
+2024-08-01,109,Sindicatura General de la Nación,1439.1700789699998
+2024-09-01,109,Sindicatura General de la Nación,1556.69754654
+2024-10-01,109,Sindicatura General de la Nación,1444.92573334
+2024-11-01,109,Sindicatura General de la Nación,1488.80493299
+2024-12-01,109,Sindicatura General de la Nación,2427.35708309
+2024-01-01,112,Autoridad Regulatoria Nuclear,703.16086704
+2024-02-01,112,Autoridad Regulatoria Nuclear,783.35679386
+2024-03-01,112,Autoridad Regulatoria Nuclear,891.30408494
+2024-04-01,112,Autoridad Regulatoria Nuclear,1068.82348465
+2024-05-01,112,Autoridad Regulatoria Nuclear,1093.3607700100001
+2024-06-01,112,Autoridad Regulatoria Nuclear,1269.64451829
+2024-07-01,112,Autoridad Regulatoria Nuclear,976.48001483
+2024-08-01,112,Autoridad Regulatoria Nuclear,999.92772693
+2024-09-01,112,Autoridad Regulatoria Nuclear,1002.68413846
+2024-10-01,112,Autoridad Regulatoria Nuclear,1019.86065491
+2024-11-01,112,Autoridad Regulatoria Nuclear,1107.89144686
+2024-12-01,112,Autoridad Regulatoria Nuclear,2233.10088554
+2024-01-01,113,Teatro Nacional Cervantes,281.71937262
+2024-02-01,113,Teatro Nacional Cervantes,448.28903527
+2024-03-01,113,Teatro Nacional Cervantes,701.92575689
+2024-04-01,113,Teatro Nacional Cervantes,629.71876771
+2024-05-01,113,Teatro Nacional Cervantes,428.67390875
+2024-06-01,113,Teatro Nacional Cervantes,1058.25070479
+2024-07-01,113,Teatro Nacional Cervantes,673.87081922
+2024-08-01,113,Teatro Nacional Cervantes,807.59947972
+2024-09-01,113,Teatro Nacional Cervantes,829.41777364
+2024-10-01,113,Teatro Nacional Cervantes,659.67390986
+2024-11-01,113,Teatro Nacional Cervantes,722.61916455
+2024-12-01,113,Teatro Nacional Cervantes,1352.6323707899999
+2024-01-01,114,Instituto Nacional de Asociativismo y Economía Social,633.13435133
+2024-02-01,114,Instituto Nacional de Asociativismo y Economía Social,518.0787735
+2024-03-01,114,Instituto Nacional de Asociativismo y Economía Social,1957.95390029
+2024-04-01,114,Instituto Nacional de Asociativismo y Economía Social,550.04607942
+2024-05-01,114,Instituto Nacional de Asociativismo y Economía Social,1026.36838471
+2024-06-01,114,Instituto Nacional de Asociativismo y Economía Social,1798.32121268
+2024-07-01,114,Instituto Nacional de Asociativismo y Economía Social,554.39296729
+2024-08-01,114,Instituto Nacional de Asociativismo y Economía Social,919.99038374
+2024-09-01,114,Instituto Nacional de Asociativismo y Economía Social,2894.44344686
+2024-10-01,114,Instituto Nacional de Asociativismo y Economía Social,873.9717957
+2024-11-01,114,Instituto Nacional de Asociativismo y Economía Social,952.4111566199999
+2024-12-01,114,Instituto Nacional de Asociativismo y Economía Social,4081.96276247
+2024-01-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1040.36035422
+2024-02-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1170.01688706
+2024-03-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1423.74325605
+2024-04-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1426.60255026
+2024-05-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1459.5366251
+2024-06-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2146.88354272
+2024-07-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1428.2536476
+2024-08-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2446.62860982
+2024-09-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2215.16835972
+2024-10-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1559.69791925
+2024-11-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1933.0493521
+2024-12-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',4995.47884334
+2024-01-01,117,Instituto Nacional del Teatro,172.28121781
+2024-02-01,117,Instituto Nacional del Teatro,278.7050571
+2024-03-01,117,Instituto Nacional del Teatro,360.37851265
+2024-04-01,117,Instituto Nacional del Teatro,253.43204479
+2024-05-01,117,Instituto Nacional del Teatro,361.92763417
+2024-06-01,117,Instituto Nacional del Teatro,607.82565346
+2024-07-01,117,Instituto Nacional del Teatro,382.03206171
+2024-08-01,117,Instituto Nacional del Teatro,380.75256417
+2024-09-01,117,Instituto Nacional del Teatro,370.94618506999996
+2024-10-01,117,Instituto Nacional del Teatro,314.16247175
+2024-11-01,117,Instituto Nacional del Teatro,495.56626811999996
+2024-12-01,117,Instituto Nacional del Teatro,2222.51197083
+2024-01-01,118,Instituto Nacional de Asuntos Indígenas,208.7842146
+2024-02-01,118,Instituto Nacional de Asuntos Indígenas,186.3996348
+2024-03-01,118,Instituto Nacional de Asuntos Indígenas,285.22386701
+2024-04-01,118,Instituto Nacional de Asuntos Indígenas,106.30619923
+2024-05-01,118,Instituto Nacional de Asuntos Indígenas,511.78911432999996
+2024-06-01,118,Instituto Nacional de Asuntos Indígenas,558.07317648
+2024-07-01,118,Instituto Nacional de Asuntos Indígenas,294.69718377
+2024-08-01,118,Instituto Nacional de Asuntos Indígenas,483.71095849
+2024-09-01,118,Instituto Nacional de Asuntos Indígenas,419.35746036
+2024-10-01,118,Instituto Nacional de Asuntos Indígenas,279.30202487
+2024-11-01,118,Instituto Nacional de Asuntos Indígenas,377.82341671
+2024-12-01,118,Instituto Nacional de Asuntos Indígenas,867.98388072
+2024-01-01,119,Instituto Nacional de Promoción Turística,229.91307582
+2024-02-01,119,Instituto Nacional de Promoción Turística,198.42893177
+2024-03-01,119,Instituto Nacional de Promoción Turística,333.5023389
+2024-04-01,119,Instituto Nacional de Promoción Turística,455.17968963000004
+2024-05-01,119,Instituto Nacional de Promoción Turística,239.73390117
+2024-06-01,119,Instituto Nacional de Promoción Turística,335.84725567
+2024-07-01,119,Instituto Nacional de Promoción Turística,678.38063372
+2024-08-01,119,Instituto Nacional de Promoción Turística,840.7361689
+2024-09-01,119,Instituto Nacional de Promoción Turística,160.32011746
+2024-10-01,119,Instituto Nacional de Promoción Turística,446.96385954000004
+2024-11-01,119,Instituto Nacional de Promoción Turística,762.32806154
+2024-12-01,119,Instituto Nacional de Promoción Turística,1250.6315256
+2024-01-01,121,Banco Nacional de Datos Genéticos (BNDG),86.41309423999999
+2024-02-01,121,Banco Nacional de Datos Genéticos (BNDG),162.16990295
+2024-03-01,121,Banco Nacional de Datos Genéticos (BNDG),227.29746651
+2024-04-01,121,Banco Nacional de Datos Genéticos (BNDG),134.13112506
+2024-05-01,121,Banco Nacional de Datos Genéticos (BNDG),145.78164309
+2024-06-01,121,Banco Nacional de Datos Genéticos (BNDG),181.92507616
+2024-07-01,121,Banco Nacional de Datos Genéticos (BNDG),109.40670215
+2024-08-01,121,Banco Nacional de Datos Genéticos (BNDG),175.14061003
+2024-09-01,121,Banco Nacional de Datos Genéticos (BNDG),198.05308876
+2024-10-01,121,Banco Nacional de Datos Genéticos (BNDG),179.00658385
+2024-11-01,121,Banco Nacional de Datos Genéticos (BNDG),170.72020772
+2024-12-01,121,Banco Nacional de Datos Genéticos (BNDG),355.68384948
+2024-01-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",294.85121741
+2024-02-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",883.31496686
+2024-03-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",10573.08537879
+2024-04-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",427.33707532
+2024-05-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",958.08442281
+2024-06-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1731.31678914
+2024-07-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1495.9694761
+2024-08-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1482.36026436
+2024-09-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",2051.57424368
+2024-10-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1123.50035042
+2024-11-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",-618.50699684
+2024-12-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",3116.18635621
+2024-01-01,200,Registro Nacional de las Personas (RENAPER),3770.15187888
+2024-02-01,200,Registro Nacional de las Personas (RENAPER),6058.35435307
+2024-03-01,200,Registro Nacional de las Personas (RENAPER),6869.65681266
+2024-04-01,200,Registro Nacional de las Personas (RENAPER),5554.2241777
+2024-05-01,200,Registro Nacional de las Personas (RENAPER),6040.88751899
+2024-06-01,200,Registro Nacional de las Personas (RENAPER),9808.82460799
+2024-07-01,200,Registro Nacional de las Personas (RENAPER),7811.71656005
+2024-08-01,200,Registro Nacional de las Personas (RENAPER),11067.57256964
+2024-09-01,200,Registro Nacional de las Personas (RENAPER),7741.91087657
+2024-10-01,200,Registro Nacional de las Personas (RENAPER),11197.1757034
+2024-11-01,200,Registro Nacional de las Personas (RENAPER),10068.47978748
+2024-12-01,200,Registro Nacional de las Personas (RENAPER),50822.13647174
+2024-01-01,201,Dirección Nacional de Migraciones,2954.28081376
+2024-02-01,201,Dirección Nacional de Migraciones,6016.46276424
+2024-03-01,201,Dirección Nacional de Migraciones,9543.0559577
+2024-04-01,201,Dirección Nacional de Migraciones,4261.6890755
+2024-05-01,201,Dirección Nacional de Migraciones,6781.7913801899995
+2024-06-01,201,Dirección Nacional de Migraciones,12807.73637273
+2024-07-01,201,Dirección Nacional de Migraciones,7683.3762741400005
+2024-08-01,201,Dirección Nacional de Migraciones,7995.6642093
+2024-09-01,201,Dirección Nacional de Migraciones,9171.54745781
+2024-10-01,201,Dirección Nacional de Migraciones,7651.80579412
+2024-11-01,201,Dirección Nacional de Migraciones,11808.51937719
+2024-12-01,201,Dirección Nacional de Migraciones,18034.065851
+2024-01-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",202.4995122
+2024-02-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",9.05929112
+2024-03-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",558.66717448
+2024-04-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",277.44440557
+2024-05-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",309.63587941000003
+2024-06-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",596.1374901
+2024-07-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",197.86826441
+2024-08-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",89.31253317
+2024-09-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",0.0
+2024-01-01,203,Agencia Nacional de Seguridad Vial,818.62606095
+2024-02-01,203,Agencia Nacional de Seguridad Vial,827.93612284
+2024-03-01,203,Agencia Nacional de Seguridad Vial,1267.63373561
+2024-04-01,203,Agencia Nacional de Seguridad Vial,945.31902192
+2024-05-01,203,Agencia Nacional de Seguridad Vial,917.72447773
+2024-06-01,203,Agencia Nacional de Seguridad Vial,1852.40429542
+2024-07-01,203,Agencia Nacional de Seguridad Vial,1001.73276796
+2024-08-01,203,Agencia Nacional de Seguridad Vial,1024.82635448
+2024-09-01,203,Agencia Nacional de Seguridad Vial,1563.97104604
+2024-10-01,203,Agencia Nacional de Seguridad Vial,921.04166406
+2024-11-01,203,Agencia Nacional de Seguridad Vial,1400.14763257
+2024-12-01,203,Agencia Nacional de Seguridad Vial,2573.65016362
+2024-01-01,205,Agencia de Administración de Bienes del Estado,298.75778246
+2024-02-01,205,Agencia de Administración de Bienes del Estado,631.69252066
+2024-03-01,205,Agencia de Administración de Bienes del Estado,791.16385003
+2024-04-01,205,Agencia de Administración de Bienes del Estado,655.59375318
+2024-05-01,205,Agencia de Administración de Bienes del Estado,698.5724730000001
+2024-06-01,205,Agencia de Administración de Bienes del Estado,1011.97617519
+2024-07-01,205,Agencia de Administración de Bienes del Estado,560.96717461
+2024-08-01,205,Agencia de Administración de Bienes del Estado,1159.9175289099999
+2024-09-01,205,Agencia de Administración de Bienes del Estado,852.3972693
+2024-10-01,205,Agencia de Administración de Bienes del Estado,769.84222024
+2024-11-01,205,Agencia de Administración de Bienes del Estado,877.41606681
+2024-12-01,205,Agencia de Administración de Bienes del Estado,1303.29878995
+2024-01-01,206,Centro Internacional para la Promoción de los Derechos Humanos,24.599396170000002
+2024-02-01,206,Centro Internacional para la Promoción de los Derechos Humanos,37.48803683
+2024-03-01,206,Centro Internacional para la Promoción de los Derechos Humanos,112.17805824
+2024-04-01,206,Centro Internacional para la Promoción de los Derechos Humanos,39.48141868
+2024-05-01,206,Centro Internacional para la Promoción de los Derechos Humanos,41.910735859999996
+2024-06-01,206,Centro Internacional para la Promoción de los Derechos Humanos,60.91675118
+2024-07-01,206,Centro Internacional para la Promoción de los Derechos Humanos,41.08294551
+2024-08-01,206,Centro Internacional para la Promoción de los Derechos Humanos,51.29211371
+2024-09-01,206,Centro Internacional para la Promoción de los Derechos Humanos,49.20453553
+2024-10-01,206,Centro Internacional para la Promoción de los Derechos Humanos,40.90360124
+2024-11-01,206,Centro Internacional para la Promoción de los Derechos Humanos,55.33927839
+2024-12-01,206,Centro Internacional para la Promoción de los Derechos Humanos,114.65421242
+2024-01-01,207,Ente Nacional de Comunicaciones,1646.06429571
+2024-02-01,207,Ente Nacional de Comunicaciones,2916.25345999
+2024-03-01,207,Ente Nacional de Comunicaciones,3842.87879788
+2024-04-01,207,Ente Nacional de Comunicaciones,9687.96869073
+2024-05-01,207,Ente Nacional de Comunicaciones,3506.23740806
+2024-06-01,207,Ente Nacional de Comunicaciones,5157.75858974
+2024-07-01,207,Ente Nacional de Comunicaciones,4140.77056761
+2024-08-01,207,Ente Nacional de Comunicaciones,3505.5220567
+2024-09-01,207,Ente Nacional de Comunicaciones,4529.34009646
+2024-10-01,207,Ente Nacional de Comunicaciones,3632.30669292
+2024-11-01,207,Ente Nacional de Comunicaciones,4092.2366833200003
+2024-12-01,207,Ente Nacional de Comunicaciones,8605.59957503
+2024-01-01,208,Agencia Nacional de Materiales Controlados,113.06205643999999
+2024-02-01,208,Agencia Nacional de Materiales Controlados,163.0020588
+2024-03-01,208,Agencia Nacional de Materiales Controlados,162.72791283
+2024-04-01,208,Agencia Nacional de Materiales Controlados,85.13704116
+2024-05-01,208,Agencia Nacional de Materiales Controlados,219.15927136
+2024-06-01,208,Agencia Nacional de Materiales Controlados,397.55214609
+2024-07-01,208,Agencia Nacional de Materiales Controlados,145.39101882
+2024-08-01,208,Agencia Nacional de Materiales Controlados,244.47971701
+2024-09-01,208,Agencia Nacional de Materiales Controlados,254.31936036
+2024-10-01,208,Agencia Nacional de Materiales Controlados,194.19108613999998
+2024-11-01,208,Agencia Nacional de Materiales Controlados,235.45474417
+2024-12-01,208,Agencia Nacional de Materiales Controlados,307.51666061000003
+2024-01-01,209,Agencia de Acceso a la Información Pública,74.01133895
+2024-02-01,209,Agencia de Acceso a la Información Pública,156.18627293
+2024-03-01,209,Agencia de Acceso a la Información Pública,202.93742736
+2024-04-01,209,Agencia de Acceso a la Información Pública,151.3743211
+2024-05-01,209,Agencia de Acceso a la Información Pública,164.31997213
+2024-06-01,209,Agencia de Acceso a la Información Pública,226.28444185
+2024-07-01,209,Agencia de Acceso a la Información Pública,159.71168672
+2024-08-01,209,Agencia de Acceso a la Información Pública,245.05763843
+2024-09-01,209,Agencia de Acceso a la Información Pública,157.38496327000001
+2024-10-01,209,Agencia de Acceso a la Información Pública,160.75402431
+2024-11-01,209,Agencia de Acceso a la Información Pública,165.53066895999999
+2024-12-01,209,Agencia de Acceso a la Información Pública,257.00642379
+2024-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",100426.6741892
+2024-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",116708.23141518
+2024-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",130214.1923219
+2024-04-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",139836.1783816
+2024-05-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",141701.22171981
+2024-06-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",228064.38149191
+2024-07-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",156519.90272548
+2024-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",163957.76861762
+2024-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",165450.47205794
+2024-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",176159.50898829
+2024-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",173803.55497606
+2024-12-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",257911.30916957
+2024-01-01,301,Secretaría General de la Presidencia de la Nación,936.58078684
+2024-02-01,301,Secretaría General de la Presidencia de la Nación,1653.58344407
+2024-03-01,301,Secretaría General de la Presidencia de la Nación,1878.85772867
+2024-04-01,301,Secretaría General de la Presidencia de la Nación,2340.57505173
+2024-05-01,301,Secretaría General de la Presidencia de la Nación,3749.55893325
+2024-06-01,301,Secretaría General de la Presidencia de la Nación,3772.65214587
+2024-07-01,301,Secretaría General de la Presidencia de la Nación,3829.19798453
+2024-08-01,301,Secretaría General de la Presidencia de la Nación,6603.80924337
+2024-09-01,301,Secretaría General de la Presidencia de la Nación,4105.63611874
+2024-10-01,301,Secretaría General de la Presidencia de la Nación,8699.23603647
+2024-11-01,301,Secretaría General de la Presidencia de la Nación,4772.8020677800005
+2024-12-01,301,Secretaría General de la Presidencia de la Nación,16605.231489140002
+2024-01-01,302,Secretaría de Inteligencia de Estado,1959.00353758
+2024-02-01,302,Secretaría de Inteligencia de Estado,2521.35540024
+2024-03-01,302,Secretaría de Inteligencia de Estado,2510.1425319600003
+2024-04-01,302,Secretaría de Inteligencia de Estado,2600.86580733
+2024-05-01,302,Secretaría de Inteligencia de Estado,2578.03510539
+2024-06-01,302,Secretaría de Inteligencia de Estado,2187.42699924
+2024-07-01,302,Secretaría de Inteligencia de Estado,3563.1753456700003
+2024-08-01,302,Secretaría de Inteligencia de Estado,84204.88755092
+2024-09-01,302,Secretaría de Inteligencia de Estado,5675.9425964
+2024-10-01,302,Secretaría de Inteligencia de Estado,-75866.33353542001
+2024-11-01,302,Secretaría de Inteligencia de Estado,3280.683273
+2024-12-01,302,Secretaría de Inteligencia de Estado,12380.32632068
+2024-01-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),653.15120066
+2024-02-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),3380.19544404
+2024-03-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),2691.68465843
+2024-04-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1659.52928934
+2024-05-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1868.8969134200001
+2024-06-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6081.54729217
+2024-07-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),2096.05563803
+2024-08-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),4855.82875274
+2024-09-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),4743.4182806300005
+2024-10-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1061.7053143599999
+2024-11-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),4645.42667905
+2024-12-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6928.25054405
+2024-01-01,305,Jefatura de Gabinete de Ministros,3492.32431162
+2024-02-01,305,Jefatura de Gabinete de Ministros,4671.63385438
+2024-03-01,305,Jefatura de Gabinete de Ministros,7513.19109317
+2024-04-01,305,Jefatura de Gabinete de Ministros,6380.0642646100005
+2024-05-01,305,Jefatura de Gabinete de Ministros,5990.93354205
+2024-06-01,305,Jefatura de Gabinete de Ministros,6800.36778589
+2024-07-01,305,Jefatura de Gabinete de Ministros,5232.70422051
+2024-08-01,305,Jefatura de Gabinete de Ministros,5399.74828467
+2024-09-01,305,Jefatura de Gabinete de Ministros,6729.93137857
+2024-10-01,305,Jefatura de Gabinete de Ministros,5207.55895162
+2024-11-01,305,Jefatura de Gabinete de Ministros,5215.407443
+2024-12-01,305,Jefatura de Gabinete de Ministros,9444.710397750001
+2024-01-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",17583.692434880002
+2024-02-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",26443.51202464
+2024-03-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",45244.74031859
+2024-04-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",27139.8306904
+2024-05-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",23434.35848906
+2024-06-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",53634.47747844
+2024-07-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",29304.77943864
+2024-08-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",65168.45611528
+2024-09-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",69097.23438061
+2024-10-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",27177.25202077
+2024-11-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",38182.32494869
+2024-12-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",78213.93835354
+2024-01-01,310,Ministerio de Salud,11052.14973085
+2024-02-01,310,Ministerio de Salud,66343.66381537
+2024-03-01,310,Ministerio de Salud,144019.88368076
+2024-04-01,310,Ministerio de Salud,68650.36160573
+2024-05-01,310,Ministerio de Salud,49961.056464530004
+2024-06-01,310,Ministerio de Salud,51082.37436977
+2024-07-01,310,Ministerio de Salud,58842.053829590004
+2024-08-01,310,Ministerio de Salud,135154.54226801
+2024-09-01,310,Ministerio de Salud,128934.91148029
+2024-10-01,310,Ministerio de Salud,87144.92235728
+2024-11-01,310,Ministerio de Salud,87193.20846758
+2024-12-01,310,Ministerio de Salud,189488.46574585
+2024-01-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",139920.36095904
+2024-02-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",261466.80012726
+2024-03-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",371615.9147496
+2024-04-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",170377.66596761
+2024-05-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",218877.40860994
+2024-06-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",178378.66905749
+2024-07-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",216078.340836
+2024-08-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",166849.64886306
+2024-09-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",255531.97365835
+2024-10-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",216004.45189233
+2024-11-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",195940.82071856
+2024-12-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",276456.79307497
+2024-01-01,312,Honorable Senado de la Nación Argentina,7172.96341968
+2024-02-01,312,Honorable Senado de la Nación Argentina,7794.16656977
+2024-03-01,312,Honorable Senado de la Nación Argentina,12989.69912388
+2024-04-01,312,Honorable Senado de la Nación Argentina,10832.754653510001
+2024-05-01,312,Honorable Senado de la Nación Argentina,8981.02019227
+2024-06-01,312,Honorable Senado de la Nación Argentina,20385.70394436
+2024-07-01,312,Honorable Senado de la Nación Argentina,9712.13623776
+2024-08-01,312,Honorable Senado de la Nación Argentina,15610.142440450001
+2024-09-01,312,Honorable Senado de la Nación Argentina,10106.74098943
+2024-10-01,312,Honorable Senado de la Nación Argentina,12561.018932719999
+2024-11-01,312,Honorable Senado de la Nación Argentina,13474.36899936
+2024-12-01,312,Honorable Senado de la Nación Argentina,28648.48829647
+2024-01-01,313,Honorable Cámara de Diputados de la Nación Argentina,7677.3338846199995
+2024-02-01,313,Honorable Cámara de Diputados de la Nación Argentina,9088.13375597
+2024-03-01,313,Honorable Cámara de Diputados de la Nación Argentina,13698.6836175
+2024-04-01,313,Honorable Cámara de Diputados de la Nación Argentina,12206.5161045
+2024-05-01,313,Honorable Cámara de Diputados de la Nación Argentina,11861.17336479
+2024-06-01,313,Honorable Cámara de Diputados de la Nación Argentina,17012.58513419
+2024-07-01,313,Honorable Cámara de Diputados de la Nación Argentina,9702.95364429
+2024-08-01,313,Honorable Cámara de Diputados de la Nación Argentina,16973.04841662
+2024-09-01,313,Honorable Cámara de Diputados de la Nación Argentina,13586.53621997
+2024-10-01,313,Honorable Cámara de Diputados de la Nación Argentina,13601.21556923
+2024-11-01,313,Honorable Cámara de Diputados de la Nación Argentina,15093.978821140001
+2024-12-01,313,Honorable Cámara de Diputados de la Nación Argentina,41407.504061
+2024-01-01,314,Biblioteca del Congreso de la Nación,2041.45728949
+2024-02-01,314,Biblioteca del Congreso de la Nación,2963.70929865
+2024-03-01,314,Biblioteca del Congreso de la Nación,2654.15600356
+2024-04-01,314,Biblioteca del Congreso de la Nación,3082.68955266
+2024-05-01,314,Biblioteca del Congreso de la Nación,3212.0392677199998
+2024-06-01,314,Biblioteca del Congreso de la Nación,4525.18738982
+2024-07-01,314,Biblioteca del Congreso de la Nación,3188.28528439
+2024-08-01,314,Biblioteca del Congreso de la Nación,3470.46885386
+2024-09-01,314,Biblioteca del Congreso de la Nación,3331.53890686
+2024-10-01,314,Biblioteca del Congreso de la Nación,3420.8657367700002
+2024-11-01,314,Biblioteca del Congreso de la Nación,3630.32042256
+2024-12-01,314,Biblioteca del Congreso de la Nación,5141.8298201200005
+2024-01-01,315,Imprenta del Congreso de la Nación,579.74466527
+2024-02-01,315,Imprenta del Congreso de la Nación,846.3516523000001
+2024-03-01,315,Imprenta del Congreso de la Nación,761.75017088
+2024-04-01,315,Imprenta del Congreso de la Nación,885.53987921
+2024-05-01,315,Imprenta del Congreso de la Nación,899.9800773000001
+2024-06-01,315,Imprenta del Congreso de la Nación,1305.01021702
+2024-07-01,315,Imprenta del Congreso de la Nación,874.22621518
+2024-08-01,315,Imprenta del Congreso de la Nación,965.2085928800001
+2024-09-01,315,Imprenta del Congreso de la Nación,940.38748931
+2024-10-01,315,Imprenta del Congreso de la Nación,917.0382267
+2024-11-01,315,Imprenta del Congreso de la Nación,1012.53825622
+2024-12-01,315,Imprenta del Congreso de la Nación,1600.49598702
+2024-01-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),2044.2399592
+2024-02-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),2612.06020914
+2024-03-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),2551.28950673
+2024-04-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),2835.86646487
+2024-05-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5079.5108377999995
+2024-06-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),4424.50206839
+2024-07-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),4176.71945008
+2024-08-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),4345.22758975
+2024-09-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),4302.24928593
+2024-10-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5167.71890913
+2024-11-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5269.06828642
+2024-12-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),6979.60490578
+2024-01-01,317,Ambiente,868.35426423
+2024-02-01,317,Ambiente,1831.76240184
+2024-03-01,317,Ambiente,2162.96889706
+2024-04-01,317,Ambiente,1373.30343974
+2024-05-01,317,Ambiente,3082.81100032
+2024-06-01,317,Ambiente,4075.71686397
+2024-07-01,317,Ambiente,3622.03603712
+2024-08-01,317,Ambiente,1680.47909314
+2024-09-01,317,Ambiente,3168.74658356
+2024-10-01,317,Ambiente,2206.77849856
+2024-11-01,317,Ambiente,2021.20883189
+2024-12-01,317,Ambiente,5748.72846921
+2024-01-01,319,Defensoría del Pueblo de la Nación,520.37757779
+2024-02-01,319,Defensoría del Pueblo de la Nación,759.1835267600001
+2024-03-01,319,Defensoría del Pueblo de la Nación,680.07399106
+2024-04-01,319,Defensoría del Pueblo de la Nación,776.1497053
+2024-05-01,319,Defensoría del Pueblo de la Nación,790.37224844
+2024-06-01,319,Defensoría del Pueblo de la Nación,1147.51365209
+2024-07-01,319,Defensoría del Pueblo de la Nación,775.36210804
+2024-08-01,319,Defensoría del Pueblo de la Nación,857.24826896
+2024-09-01,319,Defensoría del Pueblo de la Nación,823.77951883
+2024-10-01,319,Defensoría del Pueblo de la Nación,872.1936634900001
+2024-11-01,319,Defensoría del Pueblo de la Nación,915.88605388
+2024-12-01,319,Defensoría del Pueblo de la Nación,1525.06626697
+2024-01-01,320,Consejo de la Magistratura,50122.7624605
+2024-02-01,320,Consejo de la Magistratura,89537.31923725
+2024-03-01,320,Consejo de la Magistratura,66146.20663421
+2024-04-01,320,Consejo de la Magistratura,90250.48710529
+2024-05-01,320,Consejo de la Magistratura,92188.99453902
+2024-06-01,320,Consejo de la Magistratura,138477.23285108
+2024-07-01,320,Consejo de la Magistratura,109666.58873429
+2024-08-01,320,Consejo de la Magistratura,96179.86812329
+2024-09-01,320,Consejo de la Magistratura,110830.61997621
+2024-10-01,320,Consejo de la Magistratura,106169.06271831
+2024-11-01,320,Consejo de la Magistratura,107676.85411224
+2024-12-01,320,Consejo de la Magistratura,175499.64969199
+2024-01-01,321,Instituto Nacional de Estadística y Censos (INDEC),975.50782438
+2024-02-01,321,Instituto Nacional de Estadística y Censos (INDEC),1937.20104294
+2024-03-01,321,Instituto Nacional de Estadística y Censos (INDEC),3058.22682967
+2024-04-01,321,Instituto Nacional de Estadística y Censos (INDEC),1599.14697112
+2024-05-01,321,Instituto Nacional de Estadística y Censos (INDEC),2380.51350493
+2024-06-01,321,Instituto Nacional de Estadística y Censos (INDEC),3536.23268085
+2024-07-01,321,Instituto Nacional de Estadística y Censos (INDEC),3067.38451127
+2024-08-01,321,Instituto Nacional de Estadística y Censos (INDEC),2402.76244658
+2024-09-01,321,Instituto Nacional de Estadística y Censos (INDEC),3051.21769059
+2024-10-01,321,Instituto Nacional de Estadística y Censos (INDEC),2279.4935609
+2024-11-01,321,Instituto Nacional de Estadística y Censos (INDEC),2520.95256472
+2024-12-01,321,Instituto Nacional de Estadística y Censos (INDEC),5765.89254072
+2024-01-01,322,Turismo y Deportes,1395.33809984
+2024-02-01,322,Turismo y Deportes,2303.5897771600003
+2024-03-01,322,Turismo y Deportes,1983.32285591
+2024-04-01,322,Turismo y Deportes,1875.55307232
+2024-05-01,322,Turismo y Deportes,1176.20015963
+2024-06-01,322,Turismo y Deportes,3529.9884192600002
+2024-07-01,322,Turismo y Deportes,2552.14917133
+2024-08-01,322,Turismo y Deportes,2197.95725455
+2024-09-01,322,Turismo y Deportes,5045.96825103
+2024-10-01,322,Turismo y Deportes,4879.57821469
+2024-11-01,322,Turismo y Deportes,6179.17726214
+2024-12-01,322,Turismo y Deportes,8342.84376585
+2024-01-01,323,Comisión Nacional de Comercio Exterior (CNCE),44.21101527
+2024-02-01,323,Comisión Nacional de Comercio Exterior (CNCE),61.46019259
+2024-03-01,323,Comisión Nacional de Comercio Exterior (CNCE),85.59597282
+2024-04-01,323,Comisión Nacional de Comercio Exterior (CNCE),63.26959531
+2024-05-01,323,Comisión Nacional de Comercio Exterior (CNCE),69.95353388000001
+2024-06-01,323,Comisión Nacional de Comercio Exterior (CNCE),104.52907824
+2024-07-01,323,Comisión Nacional de Comercio Exterior (CNCE),92.53128296
+2024-08-01,323,Comisión Nacional de Comercio Exterior (CNCE),56.02723235
+2024-09-01,323,Comisión Nacional de Comercio Exterior (CNCE),102.62136137
+2024-10-01,323,Comisión Nacional de Comercio Exterior (CNCE),0.0
+2024-11-01,323,Comisión Nacional de Comercio Exterior (CNCE),72.80841127000001
+2024-12-01,323,Comisión Nacional de Comercio Exterior (CNCE),176.17059162
+2024-01-01,325,Vicejefatura de Gabinete del Interior,1782.5471686199999
+2024-02-01,325,Vicejefatura de Gabinete del Interior,8557.98646019
+2024-03-01,325,Vicejefatura de Gabinete del Interior,3287.88950097
+2024-04-01,325,Vicejefatura de Gabinete del Interior,4474.33651262
+2024-05-01,325,Vicejefatura de Gabinete del Interior,5567.87102262
+2024-06-01,325,Vicejefatura de Gabinete del Interior,18147.69284269
+2024-07-01,325,Vicejefatura de Gabinete del Interior,11784.049638640001
+2024-08-01,325,Vicejefatura de Gabinete del Interior,3321.26878841
+2024-09-01,325,Vicejefatura de Gabinete del Interior,3462.4285139099998
+2024-10-01,325,Vicejefatura de Gabinete del Interior,6614.06165642
+2024-11-01,325,Vicejefatura de Gabinete del Interior,24617.215097199998
+2024-12-01,325,Vicejefatura de Gabinete del Interior,9922.12975366
+2024-01-01,326,Policía Federal Argentina (PFA),34520.18444993
+2024-02-01,326,Policía Federal Argentina (PFA),41248.48671324
+2024-03-01,326,Policía Federal Argentina (PFA),45673.7913749
+2024-04-01,326,Policía Federal Argentina (PFA),49313.18547058
+2024-05-01,326,Policía Federal Argentina (PFA),49141.35044049
+2024-06-01,326,Policía Federal Argentina (PFA),75017.87327817
+2024-07-01,326,Policía Federal Argentina (PFA),59506.19755744
+2024-08-01,326,Policía Federal Argentina (PFA),58264.08420529
+2024-09-01,326,Policía Federal Argentina (PFA),61676.16815235
+2024-10-01,326,Policía Federal Argentina (PFA),58512.723440120004
+2024-11-01,326,Policía Federal Argentina (PFA),60689.8247781
+2024-12-01,326,Policía Federal Argentina (PFA),91941.8221817
+2024-01-01,327,Secretaría de Transporte,59570.25937294
+2024-02-01,327,Secretaría de Transporte,54049.95438845
+2024-03-01,327,Secretaría de Transporte,118792.06447692
+2024-04-01,327,Secretaría de Transporte,63512.7844451
+2024-05-01,327,Secretaría de Transporte,58727.30938887
+2024-06-01,327,Secretaría de Transporte,102249.11634261
+2024-07-01,327,Secretaría de Transporte,32987.14658803
+2024-08-01,327,Secretaría de Transporte,4878.89140325
+2024-09-01,327,Secretaría de Transporte,6051.106676349999
+2024-10-01,327,Secretaría de Transporte,2369.12507029
+2024-11-01,327,Secretaría de Transporte,4607.88225711
+2024-12-01,327,Secretaría de Transporte,2126.16052137
+2024-01-01,328,Secretaría de Energía,402.3410446
+2024-02-01,328,Secretaría de Energía,148008.64566769
+2024-03-01,328,Secretaría de Energía,115996.26785108
+2024-04-01,328,Secretaría de Energía,849714.41075929
+2024-05-01,328,Secretaría de Energía,725078.49126098
+2024-06-01,328,Secretaría de Energía,133701.42121384002
+2024-07-01,328,Secretaría de Energía,571578.8088599601
+2024-08-01,328,Secretaría de Energía,617503.96171462
+2024-09-01,328,Secretaría de Energía,301196.60486019
+2024-10-01,328,Secretaría de Energía,508511.91064074
+2024-11-01,328,Secretaría de Energía,378138.77194123
+2024-12-01,328,Secretaría de Energía,290908.45298957
+2024-01-01,330,Secretaría de Educación,192825.81338067
+2024-02-01,330,Secretaría de Educación,232238.99676732
+2024-03-01,330,Secretaría de Educación,240921.85798757
+2024-04-01,330,Secretaría de Educación,238130.95301442
+2024-05-01,330,Secretaría de Educación,337857.14049469
+2024-06-01,330,Secretaría de Educación,482492.26522299
+2024-07-01,330,Secretaría de Educación,314752.73201493
+2024-08-01,330,Secretaría de Educación,414972.80195653
+2024-09-01,330,Secretaría de Educación,361257.18863051
+2024-10-01,330,Secretaría de Educación,434961.16480111
+2024-11-01,330,Secretaría de Educación,384824.23349694
+2024-12-01,330,Secretaría de Educación,696072.44823151
+2024-01-01,331,Servicio Penitenciario Federal,13013.91603155
+2024-02-01,331,Servicio Penitenciario Federal,23140.50753967
+2024-03-01,331,Servicio Penitenciario Federal,22303.07553504
+2024-04-01,331,Servicio Penitenciario Federal,18753.60036825
+2024-05-01,331,Servicio Penitenciario Federal,28744.68851248
+2024-06-01,331,Servicio Penitenciario Federal,36843.84529097
+2024-07-01,331,Servicio Penitenciario Federal,26125.74293739
+2024-08-01,331,Servicio Penitenciario Federal,28483.5860994
+2024-09-01,331,Servicio Penitenciario Federal,30305.31987463
+2024-10-01,331,Servicio Penitenciario Federal,20136.96911477
+2024-11-01,331,Servicio Penitenciario Federal,35590.75920747
+2024-12-01,331,Servicio Penitenciario Federal,42856.81629794
+2024-01-01,332,Ministerio de Justicia,1209.15862192
+2024-02-01,332,Ministerio de Justicia,2039.5979722499999
+2024-03-01,332,Ministerio de Justicia,3672.83623669
+2024-04-01,332,Ministerio de Justicia,2336.38878278
+2024-05-01,332,Ministerio de Justicia,2397.74497521
+2024-06-01,332,Ministerio de Justicia,4204.47946943
+2024-07-01,332,Ministerio de Justicia,5072.54011184
+2024-08-01,332,Ministerio de Justicia,4419.46885353
+2024-09-01,332,Ministerio de Justicia,5593.35620747
+2024-10-01,332,Ministerio de Justicia,4478.30749923
+2024-11-01,332,Ministerio de Justicia,4306.57838964
+2024-12-01,332,Ministerio de Justicia,12947.2577386
+2024-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1249.3378625999999
+2024-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1424.74791768
+2024-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1655.42979925
+2024-04-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1609.30779274
+2024-05-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1937.74892125
+2024-06-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2774.82962855
+2024-07-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1832.68413536
+2024-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1956.4565123
+2024-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2257.49158348
+2024-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2050.6692576
+2024-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2303.73034087
+2024-12-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,3980.38542155
+2024-01-01,335,Corte Suprema de Justicia de la Nación,6994.3784992
+2024-02-01,335,Corte Suprema de Justicia de la Nación,12043.08390274
+2024-03-01,335,Corte Suprema de Justicia de la Nación,9293.37244556
+2024-04-01,335,Corte Suprema de Justicia de la Nación,12544.48561985
+2024-05-01,335,Corte Suprema de Justicia de la Nación,13211.67278193
+2024-06-01,335,Corte Suprema de Justicia de la Nación,19576.37005392
+2024-07-01,335,Corte Suprema de Justicia de la Nación,15971.025091290001
+2024-08-01,335,Corte Suprema de Justicia de la Nación,13483.52374571
+2024-09-01,335,Corte Suprema de Justicia de la Nación,15536.02526724
+2024-10-01,335,Corte Suprema de Justicia de la Nación,14652.388510230001
+2024-11-01,335,Corte Suprema de Justicia de la Nación,15398.30721873
+2024-12-01,335,Corte Suprema de Justicia de la Nación,24666.32761449
+2024-01-01,336,"Secretaría de Innovación, Ciencia y Tecnología",0.0
+2024-02-01,336,"Secretaría de Innovación, Ciencia y Tecnología",57.29522996
+2024-03-01,336,"Secretaría de Innovación, Ciencia y Tecnología",430.74923775999997
+2024-04-01,336,"Secretaría de Innovación, Ciencia y Tecnología",380.33605496999996
+2024-05-01,336,"Secretaría de Innovación, Ciencia y Tecnología",434.9782975
+2024-06-01,336,"Secretaría de Innovación, Ciencia y Tecnología",418.15273099
+2024-07-01,336,"Secretaría de Innovación, Ciencia y Tecnología",353.01133035000004
+2024-08-01,336,"Secretaría de Innovación, Ciencia y Tecnología",187.30282241
+2024-09-01,336,"Secretaría de Innovación, Ciencia y Tecnología",1333.12190196
+2024-10-01,336,"Secretaría de Innovación, Ciencia y Tecnología",92.21128316
+2024-11-01,336,"Secretaría de Innovación, Ciencia y Tecnología",995.1977435700001
+2024-12-01,336,"Secretaría de Innovación, Ciencia y Tecnología",37092.61577661
+2024-01-01,338,Secretaría Legal y Técnica,464.66027874
+2024-02-01,338,Secretaría Legal y Técnica,467.3873018
+2024-03-01,338,Secretaría Legal y Técnica,848.1978203900001
+2024-04-01,338,Secretaría Legal y Técnica,729.7102965
+2024-05-01,338,Secretaría Legal y Técnica,734.03964016
+2024-06-01,338,Secretaría Legal y Técnica,1057.38493447
+2024-07-01,338,Secretaría Legal y Técnica,788.90236442
+2024-08-01,338,Secretaría Legal y Técnica,773.33892164
+2024-09-01,338,Secretaría Legal y Técnica,846.0152522
+2024-10-01,338,Secretaría Legal y Técnica,851.23721188
+2024-11-01,338,Secretaría Legal y Técnica,821.55350383
+2024-12-01,338,Secretaría Legal y Técnica,1266.0169722599999
+2024-01-01,340,Procuración Penitenciaria de la Nación,530.4368943000001
+2024-02-01,340,Procuración Penitenciaria de la Nación,541.78597214
+2024-03-01,340,Procuración Penitenciaria de la Nación,1011.15285956
+2024-04-01,340,Procuración Penitenciaria de la Nación,871.74885639
+2024-05-01,340,Procuración Penitenciaria de la Nación,910.5931484500001
+2024-06-01,340,Procuración Penitenciaria de la Nación,1432.99869608
+2024-07-01,340,Procuración Penitenciaria de la Nación,994.71285024
+2024-08-01,340,Procuración Penitenciaria de la Nación,1142.57349833
+2024-09-01,340,Procuración Penitenciaria de la Nación,1087.85121292
+2024-10-01,340,Procuración Penitenciaria de la Nación,1046.74049362
+2024-11-01,340,Procuración Penitenciaria de la Nación,1298.40246046
+2024-12-01,340,Procuración Penitenciaria de la Nación,2426.7794962899998
+2024-01-01,341,Políticas Familiares,2421.32887003
+2024-02-01,341,Políticas Familiares,2571.98463653
+2024-03-01,341,Políticas Familiares,3141.55465164
+2024-04-01,341,Políticas Familiares,3133.4331320700003
+2024-05-01,341,Políticas Familiares,3798.30875492
+2024-06-01,341,Políticas Familiares,4431.34148514
+2024-07-01,341,Políticas Familiares,3610.29280898
+2024-08-01,341,Políticas Familiares,3703.1574334
+2024-09-01,341,Políticas Familiares,5737.56934595
+2024-10-01,341,Políticas Familiares,2893.56145826
+2024-11-01,341,Políticas Familiares,7674.05129511
+2024-12-01,341,Políticas Familiares,7910.80722504
+2024-01-01,343,Ministerio de Seguridad,2009.4438097099999
+2024-02-01,343,Ministerio de Seguridad,5166.80678557
+2024-03-01,343,Ministerio de Seguridad,21213.80168715
+2024-04-01,343,Ministerio de Seguridad,4665.0669512800005
+2024-05-01,343,Ministerio de Seguridad,4586.21018186
+2024-06-01,343,Ministerio de Seguridad,20469.24087801
+2024-07-01,343,Ministerio de Seguridad,9406.88504112
+2024-08-01,343,Ministerio de Seguridad,11806.486242930001
+2024-09-01,343,Ministerio de Seguridad,30155.55159519
+2024-10-01,343,Ministerio de Seguridad,5355.89532011
+2024-11-01,343,Ministerio de Seguridad,20398.09157212
+2024-12-01,343,Ministerio de Seguridad,32318.896995670002
+2024-01-01,345,Consejo Nacional de Coordinación de Políticas Sociales,139.72295176
+2024-02-01,345,Consejo Nacional de Coordinación de Políticas Sociales,323.59307481999997
+2024-03-01,345,Consejo Nacional de Coordinación de Políticas Sociales,392.92087222
+2024-04-01,345,Consejo Nacional de Coordinación de Políticas Sociales,283.43779134
+2024-05-01,345,Consejo Nacional de Coordinación de Políticas Sociales,189.88102768
+2024-06-01,345,Consejo Nacional de Coordinación de Políticas Sociales,525.73877937
+2024-07-01,345,Consejo Nacional de Coordinación de Políticas Sociales,253.69538324
+2024-08-01,345,Consejo Nacional de Coordinación de Políticas Sociales,354.54530046
+2024-09-01,345,Consejo Nacional de Coordinación de Políticas Sociales,426.63708519
+2024-10-01,345,Consejo Nacional de Coordinación de Políticas Sociales,420.01584102
+2024-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,481.78610987999997
+2024-12-01,345,Consejo Nacional de Coordinación de Políticas Sociales,1024.35842467
+2024-01-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,113.55232971
+2024-02-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,222.93526992000002
+2024-03-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,247.72667838
+2024-04-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,252.95106506
+2024-05-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,242.23455582
+2024-06-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,340.8279648
+2024-07-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,304.46261088
+2024-08-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,238.52154694
+2024-09-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,297.78460365
+2024-10-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,273.52807960999996
+2024-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,293.39472052
+2024-12-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,519.82325846
+2024-01-01,349,Procuración del Tesoro de la Nación,170.58218992000002
+2024-02-01,349,Procuración del Tesoro de la Nación,300.00034485
+2024-03-01,349,Procuración del Tesoro de la Nación,387.22665607
+2024-04-01,349,Procuración del Tesoro de la Nación,247.86256547
+2024-05-01,349,Procuración del Tesoro de la Nación,349.26663605
+2024-06-01,349,Procuración del Tesoro de la Nación,611.33084094
+2024-07-01,349,Procuración del Tesoro de la Nación,338.81299002000003
+2024-08-01,349,Procuración del Tesoro de la Nación,401.4950763
+2024-09-01,349,Procuración del Tesoro de la Nación,430.43147106
+2024-10-01,349,Procuración del Tesoro de la Nación,394.19281522
+2024-11-01,349,Procuración del Tesoro de la Nación,451.46626656
+2024-12-01,349,Procuración del Tesoro de la Nación,681.98386874
+2024-01-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",3355.51730775
+2024-02-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",8243.31732078
+2024-03-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",12853.79732853
+2024-04-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",83953.29438737
+2024-05-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",83668.63811023999
+2024-06-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",86596.04400662
+2024-07-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",81588.62636045
+2024-08-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",87614.51375141
+2024-09-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",84081.56224969
+2024-10-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",84801.01291197
+2024-11-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",85893.27888882
+2024-12-01,350,"Secretaría  de Trabajo, Empleo y Seguridad Social",118484.04923138
+2024-01-01,355,Servicio de la Deuda Pública,1349454.64558692
+2024-02-01,355,Servicio de la Deuda Pública,1142494.5330422302
+2024-03-01,355,Servicio de la Deuda Pública,295508.34981435
+2024-04-01,355,Servicio de la Deuda Pública,316311.22774649
+2024-05-01,355,Servicio de la Deuda Pública,1181087.5904158
+2024-06-01,355,Servicio de la Deuda Pública,390548.64483191
+2024-07-01,355,Servicio de la Deuda Pública,128563.89338599
+2024-08-01,355,Servicio de la Deuda Pública,2376542.15935397
+2024-09-01,355,Servicio de la Deuda Pública,368599.22363487
+2024-10-01,355,Servicio de la Deuda Pública,265142.44192676997
+2024-11-01,355,Servicio de la Deuda Pública,1188826.4233953701
+2024-12-01,355,Servicio de la Deuda Pública,415403.18884635996
+2024-01-01,356,Obligaciones a Cargo del Tesoro,41873.90649419
+2024-02-01,356,Obligaciones a Cargo del Tesoro,364643.02935464
+2024-03-01,356,Obligaciones a Cargo del Tesoro,258535.94680021002
+2024-04-01,356,Obligaciones a Cargo del Tesoro,297740.57746378
+2024-05-01,356,Obligaciones a Cargo del Tesoro,497414.83287029
+2024-06-01,356,Obligaciones a Cargo del Tesoro,641775.7105917
+2024-07-01,356,Obligaciones a Cargo del Tesoro,326118.81636382
+2024-08-01,356,Obligaciones a Cargo del Tesoro,468798.89509235
+2024-09-01,356,Obligaciones a Cargo del Tesoro,824377.5805851
+2024-10-01,356,Obligaciones a Cargo del Tesoro,566393.85062577
+2024-11-01,356,Obligaciones a Cargo del Tesoro,558571.29821982
+2024-12-01,356,Obligaciones a Cargo del Tesoro,441789.58861167
+2024-01-01,357,Ministerio de Economía,1980.04943866
+2024-02-01,357,Ministerio de Economía,8178.528044950001
+2024-03-01,357,Ministerio de Economía,10453.36456632
+2024-04-01,357,Ministerio de Economía,5682.24555416
+2024-05-01,357,Ministerio de Economía,7815.66452679
+2024-06-01,357,Ministerio de Economía,11143.07436887
+2024-07-01,357,Ministerio de Economía,9424.658470819999
+2024-08-01,357,Ministerio de Economía,19362.847073599998
+2024-09-01,357,Ministerio de Economía,9728.24203537
+2024-10-01,357,Ministerio de Economía,9515.11897521
+2024-11-01,357,Ministerio de Economía,10894.0892063
+2024-12-01,357,Ministerio de Economía,15531.68097694
+2024-01-01,360,Procuración General de la Nación,14486.263007649999
+2024-02-01,360,Procuración General de la Nación,26071.579710280002
+2024-03-01,360,Procuración General de la Nación,19330.91414338
+2024-04-01,360,Procuración General de la Nación,26246.52607663
+2024-05-01,360,Procuración General de la Nación,27115.2924715
+2024-06-01,360,Procuración General de la Nación,40697.24751949
+2024-07-01,360,Procuración General de la Nación,31820.395913850003
+2024-08-01,360,Procuración General de la Nación,27872.34990211
+2024-09-01,360,Procuración General de la Nación,33054.63252414
+2024-10-01,360,Procuración General de la Nación,30197.83855958
+2024-11-01,360,Procuración General de la Nación,31841.33270155
+2024-12-01,360,Procuración General de la Nación,60392.60947782
+2024-01-01,361,Defensoría General de la Nación,7951.24166153
+2024-02-01,361,Defensoría General de la Nación,14688.93838821
+2024-03-01,361,Defensoría General de la Nación,10960.47864768
+2024-04-01,361,Defensoría General de la Nación,14525.78726194
+2024-05-01,361,Defensoría General de la Nación,15175.63059782
+2024-06-01,361,Defensoría General de la Nación,23343.402615760002
+2024-07-01,361,Defensoría General de la Nación,17700.49333643
+2024-08-01,361,Defensoría General de la Nación,15609.827253110001
+2024-09-01,361,Defensoría General de la Nación,18088.97849826
+2024-10-01,361,Defensoría General de la Nación,16666.9096795
+2024-11-01,361,Defensoría General de la Nación,17543.866718639998
+2024-12-01,361,Defensoría General de la Nación,29822.401388360002
+2024-01-01,362,Secretaría de Industria y Desarrollo Productivo,1685.37727802
+2024-02-01,362,Secretaría de Industria y Desarrollo Productivo,2826.1625627099997
+2024-03-01,362,Secretaría de Industria y Desarrollo Productivo,4965.3130738
+2024-04-01,362,Secretaría de Industria y Desarrollo Productivo,5090.94392824
+2024-05-01,362,Secretaría de Industria y Desarrollo Productivo,7726.42410956
+2024-06-01,362,Secretaría de Industria y Desarrollo Productivo,11435.9698874
+2024-07-01,362,Secretaría de Industria y Desarrollo Productivo,8735.6921272
+2024-08-01,362,Secretaría de Industria y Desarrollo Productivo,10060.51136244
+2024-09-01,362,Secretaría de Industria y Desarrollo Productivo,10889.33962784
+2024-10-01,362,Secretaría de Industria y Desarrollo Productivo,15124.42237145
+2024-11-01,362,Secretaría de Industria y Desarrollo Productivo,12421.18815787
+2024-12-01,362,Secretaría de Industria y Desarrollo Productivo,24634.08926582
+2024-01-01,363,"Secretaría de Agricultura, Ganadería y Pesca",2014.06442608
+2024-02-01,363,"Secretaría de Agricultura, Ganadería y Pesca",1520.5474605
+2024-03-01,363,"Secretaría de Agricultura, Ganadería y Pesca",3908.53134571
+2024-04-01,363,"Secretaría de Agricultura, Ganadería y Pesca",22.40673003
+2024-05-01,363,"Secretaría de Agricultura, Ganadería y Pesca",580.58736977
+2024-06-01,363,"Secretaría de Agricultura, Ganadería y Pesca",98.51505829
+2024-08-01,363,"Secretaría de Agricultura, Ganadería y Pesca",0.0
+2024-09-01,363,"Secretaría de Agricultura, Ganadería y Pesca",0.0
+2024-10-01,363,"Secretaría de Agricultura, Ganadería y Pesca",0.0
+2024-11-01,363,"Secretaría de Agricultura, Ganadería y Pesca",0.1902299
+2024-01-01,364,Secretaría de Obras Públicas,252.77972676000002
+2024-02-01,364,Secretaría de Obras Públicas,1943.55665135
+2024-03-01,364,Secretaría de Obras Públicas,9058.675718420001
+2024-04-01,364,Secretaría de Obras Públicas,2197.59586241
+2024-05-01,364,Secretaría de Obras Públicas,2925.23357961
+2024-06-01,364,Secretaría de Obras Públicas,12403.29879737
+2024-07-01,364,Secretaría de Obras Públicas,5555.68144685
+2024-08-01,364,Secretaría de Obras Públicas,2936.87483415
+2024-09-01,364,Secretaría de Obras Públicas,5083.42067912
+2024-10-01,364,Secretaría de Obras Públicas,6809.5733093300005
+2024-11-01,364,Secretaría de Obras Públicas,2936.33570662
+2024-12-01,364,Secretaría de Obras Públicas,11022.94368414
+2024-01-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",21138.79713463
+2024-02-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",35224.02831245
+2024-03-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",41191.63861235
+2024-04-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",1524.19593672
+2024-05-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",973.3127561
+2024-06-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",52377.71701778
+2024-07-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",731.60063864
+2024-08-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",183.68389783
+2024-09-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",488.45167832
+2024-10-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",22.97648912
+2024-11-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",17109.142576219998
+2024-12-01,365,"Secretaría de Desarrollo Territorial, Hábitat y Vivienda",9695.557250539998
+2024-01-01,368,Secretaría de Comunicación y Medios,342.34541939999997
+2024-02-01,368,Secretaría de Comunicación y Medios,842.1692263799999
+2024-03-01,368,Secretaría de Comunicación y Medios,805.21747134
+2024-04-01,368,Secretaría de Comunicación y Medios,118.97675044
+2024-05-01,368,Secretaría de Comunicación y Medios,15.63387603
+2024-06-01,368,Secretaría de Comunicación y Medios,0.5973269000000001
+2024-07-01,368,Secretaría de Comunicación y Medios,0.0
+2024-11-01,368,Secretaría de Comunicación y Medios,0.0
+2024-12-01,368,Secretaría de Comunicación y Medios,0.0
+2024-01-01,369,Oficina de Presupuesto del Congreso,28.70073613
+2024-02-01,369,Oficina de Presupuesto del Congreso,45.6142348
+2024-03-01,369,Oficina de Presupuesto del Congreso,56.85733583
+2024-04-01,369,Oficina de Presupuesto del Congreso,45.330903559999996
+2024-05-01,369,Oficina de Presupuesto del Congreso,75.84269436
+2024-06-01,369,Oficina de Presupuesto del Congreso,107.69829089000001
+2024-07-01,369,Oficina de Presupuesto del Congreso,82.31899488
+2024-08-01,369,Oficina de Presupuesto del Congreso,78.6202848
+2024-09-01,369,Oficina de Presupuesto del Congreso,79.23926861999999
+2024-10-01,369,Oficina de Presupuesto del Congreso,85.14268934
+2024-11-01,369,Oficina de Presupuesto del Congreso,85.74261233
+2024-12-01,369,Oficina de Presupuesto del Congreso,135.88605769
+2024-01-01,370,Ministerio de Defensa (Gastos Propios),749.84368464
+2024-02-01,370,Ministerio de Defensa (Gastos Propios),1228.90137496
+2024-03-01,370,Ministerio de Defensa (Gastos Propios),1649.64584054
+2024-04-01,370,Ministerio de Defensa (Gastos Propios),1431.53882651
+2024-05-01,370,Ministerio de Defensa (Gastos Propios),1507.16144676
+2024-06-01,370,Ministerio de Defensa (Gastos Propios),3899.59742752
+2024-07-01,370,Ministerio de Defensa (Gastos Propios),4238.51773141
+2024-08-01,370,Ministerio de Defensa (Gastos Propios),3847.09068563
+2024-09-01,370,Ministerio de Defensa (Gastos Propios),2673.90646156
+2024-10-01,370,Ministerio de Defensa (Gastos Propios),5749.3326807
+2024-11-01,370,Ministerio de Defensa (Gastos Propios),2619.69397654
+2024-12-01,370,Ministerio de Defensa (Gastos Propios),6036.67247205
+2024-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),204.04294469
+2024-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1137.7296013100001
+2024-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),3455.93832723
+2024-04-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1133.4843932
+2024-05-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),3959.15028367
+2024-06-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1369.78257295
+2024-07-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),721.36162377
+2024-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2428.7309774100004
+2024-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),7610.4138124
+2024-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1899.41026376
+2024-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),12037.23765103
+2024-12-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),9904.077424750001
+2024-01-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),495.93522504
+2024-02-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),569.52591121
+2024-03-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),611.21498374
+2024-04-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),700.87538983
+2024-05-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),631.3417254
+2024-06-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1093.48940894
+2024-07-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),954.01035321
+2024-08-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),918.73370068
+2024-09-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),924.9871164
+2024-10-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),943.08980574
+2024-11-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),790.71235685
+2024-12-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1402.02902736
+2024-01-01,374,Estado Mayor General del Ejército Argentino (EMGE),56401.46679381
+2024-02-01,374,Estado Mayor General del Ejército Argentino (EMGE),65593.94459178
+2024-03-01,374,Estado Mayor General del Ejército Argentino (EMGE),78270.31714074
+2024-04-01,374,Estado Mayor General del Ejército Argentino (EMGE),75191.90964009
+2024-05-01,374,Estado Mayor General del Ejército Argentino (EMGE),79755.65848628001
+2024-06-01,374,Estado Mayor General del Ejército Argentino (EMGE),128286.1357473
+2024-07-01,374,Estado Mayor General del Ejército Argentino (EMGE),85538.55327885
+2024-08-01,374,Estado Mayor General del Ejército Argentino (EMGE),101314.23095771
+2024-09-01,374,Estado Mayor General del Ejército Argentino (EMGE),111136.05920587
+2024-10-01,374,Estado Mayor General del Ejército Argentino (EMGE),103513.60393826
+2024-11-01,374,Estado Mayor General del Ejército Argentino (EMGE),124672.21299649999
+2024-12-01,374,Estado Mayor General del Ejército Argentino (EMGE),214637.70186264
+2024-01-01,375,Gendarmería Nacional Argentina (GNA),48510.29151728
+2024-02-01,375,Gendarmería Nacional Argentina (GNA),56052.22899329
+2024-03-01,375,Gendarmería Nacional Argentina (GNA),66095.60340816001
+2024-04-01,375,Gendarmería Nacional Argentina (GNA),67051.32103338
+2024-05-01,375,Gendarmería Nacional Argentina (GNA),69578.09067328
+2024-06-01,375,Gendarmería Nacional Argentina (GNA),103756.97027988
+2024-07-01,375,Gendarmería Nacional Argentina (GNA),75350.76492112
+2024-08-01,375,Gendarmería Nacional Argentina (GNA),81113.660675
+2024-09-01,375,Gendarmería Nacional Argentina (GNA),84887.5222415
+2024-10-01,375,Gendarmería Nacional Argentina (GNA),81748.76968599
+2024-11-01,375,Gendarmería Nacional Argentina (GNA),101509.41329387
+2024-12-01,375,Gendarmería Nacional Argentina (GNA),128484.75566065
+2024-01-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1.60005725
+2024-02-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,310.1924627
+2024-03-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2174.13767615
+2024-04-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,7.24196925
+2024-05-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1.64799934
+2024-06-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,6.37203099
+2024-07-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,8.84175842
+2024-08-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2052.8943594499997
+2024-09-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,3610.20156976
+2024-10-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2.57326131
+2024-11-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,29.52515534
+2024-12-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,24.41941937
+2024-01-01,377,Infraestructura Económica y Social,908.05664596
+2024-02-01,377,Infraestructura Económica y Social,1804.0293721
+2024-03-01,377,Infraestructura Económica y Social,1526.57884909
+2024-04-01,377,Infraestructura Económica y Social,1055.76567625
+2024-05-01,377,Infraestructura Económica y Social,2069.66146805
+2024-06-01,377,Infraestructura Económica y Social,2119.96530802
+2024-07-01,377,Infraestructura Económica y Social,83123.20782769
+2024-08-01,377,Infraestructura Económica y Social,113772.81756475
+2024-09-01,377,Infraestructura Económica y Social,119058.04583519
+2024-10-01,377,Infraestructura Económica y Social,7059.5006296500005
+2024-11-01,377,Infraestructura Económica y Social,50427.9965837
+2024-12-01,377,Infraestructura Económica y Social,202365.91018273
+2024-01-01,379,Estado Mayor General de la Armada Argentina (EMGA),25774.31720921
+2024-02-01,379,Estado Mayor General de la Armada Argentina (EMGA),32037.79810192
+2024-03-01,379,Estado Mayor General de la Armada Argentina (EMGA),37228.567757849996
+2024-04-01,379,Estado Mayor General de la Armada Argentina (EMGA),37828.78496356
+2024-05-01,379,Estado Mayor General de la Armada Argentina (EMGA),37476.54838908
+2024-06-01,379,Estado Mayor General de la Armada Argentina (EMGA),59188.2369824
+2024-07-01,379,Estado Mayor General de la Armada Argentina (EMGA),45356.26465012
+2024-08-01,379,Estado Mayor General de la Armada Argentina (EMGA),46553.4910957
+2024-09-01,379,Estado Mayor General de la Armada Argentina (EMGA),50895.28588021
+2024-10-01,379,Estado Mayor General de la Armada Argentina (EMGA),49834.83126402
+2024-11-01,379,Estado Mayor General de la Armada Argentina (EMGA),57238.0276719
+2024-12-01,379,Estado Mayor General de la Armada Argentina (EMGA),107219.3125097
+2024-01-01,380,Prefectura Naval Argentina (PNA),25424.10518943
+2024-02-01,380,Prefectura Naval Argentina (PNA),29458.39283659
+2024-03-01,380,Prefectura Naval Argentina (PNA),34195.00718254
+2024-04-01,380,Prefectura Naval Argentina (PNA),36204.33115631
+2024-05-01,380,Prefectura Naval Argentina (PNA),36485.56349989
+2024-06-01,380,Prefectura Naval Argentina (PNA),55407.82664128
+2024-07-01,380,Prefectura Naval Argentina (PNA),41156.75072482
+2024-08-01,380,Prefectura Naval Argentina (PNA),43505.02406095
+2024-09-01,380,Prefectura Naval Argentina (PNA),47555.98697158
+2024-10-01,380,Prefectura Naval Argentina (PNA),41570.8036013
+2024-11-01,380,Prefectura Naval Argentina (PNA),48413.11108957
+2024-12-01,380,Prefectura Naval Argentina (PNA),71789.05547148
+2024-01-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),21142.20514084
+2024-02-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),26455.17485653
+2024-03-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),38066.292355
+2024-04-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),30519.01639244
+2024-05-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),33531.12865384
+2024-06-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),55781.72472891
+2024-07-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),34811.43306979
+2024-08-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),39310.1965698
+2024-09-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),55136.27004101
+2024-10-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),37789.56615368
+2024-11-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),48043.84988973
+2024-12-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),79978.43042667
+2024-01-01,382,Policía de Seguridad Aeroportuaria (PSA),5819.65155375
+2024-02-01,382,Policía de Seguridad Aeroportuaria (PSA),8836.8999683
+2024-03-01,382,Policía de Seguridad Aeroportuaria (PSA),8843.96227929
+2024-04-01,382,Policía de Seguridad Aeroportuaria (PSA),7728.72135232
+2024-05-01,382,Policía de Seguridad Aeroportuaria (PSA),9542.89468049
+2024-06-01,382,Policía de Seguridad Aeroportuaria (PSA),15649.88087648
+2024-07-01,382,Policía de Seguridad Aeroportuaria (PSA),9233.74447219
+2024-08-01,382,Policía de Seguridad Aeroportuaria (PSA),12989.8209463
+2024-09-01,382,Policía de Seguridad Aeroportuaria (PSA),12548.88628296
+2024-10-01,382,Policía de Seguridad Aeroportuaria (PSA),11598.00853808
+2024-11-01,382,Policía de Seguridad Aeroportuaria (PSA),10283.294263060001
+2024-12-01,382,Policía de Seguridad Aeroportuaria (PSA),20379.6557205
+2024-01-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",291.10851642
+2024-02-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",451.91750780999996
+2024-03-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",453.24248877
+2024-04-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",498.35533135000003
+2024-05-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",550.27637816
+2024-06-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",731.24440267
+2024-07-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",468.63142154
+2024-08-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",534.5147590500001
+2024-09-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",580.10190456
+2024-10-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",536.77331263
+2024-11-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",561.88638867
+2024-12-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",1596.89150116
+2024-01-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),139.05890433
+2024-02-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),189.73826524
+2024-03-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),212.99682239999999
+2024-04-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),215.51634575
+2024-05-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),227.8850875
+2024-06-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),367.01511392
+2024-07-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),240.13341657
+2024-08-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),264.73449989
+2024-09-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),265.08490746
+2024-10-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),251.00869989999998
+2024-11-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),285.80009148
+2024-12-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),578.80402267
+2024-01-01,388,Ministerio de Capital Humano,3609.7219577
+2024-02-01,388,Ministerio de Capital Humano,15732.38024136
+2024-03-01,388,Ministerio de Capital Humano,12127.56538809
+2024-04-01,388,Ministerio de Capital Humano,12100.565099189998
+2024-05-01,388,Ministerio de Capital Humano,11679.7746163
+2024-06-01,388,Ministerio de Capital Humano,10127.92465339
+2024-07-01,388,Ministerio de Capital Humano,4845.79049121
+2024-08-01,388,Ministerio de Capital Humano,8015.94827763
+2024-09-01,388,Ministerio de Capital Humano,9529.0300241
+2024-10-01,388,Ministerio de Capital Humano,6915.83355947
+2024-11-01,388,Ministerio de Capital Humano,7400.16475
+2024-12-01,388,Ministerio de Capital Humano,15404.87794862
+2024-01-01,450,Instituto Geográfico Nacional,242.49038112
+2024-02-01,450,Instituto Geográfico Nacional,241.15805279999998
+2024-03-01,450,Instituto Geográfico Nacional,564.04525328
+2024-04-01,450,Instituto Geográfico Nacional,427.33927516
+2024-05-01,450,Instituto Geográfico Nacional,387.56139386
+2024-06-01,450,Instituto Geográfico Nacional,644.89035848
+2024-07-01,450,Instituto Geográfico Nacional,515.97752616
+2024-08-01,450,Instituto Geográfico Nacional,513.22058631
+2024-09-01,450,Instituto Geográfico Nacional,516.75022626
+2024-10-01,450,Instituto Geográfico Nacional,491.50031031
+2024-11-01,450,Instituto Geográfico Nacional,500.90528857
+2024-12-01,450,Instituto Geográfico Nacional,977.62838083
+2024-01-01,452,Servicio Meteorológico Nacional,698.10716463
+2024-02-01,452,Servicio Meteorológico Nacional,1092.46062199
+2024-03-01,452,Servicio Meteorológico Nacional,1903.22088117
+2024-04-01,452,Servicio Meteorológico Nacional,1032.25718425
+2024-05-01,452,Servicio Meteorológico Nacional,1335.59997286
+2024-06-01,452,Servicio Meteorológico Nacional,2556.02320775
+2024-07-01,452,Servicio Meteorológico Nacional,1045.93182992
+2024-08-01,452,Servicio Meteorológico Nacional,1532.94318858
+2024-09-01,452,Servicio Meteorológico Nacional,2067.62910249
+2024-10-01,452,Servicio Meteorológico Nacional,1674.2081574499998
+2024-11-01,452,Servicio Meteorológico Nacional,1165.058939
+2024-12-01,452,Servicio Meteorológico Nacional,5178.44725113
+2024-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,72591.17495259
+2024-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,74045.42284871
+2024-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,103010.80543302
+2024-04-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,103229.44474458
+2024-05-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,102478.06791205
+2024-06-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,167043.46604412
+2024-07-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,111596.68852569
+2024-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,118234.63367434
+2024-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,121985.92926678
+2024-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,128962.67556914
+2024-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,129259.89538438
+2024-12-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,200500.64519819
+2024-01-01,602,Comisión Nacional de Valores,536.71795274
+2024-02-01,602,Comisión Nacional de Valores,661.06129672
+2024-03-01,602,Comisión Nacional de Valores,718.60463617
+2024-04-01,602,Comisión Nacional de Valores,622.12811638
+2024-05-01,602,Comisión Nacional de Valores,997.18135367
+2024-06-01,602,Comisión Nacional de Valores,1208.84099438
+2024-07-01,602,Comisión Nacional de Valores,997.37749963
+2024-08-01,602,Comisión Nacional de Valores,899.04892664
+2024-09-01,602,Comisión Nacional de Valores,1208.28188125
+2024-10-01,602,Comisión Nacional de Valores,1084.27881486
+2024-11-01,602,Comisión Nacional de Valores,1024.84314805
+2024-12-01,602,Comisión Nacional de Valores,2599.2632244399997
+2024-01-01,603,Superintendencia de Seguros de la Nación,980.24990313
+2024-02-01,603,Superintendencia de Seguros de la Nación,1350.74809086
+2024-03-01,603,Superintendencia de Seguros de la Nación,2522.1084425
+2024-04-01,603,Superintendencia de Seguros de la Nación,1528.26274992
+2024-05-01,603,Superintendencia de Seguros de la Nación,2084.38237033
+2024-06-01,603,Superintendencia de Seguros de la Nación,3641.33983408
+2024-07-01,603,Superintendencia de Seguros de la Nación,1718.94652071
+2024-08-01,603,Superintendencia de Seguros de la Nación,2027.3103435799999
+2024-09-01,603,Superintendencia de Seguros de la Nación,2459.75685126
+2024-10-01,603,Superintendencia de Seguros de la Nación,1841.85155455
+2024-11-01,603,Superintendencia de Seguros de la Nación,2360.7139597
+2024-12-01,603,Superintendencia de Seguros de la Nación,4503.23606266
+2024-01-01,604,Dirección Nacional de Vialidad,5235.76694993
+2024-02-01,604,Dirección Nacional de Vialidad,23465.33593117
+2024-03-01,604,Dirección Nacional de Vialidad,30944.83024391
+2024-04-01,604,Dirección Nacional de Vialidad,1746.7801057699999
+2024-05-01,604,Dirección Nacional de Vialidad,36902.67380405
+2024-06-01,604,Dirección Nacional de Vialidad,37190.25875661
+2024-07-01,604,Dirección Nacional de Vialidad,16839.43299708
+2024-08-01,604,Dirección Nacional de Vialidad,61202.22289731
+2024-09-01,604,Dirección Nacional de Vialidad,59389.60715072
+2024-10-01,604,Dirección Nacional de Vialidad,3738.73267524
+2024-11-01,604,Dirección Nacional de Vialidad,70244.25111476
+2024-12-01,604,Dirección Nacional de Vialidad,84539.96381671
+2024-01-01,606,Instituto Nacional de Tecnología Agropecuaria,9369.84169495
+2024-02-01,606,Instituto Nacional de Tecnología Agropecuaria,12685.71093375
+2024-03-01,606,Instituto Nacional de Tecnología Agropecuaria,15090.7356996
+2024-04-01,606,Instituto Nacional de Tecnología Agropecuaria,12296.94892629
+2024-05-01,606,Instituto Nacional de Tecnología Agropecuaria,16466.24605333
+2024-06-01,606,Instituto Nacional de Tecnología Agropecuaria,25297.10649408
+2024-07-01,606,Instituto Nacional de Tecnología Agropecuaria,14684.77062001
+2024-08-01,606,Instituto Nacional de Tecnología Agropecuaria,15672.06761179
+2024-09-01,606,Instituto Nacional de Tecnología Agropecuaria,20431.75538621
+2024-10-01,606,Instituto Nacional de Tecnología Agropecuaria,16162.27501781
+2024-11-01,606,Instituto Nacional de Tecnología Agropecuaria,17137.42653818
+2024-12-01,606,Instituto Nacional de Tecnología Agropecuaria,38230.08764797
+2024-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,560.18744546
+2024-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,435.12959245
+2024-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1793.58990669
+2024-04-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,819.98499606
+2024-05-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,884.99784702
+2024-06-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1668.62510182
+2024-07-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,299.52588853
+2024-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1216.8623801
+2024-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2170.55591133
+2024-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1189.15746067
+2024-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1316.6322682
+2024-12-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,3958.4567574000002
+2024-01-01,608,Instituto Nacional de Tecnología Industrial,2869.48320328
+2024-02-01,608,Instituto Nacional de Tecnología Industrial,3831.80554963
+2024-03-01,608,Instituto Nacional de Tecnología Industrial,5343.84008544
+2024-04-01,608,Instituto Nacional de Tecnología Industrial,4795.10130207
+2024-05-01,608,Instituto Nacional de Tecnología Industrial,5453.04103853
+2024-06-01,608,Instituto Nacional de Tecnología Industrial,8193.30910395
+2024-07-01,608,Instituto Nacional de Tecnología Industrial,5115.9160691
+2024-08-01,608,Instituto Nacional de Tecnología Industrial,13815.722201429999
+2024-09-01,608,Instituto Nacional de Tecnología Industrial,15607.19582926
+2024-10-01,608,Instituto Nacional de Tecnología Industrial,4714.09919902
+2024-11-01,608,Instituto Nacional de Tecnología Industrial,5902.13330916
+2024-12-01,608,Instituto Nacional de Tecnología Industrial,9656.91939463
+2024-01-01,609,Instituto Nacional de Vitivinicultura,614.67706605
+2024-02-01,609,Instituto Nacional de Vitivinicultura,637.77631066
+2024-03-01,609,Instituto Nacional de Vitivinicultura,1399.31914807
+2024-04-01,609,Instituto Nacional de Vitivinicultura,1011.58992574
+2024-05-01,609,Instituto Nacional de Vitivinicultura,1014.98575264
+2024-06-01,609,Instituto Nacional de Vitivinicultura,1601.39274938
+2024-07-01,609,Instituto Nacional de Vitivinicultura,1129.31498449
+2024-08-01,609,Instituto Nacional de Vitivinicultura,1121.64997813
+2024-09-01,609,Instituto Nacional de Vitivinicultura,1207.1018872500001
+2024-10-01,609,Instituto Nacional de Vitivinicultura,1183.49580683
+2024-11-01,609,Instituto Nacional de Vitivinicultura,1169.48036329
+2024-12-01,609,Instituto Nacional de Vitivinicultura,1900.05063073
+2024-01-01,612,Tribunal de Tasaciones de la Nación,99.39718738999998
+2024-02-01,612,Tribunal de Tasaciones de la Nación,190.33145962
+2024-03-01,612,Tribunal de Tasaciones de la Nación,229.59928774000002
+2024-04-01,612,Tribunal de Tasaciones de la Nación,195.90247664
+2024-05-01,612,Tribunal de Tasaciones de la Nación,203.74052396000002
+2024-06-01,612,Tribunal de Tasaciones de la Nación,303.57356749
+2024-07-01,612,Tribunal de Tasaciones de la Nación,223.45474235
+2024-08-01,612,Tribunal de Tasaciones de la Nación,214.88052151
+2024-09-01,612,Tribunal de Tasaciones de la Nación,234.48753017
+2024-10-01,612,Tribunal de Tasaciones de la Nación,221.69270518
+2024-11-01,612,Tribunal de Tasaciones de la Nación,232.14674384999998
+2024-12-01,612,Tribunal de Tasaciones de la Nación,414.28777837
+2024-01-01,613,Ente Nacional de Obras Hídricas de Saneamiento,4426.3459304
+2024-02-01,613,Ente Nacional de Obras Hídricas de Saneamiento,3157.36499974
+2024-03-01,613,Ente Nacional de Obras Hídricas de Saneamiento,5333.00684568
+2024-04-01,613,Ente Nacional de Obras Hídricas de Saneamiento,1598.0551495299999
+2024-05-01,613,Ente Nacional de Obras Hídricas de Saneamiento,2694.86174374
+2024-06-01,613,Ente Nacional de Obras Hídricas de Saneamiento,9671.02414752
+2024-07-01,613,Ente Nacional de Obras Hídricas de Saneamiento,4695.04732127
+2024-08-01,613,Ente Nacional de Obras Hídricas de Saneamiento,5631.57403309
+2024-09-01,613,Ente Nacional de Obras Hídricas de Saneamiento,5279.18102351
+2024-10-01,613,Ente Nacional de Obras Hídricas de Saneamiento,2352.03328574
+2024-11-01,613,Ente Nacional de Obras Hídricas de Saneamiento,15159.67393152
+2024-12-01,613,Ente Nacional de Obras Hídricas de Saneamiento,1848.5997499
+2024-01-01,614,Instituto Nacional de Semillas,205.7955568
+2024-02-01,614,Instituto Nacional de Semillas,588.54687984
+2024-03-01,614,Instituto Nacional de Semillas,455.47617436
+2024-04-01,614,Instituto Nacional de Semillas,311.17045625000003
+2024-05-01,614,Instituto Nacional de Semillas,650.09160203
+2024-06-01,614,Instituto Nacional de Semillas,764.58601001
+2024-07-01,614,Instituto Nacional de Semillas,559.04885135
+2024-08-01,614,Instituto Nacional de Semillas,688.48552169
+2024-09-01,614,Instituto Nacional de Semillas,2694.39314417
+2024-10-01,614,Instituto Nacional de Semillas,2377.1169834400002
+2024-11-01,614,Instituto Nacional de Semillas,3731.3427829499997
+2024-12-01,614,Instituto Nacional de Semillas,6490.371143
+2024-01-01,620,Tribunal Fiscal de la Nación,476.87746493
+2024-02-01,620,Tribunal Fiscal de la Nación,596.92188441
+2024-03-01,620,Tribunal Fiscal de la Nación,772.92106832
+2024-04-01,620,Tribunal Fiscal de la Nación,758.24486829
+2024-05-01,620,Tribunal Fiscal de la Nación,768.5362997
+2024-06-01,620,Tribunal Fiscal de la Nación,1160.50162263
+2024-07-01,620,Tribunal Fiscal de la Nación,896.35729354
+2024-08-01,620,Tribunal Fiscal de la Nación,863.1167288
+2024-09-01,620,Tribunal Fiscal de la Nación,910.8580597499999
+2024-10-01,620,Tribunal Fiscal de la Nación,863.72264464
+2024-11-01,620,Tribunal Fiscal de la Nación,880.99298843
+2024-12-01,620,Tribunal Fiscal de la Nación,1389.78341131
+2024-01-01,622,Instituto Nacional de la Propiedad Industrial,379.8929074
+2024-02-01,622,Instituto Nacional de la Propiedad Industrial,582.007733
+2024-03-01,622,Instituto Nacional de la Propiedad Industrial,795.63440618
+2024-04-01,622,Instituto Nacional de la Propiedad Industrial,704.82065139
+2024-05-01,622,Instituto Nacional de la Propiedad Industrial,693.86870672
+2024-06-01,622,Instituto Nacional de la Propiedad Industrial,1179.39848914
+2024-07-01,622,Instituto Nacional de la Propiedad Industrial,713.9539256099999
+2024-08-01,622,Instituto Nacional de la Propiedad Industrial,987.74607746
+2024-09-01,622,Instituto Nacional de la Propiedad Industrial,1029.83210093
+2024-10-01,622,Instituto Nacional de la Propiedad Industrial,686.3347836
+2024-11-01,622,Instituto Nacional de la Propiedad Industrial,947.06572352
+2024-12-01,622,Instituto Nacional de la Propiedad Industrial,1803.34812974
+2024-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,6112.24432976
+2024-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,9593.17172685
+2024-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,9883.3612049
+2024-04-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,11784.83468865
+2024-05-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,11086.05324385
+2024-06-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,19015.05467368
+2024-07-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,9985.02774286
+2024-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,12029.37492138
+2024-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,16069.05981388
+2024-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,11217.245062599999
+2024-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,12719.67277465
+2024-12-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,32390.19783613
+2024-01-01,624,Servicio Geológico Minero Argentino,376.56622169
+2024-02-01,624,Servicio Geológico Minero Argentino,463.3498082
+2024-03-01,624,Servicio Geológico Minero Argentino,600.79267975
+2024-04-01,624,Servicio Geológico Minero Argentino,581.04017721
+2024-05-01,624,Servicio Geológico Minero Argentino,595.75938267
+2024-06-01,624,Servicio Geológico Minero Argentino,1131.13584236
+2024-07-01,624,Servicio Geológico Minero Argentino,662.71513376
+2024-08-01,624,Servicio Geológico Minero Argentino,796.0303135
+2024-09-01,624,Servicio Geológico Minero Argentino,850.0344112500001
+2024-10-01,624,Servicio Geológico Minero Argentino,724.90491991
+2024-11-01,624,Servicio Geológico Minero Argentino,879.43296183
+2024-12-01,624,Servicio Geológico Minero Argentino,1920.70834606
+2024-01-01,651,Ente Nacional Regulador del Gas,2520.14451604
+2024-02-01,651,Ente Nacional Regulador del Gas,2898.34550247
+2024-03-01,651,Ente Nacional Regulador del Gas,2258.88080918
+2024-04-01,651,Ente Nacional Regulador del Gas,4525.52573751
+2024-05-01,651,Ente Nacional Regulador del Gas,3825.61457053
+2024-06-01,651,Ente Nacional Regulador del Gas,5459.3876293700005
+2024-07-01,651,Ente Nacional Regulador del Gas,3834.32526243
+2024-08-01,651,Ente Nacional Regulador del Gas,4162.86910182
+2024-09-01,651,Ente Nacional Regulador del Gas,4207.22983013
+2024-10-01,651,Ente Nacional Regulador del Gas,3985.25599834
+2024-11-01,651,Ente Nacional Regulador del Gas,4187.52795992
+2024-12-01,651,Ente Nacional Regulador del Gas,7685.47897481
+2024-01-01,652,Ente Nacional Regulador de la Electricidad,372.69532268999995
+2024-02-01,652,Ente Nacional Regulador de la Electricidad,633.92050495
+2024-03-01,652,Ente Nacional Regulador de la Electricidad,1180.69616458
+2024-04-01,652,Ente Nacional Regulador de la Electricidad,518.37750772
+2024-05-01,652,Ente Nacional Regulador de la Electricidad,696.6613873
+2024-06-01,652,Ente Nacional Regulador de la Electricidad,1530.28881684
+2024-07-01,652,Ente Nacional Regulador de la Electricidad,509.04340135
+2024-08-01,652,Ente Nacional Regulador de la Electricidad,1519.48415213
+2024-09-01,652,Ente Nacional Regulador de la Electricidad,1634.02784116
+2024-10-01,652,Ente Nacional Regulador de la Electricidad,865.05480408
+2024-11-01,652,Ente Nacional Regulador de la Electricidad,906.33239615
+2024-12-01,652,Ente Nacional Regulador de la Electricidad,3328.72269335
+2024-01-01,656,Organismo Regulador de Seguridad de Presas,119.40732539
+2024-02-01,656,Organismo Regulador de Seguridad de Presas,161.76945437999998
+2024-03-01,656,Organismo Regulador de Seguridad de Presas,157.99215074
+2024-04-01,656,Organismo Regulador de Seguridad de Presas,160.70789496
+2024-05-01,656,Organismo Regulador de Seguridad de Presas,157.61397827
+2024-06-01,656,Organismo Regulador de Seguridad de Presas,228.79207467
+2024-07-01,656,Organismo Regulador de Seguridad de Presas,195.12526671999998
+2024-08-01,656,Organismo Regulador de Seguridad de Presas,163.7761866
+2024-09-01,656,Organismo Regulador de Seguridad de Presas,209.61507547
+2024-10-01,656,Organismo Regulador de Seguridad de Presas,171.26946649
+2024-11-01,656,Organismo Regulador de Seguridad de Presas,204.57253008
+2024-12-01,656,Organismo Regulador de Seguridad de Presas,268.72988366
+2024-01-01,661,Comisión Nacional de Regulación del Transporte,1549.1280548299999
+2024-02-01,661,Comisión Nacional de Regulación del Transporte,1579.08716208
+2024-03-01,661,Comisión Nacional de Regulación del Transporte,2084.2650914
+2024-04-01,661,Comisión Nacional de Regulación del Transporte,1817.71772009
+2024-05-01,661,Comisión Nacional de Regulación del Transporte,1721.16746851
+2024-06-01,661,Comisión Nacional de Regulación del Transporte,4196.69175525
+2024-07-01,661,Comisión Nacional de Regulación del Transporte,2286.8125218699997
+2024-08-01,661,Comisión Nacional de Regulación del Transporte,2556.27185337
+2024-09-01,661,Comisión Nacional de Regulación del Transporte,2812.24719665
+2024-10-01,661,Comisión Nacional de Regulación del Transporte,1896.6999540500003
+2024-11-01,661,Comisión Nacional de Regulación del Transporte,2170.67053979
+2024-12-01,661,Comisión Nacional de Regulación del Transporte,5613.648566649999
+2024-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,419.51900173
+2024-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,417.67317963
+2024-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,630.57755716
+2024-04-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,584.92350454
+2024-05-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,539.26799947
+2024-06-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,857.47971333
+2024-07-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,609.60328956
+2024-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,658.568183
+2024-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,659.9408029
+2024-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,417.14702588
+2024-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,673.51847998
+2024-12-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,1989.1795435299998
+2024-01-01,669,Administración Nacional de Aviación Civil,2393.803326
+2024-02-01,669,Administración Nacional de Aviación Civil,2184.21852592
+2024-03-01,669,Administración Nacional de Aviación Civil,4076.4696907800003
+2024-04-01,669,Administración Nacional de Aviación Civil,2661.14692843
+2024-05-01,669,Administración Nacional de Aviación Civil,3025.291801
+2024-06-01,669,Administración Nacional de Aviación Civil,7202.71396523
+2024-07-01,669,Administración Nacional de Aviación Civil,3972.37137829
+2024-08-01,669,Administración Nacional de Aviación Civil,3523.60756901
+2024-09-01,669,Administración Nacional de Aviación Civil,3585.54003906
+2024-10-01,669,Administración Nacional de Aviación Civil,2885.45577417
+2024-11-01,669,Administración Nacional de Aviación Civil,4214.44296443
+2024-12-01,669,Administración Nacional de Aviación Civil,8742.62263455
+2024-01-01,670,Unidad de Información Financiera,384.11932731
+2024-02-01,670,Unidad de Información Financiera,528.31570827
+2024-03-01,670,Unidad de Información Financiera,481.32674972
+2024-04-01,670,Unidad de Información Financiera,511.9054112
+2024-05-01,670,Unidad de Información Financiera,526.99738035
+2024-06-01,670,Unidad de Información Financiera,762.24981254
+2024-07-01,670,Unidad de Información Financiera,479.72389655
+2024-08-01,670,Unidad de Información Financiera,731.31940292
+2024-09-01,670,Unidad de Información Financiera,960.6890108499999
+2024-10-01,670,Unidad de Información Financiera,513.43944063
+2024-11-01,670,Unidad de Información Financiera,888.77759422
+2024-12-01,670,Unidad de Información Financiera,1101.53049777
+2024-01-01,671,Junta de Seguridad en el Transporte,623.39283814
+2024-02-01,671,Junta de Seguridad en el Transporte,623.39283986
+2024-03-01,671,Junta de Seguridad en el Transporte,1395.80729849
+2024-04-01,671,Junta de Seguridad en el Transporte,756.56405152
+2024-05-01,671,Junta de Seguridad en el Transporte,1283.2895146199999
+2024-06-01,671,Junta de Seguridad en el Transporte,1201.08118132
+2024-07-01,671,Junta de Seguridad en el Transporte,977.75047833
+2024-08-01,671,Junta de Seguridad en el Transporte,1080.49633942
+2024-09-01,671,Junta de Seguridad en el Transporte,780.47088488
+2024-10-01,671,Junta de Seguridad en el Transporte,916.48556049
+2024-11-01,671,Junta de Seguridad en el Transporte,742.32067382
+2024-12-01,671,Junta de Seguridad en el Transporte,629.36286625
+2024-01-01,672,Ente Nacional de Control y Gestión de la Vía Navegable,0.0
+2024-12-01,672,Ente Nacional de Control y Gestión de la Vía Navegable,0.0
+2024-01-01,802,Fondo Nacional de las Artes,81.32169688
+2024-02-01,802,Fondo Nacional de las Artes,117.61906515
+2024-03-01,802,Fondo Nacional de las Artes,107.83213776999999
+2024-04-01,802,Fondo Nacional de las Artes,120.78071263
+2024-05-01,802,Fondo Nacional de las Artes,134.60426774
+2024-06-01,802,Fondo Nacional de las Artes,251.55266168
+2024-07-01,802,Fondo Nacional de las Artes,38.50945346
+2024-08-01,802,Fondo Nacional de las Artes,297.76428811
+2024-09-01,802,Fondo Nacional de las Artes,222.13192985
+2024-10-01,802,Fondo Nacional de las Artes,145.93374834
+2024-11-01,802,Fondo Nacional de las Artes,206.31992427
+2024-12-01,802,Fondo Nacional de las Artes,791.97856797
+2024-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,143.02857042
+2024-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,222.18586413999998
+2024-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,329.21013935999997
+2024-04-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,258.16706289
+2024-05-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,183.26015928
+2024-06-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,362.3757329
+2024-07-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,493.18759678
+2024-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,268.89594488
+2024-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,445.61824242
+2024-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,318.55845622000004
+2024-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,203.29483056
+2024-12-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,1380.91337352
+2024-01-01,850,Administración Nacional de la Seguridad Social,1809791.7075619
+2024-02-01,850,Administración Nacional de la Seguridad Social,1860896.66200385
+2024-03-01,850,Administración Nacional de la Seguridad Social,2697096.6136204
+2024-04-01,850,Administración Nacional de la Seguridad Social,2684543.21379149
+2024-05-01,850,Administración Nacional de la Seguridad Social,2920881.72938324
+2024-06-01,850,Administración Nacional de la Seguridad Social,4556928.71650341
+2024-07-01,850,Administración Nacional de la Seguridad Social,3488607.07540299
+2024-08-01,850,Administración Nacional de la Seguridad Social,3605231.76027781
+2024-09-01,850,Administración Nacional de la Seguridad Social,3780237.27274036
+2024-10-01,850,Administración Nacional de la Seguridad Social,3949796.76484201
+2024-11-01,850,Administración Nacional de la Seguridad Social,4035953.18938012
+2024-12-01,850,Administración Nacional de la Seguridad Social,5917254.95089082
+2024-01-01,852,Superintendencia de Riesgos del Trabajo,498.95963306
+2024-02-01,852,Superintendencia de Riesgos del Trabajo,697.29487317
+2024-03-01,852,Superintendencia de Riesgos del Trabajo,765.54796522
+2024-04-01,852,Superintendencia de Riesgos del Trabajo,770.69443655
+2024-05-01,852,Superintendencia de Riesgos del Trabajo,788.34945584
+2024-06-01,852,Superintendencia de Riesgos del Trabajo,1094.67851469
+2024-07-01,852,Superintendencia de Riesgos del Trabajo,929.2040061600001
+2024-08-01,852,Superintendencia de Riesgos del Trabajo,879.6219419800001
+2024-09-01,852,Superintendencia de Riesgos del Trabajo,904.1319234399999
+2024-10-01,852,Superintendencia de Riesgos del Trabajo,913.82999502
+2024-11-01,852,Superintendencia de Riesgos del Trabajo,961.41567399
+2024-12-01,852,Superintendencia de Riesgos del Trabajo,1908.98600123
+2024-01-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',592.88314745
+2024-02-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',970.7397230199999
+2024-03-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1502.52496507
+2024-04-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1098.75761835
+2024-05-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',872.66886594
+2024-06-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',2172.48387502
+2024-07-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',836.77303234
+2024-08-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1722.71830068
+2024-09-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1427.4545114100001
+2024-10-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1574.3482971399999
+2024-11-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',1665.5865238299998
+2024-12-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',2324.70442344
+2024-01-01,903,Hospital Nacional Dr. Baldomero Sommer,1368.82735827
+2024-02-01,903,Hospital Nacional Dr. Baldomero Sommer,2083.3002926
+2024-03-01,903,Hospital Nacional Dr. Baldomero Sommer,2396.15365756
+2024-04-01,903,Hospital Nacional Dr. Baldomero Sommer,1986.4375684699999
+2024-05-01,903,Hospital Nacional Dr. Baldomero Sommer,2080.37682535
+2024-06-01,903,Hospital Nacional Dr. Baldomero Sommer,3675.52508094
+2024-07-01,903,Hospital Nacional Dr. Baldomero Sommer,1761.77205467
+2024-08-01,903,Hospital Nacional Dr. Baldomero Sommer,3396.24249032
+2024-09-01,903,Hospital Nacional Dr. Baldomero Sommer,3651.7416276500003
+2024-10-01,903,Hospital Nacional Dr. Baldomero Sommer,3051.42025891
+2024-11-01,903,Hospital Nacional Dr. Baldomero Sommer,3103.0802199600002
+2024-12-01,903,Hospital Nacional Dr. Baldomero Sommer,4852.60338941
+2024-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",1794.56490815
+2024-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2216.87393159
+2024-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2200.89279037
+2024-04-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2555.47516045
+2024-05-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2591.91312661
+2024-06-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3783.14032004
+2024-07-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2883.48332378
+2024-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2999.9638932800003
+2024-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3076.49192914
+2024-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3121.90077096
+2024-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",4055.83337841
+2024-12-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",6124.14498
+2024-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,656.76264658
+2024-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,855.53677724
+2024-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1829.79669092
+2024-04-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1005.36593859
+2024-05-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1291.71422759
+2024-06-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3290.73601727
+2024-07-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1499.36280096
+2024-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3191.42700198
+2024-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3373.36018035
+2024-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1303.96676249
+2024-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1715.4243623300001
+2024-12-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,10689.700681979999
+2024-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,1377.03687725
+2024-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,2239.38568026
+2024-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3120.37444821
+2024-04-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,2239.02467474
+2024-05-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,2496.65343799
+2024-06-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,4075.25898725
+2024-07-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3183.10372984
+2024-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,2708.03218896
+2024-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3970.6891982800003
+2024-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,2789.68943754
+2024-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3892.3869919100002
+2024-12-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,5722.52049936
+2024-01-01,908,Hospital Nacional Profesor Alejandro Posadas,6682.85856161
+2024-02-01,908,Hospital Nacional Profesor Alejandro Posadas,10017.81272762
+2024-03-01,908,Hospital Nacional Profesor Alejandro Posadas,10683.49969565
+2024-04-01,908,Hospital Nacional Profesor Alejandro Posadas,8931.57271734
+2024-05-01,908,Hospital Nacional Profesor Alejandro Posadas,10375.76343772
+2024-06-01,908,Hospital Nacional Profesor Alejandro Posadas,16884.9099434
+2024-07-01,908,Hospital Nacional Profesor Alejandro Posadas,11021.73970199
+2024-08-01,908,Hospital Nacional Profesor Alejandro Posadas,12958.26006897
+2024-09-01,908,Hospital Nacional Profesor Alejandro Posadas,15462.01430638
+2024-10-01,908,Hospital Nacional Profesor Alejandro Posadas,13842.16832585
+2024-11-01,908,Hospital Nacional Profesor Alejandro Posadas,14825.53941752
+2024-12-01,908,Hospital Nacional Profesor Alejandro Posadas,18817.30820771
+2024-01-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',789.11162304
+2024-02-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',2085.06910139
+2024-03-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1714.90589744
+2024-04-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1947.54836501
+2024-05-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1867.32867916
+2024-06-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',3402.41890398
+2024-07-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',2274.67011843
+2024-08-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1727.95370289
+2024-09-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',2941.3448419
+2024-10-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',1765.10305297
+2024-11-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',3096.55786391
+2024-12-01,909,Hospital Nacional y Comunidad 'Dr. Ramón Carrillo',3585.06305579
+2024-01-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,537.12357836
+2024-02-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,407.46471025
+2024-03-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,862.3872176
+2024-04-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,747.63659658
+2024-05-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,526.24634537
+2024-06-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,1497.52074016
+2024-07-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,878.1985979
+2024-08-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,982.39171418
+2024-09-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,939.48436069
+2024-10-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,878.8952388499999
+2024-11-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,1030.30181823
+2024-12-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,1476.57818888
+2024-01-01,914,Superintendencia de Servicios de Salud,1921.07168247
+2024-02-01,914,Superintendencia de Servicios de Salud,2799.74264343
+2024-03-01,914,Superintendencia de Servicios de Salud,10968.831309719999
+2024-04-01,914,Superintendencia de Servicios de Salud,3805.98522137
+2024-05-01,914,Superintendencia de Servicios de Salud,7128.87112339
+2024-06-01,914,Superintendencia de Servicios de Salud,13319.47437473
+2024-07-01,914,Superintendencia de Servicios de Salud,4593.70358348
+2024-08-01,914,Superintendencia de Servicios de Salud,12127.09791336
+2024-09-01,914,Superintendencia de Servicios de Salud,6854.86290447
+2024-10-01,914,Superintendencia de Servicios de Salud,3960.65392806
+2024-11-01,914,Superintendencia de Servicios de Salud,14148.47649599
+2024-12-01,914,Superintendencia de Servicios de Salud,11512.824447230001
+2024-01-01,915,Instituto Nacional del Cáncer (INC),134.92607312
+2024-02-01,915,Instituto Nacional del Cáncer (INC),529.55480364
+2024-03-01,915,Instituto Nacional del Cáncer (INC),733.36563673
+2024-04-01,915,Instituto Nacional del Cáncer (INC),162.38738544999998
+2024-05-01,915,Instituto Nacional del Cáncer (INC),258.74809868
+2024-06-01,915,Instituto Nacional del Cáncer (INC),426.97161357
+2024-07-01,915,Instituto Nacional del Cáncer (INC),219.29396399
+2024-08-01,915,Instituto Nacional del Cáncer (INC),284.61654809000004
+2024-09-01,915,Instituto Nacional del Cáncer (INC),340.45935248
+2024-10-01,915,Instituto Nacional del Cáncer (INC),278.44247174
+2024-11-01,915,Instituto Nacional del Cáncer (INC),264.1813221
+2024-12-01,915,Instituto Nacional del Cáncer (INC),753.26656684
+2024-01-01,917,Agencia Nacional de Discapacidad,165918.84942836
+2024-02-01,917,Agencia Nacional de Discapacidad,116130.10408594999
+2024-03-01,917,Agencia Nacional de Discapacidad,299796.82115842
+2024-04-01,917,Agencia Nacional de Discapacidad,264513.30407467
+2024-05-01,917,Agencia Nacional de Discapacidad,138213.60959975
+2024-06-01,917,Agencia Nacional de Discapacidad,554484.03731817
+2024-07-01,917,Agencia Nacional de Discapacidad,318129.04225167
+2024-08-01,917,Agencia Nacional de Discapacidad,335214.28863148
+2024-09-01,917,Agencia Nacional de Discapacidad,348837.44517839997
+2024-10-01,917,Agencia Nacional de Discapacidad,254386.11636195
+2024-11-01,917,Agencia Nacional de Discapacidad,450182.66283196997
+2024-12-01,917,Agencia Nacional de Discapacidad,461696.46662112

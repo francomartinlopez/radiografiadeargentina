@@ -1,193 +1,169 @@
-# Sondeo de Our World in Data
+# Servicios por año (devengado anual, millones de pesos corrientes)
 
-## cross-country-literacy-rates: HTTP 200
-- cobertura: ARG 1914-2020 (7); AUS 1950-1950 (1); BRA 1900-2024 (26); CAN 1901-1950 (5); CHL 1907-2017 (12); DEU 1475-1950 (5); ESP 1475-2021 (27); FRA 1475-1950 (13); GBR 1475-1950 (5); ITA 1475-2019 (13); JPN 1950-1950 (1); MEX 1900-2024 (31); URY 1950-2024 (22); USA 1900-1950 (6)
-- columnas: entity, code, year, literacy_rate
-- filas: 2167, años: 1475–2024
-- Argentina: 7 filas, desde 1914
+Errores: 
 
-## literacy-rate-adult-total: HTTP 404
-
-## literate-and-illiterate-world-population: HTTP 200
-- cobertura: ARG 1914-2020 (7); AUS 1950-1950 (1); BRA 1900-2024 (26); CAN 1901-1950 (5); CHL 1907-2017 (12); DEU 1475-1950 (5); ESP 1475-2021 (27); FRA 1475-1950 (13); GBR 1475-1950 (5); ITA 1475-2019 (13); JPN 1950-1950 (1); MEX 1900-2024 (31); URY 1950-2024 (22); USA 1900-1950 (6)
-- columnas: entity, code, year, illiteracy_rate, literacy_rate
-- filas: 2167, años: 1475–2024
-- Argentina: 7 filas, desde 1914
-
-## urbanization-last-500-years: HTTP 200
-- cobertura: ARG -10000-2025 (128); AUS -10000-2025 (128); BRA -10000-2025 (128); CAN -10000-2025 (128); CHL -10000-2025 (128); DEU -10000-2025 (128); ESP -10000-2025 (128); FRA -10000-2025 (128); GBR -10000-2025 (128); ITA -10000-2025 (128); JPN -10000-2025 (128); MEX -10000-2025 (128); URY -10000-2025 (128); USA -10000-2025 (128)
-- columnas: entity, code, year, urbc_c_share
-- filas: 26857, años: -10000–2025
-- Argentina: 128 filas, desde -10000
-
-## share-of-population-urban: HTTP 200
-- cobertura: ARG 1950-2025 (76); AUS 1950-2025 (76); BRA 1950-2025 (76); CAN 1950-2025 (76); CHL 1950-2025 (76); DEU 1950-2025 (76); ESP 1950-2025 (76); FRA 1950-2025 (76); GBR 1950-2025 (76); ITA 1950-2025 (76); JPN 1950-2025 (76); MEX 1950-2025 (76); URY 1950-2025 (76); USA 1950-2025 (76)
-- columnas: entity, code, year, share__area_type_urban__data_type_estimates
-- filas: 21052, años: 1950–2025
-- Argentina: 76 filas, desde 1950
-
-## urban-population-share-2050: HTTP 200
-- cobertura: ARG -10000-2050 (153); AUS -10000-2050 (153); BRA -10000-2050 (153); CAN -10000-2050 (153); CHL -10000-2050 (153); DEU -10000-2050 (153); ESP -10000-2050 (153); FRA -10000-2050 (153); GBR -10000-2050 (153); ITA -10000-2050 (153); JPN -10000-2050 (153); MEX -10000-2050 (153); URY -10000-2050 (153); USA -10000-2050 (153)
-- columnas: entity, code, year, share, share__area_type_urban__data_type_projections__projected
-- filas: 38646, años: -10000–2050
-- Argentina: 153 filas, desde -10000
-
-## crude-birth-rate: HTTP 200
-- cobertura: ARG 1950-2023 (74); AUS 1950-2023 (74); BRA 1950-2023 (74); CAN 1950-2023 (74); CHL 1950-2023 (74); DEU 1950-2023 (74); ESP 1950-2023 (74); FRA 1950-2023 (74); GBR 1950-2023 (74); ITA 1950-2023 (74); JPN 1950-2023 (74); MEX 1950-2023 (74); URY 1950-2023 (74); USA 1950-2023 (74)
-- columnas: entity, code, year, birth_rate__sex_all__age_all__variant_estimates
-- filas: 18722, años: 1950–2023
-- Argentina: 74 filas, desde 1950
-
-## birth-rate-vs-death-rate: HTTP 200
-- cobertura: ARG 1950-2023 (74); AUS 1950-2023 (74); BRA 1950-2023 (74); CAN 1950-2023 (74); CHL 1950-2023 (74); DEU 1950-2023 (74); ESP 1950-2023 (74); FRA 1950-2023 (74); GBR 1950-2023 (74); ITA 1950-2023 (74); JPN 1950-2023 (74); MEX 1950-2023 (74); URY 1950-2023 (74); USA 1950-2023 (74)
-- columnas: entity, code, year, birth_rate__sex_all__age_all__variant_estimates, death_rate__sex_all__age_all__variant_estimates, population__sex_all__age_all__variant_estimates, owid_region
-- filas: 18722, años: 1950–2023
-- Argentina: 74 filas, desde 1950
-
-## children-born-per-woman: HTTP 200
-- cobertura: ARG 1950-2023 (74); AUS 1950-2023 (74); BRA 1950-2023 (74); CAN 1921-2023 (103); CHL 1950-2023 (74); DEU 1950-2023 (74); ESP 1922-2023 (102); FRA 1946-2023 (78); GBR 1950-2023 (74); ITA 1950-2023 (74); JPN 1947-2023 (77); MEX 1950-2023 (74); URY 1950-2023 (74); USA 1933-2023 (91)
-- columnas: entity, code, year, fertility_rate_hist
-- filas: 19402, años: 1891–2023
-- Argentina: 74 filas, desde 1950
-
-## homicide-rate-unodc: HTTP 200
-- cobertura: ARG 2001-2023 (23); AUS 1990-2023 (34); BRA 1990-2023 (34); CAN 1990-2023 (34); CHL 2003-2023 (20); DEU 1990-2023 (34); ESP 1990-2023 (34); FRA 1990-2024 (35); GBR 1990-2021 (30); ITA 1990-2023 (32); JPN 1990-2023 (34); MEX 1990-2023 (34); URY 1990-2023 (32); USA 1990-2023 (31)
-- columnas: entity, code, year, value__category_total__sex_total__age_total__unit_of_measurement_rate_per_100_000_population, owid_region
-- filas: 4912, años: 1990–2024
-- Argentina: 23 filas, desde 2001
-
-## homicide-rate-in-europe-over-long-term: HTTP 404
-
-## homicide-rate: HTTP 403
-
-## mean-years-of-schooling-long-run: HTTP 200
-- cobertura: ARG 1870-2020 (31); AUS 1870-2020 (31); BRA 1870-2020 (31); CAN 1870-2020 (31); CHL 1870-2020 (31); DEU 1870-2020 (31); ESP 1870-2020 (31); FRA 1870-2020 (31); GBR 1870-2020 (31); ITA 1870-2020 (31); JPN 1870-2020 (31); MEX 1870-2020 (31); URY 1870-2020 (31); USA 1870-2020 (31)
-- columnas: entity, code, year, mf_youth_and_adults__15_64_years__average_years_of_education
-- filas: 3699, años: 1870–2020
-- Argentina: 31 filas, desde 1870
-
-## share-of-the-population-with-completed-tertiary-education: HTTP 200
-- cobertura: ARG 1870-2020 (31); AUS 1870-2020 (31); BRA 1870-2020 (31); CAN 1870-2020 (31); CHL 1870-2020 (31); DEU 1870-2020 (31); ESP 1870-2020 (31); FRA 1870-2020 (31); GBR 1870-2020 (31); ITA 1870-2020 (31); JPN 1870-2020 (31); MEX 1870-2020 (31); URY 1870-2020 (31); USA 1870-2020 (31)
-- columnas: entity, code, year, mf_adults__25_64_years__percentage_of_tertiary_education
-- filas: 3699, años: 1870–2020
-- Argentina: 31 filas, desde 1870
-
-## primary-school-enrollment-rate: HTTP 404
-
-## gross-enrollment-ratio-in-secondary-education: HTTP 200
-- cobertura: ARG 1998-2023 (26); AUS 2015-2024 (10); BRA 2012-2024 (12); CAN 2000-2023 (20); CHL 2000-2024 (24); DEU 2001-2024 (24); ESP 2001-2024 (24); FRA 2001-2024 (24); GBR 2000-2023 (24); ITA 2001-2023 (23); JPN 2013-2023 (11); MEX 2000-2024 (25); URY 1995-2023 (28); USA 1993-2022 (17)
-- columnas: entity, code, year, gross_enrolment_ratio__upper_secondary__both_sexes__pct
-- filas: 4491, años: 1981–2025
-- Argentina: 26 filas, desde 1998
-
-## life-expectancy: HTTP 200
-- cobertura: ARG 1875-2023 (89); AUS 1885-2023 (106); BRA 1900-2023 (80); CAN 1831-2023 (112); CHL 1900-2023 (89); DEU 1875-2023 (83); ESP 1882-2023 (119); FRA 1816-2023 (208); GBR 1543-2023 (242); ITA 1872-2023 (152); JPN 1865-2023 (93); MEX 1893-2023 (121); URY 1900-2023 (79); USA 1880-2023 (125)
-- columnas: entity, code, year, life_expectancy_0
-- filas: 21565, años: 1543–2023
-- Argentina: 89 filas, desde 1875
-
-## child-mortality: HTTP 200
-- cobertura: ARG 1911-2024 (109); AUS 1870-2024 (155); BRA 1931-2024 (94); CAN 1900-2024 (123); CHL 1901-2024 (124); DEU 1836-2024 (162); ESP 1858-2024 (149); FRA 1816-2024 (209); GBR 1841-2024 (184); ITA 1872-2024 (153); JPN 1920-2024 (102); MEX 1951-2024 (74); URY 1921-2024 (103); USA 1933-2024 (92)
-- columnas: entity, code, year, child_mortality_rate
-- filas: 17066, años: 1751–2024
-- Argentina: 109 filas, desde 1911
-
-## prevalence-of-undernourishment: HTTP 200
-- cobertura: ARG 2001-2023 (23); AUS 2001-2023 (23); BRA 2001-2023 (23); CAN 2001-2023 (23); CHL 2001-2023 (23); DEU 2001-2023 (23); ESP 2001-2023 (23); FRA 2001-2023 (23); GBR 2001-2023 (23); ITA 2001-2023 (23); MEX 2001-2023 (23); URY 2001-2023 (23); USA 2001-2023 (23)
-- columnas: entity, code, year, _2_1_1_prevalence_of_undernourishment__000000000024000__value__006121__percent
-- filas: 4904, años: 2000–2024
-- Argentina: 23 filas, desde 2001
-
-## share-of-children-who-are-stunted: HTTP 404
-
-## share-of-the-population-with-access-to-electricity: HTTP 200
-- cobertura: ARG 1990-2024 (35); AUS 1990-2024 (35); BRA 1990-2024 (35); CAN 1990-2024 (35); CHL 1990-2024 (35); DEU 1990-2024 (35); ESP 1990-2024 (35); FRA 1990-2024 (35); GBR 1990-2024 (35); ITA 1990-2024 (35); JPN 1990-2024 (35); MEX 1992-2024 (33); URY 1992-2024 (33); USA 1990-2024 (35)
-- columnas: entity, code, year, eg_elc_accs_zs
-- filas: 7140, años: 1990–2024
-- Argentina: 35 filas, desde 1990
-
-## motor-vehicles-per-1000-people: HTTP 404
-
-## cars-per-1000-people: HTTP 404
-
-## nobel-laureates-per-capita: HTTP 404
-
-## nobel-prizes-by-country: HTTP 404
-
-## gdp-per-capita-maddison-project-database: HTTP 200
-- cobertura: ARG 1800-2022 (153); AUS 1820-2022 (203); BRA 1800-2022 (175); CAN 1820-2022 (158); CHL 1800-2022 (214); DEU 1500-2022 (523); ESP 1-2022 (747); FRA 1-2022 (748); GBR 1000-2022 (772); ITA 1-2022 (230); JPN 730-2022 (154); MEX 1550-2022 (352); URY 1800-2022 (157); USA 1650-2022 (226)
-- columnas: entity, code, year, gdp_per_capita, gdp_per_capita__annotations
-- filas: 21586, años: 1–2022
-- Argentina: 153 filas, desde 1800
-
-## real-wages-in-manufacturing: HTTP 404
-
-## average-years-of-schooling: HTTP 200
-- cobertura: ARG 1990-2023 (34); AUS 1990-2023 (34); BRA 1990-2023 (34); CAN 1990-2023 (34); CHL 1990-2023 (34); DEU 1990-2023 (34); ESP 1990-2023 (34); FRA 1990-2023 (34); GBR 1990-2023 (34); ITA 1990-2023 (34); JPN 1990-2023 (34); MEX 1990-2023 (34); URY 1990-2023 (34); USA 1990-2023 (34)
-- columnas: entity, code, year, mys__sex_total
-- filas: 6760, años: 1990–2023
-- Argentina: 34 filas, desde 1990
-
-## https://psl.noaa.gov/data/correlation/oni.data: HTTP 200
-```
- 1950         2026
-1950  -1.32 -1.20 -1.12 -1.08 -1.10 -0.90 -0.62   -0.57  -0.56  -0.62  -0.66 -0.79
-1951  -0.66 -0.36 -0.04  0.16  0.27  0.50  0.71    0.90   1.02   1.03   0.96  0.71
-1952   0.52  0.27  0.33  0.18 -0.07 -0.44 -0.45   -0.20   0.03   0.04  -0.11  0.06
-1953   0.25  0.50  0.48  0.56  0.77  0.74  0.63    0.68   0.59   0.78   0.52  0.56
-1954   0.41  0.35  0.01 -0.27 -0.48 -0.48 -0.67   -0.83  -0.73  -0.52  -0.40 -0.44
-1955  -0.50 -0.48 -0.58 -0.76 -0.78 -0.88 -0.72   -0.92  -1.11  -1.44  -1.59 -1.51
-1956  -1.17 -0.81 -0.57 -0.51 -0.49 -0.47 -0.55   -0.52  -0.43  -0.39  -0.37 -0.39
-
-```
-
-## https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt: HTTP 200
-```
- SEAS  YR   TOTAL   ANOM
-  DJF 1950  25.01  -1.32
-  JFM 1950  25.36  -1.20
-  FMA 1950  25.88  -1.12
-  MAM 1950  26.24  -1.08
-  AMJ 1950  26.35  -1.10
-  MJJ 1950  26.32  -0.90
-  JJA 1950  26.24  -0.62
-  JAS 1950  25.94  -0.57
-  ASO 1950  25.76  -0.56
-  SON 1950  25.60  -0.62
-  OND 1950  25.55  -0.66
-  NDJ 1950  25.41  -0.79
-  DJF 1951  25.67  -0.66
-  JFM 1951  26.20  -0.36
-  FMA 1951  26.96  -0.04
-  MAM 1951  27.48   0.16
-  AMJ 1951  27.72   0.27
-  MJJ 1951  27.72   0.50
-  JJA 1951  27.57   0.71
-  JAS 1951  27.41   0.90
-  ASO 1951  27.34   1.02
-  SON 1951  27.25   1.03
-  OND 1951  27.18   0.96
-
-```
-
-## https://api.worldbank.org/v2/country/ARG/indicator/NY.GDP.PCAP.PP.KD?format=json&per_page=3: HTTP 200
-```
-[{"page":1,"pages":22,"per_page":3,"total":66,"sourceid":"2","lastupdated":"2026-10-08"},[{"indicator":{"id":"NY.GDP.PCAP.PP.KD","value":"GDP per capita, PPP (constant 2021 international $)"},"country":{"id":"AR","value":"Argentina"},"countryiso3code":"ARG","date":"2025","value":27846.5984597239,"unit":"","obs_status":"","decimal":0},{"indicator":{"id":"NY.GDP.PCAP.PP.KD","value":"GDP per capita, PPP (constant 2021 international $)"},"country":{"id":"AR","value":"Argentina"},"countryiso3code":"ARG","date":"2024","value":26771.9657650571,"unit":"","obs_status":"","decimal":0},{"indicator":{"id"
-```
-
-## https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/ARG: HTTP 403
-```
-<HTML><HEAD>
-<TITLE>Access Denied</TITLE>
-</HEAD><BODY>
-<H1>Access Denied</H1>
- 
-You don't have permission to access "http&#58;&#47;&#47;www&#46;imf&#46;org&#47;external&#47;datamapper&#47;api&#47;v1&#47;GGXWDG&#95;NGDP&#47;ARG" on this server.<P>
-Reference&#32;&#35;18&#46;cdd2f17&#46;1794004378&#46;21d92929
-<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;cdd2f17&#46;1794004378&#46;21d92929</P>
-</BODY>
-</HTML>
-
-```
-
-## https://fred.stlouisfed.org/graph/fredgraph.csv?id=PSOYBUSDM: error HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=120)
+- **1** Auditoría General de la Nación | 2001-2026 | 27 / 848 / 75253
+- **101** Fundación Miguel Lillo / Fundación Miguel Lillio | 2006-2026 | 0 / 126 / 9090
+- **102** COMITE FEDERAL DE RADIODIFUSION / Comité Federal de Radiodifusión | 2001-2010 | 15 / 0 / 0
+- **103** Consejo Nacional de Investigaciones Científicas y Técnicas | 2001-2026 | 159 / 6339 / 601733
+- **104** INSTITUTO NACIONAL DE ADMINISTRACION PUBLICA | 2001-2002 | 3 / 0 / 0
+- **105** Comisión Nacional de Energía Atómica | 2001-2026 | 71 / 2935 / 231170
+- **106** Comisión Nacional de Actividades Espaciales | 2001-2026 | 20 / 1833 / 69976
+- **107** Administración de Parques Nacionales | 2001-2026 | 21 / 748 / 85332
+- **108** Instituto Nacional del Agua | 2001-2025 | 12 / 158 / 7571
+- **109** Sindicatura General de la Nación | 2001-2026 | 21 / 398 / 22906
+- **111** CONSEJO NACIONAL DE NINEZ, ADOLESCENCIA Y FAMILIA | 2001-2006 | 58 / 0 / 0
+- **112** Autoridad Regulatoria Nuclear | 2001-2026 | 13 / 250 / 20600
+- **113** Teatro Nacional Cervantes | 2001-2026 | 3 / 142 / 12111
+- **114** INSTITUTO NACIONAL DE ASOCIATIVISMO Y ECONOMIA SOCIAL INAES / Instituto Nacional de Asociativismo y Economía Social | 2001-2026 | 6 / 878 / 16862
+- **115** COMISION NACIONAL DE COMUNICACIONES / Comisión Nacional de Comunicaciones | 2001-2015 | 20 / 747 / 0
+- **116** BIBLIOTECA NACIONAL / Biblioteca Nacional / Biblioteca Nacional 'Doctor Mariano Moreno' | 2001-2026 | 7 / 408 / 27720
+- **117** Instituto Nacional del Teatro | 2001-2026 | 6 / 140 / 5063
+- **118** Instituto Nacional de Asuntos Indígenas | 2002-2025 | 0 / 105 / 5348
+- **119** Instituto Nacional de Promoción Turística | 2006-2026 | 0 / 612 / 12166
+- **120** Agencia de Deporte Nacional | 2019-2019 | 0 / 0 / 0
+- **121** Banco Nacional de Datos Genéticos (BNDG) | 2019-2026 | 0 / 0 / 2125
+- **122** Centro Nacional de Ciberseguridad (CNC) | 2026-2026 | 0 / 0 / 0
+- **173** Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación | 2021-2026 | 0 / 0 / 19557
+- **200** REGISTRO NACIONAL DE LAS PERSONAS / Registro Nacional de las Personas / Registro Nacional de las Personas (RENAPER) | 2001-2026 | 35 / 2413 / 236864
+- **201** Dirección Nacional de Migraciones | 2001-2026 | 22 / 1392 / 153308
+- **202** Inst. Nac. c/la Discriminacion, la Xenofobia y el Racismo / Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo | 2004-2024 | 0 / 113 / 0
+- **203** Agencia Nacional de Seguridad Vial | 2009-2026 | 0 / 433 / 19487
+- **204** Autoridad Federal de Servicios de Comunicación Audiovisual | 2011-2015 | 0 / 569 / 0
+- **205** Agencia de Administración de Bienes del Estado | 2013-2026 | 0 / 157 / 14209
+- **206** Centro Internacional para la Promoción de los Derechos Humanos | 2014-2026 | 0 / 11 / 1132
+- **207** Ente Nacional de Comunicaciones | 2016-2026 | 0 / 0 / 64302
+- **208** Agencia Nacional de Materiales Controlados | 2017-2025 | 0 / 0 / 7426
+- **209** Agencia de Acceso a la Información Pública | 2018-2026 | 0 / 0 / 2186
+- **250** CAJA DE RETIROS JUBILACIONES Y PENS. DE LA POLICIA FEDERAL / Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina | 2001-2026 | 549 / 11609 / 2761886
+- **301** PRESIDENCIA DE LA NACION / Secretaría General de la Presidencia de la Nación | 2001-2026 | 59 / 1189 / 59079
+- **302** SECRETARIA DE INTELIGENCIA DEL ESTADO / SECRETARIA DE INTELIGENCIA / Secretaría de Inteligencia / Agencia Federal de Inteligencia / Secretaría de Inteligencia de Estado | 2001-2026 | 139 / 1272 / 105197
+- **303** SEC. PREVENCION Y LUCHA C ONTRA EL NARCOTRAFICO / SEC.P/LA PROG. DE LA PREV. DE LA DROGADICCION Y LUCHA C/NARC / SEC. PREVENCION Y LUCHA CONTRA EL NARCOTRAFICO / Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico / Secretaría de Políticas Integrales sobre | 2001-2026 | 8 / 494 / 66202
+- **304** SERVICIO OFICIAL DE RADIODIFUSION | 2001-2002 | 16 / 0 / 0
+- **305** DIRECCION GRAL.DE ADMINISTRACION .JEFATURA DE GABINETE / Dirección General de Administración - Jefatura de Gabinete / Jefatura de Gabinete de Ministros / Vicejefatura de Gabinete Ejecutiva | 2001-2026 | 47 / 8259 / 45979
+- **307** MINISTERIO DE RELACIONES EXTERIORES, COMERCIO INTERN Y CULTO / Ministerio de Relaciones Exteriores, Comercio Intern y Culto / Ministerio de Relaciones Exteriores y Culto / Ministerio de Relaciones Exteriores, Comercio Internacional y Culto | 2001-2026 | 231 / 4979 / 586920
+- **310** Ministerio de Salud / MINISTERIO DE SALUD Y AMBIENTE / Secretaría de Gobierno de Salud | 2001-2026 | 279 / 24031 / 1374527
+- **311** MINISTERIO DE DESARROLLO SOCIAL Y MEDIO AMBIENTE / MINISTERIO DE DESARROLLO SOCIAL / Ministerio de Desarrollo Social / Ministerio de Salud y Desarrollo Social / Secretaría Nacional de Niñez, Adolescencia y Familia | 2001-2026 | 1122 / 80775 / 2646377
+- **312** SENADO DE LA NACION / Senado de la Nación / Honorable Senado de la Nación Argentina | 2001-2026 | 127 / 4031 / 190984
+- **313** CAMARA DE DIPUTADOS / Cámara de Diputados / Honorable Cámara de Diputados de la Nación Argentina | 2001-2026 | 210 / 3631 / 216495
+- **314** BIBLIOTECA DEL CONGRESO / Biblioteca del Congreso / Biblioteca del Congreso de la Nación | 2001-2026 | 29 / 973 / 49510
+- **315** IMPRENTA DEL CONGRESO / Imprenta del Congreso / Imprenta del Congreso de la Nación | 2001-2026 | 14 / 312 / 13492
+- **316** AYUDA SOCIAL  PERSONAL DEL CONGRESO DE LA NACION / Ayuda Social Personal del Congreso de la Nación / Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS) | 2001-2026 | 16 / 596 / 73183
+- **317** SECRETARIA DE AMBIENTE Y DESARROLLO SUSTENTABLE / SECRETARIA DE RECURSOS NATURALES Y DESARROLLO SUSTENTABLE / Secretaría de Ambiente y Desarrollo Sustentable / Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios) / Secretaría Gobierno de Ambiente y Desarrollo Sustentable / Ministerio de  | 2007-2025 | 0 / 1263 / 40886
+- **318** SECRETARIA DE SEGURIDAD INTERIOR | 2002-2009 | 0 / 0 / 0
+- **319** DEFENSORIA DEL PUEBLO / Defensoría del Pueblo / Defensoría del Pueblo de la Nación | 2001-2026 | 10 / 241 / 12819
+- **320** Consejo de la Magistratura | 2001-2026 | 548 / 13541 / 1668896
+- **321** INSTITUTO  NACIONAL DE ESTADISTICA Y CENSOS / Instituto Nacional de Estadística y Censos / Instituto Nacional de Estadística y Censos (INDEC) | 2001-2026 | 80 / 582 / 38337
+- **322** SECRETARIA DE TURISMO / SECRETARIA DE TURISMO Y DEPORTE / Secretaría de Turismo / Ministerio de Turismo / Secretaría de Gobierno de Turismo / Ministerio de Turismo y Deportes / Turismo y Deportes / Secretaría de Turismo y Ambiente | 2001-2026 | 32 / 961 / 50906
+- **323** COMISION NACIONAL DE COMERCIO EXTERIOR / Comisión Nacional de Comercio Exterior / Comisión Nacional de Comercio Exterior (CNCE) | 2001-2024 | 3 / 29 / 0
+- **325** MINISTERIO DEL INTERIOR (GASTOS PROPIOS) / Ministerio del Interior (Gastos Propios) / Ministerio del Interior y Transporte (Gastos Propios) / Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios) / Ministerio del Interior / Vicejefatura de Gabinete del Interior | 2001-2026 | 181 / 41960 / 624042
+- **326** POLICIA FEDERAL ARGENTINA / Policía Federal Argentina / Policía Federal Argentina (PFA) | 2001-2026 | 704 / 19912 / 899709
+- **327** Ministerio de Transporte (Gastos Propios) / Ministerio de Transporte / Secretaría de Transporte | 2016-2024 | 0 / 0 / 0
+- **328** Ministerio de Energía y Minería (Gastos Propios) / Ministerio de Energía (Gastos Propios) / Secretaría de Gobierno de Energía / Secretaría de Energía | 2016-2024 | 0 / 0 / 0
+- **329** Ministerio de Comunicaciones (Gastos Propios) | 2016-2017 | 0 / 0 / 0
+- **330** MINISTERIO DE EDUCACION / MINISTERIO DE EDUCACION, CIENCIA Y TECNOLOGIA / Ministerio de Educación / Ministerio de Educación y Deportes / Ministerio de Educación, Cultura,  Ciencia y Tecnología / Secretaría de Educación | 2001-2026 | 2645 / 70042 / 5732849
+- **331** Servicio Penitenciario Federal | 2001-2026 | 219 / 7904 / 493357
+- **332** MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS (GASTOS PROPIOS) / MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS / Ministerio de Justicia y Derechos Humanos / MINISTERIO DE JUSTICIA, SEGURIDAD Y DERECHOS HUMANOS / Ministerio de Justicia y Derechos Humanos (Gastos Propios) / Ministerio de Justicia | 2001-2026 | 60 / 3645 / 156077
+- **334** ENTE DE COOPERACION TEC. Y FINANCIERA DEL SERV. PENITEN. FED / Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal | 2001-2026 | 5 / 635 / 22863
+- **335** Corte Suprema de Justicia de la Nación | 2001-2026 | 87 / 2117 / 242430
+- **336** SECRETARIA DE CIENCIA, TECNOLOGIA E INNOVACION PRODUCTIVA / SECRETARIA PARA LA TECNOLOGIA, LA CIENCIA Y LA INNOV. PRODUC / MINISTERIO DE CIENCIA, TECNOLOGIA E INNOVACION PRODUCTIVA / Ministerio de Ciencia, Tecnología e Innovación Productiva / Secretaría de Gobierno de Ciencia, Tecnología e Innovació | 2002-2026 | 0 / 2635 / 143367
+- **337** SECRETARIA DE CULTURA Y COMUNICACION / Secretaría de Cultura / SECRETARIA DE CULTURA / Ministerio de Cultura / Secretaría de Gobierno de Cultura | 2001-2026 | 53 / 1980 / 127964
+- **338** Secretaría Legal y Técnica / SLyT | 2008-2026 | 0 / 179 / 11484
+- **340** PROCURACION PENITENCIARIA / Procuración Penitenciaria / Procuración Penitenciaria de la Nación | 2006-2026 | 0 / 168 / 16985
+- **341** Secretaria Nacional de Ni#ez, Adolescencia y Familia / Secretaría Nacional de Niñez, Adolescencia y Familia / Políticas Familiares | 2007-2024 | 0 / 1126 / 0
+- **342** AUTORIDAD CUENCA MATANZA RIACHUELO / Autoridad Cuenca Matanza Riachuelo / SAF de Apoyo a la Autoridad Cuenca Matanza Riachuelo (ACUMAR) / SAF Apoyo - Autoridad Cuenca Matanza Riachuelo (ACUMAR) | 2009-2017 | 0 / 437 / 0
+- **343** Ministerio de Seguridad / Ministerio de Seguridad Nacional | 2011-2026 | 0 / 1685 / 381390
+- **344** Unidad de Información Financiera | 2012-2013 | 0 / 0 / 0
+- **345** Consejo Nacional de Coordinación de Políticas Sociales | 2012-2026 | 0 / 217 / 5144
+- **346** Defensoría del Público de Servicios de Comunicación Audiovisual | 2013-2026 | 0 / 63 / 4001
+- **347** Sistema Federal de Medios y Contenidos Públicos / Secretaría de Gobierno del Sistema Federal de Medios y Contenidos Públicos / Secretaría de Medios y Comunicación Pública | 2016-2023 | 0 / 0 / 0
+- **349** Procuración del Tesoro de la Nación | 2019-2026 | 0 / 0 / 8162
+- **350** MINISTERIO DE TRABAJO, EMPLEO Y FORMACION DE RECURSOS HUMAN. / MINISTERIO DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL / Ministerio de Trabajo, Empleo y Seguridad Social / Secretaría de Gobierno de Trabajo y  Empleo / Secretaría  de Trabajo, Empleo y Seguridad Social / Secretaría de Trabajo, Empleo y Segur | 2001-2026 | 218 / 6084 / 1088781
+- **351** Secretaría de Obras Públicas / MINISTERIO DE PLANIFIC. FED., INVERSION PUBLICA Y SERVICOS | 2002-2004 | 0 / 0 / 0
+- **354** MINISTERIO DE LA PRODUCCION / MINISTERIO DE PLAN FED., INVERSION PUB., Y SERVICIOS / MINISTERIO DE PLANIFICACION FED., INVERSION PUBLICA Y SERVIC / Ministerio de Planificación Federal, Inversión Pública y Servicios | 2002-2015 | 0 / 153586 / 0
+- **355** Servicio de la Deuda Pública | 2001-2026 | 11659 / 109438 / 10352094
+- **356** Obligaciones a Cargo del Tesoro | 2001-2026 | 2291 / 117331 / 6124229
+- **357** Ministerio de Economía / MINISTERIO DE ECONOMIA Y PRODUCCION / MINISTERIO DE ECONOMIA Y FINANZAS PUBLICAS / Ministerio de Economía y Finanzas Públicas / Ministerio de Hacienda y Finanzas Públicas / Ministerio de Hacienda | 2001-2026 | 529 / 19228 / 4487792
+- **358** MINISTERIO DE INFRAESTRUCTURA Y VIVIENDA | 2001-2002 | 936 / 0 / 0
+- **359** ORGANISMO NACIONAL DE ADMINISTRACION DE BIENES / Organismo Nacional de Administración de Bienes | 2001-2012 | 14 / 0 / 0
+- **360** Procuración General de la Nación | 2001-2026 | 98 / 3497 / 509449
+- **361** Defensoría General de la Nación | 2001-2026 | 46 / 1937 / 278436
+- **362** MINISTERIO DE PRODUCCION / Ministerio de Industria y Turismo / Ministerio de Industria / Ministerio de Producción / Ministerio de Producción y Trabajo / Ministerio de Desarrollo Productivo / Secretaría de Industria y Desarrollo Productivo | 2009-2026 | 0 / 1200 / 162617
+- **363** Ministerio de Agricultura, Ganadería y Pesca / Ministerio de Agroindustria / Secretaría de Gobierno de Agroindustria / Secretaría de Agricultura, Ganadería y Pesca | 2010-2024 | 0 / 5136 / 0
+- **364** Ministerio de Obras Públicas / Secretaría de Obras Públicas | 2020-2024 | 0 / 0 / 0
+- **365** Ministerio de Desarrollo Territorial y Hábitat / Secretaría de Desarrollo Territorial, Hábitat y Vivienda | 2020-2024 | 0 / 0 / 0
+- **366** Ministerio de Modernización / Secretaría de Gobierno de Modernización / Secretaría de Innovación Pública | 2016-2022 | 0 / 0 / 0
+- **367** Ministerio de Finanzas | 2018-2018 | 0 / 0 / 0
+- **368** Secretaría de Comunicación y Prensa / Secretaría de Comunicación y Medios | 2020-2026 | 0 / 0 / 7413
+- **369** Oficina de Presupuesto del Congreso | 2021-2026 | 0 / 0 / 1370
+- **370** Ministerio de Defensa (Gastos Propios) / Ministerio de Defensa | 2001-2026 | 82 / 1552 / 62473
+- **371** ESTADO MAYOR CONJUNTO F.F.A.A. / Estado Mayor Conjunto de las Fuerzas Armadas / Estado Mayor Conjunto de las Fuerzas Armadas (EMCO) | 2001-2026 | 24 / 1096 / 40918
+- **372** INSTITUTO  INVESTIGACIONES CIENTIFICAS Y TECNICAS F.F.A.A / Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas / Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF) | 2001-2026 | 12 / 207 / 11740
+- **374** ESTADO MAYOR GENERAL DEL EJERCITO / Estado Mayor General del Ejercito / Estado Mayor General del Ejército Argentino / Estado Mayor General del Ejército Argentino (EMGE) | 2001-2026 | 1003 / 18232 / 1604965
+- **375** GENDARMERIA NACIONAL / Gendarmería Nacional / Gendarmería Nacional Argentina (GNA) | 2001-2026 | 525 / 18280 / 1288995
+- **376** Dirección General del Servicio Logístico de la Defensa / Subsecreataría del Servicio Logístico de la Defensa / Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa | 2011-2026 | 0 / 32 / 2856
+- **377** Infraestructura Económica y Social | 2024-2026 | 0 / 0 / 1328690
+- **379** ESTADO MAYOR GENERAL DE LA ARMADA / Estado Mayor General de la Armada / Estado Mayor General de la Armada Argentina / Estado Mayor General de la Armada Argentina (EMGA) | 2001-2026 | 580 / 9703 / 774745
+- **380** PREFECTURA NAVAL ARGENTINA / Prefectura Naval Argentina / Prefectura Naval Argentina (PNA) | 2001-2026 | 377 / 10660 / 683000
+- **381** ESTADO MAYOR GENERAL DE LA FUERZA AEREA / Estado Mayor General de la Fuerza Aérea / Estado Mayor General de la Fuerza Aérea Argentina / Estado Mayor General de la Fuerza Aérea Argentina (EMGFA) | 2001-2026 | 621 / 8659 / 644190
+- **382** Policía de Seguridad Aeroportuaria / Policía de Seguridad Aeroportuaria (PSA) | 2007-2026 | 0 / 1821 / 180135
+- **385** Defensoría de los Derechos de las Niñas, Niños y Adolescentes | 2021-2026 | 0 / 0 / 8406
+- **386** Ministerio de las Mujeres, Géneros y Diversidad | 2020-2023 | 0 / 0 / 0
+- **387** Comité Nacional para la Prevención de la Tortura (CNPT) | 2023-2026 | 0 / 0 / 5167
+- **388** Ministerio de Capital Humano | 2024-2026 | 0 / 0 / 10514
+- **389** Ministerio de Desregulación y Transformación del Estado | 2025-2026 | 0 / 0 / 9379
+- **450** INSTITUTO GEOGRAFICO MILITAR / Instituto Geográfico Nacional | 2001-2026 | 13 / 103 / 7266
+- **451** DIRECCION GRAL. DE FABRICACIONES MILITARES / Dirección General de Fabricaciones Militares | 2001-2019 | 28 / 2135 / 0
+- **452** Servicio Meteorológico Nacional | 2008-2026 | 0 / 254 / 27223
+- **470** INSTITUTO  AYUDA FINANCIERA PAGO DE RET. PENS. MILITARES / Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares | 2001-2026 | 1094 / 14393 / 1977733
+- **601** Agencia Nacional de Desarrollo de Inversiones / AGENCIA NACIONAL DE DESARROLLO DE INVERSIONES | 2007-2010 | 0 / 0 / 0
+- **602** Comisión Nacional de Valores | 2001-2026 | 6 / 146 / 17420
+- **603** Superintendencia de Seguros de la Nación | 2001-2026 | 10 / 324 / 33458
+- **604** Dirección Nacional de Vialidad | 2001-2026 | 290 / 23299 / 590610
+- **606** INSTITUTO NAC. DE TECNOLOGIA AGROPECUARIA / Instituto Nacional de Tecnología Agropecuaria | 2001-2026 | 92 / 3668 / 229657
+- **607** INST. NAC. DE INVEST. Y DESARROLLO PESQUERO / Instituto Nacional de Investigación y Desarrollo Pesquero | 2001-2026 | 8 / 160 / 21987
+- **608** Instituto Nacional de Tecnología Industrial | 2001-2026 | 23 / 1147 / 80505
+- **609** Instituto Nacional de Vitivinicultura | 2001-2026 | 13 / 266 / 17163
+- **611** OFICINA NACIONAL DE CONTROL COMERCIAL AGROPECUARIO / Oficina Nacional de Control Comercial Agropecuario | 2006-2011 | 0 / 0 / 0
+- **612** Tribunal de Tasaciones de la Nación | 2001-2026 | 2 / 32 / 3303
+- **613** Ente Nacional de Obras Hídricas de Saneamiento | 2001-2024 | 28 / 3995 / 0
+- **614** Instituto Nacional de Semillas | 2001-2026 | 0 / 113 / 13579
+- **620** Tribunal Fiscal de la Nación | 2001-2026 | 6 / 107 / 13565
+- **622** INSTITUTO NACIONAL DE LA PROPIEDAD INDUSTRIAL (INPI) / Instituto Nacional de la Propiedad Industrial | 2001-2026 | 8 / 183 / 14303
+- **623** Servicio Nacional de Sanidad y Calidad Agroalimentaria | 2001-2026 | 130 / 2999 / 198337
+- **624** Servicio Geológico Minero Argentino | 2001-2026 | 11 / 202 / 12815
+- **625** ADMINISTRACION FEDERAL DE INGRESOS PUBLICOS | 2001-2002 | 856 / 0 / 0
+- **651** Ente Nacional Regulador del Gas | 2001-2025 | 12 / 420 / 57667
+- **652** Ente Nacional Regulador de la Electricidad | 2001-2025 | 13 / 249 / 18593
+- **656** Organismo Regulador de Seguridad de Presas | 2001-2026 | 2 / 72 / 2826
+- **659** ORGANO DE CONTROL DE LAS CONCESIONES VIALES | 2001-2009 | 10 / 0 / 0
+- **661** Comisión Nacional de Regulación del Transporte | 2001-2026 | 9 / 441 / 42881
+- **664** Organismo Regulador del Sistema Nacional de Aeropuertos | 2001-2026 | 11 / 231 / 8850
+- **669** Administración Nacional de Aviación Civil | 2009-2026 | 0 / 2151 / 68409
+- **670** Unidad de Información Financiera / Unidad de Información Finaciera | 2013-2026 | 0 / 98 / 10460
+- **671** Junta de Investigación de Accidentes de Aviación Civil / Junta de Seguridad en el Transporte | 2015-2026 | 0 / 14 / 10624
+- **672** Ente Nacional de Control y Gestión de la Vía Navegable | 2023-2024 | 0 / 0 / 0
+- **673** Agencia Nacional de Puertos y Navegación | 2025-2026 | 0 / 0 / 6330
+- **674** Ente Nacional Regulador del Gas y la Electricidad | 2026-2026 | 0 / 0 / 0
+- **801** INST. NAC. DE CINE Y ARTES AUDIOVISUALES | 2001-2002 | 33 / 0 / 0
+- **802** Fondo Nacional de las Artes | 2001-2026 | 5 / 51 / 3602
+- **804** Comisión Nacional de Evaluación y Acreditación Universitaria | 2001-2026 | 3 / 79 / 6639
+- **850** ADMINISTRACION NACIONAL DE LA SEG. SOCIAL / Administración Nacional de la Seguridad Social | 2001-2026 | 18004 / 540874 / 64268030
+- **852** Superintendencia de Riesgos del Trabajo | 2001-2026 | 9 / 265 / 14001
+- **881** Registro Nacional de Trabajadores y Empleadores Agrarios (RENATEA) | 2015-2016 | 0 / 604 / 0
+- **902** CENTRO NACIONAL DE REEDUCACION SOCIAL / Centro Nacional de Reeducación Social / Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte' | 2001-2025 | 4 / 150 / 17907
+- **903** Hospital Nacional Dr. Baldomero Sommer | 2001-2025 | 13 / 433 / 37581
+- **904** ADM.NAC.DE MEDICAMENTOS, ALIMENTOS Y TECNOLOGIA MEDICA / Administración Nacional de Medicamentos, Alimentos y Tecnología Médica | 2001-2026 | 16 / 517 / 47665
+- **905** INST.NAC.CENTRAL UNICO COORDINADOR DE ABLACION E IMPLANTE / Instituto Nacional Central Único Coordinador de Ablación e Implante | 2001-2026 | 4 / 135 / 39894
+- **906** ADM. NAC. DE LAB. E INST. DE SALUD DR. CARLOS G. MALBRAN / Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán | 2001-2026 | 18 / 434 / 48446
+- **908** HOSPITAL NACIONAL DR. ALEJANDRO POSADAS / Hospital Nacional Dr. Alejandro Posadas / Hospital Nacional Profesor Alejandro Posadas | 2007-2025 | 0 / 1857 / 206927
+- **909** COLONIA NACIONAL MANUEL MONTES DE OCA / Colonia Nacional Dr. Manuel A. Montes de Oca / Hospital Nacional y Comunidad 'Dr. Ramón Carrillo' | 2001-2025 | 15 / 375 / 36738
+- **910** INSTITUTO NACIONAL DE REHABILITACION PSICOFISICA DEL SUR / INST. NAC. DE REHAB. PSICOF. DEL SUR DR. JUAN OTIMIO TESONE / Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone | 2001-2025 | 6 / 142 / 13970
+- **912** SERV. NAC. DE REHABILIT. Y PROMOC. DE LA PERS. CON DISCAP. / SERVICIO NACIONAL DE REHABILITACION / Servicio Nacional de Rehabilitación | 2001-2018 | 6 / 180 / 0
+- **913** ADMINISTRACION DE PROGRAMAS ESPECIALES / Administración de Programas Especiales | 2001-2012 | 78 / 0 / 0
+- **914** Superintendencia de Servicios de Salud | 2001-2026 | 12 / 5459 / 100657
+- **915** Instituto Nacional del Cáncer (INC) | 2018-2025 | 0 / 0 / 2907
+- **916** Agencia Nacional de Laboratorios Públicos (ANLAP) | 2017-2023 | 0 / 0 / 0
+- **917** Agencia Nacional de Discapacidad | 2018-2025 | 0 / 0 / 4940076
+- **918** Instituto Nacional de las Mujeres (INAM) | 2018-2019 | 0 / 0 / 0
+- **919** Administración Nacional de Establecimientos de Salud | 2026-2026 | 0 / 0 / 0
