@@ -759,6 +759,8 @@ series:
   mortalidad_fetal:    {fuente: datosgobar, id: "tmf_arg"}
   cabotaje_1993:       {fuente: datosgobar, id: "35.3_CNPSAC_1993_M_53", cerrada: true}
   cabotaje_pasajeros:  {fuente: datosgobar, id: "302.3_TRANSP_PASSAJ_0_S_54"}
+  poblacion_arg:       {fuente: worldbank, id: "SP.POP.TOTL", pais: ARG}
+  fecundidad_arg:      {fuente: worldbank, id: "SP.DYN.TFRT.IN", pais: ARG}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

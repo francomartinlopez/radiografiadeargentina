@@ -306,6 +306,16 @@ calculos:
     operacion: empalme
     tramos: [{serie: cabotaje_1993, hasta: "2012-01"}, {serie: cabotaje_pasajeros}]
 
+  pib_real_anual:
+    operacion: suma_anual
+    a: pib_real
+    media: true
+  pib_pc_pesos:
+    operacion: cociente
+    a: pib_real_anual
+    b: poblacion_arg
+    factor: 1000000
+
 graficos:
   - id: inflacion_minorista
     tema: 2
@@ -3368,3 +3378,40 @@ graficos:
     fuentes:
       - {nombre: "INDEC, Estadísticas de servicios públicos (ANAC)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-3-45", nivel: primaria}
     metodo: "Se encadenan la serie de pasajes de cabotaje (1993 a enero de 2012) y la de pasajeros transportados (desde 2012), en miles de pasajeros. Los pasajes de micros de larga distancia (CNRT) no tienen serie mensual publicada desde 2001: quedan para el lote 5. Reúne las fichas p286, p287 y p288."
+
+  - id: pib_per_capita_pesos
+    tema: 1
+    titulo: "PIB por habitante en pesos constantes"
+    que_muestra: "Producción anual de la economía dividida por la población, a precios de 2004."
+    original: {ficha: p3, imagen: 1063}
+    tipo: lineas
+    frecuencia: A
+    desde: "2004"
+    unidad: "pesos de 2004 por habitante"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: pib_pc_pesos, nombre: "PIB por habitante"}
+    fuentes:
+      - {nombre: "INDEC, PIB a precios de 2004 (oferta y demanda globales)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-47", nivel: primaria}
+      - {nombre: "ONU, población (vía Banco Mundial)", url: "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=AR", nivel: secundaria, nota: "Estimación de población a mitad de año"}
+    metodo: "PIB real del año (promedio de los cuatro trimestres, que el INDEC publica a tasa anual) dividido por la población. Empieza en 2004, cuando arranca la serie de PIB trimestral base 2004; para años anteriores y comparación con otros países ver PIB por habitante desde 1850. El último año aparece cuando el INDEC publica el cuarto trimestre."
+
+  - id: fecundidad
+    tema: 12
+    titulo: "Hijos por mujer"
+    que_muestra: "Tasa global de fecundidad: cantidad de hijos que tendría una mujer a lo largo de su vida con la fecundidad de cada año."
+    original: {ficha: p315, imagen: 1081}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "hijos por mujer"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: fecundidad_arg, nombre: "Hijos por mujer"}
+    fuentes:
+      - {nombre: "ONU (con estadísticas vitales de la DEIS), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SP.DYN.TFRT.IN?locations=AR", nivel: secundaria}
+    metodo: "Estimación anual de la ONU a partir de los nacimientos registrados por el Ministerio de Salud. Por debajo de 2,1 la población no se reemplaza sola. Ver también Tasa de natalidad."

@@ -267,6 +267,12 @@ def calculos_propios(catalogo: dict, mensuales: dict) -> tuple[dict, list[str]]:
                 anual = x.resample("YS").agg(["mean", "count"])
                 anual = anual[anual["count"] >= 12]["mean"]
                 mensuales[nombre] = (anual.pct_change() * 100).dropna()
+            elif op == "suma_anual":  # suma de cada año calendario completo (flujos mensuales o trimestrales)
+                x = mensuales[c["a"]].sort_index().dropna()
+                trimestral = len(x) > 2 and x.index.to_series().diff().dt.days.median() > 60
+                anual = x.resample("YS").agg(["sum", "mean", "count"])
+                # media: true para series que ya vienen anualizadas (PIB trimestral del INDEC)
+                mensuales[nombre] = anual[anual["count"] >= (4 if trimestral else 12)]["mean" if c.get("media") else "sum"]
             elif op == "escala":
                 mensuales[nombre] = mensuales[c["a"]] * c["factor"]
             else:
