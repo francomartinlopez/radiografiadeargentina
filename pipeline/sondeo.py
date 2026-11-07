@@ -26,14 +26,15 @@ CANDIDATOS = [
     "nobel-laureates-per-capita", "nobel-prizes-by-country", "gdp-per-capita-maddison-project-database",
     "real-wages-in-manufacturing", "average-years-of-schooling",
 ]
-CANDIDATOS_AHORA: list[str] = []
+CANDIDATOS_AHORA = ["death-rate-by-cause-who-mdb", "cardiovascular-disease-death-rates", "death-rate-from-cardiovascular-diseases-who-mdb"]
 URLS_EXTRA = [
     "https://psl.noaa.gov/data/correlation/oni.data",
     "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
     "https://api.worldbank.org/v2/country/ARG/indicator/NY.GDP.PCAP.PP.KD?format=json&per_page=3",
     "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/ARG",
-    "https://api.worldbank.org/v2/country/ARG/indicator/SH.IMM.IDPT?format=json&per_page=5",
-    "https://api.worldbank.org/v2/country/ARG/indicator/SH.IMM.MEAS?format=json&per_page=5",
+    "https://api.worldbank.org/v2/country/ARG/indicator/SH.DYN.0509?format=json&per_page=4",
+    "https://api.worldbank.org/v2/country/ARG/indicator/SH.DYN.1014?format=json&per_page=4",
+    "https://api.worldbank.org/v2/country/ARG/indicator/SH.DYN.1519?format=json&per_page=4",
 ]
 
 
@@ -102,7 +103,6 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
-    lineas += sondear_deis()
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 
