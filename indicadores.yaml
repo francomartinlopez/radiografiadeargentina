@@ -823,6 +823,9 @@ series:
   wb_sl_emp_vuln_zs_usa: {fuente: worldbank, id: "SL.EMP.VULN.ZS", pais: USA}
   activos_ext_privados_anual: {fuente: datosgobar, id: "144.3_AVOSOTUAL_0_A_54"}
   activos_ext_privados_trim: {fuente: datosgobar, id: "144.4_AVOSOTUAL_0_T_54"}
+  dex_soja:            {fuente: manual, id: dex_soja, escalonada: true}
+  dex_maiz:            {fuente: manual, id: dex_maiz, escalonada: true}
+  dex_trigo:           {fuente: manual, id: dex_trigo, escalonada: true}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

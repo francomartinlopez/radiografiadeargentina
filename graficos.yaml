@@ -3887,3 +3887,28 @@ graficos:
     fuentes:
       - {nombre: "CEIL-CONICET, Primera (2008) y Segunda (2019) Encuesta Nacional sobre Creencias y Actitudes Religiosas", url: "https://www.conicet.gov.ar/wp-content/uploads/Infografía-Encuesta-Religión-1.pdf", nivel: secundaria, nota: "Encuestas académicas nacionales de unos 2.400 casos"}
     metodo: "Encuestas por muestreo a mayores de 18 años. 'Otras o no sabe' es el resto hasta 100 (testigos de Jehová, mormones, otras religiones y quienes no responden). El original interpolaba entre ambos años y proyectaba hasta 2026; acá se muestran solo los dos datos medidos. Reúne las fichas p324 y p325."
+
+  # ---------- Paso 9 (lote 3, carga manual) ----------
+
+  - id: alicuotas_retenciones
+    tema: 3
+    titulo: "Retenciones al agro: alícuotas de soja, maíz y trigo"
+    que_muestra: "Porcentaje del precio de exportación que se paga como derecho de exportación, según la norma vigente en cada mes."
+    original: {ficha: p47, imagen: 1098}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-12"
+    unidad: "% del valor FOB"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: dex_soja, nombre: "Soja (poroto)"}
+      - {serie: dex_trigo, nombre: "Trigo"}
+      - {serie: dex_maiz, nombre: "Maíz"}
+    fuentes:
+      - {nombre: "Decretos y resoluciones del Ministerio de Economía (cronología de la Bolsa de Comercio de Rosario, Agrofy y otras fuentes citadas por dato)", url: "https://www.bcr.com.ar/sites/default/files/2025-11/iaca_evolucion_historica.pdf", nivel: secundaria, nota: "Cada cambio tiene su fuente en data/manual/dex_*.csv"}
+    metodo: "Alícuota vigente al cierre de cada mes, cargada a mano a partir de las normas. Cuando una medida rigió solo unos días (por ejemplo, el 0% de septiembre de 2025, que terminó al llegar a 7.000 millones de dólares) no se ve en el dato mensual. ⚠ Dos tramos son estimaciones: entre marzo y julio de 2008 (Resolución 125) las retenciones eran móviles según el precio y se grafica el máximo que estimó la BCR; entre septiembre de 2018 y noviembre de 2019 el derecho era de 12% con un tope de $4 por dólar exportado (más 18% fijo para la soja), y la alícuota efectiva se calcula con el dólar mayorista de cada mes. El Decreto 423/2026 prevé bajas mensuales para soja y maíz desde enero de 2027 que se cargarán cuando rijan."
+    tramos:
+      - {desde: "2008-03", hasta: "2008-06", tipo: estimado, nota: "Resolución 125: retenciones móviles; se muestra el máximo estimado por la BCR."}
+      - {desde: "2018-09", hasta: "2019-11", tipo: estimado, nota: "12% con tope de $4 por dólar: alícuota efectiva calculada con el dólar mayorista del mes."}
