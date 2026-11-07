@@ -1,0 +1,199 @@
+serie,fecha,valor,tramo
+Argentina,2000-01-01,9.17,observado
+Argentina,2001-01-01,10.33,observado
+Argentina,2002-01-01,10.31,observado
+Argentina,2003-01-01,9.74,observado
+Argentina,2004-01-01,8.75,observado
+Argentina,2005-01-01,8.64,observado
+Argentina,2006-01-01,8.61,observado
+Argentina,2007-01-01,8.31,observado
+Argentina,2008-01-01,8.67,observado
+Argentina,2009-01-01,8.44,observado
+Argentina,2010-01-01,8.54,observado
+Argentina,2011-01-01,8.63,observado
+Argentina,2012-01-01,9.28,observado
+Argentina,2013-01-01,8.81,observado
+Argentina,2014-01-01,9.53,observado
+Argentina,2015-01-01,8.77,observado
+Argentina,2016-01-01,8.41,observado
+Argentina,2017-01-01,9.03,observado
+Argentina,2018-01-01,9.33,observado
+Argentina,2019-01-01,9.28,observado
+Argentina,2020-01-01,8.12,observado
+Argentina,2021-01-01,7.94,observado
+Brasil,2000-01-01,4.23,observado
+Brasil,2001-01-01,4.7,observado
+Brasil,2002-01-01,4.65,observado
+Brasil,2003-01-01,4.65,observado
+Brasil,2004-01-01,4.74,observado
+Brasil,2005-01-01,4.99,observado
+Brasil,2006-01-01,4.97,observado
+Brasil,2007-01-01,5.18,observado
+Brasil,2008-01-01,5.41,observado
+Brasil,2009-01-01,5.42,observado
+Brasil,2010-01-01,5.25,observado
+Brasil,2011-01-01,5.48,observado
+Brasil,2012-01-01,5.64,observado
+Brasil,2013-01-01,5.79,observado
+Brasil,2014-01-01,5.85,observado
+Brasil,2015-01-01,6.11,observado
+Brasil,2016-01-01,6.25,observado
+Brasil,2017-01-01,6.89,observado
+Brasil,2018-01-01,6.68,observado
+Brasil,2019-01-01,6.71,observado
+Brasil,2020-01-01,6.93,observado
+Brasil,2021-01-01,7.59,observado
+Chile,2000-01-01,10.64,observado
+Chile,2001-01-01,10.6,observado
+Chile,2002-01-01,9.84,observado
+Chile,2003-01-01,9.84,observado
+Chile,2004-01-01,10.26,observado
+Chile,2005-01-01,9.76,observado
+Chile,2006-01-01,10.12,observado
+Chile,2007-01-01,11.04,observado
+Chile,2008-01-01,12.3,observado
+Chile,2009-01-01,12.76,observado
+Chile,2010-01-01,11.72,observado
+Chile,2011-01-01,11.79,observado
+Chile,2012-01-01,10.62,observado
+Chile,2013-01-01,9.95,observado
+Chile,2014-01-01,10.13,observado
+Chile,2015-01-01,10.32,observado
+Chile,2016-01-01,10.3,observado
+Chile,2017-01-01,10.06,observado
+Chile,2018-01-01,9.52,observado
+Chile,2019-01-01,9.77,observado
+Chile,2020-01-01,8.26,observado
+Chile,2021-01-01,7.69,observado
+Uruguay,2000-01-01,16.35,observado
+Uruguay,2001-01-01,14.7,observado
+Uruguay,2002-01-01,20.17,observado
+Uruguay,2003-01-01,15.87,observado
+Uruguay,2004-01-01,15.51,observado
+Uruguay,2005-01-01,14.97,observado
+Uruguay,2006-01-01,15.71,observado
+Uruguay,2007-01-01,17.61,observado
+Uruguay,2008-01-01,15.2,observado
+Uruguay,2009-01-01,15.11,observado
+Uruguay,2010-01-01,16.08,observado
+Uruguay,2011-01-01,16.89,observado
+Uruguay,2012-01-01,17.95,observado
+Uruguay,2013-01-01,15.99,observado
+Uruguay,2014-01-01,17.58,observado
+Uruguay,2015-01-01,18.73,observado
+Uruguay,2016-01-01,21.28,observado
+Uruguay,2017-01-01,20.99,observado
+Uruguay,2018-01-01,23.22,observado
+Uruguay,2019-01-01,23.4,observado
+Uruguay,2020-01-01,22.77,observado
+Uruguay,2021-01-01,24.75,observado
+España,2000-01-01,8.55,observado
+España,2001-01-01,8.02,observado
+España,2002-01-01,8.33,observado
+España,2003-01-01,8.47,observado
+España,2004-01-01,8.46,observado
+España,2005-01-01,8.01,observado
+España,2006-01-01,7.52,observado
+España,2007-01-01,7.38,observado
+España,2008-01-01,7.78,observado
+España,2009-01-01,7.64,observado
+España,2010-01-01,7.01,observado
+España,2011-01-01,7.1,observado
+España,2012-01-01,7.74,observado
+España,2013-01-01,8.5,observado
+España,2014-01-01,8.6,observado
+España,2015-01-01,7.97,observado
+España,2016-01-01,7.9,observado
+España,2017-01-01,8.12,observado
+España,2018-01-01,7.79,observado
+España,2019-01-01,8.1,observado
+España,2020-01-01,8.62,observado
+España,2021-01-01,8.72,observado
+Italia,2000-01-01,7.67,observado
+Italia,2001-01-01,7.49,observado
+Italia,2002-01-01,7.57,observado
+Italia,2003-01-01,7.45,observado
+Italia,2004-01-01,7.22,observado
+Italia,2005-01-01,6.76,observado
+Italia,2006-01-01,6.77,observado
+Italia,2007-01-01,6.75,observado
+Italia,2008-01-01,6.99,observado
+Italia,2009-01-01,7.1,observado
+Italia,2010-01-01,7.0,observado
+Italia,2011-01-01,7.46,observado
+Italia,2012-01-01,7.65,observado
+Italia,2013-01-01,7.6,observado
+Italia,2014-01-01,7.3,observado
+Italia,2015-01-01,7.2,observado
+Italia,2016-01-01,6.62,observado
+Italia,2017-01-01,7.06,observado
+Italia,2018-01-01,6.89,observado
+Italia,2019-01-01,6.77,observado
+Italia,2020-01-01,6.77,observado
+Italia,2021-01-01,6.99,observado
+Gran Bretaña,2000-01-01,8.51,observado
+Gran Bretaña,2001-01-01,8.23,observado
+Gran Bretaña,2002-01-01,8.27,observado
+Gran Bretaña,2003-01-01,7.99,observado
+Gran Bretaña,2004-01-01,8.2,observado
+Gran Bretaña,2005-01-01,7.9,observado
+Gran Bretaña,2006-01-01,7.83,observado
+Gran Bretaña,2007-01-01,7.54,observado
+Gran Bretaña,2008-01-01,8.05,observado
+Gran Bretaña,2009-01-01,7.94,observado
+Gran Bretaña,2010-01-01,7.8,observado
+Gran Bretaña,2011-01-01,8.33,observado
+Gran Bretaña,2012-01-01,8.27,observado
+Gran Bretaña,2013-01-01,8.74,observado
+Gran Bretaña,2014-01-01,8.45,observado
+Gran Bretaña,2015-01-01,8.62,observado
+Gran Bretaña,2016-01-01,8.25,observado
+Gran Bretaña,2017-01-01,7.98,observado
+Gran Bretaña,2018-01-01,9.16,observado
+Gran Bretaña,2019-01-01,9.39,observado
+Gran Bretaña,2020-01-01,8.9,observado
+Gran Bretaña,2021-01-01,9.55,observado
+Australia,2000-01-01,12.83,observado
+Australia,2001-01-01,13.04,observado
+Australia,2002-01-01,12.15,observado
+Australia,2003-01-01,11.08,observado
+Australia,2004-01-01,10.79,observado
+Australia,2005-01-01,11.67,observado
+Australia,2006-01-01,11.21,observado
+Australia,2007-01-01,11.5,observado
+Australia,2008-01-01,12.1,observado
+Australia,2009-01-01,11.65,observado
+Australia,2010-01-01,12.13,observado
+Australia,2011-01-01,11.57,observado
+Australia,2012-01-01,12.16,observado
+Australia,2013-01-01,11.92,observado
+Australia,2014-01-01,13.09,observado
+Australia,2015-01-01,13.64,observado
+Australia,2016-01-01,12.5,observado
+Australia,2017-01-01,13.9,observado
+Australia,2018-01-01,13.4,observado
+Australia,2019-01-01,13.98,observado
+Australia,2020-01-01,13.03,observado
+Australia,2021-01-01,13.08,observado
+EE.UU.,2000-01-01,11.17,observado
+EE.UU.,2001-01-01,11.55,observado
+EE.UU.,2002-01-01,11.87,observado
+EE.UU.,2003-01-01,11.76,observado
+EE.UU.,2004-01-01,11.92,observado
+EE.UU.,2005-01-01,11.83,observado
+EE.UU.,2006-01-01,11.96,observado
+EE.UU.,2007-01-01,12.31,observado
+EE.UU.,2008-01-01,12.65,observado
+EE.UU.,2009-01-01,12.82,observado
+EE.UU.,2010-01-01,13.2,observado
+EE.UU.,2011-01-01,13.44,observado
+EE.UU.,2012-01-01,13.67,observado
+EE.UU.,2013-01-01,13.7,observado
+EE.UU.,2014-01-01,14.1,observado
+EE.UU.,2015-01-01,14.42,observado
+EE.UU.,2016-01-01,14.63,observado
+EE.UU.,2017-01-01,15.19,observado
+EE.UU.,2018-01-01,15.44,observado
+EE.UU.,2019-01-01,15.11,observado
+EE.UU.,2020-01-01,14.96,observado
+EE.UU.,2021-01-01,15.63,observado
