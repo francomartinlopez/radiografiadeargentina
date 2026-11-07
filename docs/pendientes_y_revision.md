@@ -1,10 +1,10 @@
 # Radiografía: pendientes, sin fuente y cosas a revisar
 
-Actualizado el 7/11/2026. Inventario: 302 con gráfico, 177 sin fuente, 0 pendientes.
+Actualizado el 7/11/2026. Inventario: 304 con gráfico, 175 sin fuente, 0 pendientes.
 
 ## 1. A revisar o corregir (hechos con datos parciales)
 
-- **Cheques rechazados (p140, p141):** el BCRA publica el % de rechazo sin fondos solo en el Informe Mensual de Pagos Minoristas (PDF) y no está en su API de variables. Datos sueltos encontrados: 1,14% (promedio mar-2019/feb-2020), 6% (mayo 2020), 0,65% (mayo 2021), 0,7% (sep-2022), 2,2% (marzo y abril 2026). Haría falta bajar los ~80 informes mensuales para tener la serie.
+- **Cheques rechazados (p140, p141):** hecho con los informes mensuales del BCRA desde septiembre de 2022 (cheques_rechazados). Faltan jul-dic 2023, abr-2025 y dic-2025 a feb-2026; habría que encontrar esos PDF o actualizarlo a mano cada mes con el informe nuevo.
 - **Encuestas vs. resultados (p387):** hecho para 2011-2023 (encuestas_vs_resultados). Faltan 2003 y 2007, sin recopilación de encuestas.
 - **Cartera de las AFJP 2008 (p448):** las cifras no coinciden entre fuentes (títulos públicos 55% a 60%). Falta un boletín de la SAFJP de septiembre/octubre de 2008 para fijarlas.
 - **Aprender 6° grado (aprender_primaria):** falta el dato nacional de matemática 2021; 2023 tiene dos versiones (51,4 y 51,5).
@@ -78,8 +78,6 @@ Motivo de cada una, por tema. Si conseguís una fuente para alguna, se puede ret
 
 ### Crédito, mora y sistema financiero
 
-- **p140** — Cheques y pagarés rechazados y no pagados: El BCRA publica el rechazo de cheques sin fondos sobre el total compensado solo en el Informe Mensual de Pagos Minoristas (PDF); su nueva web no ofrece la serie descargable. Revisar más adelante.
-- **p141** — Cheques y pagarés rechazados y no pagados pesos abril 2026: Ídem p140.
 - **p142** — Préstamos otorgado a funcionarios públicos banco nación cantidad: Ídem p82.
 - **p143** — Mismo de monto total créditos banco nacion a funcionarios: Paso 8: el original usa datos simulados o ilustrativos y no hay una fuente pública sobre la cual estimar; no se publica.
 - **p148** — Tasas interés préstamos personales uva 24 meses: Paso 8: el original usa datos simulados o ilustrativos y no hay una fuente pública sobre la cual estimar; no se publica.

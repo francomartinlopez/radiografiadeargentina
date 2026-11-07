@@ -5116,3 +5116,23 @@ graficos:
       - {nombre: "Wikipedia, anexos de encuestas de intención de voto para las elecciones presidenciales de 2011, 2015, 2019 y 2023 (recopilan los sondeos publicados en la prensa)", url: "https://es.wikipedia.org/wiki/Anexo:Encuestas_de_intenci%C3%B3n_de_voto_para_las_elecciones_presidenciales_de_Argentina_de_2019", nivel: terciaria}
       - {nombre: "Dirección Nacional Electoral, resultados oficiales", url: "https://www.argentina.gob.ar/dine/resultados-electorales", nivel: primaria}
     metodo: "Primeros dos en cada elección: 2011, Kirchner y Alfonsín (PASO) y Kirchner y Binner (1.ª vuelta); 2015, Scioli y Macri (en el balotaje, Macri primero); 2019, Fernández y Macri; 2023, Milei y Juntos por el Cambio (PASO), Massa y Milei (1.ª vuelta) y Milei y Massa (balotaje). Para cada elección se toman los dos candidatos más votados y se calcula qué parte de la suma de ambos obtuvo el primero (así se descuentan los indecisos y el voto en blanco, que cada encuestadora trata distinto). Un 50% sería empate. Se promedian, sin ponderar, todas las encuestas con trabajo de campo terminado en las dos semanas previas (en los balotajes, las versiones sin indecisos). En las PASO de 2023 se compara a Milei con el total de Juntos por el Cambio (Bullrich más Rodríguez Larreta), que fue la segunda fuerza. Los errores más grandes: PASO de 2011 (las encuestas daban a Kirchner 69% del voto de los dos primeros y sacó 81%), PASO de 2019 (53% contra 59%) y PASO de 2023 (Milei 37% contra 52%). En las generales de 2015 y 2019 el error fue al revés: sobrestimaron al primero. No se incluyen 2003 y 2007 porque no hay recopilaciones de encuestas comparables."
+
+  - id: cheques_rechazados
+    tema: 5
+    titulo: "Cheques rechazados por falta de fondos"
+    que_muestra: "Porcentaje de los cheques compensados que fueron rechazados por falta de fondos, en cantidad de cheques y en monto."
+    original: {ficha: p140, imagen: 1329}
+    tipo: lineas
+    frecuencia: M
+    desde: "2022-09"
+    unidad: "% de lo compensado"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: cheques_rechazo_cantidad, nombre: "En cantidad de cheques"}
+      - {serie: cheques_rechazo_monto, nombre: "En monto"}
+    fuentes:
+      - {nombre: "BCRA, Informe Mensual de Pagos Minoristas (septiembre de 2022 a noviembre de 2025; un enlace por mes en el CSV)", url: "https://www.bcra.gob.ar/informe-de-pagos-minoristas/", nivel: primaria}
+      - {nombre: "Infobae y Mundo Empresarial sobre el mismo informe (marzo y abril de 2026)", url: "https://www.infobae.com/economia/2026/05/01/crecieron-los-cheques-rechazados-por-falta-de-fondos-y-duplican-el-nivel-de-hace-un-ano/", nivel: secundaria}
+    metodo: "Cheques físicos y electrónicos (ECHEQ) rechazados por el motivo sin fondos suficientes, sobre el total compensado en el mes. El BCRA publica el dato solo en el texto de su informe mensual en PDF; se tomó de cada informe disponible. Faltan julio a diciembre de 2023 y abril de 2025 (informes con otro nombre de archivo o no publicados), diciembre de 2025 a febrero de 2026 y los meses posteriores a abril de 2026: en esos tramos la línea se corta. Antes del período: en los 12 meses previos a la pandemia el promedio fue 1,14% en cantidad y en mayo de 2020 llegó a cerca de 6%. El original pedía también los pagarés, que no tienen estadística pública."
