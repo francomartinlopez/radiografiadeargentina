@@ -112,7 +112,8 @@ def resumir_presupuesto() -> list[str]:
     presupuesto.CARPETA = CARPETA / "presupuesto"
     df = presupuesto.tabla()
     df["anio"] = df["fecha"].dt.year
-    lineas = ["# Servicios por año (devengado anual, millones de pesos corrientes)", ""]
+    lineas = ["# Servicios por año (devengado anual, millones de pesos corrientes)", "",
+              "Errores: " + " | ".join(getattr(presupuesto.tabla, "errores", [])), ""]
     for sid, g in df.groupby("servicio_id"):
         anios = g.groupby("anio")["devengado"].sum()
         nombres = " / ".join(dict.fromkeys(g["servicio_desc"].astype(str)))

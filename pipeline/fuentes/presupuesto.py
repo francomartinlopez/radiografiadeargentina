@@ -71,6 +71,7 @@ def tabla() -> pd.DataFrame:
             _actualizar_anio(anio)
         except Exception as e:  # un año que no se pudo bajar no frena al resto
             errores.append(f"{anio}: {e}")
+    tabla.errores = errores
     archivos = sorted(CARPETA.glob("credito_*.csv"))
     if not archivos:
         raise RuntimeError("Sin datos de ejecución presupuestaria: " + "; ".join(errores[:3]))
