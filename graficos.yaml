@@ -4456,17 +4456,16 @@ graficos:
     original: {ficha: p440, imagen: 1404}
     tipo: lineas
     frecuencia: A
-    desde: "2014"
+    desde: "2017"
     unidad: "víctimas por 100.000 mujeres"
     tipo_valor: tasa
     medida_inicial: nivel
     medidas: [nivel, variacion]
-    tramos: [{serie: femicidios_tasa, desde: "2014", hasta: "2016", tipo: estimado, nota: "Antes de 2017 el registro usaba otra metodología: el dato de 2014 no es estrictamente comparable y los de 2015 y 2016 no se publicaron como tasa."}]
     series:
       - {serie: femicidios_tasa, nombre: "Femicidios directos"}
     fuentes:
       - {nombre: "Corte Suprema de Justicia de la Nación, Oficina de la Mujer: Registro Nacional de Femicidios de la Justicia Argentina (informes 2021, 2023 y 2024, citados por la prensa)", url: "https://www.csjn.gov.ar/om/", nivel: secundaria}
-    metodo: "Cuenta víctimas directas de femicidio identificadas en causas judiciales (en 2023 fueron 250; en 2024, una cada 39 horas). No incluye femicidios vinculados (personas asesinadas para dañar a una mujer) ni travesticidios y transfemicidios, que el registro informa aparte. Las cifras de cada año pueden revisarse en informes posteriores. Los homicidios de mujeres y varones en general están en Homicidios por sexo de la víctima."
+    metodo: "Cuenta víctimas directas de femicidio identificadas en causas judiciales (en 2023 fueron 250; en 2024, una cada 39 horas). No incluye femicidios vinculados (personas asesinadas para dañar a una mujer) ni travesticidios y transfemicidios, que el registro informa aparte. Las cifras de cada año pueden revisarse en informes posteriores. La serie empieza en 2017, cuando se consolidó la metodología del registro; con la metodología anterior, la tasa de 2014 fue 1,03. Los homicidios de mujeres y varones en general están en Homicidios por sexo de la víctima."
 
   - id: homicidios_por_sexo
     tema: 20
@@ -4531,3 +4530,17 @@ graficos:
     fuentes:
       - {nombre: "Organización Mundial de la Salud, Global Health Estimates, vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.STA.SUIC.P5", nivel: secundaria}
     metodo: "Estimaciones comparables de la OMS desde 2000, ajustadas por edad. El original arrancaba en 1850: no hay series comparables entre países para el siglo XIX y buena parte del XX, por eso se usa el período que la OMS armoniza. Se agregan Chile y Uruguay como referencia regional. Si estás atravesando un momento difícil podés llamar al 135 (gratis desde CABA y el Gran Buenos Aires) o al (011) 5275-1135 desde todo el país."
+
+  - id: consumo_drogas
+    tema: 15
+    titulo: "Consumo de marihuana y cocaína en el último año"
+    que_muestra: "Porcentaje de la población que declaró haber consumido cada sustancia en los últimos 12 meses, según las encuestas nacionales de la Sedronar."
+    original: {ficha: c1302, imagen: 1302}
+    tipo: barras
+    categorias: drogas_prevalencia
+    unidad: "% de la población encuestada"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "Sedronar, Observatorio Argentino de Drogas: Estudio Nacional en población de 12 a 65 años sobre consumo de sustancias psicoactivas 2017 (comparación con 2010)", url: "https://www.argentina.gob.ar/sites/default/files/2020/10/oad_2017_estudio_nacional_en_poblacion_sobre_consumo_de_sustancias_psicoactivas_magnitud_del_consumo_de_sustancias_2.pdf", nivel: primaria}
+      - {nombre: "INDEC y Sedronar, Encuesta Nacional sobre Consumos y Prácticas de Cuidado 2022 (ENCoPraC)", url: "https://www.argentina.gob.ar/node/394463", nivel: primaria}
+    metodo: "Prevalencia de año: personas que declararon haber consumido al menos una vez en los últimos 12 meses (no mide dependencia ni consumo problemático). 2010 y 2017 son comparables entre sí (ciudades de 80.000 habitantes o más, 12 a 65 años). La encuesta de 2022 cambió la población (16 a 75 años, localidades de 2.000 habitantes o más) y en marihuana incluye el uso con fines terapéuticos, así que no es comparable en forma directa. El consumo de pasta base (paco) da menos de 0,5% en las encuestas de hogares, que captan mal a la población más vulnerable. El original mostraba series mensuales simuladas y un gasto en pesos sin fuente (ficha c1301), que no se publican."
