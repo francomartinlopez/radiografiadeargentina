@@ -1,0 +1,70 @@
+serie,fecha,valor,tramo
+Nación,2001-01-01,18.139313,observado
+Nación,2002-01-01,14.996966,observado
+Nación,2003-01-01,15.509645,observado
+Nación,2004-01-01,13.195808,observado
+Nación,2005-01-01,14.484459,observado
+Nación,2006-01-01,14.453271,observado
+Nación,2007-01-01,16.859889,observado
+Nación,2008-01-01,18.231851,observado
+Nación,2009-01-01,21.607601,observado
+Nación,2010-01-01,21.048131,observado
+Nación,2011-01-01,22.183273,observado
+Nación,2012-01-01,23.222212,observado
+Nación,2013-01-01,24.047356,observado
+Nación,2014-01-01,26.105141,observado
+Nación,2015-01-01,25.92325,observado
+Nación,2016-01-01,27.359067,observado
+Nación,2017-01-01,25.712833,observado
+Nación,2018-01-01,24.373259,observado
+Nación,2019-01-01,24.16899,observado
+Nación,2020-01-01,27.506442,observado
+Nación,2021-01-01,24.312067,observado
+Nación,2022-01-01,23.515022,observado
+Nación,2023-01-01,22.295146,observado
+Provincias (incluye CABA),2001-01-01,14.539708,observado
+Provincias (incluye CABA),2002-01-01,11.7369,observado
+Provincias (incluye CABA),2003-01-01,11.527979,observado
+Provincias (incluye CABA),2004-01-01,11.025019,observado
+Provincias (incluye CABA),2005-01-01,11.978894,observado
+Provincias (incluye CABA),2006-01-01,12.483482,observado
+Provincias (incluye CABA),2007-01-01,12.920894,observado
+Provincias (incluye CABA),2008-01-01,13.466827,observado
+Provincias (incluye CABA),2009-01-01,15.082435,observado
+Provincias (incluye CABA),2010-01-01,14.028818,observado
+Provincias (incluye CABA),2011-01-01,14.735011,observado
+Provincias (incluye CABA),2012-01-01,15.001022,observado
+Provincias (incluye CABA),2013-01-01,15.478179,observado
+Provincias (incluye CABA),2014-01-01,15.5666,observado
+Provincias (incluye CABA),2015-01-01,16.826354,observado
+Provincias (incluye CABA),2016-01-01,16.663211,observado
+Provincias (incluye CABA),2017-01-01,17.137868,observado
+Provincias (incluye CABA),2018-01-01,15.930251,observado
+Provincias (incluye CABA),2019-01-01,15.94778,observado
+Provincias (incluye CABA),2020-01-01,16.490175,observado
+Provincias (incluye CABA),2021-01-01,15.149085,observado
+Provincias (incluye CABA),2022-01-01,15.380297,observado
+Provincias (incluye CABA),2023-01-01,16.131682,observado
+Municipios,2001-01-01,2.918641,observado
+Municipios,2002-01-01,2.373665,observado
+Municipios,2003-01-01,2.411845,observado
+Municipios,2004-01-01,2.379346,observado
+Municipios,2005-01-01,2.593702,observado
+Municipios,2006-01-01,2.708726,observado
+Municipios,2007-01-01,2.703038,observado
+Municipios,2008-01-01,2.613593,observado
+Municipios,2009-01-01,3.17453,observado
+Municipios,2010-01-01,3.193166,observado
+Municipios,2011-01-01,3.088415,observado
+Municipios,2012-01-01,3.055983,observado
+Municipios,2013-01-01,3.330694,observado
+Municipios,2014-01-01,3.321695,observado
+Municipios,2015-01-01,3.549856,observado
+Municipios,2016-01-01,3.285733,observado
+Municipios,2017-01-01,3.397117,observado
+Municipios,2018-01-01,3.286114,observado
+Municipios,2019-01-01,3.346624,observado
+Municipios,2020-01-01,3.356704,observado
+Municipios,2021-01-01,3.347732,observado
+Municipios,2022-01-01,3.36113,observado
+Municipios,2023-01-01,3.439713,observado

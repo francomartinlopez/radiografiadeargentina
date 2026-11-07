@@ -4270,3 +4270,63 @@ graficos:
     fuentes:
       - {nombre: "INDEC y Ministerio de Salud, Encuesta Nacional de Factores de Riesgo 2018 (comparación 2005-2018)", url: "https://www.indec.gob.ar/ftp/cuadros/publicaciones/enfr_2018_resultados_definitivos.pdf", nivel: primaria}
     metodo: "Índice de masa corporal calculado con peso y talla declarados (autorreporte): sobrepeso entre 25 y 30, obesidad 30 o más. El exceso de peso pasó de 49,0% en 2005 a 61,6% en 2018. En 2018 también se midió a los encuestados: con medición, la obesidad dio 32,4% y el exceso de peso 66,1%. La línea une las ediciones de la encuesta."
+
+  - id: pisa_argentina
+    tema: 16
+    titulo: "Resultados de la Argentina en las pruebas PISA"
+    que_muestra: "Puntaje promedio de los alumnos de 15 años en matemática, lectura y ciencias en las pruebas internacionales PISA de la OCDE."
+    original: {ficha: p360, imagen: 1333}
+    tipo: lineas
+    frecuencia: A
+    desde: "2000"
+    unidad: "puntos"
+    tipo_valor: indice
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: pisa_lectura, nombre: "Lectura"}
+      - {serie: pisa_ciencias, nombre: "Ciencias"}
+      - {serie: pisa_matematica, nombre: "Matemática"}
+    fuentes:
+      - {nombre: "OCDE, PISA; síntesis de resultados del Ministerio de Educación (ediciones 2000 a 2022)", url: "https://www.argentina.gob.ar/sites/default/files/2023/12/sintesis_de_resultados_pisa_2022_-_prensa_20231204_fe_de_erratas.pdf", nivel: primaria}
+      - {nombre: "Resultados de PISA 2025 difundidos por la OCDE en septiembre de 2026 (Perfil)", url: "https://www.perfil.com/noticias/educacion/pisa-2025-argentina-obtuvo-sus-peores-resultados-en-matematica.phtml", nivel: secundaria}
+    metodo: "Escala de PISA, con promedio de la OCDE cercano a 500. La línea une las ediciones. Falta 2015: la OCDE anuló los resultados nacionales de la Argentina por problemas de cobertura de la muestra. La OCDE compara matemática y ciencias desde 2006 y lectura desde 2000, por eso empiezan en años distintos. En 2025 la Argentina tuvo su puntaje más bajo en matemática (367)."
+
+  - id: aprender_secundaria
+    tema: 16
+    titulo: "Pruebas Aprender: alumnos del último año de la secundaria con nivel satisfactorio"
+    que_muestra: "Porcentaje de alumnos del último año de la secundaria con desempeño satisfactorio o avanzado en lengua y matemática."
+    original: {ficha: p360, imagen: 1333}
+    tipo: lineas
+    frecuencia: A
+    desde: "2013"
+    unidad: "% de los alumnos evaluados"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: aprender_lengua, nombre: "Lengua"}
+      - {serie: aprender_matematica, nombre: "Matemática"}
+    fuentes:
+      - {nombre: "Ministerio de Capital Humano, Aprender 2024 nivel secundario: síntesis de resultados (evolución histórica ONE 2013 y Aprender 2016-2024)", url: "https://www.argentina.gob.ar/sites/default/files/2024/10/sintesis_de_resultados_aprender_2024_nivel_secundario.pdf", nivel: primaria}
+    metodo: "Suma de los niveles satisfactorio y avanzado de la serie histórica comparable que publica el Ministerio (2013 es el Operativo Nacional de Evaluación, ONE). Con la escala de 2024, el Ministerio informó 14,2% en matemática y 58% en lengua; acá se usa la serie comparable con 2016. Desde 2022 casi no hay alumnos en el nivel avanzado de matemática."
+
+  - id: gasto_por_nivel_gobierno
+    tema: 3
+    titulo: "Gasto público por nivel de gobierno: Nación, provincias y municipios"
+    que_muestra: "Gasto del Estado nacional, del conjunto de las provincias y de los municipios, como % del PIB. Apiladas, suman el gasto público consolidado."
+    original: {ficha: p63, imagen: 1139}
+    tipo: areas
+    frecuencia: A
+    desde: "2001"
+    unidad: "% del PIB"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: gpn_total, nombre: "Nación"}
+      - {serie: gpp_total, nombre: "Provincias (incluye CABA)"}
+      - {serie: gpm_total, nombre: "Municipios"}
+    fuentes:
+      - {nombre: "Ministerio de Economía, Gasto Público Consolidado por nivel de gobierno", url: "https://www.argentina.gob.ar/economia/politicaeconomica/macroeconomica/gastopublicoconsolidado", nivel: primaria}
+    metodo: "Serie anual oficial, en % del PIB. El gasto de cada nivel se cuenta neto de las transferencias entre niveles (lo que la Nación gira a las provincias figura como gasto de quien lo ejecuta), por eso la suma da el consolidado sin doble conteo. Se publica con unos dos años de rezago. El original mostraba un índice mensual en pesos constantes que no tiene fuente: no hay datos mensuales del gasto provincial."

@@ -864,6 +864,13 @@ series:
   dnrpa_recuperos_autos:   {fuente: dnrpa_robos, tipo: recupero}
   enfr_sobrepeso:   {fuente: manual, id: enfr_sobrepeso, cerrada: true}
   enfr_obesidad:   {fuente: manual, id: enfr_obesidad, cerrada: true}
+  pisa_matematica:   {fuente: manual, id: pisa_matematica}
+  pisa_lectura:   {fuente: manual, id: pisa_lectura}
+  pisa_ciencias:   {fuente: manual, id: pisa_ciencias}
+  aprender_lengua:   {fuente: manual, id: aprender_lengua}
+  aprender_matematica:   {fuente: manual, id: aprender_matematica}
+  gpp_total:   {fuente: datosgobar, id: "451.6_GPP_PIBPIB_0_0_7_41"}
+  gpm_total:   {fuente: datosgobar, id: "451.8_GPM_PIBPIB_0_0_7_60"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
