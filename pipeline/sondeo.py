@@ -217,11 +217,11 @@ def main() -> None:
         except Exception as e:
             lineas.append(f"- {slug}: error {e}")
     import re as _re
-    for pag in ["https://www.bcra.gob.ar/estadisticas-sistema-nacional-de-pagos/", "https://www.bcra.gob.ar/cheques-sistema-nacional-de-pagos/"]:
+    for pag in ["https://www.bcra.gob.ar/estadisticas-sistema-nacional-de-pagos/"]:
         try:
             r = requests.get(pag, timeout=60, headers={"User-Agent": "Mozilla/5.0"})
-            links = sorted(set(h for h in _re.findall(r'href="([^"]+)"', r.text, _re.I) if _re.search(r'xls|csv|snp|cheq|zip', h, _re.I)))
-            lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:40]))
+            links = sorted(set(h for h in _re.findall(r'href="([^"]+)"', r.text, _re.I) if _re.search(r'archivos|xls|pdf', h, _re.I)))
+            lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:120]))
         except Exception as e:
             lineas.append(f"- {pag}: error {e}")
     for u, n in []:
