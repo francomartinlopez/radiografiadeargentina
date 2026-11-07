@@ -805,6 +805,24 @@ series:
   wb_sl_gdp_pcap_em_kd_bra: {fuente: worldbank, id: "SL.GDP.PCAP.EM.KD", pais: BRA}
   wb_sl_gdp_pcap_em_kd_mex: {fuente: worldbank, id: "SL.GDP.PCAP.EM.KD", pais: MEX}
   wb_sl_gdp_pcap_em_kd_usa: {fuente: worldbank, id: "SL.GDP.PCAP.EM.KD", pais: USA}
+  wb_gc_xpn_trft_zs_arg: {fuente: worldbank, id: "GC.XPN.TRFT.ZS", pais: ARG}
+  wb_gc_xpn_trft_zs_bra: {fuente: worldbank, id: "GC.XPN.TRFT.ZS", pais: BRA}
+  wb_gc_xpn_trft_zs_chl: {fuente: worldbank, id: "GC.XPN.TRFT.ZS", pais: CHL}
+  wb_gc_xpn_trft_zs_ury: {fuente: worldbank, id: "GC.XPN.TRFT.ZS", pais: URY}
+  wb_gc_xpn_trft_zs_mex: {fuente: worldbank, id: "GC.XPN.TRFT.ZS", pais: MEX}
+  wb_gc_xpn_trft_zs_esp: {fuente: worldbank, id: "GC.XPN.TRFT.ZS", pais: ESP}
+  wb_gc_xpn_trft_zs_ita: {fuente: worldbank, id: "GC.XPN.TRFT.ZS", pais: ITA}
+  wb_gc_xpn_trft_zs_usa: {fuente: worldbank, id: "GC.XPN.TRFT.ZS", pais: USA}
+  wb_sl_emp_vuln_zs_arg: {fuente: worldbank, id: "SL.EMP.VULN.ZS", pais: ARG}
+  wb_sl_emp_vuln_zs_bra: {fuente: worldbank, id: "SL.EMP.VULN.ZS", pais: BRA}
+  wb_sl_emp_vuln_zs_chl: {fuente: worldbank, id: "SL.EMP.VULN.ZS", pais: CHL}
+  wb_sl_emp_vuln_zs_ury: {fuente: worldbank, id: "SL.EMP.VULN.ZS", pais: URY}
+  wb_sl_emp_vuln_zs_mex: {fuente: worldbank, id: "SL.EMP.VULN.ZS", pais: MEX}
+  wb_sl_emp_vuln_zs_esp: {fuente: worldbank, id: "SL.EMP.VULN.ZS", pais: ESP}
+  wb_sl_emp_vuln_zs_ita: {fuente: worldbank, id: "SL.EMP.VULN.ZS", pais: ITA}
+  wb_sl_emp_vuln_zs_usa: {fuente: worldbank, id: "SL.EMP.VULN.ZS", pais: USA}
+  activos_ext_privados_anual: {fuente: datosgobar, id: "144.3_AVOSOTUAL_0_A_54"}
+  activos_ext_privados_trim: {fuente: datosgobar, id: "144.4_AVOSOTUAL_0_T_54"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

@@ -292,16 +292,20 @@ function dibujarTemporal(contenedor, cfg) {
         svg.append(svgEl("polygon", { points: arriba.concat(abajo).join(" "), fill: s.color, opacity: 0.75 }));
       }
       // tramos observados en línea llena; estimados/proyectados en punteada
+      // en series mensuales y trimestrales, un hueco de datos corta la línea (no se inventa el tramo)
+      const paso = { M: 1, T: 3, S: 6 }[cfg.frecuencia];
       let tramo = [];
       const cerrar = (punteada) => {
+        if (tramo.length === 1 && paso) {  // dato suelto entre huecos (p. ej. saldos anuales en una serie trimestral)
+          svg.append(svgEl("circle", { cx: X(tramo[0].t), cy: Y(tramo[0].v), r: 2.5, fill: s.color }));
+          return;
+        }
         if (tramo.length < 2) return;
         const d = tramo.map((p, i) => `${i ? "L" : "M"}${X(p.t).toFixed(1)},${Y(p.v).toFixed(1)}`).join("");
         svg.append(svgEl("path", { d, fill: "none", stroke: s.color, "stroke-width": s.destacada ? 3 : s.tenue ? 1.3 : s.grueso ? 2 : 1.4, "stroke-linejoin": "round", "stroke-linecap": "round",
           "stroke-dasharray": punteada ? "4 3" : null, opacity: s.tenue ? 0.7 : s.grueso || cfg.series.length === 1 ? 1 : 0.85 }));
       };
       let actual = null;
-      // en series mensuales y trimestrales, un hueco de datos corta la línea (no se inventa el tramo)
-      const paso = { M: 1, T: 3, S: 6 }[cfg.frecuencia];
       const meses = (a, b) => (b.t.getFullYear() - a.t.getFullYear()) * 12 + b.t.getMonth() - a.t.getMonth();
       s.puntos.forEach((p, i) => {
         if (paso && i > 0 && meses(s.puntos[i - 1], p) > paso * 1.5) { cerrar(actual); tramo = []; actual = null; }

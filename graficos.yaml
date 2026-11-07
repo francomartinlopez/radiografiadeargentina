@@ -349,6 +349,10 @@ calculos:
     a: emae_mineria
     meses: 12
 
+  activos_ext_privados:
+    operacion: concatenar
+    tramos: [{serie: activos_ext_privados_anual, hasta: "2015-12"}, {serie: activos_ext_privados_trim}]
+
 graficos:
   - id: inflacion_minorista
     tema: 2
@@ -3758,3 +3762,100 @@ graficos:
       url: https://data.worldbank.org/indicator/SL.GDP.PCAP.EM.KD
       nivel: secundaria
     metodo: 'PIB a paridad de poder adquisitivo dividido por la cantidad de ocupados (estimación modelada de la OIT). Mide productividad media por trabajador, no por hora: el original mostraba dólares por hora trabajada con datos ''estimados y extrapolados'' sin fuente. La productividad por hora de máquina, costo laboral, tasa de error, robotización y sistemas industriales por empresa (fichas p132, p429-p436, c1553, c1557) no tienen fuentes públicas comparables y no se publican.'
+
+  - id: subsidios_transferencias_paises
+    tema: 19
+    titulo: 'Subsidios y transferencias: Argentina y otros países'
+    que_muestra: Subsidios, jubilaciones, asistencia social y otras transferencias corrientes como % del gasto del gobierno central.
+    original:
+      ficha: p418
+      imagen: 1183
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% del gasto'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_gc_xpn_trft_zs_arg
+      nombre: Argentina
+    - serie: wb_gc_xpn_trft_zs_bra
+      nombre: Brasil
+    - serie: wb_gc_xpn_trft_zs_chl
+      nombre: Chile
+    - serie: wb_gc_xpn_trft_zs_ury
+      nombre: Uruguay
+    - serie: wb_gc_xpn_trft_zs_mex
+      nombre: México
+    - serie: wb_gc_xpn_trft_zs_esp
+      nombre: España
+    - serie: wb_gc_xpn_trft_zs_ita
+      nombre: Italia
+    - serie: wb_gc_xpn_trft_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/GC.XPN.TRFT.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: '⚠ Aproximación: el original separaba subsidios a servicios (luz, gas, transporte) y subsidios sociales como % del PIB, que no tienen una serie comparable entre países. Esta serie del FMI (vía Banco Mundial) suma subsidios a empresas y transferencias a personas, como parte del gasto del gobierno central. Reúne las fichas p413 y p418.'
+    estimacion: 'Indicador aproximado: agrupa subsidios y transferencias sociales.'
+
+  - id: empleo_vulnerable_paises
+    tema: 19
+    titulo: 'Trabajo por cuenta propia y familiar: Argentina y otros países'
+    que_muestra: Trabajadores por cuenta propia y familiares sin salario como % del empleo total (empleo 'vulnerable' según la OIT), el indicador comparable más cercano a la informalidad.
+    original:
+      ficha: p421
+      imagen: 1190
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1991'
+    unidad: '% del empleo'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_sl_emp_vuln_zs_arg
+      nombre: Argentina
+    - serie: wb_sl_emp_vuln_zs_bra
+      nombre: Brasil
+    - serie: wb_sl_emp_vuln_zs_chl
+      nombre: Chile
+    - serie: wb_sl_emp_vuln_zs_ury
+      nombre: Uruguay
+    - serie: wb_sl_emp_vuln_zs_mex
+      nombre: México
+    - serie: wb_sl_emp_vuln_zs_esp
+      nombre: España
+    - serie: wb_sl_emp_vuln_zs_ita
+      nombre: Italia
+    - serie: wb_sl_emp_vuln_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SL.EMP.VULN.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: '⚠ Aproximación: la informalidad (trabajo sin aportes) no tiene una serie comparable entre países con años largos; la OIT publica el empleo ''vulnerable'' (cuentapropistas y trabajadores familiares), que se superpone en buena parte con la informalidad pero no es lo mismo. Para la Argentina, la informalidad de los asalariados está en Tasa de empleo e informalidad.'
+    estimacion: Indicador aproximado de informalidad.
+
+  - id: dolares_fuera_del_sistema
+    tema: 4
+    titulo: "Dólares de personas y empresas fuera del sistema financiero local"
+    que_muestra: "Activos en el exterior y billetes del sector privado no financiero (sin inversión directa ni bonos): incluye dólares 'en el colchón', depósitos en bancos de otros países y créditos comerciales."
+    original: {ficha: p128, imagen: 1458}
+    tipo: lineas
+    frecuencia: T
+    desde: "2006-01"
+    unidad: "millones de US$"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    series:
+      - {serie: activos_ext_privados, sin_ceros: true, nombre: "Otra inversión del sector privado en el exterior"}
+    fuentes:
+      - {nombre: "INDEC, Posición de inversión internacional: activos de otra inversión de otros sectores", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-35-45", nivel: primaria, nota: "El INDEC estima el stock de billetes acumulando compras netas registradas"}
+    metodo: "Saldo anual (fin de año) hasta 2015 y trimestral desde 2016, en dólares corrientes. El stock de billetes fuera de los bancos no se puede medir directamente: el INDEC lo estima acumulando la formación de activos externos registrada, así que es una estimación oficial y no un conteo. No incluye dólares en cajas de seguridad de bancos locales ni compras informales. El original mostraba una serie 'simulada'; esta es la cifra oficial más cercana."
