@@ -157,6 +157,16 @@ def sondear_paginas() -> list[str]:
     return lineas
 
 
+def sondear_magyp() -> list[str]:
+    import re
+    r = requests.get("https://www.magyp.gob.ar/sitio/areas/bovinos/informacion_interes/informes/index.php",
+                     timeout=120, headers={"User-Agent": "Mozilla/5.0 radiografia-argentina"})
+    rutas = sorted(set(re.findall(r"_archivos/0000\d\d=[^\"'<>]+", r.text)))
+    lineas = ["# Informes de bovinos (MAGyP)", ""] + [f"- {x}" for x in rutas if "stock" in x.lower() or "existencia" in x.lower()][:200]
+    lineas += ["", "## Otras carpetas"] + sorted({f"- {x.split('/')[1]}" for x in rutas if "/" in x})[:80]
+    return lineas
+
+
 def main() -> None:
     CARPETA.mkdir(parents=True, exist_ok=True)
     lineas = ["# Sondeo de Our World in Data", ""]
@@ -185,7 +195,7 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
-    lineas = sondear_paginas()
+    lineas = sondear_magyp()
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 
