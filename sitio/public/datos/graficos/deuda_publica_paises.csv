@@ -1,0 +1,732 @@
+serie,fecha,valor,tramo
+Argentina,1900-01-01,64.969388,observado
+Argentina,1901-01-01,68.333348,observado
+Argentina,1902-01-01,60.603656,observado
+Argentina,1903-01-01,55.311129,observado
+Argentina,1904-01-01,48.902833,observado
+Argentina,1905-01-01,35.61929,observado
+Argentina,1906-01-01,31.560516,observado
+Argentina,1907-01-01,33.205401,observado
+Argentina,1908-01-01,29.88763,observado
+Argentina,1909-01-01,29.509715,observado
+Argentina,1910-01-01,25.631791,observado
+Argentina,1911-01-01,29.439541,observado
+Argentina,1912-01-01,26.811127,observado
+Argentina,1913-01-01,27.176231,observado
+Argentina,1915-01-01,71.897683,observado
+Argentina,1916-01-01,75.952484,observado
+Argentina,1917-01-01,95.593629,observado
+Argentina,1918-01-01,55.46276,observado
+Argentina,1919-01-01,59.321586,observado
+Argentina,1920-01-01,46.768337,observado
+Argentina,1921-01-01,53.180862,observado
+Argentina,1922-01-01,61.587838,observado
+Argentina,1923-01-01,55.959518,observado
+Argentina,1924-01-01,54.171495,observado
+Argentina,1925-01-01,56.21448,observado
+Argentina,1926-01-01,58.61437,observado
+Argentina,1927-01-01,57.706505,observado
+Argentina,1928-01-01,67.290962,observado
+Argentina,1929-01-01,70.169045,observado
+Argentina,1930-01-01,83.656398,observado
+Argentina,1931-01-01,100.650106,observado
+Argentina,1932-01-01,118.221744,observado
+Argentina,1933-01-01,105.335744,observado
+Argentina,1934-01-01,48.371429,observado
+Argentina,1935-01-01,41.793548,observado
+Argentina,1936-01-01,44.521429,observado
+Argentina,1937-01-01,35.820168,observado
+Argentina,1938-01-01,43.579091,observado
+Argentina,1939-01-01,45.187069,observado
+Argentina,1940-01-01,46.623333,observado
+Argentina,1941-01-01,49.776744,observado
+Argentina,1942-01-01,48.563014,observado
+Argentina,1943-01-01,58.332026,observado
+Argentina,1944-01-01,57.385714,observado
+Argentina,1945-01-01,58.251813,observado
+Argentina,1946-01-01,51.280916,observado
+Argentina,1947-01-01,40.28663,observado
+Argentina,1953-01-01,35.075504,observado
+Argentina,1954-01-01,37.996897,observado
+Argentina,1955-01-01,36.00731,observado
+Argentina,1956-01-01,33.667569,observado
+Argentina,1958-01-01,26.865633,observado
+Argentina,1959-01-01,19.723873,observado
+Argentina,1960-01-01,16.751531,observado
+Argentina,1961-01-01,15.460617,observado
+Argentina,1962-01-01,15.915017,observado
+Argentina,1970-01-01,12.8729,observado
+Argentina,1971-01-01,11.5191,observado
+Argentina,1972-01-01,9.34742,observado
+Argentina,1973-01-01,13.3275,observado
+Argentina,1974-01-01,13.8114,observado
+Argentina,1975-01-01,18.35,observado
+Argentina,1976-01-01,13.8014,observado
+Argentina,1977-01-01,15.8392,observado
+Argentina,1978-01-01,16.6954,observado
+Argentina,1979-01-01,13.511,observado
+Argentina,1992-01-01,24.961,observado
+Argentina,1993-01-01,26.893,observado
+Argentina,1994-01-01,28.426,observado
+Argentina,1995-01-01,30.749,observado
+Argentina,1996-01-01,32.551,observado
+Argentina,1997-01-01,31.676,observado
+Argentina,1998-01-01,34.147,observado
+Argentina,1999-01-01,38.917,observado
+Argentina,2000-01-01,40.833,observado
+Argentina,2001-01-01,48.007,observado
+Argentina,2002-01-01,147.203,observado
+Argentina,2003-01-01,125.162,observado
+Argentina,2004-01-01,117.878,observado
+Argentina,2005-01-01,80.282,observado
+Argentina,2006-01-01,70.793,observado
+Argentina,2007-01-01,62.133,observado
+Argentina,2008-01-01,53.814,observado
+Argentina,2009-01-01,55.397,observado
+Argentina,2010-01-01,43.454,observado
+Argentina,2011-01-01,38.935,observado
+Argentina,2012-01-01,40.436,observado
+Argentina,2013-01-01,43.496,observado
+Argentina,2014-01-01,44.697,observado
+Argentina,2015-01-01,52.563,observado
+Argentina,2016-01-01,53.06,observado
+Argentina,2017-01-01,57.028,observado
+Argentina,2018-01-01,85.246,observado
+Argentina,2019-01-01,89.84,observado
+Argentina,2020-01-01,103.816,observado
+Argentina,2021-01-01,81.043,observado
+Argentina,2022-01-01,84.463,observado
+Argentina,2023-01-01,155.411,observado
+Argentina,2024-01-01,85.334,observado
+Argentina,2025-01-01,73.091,observado
+Brasil,1900-01-01,54.870968,observado
+Brasil,1901-01-01,66.703704,observado
+Brasil,1902-01-01,62.827586,observado
+Brasil,1903-01-01,66.724138,observado
+Brasil,1904-01-01,59.0,observado
+Brasil,1905-01-01,60.740741,observado
+Brasil,1906-01-01,50.34375,observado
+Brasil,1907-01-01,45.650948,observado
+Brasil,1908-01-01,47.761356,observado
+Brasil,1909-01-01,42.896689,observado
+Brasil,1910-01-01,39.900884,observado
+Brasil,1911-01-01,35.760979,observado
+Brasil,1912-01-01,34.239833,observado
+Brasil,1913-01-01,37.667165,observado
+Brasil,1923-01-01,36.22375,observado
+Brasil,1924-01-01,26.514,observado
+Brasil,1925-01-01,24.73,observado
+Brasil,1926-01-01,23.45913,observado
+Brasil,1927-01-01,21.3632,observado
+Brasil,1929-01-01,21.582,observado
+Brasil,1930-01-01,26.968182,observado
+Brasil,1931-01-01,34.336667,observado
+Brasil,1932-01-01,39.438333,observado
+Brasil,1933-01-01,51.582632,observado
+Brasil,1934-01-01,31.9752,observado
+Brasil,1935-01-01,28.713333,observado
+Brasil,1936-01-01,24.46,observado
+Brasil,1937-01-01,28.439524,observado
+Brasil,1938-01-01,29.137556,observado
+Brasil,1939-01-01,30.823111,observado
+Brasil,1940-01-01,31.920417,observado
+Brasil,1941-01-01,34.070588,observado
+Brasil,1942-01-01,31.626034,observado
+Brasil,1943-01-01,36.809851,observado
+Brasil,1944-01-01,35.779432,observado
+Brasil,1945-01-01,34.004018,observado
+Brasil,1946-01-01,26.412432,observado
+Brasil,1947-01-01,12.629677,observado
+Brasil,1948-01-01,11.652564,observado
+Brasil,1949-01-01,11.244565,observado
+Brasil,1950-01-01,10.642757,observado
+Brasil,1952-01-01,13.207014,observado
+Brasil,1953-01-01,13.165853,observado
+Brasil,1954-01-01,12.60338,observado
+Brasil,1955-01-01,12.707581,observado
+Brasil,1956-01-01,14.570587,observado
+Brasil,1957-01-01,16.952201,observado
+Brasil,1958-01-01,18.676801,observado
+Brasil,1959-01-01,17.416715,observado
+Brasil,1960-01-01,14.873096,observado
+Brasil,1961-01-01,21.880537,observado
+Brasil,1978-01-01,29.9128,observado
+Brasil,1979-01-01,30.351,observado
+Brasil,2000-01-01,62.198,observado
+Brasil,2001-01-01,67.331,observado
+Brasil,2002-01-01,76.095,observado
+Brasil,2003-01-01,71.514,observado
+Brasil,2004-01-01,68.025,observado
+Brasil,2005-01-01,66.969,observado
+Brasil,2006-01-01,64.599,observado
+Brasil,2007-01-01,63.025,observado
+Brasil,2008-01-01,61.42,observado
+Brasil,2009-01-01,64.702,observado
+Brasil,2010-01-01,62.433,observado
+Brasil,2011-01-01,60.634,observado
+Brasil,2012-01-01,61.614,observado
+Brasil,2013-01-01,59.595,observado
+Brasil,2014-01-01,61.617,observado
+Brasil,2015-01-01,71.73,observado
+Brasil,2016-01-01,77.422,observado
+Brasil,2017-01-01,82.745,observado
+Brasil,2018-01-01,84.777,observado
+Brasil,2019-01-01,87.118,observado
+Brasil,2020-01-01,96.007,observado
+Brasil,2021-01-01,88.934,observado
+Brasil,2022-01-01,83.939,observado
+Brasil,2023-01-01,84.001,observado
+Brasil,2024-01-01,87.284,observado
+Brasil,2025-01-01,92.041,observado
+Chile,1940-01-01,20.041364,observado
+Chile,1941-01-01,17.193333,observado
+Chile,1942-01-01,15.612187,observado
+Chile,1943-01-01,13.8235,observado
+Chile,1944-01-01,12.685319,observado
+Chile,1945-01-01,12.38963,observado
+Chile,1946-01-01,10.6725,observado
+Chile,1947-01-01,9.171899,observado
+Chile,1970-01-01,36.803,observado
+Chile,1971-01-01,47.5555,observado
+Chile,1972-01-01,63.719,observado
+Chile,1973-01-01,100.858,observado
+Chile,1974-01-01,78.639,observado
+Chile,1975-01-01,108.319,observado
+Chile,1976-01-01,68.2631,observado
+Chile,1977-01-01,58.7624,observado
+Chile,1978-01-01,47.1517,observado
+Chile,1979-01-01,38.7953,observado
+Chile,1991-01-01,37.104,observado
+Chile,1992-01-01,30.492,observado
+Chile,1993-01-01,28.087,observado
+Chile,1994-01-01,22.61,observado
+Chile,1995-01-01,17.25,observado
+Chile,1996-01-01,14.584,observado
+Chile,1997-01-01,12.78,observado
+Chile,1998-01-01,12.115,observado
+Chile,1999-01-01,13.277,observado
+Chile,2000-01-01,13.146,observado
+Chile,2001-01-01,14.348,observado
+Chile,2002-01-01,15.045,observado
+Chile,2003-01-01,12.573,observado
+Chile,2004-01-01,10.314,observado
+Chile,2005-01-01,7.04,observado
+Chile,2006-01-01,5.022,observado
+Chile,2007-01-01,3.901,observado
+Chile,2008-01-01,4.916,observado
+Chile,2009-01-01,5.845,observado
+Chile,2010-01-01,8.607,observado
+Chile,2011-01-01,11.127,observado
+Chile,2012-01-01,11.939,observado
+Chile,2013-01-01,12.784,observado
+Chile,2014-01-01,15.02,observado
+Chile,2015-01-01,17.375,observado
+Chile,2016-01-01,21.101,observado
+Chile,2017-01-01,23.652,observado
+Chile,2018-01-01,25.798,observado
+Chile,2019-01-01,28.33,observado
+Chile,2020-01-01,32.38,observado
+Chile,2021-01-01,36.448,observado
+Chile,2022-01-01,37.907,observado
+Chile,2023-01-01,39.415,observado
+Chile,2024-01-01,41.981,observado
+Chile,2025-01-01,42.984,observado
+Uruguay,1970-01-01,19.9468,observado
+Uruguay,1971-01-01,22.3312,observado
+Uruguay,1972-01-01,26.0787,observado
+Uruguay,1973-01-01,21.5408,observado
+Uruguay,1974-01-01,24.0125,observado
+Uruguay,1975-01-01,27.1704,observado
+Uruguay,1976-01-01,28.8755,observado
+Uruguay,1977-01-01,26.1283,observado
+Uruguay,1978-01-01,22.337,observado
+Uruguay,1979-01-01,17.5004,observado
+Uruguay,1999-01-01,24.125,observado
+Uruguay,2000-01-01,30.487,observado
+Uruguay,2001-01-01,39.41,observado
+Uruguay,2002-01-01,90.097,observado
+Uruguay,2003-01-01,91.915,observado
+Uruguay,2004-01-01,73.676,observado
+Uruguay,2005-01-01,66.173,observado
+Uruguay,2006-01-01,61.055,observado
+Uruguay,2007-01-01,52.811,observado
+Uruguay,2008-01-01,46.214,observado
+Uruguay,2009-01-01,46.176,observado
+Uruguay,2010-01-01,40.853,observado
+Uruguay,2011-01-01,41.259,observado
+Uruguay,2012-01-01,49.812,observado
+Uruguay,2013-01-01,49.976,observado
+Uruguay,2014-01-01,51.098,observado
+Uruguay,2015-01-01,57.76,observado
+Uruguay,2016-01-01,56.401,observado
+Uruguay,2017-01-01,55.821,observado
+Uruguay,2018-01-01,57.889,observado
+Uruguay,2019-01-01,59.628,observado
+Uruguay,2020-01-01,68.219,observado
+Uruguay,2021-01-01,64.079,observado
+Uruguay,2022-01-01,59.934,observado
+Uruguay,2023-01-01,64.002,observado
+Uruguay,2024-01-01,68.699,observado
+Uruguay,2025-01-01,68.529,observado
+España,1900-01-01,119.700959,observado
+España,1901-01-01,118.8879,observado
+España,1902-01-01,123.60519,observado
+España,1903-01-01,109.306115,observado
+España,1904-01-01,108.285494,observado
+España,1905-01-01,108.339822,observado
+España,1906-01-01,107.977944,observado
+España,1907-01-01,98.757125,observado
+España,1908-01-01,102.975399,observado
+España,1909-01-01,101.004293,observado
+España,1910-01-01,88.282369,observado
+España,1911-01-01,82.593532,observado
+España,1912-01-01,82.038681,observado
+España,1913-01-01,76.733003,observado
+España,1914-01-01,66.4125,observado
+España,1915-01-01,58.235366,observado
+España,1916-01-01,47.6865,observado
+España,1917-01-01,37.357255,observado
+España,1918-01-01,38.693773,observado
+España,1919-01-01,31.31276,observado
+España,1920-01-01,37.93921,observado
+España,1921-01-01,55.188476,observado
+España,1922-01-01,59.131907,observado
+España,1923-01-01,58.820818,observado
+España,1924-01-01,56.663668,observado
+España,1925-01-01,54.678914,observado
+España,1926-01-01,56.352412,observado
+España,1927-01-01,59.4625,observado
+España,1928-01-01,61.437742,observado
+España,1929-01-01,64.073585,observado
+España,1930-01-01,63.973651,observado
+España,1931-01-01,63.050157,observado
+España,1932-01-01,62.456231,observado
+España,1933-01-01,65.074923,observado
+España,1934-01-01,61.455874,observado
+España,1940-01-01,59.860134,observado
+España,1941-01-01,55.488713,observado
+España,1942-01-01,53.593435,observado
+España,1943-01-01,50.202326,observado
+España,1944-01-01,51.590909,observado
+España,1945-01-01,22.435482,observado
+España,1946-01-01,44.53964,observado
+España,1947-01-01,39.98,observado
+España,1953-01-01,28.162601,observado
+España,1954-01-01,29.456508,observado
+España,1955-01-01,23.719903,observado
+España,1956-01-01,23.933439,observado
+España,1957-01-01,22.749335,observado
+España,1958-01-01,19.404829,observado
+España,1959-01-01,20.499426,observado
+España,1960-01-01,20.515906,observado
+España,1961-01-01,17.72381,observado
+España,1962-01-01,15.472428,observado
+España,1965-01-01,11.003167,observado
+España,1966-01-01,10.946749,observado
+España,1967-01-01,10.954835,observado
+España,1968-01-01,11.028002,observado
+España,1969-01-01,11.318239,observado
+España,1970-01-01,11.537314,observado
+España,1971-01-01,10.534901,observado
+España,1972-01-01,10.724248,observado
+España,1973-01-01,9.919522,observado
+España,1974-01-01,8.405045,observado
+España,1975-01-01,7.250304,observado
+España,1976-01-01,13.003871,observado
+España,1977-01-01,15.327958,observado
+España,1978-01-01,14.328199,observado
+España,1979-01-01,15.388775,observado
+España,1980-01-01,16.107,observado
+España,1981-01-01,19.45,observado
+España,1982-01-01,24.428,observado
+España,1983-01-01,29.516,observado
+España,1984-01-01,36.023,observado
+España,1985-01-01,40.866,observado
+España,1986-01-01,42.073,observado
+España,1987-01-01,41.915,observado
+España,1988-01-01,38.502,observado
+España,1989-01-01,39.87,observado
+España,1990-01-01,41.304,observado
+España,1991-01-01,41.864,observado
+España,1992-01-01,44.133,observado
+España,1993-01-01,54.567,observado
+España,1994-01-01,57.019,observado
+España,1995-01-01,61.586,observado
+España,1996-01-01,65.442,observado
+España,1997-01-01,64.286,observado
+España,1998-01-01,62.355,observado
+España,1999-01-01,60.853,observado
+España,2000-01-01,57.841,observado
+España,2001-01-01,54.052,observado
+España,2002-01-01,51.237,observado
+España,2003-01-01,47.687,observado
+España,2004-01-01,45.333,observado
+España,2005-01-01,42.395,observado
+España,2006-01-01,39.019,observado
+España,2007-01-01,35.698,observado
+España,2008-01-01,39.609,observado
+España,2009-01-01,53.079,observado
+España,2010-01-01,60.266,observado
+España,2011-01-01,69.528,observado
+España,2012-01-01,89.56,observado
+España,2013-01-01,100.0,observado
+España,2014-01-01,104.418,observado
+España,2015-01-01,102.442,observado
+España,2016-01-01,101.967,observado
+España,2017-01-01,101.144,observado
+España,2018-01-01,99.718,observado
+España,2019-01-01,97.579,observado
+España,2020-01-01,119.179,observado
+España,2021-01-01,115.594,observado
+España,2022-01-01,109.404,observado
+España,2023-01-01,105.034,observado
+España,2024-01-01,101.82,observado
+España,2025-01-01,100.571,observado
+Italia,1900-01-01,109.764067,observado
+Italia,1901-01-01,106.8263,observado
+Italia,1902-01-01,110.208185,observado
+Italia,1903-01-01,102.056926,observado
+Italia,1904-01-01,103.707352,observado
+Italia,1905-01-01,100.892449,observado
+Italia,1906-01-01,95.584911,observado
+Italia,1907-01-01,85.799829,observado
+Italia,1908-01-01,90.299268,observado
+Italia,1909-01-01,84.465046,observado
+Italia,1910-01-01,87.115241,observado
+Italia,1911-01-01,79.315521,observado
+Italia,1912-01-01,77.69519,observado
+Italia,1913-01-01,77.241933,observado
+Italia,1914-01-01,82.002887,observado
+Italia,1915-01-01,84.31179,observado
+Italia,1916-01-01,74.922593,observado
+Italia,1917-01-01,92.025052,observado
+Italia,1918-01-01,93.594786,observado
+Italia,1919-01-01,132.254403,observado
+Italia,1920-01-01,159.720009,observado
+Italia,1921-01-01,152.24267,observado
+Italia,1922-01-01,140.92073,observado
+Italia,1923-01-01,143.48928,observado
+Italia,1924-01-01,142.817336,observado
+Italia,1925-01-01,103.777619,observado
+Italia,1926-01-01,89.394045,observado
+Italia,1927-01-01,99.656006,observado
+Italia,1928-01-01,97.736129,observado
+Italia,1929-01-01,97.422812,observado
+Italia,1930-01-01,106.628008,observado
+Italia,1931-01-01,101.339723,observado
+Italia,1932-01-01,79.991899,observado
+Italia,1933-01-01,86.351526,observado
+Italia,1934-01-01,89.500909,observado
+Italia,1935-01-01,80.717937,observado
+Italia,1936-01-01,80.226135,observado
+Italia,1937-01-01,72.143272,observado
+Italia,1938-01-01,71.435532,observado
+Italia,1939-01-01,69.385894,observado
+Italia,1940-01-01,72.559394,observado
+Italia,1941-01-01,89.441107,observado
+Italia,1942-01-01,100.482342,observado
+Italia,1943-01-01,102.52062,observado
+Italia,1944-01-01,90.930739,observado
+Italia,1945-01-01,72.427995,observado
+Italia,1946-01-01,39.855515,observado
+Italia,1947-01-01,24.213945,observado
+Italia,1948-01-01,26.972731,observado
+Italia,1949-01-01,29.580499,observado
+Italia,1950-01-01,29.474398,observado
+Italia,1951-01-01,29.910651,observado
+Italia,1952-01-01,31.623683,observado
+Italia,1953-01-01,32.484763,observado
+Italia,1954-01-01,34.080031,observado
+Italia,1955-01-01,33.89232,observado
+Italia,1956-01-01,32.91783,observado
+Italia,1957-01-01,32.133629,observado
+Italia,1958-01-01,32.017081,observado
+Italia,1959-01-01,33.143451,observado
+Italia,1960-01-01,31.427017,observado
+Italia,1961-01-01,30.015424,observado
+Italia,1962-01-01,28.958357,observado
+Italia,1963-01-01,27.173488,observado
+Italia,1964-01-01,27.205206,observado
+Italia,1965-01-01,28.386604,observado
+Italia,1966-01-01,33.44076,observado
+Italia,1967-01-01,33.264664,observado
+Italia,1968-01-01,35.825053,observado
+Italia,1969-01-01,36.528661,observado
+Italia,1970-01-01,37.106782,observado
+Italia,1971-01-01,41.952155,observado
+Italia,1972-01-01,47.70015,observado
+Italia,1973-01-01,50.637756,observado
+Italia,1974-01-01,50.171519,observado
+Italia,1975-01-01,56.639607,observado
+Italia,1976-01-01,56.207953,observado
+Italia,1977-01-01,55.22493,observado
+Italia,1978-01-01,59.446141,observado
+Italia,1979-01-01,58.246074,observado
+Italia,1988-01-01,95.722,observado
+Italia,1989-01-01,98.4,observado
+Italia,1990-01-01,101.71,observado
+Italia,1991-01-01,105.309,observado
+Italia,1992-01-01,112.967,observado
+Italia,1993-01-01,124.107,observado
+Italia,1994-01-01,130.831,observado
+Italia,1995-01-01,119.088,observado
+Italia,1996-01-01,118.896,observado
+Italia,1997-01-01,116.491,observado
+Italia,1998-01-01,113.887,observado
+Italia,1999-01-01,113.059,observado
+Italia,2000-01-01,108.743,observado
+Italia,2001-01-01,108.513,observado
+Italia,2002-01-01,105.947,observado
+Italia,2003-01-01,105.141,observado
+Italia,2004-01-01,104.742,observado
+Italia,2005-01-01,106.176,observado
+Italia,2006-01-01,106.253,observado
+Italia,2007-01-01,103.454,observado
+Italia,2008-01-01,105.788,observado
+Italia,2009-01-01,116.121,observado
+Italia,2010-01-01,118.737,observado
+Italia,2011-01-01,119.106,observado
+Italia,2012-01-01,125.87,observado
+Italia,2013-01-01,131.816,observado
+Italia,2014-01-01,134.755,observado
+Italia,2015-01-01,134.746,observado
+Italia,2016-01-01,134.195,observado
+Italia,2017-01-01,133.689,observado
+Italia,2018-01-01,134.138,observado
+Italia,2019-01-01,133.823,observado
+Italia,2020-01-01,154.288,observado
+Italia,2021-01-01,145.735,observado
+Italia,2022-01-01,138.279,observado
+Italia,2023-01-01,134.579,observado
+Italia,2024-01-01,135.286,observado
+Italia,2025-01-01,137.28,observado
+Gran Bretaña,1900-01-01,32.440248,observado
+Gran Bretaña,1901-01-01,35.795121,observado
+Gran Bretaña,1902-01-01,38.968448,observado
+Gran Bretaña,1903-01-01,41.195841,observado
+Gran Bretaña,1904-01-01,40.713666,observado
+Gran Bretaña,1905-01-01,39.034847,observado
+Gran Bretaña,1906-01-01,37.405013,observado
+Gran Bretaña,1907-01-01,35.332448,observado
+Gran Bretaña,1908-01-01,35.676566,observado
+Gran Bretaña,1909-01-01,34.877488,observado
+Gran Bretaña,1910-01-01,34.513351,observado
+Gran Bretaña,1911-01-01,31.614356,observado
+Gran Bretaña,1912-01-01,29.792233,observado
+Gran Bretaña,1913-01-01,27.898613,observado
+Gran Bretaña,1914-01-01,27.271153,observado
+Gran Bretaña,1915-01-01,39.282607,observado
+Gran Bretaña,1916-01-01,65.584913,observado
+Gran Bretaña,1917-01-01,97.845815,observado
+Gran Bretaña,1918-01-01,119.099186,observado
+Gran Bretaña,1919-01-01,142.766154,observado
+Gran Bretaña,1920-01-01,137.793835,observado
+Gran Bretaña,1921-01-01,158.409787,observado
+Gran Bretaña,1922-01-01,183.482299,observado
+Gran Bretaña,1923-01-01,195.5436,observado
+Gran Bretaña,1924-01-01,188.806841,observado
+Gran Bretaña,1925-01-01,176.974642,observado
+Gran Bretaña,1926-01-01,187.124845,observado
+Gran Bretaña,1927-01-01,177.452235,observado
+Gran Bretaña,1928-01-01,175.780389,observado
+Gran Bretaña,1929-01-01,170.523926,observado
+Gran Bretaña,1930-01-01,170.996993,observado
+Gran Bretaña,1931-01-01,184.826075,observado
+Gran Bretaña,1932-01-01,190.147446,observado
+Gran Bretaña,1933-01-01,193.96631,observado
+Gran Bretaña,1934-01-01,186.63542,observado
+Gran Bretaña,1935-01-01,178.088098,observado
+Gran Bretaña,1936-01-01,170.194737,observado
+Gran Bretaña,1937-01-01,158.691388,observado
+Gran Bretaña,1938-01-01,155.081206,observado
+Gran Bretaña,1939-01-01,149.684081,observado
+Gran Bretaña,1940-01-01,121.058605,observado
+Gran Bretaña,1941-01-01,133.687264,observado
+Gran Bretaña,1942-01-01,153.203917,observado
+Gran Bretaña,1943-01-01,173.992438,observado
+Gran Bretaña,1944-01-01,200.634611,observado
+Gran Bretaña,1945-01-01,234.686434,observado
+Gran Bretaña,1946-01-01,269.797597,observado
+Gran Bretaña,1947-01-01,264.12492,observado
+Gran Bretaña,1948-01-01,239.573393,observado
+Gran Bretaña,1949-01-01,220.273205,observado
+Gran Bretaña,1950-01-01,216.91816,observado
+Gran Bretaña,1951-01-01,196.762606,observado
+Gran Bretaña,1952-01-01,180.858201,observado
+Gran Bretaña,1953-01-01,169.757481,observado
+Gran Bretaña,1954-01-01,163.225628,observado
+Gran Bretaña,1955-01-01,154.1859,observado
+Gran Bretaña,1956-01-01,143.758843,observado
+Gran Bretaña,1957-01-01,135.73454,observado
+Gran Bretaña,1958-01-01,131.127649,observado
+Gran Bretaña,1959-01-01,124.870414,observado
+Gran Bretaña,1960-01-01,117.944355,observado
+Gran Bretaña,1961-01-01,113.751661,observado
+Gran Bretaña,1962-01-01,110.521263,observado
+Gran Bretaña,1963-01-01,108.554331,observado
+Gran Bretaña,1964-01-01,101.081081,observado
+Gran Bretaña,1965-01-01,94.606155,observado
+Gran Bretaña,1966-01-01,91.949294,observado
+Gran Bretaña,1967-01-01,89.147851,observado
+Gran Bretaña,1968-01-01,88.548341,observado
+Gran Bretaña,1969-01-01,82.837396,observado
+Gran Bretaña,1970-01-01,73.235392,observado
+Gran Bretaña,1971-01-01,65.55451,observado
+Gran Bretaña,1972-01-01,62.041618,observado
+Gran Bretaña,1973-01-01,54.562185,observado
+Gran Bretaña,1974-01-01,51.60144,observado
+Gran Bretaña,1975-01-01,46.67778,observado
+Gran Bretaña,1976-01-01,48.884434,observado
+Gran Bretaña,1977-01-01,50.45864,observado
+Gran Bretaña,1978-01-01,51.626112,observado
+Gran Bretaña,1979-01-01,45.300192,observado
+Gran Bretaña,1980-01-01,42.517,observado
+Gran Bretaña,1981-01-01,44.725,observado
+Gran Bretaña,1982-01-01,43.003,observado
+Gran Bretaña,1983-01-01,41.817,observado
+Gran Bretaña,1984-01-01,42.212,observado
+Gran Bretaña,1985-01-01,41.285,observado
+Gran Bretaña,1986-01-01,41.277,observado
+Gran Bretaña,1987-01-01,39.282,observado
+Gran Bretaña,1988-01-01,37.075,observado
+Gran Bretaña,1989-01-01,32.533,observado
+Gran Bretaña,1990-01-01,28.48,observado
+Gran Bretaña,1991-01-01,28.481,observado
+Gran Bretaña,1992-01-01,33.227,observado
+Gran Bretaña,1993-01-01,37.96,observado
+Gran Bretaña,1994-01-01,40.724,observado
+Gran Bretaña,1995-01-01,43.653,observado
+Gran Bretaña,1996-01-01,43.714,observado
+Gran Bretaña,1997-01-01,44.132,observado
+Gran Bretaña,1998-01-01,41.97,observado
+Gran Bretaña,1999-01-01,40.41,observado
+Gran Bretaña,2000-01-01,37.686,observado
+Gran Bretaña,2001-01-01,34.958,observado
+Gran Bretaña,2002-01-01,35.434,observado
+Gran Bretaña,2003-01-01,36.764,observado
+Gran Bretaña,2004-01-01,39.802,observado
+Gran Bretaña,2005-01-01,41.0,observado
+Gran Bretaña,2006-01-01,42.058,observado
+Gran Bretaña,2007-01-01,43.174,observado
+Gran Bretaña,2008-01-01,50.827,observado
+Gran Bretaña,2009-01-01,64.915,observado
+Gran Bretaña,2010-01-01,75.86,observado
+Gran Bretaña,2011-01-01,81.425,observado
+Gran Bretaña,2012-01-01,84.483,observado
+Gran Bretaña,2013-01-01,85.316,observado
+Gran Bretaña,2014-01-01,87.094,observado
+Gran Bretaña,2015-01-01,87.867,observado
+Gran Bretaña,2016-01-01,87.825,observado
+Gran Bretaña,2017-01-01,86.723,observado
+Gran Bretaña,2018-01-01,86.345,observado
+Gran Bretaña,2019-01-01,85.657,observado
+Gran Bretaña,2020-01-01,105.84,observado
+Gran Bretaña,2021-01-01,105.131,observado
+Gran Bretaña,2022-01-01,99.614,observado
+Gran Bretaña,2023-01-01,100.354,observado
+Gran Bretaña,2024-01-01,101.227,observado
+Gran Bretaña,2025-01-01,103.894,observado
+EE.UU.,1900-01-01,6.549508,observado
+EE.UU.,1901-01-01,5.647189,observado
+EE.UU.,1902-01-01,5.307263,observado
+EE.UU.,1903-01-01,4.778666,observado
+EE.UU.,1904-01-01,4.886051,observado
+EE.UU.,1905-01-01,4.420329,observado
+EE.UU.,1906-01-01,3.791524,observado
+EE.UU.,1907-01-01,3.71635,observado
+EE.UU.,1908-01-01,4.489212,observado
+EE.UU.,1909-01-01,3.747715,observado
+EE.UU.,1910-01-01,3.628397,observado
+EE.UU.,1911-01-01,3.540203,observado
+EE.UU.,1912-01-01,3.411734,observado
+EE.UU.,1913-01-01,3.249265,observado
+EE.UU.,1914-01-01,3.466667,observado
+EE.UU.,1915-01-01,3.307237,observado
+EE.UU.,1916-01-01,2.741084,observado
+EE.UU.,1917-01-01,5.716701,observado
+EE.UU.,1918-01-01,18.640078,observado
+EE.UU.,1919-01-01,33.282183,observado
+EE.UU.,1920-01-01,27.91034,observado
+EE.UU.,1921-01-01,32.42832,observado
+EE.UU.,1922-01-01,31.534902,observado
+EE.UU.,1923-01-01,26.322255,observado
+EE.UU.,1924-01-01,24.419751,observado
+EE.UU.,1925-01-01,22.45914,observado
+EE.UU.,1926-01-01,20.155968,observado
+EE.UU.,1927-01-01,19.123469,observado
+EE.UU.,1928-01-01,18.185321,observado
+EE.UU.,1929-01-01,16.327001,observado
+EE.UU.,1930-01-01,17.727601,observado
+EE.UU.,1931-01-01,21.933812,observado
+EE.UU.,1932-01-01,33.141156,observado
+EE.UU.,1933-01-01,39.962234,observado
+EE.UU.,1934-01-01,40.989545,observado
+EE.UU.,1935-01-01,39.155389,observado
+EE.UU.,1936-01-01,40.356631,observado
+EE.UU.,1937-01-01,39.635038,observado
+EE.UU.,1938-01-01,43.164576,observado
+EE.UU.,1939-01-01,43.955978,observado
+EE.UU.,1940-01-01,42.416091,observado
+EE.UU.,1941-01-01,38.643567,observado
+EE.UU.,1942-01-01,44.760445,observado
+EE.UU.,1943-01-01,68.899244,observado
+EE.UU.,1944-01-01,91.489941,observado
+EE.UU.,1945-01-01,116.000987,observado
+EE.UU.,1946-01-01,121.197526,observado
+EE.UU.,1947-01-01,105.681833,observado
+EE.UU.,1948-01-01,93.580193,observado
+EE.UU.,1949-01-01,94.423011,observado
+EE.UU.,1950-01-01,87.447299,observado
+EE.UU.,1951-01-01,75.175847,observado
+EE.UU.,1952-01-01,72.254657,observado
+EE.UU.,1953-01-01,70.037141,observado
+EE.UU.,1954-01-01,71.178064,observado
+EE.UU.,1955-01-01,66.082418,observado
+EE.UU.,1956-01-01,62.271872,observado
+EE.UU.,1957-01-01,58.619112,observado
+EE.UU.,1958-01-01,59.060312,observado
+EE.UU.,1959-01-01,56.110741,observado
+EE.UU.,1960-01-01,54.291013,observado
+EE.UU.,1961-01-01,52.954169,observado
+EE.UU.,1962-01-01,50.844126,observado
+EE.UU.,1963-01-01,49.435849,observado
+EE.UU.,1964-01-01,46.916451,observado
+EE.UU.,1965-01-01,44.0597,observado
+EE.UU.,1966-01-01,40.530483,observado
+EE.UU.,1967-01-01,39.110526,observado
+EE.UU.,1968-01-01,38.132573,observado
+EE.UU.,1969-01-01,35.899756,observado
+EE.UU.,1970-01-01,35.675551,observado
+EE.UU.,1971-01-01,36.166578,observado
+EE.UU.,1972-01-01,35.144792,observado
+EE.UU.,1973-01-01,33.65507,observado
+EE.UU.,1974-01-01,32.238041,observado
+EE.UU.,1975-01-01,33.141206,observado
+EE.UU.,1976-01-01,34.484895,observado
+EE.UU.,1977-01-01,34.773949,observado
+EE.UU.,1978-01-01,33.825602,observado
+EE.UU.,2001-01-01,53.331,observado
+EE.UU.,2002-01-01,55.723,observado
+EE.UU.,2003-01-01,58.803,observado
+EE.UU.,2004-01-01,66.277,observado
+EE.UU.,2005-01-01,65.608,observado
+EE.UU.,2006-01-01,64.343,observado
+EE.UU.,2007-01-01,64.739,observado
+EE.UU.,2008-01-01,73.59,observado
+EE.UU.,2009-01-01,86.787,observado
+EE.UU.,2010-01-01,95.347,observado
+EE.UU.,2011-01-01,99.681,observado
+EE.UU.,2012-01-01,103.244,observado
+EE.UU.,2013-01-01,104.522,observado
+EE.UU.,2014-01-01,104.429,observado
+EE.UU.,2015-01-01,104.854,observado
+EE.UU.,2016-01-01,106.78,observado
+EE.UU.,2017-01-01,105.728,observado
+EE.UU.,2018-01-01,107.041,observado
+EE.UU.,2019-01-01,108.197,observado
+EE.UU.,2020-01-01,132.032,observado
+EE.UU.,2021-01-01,124.716,observado
+EE.UU.,2022-01-01,118.806,observado
+EE.UU.,2023-01-01,118.998,observado
+EE.UU.,2024-01-01,120.786,observado
+EE.UU.,2025-01-01,122.464,observado
