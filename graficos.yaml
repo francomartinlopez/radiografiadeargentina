@@ -4975,3 +4975,29 @@ graficos:
       - {nombre: "FMI, Historical Public Debt Database (hasta 1979), vía DBnomics", url: "https://db.nomics.world/IMF/HPDD", nivel: secundaria}
       - {nombre: "FMI, World Economic Outlook (desde 1980), vía DBnomics", url: "https://db.nomics.world/IMF/WEO:latest", nivel: secundaria}
     metodo: "Hasta 1979, base histórica de deuda pública del FMI; desde 1980, World Economic Outlook, que se actualiza dos veces por año. Se descartan las proyecciones del FMI (años posteriores al último cerrado). Ocho países para que cada uno tenga un color propio. Se usa deuda sobre PIB y no en dólares, porque el monto absoluto no se puede comparar entre economías de distinto tamaño; el original comparaba montos en dólares de años distintos con valores ilustrativos. En la Argentina, los saltos de 2002 y 2019-2020 reflejan devaluaciones (la deuda en dólares pesa más sobre un PIB en pesos que cae medido en dólares), y las bajas de 2005 y 2010 los canjes con quita."
+
+  - id: leyes_oficialismo_senado
+    tema: 18
+    titulo: "Votación en el Senado de leyes clave de cada gobierno"
+    que_muestra: "Votos a favor, en contra y abstenciones en la votación en general de proyectos centrales de cada gobierno, en el Senado (72 bancas)."
+    original: {ficha: p389, imagen: 1241}
+    tipo: barras
+    categorias: leyes_oficialismo_senado
+    unidad: "votos"
+    tipo_valor: nivel
+    fuentes:
+      - {nombre: "Resultados publicados en la prensa sobre las actas de votación del Senado (un enlace por ley en el CSV)", url: "https://www.senado.gob.ar/votaciones/actas", nivel: secundaria}
+    metodo: "Votación en general (no artículo por artículo); las bancas que faltan hasta 72 son ausentes. En la Resolución 125 (2008) y la Ley Bases (2024) hubo empate 36 a 36 y desempató el vicepresidente: Cobos votó en contra y Villarruel a favor; su voto está sumado. Magistratura es la media sanción de diciembre de 2005 de la reforma impulsada por la senadora Cristina Kirchner. Reforma laboral: media sanción de febrero de 2026 (en la sanción final, con cambios de Diputados, fueron 42 a 28 con 2 abstenciones). El original incluía la Emergencia Económica de 2002 y el canje de deuda de 2005, cuyos resultados no pude verificar."
+
+  - id: leyes_oficialismo_diputados
+    tema: 18
+    titulo: "Votación en Diputados de leyes clave de cada gobierno"
+    que_muestra: "Votos a favor, en contra y abstenciones en la votación en general de proyectos centrales de cada gobierno, en la Cámara de Diputados (257 bancas)."
+    original: {ficha: p390, imagen: 1242}
+    tipo: barras
+    categorias: leyes_oficialismo_diputados
+    unidad: "votos"
+    tipo_valor: nivel
+    fuentes:
+      - {nombre: "Resultados publicados en la prensa sobre las actas de votación nominal de la Cámara de Diputados (un enlace por ley en el CSV)", url: "https://votaciones.hcdn.gob.ar/", nivel: secundaria}
+    metodo: "Votación en general (no artículo por artículo); las bancas que faltan hasta 257 son ausentes. Ley de Medios (2009): la oposición se retiró del recinto antes de votar. YPF: el tablero marcó 207 a favor y el acta nominal 208. Ley Bases: votación final de junio de 2024, con los cambios del Senado (en abril había sido 142 a 106). Presupuesto 2026: algunas fuentes informan 19 abstenciones. La reforma del Consejo de la Magistratura (2006) se aprobó con alrededor de 149 votos, pero no encontré el resultado completo. El original incluía la Emergencia Económica de 2002 y el canje de deuda de 2005, cuyos resultados no pude verificar."

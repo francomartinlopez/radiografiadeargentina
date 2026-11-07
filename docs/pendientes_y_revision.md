@@ -1,6 +1,6 @@
 # Radiografía: pendientes, sin fuente y cosas a revisar
 
-Actualizado el 7/11/2026. Inventario: 295 con gráfico, 179 sin fuente, 5 pendientes.
+Actualizado el 7/11/2026. Inventario: 298 con gráfico, 181 sin fuente, 0 pendientes.
 
 ## 1. A revisar o corregir (hechos con datos parciales)
 
@@ -20,11 +20,9 @@ Actualizado el 7/11/2026. Inventario: 295 con gráfico, 179 sin fuente, 5 pendie
 
 ## 2. Pendientes de hacer
 
-- **p64** — Países deuda: Paso 5: el Banco Mundial tiene deuda del gobierno central muy incompleta y el FMI no permite descarga automática; pendiente de otra fuente (deuda pública histórica).
-- **p388** — Resultados en cada cámara de los proyectos oficialistas: Promedio estimado de votación en proyectos del oficialismo por gobierno: votos positivos, negativos y ausentes/blanco/abstención, en Diputados (257) y Senado (72).
-- **p389** — Resultado leyes principales del oficialismo senadores: Votaciones individuales en el Senado por proyecto emblemático: Emergencia Económica (2002), Canje de Deuda (2005), Reforma Consejo de la Magistratura (2006), Resolución 125 (2008), Estatización AFJP (2008), Ley de Medios (2009), Expropiación YPF (2012), Pago a holdouts (2016), Reforma previsional (2017), Solidaridad Social (2019), Acuerdo con el FMI (2022), Ley Bases (2024).
-- **p390** — Resultado principales leyes oficialistas diputados: Votaciones individuales en Diputados por proyecto emblemático: mismos proyectos que p389 más Ley Bases (2024), Reforma laboral/cambiaria (2024), Presupuesto (2025).
-- **p391** — Todas las leyes oficialistas ambas cámaras: Evolución temporal de todas las votaciones del oficialismo: votos positivos, negativos y ausentes/blanco en Diputados (257) y Senado (72).
+- Ninguna ficha pendiente. Lo que se podría sumar más adelante:
+  - **Leyes del oficialismo, todas las votaciones (p388, p391):** requiere procesar todas las actas nominales de Diputados y del Senado desde 2001 y clasificar qué proyectos son del oficialismo.
+  - **Leyes clave (p389, p390):** faltan la Emergencia Económica de 2002, el canje de deuda de 2005 y el resultado completo de Magistratura 2006 en Diputados.
 
 ## 3. Sin fuente (no se publican)
 
@@ -227,6 +225,7 @@ Motivo de cada una, por tema. Si conseguís una fuente para alguna, se puede ret
 
 ### Política, instituciones y opinión pública
 
+- **p388 / p391** — Leyes oficialistas, todas las votaciones: ver sección 2.
 - **p387** — Promedio encuestas y resultado electoral real primera y segunda fuerza presidenciales: No hay un promedio de encuestas consolidado y público para 2003-2023; los resultados oficiales sí existen (DINE). Podría armarse a mano con las encuestas de cada elección.
 - **p392** — Audiencia televisiva por gobierno: Audiencias por gobierno: sin serie pública (Kantar IBOPE es paga).
 - **p393** — Audiencia radios por gobierno: Ídem p392.
