@@ -26,7 +26,7 @@ def leer(hojas: dict[str, pd.DataFrame]) -> pd.DataFrame:
     for nombre, df in hojas.items():
         if not re.fullmatch(r"\d{4}", str(nombre).strip()):
             continue
-        texto = df.astype(str).apply(lambda c: c.str.strip().str.lower())
+        texto = df.map(lambda v: "" if pd.isna(v) else str(v).strip().lower())
         enc = next((i for i in range(len(df)) if texto.iat[i, 0].startswith("provincia")), None)
         if enc is None:
             continue
