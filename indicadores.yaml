@@ -827,6 +827,19 @@ series:
   dex_maiz:            {fuente: manual, id: dex_maiz, escalonada: true}
   dex_trigo:           {fuente: manual, id: dex_trigo, escalonada: true}
   censo_extranjeros:   {fuente: manual, id: censo_extranjeros}
+  enfr_tabaco:   {fuente: manual, id: enfr_tabaco}
+  enfr_vapeo:   {fuente: manual, id: enfr_vapeo}
+  enfr_actividad_baja:   {fuente: manual, id: enfr_actividad_baja}
+  mdb_cardio:   {fuente: owid, id: death-rate-by-cause-who-mdb, campo: cause_cardiovascular_diseases}
+  mdb_cancer:   {fuente: owid, id: death-rate-by-cause-who-mdb, campo: cause_malignant_neoplasms}
+  mdb_respiratorias:   {fuente: owid, id: death-rate-by-cause-who-mdb, campo: cause_respiratory_diseases}
+  mdb_infec_resp:   {fuente: owid, id: death-rate-by-cause-who-mdb, campo: cause_respiratory_infections}
+  mdb_infecciosas:   {fuente: owid, id: death-rate-by-cause-who-mdb, campo: cause_infectious_and_parasitic}
+  wb_sh_dyn_0509_arg: {fuente: worldbank, id: "SH.DYN.0509", pais: ARG}
+  wb_sh_dyn_1014_arg: {fuente: worldbank, id: "SH.DYN.1014", pais: ARG}
+  wb_sh_dyn_1519_arg: {fuente: worldbank, id: "SH.DYN.1519", pais: ARG}
+  wb_sh_imm_idpt_arg: {fuente: worldbank, id: "SH.IMM.IDPT", pais: ARG}
+  wb_sh_imm_meas_arg: {fuente: worldbank, id: "SH.IMM.MEAS", pais: ARG}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

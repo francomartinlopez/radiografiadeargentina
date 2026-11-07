@@ -3984,3 +3984,102 @@ graficos:
     fuentes:
       - {nombre: "INDEC: ENDI 2002-2003, Censo 2010 y Estudio Nacional sobre el Perfil de las Personas con Discapacidad 2018", url: "https://www.argentina.gob.ar/sites/default/files/2023/08/datos_estadisticos_sobre_discapacidad_en_argentina.pdf", nivel: primaria}
     metodo: "Los tres relevamientos usan preguntas y poblaciones distintas (el de 2018 cubre a mayores de 6 años en localidades de 5.000 habitantes o más), así que no forman una serie (ENDI 2002-03: encuesta a la población total; Censo 2010: población total): no hay que leer las diferencias como suba o baja. La apertura por tipo de discapacidad física y mental del original (fichas p345 y p346) queda pendiente."
+
+  - id: tabaco_vapeo
+    tema: 14
+    titulo: "Consumo de tabaco y de cigarrillo electrónico en adultos"
+    que_muestra: "Porcentaje de personas de 18 años y más que fuman cigarrillos actualmente, y que usan cigarrillo electrónico."
+    original: {ficha: c1306, imagen: 1306}
+    tipo: lineas
+    frecuencia: A
+    desde: "2005"
+    unidad: "% de la población de 18 años y más"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: enfr_tabaco, nombre: "Fuma cigarrillos"}
+      - {serie: enfr_vapeo, nombre: "Usa cigarrillo electrónico"}
+    fuentes:
+      - {nombre: "INDEC y Ministerio de Salud, Encuesta Nacional de Factores de Riesgo (ediciones 2005, 2009, 2013 y 2018)", url: "https://www.indec.gob.ar/ftp/cuadros/publicaciones/enfr_2018_resultados_definitivos.pdf", nivel: primaria}
+    metodo: "La encuesta se hace cada 4 o 5 años en localidades de 5.000 habitantes o más; la línea une las ediciones y no hay datos entre ellas. El cigarrillo electrónico se preguntó por primera vez en 2018 (1,1% de los adultos; 3,5% entre quienes fuman cigarrillos). La edición 2018 es la última publicada: el original mostraba una serie mensual estimada que no tiene respaldo en datos."
+
+  - id: actividad_fisica_baja
+    tema: 16
+    titulo: "Adultos con actividad física baja"
+    que_muestra: "Porcentaje de personas de 18 años y más que hacen menos actividad física que la mínima recomendada."
+    original: {ficha: p367, imagen: 1362}
+    tipo: lineas
+    frecuencia: A
+    desde: "2009"
+    unidad: "% de la población de 18 años y más"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: enfr_actividad_baja, nombre: "Actividad física baja"}
+    fuentes:
+      - {nombre: "INDEC y Ministerio de Salud, Encuesta Nacional de Factores de Riesgo 2018 (comparación 2009, 2013 y 2018)", url: "https://www.indec.gob.ar/ftp/cuadros/publicaciones/enfr_2018_resultados_definitivos.pdf", nivel: primaria}
+    metodo: "Indicador del cuestionario IPAQ adaptado. El INDEC no publica el dato de 2005 por problemas de comparabilidad y pide leer el indicador con cautela. La línea une las ediciones; no hay datos entre ellas. El original mostraba de 6 a 85 años con cuatro niveles de actividad y un pico en 2020: ninguna fuente oficial lo releva así, por eso se muestra el indicador de adultos de la encuesta."
+
+  - id: mortalidad_por_causa
+    tema: 14
+    titulo: "Mortalidad por grandes grupos de causas"
+    que_muestra: "Defunciones por cada 100.000 habitantes, ajustadas por edad, según la causa registrada en los certificados de defunción."
+    original: {ficha: p339, imagen: 1284}
+    tipo: areas
+    frecuencia: A
+    desde: "2001"
+    unidad: "muertes por 100.000 habitantes (ajustada por edad)"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: mdb_cardio, nombre: "Cardiovasculares"}
+      - {serie: mdb_cancer, nombre: "Cáncer (tumores malignos)"}
+      - {serie: mdb_respiratorias, nombre: "Respiratorias (no infecciosas)"}
+      - {serie: mdb_infec_resp, nombre: "Infecciones respiratorias (neumonía, gripe)"}
+      - {serie: mdb_infecciosas, nombre: "Infecciosas y parasitarias (incluye COVID-19)"}
+    fuentes:
+      - {nombre: "Organización Mundial de la Salud, Mortality Database (datos que envía la DEIS del Ministerio de Salud), procesados por Our World in Data", url: "https://ourworldindata.org/grapher/death-rate-by-cause-who-mdb?country=~ARG", nivel: secundaria}
+      - {nombre: "Ministerio de Salud, DEIS: estadísticas vitales", url: "https://www.argentina.gob.ar/salud/deis", nivel: primaria}
+    metodo: "Tasas anuales estandarizadas por edad (con la población estándar de la OMS), para que el envejecimiento de la población no se confunda con más o menos enfermedad. Por eso no coinciden con las tasas brutas de la DEIS. Las bases mensuales de la DEIS se pueden bajar solo desde su servidor, que hoy rechaza las conexiones automáticas; el original mostraba una serie mensual estimada y proyectada que no se publica. Clasificación de causas de la OMS (CIE-10); en la pandemia, la COVID-19 queda dentro de infecciosas."
+
+  - id: mortalidad_5_19
+    tema: 14
+    titulo: "Mortalidad de niños y adolescentes de 5 a 19 años"
+    que_muestra: "Probabilidad de morir dentro de cada grupo de edad, por cada 1.000 chicos que llegan a esa edad."
+    original: {ficha: p340, imagen: 1348}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "muertes por 1.000"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: wb_sh_dyn_0509_arg, nombre: "5 a 9 años"}
+      - {serie: wb_sh_dyn_1014_arg, nombre: "10 a 14 años"}
+      - {serie: wb_sh_dyn_1519_arg, nombre: "15 a 19 años"}
+    fuentes:
+      - {nombre: "Grupo Interagencial de Naciones Unidas para la Estimación de la Mortalidad en la Niñez (UN IGME), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.DYN.1014?locations=AR", nivel: secundaria}
+    metodo: "Estimaciones anuales de Naciones Unidas hechas sobre los registros de defunciones y la población de la Argentina. Se usan los grupos 5-9, 10-14 y 15-19 años porque no hay una serie publicada para 5 a 17 como pedía el original. En los adolescentes de 15 a 19 pesan sobre todo las causas externas (tránsito, agresiones, suicidios)."
+
+  - id: vacunacion_infantil
+    tema: 14
+    titulo: "Cobertura de vacunación infantil"
+    que_muestra: "Porcentaje de chicos de 12 a 23 meses con la tercera dosis contra difteria, tétanos y tos convulsa (DTP3) y con la vacuna contra el sarampión."
+    original: {ficha: p348, imagen: 1400}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "% de los chicos de 12 a 23 meses"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: wb_sh_imm_idpt_arg, nombre: "DTP3 (difteria, tétanos, tos convulsa)"}
+      - {serie: wb_sh_imm_meas_arg, nombre: "Sarampión"}
+    fuentes:
+      - {nombre: "OMS y UNICEF, estimaciones de cobertura de vacunación (WUENIC), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AR", nivel: secundaria}
+    metodo: "Estimaciones anuales de OMS y UNICEF a partir de los registros del Ministerio de Salud y de encuestas. El original mostraba el porcentaje de adultos que no completan el calendario y sus razones (falta de vacunas o rechazo): no hay ninguna fuente pública con ese dato, así que se muestra la cobertura infantil, que es el indicador oficial de seguimiento."
