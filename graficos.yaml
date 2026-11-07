@@ -4416,3 +4416,16 @@ graficos:
     fuentes:
       - {nombre: "INDEC, Censo Nacional Agropecuario 2018: resultados definitivos, cuadro 2.2", url: "https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf", nivel: primaria}
     metodo: "Explotaciones con límites definidos y mixtas (227.323, con 154,8 millones de hectáreas). El 5% de las explotaciones con más de 2.500 hectáreas reúne el 64% de la superficie; un tercio de las explotaciones tiene menos de 25 hectáreas y ocupa el 0,5%. En total se censaron 249.663 explotaciones (incluidas las que no tienen límites definidos). El original comparaba 2004 con 2025, pero no hubo censos en esos años (el de 2008 quedó incompleto) y 2025 era una estimación."
+
+  - id: discapacidad_por_tipo
+    tema: 14
+    titulo: "Personas con certificado de discapacidad, por tipo de deficiencia"
+    que_muestra: "Distribución de las personas con Certificado Único de Discapacidad (CUD) según el tipo de deficiencia certificada."
+    original: {ficha: p346, imagen: 1398}
+    tipo: barras
+    categorias: discapacidad_tipo
+    unidad: "% de las personas con CUD"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "Agencia Nacional de Discapacidad, Registro Nacional de Personas con Discapacidad (julio de 2023)", url: "https://www.argentina.gob.ar/sites/default/files/2023/08/datos_estadisticos_sobre_discapacidad_en_argentina.pdf", nivel: primaria}
+    metodo: "En julio de 2023 había 1.594.888 personas con CUD, el 3,46% de la población del Censo 2022. Solo cuenta a quienes tramitaron el certificado: muchas personas con discapacidad no lo tienen, por eso el porcentaje es menor que el de los censos y encuestas (ver Población con discapacidad). La deficiencia mental (psicosocial) y la intelectual suman un tercio de los certificados, sin contar los casos con más de un tipo. El original pedía la evolución desde 2001 de la discapacidad mental sobre la población total: no hay una serie publicada."
