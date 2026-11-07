@@ -4544,3 +4544,33 @@ graficos:
       - {nombre: "Sedronar, Observatorio Argentino de Drogas: Estudio Nacional en población de 12 a 65 años sobre consumo de sustancias psicoactivas 2017 (comparación con 2010)", url: "https://www.argentina.gob.ar/sites/default/files/2020/10/oad_2017_estudio_nacional_en_poblacion_sobre_consumo_de_sustancias_psicoactivas_magnitud_del_consumo_de_sustancias_2.pdf", nivel: primaria}
       - {nombre: "INDEC y Sedronar, Encuesta Nacional sobre Consumos y Prácticas de Cuidado 2022 (ENCoPraC)", url: "https://www.argentina.gob.ar/node/394463", nivel: primaria}
     metodo: "Prevalencia de año: personas que declararon haber consumido al menos una vez en los últimos 12 meses (no mide dependencia ni consumo problemático). 2010 y 2017 son comparables entre sí (ciudades de 80.000 habitantes o más, 12 a 65 años). La encuesta de 2022 cambió la población (16 a 75 años, localidades de 2.000 habitantes o más) y en marihuana incluye el uso con fines terapéuticos, así que no es comparable en forma directa. El consumo de pasta base (paco) da menos de 0,5% en las encuestas de hogares, que captan mal a la población más vulnerable. El original mostraba series mensuales simuladas y un gasto en pesos sin fuente (ficha c1301), que no se publican."
+
+  - id: victimas_terrorismo_estado
+    tema: 21
+    titulo: "Víctimas del terrorismo de Estado según los registros oficiales"
+    que_muestra: "Personas desaparecidas y asesinadas por el accionar represivo ilegal del Estado, según los tres relevamientos oficiales."
+    original: {ficha: p444, imagen: 1380}
+    tipo: barras
+    categorias: victimas_oficiales_7383
+    unidad: "personas"
+    tipo_valor: nivel
+    fuentes:
+      - {nombre: "Secretaría de Derechos Humanos, Registro Unificado de Víctimas del Terrorismo de Estado (RUVTE), informe 2015", url: "https://www.argentina.gob.ar/node/323004", nivel: primaria}
+      - {nombre: "CONADEP (1984) e informe de la Secretaría de Derechos Humanos (2006), resumidos por La Nación", url: "https://www.lanacion.com.ar/politica/el-numero-de-30000-desaparecidos-esta-lejos-de-las-victimas-registradas-por-la-conadep-nid25032024/", nivel: secundaria}
+    metodo: "Son listas nominales de víctimas con denuncia formal, no estimaciones del total. Según un informe del RUVTE de 2016, entre octubre de 1973 y diciembre de 1983 hubo 7.010 desapariciones forzadas (662 durante el gobierno de María Estela Martínez de Perón y 6.348 desde el golpe de 1976) y 1.561 asesinatos; el registro tenía además 135 casos en investigación y 789 sin denuncia penal. Ningún registro oficial lista a las personas que fueron secuestradas, torturadas o detenidas en centros clandestinos y sobrevivieron, que el RUVTE describe como la mayoría de las víctimas. Las estimaciones (incluida la cifra de 30.000 desaparecidos de los organismos de derechos humanos) y las víctimas de las organizaciones armadas están en el gráfico siguiente."
+
+  - id: victimas_violencia_politica_estimadas
+    tema: 21
+    titulo: "Víctimas de la violencia política de los años setenta según quién la ejerció (estimaciones)"
+    que_muestra: "Rango de estimaciones de personas desaparecidas o asesinadas por el terrorismo de Estado, por la Triple A y otros grupos parapoliciales, y por las organizaciones armadas (Montoneros, ERP y otras)."
+    original: {ficha: p444, imagen: 1380}
+    tipo: barras
+    categorias: victimas_estimadas_7383
+    unidad: "personas"
+    tipo_valor: nivel
+    estimacion: "Estimaciones de distintas fuentes, de calidad desigual: el rango muestra la cifra más baja y la más alta que se citan con fuente identificable."
+    fuentes:
+      - {nombre: "Terrorismo de Estado: RUVTE 2015 (8.631, piso documentado) y estimación de los organismos de derechos humanos (30.000)", url: "https://www.argentina.gob.ar/node/323004", nivel: estimacion}
+      - {nombre: "Triple A: asesinatos parapoliciales registrados por la CONADEP en 1973-1975 (458) y estimación atribuida a la causa judicial (unos 1.500)", url: "https://www.elheraldo.hn/mundo/detienen-a-7-extriple-a-por-crimenes-politicos-en-anos-70-DLEH602735", nivel: estimacion}
+      - {nombre: "Organizaciones armadas: listas de Hugo Gambini (547) y relevamiento privado del CELTYV, 1969-1979 (1.094 muertos, además de 2.368 heridos y 758 secuestrados)", url: "https://www.lanacion.com.ar/opinion/montoneros-erp-mataron-mas-eta-menos-tiempo-nid2547514", nivel: estimacion}
+    metodo: "Períodos: terrorismo de Estado, 1973-1983 (desaparecidos y asesinados); Triple A y grupos parapoliciales, 1973-1976 (asesinatos); organizaciones armadas, 1969-1979 (asesinatos). No hay un registro oficial de las víctimas de la Triple A separado del de terrorismo de Estado (el RUVTE incluye parte de esas víctimas desde 1973) ni ningún registro oficial de las víctimas de las organizaciones armadas: para ambos se usan relevamientos judiciales, periodísticos y de asociaciones, con criterios y períodos distintos. Las cifras de la Triple A van de 458 asesinatos parapoliciales registrados por la CONADEP a unos 1.500 que se atribuyen a la investigación judicial; otras fuentes hablan de 600 a 2.000. Para las organizaciones armadas, el CELTYV (asociación de familiares de víctimas) cuenta 1.094 muertos entre 1969 y 1979; también publicó una cifra de 13.074 víctimas que no fue verificada por otras fuentes y no se usa. El piso del terrorismo de Estado son las víctimas con nombre y denuncia del RUVTE; la cifra de 30.000 es la estimación que sostienen los organismos de derechos humanos. Con cualquiera de las fuentes, las víctimas del terrorismo de Estado son varias veces más que las de la Triple A y las de las organizaciones armadas."
