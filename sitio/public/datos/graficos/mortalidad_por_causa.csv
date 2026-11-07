@@ -1,0 +1,116 @@
+serie,fecha,valor,tramo
+Cardiovasculares,2001-01-01,215.14868,observado
+Cardiovasculares,2002-01-01,212.10309,observado
+Cardiovasculares,2003-01-01,207.15826,observado
+Cardiovasculares,2004-01-01,194.51419,observado
+Cardiovasculares,2005-01-01,188.04074,observado
+Cardiovasculares,2006-01-01,182.73055,observado
+Cardiovasculares,2007-01-01,187.65993,observado
+Cardiovasculares,2008-01-01,174.23799,observado
+Cardiovasculares,2009-01-01,169.95134,observado
+Cardiovasculares,2010-01-01,179.86206,observado
+Cardiovasculares,2011-01-01,173.71593,observado
+Cardiovasculares,2012-01-01,168.57495,observado
+Cardiovasculares,2013-01-01,161.67715,observado
+Cardiovasculares,2014-01-01,155.36261,observado
+Cardiovasculares,2015-01-01,159.68933,observado
+Cardiovasculares,2016-01-01,165.11478,observado
+Cardiovasculares,2017-01-01,155.17032,observado
+Cardiovasculares,2018-01-01,150.7534,observado
+Cardiovasculares,2019-01-01,150.35957,observado
+Cardiovasculares,2020-01-01,147.20428,observado
+Cardiovasculares,2021-01-01,159.7745,observado
+Cardiovasculares,2022-01-01,159.9662,observado
+Cardiovasculares,2023-01-01,141.70695,observado
+Cáncer (tumores malignos),2001-01-01,130.4307,observado
+Cáncer (tumores malignos),2002-01-01,127.83384,observado
+Cáncer (tumores malignos),2003-01-01,128.98856,observado
+Cáncer (tumores malignos),2004-01-01,127.10331,observado
+Cáncer (tumores malignos),2005-01-01,127.74961,observado
+Cáncer (tumores malignos),2006-01-01,126.57684,observado
+Cáncer (tumores malignos),2007-01-01,125.32999,observado
+Cáncer (tumores malignos),2008-01-01,121.976166,observado
+Cáncer (tumores malignos),2009-01-01,120.80918,observado
+Cáncer (tumores malignos),2010-01-01,120.1701,observado
+Cáncer (tumores malignos),2011-01-01,117.691765,observado
+Cáncer (tumores malignos),2012-01-01,118.36285,observado
+Cáncer (tumores malignos),2013-01-01,117.91295,observado
+Cáncer (tumores malignos),2014-01-01,116.914795,observado
+Cáncer (tumores malignos),2015-01-01,117.679016,observado
+Cáncer (tumores malignos),2016-01-01,115.73574,observado
+Cáncer (tumores malignos),2017-01-01,114.656685,observado
+Cáncer (tumores malignos),2018-01-01,109.964714,observado
+Cáncer (tumores malignos),2019-01-01,109.623726,observado
+Cáncer (tumores malignos),2020-01-01,102.89489,observado
+Cáncer (tumores malignos),2021-01-01,102.074234,observado
+Cáncer (tumores malignos),2022-01-01,99.48733,observado
+Cáncer (tumores malignos),2023-01-01,97.53335,observado
+Respiratorias (no infecciosas),2001-01-01,54.66606,observado
+Respiratorias (no infecciosas),2002-01-01,53.427242,observado
+Respiratorias (no infecciosas),2003-01-01,57.54064,observado
+Respiratorias (no infecciosas),2004-01-01,55.54384,observado
+Respiratorias (no infecciosas),2005-01-01,53.894955,observado
+Respiratorias (no infecciosas),2006-01-01,49.466534,observado
+Respiratorias (no infecciosas),2007-01-01,57.83764,observado
+Respiratorias (no infecciosas),2008-01-01,51.353844,observado
+Respiratorias (no infecciosas),2009-01-01,49.633167,observado
+Respiratorias (no infecciosas),2010-01-01,53.109097,observado
+Respiratorias (no infecciosas),2011-01-01,52.776474,observado
+Respiratorias (no infecciosas),2012-01-01,49.864162,observado
+Respiratorias (no infecciosas),2013-01-01,48.36533,observado
+Respiratorias (no infecciosas),2014-01-01,47.944847,observado
+Respiratorias (no infecciosas),2015-01-01,45.83658,observado
+Respiratorias (no infecciosas),2016-01-01,48.122288,observado
+Respiratorias (no infecciosas),2017-01-01,47.136955,observado
+Respiratorias (no infecciosas),2018-01-01,44.707767,observado
+Respiratorias (no infecciosas),2019-01-01,43.345158,observado
+Respiratorias (no infecciosas),2020-01-01,39.073338,observado
+Respiratorias (no infecciosas),2021-01-01,42.225513,observado
+Respiratorias (no infecciosas),2022-01-01,49.187572,observado
+Respiratorias (no infecciosas),2023-01-01,43.99485,observado
+"Infecciones respiratorias (neumonía, gripe)",2001-01-01,26.697899,observado
+"Infecciones respiratorias (neumonía, gripe)",2002-01-01,26.00794,observado
+"Infecciones respiratorias (neumonía, gripe)",2003-01-01,31.678995,observado
+"Infecciones respiratorias (neumonía, gripe)",2004-01-01,31.260212,observado
+"Infecciones respiratorias (neumonía, gripe)",2005-01-01,31.882814,observado
+"Infecciones respiratorias (neumonía, gripe)",2006-01-01,31.616373,observado
+"Infecciones respiratorias (neumonía, gripe)",2007-01-01,36.25224,observado
+"Infecciones respiratorias (neumonía, gripe)",2008-01-01,31.446857,observado
+"Infecciones respiratorias (neumonía, gripe)",2009-01-01,36.743034,observado
+"Infecciones respiratorias (neumonía, gripe)",2010-01-01,36.581726,observado
+"Infecciones respiratorias (neumonía, gripe)",2011-01-01,36.036823,observado
+"Infecciones respiratorias (neumonía, gripe)",2012-01-01,35.67647,observado
+"Infecciones respiratorias (neumonía, gripe)",2013-01-01,40.84098,observado
+"Infecciones respiratorias (neumonía, gripe)",2014-01-01,41.425716,observado
+"Infecciones respiratorias (neumonía, gripe)",2015-01-01,46.261,observado
+"Infecciones respiratorias (neumonía, gripe)",2016-01-01,55.5495,observado
+"Infecciones respiratorias (neumonía, gripe)",2017-01-01,52.927692,observado
+"Infecciones respiratorias (neumonía, gripe)",2018-01-01,49.750935,observado
+"Infecciones respiratorias (neumonía, gripe)",2019-01-01,50.036976,observado
+"Infecciones respiratorias (neumonía, gripe)",2020-01-01,129.05406,observado
+"Infecciones respiratorias (neumonía, gripe)",2021-01-01,196.3471,observado
+"Infecciones respiratorias (neumonía, gripe)",2022-01-01,92.28985,observado
+"Infecciones respiratorias (neumonía, gripe)",2023-01-01,52.943764,observado
+Infecciosas y parasitarias (incluye COVID-19),2001-01-01,34.71133,observado
+Infecciosas y parasitarias (incluye COVID-19),2002-01-01,33.416393,observado
+Infecciosas y parasitarias (incluye COVID-19),2003-01-01,33.26621,observado
+Infecciosas y parasitarias (incluye COVID-19),2004-01-01,31.638054,observado
+Infecciosas y parasitarias (incluye COVID-19),2005-01-01,32.4413,observado
+Infecciosas y parasitarias (incluye COVID-19),2006-01-01,33.079132,observado
+Infecciosas y parasitarias (incluye COVID-19),2007-01-01,32.0294,observado
+Infecciosas y parasitarias (incluye COVID-19),2008-01-01,29.508364,observado
+Infecciosas y parasitarias (incluye COVID-19),2009-01-01,29.223686,observado
+Infecciosas y parasitarias (incluye COVID-19),2010-01-01,29.704645,observado
+Infecciosas y parasitarias (incluye COVID-19),2011-01-01,28.98691,observado
+Infecciosas y parasitarias (incluye COVID-19),2012-01-01,27.442448,observado
+Infecciosas y parasitarias (incluye COVID-19),2013-01-01,28.102552,observado
+Infecciosas y parasitarias (incluye COVID-19),2014-01-01,27.76978,observado
+Infecciosas y parasitarias (incluye COVID-19),2015-01-01,25.733751,observado
+Infecciosas y parasitarias (incluye COVID-19),2016-01-01,25.76943,observado
+Infecciosas y parasitarias (incluye COVID-19),2017-01-01,25.60529,observado
+Infecciosas y parasitarias (incluye COVID-19),2018-01-01,24.801365,observado
+Infecciosas y parasitarias (incluye COVID-19),2019-01-01,25.251461,observado
+Infecciosas y parasitarias (incluye COVID-19),2020-01-01,22.15513,observado
+Infecciosas y parasitarias (incluye COVID-19),2021-01-01,26.334936,observado
+Infecciosas y parasitarias (incluye COVID-19),2022-01-01,29.562233,observado
+Infecciosas y parasitarias (incluye COVID-19),2023-01-01,30.876202,observado
