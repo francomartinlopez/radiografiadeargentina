@@ -26,7 +26,7 @@ CANDIDATOS = [
     "nobel-laureates-per-capita", "nobel-prizes-by-country", "gdp-per-capita-maddison-project-database",
     "real-wages-in-manufacturing", "average-years-of-schooling",
 ]
-CANDIDATOS_AHORA = ["death-rate-by-cause-who-mdb", "cardiovascular-disease-death-rates", "death-rate-from-cardiovascular-diseases-who-mdb"]
+CANDIDATOS_AHORA: list[str] = []
 URLS_EXTRA = [
     "https://psl.noaa.gov/data/correlation/oni.data",
     "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
@@ -75,6 +75,37 @@ def sondear_deis() -> list[str]:
     return lineas
 
 
+def sondear_presupuesto() -> list[str]:
+    """Estructura de las bases de ejecución presupuestaria (dgsiaf-repo.mecon.gob.ar)."""
+    import zipfile
+    lineas = ["# Ejecución presupuestaria por servicio (crédito mensual)", ""]
+    base = "https://dgsiaf-repo.mecon.gob.ar/repository/pa/datasets/{a}/credito-mensual-{a}.zip"
+    for anio in (1995, 2001, 2004, 2008, 2013, 2019, 2026):
+        url = base.format(a=anio)
+        try:
+            r = requests.get(url, timeout=600, headers={"User-Agent": "radiografia-argentina/1.0"})
+            lineas.append(f"## {anio}: HTTP {r.status_code}, {len(r.content)} bytes")
+            if not r.ok:
+                continue
+            z = zipfile.ZipFile(io.BytesIO(r.content))
+            lineas.append("- archivos: " + ", ".join(f"{i.filename} ({i.file_size})" for i in z.infolist()))
+            nombre = z.namelist()[0]
+            crudo = z.read(nombre)
+            texto = crudo.decode("utf-8", errors="replace")
+            lineas += ["```", texto[:700], "```"]
+            if anio in (2001, 2026):
+                sep = ";" if texto[:500].count(";") > texto[:500].count(",") else ","
+                df = pd.read_csv(io.StringIO(texto), sep=sep, dtype=str, low_memory=False)
+                lineas.append(f"- columnas: {', '.join(df.columns)}; filas {len(df)}")
+                cs = [c for c in df.columns if "servicio" in c.lower()]
+                for c in cs:
+                    lineas.append(f"- **{c}**: " + "; ".join(sorted(df[c].dropna().unique())[:400])[:9000])
+        except Exception as e:
+            lineas.append(f"## {anio}: error {e}")
+        lineas.append("")
+    return lineas
+
+
 def main() -> None:
     CARPETA.mkdir(parents=True, exist_ok=True)
     lineas = ["# Sondeo de Our World in Data", ""]
@@ -103,6 +134,7 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
+    lineas = sondear_presupuesto()
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 
