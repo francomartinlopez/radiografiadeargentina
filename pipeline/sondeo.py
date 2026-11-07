@@ -26,7 +26,7 @@ CANDIDATOS = [
     "nobel-laureates-per-capita", "nobel-prizes-by-country", "gdp-per-capita-maddison-project-database",
     "real-wages-in-manufacturing", "average-years-of-schooling",
 ]
-CANDIDATOS_AHORA: list[str] = ["nobel-prize-laureates-per-capita","nobel-laureates-per-capita","nobel-prizes-by-country","number-of-nobel-prize-laureates","nobel-prize-laureates-by-country"]
+CANDIDATOS_AHORA: list[str] = []
 URLS_EXTRA = [
     "https://psl.noaa.gov/data/correlation/oni.data",
     "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
@@ -216,6 +216,15 @@ def main() -> None:
             lineas.append(linea)
         except Exception as e:
             lineas.append(f"- {slug}: error {e}")
+    for u, n in [("https://api.nobelprize.org/v1/laureate.csv", "nobel.csv"),
+                 ("https://api.worldbank.org/v2/country/ARG;BRA;CHL;URY;ESP;ITA;GBR;USA/indicator/SP.POP.TOTL?format=json&date=2024&per_page=50", "pob.json")]:
+        try:
+            r = requests.get(u, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
+            lineas.append(f"- {u}: HTTP {r.status_code} {len(r.text)}")
+            if r.ok:
+                (CARPETA / n).write_text(r.text, encoding="utf-8")
+        except Exception as e:
+            lineas.append(f"- {u}: error {e}")
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 
