@@ -204,17 +204,20 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
-    lineas = ["# Banco Mundial por base"]
-    for ind in ["SH.DYN.AIDS.ZS", "SH.HIV.INCD.ZS", "SH.STA.STNT.ME.ZS", "SH.STA.OWGH.ME.ZS"]:
-        for base in [None, 2, 16]:
-            params = {"format": "json", "per_page": 3}
-            if base:
-                params["source"] = base
-            try:
-                r = requests.get(f"https://api.worldbank.org/v2/country/ARG/indicator/{ind}", params=params, timeout=60)
-                lineas.append(f"- {ind} base {base}: HTTP {r.status_code} {r.text[:300]}")
-            except Exception as e:
-                lineas.append(f"- {ind} base {base}: error {e}")
+    lineas = ["# OWID salud"]
+    for slug in ["share-of-the-population-infected-with-hiv", "share-of-population-infected-with-hiv-ihme", "hiv-incidence-rate",
+                 "new-hiv-infections-per-1000-uninfected", "share-of-children-who-are-stunted", "share-of-children-who-are-overweight",
+                 "share-of-children-under-5-who-are-overweight", "prevalence-of-overweight-among-children-under-5"]:
+        try:
+            r = requests.get(f"https://ourworldindata.org/grapher/{slug}.csv", params={"v": 1, "csvType": "full", "useColumnShortNames": "true"}, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
+            linea = f"- {slug}: HTTP {r.status_code}"
+            if r.ok:
+                df = pd.read_csv(io.StringIO(r.text))
+                arg = df[df["code"] == "ARG"]
+                linea += f" cols={list(df.columns)} ARG {arg['year'].min()}-{arg['year'].max()} ({len(arg)})"
+            lineas.append(linea)
+        except Exception as e:
+            lineas.append(f"- {slug}: error {e}")
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 
