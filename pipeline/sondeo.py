@@ -216,9 +216,15 @@ def main() -> None:
             lineas.append(linea)
         except Exception as e:
             lineas.append(f"- {slug}: error {e}")
-    for u, n in [("https://archivo.infraestructura.gob.ar/dataset/ssisu/20231205_info_publica_datos_barrios.csv", "renabap.txt"),
-                 ("https://transparencia.obraspublicas.gob.ar/cant-familias-barrios-populares.csv", "ren_fam.txt"),
-                 ("https://transparencia.obraspublicas.gob.ar/pct-fam-barrios-populares.csv", "ren_pct.txt")]:
+    import re as _re
+    for pag in ["https://www.bcra.gob.ar/sistema-nacional-de-pagos/", "https://www.bcra.gob.ar/estadisticas-de-medios-de-pago/", "https://www.bcra.gob.ar/PublicacionesEstadisticas/Estadisticas_de_medios_de_pago.asp", "https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Estadisticas_medios_de_pago.asp", "https://www.bcra.gob.ar/informe-mensual-de-pagos-minoristas/"]:
+        try:
+            r = requests.get(pag, timeout=60, headers={"User-Agent": "Mozilla/5.0"})
+            links = sorted(set(_re.findall(r'href="([^"]+\.(?:xlsx?|xlsm|csv|zip))"', r.text, _re.I)))
+            lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:40]))
+        except Exception as e:
+            lineas.append(f"- {pag}: error {e}")
+    for u, n in []:
         try:
             r = requests.get(u, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
             lineas.append(f"- {u}: HTTP {r.status_code} {len(r.text)}")

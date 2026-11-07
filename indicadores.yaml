@@ -941,6 +941,7 @@ series:
   wb_sh_dyn_nmrt_usa: {fuente: worldbank, id: "SH.DYN.NMRT", pais: USA}
   aprender_prim_lengua:   {fuente: manual, id: aprender_prim_lengua}
   aprender_prim_matematica:   {fuente: manual, id: aprender_prim_matematica}
+  afac_flota:   {fuente: manual, id: afac_flota}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
