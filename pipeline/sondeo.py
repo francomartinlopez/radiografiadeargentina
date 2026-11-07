@@ -216,7 +216,7 @@ def main() -> None:
             lineas.append(linea)
         except Exception as e:
             lineas.append(f"- {slug}: error {e}")
-    for u, n in [("https://api.nobelprize.org/v1/laureate.csv", "nobel.csv"),
+    for u, n in [("https://api.nobelprize.org/v1/laureate.csv", "nobel.txt"),
                  ("https://api.worldbank.org/v2/country/ARG;BRA;CHL;URY;ESP;ITA;GBR;USA/indicator/SP.POP.TOTL?format=json&date=2024&per_page=50", "pob.json")]:
         try:
             r = requests.get(u, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
