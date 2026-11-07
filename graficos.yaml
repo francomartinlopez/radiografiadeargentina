@@ -3912,3 +3912,30 @@ graficos:
     tramos:
       - {desde: "2008-03", hasta: "2008-06", tipo: estimado, nota: "Resolución 125: retenciones móviles; se muestra el máximo estimado por la BCR."}
       - {desde: "2018-09", hasta: "2019-11", tipo: estimado, nota: "12% con tope de $4 por dólar: alícuota efectiva calculada con el dólar mayorista del mes."}
+
+  - id: vetos_presidenciales
+    tema: 18
+    titulo: "Vetos presidenciales desde 1983"
+    que_muestra: "Leyes vetadas por cada presidente (en forma total o parcial) y cuántos de esos vetos superó el Congreso con dos tercios de los votos."
+    original: {ficha: p397, imagen: 1249}
+    tipo: barras
+    categorias: vetos
+    unidad: "leyes"
+    tipo_valor: nivel
+    fuentes:
+      - {nombre: "Chequeado, ranking de vetos presidenciales (en base a la Dirección de Información Parlamentaria del Congreso)", url: "https://chequeado.com/el-explicador/ranking-de-los-vetos-presidenciales-como-se-ubica-javier-milei-respecto-de-otros-presidentes/", nivel: secundaria}
+      - {nombre: "Ámbito y Observatorio Ciudad (insistencias del Congreso)", url: "https://observatoriociudad.org/el-escudo-del-veto/", nivel: terciaria}
+    metodo: "Cantidad de leyes vetadas por mandato, según el registro de la Dirección de Información Parlamentaria compilado por Chequeado (actualizado al 15 de septiembre de 2025). Los vetos de Milei posteriores a esa fecha se agregarán con una fuente que los cuente con el mismo criterio. Insistencias: leyes vetadas que el Congreso volvió a aprobar con dos tercios en ambas cámaras (para Milei: financiamiento universitario, emergencia pediátrica y emergencia en discapacidad, en 2025)."
+
+  - id: vetos_por_anio
+    tema: 18
+    titulo: "Vetos por año de gobierno"
+    que_muestra: "Leyes vetadas por año de mandato de cada presidente desde 1983."
+    original: {ficha: p397, imagen: 1249}
+    tipo: barras
+    categorias: vetos_por_anio
+    unidad: "vetos por año"
+    tipo_valor: nivel
+    fuentes:
+      - {nombre: "Chequeado, ranking de vetos presidenciales", url: "https://chequeado.com/el-explicador/ranking-de-los-vetos-presidenciales-como-se-ubica-javier-milei-respecto-de-otros-presidentes/", nivel: secundaria}
+    metodo: "Total de vetos dividido por los años de mandato (para Milei, hasta septiembre de 2025). Corrige que los mandatos tengan distinta duración: Duhalde y De la Rúa, en presidencias cortas y de crisis, son los que más vetaron por año."
