@@ -217,10 +217,10 @@ def main() -> None:
         except Exception as e:
             lineas.append(f"- {slug}: error {e}")
     import re as _re
-    for pag in ["https://www.bcra.gob.ar/informe-de-pagos-minoristas/", "https://www.bcra.gob.ar/en/retail-payments-report/", "https://www.bcra.gob.ar/informe-mensual-de-pagos-minoristas/", "https://www.bcra.gob.ar/pagos-minoristas/"]:
+    for pag in ["https://www.bcra.gob.ar/listado-informe-de-pagos-minoristas/", "https://www.bcra.gob.ar/informe-de-pagos-minoristas/"]:
         try:
             r = requests.get(pag, timeout=60, headers={"User-Agent": "radiografia-argentina/1.0"})
-            links = sorted(set(h for h in _re.findall(r'href="([^"]+)"', r.text, _re.I) if _re.search(r'inorist|retail|pagos', h, _re.I)))
+            links = sorted(set(h for h in _re.findall(r'href="([^"]+)"', r.text, _re.I) if _re.search(r'pdf|xls|csv|zip', h, _re.I)))
             lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:300]))
         except Exception as e:
             lineas.append(f"- {pag}: error {e}")
