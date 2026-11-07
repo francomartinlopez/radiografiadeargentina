@@ -193,10 +193,27 @@ calculos:
     operacion: suma
     a: venta_nafta_super
     b: venta_nafta_comun
-  venta_naftas:
+  venta_naftas_tabla:
     operacion: suma
     a: venta_naftas_parcial
     b: venta_nafta_premium
+  # Desde dic-2025 la tabla total dejó de publicarse: se estima con las cuatro grandes (YPF, Shell,
+  # Axion, Raízen) por el cociente total/cuatro grandes de dic-2024 a nov-2025 (gasoil 1,054; naftas 1,040).
+  benef_auh_ext:
+    operacion: concatenar
+    tramos: [{serie: benef_auh, hasta: "2025-09"}, {serie: benef_auh_total}]
+  gasoil_cuatro_grandes:
+    operacion: combinacion
+    terminos: {gasoil_ypf: 0.001054, gasoil_shell: 0.001054, gasoil_axion: 0.001054, gasoil_raizen: 0.001054}
+  naftas_cuatro_grandes:
+    operacion: combinacion
+    terminos: {naftas_ypf: 0.00104, naftas_shell: 0.00104, naftas_axion: 0.00104, naftas_raizen: 0.00104}
+  venta_gasoil_ext:
+    operacion: concatenar
+    tramos: [{serie: venta_gasoil, hasta: "2025-11"}, {serie: gasoil_cuatro_grandes}]
+  venta_naftas:
+    operacion: concatenar
+    tramos: [{serie: venta_naftas_tabla, hasta: "2025-11"}, {serie: naftas_cuatro_grandes}]
   ucii_largo:
     operacion: concatenar
     tramos: [{serie: ucii_2006, hasta: "2015-12"}, {serie: ucii}]
@@ -1661,11 +1678,13 @@ graficos:
     flujo: true
     medida_inicial: acumulado_12m
     series:
-      - {serie: venta_gasoil, nombre: "Gasoil"}
+      - {serie: venta_gasoil_ext, nombre: "Gasoil"}
       - {serie: venta_naftas, nombre: "Naftas (todas)"}
+    tramos:
+      - {desde: "2025-12", tipo: estimado, nota: "La Secretaría de Energía dejó de publicar el total; se estima con las ventas de YPF, Shell, Axion y Raízen y su peso habitual en el total."}
     fuentes:
       - {nombre: "Secretaría de Energía, Res. 1104/2004: producción y ventas de derivados", url: "https://datos.gob.ar/dataset/energia-refinacion-comercializacion-petroleo-gas-derivados-tablas-dinamicas", nivel: primaria}
-    metodo: "Ventas mensuales de las refinadoras y comercializadoras. Las naftas suman común, súper y premium. La Secretaría de Energía publica esta tabla con varios meses de rezago."
+    metodo: "Ventas mensuales de las refinadoras y comercializadoras. Las naftas suman común, súper y premium. La tabla total por producto se publicó hasta noviembre de 2025; desde diciembre de 2025 ⚠ se estima con las ventas de las cuatro grandes (YPF, Shell, Axion y Raízen), que publican por separado, multiplicadas por el cociente total/cuatro grandes del año anterior (1,054 en gasoil y 1,040 en naftas; entre 2024 y 2025 osciló entre 1,04 y 1,07). La Secretaría de Energía publica con varios meses de rezago."
 
   - id: credito_empresas
     tema: 5
@@ -1842,12 +1861,12 @@ graficos:
     tipo_valor: nivel
     medida_inicial: nivel
     series:
-      - {serie: benef_auh, sin_ceros: true, nombre: "AUH (por hijo)"}
+      - {serie: benef_auh_ext, sin_ceros: true, nombre: "AUH (por hijo)"}
       - {serie: benef_desempleo, sin_ceros: true, nombre: "Seguro de desempleo"}
       - {serie: benef_aue, sin_ceros: true, nombre: "AUE (embarazo)"}
     fuentes:
       - {nombre: "ANSES, Transparencia y datos abiertos: prestaciones por programa", url: "https://www.anses.gob.ar/institucional/datos-abiertos", nivel: primaria}
-    metodo: "Prestaciones liquidadas cada mes; los meses que la fuente informa en cero (sin dato) se omiten. La AUH se cuenta por hijo, no por familia. Las becas Progresar solo tienen serie mensual publicada hasta 2015 y no se incluyen. Los planes del Ministerio de Desarrollo Social / Capital Humano (Potenciar Trabajo, Volver al Trabajo, Tarjeta Alimentar) no están en esta fuente: quedan para el lote 3. Reúne las fichas p83 y p86."
+    metodo: "Prestaciones liquidadas cada mes; los meses que la fuente informa en cero (sin dato) se omiten. La AUH se cuenta por hijo, no por familia. Las becas Progresar solo tienen serie mensual publicada hasta 2015 y no se incluyen. Los planes del Ministerio de Desarrollo Social / Capital Humano (Potenciar Trabajo, Volver al Trabajo, Tarjeta Alimentar) no están en esta fuente: quedan para el lote 3. Reúne las fichas p83 y p86. Desde octubre de 2025 la AUH sale del Boletín Mensual de AUH de ANSES (la serie de datos abiertos se cortó en septiembre). El seguro de desempleo y la AUE no tienen datos publicados después de septiembre de 2025."
 
   - id: monto_auh_real
     tema: 3
@@ -2126,16 +2145,16 @@ graficos:
     - serie: imf_pcpipch_usa
       nombre: EE.UU.
     fuentes:
-    - nombre: Banco Mundial, World Development Indicators
-      url: https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
+    - nombre: FMI, World Economic Outlook (vía DBnomics)
+      url: https://db.nomics.world/IMF/WEO:latest
       nivel: secundaria
       nota: Compila datos oficiales de cada país con criterios comunes
-    metodo: "Serie del Banco Mundial (FMI, International Financial Statistics). Para la Argentina el Banco Mundial solo tiene datos desde 2018 (no reconoce el IPC intervenido de 2007-2015), así que se usa la variación del promedio anual del IPC empalmado de este sitio (ver Inflación minorista), que se calcula igual. Empieza en 1995 para que las hiperinflaciones de 1989-1990 (Argentina, más de 3.000%) y 1990-1994 (Brasil) no aplasten el resto del gráfico."
+    metodo: "Variación del promedio anual de precios al consumidor según el World Economic Outlook del FMI (sin proyecciones). Para la Argentina los organismos internacionales no reconocen el IPC intervenido de 2007-2015, así que se usa la variación del promedio anual del IPC empalmado de este sitio (ver Inflación minorista), que se calcula igual. Empieza en 1995 para que las hiperinflaciones de 1989-1990 (Argentina, más de 3.000%) y 1990-1994 (Brasil) no aplasten el resto del gráfico."
 
   - id: gasto_paises
     tema: 3
     titulo: 'Gasto público: Argentina y otros países'
-    que_muestra: Gasto del gobierno central como % del PIB.
+    que_muestra: Gasto del gobierno general (Nación, provincias y municipios) como % del PIB.
     original:
       ficha: p65
       imagen: 1180
@@ -2166,16 +2185,16 @@ graficos:
     - serie: imf_ggx_ngdp_usa
       nombre: EE.UU.
     fuentes:
-    - nombre: Banco Mundial, World Development Indicators
-      url: https://data.worldbank.org/indicator/GC.XPN.TOTL.GD.ZS
+    - nombre: FMI, World Economic Outlook (vía DBnomics)
+      url: https://db.nomics.world/IMF/WEO:latest
       nivel: secundaria
       nota: Compila datos oficiales de cada país con criterios comunes
-    metodo: "Gasto del gobierno central como % del PIB, Banco Mundial (FMI, GFS). No incluye provincias ni municipios: en países federales (Argentina, Brasil, México, EE.UU.) subestima el gasto público total."
+    metodo: "Gasto total del gobierno general (Nación, provincias y municipios, con seguridad social) como % del PIB, según el World Economic Outlook del FMI, que se actualiza en abril y octubre. Se descartan las proyecciones (años posteriores al último cerrado). Al incluir todos los niveles de gobierno, la comparación entre países federales y unitarios es homogénea."
 
   - id: ingresos_estado_paises
     tema: 3
     titulo: 'Ingresos del Estado: Argentina y otros países'
-    que_muestra: Ingresos del gobierno central (impuestos, aportes y otros) como % del PIB.
+    que_muestra: Ingresos del gobierno general (Nación, provincias y municipios; impuestos, aportes y otros) como % del PIB.
     original:
       ficha: p60
       imagen: 1131
@@ -2206,11 +2225,11 @@ graficos:
     - serie: imf_ggr_ngdp_usa
       nombre: EE.UU.
     fuentes:
-    - nombre: Banco Mundial, World Development Indicators
-      url: https://data.worldbank.org/indicator/GC.REV.XGRT.GD.ZS
+    - nombre: FMI, World Economic Outlook (vía DBnomics)
+      url: https://db.nomics.world/IMF/WEO:latest
       nivel: secundaria
       nota: Compila datos oficiales de cada país con criterios comunes
-    metodo: Ingresos del gobierno central (sin donaciones) como % del PIB, Banco Mundial (FMI, GFS). No incluye provincias ni municipios. La presión sobre el sector formal (descontando la economía informal) que mostraba el original es una estimación y queda para el lote 6. Reúne las fichas p60 y p61.
+    metodo: Ingresos totales del gobierno general (Nación, provincias y municipios, con seguridad social) como % del PIB, según el World Economic Outlook del FMI; se descartan las proyecciones. La presión sobre el sector formal (descontando la economía informal) que mostraba el original es una estimación y queda para el lote 6. Reúne las fichas p60 y p61.
 
   - id: balanza_comercial_paises
     tema: 4

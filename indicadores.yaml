@@ -507,30 +507,30 @@ series:
   wb_ny_gdp_pcap_pp_kd_esp: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: ESP}
   wb_ny_gdp_pcap_pp_kd_ita: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: ITA}
   wb_ny_gdp_pcap_pp_kd_usa: {fuente: worldbank, id: "NY.GDP.PCAP.PP.KD", pais: USA}
-  imf_pcpipch_arg: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: ARG}
-  imf_pcpipch_bra: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: BRA}
-  imf_pcpipch_chl: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: CHL}
-  imf_pcpipch_ury: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: URY}
-  imf_pcpipch_mex: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: MEX}
-  imf_pcpipch_esp: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: ESP}
-  imf_pcpipch_ita: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: ITA}
-  imf_pcpipch_usa: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: USA}
-  imf_ggx_ngdp_arg: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: ARG}
-  imf_ggx_ngdp_bra: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: BRA}
-  imf_ggx_ngdp_chl: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: CHL}
-  imf_ggx_ngdp_ury: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: URY}
-  imf_ggx_ngdp_mex: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: MEX}
-  imf_ggx_ngdp_esp: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: ESP}
-  imf_ggx_ngdp_ita: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: ITA}
-  imf_ggx_ngdp_usa: {fuente: worldbank, id: "GC.XPN.TOTL.GD.ZS", pais: USA}
-  imf_ggr_ngdp_arg: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: ARG}
-  imf_ggr_ngdp_bra: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: BRA}
-  imf_ggr_ngdp_chl: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: CHL}
-  imf_ggr_ngdp_ury: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: URY}
-  imf_ggr_ngdp_mex: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: MEX}
-  imf_ggr_ngdp_esp: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: ESP}
-  imf_ggr_ngdp_ita: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: ITA}
-  imf_ggr_ngdp_usa: {fuente: worldbank, id: "GC.REV.XGRT.GD.ZS", pais: USA}
+  imf_pcpipch_arg: {fuente: dbnomics, serie: "IMF/WEO:latest/ARG.PCPIPCH.pcent_change"}
+  imf_pcpipch_bra: {fuente: dbnomics, serie: "IMF/WEO:latest/BRA.PCPIPCH.pcent_change"}
+  imf_pcpipch_chl: {fuente: dbnomics, serie: "IMF/WEO:latest/CHL.PCPIPCH.pcent_change"}
+  imf_pcpipch_ury: {fuente: dbnomics, serie: "IMF/WEO:latest/URY.PCPIPCH.pcent_change"}
+  imf_pcpipch_mex: {fuente: dbnomics, serie: "IMF/WEO:latest/MEX.PCPIPCH.pcent_change"}
+  imf_pcpipch_esp: {fuente: dbnomics, serie: "IMF/WEO:latest/ESP.PCPIPCH.pcent_change"}
+  imf_pcpipch_ita: {fuente: dbnomics, serie: "IMF/WEO:latest/ITA.PCPIPCH.pcent_change"}
+  imf_pcpipch_usa: {fuente: dbnomics, serie: "IMF/WEO:latest/USA.PCPIPCH.pcent_change"}
+  imf_ggx_ngdp_arg: {fuente: dbnomics, serie: "IMF/WEO:latest/ARG.GGX_NGDP.pcent_gdp"}
+  imf_ggx_ngdp_bra: {fuente: dbnomics, serie: "IMF/WEO:latest/BRA.GGX_NGDP.pcent_gdp"}
+  imf_ggx_ngdp_chl: {fuente: dbnomics, serie: "IMF/WEO:latest/CHL.GGX_NGDP.pcent_gdp"}
+  imf_ggx_ngdp_ury: {fuente: dbnomics, serie: "IMF/WEO:latest/URY.GGX_NGDP.pcent_gdp"}
+  imf_ggx_ngdp_mex: {fuente: dbnomics, serie: "IMF/WEO:latest/MEX.GGX_NGDP.pcent_gdp"}
+  imf_ggx_ngdp_esp: {fuente: dbnomics, serie: "IMF/WEO:latest/ESP.GGX_NGDP.pcent_gdp"}
+  imf_ggx_ngdp_ita: {fuente: dbnomics, serie: "IMF/WEO:latest/ITA.GGX_NGDP.pcent_gdp"}
+  imf_ggx_ngdp_usa: {fuente: dbnomics, serie: "IMF/WEO:latest/USA.GGX_NGDP.pcent_gdp"}
+  imf_ggr_ngdp_arg: {fuente: dbnomics, serie: "IMF/WEO:latest/ARG.GGR_NGDP.pcent_gdp"}
+  imf_ggr_ngdp_bra: {fuente: dbnomics, serie: "IMF/WEO:latest/BRA.GGR_NGDP.pcent_gdp"}
+  imf_ggr_ngdp_chl: {fuente: dbnomics, serie: "IMF/WEO:latest/CHL.GGR_NGDP.pcent_gdp"}
+  imf_ggr_ngdp_ury: {fuente: dbnomics, serie: "IMF/WEO:latest/URY.GGR_NGDP.pcent_gdp"}
+  imf_ggr_ngdp_mex: {fuente: dbnomics, serie: "IMF/WEO:latest/MEX.GGR_NGDP.pcent_gdp"}
+  imf_ggr_ngdp_esp: {fuente: dbnomics, serie: "IMF/WEO:latest/ESP.GGR_NGDP.pcent_gdp"}
+  imf_ggr_ngdp_ita: {fuente: dbnomics, serie: "IMF/WEO:latest/ITA.GGR_NGDP.pcent_gdp"}
+  imf_ggr_ngdp_usa: {fuente: dbnomics, serie: "IMF/WEO:latest/USA.GGR_NGDP.pcent_gdp"}
   wb_ne_rsb_gnfs_zs_arg: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: ARG}
   wb_ne_rsb_gnfs_zs_bra: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: BRA}
   wb_ne_rsb_gnfs_zs_chl: {fuente: worldbank, id: "NE.RSB.GNFS.ZS", pais: CHL}
@@ -958,6 +958,15 @@ series:
   deuda_weo_gbr:   {fuente: dbnomics, serie: "IMF/WEO:latest/GBR.GGXWDG_NGDP.pcent_gdp"}
   deuda_hpdd_usa:   {fuente: dbnomics, serie: "IMF/HPDD/A.US.GGXWDG_GDP"}
   deuda_weo_usa:   {fuente: dbnomics, serie: "IMF/WEO:latest/USA.GGXWDG_NGDP.pcent_gdp"}
+  gasoil_ypf:      {fuente: datosgobar, id: "365.3_VENTAS_DE_YPF__20"}
+  gasoil_shell:    {fuente: datosgobar, id: "365.3_VENTAS_DE_ELL__22"}
+  gasoil_axion:    {fuente: datosgobar, id: "365.3_VENTAS_DE_ION__26"}
+  gasoil_raizen:   {fuente: datosgobar, id: "365.3_VENTAS_DE_RAS__26"}
+  naftas_ypf:      {fuente: datosgobar, id: "365.3_VENTAS_DE_YPF_I__20"}
+  naftas_shell:    {fuente: datosgobar, id: "365.3_VENTAS_DE_ELL_IV__22"}
+  naftas_axion:    {fuente: datosgobar, id: "365.3_VENTAS_DE_ION_II__26"}
+  naftas_raizen:   {fuente: datosgobar, id: "365.3_VENTAS_DE_RAS_V__26"}
+  benef_auh_total: {fuente: datosgobar, id: "189.1_TOTAL_AUHAUH_0_0_9"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
