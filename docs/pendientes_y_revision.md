@@ -4,7 +4,7 @@ Actualizado el 7/11/2026. Inventario: 301 con gráfico, 178 sin fuente, 0 pendie
 
 ## 1. A revisar o corregir (hechos con datos parciales)
 
-- **Cheques rechazados (p140, p141):** el BCRA publica el % de rechazo sin fondos solo en el Informe Mensual de Pagos Minoristas (PDF). Se podría armar la serie a mano con esos informes o buscar el Excel en la web nueva del BCRA.
+- **Cheques rechazados (p140, p141):** el BCRA publica el % de rechazo sin fondos solo en el Informe Mensual de Pagos Minoristas (PDF) y no está en su API de variables. Datos sueltos encontrados: 1,14% (promedio mar-2019/feb-2020), 6% (mayo 2020), 0,65% (mayo 2021), 0,7% (sep-2022), 2,2% (marzo y abril 2026). Haría falta bajar los ~80 informes mensuales para tener la serie.
 - **Encuestas vs. resultados (p387):** no hay promedio de encuestas consolidado; se puede armar a mano elección por elección (2003-2023) si vale la pena.
 - **Cartera de las AFJP 2008 (p448):** las cifras no coinciden entre fuentes (títulos públicos 55% a 60%). Falta un boletín de la SAFJP de septiembre/octubre de 2008 para fijarlas.
 - **Aprender 6° grado (aprender_primaria):** falta el dato nacional de matemática 2021; 2023 tiene dos versiones (51,4 y 51,5).
@@ -18,7 +18,7 @@ Actualizado el 7/11/2026. Inventario: 301 con gráfico, 178 sin fuente, 0 pendie
 - **Tasas sobre el parque automotor:** hechas como total (robos_por_vehiculo y siniestros_por_vehiculo). Por tipo de vehículo (p265, p267, p268, p270, p272-p274) no hay datos públicos.
 - **Mortalidad de 5 a 17 años (p341):** marcada sin fuente, pero ya existe el gráfico mortalidad_5_19 (Banco Mundial, 5 a 19 años). Revisar si se la da por resuelta.
 
-- **Pasivos remunerados del BCRA (base_y_pasivos_bcra, pasivos_sobre_base):** la serie de letras del balance del BCRA en datos.gob.ar se cortó en octubre de 2025; falta buscar el reemplazo en la API del BCRA.
+- **Pasivos remunerados del BCRA (base_y_pasivos_bcra, pasivos_sobre_base):** la serie del balance del BCRA en datos.gob.ar se cortó en octubre de 2025. La API del BCRA mide los pases con otro criterio (da cero desde noviembre de 2025), así que no sirve para continuarla; queda esperar que vuelva a publicarse o buscar el balance semanal en la web del BCRA.
 - **Seguro de desempleo y AUE:** sin datos publicados después de septiembre de 2025 (la AUH ya se extendió con el Boletín Mensual de ANSES).
 - **Combustibles y petróleo:** desde diciembre de 2025 se estiman con las ventas de las cuatro grandes y con el índice de petróleo del INDEC; volver a la tabla oficial si la Secretaría de Energía la retoma.
 
@@ -26,7 +26,7 @@ Actualizado el 7/11/2026. Inventario: 301 con gráfico, 178 sin fuente, 0 pendie
 
 - Ninguna ficha pendiente. Lo que se podría sumar más adelante:
   - **Leyes del oficialismo, todas las votaciones (p388, p391):** requiere procesar todas las actas nominales de Diputados y del Senado desde 2001 y clasificar qué proyectos son del oficialismo.
-  - **Leyes clave (p389, p390):** faltan la Emergencia Económica de 2002, el canje de deuda de 2005 y el resultado completo de Magistratura 2006 en Diputados.
+  - **Leyes clave (p389, p390):** faltan la Emergencia Económica de 2002, el canje de deuda de 2005 y el resultado completo de Magistratura 2006 en Diputados; no aparecen en la prensa digital ni en fuentes abiertas consultadas (habría que ver las actas en el archivo del Congreso).
 
 ## 3. Sin fuente (no se publican)
 

@@ -247,20 +247,14 @@ calculos:
   transferencias_capital:
     operacion: concatenar
     tramos: [{serie: spn_tkap_9306, hasta: "2006-12"}, {serie: spn_tkap_0714, hasta: "2014-12"}, {serie: spn_tkap_17}]
-  letras_bcra_balance:
+  letras_bcra_millones:
     operacion: escala
     a: bcra_letras
     factor: 0.001
-  pases_bcra_balance:
+  pases_bcra_millones:
     operacion: escala
     a: bcra_pases
     factor: 0.001
-  letras_bcra_millones:
-    operacion: concatenar
-    tramos: [{serie: letras_bcra_balance, hasta: "2025-10"}, {serie: bcra_api_leliq}]
-  pases_bcra_millones:
-    operacion: concatenar
-    tramos: [{serie: pases_bcra_balance, hasta: "2025-10"}, {serie: bcra_api_pases}]
   pasivos_remunerados:
     operacion: suma
     a: letras_bcra_millones
@@ -1955,7 +1949,7 @@ graficos:
       - {nombre: "BCRA, Principales variables: base monetaria (promedio mensual)", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp", nivel: primaria}
       - {nombre: "BCRA, Estado de activos y pasivos: letras en pesos y obligaciones por pases (fin de mes)", url: "https://datos.gob.ar/dataset/sspm-activos-pasivos-banco-central-republica-argentina", nivel: primaria}
       - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
-    metodo: "La base monetaria es el promedio del mes; letras y pases son saldos de fin de mes del balance del BCRA. Todo en pesos de hoy. Desde julio de 2024 los pasivos remunerados del BCRA pasan al Tesoro (LEFI y luego LECAP), que no figuran en este balance; el original los sumaba con proyecciones: esa parte queda para el lote 6. El gráfico llega al último mes con balance publicado."
+    metodo: "La base monetaria es el promedio del mes; letras y pases son saldos de fin de mes del balance del BCRA. Todo en pesos de hoy. Desde julio de 2024 los pasivos remunerados del BCRA pasan al Tesoro (LEFI y luego LECAP), que no figuran en este balance; el original los sumaba con proyecciones: esa parte queda para el lote 6. El gráfico llega al último mes con balance publicado en datos.gob.ar (octubre de 2025). La API del BCRA informa los pases pasivos con otro criterio (en cero desde noviembre de 2025, frente a 11,5 billones del balance), así que no se usa para continuar la serie."
 
   - id: pasivos_sobre_base
     tema: 2
