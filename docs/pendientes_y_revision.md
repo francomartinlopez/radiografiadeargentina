@@ -15,8 +15,12 @@ Actualizado el 7/11/2026. Inventario: 298 con gráfico, 181 sin fuente, 0 pendie
 - **Hogares por tramo de ingreso (p157):** se podría hacer procesando microdatos de la EPH (trabajo largo).
 - **Organismos sin cobertura en el original de p39/p100 (Lecaps, boncaps y simultáneas):** sin serie pública consolidada.
 - **Funcionarios procesados/condenados (p396):** eliminado por decisión tuya.
-- **Tasas sobre el parque automotor (p266-p274, robos y accidentes sobre parque):** quedaron sin fuente porque no había parque publicado; ahora existe el parque vivo de AFAC (anual, 2011 y 2016-2025). Se pueden rehacer como robos o siniestros cada 1.000 vehículos (solo total, sin apertura por tipo).
+- **Tasas sobre el parque automotor:** hechas como total (robos_por_vehiculo y siniestros_por_vehiculo). Por tipo de vehículo (p265, p267, p268, p270, p272-p274) no hay datos públicos.
 - **Mortalidad de 5 a 17 años (p341):** marcada sin fuente, pero ya existe el gráfico mortalidad_5_19 (Banco Mundial, 5 a 19 años). Revisar si se la da por resuelta.
+
+- **Pasivos remunerados del BCRA (base_y_pasivos_bcra, pasivos_sobre_base):** la serie de letras del balance del BCRA en datos.gob.ar se cortó en octubre de 2025; falta buscar el reemplazo en la API del BCRA.
+- **Seguro de desempleo y AUE:** sin datos publicados después de septiembre de 2025 (la AUH ya se extendió con el Boletín Mensual de ANSES).
+- **Combustibles y petróleo:** desde diciembre de 2025 se estiman con las ventas de las cuatro grandes y con el índice de petróleo del INDEC; volver a la tabla oficial si la Secretaría de Energía la retoma.
 
 ## 2. Pendientes de hacer
 

@@ -202,6 +202,12 @@ calculos:
   benef_auh_ext:
     operacion: concatenar
     tramos: [{serie: benef_auh, hasta: "2025-09"}, {serie: benef_auh_total}]
+  petroleo_ipi_m3:
+    operacion: combinacion
+    terminos: {minero_petroleo: 24.74}
+  produccion_petroleo_ext:
+    operacion: concatenar
+    tramos: [{serie: produccion_petroleo, hasta: "2025-11"}, {serie: petroleo_ipi_m3}]
   gasoil_cuatro_grandes:
     operacion: combinacion
     terminos: {gasoil_ypf: 0.001054, gasoil_shell: 0.001054, gasoil_axion: 0.001054, gasoil_raizen: 0.001054}
@@ -391,6 +397,24 @@ calculos:
     tramos:
       - {serie: deuda_hpdd_usa, hasta: "1979-01-01"}
       - {serie: deuda_weo_usa}
+  robos_autos_anual:
+    operacion: suma_anual
+    a: dnrpa_robos_autos
+  robos_por_mil_vehiculos:
+    operacion: cociente
+    a: robos_autos_anual
+    b: afac_flota
+    factor: 1000
+  muertos_viales_por_10mil_veh:
+    operacion: cociente
+    a: viales_muertos
+    b: afac_flota
+    factor: 100000
+  heridos_viales_por_10mil_veh:
+    operacion: cociente
+    a: viales_heridos
+    b: afac_flota
+    factor: 10000
   vehiculos_por_mil_hab:
     operacion: cociente
     a: afac_flota
@@ -1425,11 +1449,11 @@ graficos:
     medida_inicial: base_100
     medidas: [base_100, interanual, acumulado_12m]
     series:
-      - {serie: produccion_petroleo, nombre: "Petróleo"}
+      - {serie: produccion_petroleo_ext, nombre: "Petróleo"}
       - {serie: produccion_gas, nombre: "Gas natural"}
     fuentes:
       - {nombre: "Secretaría de Energía, producción de petróleo y gas (capítulo IV / SESCO)", url: "https://www.argentina.gob.ar/economia/energia/hidrocarburos", nivel: primaria}
-    metodo: "Producción mensual: petróleo en miles de m³ y gas en millones de m³. Como tienen unidades distintas, se muestran en base 100 al inicio del período (el acumulado de 12 meses da los volúmenes en sus unidades)."
+    metodo: "Producción mensual: petróleo en miles de m³ y gas en millones de m³. Como tienen unidades distintas, se muestran en base 100 al inicio del período (el acumulado de 12 meses da los volúmenes en sus unidades). La tabla de petróleo de la Secretaría de Energía se publicó hasta noviembre de 2025; desde diciembre se sigue con el índice de petróleo crudo del IPI minero del INDEC, convertido a m³ con su relación constante con la tabla (24,74 miles de m³ por punto del índice entre 2024 y 2025)."
 
   - id: produccion_acero
     tema: 9
@@ -5020,3 +5044,60 @@ graficos:
     fuentes:
       - {nombre: "Resultados publicados en la prensa sobre las actas de votación nominal de la Cámara de Diputados (un enlace por ley en el CSV)", url: "https://votaciones.hcdn.gob.ar/", nivel: secundaria}
     metodo: "Votación en general (no artículo por artículo); las bancas que faltan hasta 257 son ausentes. Ley de Medios (2009): la oposición se retiró del recinto antes de votar. YPF: el tablero marcó 207 a favor y el acta nominal 208. Ley Bases: votación final de junio de 2024, con los cambios del Senado (en abril había sido 142 a 106). Presupuesto 2026: algunas fuentes informan 19 abstenciones. La reforma del Consejo de la Magistratura (2006) se aprobó con alrededor de 149 votos, pero no encontré el resultado completo. El original incluía la Emergencia Económica de 2002 y el canje de deuda de 2005, cuyos resultados no pude verificar."
+
+  - id: siniestros_por_vehiculo
+    tema: 10
+    titulo: "Muertos en siniestros viales cada 100.000 vehículos"
+    que_muestra: "Personas fallecidas en siniestros viales en relación con la cantidad de vehículos en circulación."
+    original: {ficha: p269, imagen: 1266}
+    tipo: lineas
+    frecuencia: A
+    desde: "2011"
+    unidad: "muertos cada 100.000 vehículos"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: muertos_viales_por_10mil_veh, nombre: "Muertos"}
+    fuentes:
+      - {nombre: "Ministerio de Seguridad, Sistema Nacional de Información Criminal (SNIC): víctimas de siniestros viales", url: "https://datos.gob.ar/dataset/seguridad-estadisticas-criminales-republica-argentina-por-provincias", nivel: primaria}
+      - {nombre: "AFAC y Promotive, Flota vehicular circulante (parque vivo)", url: "https://eleconomista.com.ar/autos/en-argentina-hay-158-millones-vehiculos-su-edad-promedio-148-anos-n93924", nivel: secundaria}
+    metodo: "Víctimas registradas por las fuerzas de seguridad (SNIC) dividido el parque vivo de autos, utilitarios, camiones y ómnibus de AFAC, que solo existe para 2011 y 2016-2025 (entre 2012 y 2015 la línea une los puntos). Las víctimas incluyen motociclistas, ciclistas y peatones, pero el parque no incluye motos, que crecieron mucho en estos años: la tasa es una aproximación al riesgo, no una medida exacta. No hay datos públicos por tipo de vehículo, así que no se pueden calcular las tasas por autos, motos, camiones o utilitarios que pedía el original (p270-p274)."
+
+  - id: heridos_por_vehiculo
+    tema: 10
+    titulo: "Heridos en siniestros viales cada 10.000 vehículos"
+    que_muestra: "Personas heridas en siniestros viales en relación con la cantidad de vehículos en circulación."
+    original: {ficha: p271, imagen: 1268}
+    tipo: lineas
+    frecuencia: A
+    desde: "2011"
+    unidad: "heridos cada 10.000 vehículos"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: heridos_viales_por_10mil_veh, nombre: "Heridos"}
+    fuentes:
+      - {nombre: "Ministerio de Seguridad, Sistema Nacional de Información Criminal (SNIC): víctimas de siniestros viales", url: "https://datos.gob.ar/dataset/seguridad-estadisticas-criminales-republica-argentina-por-provincias", nivel: primaria}
+      - {nombre: "AFAC y Promotive, Flota vehicular circulante (parque vivo)", url: "https://eleconomista.com.ar/autos/en-argentina-hay-158-millones-vehiculos-su-edad-promedio-148-anos-n93924", nivel: secundaria}
+    metodo: "Víctimas registradas por las fuerzas de seguridad (SNIC) dividido el parque vivo de autos, utilitarios, camiones y ómnibus de AFAC, que solo existe para 2011 y 2016-2025 (entre 2012 y 2015 la línea une los puntos). Las víctimas incluyen motociclistas, ciclistas y peatones, pero el parque no incluye motos, que crecieron mucho en estos años: la tasa es una aproximación al riesgo, no una medida exacta. No hay datos públicos por tipo de vehículo, así que no se pueden calcular las tasas por autos, motos, camiones o utilitarios que pedía el original (p270-p274)."
+
+  - id: robos_por_vehiculo
+    tema: 10
+    titulo: "Robos de automotores cada 1.000 vehículos"
+    que_muestra: "Denuncias de robo o hurto presentadas en el registro del automotor por cada 1.000 vehículos en circulación."
+    original: {ficha: p266, imagen: 1262}
+    tipo: lineas
+    frecuencia: A
+    desde: "2018"
+    unidad: "robos cada 1.000 vehículos"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: robos_por_mil_vehiculos, nombre: "Robos denunciados en el registro"}
+    fuentes:
+      - {nombre: "DNRPA, trámites de denuncia de robo o hurto (datos.jus.gob.ar)", url: "https://datos.jus.gob.ar/dataset/justicia-robos-recuperos-autos", nivel: primaria}
+      - {nombre: "AFAC y Promotive, Flota vehicular circulante (parque vivo)", url: "https://eleconomista.com.ar/autos/en-argentina-hay-158-millones-vehiculos-su-edad-promedio-148-anos-n93924", nivel: secundaria}
+    metodo: "Suma de los trámites de denuncia de robo o hurto de cada año completo dividido el parque vivo de AFAC. Son solo los robos que el titular denuncia en el registro del automotor (no todos los que se denuncian a la policía), así que la tasa real de robos es mayor. La base no separa autos de utilitarios ni camiones, por eso no se calculan las tasas por tipo de vehículo que pedía el original (p267, p268); para motos no hay parque publicado (p265)."

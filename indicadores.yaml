@@ -967,6 +967,7 @@ series:
   naftas_axion:    {fuente: datosgobar, id: "365.3_VENTAS_DE_ION_II__26"}
   naftas_raizen:   {fuente: datosgobar, id: "365.3_VENTAS_DE_RAS_V__26"}
   benef_auh_total: {fuente: datosgobar, id: "189.1_TOTAL_AUHAUH_0_0_9"}
+  viales_heridos:      {fuente: datosgobar, id: "snic_6_victimas_arg"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

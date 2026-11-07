@@ -226,7 +226,7 @@ function dibujarGobiernos(svg, X, x0, x1, m, H) {
     if (b <= a) return;
     if (i % 2 === 0) svg.append(svgEl("rect", { class: "banda", x: X(a), y: m.t, width: Math.max(0, X(b) - X(a)), height: H - m.t - m.b }));
     if (+fecha(gob.desde) >= x0) svg.append(svgEl("line", { class: "gob-linea", x1: X(a), x2: X(a), y1: m.t, y2: H - m.b }));
-    if (X(b) - X(a) > 36) {
+    if (X(b) - X(a) > gob.corto.length * 5.6 + 8) { // solo si el nombre entra en la franja
       const t = svgEl("text", { class: "banda-txt", x: X(a) + 3, y: m.t + 10 });
       t.textContent = gob.corto;
       svg.append(t);
