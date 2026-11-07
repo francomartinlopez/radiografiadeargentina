@@ -204,12 +204,17 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
-    from pipeline.fuentes import magyp
-    try:
-        lineas = ["# Stock bovino leído", "```", magyp.tabla().to_string(), "```"]
-    except Exception as e:
-        import traceback
-        lineas = ["# Error", "```", traceback.format_exc(), "```"]
+    lineas = ["# Banco Mundial por base"]
+    for ind in ["SH.DYN.AIDS.ZS", "SH.HIV.INCD.ZS", "SH.STA.STNT.ME.ZS", "SH.STA.OWGH.ME.ZS"]:
+        for base in [None, 2, 16]:
+            params = {"format": "json", "per_page": 3}
+            if base:
+                params["source"] = base
+            try:
+                r = requests.get(f"https://api.worldbank.org/v2/country/ARG/indicator/{ind}", params=params, timeout=60)
+                lineas.append(f"- {ind} base {base}: HTTP {r.status_code} {r.text[:300]}")
+            except Exception as e:
+                lineas.append(f"- {ind} base {base}: error {e}")
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 

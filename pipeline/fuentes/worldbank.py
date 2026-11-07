@@ -1,6 +1,8 @@
 """Banco Mundial, World Development Indicators (API pública, sin clave).
 
-definicion: {fuente: worldbank, id: <código del indicador>, pais: <ISO3>}
+definicion: {fuente: worldbank, id: <código del indicador>, pais: <ISO3>, base: <id de base, opcional>}
+Algunos indicadores (salud, nutrición, VIH) no están en los WDI y hay que pedirlos a su base
+(por ejemplo 16 = Health Nutrition and Population Statistics).
 Se baja el indicador una sola vez para todos los países (caché) y se filtra por país.
 Series anuales, fechadas el 1 de enero de cada año.
 """
@@ -16,10 +18,13 @@ URL = "https://api.worldbank.org/v2/country/all/indicator/{indicador}"
 
 
 @lru_cache(maxsize=64)
-def _bajar(indicador: str) -> tuple:
+def _bajar(indicador: str, base: int | None = None) -> tuple:
     filas, pagina, paginas = [], 1, 1
     while pagina <= paginas:
-        r = pedir(URL.format(indicador=indicador), {"format": "json", "per_page": 20000, "page": pagina})
+        params = {"format": "json", "per_page": 20000, "page": pagina}
+        if base:
+            params["source"] = base
+        r = pedir(URL.format(indicador=indicador), params)
         meta, datos = r.json()
         paginas = meta.get("pages", 1)
         filas += [(d["countryiso3code"], d["date"], d["value"]) for d in (datos or [])]
@@ -36,4 +41,4 @@ def parsear(filas, pais: str) -> pd.Series:
 
 
 def extraer(definicion: dict) -> pd.Series:
-    return parsear(_bajar(definicion["id"]), definicion["pais"])
+    return parsear(_bajar(definicion["id"], definicion.get("base")), definicion["pais"])
