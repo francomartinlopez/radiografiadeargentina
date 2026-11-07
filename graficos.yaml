@@ -119,6 +119,18 @@ calculos:
     operacion: escala
     a: cbt
     factor: 3.09
+  ipcf_bajo:  # deciles 1 a 4: el total es el promedio de los 10 deciles (los deciles 1 y 2 no se publican)
+    operacion: combinacion
+    terminos: {ipcf_total: 2.5, ipcf_decil_5: -0.25, ipcf_decil_6: -0.25, ipcf_decil_7: -0.25, ipcf_decil_8: -0.25, ipcf_decil_9: -0.25, ipcf_decil_10: -0.25}
+  ipcf_medio:
+    operacion: combinacion
+    terminos: {ipcf_decil_5: 0.25, ipcf_decil_6: 0.25, ipcf_decil_7: 0.25, ipcf_decil_8: 0.25}
+  ipcf_medio_alto:
+    operacion: combinacion
+    terminos: {ipcf_decil_9: 1}
+  ipcf_alto:
+    operacion: combinacion
+    terminos: {ipcf_decil_10: 1}
   ingreso_pc_en_cbt:
     operacion: cociente
     a: ipcf_total
@@ -4330,3 +4342,25 @@ graficos:
     fuentes:
       - {nombre: "Ministerio de Economía, Gasto Público Consolidado por nivel de gobierno", url: "https://www.argentina.gob.ar/economia/politicaeconomica/macroeconomica/gastopublicoconsolidado", nivel: primaria}
     metodo: "Serie anual oficial, en % del PIB. El gasto de cada nivel se cuenta neto de las transferencias entre niveles (lo que la Nación gira a las provincias figura como gasto de quien lo ejecuta), por eso la suma da el consolidado sin doble conteo. Se publica con unos dos años de rezago. El original mostraba un índice mensual en pesos constantes que no tiene fuente: no hay datos mensuales del gasto provincial."
+
+  - id: ingreso_por_estrato
+    tema: 6
+    titulo: "Ingreso por persona según estrato de ingresos"
+    que_muestra: "Ingreso mensual promedio por persona en hogares de cada estrato, en pesos de hoy: el 40% de menores ingresos, el 40% siguiente, el decil 9 y el 10% más rico."
+    original: {ficha: p167, imagen: 1281}
+    tipo: lineas
+    frecuencia: T
+    desde: "2003-01"
+    unidad: "pesos de hoy por persona por mes"
+    tipo_valor: nivel
+    moneda: ARS
+    medida_inicial: nivel
+    series:
+      - {serie: ipcf_alto, nombre: "10% más rico (decil 10)"}
+      - {serie: ipcf_medio_alto, nombre: "Decil 9"}
+      - {serie: ipcf_medio, nombre: "Deciles 5 a 8"}
+      - {serie: ipcf_bajo, nombre: "40% más pobre (deciles 1 a 4)"}
+    fuentes:
+      - {nombre: "INDEC, EPH: ingreso per cápita familiar por decil (aglomerados urbanos)", url: "https://datos.gob.ar/series/api/series/?ids=301.1_TOTAL_IPCFPCF_0_T_10", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Ingreso per cápita familiar: ingreso total del hogar dividido por sus integrantes; las personas se ordenan en deciles según ese ingreso. Los deciles 1 y 2 no se publican en la serie abierta: el promedio de los deciles 1 a 4 se obtiene del promedio total (que es el promedio de los 10 deciles) menos los deciles 5 a 10. Se usan estratos de ingreso y no clases sociales: la clase depende también de la educación, la ocupación y el patrimonio, que esta serie no mide. Pesos llevados al último mes con dato con el IPC empalmado."

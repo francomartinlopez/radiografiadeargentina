@@ -126,6 +126,8 @@ def insumos_propios(nombre: str, catalogo: dict) -> list[str]:
     for k in ("a", "b", "puente"):
         if c.get(k):
             salida += insumos_propios(c[k], catalogo)
+    for k in c.get("terminos", {}):
+        salida += insumos_propios(k, catalogo)
     return salida
 
 
@@ -209,7 +211,7 @@ def calculos_propios(catalogo: dict, mensuales: dict) -> tuple[dict, list[str]]:
             return
         vistos.add(n)
         c = calculos[n]
-        for dep in [t.get("serie") for t in c.get("tramos", [])] + [c.get(k) for k in ("a", "b", "puente")]:
+        for dep in [t.get("serie") for t in c.get("tramos", [])] + [c.get(k) for k in ("a", "b", "puente")] + list(c.get("terminos", {})):
             if dep:
                 visitar(dep)
         orden.append(n)
@@ -275,6 +277,9 @@ def calculos_propios(catalogo: dict, mensuales: dict) -> tuple[dict, list[str]]:
                 mensuales[nombre] = anual[anual["count"] >= (4 if trimestral else 12)]["mean" if c.get("media") else "sum"]
             elif op == "escala":
                 mensuales[nombre] = mensuales[c["a"]] * c["factor"]
+            elif op == "combinacion":  # suma ponderada: {serie: coeficiente}; solo meses con todas las series
+                partes = [mensuales[k] * float(v) for k, v in c["terminos"].items()]
+                mensuales[nombre] = pd.concat(partes, axis=1).dropna().sum(axis=1)
             else:
                 alertas.append(f"{nombre}: operación '{op}' desconocida")
         except KeyError as e:

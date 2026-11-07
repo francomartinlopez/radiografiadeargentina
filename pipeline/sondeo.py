@@ -122,6 +122,41 @@ def resumir_presupuesto() -> list[str]:
     return lineas
 
 
+PAGINAS = [  # (url, patrón de enlaces a listar)
+    ("https://www.srt.gob.ar/estadisticas/", r"(?i)juic|judic|xls|csv|pdf"),
+    ("https://www.srt.gob.ar/index.php/estadisticas-2/", r"(?i)juic|judic"),
+    ("https://www.bcra.gob.ar/PublicacionesEstadisticas/Informe_mensual_de_pagos_minoristas.asp", r"(?i)xls|pagos|cheq"),
+    ("https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Sistema_nacional_de_pagos.asp", r"(?i)xls|cheq|estad"),
+    ("https://www.bcra.gob.ar/PublicacionesEstadisticas/Publicaciones_estadisticas.asp", r"(?i)cheq|pago"),
+    ("https://datos.magyp.gob.ar/api/3/action/package_show?id=senasa-existencias-bovinas", r"(?i)\.csv|\.xlsx?"),
+    ("https://www.magyp.gob.ar/sitio/areas/bovinos/informacion_interes/informes/index.php", r"(?i)stock|existencia"),
+]
+ARCHIVOS = [
+    "https://datos.magyp.gob.ar/dataset/c19a5875-fb39-48b6-b0b2-234382722afb/resource/52e72aec-4ab6-4d60-8c95-47de21e46eec/download/existencias-bovinas-2008-2019.csv",
+]
+
+
+def sondear_paginas() -> list[str]:
+    import re
+    lineas = ["# Páginas y archivos", ""]
+    for url, patron in PAGINAS:
+        try:
+            r = requests.get(url, timeout=120, headers={"User-Agent": "Mozilla/5.0 radiografia-argentina"})
+            enlaces = sorted(set(re.findall(r'(?:href|url)["=:\s]+"?([^"\'\s<>]+)', r.text)))
+            enlaces = [e for e in enlaces if re.search(patron, e)]
+            lineas += [f"## {url}: HTTP {r.status_code}, {len(r.text)} car."] + [f"- {e}" for e in enlaces[:120]]
+        except Exception as e:
+            lineas.append(f"## {url}: error {e}")
+        lineas.append("")
+    for url in ARCHIVOS:
+        try:
+            r = requests.get(url, timeout=120, headers={"User-Agent": "Mozilla/5.0 radiografia-argentina"})
+            lineas += [f"## {url}: HTTP {r.status_code}", "```", r.content.decode("utf-8", "replace")[:3000], "```", ""]
+        except Exception as e:
+            lineas.append(f"## {url}: error {e}")
+    return lineas
+
+
 def main() -> None:
     CARPETA.mkdir(parents=True, exist_ok=True)
     lineas = ["# Sondeo de Our World in Data", ""]
@@ -150,7 +185,7 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
-    lineas = resumir_presupuesto()
+    lineas = sondear_paginas()
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 
