@@ -1,11 +1,11 @@
 # Radiografía: pendientes, sin fuente y cosas a revisar
 
-Actualizado el 7/11/2026. Inventario: 301 con gráfico, 178 sin fuente, 0 pendientes.
+Actualizado el 7/11/2026. Inventario: 302 con gráfico, 177 sin fuente, 0 pendientes.
 
 ## 1. A revisar o corregir (hechos con datos parciales)
 
 - **Cheques rechazados (p140, p141):** el BCRA publica el % de rechazo sin fondos solo en el Informe Mensual de Pagos Minoristas (PDF) y no está en su API de variables. Datos sueltos encontrados: 1,14% (promedio mar-2019/feb-2020), 6% (mayo 2020), 0,65% (mayo 2021), 0,7% (sep-2022), 2,2% (marzo y abril 2026). Haría falta bajar los ~80 informes mensuales para tener la serie.
-- **Encuestas vs. resultados (p387):** no hay promedio de encuestas consolidado; se puede armar a mano elección por elección (2003-2023) si vale la pena.
+- **Encuestas vs. resultados (p387):** hecho para 2011-2023 (encuestas_vs_resultados). Faltan 2003 y 2007, sin recopilación de encuestas.
 - **Cartera de las AFJP 2008 (p448):** las cifras no coinciden entre fuentes (títulos públicos 55% a 60%). Falta un boletín de la SAFJP de septiembre/octubre de 2008 para fijarlas.
 - **Aprender 6° grado (aprender_primaria):** falta el dato nacional de matemática 2021; 2023 tiene dos versiones (51,4 y 51,5).
 - **Parque automotor (vehiculos_por_habitante):** faltan los informes AFAC 2012-2015; 2016 y 2017 están armados sumando el parque de hasta 20 años y el de más de 20.
@@ -230,7 +230,6 @@ Motivo de cada una, por tema. Si conseguís una fuente para alguna, se puede ret
 ### Política, instituciones y opinión pública
 
 - **p388 / p391** — Leyes oficialistas, todas las votaciones: ver sección 2.
-- **p387** — Promedio encuestas y resultado electoral real primera y segunda fuerza presidenciales: No hay un promedio de encuestas consolidado y público para 2003-2023; los resultados oficiales sí existen (DINE). Podría armarse a mano con las encuestas de cada elección.
 - **p392** — Audiencia televisiva por gobierno: Audiencias por gobierno: sin serie pública (Kantar IBOPE es paga).
 - **p393** — Audiencia radios por gobierno: Ídem p392.
 - **p394** — Audiencia diarios por gobierno: Ídem p392.

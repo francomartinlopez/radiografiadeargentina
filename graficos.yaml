@@ -5101,3 +5101,18 @@ graficos:
       - {nombre: "DNRPA, trámites de denuncia de robo o hurto (datos.jus.gob.ar)", url: "https://datos.jus.gob.ar/dataset/justicia-robos-recuperos-autos", nivel: primaria}
       - {nombre: "AFAC y Promotive, Flota vehicular circulante (parque vivo)", url: "https://eleconomista.com.ar/autos/en-argentina-hay-158-millones-vehiculos-su-edad-promedio-148-anos-n93924", nivel: secundaria}
     metodo: "Suma de los trámites de denuncia de robo o hurto de cada año completo dividido el parque vivo de AFAC. Son solo los robos que el titular denuncia en el registro del automotor (no todos los que se denuncian a la policía), así que la tasa real de robos es mayor. La base no separa autos de utilitarios ni camiones, por eso no se calculan las tasas por tipo de vehículo que pedía el original (p267, p268); para motos no hay parque publicado (p265)."
+
+  - id: encuestas_vs_resultados
+    tema: 18
+    titulo: "Encuestas y resultados en las elecciones presidenciales"
+    que_muestra: "Porcentaje que obtuvo el primero de los dos más votados sobre el total de votos de ambos: promedio de las encuestas de las dos semanas previas y resultado oficial."
+    original: {ficha: p387, imagen: 1239}
+    tipo: barras
+    categorias: encuestas_resultados
+    unidad: "% de los votos de los dos primeros"
+    tipo_valor: tasa
+    estimacion: "Promedio propio de las encuestas publicadas en las dos semanas anteriores a cada elección, tomadas de las tablas de Wikipedia que recopilan los sondeos."
+    fuentes:
+      - {nombre: "Wikipedia, anexos de encuestas de intención de voto para las elecciones presidenciales de 2011, 2015, 2019 y 2023 (recopilan los sondeos publicados en la prensa)", url: "https://es.wikipedia.org/wiki/Anexo:Encuestas_de_intenci%C3%B3n_de_voto_para_las_elecciones_presidenciales_de_Argentina_de_2019", nivel: terciaria}
+      - {nombre: "Dirección Nacional Electoral, resultados oficiales", url: "https://www.argentina.gob.ar/dine/resultados-electorales", nivel: primaria}
+    metodo: "Primeros dos en cada elección: 2011, Kirchner y Alfonsín (PASO) y Kirchner y Binner (1.ª vuelta); 2015, Scioli y Macri (en el balotaje, Macri primero); 2019, Fernández y Macri; 2023, Milei y Juntos por el Cambio (PASO), Massa y Milei (1.ª vuelta) y Milei y Massa (balotaje). Para cada elección se toman los dos candidatos más votados y se calcula qué parte de la suma de ambos obtuvo el primero (así se descuentan los indecisos y el voto en blanco, que cada encuestadora trata distinto). Un 50% sería empate. Se promedian, sin ponderar, todas las encuestas con trabajo de campo terminado en las dos semanas previas (en los balotajes, las versiones sin indecisos). En las PASO de 2023 se compara a Milei con el total de Juntos por el Cambio (Bullrich más Rodríguez Larreta), que fue la segunda fuerza. Los errores más grandes: PASO de 2011 (las encuestas daban a Kirchner 69% del voto de los dos primeros y sacó 81%), PASO de 2019 (53% contra 59%) y PASO de 2023 (Milei 37% contra 52%). En las generales de 2015 y 2019 el error fue al revés: sobrestimaron al primero. No se incluyen 2003 y 2007 porque no hay recopilaciones de encuestas comparables."
