@@ -220,7 +220,7 @@ def main() -> None:
     for pag in ["https://www.bcra.gob.ar/sistema-nacional-de-pagos/", "https://www.bcra.gob.ar/en/payment-system/", "https://www.bcra.gob.ar/sistema-de-pagos/", "https://www.bcra.gob.ar/estadisticas-del-sistema-nacional-de-pagos/"]:
         try:
             r = requests.get(pag, timeout=60, headers={"User-Agent": "Mozilla/5.0"})
-            links = sorted(set(_re.findall(r'href="([^"]+\.(?:xlsx?|xlsm|csv|zip))"', r.text, _re.I)))
+            links = sorted(set(h for h in _re.findall(r'href="([^"]+)"', r.text, _re.I) if _re.search(r'xls|csv|snp|cheq|estad', h, _re.I)))
             lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:40]))
         except Exception as e:
             lineas.append(f"- {pag}: error {e}")
