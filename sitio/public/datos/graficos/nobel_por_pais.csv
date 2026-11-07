@@ -1,0 +1,9 @@
+categoria,fuente_url,valor
+Reino Unido (110),https://api.nobelprize.org/v1/laureate.csv,15.88
+Estados Unidos (299),https://api.nobelprize.org/v1/laureate.csv,8.79
+Italia (20),https://api.nobelprize.org/v1/laureate.csv,3.39
+España (7),https://api.nobelprize.org/v1/laureate.csv,1.43
+Chile (2),https://api.nobelprize.org/v1/laureate.csv,1.01
+Argentina (4),https://api.nobelprize.org/v1/laureate.csv,0.88
+Brasil (1),https://api.nobelprize.org/v1/laureate.csv,0.05
+Uruguay (0),https://api.nobelprize.org/v1/laureate.csv,0.0

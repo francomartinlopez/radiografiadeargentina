@@ -4844,3 +4844,17 @@ graficos:
       - {nombre: "Ministerio de Educación / Capital Humano, Aprender primaria 2016, 2018, 2021, 2023 y 2025 (resultados nacionales difundidos en informes y comunicados)", url: "https://www.argentina.gob.ar/node/506130", nivel: secundaria}
       - {nombre: "Informe técnico de comparabilidad Aprender 2021-2023", url: "https://argentina.gob.ar/sites/default/files/informe_tecnico_-_comparabilidad_aprender_2021-2023.pdf", nivel: primaria}
     metodo: "Solo operativos censales (todos los alumnos de 6° grado); se excluye 2022, que fue muestral y dio resultados poco comparables. En 2021, primer operativo después de la pandemia, el 45% no alcanzó el nivel satisfactorio en lengua; no encontré el dato nacional de matemática de ese año y la línea une 2018 con 2023. El original agregaba la prueba regional ERCE de la UNESCO y proyecciones posteriores a 2023, que no se incluyen. La serie de la secundaria está en Pruebas Aprender del último año."
+
+  - id: nobel_por_pais
+    tema: 19
+    titulo: "Premios Nobel por país de nacimiento, por cada 10 millones de habitantes"
+    que_muestra: "Personas premiadas con el Nobel (todas las categorías, 1901-2026) según el país donde nacieron, en relación con la población actual. Entre paréntesis, la cantidad de premiados."
+    original: {ficha: p373, imagen: 1430}
+    tipo: barras
+    categorias: nobel_por_pais
+    unidad: "premiados por cada 10 millones de habitantes"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "Fundación Nobel, base de premiados (api.nobelprize.org)", url: "https://api.nobelprize.org/v1/laureate.csv", nivel: primaria}
+      - {nombre: "Banco Mundial, población total 2024 (SP.POP.TOTL)", url: "https://data.worldbank.org/indicator/SP.POP.TOTL", nivel: primaria}
+    metodo: "Se cuentan personas (no organizaciones) y una sola vez aunque hayan ganado dos premios, según el país de nacimiento con sus fronteras actuales. Por ese criterio, Luis Federico Leloir (Química 1970), que nació en París, figura en Francia: con él, la Argentina tiene cinco premiados (Saavedra Lamas 1936, Houssay 1947, Leloir 1970, Pérez Esquivel 1980 y Milstein 1984), 1,1 por cada 10 millones. El único premiado nacido en Brasil es Peter Medawar, británico. Dividir por la población actual favorece a los países que crecieron poco; es una comparación aproximada, no una medida de calidad científica. Se actualiza a mano cada octubre."
