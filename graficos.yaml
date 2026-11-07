@@ -3939,3 +3939,48 @@ graficos:
     fuentes:
       - {nombre: "Chequeado, ranking de vetos presidenciales", url: "https://chequeado.com/el-explicador/ranking-de-los-vetos-presidenciales-como-se-ubica-javier-milei-respecto-de-otros-presidentes/", nivel: secundaria}
     metodo: "Total de vetos dividido por los años de mandato (para Milei, hasta septiembre de 2025). Corrige que los mandatos tengan distinta duración: Duhalde y De la Rúa, en presidencias cortas y de crisis, son los que más vetaron por año."
+
+  - id: inmigrantes_censos
+    tema: 12
+    titulo: "Población nacida en el extranjero, censos 1869-2022"
+    que_muestra: "Porcentaje de la población nacida en otro país en cada censo nacional."
+    original: {ficha: p317, imagen: 1083}
+    tipo: lineas
+    frecuencia: A
+    desde: "1869"
+    gobiernos: false
+    unidad: "% de la población"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: censo_extranjeros, nombre: "Nacidos en otro país"}
+    fuentes:
+      - {nombre: "INDEC, censos nacionales de población 1869-2022 (compilados en publicaciones académicas y en el informe de migraciones del Censo 2022)", url: "https://chequeado.com/el-explicador/censo-2022-que-datos-se-informaron-sobre-las-migraciones/", nivel: primaria}
+    metodo: "Un dato por censo; la línea une los censos. El máximo es 1914 (casi 3 de cada 10 habitantes). Desde 2001 se mantiene entre 4% y 4,5%, con un cambio de origen: menos europeos y más nacidos en países limítrofes y en el resto de América. Los hijos de inmigrantes que pedía el original no se relevan en los censos."
+
+  - id: cobertura_salud_censos
+    tema: 14
+    titulo: "Cobertura de salud de la población (censos)"
+    que_muestra: "Porcentaje de la población con obra social, prepaga o plan estatal, y sin ninguna cobertura (se atiende solo en el sistema público)."
+    original: {ficha: p350, imagen: 1409}
+    tipo: barras
+    categorias: cobertura_salud
+    unidad: "% de la población"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "INDEC, Censo 2022: salud y previsión social (comparación 2001, 2010 y 2022)", url: "https://www.indec.gob.ar/ftp/cuadros/poblacion/censo2022_salud_prevision_social.pdf", nivel: primaria}
+    metodo: "Población en viviendas particulares. Para comparar los tres censos, el INDEC suma los planes estatales de salud a obra social y prepaga."
+
+  - id: discapacidad
+    tema: 14
+    titulo: "Población con discapacidad o dificultad permanente"
+    que_muestra: "Porcentaje de la población con alguna dificultad o limitación permanente (para ver, oír, caminar, entender, etc.), según los relevamientos del INDEC."
+    original: {ficha: p345, imagen: 1397}
+    tipo: barras
+    categorias: discapacidad
+    unidad: "% de la población"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "INDEC: ENDI 2002-2003, Censo 2010 y Estudio Nacional sobre el Perfil de las Personas con Discapacidad 2018", url: "https://www.argentina.gob.ar/sites/default/files/2023/08/datos_estadisticos_sobre_discapacidad_en_argentina.pdf", nivel: primaria}
+    metodo: "Los tres relevamientos usan preguntas y poblaciones distintas (el de 2018 cubre a mayores de 6 años en localidades de 5.000 habitantes o más), así que no forman una serie (ENDI 2002-03: encuesta a la población total; Censo 2010: población total): no hay que leer las diferencias como suba o baja. La apertura por tipo de discapacidad física y mental del original (fichas p345 y p346) queda pendiente."

@@ -826,6 +826,7 @@ series:
   dex_soja:            {fuente: manual, id: dex_soja, escalonada: true}
   dex_maiz:            {fuente: manual, id: dex_maiz, escalonada: true}
   dex_trigo:           {fuente: manual, id: dex_trigo, escalonada: true}
+  censo_extranjeros:   {fuente: manual, id: censo_extranjeros}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
