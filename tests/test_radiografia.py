@@ -131,3 +131,14 @@ def test_noaa_oni():
     t = " 1950         2026\n1950  -1.32 -1.20 -1.12 -1.08 -1.10 -0.90 -0.62   -0.57  -0.56  -0.62  -0.66 -0.79\n2026  -0.50 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90 -99.90\n  -99.9\n"
     s = noaa.parsear(t)
     assert len(s) == 13 and s.iloc[0] == -1.32 and s.index[-1] == __import__("pandas").Timestamp(2026, 1, 1)
+
+
+def test_presupuesto_resumir():
+    import io
+    from pipeline.fuentes import presupuesto
+    texto = ("﻿impacto_presupuestario_anio,impacto_presupuestario_mes,servicio_id,servicio_desc,otra,credito_devengado\n"
+             "2024,1,321,INDEC,x,10.5\n2024,1,321,INDEC,y,1.5\n2024,2,321,INDEC,x,3\n2024,1,606,INTA,x,7\n")
+    df = presupuesto.resumir(io.StringIO(texto))
+    indec = df[df["servicio_id"] == 321].set_index("fecha")["devengado"]
+    assert indec.loc["2024-01-01"] == 12.0 and indec.loc["2024-02-01"] == 3.0
+    assert len(df) == 3

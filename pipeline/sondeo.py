@@ -106,6 +106,21 @@ def sondear_presupuesto() -> list[str]:
     return lineas
 
 
+def resumir_presupuesto() -> list[str]:
+    """Resume la ejecución por servicio de todos los años (para copiar a data/crudos/presupuesto)."""
+    from pipeline.fuentes import presupuesto
+    presupuesto.CARPETA = CARPETA / "presupuesto"
+    df = presupuesto.tabla()
+    df["anio"] = df["fecha"].dt.year
+    lineas = ["# Servicios por año (devengado anual, millones de pesos corrientes)", ""]
+    for sid, g in df.groupby("servicio_id"):
+        anios = g.groupby("anio")["devengado"].sum()
+        nombres = " / ".join(dict.fromkeys(g["servicio_desc"].astype(str)))
+        lineas.append(f"- **{sid}** {nombres[:300]} | {anios.index.min()}-{anios.index.max()} | "
+                      f"{anios.get(2001, 0):.0f} / {anios.get(2015, 0):.0f} / {anios.get(2025, 0):.0f}")
+    return lineas
+
+
 def main() -> None:
     CARPETA.mkdir(parents=True, exist_ok=True)
     lineas = ["# Sondeo de Our World in Data", ""]
@@ -134,7 +149,7 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
-    lineas = sondear_presupuesto()
+    lineas = resumir_presupuesto()
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 
