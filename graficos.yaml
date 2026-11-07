@@ -4625,21 +4625,20 @@ graficos:
 
   - id: vih
     tema: 14
-    titulo: "VIH: prevalencia y nuevas infecciones en adultos"
-    que_muestra: "Porcentaje de personas de 15 a 49 años que viven con VIH y nuevas infecciones por año cada 1.000 personas no infectadas de esa edad."
-    original: {ficha: p343, imagen: 1366}
+    titulo: "VIH: personas de 15 a 49 años que viven con el virus"
+    que_muestra: "Porcentaje estimado de la población de 15 a 49 años que vive con VIH."
+    original: {ficha: p343, imagen: 0}
     tipo: lineas
     frecuencia: A
     desde: "2001"
-    unidad: "% y por 1.000"
+    unidad: "% de la población de 15 a 49 años"
     tipo_valor: tasa
     medida_inicial: nivel
     medidas: [nivel, variacion]
     series:
-      - {serie: wb_sh_dyn_aids_zs_arg, nombre: "Prevalencia (% de 15 a 49 años)"}
-      - {serie: wb_sh_hiv_incd_zs_arg, nombre: "Nuevas infecciones (por 1.000 no infectados)"}
+      - {serie: owid_vih_prevalencia, nombre: "Prevalencia de VIH"}
     fuentes:
-      - {nombre: "ONUSIDA, estimaciones del VIH, vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?locations=AR", nivel: secundaria}
+      - {nombre: "ONUSIDA, estimaciones nacionales de VIH, vía Our World in Data", url: "https://ourworldindata.org/grapher/share-of-the-population-infected-with-hiv?country=~ARG", nivel: secundaria}
       - {nombre: "Ministerio de Salud, Boletín N° 40 de respuesta al VIH y las ITS (2023)", url: "https://argentina.gob.ar/sites/default/files/2024/04/sintesis_boletin_n_40_de_respuesta_al_vih_y_las_its_en_la_argentina_1642024.pdf", nivel: primaria, nota: "Diagnósticos notificados y tasas por provincia"}
     metodo: "Estimaciones modeladas de ONUSIDA a partir de la vigilancia del Ministerio de Salud: incluyen a quienes no saben que tienen VIH. Según el Ministerio, en 2022 se diagnosticaron 12,2 casos nuevos cada 100.000 habitantes y casi todas las infecciones son por relaciones sexuales sin protección. El original pedía la prevalencia por grupo de edad (16 a 60 años): no se publica una serie así."
 
@@ -4656,11 +4655,11 @@ graficos:
     medida_inicial: nivel
     medidas: [nivel, variacion]
     series:
-      - {serie: wb_sh_sta_owgh_me_zs_arg, nombre: "Sobrepeso"}
-      - {serie: wb_sh_sta_stnt_me_zs_arg, nombre: "Baja talla (desnutrición crónica)"}
+      - {serie: owid_sobrepeso_infantil, nombre: "Sobrepeso"}
+      - {serie: owid_baja_talla, nombre: "Baja talla (desnutrición crónica)"}
     fuentes:
-      - {nombre: "UNICEF, OMS y Banco Mundial, estimaciones conjuntas de malnutrición infantil (modeladas), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.STA.STNT.ME.ZS?locations=AR", nivel: secundaria}
-    metodo: "Estimaciones anuales modeladas sobre las mediciones de las Encuestas Nacionales de Nutrición y Salud (2005 y 2018-2019). En la Argentina el problema nutricional infantil más extendido es el exceso de peso, no la desnutrición aguda (bajo peso para la talla), que afecta a menos del 2%. El original usaba la indigencia infantil como aproximación: es un indicador de ingresos, no de nutrición; según el INDEC, en el primer semestre de 2026 el 10,8% de los chicos de 0 a 14 años vivía en hogares indigentes."
+      - {nombre: "UNICEF, OMS y Banco Mundial, estimaciones conjuntas de malnutrición infantil, vía Our World in Data", url: "https://ourworldindata.org/grapher/share-of-children-younger-than-5-who-suffer-from-stunting?country=~ARG", nivel: secundaria}
+    metodo: "Sobrepeso: estimación anual modelada. Baja talla: solo los años con encuesta (Encuestas Nacionales de Nutrición y Salud 2005 y 2018-2019 y relevamientos anteriores), por eso aparece como puntos. En la Argentina el problema nutricional infantil más extendido es el exceso de peso, no la desnutrición aguda (bajo peso para la talla), que afecta a menos del 2%. El original usaba la indigencia infantil como aproximación: es un indicador de ingresos, no de nutrición; según el INDEC, en el primer semestre de 2026 el 10,8% de los chicos de 0 a 14 años vivía en hogares indigentes."
 
   - id: salud_mental_prevalencia
     tema: 15

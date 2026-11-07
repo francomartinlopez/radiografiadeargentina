@@ -893,10 +893,9 @@ series:
   wb_sh_sta_suic_p5_chl: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: CHL}
   wb_sh_sta_suic_p5_ury: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: URY}
   sifilis_tasa:   {fuente: manual, id: sifilis_tasa}
-  wb_sh_dyn_aids_zs_arg: {fuente: worldbank, id: "SH.DYN.AIDS.ZS", pais: ARG}
-  wb_sh_hiv_incd_zs_arg: {fuente: worldbank, id: "SH.HIV.INCD.ZS", pais: ARG}
-  wb_sh_sta_stnt_me_zs_arg: {fuente: worldbank, id: "SH.STA.STNT.ME.ZS", pais: ARG}
-  wb_sh_sta_owgh_me_zs_arg: {fuente: worldbank, id: "SH.STA.OWGH.ME.ZS", pais: ARG}
+  owid_vih_prevalencia:   {fuente: owid, id: share-of-the-population-infected-with-hiv, campo: hiv_prevalence}
+  owid_baja_talla:   {fuente: owid, id: share-of-children-younger-than-5-who-suffer-from-stunting, campo: stunting_prevalence}
+  owid_sobrepeso_infantil:   {fuente: owid, id: share-of-children-who-are-overweight, campo: sn_sta_ovwgt}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
