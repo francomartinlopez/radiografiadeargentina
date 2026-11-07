@@ -1,13 +1,13 @@
 # Radiografía: pendientes, sin fuente y cosas a revisar
 
-Actualizado el 7/11/2026. Inventario: 304 con gráfico, 175 sin fuente, 0 pendientes.
+Actualizado el 7/11/2026. Inventario: 305 con gráfico, 174 sin fuente, 0 pendientes.
 
 ## 1. A revisar o corregir (hechos con datos parciales)
 
-- **Cheques rechazados (p140, p141):** hecho con los informes mensuales del BCRA desde septiembre de 2022 (cheques_rechazados). Faltan jul-dic 2023, abr-2025 y dic-2025 a feb-2026; habría que encontrar esos PDF o actualizarlo a mano cada mes con el informe nuevo.
+- **Cheques rechazados (p140, p141):** informes mensuales del BCRA desde septiembre de 2022 hasta agosto de 2026, y prensa que los cita para dic-2025, may-2026 y jun-2026. Faltan jul, ago y oct-dic 2023, abr-2025 y feb-2026; septiembre en adelante hay que cargarlo a mano con cada informe nuevo (sale a fin de mes).
 - **Encuestas vs. resultados (p387):** hecho para 2011-2023 (encuestas_vs_resultados). Faltan 2003 y 2007, sin recopilación de encuestas.
-- **Cartera de las AFJP 2008 (p448):** las cifras no coinciden entre fuentes (títulos públicos 55% a 60%). Falta un boletín de la SAFJP de septiembre/octubre de 2008 para fijarlas.
-- **Aprender 6° grado (aprender_primaria):** falta el dato nacional de matemática 2021; 2023 tiene dos versiones (51,4 y 51,5).
+- **Cartera de las AFJP 2008 (p448):** hecho (afjp_cartera_2008) con cifras de la SAFJP publicadas en la prensa en octubre de 2008; 'Otros' es la diferencia hasta 100%. Sería mejor confirmarlo con un boletín de la SAFJP si aparece.
+- **Aprender 6° grado (aprender_primaria):** completo 2016-2025; 2021 tomado de Argentinos por la Educación (secundaria). 2023 tiene dos versiones (51,4 y 51,5).
 - **Parque automotor (vehiculos_por_habitante):** faltan los informes AFAC 2012-2015; 2016 y 2017 están armados sumando el parque de hasta 20 años y el de más de 20.
 - **Barrios populares (barrios_populares_region y _decada):** el archivo del RENABAP se bajó de una copia pública en GitHub porque el sitio oficial estaba en mantenimiento. Conviene volver a bajarlo del sitio oficial cuando vuelva, y ver si hay una actualización posterior a dic. 2023.
 - **Premios Nobel (nobel_por_pais):** se carga a mano; hay que rehacerlo cada octubre. Criterio: país de nacimiento (Leloir queda en Francia; está aclarado).
@@ -18,15 +18,15 @@ Actualizado el 7/11/2026. Inventario: 304 con gráfico, 175 sin fuente, 0 pendie
 - **Tasas sobre el parque automotor:** hechas como total (robos_por_vehiculo y siniestros_por_vehiculo). Por tipo de vehículo (p265, p267, p268, p270, p272-p274) no hay datos públicos.
 - **Mortalidad de 5 a 17 años (p341):** marcada sin fuente, pero ya existe el gráfico mortalidad_5_19 (Banco Mundial, 5 a 19 años). Revisar si se la da por resuelta.
 
-- **Pasivos remunerados del BCRA (base_y_pasivos_bcra, pasivos_sobre_base):** la serie del balance del BCRA en datos.gob.ar se cortó en octubre de 2025. La API del BCRA mide los pases con otro criterio (da cero desde noviembre de 2025), así que no sirve para continuarla; queda esperar que vuelva a publicarse o buscar el balance semanal en la web del BCRA.
-- **Seguro de desempleo y AUE:** sin datos publicados después de septiembre de 2025 (la AUH ya se extendió con el Boletín Mensual de ANSES).
+- **Pasivos remunerados del BCRA (base_y_pasivos_bcra, pasivos_sobre_base):** la serie del balance en datos.gob.ar se cortó en octubre de 2025. Desde el 22/7/2024 los pases pasivos se eliminaron y la liquidez pasó a las LEFI del Tesoro; la API del BCRA da pases en cero desde nov-2025, así que no sirve. Queda esperar que vuelva el balance o sumar LEFI/LECAP como serie aparte.
+- **Seguro de desempleo y AUE:** sin datos publicados después de septiembre de 2025; en la prensa solo aparece el promedio del primer semestre de 2024 (111.851 beneficiarios), que ya está en la serie.
 - **Combustibles y petróleo:** desde diciembre de 2025 se estiman con las ventas de las cuatro grandes y con el índice de petróleo del INDEC; volver a la tabla oficial si la Secretaría de Energía la retoma.
 
 ## 2. Pendientes de hacer
 
 - Ninguna ficha pendiente. Lo que se podría sumar más adelante:
   - **Leyes del oficialismo, todas las votaciones (p388, p391):** requiere procesar todas las actas nominales de Diputados y del Senado desde 2001 y clasificar qué proyectos son del oficialismo.
-  - **Leyes clave (p389, p390):** faltan la Emergencia Económica de 2002, el canje de deuda de 2005 y el resultado completo de Magistratura 2006 en Diputados; no aparecen en la prensa digital ni en fuentes abiertas consultadas (habría que ver las actas en el archivo del Congreso).
+  - **Leyes clave (p389, p390):** ya están el canje de deuda de 2005 (abstenciones aproximadas, fuente terciaria) y Magistratura 2006 en Diputados (148-89-2). Falta solo la Emergencia Económica de 2002: no hay resultado publicado en fuentes abiertas (habría que ver el Diario de Sesiones en el archivo del Congreso).
 
 ## 3. Sin fuente (no se publican)
 
@@ -258,7 +258,6 @@ Motivo de cada una, por tema. Si conseguís una fuente para alguna, se puede ret
 ### Sistema previsional y AFJP
 
 - **p447** — Estatizacion de las afjp e índice de bonos del estado nacional argentino (55% de la cartera): Índice de bonos IAMC no disponible como serie abierta.
-- **p448** — Inversión afjp 2008: Las cifras publicadas de la cartera de las AFJP antes de la estatización no coinciden entre fuentes (títulos públicos 55% a 60% según la fecha); sin acceso a los boletines de la SAFJP para verificarlas.
 
 ### Sin tema (imágenes fuera del PDF)
 

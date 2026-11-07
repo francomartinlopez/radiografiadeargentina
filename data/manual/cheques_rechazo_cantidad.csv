@@ -9,6 +9,7 @@ fecha,valor,fuente_url,nota
 2023-04-01,0.87,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-abril-2023.pdf,
 2023-05-01,0.81,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-mayo-2023.pdf,
 2023-06-01,0.72,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-junio-2023.pdf,
+2023-09-01,0.67,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-pagos-minoristas-sep-2023.pdf,calculado: 33.206 rechazados sin fondos / 4.975.217 compensados
 2024-01-01,0.57,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-ene-2024.pdf,
 2024-02-01,0.53,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-feb-2024.pdf,
 2024-03-01,0.53,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-mar-2024.pdf,
@@ -31,5 +32,11 @@ fecha,valor,fuente_url,nota
 2025-09-01,1.7,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-septiembre-2025.pdf,
 2025-10-01,2,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-octubre-2025.pdf,
 2025-11-01,2.2,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-mensual-de-pagos-minoristas-noviembre-2025.pdf,
+2025-12-01,2.2,https://www.diariouno.com.ar/economia/el-banco-central-detallo-que-se-triplicaron-los-cheques-rechazados-y-la-morosidad-tarjetas-n1523639,secundaria: prensa citando el informe del BCRA
+2026-01-01,2.1,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-pagos-minoristas-2026-01.pdf,
 2026-03-01,2.2,https://www.infobae.com/economia/2026/05/01/crecieron-los-cheques-rechazados-por-falta-de-fondos-y-duplican-el-nivel-de-hace-un-ano/,
 2026-04-01,2.2,https://mundoempresarial.ar/?p=36713,
+2026-05-01,2.1,https://www.infobae.com/economia/2026/06/26/leve-mejora-en-la-cadena-de-pagos-cayo-la-cantidad-de-cheques-rechazados-pero-siguen-40-por-encima-de-2025/,secundaria: prensa citando el informe del BCRA
+2026-06-01,2.0,https://www.infobae.com/economia/2026/08/01/volvieron-a-crecer-los-cheques-rechazados-por-falta-de-fondos-superaron-los-100000-y-se-ubican-57-por-encima-de-2025/,secundaria: prensa citando el informe del BCRA
+2026-07-01,1.9,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Informes/informe-mensual-pagos-minoristas-2026-07.pdf,
+2026-08-01,1.7,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Informes/informe-mensual-pagos-minoristas-2026-08.pdf,

@@ -1949,7 +1949,7 @@ graficos:
       - {nombre: "BCRA, Principales variables: base monetaria (promedio mensual)", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp", nivel: primaria}
       - {nombre: "BCRA, Estado de activos y pasivos: letras en pesos y obligaciones por pases (fin de mes)", url: "https://datos.gob.ar/dataset/sspm-activos-pasivos-banco-central-republica-argentina", nivel: primaria}
       - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
-    metodo: "La base monetaria es el promedio del mes; letras y pases son saldos de fin de mes del balance del BCRA. Todo en pesos de hoy. Desde julio de 2024 los pasivos remunerados del BCRA pasan al Tesoro (LEFI y luego LECAP), que no figuran en este balance; el original los sumaba con proyecciones: esa parte queda para el lote 6. El gráfico llega al último mes con balance publicado en datos.gob.ar (octubre de 2025). La API del BCRA informa los pases pasivos con otro criterio (en cero desde noviembre de 2025, frente a 11,5 billones del balance), así que no se usa para continuar la serie."
+    metodo: "La base monetaria es el promedio del mes; letras y pases son saldos de fin de mes del balance del BCRA. Todo en pesos de hoy. El 22 de julio de 2024 el BCRA eliminó los pases pasivos y la liquidez de los bancos pasó a las LEFI que emite el Tesoro (luego LECAP), que no figuran en este balance; el original los sumaba con proyecciones: esa parte queda para el lote 6. El gráfico llega al último mes con balance publicado en datos.gob.ar (octubre de 2025). La API del BCRA informa los pases pasivos con otro criterio (en cero desde noviembre de 2025, frente a 11,5 billones del balance), así que no se usa para continuar la serie."
 
   - id: pasivos_sobre_base
     tema: 2
@@ -4931,7 +4931,7 @@ graficos:
     fuentes:
       - {nombre: "Ministerio de Educación / Capital Humano, Aprender primaria 2016, 2018, 2021, 2023 y 2025 (resultados nacionales difundidos en informes y comunicados)", url: "https://www.argentina.gob.ar/node/506130", nivel: secundaria}
       - {nombre: "Informe técnico de comparabilidad Aprender 2021-2023", url: "https://argentina.gob.ar/sites/default/files/informe_tecnico_-_comparabilidad_aprender_2021-2023.pdf", nivel: primaria}
-    metodo: "Solo operativos censales (todos los alumnos de 6° grado); se excluye 2022, que fue muestral y dio resultados poco comparables. En 2021, primer operativo después de la pandemia, el 45% no alcanzó el nivel satisfactorio en lengua; no encontré el dato nacional de matemática de ese año y la línea une 2018 con 2023. El original agregaba la prueba regional ERCE de la UNESCO y proyecciones posteriores a 2023, que no se incluyen. La serie de la secundaria está en Pruebas Aprender del último año."
+    metodo: "Solo operativos censales (todos los alumnos de 6° grado); se excluye 2022, que fue muestral y dio resultados poco comparables. En 2021, primer operativo después de la pandemia, el 44% no alcanzó el nivel satisfactorio en lengua y el 45% en matemática (datos de 2021 tomados del informe nacional de Argentinos por la Educación, fuente secundaria). El original agregaba la prueba regional ERCE de la UNESCO y proyecciones posteriores a 2023, que no se incluyen. La serie de la secundaria está en Pruebas Aprender del último año."
 
   - id: nobel_por_pais
     tema: 19
@@ -5030,7 +5030,7 @@ graficos:
     tipo_valor: nivel
     fuentes:
       - {nombre: "Resultados publicados en la prensa sobre las actas de votación del Senado (un enlace por ley en el CSV)", url: "https://www.senado.gob.ar/votaciones/actas", nivel: secundaria}
-    metodo: "Votación en general (no artículo por artículo); las bancas que faltan hasta 72 son ausentes. En la Resolución 125 (2008) y la Ley Bases (2024) hubo empate 36 a 36 y desempató el vicepresidente: Cobos votó en contra y Villarruel a favor; su voto está sumado. Magistratura es la media sanción de diciembre de 2005 de la reforma impulsada por la senadora Cristina Kirchner. Reforma laboral: media sanción de febrero de 2026 (en la sanción final, con cambios de Diputados, fueron 42 a 28 con 2 abstenciones). El original incluía la Emergencia Económica de 2002 y el canje de deuda de 2005, cuyos resultados no pude verificar."
+    metodo: "Votación en general (no artículo por artículo); las bancas que faltan hasta 72 son ausentes. En la Resolución 125 (2008) y la Ley Bases (2024) hubo empate 36 a 36 y desempató el vicepresidente: Cobos votó en contra y Villarruel a favor; su voto está sumado. Magistratura es la media sanción de diciembre de 2005 de la reforma impulsada por la senadora Cristina Kirchner. Reforma laboral: media sanción de febrero de 2026 (en la sanción final, con cambios de Diputados, fueron 42 a 28 con 2 abstenciones). Canje de deuda (2005): es la llamada ley cerrojo (26.017), del 3 de febrero de 2005; las abstenciones son aproximadas (fuente terciaria: Perfil, a partir del libro de Lavagna). El original incluía la Emergencia Económica de 2002 (ley 25.561), que ambas cámaras aprobaron el 5 y 6 de enero de 2002, pero no encontré el resultado de la votación."
 
   - id: leyes_oficialismo_diputados
     tema: 18
@@ -5043,7 +5043,21 @@ graficos:
     tipo_valor: nivel
     fuentes:
       - {nombre: "Resultados publicados en la prensa sobre las actas de votación nominal de la Cámara de Diputados (un enlace por ley en el CSV)", url: "https://votaciones.hcdn.gob.ar/", nivel: secundaria}
-    metodo: "Votación en general (no artículo por artículo); las bancas que faltan hasta 257 son ausentes. Ley de Medios (2009): la oposición se retiró del recinto antes de votar. YPF: el tablero marcó 207 a favor y el acta nominal 208. Ley Bases: votación final de junio de 2024, con los cambios del Senado (en abril había sido 142 a 106). Presupuesto 2026: algunas fuentes informan 19 abstenciones. La reforma del Consejo de la Magistratura (2006) se aprobó con alrededor de 149 votos, pero no encontré el resultado completo. El original incluía la Emergencia Económica de 2002 y el canje de deuda de 2005, cuyos resultados no pude verificar."
+    metodo: "Votación en general (no artículo por artículo); las bancas que faltan hasta 257 son ausentes. Ley de Medios (2009): la oposición se retiró del recinto antes de votar. YPF: el tablero marcó 207 a favor y el acta nominal 208. Ley Bases: votación final de junio de 2024, con los cambios del Senado (en abril había sido 142 a 106). Presupuesto 2026: algunas fuentes informan 19 abstenciones. Canje de deuda (2005): ley cerrojo, 9 de febrero de 2005; las abstenciones son aproximadas (fuente terciaria: Perfil, a partir del libro de Lavagna). Magistratura: sanción definitiva del 22 de febrero de 2006 (algunas fuentes dan 149 a favor). El original incluía la Emergencia Económica de 2002, que ambas cámaras aprobaron el 5 y 6 de enero de 2002, pero no encontré el resultado de la votación."
+
+  - id: afjp_cartera_2008
+    tema: 22
+    titulo: "En qué estaban invertidos los fondos de las AFJP al estatizarse (2008)"
+    que_muestra: "Composición de la cartera de los fondos de jubilaciones y pensiones de las AFJP en octubre de 2008, cuando se anunció su traspaso a la ANSES (casi 98.000 millones de pesos)."
+    original: {ficha: p448, imagen: 1055}
+    tipo: barras
+    categorias: afjp_cartera_2008
+    unidad: "% de la cartera"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "El Ciudadano, con datos de la Superintendencia de AFJP (octubre de 2008)", url: "https://www.elciudadano.com/?p=3810", nivel: secundaria}
+      - {nombre: "El Cronista, con datos de Portfolio Personal (cupones atados al PIB)", url: "https://www.cronista.com/impresa-general/sin-cupones-pbi-en-cartera-la-anses-se-quedo-afuera-de-la-mejor-apuesta-del-mercado", nivel: terciaria}
+    metodo: "Cifras de la Superintendencia de AFJP difundidas por la prensa al anunciarse la estatización; los boletines originales de la Superintendencia no están en línea. ⚠ Otros es el resto hasta 100%, estimado por diferencia (obligaciones negociables, otros títulos de deuda privada y disponibilidades). Las fuentes no coinciden del todo: según la fecha y el criterio, los títulos públicos aparecen entre 55% (agosto-octubre de 2008) y 59% (diciembre de 2008, ya como Fondo de Garantía de Sustentabilidad, tras la caída de las acciones). Una parte de los títulos públicos eran bonos recibidos en el canje de 2005."
 
   - id: siniestros_por_vehiculo
     tema: 10
@@ -5133,6 +5147,6 @@ graficos:
       - {serie: cheques_rechazo_cantidad, nombre: "En cantidad de cheques"}
       - {serie: cheques_rechazo_monto, nombre: "En monto"}
     fuentes:
-      - {nombre: "BCRA, Informe Mensual de Pagos Minoristas (septiembre de 2022 a noviembre de 2025; un enlace por mes en el CSV)", url: "https://www.bcra.gob.ar/informe-de-pagos-minoristas/", nivel: primaria}
-      - {nombre: "Infobae y Mundo Empresarial sobre el mismo informe (marzo y abril de 2026)", url: "https://www.infobae.com/economia/2026/05/01/crecieron-los-cheques-rechazados-por-falta-de-fondos-y-duplican-el-nivel-de-hace-un-ano/", nivel: secundaria}
-    metodo: "Cheques físicos y electrónicos (ECHEQ) rechazados por el motivo sin fondos suficientes, sobre el total compensado en el mes. El BCRA publica el dato solo en el texto de su informe mensual en PDF; se tomó de cada informe disponible. Faltan julio a diciembre de 2023 y abril de 2025 (informes con otro nombre de archivo o no publicados), diciembre de 2025 a febrero de 2026 y los meses posteriores a abril de 2026: en esos tramos la línea se corta. Antes del período: en los 12 meses previos a la pandemia el promedio fue 1,14% en cantidad y en mayo de 2020 llegó a cerca de 6%. El original pedía también los pagarés, que no tienen estadística pública."
+      - {nombre: "BCRA, Informe Mensual de Pagos Minoristas (septiembre de 2022 a agosto de 2026; un enlace por mes en el CSV)", url: "https://www.bcra.gob.ar/informe-de-pagos-minoristas/", nivel: primaria}
+      - {nombre: "Infobae, Diario Uno y Mundo Empresarial sobre el mismo informe (diciembre de 2025, marzo a junio de 2026)", url: "https://www.infobae.com/economia/2026/05/01/crecieron-los-cheques-rechazados-por-falta-de-fondos-y-duplican-el-nivel-de-hace-un-ano/", nivel: secundaria}
+    metodo: "Cheques físicos y electrónicos (ECHEQ) rechazados por el motivo sin fondos suficientes, sobre el total compensado en el mes. El BCRA publica el dato solo en el texto de su informe mensual en PDF; se tomó de cada informe disponible. Septiembre de 2023 se calculó con las cantidades y montos del cuadro del informe. Diciembre de 2025, mayo y junio de 2026 se tomaron de la prensa que cita el informe (fuente secundaria). Faltan julio, agosto y octubre a diciembre de 2023, abril de 2025 (monto también abril de 2026), febrero de 2026 y los meses posteriores a agosto de 2026: en esos tramos la línea se corta. Antes del período: en los 12 meses previos a la pandemia el promedio fue 1,14% en cantidad y en mayo de 2020 llegó a cerca de 6%. El original pedía también los pagarés, que no tienen estadística pública."
