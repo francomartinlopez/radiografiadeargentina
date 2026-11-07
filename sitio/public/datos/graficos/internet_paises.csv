@@ -1,0 +1,298 @@
+serie,fecha,valor,tramo
+Argentina,1995-01-01,0.0863,observado
+Argentina,1996-01-01,0.142,observado
+Argentina,1997-01-01,0.28,observado
+Argentina,1998-01-01,0.831,observado
+Argentina,1999-01-01,3.28,observado
+Argentina,2000-01-01,7.038683,observado
+Argentina,2001-01-01,9.780807,observado
+Argentina,2002-01-01,10.882124,observado
+Argentina,2003-01-01,11.913696,observado
+Argentina,2004-01-01,16.036684,observado
+Argentina,2005-01-01,17.720583,observado
+Argentina,2006-01-01,20.927202,observado
+Argentina,2007-01-01,25.946632,observado
+Argentina,2008-01-01,28.112623,observado
+Argentina,2009-01-01,34.0,observado
+Argentina,2010-01-01,45.0,observado
+Argentina,2011-01-01,51.0,observado
+Argentina,2012-01-01,55.8,observado
+Argentina,2013-01-01,59.9,observado
+Argentina,2014-01-01,64.7,observado
+Argentina,2015-01-01,68.04306,observado
+Argentina,2016-01-01,70.96898,observado
+Argentina,2017-01-01,74.29491,observado
+Argentina,2018-01-01,77.7,observado
+Argentina,2019-01-01,79.94695,observado
+Argentina,2020-01-01,85.51439,observado
+Argentina,2021-01-01,87.1507,observado
+Argentina,2022-01-01,88.37536,observado
+Argentina,2023-01-01,89.22897,observado
+Argentina,2024-01-01,89.66715,observado
+Brasil,1995-01-01,0.105,observado
+Brasil,1996-01-01,0.451,observado
+Brasil,1997-01-01,0.786,observado
+Brasil,1998-01-01,1.48,observado
+Brasil,1999-01-01,2.04,observado
+Brasil,2000-01-01,2.870685,observado
+Brasil,2001-01-01,4.528495,observado
+Brasil,2002-01-01,9.149425,observado
+Brasil,2003-01-01,13.207586,observado
+Brasil,2004-01-01,19.073671,observado
+Brasil,2005-01-01,21.022747,observado
+Brasil,2006-01-01,28.1784,observado
+Brasil,2007-01-01,30.88,observado
+Brasil,2008-01-01,33.83,observado
+Brasil,2009-01-01,39.22,observado
+Brasil,2010-01-01,40.65,observado
+Brasil,2011-01-01,45.69,observado
+Brasil,2012-01-01,48.56,observado
+Brasil,2013-01-01,51.04,observado
+Brasil,2014-01-01,54.551003,observado
+Brasil,2015-01-01,58.327953,observado
+Brasil,2016-01-01,60.87254,observado
+Brasil,2017-01-01,67.47128,observado
+Brasil,2018-01-01,70.43428,observado
+Brasil,2019-01-01,73.91244,observado
+Brasil,2020-01-01,81.3427,observado
+Brasil,2021-01-01,80.689896,observado
+Brasil,2022-01-01,80.52775,observado
+Brasil,2023-01-01,84.150604,observado
+Brasil,2024-01-01,84.46347,observado
+Chile,1995-01-01,0.347,observado
+Chile,1996-01-01,0.683,observado
+Chile,1997-01-01,1.06,observado
+Chile,1998-01-01,1.66,observado
+Chile,1999-01-01,4.1,observado
+Chile,2000-01-01,16.6,observado
+Chile,2001-01-01,19.1,observado
+Chile,2002-01-01,22.1,observado
+Chile,2003-01-01,25.47378,observado
+Chile,2004-01-01,28.17791,observado
+Chile,2005-01-01,31.1753,observado
+Chile,2006-01-01,34.49775,observado
+Chile,2007-01-01,35.9,observado
+Chile,2008-01-01,37.3,observado
+Chile,2009-01-01,41.56,observado
+Chile,2010-01-01,45.0,observado
+Chile,2011-01-01,52.249607,observado
+Chile,2012-01-01,55.05,observado
+Chile,2013-01-01,58.0,observado
+Chile,2014-01-01,61.11,observado
+Chile,2015-01-01,76.62959,observado
+Chile,2016-01-01,83.558586,observado
+Chile,2017-01-01,82.327484,observado
+Chile,2018-01-01,84.9,observado
+Chile,2019-01-01,85.0176,observado
+Chile,2020-01-01,87.4593,observado
+Chile,2021-01-01,90.2328,observado
+Chile,2022-01-01,92.3182,observado
+Chile,2023-01-01,94.45742,observado
+Chile,2024-01-01,95.59024,observado
+Uruguay,1995-01-01,0.31,observado
+Uruguay,1996-01-01,1.85,observado
+Uruguay,1997-01-01,3.36,observado
+Uruguay,1998-01-01,6.99,observado
+Uruguay,1999-01-01,9.97,observado
+Uruguay,2000-01-01,10.539058,observado
+Uruguay,2001-01-01,11.121438,observado
+Uruguay,2002-01-01,11.41947,observado
+Uruguay,2003-01-01,15.937137,observado
+Uruguay,2004-01-01,17.063099,observado
+Uruguay,2005-01-01,20.08819,observado
+Uruguay,2006-01-01,29.4,observado
+Uruguay,2007-01-01,34.0,observado
+Uruguay,2008-01-01,39.3,observado
+Uruguay,2009-01-01,41.8,observado
+Uruguay,2010-01-01,46.4,observado
+Uruguay,2011-01-01,51.40466,observado
+Uruguay,2012-01-01,54.45377,observado
+Uruguay,2013-01-01,57.69,observado
+Uruguay,2014-01-01,61.462494,observado
+Uruguay,2015-01-01,64.570786,observado
+Uruguay,2016-01-01,66.4,observado
+Uruguay,2017-01-01,70.32236,observado
+Uruguay,2018-01-01,80.726845,observado
+Uruguay,2019-01-01,83.35153,observado
+Uruguay,2020-01-01,85.471,observado
+Uruguay,2021-01-01,87.6444,observado
+Uruguay,2022-01-01,89.87305,observado
+Uruguay,2023-01-01,90.9259,observado
+Uruguay,2024-01-01,91.99109,observado
+México,1995-01-01,0.103,observado
+México,1996-01-01,0.2,observado
+México,1997-01-01,0.627,observado
+México,1998-01-01,1.27,observado
+México,1999-01-01,1.86,observado
+México,2000-01-01,5.081384,observado
+México,2001-01-01,7.038023,observado
+México,2002-01-01,11.9,observado
+México,2003-01-01,12.9,observado
+México,2004-01-01,14.1,observado
+México,2005-01-01,17.21,observado
+México,2006-01-01,19.52,observado
+México,2007-01-01,20.81,observado
+México,2008-01-01,21.71,observado
+México,2009-01-01,26.34,observado
+México,2010-01-01,31.05,observado
+México,2011-01-01,37.176296,observado
+México,2012-01-01,39.75,observado
+México,2013-01-01,43.46,observado
+México,2014-01-01,44.385696,observado
+México,2015-01-01,57.43104,observado
+México,2016-01-01,59.540447,observado
+México,2017-01-01,53.031788,observado
+México,2018-01-01,56.659565,observado
+México,2019-01-01,69.63211,observado
+México,2020-01-01,71.49017,observado
+México,2021-01-01,75.6265,observado
+México,2022-01-01,78.63218,observado
+México,2023-01-01,81.18319,observado
+México,2024-01-01,83.12234,observado
+España,1995-01-01,0.381,observado
+España,1996-01-01,1.33,observado
+España,1997-01-01,2.8,observado
+España,1998-01-01,4.36,observado
+España,1999-01-01,7.09,observado
+España,2000-01-01,13.624961,observado
+España,2001-01-01,18.148724,observado
+España,2002-01-01,20.39,observado
+España,2003-01-01,39.93,observado
+España,2004-01-01,44.01,observado
+España,2005-01-01,47.88,observado
+España,2006-01-01,50.37,observado
+España,2007-01-01,55.11,observado
+España,2008-01-01,59.6,observado
+España,2009-01-01,62.4,observado
+España,2010-01-01,65.8,observado
+España,2011-01-01,67.09,observado
+España,2012-01-01,69.81,observado
+España,2013-01-01,71.635,observado
+España,2014-01-01,76.18671,observado
+España,2015-01-01,78.68963,observado
+España,2016-01-01,80.56133,observado
+España,2017-01-01,84.60225,observado
+España,2018-01-01,86.10724,observado
+España,2019-01-01,90.718666,observado
+España,2020-01-01,93.20565,observado
+España,2021-01-01,93.89752,observado
+España,2022-01-01,94.48554,observado
+España,2023-01-01,95.44565,observado
+España,2024-01-01,95.757454,observado
+Italia,1995-01-01,0.524,observado
+Italia,1996-01-01,1.02,observado
+Italia,1997-01-01,2.28,observado
+Italia,1998-01-01,4.56,observado
+Italia,1999-01-01,14.4,observado
+Italia,2000-01-01,23.110874,observado
+Italia,2001-01-01,27.222116,observado
+Italia,2002-01-01,28.04,observado
+Italia,2003-01-01,29.04,observado
+Italia,2004-01-01,33.24,observado
+Italia,2005-01-01,35.0,observado
+Italia,2006-01-01,37.99,observado
+Italia,2007-01-01,40.79,observado
+Italia,2008-01-01,44.53,observado
+Italia,2009-01-01,48.83,observado
+Italia,2010-01-01,53.68,observado
+Italia,2011-01-01,54.39,observado
+Italia,2012-01-01,55.829998,observado
+Italia,2013-01-01,58.4593,observado
+Italia,2014-01-01,55.638462,observado
+Italia,2015-01-01,58.141735,observado
+Italia,2016-01-01,61.324253,observado
+Italia,2017-01-01,63.077347,observado
+Italia,2018-01-01,74.387184,observado
+Italia,2019-01-01,67.85071,observado
+Italia,2020-01-01,70.48343,observado
+Italia,2021-01-01,74.86233,observado
+Italia,2022-01-01,85.060745,observado
+Italia,2023-01-01,87.02783,observado
+Italia,2024-01-01,89.22072,observado
+Gran Bretaña,1995-01-01,1.9,observado
+Gran Bretaña,1996-01-01,4.12,observado
+Gran Bretaña,1997-01-01,7.39,observado
+Gran Bretaña,1998-01-01,13.7,observado
+Gran Bretaña,1999-01-01,21.3,observado
+Gran Bretaña,2000-01-01,26.821754,observado
+Gran Bretaña,2001-01-01,33.481094,observado
+Gran Bretaña,2002-01-01,56.48,observado
+Gran Bretaña,2003-01-01,64.82,observado
+Gran Bretaña,2004-01-01,65.61,observado
+Gran Bretaña,2005-01-01,70.0,observado
+Gran Bretaña,2006-01-01,68.82,observado
+Gran Bretaña,2007-01-01,75.09,observado
+Gran Bretaña,2008-01-01,78.39,observado
+Gran Bretaña,2009-01-01,83.56,observado
+Gran Bretaña,2010-01-01,85.0,observado
+Gran Bretaña,2011-01-01,85.38,observado
+Gran Bretaña,2012-01-01,87.479996,observado
+Gran Bretaña,2013-01-01,89.8441,observado
+Gran Bretaña,2014-01-01,91.613304,observado
+Gran Bretaña,2015-01-01,92.0003,observado
+Gran Bretaña,2016-01-01,94.7758,observado
+Gran Bretaña,2017-01-01,90.42455,observado
+Gran Bretaña,2018-01-01,90.69201,observado
+Gran Bretaña,2019-01-01,92.51663,observado
+Gran Bretaña,2020-01-01,94.8182,observado
+Gran Bretaña,2021-01-01,96.1965,observado
+Gran Bretaña,2022-01-01,95.4653,observado
+Gran Bretaña,2023-01-01,95.4472,observado
+Gran Bretaña,2024-01-01,95.4721,observado
+Australia,1995-01-01,2.76,observado
+Australia,1996-01-01,3.28,observado
+Australia,1997-01-01,16.4,observado
+Australia,1998-01-01,30.8,observado
+Australia,1999-01-01,40.8,observado
+Australia,2000-01-01,46.756115,observado
+Australia,2001-01-01,52.689266,observado
+Australia,2005-01-01,63.0,observado
+Australia,2006-01-01,66.0,observado
+Australia,2007-01-01,69.45,observado
+Australia,2008-01-01,71.67,observado
+Australia,2009-01-01,74.25,observado
+Australia,2010-01-01,76.0,observado
+Australia,2011-01-01,79.4877,observado
+Australia,2012-01-01,79.0,observado
+Australia,2013-01-01,83.4535,observado
+Australia,2014-01-01,84.0,observado
+Australia,2015-01-01,84.56052,observado
+Australia,2016-01-01,86.54,observado
+Australia,2017-01-01,86.54505,observado
+Australia,2018-01-01,90.0082,observado
+Australia,2019-01-01,93.6099,observado
+Australia,2020-01-01,94.6935,observado
+Australia,2021-01-01,96.9722,observado
+Australia,2022-01-01,96.1194,observado
+Australia,2023-01-01,96.1161,observado
+Australia,2024-01-01,96.1314,observado
+EE.UU.,1995-01-01,9.24,observado
+EE.UU.,1996-01-01,16.4,observado
+EE.UU.,1997-01-01,21.6,observado
+EE.UU.,1998-01-01,30.1,observado
+EE.UU.,1999-01-01,35.8,observado
+EE.UU.,2000-01-01,43.079163,observado
+EE.UU.,2001-01-01,49.080833,observado
+EE.UU.,2002-01-01,58.785404,observado
+EE.UU.,2003-01-01,61.697117,observado
+EE.UU.,2004-01-01,64.758255,observado
+EE.UU.,2005-01-01,67.9681,observado
+EE.UU.,2006-01-01,68.9312,observado
+EE.UU.,2007-01-01,75.0,observado
+EE.UU.,2008-01-01,74.0,observado
+EE.UU.,2009-01-01,71.0,observado
+EE.UU.,2010-01-01,71.69,observado
+EE.UU.,2011-01-01,69.72946,observado
+EE.UU.,2012-01-01,74.7,observado
+EE.UU.,2013-01-01,71.4,observado
+EE.UU.,2014-01-01,73.0,observado
+EE.UU.,2015-01-01,74.5542,observado
+EE.UU.,2016-01-01,85.54442,observado
+EE.UU.,2017-01-01,87.27489,observado
+EE.UU.,2018-01-01,88.4989,observado
+EE.UU.,2019-01-01,89.43028,observado
+EE.UU.,2020-01-01,90.3447,observado
+EE.UU.,2021-01-01,91.2684,observado
+EE.UU.,2022-01-01,92.7285,observado
+EE.UU.,2023-01-01,93.5256,observado
+EE.UU.,2024-01-01,94.6938,observado
