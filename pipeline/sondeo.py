@@ -205,9 +205,9 @@ def main() -> None:
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
     lineas = ["# OWID salud"]
-    for slug in ["share-of-the-population-infected-with-hiv", "share-of-population-infected-with-hiv-ihme", "hiv-incidence-rate",
-                 "new-hiv-infections-per-1000-uninfected", "share-of-children-who-are-stunted", "share-of-children-who-are-overweight",
-                 "share-of-children-under-5-who-are-overweight", "prevalence-of-overweight-among-children-under-5"]:
+    for slug in ["share-of-children-younger-than-5-who-suffer-from-stunting", "stunting-prevalence-jme", "share-of-children-with-a-height-too-low-for-their-age",
+                 "children-stunted", "prevalence-of-stunting-in-children-under-5", "share-of-children-who-are-wasted", "share-of-children-with-a-weight-too-low-for-their-height",
+                 "new-cases-of-hiv-infection", "number-of-new-hiv-infections"]:
         try:
             r = requests.get(f"https://ourworldindata.org/grapher/{slug}.csv", params={"v": 1, "csvType": "full", "useColumnShortNames": "true"}, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
             linea = f"- {slug}: HTTP {r.status_code}"
