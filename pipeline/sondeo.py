@@ -217,7 +217,7 @@ def main() -> None:
         except Exception as e:
             lineas.append(f"- {slug}: error {e}")
     import re as _re
-    for pag in ["https://www.bcra.gob.ar/sistema-nacional-de-pagos/", "https://www.bcra.gob.ar/estadisticas-de-medios-de-pago/", "https://www.bcra.gob.ar/PublicacionesEstadisticas/Estadisticas_de_medios_de_pago.asp", "https://www.bcra.gob.ar/SistemasFinancierosYdePagos/Estadisticas_medios_de_pago.asp", "https://www.bcra.gob.ar/informe-mensual-de-pagos-minoristas/"]:
+    for pag in ["https://www.bcra.gob.ar/sistema-nacional-de-pagos/", "https://www.bcra.gob.ar/en/payment-system/", "https://www.bcra.gob.ar/sistema-de-pagos/", "https://www.bcra.gob.ar/estadisticas-del-sistema-nacional-de-pagos/"]:
         try:
             r = requests.get(pag, timeout=60, headers={"User-Agent": "Mozilla/5.0"})
             links = sorted(set(_re.findall(r'href="([^"]+\.(?:xlsx?|xlsm|csv|zip))"', r.text, _re.I)))
