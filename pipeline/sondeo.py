@@ -123,12 +123,11 @@ def resumir_presupuesto() -> list[str]:
 
 
 PAGINAS = [  # (url, patrón de enlaces a listar)
-    ("https://www.bcra.gob.ar/en/retail-payments-report", r"(?i)xls|pdf|minorista"),
-    ("https://www.bcra.gob.ar/informe-de-pagos-minoristas", r"(?i)xls|pdf|minorista"),
-    ("https://www.bcra.gob.ar/en/statistics", r"(?i)cheq|check|pago|payment"),
-    ("https://www.srt.gob.ar/index.php/estadisticas-2/", r"(?i)\.(pdf|xlsx?|csv)"),
+    ("https://www.bcra.gob.ar/listado-informe-de-pagos-minoristas/", r"(?i)xls|pdf"),
+    ("https://www.bcra.gob.ar/en/means-payment-2/", r"(?i)xls|cheq|check"),
 ]
-ARCHIVOS = [
+ARCHIVOS: list[str] = []
+_ARCHIVOS_VIEJOS = [
     "https://datos.magyp.gob.ar/dataset/c19a5875-fb39-48b6-b0b2-234382722afb/resource/52e72aec-4ab6-4d60-8c95-47de21e46eec/download/existencias-bovinas-2008-2019.csv",
 ]
 
