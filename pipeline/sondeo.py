@@ -204,17 +204,15 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
-    lineas = ["# OWID salud"]
-    for slug in ["tax-revenues-as-a-share-of-gdp-unu-wider", "total-tax-revenues-gdp", "tax-revenue-to-gdp-ratio", "net-migration-rate",
-                 "mobile-cellular-subscriptions-per-100-people", "share-of-individuals-using-the-internet", "neonatal-mortality-rate",
-                 "fixed-telephone-subscriptions-per-100-people"]:
+    lineas = ["# OWID sondeo"]
+    for slug in CANDIDATOS_AHORA:
         try:
             r = requests.get(f"https://ourworldindata.org/grapher/{slug}.csv", params={"v": 1, "csvType": "full", "useColumnShortNames": "true"}, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
             linea = f"- {slug}: HTTP {r.status_code}"
             if r.ok:
                 df = pd.read_csv(io.StringIO(r.text))
                 arg = df[df["code"] == "ARG"]
-                linea += f" cols={list(df.columns)} ARG {arg['year'].min()}-{arg['year'].max()} ({len(arg)})"
+                linea += f" cols={list(df.columns)} sample={df[df['code'].isin(['ARG','CHL','ESP','USA'])].tail(8).to_dict('records')} ARG {arg['year'].min()}-{arg['year'].max()} ({len(arg)})"
             lineas.append(linea)
         except Exception as e:
             lineas.append(f"- {slug}: error {e}")
