@@ -4824,3 +4824,23 @@ graficos:
       - {nombre: "INDEC, Estimador Mensual de Actividad Económica", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48", nivel: primaria}
       - {nombre: "Secretaría de Trabajo, Situación y evolución del trabajo registrado (SIPA)", url: "https://www.argentina.gob.ar/trabajo/estadisticas", nivel: primaria}
     metodo: "La serie de asalariados privados desestacionalizada empieza en 2009. El empleo registrado reacciona más lento y con menos amplitud que la actividad: cae menos en las recesiones y tarda en recuperarse. El empleo informal y el cuentapropismo no están en esta serie."
+
+  - id: aprender_primaria
+    tema: 16
+    titulo: "Pruebas Aprender: alumnos de 6° grado con nivel satisfactorio"
+    que_muestra: "Porcentaje de alumnos de 6° grado de la primaria con desempeño satisfactorio o avanzado en lengua y matemática."
+    original: {ficha: p359, imagen: 1332}
+    tipo: lineas
+    frecuencia: A
+    desde: "2016"
+    unidad: "% de los alumnos evaluados"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: aprender_prim_lengua, nombre: "Lengua"}
+      - {serie: aprender_prim_matematica, nombre: "Matemática"}
+    fuentes:
+      - {nombre: "Ministerio de Educación / Capital Humano, Aprender primaria 2016, 2018, 2021, 2023 y 2025 (resultados nacionales difundidos en informes y comunicados)", url: "https://www.argentina.gob.ar/node/506130", nivel: secundaria}
+      - {nombre: "Informe técnico de comparabilidad Aprender 2021-2023", url: "https://argentina.gob.ar/sites/default/files/informe_tecnico_-_comparabilidad_aprender_2021-2023.pdf", nivel: primaria}
+    metodo: "Solo operativos censales (todos los alumnos de 6° grado); se excluye 2022, que fue muestral y dio resultados poco comparables. En 2021, primer operativo después de la pandemia, el 45% no alcanzó el nivel satisfactorio en lengua; no encontré el dato nacional de matemática de ese año y la línea une 2018 con 2023. El original agregaba la prueba regional ERCE de la UNESCO y proyecciones posteriores a 2023, que no se incluyen. La serie de la secundaria está en Pruebas Aprender del último año."

@@ -939,6 +939,8 @@ series:
   owid_internet_usa:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: USA}
   owid_celulares_usa:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: USA}
   wb_sh_dyn_nmrt_usa: {fuente: worldbank, id: "SH.DYN.NMRT", pais: USA}
+  aprender_prim_lengua:   {fuente: manual, id: aprender_prim_lengua}
+  aprender_prim_matematica:   {fuente: manual, id: aprender_prim_matematica}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

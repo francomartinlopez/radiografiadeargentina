@@ -26,7 +26,7 @@ CANDIDATOS = [
     "nobel-laureates-per-capita", "nobel-prizes-by-country", "gdp-per-capita-maddison-project-database",
     "real-wages-in-manufacturing", "average-years-of-schooling",
 ]
-CANDIDATOS_AHORA: list[str] = []
+CANDIDATOS_AHORA: list[str] = ["nobel-prize-laureates-per-capita","nobel-laureates-per-capita","nobel-prizes-by-country","number-of-nobel-prize-laureates","nobel-prize-laureates-by-country"]
 URLS_EXTRA = [
     "https://psl.noaa.gov/data/correlation/oni.data",
     "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
