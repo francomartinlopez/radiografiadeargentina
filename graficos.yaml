@@ -4659,7 +4659,7 @@ graficos:
       - {serie: owid_baja_talla, nombre: "Baja talla (desnutrición crónica)"}
     fuentes:
       - {nombre: "UNICEF, OMS y Banco Mundial, estimaciones conjuntas de malnutrición infantil, vía Our World in Data", url: "https://ourworldindata.org/grapher/share-of-children-younger-than-5-who-suffer-from-stunting?country=~ARG", nivel: secundaria}
-    metodo: "Sobrepeso: estimación anual modelada. Baja talla: solo los años con encuesta (Encuestas Nacionales de Nutrición y Salud 2005 y 2018-2019 y relevamientos anteriores), por eso aparece como puntos. En la Argentina el problema nutricional infantil más extendido es el exceso de peso, no la desnutrición aguda (bajo peso para la talla), que afecta a menos del 2%. El original usaba la indigencia infantil como aproximación: es un indicador de ingresos, no de nutrición; según el INDEC, en el primer semestre de 2026 el 10,8% de los chicos de 0 a 14 años vivía en hogares indigentes."
+    metodo: "Sobrepeso: estimación anual modelada. Baja talla: solo hay dato en los años con encuesta nacional (2005 y 2018-2019); la línea une esas dos mediciones. En la Argentina el problema nutricional infantil más extendido es el exceso de peso, no la desnutrición aguda (bajo peso para la talla), que afecta a menos del 2%. El original usaba la indigencia infantil como aproximación: es un indicador de ingresos, no de nutrición; según el INDEC, en el primer semestre de 2026 el 10,8% de los chicos de 0 a 14 años vivía en hogares indigentes."
 
   - id: salud_mental_prevalencia
     tema: 15
