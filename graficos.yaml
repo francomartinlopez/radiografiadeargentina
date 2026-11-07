@@ -4525,7 +4525,6 @@ graficos:
       - {serie: wb_sh_sta_suic_p5_esp, nombre: "España"}
       - {serie: wb_sh_sta_suic_p5_ita, nombre: "Italia"}
       - {serie: wb_sh_sta_suic_p5_gbr, nombre: "Gran Bretaña"}
-      - {serie: wb_sh_sta_suic_p5_aus, nombre: "Australia"}
       - {serie: wb_sh_sta_suic_p5_usa, nombre: "EE.UU."}
     fuentes:
       - {nombre: "Organización Mundial de la Salud, Global Health Estimates, vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.STA.SUIC.P5", nivel: secundaria}
@@ -4690,15 +4689,13 @@ graficos:
       - {serie: owid_impuestos_bra, nombre: "Brasil"}
       - {serie: owid_impuestos_chl, nombre: "Chile"}
       - {serie: owid_impuestos_ury, nombre: "Uruguay"}
-      - {serie: owid_impuestos_mex, nombre: "México"}
       - {serie: owid_impuestos_esp, nombre: "España"}
       - {serie: owid_impuestos_ita, nombre: "Italia"}
       - {serie: owid_impuestos_gbr, nombre: "Gran Bretaña"}
-      - {serie: owid_impuestos_aus, nombre: "Australia"}
       - {serie: owid_impuestos_usa, nombre: "EE.UU."}
     fuentes:
       - {nombre: "UNU-WIDER, Government Revenue Dataset (ICTD), vía Our World in Data", url: "https://ourworldindata.org/grapher/tax-revenues-as-a-share-of-gdp-unu-wider", nivel: secundaria}
-    metodo: "Gobierno general (Nación, provincias y municipios) con contribuciones a la seguridad social, para que la comparación entre países sea homogénea. Es la presión tributaria legal medida por lo recaudado: el original pedía la presión efectiva sobre quien paga todos sus impuestos (sin informalidad), que es una estimación propia sin fuente comparable entre países."
+    metodo: "Ocho países para que cada uno tenga un color propio. Gobierno general (Nación, provincias y municipios) con contribuciones a la seguridad social, para que la comparación entre países sea homogénea. Es la presión tributaria legal medida por lo recaudado: el original pedía la presión efectiva sobre quien paga todos sus impuestos (sin informalidad), que es una estimación propia sin fuente comparable entre países."
 
   - id: internet_paises
     tema: 19
@@ -4716,15 +4713,13 @@ graficos:
       - {serie: owid_internet_bra, nombre: "Brasil"}
       - {serie: owid_internet_chl, nombre: "Chile"}
       - {serie: owid_internet_ury, nombre: "Uruguay"}
-      - {serie: owid_internet_mex, nombre: "México"}
       - {serie: owid_internet_esp, nombre: "España"}
       - {serie: owid_internet_ita, nombre: "Italia"}
       - {serie: owid_internet_gbr, nombre: "Gran Bretaña"}
-      - {serie: owid_internet_aus, nombre: "Australia"}
       - {serie: owid_internet_usa, nombre: "EE.UU."}
     fuentes:
       - {nombre: "Unión Internacional de Telecomunicaciones (UIT), vía Banco Mundial y Our World in Data", url: "https://ourworldindata.org/grapher/share-of-individuals-using-the-internet", nivel: secundaria}
-    metodo: "Datos de la UIT a partir de encuestas de hogares y estimaciones nacionales (en la Argentina, el módulo de acceso a TIC de la EPH del INDEC). La telefonía celular está en el gráfico siguiente."
+    metodo: "Ocho países para que cada uno tenga un color propio. Datos de la UIT a partir de encuestas de hogares y estimaciones nacionales (en la Argentina, el módulo de acceso a TIC de la EPH del INDEC). La telefonía celular está en el gráfico siguiente."
 
   - id: celulares_paises
     tema: 19
@@ -4742,15 +4737,13 @@ graficos:
       - {serie: owid_celulares_bra, nombre: "Brasil"}
       - {serie: owid_celulares_chl, nombre: "Chile"}
       - {serie: owid_celulares_ury, nombre: "Uruguay"}
-      - {serie: owid_celulares_mex, nombre: "México"}
       - {serie: owid_celulares_esp, nombre: "España"}
       - {serie: owid_celulares_ita, nombre: "Italia"}
       - {serie: owid_celulares_gbr, nombre: "Gran Bretaña"}
-      - {serie: owid_celulares_aus, nombre: "Australia"}
       - {serie: owid_celulares_usa, nombre: "EE.UU."}
     fuentes:
       - {nombre: "Unión Internacional de Telecomunicaciones (UIT), vía Banco Mundial y Our World in Data", url: "https://ourworldindata.org/grapher/mobile-cellular-subscriptions-per-100-people", nivel: secundaria}
-    metodo: "Cuenta líneas activas, no personas: puede superar 100 porque una persona puede tener más de una línea. El original arrancaba en el siglo XIX con estimaciones propias: la UIT tiene datos comparables desde 1980."
+    metodo: "Ocho países para que cada uno tenga un color propio. Cuenta líneas activas, no personas: puede superar 100 porque una persona puede tener más de una línea. El original arrancaba en el siglo XIX con estimaciones propias: la UIT tiene datos comparables desde 1980."
 
   - id: mortalidad_neonatal_paises
     tema: 19
@@ -4768,15 +4761,13 @@ graficos:
       - {serie: wb_sh_dyn_nmrt_bra, nombre: "Brasil"}
       - {serie: wb_sh_dyn_nmrt_chl, nombre: "Chile"}
       - {serie: wb_sh_dyn_nmrt_ury, nombre: "Uruguay"}
-      - {serie: wb_sh_dyn_nmrt_mex, nombre: "México"}
       - {serie: wb_sh_dyn_nmrt_esp, nombre: "España"}
       - {serie: wb_sh_dyn_nmrt_ita, nombre: "Italia"}
       - {serie: wb_sh_dyn_nmrt_gbr, nombre: "Gran Bretaña"}
-      - {serie: wb_sh_dyn_nmrt_aus, nombre: "Australia"}
       - {serie: wb_sh_dyn_nmrt_usa, nombre: "EE.UU."}
     fuentes:
       - {nombre: "Grupo Interagencial de Naciones Unidas para la Estimación de la Mortalidad en la Niñez (UN IGME), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.DYN.NMRT", nivel: secundaria}
-    metodo: "El original pedía mortalidad prenatal (perinatal) comparada desde el siglo XIX: no hay series comparables entre países, así que se usa la neonatal, que la ONU estima de forma homogénea desde 1970 aproximadamente (según el país). La mortalidad infantil argentina en serie larga está en Mortalidad infantil."
+    metodo: "Ocho países para que cada uno tenga un color propio. El original pedía mortalidad prenatal (perinatal) comparada desde el siglo XIX: no hay series comparables entre países, así que se usa la neonatal, que la ONU estima de forma homogénea desde 1970 aproximadamente (según el país). La mortalidad infantil argentina en serie larga está en Mortalidad infantil."
 
   - id: migracion_neta
     tema: 12
@@ -4797,7 +4788,7 @@ graficos:
 
   - id: explotaciones_agropecuarias
     tema: 8
-    titulo: "Cantidad de explotaciones agropecuarias y su tamaño promedio (censos)"
+    titulo: "Cantidad de explotaciones agropecuarias (censos)"
     que_muestra: "Explotaciones agropecuarias registradas en cada censo nacional."
     original: {ficha: p213, imagen: 1493}
     tipo: lineas
@@ -4832,4 +4823,4 @@ graficos:
     fuentes:
       - {nombre: "INDEC, Estimador Mensual de Actividad Económica", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48", nivel: primaria}
       - {nombre: "Secretaría de Trabajo, Situación y evolución del trabajo registrado (SIPA)", url: "https://www.argentina.gob.ar/trabajo/estadisticas", nivel: primaria}
-    metodo: "El empleo registrado reacciona más lento y con menos amplitud que la actividad: cae menos en las recesiones y tarda en recuperarse. El empleo informal y el cuentapropismo no están en esta serie."
+    metodo: "La serie de asalariados privados desestacionalizada empieza en 2009. El empleo registrado reacciona más lento y con menos amplitud que la actividad: cae menos en las recesiones y tarda en recuperarse. El empleo informal y el cuentapropismo no están en esta serie."
