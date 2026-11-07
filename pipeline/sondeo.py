@@ -224,7 +224,7 @@ def main() -> None:
             lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:120]))
         except Exception as e:
             lineas.append(f"- {pag}: error {e}")
-    for u, n in [("https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/ARG/BRA/CHL/URY/ESP/ITA/GBR/USA", "imf_deuda.json"), ("https://www.imf.org/external/datamapper/api/v1/indicators", "imf_ind.json")]:
+    for u, n in []:
         try:
             r = requests.get(u, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
             lineas.append(f"- {u}: HTTP {r.status_code} {len(r.text)}")
