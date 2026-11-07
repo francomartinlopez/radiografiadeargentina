@@ -26,19 +26,58 @@ CANDIDATOS = [
     "nobel-laureates-per-capita", "nobel-prizes-by-country", "gdp-per-capita-maddison-project-database",
     "real-wages-in-manufacturing", "average-years-of-schooling",
 ]
+CANDIDATOS_AHORA: list[str] = []
 URLS_EXTRA = [
     "https://psl.noaa.gov/data/correlation/oni.data",
     "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
     "https://api.worldbank.org/v2/country/ARG/indicator/NY.GDP.PCAP.PP.KD?format=json&per_page=3",
     "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP/ARG",
-    "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PSOYBUSDM",
+    "https://api.worldbank.org/v2/country/ARG/indicator/SH.IMM.IDPT?format=json&per_page=5",
+    "https://api.worldbank.org/v2/country/ARG/indicator/SH.IMM.MEAS?format=json&per_page=5",
 ]
+
+
+DEIS = {
+    "def_05_22": "http://datos.salud.gob.ar/dataset/27c588e8-43d0-411a-a40c-7ecc563c2c9f/resource/ccf688f4-db38-4b0f-86f3-c99341ac52ad/download/defunciones-ocurridas-y-registradas-en-la-republica-argentina-entre-los-anos-2005-2022.csv",
+    "def_23": "http://datos.salud.gob.ar/dataset/27c588e8-43d0-411a-a40c-7ecc563c2c9f/resource/e71b36a0-a68b-4bb5-a969-0a25929785bb/download/defuncion2023.csv",
+    "def_m_15_22": "http://datos.salud.gob.ar/dataset/c1643775-18e1-40fd-9e7f-0cebb5b1abe6/resource/5b21a088-3c04-4fdd-8741-82ab6add2730/download/arg_def_m_15_22.csv",
+    "def_m_23": "http://datos.salud.gob.ar/dataset/c1643775-18e1-40fd-9e7f-0cebb5b1abe6/resource/615c454b-c02c-4011-b55a-86e8a28167bf/download/base_def_23_men.csv",
+    "def_hist": "http://datos.salud.gob.ar/dataset/76ce7d19-921d-4d17-bb20-73c1fe55f07e/resource/a4d3c1c7-63c3-4ad6-91e7-ffef6198c8c0/download/serie-historica-ocurrida-argentina-jurisdiccion-1914-2023.csv",
+}
+
+
+def sondear_deis() -> list[str]:
+    """Muestra estructura de las bases de defunciones de la DEIS (no se alcanzan desde fuera de GitHub)."""
+    lineas = ["# Bases de defunciones DEIS", ""]
+    for nombre, url in DEIS.items():
+        try:
+            r = requests.get(url, timeout=300, headers={"User-Agent": "radiografia-argentina/1.0"})
+            lineas.append(f"## {nombre}: HTTP {r.status_code}, {len(r.content)} bytes")
+            if not r.ok:
+                continue
+            texto = None
+            for enc in ("utf-8", "latin-1"):
+                try:
+                    texto = r.content.decode(enc); break
+                except UnicodeDecodeError:
+                    pass
+            sep = ";" if texto.splitlines()[0].count(";") > texto.splitlines()[0].count(",") else ","
+            df = pd.read_csv(io.StringIO(texto), sep=sep, dtype=str, low_memory=False)
+            lineas += [f"- separador {sep!r}, filas {len(df)}", "```", texto[:800], "```"]
+            for c in df.columns:
+                vc = df[c].value_counts()
+                muestra = "; ".join(f"{k} ({v})" for k, v in vc.head(40).items())
+                lineas.append(f"- **{c}** ({vc.size} valores): {muestra[:1500]}")
+        except Exception as e:
+            lineas.append(f"## {nombre}: error {e}")
+        lineas.append("")
+    return lineas
 
 
 def main() -> None:
     CARPETA.mkdir(parents=True, exist_ok=True)
     lineas = ["# Sondeo de Our World in Data", ""]
-    for slug in CANDIDATOS:
+    for slug in CANDIDATOS_AHORA:
         url = f"https://ourworldindata.org/grapher/{slug}.csv"
         try:
             r = requests.get(url, params={"v": 1, "csvType": "full", "useColumnShortNames": "true"},
@@ -63,6 +102,7 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
+    lineas += sondear_deis()
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 
