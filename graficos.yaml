@@ -4429,3 +4429,105 @@ graficos:
     fuentes:
       - {nombre: "Agencia Nacional de Discapacidad, Registro Nacional de Personas con Discapacidad (julio de 2023)", url: "https://www.argentina.gob.ar/sites/default/files/2023/08/datos_estadisticos_sobre_discapacidad_en_argentina.pdf", nivel: primaria}
     metodo: "En julio de 2023 había 1.594.888 personas con CUD, el 3,46% de la población del Censo 2022. Solo cuenta a quienes tramitaron el certificado: muchas personas con discapacidad no lo tienen, por eso el porcentaje es menor que el de los censos y encuestas (ver Población con discapacidad). La deficiencia mental (psicosocial) y la intelectual suman un tercio de los certificados, sin contar los casos con más de un tipo. El original pedía la evolución desde 2001 de la discapacidad mental sobre la población total: no hay una serie publicada."
+
+  - id: consumo_riesgo_alcohol
+    tema: 15
+    titulo: "Consumo de alcohol de riesgo en adultos"
+    que_muestra: "Porcentaje de personas de 18 años y más con consumo episódico excesivo (5 tragos o más en una ocasión en el último mes) y con consumo regular de riesgo."
+    original: {ficha: p310, imagen: 1303}
+    tipo: lineas
+    frecuencia: A
+    desde: "2005"
+    unidad: "% de la población de 18 años y más"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: enfr_alcohol_episodico, nombre: "Consumo episódico excesivo"}
+      - {serie: enfr_alcohol_regular, nombre: "Consumo regular de riesgo"}
+    fuentes:
+      - {nombre: "INDEC y Ministerio de Salud, Encuesta Nacional de Factores de Riesgo 2018 (cuadros 4.1 y 4.3, ediciones 2005-2018)", url: "https://www.indec.gob.ar/ftp/cuadros/publicaciones/enfr_2018_resultados_definitivos.pdf", nivel: primaria}
+    metodo: "Consumo regular de riesgo: más de 1 trago promedio por día en mujeres y más de 2 en varones (el INDEC recalculó las ediciones anteriores con esa definición). Son indicadores de consumo riesgoso declarado en una encuesta, no de diagnóstico de dependencia: no hay una medición oficial periódica del 'consumo problemático' ni del alcoholismo. La línea une las ediciones; la de 2018 es la última publicada. El original mostraba una serie mensual simulada."
+
+  - id: femicidios
+    tema: 20
+    titulo: "Femicidios: víctimas directas cada 100.000 mujeres"
+    que_muestra: "Tasa de víctimas directas de femicidio (mujeres asesinadas por razones de género) por cada 100.000 mujeres, según las causas judiciales."
+    original: {ficha: p440, imagen: 1404}
+    tipo: lineas
+    frecuencia: A
+    desde: "2014"
+    unidad: "víctimas por 100.000 mujeres"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    tramos: [{serie: femicidios_tasa, desde: "2014", hasta: "2016", tipo: estimado, nota: "Antes de 2017 el registro usaba otra metodología: el dato de 2014 no es estrictamente comparable y los de 2015 y 2016 no se publicaron como tasa."}]
+    series:
+      - {serie: femicidios_tasa, nombre: "Femicidios directos"}
+    fuentes:
+      - {nombre: "Corte Suprema de Justicia de la Nación, Oficina de la Mujer: Registro Nacional de Femicidios de la Justicia Argentina (informes 2021, 2023 y 2024, citados por la prensa)", url: "https://www.csjn.gov.ar/om/", nivel: secundaria}
+    metodo: "Cuenta víctimas directas de femicidio identificadas en causas judiciales (en 2023 fueron 250; en 2024, una cada 39 horas). No incluye femicidios vinculados (personas asesinadas para dañar a una mujer) ni travesticidios y transfemicidios, que el registro informa aparte. Las cifras de cada año pueden revisarse en informes posteriores. Los homicidios de mujeres y varones en general están en Homicidios por sexo de la víctima."
+
+  - id: homicidios_por_sexo
+    tema: 20
+    titulo: "Homicidios por sexo de la víctima"
+    que_muestra: "Víctimas de homicidio intencional cada 100.000 varones y cada 100.000 mujeres."
+    original: {ficha: p441, imagen: 1405}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "víctimas por 100.000 personas del mismo sexo"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: wb_vc_ihr_psrc_ma_p5_arg, nombre: "Varones", sin_ceros: true}
+      - {serie: wb_vc_ihr_psrc_fe_p5_arg, nombre: "Mujeres", sin_ceros: true}
+    fuentes:
+      - {nombre: "Oficina de las Naciones Unidas contra la Droga y el Delito (UNODC), con datos oficiales argentinos, vía Banco Mundial", url: "https://data.worldbank.org/indicator/VC.IHR.PSRC.MA.P5?locations=AR", nivel: secundaria}
+    metodo: "Homicidios dolosos según los registros oficiales que la Argentina informa a la ONU. Más de 8 de cada 10 víctimas son varones. El original pedía también quién mata a quién (varones matados por mujeres y al revés) y tasas para personas trans: no hay una estadística oficial con el sexo del agresor para todos los homicidios ni un registro de población trans que permita calcular tasas, por eso no se incluyen (fichas p441, p442 y c1407)."
+
+  - id: suicidios_argentina
+    tema: 15
+    titulo: "Tasa de suicidio en la Argentina por sexo"
+    que_muestra: "Muertes por suicidio cada 100.000 personas, varones y mujeres."
+    original: {ficha: p355, imagen: 1077}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "muertes por 100.000 personas"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: wb_sh_sta_suic_ma_p5_arg, nombre: "Varones"}
+      - {serie: wb_sh_sta_suic_p5_arg, nombre: "Total"}
+      - {serie: wb_sh_sta_suic_fe_p5_arg, nombre: "Mujeres"}
+    fuentes:
+      - {nombre: "Organización Mundial de la Salud, Global Health Estimates, vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.STA.SUIC.P5?locations=AR", nivel: secundaria}
+    metodo: "Estimaciones de la OMS a partir de las estadísticas de defunciones de la DEIS, ajustadas por edad (por eso difieren algo de las tasas brutas oficiales). Los intentos de suicidio no se miden en forma continua: el Ministerio de Salud los registra en el sistema de vigilancia solo desde 2023, por eso no se incluyen (fichas p354 y p355). Si estás atravesando un momento difícil podés llamar al 135 (gratis desde CABA y el Gran Buenos Aires), al (011) 5275-1135 o al 0800-345-1435 desde todo el país (Centro de Asistencia al Suicida), o a la línea de salud mental del Ministerio de Salud, 0800-999-0091, las 24 horas."
+
+  - id: suicidios_paises
+    tema: 19
+    titulo: "Tasa de suicidio: la Argentina y otros países"
+    que_muestra: "Muertes por suicidio cada 100.000 habitantes, ajustadas por edad."
+    original: {ficha: p356, imagen: 1439}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "2000"
+    unidad: "muertes por 100.000 habitantes"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    series:
+      - {serie: wb_sh_sta_suic_p5_arg, nombre: "Argentina"}
+      - {serie: wb_sh_sta_suic_p5_bra, nombre: "Brasil"}
+      - {serie: wb_sh_sta_suic_p5_chl, nombre: "Chile"}
+      - {serie: wb_sh_sta_suic_p5_ury, nombre: "Uruguay"}
+      - {serie: wb_sh_sta_suic_p5_esp, nombre: "España"}
+      - {serie: wb_sh_sta_suic_p5_ita, nombre: "Italia"}
+      - {serie: wb_sh_sta_suic_p5_gbr, nombre: "Gran Bretaña"}
+      - {serie: wb_sh_sta_suic_p5_aus, nombre: "Australia"}
+      - {serie: wb_sh_sta_suic_p5_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "Organización Mundial de la Salud, Global Health Estimates, vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.STA.SUIC.P5", nivel: secundaria}
+    metodo: "Estimaciones comparables de la OMS desde 2000, ajustadas por edad. El original arrancaba en 1850: no hay series comparables entre países para el siglo XIX y buena parte del XX, por eso se usa el período que la OMS armoniza. Se agregan Chile y Uruguay como referencia regional. Si estás atravesando un momento difícil podés llamar al 135 (gratis desde CABA y el Gran Buenos Aires) o al (011) 5275-1135 desde todo el país."

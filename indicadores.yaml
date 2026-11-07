@@ -876,6 +876,22 @@ series:
   bov_terneros:   {fuente: magyp, campo: "terneros+terneras"}
   bov_novillos:   {fuente: magyp, campo: "novillos+novillitos"}
   bov_toros:   {fuente: magyp, campo: "toros+toritos+bueyes"}
+  enfr_alcohol_episodico:   {fuente: manual, id: enfr_alcohol_episodico, cerrada: true}
+  enfr_alcohol_regular:   {fuente: manual, id: enfr_alcohol_regular, cerrada: true}
+  femicidios_tasa:   {fuente: manual, id: femicidios_tasa}
+  wb_vc_ihr_psrc_fe_p5_arg: {fuente: worldbank, id: "VC.IHR.PSRC.FE.P5", pais: ARG}
+  wb_vc_ihr_psrc_ma_p5_arg: {fuente: worldbank, id: "VC.IHR.PSRC.MA.P5", pais: ARG}
+  wb_sh_sta_suic_fe_p5_arg: {fuente: worldbank, id: "SH.STA.SUIC.FE.P5", pais: ARG}
+  wb_sh_sta_suic_ma_p5_arg: {fuente: worldbank, id: "SH.STA.SUIC.MA.P5", pais: ARG}
+  wb_sh_sta_suic_p5_arg: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: ARG}
+  wb_sh_sta_suic_p5_bra: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: BRA}
+  wb_sh_sta_suic_p5_esp: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: ESP}
+  wb_sh_sta_suic_p5_ita: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: ITA}
+  wb_sh_sta_suic_p5_gbr: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: GBR}
+  wb_sh_sta_suic_p5_aus: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: AUS}
+  wb_sh_sta_suic_p5_usa: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: USA}
+  wb_sh_sta_suic_p5_chl: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: CHL}
+  wb_sh_sta_suic_p5_ury: {fuente: worldbank, id: "SH.STA.SUIC.P5", pais: URY}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
