@@ -4604,3 +4604,73 @@ graficos:
       - {nombre: "Abuelas de Plaza de Mayo: restitución del nieto 140 (7 de julio de 2025) y casos que faltan encontrar", url: "https://www.c5n.com/politica/abuelas-plaza-de-mayo-nieto-140-lunes-7-julio-2025", nivel: secundaria}
       - {nombre: "Abuelas de Plaza de Mayo, sitio oficial", url: "https://www.abuelas.org.ar/", nivel: secundaria}
     metodo: "Estimados: niños apropiados según Abuelas. Restituidos: identidades recuperadas hasta julio de 2025. Buscados: casos que Abuelas sigue buscando. Abuelas estima unos 500 niños apropiados; es una estimación basada en las denuncias de embarazadas desaparecidas y niños secuestrados, sin listado completo. Hasta julio de 2025 se restituyeron 140 identidades (no encontré restituciones posteriores anunciadas). Abuelas dice que faltan encontrar unos 300; la suma de restituidos y buscados (440) es menor que la estimación original porque algunos casos se descartaron o cerraron. Las restituciones se confirman con el Banco Nacional de Datos Genéticos."
+
+  - id: sifilis
+    tema: 14
+    titulo: "Sífilis: casos notificados cada 100.000 habitantes"
+    que_muestra: "Tasa de casos confirmados de sífilis en la población general notificados al Sistema Nacional de Vigilancia de la Salud."
+    original: {ficha: p344, imagen: 1368}
+    tipo: lineas
+    frecuencia: A
+    desde: "2019"
+    unidad: "casos por 100.000 habitantes"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: sifilis_tasa, nombre: "Sífilis (población general)"}
+    fuentes:
+      - {nombre: "Ministerio de Salud, Boletín Epidemiológico Nacional N° 782 (citado en el informe epidemiológico de Santa Fe, SE 47 de 2025)", url: "https://www.santafe.gov.ar/index.php/web/content/download/283300/1465375/file/INFORME_EPIDEMIOLOGICO_SE47_2025.pdf", nivel: secundaria}
+    metodo: "Son casos notificados, no la cantidad real de personas con sífilis: dependen de cuánto se testea y se notifica. La baja de 2020 y 2021 coincide con la pandemia (menos consultas y testeos). Desde 2022 la notificación es nominal (por persona), lo que también mejora el registro. En 2024 se notificaron 36.917 casos, el récord de la serie; los más afectados son los jóvenes de 20 a 24 años. El original pedía el porcentaje de la población que tuvo sífilis por edad: no hay estudios de prevalencia poblacional."
+
+  - id: vih
+    tema: 14
+    titulo: "VIH: prevalencia y nuevas infecciones en adultos"
+    que_muestra: "Porcentaje de personas de 15 a 49 años que viven con VIH y nuevas infecciones por año cada 1.000 personas no infectadas de esa edad."
+    original: {ficha: p343, imagen: 1366}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "% y por 1.000"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: wb_sh_dyn_aids_zs_arg, nombre: "Prevalencia (% de 15 a 49 años)"}
+      - {serie: wb_sh_hiv_incd_zs_arg, nombre: "Nuevas infecciones (por 1.000 no infectados)"}
+    fuentes:
+      - {nombre: "ONUSIDA, estimaciones del VIH, vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?locations=AR", nivel: secundaria}
+      - {nombre: "Ministerio de Salud, Boletín N° 40 de respuesta al VIH y las ITS (2023)", url: "https://argentina.gob.ar/sites/default/files/2024/04/sintesis_boletin_n_40_de_respuesta_al_vih_y_las_its_en_la_argentina_1642024.pdf", nivel: primaria, nota: "Diagnósticos notificados y tasas por provincia"}
+    metodo: "Estimaciones modeladas de ONUSIDA a partir de la vigilancia del Ministerio de Salud: incluyen a quienes no saben que tienen VIH. Según el Ministerio, en 2022 se diagnosticaron 12,2 casos nuevos cada 100.000 habitantes y casi todas las infecciones son por relaciones sexuales sin protección. El original pedía la prevalencia por grupo de edad (16 a 60 años): no se publica una serie así."
+
+  - id: desnutricion_infantil
+    tema: 13
+    titulo: "Desnutrición crónica y sobrepeso en niños menores de 5 años"
+    que_muestra: "Porcentaje de niños menores de 5 años con baja talla para la edad (desnutrición crónica) y con sobrepeso."
+    original: {ficha: p334, imagen: 1341}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "% de los menores de 5 años"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: wb_sh_sta_owgh_me_zs_arg, nombre: "Sobrepeso"}
+      - {serie: wb_sh_sta_stnt_me_zs_arg, nombre: "Baja talla (desnutrición crónica)"}
+    fuentes:
+      - {nombre: "UNICEF, OMS y Banco Mundial, estimaciones conjuntas de malnutrición infantil (modeladas), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.STA.STNT.ME.ZS?locations=AR", nivel: secundaria}
+    metodo: "Estimaciones anuales modeladas sobre las mediciones de las Encuestas Nacionales de Nutrición y Salud (2005 y 2018-2019). En la Argentina el problema nutricional infantil más extendido es el exceso de peso, no la desnutrición aguda (bajo peso para la talla), que afecta a menos del 2%. El original usaba la indigencia infantil como aproximación: es un indicador de ingresos, no de nutrición; según el INDEC, en el primer semestre de 2026 el 10,8% de los chicos de 0 a 14 años vivía en hogares indigentes."
+
+  - id: salud_mental_prevalencia
+    tema: 15
+    titulo: "Trastornos mentales en adultos: prevalencia a lo largo de la vida"
+    que_muestra: "Porcentaje de adultos que tuvieron alguna vez en la vida cada grupo de trastornos mentales, según el primer estudio epidemiológico nacional."
+    original: {ficha: p347, imagen: 1399}
+    tipo: barras
+    categorias: salud_mental_prevalencia
+    unidad: "% de la población de 18 años y más"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "Stagnaro, Cía y otros, Estudio epidemiológico de salud mental en población general de la República Argentina (Encuesta Mundial de Salud Mental OMS/Harvard), Vertex 2018", url: "https://busqueda.bvsalud.org/portal/resource/pt/mdl-30785970", nivel: primaria}
+    metodo: "Encuesta a 3.927 adultos de los principales centros urbanos, con diagnósticos según criterios internacionales (no autopercepción). Es la única medición nacional de este tipo: no hay una serie histórica. Una persona puede tener más de un trastorno, por eso los porcentajes no se suman. La esquizofrenia y otras psicosis no se miden en este tipo de encuestas de hogares."
