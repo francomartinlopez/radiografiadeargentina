@@ -8,7 +8,7 @@ Actualizado el 7/11/2026. Inventario: 305 con gráfico, 174 sin fuente, 0 pendie
 - **Encuestas vs. resultados (p387):** hecho para 2011-2023 (encuestas_vs_resultados). Faltan 2003 y 2007, sin recopilación de encuestas.
 - **Cartera de las AFJP 2008 (p448):** hecho (afjp_cartera_2008) con cifras de la SAFJP publicadas en la prensa en octubre de 2008; 'Otros' es la diferencia hasta 100%. Sería mejor confirmarlo con un boletín de la SAFJP si aparece.
 - **Aprender 6° grado (aprender_primaria):** completo 2016-2025; 2021 tomado de Argentinos por la Educación (secundaria). 2023 tiene dos versiones (51,4 y 51,5).
-- **Parque automotor (vehiculos_por_habitante):** faltan los informes AFAC 2012-2015; 2016 y 2017 están armados sumando el parque de hasta 20 años y el de más de 20.
+- **Parque automotor (vehiculos_por_habitante):** 2013 y 2014 agregados desde la prensa; faltan 2012 y 2015; 2016 y 2017 están armados sumando el parque de hasta 20 años y el de más de 20.
 - **Barrios populares (barrios_populares_region y _decada):** el archivo del RENABAP se bajó de una copia pública en GitHub porque el sitio oficial estaba en mantenimiento. Conviene volver a bajarlo del sitio oficial cuando vuelva, y ver si hay una actualización posterior a dic. 2023.
 - **Premios Nobel (nobel_por_pais):** se carga a mano; hay que rehacerlo cada octubre. Criterio: país de nacimiento (Leloir queda en Francia; está aclarado).
 - **Femicidios:** la serie arranca en 2017; el dato de 2014 está solo en la nota.
