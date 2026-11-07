@@ -3415,3 +3415,249 @@ graficos:
     fuentes:
       - {nombre: "ONU (con estadísticas vitales de la DEIS), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SP.DYN.TFRT.IN?locations=AR", nivel: secundaria}
     metodo: "Estimación anual de la ONU a partir de los nacimientos registrados por el Ministerio de Salud. Por debajo de 2,1 la población no se reemplaza sola. Ver también Tasa de natalidad."
+
+  # ---------- Paso 7 (lote 6, parte 1): comparaciones que sí tienen fuente y reservas netas ----------
+
+  - id: deficit_paises
+    tema: 3
+    titulo: 'Resultado fiscal: Argentina y otros países'
+    que_muestra: Superávit (positivo) o déficit (negativo) del gobierno central como % del PIB.
+    original:
+      ficha: p417
+      imagen: 1182
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1990'
+    unidad: '% del PIB'
+    tipo_valor: saldo
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_gc_nld_totl_gd_zs_arg
+      nombre: Argentina
+    - serie: wb_gc_nld_totl_gd_zs_bra
+      nombre: Brasil
+    - serie: wb_gc_nld_totl_gd_zs_chl
+      nombre: Chile
+    - serie: wb_gc_nld_totl_gd_zs_ury
+      nombre: Uruguay
+    - serie: wb_gc_nld_totl_gd_zs_mex
+      nombre: México
+    - serie: wb_gc_nld_totl_gd_zs_esp
+      nombre: España
+    - serie: wb_gc_nld_totl_gd_zs_ita
+      nombre: Italia
+    - serie: wb_gc_nld_totl_gd_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/GC.NLD.TOTL.GD.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Préstamo neto o endeudamiento neto del gobierno central (FMI, Government Finance Statistics, vía Banco Mundial). No incluye provincias ni municipios. Para la Argentina con más detalle ver Resultado fiscal del Sector Público Nacional.
+
+  - id: empleo_industrial_paises
+    tema: 7
+    titulo: 'Empleo en la industria: Argentina y otros países'
+    que_muestra: Porcentaje de los ocupados que trabaja en la industria (manufactura, construcción, minería y energía).
+    original:
+      ficha: p419
+      imagen: 1187
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1991'
+    unidad: '% del empleo'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_sl_ind_empl_zs_arg
+      nombre: Argentina
+    - serie: wb_sl_ind_empl_zs_bra
+      nombre: Brasil
+    - serie: wb_sl_ind_empl_zs_chl
+      nombre: Chile
+    - serie: wb_sl_ind_empl_zs_ury
+      nombre: Uruguay
+    - serie: wb_sl_ind_empl_zs_mex
+      nombre: México
+    - serie: wb_sl_ind_empl_zs_esp
+      nombre: España
+    - serie: wb_sl_ind_empl_zs_ita
+      nombre: Italia
+    - serie: wb_sl_ind_empl_zs_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/indicator/SL.IND.EMPL.ZS
+      nivel: secundaria
+      nota: Compila datos oficiales de cada país con criterios comunes
+    metodo: Estimaciones modeladas de la OIT, publicadas por el Banco Mundial. 'Industria' incluye construcción, minería y electricidad, gas y agua además de la manufactura. Ver también Peso de la industria en la economía (ficha p420).
+
+  - id: urbanizacion_historica
+    tema: 12
+    titulo: 'Urbanización desde 1850: Argentina y otros países'
+    que_muestra: Porcentaje de la población que vive en ciudades.
+    original:
+      ficha: p426
+      imagen: 1431
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1850'
+    unidad: '% de la población'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: owid_urb_arg
+      nombre: Argentina
+    - serie: owid_urb_bra
+      nombre: Brasil
+    - serie: owid_urb_chl
+      nombre: Chile
+    - serie: owid_urb_ury
+      nombre: Uruguay
+    - serie: owid_urb_mex
+      nombre: México
+    - serie: owid_urb_esp
+      nombre: España
+    - serie: owid_urb_ita
+      nombre: Italia
+    - serie: owid_urb_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: HYDE / ONU, vía Our World in Data
+      url: https://ourworldindata.org/grapher/urbanization-last-500-years
+      nivel: terciaria
+      nota: Reconstrucción histórica (HYDE) unida a la serie de la ONU
+    metodo: Antes de 1950 son reconstrucciones del proyecto HYDE (en décadas); desde 1950, la serie de la ONU. Complementa Población urbana (Banco Mundial, desde 1960).
+    tramos:
+    - hasta: 1949-12
+      tipo: estimado
+      nota: Reconstrucción histórica HYDE, con mayor margen de error.
+
+  - id: educacion_terciaria_historica
+    tema: 16
+    titulo: Población con estudios terciarios completos desde 1870
+    que_muestra: Porcentaje de las personas de 25 a 64 años con educación terciaria o universitaria completa.
+    original:
+      ficha: p372
+      imagen: 1422
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1870'
+    unidad: '% de 25 a 64 años'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: owid_terc_arg
+      nombre: Argentina
+    - serie: owid_terc_bra
+      nombre: Brasil
+    - serie: owid_terc_chl
+      nombre: Chile
+    - serie: owid_terc_ury
+      nombre: Uruguay
+    - serie: owid_terc_mex
+      nombre: México
+    - serie: owid_terc_esp
+      nombre: España
+    - serie: owid_terc_ita
+      nombre: Italia
+    - serie: owid_terc_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Lee y Lee (2016), vía Our World in Data
+      url: https://ourworldindata.org/grapher/share-of-the-population-with-completed-tertiary-education
+      nivel: secundaria
+    metodo: 'Reconstrucción quinquenal de Lee y Lee, hasta 2020. Para matrícula universitaria actual ver Acceso a la educación superior. Reúne las fichas p371 y p372 (escolaridad histórica general: ver Años de escolaridad desde 1870).'
+    tramos:
+    - hasta: 1949-12
+      tipo: estimado
+      nota: Reconstrucción histórica.
+
+  - id: caso_paraguay
+    tema: 19
+    titulo: 'Paraguay desde 1990: inflación, crecimiento y desempleo'
+    que_muestra: Inflación anual, crecimiento del PIB por habitante y desempleo de Paraguay.
+    original:
+      ficha: p409
+      imagen: 1160
+    tipo: lineas
+    frecuencia: A
+    desde: '1990'
+    gobiernos: false
+    unidad: '%'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_fp_cpi_totl_zg_pry
+      nombre: Inflación (%)
+    - serie: wb_ny_gdp_pcap_kd_zg_pry
+      nombre: Crecimiento del PIB por habitante (%)
+    - serie: wb_sl_uem_totl_zs_pry
+      nombre: Desempleo (% de la población activa)
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/country/PRY
+      nivel: secundaria
+    metodo: Series anuales del Banco Mundial, como en los casos de Chile, Perú, Brasil, México y Colombia. Los indicadores sin fuente del original (canasta, ahorro, vivienda) no se incluyen.
+
+  - id: caso_uruguay
+    tema: 19
+    titulo: 'Uruguay desde 1990: inflación, crecimiento y desempleo'
+    que_muestra: Inflación anual, crecimiento del PIB por habitante y desempleo de Uruguay.
+    original:
+      ficha: p410
+      imagen: 1161
+    tipo: lineas
+    frecuencia: A
+    desde: '1990'
+    gobiernos: false
+    unidad: '%'
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    series:
+    - serie: wb_fp_cpi_totl_zg_ury
+      nombre: Inflación (%)
+    - serie: wb_ny_gdp_pcap_kd_zg_ury
+      nombre: Crecimiento del PIB por habitante (%)
+    - serie: wb_sl_uem_totl_zs_ury
+      nombre: Desempleo (% de la población activa)
+    fuentes:
+    - nombre: Banco Mundial, World Development Indicators
+      url: https://data.worldbank.org/country/URY
+      nivel: secundaria
+    metodo: Series anuales del Banco Mundial, como en los casos de Chile, Perú, Brasil, México y Colombia. Los indicadores sin fuente del original (canasta, ahorro, vivienda) no se incluyen.
+
+  - id: reservas_netas
+    tema: 3
+    titulo: "Reservas netas del BCRA (estimación)"
+    que_muestra: "Reservas brutas menos lo que el BCRA debe devolver o no puede usar libremente: encajes de los depósitos en dólares, swap con China, pases con bancos y deudas con organismos."
+    original: {ficha: p77, imagen: 1225}
+    tipo: lineas
+    frecuencia: M
+    desde: "2003-01"
+    unidad: "millones de US$ de hoy"
+    tipo_valor: saldo
+    moneda: USD
+    medida_inicial: nivel
+    series:
+      - {serie: reservas, nombre: "Reservas brutas", color: gris}
+      - {serie: reservas_netas, nombre: "Reservas netas (estimación)"}
+    fuentes:
+      - {nombre: "BCRA, reservas internacionales y balance (vía datos.gob.ar)", url: "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp", nivel: primaria}
+      - {nombre: "Estimación de Datos de Argentina con el método descripto", nivel: estimacion, nota: "No hay cifra oficial de reservas netas"}
+    metodo: "Reservas brutas menos encajes de los depósitos en dólares, swap con China (valuado al tipo de cambio del yuan), repos y pases en dólares con bancos, obligaciones con organismos internacionales y el tramo activado del swap con EE.UU. Es la misma estimación que usa Datos de Argentina. Otras metodologías (consultoras, FMI) restan otros rubros y dan cifras distintas. La versión del original que restaba toda la deuda futura (fichas p123 y p73-p74) no tiene un método reproducible y queda pendiente."
+    estimacion: "Cálculo propio sobre rubros oficiales del balance del BCRA."
+    tramos:
+      - {desde: "2003-01", tipo: estimado, nota: "Toda la serie de reservas netas es una estimación: no hay cifra oficial.", serie: reservas_netas}

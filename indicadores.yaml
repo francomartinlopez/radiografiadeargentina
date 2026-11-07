@@ -761,6 +761,44 @@ series:
   cabotaje_pasajeros:  {fuente: datosgobar, id: "302.3_TRANSP_PASSAJ_0_S_54"}
   poblacion_arg:       {fuente: worldbank, id: "SP.POP.TOTL", pais: ARG}
   fecundidad_arg:      {fuente: worldbank, id: "SP.DYN.TFRT.IN", pais: ARG}
+  # Radiografía, lote 6 parte 1
+  wb_gc_nld_totl_gd_zs_arg: {fuente: worldbank, id: "GC.NLD.TOTL.GD.ZS", pais: ARG}
+  wb_gc_nld_totl_gd_zs_bra: {fuente: worldbank, id: "GC.NLD.TOTL.GD.ZS", pais: BRA}
+  wb_gc_nld_totl_gd_zs_chl: {fuente: worldbank, id: "GC.NLD.TOTL.GD.ZS", pais: CHL}
+  wb_gc_nld_totl_gd_zs_ury: {fuente: worldbank, id: "GC.NLD.TOTL.GD.ZS", pais: URY}
+  wb_gc_nld_totl_gd_zs_mex: {fuente: worldbank, id: "GC.NLD.TOTL.GD.ZS", pais: MEX}
+  wb_gc_nld_totl_gd_zs_esp: {fuente: worldbank, id: "GC.NLD.TOTL.GD.ZS", pais: ESP}
+  wb_gc_nld_totl_gd_zs_ita: {fuente: worldbank, id: "GC.NLD.TOTL.GD.ZS", pais: ITA}
+  wb_gc_nld_totl_gd_zs_usa: {fuente: worldbank, id: "GC.NLD.TOTL.GD.ZS", pais: USA}
+  wb_sl_ind_empl_zs_arg: {fuente: worldbank, id: "SL.IND.EMPL.ZS", pais: ARG}
+  wb_sl_ind_empl_zs_bra: {fuente: worldbank, id: "SL.IND.EMPL.ZS", pais: BRA}
+  wb_sl_ind_empl_zs_chl: {fuente: worldbank, id: "SL.IND.EMPL.ZS", pais: CHL}
+  wb_sl_ind_empl_zs_ury: {fuente: worldbank, id: "SL.IND.EMPL.ZS", pais: URY}
+  wb_sl_ind_empl_zs_mex: {fuente: worldbank, id: "SL.IND.EMPL.ZS", pais: MEX}
+  wb_sl_ind_empl_zs_esp: {fuente: worldbank, id: "SL.IND.EMPL.ZS", pais: ESP}
+  wb_sl_ind_empl_zs_ita: {fuente: worldbank, id: "SL.IND.EMPL.ZS", pais: ITA}
+  wb_sl_ind_empl_zs_usa: {fuente: worldbank, id: "SL.IND.EMPL.ZS", pais: USA}
+  owid_urb_arg: {fuente: owid, id: urbanization-last-500-years, campo: urbc_c_share, pais: ARG}
+  owid_urb_bra: {fuente: owid, id: urbanization-last-500-years, campo: urbc_c_share, pais: BRA}
+  owid_urb_chl: {fuente: owid, id: urbanization-last-500-years, campo: urbc_c_share, pais: CHL}
+  owid_urb_ury: {fuente: owid, id: urbanization-last-500-years, campo: urbc_c_share, pais: URY}
+  owid_urb_mex: {fuente: owid, id: urbanization-last-500-years, campo: urbc_c_share, pais: MEX}
+  owid_urb_esp: {fuente: owid, id: urbanization-last-500-years, campo: urbc_c_share, pais: ESP}
+  owid_urb_ita: {fuente: owid, id: urbanization-last-500-years, campo: urbc_c_share, pais: ITA}
+  owid_urb_usa: {fuente: owid, id: urbanization-last-500-years, campo: urbc_c_share, pais: USA}
+  owid_terc_arg: {fuente: owid, id: share-of-the-population-with-completed-tertiary-education, campo: mf_adults__25_64_years__percentage_of_tertiary_education, pais: ARG}
+  owid_terc_bra: {fuente: owid, id: share-of-the-population-with-completed-tertiary-education, campo: mf_adults__25_64_years__percentage_of_tertiary_education, pais: BRA}
+  owid_terc_chl: {fuente: owid, id: share-of-the-population-with-completed-tertiary-education, campo: mf_adults__25_64_years__percentage_of_tertiary_education, pais: CHL}
+  owid_terc_ury: {fuente: owid, id: share-of-the-population-with-completed-tertiary-education, campo: mf_adults__25_64_years__percentage_of_tertiary_education, pais: URY}
+  owid_terc_mex: {fuente: owid, id: share-of-the-population-with-completed-tertiary-education, campo: mf_adults__25_64_years__percentage_of_tertiary_education, pais: MEX}
+  owid_terc_esp: {fuente: owid, id: share-of-the-population-with-completed-tertiary-education, campo: mf_adults__25_64_years__percentage_of_tertiary_education, pais: ESP}
+  owid_terc_ita: {fuente: owid, id: share-of-the-population-with-completed-tertiary-education, campo: mf_adults__25_64_years__percentage_of_tertiary_education, pais: ITA}
+  owid_terc_usa: {fuente: owid, id: share-of-the-population-with-completed-tertiary-education, campo: mf_adults__25_64_years__percentage_of_tertiary_education, pais: USA}
+  wb_fp_cpi_totl_zg_pry: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: PRY}
+  wb_ny_gdp_pcap_kd_zg_pry: {fuente: worldbank, id: "NY.GDP.PCAP.KD.ZG", pais: PRY}
+  wb_sl_uem_totl_zs_pry: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: PRY}
+  wb_fp_cpi_totl_zg_ury: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: URY}
+  wb_ny_gdp_pcap_kd_zg_ury: {fuente: worldbank, id: "NY.GDP.PCAP.KD.ZG", pais: URY}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

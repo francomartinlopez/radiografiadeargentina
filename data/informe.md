@@ -1,13 +1,92 @@
 # Informe de actualización 2026-11-07
 
-Gráficos publicados: 126
+Gráficos publicados: 128
 
 ## Alertas
 
 - poblacion_arg: sin datos guardados
 - fecundidad_arg: sin datos guardados
+- wb_gc_nld_totl_gd_zs_arg: sin datos guardados
+- wb_gc_nld_totl_gd_zs_bra: sin datos guardados
+- wb_gc_nld_totl_gd_zs_chl: sin datos guardados
+- wb_gc_nld_totl_gd_zs_ury: sin datos guardados
+- wb_gc_nld_totl_gd_zs_mex: sin datos guardados
+- wb_gc_nld_totl_gd_zs_esp: sin datos guardados
+- wb_gc_nld_totl_gd_zs_ita: sin datos guardados
+- wb_gc_nld_totl_gd_zs_usa: sin datos guardados
+- wb_sl_ind_empl_zs_arg: sin datos guardados
+- wb_sl_ind_empl_zs_bra: sin datos guardados
+- wb_sl_ind_empl_zs_chl: sin datos guardados
+- wb_sl_ind_empl_zs_ury: sin datos guardados
+- wb_sl_ind_empl_zs_mex: sin datos guardados
+- wb_sl_ind_empl_zs_esp: sin datos guardados
+- wb_sl_ind_empl_zs_ita: sin datos guardados
+- wb_sl_ind_empl_zs_usa: sin datos guardados
+- owid_urb_arg: sin datos guardados
+- owid_urb_bra: sin datos guardados
+- owid_urb_chl: sin datos guardados
+- owid_urb_ury: sin datos guardados
+- owid_urb_mex: sin datos guardados
+- owid_urb_esp: sin datos guardados
+- owid_urb_ita: sin datos guardados
+- owid_urb_usa: sin datos guardados
+- owid_terc_arg: sin datos guardados
+- owid_terc_bra: sin datos guardados
+- owid_terc_chl: sin datos guardados
+- owid_terc_ury: sin datos guardados
+- owid_terc_mex: sin datos guardados
+- owid_terc_esp: sin datos guardados
+- owid_terc_ita: sin datos guardados
+- owid_terc_usa: sin datos guardados
+- wb_fp_cpi_totl_zg_pry: sin datos guardados
+- wb_ny_gdp_pcap_kd_zg_pry: sin datos guardados
+- wb_sl_uem_totl_zs_pry: sin datos guardados
+- wb_fp_cpi_totl_zg_ury: sin datos guardados
+- wb_ny_gdp_pcap_kd_zg_ury: sin datos guardados
 - pib_pc_pesos: falta la serie 'poblacion_arg', no se calcula
 - pib_per_capita_pesos: sin datos para la serie pib_pc_pesos
 - pib_per_capita_pesos: sin datos, no se publica
 - fecundidad: sin datos para la serie fecundidad_arg
 - fecundidad: sin datos, no se publica
+- deficit_paises: sin datos para la serie wb_gc_nld_totl_gd_zs_arg
+- deficit_paises: sin datos para la serie wb_gc_nld_totl_gd_zs_bra
+- deficit_paises: sin datos para la serie wb_gc_nld_totl_gd_zs_chl
+- deficit_paises: sin datos para la serie wb_gc_nld_totl_gd_zs_ury
+- deficit_paises: sin datos para la serie wb_gc_nld_totl_gd_zs_mex
+- deficit_paises: sin datos para la serie wb_gc_nld_totl_gd_zs_esp
+- deficit_paises: sin datos para la serie wb_gc_nld_totl_gd_zs_ita
+- deficit_paises: sin datos para la serie wb_gc_nld_totl_gd_zs_usa
+- deficit_paises: sin datos, no se publica
+- empleo_industrial_paises: sin datos para la serie wb_sl_ind_empl_zs_arg
+- empleo_industrial_paises: sin datos para la serie wb_sl_ind_empl_zs_bra
+- empleo_industrial_paises: sin datos para la serie wb_sl_ind_empl_zs_chl
+- empleo_industrial_paises: sin datos para la serie wb_sl_ind_empl_zs_ury
+- empleo_industrial_paises: sin datos para la serie wb_sl_ind_empl_zs_mex
+- empleo_industrial_paises: sin datos para la serie wb_sl_ind_empl_zs_esp
+- empleo_industrial_paises: sin datos para la serie wb_sl_ind_empl_zs_ita
+- empleo_industrial_paises: sin datos para la serie wb_sl_ind_empl_zs_usa
+- empleo_industrial_paises: sin datos, no se publica
+- urbanizacion_historica: sin datos para la serie owid_urb_arg
+- urbanizacion_historica: sin datos para la serie owid_urb_bra
+- urbanizacion_historica: sin datos para la serie owid_urb_chl
+- urbanizacion_historica: sin datos para la serie owid_urb_ury
+- urbanizacion_historica: sin datos para la serie owid_urb_mex
+- urbanizacion_historica: sin datos para la serie owid_urb_esp
+- urbanizacion_historica: sin datos para la serie owid_urb_ita
+- urbanizacion_historica: sin datos para la serie owid_urb_usa
+- urbanizacion_historica: sin datos, no se publica
+- educacion_terciaria_historica: sin datos para la serie owid_terc_arg
+- educacion_terciaria_historica: sin datos para la serie owid_terc_bra
+- educacion_terciaria_historica: sin datos para la serie owid_terc_chl
+- educacion_terciaria_historica: sin datos para la serie owid_terc_ury
+- educacion_terciaria_historica: sin datos para la serie owid_terc_mex
+- educacion_terciaria_historica: sin datos para la serie owid_terc_esp
+- educacion_terciaria_historica: sin datos para la serie owid_terc_ita
+- educacion_terciaria_historica: sin datos para la serie owid_terc_usa
+- educacion_terciaria_historica: sin datos, no se publica
+- caso_paraguay: sin datos para la serie wb_fp_cpi_totl_zg_pry
+- caso_paraguay: sin datos para la serie wb_ny_gdp_pcap_kd_zg_pry
+- caso_paraguay: sin datos para la serie wb_sl_uem_totl_zs_pry
+- caso_paraguay: sin datos, no se publica
+- caso_uruguay: sin datos para la serie wb_fp_cpi_totl_zg_ury
+- caso_uruguay: sin datos para la serie wb_ny_gdp_pcap_kd_zg_ury
