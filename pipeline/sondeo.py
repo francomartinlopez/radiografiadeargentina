@@ -217,14 +217,14 @@ def main() -> None:
         except Exception as e:
             lineas.append(f"- {slug}: error {e}")
     import re as _re
-    for pag in []:
+    for pag in ["https://www.bcra.gob.ar/informe-de-pagos-minoristas/", "https://www.bcra.gob.ar/en/retail-payments-report/", "https://www.bcra.gob.ar/informe-mensual-de-pagos-minoristas/", "https://www.bcra.gob.ar/pagos-minoristas/"]:
         try:
-            r = requests.get(pag, timeout=60, headers={"User-Agent": "Mozilla/5.0"})
-            links = sorted(set(h for h in _re.findall(r'href="([^"]+)"', r.text, _re.I) if _re.search(r'archivos|xls|pdf', h, _re.I)))
-            lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:120]))
+            r = requests.get(pag, timeout=60, headers={"User-Agent": "radiografia-argentina/1.0"})
+            links = sorted(set(h for h in _re.findall(r'href="([^"]+)"', r.text, _re.I) if _re.search(r'inorist|retail|pagos', h, _re.I)))
+            lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:300]))
         except Exception as e:
             lineas.append(f"- {pag}: error {e}")
-    for u, n in [("https://api.bcra.gob.ar/estadisticas/v4.0/monetarias", "bcra_vars.json")]:
+    for u, n in []:
         try:
             r = requests.get(u, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
             lineas.append(f"- {u}: HTTP {r.status_code} {len(r.text)}")
