@@ -4194,3 +4194,79 @@ graficos:
       - {nombre: "Secretaría de Hacienda, Presupuesto de gastos y su ejecución detallada (agrupación mensual), por servicio administrativo financiero", url: "https://www.economia.gob.ar/onp/ejecucion", nivel: primaria}
       - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
     metodo: "Gasto devengado mensual de cada organismo (todas sus fuentes de financiamiento, incluidos sus recursos propios), en pesos corrientes llevados a pesos del último mes con dato con el IPC empalmado. Se muestra por defecto la suma de 12 meses porque el gasto mensual tiene saltos (aguinaldos, compras grandes). ENACOM reúne desde 2016 a la CNC (telecomunicaciones) y al COMFER/AFSCA (radiodifusión): se suman sus antecesores. ENRE y ENARGAS se fusionaron en 2026 en el Ente Nacional Regulador del Gas y la Electricidad. La ANAC existe como organismo desde 2009; antes la aviación civil dependía de la Fuerza Aérea."
+
+  - id: autos_0km_usados
+    tema: 10
+    titulo: "Automotores 0 km y usados: inscripciones y transferencias"
+    que_muestra: "Cantidad de automotores inscriptos por primera vez (0 km) y de transferencias de usados registradas cada mes en los registros del automotor."
+    original: {ficha: p254, imagen: 1013}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "vehículos"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: dnrpa_autos_usados, nombre: "Usados (transferencias)"}
+      - {serie: dnrpa_autos_0km, nombre: "0 km (inscripciones iniciales)"}
+    fuentes:
+      - {nombre: "Ministerio de Justicia, Dirección Nacional de los Registros de la Propiedad Automotor (DNRPA): estadística de trámites de automotores", url: "https://datos.gob.ar/dataset/justicia-estadistica-tramites-automotores", nivel: primaria}
+    metodo: "Suma de todas las provincias. Automotores incluye autos, utilitarios, camiones y colectivos: la DNRPA no publica la serie abierta por tipo ni por gama, y tampoco el parque total, así que las fichas que pedían ventas por gama como % del parque (p256, p257, p260 y p262) se resuelven con este gráfico. Por defecto se muestra la suma de 12 meses; con la opción Nivel se ve el dato mensual."
+
+  - id: motos_0km_usadas
+    tema: 10
+    titulo: "Motos 0 km y usadas: inscripciones y transferencias"
+    que_muestra: "Cantidad de motos inscriptas por primera vez (0 km) y de transferencias de motos usadas registradas cada mes."
+    original: {ficha: p252, imagen: 1010}
+    tipo: lineas
+    frecuencia: M
+    desde: "2007-01"
+    unidad: "motos"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: dnrpa_motos_0km, nombre: "0 km (inscripciones iniciales)"}
+      - {serie: dnrpa_motos_usadas, nombre: "Usadas (transferencias)"}
+    fuentes:
+      - {nombre: "Ministerio de Justicia, DNRPA: estadística de trámites de motovehículos", url: "https://datos.gob.ar/dataset/justicia-estadistica-tramites-motovehiculos", nivel: primaria}
+    metodo: "Suma de todas las provincias, desde 2007 (inicio de la serie publicada). El original mostraba el índice del INDEC (base 2018 = 100); acá se usan las cantidades del registro, que son la base de ese índice. Las aperturas por gama y como % del parque (p258, p259) no se publican."
+
+  - id: robos_autos
+    tema: 20
+    titulo: "Robos y recuperos de automotores denunciados en el registro"
+    que_muestra: "Cantidad de denuncias de robo o hurto y de comunicaciones de recupero de automotores asentadas cada mes en los registros del automotor."
+    original: {ficha: p264, imagen: 1260}
+    tipo: lineas
+    frecuencia: M
+    desde: "2018-01"
+    unidad: "trámites"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: nivel
+    series:
+      - {serie: dnrpa_robos_autos, nombre: "Denuncias de robo o hurto"}
+      - {serie: dnrpa_recuperos_autos, nombre: "Recuperos comunicados"}
+    fuentes:
+      - {nombre: "Ministerio de Justicia, DNRPA: robos y recuperos de autos (un registro por trámite)", url: "https://datos.gob.ar/dataset/justicia-robos-recuperos-autos", nivel: primaria}
+    metodo: "Se cuentan los trámites por mes de presentación. Son solo los robos que el titular denuncia en el registro del automotor (no todos los que se denuncian a la policía), por eso son menos que los del Sistema Nacional de Información Criminal. La base pública empieza en 2018 y no separa robos totales de parciales ni da el parque, así que no se puede calcular el % del parque que pedía el original (p264 a p268)."
+
+  - id: sobrepeso_obesidad
+    tema: 14
+    titulo: "Adultos con sobrepeso y obesidad"
+    que_muestra: "Porcentaje de personas de 18 años y más con sobrepeso y con obesidad, según el peso y la talla que declaran. La suma es el exceso de peso."
+    original: {ficha: p335, imagen: 1358}
+    tipo: areas
+    frecuencia: A
+    desde: "2005"
+    unidad: "% de la población de 18 años y más"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    medidas: [nivel]
+    series:
+      - {serie: enfr_obesidad, nombre: "Obesidad"}
+      - {serie: enfr_sobrepeso, nombre: "Sobrepeso"}
+    fuentes:
+      - {nombre: "INDEC y Ministerio de Salud, Encuesta Nacional de Factores de Riesgo 2018 (comparación 2005-2018)", url: "https://www.indec.gob.ar/ftp/cuadros/publicaciones/enfr_2018_resultados_definitivos.pdf", nivel: primaria}
+    metodo: "Índice de masa corporal calculado con peso y talla declarados (autorreporte): sobrepeso entre 25 y 30, obesidad 30 o más. El exceso de peso pasó de 49,0% en 2005 a 61,6% en 2018. En 2018 también se midió a los encuestados: con medición, la obesidad dio 32,4% y el exceso de peso 66,1%. La línea une las ediciones de la encuesta."

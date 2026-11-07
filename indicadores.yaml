@@ -827,9 +827,9 @@ series:
   dex_maiz:            {fuente: manual, id: dex_maiz, escalonada: true}
   dex_trigo:           {fuente: manual, id: dex_trigo, escalonada: true}
   censo_extranjeros:   {fuente: manual, id: censo_extranjeros}
-  enfr_tabaco:   {fuente: manual, id: enfr_tabaco}
-  enfr_vapeo:   {fuente: manual, id: enfr_vapeo}
-  enfr_actividad_baja:   {fuente: manual, id: enfr_actividad_baja}
+  enfr_tabaco:   {fuente: manual, id: enfr_tabaco, cerrada: true}
+  enfr_vapeo:   {fuente: manual, id: enfr_vapeo, cerrada: true}
+  enfr_actividad_baja:   {fuente: manual, id: enfr_actividad_baja, cerrada: true}
   mdb_cardio:   {fuente: owid, id: death-rate-by-cause-who-mdb, campo: cause_cardiovascular_diseases}
   mdb_cancer:   {fuente: owid, id: death-rate-by-cause-who-mdb, campo: cause_malignant_neoplasms}
   mdb_respiratorias:   {fuente: owid, id: death-rate-by-cause-who-mdb, campo: cause_respiratory_diseases}
@@ -856,6 +856,14 @@ series:
   pre_enre_enargas:   {fuente: presupuesto, id: [651, 652, 674]}
   pre_cnrt:   {fuente: presupuesto, id: [661]}
   pre_anac:   {fuente: presupuesto, id: [669]}
+  dnrpa_autos_0km:   {fuente: ckan, paquete: justicia-estadistica-tramites-automotores, recurso: "inscripciones iniciales de automotores", anio: anio_inscripcion_inicial, mes: mes_inscripcion_inicial, valor: cantidad_inscripciones_iniciales}
+  dnrpa_autos_usados:   {fuente: ckan, paquete: justicia-estadistica-tramites-automotores, recurso: "transferencias de automotores", anio: anio_transferencia, mes: mes_transferencia, valor: cantidad_transferencias}
+  dnrpa_motos_0km:   {fuente: ckan, paquete: justicia-estadistica-tramites-motovehiculos, recurso: "inscripciones iniciales de motoveh", anio: anio_inscripcion_inicial, mes: mes_inscripcion_inicial, valor: cantidad_inscripciones_iniciales}
+  dnrpa_motos_usadas:   {fuente: ckan, paquete: justicia-estadistica-tramites-motovehiculos, recurso: "transferencias de motoveh", anio: anio_transferencia, mes: mes_transferencia, valor: cantidad_transferencias}
+  dnrpa_robos_autos:   {fuente: dnrpa_robos, tipo: robo}
+  dnrpa_recuperos_autos:   {fuente: dnrpa_robos, tipo: recupero}
+  enfr_sobrepeso:   {fuente: manual, id: enfr_sobrepeso, cerrada: true}
+  enfr_obesidad:   {fuente: manual, id: enfr_obesidad, cerrada: true}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

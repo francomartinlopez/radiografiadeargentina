@@ -142,3 +142,19 @@ def test_presupuesto_resumir():
     indec = df[df["servicio_id"] == 321].set_index("fecha")["devengado"]
     assert indec.loc["2024-01-01"] == 12.0 and indec.loc["2024-02-01"] == 3.0
     assert len(df) == 3
+
+
+def test_ckan_parsear_suma_provincias():
+    from pipeline.fuentes import ckan
+    texto = ('"tipo","anio_x","mes_x","prov","cantidad"\n"A",2020,1,"BA",10\n"A",2020,1,"CBA",5\n"A",2020,2,"BA",7\n')
+    s = ckan.parsear(texto, "anio_x", "mes_x", "cantidad")
+    assert s.loc["2020-01-01"] == 15 and s.loc["2020-02-01"] == 7
+
+
+def test_dnrpa_robos_contar():
+    from pipeline.fuentes import dnrpa_robos
+    texto = ("tramite_tipo,tramite_fecha,otra\nDENUNCIA DE ROBO O HURTO / RETENCION INDEBIDA,2025-03-02,x\n"
+             "DENUNCIA DE ROBO O HURTO / RETENCION INDEBIDA,2025-03-20,x\nCOMUNICACIÓN DE RECUPERO,2025-04-01,x\n")
+    df = dnrpa_robos.contar(texto).set_index(["fecha", "tipo"])["cantidad"]
+    assert df.loc[(pd.Timestamp("2025-03-01"), "robo")] == 2
+    assert df.loc[(pd.Timestamp("2025-04-01"), "recupero")] == 1

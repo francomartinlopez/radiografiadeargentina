@@ -1,0 +1,621 @@
+serie,fecha,valor,tramo
+Usados (transferencias),2001-01-01,65600.0,observado
+Usados (transferencias),2001-02-01,55785.0,observado
+Usados (transferencias),2001-03-01,55036.0,observado
+Usados (transferencias),2001-04-01,52744.0,observado
+Usados (transferencias),2001-05-01,54053.0,observado
+Usados (transferencias),2001-06-01,49348.0,observado
+Usados (transferencias),2001-07-01,53854.0,observado
+Usados (transferencias),2001-08-01,56510.0,observado
+Usados (transferencias),2001-09-01,49511.0,observado
+Usados (transferencias),2001-10-01,51010.0,observado
+Usados (transferencias),2001-11-01,47396.0,observado
+Usados (transferencias),2001-12-01,33874.0,observado
+Usados (transferencias),2002-01-01,36613.0,observado
+Usados (transferencias),2002-02-01,34038.0,observado
+Usados (transferencias),2002-03-01,39399.0,observado
+Usados (transferencias),2002-04-01,46068.0,observado
+Usados (transferencias),2002-05-01,54093.0,observado
+Usados (transferencias),2002-06-01,45095.0,observado
+Usados (transferencias),2002-07-01,57367.0,observado
+Usados (transferencias),2002-08-01,57719.0,observado
+Usados (transferencias),2002-09-01,59192.0,observado
+Usados (transferencias),2002-10-01,61473.0,observado
+Usados (transferencias),2002-11-01,58352.0,observado
+Usados (transferencias),2002-12-01,60745.0,observado
+Usados (transferencias),2003-01-01,68690.0,observado
+Usados (transferencias),2003-02-01,54266.0,observado
+Usados (transferencias),2003-03-01,59109.0,observado
+Usados (transferencias),2003-04-01,63573.0,observado
+Usados (transferencias),2003-05-01,62734.0,observado
+Usados (transferencias),2003-06-01,61478.0,observado
+Usados (transferencias),2003-07-01,77197.0,observado
+Usados (transferencias),2003-08-01,71338.0,observado
+Usados (transferencias),2003-09-01,75489.0,observado
+Usados (transferencias),2003-10-01,76204.0,observado
+Usados (transferencias),2003-11-01,67080.0,observado
+Usados (transferencias),2003-12-01,68164.0,observado
+Usados (transferencias),2004-01-01,74149.0,observado
+Usados (transferencias),2004-02-01,67065.0,observado
+Usados (transferencias),2004-03-01,81298.0,observado
+Usados (transferencias),2004-04-01,70834.0,observado
+Usados (transferencias),2004-05-01,71157.0,observado
+Usados (transferencias),2004-06-01,75146.0,observado
+Usados (transferencias),2004-07-01,80172.0,observado
+Usados (transferencias),2004-08-01,82810.0,observado
+Usados (transferencias),2004-09-01,83761.0,observado
+Usados (transferencias),2004-10-01,75972.0,observado
+Usados (transferencias),2004-11-01,83529.0,observado
+Usados (transferencias),2004-12-01,82984.0,observado
+Usados (transferencias),2005-01-01,77883.0,observado
+Usados (transferencias),2005-02-01,74863.0,observado
+Usados (transferencias),2005-03-01,81414.0,observado
+Usados (transferencias),2005-04-01,83175.0,observado
+Usados (transferencias),2005-05-01,88210.0,observado
+Usados (transferencias),2005-06-01,86489.0,observado
+Usados (transferencias),2005-07-01,88926.0,observado
+Usados (transferencias),2005-08-01,95352.0,observado
+Usados (transferencias),2005-09-01,95630.0,observado
+Usados (transferencias),2005-10-01,86703.0,observado
+Usados (transferencias),2005-11-01,95176.0,observado
+Usados (transferencias),2005-12-01,80491.0,observado
+Usados (transferencias),2006-01-01,105347.0,observado
+Usados (transferencias),2006-02-01,87601.0,observado
+Usados (transferencias),2006-03-01,99397.0,observado
+Usados (transferencias),2006-04-01,90044.0,observado
+Usados (transferencias),2006-05-01,104729.0,observado
+Usados (transferencias),2006-06-01,99445.0,observado
+Usados (transferencias),2006-07-01,109664.0,observado
+Usados (transferencias),2006-08-01,115339.0,observado
+Usados (transferencias),2006-09-01,109209.0,observado
+Usados (transferencias),2006-10-01,106340.0,observado
+Usados (transferencias),2006-11-01,112074.0,observado
+Usados (transferencias),2006-12-01,84999.0,observado
+Usados (transferencias),2007-01-01,120143.0,observado
+Usados (transferencias),2007-02-01,98349.0,observado
+Usados (transferencias),2007-03-01,109595.0,observado
+Usados (transferencias),2007-04-01,94881.0,observado
+Usados (transferencias),2007-05-01,111293.0,observado
+Usados (transferencias),2007-06-01,105110.0,observado
+Usados (transferencias),2007-07-01,119477.0,observado
+Usados (transferencias),2007-08-01,131239.0,observado
+Usados (transferencias),2007-09-01,118393.0,observado
+Usados (transferencias),2007-10-01,126606.0,observado
+Usados (transferencias),2007-11-01,125458.0,observado
+Usados (transferencias),2007-12-01,109629.0,observado
+Usados (transferencias),2008-01-01,133191.0,observado
+Usados (transferencias),2008-02-01,117991.0,observado
+Usados (transferencias),2008-03-01,105590.0,observado
+Usados (transferencias),2008-04-01,126105.0,observado
+Usados (transferencias),2008-05-01,125863.0,observado
+Usados (transferencias),2008-06-01,111064.0,observado
+Usados (transferencias),2008-07-01,127650.0,observado
+Usados (transferencias),2008-08-01,115068.0,observado
+Usados (transferencias),2008-09-01,126646.0,observado
+Usados (transferencias),2008-10-01,121572.0,observado
+Usados (transferencias),2008-11-01,100297.0,observado
+Usados (transferencias),2008-12-01,98449.0,observado
+Usados (transferencias),2009-01-01,109370.0,observado
+Usados (transferencias),2009-02-01,96965.0,observado
+Usados (transferencias),2009-03-01,102341.0,observado
+Usados (transferencias),2009-04-01,100675.0,observado
+Usados (transferencias),2009-05-01,98977.0,observado
+Usados (transferencias),2009-06-01,107020.0,observado
+Usados (transferencias),2009-07-01,116489.0,observado
+Usados (transferencias),2009-08-01,116785.0,observado
+Usados (transferencias),2009-09-01,128342.0,observado
+Usados (transferencias),2009-10-01,118816.0,observado
+Usados (transferencias),2009-11-01,113403.0,observado
+Usados (transferencias),2009-12-01,119035.0,observado
+Usados (transferencias),2010-01-01,121507.0,observado
+Usados (transferencias),2010-02-01,107713.0,observado
+Usados (transferencias),2010-03-01,131633.0,observado
+Usados (transferencias),2010-04-01,122379.0,observado
+Usados (transferencias),2010-05-01,113119.0,observado
+Usados (transferencias),2010-06-01,123846.0,observado
+Usados (transferencias),2010-07-01,128955.0,observado
+Usados (transferencias),2010-08-01,135798.0,observado
+Usados (transferencias),2010-09-01,145247.0,observado
+Usados (transferencias),2010-10-01,126775.0,observado
+Usados (transferencias),2010-11-01,141297.0,observado
+Usados (transferencias),2010-12-01,145907.0,observado
+Usados (transferencias),2011-01-01,145332.0,observado
+Usados (transferencias),2011-02-01,138912.0,observado
+Usados (transferencias),2011-03-01,138738.0,observado
+Usados (transferencias),2011-04-01,134708.0,observado
+Usados (transferencias),2011-05-01,156998.0,observado
+Usados (transferencias),2011-06-01,155070.0,observado
+Usados (transferencias),2011-07-01,158818.0,observado
+Usados (transferencias),2011-08-01,172342.0,observado
+Usados (transferencias),2011-09-01,170710.0,observado
+Usados (transferencias),2011-10-01,154189.0,observado
+Usados (transferencias),2011-11-01,157069.0,observado
+Usados (transferencias),2011-12-01,150779.0,observado
+Usados (transferencias),2012-01-01,152245.0,observado
+Usados (transferencias),2012-02-01,123120.0,observado
+Usados (transferencias),2012-03-01,155668.0,observado
+Usados (transferencias),2012-04-01,120690.0,observado
+Usados (transferencias),2012-05-01,153412.0,observado
+Usados (transferencias),2012-06-01,140629.0,observado
+Usados (transferencias),2012-07-01,158828.0,observado
+Usados (transferencias),2012-08-01,169470.0,observado
+Usados (transferencias),2012-09-01,144694.0,observado
+Usados (transferencias),2012-10-01,160496.0,observado
+Usados (transferencias),2012-11-01,142928.0,observado
+Usados (transferencias),2012-12-01,134128.0,observado
+Usados (transferencias),2013-01-01,154135.0,observado
+Usados (transferencias),2013-02-01,124461.0,observado
+Usados (transferencias),2013-03-01,144022.0,observado
+Usados (transferencias),2013-04-01,151857.0,observado
+Usados (transferencias),2013-05-01,166333.0,observado
+Usados (transferencias),2013-06-01,137759.0,observado
+Usados (transferencias),2013-07-01,177529.0,observado
+Usados (transferencias),2013-08-01,169934.0,observado
+Usados (transferencias),2013-09-01,165536.0,observado
+Usados (transferencias),2013-10-01,171635.0,observado
+Usados (transferencias),2013-11-01,148165.0,observado
+Usados (transferencias),2013-12-01,143546.0,observado
+Usados (transferencias),2014-01-01,163033.0,observado
+Usados (transferencias),2014-02-01,138348.0,observado
+Usados (transferencias),2014-03-01,122493.0,observado
+Usados (transferencias),2014-04-01,126811.0,observado
+Usados (transferencias),2014-05-01,128217.0,observado
+Usados (transferencias),2014-06-01,118327.0,observado
+Usados (transferencias),2014-07-01,142168.0,observado
+Usados (transferencias),2014-08-01,135054.0,observado
+Usados (transferencias),2014-09-01,154575.0,observado
+Usados (transferencias),2014-10-01,155181.0,observado
+Usados (transferencias),2014-11-01,127110.0,observado
+Usados (transferencias),2014-12-01,139576.0,observado
+Usados (transferencias),2015-01-01,145059.0,observado
+Usados (transferencias),2015-02-01,123308.0,observado
+Usados (transferencias),2015-03-01,139063.0,observado
+Usados (transferencias),2015-04-01,144437.0,observado
+Usados (transferencias),2015-05-01,135325.0,observado
+Usados (transferencias),2015-06-01,152151.0,observado
+Usados (transferencias),2015-07-01,167217.0,observado
+Usados (transferencias),2015-08-01,153098.0,observado
+Usados (transferencias),2015-09-01,169296.0,observado
+Usados (transferencias),2015-10-01,162934.0,observado
+Usados (transferencias),2015-11-01,148863.0,observado
+Usados (transferencias),2015-12-01,145150.0,observado
+Usados (transferencias),2016-01-01,128152.0,observado
+Usados (transferencias),2016-02-01,109362.0,observado
+Usados (transferencias),2016-03-01,129943.0,observado
+Usados (transferencias),2016-04-01,123983.0,observado
+Usados (transferencias),2016-05-01,120715.0,observado
+Usados (transferencias),2016-06-01,106747.0,observado
+Usados (transferencias),2016-07-01,126383.0,observado
+Usados (transferencias),2016-08-01,140016.0,observado
+Usados (transferencias),2016-09-01,136727.0,observado
+Usados (transferencias),2016-10-01,125944.0,observado
+Usados (transferencias),2016-11-01,130586.0,observado
+Usados (transferencias),2016-12-01,143338.0,observado
+Usados (transferencias),2017-01-01,144910.0,observado
+Usados (transferencias),2017-02-01,116337.0,observado
+Usados (transferencias),2017-03-01,152222.0,observado
+Usados (transferencias),2017-04-01,125075.0,observado
+Usados (transferencias),2017-05-01,143853.0,observado
+Usados (transferencias),2017-06-01,137306.0,observado
+Usados (transferencias),2017-07-01,157755.0,observado
+Usados (transferencias),2017-08-01,164997.0,observado
+Usados (transferencias),2017-09-01,161110.0,observado
+Usados (transferencias),2017-10-01,159213.0,observado
+Usados (transferencias),2017-11-01,159061.0,observado
+Usados (transferencias),2017-12-01,157294.0,observado
+Usados (transferencias),2018-01-01,165054.0,observado
+Usados (transferencias),2018-02-01,130844.0,observado
+Usados (transferencias),2018-03-01,150893.0,observado
+Usados (transferencias),2018-04-01,142896.0,observado
+Usados (transferencias),2018-05-01,155698.0,observado
+Usados (transferencias),2018-06-01,131626.0,observado
+Usados (transferencias),2018-07-01,153775.0,observado
+Usados (transferencias),2018-08-01,162126.0,observado
+Usados (transferencias),2018-09-01,141693.0,observado
+Usados (transferencias),2018-10-01,143461.0,observado
+Usados (transferencias),2018-11-01,127108.0,observado
+Usados (transferencias),2018-12-01,122881.0,observado
+Usados (transferencias),2019-01-01,148616.0,observado
+Usados (transferencias),2019-02-01,133863.0,observado
+Usados (transferencias),2019-03-01,125880.0,observado
+Usados (transferencias),2019-04-01,132340.0,observado
+Usados (transferencias),2019-05-01,152015.0,observado
+Usados (transferencias),2019-06-01,121609.0,observado
+Usados (transferencias),2019-07-01,166432.0,observado
+Usados (transferencias),2019-08-01,161709.0,observado
+Usados (transferencias),2019-09-01,152715.0,observado
+Usados (transferencias),2019-10-01,153040.0,observado
+Usados (transferencias),2019-11-01,128996.0,observado
+Usados (transferencias),2019-12-01,141169.0,observado
+Usados (transferencias),2020-01-01,153478.0,observado
+Usados (transferencias),2020-02-01,125060.0,observado
+Usados (transferencias),2020-03-01,95198.0,observado
+Usados (transferencias),2020-04-01,18034.0,observado
+Usados (transferencias),2020-05-01,77864.0,observado
+Usados (transferencias),2020-06-01,128406.0,observado
+Usados (transferencias),2020-07-01,147668.0,observado
+Usados (transferencias),2020-08-01,154745.0,observado
+Usados (transferencias),2020-09-01,159588.0,observado
+Usados (transferencias),2020-10-01,154415.0,observado
+Usados (transferencias),2020-11-01,145129.0,observado
+Usados (transferencias),2020-12-01,142006.0,observado
+Usados (transferencias),2021-01-01,132640.0,observado
+Usados (transferencias),2021-02-01,125698.0,observado
+Usados (transferencias),2021-03-01,157156.0,observado
+Usados (transferencias),2021-04-01,128554.0,observado
+Usados (transferencias),2021-05-01,97672.0,observado
+Usados (transferencias),2021-06-01,142226.0,observado
+Usados (transferencias),2021-07-01,148330.0,observado
+Usados (transferencias),2021-08-01,153452.0,observado
+Usados (transferencias),2021-09-01,161241.0,observado
+Usados (transferencias),2021-10-01,140898.0,observado
+Usados (transferencias),2021-11-01,152912.0,observado
+Usados (transferencias),2021-12-01,150381.0,observado
+Usados (transferencias),2022-01-01,117878.0,observado
+Usados (transferencias),2022-02-01,121658.0,observado
+Usados (transferencias),2022-03-01,140255.0,observado
+Usados (transferencias),2022-04-01,130411.0,observado
+Usados (transferencias),2022-05-01,138591.0,observado
+Usados (transferencias),2022-06-01,134137.0,observado
+Usados (transferencias),2022-07-01,146183.0,observado
+Usados (transferencias),2022-08-01,143753.0,observado
+Usados (transferencias),2022-09-01,136967.0,observado
+Usados (transferencias),2022-10-01,118228.0,observado
+Usados (transferencias),2022-11-01,127196.0,observado
+Usados (transferencias),2022-12-01,116147.0,observado
+Usados (transferencias),2023-01-01,133101.0,observado
+Usados (transferencias),2023-02-01,111686.0,observado
+Usados (transferencias),2023-03-01,146852.0,observado
+Usados (transferencias),2023-04-01,130209.0,observado
+Usados (transferencias),2023-05-01,142232.0,observado
+Usados (transferencias),2023-06-01,134148.0,observado
+Usados (transferencias),2023-07-01,154444.0,observado
+Usados (transferencias),2023-08-01,162509.0,observado
+Usados (transferencias),2023-09-01,143838.0,observado
+Usados (transferencias),2023-10-01,141592.0,observado
+Usados (transferencias),2023-11-01,132344.0,observado
+Usados (transferencias),2023-12-01,121787.0,observado
+Usados (transferencias),2024-01-01,116149.0,observado
+Usados (transferencias),2024-02-01,106238.0,observado
+Usados (transferencias),2024-03-01,105990.0,observado
+Usados (transferencias),2024-04-01,136256.0,observado
+Usados (transferencias),2024-05-01,150975.0,observado
+Usados (transferencias),2024-06-01,123928.0,observado
+Usados (transferencias),2024-07-01,183718.0,observado
+Usados (transferencias),2024-08-01,176511.0,observado
+Usados (transferencias),2024-09-01,162545.0,observado
+Usados (transferencias),2024-10-01,171642.0,observado
+Usados (transferencias),2024-11-01,151244.0,observado
+Usados (transferencias),2024-12-01,160073.0,observado
+Usados (transferencias),2025-01-01,170088.0,observado
+Usados (transferencias),2025-02-01,149547.0,observado
+Usados (transferencias),2025-03-01,143121.0,observado
+Usados (transferencias),2025-04-01,159208.0,observado
+Usados (transferencias),2025-05-01,155014.0,observado
+Usados (transferencias),2025-06-01,143669.0,observado
+Usados (transferencias),2025-07-01,179489.0,observado
+Usados (transferencias),2025-08-01,167702.0,observado
+Usados (transferencias),2025-09-01,171679.0,observado
+Usados (transferencias),2025-10-01,166612.0,observado
+Usados (transferencias),2025-11-01,132215.0,observado
+Usados (transferencias),2025-12-01,152059.0,observado
+Usados (transferencias),2026-01-01,153361.0,observado
+Usados (transferencias),2026-02-01,130979.0,observado
+Usados (transferencias),2026-03-01,154229.0,observado
+Usados (transferencias),2026-04-01,154996.0,observado
+Usados (transferencias),2026-05-01,144218.0,observado
+Usados (transferencias),2026-06-01,155778.0,observado
+Usados (transferencias),2026-07-01,157633.0,observado
+Usados (transferencias),2026-08-01,156072.0,observado
+Usados (transferencias),2026-09-01,171499.0,observado
+Usados (transferencias),2026-10-01,162797.0,observado
+0 km (inscripciones iniciales),2001-01-01,36451.0,observado
+0 km (inscripciones iniciales),2001-02-01,16107.0,observado
+0 km (inscripciones iniciales),2001-03-01,17594.0,observado
+0 km (inscripciones iniciales),2001-04-01,17129.0,observado
+0 km (inscripciones iniciales),2001-05-01,17606.0,observado
+0 km (inscripciones iniciales),2001-06-01,15780.0,observado
+0 km (inscripciones iniciales),2001-07-01,18749.0,observado
+0 km (inscripciones iniciales),2001-08-01,17566.0,observado
+0 km (inscripciones iniciales),2001-09-01,15180.0,observado
+0 km (inscripciones iniciales),2001-10-01,14763.0,observado
+0 km (inscripciones iniciales),2001-11-01,12547.0,observado
+0 km (inscripciones iniciales),2001-12-01,7181.0,observado
+0 km (inscripciones iniciales),2002-01-01,16382.0,observado
+0 km (inscripciones iniciales),2002-02-01,8812.0,observado
+0 km (inscripciones iniciales),2002-03-01,13497.0,observado
+0 km (inscripciones iniciales),2002-04-01,13641.0,observado
+0 km (inscripciones iniciales),2002-05-01,10255.0,observado
+0 km (inscripciones iniciales),2002-06-01,4412.0,observado
+0 km (inscripciones iniciales),2002-07-01,5597.0,observado
+0 km (inscripciones iniciales),2002-08-01,5993.0,observado
+0 km (inscripciones iniciales),2002-09-01,5898.0,observado
+0 km (inscripciones iniciales),2002-10-01,6226.0,observado
+0 km (inscripciones iniciales),2002-11-01,5095.0,observado
+0 km (inscripciones iniciales),2002-12-01,5423.0,observado
+0 km (inscripciones iniciales),2003-01-01,14503.0,observado
+0 km (inscripciones iniciales),2003-02-01,6749.0,observado
+0 km (inscripciones iniciales),2003-03-01,7503.0,observado
+0 km (inscripciones iniciales),2003-04-01,9271.0,observado
+0 km (inscripciones iniciales),2003-05-01,10842.0,observado
+0 km (inscripciones iniciales),2003-06-01,11380.0,observado
+0 km (inscripciones iniciales),2003-07-01,13759.0,observado
+0 km (inscripciones iniciales),2003-08-01,13429.0,observado
+0 km (inscripciones iniciales),2003-09-01,15537.0,observado
+0 km (inscripciones iniciales),2003-10-01,17340.0,observado
+0 km (inscripciones iniciales),2003-11-01,13859.0,observado
+0 km (inscripciones iniciales),2003-12-01,11875.0,observado
+0 km (inscripciones iniciales),2004-01-01,32743.0,observado
+0 km (inscripciones iniciales),2004-02-01,19075.0,observado
+0 km (inscripciones iniciales),2004-03-01,23929.0,observado
+0 km (inscripciones iniciales),2004-04-01,22806.0,observado
+0 km (inscripciones iniciales),2004-05-01,23503.0,observado
+0 km (inscripciones iniciales),2004-06-01,24901.0,observado
+0 km (inscripciones iniciales),2004-07-01,28193.0,observado
+0 km (inscripciones iniciales),2004-08-01,28226.0,observado
+0 km (inscripciones iniciales),2004-09-01,28411.0,observado
+0 km (inscripciones iniciales),2004-10-01,24790.0,observado
+0 km (inscripciones iniciales),2004-11-01,23267.0,observado
+0 km (inscripciones iniciales),2004-12-01,12635.0,observado
+0 km (inscripciones iniciales),2005-01-01,53721.0,observado
+0 km (inscripciones iniciales),2005-02-01,27129.0,observado
+0 km (inscripciones iniciales),2005-03-01,31050.0,observado
+0 km (inscripciones iniciales),2005-04-01,33139.0,observado
+0 km (inscripciones iniciales),2005-05-01,33596.0,observado
+0 km (inscripciones iniciales),2005-06-01,32899.0,observado
+0 km (inscripciones iniciales),2005-07-01,34385.0,observado
+0 km (inscripciones iniciales),2005-08-01,32009.0,observado
+0 km (inscripciones iniciales),2005-09-01,36248.0,observado
+0 km (inscripciones iniciales),2005-10-01,30759.0,observado
+0 km (inscripciones iniciales),2005-11-01,29545.0,observado
+0 km (inscripciones iniciales),2005-12-01,14754.0,observado
+0 km (inscripciones iniciales),2006-01-01,66276.0,observado
+0 km (inscripciones iniciales),2006-02-01,32754.0,observado
+0 km (inscripciones iniciales),2006-03-01,40837.0,observado
+0 km (inscripciones iniciales),2006-04-01,34671.0,observado
+0 km (inscripciones iniciales),2006-05-01,38660.0,observado
+0 km (inscripciones iniciales),2006-06-01,36832.0,observado
+0 km (inscripciones iniciales),2006-07-01,37141.0,observado
+0 km (inscripciones iniciales),2006-08-01,39587.0,observado
+0 km (inscripciones iniciales),2006-09-01,39809.0,observado
+0 km (inscripciones iniciales),2006-10-01,36157.0,observado
+0 km (inscripciones iniciales),2006-11-01,33403.0,observado
+0 km (inscripciones iniciales),2006-12-01,16455.0,observado
+0 km (inscripciones iniciales),2007-01-01,82813.0,observado
+0 km (inscripciones iniciales),2007-02-01,39156.0,observado
+0 km (inscripciones iniciales),2007-03-01,47511.0,observado
+0 km (inscripciones iniciales),2007-04-01,42184.0,observado
+0 km (inscripciones iniciales),2007-05-01,47516.0,observado
+0 km (inscripciones iniciales),2007-06-01,42677.0,observado
+0 km (inscripciones iniciales),2007-07-01,50448.0,observado
+0 km (inscripciones iniciales),2007-08-01,54708.0,observado
+0 km (inscripciones iniciales),2007-09-01,49467.0,observado
+0 km (inscripciones iniciales),2007-10-01,49749.0,observado
+0 km (inscripciones iniciales),2007-11-01,41823.0,observado
+0 km (inscripciones iniciales),2007-12-01,24789.0,observado
+0 km (inscripciones iniciales),2008-01-01,86214.0,observado
+0 km (inscripciones iniciales),2008-02-01,46811.0,observado
+0 km (inscripciones iniciales),2008-03-01,44559.0,observado
+0 km (inscripciones iniciales),2008-04-01,56732.0,observado
+0 km (inscripciones iniciales),2008-05-01,57664.0,observado
+0 km (inscripciones iniciales),2008-06-01,49576.0,observado
+0 km (inscripciones iniciales),2008-07-01,58769.0,observado
+0 km (inscripciones iniciales),2008-08-01,51707.0,observado
+0 km (inscripciones iniciales),2008-09-01,56348.0,observado
+0 km (inscripciones iniciales),2008-10-01,51197.0,observado
+0 km (inscripciones iniciales),2008-11-01,35645.0,observado
+0 km (inscripciones iniciales),2008-12-01,20034.0,observado
+0 km (inscripciones iniciales),2009-01-01,74053.0,observado
+0 km (inscripciones iniciales),2009-02-01,39196.0,observado
+0 km (inscripciones iniciales),2009-03-01,41507.0,observado
+0 km (inscripciones iniciales),2009-04-01,40653.0,observado
+0 km (inscripciones iniciales),2009-05-01,40257.0,observado
+0 km (inscripciones iniciales),2009-06-01,44167.0,observado
+0 km (inscripciones iniciales),2009-07-01,46733.0,observado
+0 km (inscripciones iniciales),2009-08-01,42564.0,observado
+0 km (inscripciones iniciales),2009-09-01,46274.0,observado
+0 km (inscripciones iniciales),2009-10-01,40255.0,observado
+0 km (inscripciones iniciales),2009-11-01,37653.0,observado
+0 km (inscripciones iniciales),2009-12-01,23487.0,observado
+0 km (inscripciones iniciales),2010-01-01,79051.0,observado
+0 km (inscripciones iniciales),2010-02-01,44906.0,observado
+0 km (inscripciones iniciales),2010-03-01,57489.0,observado
+0 km (inscripciones iniciales),2010-04-01,51281.0,observado
+0 km (inscripciones iniciales),2010-05-01,50941.0,observado
+0 km (inscripciones iniciales),2010-06-01,55061.0,observado
+0 km (inscripciones iniciales),2010-07-01,57693.0,observado
+0 km (inscripciones iniciales),2010-08-01,57623.0,observado
+0 km (inscripciones iniciales),2010-09-01,64235.0,observado
+0 km (inscripciones iniciales),2010-10-01,53970.0,observado
+0 km (inscripciones iniciales),2010-11-01,54348.0,observado
+0 km (inscripciones iniciales),2010-12-01,38954.0,observado
+0 km (inscripciones iniciales),2011-01-01,104339.0,observado
+0 km (inscripciones iniciales),2011-02-01,60398.0,observado
+0 km (inscripciones iniciales),2011-03-01,67829.0,observado
+0 km (inscripciones iniciales),2011-04-01,65595.0,observado
+0 km (inscripciones iniciales),2011-05-01,68218.0,observado
+0 km (inscripciones iniciales),2011-06-01,78720.0,observado
+0 km (inscripciones iniciales),2011-07-01,73223.0,observado
+0 km (inscripciones iniciales),2011-08-01,80246.0,observado
+0 km (inscripciones iniciales),2011-09-01,84583.0,observado
+0 km (inscripciones iniciales),2011-10-01,72659.0,observado
+0 km (inscripciones iniciales),2011-11-01,65996.0,observado
+0 km (inscripciones iniciales),2011-12-01,39014.0,observado
+0 km (inscripciones iniciales),2012-01-01,113121.0,observado
+0 km (inscripciones iniciales),2012-02-01,58424.0,observado
+0 km (inscripciones iniciales),2012-03-01,82570.0,observado
+0 km (inscripciones iniciales),2012-04-01,61103.0,observado
+0 km (inscripciones iniciales),2012-05-01,76728.0,observado
+0 km (inscripciones iniciales),2012-06-01,69983.0,observado
+0 km (inscripciones iniciales),2012-07-01,74401.0,observado
+0 km (inscripciones iniciales),2012-08-01,76771.0,observado
+0 km (inscripciones iniciales),2012-09-01,64776.0,observado
+0 km (inscripciones iniciales),2012-10-01,70572.0,observado
+0 km (inscripciones iniciales),2012-11-01,58877.0,observado
+0 km (inscripciones iniciales),2012-12-01,38236.0,observado
+0 km (inscripciones iniciales),2013-01-01,110669.0,observado
+0 km (inscripciones iniciales),2013-02-01,64157.0,observado
+0 km (inscripciones iniciales),2013-03-01,78094.0,observado
+0 km (inscripciones iniciales),2013-04-01,82663.0,observado
+0 km (inscripciones iniciales),2013-05-01,92886.0,observado
+0 km (inscripciones iniciales),2013-06-01,75159.0,observado
+0 km (inscripciones iniciales),2013-07-01,88457.0,observado
+0 km (inscripciones iniciales),2013-08-01,82769.0,observado
+0 km (inscripciones iniciales),2013-09-01,85420.0,observado
+0 km (inscripciones iniciales),2013-10-01,89789.0,observado
+0 km (inscripciones iniciales),2013-11-01,62310.0,observado
+0 km (inscripciones iniciales),2013-12-01,51225.0,observado
+0 km (inscripciones iniciales),2014-01-01,109513.0,observado
+0 km (inscripciones iniciales),2014-02-01,58930.0,observado
+0 km (inscripciones iniciales),2014-03-01,51878.0,observado
+0 km (inscripciones iniciales),2014-04-01,53782.0,observado
+0 km (inscripciones iniciales),2014-05-01,56821.0,observado
+0 km (inscripciones iniciales),2014-06-01,53516.0,observado
+0 km (inscripciones iniciales),2014-07-01,61667.0,observado
+0 km (inscripciones iniciales),2014-08-01,58554.0,observado
+0 km (inscripciones iniciales),2014-09-01,59697.0,observado
+0 km (inscripciones iniciales),2014-10-01,54699.0,observado
+0 km (inscripciones iniciales),2014-11-01,40068.0,observado
+0 km (inscripciones iniciales),2014-12-01,30470.0,observado
+0 km (inscripciones iniciales),2015-01-01,67627.0,observado
+0 km (inscripciones iniciales),2015-02-01,43991.0,observado
+0 km (inscripciones iniciales),2015-03-01,50516.0,observado
+0 km (inscripciones iniciales),2015-04-01,53422.0,observado
+0 km (inscripciones iniciales),2015-05-01,49064.0,observado
+0 km (inscripciones iniciales),2015-06-01,59035.0,observado
+0 km (inscripciones iniciales),2015-07-01,62044.0,observado
+0 km (inscripciones iniciales),2015-08-01,59124.0,observado
+0 km (inscripciones iniciales),2015-09-01,68043.0,observado
+0 km (inscripciones iniciales),2015-10-01,60953.0,observado
+0 km (inscripciones iniciales),2015-11-01,52286.0,observado
+0 km (inscripciones iniciales),2015-12-01,32430.0,observado
+0 km (inscripciones iniciales),2016-01-01,57975.0,observado
+0 km (inscripciones iniciales),2016-02-01,48166.0,observado
+0 km (inscripciones iniciales),2016-03-01,56459.0,observado
+0 km (inscripciones iniciales),2016-04-01,61155.0,observado
+0 km (inscripciones iniciales),2016-05-01,60921.0,observado
+0 km (inscripciones iniciales),2016-06-01,54644.0,observado
+0 km (inscripciones iniciales),2016-07-01,63793.0,observado
+0 km (inscripciones iniciales),2016-08-01,73066.0,observado
+0 km (inscripciones iniciales),2016-09-01,71280.0,observado
+0 km (inscripciones iniciales),2016-10-01,63732.0,observado
+0 km (inscripciones iniciales),2016-11-01,60133.0,observado
+0 km (inscripciones iniciales),2016-12-01,40870.0,observado
+0 km (inscripciones iniciales),2017-01-01,95432.0,observado
+0 km (inscripciones iniciales),2017-02-01,59114.0,observado
+0 km (inscripciones iniciales),2017-03-01,78487.0,observado
+0 km (inscripciones iniciales),2017-04-01,65135.0,observado
+0 km (inscripciones iniciales),2017-05-01,77865.0,observado
+0 km (inscripciones iniciales),2017-06-01,78582.0,observado
+0 km (inscripciones iniciales),2017-07-01,80977.0,observado
+0 km (inscripciones iniciales),2017-08-01,87381.0,observado
+0 km (inscripciones iniciales),2017-09-01,80428.0,observado
+0 km (inscripciones iniciales),2017-10-01,78768.0,observado
+0 km (inscripciones iniciales),2017-11-01,73399.0,observado
+0 km (inscripciones iniciales),2017-12-01,47837.0,observado
+0 km (inscripciones iniciales),2018-01-01,120820.0,observado
+0 km (inscripciones iniciales),2018-02-01,69814.0,observado
+0 km (inscripciones iniciales),2018-03-01,85640.0,observado
+0 km (inscripciones iniciales),2018-04-01,77814.0,observado
+0 km (inscripciones iniciales),2018-05-01,83430.0,observado
+0 km (inscripciones iniciales),2018-06-01,64808.0,observado
+0 km (inscripciones iniciales),2018-07-01,67374.0,observado
+0 km (inscripciones iniciales),2018-08-01,65666.0,observado
+0 km (inscripciones iniciales),2018-09-01,52900.0,observado
+0 km (inscripciones iniciales),2018-10-01,48783.0,observado
+0 km (inscripciones iniciales),2018-11-01,39925.0,observado
+0 km (inscripciones iniciales),2018-12-01,28552.0,observado
+0 km (inscripciones iniciales),2019-01-01,60351.0,observado
+0 km (inscripciones iniciales),2019-02-01,40294.0,observado
+0 km (inscripciones iniciales),2019-03-01,39282.0,observado
+0 km (inscripciones iniciales),2019-04-01,37498.0,observado
+0 km (inscripciones iniciales),2019-05-01,36959.0,observado
+0 km (inscripciones iniciales),2019-06-01,36320.0,observado
+0 km (inscripciones iniciales),2019-07-01,50055.0,observado
+0 km (inscripciones iniciales),2019-08-01,44574.0,observado
+0 km (inscripciones iniciales),2019-09-01,36296.0,observado
+0 km (inscripciones iniciales),2019-10-01,32781.0,observado
+0 km (inscripciones iniciales),2019-11-01,26004.0,observado
+0 km (inscripciones iniciales),2019-12-01,21530.0,observado
+0 km (inscripciones iniciales),2020-01-01,45170.0,observado
+0 km (inscripciones iniciales),2020-02-01,27804.0,observado
+0 km (inscripciones iniciales),2020-03-01,17929.0,observado
+0 km (inscripciones iniciales),2020-04-01,4428.0,observado
+0 km (inscripciones iniciales),2020-05-01,21276.0,observado
+0 km (inscripciones iniciales),2020-06-01,37398.0,observado
+0 km (inscripciones iniciales),2020-07-01,30596.0,observado
+0 km (inscripciones iniciales),2020-08-01,30723.0,observado
+0 km (inscripciones iniciales),2020-09-01,35125.0,observado
+0 km (inscripciones iniciales),2020-10-01,37638.0,observado
+0 km (inscripciones iniciales),2020-11-01,35047.0,observado
+0 km (inscripciones iniciales),2020-12-01,20780.0,observado
+0 km (inscripciones iniciales),2021-01-01,49930.0,observado
+0 km (inscripciones iniciales),2021-02-01,30632.0,observado
+0 km (inscripciones iniciales),2021-03-01,37075.0,observado
+0 km (inscripciones iniciales),2021-04-01,32645.0,observado
+0 km (inscripciones iniciales),2021-05-01,23083.0,observado
+0 km (inscripciones iniciales),2021-06-01,38433.0,observado
+0 km (inscripciones iniciales),2021-07-01,33169.0,observado
+0 km (inscripciones iniciales),2021-08-01,31998.0,observado
+0 km (inscripciones iniciales),2021-09-01,32137.0,observado
+0 km (inscripciones iniciales),2021-10-01,28240.0,observado
+0 km (inscripciones iniciales),2021-11-01,28735.0,observado
+0 km (inscripciones iniciales),2021-12-01,17930.0,observado
+0 km (inscripciones iniciales),2022-01-01,43794.0,observado
+0 km (inscripciones iniciales),2022-02-01,29321.0,observado
+0 km (inscripciones iniciales),2022-03-01,34782.0,observado
+0 km (inscripciones iniciales),2022-04-01,32118.0,observado
+0 km (inscripciones iniciales),2022-05-01,35553.0,observado
+0 km (inscripciones iniciales),2022-06-01,35656.0,observado
+0 km (inscripciones iniciales),2022-07-01,39107.0,observado
+0 km (inscripciones iniciales),2022-08-01,38595.0,observado
+0 km (inscripciones iniciales),2022-09-01,35020.0,observado
+0 km (inscripciones iniciales),2022-10-01,32646.0,observado
+0 km (inscripciones iniciales),2022-11-01,33907.0,observado
+0 km (inscripciones iniciales),2022-12-01,19879.0,observado
+0 km (inscripciones iniciales),2023-01-01,50616.0,observado
+0 km (inscripciones iniciales),2023-02-01,30705.0,observado
+0 km (inscripciones iniciales),2023-03-01,40131.0,observado
+0 km (inscripciones iniciales),2023-04-01,34963.0,observado
+0 km (inscripciones iniciales),2023-05-01,40361.0,observado
+0 km (inscripciones iniciales),2023-06-01,40301.0,observado
+0 km (inscripciones iniciales),2023-07-01,44325.0,observado
+0 km (inscripciones iniciales),2023-08-01,39701.0,observado
+0 km (inscripciones iniciales),2023-09-01,33844.0,observado
+0 km (inscripciones iniciales),2023-10-01,42151.0,observado
+0 km (inscripciones iniciales),2023-11-01,36211.0,observado
+0 km (inscripciones iniciales),2023-12-01,18782.0,observado
+0 km (inscripciones iniciales),2024-01-01,34165.0,observado
+0 km (inscripciones iniciales),2024-02-01,25213.0,observado
+0 km (inscripciones iniciales),2024-03-01,25975.0,observado
+0 km (inscripciones iniciales),2024-04-01,33122.0,observado
+0 km (inscripciones iniciales),2024-05-01,34964.0,observado
+0 km (inscripciones iniciales),2024-06-01,31057.0,observado
+0 km (inscripciones iniciales),2024-07-01,43352.0,observado
+0 km (inscripciones iniciales),2024-08-01,41688.0,observado
+0 km (inscripciones iniciales),2024-09-01,43874.0,observado
+0 km (inscripciones iniciales),2024-10-01,44695.0,observado
+0 km (inscripciones iniciales),2024-11-01,36426.0,observado
+0 km (inscripciones iniciales),2024-12-01,22001.0,observado
+0 km (inscripciones iniciales),2025-01-01,69792.0,observado
+0 km (inscripciones iniciales),2025-02-01,44759.0,observado
+0 km (inscripciones iniciales),2025-03-01,48560.0,observado
+0 km (inscripciones iniciales),2025-04-01,55225.0,observado
+0 km (inscripciones iniciales),2025-05-01,56535.0,observado
+0 km (inscripciones iniciales),2025-06-01,52961.0,observado
+0 km (inscripciones iniciales),2025-07-01,63040.0,observado
+0 km (inscripciones iniciales),2025-08-01,55117.0,observado
+0 km (inscripciones iniciales),2025-09-01,56485.0,observado
+0 km (inscripciones iniciales),2025-10-01,52559.0,observado
+0 km (inscripciones iniciales),2025-11-01,35721.0,observado
+0 km (inscripciones iniciales),2025-12-01,24384.0,observado
+0 km (inscripciones iniciales),2026-01-01,66768.0,observado
+0 km (inscripciones iniciales),2026-02-01,42301.0,observado
+0 km (inscripciones iniciales),2026-03-01,49582.0,observado
+0 km (inscripciones iniciales),2026-04-01,48090.0,observado
+0 km (inscripciones iniciales),2026-05-01,43256.0,observado
+0 km (inscripciones iniciales),2026-06-01,47788.0,observado
+0 km (inscripciones iniciales),2026-07-01,45350.0,observado
+0 km (inscripciones iniciales),2026-08-01,45286.0,observado
+0 km (inscripciones iniciales),2026-09-01,50546.0,observado
+0 km (inscripciones iniciales),2026-10-01,46390.0,observado
