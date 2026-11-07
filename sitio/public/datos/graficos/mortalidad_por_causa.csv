@@ -68,49 +68,49 @@ Respiratorias (no infecciosas),2020-01-01,39.073338,observado
 Respiratorias (no infecciosas),2021-01-01,42.225513,observado
 Respiratorias (no infecciosas),2022-01-01,49.187572,observado
 Respiratorias (no infecciosas),2023-01-01,43.99485,observado
-"Infecciones respiratorias (neumonía, gripe)",2001-01-01,26.697899,observado
-"Infecciones respiratorias (neumonía, gripe)",2002-01-01,26.00794,observado
-"Infecciones respiratorias (neumonía, gripe)",2003-01-01,31.678995,observado
-"Infecciones respiratorias (neumonía, gripe)",2004-01-01,31.260212,observado
-"Infecciones respiratorias (neumonía, gripe)",2005-01-01,31.882814,observado
-"Infecciones respiratorias (neumonía, gripe)",2006-01-01,31.616373,observado
-"Infecciones respiratorias (neumonía, gripe)",2007-01-01,36.25224,observado
-"Infecciones respiratorias (neumonía, gripe)",2008-01-01,31.446857,observado
-"Infecciones respiratorias (neumonía, gripe)",2009-01-01,36.743034,observado
-"Infecciones respiratorias (neumonía, gripe)",2010-01-01,36.581726,observado
-"Infecciones respiratorias (neumonía, gripe)",2011-01-01,36.036823,observado
-"Infecciones respiratorias (neumonía, gripe)",2012-01-01,35.67647,observado
-"Infecciones respiratorias (neumonía, gripe)",2013-01-01,40.84098,observado
-"Infecciones respiratorias (neumonía, gripe)",2014-01-01,41.425716,observado
-"Infecciones respiratorias (neumonía, gripe)",2015-01-01,46.261,observado
-"Infecciones respiratorias (neumonía, gripe)",2016-01-01,55.5495,observado
-"Infecciones respiratorias (neumonía, gripe)",2017-01-01,52.927692,observado
-"Infecciones respiratorias (neumonía, gripe)",2018-01-01,49.750935,observado
-"Infecciones respiratorias (neumonía, gripe)",2019-01-01,50.036976,observado
-"Infecciones respiratorias (neumonía, gripe)",2020-01-01,129.05406,observado
-"Infecciones respiratorias (neumonía, gripe)",2021-01-01,196.3471,observado
-"Infecciones respiratorias (neumonía, gripe)",2022-01-01,92.28985,observado
-"Infecciones respiratorias (neumonía, gripe)",2023-01-01,52.943764,observado
-Infecciosas y parasitarias (incluye COVID-19),2001-01-01,34.71133,observado
-Infecciosas y parasitarias (incluye COVID-19),2002-01-01,33.416393,observado
-Infecciosas y parasitarias (incluye COVID-19),2003-01-01,33.26621,observado
-Infecciosas y parasitarias (incluye COVID-19),2004-01-01,31.638054,observado
-Infecciosas y parasitarias (incluye COVID-19),2005-01-01,32.4413,observado
-Infecciosas y parasitarias (incluye COVID-19),2006-01-01,33.079132,observado
-Infecciosas y parasitarias (incluye COVID-19),2007-01-01,32.0294,observado
-Infecciosas y parasitarias (incluye COVID-19),2008-01-01,29.508364,observado
-Infecciosas y parasitarias (incluye COVID-19),2009-01-01,29.223686,observado
-Infecciosas y parasitarias (incluye COVID-19),2010-01-01,29.704645,observado
-Infecciosas y parasitarias (incluye COVID-19),2011-01-01,28.98691,observado
-Infecciosas y parasitarias (incluye COVID-19),2012-01-01,27.442448,observado
-Infecciosas y parasitarias (incluye COVID-19),2013-01-01,28.102552,observado
-Infecciosas y parasitarias (incluye COVID-19),2014-01-01,27.76978,observado
-Infecciosas y parasitarias (incluye COVID-19),2015-01-01,25.733751,observado
-Infecciosas y parasitarias (incluye COVID-19),2016-01-01,25.76943,observado
-Infecciosas y parasitarias (incluye COVID-19),2017-01-01,25.60529,observado
-Infecciosas y parasitarias (incluye COVID-19),2018-01-01,24.801365,observado
-Infecciosas y parasitarias (incluye COVID-19),2019-01-01,25.251461,observado
-Infecciosas y parasitarias (incluye COVID-19),2020-01-01,22.15513,observado
-Infecciosas y parasitarias (incluye COVID-19),2021-01-01,26.334936,observado
-Infecciosas y parasitarias (incluye COVID-19),2022-01-01,29.562233,observado
-Infecciosas y parasitarias (incluye COVID-19),2023-01-01,30.876202,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2001-01-01,26.697899,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2002-01-01,26.00794,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2003-01-01,31.678995,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2004-01-01,31.260212,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2005-01-01,31.882814,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2006-01-01,31.616373,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2007-01-01,36.25224,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2008-01-01,31.446857,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2009-01-01,36.743034,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2010-01-01,36.581726,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2011-01-01,36.036823,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2012-01-01,35.67647,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2013-01-01,40.84098,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2014-01-01,41.425716,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2015-01-01,46.261,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2016-01-01,55.5495,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2017-01-01,52.927692,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2018-01-01,49.750935,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2019-01-01,50.036976,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2020-01-01,129.05406,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2021-01-01,196.3471,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2022-01-01,92.28985,observado
+"Infecciones respiratorias (neumonía, gripe, COVID-19)",2023-01-01,52.943764,observado
+Otras infecciosas y parasitarias,2001-01-01,34.71133,observado
+Otras infecciosas y parasitarias,2002-01-01,33.416393,observado
+Otras infecciosas y parasitarias,2003-01-01,33.26621,observado
+Otras infecciosas y parasitarias,2004-01-01,31.638054,observado
+Otras infecciosas y parasitarias,2005-01-01,32.4413,observado
+Otras infecciosas y parasitarias,2006-01-01,33.079132,observado
+Otras infecciosas y parasitarias,2007-01-01,32.0294,observado
+Otras infecciosas y parasitarias,2008-01-01,29.508364,observado
+Otras infecciosas y parasitarias,2009-01-01,29.223686,observado
+Otras infecciosas y parasitarias,2010-01-01,29.704645,observado
+Otras infecciosas y parasitarias,2011-01-01,28.98691,observado
+Otras infecciosas y parasitarias,2012-01-01,27.442448,observado
+Otras infecciosas y parasitarias,2013-01-01,28.102552,observado
+Otras infecciosas y parasitarias,2014-01-01,27.76978,observado
+Otras infecciosas y parasitarias,2015-01-01,25.733751,observado
+Otras infecciosas y parasitarias,2016-01-01,25.76943,observado
+Otras infecciosas y parasitarias,2017-01-01,25.60529,observado
+Otras infecciosas y parasitarias,2018-01-01,24.801365,observado
+Otras infecciosas y parasitarias,2019-01-01,25.251461,observado
+Otras infecciosas y parasitarias,2020-01-01,22.15513,observado
+Otras infecciosas y parasitarias,2021-01-01,26.334936,observado
+Otras infecciosas y parasitarias,2022-01-01,29.562233,observado
+Otras infecciosas y parasitarias,2023-01-01,30.876202,observado
