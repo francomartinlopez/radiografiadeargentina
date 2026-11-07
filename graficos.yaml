@@ -108,7 +108,14 @@ calculos:
     operacion: cociente
     a: ipim_largo
     b: dolar_mayorista
+  cbt_larga:
+    operacion: empalme
+    tramos: [{serie: ipc, hasta: "2016-04"}, {serie: cbt}]
   cbt_hogar:
+    operacion: escala
+    a: cbt_larga
+    factor: 3.09
+  cbt_hogar_oficial:
     operacion: escala
     a: cbt
     factor: 3.09
@@ -315,6 +322,32 @@ calculos:
     a: pib_real_anual
     b: poblacion_arg
     factor: 1000000
+
+  # EMAE sin minería (estimación): peso de la minería en el valor agregado de 2004 = 24.322 / 412.427 = 5,897%
+  emae_mineria_ponderada:
+    operacion: escala
+    a: emae_mineria
+    factor: 0.05897
+  emae_resto_ponderado:
+    operacion: resta
+    a: emae_original
+    b: emae_mineria_ponderada
+  emae_sin_mineria:
+    operacion: escala
+    a: emae_resto_ponderado
+    factor: 1.06267
+  emae_sin_mineria_12m:
+    operacion: media_movil
+    a: emae_sin_mineria
+    meses: 12
+  emae_12m:
+    operacion: media_movil
+    a: emae_original
+    meses: 12
+  emae_mineria_12m:
+    operacion: media_movil
+    a: emae_mineria
+    meses: 12
 
 graficos:
   - id: inflacion_minorista
@@ -722,11 +755,11 @@ graficos:
     moneda: ARS
     medida_inicial: nivel
     series:
-      - {serie: cbt_hogar, nombre: "CBT hogar tipo"}
+      - {serie: cbt_hogar_oficial, nombre: "CBT hogar tipo"}
     fuentes:
       - {nombre: "INDEC, Canasta Básica Alimentaria y Total (GBA)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-43-149", nivel: primaria}
       - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
-    metodo: "CBT por adulto equivalente × 3,09 (hogar de un varón y una mujer de 35 años con dos hijos de 6 y 8 años, la referencia del INDEC), llevada a pesos de hoy. El INDEC publica esta serie desde abril de 2016; el original arranca en 2001 y su tramo anterior se agregará como estimación en el lote de estimaciones."
+    metodo: "CBT por adulto equivalente × 3,09 (hogar de un varón y una mujer de 35 años con dos hijos de 6 y 8 años, la referencia del INDEC), llevada a pesos de hoy. El INDEC publica esta serie desde abril de 2016; antes no hay una CBT comparable. En Salarios y jubilaciones en canastas básicas el tramo 2001-2016 se estima llevando la CBT hacia atrás con el IPC (⚠); acá no se muestra porque en pesos de hoy esa estimación sería una línea plana."
 
   - id: ingreso_en_canastas
     tema: 2
@@ -762,7 +795,7 @@ graficos:
       - {serie: remuneracion_sipa, nombre: "Remuneración promedio (SIPA)"}
       - {serie: smvm, nombre: "Salario mínimo"}
       - {serie: jubilacion_minima, nombre: "Jubilación mínima"}
-      - {serie: cbt_hogar, nombre: "CBT hogar tipo", color: gris}
+      - {serie: cbt_hogar_oficial, nombre: "CBT hogar tipo", color: gris}
     fuentes:
       - {nombre: "Secretaría de Trabajo, remuneración promedio de asalariados registrados (SIPA)", url: "https://www.argentina.gob.ar/trabajo/estadisticas", nivel: primaria}
       - {nombre: "Consejo del Salario, Salario Mínimo Vital y Móvil", url: "https://www.argentina.gob.ar/trabajo/consejodelsalario", nivel: primaria}
@@ -778,7 +811,7 @@ graficos:
     original: {ficha: p32, imagen: 1194}
     tipo: lineas
     frecuencia: M
-    desde: "2016-04"
+    desde: "2001-01"
     unidad: "canastas de un hogar tipo"
     tipo_valor: nivel
     medida_inicial: nivel
@@ -788,10 +821,12 @@ graficos:
       - {serie: jubilacion_minima_en_cbt, nombre: "Jubilación mínima"}
     fuentes:
       - {nombre: "Ver Salarios, jubilaciones y canasta en pesos de hoy", nivel: primaria}
-    metodo: "Cada ingreso mensual dividido por la CBT de un hogar tipo (CBT por adulto × 3,09). Los picos de junio y diciembre en la remuneración promedio son el aguinaldo, que el SIPA incluye. Arranca en abril de 2016, cuando el INDEC empieza a publicar la CBT actual."
+    metodo: "Cada ingreso mensual dividido por la CBT de un hogar tipo (CBT por adulto × 3,09). Los picos de junio y diciembre en la remuneración promedio son el aguinaldo, que el SIPA incluye. La CBT oficial empieza en abril de 2016; ⚠ antes es una estimación (CBT llevada hacia atrás con el IPC empalmado; ver Canasta Básica Total en pesos de hoy)."
 
   # ---------- Paso 3, tanda 2 (tema 3: Estado y cuentas públicas) ----------
 
+    tramos:
+      - {hasta: "2016-03", tipo: estimado, nota: "Antes de abril de 2016 la CBT se reconstruye hacia atrás con la inflación del IPC empalmado (el INDEC no publica una CBT comparable para esos años)."}
   - id: resultado_fiscal
     tema: 3
     titulo: "Resultado fiscal del Sector Público Nacional"
@@ -3661,3 +3696,65 @@ graficos:
     estimacion: "Cálculo propio sobre rubros oficiales del balance del BCRA."
     tramos:
       - {desde: "2003-01", tipo: estimado, nota: "Toda la serie de reservas netas es una estimación: no hay cifra oficial.", serie: reservas_netas}
+
+  # ---------- Paso 7 (lote 6, parte 2): estimaciones con método ----------
+
+  - id: actividad_sin_mineria
+    tema: 1
+    titulo: "Actividad económica sin minería, petróleo ni gas (estimación)"
+    que_muestra: "Actividad económica total comparada con la actividad sin el sector de minas y canteras (que incluye petróleo y gas), y la minería sola."
+    original: {ficha: p2, imagen: 1061}
+    tipo: lineas
+    frecuencia: M
+    desde: "2005-01"
+    unidad: "índice 2004=100"
+    tipo_valor: indice
+    medida_inicial: nivel
+    medidas: [nivel, base_100, interanual]
+    series:
+      - {serie: emae_12m, nombre: "EMAE total", color: gris}
+      - {serie: emae_sin_mineria_12m, nombre: "Sin minería, petróleo ni gas (estimación)"}
+      - {serie: emae_mineria_12m, nombre: "Minas y canteras"}
+    fuentes:
+      - {nombre: "INDEC, EMAE total y por sector", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48", nivel: primaria}
+      - {nombre: "INDEC, valor agregado bruto por sector a precios de 2004", url: "https://datos.gob.ar/series/api/series/?ids=6.1_EMC_2004_A_26,6.1_VABPB_2004_A_36", nivel: primaria, nota: "Ponderador de la minería"}
+      - {nombre: "Cálculo propio", nivel: estimacion}
+    metodo: "⚠ Estimación: EMAE sin minería = (EMAE total − 5,9% × EMAE minería) / (1 − 5,9%). El 5,9% es el peso de 'Explotación de minas y canteras' en el valor agregado de 2004, año base de ambos índices. Es una aproximación: el INDEC encadena los sectores con ponderaciones que cambian y el EMAE total incluye impuestos. Las tres series se muestran en promedio de 12 meses para sacar la estacionalidad."
+    estimacion: "La serie sin minería es un cálculo propio sobre índices oficiales del INDEC."
+    tramos:
+      - {desde: "2005-01", tipo: estimado, nota: "Toda la serie sin minería es una estimación.", serie: emae_sin_mineria_12m}
+
+  - id: productividad_paises
+    tema: 19
+    titulo: 'Productividad por trabajador: Argentina, China, Vietnam y otros'
+    que_muestra: 'PIB por persona ocupada, en dólares a paridad de poder adquisitivo constantes: cuánto produce en promedio cada trabajador.'
+    original:
+      ficha: p131
+      imagen: 1548
+    tipo: lineas_pais
+    frecuencia: A
+    desde: '1991'
+    unidad: US$ PPA constantes por ocupado
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas:
+    - nivel
+    - base_100
+    series:
+    - serie: wb_sl_gdp_pcap_em_kd_arg
+      nombre: Argentina
+    - serie: wb_sl_gdp_pcap_em_kd_chn
+      nombre: China
+    - serie: wb_sl_gdp_pcap_em_kd_vnm
+      nombre: Vietnam
+    - serie: wb_sl_gdp_pcap_em_kd_bra
+      nombre: Brasil
+    - serie: wb_sl_gdp_pcap_em_kd_mex
+      nombre: México
+    - serie: wb_sl_gdp_pcap_em_kd_usa
+      nombre: EE.UU.
+    fuentes:
+    - nombre: Banco Mundial (OIT y cuentas nacionales), PIB por persona ocupada
+      url: https://data.worldbank.org/indicator/SL.GDP.PCAP.EM.KD
+      nivel: secundaria
+    metodo: 'PIB a paridad de poder adquisitivo dividido por la cantidad de ocupados (estimación modelada de la OIT). Mide productividad media por trabajador, no por hora: el original mostraba dólares por hora trabajada con datos ''estimados y extrapolados'' sin fuente. La productividad por hora de máquina, costo laboral, tasa de error, robotización y sistemas industriales por empresa (fichas p132, p429-p436, c1553, c1557) no tienen fuentes públicas comparables y no se publican.'

@@ -1,6 +1,6 @@
 # Informe de actualización 2026-11-07
 
-Gráficos publicados: 128
+Gráficos publicados: 129
 
 ## Alertas
 
@@ -43,6 +43,12 @@ Gráficos publicados: 128
 - wb_sl_uem_totl_zs_pry: sin datos guardados
 - wb_fp_cpi_totl_zg_ury: sin datos guardados
 - wb_ny_gdp_pcap_kd_zg_ury: sin datos guardados
+- wb_sl_gdp_pcap_em_kd_arg: sin datos guardados
+- wb_sl_gdp_pcap_em_kd_chn: sin datos guardados
+- wb_sl_gdp_pcap_em_kd_vnm: sin datos guardados
+- wb_sl_gdp_pcap_em_kd_bra: sin datos guardados
+- wb_sl_gdp_pcap_em_kd_mex: sin datos guardados
+- wb_sl_gdp_pcap_em_kd_usa: sin datos guardados
 - pib_pc_pesos: falta la serie 'poblacion_arg', no se calcula
 - pib_per_capita_pesos: sin datos para la serie pib_pc_pesos
 - pib_per_capita_pesos: sin datos, no se publica
@@ -90,3 +96,10 @@ Gráficos publicados: 128
 - caso_paraguay: sin datos, no se publica
 - caso_uruguay: sin datos para la serie wb_fp_cpi_totl_zg_ury
 - caso_uruguay: sin datos para la serie wb_ny_gdp_pcap_kd_zg_ury
+- productividad_paises: sin datos para la serie wb_sl_gdp_pcap_em_kd_arg
+- productividad_paises: sin datos para la serie wb_sl_gdp_pcap_em_kd_chn
+- productividad_paises: sin datos para la serie wb_sl_gdp_pcap_em_kd_vnm
+- productividad_paises: sin datos para la serie wb_sl_gdp_pcap_em_kd_bra
+- productividad_paises: sin datos para la serie wb_sl_gdp_pcap_em_kd_mex
+- productividad_paises: sin datos para la serie wb_sl_gdp_pcap_em_kd_usa
+- productividad_paises: sin datos, no se publica

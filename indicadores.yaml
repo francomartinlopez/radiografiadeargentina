@@ -799,6 +799,12 @@ series:
   wb_sl_uem_totl_zs_pry: {fuente: worldbank, id: "SL.UEM.TOTL.ZS", pais: PRY}
   wb_fp_cpi_totl_zg_ury: {fuente: worldbank, id: "FP.CPI.TOTL.ZG", pais: URY}
   wb_ny_gdp_pcap_kd_zg_ury: {fuente: worldbank, id: "NY.GDP.PCAP.KD.ZG", pais: URY}
+  wb_sl_gdp_pcap_em_kd_arg: {fuente: worldbank, id: "SL.GDP.PCAP.EM.KD", pais: ARG}
+  wb_sl_gdp_pcap_em_kd_chn: {fuente: worldbank, id: "SL.GDP.PCAP.EM.KD", pais: CHN}
+  wb_sl_gdp_pcap_em_kd_vnm: {fuente: worldbank, id: "SL.GDP.PCAP.EM.KD", pais: VNM}
+  wb_sl_gdp_pcap_em_kd_bra: {fuente: worldbank, id: "SL.GDP.PCAP.EM.KD", pais: BRA}
+  wb_sl_gdp_pcap_em_kd_mex: {fuente: worldbank, id: "SL.GDP.PCAP.EM.KD", pais: MEX}
+  wb_sl_gdp_pcap_em_kd_usa: {fuente: worldbank, id: "SL.GDP.PCAP.EM.KD", pais: USA}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
