@@ -302,6 +302,10 @@ calculos:
     operacion: variacion_anual
     a: ipc
 
+  cabotaje_largo:
+    operacion: empalme
+    tramos: [{serie: cabotaje_1993, hasta: "2012-01"}, {serie: cabotaje_pasajeros}]
+
 graficos:
   - id: inflacion_minorista
     tema: 2
@@ -3306,3 +3310,61 @@ graficos:
     fuentes:
       - {nombre: "Ministerio de Salud, Dirección de Estadísticas e Información de Salud (DEIS)", url: "https://www.argentina.gob.ar/salud/deis", nivel: primaria}
     metodo: "Estadísticas vitales anuales. El original descontaba abortos de la mortalidad fetal; las defunciones fetales publicadas por la DEIS son las registradas (de 22 semanas o más), y esa corrección queda para el lote 7."
+
+  # ---------- Paso 6 (lote 3), tanda 2 ----------
+
+  - id: consumo_carnes
+    tema: 8
+    titulo: "Consumo de carne por persona"
+    que_muestra: "Kilos de carne vacuna, aviar y porcina disponibles por habitante por año."
+    original: {ficha: p198, imagen: 1095}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "kg por habitante por año"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: fao_vacuna, nombre: "Vacuna"}
+      - {serie: fao_aviar, nombre: "Aviar"}
+      - {serie: fao_porcina, nombre: "Porcina"}
+    fuentes:
+      - {nombre: "FAO, hojas de balance de alimentos, vía Our World in Data", url: "https://ourworldindata.org/grapher/per-capita-meat-type", nivel: secundaria, nota: "Consumo aparente: producción + importaciones − exportaciones, sobre la población"}
+    metodo: "Consumo aparente anual estimado por la FAO con datos oficiales argentinos, comparable en el tiempo. Las cámaras del sector (CICCRA, CEPA, AAPP) publican cifras mensuales algo distintas, en peso con hueso; quedan para el lote 5. Reúne las fichas p198, p199 y p302."
+
+  - id: consumo_leche
+    tema: 8
+    titulo: "Consumo de leche por persona"
+    que_muestra: "Litros de leche (y equivalente en lácteos, sin manteca) disponibles por habitante por año."
+    original: {ficha: p197, imagen: 1094}
+    tipo: lineas
+    frecuencia: A
+    desde: "2001"
+    unidad: "kg por habitante por año"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: fao_leche, nombre: "Leche y lácteos"}
+    fuentes:
+      - {nombre: "FAO, hojas de balance de alimentos, vía Our World in Data", url: "https://ourworldindata.org/grapher/per-capita-milk-consumption", nivel: secundaria}
+    metodo: "Consumo aparente anual de la FAO. El OCLA (Observatorio de la Cadena Láctea) publica una serie propia en litros equivalentes; queda para el lote 5."
+
+  - id: vuelos_cabotaje
+    tema: 10
+    titulo: "Pasajeros de vuelos de cabotaje"
+    que_muestra: "Pasajeros transportados por las aerolíneas en vuelos regulares dentro del país."
+    original: {ficha: p288, imagen: 1324}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "miles de pasajeros"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: cabotaje_largo, nombre: "Vuelos de cabotaje"}
+    fuentes:
+      - {nombre: "INDEC, Estadísticas de servicios públicos (ANAC)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-3-45", nivel: primaria}
+    metodo: "Se encadenan la serie de pasajes de cabotaje (1993 a enero de 2012) y la de pasajeros transportados (desde 2012), en miles de pasajeros. Los pasajes de micros de larga distancia (CNRT) no tienen serie mensual publicada desde 2001: quedan para el lote 5. Reúne las fichas p286, p287 y p288."
