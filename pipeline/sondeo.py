@@ -204,7 +204,12 @@ def main() -> None:
             lineas += [f"## {url}: HTTP {r.status_code}", "```", r.text[:600], "```", ""]
         except Exception as e:
             lineas += [f"## {url}: error {e}", ""]
-    lineas = sondear_paginas()
+    from pipeline.fuentes import magyp
+    try:
+        lineas = ["# Stock bovino leído", "```", magyp.tabla().to_string(), "```"]
+    except Exception as e:
+        import traceback
+        lineas = ["# Error", "```", traceback.format_exc(), "```"]
     (CARPETA / "resultado.md").write_text("\n".join(lineas), encoding="utf-8")
     print("\n".join(lineas))
 

@@ -27,10 +27,20 @@ def leer(hojas: dict[str, pd.DataFrame]) -> pd.DataFrame:
         if not re.fullmatch(r"\d{4}", str(nombre).strip()):
             continue
         texto = df.astype(str).apply(lambda c: c.str.strip().str.lower())
-        enc = next(i for i in range(len(df)) if texto.iat[i, 0] == "provincia")
-        tot = next(i for i in range(enc + 1, len(df)) if texto.iat[i, 0] == "total")
-        cols = {texto.iat[enc, j].rstrip("s") + "s": j for j in range(1, df.shape[1])}
+        enc = next((i for i in range(len(df)) if texto.iat[i, 0].startswith("provincia")), None)
+        if enc is None:
+            continue
+        tot = next((i for i in range(enc + 1, len(df)) if texto.iat[i, 0].startswith("total")), None)
+        if tot is None:
+            continue
+        cols = {}
+        for j in range(1, df.shape[1]):
+            for c in CATEGORIAS:
+                if texto.iat[enc, j].startswith(c.rstrip("s")) and c not in cols:
+                    cols[c] = j
         filas[int(nombre)] = {c: float(pd.to_numeric(df.iat[tot, cols[c]], errors="coerce")) for c in CATEGORIAS if c in cols}
+    if not filas:
+        raise RuntimeError("La planilla de stock bovino no tiene hojas por año con fila Total")
     tabla = pd.DataFrame(filas).T.sort_index()
     tabla.index = pd.to_datetime(tabla.index.astype(str) + "-01-01")
     return tabla
