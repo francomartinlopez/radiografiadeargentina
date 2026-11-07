@@ -167,3 +167,11 @@ def test_magyp_stock_bovino_lee_total():
     t = magyp.leer({"2024": hoja, "Serie 2007-2024": hoja})
     assert t.loc["2024-01-01", "vacas"] == 1 and t.loc["2024-01-01", "bueyes"] == 9
     assert list(t.index.year) == [2024]
+
+
+def test_dbnomics_parsear_descarta_proyecciones():
+    from pipeline.fuentes import dbnomics
+    js = {"series": {"docs": [{"period": ["2023", "2024", "2025", "2026"], "value": [80.1, "NA", 85.0, 90.0]}]}}
+    s = dbnomics.parsear(js, hasta_anio=2025)
+    assert list(s.index.year) == [2023, 2025]
+    assert s.iloc[-1] == 85.0

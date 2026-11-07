@@ -334,6 +334,46 @@ calculos:
     a: pib_real_anual
     b: poblacion_arg
     factor: 1000000
+  deuda_pib_arg:
+    operacion: concatenar
+    tramos:
+      - {serie: deuda_hpdd_arg, hasta: "1979-01-01"}
+      - {serie: deuda_weo_arg}
+  deuda_pib_bra:
+    operacion: concatenar
+    tramos:
+      - {serie: deuda_hpdd_bra, hasta: "1979-01-01"}
+      - {serie: deuda_weo_bra}
+  deuda_pib_chl:
+    operacion: concatenar
+    tramos:
+      - {serie: deuda_hpdd_chl, hasta: "1979-01-01"}
+      - {serie: deuda_weo_chl}
+  deuda_pib_ury:
+    operacion: concatenar
+    tramos:
+      - {serie: deuda_hpdd_ury, hasta: "1979-01-01"}
+      - {serie: deuda_weo_ury}
+  deuda_pib_esp:
+    operacion: concatenar
+    tramos:
+      - {serie: deuda_hpdd_esp, hasta: "1979-01-01"}
+      - {serie: deuda_weo_esp}
+  deuda_pib_ita:
+    operacion: concatenar
+    tramos:
+      - {serie: deuda_hpdd_ita, hasta: "1979-01-01"}
+      - {serie: deuda_weo_ita}
+  deuda_pib_gbr:
+    operacion: concatenar
+    tramos:
+      - {serie: deuda_hpdd_gbr, hasta: "1979-01-01"}
+      - {serie: deuda_weo_gbr}
+  deuda_pib_usa:
+    operacion: concatenar
+    tramos:
+      - {serie: deuda_hpdd_usa, hasta: "1979-01-01"}
+      - {serie: deuda_weo_usa}
   vehiculos_por_mil_hab:
     operacion: cociente
     a: afac_flota
@@ -4910,3 +4950,28 @@ graficos:
       - {nombre: "AFAC y Promotive, Flota vehicular circulante en Argentina (informes anuales 2011-2025, citados en la prensa)", url: "https://eleconomista.com.ar/autos/en-argentina-hay-158-millones-vehiculos-su-edad-promedio-148-anos-n93924", nivel: secundaria}
       - {nombre: "Banco Mundial, población total (SP.POP.TOTL)", url: "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=AR", nivel: primaria}
     metodo: "El parque vivo lo estima la Asociación de Fábricas Argentinas de Componentes (AFAC) con los registros de la DNRPA, descontando cada año los vehículos que se dan de baja o se estima que dejaron de circular; no incluye motos, acoplados ni maquinaria. Vehículos a fin de cada año: 10,25 millones (2011), 12,43 (2016), 13,22 (2017), 13,95 (2018), 14,30 (2019), 14,56 (2020), 14,84 (2021), 15,08 (2022), 15,30 (2023), 15,55 (2024) y 15,78 (2025). Para 2016 y 2017 se suman el parque de hasta 20 años y el de más de 20 que informa AFAC. Entre 2012 y 2015 no encontré los informes y la línea une los puntos. Composición: alrededor del 80% son autos, 15% a 17% utilitarios livianos y 3% camiones y ómnibus; esa composición cambia poco y no se grafica por separado. No hay una serie pública del parque de motos en circulación."
+
+  - id: deuda_publica_paises
+    tema: 19
+    titulo: "Deuda pública: la Argentina y otros países"
+    que_muestra: "Deuda bruta del gobierno general como porcentaje del PIB, en series largas por país."
+    original: {ficha: p64, imagen: 1179}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1900"
+    unidad: "% del PIB"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    series:
+      - {serie: deuda_pib_arg, nombre: "Argentina"}
+      - {serie: deuda_pib_bra, nombre: "Brasil"}
+      - {serie: deuda_pib_chl, nombre: "Chile"}
+      - {serie: deuda_pib_ury, nombre: "Uruguay"}
+      - {serie: deuda_pib_esp, nombre: "España"}
+      - {serie: deuda_pib_ita, nombre: "Italia"}
+      - {serie: deuda_pib_gbr, nombre: "Gran Bretaña"}
+      - {serie: deuda_pib_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "FMI, Historical Public Debt Database (hasta 1979), vía DBnomics", url: "https://db.nomics.world/IMF/HPDD", nivel: secundaria}
+      - {nombre: "FMI, World Economic Outlook (desde 1980), vía DBnomics", url: "https://db.nomics.world/IMF/WEO:latest", nivel: secundaria}
+    metodo: "Hasta 1979, base histórica de deuda pública del FMI; desde 1980, World Economic Outlook, que se actualiza dos veces por año. Se descartan las proyecciones del FMI (años posteriores al último cerrado). Ocho países para que cada uno tenga un color propio. Se usa deuda sobre PIB y no en dólares, porque el monto absoluto no se puede comparar entre economías de distinto tamaño; el original comparaba montos en dólares de años distintos con valores ilustrativos. En la Argentina, los saltos de 2002 y 2019-2020 reflejan devaluaciones (la deuda en dólares pesa más sobre un PIB en pesos que cae medido en dólares), y las bajas de 2005 y 2010 los canjes con quita."

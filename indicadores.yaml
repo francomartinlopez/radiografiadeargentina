@@ -942,6 +942,22 @@ series:
   aprender_prim_lengua:   {fuente: manual, id: aprender_prim_lengua}
   aprender_prim_matematica:   {fuente: manual, id: aprender_prim_matematica}
   afac_flota:   {fuente: manual, id: afac_flota}
+  deuda_hpdd_arg:   {fuente: dbnomics, serie: "IMF/HPDD/A.AR.GGXWDG_GDP"}
+  deuda_weo_arg:   {fuente: dbnomics, serie: "IMF/WEO:latest/ARG.GGXWDG_NGDP.pcent_gdp"}
+  deuda_hpdd_bra:   {fuente: dbnomics, serie: "IMF/HPDD/A.BR.GGXWDG_GDP"}
+  deuda_weo_bra:   {fuente: dbnomics, serie: "IMF/WEO:latest/BRA.GGXWDG_NGDP.pcent_gdp"}
+  deuda_hpdd_chl:   {fuente: dbnomics, serie: "IMF/HPDD/A.CL.GGXWDG_GDP"}
+  deuda_weo_chl:   {fuente: dbnomics, serie: "IMF/WEO:latest/CHL.GGXWDG_NGDP.pcent_gdp"}
+  deuda_hpdd_ury:   {fuente: dbnomics, serie: "IMF/HPDD/A.UY.GGXWDG_GDP"}
+  deuda_weo_ury:   {fuente: dbnomics, serie: "IMF/WEO:latest/URY.GGXWDG_NGDP.pcent_gdp"}
+  deuda_hpdd_esp:   {fuente: dbnomics, serie: "IMF/HPDD/A.ES.GGXWDG_GDP"}
+  deuda_weo_esp:   {fuente: dbnomics, serie: "IMF/WEO:latest/ESP.GGXWDG_NGDP.pcent_gdp"}
+  deuda_hpdd_ita:   {fuente: dbnomics, serie: "IMF/HPDD/A.IT.GGXWDG_GDP"}
+  deuda_weo_ita:   {fuente: dbnomics, serie: "IMF/WEO:latest/ITA.GGXWDG_NGDP.pcent_gdp"}
+  deuda_hpdd_gbr:   {fuente: dbnomics, serie: "IMF/HPDD/A.GB.GGXWDG_GDP"}
+  deuda_weo_gbr:   {fuente: dbnomics, serie: "IMF/WEO:latest/GBR.GGXWDG_NGDP.pcent_gdp"}
+  deuda_hpdd_usa:   {fuente: dbnomics, serie: "IMF/HPDD/A.US.GGXWDG_GDP"}
+  deuda_weo_usa:   {fuente: dbnomics, serie: "IMF/WEO:latest/USA.GGXWDG_NGDP.pcent_gdp"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:
