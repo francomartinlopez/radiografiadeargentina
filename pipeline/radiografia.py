@@ -75,7 +75,7 @@ def validar(catalogo: dict, base: dict) -> list[str]:
                     if b.get(k) not in conocidas:
                         errores.append(f"{gid}: la serie '{b.get(k)}' no está en indicadores.yaml")
         elif g.get("categorias"):
-            if not (CATEGORIAS / f"{g['categorias']}.csv").exists():
+            if g["categorias"] != "imagen_dirigentes" and not (CATEGORIAS / f"{g['categorias']}.csv").exists():
                 errores.append(f"{gid}: no existe data/categorias/{g['categorias']}.csv")
         else:
             for s in g.get("series", []):
@@ -400,8 +400,27 @@ def agregar_por_gobierno(s: pd.Series, gobiernos: list[dict], modo: str = "prome
     return salida
 
 
+
+def imagen_dirigentes() -> list[dict]:
+    """Imagen positiva, negativa y 'no sabe / no conoce' de dirigentes: promedio de la última medición
+    de cada encuestadora (solo figuras medidas por al menos dos encuestadoras)."""
+    df = pd.read_csv(Path(__file__).resolve().parents[1] / "data" / "manual" / "encuestas_imagen.csv")
+    df["fecha"] = pd.to_datetime(df["fecha"])
+    ultimas = df.sort_values("fecha").groupby(["encuestadora", "figura"]).tail(1)
+    prom = ultimas.groupby("figura").agg(positiva=("positiva", "mean"), negativa=("negativa", "mean"), n=("encuestadora", "nunique"))
+    prom = prom[prom["n"] >= 2].sort_values("positiva", ascending=False)
+    filas = []
+    for figura, r in prom.iterrows():
+        for serie, v in (("Positiva", r["positiva"]), ("Negativa", r["negativa"]),
+                         ("No sabe / no conoce", max(0.0, 100 - r["positiva"] - r["negativa"]))):
+            filas.append({"categoria": figura, "serie": serie, "valor": round(float(v), 1)})
+    return filas
+
 def leer_categorias(nombre: str) -> list[dict]:
-    """data/categorias/<nombre>.csv: categoria, serie (opcional), valor, x, y, tamano, tramo, fuente_url."""
+    """data/categorias/<nombre>.csv: categoria, serie (opcional), valor, x, y, tamano, tramo, fuente_url.
+    'imagen_dirigentes' se arma en cada corrida desde data/manual/encuestas_imagen.csv."""
+    if nombre == "imagen_dirigentes":
+        return imagen_dirigentes()
     df = pd.read_csv(CATEGORIAS / f"{nombre}.csv")
     filas = []
     for _, r in df.iterrows():

@@ -3859,3 +3859,31 @@ graficos:
     fuentes:
       - {nombre: "INDEC, Posición de inversión internacional: activos de otra inversión de otros sectores", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-35-45", nivel: primaria, nota: "El INDEC estima el stock de billetes acumulando compras netas registradas"}
     metodo: "Saldo anual (fin de año) hasta 2015 y trimestral desde 2016, en dólares corrientes. El stock de billetes fuera de los bancos no se puede medir directamente: el INDEC lo estima acumulando la formación de activos externos registrada, así que es una estimación oficial y no un conteo. No incluye dólares en cajas de seguridad de bancos locales ni compras informales. El original mostraba una serie 'simulada'; esta es la cifra oficial más cercana."
+
+  # ---------- Paso 8 (lote 5): fuentes privadas y académicas ----------
+
+  - id: imagen_dirigentes
+    tema: 18
+    titulo: "Imagen de dirigentes (promedio de encuestas)"
+    que_muestra: "Porcentaje que tiene imagen positiva, negativa o no conoce / no opina de cada dirigente, promedio de la última medición de cada encuestadora."
+    original: {ficha: p401, imagen: 1371}
+    tipo: barras
+    categorias: imagen_dirigentes
+    unidad: "% de los encuestados"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "Encuestadoras privadas y académicas (UdeSA-ESPOP, AtlasIntel, Zuban Córdoba), compiladas en Datos de Argentina", nivel: secundaria, nota: "Cada encuestadora usa su muestra, su método y su pregunta"}
+    metodo: "Para cada dirigente se toma la última medición de cada encuestadora y se promedian; se incluyen solo los medidos por al menos dos encuestadoras. 'No sabe / no conoce' es lo que falta para llegar a 100. Reúne las fichas p401, p402 y p403. Los datos se cargan a mano en data/manual/encuestas_imagen.csv a medida que salen nuevas encuestas."
+
+  - id: religion
+    tema: 12
+    titulo: "Religión de los argentinos"
+    que_muestra: "Porcentaje de la población adulta según su religión, en las dos encuestas nacionales del CONICET."
+    original: {ficha: p325, imagen: 1357}
+    tipo: barras
+    categorias: religion
+    unidad: "% de la población adulta"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "CEIL-CONICET, Primera (2008) y Segunda (2019) Encuesta Nacional sobre Creencias y Actitudes Religiosas", url: "https://www.conicet.gov.ar/wp-content/uploads/Infografía-Encuesta-Religión-1.pdf", nivel: secundaria, nota: "Encuestas académicas nacionales de unos 2.400 casos"}
+    metodo: "Encuestas por muestreo a mayores de 18 años. 'Otras o no sabe' es el resto hasta 100 (testigos de Jehová, mormones, otras religiones y quienes no responden). El original interpolaba entre ambos años y proyectaba hasta 2026; acá se muestran solo los dos datos medidos. Reúne las fichas p324 y p325."
