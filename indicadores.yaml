@@ -896,6 +896,49 @@ series:
   owid_vih_prevalencia:   {fuente: owid, id: share-of-the-population-infected-with-hiv, campo: hiv_prevalence}
   owid_baja_talla:   {fuente: owid, id: share-of-children-younger-than-5-who-suffer-from-stunting, campo: stunting_prevalence}
   owid_sobrepeso_infantil:   {fuente: owid, id: share-of-children-who-are-overweight, campo: sn_sta_ovwgt}
+  cna_eap:   {fuente: manual, id: cna_eap, cerrada: true}
+  cna_ha_promedio:   {fuente: manual, id: cna_ha_promedio, cerrada: true}
+  wb_sm_pop_netm_arg: {fuente: worldbank, id: "SM.POP.NETM", pais: ARG}
+  owid_impuestos_arg:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: ARG}
+  owid_internet_arg:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: ARG}
+  owid_celulares_arg:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: ARG}
+  wb_sh_dyn_nmrt_arg: {fuente: worldbank, id: "SH.DYN.NMRT", pais: ARG}
+  owid_impuestos_bra:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: BRA}
+  owid_internet_bra:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: BRA}
+  owid_celulares_bra:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: BRA}
+  wb_sh_dyn_nmrt_bra: {fuente: worldbank, id: "SH.DYN.NMRT", pais: BRA}
+  owid_impuestos_chl:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: CHL}
+  owid_internet_chl:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: CHL}
+  owid_celulares_chl:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: CHL}
+  wb_sh_dyn_nmrt_chl: {fuente: worldbank, id: "SH.DYN.NMRT", pais: CHL}
+  owid_impuestos_ury:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: URY}
+  owid_internet_ury:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: URY}
+  owid_celulares_ury:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: URY}
+  wb_sh_dyn_nmrt_ury: {fuente: worldbank, id: "SH.DYN.NMRT", pais: URY}
+  owid_impuestos_mex:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: MEX}
+  owid_internet_mex:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: MEX}
+  owid_celulares_mex:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: MEX}
+  wb_sh_dyn_nmrt_mex: {fuente: worldbank, id: "SH.DYN.NMRT", pais: MEX}
+  owid_impuestos_esp:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: ESP}
+  owid_internet_esp:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: ESP}
+  owid_celulares_esp:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: ESP}
+  wb_sh_dyn_nmrt_esp: {fuente: worldbank, id: "SH.DYN.NMRT", pais: ESP}
+  owid_impuestos_ita:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: ITA}
+  owid_internet_ita:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: ITA}
+  owid_celulares_ita:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: ITA}
+  wb_sh_dyn_nmrt_ita: {fuente: worldbank, id: "SH.DYN.NMRT", pais: ITA}
+  owid_impuestos_gbr:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: GBR}
+  owid_internet_gbr:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: GBR}
+  owid_celulares_gbr:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: GBR}
+  wb_sh_dyn_nmrt_gbr: {fuente: worldbank, id: "SH.DYN.NMRT", pais: GBR}
+  owid_impuestos_aus:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: AUS}
+  owid_internet_aus:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: AUS}
+  owid_celulares_aus:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: AUS}
+  wb_sh_dyn_nmrt_aus: {fuente: worldbank, id: "SH.DYN.NMRT", pais: AUS}
+  owid_impuestos_usa:   {fuente: owid, id: tax-revenues-as-a-share-of-gdp-unu-wider, campo: tax_inc_sc, pais: USA}
+  owid_internet_usa:   {fuente: owid, id: share-of-individuals-using-the-internet, campo: it_net_user_zs, pais: USA}
+  owid_celulares_usa:   {fuente: owid, id: mobile-cellular-subscriptions-per-100-people, campo: it_cel_sets_p2, pais: USA}
+  wb_sh_dyn_nmrt_usa: {fuente: worldbank, id: "SH.DYN.NMRT", pais: USA}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

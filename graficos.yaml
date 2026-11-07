@@ -4627,7 +4627,7 @@ graficos:
     tema: 14
     titulo: "VIH: personas de 15 a 49 años que viven con el virus"
     que_muestra: "Porcentaje estimado de la población de 15 a 49 años que vive con VIH."
-    original: {ficha: p343, imagen: 0}
+    original: {ficha: p343, imagen: 1366}
     tipo: lineas
     frecuencia: A
     desde: "2001"
@@ -4673,3 +4673,163 @@ graficos:
     fuentes:
       - {nombre: "Stagnaro, Cía y otros, Estudio epidemiológico de salud mental en población general de la República Argentina (Encuesta Mundial de Salud Mental OMS/Harvard), Vertex 2018", url: "https://busqueda.bvsalud.org/portal/resource/pt/mdl-30785970", nivel: primaria}
     metodo: "Encuesta a 3.927 adultos de los principales centros urbanos, con diagnósticos según criterios internacionales (no autopercepción). Es la única medición nacional de este tipo: no hay una serie histórica. Una persona puede tener más de un trastorno, por eso los porcentajes no se suman. La esquizofrenia y otras psicosis no se miden en este tipo de encuestas de hogares."
+
+  - id: presion_tributaria_paises
+    tema: 19
+    titulo: "Presión tributaria: la Argentina y otros países"
+    que_muestra: "Recaudación de impuestos de todos los niveles de gobierno, incluidas las contribuciones a la seguridad social, como % del PIB."
+    original: {ficha: p66, imagen: 1181}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1990"
+    unidad: "% del PIB"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    series:
+      - {serie: owid_impuestos_arg, nombre: "Argentina"}
+      - {serie: owid_impuestos_bra, nombre: "Brasil"}
+      - {serie: owid_impuestos_chl, nombre: "Chile"}
+      - {serie: owid_impuestos_ury, nombre: "Uruguay"}
+      - {serie: owid_impuestos_mex, nombre: "México"}
+      - {serie: owid_impuestos_esp, nombre: "España"}
+      - {serie: owid_impuestos_ita, nombre: "Italia"}
+      - {serie: owid_impuestos_gbr, nombre: "Gran Bretaña"}
+      - {serie: owid_impuestos_aus, nombre: "Australia"}
+      - {serie: owid_impuestos_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "UNU-WIDER, Government Revenue Dataset (ICTD), vía Our World in Data", url: "https://ourworldindata.org/grapher/tax-revenues-as-a-share-of-gdp-unu-wider", nivel: secundaria}
+    metodo: "Gobierno general (Nación, provincias y municipios) con contribuciones a la seguridad social, para que la comparación entre países sea homogénea. Es la presión tributaria legal medida por lo recaudado: el original pedía la presión efectiva sobre quien paga todos sus impuestos (sin informalidad), que es una estimación propia sin fuente comparable entre países."
+
+  - id: internet_paises
+    tema: 19
+    titulo: "Personas que usan internet: la Argentina y otros países"
+    que_muestra: "Porcentaje de la población que usó internet en los últimos tres meses."
+    original: {ficha: p380, imagen: 1446}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1995"
+    unidad: "% de la población"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    series:
+      - {serie: owid_internet_arg, nombre: "Argentina"}
+      - {serie: owid_internet_bra, nombre: "Brasil"}
+      - {serie: owid_internet_chl, nombre: "Chile"}
+      - {serie: owid_internet_ury, nombre: "Uruguay"}
+      - {serie: owid_internet_mex, nombre: "México"}
+      - {serie: owid_internet_esp, nombre: "España"}
+      - {serie: owid_internet_ita, nombre: "Italia"}
+      - {serie: owid_internet_gbr, nombre: "Gran Bretaña"}
+      - {serie: owid_internet_aus, nombre: "Australia"}
+      - {serie: owid_internet_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "Unión Internacional de Telecomunicaciones (UIT), vía Banco Mundial y Our World in Data", url: "https://ourworldindata.org/grapher/share-of-individuals-using-the-internet", nivel: secundaria}
+    metodo: "Datos de la UIT a partir de encuestas de hogares y estimaciones nacionales (en la Argentina, el módulo de acceso a TIC de la EPH del INDEC). La telefonía celular está en el gráfico siguiente."
+
+  - id: celulares_paises
+    tema: 19
+    titulo: "Líneas de telefonía celular cada 100 habitantes: la Argentina y otros países"
+    que_muestra: "Suscripciones a telefonía móvil cada 100 habitantes."
+    original: {ficha: p380, imagen: 1446}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1995"
+    unidad: "líneas cada 100 habitantes"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    series:
+      - {serie: owid_celulares_arg, nombre: "Argentina"}
+      - {serie: owid_celulares_bra, nombre: "Brasil"}
+      - {serie: owid_celulares_chl, nombre: "Chile"}
+      - {serie: owid_celulares_ury, nombre: "Uruguay"}
+      - {serie: owid_celulares_mex, nombre: "México"}
+      - {serie: owid_celulares_esp, nombre: "España"}
+      - {serie: owid_celulares_ita, nombre: "Italia"}
+      - {serie: owid_celulares_gbr, nombre: "Gran Bretaña"}
+      - {serie: owid_celulares_aus, nombre: "Australia"}
+      - {serie: owid_celulares_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "Unión Internacional de Telecomunicaciones (UIT), vía Banco Mundial y Our World in Data", url: "https://ourworldindata.org/grapher/mobile-cellular-subscriptions-per-100-people", nivel: secundaria}
+    metodo: "Cuenta líneas activas, no personas: puede superar 100 porque una persona puede tener más de una línea. El original arrancaba en el siglo XIX con estimaciones propias: la UIT tiene datos comparables desde 1980."
+
+  - id: mortalidad_neonatal_paises
+    tema: 19
+    titulo: "Mortalidad neonatal: la Argentina y otros países"
+    que_muestra: "Bebés que mueren en sus primeros 28 días de vida cada 1.000 nacidos vivos."
+    original: {ficha: p353, imagen: 1425}
+    tipo: lineas_pais
+    frecuencia: A
+    desde: "1970"
+    unidad: "muertes por 1.000 nacidos vivos"
+    tipo_valor: tasa
+    medida_inicial: nivel
+    series:
+      - {serie: wb_sh_dyn_nmrt_arg, nombre: "Argentina"}
+      - {serie: wb_sh_dyn_nmrt_bra, nombre: "Brasil"}
+      - {serie: wb_sh_dyn_nmrt_chl, nombre: "Chile"}
+      - {serie: wb_sh_dyn_nmrt_ury, nombre: "Uruguay"}
+      - {serie: wb_sh_dyn_nmrt_mex, nombre: "México"}
+      - {serie: wb_sh_dyn_nmrt_esp, nombre: "España"}
+      - {serie: wb_sh_dyn_nmrt_ita, nombre: "Italia"}
+      - {serie: wb_sh_dyn_nmrt_gbr, nombre: "Gran Bretaña"}
+      - {serie: wb_sh_dyn_nmrt_aus, nombre: "Australia"}
+      - {serie: wb_sh_dyn_nmrt_usa, nombre: "EE.UU."}
+    fuentes:
+      - {nombre: "Grupo Interagencial de Naciones Unidas para la Estimación de la Mortalidad en la Niñez (UN IGME), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.DYN.NMRT", nivel: secundaria}
+    metodo: "El original pedía mortalidad prenatal (perinatal) comparada desde el siglo XIX: no hay series comparables entre países, así que se usa la neonatal, que la ONU estima de forma homogénea desde 1970 aproximadamente (según el país). La mortalidad infantil argentina en serie larga está en Mortalidad infantil."
+
+  - id: migracion_neta
+    tema: 12
+    titulo: "Migración neta de la Argentina"
+    que_muestra: "Personas que entran a vivir al país menos las que se van, por año (incluye argentinos y extranjeros)."
+    original: {ficha: p328, imagen: 1536}
+    tipo: barras_gobierno
+    frecuencia: A
+    desde: "2001"
+    unidad: "personas por año"
+    tipo_valor: flujo
+    medida_inicial: nivel
+    series:
+      - {serie: wb_sm_pop_netm_arg, nombre: "Migración neta"}
+    fuentes:
+      - {nombre: "Naciones Unidas, World Population Prospects (estimaciones), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SM.POP.NETM?locations=AR", nivel: estimacion}
+    metodo: "Estimación de Naciones Unidas a partir de los censos y los registros de entradas y salidas. No separa argentinos de extranjeros: la emigración de argentinos por nivel educativo que pedía el original (p320 a p322) no tiene una fuente periódica."
+
+  - id: explotaciones_agropecuarias
+    tema: 8
+    titulo: "Cantidad de explotaciones agropecuarias y su tamaño promedio (censos)"
+    que_muestra: "Explotaciones agropecuarias registradas en cada censo nacional."
+    original: {ficha: p213, imagen: 1493}
+    tipo: lineas
+    frecuencia: A
+    desde: "1988"
+    gobiernos: false
+    unidad: "explotaciones"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: cna_eap, nombre: "Explotaciones agropecuarias"}
+    fuentes:
+      - {nombre: "INDEC, Censos Nacionales Agropecuarios 1988, 2002 y 2018", url: "https://www.indec.gob.ar/ftp/cuadros/economia/cna2018_resultados_definitivos.pdf", nivel: primaria}
+    metodo: "Entre 1988 y 2018 la cantidad de explotaciones cayó 41%, de 421.221 a 249.663. El censo de 2008 quedó incompleto y no se usa. La superficie promedio subió de 424 hectáreas (1988) a 524 (2002) y 627 (2018, resultados preliminares): ver también Explotaciones por tamaño."
+
+  - id: empleo_y_crecimiento
+    tema: 6
+    titulo: "Empleo y crecimiento económico"
+    que_muestra: "Variación interanual de la actividad económica (EMAE) y del empleo asalariado privado registrado."
+    original: {ficha: p162, imagen: 1123}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "%"
+    tipo_valor: indice
+    medida_inicial: interanual
+    medidas: [interanual]
+    series:
+      - {serie: emae_largo, nombre: "Actividad económica (EMAE)"}
+      - {serie: asal_privados_desest, nombre: "Asalariados privados registrados"}
+    fuentes:
+      - {nombre: "INDEC, Estimador Mensual de Actividad Económica", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-48", nivel: primaria}
+      - {nombre: "Secretaría de Trabajo, Situación y evolución del trabajo registrado (SIPA)", url: "https://www.argentina.gob.ar/trabajo/estadisticas", nivel: primaria}
+    metodo: "El empleo registrado reacciona más lento y con menos amplitud que la actividad: cae menos en las recesiones y tarda en recuperarse. El empleo informal y el cuentapropismo no están en esta serie."

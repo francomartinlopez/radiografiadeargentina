@@ -1,7 +1,96 @@
 # Informe de actualización 2026-11-07
 
-Gráficos publicados: 184
+Gráficos publicados: 185
 
 ## Alertas
 
-- Sin alertas
+- cna_eap: sin datos guardados
+- wb_sm_pop_netm_arg: sin datos guardados
+- owid_impuestos_arg: sin datos guardados
+- owid_internet_arg: sin datos guardados
+- owid_celulares_arg: sin datos guardados
+- wb_sh_dyn_nmrt_arg: sin datos guardados
+- owid_impuestos_bra: sin datos guardados
+- owid_internet_bra: sin datos guardados
+- owid_celulares_bra: sin datos guardados
+- wb_sh_dyn_nmrt_bra: sin datos guardados
+- owid_impuestos_chl: sin datos guardados
+- owid_internet_chl: sin datos guardados
+- owid_celulares_chl: sin datos guardados
+- wb_sh_dyn_nmrt_chl: sin datos guardados
+- owid_impuestos_ury: sin datos guardados
+- owid_internet_ury: sin datos guardados
+- owid_celulares_ury: sin datos guardados
+- wb_sh_dyn_nmrt_ury: sin datos guardados
+- owid_impuestos_mex: sin datos guardados
+- owid_internet_mex: sin datos guardados
+- owid_celulares_mex: sin datos guardados
+- wb_sh_dyn_nmrt_mex: sin datos guardados
+- owid_impuestos_esp: sin datos guardados
+- owid_internet_esp: sin datos guardados
+- owid_celulares_esp: sin datos guardados
+- wb_sh_dyn_nmrt_esp: sin datos guardados
+- owid_impuestos_ita: sin datos guardados
+- owid_internet_ita: sin datos guardados
+- owid_celulares_ita: sin datos guardados
+- wb_sh_dyn_nmrt_ita: sin datos guardados
+- owid_impuestos_gbr: sin datos guardados
+- owid_internet_gbr: sin datos guardados
+- owid_celulares_gbr: sin datos guardados
+- wb_sh_dyn_nmrt_gbr: sin datos guardados
+- owid_impuestos_aus: sin datos guardados
+- owid_internet_aus: sin datos guardados
+- owid_celulares_aus: sin datos guardados
+- wb_sh_dyn_nmrt_aus: sin datos guardados
+- owid_impuestos_usa: sin datos guardados
+- owid_internet_usa: sin datos guardados
+- owid_celulares_usa: sin datos guardados
+- wb_sh_dyn_nmrt_usa: sin datos guardados
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_arg
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_bra
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_chl
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_ury
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_mex
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_esp
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_ita
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_gbr
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_aus
+- presion_tributaria_paises: sin datos para la serie owid_impuestos_usa
+- presion_tributaria_paises: sin datos, no se publica
+- internet_paises: sin datos para la serie owid_internet_arg
+- internet_paises: sin datos para la serie owid_internet_bra
+- internet_paises: sin datos para la serie owid_internet_chl
+- internet_paises: sin datos para la serie owid_internet_ury
+- internet_paises: sin datos para la serie owid_internet_mex
+- internet_paises: sin datos para la serie owid_internet_esp
+- internet_paises: sin datos para la serie owid_internet_ita
+- internet_paises: sin datos para la serie owid_internet_gbr
+- internet_paises: sin datos para la serie owid_internet_aus
+- internet_paises: sin datos para la serie owid_internet_usa
+- internet_paises: sin datos, no se publica
+- celulares_paises: sin datos para la serie owid_celulares_arg
+- celulares_paises: sin datos para la serie owid_celulares_bra
+- celulares_paises: sin datos para la serie owid_celulares_chl
+- celulares_paises: sin datos para la serie owid_celulares_ury
+- celulares_paises: sin datos para la serie owid_celulares_mex
+- celulares_paises: sin datos para la serie owid_celulares_esp
+- celulares_paises: sin datos para la serie owid_celulares_ita
+- celulares_paises: sin datos para la serie owid_celulares_gbr
+- celulares_paises: sin datos para la serie owid_celulares_aus
+- celulares_paises: sin datos para la serie owid_celulares_usa
+- celulares_paises: sin datos, no se publica
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_arg
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_bra
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_chl
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_ury
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_mex
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_esp
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_ita
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_gbr
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_aus
+- mortalidad_neonatal_paises: sin datos para la serie wb_sh_dyn_nmrt_usa
+- mortalidad_neonatal_paises: sin datos, no se publica
+- migracion_neta: sin datos para la serie wb_sm_pop_netm_arg
+- migracion_neta: sin datos, no se publica
+- explotaciones_agropecuarias: sin datos para la serie cna_eap
+- explotaciones_agropecuarias: sin datos, no se publica
