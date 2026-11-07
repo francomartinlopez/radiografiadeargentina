@@ -871,6 +871,11 @@ series:
   aprender_matematica:   {fuente: manual, id: aprender_matematica}
   gpp_total:   {fuente: datosgobar, id: "451.6_GPP_PIBPIB_0_0_7_41"}
   gpm_total:   {fuente: datosgobar, id: "451.8_GPM_PIBPIB_0_0_7_60"}
+  bov_vacas:   {fuente: magyp, campo: vacas}
+  bov_vaquillonas:   {fuente: magyp, campo: vaquillonas}
+  bov_terneros:   {fuente: magyp, campo: "terneros+terneras"}
+  bov_novillos:   {fuente: magyp, campo: "novillos+novillitos"}
+  bov_toros:   {fuente: magyp, campo: "toros+toritos+bueyes"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

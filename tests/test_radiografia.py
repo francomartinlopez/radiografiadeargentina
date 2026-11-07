@@ -158,3 +158,12 @@ def test_dnrpa_robos_contar():
     df = dnrpa_robos.contar(texto).set_index(["fecha", "tipo"])["cantidad"]
     assert df.loc[(pd.Timestamp("2025-03-01"), "robo")] == 2
     assert df.loc[(pd.Timestamp("2025-04-01"), "recupero")] == 1
+
+
+def test_magyp_stock_bovino_lee_total():
+    from pipeline.fuentes import magyp
+    enc = ["Provincia", "Vacas", "Vaquillonas", "Novillos", "Novillitos", "Terneros", "Terneras", "Toros", "Toritos", "Bueyes", "Total Bovinos"]
+    hoja = pd.DataFrame([[None] * 11, enc, ["BUENOS AIRES"] + [1] * 10, ["Total"] + list(range(1, 11))])
+    t = magyp.leer({"2024": hoja, "Serie 2007-2024": hoja})
+    assert t.loc["2024-01-01", "vacas"] == 1 and t.loc["2024-01-01", "bueyes"] == 9
+    assert list(t.index.year) == [2024]

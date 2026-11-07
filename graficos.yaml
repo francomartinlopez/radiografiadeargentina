@@ -4364,3 +4364,25 @@ graficos:
       - {nombre: "INDEC, EPH: ingreso per cápita familiar por decil (aglomerados urbanos)", url: "https://datos.gob.ar/series/api/series/?ids=301.1_TOTAL_IPCFPCF_0_T_10", nivel: primaria}
       - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
     metodo: "Ingreso per cápita familiar: ingreso total del hogar dividido por sus integrantes; las personas se ordenan en deciles según ese ingreso. Los deciles 1 y 2 no se publican en la serie abierta: el promedio de los deciles 1 a 4 se obtiene del promedio total (que es el promedio de los 10 deciles) menos los deciles 5 a 10. Se usan estratos de ingreso y no clases sociales: la clase depende también de la educación, la ocupación y el patrimonio, que esta serie no mide. Pesos llevados al último mes con dato con el IPC empalmado."
+
+  - id: stock_bovino_categorias
+    tema: 8
+    titulo: "Stock bovino por categoría"
+    que_muestra: "Cabezas de ganado bovino al 31 de diciembre de cada año, por categoría. Apiladas, suman el stock total."
+    original: {ficha: p223, imagen: 1510}
+    tipo: areas
+    frecuencia: A
+    desde: "2007"
+    unidad: "cabezas"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: bov_vacas, nombre: "Vacas"}
+      - {serie: bov_vaquillonas, nombre: "Vaquillonas"}
+      - {serie: bov_terneros, nombre: "Terneros y terneras"}
+      - {serie: bov_novillos, nombre: "Novillos y novillitos"}
+      - {serie: bov_toros, nombre: "Toros, toritos y bueyes"}
+    fuentes:
+      - {nombre: "Ministerio de Economía, Dirección Nacional de Producción Ganadera: serie de stock bovino por provincia al 31-12, con datos del SIGSA (SENASA)", url: "https://www.magyp.gob.ar/sitio/areas/bovinos/informacion_interes/informes/index.php", nivel: primaria}
+    metodo: "Existencias declaradas en el sistema de gestión sanitaria del SENASA, consolidadas al 31 de diciembre. La serie oficial empieza en 2007 (no hay un dato comparable para 2001 a 2006). Hembras: vacas y vaquillonas (los vientres) más terneras; machos: novillos, novillitos, toros, toritos, bueyes y terneros. La caída de 2008-2009 refleja la sequía y la liquidación de vientres."
