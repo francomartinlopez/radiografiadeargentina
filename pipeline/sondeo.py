@@ -26,7 +26,7 @@ CANDIDATOS = [
     "nobel-laureates-per-capita", "nobel-prizes-by-country", "gdp-per-capita-maddison-project-database",
     "real-wages-in-manufacturing", "average-years-of-schooling",
 ]
-CANDIDATOS_AHORA: list[str] = ["government-debt-to-gdp","public-debt-as-a-share-of-gdp","gross-public-sector-debt-as-a-proportion-of-gdp","central-government-debt","historical-gov-debt-gdp","general-government-gross-debt-gdp"]
+CANDIDATOS_AHORA: list[str] = []
 URLS_EXTRA = [
     "https://psl.noaa.gov/data/correlation/oni.data",
     "https://www.cpc.ncep.noaa.gov/data/indices/oni.ascii.txt",
@@ -224,7 +224,7 @@ def main() -> None:
             lineas.append(f"- {pag}: HTTP {r.status_code} -> " + " ; ".join(links[:120]))
         except Exception as e:
             lineas.append(f"- {pag}: error {e}")
-    for u, n in []:
+    for u, n in [("https://api.db.nomics.world/v22/series/IMF/HPDD?dimensions=%7B%22REF_AREA%22%3A%5B%22AR%22%2C%22BR%22%5D%7D&observations=1", "hpdd.json"), ("https://api.db.nomics.world/v22/series/IMF/WEO:latest?dimensions=%7B%22weo-country%22%3A%5B%22ARG%22%5D%2C%22weo-subject%22%3A%5B%22GGXWDG_NGDP%22%5D%7D&observations=1", "weo.json")]:
         try:
             r = requests.get(u, timeout=120, headers={"User-Agent": "radiografia-argentina/1.0"})
             lineas.append(f"- {u}: HTTP {r.status_code} {len(r.text)}")
