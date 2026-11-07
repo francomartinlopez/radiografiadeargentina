@@ -1,9 +1,9 @@
 categoria,serie,fuente_url,valor
-Estado: liberados de centros clandestinos,Registro o mínimo,https://rcs.uv.cl/index.php/syt/article/download/5559/4968/23403,3432.0
-Estado: liberados de centros clandestinos,Estimación máxima,https://rcs.uv.cl/index.php/syt/article/download/5559/4968/23403,17160.0
-Estado: presos políticos (PEN),Registro o mínimo,https://www.cambridge.org/core/product/E9485B72CFF433F9F64858317AAD4A64/core-reader,8625.0
-Estado: presos políticos (PEN),Estimación máxima,https://www.cambridge.org/core/product/E9485B72CFF433F9F64858317AAD4A64/core-reader,12000.0
-Org. armadas: secuestrados,Registro o mínimo,https://www.libertaddigital.com/club/ideas/sala-lectura/2017-10-12/eduardo-goligorsky-los-muertos-ocultos-6423724/,775.0
-Org. armadas: secuestrados,Estimación máxima,https://www.lanacion.com.ar/opinion/montoneros-erp-mataron-mas-eta-menos-tiempo-nid2547514,792.0
-Org. armadas: heridos,Registro o mínimo,https://www.lanacion.com.ar/opinion/montoneros-erp-mataron-mas-eta-menos-tiempo-nid2547514,2368.0
-Org. armadas: heridos,Estimación máxima,https://www.lanacion.com.ar/opinion/montoneros-erp-mataron-mas-eta-menos-tiempo-nid2547514,3437.0
+Liberados de CCD (Estado),Registro o mínimo,https://rcs.uv.cl/index.php/syt/article/download/5559/4968/23403,3432.0
+Liberados de CCD (Estado),Estimación máxima,https://rcs.uv.cl/index.php/syt/article/download/5559/4968/23403,17160.0
+Presos PEN (Estado),Registro o mínimo,https://www.cambridge.org/core/product/E9485B72CFF433F9F64858317AAD4A64/core-reader,8625.0
+Presos PEN (Estado),Estimación máxima,https://www.cambridge.org/core/product/E9485B72CFF433F9F64858317AAD4A64/core-reader,12000.0
+Secuestrados (org. armadas),Registro o mínimo,https://www.libertaddigital.com/club/ideas/sala-lectura/2017-10-12/eduardo-goligorsky-los-muertos-ocultos-6423724/,775.0
+Secuestrados (org. armadas),Estimación máxima,https://www.lanacion.com.ar/opinion/montoneros-erp-mataron-mas-eta-menos-tiempo-nid2547514,792.0
+Heridos (org. armadas),Registro o mínimo,https://www.lanacion.com.ar/opinion/montoneros-erp-mataron-mas-eta-menos-tiempo-nid2547514,2368.0
+Heridos (org. armadas),Estimación máxima,https://www.lanacion.com.ar/opinion/montoneros-erp-mataron-mas-eta-menos-tiempo-nid2547514,3437.0
