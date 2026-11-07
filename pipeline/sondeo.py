@@ -161,8 +161,8 @@ def sondear_magyp() -> list[str]:
     import re
     r = requests.get("https://www.magyp.gob.ar/sitio/areas/bovinos/informacion_interes/informes/index.php",
                      timeout=120, headers={"User-Agent": "Mozilla/5.0 radiografia-argentina"})
-    rutas = sorted(set(re.findall(r"_archivos/0000\d\d=[^\"'<>]+", r.text)))
-    lineas = ["# Informes de bovinos (MAGyP)", ""] + [f"- {x}" for x in rutas if "stock" in x.lower() or "existencia" in x.lower()][:200]
+    rutas = sorted(set(m.group(0) for m in re.finditer(r"[^\"'<>]{0,200}[Ss]tock[^\"'<>]{0,200}", r.text)))
+    lineas = ["# Informes de bovinos (MAGyP)", ""] + [f"- {x.strip()}" for x in rutas][:300]
     lineas += ["", "## Otras carpetas"] + sorted({f"- {x.split('/')[1]}" for x in rutas if "/" in x})[:80]
     return lineas
 
