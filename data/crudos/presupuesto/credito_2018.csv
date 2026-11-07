@@ -1,0 +1,1478 @@
+fecha,servicio_id,servicio_desc,devengado
+2018-01-01,1,Auditoría General de la Nación,138.16764777
+2018-02-01,1,Auditoría General de la Nación,125.44899985
+2018-03-01,1,Auditoría General de la Nación,128.3644097
+2018-04-01,1,Auditoría General de la Nación,144.3541369
+2018-05-01,1,Auditoría General de la Nación,153.60440424
+2018-06-01,1,Auditoría General de la Nación,220.50742131
+2018-07-01,1,Auditoría General de la Nación,148.04972664
+2018-08-01,1,Auditoría General de la Nación,156.79781164
+2018-09-01,1,Auditoría General de la Nación,161.72394369
+2018-10-01,1,Auditoría General de la Nación,180.72903838
+2018-11-01,1,Auditoría General de la Nación,170.11854355
+2018-12-01,1,Auditoría General de la Nación,291.74941932
+2018-01-01,101,Fundación Miguel Lillo,15.76916794
+2018-02-01,101,Fundación Miguel Lillo,15.77501035
+2018-03-01,101,Fundación Miguel Lillo,18.79494687
+2018-04-01,101,Fundación Miguel Lillo,17.4533768
+2018-05-01,101,Fundación Miguel Lillo,17.45876014
+2018-06-01,101,Fundación Miguel Lillo,22.16568976
+2018-07-01,101,Fundación Miguel Lillo,21.66306549
+2018-08-01,101,Fundación Miguel Lillo,20.04163662
+2018-09-01,101,Fundación Miguel Lillo,22.89829528
+2018-10-01,101,Fundación Miguel Lillo,20.96639901
+2018-11-01,101,Fundación Miguel Lillo,21.57518242
+2018-12-01,101,Fundación Miguel Lillo,39.00660442
+2018-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,886.45019338
+2018-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,934.723486
+2018-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1021.27968744
+2018-04-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,944.3956891400001
+2018-05-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,987.66086962
+2018-06-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1463.8243341
+2018-07-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,785.25045132
+2018-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1316.9726008500002
+2018-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1232.43374708
+2018-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1079.2155795200001
+2018-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1187.75587011
+2018-12-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1741.06657744
+2018-01-01,105,Comisión Nacional de Energía Atómica,172.66092971
+2018-02-01,105,Comisión Nacional de Energía Atómica,192.86368612
+2018-03-01,105,Comisión Nacional de Energía Atómica,281.19426574
+2018-04-01,105,Comisión Nacional de Energía Atómica,400.73139645
+2018-05-01,105,Comisión Nacional de Energía Atómica,386.56670814
+2018-06-01,105,Comisión Nacional de Energía Atómica,429.30770498
+2018-07-01,105,Comisión Nacional de Energía Atómica,360.41814864
+2018-08-01,105,Comisión Nacional de Energía Atómica,645.0396622000001
+2018-09-01,105,Comisión Nacional de Energía Atómica,447.88782299
+2018-10-01,105,Comisión Nacional de Energía Atómica,304.51344644
+2018-11-01,105,Comisión Nacional de Energía Atómica,99.91366055
+2018-12-01,105,Comisión Nacional de Energía Atómica,1136.80078549
+2018-01-01,106,Comisión Nacional de Actividades Espaciales,83.82921635
+2018-02-01,106,Comisión Nacional de Actividades Espaciales,103.54170377
+2018-03-01,106,Comisión Nacional de Actividades Espaciales,284.9258644
+2018-04-01,106,Comisión Nacional de Actividades Espaciales,138.00373358000002
+2018-05-01,106,Comisión Nacional de Actividades Espaciales,96.52565014
+2018-06-01,106,Comisión Nacional de Actividades Espaciales,127.12575941
+2018-07-01,106,Comisión Nacional de Actividades Espaciales,104.89846432
+2018-08-01,106,Comisión Nacional de Actividades Espaciales,447.70252351
+2018-09-01,106,Comisión Nacional de Actividades Espaciales,329.34754043
+2018-10-01,106,Comisión Nacional de Actividades Espaciales,105.20744280000001
+2018-11-01,106,Comisión Nacional de Actividades Espaciales,84.57248516
+2018-12-01,106,Comisión Nacional de Actividades Espaciales,244.69411125
+2018-01-01,107,Administración de Parques Nacionales,89.90086641
+2018-02-01,107,Administración de Parques Nacionales,77.96419824
+2018-03-01,107,Administración de Parques Nacionales,186.01084851
+2018-04-01,107,Administración de Parques Nacionales,102.86982741
+2018-05-01,107,Administración de Parques Nacionales,103.57710352
+2018-06-01,107,Administración de Parques Nacionales,275.54411163
+2018-07-01,107,Administración de Parques Nacionales,115.44399471
+2018-08-01,107,Administración de Parques Nacionales,147.40948798
+2018-09-01,107,Administración de Parques Nacionales,173.9454761
+2018-10-01,107,Administración de Parques Nacionales,169.10761194
+2018-11-01,107,Administración de Parques Nacionales,195.35464391
+2018-12-01,107,Administración de Parques Nacionales,327.81677016
+2018-01-01,108,Instituto Nacional del Agua,15.90224552
+2018-02-01,108,Instituto Nacional del Agua,18.48668802
+2018-03-01,108,Instituto Nacional del Agua,18.47707858
+2018-04-01,108,Instituto Nacional del Agua,14.91447046
+2018-05-01,108,Instituto Nacional del Agua,16.81269733
+2018-06-01,108,Instituto Nacional del Agua,24.12290574
+2018-07-01,108,Instituto Nacional del Agua,17.26489365
+2018-08-01,108,Instituto Nacional del Agua,17.51010112
+2018-09-01,108,Instituto Nacional del Agua,21.29991532
+2018-10-01,108,Instituto Nacional del Agua,19.03265349
+2018-11-01,108,Instituto Nacional del Agua,19.96552333
+2018-12-01,108,Instituto Nacional del Agua,42.49503922
+2018-01-01,109,Sindicatura General de la Nación,52.488309210000004
+2018-02-01,109,Sindicatura General de la Nación,57.43119346
+2018-03-01,109,Sindicatura General de la Nación,58.93142647
+2018-04-01,109,Sindicatura General de la Nación,55.702542439999995
+2018-05-01,109,Sindicatura General de la Nación,58.025498989999996
+2018-06-01,109,Sindicatura General de la Nación,90.51131093
+2018-07-01,109,Sindicatura General de la Nación,60.58695082
+2018-08-01,109,Sindicatura General de la Nación,61.19564774
+2018-09-01,109,Sindicatura General de la Nación,69.41955639
+2018-10-01,109,Sindicatura General de la Nación,65.31505562
+2018-11-01,109,Sindicatura General de la Nación,62.06099952
+2018-12-01,109,Sindicatura General de la Nación,94.06974877
+2018-01-01,112,Autoridad Regulatoria Nuclear,25.29166438
+2018-02-01,112,Autoridad Regulatoria Nuclear,18.82680673
+2018-03-01,112,Autoridad Regulatoria Nuclear,36.18308061
+2018-04-01,112,Autoridad Regulatoria Nuclear,30.859067839999998
+2018-05-01,112,Autoridad Regulatoria Nuclear,31.48804783
+2018-06-01,112,Autoridad Regulatoria Nuclear,42.54757332
+2018-07-01,112,Autoridad Regulatoria Nuclear,26.425465
+2018-08-01,112,Autoridad Regulatoria Nuclear,43.89245221
+2018-09-01,112,Autoridad Regulatoria Nuclear,45.84137775
+2018-10-01,112,Autoridad Regulatoria Nuclear,34.037407810000005
+2018-11-01,112,Autoridad Regulatoria Nuclear,30.83587577
+2018-12-01,112,Autoridad Regulatoria Nuclear,68.2755465
+2018-01-01,113,Teatro Nacional Cervantes,14.978144740000001
+2018-02-01,113,Teatro Nacional Cervantes,14.86056559
+2018-03-01,113,Teatro Nacional Cervantes,21.631512540000003
+2018-04-01,113,Teatro Nacional Cervantes,16.17136508
+2018-05-01,113,Teatro Nacional Cervantes,18.41011522
+2018-06-01,113,Teatro Nacional Cervantes,31.58014645
+2018-07-01,113,Teatro Nacional Cervantes,17.79305678
+2018-08-01,113,Teatro Nacional Cervantes,24.12320042
+2018-09-01,113,Teatro Nacional Cervantes,25.08795155
+2018-10-01,113,Teatro Nacional Cervantes,25.64096405
+2018-11-01,113,Teatro Nacional Cervantes,18.368059159999998
+2018-12-01,113,Teatro Nacional Cervantes,58.6706327
+2018-01-01,114,Instituto Nacional de Asociativismo y Economía Social,27.12430126
+2018-02-01,114,Instituto Nacional de Asociativismo y Economía Social,56.79232168
+2018-03-01,114,Instituto Nacional de Asociativismo y Economía Social,79.97780248
+2018-04-01,114,Instituto Nacional de Asociativismo y Economía Social,28.09404882
+2018-05-01,114,Instituto Nacional de Asociativismo y Economía Social,31.11030188
+2018-06-01,114,Instituto Nacional de Asociativismo y Economía Social,132.92620115
+2018-07-01,114,Instituto Nacional de Asociativismo y Economía Social,29.72330646
+2018-08-01,114,Instituto Nacional de Asociativismo y Economía Social,31.44756853
+2018-09-01,114,Instituto Nacional de Asociativismo y Economía Social,136.21519525
+2018-10-01,114,Instituto Nacional de Asociativismo y Economía Social,50.87867179
+2018-11-01,114,Instituto Nacional de Asociativismo y Economía Social,34.01684178
+2018-12-01,114,Instituto Nacional de Asociativismo y Economía Social,152.62702473
+2018-01-01,116,Biblioteca Nacional,40.175330609999996
+2018-02-01,116,Biblioteca Nacional,43.46008787
+2018-03-01,116,Biblioteca Nacional,45.2458202
+2018-04-01,116,Biblioteca Nacional,58.908775389999995
+2018-05-01,116,Biblioteca Nacional,45.47095976
+2018-06-01,116,Biblioteca Nacional,68.39376393
+2018-07-01,116,Biblioteca Nacional,44.65944588
+2018-08-01,116,Biblioteca Nacional,57.19306099
+2018-09-01,116,Biblioteca Nacional,48.70867276
+2018-10-01,116,Biblioteca Nacional,54.34338511
+2018-11-01,116,Biblioteca Nacional,61.16494109
+2018-12-01,116,Biblioteca Nacional,93.97295817
+2018-01-01,117,Instituto Nacional del Teatro,5.768501430000001
+2018-02-01,117,Instituto Nacional del Teatro,19.798231859999998
+2018-03-01,117,Instituto Nacional del Teatro,28.46111721
+2018-04-01,117,Instituto Nacional del Teatro,17.93260352
+2018-05-01,117,Instituto Nacional del Teatro,22.7108865
+2018-06-01,117,Instituto Nacional del Teatro,25.49609609
+2018-07-01,117,Instituto Nacional del Teatro,23.32949476
+2018-08-01,117,Instituto Nacional del Teatro,33.918063
+2018-09-01,117,Instituto Nacional del Teatro,30.0563817
+2018-10-01,117,Instituto Nacional del Teatro,22.91842142
+2018-11-01,117,Instituto Nacional del Teatro,25.71996562
+2018-12-01,117,Instituto Nacional del Teatro,81.0717701
+2018-01-01,118,Instituto Nacional de Asuntos Indígenas,6.45881672
+2018-02-01,118,Instituto Nacional de Asuntos Indígenas,3.54585298
+2018-03-01,118,Instituto Nacional de Asuntos Indígenas,21.37643729
+2018-04-01,118,Instituto Nacional de Asuntos Indígenas,9.40881537
+2018-05-01,118,Instituto Nacional de Asuntos Indígenas,4.75011388
+2018-06-01,118,Instituto Nacional de Asuntos Indígenas,21.96002403
+2018-07-01,118,Instituto Nacional de Asuntos Indígenas,7.1200724
+2018-08-01,118,Instituto Nacional de Asuntos Indígenas,15.01399923
+2018-09-01,118,Instituto Nacional de Asuntos Indígenas,21.85268097
+2018-10-01,118,Instituto Nacional de Asuntos Indígenas,11.49233186
+2018-11-01,118,Instituto Nacional de Asuntos Indígenas,10.8428663
+2018-12-01,118,Instituto Nacional de Asuntos Indígenas,53.4458391
+2018-01-01,119,Instituto Nacional de Promoción Turística,15.15609124
+2018-02-01,119,Instituto Nacional de Promoción Turística,23.25055962
+2018-03-01,119,Instituto Nacional de Promoción Turística,65.88255517
+2018-04-01,119,Instituto Nacional de Promoción Turística,120.34265469
+2018-05-01,119,Instituto Nacional de Promoción Turística,83.68067823
+2018-06-01,119,Instituto Nacional de Promoción Turística,41.32637829
+2018-07-01,119,Instituto Nacional de Promoción Turística,39.654486899999995
+2018-08-01,119,Instituto Nacional de Promoción Turística,55.11220372
+2018-09-01,119,Instituto Nacional de Promoción Turística,73.05389451
+2018-10-01,119,Instituto Nacional de Promoción Turística,73.59462523
+2018-11-01,119,Instituto Nacional de Promoción Turística,50.98613343
+2018-12-01,119,Instituto Nacional de Promoción Turística,235.17440392
+2018-01-01,200,Registro Nacional de las Personas,153.6929723
+2018-02-01,200,Registro Nacional de las Personas,165.46312434
+2018-03-01,200,Registro Nacional de las Personas,314.19827148999997
+2018-04-01,200,Registro Nacional de las Personas,323.01823425000003
+2018-05-01,200,Registro Nacional de las Personas,288.21642017
+2018-06-01,200,Registro Nacional de las Personas,417.1478188
+2018-07-01,200,Registro Nacional de las Personas,243.19660661
+2018-08-01,200,Registro Nacional de las Personas,297.17506677
+2018-09-01,200,Registro Nacional de las Personas,511.80701339
+2018-10-01,200,Registro Nacional de las Personas,225.68151662
+2018-11-01,200,Registro Nacional de las Personas,450.78260538
+2018-12-01,200,Registro Nacional de las Personas,1163.51310544
+2018-01-01,201,Dirección Nacional de Migraciones,89.64275984
+2018-02-01,201,Dirección Nacional de Migraciones,224.01742347
+2018-03-01,201,Dirección Nacional de Migraciones,237.43038784
+2018-04-01,201,Dirección Nacional de Migraciones,181.58827037
+2018-05-01,201,Dirección Nacional de Migraciones,189.1035151
+2018-06-01,201,Dirección Nacional de Migraciones,339.73685024
+2018-07-01,201,Dirección Nacional de Migraciones,188.48956003
+2018-08-01,201,Dirección Nacional de Migraciones,209.97652531
+2018-09-01,201,Dirección Nacional de Migraciones,341.30805749
+2018-10-01,201,Dirección Nacional de Migraciones,337.37979486
+2018-11-01,201,Dirección Nacional de Migraciones,396.60267545
+2018-12-01,201,Dirección Nacional de Migraciones,992.5675458200001
+2018-01-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",12.48244771
+2018-02-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",3.90370144
+2018-03-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",28.86350343
+2018-04-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",7.915822009999999
+2018-05-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",14.315340110000001
+2018-06-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",29.02093227
+2018-07-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",9.027225080000001
+2018-08-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",17.5344668
+2018-09-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",24.42590992
+2018-10-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",2.92547891
+2018-11-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",28.21380201
+2018-12-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",40.11696665
+2018-01-01,203,Agencia Nacional de Seguridad Vial,30.6771332
+2018-02-01,203,Agencia Nacional de Seguridad Vial,45.0452012
+2018-03-01,203,Agencia Nacional de Seguridad Vial,61.831832150000004
+2018-04-01,203,Agencia Nacional de Seguridad Vial,21.51436433
+2018-05-01,203,Agencia Nacional de Seguridad Vial,45.2833278
+2018-06-01,203,Agencia Nacional de Seguridad Vial,74.03969902
+2018-07-01,203,Agencia Nacional de Seguridad Vial,26.56148376
+2018-08-01,203,Agencia Nacional de Seguridad Vial,71.15333876
+2018-09-01,203,Agencia Nacional de Seguridad Vial,72.04999494
+2018-10-01,203,Agencia Nacional de Seguridad Vial,58.62230006
+2018-11-01,203,Agencia Nacional de Seguridad Vial,137.39644945999999
+2018-12-01,203,Agencia Nacional de Seguridad Vial,167.67658327
+2018-01-01,205,Agencia de Administración de Bienes del Estado,24.56383649
+2018-02-01,205,Agencia de Administración de Bienes del Estado,34.54431974
+2018-03-01,205,Agencia de Administración de Bienes del Estado,39.17020572
+2018-04-01,205,Agencia de Administración de Bienes del Estado,35.70541196
+2018-05-01,205,Agencia de Administración de Bienes del Estado,37.67909722
+2018-06-01,205,Agencia de Administración de Bienes del Estado,50.53479918
+2018-07-01,205,Agencia de Administración de Bienes del Estado,20.21660218
+2018-08-01,205,Agencia de Administración de Bienes del Estado,60.05818077
+2018-09-01,205,Agencia de Administración de Bienes del Estado,50.43015545
+2018-10-01,205,Agencia de Administración de Bienes del Estado,39.981999710000004
+2018-11-01,205,Agencia de Administración de Bienes del Estado,36.510021699999996
+2018-12-01,205,Agencia de Administración de Bienes del Estado,71.13173118
+2018-01-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.50931296
+2018-02-01,206,Centro Internacional para la Promoción de los Derechos Humanos,4.91256765
+2018-03-01,206,Centro Internacional para la Promoción de los Derechos Humanos,3.63922791
+2018-04-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.0274016400000001
+2018-05-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.18356783
+2018-06-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.69439172
+2018-07-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.57744991
+2018-08-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.25850696
+2018-09-01,206,Centro Internacional para la Promoción de los Derechos Humanos,3.1619321
+2018-10-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.02947329
+2018-11-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.74283009
+2018-12-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.53008456
+2018-01-01,207,Ente Nacional de Comunicaciones,104.39401526
+2018-02-01,207,Ente Nacional de Comunicaciones,160.95632769
+2018-03-01,207,Ente Nacional de Comunicaciones,230.76523165
+2018-04-01,207,Ente Nacional de Comunicaciones,165.23395472
+2018-05-01,207,Ente Nacional de Comunicaciones,154.55686041
+2018-06-01,207,Ente Nacional de Comunicaciones,279.18154324
+2018-07-01,207,Ente Nacional de Comunicaciones,166.13457044
+2018-08-01,207,Ente Nacional de Comunicaciones,180.40237386
+2018-09-01,207,Ente Nacional de Comunicaciones,220.39808199
+2018-10-01,207,Ente Nacional de Comunicaciones,181.38812626
+2018-11-01,207,Ente Nacional de Comunicaciones,187.91667142
+2018-12-01,207,Ente Nacional de Comunicaciones,397.33310201
+2018-01-01,208,Agencia Nacional de Materiales Controlados,2.08465656
+2018-02-01,208,Agencia Nacional de Materiales Controlados,3.7767923899999998
+2018-03-01,208,Agencia Nacional de Materiales Controlados,16.58278891
+2018-04-01,208,Agencia Nacional de Materiales Controlados,4.21360709
+2018-05-01,208,Agencia Nacional de Materiales Controlados,4.8293662
+2018-06-01,208,Agencia Nacional de Materiales Controlados,12.914645010000001
+2018-07-01,208,Agencia Nacional de Materiales Controlados,3.5855356
+2018-08-01,208,Agencia Nacional de Materiales Controlados,4.30170222
+2018-09-01,208,Agencia Nacional de Materiales Controlados,5.16290866
+2018-10-01,208,Agencia Nacional de Materiales Controlados,14.51254878
+2018-11-01,208,Agencia Nacional de Materiales Controlados,8.159454929999999
+2018-12-01,208,Agencia Nacional de Materiales Controlados,13.501775469999998
+2018-01-01,209,Agencia de Acceso a la Información Pública,0.0
+2018-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1942.4514179399998
+2018-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",2072.63711439
+2018-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1990.2915392300001
+2018-04-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",1976.26659577
+2018-05-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",2020.68103542
+2018-06-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",2909.29352035
+2018-07-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",2054.37257014
+2018-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",2176.75247442
+2018-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",2379.52890723
+2018-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",2320.46192739
+2018-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",2251.96695644
+2018-12-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",3750.7831045899998
+2018-01-01,301,Secretaría General de la Presidencia de la Nación,125.25408408999999
+2018-02-01,301,Secretaría General de la Presidencia de la Nación,131.1799557
+2018-03-01,301,Secretaría General de la Presidencia de la Nación,215.09802621
+2018-04-01,301,Secretaría General de la Presidencia de la Nación,133.22318017
+2018-05-01,301,Secretaría General de la Presidencia de la Nación,283.46971381
+2018-06-01,301,Secretaría General de la Presidencia de la Nación,226.37631596
+2018-07-01,301,Secretaría General de la Presidencia de la Nación,164.08699059
+2018-08-01,301,Secretaría General de la Presidencia de la Nación,196.91168523000002
+2018-09-01,301,Secretaría General de la Presidencia de la Nación,441.19608064
+2018-10-01,301,Secretaría General de la Presidencia de la Nación,236.83838127
+2018-11-01,301,Secretaría General de la Presidencia de la Nación,245.03291488
+2018-12-01,301,Secretaría General de la Presidencia de la Nación,458.21868371
+2018-01-01,302,Agencia Federal de Inteligencia,160.43982447
+2018-02-01,302,Agencia Federal de Inteligencia,0.0010688
+2018-03-01,302,Agencia Federal de Inteligencia,320.92010733
+2018-04-01,302,Agencia Federal de Inteligencia,170.48418946
+2018-05-01,302,Agencia Federal de Inteligencia,0.19145072000000002
+2018-06-01,302,Agencia Federal de Inteligencia,390.84599316000003
+2018-07-01,302,Agencia Federal de Inteligencia,0.0
+2018-08-01,302,Agencia Federal de Inteligencia,165.47333232
+2018-09-01,302,Agencia Federal de Inteligencia,350.91244914000004
+2018-10-01,302,Agencia Federal de Inteligencia,0.02460682
+2018-11-01,302,Agencia Federal de Inteligencia,420.91244914000004
+2018-12-01,302,Agencia Federal de Inteligencia,196.21846972999998
+2018-01-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),35.127345410000004
+2018-02-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),113.18432733
+2018-03-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),107.28793028999999
+2018-04-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),57.23692162
+2018-05-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),99.35799926
+2018-06-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),126.55104709
+2018-07-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),62.112582259999996
+2018-08-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),113.37372626
+2018-09-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),99.69966594
+2018-10-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),95.59183048999999
+2018-11-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),140.28804653
+2018-12-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),181.43310738
+2018-01-01,305,Dirección General de Administración - Jefatura de Gabinete,98.96826993
+2018-02-01,305,Dirección General de Administración - Jefatura de Gabinete,208.05085682
+2018-03-01,305,Dirección General de Administración - Jefatura de Gabinete,214.28834322
+2018-04-01,305,Dirección General de Administración - Jefatura de Gabinete,203.52875982
+2018-05-01,305,Dirección General de Administración - Jefatura de Gabinete,285.67308689
+2018-06-01,305,Dirección General de Administración - Jefatura de Gabinete,347.65429881
+2018-07-01,305,Dirección General de Administración - Jefatura de Gabinete,264.53422849
+2018-08-01,305,Dirección General de Administración - Jefatura de Gabinete,469.5313238
+2018-09-01,305,Dirección General de Administración - Jefatura de Gabinete,559.8934466000001
+2018-10-01,305,Dirección General de Administración - Jefatura de Gabinete,754.09353875
+2018-11-01,305,Dirección General de Administración - Jefatura de Gabinete,794.0795228100001
+2018-12-01,305,Dirección General de Administración - Jefatura de Gabinete,715.89520313
+2018-01-01,307,Ministerio de Relaciones Exteriores y Culto,466.75935886999997
+2018-02-01,307,Ministerio de Relaciones Exteriores y Culto,640.13172483
+2018-03-01,307,Ministerio de Relaciones Exteriores y Culto,1011.85957819
+2018-04-01,307,Ministerio de Relaciones Exteriores y Culto,535.1043406
+2018-05-01,307,Ministerio de Relaciones Exteriores y Culto,794.21851446
+2018-06-01,307,Ministerio de Relaciones Exteriores y Culto,1303.28186027
+2018-07-01,307,Ministerio de Relaciones Exteriores y Culto,718.63974829
+2018-08-01,307,Ministerio de Relaciones Exteriores y Culto,821.73534076
+2018-09-01,307,Ministerio de Relaciones Exteriores y Culto,2592.89043915
+2018-10-01,307,Ministerio de Relaciones Exteriores y Culto,721.41230468
+2018-11-01,307,Ministerio de Relaciones Exteriores y Culto,848.91053475
+2018-12-01,307,Ministerio de Relaciones Exteriores y Culto,1793.2545269700001
+2018-01-01,310,Ministerio de Salud,1869.58847475
+2018-02-01,310,Ministerio de Salud,2641.3723234
+2018-03-01,310,Ministerio de Salud,2333.91227426
+2018-04-01,310,Ministerio de Salud,2166.95029379
+2018-05-01,310,Ministerio de Salud,1401.81754888
+2018-06-01,310,Ministerio de Salud,2297.74077466
+2018-07-01,310,Ministerio de Salud,2742.85691633
+2018-08-01,310,Ministerio de Salud,2175.71265337
+2018-09-01,310,Ministerio de Salud,3071.49894475
+2018-10-01,310,Ministerio de Salud,2928.63076571
+2018-11-01,310,Ministerio de Salud,2532.6201793200003
+2018-12-01,310,Ministerio de Salud,5202.28968914
+2018-01-01,311,Ministerio de Desarrollo Social,2723.8203802
+2018-02-01,311,Ministerio de Desarrollo Social,2852.28086059
+2018-03-01,311,Ministerio de Desarrollo Social,4025.89071703
+2018-04-01,311,Ministerio de Desarrollo Social,3542.00179174
+2018-05-01,311,Ministerio de Desarrollo Social,3682.97485827
+2018-06-01,311,Ministerio de Desarrollo Social,4365.30376399
+2018-07-01,311,Ministerio de Desarrollo Social,4004.4613063799998
+2018-08-01,311,Ministerio de Desarrollo Social,4719.54557476
+2018-09-01,311,Ministerio de Desarrollo Social,5030.23250503
+2018-10-01,311,Ministerio de Desarrollo Social,4786.28127292
+2018-11-01,311,Ministerio de Desarrollo Social,4553.41729526
+2018-12-01,311,Ministerio de Desarrollo Social,8852.45812476
+2018-01-01,312,Senado de la Nación,482.03686317
+2018-02-01,312,Senado de la Nación,520.640862
+2018-03-01,312,Senado de la Nación,581.50820876
+2018-04-01,312,Senado de la Nación,555.0507216
+2018-05-01,312,Senado de la Nación,563.10394347
+2018-06-01,312,Senado de la Nación,848.52137361
+2018-07-01,312,Senado de la Nación,566.99585516
+2018-08-01,312,Senado de la Nación,568.2295400099999
+2018-09-01,312,Senado de la Nación,669.5634765899999
+2018-10-01,312,Senado de la Nación,523.55210059
+2018-11-01,312,Senado de la Nación,786.60925386
+2018-12-01,312,Senado de la Nación,1005.0605772600001
+2018-01-01,313,Cámara de Diputados,423.52974161000003
+2018-02-01,313,Cámara de Diputados,471.61906673
+2018-03-01,313,Cámara de Diputados,591.37717918
+2018-04-01,313,Cámara de Diputados,487.8519722
+2018-05-01,313,Cámara de Diputados,552.66759181
+2018-06-01,313,Cámara de Diputados,805.71177958
+2018-07-01,313,Cámara de Diputados,503.63432552
+2018-08-01,313,Cámara de Diputados,571.06991986
+2018-09-01,313,Cámara de Diputados,629.09455309
+2018-10-01,313,Cámara de Diputados,556.42560726
+2018-11-01,313,Cámara de Diputados,599.26335955
+2018-12-01,313,Cámara de Diputados,1251.67746648
+2018-01-01,314,Biblioteca del Congreso,142.79593561000002
+2018-02-01,314,Biblioteca del Congreso,139.84099452
+2018-03-01,314,Biblioteca del Congreso,147.57503239
+2018-04-01,314,Biblioteca del Congreso,148.56481897999998
+2018-05-01,314,Biblioteca del Congreso,151.7856203
+2018-06-01,314,Biblioteca del Congreso,209.83241481
+2018-07-01,314,Biblioteca del Congreso,145.26792122999998
+2018-08-01,314,Biblioteca del Congreso,145.21117683
+2018-09-01,314,Biblioteca del Congreso,186.404526
+2018-10-01,314,Biblioteca del Congreso,160.63298577
+2018-11-01,314,Biblioteca del Congreso,173.51951738
+2018-12-01,314,Biblioteca del Congreso,245.77593869999998
+2018-01-01,315,Imprenta del Congreso,34.76371916
+2018-02-01,315,Imprenta del Congreso,36.04950359
+2018-03-01,315,Imprenta del Congreso,38.2808814
+2018-04-01,315,Imprenta del Congreso,39.397579
+2018-05-01,315,Imprenta del Congreso,42.54161225
+2018-06-01,315,Imprenta del Congreso,62.58973913
+2018-07-01,315,Imprenta del Congreso,40.68698012
+2018-08-01,315,Imprenta del Congreso,40.25174103
+2018-09-01,315,Imprenta del Congreso,56.26235482
+2018-10-01,315,Imprenta del Congreso,47.37481773
+2018-11-01,315,Imprenta del Congreso,44.23782347
+2018-12-01,315,Imprenta del Congreso,128.96814896
+2018-01-01,316,Ayuda Social Personal del Congreso de la Nación,82.33688708
+2018-02-01,316,Ayuda Social Personal del Congreso de la Nación,69.24456185
+2018-03-01,316,Ayuda Social Personal del Congreso de la Nación,85.02873115
+2018-04-01,316,Ayuda Social Personal del Congreso de la Nación,99.63164965
+2018-05-01,316,Ayuda Social Personal del Congreso de la Nación,86.52963717
+2018-06-01,316,Ayuda Social Personal del Congreso de la Nación,80.84340553
+2018-07-01,316,Ayuda Social Personal del Congreso de la Nación,95.77200641
+2018-08-01,316,Ayuda Social Personal del Congreso de la Nación,86.69902515
+2018-09-01,316,Ayuda Social Personal del Congreso de la Nación,74.6990088
+2018-10-01,316,Ayuda Social Personal del Congreso de la Nación,97.66843512
+2018-11-01,316,Ayuda Social Personal del Congreso de la Nación,149.03420063
+2018-12-01,316,Ayuda Social Personal del Congreso de la Nación,110.05138934
+2018-01-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),59.39179962
+2018-02-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),256.95086815
+2018-03-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),169.95722998
+2018-04-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),327.46852631999997
+2018-05-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),649.07766856
+2018-06-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),485.26590128
+2018-07-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),78.52826400000001
+2018-08-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),369.23401614
+2018-09-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),999.82817992
+2018-10-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),79.30623132
+2018-11-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),245.39693581
+2018-12-01,317,Ministerio de Ambiente y Desarrollo Sustentable (Gastos Propios),1425.93396928
+2018-01-01,319,Defensoría del Pueblo,32.95822149
+2018-02-01,319,Defensoría del Pueblo,33.45989691
+2018-03-01,319,Defensoría del Pueblo,36.49496998
+2018-04-01,319,Defensoría del Pueblo,36.22061203
+2018-05-01,319,Defensoría del Pueblo,36.472409989999996
+2018-06-01,319,Defensoría del Pueblo,53.54662852
+2018-07-01,319,Defensoría del Pueblo,37.54208406
+2018-08-01,319,Defensoría del Pueblo,37.24048767
+2018-09-01,319,Defensoría del Pueblo,44.0554744
+2018-10-01,319,Defensoría del Pueblo,43.11578736
+2018-11-01,319,Defensoría del Pueblo,38.99332453
+2018-12-01,319,Defensoría del Pueblo,74.72565277
+2018-01-01,320,Consejo de la Magistratura,2051.83471587
+2018-02-01,320,Consejo de la Magistratura,2123.66771999
+2018-03-01,320,Consejo de la Magistratura,2435.27112896
+2018-04-01,320,Consejo de la Magistratura,2424.33123716
+2018-05-01,320,Consejo de la Magistratura,2435.23661667
+2018-06-01,320,Consejo de la Magistratura,3564.11895732
+2018-07-01,320,Consejo de la Magistratura,2455.79736331
+2018-08-01,320,Consejo de la Magistratura,2685.85571777
+2018-09-01,320,Consejo de la Magistratura,2695.90246846
+2018-10-01,320,Consejo de la Magistratura,2685.41916247
+2018-11-01,320,Consejo de la Magistratura,2663.69129615
+2018-12-01,320,Consejo de la Magistratura,4900.70236351
+2018-01-01,321,Instituto Nacional de Estadística y Censos,68.96033685
+2018-02-01,321,Instituto Nacional de Estadística y Censos,100.22312449
+2018-03-01,321,Instituto Nacional de Estadística y Censos,87.00546498
+2018-04-01,321,Instituto Nacional de Estadística y Censos,69.42579958
+2018-05-01,321,Instituto Nacional de Estadística y Censos,121.08363792
+2018-06-01,321,Instituto Nacional de Estadística y Censos,140.93706413
+2018-07-01,321,Instituto Nacional de Estadística y Censos,415.16822649
+2018-08-01,321,Instituto Nacional de Estadística y Censos,123.37212927
+2018-09-01,321,Instituto Nacional de Estadística y Censos,126.42429454
+2018-10-01,321,Instituto Nacional de Estadística y Censos,104.02553323
+2018-11-01,321,Instituto Nacional de Estadística y Censos,109.99635989
+2018-12-01,321,Instituto Nacional de Estadística y Censos,187.00855978
+2018-01-01,322,Ministerio de Turismo,53.27231043
+2018-02-01,322,Ministerio de Turismo,76.2511225
+2018-03-01,322,Ministerio de Turismo,107.37595344
+2018-04-01,322,Ministerio de Turismo,81.32892115
+2018-05-01,322,Ministerio de Turismo,110.39406787
+2018-06-01,322,Ministerio de Turismo,112.44856626
+2018-07-01,322,Ministerio de Turismo,104.65334722
+2018-08-01,322,Ministerio de Turismo,119.01118251
+2018-09-01,322,Ministerio de Turismo,92.06275673
+2018-10-01,322,Ministerio de Turismo,108.28220609
+2018-11-01,322,Ministerio de Turismo,152.94988976
+2018-12-01,322,Ministerio de Turismo,217.78571908
+2018-01-01,323,Comisión Nacional de Comercio Exterior,4.68246959
+2018-02-01,323,Comisión Nacional de Comercio Exterior,5.0322873
+2018-03-01,323,Comisión Nacional de Comercio Exterior,3.5909665200000003
+2018-04-01,323,Comisión Nacional de Comercio Exterior,4.207689
+2018-05-01,323,Comisión Nacional de Comercio Exterior,5.59110078
+2018-06-01,323,Comisión Nacional de Comercio Exterior,6.5870753
+2018-07-01,323,Comisión Nacional de Comercio Exterior,5.01540151
+2018-08-01,323,Comisión Nacional de Comercio Exterior,4.49681416
+2018-09-01,323,Comisión Nacional de Comercio Exterior,4.25938393
+2018-10-01,323,Comisión Nacional de Comercio Exterior,8.80672306
+2018-11-01,323,Comisión Nacional de Comercio Exterior,4.6397809
+2018-12-01,323,Comisión Nacional de Comercio Exterior,8.40717605
+2018-01-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",2487.30448366
+2018-02-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",4915.9192017
+2018-03-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",4198.87333106
+2018-04-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",4304.800223
+2018-05-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",7269.1910655
+2018-06-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",4230.85665305
+2018-07-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",3242.06405415
+2018-08-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",3573.37801779
+2018-09-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",4137.39770032
+2018-10-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",3366.42099412
+2018-11-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",5359.87557342
+2018-12-01,325,"Ministerio del Interior, Obras Públicas y Vivienda (Gastos Propios)",7479.97836922
+2018-01-01,326,Policía Federal Argentina,1654.39996968
+2018-02-01,326,Policía Federal Argentina,1712.53353885
+2018-03-01,326,Policía Federal Argentina,1837.92980238
+2018-04-01,326,Policía Federal Argentina,2030.54513862
+2018-05-01,326,Policía Federal Argentina,1940.44463403
+2018-06-01,326,Policía Federal Argentina,2694.84744872
+2018-07-01,326,Policía Federal Argentina,1961.70560357
+2018-08-01,326,Policía Federal Argentina,2109.93486091
+2018-09-01,326,Policía Federal Argentina,2255.79549137
+2018-10-01,326,Policía Federal Argentina,2274.91387213
+2018-11-01,326,Policía Federal Argentina,2293.34898233
+2018-12-01,326,Policía Federal Argentina,3666.17774583
+2018-01-01,327,Ministerio de Transporte (Gastos Propios),459.81357721
+2018-02-01,327,Ministerio de Transporte (Gastos Propios),4699.53712498
+2018-03-01,327,Ministerio de Transporte (Gastos Propios),5296.27087
+2018-04-01,327,Ministerio de Transporte (Gastos Propios),5977.25726133
+2018-05-01,327,Ministerio de Transporte (Gastos Propios),4894.72873721
+2018-06-01,327,Ministerio de Transporte (Gastos Propios),7192.40135734
+2018-07-01,327,Ministerio de Transporte (Gastos Propios),5287.16127577
+2018-08-01,327,Ministerio de Transporte (Gastos Propios),5462.0571575
+2018-09-01,327,Ministerio de Transporte (Gastos Propios),6601.82653237
+2018-10-01,327,Ministerio de Transporte (Gastos Propios),5495.90419182
+2018-11-01,327,Ministerio de Transporte (Gastos Propios),7192.41939999
+2018-12-01,327,Ministerio de Transporte (Gastos Propios),14962.87410425
+2018-01-01,328,Ministerio de Energía (Gastos Propios),94.77683959000001
+2018-02-01,328,Ministerio de Energía (Gastos Propios),1109.75295958
+2018-03-01,328,Ministerio de Energía (Gastos Propios),2829.86048942
+2018-04-01,328,Ministerio de Energía (Gastos Propios),8262.37768127
+2018-05-01,328,Ministerio de Energía (Gastos Propios),12983.37494873
+2018-06-01,328,Ministerio de Energía (Gastos Propios),17838.29842163
+2018-07-01,328,Ministerio de Energía (Gastos Propios),24019.1775481
+2018-08-01,328,Ministerio de Energía (Gastos Propios),6140.17801462
+2018-09-01,328,Ministerio de Energía (Gastos Propios),13338.87467575
+2018-10-01,328,Ministerio de Energía (Gastos Propios),11132.76204721
+2018-11-01,328,Ministerio de Energía (Gastos Propios),31040.161116199997
+2018-12-01,328,Ministerio de Energía (Gastos Propios),10309.46714506
+2018-01-01,330,Ministerio de Educación,9024.34446361
+2018-02-01,330,Ministerio de Educación,12248.91615329
+2018-03-01,330,Ministerio de Educación,13427.36031234
+2018-04-01,330,Ministerio de Educación,12364.7863862
+2018-05-01,330,Ministerio de Educación,11234.78274479
+2018-06-01,330,Ministerio de Educación,19006.51847466
+2018-07-01,330,Ministerio de Educación,10851.20136584
+2018-08-01,330,Ministerio de Educación,12346.57238917
+2018-09-01,330,Ministerio de Educación,15948.67418612
+2018-10-01,330,Ministerio de Educación,12507.71337974
+2018-11-01,330,Ministerio de Educación,15185.59088671
+2018-12-01,330,Ministerio de Educación,19575.01297711
+2018-01-01,331,Servicio Penitenciario Federal,1170.01795032
+2018-02-01,331,Servicio Penitenciario Federal,1198.92770658
+2018-03-01,331,Servicio Penitenciario Federal,1099.91762756
+2018-04-01,331,Servicio Penitenciario Federal,810.9150162
+2018-05-01,331,Servicio Penitenciario Federal,1798.70220416
+2018-06-01,331,Servicio Penitenciario Federal,1836.74052819
+2018-07-01,331,Servicio Penitenciario Federal,1261.5713883199999
+2018-08-01,331,Servicio Penitenciario Federal,1378.11309801
+2018-09-01,331,Servicio Penitenciario Federal,1206.91969171
+2018-10-01,331,Servicio Penitenciario Federal,1638.10183473
+2018-11-01,331,Servicio Penitenciario Federal,1287.3741804
+2018-12-01,331,Servicio Penitenciario Federal,2698.64894969
+2018-01-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),78.97718873
+2018-02-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),202.35702604
+2018-03-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),215.37259924
+2018-04-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),131.13721345
+2018-05-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),139.68085681
+2018-06-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),240.47576164
+2018-07-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),147.15155882
+2018-08-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),182.37901123
+2018-09-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),641.74543688
+2018-10-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),286.2543266
+2018-11-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),195.37082083
+2018-12-01,332,Ministerio de Justicia y Derechos Humanos (Gastos Propios),491.42551092
+2018-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,86.51105772999999
+2018-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,16.20867695
+2018-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,81.62218197
+2018-04-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,168.84034316
+2018-05-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,16.07533339
+2018-06-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,187.72805146000002
+2018-07-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,16.00823358
+2018-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,84.72331003
+2018-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,85.91263887
+2018-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,93.50266128
+2018-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,96.48153778999999
+2018-12-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,147.34258464
+2018-01-01,335,Corte Suprema de Justicia de la Nación,0.0
+2018-02-01,335,Corte Suprema de Justicia de la Nación,635.50062675
+2018-03-01,335,Corte Suprema de Justicia de la Nación,338.63913719
+2018-04-01,335,Corte Suprema de Justicia de la Nación,364.42951818
+2018-05-01,335,Corte Suprema de Justicia de la Nación,373.76372836999997
+2018-06-01,335,Corte Suprema de Justicia de la Nación,555.11313225
+2018-07-01,335,Corte Suprema de Justicia de la Nación,346.88941897
+2018-08-01,335,Corte Suprema de Justicia de la Nación,416.80981501
+2018-09-01,335,Corte Suprema de Justicia de la Nación,407.50196065
+2018-10-01,335,Corte Suprema de Justicia de la Nación,402.74196024
+2018-11-01,335,Corte Suprema de Justicia de la Nación,410.62542411
+2018-12-01,335,Corte Suprema de Justicia de la Nación,715.41156159
+2018-01-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",183.07749957000001
+2018-02-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",267.50127748
+2018-03-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",531.43922109
+2018-04-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",246.49746029
+2018-05-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",223.51649159
+2018-06-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",342.28603697
+2018-07-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",206.39482288
+2018-08-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",340.98875762
+2018-09-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",431.40100853
+2018-10-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",199.56380643
+2018-11-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",226.33096965
+2018-12-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",322.95388075
+2018-01-01,337,Ministerio de Cultura,119.56765241000001
+2018-02-01,337,Ministerio de Cultura,196.14243476000001
+2018-03-01,337,Ministerio de Cultura,180.58013814
+2018-04-01,337,Ministerio de Cultura,195.31641334
+2018-05-01,337,Ministerio de Cultura,210.27405187
+2018-06-01,337,Ministerio de Cultura,318.71004738
+2018-07-01,337,Ministerio de Cultura,163.47438713
+2018-08-01,337,Ministerio de Cultura,197.74521539
+2018-09-01,337,Ministerio de Cultura,278.00940328
+2018-10-01,337,Ministerio de Cultura,191.26687078
+2018-11-01,337,Ministerio de Cultura,184.4046193
+2018-12-01,337,Ministerio de Cultura,352.87306843
+2018-01-01,338,Secretaría Legal y Técnica,22.44023892
+2018-02-01,338,Secretaría Legal y Técnica,25.89723889
+2018-03-01,338,Secretaría Legal y Técnica,23.30280431
+2018-04-01,338,Secretaría Legal y Técnica,21.51739239
+2018-05-01,338,Secretaría Legal y Técnica,21.87277262
+2018-06-01,338,Secretaría Legal y Técnica,35.66717342
+2018-07-01,338,Secretaría Legal y Técnica,22.71626788
+2018-08-01,338,Secretaría Legal y Técnica,27.108139910000002
+2018-09-01,338,Secretaría Legal y Técnica,27.30131651
+2018-10-01,338,Secretaría Legal y Técnica,23.87890179
+2018-11-01,338,Secretaría Legal y Técnica,31.46147179
+2018-12-01,338,Secretaría Legal y Técnica,56.02057628
+2018-01-01,340,Procuración Penitenciaria,20.50041791
+2018-02-01,340,Procuración Penitenciaria,20.45143522
+2018-03-01,340,Procuración Penitenciaria,24.70734699
+2018-04-01,340,Procuración Penitenciaria,32.67700184
+2018-05-01,340,Procuración Penitenciaria,27.81194377
+2018-06-01,340,Procuración Penitenciaria,38.72551724
+2018-07-01,340,Procuración Penitenciaria,27.239810340000002
+2018-08-01,340,Procuración Penitenciaria,29.1484741
+2018-09-01,340,Procuración Penitenciaria,29.73562885
+2018-10-01,340,Procuración Penitenciaria,30.19610624
+2018-11-01,340,Procuración Penitenciaria,29.94462813
+2018-12-01,340,Procuración Penitenciaria,60.23161397
+2018-01-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",96.21307256
+2018-02-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",169.38295775
+2018-03-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",174.74091565
+2018-04-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",189.82401218
+2018-05-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",223.54182898
+2018-06-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",275.88551809
+2018-07-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",214.23084297
+2018-08-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",268.7590069
+2018-09-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",242.48807266
+2018-10-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",205.20856913
+2018-11-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",233.04001229
+2018-12-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",586.96575738
+2018-01-01,343,Ministerio de Seguridad,61.54841283
+2018-02-01,343,Ministerio de Seguridad,92.15984369
+2018-03-01,343,Ministerio de Seguridad,346.79538965
+2018-04-01,343,Ministerio de Seguridad,193.94344521
+2018-05-01,343,Ministerio de Seguridad,222.30308388999998
+2018-06-01,343,Ministerio de Seguridad,977.8948620799999
+2018-07-01,343,Ministerio de Seguridad,139.17213549000002
+2018-08-01,343,Ministerio de Seguridad,560.62252659
+2018-09-01,343,Ministerio de Seguridad,750.98252483
+2018-10-01,343,Ministerio de Seguridad,305.55507536000005
+2018-11-01,343,Ministerio de Seguridad,316.59377773
+2018-12-01,343,Ministerio de Seguridad,1973.76983371
+2018-01-01,345,Consejo Nacional de Coordinación de Políticas Sociales,11.801639699999999
+2018-02-01,345,Consejo Nacional de Coordinación de Políticas Sociales,12.16655576
+2018-03-01,345,Consejo Nacional de Coordinación de Políticas Sociales,16.56702002
+2018-04-01,345,Consejo Nacional de Coordinación de Políticas Sociales,10.884551700000001
+2018-05-01,345,Consejo Nacional de Coordinación de Políticas Sociales,20.01131082
+2018-06-01,345,Consejo Nacional de Coordinación de Políticas Sociales,21.36183337
+2018-07-01,345,Consejo Nacional de Coordinación de Políticas Sociales,8.59430561
+2018-08-01,345,Consejo Nacional de Coordinación de Políticas Sociales,18.05371892
+2018-09-01,345,Consejo Nacional de Coordinación de Políticas Sociales,19.43238761
+2018-10-01,345,Consejo Nacional de Coordinación de Políticas Sociales,16.32148019
+2018-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,18.9270378
+2018-12-01,345,Consejo Nacional de Coordinación de Políticas Sociales,38.600996269999996
+2018-01-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,5.09027896
+2018-02-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,7.76502492
+2018-03-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,9.85181328
+2018-04-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,8.51444127
+2018-05-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,9.242088110000001
+2018-06-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,12.39611592
+2018-07-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,10.31603256
+2018-08-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,9.779063670000001
+2018-09-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,13.826689380000001
+2018-10-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,9.87098488
+2018-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,11.62706492
+2018-12-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,20.49355471
+2018-01-01,347,Sistema Federal de Medios y Contenidos Públicos,78.72627139
+2018-02-01,347,Sistema Federal de Medios y Contenidos Públicos,62.15217217
+2018-03-01,347,Sistema Federal de Medios y Contenidos Públicos,172.16429687
+2018-04-01,347,Sistema Federal de Medios y Contenidos Públicos,90.65693215
+2018-05-01,347,Sistema Federal de Medios y Contenidos Públicos,129.07442865
+2018-06-01,347,Sistema Federal de Medios y Contenidos Públicos,169.93735023
+2018-07-01,347,Sistema Federal de Medios y Contenidos Públicos,33.46406275
+2018-08-01,347,Sistema Federal de Medios y Contenidos Públicos,165.84039965
+2018-09-01,347,Sistema Federal de Medios y Contenidos Públicos,271.33689294
+2018-10-01,347,Sistema Federal de Medios y Contenidos Públicos,64.42685038
+2018-11-01,347,Sistema Federal de Medios y Contenidos Públicos,77.56521067
+2018-12-01,347,Sistema Federal de Medios y Contenidos Públicos,268.98828901
+2018-01-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",157.49274292
+2018-02-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",579.87370178
+2018-03-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",832.06771951
+2018-04-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",343.43423987
+2018-05-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",470.16728657
+2018-06-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",889.6724567699999
+2018-07-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",321.45230579
+2018-08-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",548.67071706
+2018-09-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",748.68431371
+2018-10-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",498.59652028
+2018-11-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",637.51378508
+2018-12-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",1243.02723098
+2018-01-01,355,Servicio de la Deuda Pública,22443.64664079
+2018-02-01,355,Servicio de la Deuda Pública,9635.09571057
+2018-03-01,355,Servicio de la Deuda Pública,39563.486900899996
+2018-04-01,355,Servicio de la Deuda Pública,54291.61880276
+2018-05-01,355,Servicio de la Deuda Pública,19991.35211911
+2018-06-01,355,Servicio de la Deuda Pública,87691.84060057001
+2018-07-01,355,Servicio de la Deuda Pública,22629.49904405
+2018-08-01,355,Servicio de la Deuda Pública,23791.97501996
+2018-09-01,355,Servicio de la Deuda Pública,40470.74871241
+2018-10-01,355,Servicio de la Deuda Pública,49784.89273033
+2018-11-01,355,Servicio de la Deuda Pública,52640.42179877
+2018-12-01,355,Servicio de la Deuda Pública,130578.98991545
+2018-01-01,356,Obligaciones a Cargo del Tesoro,4906.25420252
+2018-02-01,356,Obligaciones a Cargo del Tesoro,8990.8360534
+2018-03-01,356,Obligaciones a Cargo del Tesoro,6143.33185643
+2018-04-01,356,Obligaciones a Cargo del Tesoro,7385.04214659
+2018-05-01,356,Obligaciones a Cargo del Tesoro,16804.13328307
+2018-06-01,356,Obligaciones a Cargo del Tesoro,12333.30160234
+2018-07-01,356,Obligaciones a Cargo del Tesoro,26236.25938114
+2018-08-01,356,Obligaciones a Cargo del Tesoro,16366.27990905
+2018-09-01,356,Obligaciones a Cargo del Tesoro,24906.84370398
+2018-10-01,356,Obligaciones a Cargo del Tesoro,9519.72038219
+2018-11-01,356,Obligaciones a Cargo del Tesoro,9783.0893902
+2018-12-01,356,Obligaciones a Cargo del Tesoro,31047.01973305
+2018-01-01,357,Ministerio de Hacienda,136.23137445
+2018-02-01,357,Ministerio de Hacienda,178.02854826
+2018-03-01,357,Ministerio de Hacienda,217.27837773
+2018-04-01,357,Ministerio de Hacienda,195.93205146
+2018-05-01,357,Ministerio de Hacienda,172.1887275
+2018-06-01,357,Ministerio de Hacienda,322.08707393
+2018-07-01,357,Ministerio de Hacienda,231.00118817999999
+2018-08-01,357,Ministerio de Hacienda,194.48980724
+2018-09-01,357,Ministerio de Hacienda,230.87171524
+2018-10-01,357,Ministerio de Hacienda,204.52972882
+2018-11-01,357,Ministerio de Hacienda,213.27646873999998
+2018-12-01,357,Ministerio de Hacienda,432.37541427
+2018-01-01,360,Procuración General de la Nación,537.56604178
+2018-02-01,360,Procuración General de la Nación,540.1198554
+2018-03-01,360,Procuración General de la Nación,636.16230503
+2018-04-01,360,Procuración General de la Nación,635.74665715
+2018-05-01,360,Procuración General de la Nación,637.30333666
+2018-06-01,360,Procuración General de la Nación,950.29131111
+2018-07-01,360,Procuración General de la Nación,628.98362948
+2018-08-01,360,Procuración General de la Nación,697.0732633299999
+2018-09-01,360,Procuración General de la Nación,706.93244137
+2018-10-01,360,Procuración General de la Nación,704.36970777
+2018-11-01,360,Procuración General de la Nación,698.42884955
+2018-12-01,360,Procuración General de la Nación,1341.89980401
+2018-01-01,361,Defensoría General de la Nación,298.23269952
+2018-02-01,361,Defensoría General de la Nación,306.56457826
+2018-03-01,361,Defensoría General de la Nación,357.90465476
+2018-04-01,361,Defensoría General de la Nación,359.2008655
+2018-05-01,361,Defensoría General de la Nación,352.53492871
+2018-06-01,361,Defensoría General de la Nación,529.59501625
+2018-07-01,361,Defensoría General de la Nación,351.80258076
+2018-08-01,361,Defensoría General de la Nación,390.56571571
+2018-09-01,361,Defensoría General de la Nación,394.67196233
+2018-10-01,361,Defensoría General de la Nación,387.74316299
+2018-11-01,361,Defensoría General de la Nación,389.04788311
+2018-12-01,361,Defensoría General de la Nación,714.11633749
+2018-01-01,362,Ministerio de Producción,165.61546762
+2018-02-01,362,Ministerio de Producción,255.60819394
+2018-03-01,362,Ministerio de Producción,434.49663211
+2018-04-01,362,Ministerio de Producción,198.23306737000001
+2018-05-01,362,Ministerio de Producción,381.14031449
+2018-06-01,362,Ministerio de Producción,554.61536452
+2018-07-01,362,Ministerio de Producción,224.75870921
+2018-08-01,362,Ministerio de Producción,432.36196558
+2018-09-01,362,Ministerio de Producción,517.45212064
+2018-10-01,362,Ministerio de Producción,262.84090407
+2018-11-01,362,Ministerio de Producción,407.89836465999997
+2018-12-01,362,Ministerio de Producción,2037.78827478
+2018-01-01,363,Ministerio de Agroindustria,177.11006231
+2018-02-01,363,Ministerio de Agroindustria,411.80691777
+2018-03-01,363,Ministerio de Agroindustria,704.86296579
+2018-04-01,363,Ministerio de Agroindustria,264.7051879
+2018-05-01,363,Ministerio de Agroindustria,350.36037396
+2018-06-01,363,Ministerio de Agroindustria,542.16011861
+2018-07-01,363,Ministerio de Agroindustria,241.03676605
+2018-08-01,363,Ministerio de Agroindustria,399.29762484
+2018-09-01,363,Ministerio de Agroindustria,578.81642466
+2018-10-01,363,Ministerio de Agroindustria,248.28612375
+2018-11-01,363,Ministerio de Agroindustria,444.72131496
+2018-12-01,363,Ministerio de Agroindustria,1241.27097242
+2018-01-01,366,Ministerio de Modernización,114.6426625
+2018-02-01,366,Ministerio de Modernización,157.46051965
+2018-03-01,366,Ministerio de Modernización,341.14182002
+2018-04-01,366,Ministerio de Modernización,86.11649698
+2018-05-01,366,Ministerio de Modernización,321.24155523
+2018-06-01,366,Ministerio de Modernización,319.81642234000003
+2018-07-01,366,Ministerio de Modernización,234.00037830999997
+2018-08-01,366,Ministerio de Modernización,206.85292951
+2018-09-01,366,Ministerio de Modernización,221.12536071
+2018-10-01,366,Ministerio de Modernización,168.93476912
+2018-11-01,366,Ministerio de Modernización,133.49279931
+2018-12-01,366,Ministerio de Modernización,328.68667258
+2018-01-01,367,Ministerio de Finanzas,14.784581280000001
+2018-02-01,367,Ministerio de Finanzas,41.80940785
+2018-03-01,367,Ministerio de Finanzas,48.62018567
+2018-04-01,367,Ministerio de Finanzas,16.31610584
+2018-05-01,367,Ministerio de Finanzas,48.12845026
+2018-06-01,367,Ministerio de Finanzas,33.58311526
+2018-07-01,367,Ministerio de Finanzas,16.37614724
+2018-08-01,367,Ministerio de Finanzas,18.20085987
+2018-09-01,367,Ministerio de Finanzas,33.62982539
+2018-10-01,367,Ministerio de Finanzas,18.5979273
+2018-11-01,367,Ministerio de Finanzas,17.55180713
+2018-12-01,367,Ministerio de Finanzas,122.17613426999999
+2018-01-01,370,Ministerio de Defensa (Gastos Propios),49.94721138
+2018-02-01,370,Ministerio de Defensa (Gastos Propios),75.33772661
+2018-03-01,370,Ministerio de Defensa (Gastos Propios),150.22226331
+2018-04-01,370,Ministerio de Defensa (Gastos Propios),91.21943331
+2018-05-01,370,Ministerio de Defensa (Gastos Propios),57.63487716
+2018-06-01,370,Ministerio de Defensa (Gastos Propios),147.06763464
+2018-07-01,370,Ministerio de Defensa (Gastos Propios),54.51593788
+2018-08-01,370,Ministerio de Defensa (Gastos Propios),91.34013045
+2018-09-01,370,Ministerio de Defensa (Gastos Propios),100.03770231
+2018-10-01,370,Ministerio de Defensa (Gastos Propios),169.87277954
+2018-11-01,370,Ministerio de Defensa (Gastos Propios),77.36346575
+2018-12-01,370,Ministerio de Defensa (Gastos Propios),272.82826384000003
+2018-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,30.564033730000002
+2018-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,53.14371091
+2018-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,72.10659343
+2018-04-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,16.50851231
+2018-05-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,64.14659023
+2018-06-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,60.861035539999996
+2018-07-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,51.8666769
+2018-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,46.15047886
+2018-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,85.00721985999999
+2018-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,44.11119492
+2018-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,61.564704309999996
+2018-12-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,661.14810654
+2018-01-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,25.77587844
+2018-02-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,30.01732363
+2018-03-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,28.741999110000002
+2018-04-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,24.59273465
+2018-05-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,27.50159527
+2018-06-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,40.407422790000005
+2018-07-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,34.19490382
+2018-08-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,29.8003519
+2018-09-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,39.32174734
+2018-10-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,36.49038323
+2018-11-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,37.3045282
+2018-12-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,62.77521584
+2018-01-01,374,Estado Mayor General del Ejercito,2436.24321449
+2018-02-01,374,Estado Mayor General del Ejercito,2345.7992675699998
+2018-03-01,374,Estado Mayor General del Ejercito,2734.22001184
+2018-04-01,374,Estado Mayor General del Ejercito,2333.87495509
+2018-05-01,374,Estado Mayor General del Ejercito,2529.54667458
+2018-06-01,374,Estado Mayor General del Ejercito,3558.74798658
+2018-07-01,374,Estado Mayor General del Ejercito,2627.96791485
+2018-08-01,374,Estado Mayor General del Ejercito,2855.23956309
+2018-09-01,374,Estado Mayor General del Ejercito,3398.21903555
+2018-10-01,374,Estado Mayor General del Ejercito,2956.29465843
+2018-11-01,374,Estado Mayor General del Ejercito,3568.14383866
+2018-12-01,374,Estado Mayor General del Ejercito,6226.20934057
+2018-01-01,375,Gendarmería Nacional,2512.82673643
+2018-02-01,375,Gendarmería Nacional,2705.77114834
+2018-03-01,375,Gendarmería Nacional,2716.7931196
+2018-04-01,375,Gendarmería Nacional,2772.32884854
+2018-05-01,375,Gendarmería Nacional,2818.76693236
+2018-06-01,375,Gendarmería Nacional,4001.40039708
+2018-07-01,375,Gendarmería Nacional,2959.68089321
+2018-08-01,375,Gendarmería Nacional,3256.76033629
+2018-09-01,375,Gendarmería Nacional,3392.92022412
+2018-10-01,375,Gendarmería Nacional,3357.45186956
+2018-11-01,375,Gendarmería Nacional,3701.55858591
+2018-12-01,375,Gendarmería Nacional,5980.2183432
+2018-01-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.0
+2018-03-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1.88891941
+2018-04-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.12487359
+2018-05-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.48811157
+2018-06-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1.5701711399999998
+2018-07-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.47785186
+2018-08-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1.05304823
+2018-09-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2.02636778
+2018-10-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1.30087009
+2018-11-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.21916862
+2018-12-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1.14540671
+2018-01-01,379,Estado Mayor General de la Armada,1479.70328683
+2018-02-01,379,Estado Mayor General de la Armada,1600.95541165
+2018-03-01,379,Estado Mayor General de la Armada,1357.85074513
+2018-04-01,379,Estado Mayor General de la Armada,1552.0624127
+2018-05-01,379,Estado Mayor General de la Armada,1612.4829236
+2018-06-01,379,Estado Mayor General de la Armada,2000.22304684
+2018-07-01,379,Estado Mayor General de la Armada,1873.2473491399999
+2018-08-01,379,Estado Mayor General de la Armada,1776.03855211
+2018-09-01,379,Estado Mayor General de la Armada,1731.69414155
+2018-10-01,379,Estado Mayor General de la Armada,1899.10633684
+2018-11-01,379,Estado Mayor General de la Armada,1786.63413758
+2018-12-01,379,Estado Mayor General de la Armada,3264.3336086
+2018-01-01,380,Prefectura Naval Argentina,1251.3297911500001
+2018-02-01,380,Prefectura Naval Argentina,1842.20661806
+2018-03-01,380,Prefectura Naval Argentina,1881.61808428
+2018-04-01,380,Prefectura Naval Argentina,1522.77502351
+2018-05-01,380,Prefectura Naval Argentina,1772.43843517
+2018-06-01,380,Prefectura Naval Argentina,2698.02271552
+2018-07-01,380,Prefectura Naval Argentina,1625.1361403
+2018-08-01,380,Prefectura Naval Argentina,1518.9821289400002
+2018-09-01,380,Prefectura Naval Argentina,2738.40872462
+2018-10-01,380,Prefectura Naval Argentina,1801.79825895
+2018-11-01,380,Prefectura Naval Argentina,2283.5640131
+2018-12-01,380,Prefectura Naval Argentina,3824.41642247
+2018-01-01,381,Estado Mayor General de la Fuerza Aérea,979.00517892
+2018-02-01,381,Estado Mayor General de la Fuerza Aérea,987.59522348
+2018-03-01,381,Estado Mayor General de la Fuerza Aérea,1612.02034191
+2018-04-01,381,Estado Mayor General de la Fuerza Aérea,955.91599177
+2018-05-01,381,Estado Mayor General de la Fuerza Aérea,1084.14604625
+2018-06-01,381,Estado Mayor General de la Fuerza Aérea,2111.56714552
+2018-07-01,381,Estado Mayor General de la Fuerza Aérea,1007.92842236
+2018-08-01,381,Estado Mayor General de la Fuerza Aérea,1353.28833762
+2018-09-01,381,Estado Mayor General de la Fuerza Aérea,2153.54926545
+2018-10-01,381,Estado Mayor General de la Fuerza Aérea,1211.69519631
+2018-11-01,381,Estado Mayor General de la Fuerza Aérea,2220.82119533
+2018-12-01,381,Estado Mayor General de la Fuerza Aérea,3186.73217974
+2018-01-01,382,Policía de Seguridad Aeroportuaria,215.30709348
+2018-02-01,382,Policía de Seguridad Aeroportuaria,286.87021912
+2018-03-01,382,Policía de Seguridad Aeroportuaria,302.83740936
+2018-04-01,382,Policía de Seguridad Aeroportuaria,222.681891
+2018-05-01,382,Policía de Seguridad Aeroportuaria,241.66534246
+2018-06-01,382,Policía de Seguridad Aeroportuaria,399.60094730000003
+2018-07-01,382,Policía de Seguridad Aeroportuaria,262.05682558
+2018-08-01,382,Policía de Seguridad Aeroportuaria,322.54018844
+2018-09-01,382,Policía de Seguridad Aeroportuaria,324.65028940999997
+2018-10-01,382,Policía de Seguridad Aeroportuaria,298.96198501
+2018-11-01,382,Policía de Seguridad Aeroportuaria,318.10095069
+2018-12-01,382,Policía de Seguridad Aeroportuaria,536.4916708
+2018-01-01,450,Instituto Geográfico Nacional,9.0829871
+2018-02-01,450,Instituto Geográfico Nacional,12.943006500000001
+2018-03-01,450,Instituto Geográfico Nacional,14.0381359
+2018-04-01,450,Instituto Geográfico Nacional,10.75634499
+2018-05-01,450,Instituto Geográfico Nacional,12.0876837
+2018-06-01,450,Instituto Geográfico Nacional,21.70200732
+2018-07-01,450,Instituto Geográfico Nacional,11.77903906
+2018-08-01,450,Instituto Geográfico Nacional,11.47915011
+2018-09-01,450,Instituto Geográfico Nacional,18.26027273
+2018-10-01,450,Instituto Geográfico Nacional,15.14541546
+2018-11-01,450,Instituto Geográfico Nacional,13.324204029999999
+2018-12-01,450,Instituto Geográfico Nacional,25.941489909999998
+2018-01-01,451,Dirección General de Fabricaciones Militares,131.05581611
+2018-02-01,451,Dirección General de Fabricaciones Militares,108.96993751000001
+2018-03-01,451,Dirección General de Fabricaciones Militares,230.6269537
+2018-04-01,451,Dirección General de Fabricaciones Militares,126.52942075
+2018-05-01,451,Dirección General de Fabricaciones Militares,172.77919694
+2018-06-01,451,Dirección General de Fabricaciones Militares,372.00858041
+2018-07-01,451,Dirección General de Fabricaciones Militares,125.71784213000001
+2018-08-01,451,Dirección General de Fabricaciones Militares,165.45792269999998
+2018-09-01,451,Dirección General de Fabricaciones Militares,157.39651596
+2018-10-01,451,Dirección General de Fabricaciones Militares,173.38435506
+2018-11-01,451,Dirección General de Fabricaciones Militares,132.01320031
+2018-12-01,451,Dirección General de Fabricaciones Militares,326.39420373
+2018-01-01,452,Servicio Meteorológico Nacional,0.89656558
+2018-02-01,452,Servicio Meteorológico Nacional,44.15980359
+2018-03-01,452,Servicio Meteorológico Nacional,83.79540246
+2018-04-01,452,Servicio Meteorológico Nacional,47.97223065
+2018-05-01,452,Servicio Meteorológico Nacional,61.40475145
+2018-06-01,452,Servicio Meteorológico Nacional,64.92196049
+2018-07-01,452,Servicio Meteorológico Nacional,44.01530587
+2018-08-01,452,Servicio Meteorológico Nacional,46.56575254
+2018-09-01,452,Servicio Meteorológico Nacional,70.08643470999999
+2018-10-01,452,Servicio Meteorológico Nacional,8.57549321
+2018-11-01,452,Servicio Meteorológico Nacional,98.82276719
+2018-12-01,452,Servicio Meteorológico Nacional,94.11417531
+2018-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2582.14949992
+2018-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2626.93059189
+2018-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2614.76502505
+2018-04-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2615.61940929
+2018-05-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2596.2328619
+2018-06-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,3950.36565447
+2018-07-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2653.75294022
+2018-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,3514.54173069
+2018-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,3159.53733616
+2018-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2759.70771219
+2018-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,4092.02823337
+2018-12-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,5006.46955295
+2018-01-01,602,Comisión Nacional de Valores,20.730873120000002
+2018-02-01,602,Comisión Nacional de Valores,26.60090035
+2018-03-01,602,Comisión Nacional de Valores,28.41016712
+2018-04-01,602,Comisión Nacional de Valores,21.37457765
+2018-05-01,602,Comisión Nacional de Valores,25.753723909999998
+2018-06-01,602,Comisión Nacional de Valores,44.68311101
+2018-07-01,602,Comisión Nacional de Valores,23.54301467
+2018-08-01,602,Comisión Nacional de Valores,34.72459876
+2018-09-01,602,Comisión Nacional de Valores,26.63884698
+2018-10-01,602,Comisión Nacional de Valores,37.39836349
+2018-11-01,602,Comisión Nacional de Valores,28.08115463
+2018-12-01,602,Comisión Nacional de Valores,59.04658483
+2018-01-01,603,Superintendencia de Seguros de la Nación,37.7216744
+2018-02-01,603,Superintendencia de Seguros de la Nación,40.97974552
+2018-03-01,603,Superintendencia de Seguros de la Nación,49.73860237
+2018-04-01,603,Superintendencia de Seguros de la Nación,49.02258081
+2018-05-01,603,Superintendencia de Seguros de la Nación,45.22705313
+2018-06-01,603,Superintendencia de Seguros de la Nación,85.10966639
+2018-07-01,603,Superintendencia de Seguros de la Nación,45.96717199
+2018-08-01,603,Superintendencia de Seguros de la Nación,49.80196292
+2018-09-01,603,Superintendencia de Seguros de la Nación,55.67167715
+2018-10-01,603,Superintendencia de Seguros de la Nación,52.6392453
+2018-11-01,603,Superintendencia de Seguros de la Nación,54.401029630000004
+2018-12-01,603,Superintendencia de Seguros de la Nación,120.47716448
+2018-01-01,604,Dirección Nacional de Vialidad,2913.40913748
+2018-02-01,604,Dirección Nacional de Vialidad,2250.85395976
+2018-03-01,604,Dirección Nacional de Vialidad,5118.4379171
+2018-04-01,604,Dirección Nacional de Vialidad,2699.508693
+2018-05-01,604,Dirección Nacional de Vialidad,2938.62980011
+2018-06-01,604,Dirección Nacional de Vialidad,1593.44073119
+2018-07-01,604,Dirección Nacional de Vialidad,1854.69994635
+2018-08-01,604,Dirección Nacional de Vialidad,3471.75547251
+2018-09-01,604,Dirección Nacional de Vialidad,6089.90557494
+2018-10-01,604,Dirección Nacional de Vialidad,1367.89423964
+2018-11-01,604,Dirección Nacional de Vialidad,4030.36792841
+2018-12-01,604,Dirección Nacional de Vialidad,12050.68004028
+2018-01-01,606,Instituto Nacional de Tecnología Agropecuaria,412.85246044
+2018-02-01,606,Instituto Nacional de Tecnología Agropecuaria,485.67518231
+2018-03-01,606,Instituto Nacional de Tecnología Agropecuaria,558.59875229
+2018-04-01,606,Instituto Nacional de Tecnología Agropecuaria,426.66680368
+2018-05-01,606,Instituto Nacional de Tecnología Agropecuaria,449.92680697
+2018-06-01,606,Instituto Nacional de Tecnología Agropecuaria,732.226378
+2018-07-01,606,Instituto Nacional de Tecnología Agropecuaria,367.2452861
+2018-08-01,606,Instituto Nacional de Tecnología Agropecuaria,581.61805129
+2018-09-01,606,Instituto Nacional de Tecnología Agropecuaria,520.30729483
+2018-10-01,606,Instituto Nacional de Tecnología Agropecuaria,513.71114002
+2018-11-01,606,Instituto Nacional de Tecnología Agropecuaria,526.76495245
+2018-12-01,606,Instituto Nacional de Tecnología Agropecuaria,840.93417228
+2018-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,18.18597895
+2018-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,18.17840984
+2018-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,63.13645317
+2018-04-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,12.9286953
+2018-05-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,47.12408365
+2018-06-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,51.00885559
+2018-07-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,16.20893922
+2018-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,25.19104496
+2018-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,57.57693878
+2018-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,24.95786224
+2018-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,22.277003
+2018-12-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,88.51390341999999
+2018-01-01,608,Instituto Nacional de Tecnología Industrial,48.45278755
+2018-02-01,608,Instituto Nacional de Tecnología Industrial,232.01279477999998
+2018-03-01,608,Instituto Nacional de Tecnología Industrial,263.1595239
+2018-04-01,608,Instituto Nacional de Tecnología Industrial,65.17132982
+2018-05-01,608,Instituto Nacional de Tecnología Industrial,150.97361521
+2018-06-01,608,Instituto Nacional de Tecnología Industrial,297.85140885
+2018-07-01,608,Instituto Nacional de Tecnología Industrial,175.05829159
+2018-08-01,608,Instituto Nacional de Tecnología Industrial,160.26260827
+2018-09-01,608,Instituto Nacional de Tecnología Industrial,372.62428771
+2018-10-01,608,Instituto Nacional de Tecnología Industrial,236.47013639
+2018-11-01,608,Instituto Nacional de Tecnología Industrial,248.27138737
+2018-12-01,608,Instituto Nacional de Tecnología Industrial,404.30434457
+2018-01-01,609,Instituto Nacional de Vitivinicultura,28.51466462
+2018-02-01,609,Instituto Nacional de Vitivinicultura,31.5216358
+2018-03-01,609,Instituto Nacional de Vitivinicultura,29.32839967
+2018-04-01,609,Instituto Nacional de Vitivinicultura,31.49195025
+2018-05-01,609,Instituto Nacional de Vitivinicultura,31.22275528
+2018-06-01,609,Instituto Nacional de Vitivinicultura,53.97641848
+2018-07-01,609,Instituto Nacional de Vitivinicultura,30.244914989999998
+2018-08-01,609,Instituto Nacional de Vitivinicultura,31.826158099999997
+2018-09-01,609,Instituto Nacional de Vitivinicultura,37.59850169
+2018-10-01,609,Instituto Nacional de Vitivinicultura,41.16223077
+2018-11-01,609,Instituto Nacional de Vitivinicultura,38.97895458
+2018-12-01,609,Instituto Nacional de Vitivinicultura,63.6891567
+2018-01-01,612,Tribunal de Tasaciones de la Nación,4.31215907
+2018-02-01,612,Tribunal de Tasaciones de la Nación,5.81480732
+2018-03-01,612,Tribunal de Tasaciones de la Nación,4.79582026
+2018-04-01,612,Tribunal de Tasaciones de la Nación,4.84282796
+2018-05-01,612,Tribunal de Tasaciones de la Nación,4.65252313
+2018-06-01,612,Tribunal de Tasaciones de la Nación,6.30544467
+2018-07-01,612,Tribunal de Tasaciones de la Nación,6.24577018
+2018-08-01,612,Tribunal de Tasaciones de la Nación,5.10605887
+2018-09-01,612,Tribunal de Tasaciones de la Nación,5.91481058
+2018-10-01,612,Tribunal de Tasaciones de la Nación,7.840979330000001
+2018-11-01,612,Tribunal de Tasaciones de la Nación,4.50604636
+2018-12-01,612,Tribunal de Tasaciones de la Nación,10.1190976
+2018-01-01,613,Ente Nacional de Obras Hídricas de Saneamiento,300.06398401
+2018-02-01,613,Ente Nacional de Obras Hídricas de Saneamiento,304.79997325
+2018-03-01,613,Ente Nacional de Obras Hídricas de Saneamiento,395.2555942
+2018-04-01,613,Ente Nacional de Obras Hídricas de Saneamiento,267.05785689
+2018-05-01,613,Ente Nacional de Obras Hídricas de Saneamiento,352.4090759
+2018-06-01,613,Ente Nacional de Obras Hídricas de Saneamiento,337.85064014
+2018-07-01,613,Ente Nacional de Obras Hídricas de Saneamiento,333.91860849
+2018-08-01,613,Ente Nacional de Obras Hídricas de Saneamiento,242.17893547
+2018-09-01,613,Ente Nacional de Obras Hídricas de Saneamiento,505.98709696000003
+2018-10-01,613,Ente Nacional de Obras Hídricas de Saneamiento,392.85900133999996
+2018-11-01,613,Ente Nacional de Obras Hídricas de Saneamiento,377.28918834999996
+2018-12-01,613,Ente Nacional de Obras Hídricas de Saneamiento,491.68531881999996
+2018-01-01,614,Instituto Nacional de Semillas,9.57672365
+2018-02-01,614,Instituto Nacional de Semillas,10.25186553
+2018-03-01,614,Instituto Nacional de Semillas,16.48428443
+2018-04-01,614,Instituto Nacional de Semillas,13.28891965
+2018-05-01,614,Instituto Nacional de Semillas,15.47771872
+2018-06-01,614,Instituto Nacional de Semillas,23.97580078
+2018-07-01,614,Instituto Nacional de Semillas,13.18369814
+2018-08-01,614,Instituto Nacional de Semillas,12.02585793
+2018-09-01,614,Instituto Nacional de Semillas,15.00777688
+2018-10-01,614,Instituto Nacional de Semillas,15.38357382
+2018-11-01,614,Instituto Nacional de Semillas,11.92268445
+2018-12-01,614,Instituto Nacional de Semillas,23.02019387
+2018-01-01,620,Tribunal Fiscal de la Nación,14.971060790000001
+2018-02-01,620,Tribunal Fiscal de la Nación,15.3931299
+2018-03-01,620,Tribunal Fiscal de la Nación,14.52727037
+2018-04-01,620,Tribunal Fiscal de la Nación,16.93070489
+2018-05-01,620,Tribunal Fiscal de la Nación,19.44587129
+2018-06-01,620,Tribunal Fiscal de la Nación,26.4277832
+2018-07-01,620,Tribunal Fiscal de la Nación,17.61994378
+2018-08-01,620,Tribunal Fiscal de la Nación,17.88018028
+2018-09-01,620,Tribunal Fiscal de la Nación,20.61509383
+2018-10-01,620,Tribunal Fiscal de la Nación,22.49071505
+2018-11-01,620,Tribunal Fiscal de la Nación,23.93286815
+2018-12-01,620,Tribunal Fiscal de la Nación,35.15018797
+2018-01-01,622,Instituto Nacional de la Propiedad Industrial,11.415946589999999
+2018-02-01,622,Instituto Nacional de la Propiedad Industrial,34.8537922
+2018-03-01,622,Instituto Nacional de la Propiedad Industrial,49.96825276
+2018-04-01,622,Instituto Nacional de la Propiedad Industrial,16.22719206
+2018-05-01,622,Instituto Nacional de la Propiedad Industrial,29.7282141
+2018-06-01,622,Instituto Nacional de la Propiedad Industrial,76.62634528
+2018-07-01,622,Instituto Nacional de la Propiedad Industrial,20.44386178
+2018-08-01,622,Instituto Nacional de la Propiedad Industrial,36.93900129
+2018-09-01,622,Instituto Nacional de la Propiedad Industrial,45.42085828
+2018-10-01,622,Instituto Nacional de la Propiedad Industrial,33.11911182
+2018-11-01,622,Instituto Nacional de la Propiedad Industrial,35.64458082
+2018-12-01,622,Instituto Nacional de la Propiedad Industrial,108.27340457999999
+2018-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,196.58730741
+2018-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,355.70772955
+2018-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,378.02113106
+2018-04-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,175.46888866
+2018-05-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,369.54274306
+2018-06-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,543.77711655
+2018-07-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,241.98600557
+2018-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,408.29452106
+2018-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,480.21815649
+2018-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,342.99162566
+2018-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,343.96068679
+2018-12-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,925.29692924
+2018-01-01,624,Servicio Geológico Minero Argentino,21.29649394
+2018-02-01,624,Servicio Geológico Minero Argentino,22.12192397
+2018-03-01,624,Servicio Geológico Minero Argentino,33.33159081
+2018-04-01,624,Servicio Geológico Minero Argentino,24.78029077
+2018-05-01,624,Servicio Geológico Minero Argentino,27.14477116
+2018-06-01,624,Servicio Geológico Minero Argentino,44.75751731
+2018-07-01,624,Servicio Geológico Minero Argentino,21.79295975
+2018-08-01,624,Servicio Geológico Minero Argentino,30.9916482
+2018-09-01,624,Servicio Geológico Minero Argentino,34.96911645
+2018-10-01,624,Servicio Geológico Minero Argentino,26.06380511
+2018-11-01,624,Servicio Geológico Minero Argentino,42.02167133
+2018-12-01,624,Servicio Geológico Minero Argentino,52.62835397
+2018-01-01,651,Ente Nacional Regulador del Gas,56.013283730000005
+2018-02-01,651,Ente Nacional Regulador del Gas,56.81004673
+2018-03-01,651,Ente Nacional Regulador del Gas,64.88515614
+2018-04-01,651,Ente Nacional Regulador del Gas,65.10767852000001
+2018-05-01,651,Ente Nacional Regulador del Gas,61.62192517
+2018-06-01,651,Ente Nacional Regulador del Gas,100.61927789
+2018-07-01,651,Ente Nacional Regulador del Gas,66.05032879
+2018-08-01,651,Ente Nacional Regulador del Gas,77.42041307
+2018-09-01,651,Ente Nacional Regulador del Gas,107.06197983
+2018-10-01,651,Ente Nacional Regulador del Gas,76.71066049
+2018-11-01,651,Ente Nacional Regulador del Gas,76.37148417
+2018-12-01,651,Ente Nacional Regulador del Gas,164.6584153
+2018-01-01,652,Ente Nacional Regulador de la Electricidad,29.89729752
+2018-02-01,652,Ente Nacional Regulador de la Electricidad,32.50515807
+2018-03-01,652,Ente Nacional Regulador de la Electricidad,36.9446382
+2018-04-01,652,Ente Nacional Regulador de la Electricidad,32.12346935
+2018-05-01,652,Ente Nacional Regulador de la Electricidad,34.758857320000004
+2018-06-01,652,Ente Nacional Regulador de la Electricidad,48.24805655
+2018-07-01,652,Ente Nacional Regulador de la Electricidad,33.823539780000004
+2018-08-01,652,Ente Nacional Regulador de la Electricidad,24.96365762
+2018-09-01,652,Ente Nacional Regulador de la Electricidad,71.20423133
+2018-10-01,652,Ente Nacional Regulador de la Electricidad,40.86014988
+2018-11-01,652,Ente Nacional Regulador de la Electricidad,41.38538269
+2018-12-01,652,Ente Nacional Regulador de la Electricidad,71.14232971999999
+2018-01-01,656,Organismo Regulador de Seguridad de Presas,6.10114709
+2018-02-01,656,Organismo Regulador de Seguridad de Presas,6.27312603
+2018-03-01,656,Organismo Regulador de Seguridad de Presas,8.00171261
+2018-04-01,656,Organismo Regulador de Seguridad de Presas,6.8185689400000005
+2018-05-01,656,Organismo Regulador de Seguridad de Presas,6.55628421
+2018-06-01,656,Organismo Regulador de Seguridad de Presas,10.90000353
+2018-07-01,656,Organismo Regulador de Seguridad de Presas,5.77164341
+2018-08-01,656,Organismo Regulador de Seguridad de Presas,7.2397430499999995
+2018-09-01,656,Organismo Regulador de Seguridad de Presas,7.60063301
+2018-10-01,656,Organismo Regulador de Seguridad de Presas,7.45373257
+2018-11-01,656,Organismo Regulador de Seguridad de Presas,8.7428258
+2018-12-01,656,Organismo Regulador de Seguridad de Presas,15.05087654
+2018-01-01,661,Comisión Nacional de Regulación del Transporte,34.59901182
+2018-02-01,661,Comisión Nacional de Regulación del Transporte,70.33357515
+2018-03-01,661,Comisión Nacional de Regulación del Transporte,90.31558152000001
+2018-04-01,661,Comisión Nacional de Regulación del Transporte,59.336597239999996
+2018-05-01,661,Comisión Nacional de Regulación del Transporte,55.284889390000004
+2018-06-01,661,Comisión Nacional de Regulación del Transporte,76.96057167
+2018-07-01,661,Comisión Nacional de Regulación del Transporte,52.50336137
+2018-08-01,661,Comisión Nacional de Regulación del Transporte,115.07028598000001
+2018-09-01,661,Comisión Nacional de Regulación del Transporte,78.0436246
+2018-10-01,661,Comisión Nacional de Regulación del Transporte,70.71576449
+2018-11-01,661,Comisión Nacional de Regulación del Transporte,76.95534078
+2018-12-01,661,Comisión Nacional de Regulación del Transporte,164.02581527
+2018-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,26.62365672
+2018-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,25.21505242
+2018-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,34.97382457
+2018-04-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,26.61196487
+2018-05-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,24.94378053
+2018-06-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,39.45311662
+2018-07-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,27.285178339999998
+2018-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,36.11630733
+2018-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,33.13422416
+2018-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,27.91717493
+2018-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,17.68827326
+2018-12-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,55.96394164
+2018-01-01,669,Administración Nacional de Aviación Civil,148.57513843
+2018-02-01,669,Administración Nacional de Aviación Civil,134.77763968
+2018-03-01,669,Administración Nacional de Aviación Civil,193.11831759
+2018-04-01,669,Administración Nacional de Aviación Civil,98.11553559000001
+2018-05-01,669,Administración Nacional de Aviación Civil,194.6456403
+2018-06-01,669,Administración Nacional de Aviación Civil,192.96748235
+2018-07-01,669,Administración Nacional de Aviación Civil,131.07387974
+2018-08-01,669,Administración Nacional de Aviación Civil,202.65054995
+2018-09-01,669,Administración Nacional de Aviación Civil,187.93539447999999
+2018-10-01,669,Administración Nacional de Aviación Civil,167.28051791
+2018-11-01,669,Administración Nacional de Aviación Civil,219.65659521
+2018-12-01,669,Administración Nacional de Aviación Civil,235.70522406
+2018-01-01,670,Unidad de Información Financiera,26.14037003
+2018-02-01,670,Unidad de Información Financiera,22.990791729999998
+2018-03-01,670,Unidad de Información Financiera,28.09779199
+2018-04-01,670,Unidad de Información Financiera,18.431029170000002
+2018-05-01,670,Unidad de Información Financiera,23.29347872
+2018-06-01,670,Unidad de Información Financiera,43.5197899
+2018-07-01,670,Unidad de Información Financiera,23.089772749999998
+2018-08-01,670,Unidad de Información Financiera,26.67638913
+2018-09-01,670,Unidad de Información Financiera,32.28555265
+2018-10-01,670,Unidad de Información Financiera,19.92907284
+2018-11-01,670,Unidad de Información Financiera,40.2417511
+2018-12-01,670,Unidad de Información Financiera,71.81938643000001
+2018-01-01,671,Junta de Investigación de Accidentes de Aviación Civil,1.2916386599999998
+2018-02-01,671,Junta de Investigación de Accidentes de Aviación Civil,4.94801663
+2018-03-01,671,Junta de Investigación de Accidentes de Aviación Civil,6.81211178
+2018-04-01,671,Junta de Investigación de Accidentes de Aviación Civil,4.89597595
+2018-05-01,671,Junta de Investigación de Accidentes de Aviación Civil,8.09578516
+2018-06-01,671,Junta de Investigación de Accidentes de Aviación Civil,7.24626667
+2018-07-01,671,Junta de Investigación de Accidentes de Aviación Civil,12.35048186
+2018-08-01,671,Junta de Investigación de Accidentes de Aviación Civil,3.29737793
+2018-09-01,671,Junta de Investigación de Accidentes de Aviación Civil,2.79492022
+2018-10-01,671,Junta de Investigación de Accidentes de Aviación Civil,3.9393380700000002
+2018-11-01,671,Junta de Investigación de Accidentes de Aviación Civil,6.52943024
+2018-12-01,671,Junta de Investigación de Accidentes de Aviación Civil,14.82247105
+2018-01-01,802,Fondo Nacional de las Artes,5.91190325
+2018-02-01,802,Fondo Nacional de las Artes,7.27152706
+2018-03-01,802,Fondo Nacional de las Artes,17.36800152
+2018-04-01,802,Fondo Nacional de las Artes,11.79074482
+2018-05-01,802,Fondo Nacional de las Artes,13.69947826
+2018-06-01,802,Fondo Nacional de las Artes,17.04083619
+2018-07-01,802,Fondo Nacional de las Artes,9.91431287
+2018-08-01,802,Fondo Nacional de las Artes,13.62138583
+2018-09-01,802,Fondo Nacional de las Artes,18.63499447
+2018-10-01,802,Fondo Nacional de las Artes,15.35678804
+2018-11-01,802,Fondo Nacional de las Artes,21.37323609
+2018-12-01,802,Fondo Nacional de las Artes,53.09778549
+2018-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,7.11124055
+2018-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,11.14552433
+2018-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,11.81182152
+2018-04-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,11.53321237
+2018-05-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,12.71655249
+2018-06-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,17.34529042
+2018-07-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,12.93152709
+2018-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,14.59987066
+2018-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,16.48318231
+2018-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,14.26562132
+2018-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,14.23845082
+2018-12-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,23.16956334
+2018-01-01,850,Administración Nacional de la Seguridad Social,93998.83310165
+2018-02-01,850,Administración Nacional de la Seguridad Social,98745.63912915
+2018-03-01,850,Administración Nacional de la Seguridad Social,111785.3296641
+2018-04-01,850,Administración Nacional de la Seguridad Social,100065.11626313
+2018-05-01,850,Administración Nacional de la Seguridad Social,94258.66813495
+2018-06-01,850,Administración Nacional de la Seguridad Social,158569.30713861
+2018-07-01,850,Administración Nacional de la Seguridad Social,95019.83009599
+2018-08-01,850,Administración Nacional de la Seguridad Social,95485.81849139
+2018-09-01,850,Administración Nacional de la Seguridad Social,142199.9275052
+2018-10-01,850,Administración Nacional de la Seguridad Social,116161.83589442
+2018-11-01,850,Administración Nacional de la Seguridad Social,109238.82831021
+2018-12-01,850,Administración Nacional de la Seguridad Social,191849.85941382
+2018-01-01,852,Superintendencia de Riesgos del Trabajo,20.50702754
+2018-02-01,852,Superintendencia de Riesgos del Trabajo,35.037449200000005
+2018-03-01,852,Superintendencia de Riesgos del Trabajo,45.338451140000004
+2018-04-01,852,Superintendencia de Riesgos del Trabajo,34.35917513
+2018-05-01,852,Superintendencia de Riesgos del Trabajo,36.80531724
+2018-06-01,852,Superintendencia de Riesgos del Trabajo,59.35759956
+2018-07-01,852,Superintendencia de Riesgos del Trabajo,35.91688068
+2018-08-01,852,Superintendencia de Riesgos del Trabajo,37.57341704
+2018-09-01,852,Superintendencia de Riesgos del Trabajo,40.38598492
+2018-10-01,852,Superintendencia de Riesgos del Trabajo,39.54013322
+2018-11-01,852,Superintendencia de Riesgos del Trabajo,41.18337328
+2018-12-01,852,Superintendencia de Riesgos del Trabajo,82.89998356
+2018-01-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',17.69008884
+2018-02-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',20.76197836
+2018-03-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',23.7581804
+2018-04-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',18.71435654
+2018-05-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',14.75108164
+2018-06-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',36.73265805
+2018-07-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',16.84139254
+2018-08-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',26.27153066
+2018-09-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',24.64731142
+2018-10-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',16.64161261
+2018-11-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',32.0398219
+2018-12-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',44.34719189
+2018-01-01,903,Hospital Nacional Dr. Baldomero Sommer,44.40523969
+2018-02-01,903,Hospital Nacional Dr. Baldomero Sommer,53.99003557
+2018-03-01,903,Hospital Nacional Dr. Baldomero Sommer,77.79465742
+2018-04-01,903,Hospital Nacional Dr. Baldomero Sommer,46.44156937
+2018-05-01,903,Hospital Nacional Dr. Baldomero Sommer,62.48718438
+2018-06-01,903,Hospital Nacional Dr. Baldomero Sommer,86.38053708
+2018-07-01,903,Hospital Nacional Dr. Baldomero Sommer,53.928616129999995
+2018-08-01,903,Hospital Nacional Dr. Baldomero Sommer,75.21535831
+2018-09-01,903,Hospital Nacional Dr. Baldomero Sommer,74.31096735
+2018-10-01,903,Hospital Nacional Dr. Baldomero Sommer,65.45401712
+2018-11-01,903,Hospital Nacional Dr. Baldomero Sommer,82.3092885
+2018-12-01,903,Hospital Nacional Dr. Baldomero Sommer,173.28816244
+2018-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",55.35153732
+2018-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",70.44363812
+2018-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",61.015115449999996
+2018-04-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",58.29298705
+2018-05-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",68.27332426
+2018-06-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",100.00862757
+2018-07-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",67.35078778
+2018-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",82.19912538
+2018-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",76.23908636
+2018-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",96.81152674
+2018-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",117.67372397000001
+2018-12-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",192.53093662
+2018-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,12.22640987
+2018-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,11.56278106
+2018-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,10.032551230000001
+2018-04-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,11.13305233
+2018-05-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,14.31910849
+2018-06-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,33.9379679
+2018-07-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,13.487873369999999
+2018-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,20.76454995
+2018-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,37.73992928
+2018-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,24.38280688
+2018-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,23.9401581
+2018-12-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,104.18353872
+2018-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,50.56652123
+2018-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,51.28975395
+2018-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,61.13495564
+2018-04-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,42.76674274
+2018-05-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,61.6262259
+2018-06-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,93.83743821
+2018-07-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,55.44554588
+2018-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,60.61207558
+2018-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,64.10368557
+2018-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,60.53414245
+2018-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,71.51667696
+2018-12-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,124.959518
+2018-01-01,908,Hospital Nacional Profesor Alejandro Posadas,231.23014793
+2018-02-01,908,Hospital Nacional Profesor Alejandro Posadas,267.6339671
+2018-03-01,908,Hospital Nacional Profesor Alejandro Posadas,351.86771222
+2018-04-01,908,Hospital Nacional Profesor Alejandro Posadas,267.4341467
+2018-05-01,908,Hospital Nacional Profesor Alejandro Posadas,265.62921477
+2018-06-01,908,Hospital Nacional Profesor Alejandro Posadas,446.94367045999996
+2018-07-01,908,Hospital Nacional Profesor Alejandro Posadas,262.28846061
+2018-08-01,908,Hospital Nacional Profesor Alejandro Posadas,289.07578955
+2018-09-01,908,Hospital Nacional Profesor Alejandro Posadas,370.42841718
+2018-10-01,908,Hospital Nacional Profesor Alejandro Posadas,304.45621095
+2018-11-01,908,Hospital Nacional Profesor Alejandro Posadas,380.80606721
+2018-12-01,908,Hospital Nacional Profesor Alejandro Posadas,632.95748895
+2018-01-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,48.97051977
+2018-02-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,11.11814923
+2018-03-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,74.18384381999999
+2018-04-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,56.7393457
+2018-05-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,65.20220064
+2018-06-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,63.38923008
+2018-07-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,70.23754008
+2018-08-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,60.19534547
+2018-09-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,57.24577466
+2018-10-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,67.06848609
+2018-11-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,80.1186378
+2018-12-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,94.89762718
+2018-01-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,15.390355379999999
+2018-02-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,21.01385087
+2018-03-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,18.29422811
+2018-04-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,18.85371773
+2018-05-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,17.69330802
+2018-06-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,29.97964026
+2018-07-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,18.72082964
+2018-08-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,20.49005068
+2018-09-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,22.47304794
+2018-10-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,24.00421961
+2018-11-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,27.1039215
+2018-12-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,37.82603947
+2018-01-01,912,Servicio Nacional de Rehabilitación,13.84328103
+2018-02-01,912,Servicio Nacional de Rehabilitación,15.0818196
+2018-03-01,912,Servicio Nacional de Rehabilitación,25.71195497
+2018-04-01,912,Servicio Nacional de Rehabilitación,12.9176616
+2018-05-01,912,Servicio Nacional de Rehabilitación,0.0
+2018-01-01,914,Superintendencia de Servicios de Salud,807.61984108
+2018-02-01,914,Superintendencia de Servicios de Salud,637.7567510599999
+2018-03-01,914,Superintendencia de Servicios de Salud,832.81880089
+2018-04-01,914,Superintendencia de Servicios de Salud,778.32147201
+2018-05-01,914,Superintendencia de Servicios de Salud,770.8688987700001
+2018-06-01,914,Superintendencia de Servicios de Salud,823.35355827
+2018-07-01,914,Superintendencia de Servicios de Salud,790.60606365
+2018-08-01,914,Superintendencia de Servicios de Salud,1252.5418449900003
+2018-09-01,914,Superintendencia de Servicios de Salud,1247.3842253
+2018-10-01,914,Superintendencia de Servicios de Salud,1088.57573645
+2018-11-01,914,Superintendencia de Servicios de Salud,1044.9297947
+2018-12-01,914,Superintendencia de Servicios de Salud,649.2004746700001
+2018-01-01,915,Instituto Nacional del Cáncer (INC),0.0
+2018-03-01,915,Instituto Nacional del Cáncer (INC),0.0
+2018-06-01,915,Instituto Nacional del Cáncer (INC),0.0
+2018-08-01,915,Instituto Nacional del Cáncer (INC),0.0
+2018-09-01,915,Instituto Nacional del Cáncer (INC),23.315969
+2018-10-01,915,Instituto Nacional del Cáncer (INC),3.7993230000000002
+2018-11-01,915,Instituto Nacional del Cáncer (INC),2.6747199999999998
+2018-12-01,915,Instituto Nacional del Cáncer (INC),13.41106583
+2018-01-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),2.1746408600000002
+2018-02-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),2.9
+2018-03-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),2.9
+2018-04-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),-2.9
+2018-05-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),0.11450775
+2018-06-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),22.38825322
+2018-07-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),0.385
+2018-08-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),10.87656627
+2018-09-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),0.72722986
+2018-10-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),1.32810622
+2018-11-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),14.8934309
+2018-12-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),10.16253251
+2018-01-01,917,Agencia Nacional de Discapacidad,25.34439825
+2018-02-01,917,Agencia Nacional de Discapacidad,6146.1867275
+2018-03-01,917,Agencia Nacional de Discapacidad,13303.72231308
+2018-04-01,917,Agencia Nacional de Discapacidad,338.98249769
+2018-05-01,917,Agencia Nacional de Discapacidad,14208.93971731
+2018-06-01,917,Agencia Nacional de Discapacidad,12088.39324241
+2018-07-01,917,Agencia Nacional de Discapacidad,7540.27542627
+2018-08-01,917,Agencia Nacional de Discapacidad,7414.05444533
+2018-09-01,917,Agencia Nacional de Discapacidad,8928.784413110001
+2018-10-01,917,Agencia Nacional de Discapacidad,9295.50398754
+2018-11-01,917,Agencia Nacional de Discapacidad,2190.3988065
+2018-12-01,917,Agencia Nacional de Discapacidad,19563.3132026
+2018-01-01,918,Instituto Nacional de las Mujeres (INAM),8.31747137
+2018-02-01,918,Instituto Nacional de las Mujeres (INAM),10.24673984
+2018-03-01,918,Instituto Nacional de las Mujeres (INAM),10.73061446
+2018-04-01,918,Instituto Nacional de las Mujeres (INAM),27.50027038
+2018-05-01,918,Instituto Nacional de las Mujeres (INAM),10.50515124
+2018-06-01,918,Instituto Nacional de las Mujeres (INAM),16.7110779
+2018-07-01,918,Instituto Nacional de las Mujeres (INAM),13.27805133
+2018-08-01,918,Instituto Nacional de las Mujeres (INAM),9.96633434
+2018-09-01,918,Instituto Nacional de las Mujeres (INAM),13.43323221
+2018-10-01,918,Instituto Nacional de las Mujeres (INAM),12.23147479
+2018-11-01,918,Instituto Nacional de las Mujeres (INAM),16.34101888
+2018-12-01,918,Instituto Nacional de las Mujeres (INAM),35.18823039

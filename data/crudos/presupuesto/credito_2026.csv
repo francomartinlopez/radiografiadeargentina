@@ -1,0 +1,1224 @@
+fecha,servicio_id,servicio_desc,devengado
+2026-01-01,1,Auditoría General de la Nación,7349.51730319
+2026-02-01,1,Auditoría General de la Nación,5976.481775
+2026-03-01,1,Auditoría General de la Nación,7986.34008405
+2026-04-01,1,Auditoría General de la Nación,6752.01219274
+2026-05-01,1,Auditoría General de la Nación,7792.71767009
+2026-06-01,1,Auditoría General de la Nación,11290.74278678
+2026-07-01,1,Auditoría General de la Nación,8208.82430299
+2026-08-01,1,Auditoría General de la Nación,9141.200763069999
+2026-09-01,1,Auditoría General de la Nación,8989.56805773
+2026-10-01,1,Auditoría General de la Nación,8822.77449955
+2026-11-01,1,Auditoría General de la Nación,0.0
+2026-01-01,101,Fundación Miguel Lillo,740.75843803
+2026-02-01,101,Fundación Miguel Lillo,713.3699164
+2026-03-01,101,Fundación Miguel Lillo,815.6540681
+2026-04-01,101,Fundación Miguel Lillo,775.24914175
+2026-05-01,101,Fundación Miguel Lillo,815.14803724
+2026-06-01,101,Fundación Miguel Lillo,1307.54208091
+2026-07-01,101,Fundación Miguel Lillo,1057.74052949
+2026-08-01,101,Fundación Miguel Lillo,929.20927012
+2026-09-01,101,Fundación Miguel Lillo,968.28803349
+2026-10-01,101,Fundación Miguel Lillo,1041.19513507
+2026-11-01,101,Fundación Miguel Lillo,0.0
+2026-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,52825.78400623
+2026-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,48776.61763606
+2026-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,58403.43951097
+2026-04-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,54615.87108174
+2026-05-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,55103.80239108
+2026-06-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,80103.72788816999
+2026-07-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,55305.45133476
+2026-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,58920.16562998
+2026-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,60575.53194885
+2026-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,60613.65682566001
+2026-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,208.07169311
+2026-01-01,105,Comisión Nacional de Energía Atómica,8591.82880703
+2026-02-01,105,Comisión Nacional de Energía Atómica,13764.23719438
+2026-03-01,105,Comisión Nacional de Energía Atómica,39161.494161409995
+2026-04-01,105,Comisión Nacional de Energía Atómica,13780.59677295
+2026-05-01,105,Comisión Nacional de Energía Atómica,28076.12033704
+2026-06-01,105,Comisión Nacional de Energía Atómica,19979.645098
+2026-07-01,105,Comisión Nacional de Energía Atómica,26812.18060153
+2026-08-01,105,Comisión Nacional de Energía Atómica,36321.04778383
+2026-09-01,105,Comisión Nacional de Energía Atómica,32022.83736089
+2026-10-01,105,Comisión Nacional de Energía Atómica,24699.95153115
+2026-11-01,105,Comisión Nacional de Energía Atómica,0.0
+2026-01-01,106,Comisión Nacional de Actividades Espaciales,1417.72593667
+2026-02-01,106,Comisión Nacional de Actividades Espaciales,3005.6371284
+2026-03-01,106,Comisión Nacional de Actividades Espaciales,3986.44656227
+2026-04-01,106,Comisión Nacional de Actividades Espaciales,2310.52392441
+2026-05-01,106,Comisión Nacional de Actividades Espaciales,2222.54047277
+2026-06-01,106,Comisión Nacional de Actividades Espaciales,5638.99187426
+2026-07-01,106,Comisión Nacional de Actividades Espaciales,2547.68885524
+2026-08-01,106,Comisión Nacional de Actividades Espaciales,1683.20356485
+2026-09-01,106,Comisión Nacional de Actividades Espaciales,34434.03382947
+2026-10-01,106,Comisión Nacional de Actividades Espaciales,20400.30276051
+2026-11-01,106,Comisión Nacional de Actividades Espaciales,0.0
+2026-01-01,107,Administración de Parques Nacionales,3987.2243698
+2026-02-01,107,Administración de Parques Nacionales,7427.2520761
+2026-03-01,107,Administración de Parques Nacionales,8889.80996589
+2026-04-01,107,Administración de Parques Nacionales,6286.61808999
+2026-05-01,107,Administración de Parques Nacionales,6805.36466201
+2026-06-01,107,Administración de Parques Nacionales,12226.063635049999
+2026-07-01,107,Administración de Parques Nacionales,5644.20984759
+2026-08-01,107,Administración de Parques Nacionales,9454.06784262
+2026-09-01,107,Administración de Parques Nacionales,10778.94590348
+2026-10-01,107,Administración de Parques Nacionales,7329.40165267
+2026-11-01,107,Administración de Parques Nacionales,646.48376719
+2026-01-01,109,Sindicatura General de la Nación,1786.6837536
+2026-02-01,109,Sindicatura General de la Nación,1861.83243221
+2026-03-01,109,Sindicatura General de la Nación,2156.28090963
+2026-04-01,109,Sindicatura General de la Nación,1429.55800075
+2026-05-01,109,Sindicatura General de la Nación,2594.74406305
+2026-06-01,109,Sindicatura General de la Nación,3939.81145857
+2026-07-01,109,Sindicatura General de la Nación,2000.12758459
+2026-08-01,109,Sindicatura General de la Nación,1470.33644948
+2026-09-01,109,Sindicatura General de la Nación,3008.49211506
+2026-10-01,109,Sindicatura General de la Nación,1524.85757562
+2026-11-01,109,Sindicatura General de la Nación,677.9573484
+2026-01-01,112,Autoridad Regulatoria Nuclear,1301.97849198
+2026-02-01,112,Autoridad Regulatoria Nuclear,1173.70183931
+2026-03-01,112,Autoridad Regulatoria Nuclear,1506.32906266
+2026-04-01,112,Autoridad Regulatoria Nuclear,1631.13455184
+2026-05-01,112,Autoridad Regulatoria Nuclear,1273.80703461
+2026-06-01,112,Autoridad Regulatoria Nuclear,2646.84163845
+2026-07-01,112,Autoridad Regulatoria Nuclear,1398.70040802
+2026-08-01,112,Autoridad Regulatoria Nuclear,1557.01847757
+2026-09-01,112,Autoridad Regulatoria Nuclear,2770.02247783
+2026-10-01,112,Autoridad Regulatoria Nuclear,1361.91028885
+2026-11-01,112,Autoridad Regulatoria Nuclear,58.89980938
+2026-01-01,113,Teatro Nacional Cervantes,777.28504452
+2026-02-01,113,Teatro Nacional Cervantes,790.72357427
+2026-03-01,113,Teatro Nacional Cervantes,1433.72782334
+2026-04-01,113,Teatro Nacional Cervantes,988.1719960800001
+2026-05-01,113,Teatro Nacional Cervantes,819.14514582
+2026-06-01,113,Teatro Nacional Cervantes,2227.75884228
+2026-07-01,113,Teatro Nacional Cervantes,970.7402874499999
+2026-08-01,113,Teatro Nacional Cervantes,862.45042698
+2026-09-01,113,Teatro Nacional Cervantes,1971.9063123600001
+2026-10-01,113,Teatro Nacional Cervantes,840.41729167
+2026-11-01,113,Teatro Nacional Cervantes,29.30438298
+2026-01-01,114,Instituto Nacional de Asociativismo y Economía Social,870.70726611
+2026-02-01,114,Instituto Nacional de Asociativismo y Economía Social,731.70723069
+2026-03-01,114,Instituto Nacional de Asociativismo y Economía Social,2431.2856856099997
+2026-04-01,114,Instituto Nacional de Asociativismo y Economía Social,843.9174611
+2026-05-01,114,Instituto Nacional de Asociativismo y Economía Social,1097.21557896
+2026-06-01,114,Instituto Nacional de Asociativismo y Economía Social,2698.60544309
+2026-07-01,114,Instituto Nacional de Asociativismo y Economía Social,792.24452413
+2026-08-01,114,Instituto Nacional de Asociativismo y Economía Social,1265.66461264
+2026-09-01,114,Instituto Nacional de Asociativismo y Economía Social,2488.06358369
+2026-10-01,114,Instituto Nacional de Asociativismo y Economía Social,1158.43255462
+2026-11-01,114,Instituto Nacional de Asociativismo y Economía Social,105.46963051
+2026-01-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1610.18539524
+2026-02-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2089.31148022
+2026-03-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2700.67610875
+2026-04-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2685.4205154
+2026-05-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2082.55362205
+2026-06-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',3044.02782665
+2026-07-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2442.22753312
+2026-08-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',3239.43237662
+2026-09-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',3532.7073413
+2026-10-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2810.78149339
+2026-11-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',0.0
+2026-01-01,117,Instituto Nacional del Teatro,240.25113973999999
+2026-02-01,117,Instituto Nacional del Teatro,443.71068551
+2026-03-01,117,Instituto Nacional del Teatro,753.23857284
+2026-04-01,117,Instituto Nacional del Teatro,433.65037859
+2026-05-01,117,Instituto Nacional del Teatro,486.21652165
+2026-06-01,117,Instituto Nacional del Teatro,852.23260205
+2026-07-01,117,Instituto Nacional del Teatro,426.08817834999996
+2026-08-01,117,Instituto Nacional del Teatro,490.14035724
+2026-09-01,117,Instituto Nacional del Teatro,952.71749343
+2026-10-01,117,Instituto Nacional del Teatro,418.91666538
+2026-11-01,117,Instituto Nacional del Teatro,35.92973001
+2026-01-01,119,Instituto Nacional de Promoción Turística,890.3017500799999
+2026-02-01,119,Instituto Nacional de Promoción Turística,501.06187936
+2026-03-01,119,Instituto Nacional de Promoción Turística,1204.15543711
+2026-04-01,119,Instituto Nacional de Promoción Turística,423.30191737
+2026-05-01,119,Instituto Nacional de Promoción Turística,349.84343865
+2026-06-01,119,Instituto Nacional de Promoción Turística,1731.87754773
+2026-07-01,119,Instituto Nacional de Promoción Turística,613.12663246
+2026-08-01,119,Instituto Nacional de Promoción Turística,691.5399527899999
+2026-09-01,119,Instituto Nacional de Promoción Turística,1492.49887838
+2026-10-01,119,Instituto Nacional de Promoción Turística,441.30137678
+2026-11-01,119,Instituto Nacional de Promoción Turística,32.66791303
+2026-01-01,121,Banco Nacional de Datos Genéticos (BNDG),0.0
+2026-02-01,121,Banco Nacional de Datos Genéticos (BNDG),269.47303952
+2026-03-01,121,Banco Nacional de Datos Genéticos (BNDG),233.39630363
+2026-04-01,121,Banco Nacional de Datos Genéticos (BNDG),278.49886107000003
+2026-05-01,121,Banco Nacional de Datos Genéticos (BNDG),276.58401395
+2026-06-01,121,Banco Nacional de Datos Genéticos (BNDG),617.90005915
+2026-07-01,121,Banco Nacional de Datos Genéticos (BNDG),334.82258052
+2026-08-01,121,Banco Nacional de Datos Genéticos (BNDG),154.92201994
+2026-09-01,121,Banco Nacional de Datos Genéticos (BNDG),390.60178194
+2026-10-01,121,Banco Nacional de Datos Genéticos (BNDG),330.05385412
+2026-11-01,121,Banco Nacional de Datos Genéticos (BNDG),13.964503520000001
+2026-05-01,122,Centro Nacional de Ciberseguridad (CNC),0.0
+2026-07-01,122,Centro Nacional de Ciberseguridad (CNC),0.0
+2026-08-01,122,Centro Nacional de Ciberseguridad (CNC),27.67522155
+2026-09-01,122,Centro Nacional de Ciberseguridad (CNC),70.64081252
+2026-10-01,122,Centro Nacional de Ciberseguridad (CNC),65.51454
+2026-01-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1003.18164431
+2026-02-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1098.1448056
+2026-03-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",2351.49865553
+2026-04-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",822.31969557
+2026-05-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1073.52989612
+2026-06-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1219.44445191
+2026-07-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",905.57053067
+2026-08-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",781.89024132
+2026-09-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1467.30397775
+2026-10-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",844.05633623
+2026-11-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",24.5936384
+2026-01-01,200,Registro Nacional de las Personas (RENAPER),9846.66856196
+2026-02-01,200,Registro Nacional de las Personas (RENAPER),13234.37051719
+2026-03-01,200,Registro Nacional de las Personas (RENAPER),13844.78695335
+2026-04-01,200,Registro Nacional de las Personas (RENAPER),9860.35623428
+2026-05-01,200,Registro Nacional de las Personas (RENAPER),9879.59653225
+2026-06-01,200,Registro Nacional de las Personas (RENAPER),34461.37717152
+2026-07-01,200,Registro Nacional de las Personas (RENAPER),12433.15168604
+2026-08-01,200,Registro Nacional de las Personas (RENAPER),13030.76861415
+2026-09-01,200,Registro Nacional de las Personas (RENAPER),42942.85032654
+2026-10-01,200,Registro Nacional de las Personas (RENAPER),35642.96739406
+2026-11-01,200,Registro Nacional de las Personas (RENAPER),987.53650094
+2026-01-01,201,Dirección Nacional de Migraciones,7797.14081063
+2026-02-01,201,Dirección Nacional de Migraciones,12311.84878173
+2026-03-01,201,Dirección Nacional de Migraciones,20929.24783816
+2026-04-01,201,Dirección Nacional de Migraciones,9322.00692354
+2026-05-01,201,Dirección Nacional de Migraciones,14416.24569969
+2026-06-01,201,Dirección Nacional de Migraciones,25146.98156725
+2026-07-01,201,Dirección Nacional de Migraciones,13681.13082674
+2026-08-01,201,Dirección Nacional de Migraciones,17385.02604677
+2026-09-01,201,Dirección Nacional de Migraciones,20265.42824133
+2026-10-01,201,Dirección Nacional de Migraciones,12238.87846241
+2026-11-01,201,Dirección Nacional de Migraciones,5868.86216796
+2026-01-01,203,Agencia Nacional de Seguridad Vial,1425.25098528
+2026-02-01,203,Agencia Nacional de Seguridad Vial,1482.39048255
+2026-03-01,203,Agencia Nacional de Seguridad Vial,1935.21594604
+2026-04-01,203,Agencia Nacional de Seguridad Vial,1492.23984782
+2026-05-01,203,Agencia Nacional de Seguridad Vial,1745.76329698
+2026-06-01,203,Agencia Nacional de Seguridad Vial,2591.45082336
+2026-07-01,203,Agencia Nacional de Seguridad Vial,1605.08385283
+2026-08-01,203,Agencia Nacional de Seguridad Vial,1596.19316614
+2026-09-01,203,Agencia Nacional de Seguridad Vial,2072.55591741
+2026-10-01,203,Agencia Nacional de Seguridad Vial,1249.2554359599999
+2026-11-01,203,Agencia Nacional de Seguridad Vial,96.6050791
+2026-01-01,205,Agencia de Administración de Bienes del Estado,1052.26773833
+2026-02-01,205,Agencia de Administración de Bienes del Estado,1427.52048137
+2026-03-01,205,Agencia de Administración de Bienes del Estado,1515.24383554
+2026-04-01,205,Agencia de Administración de Bienes del Estado,1172.52224411
+2026-05-01,205,Agencia de Administración de Bienes del Estado,1252.37900017
+2026-06-01,205,Agencia de Administración de Bienes del Estado,2064.30487956
+2026-07-01,205,Agencia de Administración de Bienes del Estado,1033.73043913
+2026-08-01,205,Agencia de Administración de Bienes del Estado,3481.1756020099997
+2026-09-01,205,Agencia de Administración de Bienes del Estado,1821.30033171
+2026-10-01,205,Agencia de Administración de Bienes del Estado,1531.75458386
+2026-11-01,205,Agencia de Administración de Bienes del Estado,39.53667173
+2026-01-01,206,Centro Internacional para la Promoción de los Derechos Humanos,124.59624846
+2026-02-01,206,Centro Internacional para la Promoción de los Derechos Humanos,279.91656495
+2026-03-01,206,Centro Internacional para la Promoción de los Derechos Humanos,249.06349444999998
+2026-04-01,206,Centro Internacional para la Promoción de los Derechos Humanos,255.43256414
+2026-05-01,206,Centro Internacional para la Promoción de los Derechos Humanos,163.52987615
+2026-06-01,206,Centro Internacional para la Promoción de los Derechos Humanos,432.70141344
+2026-07-01,206,Centro Internacional para la Promoción de los Derechos Humanos,176.80497106
+2026-08-01,206,Centro Internacional para la Promoción de los Derechos Humanos,347.73409064000003
+2026-09-01,206,Centro Internacional para la Promoción de los Derechos Humanos,312.89610355
+2026-10-01,206,Centro Internacional para la Promoción de los Derechos Humanos,273.76701304
+2026-11-01,206,Centro Internacional para la Promoción de los Derechos Humanos,0.0
+2026-01-01,207,Ente Nacional de Comunicaciones,4405.1016338399995
+2026-02-01,207,Ente Nacional de Comunicaciones,4553.93922567
+2026-03-01,207,Ente Nacional de Comunicaciones,6802.57295238
+2026-04-01,207,Ente Nacional de Comunicaciones,4981.61358511
+2026-05-01,207,Ente Nacional de Comunicaciones,4447.87300788
+2026-06-01,207,Ente Nacional de Comunicaciones,8748.847683
+2026-07-01,207,Ente Nacional de Comunicaciones,5834.7624402599995
+2026-08-01,207,Ente Nacional de Comunicaciones,6111.96782855
+2026-09-01,207,Ente Nacional de Comunicaciones,6779.52793627
+2026-10-01,207,Ente Nacional de Comunicaciones,5168.73939637
+2026-11-01,207,Ente Nacional de Comunicaciones,265.25647391
+2026-01-01,209,Agencia de Acceso a la Información Pública,135.4887867
+2026-02-01,209,Agencia de Acceso a la Información Pública,178.65730603
+2026-03-01,209,Agencia de Acceso a la Información Pública,233.45693877
+2026-04-01,209,Agencia de Acceso a la Información Pública,144.3951007
+2026-05-01,209,Agencia de Acceso a la Información Pública,249.71377598
+2026-06-01,209,Agencia de Acceso a la Información Pública,276.49764684
+2026-07-01,209,Agencia de Acceso a la Información Pública,229.63714109
+2026-08-01,209,Agencia de Acceso a la Información Pública,216.62086272000002
+2026-09-01,209,Agencia de Acceso a la Información Pública,255.86288182
+2026-10-01,209,Agencia de Acceso a la Información Pública,232.43369454
+2026-11-01,209,Agencia de Acceso a la Información Pública,9.68503891
+2026-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",232265.96904471001
+2026-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",249236.29825411
+2026-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",242221.94291533998
+2026-04-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",291872.01143725
+2026-05-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",267091.21917977
+2026-06-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",394281.6196968
+2026-07-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",290757.52077795
+2026-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",102541.41747215
+2026-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",484237.81690031
+2026-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",307000.07458957
+2026-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",0.0
+2026-01-01,301,Secretaría General de la Presidencia de la Nación,4709.03971499
+2026-02-01,301,Secretaría General de la Presidencia de la Nación,3939.24909879
+2026-03-01,301,Secretaría General de la Presidencia de la Nación,6240.97635909
+2026-04-01,301,Secretaría General de la Presidencia de la Nación,5602.875016309999
+2026-05-01,301,Secretaría General de la Presidencia de la Nación,4853.76215637
+2026-06-01,301,Secretaría General de la Presidencia de la Nación,5387.15995102
+2026-07-01,301,Secretaría General de la Presidencia de la Nación,7445.44706433
+2026-08-01,301,Secretaría General de la Presidencia de la Nación,5331.4381776
+2026-09-01,301,Secretaría General de la Presidencia de la Nación,4465.62928877
+2026-10-01,301,Secretaría General de la Presidencia de la Nación,9526.70199701
+2026-11-01,301,Secretaría General de la Presidencia de la Nación,193.16732049
+2026-01-01,302,Secretaría de Inteligencia de Estado,7500.91463663
+2026-02-01,302,Secretaría de Inteligencia de Estado,8178.03854482
+2026-03-01,302,Secretaría de Inteligencia de Estado,7849.28183633
+2026-04-01,302,Secretaría de Inteligencia de Estado,4833.853425169999
+2026-05-01,302,Secretaría de Inteligencia de Estado,10954.58826483
+2026-06-01,302,Secretaría de Inteligencia de Estado,8889.281485
+2026-07-01,302,Secretaría de Inteligencia de Estado,16970.783978
+2026-08-01,302,Secretaría de Inteligencia de Estado,17229.747089
+2026-09-01,302,Secretaría de Inteligencia de Estado,25730.858508
+2026-10-01,302,Secretaría de Inteligencia de Estado,18347.318353
+2026-01-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),852.11089843
+2026-02-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6610.16663462
+2026-03-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),12367.09144314
+2026-04-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6082.97777777
+2026-05-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6890.4417181300005
+2026-06-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),9154.287457209999
+2026-07-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6864.15645857
+2026-08-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6827.9115220799995
+2026-09-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),8680.72369722
+2026-10-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),5720.04803227
+2026-11-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1474.09425422
+2026-01-01,305,Jefatura de Gabinete de Ministros,1923.38924539
+2026-02-01,305,Jefatura de Gabinete de Ministros,2914.67483183
+2026-03-01,305,Jefatura de Gabinete de Ministros,4410.21766739
+2026-04-01,305,Jefatura de Gabinete de Ministros,3346.92636354
+2026-05-01,305,Jefatura de Gabinete de Ministros,3354.65256544
+2026-06-01,305,Jefatura de Gabinete de Ministros,5825.75078475
+2026-07-01,305,Jefatura de Gabinete de Ministros,3596.09046983
+2026-08-01,305,Jefatura de Gabinete de Ministros,3206.37480066
+2026-09-01,305,Jefatura de Gabinete de Ministros,3451.30825655
+2026-10-01,305,Jefatura de Gabinete de Ministros,3557.43760146
+2026-11-01,305,Jefatura de Gabinete de Ministros,7494.1474499
+2026-01-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",37225.28210978
+2026-02-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",39253.76983757
+2026-03-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",84835.84093447
+2026-04-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",36298.86829275
+2026-05-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",39408.49040706
+2026-06-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",79042.25311857
+2026-07-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",44347.5254969
+2026-08-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",43340.01387833
+2026-09-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",106678.29393661
+2026-10-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",41250.71963802
+2026-11-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",277.3938596
+2026-01-01,310,Ministerio de Salud,20040.83078825
+2026-02-01,310,Ministerio de Salud,38821.37922145
+2026-03-01,310,Ministerio de Salud,1467730.37271744
+2026-04-01,310,Ministerio de Salud,157457.48436854
+2026-05-01,310,Ministerio de Salud,547068.4552950601
+2026-06-01,310,Ministerio de Salud,1254175.52516017
+2026-07-01,310,Ministerio de Salud,596634.547358
+2026-08-01,310,Ministerio de Salud,212770.39340423
+2026-09-01,310,Ministerio de Salud,1208926.42783223
+2026-10-01,310,Ministerio de Salud,720734.1389777
+2026-11-01,310,Ministerio de Salud,8677.1381088
+2026-01-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",208094.50406922
+2026-02-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",215155.11766594
+2026-03-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",217885.28794811
+2026-04-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",221247.59986035
+2026-05-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",361394.7505068
+2026-06-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",290348.2324468
+2026-07-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",286943.43224170996
+2026-08-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",292036.97366702
+2026-09-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",295103.4132622
+2026-10-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",296194.8927928
+2026-11-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",322.72444468000003
+2026-01-01,312,Honorable Senado de la Nación Argentina,14487.234453750001
+2026-02-01,312,Honorable Senado de la Nación Argentina,12445.81154778
+2026-03-01,312,Honorable Senado de la Nación Argentina,24296.23149
+2026-04-01,312,Honorable Senado de la Nación Argentina,16050.329286619999
+2026-05-01,312,Honorable Senado de la Nación Argentina,18740.40657884
+2026-06-01,312,Honorable Senado de la Nación Argentina,32003.596870010002
+2026-07-01,312,Honorable Senado de la Nación Argentina,16637.39777507
+2026-08-01,312,Honorable Senado de la Nación Argentina,21102.3224025
+2026-09-01,312,Honorable Senado de la Nación Argentina,26816.49096901
+2026-10-01,312,Honorable Senado de la Nación Argentina,17759.74181097
+2026-11-01,312,Honorable Senado de la Nación Argentina,4372.82502237
+2026-01-01,313,Honorable Cámara de Diputados de la Nación Argentina,18983.22281603
+2026-02-01,313,Honorable Cámara de Diputados de la Nación Argentina,19131.12695556
+2026-03-01,313,Honorable Cámara de Diputados de la Nación Argentina,21384.705291270002
+2026-04-01,313,Honorable Cámara de Diputados de la Nación Argentina,21074.408106220002
+2026-05-01,313,Honorable Cámara de Diputados de la Nación Argentina,20363.90635197
+2026-06-01,313,Honorable Cámara de Diputados de la Nación Argentina,25190.71353065
+2026-07-01,313,Honorable Cámara de Diputados de la Nación Argentina,19354.77523767
+2026-08-01,313,Honorable Cámara de Diputados de la Nación Argentina,20598.232046869998
+2026-09-01,313,Honorable Cámara de Diputados de la Nación Argentina,26528.17905848
+2026-10-01,313,Honorable Cámara de Diputados de la Nación Argentina,23876.644200810002
+2026-11-01,313,Honorable Cámara de Diputados de la Nación Argentina,0.0
+2026-01-01,314,Biblioteca del Congreso de la Nación,4138.25596478
+2026-02-01,314,Biblioteca del Congreso de la Nación,4181.2523366099995
+2026-03-01,314,Biblioteca del Congreso de la Nación,5104.9965205
+2026-04-01,314,Biblioteca del Congreso de la Nación,4644.39080045
+2026-05-01,314,Biblioteca del Congreso de la Nación,4600.04481494
+2026-06-01,314,Biblioteca del Congreso de la Nación,6393.37930694
+2026-07-01,314,Biblioteca del Congreso de la Nación,5127.93584109
+2026-08-01,314,Biblioteca del Congreso de la Nación,4927.41945675
+2026-09-01,314,Biblioteca del Congreso de la Nación,5031.38116758
+2026-10-01,314,Biblioteca del Congreso de la Nación,6192.15026739
+2026-11-01,314,Biblioteca del Congreso de la Nación,72.06175400000001
+2026-01-01,315,Imprenta del Congreso de la Nación,1070.60042171
+2026-02-01,315,Imprenta del Congreso de la Nación,1018.00255119
+2026-03-01,315,Imprenta del Congreso de la Nación,1354.48078599
+2026-04-01,315,Imprenta del Congreso de la Nación,1239.40655855
+2026-05-01,315,Imprenta del Congreso de la Nación,1297.81581086
+2026-06-01,315,Imprenta del Congreso de la Nación,1806.612578
+2026-07-01,315,Imprenta del Congreso de la Nación,1311.25297733
+2026-08-01,315,Imprenta del Congreso de la Nación,1332.58217032
+2026-09-01,315,Imprenta del Congreso de la Nación,1655.73696481
+2026-10-01,315,Imprenta del Congreso de la Nación,1747.6123452
+2026-11-01,315,Imprenta del Congreso de la Nación,0.0
+2026-01-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5160.7027155900005
+2026-02-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5169.38814418
+2026-03-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5769.85329964
+2026-04-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),10266.140122589999
+2026-05-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),3964.08608948
+2026-06-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),18278.38951641
+2026-07-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),16523.83921718
+2026-08-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),12199.724901720001
+2026-09-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),12349.64103991
+2026-10-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),18875.694092489997
+2026-11-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5529.615359
+2026-01-01,319,Defensoría del Pueblo de la Nación,1037.53126303
+2026-02-01,319,Defensoría del Pueblo de la Nación,962.90620315
+2026-03-01,319,Defensoría del Pueblo de la Nación,1224.79785557
+2026-04-01,319,Defensoría del Pueblo de la Nación,1173.43915326
+2026-05-01,319,Defensoría del Pueblo de la Nación,1210.87689139
+2026-06-01,319,Defensoría del Pueblo de la Nación,1742.81198657
+2026-07-01,319,Defensoría del Pueblo de la Nación,1293.23935165
+2026-08-01,319,Defensoría del Pueblo de la Nación,1311.2489458
+2026-09-01,319,Defensoría del Pueblo de la Nación,1327.51249639
+2026-10-01,319,Defensoría del Pueblo de la Nación,1359.26809772
+2026-11-01,319,Defensoría del Pueblo de la Nación,8.36206385
+2026-01-01,320,Consejo de la Magistratura,140545.13212485
+2026-02-01,320,Consejo de la Magistratura,155246.42134695
+2026-03-01,320,Consejo de la Magistratura,160976.24271189
+2026-04-01,320,Consejo de la Magistratura,164003.75292088
+2026-05-01,320,Consejo de la Magistratura,172626.72957469
+2026-06-01,320,Consejo de la Magistratura,251680.79518077
+2026-07-01,320,Consejo de la Magistratura,178735.3276261
+2026-08-01,320,Consejo de la Magistratura,185967.02165615
+2026-09-01,320,Consejo de la Magistratura,184311.47362892
+2026-10-01,320,Consejo de la Magistratura,187674.57147754
+2026-11-01,320,Consejo de la Magistratura,13.318245810000011
+2026-01-01,321,Instituto Nacional de Estadística y Censos (INDEC),1845.77021781
+2026-02-01,321,Instituto Nacional de Estadística y Censos (INDEC),3385.84890817
+2026-03-01,321,Instituto Nacional de Estadística y Censos (INDEC),4295.17524654
+2026-04-01,321,Instituto Nacional de Estadística y Censos (INDEC),2691.6607531
+2026-05-01,321,Instituto Nacional de Estadística y Censos (INDEC),2893.68282132
+2026-06-01,321,Instituto Nacional de Estadística y Censos (INDEC),5881.82320526
+2026-07-01,321,Instituto Nacional de Estadística y Censos (INDEC),3193.5137047
+2026-08-01,321,Instituto Nacional de Estadística y Censos (INDEC),3023.98813349
+2026-09-01,321,Instituto Nacional de Estadística y Censos (INDEC),5733.91411677
+2026-10-01,321,Instituto Nacional de Estadística y Censos (INDEC),3111.68782902
+2026-11-01,321,Instituto Nacional de Estadística y Censos (INDEC),162.18087781
+2026-01-01,322,Secretaría de Turismo y Ambiente,2019.7608945
+2026-02-01,322,Secretaría de Turismo y Ambiente,2334.31043024
+2026-03-01,322,Secretaría de Turismo y Ambiente,2834.24858736
+2026-04-01,322,Secretaría de Turismo y Ambiente,2226.23933128
+2026-05-01,322,Secretaría de Turismo y Ambiente,2148.1574879
+2026-06-01,322,Secretaría de Turismo y Ambiente,5130.68930858
+2026-07-01,322,Secretaría de Turismo y Ambiente,2333.81412821
+2026-08-01,322,Secretaría de Turismo y Ambiente,1727.41828434
+2026-09-01,322,Secretaría de Turismo y Ambiente,3301.41627608
+2026-10-01,322,Secretaría de Turismo y Ambiente,2213.14778806
+2026-11-01,322,Secretaría de Turismo y Ambiente,16.75493274
+2026-01-01,325,Ministerio del Interior,8899.73598809
+2026-02-01,325,Ministerio del Interior,24775.22072718
+2026-03-01,325,Ministerio del Interior,54384.00348827
+2026-04-01,325,Ministerio del Interior,52322.426326
+2026-05-01,325,Ministerio del Interior,6515.4282753
+2026-06-01,325,Ministerio del Interior,12998.92743096
+2026-07-01,325,Ministerio del Interior,35917.89854742
+2026-08-01,325,Ministerio del Interior,4604.16939475
+2026-09-01,325,Ministerio del Interior,44380.00625134
+2026-10-01,325,Ministerio del Interior,25763.30708796
+2026-11-01,325,Ministerio del Interior,736.2229301
+2026-01-01,326,Policía Federal Argentina (PFA),71304.63091791
+2026-02-01,326,Policía Federal Argentina (PFA),78828.6657334
+2026-03-01,326,Policía Federal Argentina (PFA),86317.18200751
+2026-04-01,326,Policía Federal Argentina (PFA),95083.54163401
+2026-05-01,326,Policía Federal Argentina (PFA),84390.35646003
+2026-06-01,326,Policía Federal Argentina (PFA),115651.2926592
+2026-07-01,326,Policía Federal Argentina (PFA),89118.40568892
+2026-08-01,326,Policía Federal Argentina (PFA),91559.88632425
+2026-09-01,326,Policía Federal Argentina (PFA),91840.19794567
+2026-10-01,326,Policía Federal Argentina (PFA),97975.41615828
+2026-11-01,326,Policía Federal Argentina (PFA),596.05845683
+2026-01-01,330,Secretaría de Educación,403599.31377324
+2026-02-01,330,Secretaría de Educación,474038.74540057
+2026-03-01,330,Secretaría de Educación,516869.5446755
+2026-04-01,330,Secretaría de Educación,458289.65386508
+2026-05-01,330,Secretaría de Educación,492484.26140551
+2026-06-01,330,Secretaría de Educación,877273.27993263
+2026-07-01,330,Secretaría de Educación,102813.12456704001
+2026-08-01,330,Secretaría de Educación,559549.15705575
+2026-09-01,330,Secretaría de Educación,1167748.38446583
+2026-10-01,330,Secretaría de Educación,613723.52266795
+2026-11-01,330,Secretaría de Educación,5963.3011648500005
+2026-01-01,331,Servicio Penitenciario Federal,39435.32235088
+2026-02-01,331,Servicio Penitenciario Federal,38649.84826669
+2026-03-01,331,Servicio Penitenciario Federal,48642.58704085
+2026-04-01,331,Servicio Penitenciario Federal,46607.14422591
+2026-05-01,331,Servicio Penitenciario Federal,42130.52473827
+2026-06-01,331,Servicio Penitenciario Federal,71415.18894580001
+2026-07-01,331,Servicio Penitenciario Federal,45536.64914484
+2026-08-01,331,Servicio Penitenciario Federal,50178.456161329996
+2026-09-01,331,Servicio Penitenciario Federal,51167.03023865
+2026-10-01,331,Servicio Penitenciario Federal,52884.82847367
+2026-11-01,331,Servicio Penitenciario Federal,153.01143525
+2026-01-01,332,Ministerio de Justicia,8672.67923002
+2026-02-01,332,Ministerio de Justicia,9195.89388797
+2026-03-01,332,Ministerio de Justicia,12048.72779389
+2026-04-01,332,Ministerio de Justicia,11752.575843300001
+2026-05-01,332,Ministerio de Justicia,14881.72073126
+2026-06-01,332,Ministerio de Justicia,53159.86230874
+2026-07-01,332,Ministerio de Justicia,12779.12021397
+2026-08-01,332,Ministerio de Justicia,14921.0541882
+2026-09-01,332,Ministerio de Justicia,29569.2854883
+2026-10-01,332,Ministerio de Justicia,19513.86464117
+2026-11-01,332,Ministerio de Justicia,146.36647299
+2026-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1350.68461151
+2026-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1365.44086776
+2026-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1579.44308251
+2026-04-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1292.29049194
+2026-05-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1345.69316565
+2026-06-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,2187.3723787
+2026-07-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1432.29150532
+2026-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1462.08855426
+2026-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1947.7586839
+2026-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1258.45273767
+2026-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,285.09769209
+2026-01-01,335,Corte Suprema de Justicia de la Nación,20267.33893631
+2026-02-01,335,Corte Suprema de Justicia de la Nación,21468.05411069
+2026-03-01,335,Corte Suprema de Justicia de la Nación,23765.16299097
+2026-04-01,335,Corte Suprema de Justicia de la Nación,22546.65429537
+2026-05-01,335,Corte Suprema de Justicia de la Nación,25292.51071604
+2026-06-01,335,Corte Suprema de Justicia de la Nación,36445.12199479
+2026-07-01,335,Corte Suprema de Justicia de la Nación,25606.80000974
+2026-08-01,335,Corte Suprema de Justicia de la Nación,26905.14398857
+2026-09-01,335,Corte Suprema de Justicia de la Nación,26211.19887654
+2026-10-01,335,Corte Suprema de Justicia de la Nación,27775.37053681
+2026-01-01,336,"Secretaría de Innovación, Ciencia y Tecnología",1780.41008932
+2026-02-01,336,"Secretaría de Innovación, Ciencia y Tecnología",5999.9616750000005
+2026-03-01,336,"Secretaría de Innovación, Ciencia y Tecnología",20630.34950442
+2026-04-01,336,"Secretaría de Innovación, Ciencia y Tecnología",7717.65127067
+2026-05-01,336,"Secretaría de Innovación, Ciencia y Tecnología",16865.36132263
+2026-06-01,336,"Secretaría de Innovación, Ciencia y Tecnología",20616.25570101
+2026-07-01,336,"Secretaría de Innovación, Ciencia y Tecnología",3138.3956478
+2026-08-01,336,"Secretaría de Innovación, Ciencia y Tecnología",9003.97108942
+2026-09-01,336,"Secretaría de Innovación, Ciencia y Tecnología",33425.44454099
+2026-10-01,336,"Secretaría de Innovación, Ciencia y Tecnología",-5819.587235669999
+2026-11-01,336,"Secretaría de Innovación, Ciencia y Tecnología",1.1488349
+2026-01-01,337,Secretaría de Cultura,7017.61720589
+2026-02-01,337,Secretaría de Cultura,10646.89129706
+2026-03-01,337,Secretaría de Cultura,18604.46752752
+2026-04-01,337,Secretaría de Cultura,16132.04500066
+2026-05-01,337,Secretaría de Cultura,15612.955400750001
+2026-06-01,337,Secretaría de Cultura,13275.08880969
+2026-07-01,337,Secretaría de Cultura,14200.35064217
+2026-08-01,337,Secretaría de Cultura,17889.50973324
+2026-09-01,337,Secretaría de Cultura,27434.25592746
+2026-10-01,337,Secretaría de Cultura,15814.82385928
+2026-11-01,337,Secretaría de Cultura,669.03349155
+2026-01-01,338,Secretaría Legal y Técnica,865.94731489
+2026-02-01,338,Secretaría Legal y Técnica,940.59826911
+2026-03-01,338,Secretaría Legal y Técnica,1151.7626686
+2026-04-01,338,Secretaría Legal y Técnica,780.85259346
+2026-05-01,338,Secretaría Legal y Técnica,1065.18881439
+2026-06-01,338,Secretaría Legal y Técnica,1989.41373072
+2026-07-01,338,Secretaría Legal y Técnica,1095.31187498
+2026-08-01,338,Secretaría Legal y Técnica,1236.3410255600002
+2026-09-01,338,Secretaría Legal y Técnica,1434.2657351799999
+2026-10-01,338,Secretaría Legal y Técnica,1271.85604983
+2026-11-01,338,Secretaría Legal y Técnica,8.91103485
+2026-01-01,340,Procuración Penitenciaria de la Nación,1045.57429385
+2026-02-01,340,Procuración Penitenciaria de la Nación,1094.70513766
+2026-03-01,340,Procuración Penitenciaria de la Nación,1508.19474349
+2026-04-01,340,Procuración Penitenciaria de la Nación,1564.77725124
+2026-05-01,340,Procuración Penitenciaria de la Nación,1449.8432219
+2026-06-01,340,Procuración Penitenciaria de la Nación,2119.49169474
+2026-07-01,340,Procuración Penitenciaria de la Nación,1413.37641598
+2026-08-01,340,Procuración Penitenciaria de la Nación,1598.40682736
+2026-09-01,340,Procuración Penitenciaria de la Nación,1707.43682964
+2026-10-01,340,Procuración Penitenciaria de la Nación,1445.06870759
+2026-11-01,340,Procuración Penitenciaria de la Nación,1.62856445
+2026-01-01,343,Ministerio de Seguridad Nacional,14363.15511066
+2026-02-01,343,Ministerio de Seguridad Nacional,26122.79763382
+2026-03-01,343,Ministerio de Seguridad Nacional,39425.98837039
+2026-04-01,343,Ministerio de Seguridad Nacional,28078.96477277
+2026-05-01,343,Ministerio de Seguridad Nacional,29645.02501586
+2026-06-01,343,Ministerio de Seguridad Nacional,18268.75450349
+2026-07-01,343,Ministerio de Seguridad Nacional,37264.50496695
+2026-08-01,343,Ministerio de Seguridad Nacional,27491.53086487
+2026-09-01,343,Ministerio de Seguridad Nacional,44944.68405388
+2026-10-01,343,Ministerio de Seguridad Nacional,57713.866885380005
+2026-11-01,343,Ministerio de Seguridad Nacional,2426.6960599400004
+2026-01-01,345,Consejo Nacional de Coordinación de Políticas Sociales,394.02291339
+2026-02-01,345,Consejo Nacional de Coordinación de Políticas Sociales,307.31063753
+2026-03-01,345,Consejo Nacional de Coordinación de Políticas Sociales,734.76659571
+2026-04-01,345,Consejo Nacional de Coordinación de Políticas Sociales,402.5134947
+2026-05-01,345,Consejo Nacional de Coordinación de Políticas Sociales,446.99434475
+2026-06-01,345,Consejo Nacional de Coordinación de Políticas Sociales,879.00947889
+2026-07-01,345,Consejo Nacional de Coordinación de Políticas Sociales,485.67465531
+2026-08-01,345,Consejo Nacional de Coordinación de Políticas Sociales,510.77429442
+2026-09-01,345,Consejo Nacional de Coordinación de Políticas Sociales,483.6402748
+2026-10-01,345,Consejo Nacional de Coordinación de Políticas Sociales,581.38709884
+2026-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,1.04971405
+2026-01-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,88.49578192
+2026-02-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,144.90028422
+2026-03-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,196.5918457
+2026-04-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,170.36468941
+2026-05-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,174.26200574
+2026-06-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,261.3949262
+2026-07-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,204.25250068
+2026-08-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,192.25243136999998
+2026-09-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,201.70116245
+2026-10-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,175.15357534999998
+2026-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,53.68813496
+2026-01-01,349,Procuración del Tesoro de la Nación,557.37596489
+2026-02-01,349,Procuración del Tesoro de la Nación,759.25316825
+2026-03-01,349,Procuración del Tesoro de la Nación,967.1102253900001
+2026-04-01,349,Procuración del Tesoro de la Nación,591.90308673
+2026-05-01,349,Procuración del Tesoro de la Nación,721.66871226
+2026-06-01,349,Procuración del Tesoro de la Nación,1376.72649516
+2026-07-01,349,Procuración del Tesoro de la Nación,610.96899751
+2026-08-01,349,Procuración del Tesoro de la Nación,1007.98923432
+2026-09-01,349,Procuración del Tesoro de la Nación,896.62362288
+2026-10-01,349,Procuración del Tesoro de la Nación,688.5143071599999
+2026-11-01,349,Procuración del Tesoro de la Nación,237.4449453
+2026-01-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",91048.33381711
+2026-02-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",86212.94672384
+2026-03-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",90948.61653258
+2026-04-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",86580.73053414999
+2026-05-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",87099.49872784
+2026-06-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",89539.44647289
+2026-07-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",17497.54272239
+2026-08-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",13129.93799302
+2026-09-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",145872.11131397999
+2026-10-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",13317.65096898
+2026-11-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",6890.18896972
+2026-01-01,355,Servicio de la Deuda Pública,1578299.99861335
+2026-02-01,355,Servicio de la Deuda Pública,2339473.55779105
+2026-03-01,355,Servicio de la Deuda Pública,556743.7957621301
+2026-04-01,355,Servicio de la Deuda Pública,313395.14638353
+2026-05-01,355,Servicio de la Deuda Pública,2076124.04378468
+2026-06-01,355,Servicio de la Deuda Pública,2509855.99581525
+2026-07-01,355,Servicio de la Deuda Pública,329905.1884873
+2026-08-01,355,Servicio de la Deuda Pública,2558169.21767277
+2026-09-01,355,Servicio de la Deuda Pública,631101.27029095
+2026-10-01,355,Servicio de la Deuda Pública,388102.70816984
+2026-11-01,355,Servicio de la Deuda Pública,208795.97641911
+2026-01-01,356,Obligaciones a Cargo del Tesoro,309246.25710985
+2026-02-01,356,Obligaciones a Cargo del Tesoro,415599.46707059
+2026-03-01,356,Obligaciones a Cargo del Tesoro,263442.31345948
+2026-04-01,356,Obligaciones a Cargo del Tesoro,437874.12150473
+2026-05-01,356,Obligaciones a Cargo del Tesoro,463017.32651606004
+2026-06-01,356,Obligaciones a Cargo del Tesoro,745636.17670993
+2026-07-01,356,Obligaciones a Cargo del Tesoro,244794.99158098001
+2026-08-01,356,Obligaciones a Cargo del Tesoro,444848.37709534
+2026-09-01,356,Obligaciones a Cargo del Tesoro,571769.44852614
+2026-10-01,356,Obligaciones a Cargo del Tesoro,377001.50953832
+2026-11-01,356,Obligaciones a Cargo del Tesoro,9432.60922903
+2026-01-01,357,Ministerio de Economía,396348.89254336996
+2026-02-01,357,Ministerio de Economía,289765.3279123
+2026-03-01,357,Ministerio de Economía,430612.30549776
+2026-04-01,357,Ministerio de Economía,352070.86050908
+2026-05-01,357,Ministerio de Economía,460660.67665528
+2026-06-01,357,Ministerio de Economía,564328.01129814
+2026-07-01,357,Ministerio de Economía,768546.68518218
+2026-08-01,357,Ministerio de Economía,858734.64949924
+2026-09-01,357,Ministerio de Economía,650745.02923049
+2026-10-01,357,Ministerio de Economía,634013.48207912
+2026-11-01,357,Ministerio de Economía,95780.73955161001
+2026-01-01,360,Procuración General de la Nación,43787.72758082001
+2026-02-01,360,Procuración General de la Nación,47492.86872818
+2026-03-01,360,Procuración General de la Nación,48820.1308727
+2026-04-01,360,Procuración General de la Nación,50685.94426449
+2026-05-01,360,Procuración General de la Nación,45743.759665620004
+2026-06-01,360,Procuración General de la Nación,86550.65491658
+2026-07-01,360,Procuración General de la Nación,54970.87163976
+2026-08-01,360,Procuración General de la Nación,53159.783447179994
+2026-09-01,360,Procuración General de la Nación,64626.02169493
+2026-10-01,360,Procuración General de la Nación,60721.16145425
+2026-11-01,360,Procuración General de la Nación,553.88873758
+2026-01-01,361,Defensoría General de la Nación,23468.68669289
+2026-02-01,361,Defensoría General de la Nación,25980.51017708
+2026-03-01,361,Defensoría General de la Nación,27789.57603213
+2026-04-01,361,Defensoría General de la Nación,27666.14731553
+2026-05-01,361,Defensoría General de la Nación,27111.19554016
+2026-06-01,361,Defensoría General de la Nación,45024.39166247
+2026-07-01,361,Defensoría General de la Nación,29788.14845495
+2026-08-01,361,Defensoría General de la Nación,31220.96044938
+2026-09-01,361,Defensoría General de la Nación,31574.46353858
+2026-10-01,361,Defensoría General de la Nación,31552.41652019
+2026-11-01,361,Defensoría General de la Nación,322.77287693
+2026-01-01,362,Secretaría de Industria y Desarrollo Productivo,5616.12755679
+2026-02-01,362,Secretaría de Industria y Desarrollo Productivo,13030.61500932
+2026-03-01,362,Secretaría de Industria y Desarrollo Productivo,15657.20942408
+2026-04-01,362,Secretaría de Industria y Desarrollo Productivo,9512.39189625
+2026-05-01,362,Secretaría de Industria y Desarrollo Productivo,13727.87860314
+2026-06-01,362,Secretaría de Industria y Desarrollo Productivo,30324.31178549
+2026-07-01,362,Secretaría de Industria y Desarrollo Productivo,9920.82040829
+2026-08-01,362,Secretaría de Industria y Desarrollo Productivo,11832.6768295
+2026-09-01,362,Secretaría de Industria y Desarrollo Productivo,22516.26035741
+2026-10-01,362,Secretaría de Industria y Desarrollo Productivo,9082.45958268
+2026-11-01,362,Secretaría de Industria y Desarrollo Productivo,451.46553114
+2026-01-01,368,Secretaría de Comunicación y Prensa,480.46187580000003
+2026-02-01,368,Secretaría de Comunicación y Prensa,582.89250706
+2026-03-01,368,Secretaría de Comunicación y Prensa,868.94267802
+2026-04-01,368,Secretaría de Comunicación y Prensa,625.60230264
+2026-05-01,368,Secretaría de Comunicación y Prensa,864.60793544
+2026-06-01,368,Secretaría de Comunicación y Prensa,967.76163764
+2026-07-01,368,Secretaría de Comunicación y Prensa,787.29040059
+2026-08-01,368,Secretaría de Comunicación y Prensa,791.4561287
+2026-09-01,368,Secretaría de Comunicación y Prensa,865.9999863
+2026-10-01,368,Secretaría de Comunicación y Prensa,758.07429416
+2026-11-01,368,Secretaría de Comunicación y Prensa,62.1765193
+2026-01-01,369,Oficina de Presupuesto del Congreso,104.13412962
+2026-02-01,369,Oficina de Presupuesto del Congreso,108.94186888
+2026-03-01,369,Oficina de Presupuesto del Congreso,136.04626313
+2026-04-01,369,Oficina de Presupuesto del Congreso,132.34484111
+2026-05-01,369,Oficina de Presupuesto del Congreso,132.58478094
+2026-06-01,369,Oficina de Presupuesto del Congreso,177.76189938000002
+2026-07-01,369,Oficina de Presupuesto del Congreso,118.69516635
+2026-08-01,369,Oficina de Presupuesto del Congreso,150.22741465
+2026-09-01,369,Oficina de Presupuesto del Congreso,161.32063627
+2026-10-01,369,Oficina de Presupuesto del Congreso,141.98977791
+2026-01-01,370,Ministerio de Defensa,4322.497682560001
+2026-02-01,370,Ministerio de Defensa,3608.17170618
+2026-03-01,370,Ministerio de Defensa,12640.33130212
+2026-04-01,370,Ministerio de Defensa,6770.48517627
+2026-05-01,370,Ministerio de Defensa,2500.8078813399998
+2026-06-01,370,Ministerio de Defensa,7591.07172842
+2026-07-01,370,Ministerio de Defensa,7115.1072200300005
+2026-08-01,370,Ministerio de Defensa,3259.15984523
+2026-09-01,370,Ministerio de Defensa,3149.62483096
+2026-10-01,370,Ministerio de Defensa,17828.19833056
+2026-11-01,370,Ministerio de Defensa,317.18007272
+2026-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1209.9947727899998
+2026-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),7853.72709235
+2026-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),6633.84739884
+2026-04-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2421.60265949
+2026-05-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),3624.18286677
+2026-06-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),3137.12564302
+2026-07-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1924.11030343
+2026-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2533.48729495
+2026-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),3382.68604093
+2026-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),3244.9132607799997
+2026-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),831.10042433
+2026-01-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),870.03243653
+2026-02-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),899.43948335
+2026-03-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1008.49972169
+2026-04-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),920.2925235699998
+2026-05-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),943.72260913
+2026-06-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1602.60050963
+2026-07-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),994.24073934
+2026-08-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1076.16965211
+2026-09-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1146.19578945
+2026-10-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1018.63559187
+2026-11-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),67.05272
+2026-01-01,374,Estado Mayor General del Ejército Argentino (EMGE),118933.36502757
+2026-02-01,374,Estado Mayor General del Ejército Argentino (EMGE),121131.40243023999
+2026-03-01,374,Estado Mayor General del Ejército Argentino (EMGE),175240.69166098
+2026-04-01,374,Estado Mayor General del Ejército Argentino (EMGE),169725.80273985
+2026-05-01,374,Estado Mayor General del Ejército Argentino (EMGE),139008.9691446
+2026-06-01,374,Estado Mayor General del Ejército Argentino (EMGE),197495.96093942
+2026-07-01,374,Estado Mayor General del Ejército Argentino (EMGE),146326.89849664998
+2026-08-01,374,Estado Mayor General del Ejército Argentino (EMGE),156683.97284717
+2026-09-01,374,Estado Mayor General del Ejército Argentino (EMGE),179611.27569223
+2026-10-01,374,Estado Mayor General del Ejército Argentino (EMGE),156594.83128359
+2026-11-01,374,Estado Mayor General del Ejército Argentino (EMGE),13630.8376326
+2026-01-01,375,Gendarmería Nacional Argentina (GNA),111215.14644723
+2026-02-01,375,Gendarmería Nacional Argentina (GNA),109986.63642098001
+2026-03-01,375,Gendarmería Nacional Argentina (GNA),125322.86627835
+2026-04-01,375,Gendarmería Nacional Argentina (GNA),131203.06027931
+2026-05-01,375,Gendarmería Nacional Argentina (GNA),122179.38706184
+2026-06-01,375,Gendarmería Nacional Argentina (GNA),170772.15388055998
+2026-07-01,375,Gendarmería Nacional Argentina (GNA),129533.82055587
+2026-08-01,375,Gendarmería Nacional Argentina (GNA),130055.2943606
+2026-09-01,375,Gendarmería Nacional Argentina (GNA),143618.29053367
+2026-10-01,375,Gendarmería Nacional Argentina (GNA),144377.82349166
+2026-11-01,375,Gendarmería Nacional Argentina (GNA),8156.3079578
+2026-01-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,120.93689771
+2026-02-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,359.09719222
+2026-03-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2750.05740038
+2026-04-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,845.39181677
+2026-05-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,522.43592181
+2026-06-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1471.4467119
+2026-07-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,914.02348763
+2026-08-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,3719.3471861700004
+2026-09-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,4695.16022822
+2026-10-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2948.50214349
+2026-11-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,900.73573153
+2026-01-01,377,Infraestructura Económica y Social,3222.09239575
+2026-02-01,377,Infraestructura Económica y Social,90939.84101209
+2026-03-01,377,Infraestructura Económica y Social,145484.02243071
+2026-04-01,377,Infraestructura Económica y Social,97683.56450864
+2026-05-01,377,Infraestructura Económica y Social,38821.50236903
+2026-06-01,377,Infraestructura Económica y Social,212414.96382923002
+2026-07-01,377,Infraestructura Económica y Social,117829.67636058
+2026-08-01,377,Infraestructura Económica y Social,83950.6030624
+2026-09-01,377,Infraestructura Económica y Social,202592.86723493002
+2026-10-01,377,Infraestructura Económica y Social,32802.85041912
+2026-11-01,377,Infraestructura Económica y Social,804.23222588
+2026-01-01,379,Estado Mayor General de la Armada Argentina (EMGA),60640.22737797
+2026-02-01,379,Estado Mayor General de la Armada Argentina (EMGA),61253.92588632
+2026-03-01,379,Estado Mayor General de la Armada Argentina (EMGA),73198.13232925
+2026-04-01,379,Estado Mayor General de la Armada Argentina (EMGA),87963.68396772
+2026-05-01,379,Estado Mayor General de la Armada Argentina (EMGA),71246.77367756
+2026-06-01,379,Estado Mayor General de la Armada Argentina (EMGA),104139.69816544
+2026-07-01,379,Estado Mayor General de la Armada Argentina (EMGA),73381.55020057
+2026-08-01,379,Estado Mayor General de la Armada Argentina (EMGA),74658.46121741
+2026-09-01,379,Estado Mayor General de la Armada Argentina (EMGA),117850.34532853999
+2026-10-01,379,Estado Mayor General de la Armada Argentina (EMGA),78666.16873209
+2026-11-01,379,Estado Mayor General de la Armada Argentina (EMGA),1292.02162491
+2026-01-01,380,Prefectura Naval Argentina (PNA),56689.3805356
+2026-02-01,380,Prefectura Naval Argentina (PNA),56148.76359792
+2026-03-01,380,Prefectura Naval Argentina (PNA),67316.4482637
+2026-04-01,380,Prefectura Naval Argentina (PNA),69739.34165983
+2026-05-01,380,Prefectura Naval Argentina (PNA),63284.10782963
+2026-06-01,380,Prefectura Naval Argentina (PNA),88394.74052492
+2026-07-01,380,Prefectura Naval Argentina (PNA),70508.08336208
+2026-08-01,380,Prefectura Naval Argentina (PNA),69119.51153275999
+2026-09-01,380,Prefectura Naval Argentina (PNA),75804.08108282
+2026-10-01,380,Prefectura Naval Argentina (PNA),76163.03444887
+2026-11-01,380,Prefectura Naval Argentina (PNA),988.66741284
+2026-01-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),46234.41747573
+2026-02-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),48626.79711732
+2026-03-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),75516.1703212
+2026-04-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),61029.06755436
+2026-05-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),54976.87325033
+2026-06-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),87682.69812714
+2026-07-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),56374.93416199
+2026-08-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),65502.56893508
+2026-09-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),85347.70208556
+2026-10-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),76919.52540502
+2026-11-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),970.35077998
+2026-01-01,382,Policía de Seguridad Aeroportuaria (PSA),15128.60894716
+2026-02-01,382,Policía de Seguridad Aeroportuaria (PSA),14975.63979214
+2026-03-01,382,Policía de Seguridad Aeroportuaria (PSA),18964.25128721
+2026-04-01,382,Policía de Seguridad Aeroportuaria (PSA),21693.97577209
+2026-05-01,382,Policía de Seguridad Aeroportuaria (PSA),14253.042278609999
+2026-06-01,382,Policía de Seguridad Aeroportuaria (PSA),27953.5775234
+2026-07-01,382,Policía de Seguridad Aeroportuaria (PSA),16138.72470969
+2026-08-01,382,Policía de Seguridad Aeroportuaria (PSA),22743.58758987
+2026-09-01,382,Policía de Seguridad Aeroportuaria (PSA),20854.5150799
+2026-10-01,382,Policía de Seguridad Aeroportuaria (PSA),20341.01091681
+2026-11-01,382,Policía de Seguridad Aeroportuaria (PSA),421.82836906
+2026-01-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",643.9689504
+2026-02-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",649.48692514
+2026-03-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",809.53417972
+2026-04-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",724.78647143
+2026-05-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",870.45012628
+2026-06-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",1003.43400548
+2026-07-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",887.73351385
+2026-08-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",911.18934575
+2026-09-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",997.2790092700001
+2026-10-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",961.17944458
+2026-11-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",3.40220412
+2026-01-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),388.50230688
+2026-02-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),454.79042811
+2026-03-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),570.20200536
+2026-04-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),390.66798773
+2026-05-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),846.59574167
+2026-06-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),940.0825967
+2026-07-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),662.23926363
+2026-08-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),544.98592182
+2026-09-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),898.8239125
+2026-10-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),710.49875971
+2026-11-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),25.51900388
+2026-01-01,388,Ministerio de Capital Humano,826.19025553
+2026-02-01,388,Ministerio de Capital Humano,786.3100051600001
+2026-03-01,388,Ministerio de Capital Humano,1229.22719629
+2026-04-01,388,Ministerio de Capital Humano,945.18128745
+2026-05-01,388,Ministerio de Capital Humano,1100.43339787
+2026-06-01,388,Ministerio de Capital Humano,1636.42433141
+2026-07-01,388,Ministerio de Capital Humano,1565.90003987
+2026-08-01,388,Ministerio de Capital Humano,1856.98253571
+2026-09-01,388,Ministerio de Capital Humano,12722.41354318
+2026-10-01,388,Ministerio de Capital Humano,1179.99146253
+2026-11-01,388,Ministerio de Capital Humano,361.62582213
+2026-01-01,389,Ministerio de Desregulación y Transformación del Estado,1141.54729901
+2026-02-01,389,Ministerio de Desregulación y Transformación del Estado,1877.76349872
+2026-03-01,389,Ministerio de Desregulación y Transformación del Estado,1401.93946269
+2026-04-01,389,Ministerio de Desregulación y Transformación del Estado,1999.82539389
+2026-05-01,389,Ministerio de Desregulación y Transformación del Estado,1545.7860008999999
+2026-06-01,389,Ministerio de Desregulación y Transformación del Estado,3059.97102098
+2026-07-01,389,Ministerio de Desregulación y Transformación del Estado,1518.47576651
+2026-08-01,389,Ministerio de Desregulación y Transformación del Estado,1683.44776921
+2026-09-01,389,Ministerio de Desregulación y Transformación del Estado,1775.52056393
+2026-10-01,389,Ministerio de Desregulación y Transformación del Estado,1693.47620672
+2026-11-01,389,Ministerio de Desregulación y Transformación del Estado,2.94720154
+2026-01-01,450,Instituto Geográfico Nacional,504.40238159
+2026-02-01,450,Instituto Geográfico Nacional,102.62538518
+2026-03-01,450,Instituto Geográfico Nacional,1186.55526241
+2026-04-01,450,Instituto Geográfico Nacional,615.66254541
+2026-05-01,450,Instituto Geográfico Nacional,615.03388321
+2026-06-01,450,Instituto Geográfico Nacional,1110.64390195
+2026-07-01,450,Instituto Geográfico Nacional,607.39367346
+2026-08-01,450,Instituto Geográfico Nacional,576.71693651
+2026-09-01,450,Instituto Geográfico Nacional,998.94356114
+2026-10-01,450,Instituto Geográfico Nacional,707.55691331
+2026-11-01,450,Instituto Geográfico Nacional,0.0
+2026-01-01,452,Servicio Meteorológico Nacional,1221.91885245
+2026-02-01,452,Servicio Meteorológico Nacional,1813.19942909
+2026-03-01,452,Servicio Meteorológico Nacional,3464.41098589
+2026-04-01,452,Servicio Meteorológico Nacional,1349.3926247900001
+2026-05-01,452,Servicio Meteorológico Nacional,2018.2990996
+2026-06-01,452,Servicio Meteorológico Nacional,4133.02625541
+2026-07-01,452,Servicio Meteorológico Nacional,1429.43741594
+2026-08-01,452,Servicio Meteorológico Nacional,1002.95299159
+2026-09-01,452,Servicio Meteorológico Nacional,4341.00121628
+2026-10-01,452,Servicio Meteorológico Nacional,2013.66253166
+2026-11-01,452,Servicio Meteorológico Nacional,96.62941251
+2026-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,170294.85452909
+2026-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,165042.91687214
+2026-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,188968.30470223
+2026-04-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,179058.86855128
+2026-05-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,182588.20652436
+2026-06-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,272366.27292736
+2026-07-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,199386.354342
+2026-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,198592.97635045002
+2026-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,216944.17255835
+2026-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,220008.4331121
+2026-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,0.0
+2026-01-01,602,Comisión Nacional de Valores,1123.75627287
+2026-02-01,602,Comisión Nacional de Valores,1543.57342159
+2026-03-01,602,Comisión Nacional de Valores,2095.58026365
+2026-04-01,602,Comisión Nacional de Valores,1358.52869697
+2026-05-01,602,Comisión Nacional de Valores,1608.7890152
+2026-06-01,602,Comisión Nacional de Valores,2105.13228755
+2026-07-01,602,Comisión Nacional de Valores,1796.3438372800001
+2026-08-01,602,Comisión Nacional de Valores,1634.45896962
+2026-09-01,602,Comisión Nacional de Valores,2690.17020698
+2026-10-01,602,Comisión Nacional de Valores,1675.9120143300001
+2026-11-01,602,Comisión Nacional de Valores,0.18174484
+2026-01-01,603,Superintendencia de Seguros de la Nación,1831.1702724
+2026-02-01,603,Superintendencia de Seguros de la Nación,2270.72889467
+2026-03-01,603,Superintendencia de Seguros de la Nación,4093.45723083
+2026-04-01,603,Superintendencia de Seguros de la Nación,3177.35983132
+2026-05-01,603,Superintendencia de Seguros de la Nación,2677.9924561899998
+2026-06-01,603,Superintendencia de Seguros de la Nación,4865.47361171
+2026-07-01,603,Superintendencia de Seguros de la Nación,2006.11118964
+2026-08-01,603,Superintendencia de Seguros de la Nación,2866.25589382
+2026-09-01,603,Superintendencia de Seguros de la Nación,3789.42307661
+2026-10-01,603,Superintendencia de Seguros de la Nación,2182.48210964
+2026-11-01,603,Superintendencia de Seguros de la Nación,87.21992165
+2026-01-01,604,Dirección Nacional de Vialidad,10614.36610046
+2026-02-01,604,Dirección Nacional de Vialidad,49104.60348354
+2026-03-01,604,Dirección Nacional de Vialidad,66974.39672539
+2026-04-01,604,Dirección Nacional de Vialidad,18500.2689172
+2026-05-01,604,Dirección Nacional de Vialidad,28990.55799631
+2026-06-01,604,Dirección Nacional de Vialidad,47204.35157289
+2026-07-01,604,Dirección Nacional de Vialidad,30321.40702046
+2026-08-01,604,Dirección Nacional de Vialidad,61440.85322892
+2026-09-01,604,Dirección Nacional de Vialidad,73294.89334681
+2026-10-01,604,Dirección Nacional de Vialidad,49056.03120554
+2026-11-01,604,Dirección Nacional de Vialidad,26927.89452516
+2026-01-01,606,Instituto Nacional de Tecnología Agropecuaria,17139.19292912
+2026-02-01,606,Instituto Nacional de Tecnología Agropecuaria,17536.11034105
+2026-03-01,606,Instituto Nacional de Tecnología Agropecuaria,23085.72614433
+2026-04-01,606,Instituto Nacional de Tecnología Agropecuaria,18652.42035445
+2026-05-01,606,Instituto Nacional de Tecnología Agropecuaria,20270.80283432
+2026-06-01,606,Instituto Nacional de Tecnología Agropecuaria,85984.97223355
+2026-07-01,606,Instituto Nacional de Tecnología Agropecuaria,22993.94798851
+2026-08-01,606,Instituto Nacional de Tecnología Agropecuaria,19836.00907791
+2026-09-01,606,Instituto Nacional de Tecnología Agropecuaria,20876.5483679
+2026-10-01,606,Instituto Nacional de Tecnología Agropecuaria,18137.83492947
+2026-11-01,606,Instituto Nacional de Tecnología Agropecuaria,241.12523172000002
+2026-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,212.24235081999998
+2026-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1613.7810456
+2026-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2276.18233101
+2026-04-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,942.39105875
+2026-05-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1851.56175638
+2026-06-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,3327.99547431
+2026-07-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,520.70214371
+2026-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2773.78001198
+2026-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2275.81270099
+2026-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,799.17684502
+2026-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1342.26772891
+2026-01-01,608,Instituto Nacional de Tecnología Industrial,4736.27651641
+2026-02-01,608,Instituto Nacional de Tecnología Industrial,7493.60338021
+2026-03-01,608,Instituto Nacional de Tecnología Industrial,6945.16280774
+2026-04-01,608,Instituto Nacional de Tecnología Industrial,6266.78577253
+2026-05-01,608,Instituto Nacional de Tecnología Industrial,7057.83312477
+2026-06-01,608,Instituto Nacional de Tecnología Industrial,9616.4240576
+2026-07-01,608,Instituto Nacional de Tecnología Industrial,3092.77537232
+2026-08-01,608,Instituto Nacional de Tecnología Industrial,5682.250077969999
+2026-09-01,608,Instituto Nacional de Tecnología Industrial,12485.50817715
+2026-10-01,608,Instituto Nacional de Tecnología Industrial,121.8578549
+2026-11-01,608,Instituto Nacional de Tecnología Industrial,0.0
+2026-01-01,609,Instituto Nacional de Vitivinicultura,1215.0307959
+2026-02-01,609,Instituto Nacional de Vitivinicultura,1186.14919262
+2026-03-01,609,Instituto Nacional de Vitivinicultura,1455.41536165
+2026-04-01,609,Instituto Nacional de Vitivinicultura,1267.55934535
+2026-05-01,609,Instituto Nacional de Vitivinicultura,1396.34244907
+2026-06-01,609,Instituto Nacional de Vitivinicultura,1899.177391
+2026-07-01,609,Instituto Nacional de Vitivinicultura,1319.98817202
+2026-08-01,609,Instituto Nacional de Vitivinicultura,1554.75341075
+2026-09-01,609,Instituto Nacional de Vitivinicultura,1467.10879563
+2026-10-01,609,Instituto Nacional de Vitivinicultura,1358.38798929
+2026-11-01,609,Instituto Nacional de Vitivinicultura,13.28370013
+2026-01-01,612,Tribunal de Tasaciones de la Nación,15.931982049999998
+2026-02-01,612,Tribunal de Tasaciones de la Nación,458.81753823
+2026-03-01,612,Tribunal de Tasaciones de la Nación,334.62265347
+2026-04-01,612,Tribunal de Tasaciones de la Nación,428.66929509
+2026-05-01,612,Tribunal de Tasaciones de la Nación,321.55895352
+2026-06-01,612,Tribunal de Tasaciones de la Nación,501.43304184
+2026-07-01,612,Tribunal de Tasaciones de la Nación,326.97191799
+2026-08-01,612,Tribunal de Tasaciones de la Nación,355.98095205
+2026-09-01,612,Tribunal de Tasaciones de la Nación,352.83139342
+2026-10-01,612,Tribunal de Tasaciones de la Nación,239.62673179
+2026-11-01,612,Tribunal de Tasaciones de la Nación,108.52841646
+2026-01-01,614,Instituto Nacional de Semillas,440.25934907
+2026-02-01,614,Instituto Nacional de Semillas,644.77509388
+2026-03-01,614,Instituto Nacional de Semillas,757.87634056
+2026-04-01,614,Instituto Nacional de Semillas,674.11209679
+2026-05-01,614,Instituto Nacional de Semillas,911.23416419
+2026-06-01,614,Instituto Nacional de Semillas,1053.13326868
+2026-07-01,614,Instituto Nacional de Semillas,653.47958991
+2026-08-01,614,Instituto Nacional de Semillas,558.69711948
+2026-09-01,614,Instituto Nacional de Semillas,1092.9135076
+2026-10-01,614,Instituto Nacional de Semillas,535.84777116
+2026-11-01,614,Instituto Nacional de Semillas,16.8490057
+2026-01-01,620,Tribunal Fiscal de la Nación,1130.67690719
+2026-02-01,620,Tribunal Fiscal de la Nación,1144.03405965
+2026-03-01,620,Tribunal Fiscal de la Nación,1421.85718284
+2026-04-01,620,Tribunal Fiscal de la Nación,1304.44683934
+2026-05-01,620,Tribunal Fiscal de la Nación,1358.3838677200001
+2026-06-01,620,Tribunal Fiscal de la Nación,2050.77616555
+2026-07-01,620,Tribunal Fiscal de la Nación,1431.17295655
+2026-08-01,620,Tribunal Fiscal de la Nación,1494.18329616
+2026-09-01,620,Tribunal Fiscal de la Nación,1473.56618981
+2026-10-01,620,Tribunal Fiscal de la Nación,1529.6880021900001
+2026-11-01,620,Tribunal Fiscal de la Nación,0.0
+2026-01-01,622,Instituto Nacional de la Propiedad Industrial,593.52025784
+2026-02-01,622,Instituto Nacional de la Propiedad Industrial,1083.37414913
+2026-03-01,622,Instituto Nacional de la Propiedad Industrial,1232.47420483
+2026-04-01,622,Instituto Nacional de la Propiedad Industrial,1043.62511133
+2026-05-01,622,Instituto Nacional de la Propiedad Industrial,1290.68732375
+2026-06-01,622,Instituto Nacional de la Propiedad Industrial,2641.98991986
+2026-07-01,622,Instituto Nacional de la Propiedad Industrial,1126.15450993
+2026-08-01,622,Instituto Nacional de la Propiedad Industrial,1381.21152531
+2026-09-01,622,Instituto Nacional de la Propiedad Industrial,2510.89833817
+2026-10-01,622,Instituto Nacional de la Propiedad Industrial,855.23461864
+2026-11-01,622,Instituto Nacional de la Propiedad Industrial,393.05866905000005
+2026-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,10621.36432972
+2026-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,10233.11418854
+2026-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,25466.53133346
+2026-04-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,14418.55059553
+2026-05-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,16693.71749364
+2026-06-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,30916.40252013
+2026-07-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,15962.8171929
+2026-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,19736.81789064
+2026-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,23679.254675
+2026-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,20922.00103285
+2026-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,1688.27711119
+2026-01-01,624,Servicio Geológico Minero Argentino,1034.34855725
+2026-02-01,624,Servicio Geológico Minero Argentino,980.04268107
+2026-03-01,624,Servicio Geológico Minero Argentino,1160.37328945
+2026-04-01,624,Servicio Geológico Minero Argentino,1116.43484247
+2026-05-01,624,Servicio Geológico Minero Argentino,1149.09992243
+2026-06-01,624,Servicio Geológico Minero Argentino,1626.32933121
+2026-07-01,624,Servicio Geológico Minero Argentino,1198.7880829
+2026-08-01,624,Servicio Geológico Minero Argentino,1230.18641938
+2026-09-01,624,Servicio Geológico Minero Argentino,1851.7084661
+2026-10-01,624,Servicio Geológico Minero Argentino,1066.1440133199999
+2026-11-01,624,Servicio Geológico Minero Argentino,5.42094338
+2026-01-01,656,Organismo Regulador de Seguridad de Presas,239.23887537
+2026-02-01,656,Organismo Regulador de Seguridad de Presas,194.65500883
+2026-03-01,656,Organismo Regulador de Seguridad de Presas,253.68362544
+2026-04-01,656,Organismo Regulador de Seguridad de Presas,229.57801719
+2026-05-01,656,Organismo Regulador de Seguridad de Presas,223.97203559
+2026-06-01,656,Organismo Regulador de Seguridad de Presas,407.17568752
+2026-07-01,656,Organismo Regulador de Seguridad de Presas,236.04432201
+2026-08-01,656,Organismo Regulador de Seguridad de Presas,258.54208122
+2026-09-01,656,Organismo Regulador de Seguridad de Presas,219.37284138
+2026-10-01,656,Organismo Regulador de Seguridad de Presas,273.72114199
+2026-11-01,656,Organismo Regulador de Seguridad de Presas,6.15636952
+2026-01-01,661,Comisión Nacional de Regulación del Transporte,2972.30358699
+2026-02-01,661,Comisión Nacional de Regulación del Transporte,3549.6395265
+2026-03-01,661,Comisión Nacional de Regulación del Transporte,4368.76542492
+2026-04-01,661,Comisión Nacional de Regulación del Transporte,3332.3192226
+2026-05-01,661,Comisión Nacional de Regulación del Transporte,3083.68678347
+2026-06-01,661,Comisión Nacional de Regulación del Transporte,8383.15838747
+2026-07-01,661,Comisión Nacional de Regulación del Transporte,3899.35105985
+2026-08-01,661,Comisión Nacional de Regulación del Transporte,3220.66889826
+2026-09-01,661,Comisión Nacional de Regulación del Transporte,6559.730240880001
+2026-10-01,661,Comisión Nacional de Regulación del Transporte,3298.44683684
+2026-11-01,661,Comisión Nacional de Regulación del Transporte,234.70263555
+2026-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,648.73095343
+2026-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,569.26346884
+2026-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,621.0166689099999
+2026-04-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,615.1014483499999
+2026-05-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,573.47164283
+2026-06-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,944.8113115
+2026-07-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,692.41939021
+2026-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,684.72556203
+2026-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,1031.47548337
+2026-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,893.69472333
+2026-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,0.0
+2026-01-01,669,Administración Nacional de Aviación Civil,4607.1751461
+2026-02-01,669,Administración Nacional de Aviación Civil,2878.53001147
+2026-03-01,669,Administración Nacional de Aviación Civil,8748.73548482
+2026-04-01,669,Administración Nacional de Aviación Civil,4641.14205902
+2026-05-01,669,Administración Nacional de Aviación Civil,5774.03477892
+2026-06-01,669,Administración Nacional de Aviación Civil,7964.495583110001
+2026-07-01,669,Administración Nacional de Aviación Civil,5134.92296586
+2026-08-01,669,Administración Nacional de Aviación Civil,6292.80361149
+2026-09-01,669,Administración Nacional de Aviación Civil,7293.32111345
+2026-10-01,669,Administración Nacional de Aviación Civil,4646.2566989
+2026-11-01,669,Administración Nacional de Aviación Civil,30.401612829999998
+2026-01-01,670,Unidad de Información Financiera,558.72150416
+2026-02-01,670,Unidad de Información Financiera,957.68584778
+2026-03-01,670,Unidad de Información Financiera,1184.0848947499999
+2026-04-01,670,Unidad de Información Financiera,642.0889135599999
+2026-05-01,670,Unidad de Información Financiera,1324.85492005
+2026-06-01,670,Unidad de Información Financiera,1363.91500276
+2026-07-01,670,Unidad de Información Financiera,1001.43558341
+2026-08-01,670,Unidad de Información Financiera,999.3157461
+2026-09-01,670,Unidad de Información Financiera,2085.62893257
+2026-10-01,670,Unidad de Información Financiera,630.88513922
+2026-11-01,670,Unidad de Información Financiera,904.96444731
+2026-01-01,671,Junta de Seguridad en el Transporte,681.72900224
+2026-02-01,671,Junta de Seguridad en el Transporte,658.6919111
+2026-03-01,671,Junta de Seguridad en el Transporte,762.990472
+2026-04-01,671,Junta de Seguridad en el Transporte,751.21415686
+2026-05-01,671,Junta de Seguridad en el Transporte,732.74633635
+2026-06-01,671,Junta de Seguridad en el Transporte,1104.50785669
+2026-07-01,671,Junta de Seguridad en el Transporte,748.6273249899999
+2026-08-01,671,Junta de Seguridad en el Transporte,779.24689469
+2026-09-01,671,Junta de Seguridad en el Transporte,928.0913567299999
+2026-10-01,671,Junta de Seguridad en el Transporte,815.86747043
+2026-11-01,671,Junta de Seguridad en el Transporte,1.11899032
+2026-01-01,673,Agencia Nacional de Puertos y Navegación,125.4797189
+2026-02-01,673,Agencia Nacional de Puertos y Navegación,544.0247701999999
+2026-03-01,673,Agencia Nacional de Puertos y Navegación,1022.0187920599999
+2026-04-01,673,Agencia Nacional de Puertos y Navegación,204.23195865
+2026-05-01,673,Agencia Nacional de Puertos y Navegación,570.33561167
+2026-06-01,673,Agencia Nacional de Puertos y Navegación,859.69414702
+2026-07-01,673,Agencia Nacional de Puertos y Navegación,433.67063743999995
+2026-08-01,673,Agencia Nacional de Puertos y Navegación,443.97025958
+2026-09-01,673,Agencia Nacional de Puertos y Navegación,8209.87087142
+2026-10-01,673,Agencia Nacional de Puertos y Navegación,390.72539062000004
+2026-11-01,673,Agencia Nacional de Puertos y Navegación,86.394
+2026-01-01,674,Ente Nacional Regulador del Gas y la Electricidad,5352.62900008
+2026-02-01,674,Ente Nacional Regulador del Gas y la Electricidad,5279.7709873700005
+2026-03-01,674,Ente Nacional Regulador del Gas y la Electricidad,8276.021391530001
+2026-04-01,674,Ente Nacional Regulador del Gas y la Electricidad,5751.4749442
+2026-05-01,674,Ente Nacional Regulador del Gas y la Electricidad,5241.63038984
+2026-06-01,674,Ente Nacional Regulador del Gas y la Electricidad,11619.37930261
+2026-07-01,674,Ente Nacional Regulador del Gas y la Electricidad,6890.145550390001
+2026-08-01,674,Ente Nacional Regulador del Gas y la Electricidad,8451.05918348
+2026-09-01,674,Ente Nacional Regulador del Gas y la Electricidad,8028.51213962
+2026-10-01,674,Ente Nacional Regulador del Gas y la Electricidad,5402.78030314
+2026-11-01,674,Ente Nacional Regulador del Gas y la Electricidad,1425.51475647
+2026-01-01,802,Fondo Nacional de las Artes,114.18870106
+2026-02-01,802,Fondo Nacional de las Artes,167.96711131
+2026-03-01,802,Fondo Nacional de las Artes,617.84012465
+2026-04-01,802,Fondo Nacional de las Artes,226.83054396999998
+2026-05-01,802,Fondo Nacional de las Artes,398.25983622
+2026-06-01,802,Fondo Nacional de las Artes,567.08891352
+2026-07-01,802,Fondo Nacional de las Artes,256.69594365
+2026-08-01,802,Fondo Nacional de las Artes,424.98384264
+2026-09-01,802,Fondo Nacional de las Artes,768.06097471
+2026-10-01,802,Fondo Nacional de las Artes,249.18916588
+2026-11-01,802,Fondo Nacional de las Artes,8.66797364
+2026-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,373.20081992
+2026-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,383.29511046
+2026-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,546.58265639
+2026-04-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,432.92777259
+2026-05-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,484.50235666000003
+2026-06-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,647.2953828
+2026-07-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,471.04621643
+2026-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,524.89580866
+2026-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,524.85063073
+2026-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,574.44211246
+2026-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,35.698
+2026-01-01,850,Administración Nacional de la Seguridad Social,5803878.05364707
+2026-02-01,850,Administración Nacional de la Seguridad Social,5930509.47414098
+2026-03-01,850,Administración Nacional de la Seguridad Social,6507791.19946112
+2026-04-01,850,Administración Nacional de la Seguridad Social,6242438.39280681
+2026-05-01,850,Administración Nacional de la Seguridad Social,6497733.11646509
+2026-06-01,850,Administración Nacional de la Seguridad Social,9324176.17044277
+2026-07-01,850,Administración Nacional de la Seguridad Social,6785284.70953072
+2026-08-01,850,Administración Nacional de la Seguridad Social,6920562.29531201
+2026-09-01,850,Administración Nacional de la Seguridad Social,7013990.95631424
+2026-10-01,850,Administración Nacional de la Seguridad Social,7110388.48439541
+2026-11-01,850,Administración Nacional de la Seguridad Social,35722.9868261
+2026-01-01,852,Superintendencia de Riesgos del Trabajo,1164.38829529
+2026-02-01,852,Superintendencia de Riesgos del Trabajo,928.71421655
+2026-03-01,852,Superintendencia de Riesgos del Trabajo,1296.78325842
+2026-04-01,852,Superintendencia de Riesgos del Trabajo,1148.75881458
+2026-05-01,852,Superintendencia de Riesgos del Trabajo,1144.34798795
+2026-06-01,852,Superintendencia de Riesgos del Trabajo,2326.82147901
+2026-07-01,852,Superintendencia de Riesgos del Trabajo,1278.05027664
+2026-08-01,852,Superintendencia de Riesgos del Trabajo,1306.56815541
+2026-09-01,852,Superintendencia de Riesgos del Trabajo,1514.2442199600002
+2026-10-01,852,Superintendencia de Riesgos del Trabajo,1353.10098939
+2026-11-01,852,Superintendencia de Riesgos del Trabajo,5.64497144
+2026-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",1847.89651968
+2026-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3317.44422491
+2026-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",5769.99058004
+2026-04-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3264.17932672
+2026-05-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",2257.77688029
+2026-06-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",6691.3516358100005
+2026-07-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",4460.99720008
+2026-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3596.81603455
+2026-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",5912.24042712
+2026-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",4553.4160399
+2026-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3.14771612
+2026-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2742.77228003
+2026-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2387.5380971
+2026-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,10356.08361509
+2026-04-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2139.83743411
+2026-05-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2995.04574722
+2026-06-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,7392.7512293
+2026-07-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3014.3641398199998
+2026-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2829.18907165
+2026-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3243.79934516
+2026-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2517.9489191499997
+2026-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1021.12641205
+2026-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,2913.87720775
+2026-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3855.60772278
+2026-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,4619.4632550100005
+2026-04-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3167.34496615
+2026-05-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,5340.93820628
+2026-06-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,6697.33625442
+2026-07-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,4103.10762733
+2026-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,4507.8011109
+2026-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,5476.62648555
+2026-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,4553.4203517900005
+2026-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,133.27872766000002
+2026-01-01,914,Superintendencia de Servicios de Salud,4618.39043029
+2026-02-01,914,Superintendencia de Servicios de Salud,13958.28677327
+2026-03-01,914,Superintendencia de Servicios de Salud,6768.09059345
+2026-04-01,914,Superintendencia de Servicios de Salud,10585.6034752
+2026-05-01,914,Superintendencia de Servicios de Salud,7565.59971124
+2026-06-01,914,Superintendencia de Servicios de Salud,13468.66490167
+2026-07-01,914,Superintendencia de Servicios de Salud,10477.94335238
+2026-08-01,914,Superintendencia de Servicios de Salud,10014.16539265
+2026-09-01,914,Superintendencia de Servicios de Salud,10269.57211518
+2026-10-01,914,Superintendencia de Servicios de Salud,5889.52136948
+2026-11-01,914,Superintendencia de Servicios de Salud,1418.5253555
+2026-01-01,919,Administración Nacional de Establecimientos de Salud,18715.84003549
+2026-02-01,919,Administración Nacional de Establecimientos de Salud,22570.30248225
+2026-03-01,919,Administración Nacional de Establecimientos de Salud,37070.03455572
+2026-04-01,919,Administración Nacional de Establecimientos de Salud,25477.39605493
+2026-05-01,919,Administración Nacional de Establecimientos de Salud,18901.50752038
+2026-06-01,919,Administración Nacional de Establecimientos de Salud,56233.55183495
+2026-07-01,919,Administración Nacional de Establecimientos de Salud,26078.09682364
+2026-08-01,919,Administración Nacional de Establecimientos de Salud,25587.00484161
+2026-09-01,919,Administración Nacional de Establecimientos de Salud,39012.57677079
+2026-10-01,919,Administración Nacional de Establecimientos de Salud,22980.152248
+2026-11-01,919,Administración Nacional de Establecimientos de Salud,1969.9864725900002

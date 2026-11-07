@@ -1,0 +1,1344 @@
+fecha,servicio_id,servicio_desc,devengado
+2010-01-01,1,Auditoría General de la Nación,6.05925609
+2010-02-01,1,Auditoría General de la Nación,11.34343058
+2010-03-01,1,Auditoría General de la Nación,9.98313988
+2010-04-01,1,Auditoría General de la Nación,8.99695857
+2010-05-01,1,Auditoría General de la Nación,8.82230363
+2010-06-01,1,Auditoría General de la Nación,13.20404212
+2010-07-01,1,Auditoría General de la Nación,17.37096763
+2010-08-01,1,Auditoría General de la Nación,11.65022288
+2010-09-01,1,Auditoría General de la Nación,11.62207069
+2010-10-01,1,Auditoría General de la Nación,11.61517935
+2010-11-01,1,Auditoría General de la Nación,14.01077072
+2010-12-01,1,Auditoría General de la Nación,22.04880269
+2010-01-01,101,Fundación Miguel Lillio,1.62902935
+2010-02-01,101,Fundación Miguel Lillio,1.73119015
+2010-03-01,101,Fundación Miguel Lillio,1.85857939
+2010-04-01,101,Fundación Miguel Lillio,1.85503723
+2010-05-01,101,Fundación Miguel Lillio,2.10558969
+2010-06-01,101,Fundación Miguel Lillio,3.21968789
+2010-07-01,101,Fundación Miguel Lillio,2.13462256
+2010-08-01,101,Fundación Miguel Lillio,2.25053573
+2010-09-01,101,Fundación Miguel Lillio,2.51920637
+2010-10-01,101,Fundación Miguel Lillio,2.29150413
+2010-11-01,101,Fundación Miguel Lillio,3.117928
+2010-12-01,101,Fundación Miguel Lillio,5.84635862
+2010-01-01,102,Comité Federal de Radiodifusión,4.10957993
+2010-02-01,102,Comité Federal de Radiodifusión,4.83103381
+2010-03-01,102,Comité Federal de Radiodifusión,4.90573399
+2010-04-01,102,Comité Federal de Radiodifusión,4.63990188
+2010-05-01,102,Comité Federal de Radiodifusión,4.8615353500000005
+2010-06-01,102,Comité Federal de Radiodifusión,8.14397219
+2010-07-01,102,Comité Federal de Radiodifusión,4.84714893
+2010-08-01,102,Comité Federal de Radiodifusión,5.5645753000000004
+2010-09-01,102,Comité Federal de Radiodifusión,6.17441742
+2010-10-01,102,Comité Federal de Radiodifusión,5.37433953
+2010-11-01,102,Comité Federal de Radiodifusión,7.1601117599999995
+2010-12-01,102,Comité Federal de Radiodifusión,11.05968818
+2010-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,82.850746
+2010-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,90.85922842
+2010-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,109.85928536
+2010-04-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,87.13396926
+2010-05-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,94.48483148
+2010-06-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,155.32249445
+2010-07-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,100.62403081000001
+2010-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,119.09824761
+2010-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,132.36834087
+2010-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,110.68174396999999
+2010-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,124.39273143
+2010-12-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,189.1969987
+2010-01-01,105,Comisión Nacional de Energía Atómica,20.97085432
+2010-02-01,105,Comisión Nacional de Energía Atómica,26.94505027
+2010-03-01,105,Comisión Nacional de Energía Atómica,49.78988847
+2010-04-01,105,Comisión Nacional de Energía Atómica,32.02157883
+2010-05-01,105,Comisión Nacional de Energía Atómica,33.49830633
+2010-06-01,105,Comisión Nacional de Energía Atómica,64.0014732
+2010-07-01,105,Comisión Nacional de Energía Atómica,37.84621105
+2010-08-01,105,Comisión Nacional de Energía Atómica,40.2943595
+2010-09-01,105,Comisión Nacional de Energía Atómica,62.08409367
+2010-10-01,105,Comisión Nacional de Energía Atómica,36.41511218
+2010-11-01,105,Comisión Nacional de Energía Atómica,52.58555809
+2010-12-01,105,Comisión Nacional de Energía Atómica,181.32400495
+2010-01-01,106,Comisión Nacional de Actividades Espaciales,1.92096013
+2010-02-01,106,Comisión Nacional de Actividades Espaciales,10.90106231
+2010-03-01,106,Comisión Nacional de Actividades Espaciales,55.35416196
+2010-04-01,106,Comisión Nacional de Actividades Espaciales,7.16563292
+2010-05-01,106,Comisión Nacional de Actividades Espaciales,18.1309209
+2010-06-01,106,Comisión Nacional de Actividades Espaciales,41.11874383
+2010-07-01,106,Comisión Nacional de Actividades Espaciales,8.67447353
+2010-08-01,106,Comisión Nacional de Actividades Espaciales,9.84296988
+2010-09-01,106,Comisión Nacional de Actividades Espaciales,47.44809899
+2010-10-01,106,Comisión Nacional de Actividades Espaciales,6.63981736
+2010-11-01,106,Comisión Nacional de Actividades Espaciales,27.4306984
+2010-12-01,106,Comisión Nacional de Actividades Espaciales,136.88479901
+2010-01-01,107,Administración de Parques Nacionales,9.99940234
+2010-02-01,107,Administración de Parques Nacionales,13.04104471
+2010-03-01,107,Administración de Parques Nacionales,16.67886601
+2010-04-01,107,Administración de Parques Nacionales,12.71050145
+2010-05-01,107,Administración de Parques Nacionales,15.83275002
+2010-06-01,107,Administración de Parques Nacionales,26.31448186
+2010-07-01,107,Administración de Parques Nacionales,11.64525776
+2010-08-01,107,Administración de Parques Nacionales,14.808223120000001
+2010-09-01,107,Administración de Parques Nacionales,22.28280093
+2010-10-01,107,Administración de Parques Nacionales,14.17395164
+2010-11-01,107,Administración de Parques Nacionales,13.33401198
+2010-12-01,107,Administración de Parques Nacionales,31.3032834
+2010-01-01,108,Instituto Nacional del Agua,2.7267665
+2010-02-01,108,Instituto Nacional del Agua,2.21193396
+2010-03-01,108,Instituto Nacional del Agua,4.25412799
+2010-04-01,108,Instituto Nacional del Agua,2.98954448
+2010-05-01,108,Instituto Nacional del Agua,3.7804924300000002
+2010-06-01,108,Instituto Nacional del Agua,5.4886528
+2010-07-01,108,Instituto Nacional del Agua,3.12834531
+2010-08-01,108,Instituto Nacional del Agua,4.15252
+2010-09-01,108,Instituto Nacional del Agua,4.41479106
+2010-10-01,108,Instituto Nacional del Agua,1.59899445
+2010-11-01,108,Instituto Nacional del Agua,7.07527146
+2010-12-01,108,Instituto Nacional del Agua,7.28826455
+2010-01-01,109,Sindicatura General de la Nación,4.64371424
+2010-02-01,109,Sindicatura General de la Nación,4.80517051
+2010-03-01,109,Sindicatura General de la Nación,5.16388905
+2010-04-01,109,Sindicatura General de la Nación,4.74975707
+2010-05-01,109,Sindicatura General de la Nación,5.02723839
+2010-06-01,109,Sindicatura General de la Nación,8.41399399
+2010-07-01,109,Sindicatura General de la Nación,5.29324769
+2010-08-01,109,Sindicatura General de la Nación,6.11344777
+2010-09-01,109,Sindicatura General de la Nación,6.74545916
+2010-10-01,109,Sindicatura General de la Nación,7.80295898
+2010-11-01,109,Sindicatura General de la Nación,7.9730440300000005
+2010-12-01,109,Sindicatura General de la Nación,15.93055098
+2010-01-01,112,Autoridad Regulatoria Nuclear,3.50130765
+2010-02-01,112,Autoridad Regulatoria Nuclear,3.95010104
+2010-03-01,112,Autoridad Regulatoria Nuclear,4.95429001
+2010-04-01,112,Autoridad Regulatoria Nuclear,4.40424778
+2010-05-01,112,Autoridad Regulatoria Nuclear,5.6512315
+2010-06-01,112,Autoridad Regulatoria Nuclear,9.53894532
+2010-07-01,112,Autoridad Regulatoria Nuclear,5.29342751
+2010-08-01,112,Autoridad Regulatoria Nuclear,9.46308152
+2010-09-01,112,Autoridad Regulatoria Nuclear,12.40802856
+2010-10-01,112,Autoridad Regulatoria Nuclear,5.72607614
+2010-11-01,112,Autoridad Regulatoria Nuclear,12.76407485
+2010-12-01,112,Autoridad Regulatoria Nuclear,26.6965555
+2010-01-01,113,Teatro Nacional Cervantes,1.19990836
+2010-02-01,113,Teatro Nacional Cervantes,1.2397029
+2010-03-01,113,Teatro Nacional Cervantes,2.04319379
+2010-04-01,113,Teatro Nacional Cervantes,1.55619566
+2010-05-01,113,Teatro Nacional Cervantes,1.89502352
+2010-06-01,113,Teatro Nacional Cervantes,3.00645903
+2010-07-01,113,Teatro Nacional Cervantes,1.20951841
+2010-08-01,113,Teatro Nacional Cervantes,1.79025709
+2010-09-01,113,Teatro Nacional Cervantes,3.91917181
+2010-10-01,113,Teatro Nacional Cervantes,0.70320051
+2010-11-01,113,Teatro Nacional Cervantes,2.43475668
+2010-12-01,113,Teatro Nacional Cervantes,6.77143282
+2010-01-01,114,Instituto Nacional de Asociativismo y Economía Social,2.93296693
+2010-02-01,114,Instituto Nacional de Asociativismo y Economía Social,3.1006584999999998
+2010-03-01,114,Instituto Nacional de Asociativismo y Economía Social,3.64277033
+2010-04-01,114,Instituto Nacional de Asociativismo y Economía Social,3.44685046
+2010-05-01,114,Instituto Nacional de Asociativismo y Economía Social,3.62521375
+2010-06-01,114,Instituto Nacional de Asociativismo y Economía Social,6.06480887
+2010-07-01,114,Instituto Nacional de Asociativismo y Economía Social,4.07713682
+2010-08-01,114,Instituto Nacional de Asociativismo y Economía Social,4.16329946
+2010-09-01,114,Instituto Nacional de Asociativismo y Economía Social,19.61267056
+2010-10-01,114,Instituto Nacional de Asociativismo y Economía Social,5.10579686
+2010-11-01,114,Instituto Nacional de Asociativismo y Economía Social,4.59864384
+2010-12-01,114,Instituto Nacional de Asociativismo y Economía Social,204.5734642
+2010-01-01,115,Comisión Nacional de Comunicaciones,8.891262170000001
+2010-02-01,115,Comisión Nacional de Comunicaciones,9.78151913
+2010-03-01,115,Comisión Nacional de Comunicaciones,11.06606049
+2010-04-01,115,Comisión Nacional de Comunicaciones,10.23098087
+2010-05-01,115,Comisión Nacional de Comunicaciones,9.37088277
+2010-06-01,115,Comisión Nacional de Comunicaciones,23.44550552
+2010-07-01,115,Comisión Nacional de Comunicaciones,11.67745513
+2010-08-01,115,Comisión Nacional de Comunicaciones,16.46276422
+2010-09-01,115,Comisión Nacional de Comunicaciones,14.78773905
+2010-10-01,115,Comisión Nacional de Comunicaciones,13.33337714
+2010-11-01,115,Comisión Nacional de Comunicaciones,18.22521099
+2010-12-01,115,Comisión Nacional de Comunicaciones,43.52797755
+2010-01-01,116,Biblioteca Nacional,2.15893662
+2010-02-01,116,Biblioteca Nacional,3.07598408
+2010-03-01,116,Biblioteca Nacional,2.84698237
+2010-04-01,116,Biblioteca Nacional,2.4995103199999997
+2010-05-01,116,Biblioteca Nacional,3.76715883
+2010-06-01,116,Biblioteca Nacional,7.91286991
+2010-07-01,116,Biblioteca Nacional,3.39252574
+2010-08-01,116,Biblioteca Nacional,3.71313234
+2010-09-01,116,Biblioteca Nacional,6.23195051
+2010-10-01,116,Biblioteca Nacional,3.48227248
+2010-11-01,116,Biblioteca Nacional,4.86934076
+2010-12-01,116,Biblioteca Nacional,12.44671082
+2010-01-01,117,Instituto Nacional del Teatro,0.88090874
+2010-02-01,117,Instituto Nacional del Teatro,2.22937358
+2010-03-01,117,Instituto Nacional del Teatro,3.8092199
+2010-04-01,117,Instituto Nacional del Teatro,2.4163534
+2010-05-01,117,Instituto Nacional del Teatro,2.29557671
+2010-06-01,117,Instituto Nacional del Teatro,2.97537624
+2010-07-01,117,Instituto Nacional del Teatro,2.13235178
+2010-08-01,117,Instituto Nacional del Teatro,3.40356283
+2010-09-01,117,Instituto Nacional del Teatro,2.67861881
+2010-10-01,117,Instituto Nacional del Teatro,3.9939872199999997
+2010-11-01,117,Instituto Nacional del Teatro,3.54997503
+2010-12-01,117,Instituto Nacional del Teatro,11.53685264
+2010-01-01,118,Instituto Nacional de Asuntos Indígenas,0.0
+2010-02-01,118,Instituto Nacional de Asuntos Indígenas,1.27623336
+2010-03-01,118,Instituto Nacional de Asuntos Indígenas,0.8622389800000001
+2010-04-01,118,Instituto Nacional de Asuntos Indígenas,0.41128757
+2010-05-01,118,Instituto Nacional de Asuntos Indígenas,1.18716268
+2010-06-01,118,Instituto Nacional de Asuntos Indígenas,2.16387381
+2010-07-01,118,Instituto Nacional de Asuntos Indígenas,1.16329328
+2010-08-01,118,Instituto Nacional de Asuntos Indígenas,0.88552124
+2010-09-01,118,Instituto Nacional de Asuntos Indígenas,1.36392039
+2010-10-01,118,Instituto Nacional de Asuntos Indígenas,0.87543485
+2010-11-01,118,Instituto Nacional de Asuntos Indígenas,7.155624759999999
+2010-12-01,118,Instituto Nacional de Asuntos Indígenas,22.13265805
+2010-01-01,119,Instituto Nacional de Promoción Turística,0.88521127
+2010-02-01,119,Instituto Nacional de Promoción Turística,8.23083877
+2010-03-01,119,Instituto Nacional de Promoción Turística,9.7772559
+2010-04-01,119,Instituto Nacional de Promoción Turística,5.822074949999999
+2010-05-01,119,Instituto Nacional de Promoción Turística,10.00072722
+2010-06-01,119,Instituto Nacional de Promoción Turística,10.87669091
+2010-07-01,119,Instituto Nacional de Promoción Turística,3.97276256
+2010-08-01,119,Instituto Nacional de Promoción Turística,10.509804090000001
+2010-09-01,119,Instituto Nacional de Promoción Turística,12.42163785
+2010-10-01,119,Instituto Nacional de Promoción Turística,2.88775619
+2010-11-01,119,Instituto Nacional de Promoción Turística,18.14958609
+2010-12-01,119,Instituto Nacional de Promoción Turística,86.71460671
+2010-01-01,200,Registro Nacional de las Personas,13.16284026
+2010-02-01,200,Registro Nacional de las Personas,12.88412927
+2010-03-01,200,Registro Nacional de las Personas,23.81340154
+2010-04-01,200,Registro Nacional de las Personas,15.56617742
+2010-05-01,200,Registro Nacional de las Personas,23.09740367
+2010-06-01,200,Registro Nacional de las Personas,35.09660633
+2010-07-01,200,Registro Nacional de las Personas,19.95011195
+2010-08-01,200,Registro Nacional de las Personas,28.8714166
+2010-09-01,200,Registro Nacional de las Personas,34.52905237
+2010-10-01,200,Registro Nacional de las Personas,26.78000254
+2010-11-01,200,Registro Nacional de las Personas,30.54119468
+2010-12-01,200,Registro Nacional de las Personas,77.25055397
+2010-01-01,201,Dirección Nacional de Migraciones,14.98145028
+2010-02-01,201,Dirección Nacional de Migraciones,17.52450182
+2010-03-01,201,Dirección Nacional de Migraciones,20.75294107
+2010-04-01,201,Dirección Nacional de Migraciones,17.4117379
+2010-05-01,201,Dirección Nacional de Migraciones,18.17618367
+2010-06-01,201,Dirección Nacional de Migraciones,33.73849655
+2010-07-01,201,Dirección Nacional de Migraciones,21.3304287
+2010-08-01,201,Dirección Nacional de Migraciones,22.955203739999998
+2010-09-01,201,Dirección Nacional de Migraciones,30.05220493
+2010-10-01,201,Dirección Nacional de Migraciones,19.232647840000002
+2010-11-01,201,Dirección Nacional de Migraciones,21.245262
+2010-12-01,201,Dirección Nacional de Migraciones,70.15663986
+2010-01-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",0.3170962
+2010-02-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",1.87066774
+2010-03-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",2.1396319999999998
+2010-04-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",0.82586504
+2010-05-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",1.90859954
+2010-06-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",5.872432379999999
+2010-07-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",2.20571252
+2010-08-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",1.54583791
+2010-09-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",3.9793266399999996
+2010-10-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",0.91959391
+2010-11-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",2.80011204
+2010-12-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",13.84363535
+2010-01-01,203,Agencia Nacional de Seguridad Vial,2.15679499
+2010-02-01,203,Agencia Nacional de Seguridad Vial,5.957681
+2010-03-01,203,Agencia Nacional de Seguridad Vial,11.78451025
+2010-04-01,203,Agencia Nacional de Seguridad Vial,3.94896249
+2010-05-01,203,Agencia Nacional de Seguridad Vial,4.963727019999999
+2010-06-01,203,Agencia Nacional de Seguridad Vial,12.889435800000001
+2010-07-01,203,Agencia Nacional de Seguridad Vial,4.71295659
+2010-08-01,203,Agencia Nacional de Seguridad Vial,8.96129657
+2010-09-01,203,Agencia Nacional de Seguridad Vial,12.29473655
+2010-10-01,203,Agencia Nacional de Seguridad Vial,6.06756503
+2010-11-01,203,Agencia Nacional de Seguridad Vial,13.10122386
+2010-12-01,203,Agencia Nacional de Seguridad Vial,71.18099539
+2010-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",206.64548608
+2010-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",240.77588085
+2010-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",235.94382496999998
+2010-04-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",216.92472247999999
+2010-05-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",217.13733551
+2010-06-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",296.46099196000006
+2010-07-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",220.47005992
+2010-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",270.24232674
+2010-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",329.66214207999997
+2010-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",272.99589805
+2010-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",274.8643687
+2010-12-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",427.85218972999996
+2010-01-01,301,Secretaría General de la Presidencia de la Nación,10.23524845
+2010-02-01,301,Secretaría General de la Presidencia de la Nación,20.24086611
+2010-03-01,301,Secretaría General de la Presidencia de la Nación,39.72673025
+2010-04-01,301,Secretaría General de la Presidencia de la Nación,37.8288994
+2010-05-01,301,Secretaría General de la Presidencia de la Nación,75.06722244
+2010-06-01,301,Secretaría General de la Presidencia de la Nación,65.88858743
+2010-07-01,301,Secretaría General de la Presidencia de la Nación,33.52347933
+2010-08-01,301,Secretaría General de la Presidencia de la Nación,37.03162624
+2010-09-01,301,Secretaría General de la Presidencia de la Nación,46.49546338
+2010-10-01,301,Secretaría General de la Presidencia de la Nación,30.16885864
+2010-11-01,301,Secretaría General de la Presidencia de la Nación,41.66899161
+2010-12-01,301,Secretaría General de la Presidencia de la Nación,142.75644997999999
+2010-01-01,302,Secretaría de Inteligencia,22.249254829999998
+2010-02-01,302,Secretaría de Inteligencia,44.98596839
+2010-03-01,302,Secretaría de Inteligencia,34.50945773
+2010-04-01,302,Secretaría de Inteligencia,36.25246181
+2010-05-01,302,Secretaría de Inteligencia,36.04789939
+2010-06-01,302,Secretaría de Inteligencia,44.16622849
+2010-07-01,302,Secretaría de Inteligencia,39.66466666
+2010-08-01,302,Secretaría de Inteligencia,40.81614183
+2010-09-01,302,Secretaría de Inteligencia,41.83459535
+2010-10-01,302,Secretaría de Inteligencia,40.43354929
+2010-11-01,302,Secretaría de Inteligencia,17.70672881
+2010-12-01,302,Secretaría de Inteligencia,45.18191256
+2010-01-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,1.92096393
+2010-02-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,1.99584988
+2010-03-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,4.3061303
+2010-04-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,2.45712018
+2010-05-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,5.31788638
+2010-06-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,6.62456468
+2010-07-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,2.73090672
+2010-08-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,5.03381508
+2010-09-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,8.72780726
+2010-10-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,2.35992312
+2010-11-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,8.001788600000001
+2010-12-01,303,Secretaría de Programación para la Prevención de la Drogadicción y Lucha Contra el Narcotráfico,10.32413325
+2010-01-01,305,Dirección General de Administración - Jefatura de Gabinete,21.8888147
+2010-02-01,305,Dirección General de Administración - Jefatura de Gabinete,76.47893676
+2010-03-01,305,Dirección General de Administración - Jefatura de Gabinete,159.86947733
+2010-04-01,305,Dirección General de Administración - Jefatura de Gabinete,96.85362762999999
+2010-05-01,305,Dirección General de Administración - Jefatura de Gabinete,97.28186886
+2010-06-01,305,Dirección General de Administración - Jefatura de Gabinete,137.64567704
+2010-07-01,305,Dirección General de Administración - Jefatura de Gabinete,148.48865914
+2010-08-01,305,Dirección General de Administración - Jefatura de Gabinete,153.59794226
+2010-09-01,305,Dirección General de Administración - Jefatura de Gabinete,207.07663777
+2010-10-01,305,Dirección General de Administración - Jefatura de Gabinete,156.36724750000002
+2010-11-01,305,Dirección General de Administración - Jefatura de Gabinete,153.62627056
+2010-12-01,305,Dirección General de Administración - Jefatura de Gabinete,460.55523492
+2010-01-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",60.043011969999995
+2010-02-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",95.16591623000001
+2010-03-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",214.64921414
+2010-04-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",75.81094181
+2010-05-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",96.07438332
+2010-06-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",217.05863724
+2010-07-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",72.86928868
+2010-08-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",124.34808322
+2010-09-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",174.42958654
+2010-10-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",75.16792927
+2010-11-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",149.56426424
+2010-12-01,307,"Ministerio de Relaciones Exteriores, Comercio Intern y Culto",293.55939587
+2010-01-01,310,Ministerio de Salud,100.03969739
+2010-02-01,310,Ministerio de Salud,170.18902954
+2010-03-01,310,Ministerio de Salud,383.38972402
+2010-04-01,310,Ministerio de Salud,456.76011466
+2010-05-01,310,Ministerio de Salud,398.70150472
+2010-06-01,310,Ministerio de Salud,538.05493948
+2010-07-01,310,Ministerio de Salud,263.85509839
+2010-08-01,310,Ministerio de Salud,383.83829245
+2010-09-01,310,Ministerio de Salud,346.62594929
+2010-10-01,310,Ministerio de Salud,269.48737539
+2010-11-01,310,Ministerio de Salud,381.60415701
+2010-12-01,310,Ministerio de Salud,968.89047179
+2010-01-01,311,Ministerio de Desarrollo Social,758.86596811
+2010-02-01,311,Ministerio de Desarrollo Social,884.19069984
+2010-03-01,311,Ministerio de Desarrollo Social,1184.46286843
+2010-04-01,311,Ministerio de Desarrollo Social,865.27195478
+2010-05-01,311,Ministerio de Desarrollo Social,1257.90449404
+2010-06-01,311,Ministerio de Desarrollo Social,1878.65060207
+2010-07-01,311,Ministerio de Desarrollo Social,1042.23837761
+2010-08-01,311,Ministerio de Desarrollo Social,1272.29599329
+2010-09-01,311,Ministerio de Desarrollo Social,1561.35667891
+2010-10-01,311,Ministerio de Desarrollo Social,1367.69989275
+2010-11-01,311,Ministerio de Desarrollo Social,1491.52324205
+2010-12-01,311,Ministerio de Desarrollo Social,3909.28665096
+2010-01-01,312,Senado de la Nación,28.81164357
+2010-02-01,312,Senado de la Nación,32.75405093
+2010-03-01,312,Senado de la Nación,34.85515664
+2010-04-01,312,Senado de la Nación,32.1723906
+2010-05-01,312,Senado de la Nación,37.64882787
+2010-06-01,312,Senado de la Nación,71.1252842
+2010-07-01,312,Senado de la Nación,40.32948484
+2010-08-01,312,Senado de la Nación,49.64785413
+2010-09-01,312,Senado de la Nación,66.35063985
+2010-10-01,312,Senado de la Nación,43.12510114
+2010-11-01,312,Senado de la Nación,52.102149849999996
+2010-12-01,312,Senado de la Nación,77.60647852
+2010-01-01,313,Cámara de Diputados,40.8896245
+2010-02-01,313,Cámara de Diputados,42.45150146
+2010-03-01,313,Cámara de Diputados,50.32630049
+2010-04-01,313,Cámara de Diputados,45.27627774
+2010-05-01,313,Cámara de Diputados,50.88739202
+2010-06-01,313,Cámara de Diputados,86.4439726
+2010-07-01,313,Cámara de Diputados,86.39363390000001
+2010-08-01,313,Cámara de Diputados,62.43254496
+2010-09-01,313,Cámara de Diputados,66.17878973
+2010-10-01,313,Cámara de Diputados,58.25819913
+2010-11-01,313,Cámara de Diputados,61.61162936
+2010-12-01,313,Cámara de Diputados,114.2584438
+2010-01-01,314,Biblioteca del Congreso,9.27876792
+2010-02-01,314,Biblioteca del Congreso,9.3717116
+2010-03-01,314,Biblioteca del Congreso,13.722258579999998
+2010-04-01,314,Biblioteca del Congreso,9.80512458
+2010-05-01,314,Biblioteca del Congreso,9.78533517
+2010-06-01,314,Biblioteca del Congreso,20.82553507
+2010-07-01,314,Biblioteca del Congreso,17.13254813
+2010-08-01,314,Biblioteca del Congreso,13.419992090000001
+2010-09-01,314,Biblioteca del Congreso,13.05973886
+2010-10-01,314,Biblioteca del Congreso,14.00581744
+2010-11-01,314,Biblioteca del Congreso,14.065714700000001
+2010-12-01,314,Biblioteca del Congreso,28.58974585
+2010-01-01,315,Imprenta del Congreso,3.60996544
+2010-02-01,315,Imprenta del Congreso,3.67075246
+2010-03-01,315,Imprenta del Congreso,3.89118417
+2010-04-01,315,Imprenta del Congreso,3.88427596
+2010-05-01,315,Imprenta del Congreso,3.85119229
+2010-06-01,315,Imprenta del Congreso,7.6486893899999995
+2010-07-01,315,Imprenta del Congreso,7.17102224
+2010-08-01,315,Imprenta del Congreso,5.21736384
+2010-09-01,315,Imprenta del Congreso,5.3549542
+2010-10-01,315,Imprenta del Congreso,5.13676988
+2010-11-01,315,Imprenta del Congreso,5.2053476
+2010-12-01,315,Imprenta del Congreso,8.71284615
+2010-01-01,316,Ayuda Social Personal del Congreso de la Nación,4.05443312
+2010-02-01,316,Ayuda Social Personal del Congreso de la Nación,4.55503466
+2010-03-01,316,Ayuda Social Personal del Congreso de la Nación,5.19706947
+2010-04-01,316,Ayuda Social Personal del Congreso de la Nación,4.73462752
+2010-05-01,316,Ayuda Social Personal del Congreso de la Nación,4.50016835
+2010-06-01,316,Ayuda Social Personal del Congreso de la Nación,8.66358917
+2010-07-01,316,Ayuda Social Personal del Congreso de la Nación,7.80516505
+2010-08-01,316,Ayuda Social Personal del Congreso de la Nación,5.6465947
+2010-09-01,316,Ayuda Social Personal del Congreso de la Nación,5.799744609999999
+2010-10-01,316,Ayuda Social Personal del Congreso de la Nación,10.707012200000001
+2010-11-01,316,Ayuda Social Personal del Congreso de la Nación,12.72590443
+2010-12-01,316,Ayuda Social Personal del Congreso de la Nación,11.195762910000001
+2010-01-01,319,Defensoría del Pueblo,2.96328673
+2010-02-01,319,Defensoría del Pueblo,3.39333813
+2010-03-01,319,Defensoría del Pueblo,3.76395922
+2010-04-01,319,Defensoría del Pueblo,3.43972998
+2010-05-01,319,Defensoría del Pueblo,3.94338701
+2010-06-01,319,Defensoría del Pueblo,7.10461164
+2010-07-01,319,Defensoría del Pueblo,4.44685766
+2010-08-01,319,Defensoría del Pueblo,4.34993144
+2010-09-01,319,Defensoría del Pueblo,4.38586614
+2010-10-01,319,Defensoría del Pueblo,4.37022529
+2010-11-01,319,Defensoría del Pueblo,5.10248241
+2010-12-01,319,Defensoría del Pueblo,7.80330273
+2010-01-01,320,Consejo de la Magistratura,178.3842534
+2010-03-01,320,Consejo de la Magistratura,414.63577341
+2010-04-01,320,Consejo de la Magistratura,218.44114071
+2010-05-01,320,Consejo de la Magistratura,204.58565225
+2010-06-01,320,Consejo de la Magistratura,307.39737064
+2010-07-01,320,Consejo de la Magistratura,271.99773278
+2010-08-01,320,Consejo de la Magistratura,242.3897955
+2010-09-01,320,Consejo de la Magistratura,241.54799273999998
+2010-10-01,320,Consejo de la Magistratura,243.51287282
+2010-11-01,320,Consejo de la Magistratura,245.89741697
+2010-12-01,320,Consejo de la Magistratura,388.34427138
+2010-01-01,321,Instituto Nacional de Estadística y Censos,9.5074598
+2010-02-01,321,Instituto Nacional de Estadística y Censos,9.8985511
+2010-03-01,321,Instituto Nacional de Estadística y Censos,13.71743084
+2010-04-01,321,Instituto Nacional de Estadística y Censos,10.16074619
+2010-05-01,321,Instituto Nacional de Estadística y Censos,19.75716028
+2010-06-01,321,Instituto Nacional de Estadística y Censos,173.31002957
+2010-07-01,321,Instituto Nacional de Estadística y Censos,11.87480014
+2010-08-01,321,Instituto Nacional de Estadística y Censos,18.80231984
+2010-09-01,321,Instituto Nacional de Estadística y Censos,101.25506576000001
+2010-10-01,321,Instituto Nacional de Estadística y Censos,25.966529050000002
+2010-11-01,321,Instituto Nacional de Estadística y Censos,237.84077831000002
+2010-12-01,321,Instituto Nacional de Estadística y Censos,96.23801376
+2010-01-01,322,Secretaría de Turismo,5.68457596
+2010-02-01,322,Secretaría de Turismo,12.75594847
+2010-03-01,322,Secretaría de Turismo,12.29570262
+2010-04-01,322,Secretaría de Turismo,10.837040980000001
+2010-05-01,322,Secretaría de Turismo,13.54506225
+2010-06-01,322,Secretaría de Turismo,17.668861409999998
+2010-07-01,322,Secretaría de Turismo,9.979982940000001
+2010-08-01,322,Secretaría de Turismo,12.32695489
+2010-09-01,322,Secretaría de Turismo,15.59565903
+2010-10-01,322,Secretaría de Turismo,8.77326535
+2010-11-01,322,Secretaría de Turismo,12.67430452
+2010-12-01,322,Secretaría de Turismo,46.1626135
+2010-01-01,323,Comisión Nacional de Comercio Exterior,0.6717818999999999
+2010-02-01,323,Comisión Nacional de Comercio Exterior,0.71352708
+2010-03-01,323,Comisión Nacional de Comercio Exterior,0.62529677
+2010-04-01,323,Comisión Nacional de Comercio Exterior,0.67468751
+2010-05-01,323,Comisión Nacional de Comercio Exterior,0.71201159
+2010-06-01,323,Comisión Nacional de Comercio Exterior,0.98159045
+2010-07-01,323,Comisión Nacional de Comercio Exterior,0.92935423
+2010-08-01,323,Comisión Nacional de Comercio Exterior,0.8010389299999999
+2010-09-01,323,Comisión Nacional de Comercio Exterior,0.97673186
+2010-10-01,323,Comisión Nacional de Comercio Exterior,0.89245559
+2010-11-01,323,Comisión Nacional de Comercio Exterior,0.85993317
+2010-12-01,323,Comisión Nacional de Comercio Exterior,1.75586841
+2010-01-01,325,Ministerio del Interior (Gastos Propios),19.603377730000002
+2010-02-01,325,Ministerio del Interior (Gastos Propios),28.03266517
+2010-03-01,325,Ministerio del Interior (Gastos Propios),41.43133042
+2010-04-01,325,Ministerio del Interior (Gastos Propios),50.41159977
+2010-05-01,325,Ministerio del Interior (Gastos Propios),29.2554788
+2010-06-01,325,Ministerio del Interior (Gastos Propios),40.37337732
+2010-07-01,325,Ministerio del Interior (Gastos Propios),116.08002129
+2010-08-01,325,Ministerio del Interior (Gastos Propios),48.160819169999996
+2010-09-01,325,Ministerio del Interior (Gastos Propios),68.66977165
+2010-10-01,325,Ministerio del Interior (Gastos Propios),63.49716342
+2010-11-01,325,Ministerio del Interior (Gastos Propios),42.31338864
+2010-12-01,325,Ministerio del Interior (Gastos Propios),171.89777132
+2010-01-01,326,Policía Federal Argentina,261.99911872
+2010-02-01,326,Policía Federal Argentina,313.35417851
+2010-03-01,326,Policía Federal Argentina,326.85288826
+2010-04-01,326,Policía Federal Argentina,297.41908638
+2010-05-01,326,Policía Federal Argentina,333.8020672
+2010-06-01,326,Policía Federal Argentina,432.91544627999997
+2010-07-01,326,Policía Federal Argentina,302.42839836
+2010-08-01,326,Policía Federal Argentina,417.97053893
+2010-09-01,326,Policía Federal Argentina,397.37452919000003
+2010-10-01,326,Policía Federal Argentina,375.24434959
+2010-11-01,326,Policía Federal Argentina,381.96000399
+2010-12-01,326,Policía Federal Argentina,565.55989535
+2010-01-01,330,Ministerio de Educación,860.12363575
+2010-02-01,330,Ministerio de Educación,1125.88349418
+2010-03-01,330,Ministerio de Educación,1269.37821196
+2010-04-01,330,Ministerio de Educación,1130.90735298
+2010-05-01,330,Ministerio de Educación,1284.16285253
+2010-06-01,330,Ministerio de Educación,1898.34725236
+2010-07-01,330,Ministerio de Educación,1218.33051205
+2010-08-01,330,Ministerio de Educación,1333.67495887
+2010-09-01,330,Ministerio de Educación,1905.73265707
+2010-10-01,330,Ministerio de Educación,1253.12448841
+2010-11-01,330,Ministerio de Educación,1523.03527847
+2010-12-01,330,Ministerio de Educación,3038.34830025
+2010-01-01,331,Servicio Penitenciario Federal,102.60753305
+2010-02-01,331,Servicio Penitenciario Federal,107.66684747
+2010-03-01,331,Servicio Penitenciario Federal,119.93766453
+2010-04-01,331,Servicio Penitenciario Federal,108.84823358999999
+2010-05-01,331,Servicio Penitenciario Federal,126.20438997
+2010-06-01,331,Servicio Penitenciario Federal,158.22920781
+2010-07-01,331,Servicio Penitenciario Federal,117.58729681
+2010-08-01,331,Servicio Penitenciario Federal,157.02425724
+2010-09-01,331,Servicio Penitenciario Federal,173.2331623
+2010-10-01,331,Servicio Penitenciario Federal,152.09914881
+2010-11-01,331,Servicio Penitenciario Federal,180.59225530999998
+2010-12-01,331,Servicio Penitenciario Federal,250.32486526
+2010-01-01,332,Ministerio de Justicia y Derechos Humanos,14.18843094
+2010-02-01,332,Ministerio de Justicia y Derechos Humanos,30.41896344
+2010-03-01,332,Ministerio de Justicia y Derechos Humanos,44.33832781
+2010-04-01,332,Ministerio de Justicia y Derechos Humanos,29.61124348
+2010-05-01,332,Ministerio de Justicia y Derechos Humanos,33.44551216
+2010-06-01,332,Ministerio de Justicia y Derechos Humanos,45.82221875
+2010-07-01,332,Ministerio de Justicia y Derechos Humanos,32.33238352
+2010-08-01,332,Ministerio de Justicia y Derechos Humanos,96.81573308
+2010-09-01,332,Ministerio de Justicia y Derechos Humanos,79.11207636
+2010-10-01,332,Ministerio de Justicia y Derechos Humanos,53.12749023
+2010-11-01,332,Ministerio de Justicia y Derechos Humanos,78.1790986
+2010-12-01,332,Ministerio de Justicia y Derechos Humanos,517.45258054
+2010-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,5.11649789
+2010-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,5.3537627400000005
+2010-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,5.252644740000001
+2010-04-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,6.25270282
+2010-05-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,5.69646387
+2010-06-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,15.53730822
+2010-07-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,7.0224176
+2010-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,7.863153550000001
+2010-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,9.33960258
+2010-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,6.57913765
+2010-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,11.89121638
+2010-12-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,20.84698474
+2010-01-01,335,Corte Suprema de Justicia de la Nación,32.37480251
+2010-02-01,335,Corte Suprema de Justicia de la Nación,35.88875249
+2010-03-01,335,Corte Suprema de Justicia de la Nación,38.58115391
+2010-04-01,335,Corte Suprema de Justicia de la Nación,34.89913
+2010-05-01,335,Corte Suprema de Justicia de la Nación,33.96987278
+2010-06-01,335,Corte Suprema de Justicia de la Nación,50.33086706
+2010-07-01,335,Corte Suprema de Justicia de la Nación,46.45251855
+2010-08-01,335,Corte Suprema de Justicia de la Nación,44.08079734
+2010-09-01,335,Corte Suprema de Justicia de la Nación,44.35938064
+2010-10-01,335,Corte Suprema de Justicia de la Nación,40.00146745
+2010-11-01,335,Corte Suprema de Justicia de la Nación,41.85351317
+2010-12-01,335,Corte Suprema de Justicia de la Nación,64.47903791
+2010-01-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",20.23455225
+2010-02-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",19.73358865
+2010-03-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",141.05967337
+2010-04-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",9.84478644
+2010-05-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",14.45152716
+2010-06-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",162.75792279
+2010-07-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",11.8779028
+2010-08-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",33.82031485
+2010-09-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",41.08622194
+2010-10-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",11.57478809
+2010-11-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",40.18555752
+2010-12-01,336,"Ministerio de Ciencia, Tecnología e Innovación Productiva",116.03180191
+2010-01-01,337,Secretaría de Cultura,9.945650089999999
+2010-02-01,337,Secretaría de Cultura,11.29292644
+2010-03-01,337,Secretaría de Cultura,24.18160575
+2010-04-01,337,Secretaría de Cultura,19.92151097
+2010-05-01,337,Secretaría de Cultura,23.4670463
+2010-06-01,337,Secretaría de Cultura,32.13681852
+2010-07-01,337,Secretaría de Cultura,21.17137017
+2010-08-01,337,Secretaría de Cultura,18.59327514
+2010-09-01,337,Secretaría de Cultura,29.13183081
+2010-10-01,337,Secretaría de Cultura,14.98491189
+2010-11-01,337,Secretaría de Cultura,26.59350132
+2010-12-01,337,Secretaría de Cultura,74.85215828999999
+2010-01-01,338,Secretaría Legal y Técnica,2.53297183
+2010-02-01,338,Secretaría Legal y Técnica,2.57421839
+2010-03-01,338,Secretaría Legal y Técnica,2.68068479
+2010-04-01,338,Secretaría Legal y Técnica,2.87469024
+2010-05-01,338,Secretaría Legal y Técnica,3.03593036
+2010-06-01,338,Secretaría Legal y Técnica,4.57262302
+2010-07-01,338,Secretaría Legal y Técnica,3.29566375
+2010-08-01,338,Secretaría Legal y Técnica,3.29562103
+2010-09-01,338,Secretaría Legal y Técnica,3.4753959
+2010-10-01,338,Secretaría Legal y Técnica,3.41080449
+2010-11-01,338,Secretaría Legal y Técnica,3.51830069
+2010-12-01,338,Secretaría Legal y Técnica,5.56503456
+2010-01-01,340,Procuración Penitenciaria,0.97698322
+2010-02-01,340,Procuración Penitenciaria,1.25586442
+2010-03-01,340,Procuración Penitenciaria,1.46878666
+2010-04-01,340,Procuración Penitenciaria,1.72373834
+2010-05-01,340,Procuración Penitenciaria,1.72805352
+2010-06-01,340,Procuración Penitenciaria,2.89877194
+2010-07-01,340,Procuración Penitenciaria,1.5822638199999999
+2010-08-01,340,Procuración Penitenciaria,1.8965547
+2010-09-01,340,Procuración Penitenciaria,1.86493075
+2010-10-01,340,Procuración Penitenciaria,1.80237849
+2010-11-01,340,Procuración Penitenciaria,1.66126487
+2010-12-01,340,Procuración Penitenciaria,3.93634264
+2010-01-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",15.983758869999999
+2010-02-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",17.747709620000002
+2010-03-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",24.00020921
+2010-04-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",18.3453261
+2010-05-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",26.29746357
+2010-06-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",33.78352247
+2010-07-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",21.62790471
+2010-08-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",32.01248191
+2010-09-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",31.18175072
+2010-10-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",20.48045552
+2010-11-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",25.590517000000002
+2010-12-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",70.04660217
+2010-01-01,342,Autoridad Cuenca Matanza Riachuelo,0.61909446
+2010-02-01,342,Autoridad Cuenca Matanza Riachuelo,1.39289888
+2010-03-01,342,Autoridad Cuenca Matanza Riachuelo,16.77384686
+2010-04-01,342,Autoridad Cuenca Matanza Riachuelo,1.88593538
+2010-05-01,342,Autoridad Cuenca Matanza Riachuelo,8.11291928
+2010-06-01,342,Autoridad Cuenca Matanza Riachuelo,46.42349523
+2010-07-01,342,Autoridad Cuenca Matanza Riachuelo,1.96815667
+2010-08-01,342,Autoridad Cuenca Matanza Riachuelo,6.911425599999999
+2010-09-01,342,Autoridad Cuenca Matanza Riachuelo,39.80734101
+2010-10-01,342,Autoridad Cuenca Matanza Riachuelo,13.61100677
+2010-11-01,342,Autoridad Cuenca Matanza Riachuelo,9.42838873
+2010-12-01,342,Autoridad Cuenca Matanza Riachuelo,100.92101932
+2010-01-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",196.16198008
+2010-02-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",169.16571661
+2010-03-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",195.47439407
+2010-04-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",158.85746863
+2010-05-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",156.26205468
+2010-06-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",201.46170746
+2010-07-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",134.8412363
+2010-08-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",188.30855925
+2010-09-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",200.61635153
+2010-10-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",175.32519179
+2010-11-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",221.36333916
+2010-12-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",265.24142016
+2010-01-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",24.89932975
+2010-02-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",1866.1877079199999
+2010-03-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",3712.0953614200002
+2010-04-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",3200.11205392
+2010-05-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",3232.80433189
+2010-06-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",5631.18177566
+2010-07-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",2653.0458753899998
+2010-08-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",3115.66308644
+2010-09-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",5041.86536112
+2010-10-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",2609.30782206
+2010-11-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",3916.51912786
+2010-12-01,354,"Ministerio de Planificación Federal, Inversión Pública y Servicios",7421.29521397
+2010-01-01,355,Servicio de la Deuda Pública,1561.9977166200001
+2010-02-01,355,Servicio de la Deuda Pública,1322.3768858
+2010-03-01,355,Servicio de la Deuda Pública,2242.658323
+2010-04-01,355,Servicio de la Deuda Pública,2900.56720173
+2010-05-01,355,Servicio de la Deuda Pública,1139.0402621
+2010-06-01,355,Servicio de la Deuda Pública,3007.47580293
+2010-07-01,355,Servicio de la Deuda Pública,1586.7609747400002
+2010-08-01,355,Servicio de la Deuda Pública,592.10357262
+2010-09-01,355,Servicio de la Deuda Pública,2814.8396653600003
+2010-10-01,355,Servicio de la Deuda Pública,3179.39124512
+2010-11-01,355,Servicio de la Deuda Pública,544.9768523299999
+2010-12-01,355,Servicio de la Deuda Pública,2777.70581355
+2010-01-01,356,Obligaciones a Cargo del Tesoro,74.12531541999999
+2010-02-01,356,Obligaciones a Cargo del Tesoro,905.99225582
+2010-03-01,356,Obligaciones a Cargo del Tesoro,2076.81547584
+2010-04-01,356,Obligaciones a Cargo del Tesoro,737.9369291
+2010-05-01,356,Obligaciones a Cargo del Tesoro,1723.91796316
+2010-06-01,356,Obligaciones a Cargo del Tesoro,3716.48611316
+2010-07-01,356,Obligaciones a Cargo del Tesoro,1635.79060787
+2010-08-01,356,Obligaciones a Cargo del Tesoro,2408.9048965800002
+2010-09-01,356,Obligaciones a Cargo del Tesoro,2644.08493209
+2010-10-01,356,Obligaciones a Cargo del Tesoro,945.57226125
+2010-11-01,356,Obligaciones a Cargo del Tesoro,3194.3970696
+2010-12-01,356,Obligaciones a Cargo del Tesoro,11060.6398162
+2010-01-01,357,Ministerio de Economía y Finanzas Públicas,30.424812199999998
+2010-02-01,357,Ministerio de Economía y Finanzas Públicas,41.29532464
+2010-03-01,357,Ministerio de Economía y Finanzas Públicas,61.21246489
+2010-04-01,357,Ministerio de Economía y Finanzas Públicas,44.74181905
+2010-05-01,357,Ministerio de Economía y Finanzas Públicas,52.56476225
+2010-06-01,357,Ministerio de Economía y Finanzas Públicas,106.26209428
+2010-07-01,357,Ministerio de Economía y Finanzas Públicas,42.36935259
+2010-08-01,357,Ministerio de Economía y Finanzas Públicas,68.23246272
+2010-09-01,357,Ministerio de Economía y Finanzas Públicas,75.28862817
+2010-10-01,357,Ministerio de Economía y Finanzas Públicas,49.59851382
+2010-11-01,357,Ministerio de Economía y Finanzas Públicas,74.36137981
+2010-12-01,357,Ministerio de Economía y Finanzas Públicas,183.34695147
+2010-01-01,359,Organismo Nacional de Administración de Bienes,1.91403827
+2010-02-01,359,Organismo Nacional de Administración de Bienes,3.39025959
+2010-03-01,359,Organismo Nacional de Administración de Bienes,2.90406214
+2010-04-01,359,Organismo Nacional de Administración de Bienes,2.36170709
+2010-05-01,359,Organismo Nacional de Administración de Bienes,3.18792668
+2010-06-01,359,Organismo Nacional de Administración de Bienes,5.46109529
+2010-07-01,359,Organismo Nacional de Administración de Bienes,2.6838118900000003
+2010-08-01,359,Organismo Nacional de Administración de Bienes,4.04813171
+2010-09-01,359,Organismo Nacional de Administración de Bienes,4.037753260000001
+2010-10-01,359,Organismo Nacional de Administración de Bienes,3.41912302
+2010-11-01,359,Organismo Nacional de Administración de Bienes,4.23892454
+2010-12-01,359,Organismo Nacional de Administración de Bienes,8.669249390000001
+2010-01-01,360,Procuración General de la Nación,36.84068947
+2010-02-01,360,Procuración General de la Nación,45.02328675
+2010-03-01,360,Procuración General de la Nación,45.0303433
+2010-04-01,360,Procuración General de la Nación,43.63242245
+2010-05-01,360,Procuración General de la Nación,43.1240222
+2010-06-01,360,Procuración General de la Nación,67.91695549
+2010-07-01,360,Procuración General de la Nación,56.31354225
+2010-08-01,360,Procuración General de la Nación,50.300886399999996
+2010-09-01,360,Procuración General de la Nación,55.5067119
+2010-10-01,360,Procuración General de la Nación,51.56384821
+2010-11-01,360,Procuración General de la Nación,51.12593758
+2010-12-01,360,Procuración General de la Nación,90.84742512
+2010-01-01,361,Defensoría General de la Nación,17.94413313
+2010-02-01,361,Defensoría General de la Nación,19.21468635
+2010-03-01,361,Defensoría General de la Nación,25.27276951
+2010-04-01,361,Defensoría General de la Nación,20.84028235
+2010-05-01,361,Defensoría General de la Nación,20.99853627
+2010-06-01,361,Defensoría General de la Nación,35.71997174
+2010-07-01,361,Defensoría General de la Nación,28.35675263
+2010-08-01,361,Defensoría General de la Nación,25.20520042
+2010-09-01,361,Defensoría General de la Nación,28.63265589
+2010-10-01,361,Defensoría General de la Nación,24.64698704
+2010-11-01,361,Defensoría General de la Nación,30.111342269999998
+2010-12-01,361,Defensoría General de la Nación,43.745750640000004
+2010-01-01,362,Ministerio de Industria y Turismo,5.30481519
+2010-02-01,362,Ministerio de Industria y Turismo,8.12819136
+2010-03-01,362,Ministerio de Industria y Turismo,12.07909501
+2010-04-01,362,Ministerio de Industria y Turismo,8.83235811
+2010-05-01,362,Ministerio de Industria y Turismo,11.02764168
+2010-06-01,362,Ministerio de Industria y Turismo,18.76117516
+2010-07-01,362,Ministerio de Industria y Turismo,9.76921813
+2010-08-01,362,Ministerio de Industria y Turismo,16.77581972
+2010-09-01,362,Ministerio de Industria y Turismo,14.68910124
+2010-10-01,362,Ministerio de Industria y Turismo,11.04063629
+2010-11-01,362,Ministerio de Industria y Turismo,15.16357215
+2010-12-01,362,Ministerio de Industria y Turismo,53.19474658
+2010-01-01,363,"Ministerio de Agricultura, Ganadería y Pesca",3.83628978
+2010-02-01,363,"Ministerio de Agricultura, Ganadería y Pesca",6.73410949
+2010-03-01,363,"Ministerio de Agricultura, Ganadería y Pesca",33.34146553
+2010-04-01,363,"Ministerio de Agricultura, Ganadería y Pesca",18.51394757
+2010-05-01,363,"Ministerio de Agricultura, Ganadería y Pesca",17.16859461
+2010-06-01,363,"Ministerio de Agricultura, Ganadería y Pesca",90.77072099
+2010-07-01,363,"Ministerio de Agricultura, Ganadería y Pesca",17.02903118
+2010-08-01,363,"Ministerio de Agricultura, Ganadería y Pesca",29.28156169
+2010-09-01,363,"Ministerio de Agricultura, Ganadería y Pesca",163.71739152
+2010-10-01,363,"Ministerio de Agricultura, Ganadería y Pesca",33.37315122
+2010-11-01,363,"Ministerio de Agricultura, Ganadería y Pesca",71.97085881
+2010-12-01,363,"Ministerio de Agricultura, Ganadería y Pesca",307.39470547999997
+2010-01-01,370,Ministerio de Defensa (Gastos Propios),8.79964938
+2010-02-01,370,Ministerio de Defensa (Gastos Propios),21.68322995
+2010-03-01,370,Ministerio de Defensa (Gastos Propios),8.906931310000001
+2010-04-01,370,Ministerio de Defensa (Gastos Propios),24.24945586
+2010-05-01,370,Ministerio de Defensa (Gastos Propios),141.11709847999998
+2010-06-01,370,Ministerio de Defensa (Gastos Propios),77.14604853
+2010-07-01,370,Ministerio de Defensa (Gastos Propios),7.718524090000002
+2010-08-01,370,Ministerio de Defensa (Gastos Propios),47.264655600000005
+2010-09-01,370,Ministerio de Defensa (Gastos Propios),85.40561787
+2010-10-01,370,Ministerio de Defensa (Gastos Propios),10.08602157
+2010-11-01,370,Ministerio de Defensa (Gastos Propios),33.93463097
+2010-12-01,370,Ministerio de Defensa (Gastos Propios),117.26581341
+2010-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,1.04428351
+2010-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,6.37027288
+2010-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,18.78198732
+2010-04-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,7.4633680700000005
+2010-05-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,9.35807764
+2010-06-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,12.84127698
+2010-07-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,8.09327914
+2010-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,33.77286856
+2010-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,19.30504314
+2010-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,7.0377618
+2010-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,16.22773636
+2010-12-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,126.37279496999999
+2010-01-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,3.3830140699999998
+2010-02-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,3.75324671
+2010-03-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,4.41949872
+2010-04-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,3.78343409
+2010-05-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,3.67615813
+2010-06-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,7.178086990000001
+2010-07-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,4.2349185799999995
+2010-08-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,4.87772354
+2010-09-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,5.61745635
+2010-10-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,4.86168144
+2010-11-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,5.60966901
+2010-12-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,17.41407578
+2010-01-01,374,Estado Mayor General del Ejercito,291.52064999
+2010-02-01,374,Estado Mayor General del Ejercito,333.38656449999996
+2010-03-01,374,Estado Mayor General del Ejercito,376.9666685
+2010-04-01,374,Estado Mayor General del Ejercito,308.86811142
+2010-05-01,374,Estado Mayor General del Ejercito,321.22747623
+2010-06-01,374,Estado Mayor General del Ejercito,474.3443298
+2010-07-01,374,Estado Mayor General del Ejercito,312.01490637
+2010-08-01,374,Estado Mayor General del Ejercito,414.44138733
+2010-09-01,374,Estado Mayor General del Ejercito,516.045657
+2010-10-01,374,Estado Mayor General del Ejercito,366.33278285
+2010-11-01,374,Estado Mayor General del Ejercito,412.63367479
+2010-12-01,374,Estado Mayor General del Ejercito,765.26919046
+2010-01-01,375,Gendarmería Nacional,204.60789618
+2010-02-01,375,Gendarmería Nacional,304.84419485
+2010-03-01,375,Gendarmería Nacional,331.71254908
+2010-04-01,375,Gendarmería Nacional,292.07848666
+2010-05-01,375,Gendarmería Nacional,300.15389221
+2010-06-01,375,Gendarmería Nacional,398.18279007
+2010-07-01,375,Gendarmería Nacional,303.88249623
+2010-08-01,375,Gendarmería Nacional,340.86502826
+2010-09-01,375,Gendarmería Nacional,358.3195357
+2010-10-01,375,Gendarmería Nacional,383.40235628
+2010-11-01,375,Gendarmería Nacional,631.65214102
+2010-12-01,375,Gendarmería Nacional,689.4848570400001
+2010-01-01,379,Estado Mayor General de la Armada,191.25863356
+2010-02-01,379,Estado Mayor General de la Armada,177.28078075000002
+2010-03-01,379,Estado Mayor General de la Armada,197.01945695999999
+2010-04-01,379,Estado Mayor General de la Armada,174.37774364999999
+2010-05-01,379,Estado Mayor General de la Armada,187.40683058
+2010-06-01,379,Estado Mayor General de la Armada,312.07817278
+2010-07-01,379,Estado Mayor General de la Armada,184.91760757
+2010-08-01,379,Estado Mayor General de la Armada,214.80000202
+2010-09-01,379,Estado Mayor General de la Armada,217.40882551
+2010-10-01,379,Estado Mayor General de la Armada,208.68016645
+2010-11-01,379,Estado Mayor General de la Armada,290.76760793
+2010-12-01,379,Estado Mayor General de la Armada,390.67171994
+2010-01-01,380,Prefectura Naval Argentina,123.34308732
+2010-02-01,380,Prefectura Naval Argentina,165.43561092
+2010-03-01,380,Prefectura Naval Argentina,199.22722487000001
+2010-04-01,380,Prefectura Naval Argentina,138.08439343
+2010-05-01,380,Prefectura Naval Argentina,167.9103193
+2010-06-01,380,Prefectura Naval Argentina,278.79918072
+2010-07-01,380,Prefectura Naval Argentina,134.7482152
+2010-08-01,380,Prefectura Naval Argentina,210.34595798
+2010-09-01,380,Prefectura Naval Argentina,254.34390961
+2010-10-01,380,Prefectura Naval Argentina,163.87543589999999
+2010-11-01,380,Prefectura Naval Argentina,211.15965552
+2010-12-01,380,Prefectura Naval Argentina,359.51228706
+2010-01-01,381,Estado Mayor General de la Fuerza Aérea,126.79131368
+2010-02-01,381,Estado Mayor General de la Fuerza Aérea,133.90197611
+2010-03-01,381,Estado Mayor General de la Fuerza Aérea,195.70340694
+2010-04-01,381,Estado Mayor General de la Fuerza Aérea,134.58508423
+2010-05-01,381,Estado Mayor General de la Fuerza Aérea,140.3390941
+2010-06-01,381,Estado Mayor General de la Fuerza Aérea,291.84170113
+2010-07-01,381,Estado Mayor General de la Fuerza Aérea,138.78769958
+2010-08-01,381,Estado Mayor General de la Fuerza Aérea,177.92366794
+2010-09-01,381,Estado Mayor General de la Fuerza Aérea,237.37106333
+2010-10-01,381,Estado Mayor General de la Fuerza Aérea,160.8758856
+2010-11-01,381,Estado Mayor General de la Fuerza Aérea,185.57853959
+2010-12-01,381,Estado Mayor General de la Fuerza Aérea,421.08810527
+2010-01-01,382,Policía de Seguridad Aeroportuaria,17.06814026
+2010-02-01,382,Policía de Seguridad Aeroportuaria,19.1906275
+2010-03-01,382,Policía de Seguridad Aeroportuaria,26.34227088
+2010-04-01,382,Policía de Seguridad Aeroportuaria,20.639969139999998
+2010-05-01,382,Policía de Seguridad Aeroportuaria,19.98370773
+2010-06-01,382,Policía de Seguridad Aeroportuaria,26.97365005
+2010-07-01,382,Policía de Seguridad Aeroportuaria,21.89479552
+2010-08-01,382,Policía de Seguridad Aeroportuaria,26.188975890000002
+2010-09-01,382,Policía de Seguridad Aeroportuaria,27.22749414
+2010-10-01,382,Policía de Seguridad Aeroportuaria,23.52487245
+2010-11-01,382,Policía de Seguridad Aeroportuaria,26.16566286
+2010-12-01,382,Policía de Seguridad Aeroportuaria,61.36322449
+2010-01-01,450,Instituto Geográfico Nacional,1.39565828
+2010-02-01,450,Instituto Geográfico Nacional,3.11042834
+2010-03-01,450,Instituto Geográfico Nacional,2.61743533
+2010-04-01,450,Instituto Geográfico Nacional,1.51177055
+2010-05-01,450,Instituto Geográfico Nacional,1.57791602
+2010-06-01,450,Instituto Geográfico Nacional,3.33962267
+2010-07-01,450,Instituto Geográfico Nacional,1.95492745
+2010-08-01,450,Instituto Geográfico Nacional,2.20635315
+2010-09-01,450,Instituto Geográfico Nacional,2.09430647
+2010-10-01,450,Instituto Geográfico Nacional,2.15633279
+2010-11-01,450,Instituto Geográfico Nacional,2.43781896
+2010-12-01,450,Instituto Geográfico Nacional,9.26481087
+2010-01-01,451,Dirección General de Fabricaciones Militares,14.701275
+2010-02-01,451,Dirección General de Fabricaciones Militares,14.010801
+2010-03-01,451,Dirección General de Fabricaciones Militares,14.729803
+2010-04-01,451,Dirección General de Fabricaciones Militares,25.213749
+2010-05-01,451,Dirección General de Fabricaciones Militares,16.718
+2010-06-01,451,Dirección General de Fabricaciones Militares,33.046093
+2010-07-01,451,Dirección General de Fabricaciones Militares,18.1641
+2010-08-01,451,Dirección General de Fabricaciones Militares,29.30421
+2010-09-01,451,Dirección General de Fabricaciones Militares,32.19576
+2010-10-01,451,Dirección General de Fabricaciones Militares,28.056234
+2010-11-01,451,Dirección General de Fabricaciones Militares,29.264
+2010-12-01,451,Dirección General de Fabricaciones Militares,66.37196581
+2010-01-01,452,Servicio Meteorológico Nacional,2.75378964
+2010-02-01,452,Servicio Meteorológico Nacional,2.80712347
+2010-03-01,452,Servicio Meteorológico Nacional,4.47063012
+2010-04-01,452,Servicio Meteorológico Nacional,3.41619032
+2010-05-01,452,Servicio Meteorológico Nacional,3.60015095
+2010-06-01,452,Servicio Meteorológico Nacional,5.4313708300000005
+2010-07-01,452,Servicio Meteorológico Nacional,3.96566961
+2010-08-01,452,Servicio Meteorológico Nacional,4.94868649
+2010-09-01,452,Servicio Meteorológico Nacional,4.94618551
+2010-10-01,452,Servicio Meteorológico Nacional,5.353224
+2010-11-01,452,Servicio Meteorológico Nacional,5.51106665
+2010-12-01,452,Servicio Meteorológico Nacional,12.49023857
+2010-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,198.91373
+2010-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,199.63149619
+2010-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,200.13297109
+2010-04-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,197.21519809
+2010-05-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,201.50070175
+2010-06-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,258.00628447
+2010-07-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,275.10252439
+2010-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,233.15528623
+2010-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,239.28337421
+2010-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,244.69355575999998
+2010-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,239.02438395
+2010-12-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,308.21427584
+2010-01-01,601,Agencia Nacional de Desarrollo de Inversiones,0.77575627
+2010-02-01,601,Agencia Nacional de Desarrollo de Inversiones,1.26840696
+2010-03-01,601,Agencia Nacional de Desarrollo de Inversiones,1.22032588
+2010-04-01,601,Agencia Nacional de Desarrollo de Inversiones,1.07365478
+2010-05-01,601,Agencia Nacional de Desarrollo de Inversiones,1.58334376
+2010-06-01,601,Agencia Nacional de Desarrollo de Inversiones,1.9017877399999998
+2010-07-01,601,Agencia Nacional de Desarrollo de Inversiones,1.30474418
+2010-08-01,601,Agencia Nacional de Desarrollo de Inversiones,1.39223539
+2010-09-01,601,Agencia Nacional de Desarrollo de Inversiones,0.81937824
+2010-10-01,601,Agencia Nacional de Desarrollo de Inversiones,0.053634339999999996
+2010-11-01,601,Agencia Nacional de Desarrollo de Inversiones,0.90822643
+2010-12-01,601,Agencia Nacional de Desarrollo de Inversiones,1.88714994
+2010-01-01,602,Comisión Nacional de Valores,1.47372351
+2010-02-01,602,Comisión Nacional de Valores,1.61693172
+2010-03-01,602,Comisión Nacional de Valores,3.02397229
+2010-04-01,602,Comisión Nacional de Valores,1.6885009100000001
+2010-05-01,602,Comisión Nacional de Valores,1.89066277
+2010-06-01,602,Comisión Nacional de Valores,3.7307089700000002
+2010-07-01,602,Comisión Nacional de Valores,1.65792146
+2010-08-01,602,Comisión Nacional de Valores,2.10479671
+2010-09-01,602,Comisión Nacional de Valores,3.11017935
+2010-10-01,602,Comisión Nacional de Valores,1.93493487
+2010-11-01,602,Comisión Nacional de Valores,2.15170887
+2010-12-01,602,Comisión Nacional de Valores,4.78157819
+2010-01-01,603,Superintendencia de Seguros de la Nación,2.90555815
+2010-02-01,603,Superintendencia de Seguros de la Nación,3.54418259
+2010-03-01,603,Superintendencia de Seguros de la Nación,4.1357688
+2010-04-01,603,Superintendencia de Seguros de la Nación,3.53402897
+2010-05-01,603,Superintendencia de Seguros de la Nación,4.05067231
+2010-06-01,603,Superintendencia de Seguros de la Nación,6.27504337
+2010-07-01,603,Superintendencia de Seguros de la Nación,3.76147085
+2010-08-01,603,Superintendencia de Seguros de la Nación,4.31536103
+2010-09-01,603,Superintendencia de Seguros de la Nación,4.78764165
+2010-10-01,603,Superintendencia de Seguros de la Nación,4.48349324
+2010-11-01,603,Superintendencia de Seguros de la Nación,4.1982826200000005
+2010-12-01,603,Superintendencia de Seguros de la Nación,10.05785092
+2010-01-01,604,Dirección Nacional de Vialidad,25.63838037
+2010-02-01,604,Dirección Nacional de Vialidad,724.30345938
+2010-03-01,604,Dirección Nacional de Vialidad,922.08684372
+2010-04-01,604,Dirección Nacional de Vialidad,670.34098443
+2010-05-01,604,Dirección Nacional de Vialidad,262.15073936
+2010-06-01,604,Dirección Nacional de Vialidad,1412.64577597
+2010-07-01,604,Dirección Nacional de Vialidad,867.4805525200001
+2010-08-01,604,Dirección Nacional de Vialidad,673.21434226
+2010-09-01,604,Dirección Nacional de Vialidad,1134.35378796
+2010-10-01,604,Dirección Nacional de Vialidad,288.3974044
+2010-11-01,604,Dirección Nacional de Vialidad,1207.68868763
+2010-12-01,604,Dirección Nacional de Vialidad,2330.09268306
+2010-01-01,606,Instituto Nacional de Tecnología Agropecuaria,55.50074216
+2010-02-01,606,Instituto Nacional de Tecnología Agropecuaria,60.62532859
+2010-03-01,606,Instituto Nacional de Tecnología Agropecuaria,75.40486092
+2010-04-01,606,Instituto Nacional de Tecnología Agropecuaria,62.04460957
+2010-05-01,606,Instituto Nacional de Tecnología Agropecuaria,70.59213462
+2010-06-01,606,Instituto Nacional de Tecnología Agropecuaria,109.24069092
+2010-07-01,606,Instituto Nacional de Tecnología Agropecuaria,74.61146442
+2010-08-01,606,Instituto Nacional de Tecnología Agropecuaria,78.69367378
+2010-09-01,606,Instituto Nacional de Tecnología Agropecuaria,91.70269813
+2010-10-01,606,Instituto Nacional de Tecnología Agropecuaria,79.246517
+2010-11-01,606,Instituto Nacional de Tecnología Agropecuaria,35.054320340000004
+2010-12-01,606,Instituto Nacional de Tecnología Agropecuaria,197.15784252
+2010-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1.93646761
+2010-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2.48007818
+2010-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,5.65165203
+2010-04-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2.12591071
+2010-05-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2.23199081
+2010-06-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,3.66725763
+2010-07-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2.26268535
+2010-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,4.2279412
+2010-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,3.7590699
+2010-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2.64058229
+2010-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,3.67442532
+2010-12-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,7.93760346
+2010-01-01,608,Instituto Nacional de Tecnología Industrial,7.08752963
+2010-02-01,608,Instituto Nacional de Tecnología Industrial,8.21958728
+2010-03-01,608,Instituto Nacional de Tecnología Industrial,10.36667633
+2010-04-01,608,Instituto Nacional de Tecnología Industrial,7.88460963
+2010-05-01,608,Instituto Nacional de Tecnología Industrial,13.4135217
+2010-06-01,608,Instituto Nacional de Tecnología Industrial,21.4875388
+2010-07-01,608,Instituto Nacional de Tecnología Industrial,11.50344659
+2010-08-01,608,Instituto Nacional de Tecnología Industrial,15.14561944
+2010-09-01,608,Instituto Nacional de Tecnología Industrial,24.68057725
+2010-10-01,608,Instituto Nacional de Tecnología Industrial,24.36652509
+2010-11-01,608,Instituto Nacional de Tecnología Industrial,28.67897418
+2010-12-01,608,Instituto Nacional de Tecnología Industrial,48.12945017
+2010-01-01,609,Instituto Nacional de Vitivinicultura,4.05003126
+2010-02-01,609,Instituto Nacional de Vitivinicultura,4.51809441
+2010-03-01,609,Instituto Nacional de Vitivinicultura,4.95481014
+2010-04-01,609,Instituto Nacional de Vitivinicultura,4.59875253
+2010-05-01,609,Instituto Nacional de Vitivinicultura,6.45964098
+2010-06-01,609,Instituto Nacional de Vitivinicultura,7.90685447
+2010-07-01,609,Instituto Nacional de Vitivinicultura,4.87990831
+2010-08-01,609,Instituto Nacional de Vitivinicultura,6.19577129
+2010-09-01,609,Instituto Nacional de Vitivinicultura,7.29126961
+2010-10-01,609,Instituto Nacional de Vitivinicultura,5.11070466
+2010-11-01,609,Instituto Nacional de Vitivinicultura,6.39450182
+2010-12-01,609,Instituto Nacional de Vitivinicultura,20.60615881
+2010-01-01,611,Oficina Nacional de Control Comercial Agropecuario,0.33077977
+2010-02-01,611,Oficina Nacional de Control Comercial Agropecuario,0.46689201
+2010-03-01,611,Oficina Nacional de Control Comercial Agropecuario,273.98942924
+2010-04-01,611,Oficina Nacional de Control Comercial Agropecuario,90.70324303
+2010-05-01,611,Oficina Nacional de Control Comercial Agropecuario,211.29019700999999
+2010-06-01,611,Oficina Nacional de Control Comercial Agropecuario,326.87286051
+2010-07-01,611,Oficina Nacional de Control Comercial Agropecuario,321.63956456
+2010-08-01,611,Oficina Nacional de Control Comercial Agropecuario,325.39165688
+2010-09-01,611,Oficina Nacional de Control Comercial Agropecuario,324.43236822
+2010-10-01,611,Oficina Nacional de Control Comercial Agropecuario,132.86937558
+2010-11-01,611,Oficina Nacional de Control Comercial Agropecuario,140.30752119
+2010-12-01,611,Oficina Nacional de Control Comercial Agropecuario,769.2128858
+2010-01-01,612,Tribunal de Tasaciones de la Nación,0.54085982
+2010-02-01,612,Tribunal de Tasaciones de la Nación,0.67530979
+2010-03-01,612,Tribunal de Tasaciones de la Nación,0.62826512
+2010-04-01,612,Tribunal de Tasaciones de la Nación,0.61976669
+2010-05-01,612,Tribunal de Tasaciones de la Nación,0.72044249
+2010-06-01,612,Tribunal de Tasaciones de la Nación,1.08268541
+2010-07-01,612,Tribunal de Tasaciones de la Nación,0.72565711
+2010-08-01,612,Tribunal de Tasaciones de la Nación,0.78133627
+2010-09-01,612,Tribunal de Tasaciones de la Nación,0.85931333
+2010-10-01,612,Tribunal de Tasaciones de la Nación,0.77993892
+2010-11-01,612,Tribunal de Tasaciones de la Nación,0.80961039
+2010-12-01,612,Tribunal de Tasaciones de la Nación,1.28447385
+2010-01-01,613,Ente Nacional de Obras Hídricas de Saneamiento,49.07798021
+2010-02-01,613,Ente Nacional de Obras Hídricas de Saneamiento,57.86654209
+2010-03-01,613,Ente Nacional de Obras Hídricas de Saneamiento,65.75920071
+2010-04-01,613,Ente Nacional de Obras Hídricas de Saneamiento,74.78775529
+2010-05-01,613,Ente Nacional de Obras Hídricas de Saneamiento,76.57839781
+2010-06-01,613,Ente Nacional de Obras Hídricas de Saneamiento,132.9211951
+2010-07-01,613,Ente Nacional de Obras Hídricas de Saneamiento,62.3688174
+2010-08-01,613,Ente Nacional de Obras Hídricas de Saneamiento,64.37038684
+2010-09-01,613,Ente Nacional de Obras Hídricas de Saneamiento,155.23054033
+2010-10-01,613,Ente Nacional de Obras Hídricas de Saneamiento,48.27331499
+2010-11-01,613,Ente Nacional de Obras Hídricas de Saneamiento,119.00694838
+2010-12-01,613,Ente Nacional de Obras Hídricas de Saneamiento,216.87766924
+2010-01-01,614,Instituto Nacional de Semillas,1.16287063
+2010-02-01,614,Instituto Nacional de Semillas,1.22934331
+2010-03-01,614,Instituto Nacional de Semillas,1.55589117
+2010-04-01,614,Instituto Nacional de Semillas,1.20217875
+2010-05-01,614,Instituto Nacional de Semillas,1.4011963
+2010-06-01,614,Instituto Nacional de Semillas,2.47409931
+2010-07-01,614,Instituto Nacional de Semillas,1.07717932
+2010-08-01,614,Instituto Nacional de Semillas,2.06661289
+2010-09-01,614,Instituto Nacional de Semillas,1.70901752
+2010-10-01,614,Instituto Nacional de Semillas,1.29672707
+2010-11-01,614,Instituto Nacional de Semillas,2.2008427900000003
+2010-12-01,614,Instituto Nacional de Semillas,3.29567474
+2010-01-01,620,Tribunal Fiscal de la Nación,1.4912466400000002
+2010-02-01,620,Tribunal Fiscal de la Nación,1.54171861
+2010-03-01,620,Tribunal Fiscal de la Nación,1.7113066399999999
+2010-04-01,620,Tribunal Fiscal de la Nación,1.60411024
+2010-05-01,620,Tribunal Fiscal de la Nación,2.94199301
+2010-06-01,620,Tribunal Fiscal de la Nación,3.21290014
+2010-07-01,620,Tribunal Fiscal de la Nación,2.22560219
+2010-08-01,620,Tribunal Fiscal de la Nación,1.7442560299999998
+2010-09-01,620,Tribunal Fiscal de la Nación,3.51013553
+2010-10-01,620,Tribunal Fiscal de la Nación,2.31631656
+2010-11-01,620,Tribunal Fiscal de la Nación,2.30993022
+2010-12-01,620,Tribunal Fiscal de la Nación,3.91166863
+2010-01-01,622,Instituto Nacional de la Propiedad Industrial,1.92577722
+2010-02-01,622,Instituto Nacional de la Propiedad Industrial,2.84985048
+2010-03-01,622,Instituto Nacional de la Propiedad Industrial,3.9614792299999997
+2010-04-01,622,Instituto Nacional de la Propiedad Industrial,2.81909311
+2010-05-01,622,Instituto Nacional de la Propiedad Industrial,2.92752164
+2010-06-01,622,Instituto Nacional de la Propiedad Industrial,4.53729422
+2010-07-01,622,Instituto Nacional de la Propiedad Industrial,3.2633925
+2010-08-01,622,Instituto Nacional de la Propiedad Industrial,3.45524748
+2010-09-01,622,Instituto Nacional de la Propiedad Industrial,3.51339404
+2010-10-01,622,Instituto Nacional de la Propiedad Industrial,3.64227103
+2010-11-01,622,Instituto Nacional de la Propiedad Industrial,3.85228504
+2010-12-01,622,Instituto Nacional de la Propiedad Industrial,7.1006936099999995
+2010-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,32.47313317
+2010-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,41.85294512
+2010-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,85.59438871
+2010-04-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,46.37380188
+2010-05-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,52.98867643
+2010-06-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,97.54826713
+2010-07-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,57.56437128
+2010-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,57.94250991
+2010-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,102.98878949
+2010-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,54.23837574
+2010-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,59.8634146
+2010-12-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,160.31993281
+2010-01-01,624,Servicio Geológico Minero Argentino,3.31931448
+2010-02-01,624,Servicio Geológico Minero Argentino,3.68673177
+2010-03-01,624,Servicio Geológico Minero Argentino,4.16135524
+2010-04-01,624,Servicio Geológico Minero Argentino,4.22270751
+2010-05-01,624,Servicio Geológico Minero Argentino,4.17192396
+2010-06-01,624,Servicio Geológico Minero Argentino,6.03503326
+2010-07-01,624,Servicio Geológico Minero Argentino,4.07853605
+2010-08-01,624,Servicio Geológico Minero Argentino,4.66975857
+2010-09-01,624,Servicio Geológico Minero Argentino,7.04260546
+2010-10-01,624,Servicio Geológico Minero Argentino,2.77128508
+2010-11-01,624,Servicio Geológico Minero Argentino,11.61499715
+2010-12-01,624,Servicio Geológico Minero Argentino,10.96248766
+2010-01-01,651,Ente Nacional Regulador del Gas,5.30336604
+2010-02-01,651,Ente Nacional Regulador del Gas,6.17679213
+2010-03-01,651,Ente Nacional Regulador del Gas,5.70310628
+2010-04-01,651,Ente Nacional Regulador del Gas,5.9770112
+2010-05-01,651,Ente Nacional Regulador del Gas,6.0947666400000005
+2010-06-01,651,Ente Nacional Regulador del Gas,9.66461191
+2010-07-01,651,Ente Nacional Regulador del Gas,6.539359220000001
+2010-08-01,651,Ente Nacional Regulador del Gas,7.5681790300000005
+2010-09-01,651,Ente Nacional Regulador del Gas,8.19066975
+2010-10-01,651,Ente Nacional Regulador del Gas,7.0002814
+2010-11-01,651,Ente Nacional Regulador del Gas,7.91303688
+2010-12-01,651,Ente Nacional Regulador del Gas,15.68808079
+2010-01-01,652,Ente Nacional Regulador de la Electricidad,2.95731204
+2010-02-01,652,Ente Nacional Regulador de la Electricidad,6.09390987
+2010-03-01,652,Ente Nacional Regulador de la Electricidad,6.72778069
+2010-04-01,652,Ente Nacional Regulador de la Electricidad,3.78267892
+2010-05-01,652,Ente Nacional Regulador de la Electricidad,7.5675538499999995
+2010-06-01,652,Ente Nacional Regulador de la Electricidad,14.04548692
+2010-07-01,652,Ente Nacional Regulador de la Electricidad,4.30764923
+2010-08-01,652,Ente Nacional Regulador de la Electricidad,4.2112763
+2010-09-01,652,Ente Nacional Regulador de la Electricidad,7.12607519
+2010-10-01,652,Ente Nacional Regulador de la Electricidad,4.47411889
+2010-11-01,652,Ente Nacional Regulador de la Electricidad,6.71791059
+2010-12-01,652,Ente Nacional Regulador de la Electricidad,17.342844799999998
+2010-01-01,656,Organismo Regulador de Seguridad de Presas,0.76167143
+2010-02-01,656,Organismo Regulador de Seguridad de Presas,0.99731515
+2010-03-01,656,Organismo Regulador de Seguridad de Presas,0.9166416
+2010-04-01,656,Organismo Regulador de Seguridad de Presas,0.83136084
+2010-05-01,656,Organismo Regulador de Seguridad de Presas,0.9063269899999999
+2010-06-01,656,Organismo Regulador de Seguridad de Presas,1.36555664
+2010-07-01,656,Organismo Regulador de Seguridad de Presas,0.95553693
+2010-08-01,656,Organismo Regulador de Seguridad de Presas,0.96217248
+2010-09-01,656,Organismo Regulador de Seguridad de Presas,1.04034424
+2010-10-01,656,Organismo Regulador de Seguridad de Presas,1.02735878
+2010-11-01,656,Organismo Regulador de Seguridad de Presas,1.2074152599999999
+2010-12-01,656,Organismo Regulador de Seguridad de Presas,2.70594344
+2010-01-01,661,Comisión Nacional de Regulación del Transporte,2.0194912499999997
+2010-02-01,661,Comisión Nacional de Regulación del Transporte,3.77057816
+2010-03-01,661,Comisión Nacional de Regulación del Transporte,3.934449
+2010-04-01,661,Comisión Nacional de Regulación del Transporte,2.95125881
+2010-05-01,661,Comisión Nacional de Regulación del Transporte,4.66330236
+2010-06-01,661,Comisión Nacional de Regulación del Transporte,7.52893462
+2010-07-01,661,Comisión Nacional de Regulación del Transporte,4.52939418
+2010-08-01,661,Comisión Nacional de Regulación del Transporte,7.44702124
+2010-09-01,661,Comisión Nacional de Regulación del Transporte,7.26569152
+2010-10-01,661,Comisión Nacional de Regulación del Transporte,6.30851326
+2010-11-01,661,Comisión Nacional de Regulación del Transporte,6.27394563
+2010-12-01,661,Comisión Nacional de Regulación del Transporte,12.04060334
+2010-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,1.93760581
+2010-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,6.3026248
+2010-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,4.59497803
+2010-04-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,2.97360063
+2010-05-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,5.3706340599999995
+2010-06-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,13.19385929
+2010-07-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,2.2744704000000002
+2010-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,4.74285463
+2010-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,7.15392681
+2010-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,2.37324712
+2010-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,4.90032154
+2010-12-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,9.2664712
+2010-01-01,669,Administración Nacional de Aviación Civil,7.16973575
+2010-02-01,669,Administración Nacional de Aviación Civil,7.94516033
+2010-03-01,669,Administración Nacional de Aviación Civil,12.62493994
+2010-04-01,669,Administración Nacional de Aviación Civil,9.93922508
+2010-05-01,669,Administración Nacional de Aviación Civil,12.27236435
+2010-06-01,669,Administración Nacional de Aviación Civil,21.44155167
+2010-07-01,669,Administración Nacional de Aviación Civil,12.207986770000002
+2010-08-01,669,Administración Nacional de Aviación Civil,12.543852659999999
+2010-09-01,669,Administración Nacional de Aviación Civil,38.84170827
+2010-10-01,669,Administración Nacional de Aviación Civil,15.772414359999999
+2010-11-01,669,Administración Nacional de Aviación Civil,32.47608701
+2010-12-01,669,Administración Nacional de Aviación Civil,117.77322337
+2010-01-01,802,Fondo Nacional de las Artes,0.33535644
+2010-02-01,802,Fondo Nacional de las Artes,1.04476854
+2010-03-01,802,Fondo Nacional de las Artes,1.03743465
+2010-04-01,802,Fondo Nacional de las Artes,1.08240188
+2010-05-01,802,Fondo Nacional de las Artes,1.02591473
+2010-06-01,802,Fondo Nacional de las Artes,1.39663537
+2010-07-01,802,Fondo Nacional de las Artes,0.96599141
+2010-08-01,802,Fondo Nacional de las Artes,1.0068941900000001
+2010-09-01,802,Fondo Nacional de las Artes,1.6031606999999999
+2010-10-01,802,Fondo Nacional de las Artes,1.1358325
+2010-11-01,802,Fondo Nacional de las Artes,1.42453884
+2010-12-01,802,Fondo Nacional de las Artes,2.91224337
+2010-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,0.71142253
+2010-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,0.97153585
+2010-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,2.16197738
+2010-04-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,0.89902426
+2010-05-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,1.02593875
+2010-06-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,2.97650573
+2010-07-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,0.81019296
+2010-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,1.12683999
+2010-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,2.2994278599999998
+2010-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,1.38463396
+2010-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,1.73595366
+2010-12-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,5.27331819
+2010-01-01,850,Administración Nacional de la Seguridad Social,6400.60990982
+2010-02-01,850,Administración Nacional de la Seguridad Social,8073.73248441
+2010-03-01,850,Administración Nacional de la Seguridad Social,10448.13210529
+2010-04-01,850,Administración Nacional de la Seguridad Social,8333.12554339
+2010-05-01,850,Administración Nacional de la Seguridad Social,8097.94223692
+2010-06-01,850,Administración Nacional de la Seguridad Social,11961.71384518
+2010-07-01,850,Administración Nacional de la Seguridad Social,8637.67496538
+2010-08-01,850,Administración Nacional de la Seguridad Social,8747.04222489
+2010-09-01,850,Administración Nacional de la Seguridad Social,10300.33852181
+2010-10-01,850,Administración Nacional de la Seguridad Social,9301.42620639
+2010-11-01,850,Administración Nacional de la Seguridad Social,10444.93088663
+2010-12-01,850,Administración Nacional de la Seguridad Social,16485.40220999
+2010-01-01,852,Superintendencia de Riesgos del Trabajo,1.25612011
+2010-02-01,852,Superintendencia de Riesgos del Trabajo,3.33860906
+2010-03-01,852,Superintendencia de Riesgos del Trabajo,6.26016361
+2010-04-01,852,Superintendencia de Riesgos del Trabajo,1.11648556
+2010-05-01,852,Superintendencia de Riesgos del Trabajo,2.75377718
+2010-06-01,852,Superintendencia de Riesgos del Trabajo,7.47741812
+2010-07-01,852,Superintendencia de Riesgos del Trabajo,2.16202174
+2010-08-01,852,Superintendencia de Riesgos del Trabajo,2.91319273
+2010-09-01,852,Superintendencia de Riesgos del Trabajo,6.85415916
+2010-10-01,852,Superintendencia de Riesgos del Trabajo,2.60371381
+2010-11-01,852,Superintendencia de Riesgos del Trabajo,4.04125854
+2010-12-01,852,Superintendencia de Riesgos del Trabajo,11.70896465
+2010-01-01,902,Centro Nacional de Reeducación Social,1.47009429
+2010-02-01,902,Centro Nacional de Reeducación Social,2.18100425
+2010-03-01,902,Centro Nacional de Reeducación Social,1.62163
+2010-04-01,902,Centro Nacional de Reeducación Social,1.69315262
+2010-05-01,902,Centro Nacional de Reeducación Social,1.76917366
+2010-06-01,902,Centro Nacional de Reeducación Social,2.70072364
+2010-07-01,902,Centro Nacional de Reeducación Social,1.67347019
+2010-08-01,902,Centro Nacional de Reeducación Social,1.8632965700000002
+2010-09-01,902,Centro Nacional de Reeducación Social,1.92104927
+2010-10-01,902,Centro Nacional de Reeducación Social,2.62002225
+2010-11-01,902,Centro Nacional de Reeducación Social,2.01926747
+2010-12-01,902,Centro Nacional de Reeducación Social,3.51426999
+2010-01-01,903,Hospital Nacional Dr. Baldomero Sommer,4.91900695
+2010-02-01,903,Hospital Nacional Dr. Baldomero Sommer,5.71183685
+2010-03-01,903,Hospital Nacional Dr. Baldomero Sommer,8.79364966
+2010-04-01,903,Hospital Nacional Dr. Baldomero Sommer,5.82553937
+2010-05-01,903,Hospital Nacional Dr. Baldomero Sommer,7.1093063899999995
+2010-06-01,903,Hospital Nacional Dr. Baldomero Sommer,11.38071221
+2010-07-01,903,Hospital Nacional Dr. Baldomero Sommer,7.444747840000001
+2010-08-01,903,Hospital Nacional Dr. Baldomero Sommer,8.74823719
+2010-09-01,903,Hospital Nacional Dr. Baldomero Sommer,11.7027144
+2010-10-01,903,Hospital Nacional Dr. Baldomero Sommer,7.14198264
+2010-11-01,903,Hospital Nacional Dr. Baldomero Sommer,7.48341409
+2010-12-01,903,Hospital Nacional Dr. Baldomero Sommer,17.23219429
+2010-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",6.2267562000000005
+2010-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",7.71887286
+2010-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",6.978625
+2010-04-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",6.83522089
+2010-05-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",7.5434252200000005
+2010-06-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",11.69231529
+2010-07-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",7.59007933
+2010-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",8.39734157
+2010-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",10.3135234
+2010-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",9.15525922
+2010-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",6.27373168
+2010-12-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",18.35002281
+2010-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1.1061223
+2010-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2.05468464
+2010-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2.7097366800000002
+2010-04-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2.59001995
+2010-05-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2.23926479
+2010-06-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,4.19853634
+2010-07-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2.2904721599999998
+2010-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3.04953284
+2010-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,4.16667609
+2010-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2.22507687
+2010-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3.66532273
+2010-12-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,11.99695211
+2010-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,8.40724662
+2010-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3.71995504
+2010-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,18.4899438
+2010-04-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,6.90326068
+2010-05-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,12.09652106
+2010-06-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,18.39809608
+2010-07-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,9.89216212
+2010-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,12.35867822
+2010-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,12.57074569
+2010-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,7.36420244
+2010-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,16.97410119
+2010-12-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,30.985897089999998
+2010-01-01,908,Hospital Nacional Dr. Alejandro Posadas,21.43866569
+2010-02-01,908,Hospital Nacional Dr. Alejandro Posadas,27.00472875
+2010-03-01,908,Hospital Nacional Dr. Alejandro Posadas,25.28367166
+2010-04-01,908,Hospital Nacional Dr. Alejandro Posadas,26.57323697
+2010-05-01,908,Hospital Nacional Dr. Alejandro Posadas,39.381017140000004
+2010-06-01,908,Hospital Nacional Dr. Alejandro Posadas,51.59438731
+2010-07-01,908,Hospital Nacional Dr. Alejandro Posadas,31.83014524
+2010-08-01,908,Hospital Nacional Dr. Alejandro Posadas,39.67817039
+2010-09-01,908,Hospital Nacional Dr. Alejandro Posadas,43.45963043
+2010-10-01,908,Hospital Nacional Dr. Alejandro Posadas,33.50382611
+2010-11-01,908,Hospital Nacional Dr. Alejandro Posadas,37.17808381
+2010-12-01,908,Hospital Nacional Dr. Alejandro Posadas,75.46553251
+2010-01-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,5.14665449
+2010-02-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,5.62117584
+2010-03-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,9.26833409
+2010-04-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,6.26191702
+2010-05-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,5.5917182500000004
+2010-06-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,9.867948160000001
+2010-07-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,7.42845275
+2010-08-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,8.27085039
+2010-09-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,9.30866231
+2010-10-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,6.96115347
+2010-11-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,8.03178589
+2010-12-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,15.35631948
+2010-01-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,1.81136649
+2010-02-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,2.89674269
+2010-03-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,2.4592286
+2010-04-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,1.93738975
+2010-05-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,2.53247707
+2010-06-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,3.53361526
+2010-07-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,2.45044494
+2010-08-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,2.92477482
+2010-09-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,2.9846190000000004
+2010-10-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,2.81338151
+2010-11-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,2.84065498
+2010-12-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,5.44801134
+2010-01-01,912,Servicio Nacional de Rehabilitación,1.45732086
+2010-02-01,912,Servicio Nacional de Rehabilitación,2.43080282
+2010-03-01,912,Servicio Nacional de Rehabilitación,2.96858897
+2010-04-01,912,Servicio Nacional de Rehabilitación,2.56083797
+2010-05-01,912,Servicio Nacional de Rehabilitación,2.29241319
+2010-06-01,912,Servicio Nacional de Rehabilitación,4.93152973
+2010-07-01,912,Servicio Nacional de Rehabilitación,2.96575381
+2010-08-01,912,Servicio Nacional de Rehabilitación,3.13084375
+2010-09-01,912,Servicio Nacional de Rehabilitación,3.6385701999999998
+2010-10-01,912,Servicio Nacional de Rehabilitación,3.06523143
+2010-11-01,912,Servicio Nacional de Rehabilitación,4.15943129
+2010-12-01,912,Servicio Nacional de Rehabilitación,9.770429700000001
+2010-01-01,913,Administración de Programas Especiales,0.0
+2010-02-01,913,Administración de Programas Especiales,50.27773029
+2010-03-01,913,Administración de Programas Especiales,84.63233968
+2010-04-01,913,Administración de Programas Especiales,65.92667483999999
+2010-05-01,913,Administración de Programas Especiales,92.67886558000001
+2010-06-01,913,Administración de Programas Especiales,122.92958730000001
+2010-07-01,913,Administración de Programas Especiales,99.34501841999999
+2010-08-01,913,Administración de Programas Especiales,95.13632263
+2010-09-01,913,Administración de Programas Especiales,121.38588784
+2010-10-01,913,Administración de Programas Especiales,87.08369296
+2010-11-01,913,Administración de Programas Especiales,102.62323098
+2010-12-01,913,Administración de Programas Especiales,109.33923141
+2010-01-01,914,Superintendencia de Servicios de Salud,3.3829914800000003
+2010-02-01,914,Superintendencia de Servicios de Salud,4.01024113
+2010-03-01,914,Superintendencia de Servicios de Salud,5.08930054
+2010-04-01,914,Superintendencia de Servicios de Salud,5.60793946
+2010-05-01,914,Superintendencia de Servicios de Salud,3.88292044
+2010-06-01,914,Superintendencia de Servicios de Salud,6.79337192
+2010-07-01,914,Superintendencia de Servicios de Salud,6.35940434
+2010-08-01,914,Superintendencia de Servicios de Salud,5.32209867
+2010-09-01,914,Superintendencia de Servicios de Salud,7.47326965
+2010-10-01,914,Superintendencia de Servicios de Salud,4.7033445
+2010-11-01,914,Superintendencia de Servicios de Salud,5.11536078
+2010-12-01,914,Superintendencia de Servicios de Salud,10.56715047

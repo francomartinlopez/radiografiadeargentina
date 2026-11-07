@@ -840,6 +840,22 @@ series:
   wb_sh_dyn_1519_arg: {fuente: worldbank, id: "SH.DYN.1519", pais: ARG}
   wb_sh_imm_idpt_arg: {fuente: worldbank, id: "SH.IMM.IDPT", pais: ARG}
   wb_sh_imm_meas_arg: {fuente: worldbank, id: "SH.IMM.MEAS", pais: ARG}
+  pre_indec:   {fuente: presupuesto, id: [321]}
+  pre_inpi:   {fuente: presupuesto, id: [622]}
+  pre_coneau:   {fuente: presupuesto, id: [804]}
+  pre_anmat:   {fuente: presupuesto, id: [904]}
+  pre_senasa:   {fuente: presupuesto, id: [623]}
+  pre_inta:   {fuente: presupuesto, id: [606]}
+  pre_ign:   {fuente: presupuesto, id: [450]}
+  pre_inase:   {fuente: presupuesto, id: [614]}
+  pre_segemar:   {fuente: presupuesto, id: [624]}
+  pre_int:   {fuente: presupuesto, id: [117]}
+  pre_bnmm:   {fuente: presupuesto, id: [116]}
+  pre_cervantes:   {fuente: presupuesto, id: [113]}
+  pre_enacom:   {fuente: presupuesto, id: [102, 115, 204, 207]}
+  pre_enre_enargas:   {fuente: presupuesto, id: [651, 652, 674]}
+  pre_cnrt:   {fuente: presupuesto, id: [661]}
+  pre_anac:   {fuente: presupuesto, id: [669]}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

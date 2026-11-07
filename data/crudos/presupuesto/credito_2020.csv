@@ -1,0 +1,1515 @@
+fecha,servicio_id,servicio_desc,devengado
+2020-01-01,1,Auditoría General de la Nación,297.72573587
+2020-02-01,1,Auditoría General de la Nación,267.53640757
+2020-03-01,1,Auditoría General de la Nación,296.02932857
+2020-04-01,1,Auditoría General de la Nación,277.96948943
+2020-05-01,1,Auditoría General de la Nación,275.32481753
+2020-06-01,1,Auditoría General de la Nación,379.39050991
+2020-07-01,1,Auditoría General de la Nación,313.28186691
+2020-08-01,1,Auditoría General de la Nación,308.61942909
+2020-09-01,1,Auditoría General de la Nación,286.84537152
+2020-10-01,1,Auditoría General de la Nación,290.9316385
+2020-11-01,1,Auditoría General de la Nación,312.00109156
+2020-12-01,1,Auditoría General de la Nación,508.0543879
+2020-01-01,101,Fundación Miguel Lillo,31.097044439999998
+2020-02-01,101,Fundación Miguel Lillo,31.74166488
+2020-03-01,101,Fundación Miguel Lillo,33.228843839999996
+2020-04-01,101,Fundación Miguel Lillo,32.445864209999996
+2020-05-01,101,Fundación Miguel Lillo,30.156047129999997
+2020-06-01,101,Fundación Miguel Lillo,58.54516685
+2020-07-01,101,Fundación Miguel Lillo,36.52111986
+2020-08-01,101,Fundación Miguel Lillo,36.43011653
+2020-09-01,101,Fundación Miguel Lillo,38.61813453
+2020-10-01,101,Fundación Miguel Lillo,36.53369557
+2020-11-01,101,Fundación Miguel Lillo,40.43692552
+2020-12-01,101,Fundación Miguel Lillo,60.939418249999996
+2020-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1502.65277767
+2020-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1651.8957863
+2020-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1893.0007148799998
+2020-04-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1801.08645295
+2020-05-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1891.07617673
+2020-06-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,2509.21250608
+2020-07-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1876.2545979000001
+2020-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1889.27873462
+2020-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,2031.502868
+2020-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,2034.72454946
+2020-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,1809.0164822899999
+2020-12-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,3630.50903195
+2020-01-01,105,Comisión Nacional de Energía Atómica,289.26372624
+2020-02-01,105,Comisión Nacional de Energía Atómica,1259.70510033
+2020-03-01,105,Comisión Nacional de Energía Atómica,1000.09212751
+2020-04-01,105,Comisión Nacional de Energía Atómica,499.58862715000004
+2020-05-01,105,Comisión Nacional de Energía Atómica,815.10599868
+2020-06-01,105,Comisión Nacional de Energía Atómica,1508.18627294
+2020-07-01,105,Comisión Nacional de Energía Atómica,456.3649999
+2020-08-01,105,Comisión Nacional de Energía Atómica,512.53781754
+2020-09-01,105,Comisión Nacional de Energía Atómica,1111.84831523
+2020-10-01,105,Comisión Nacional de Energía Atómica,884.69861081
+2020-11-01,105,Comisión Nacional de Energía Atómica,1120.9087987
+2020-12-01,105,Comisión Nacional de Energía Atómica,1096.8845750799999
+2020-01-01,106,Comisión Nacional de Actividades Espaciales,40.639365319999996
+2020-02-01,106,Comisión Nacional de Actividades Espaciales,71.82852515
+2020-03-01,106,Comisión Nacional de Actividades Espaciales,404.09292453
+2020-04-01,106,Comisión Nacional de Actividades Espaciales,68.79437067
+2020-05-01,106,Comisión Nacional de Actividades Espaciales,67.51300461
+2020-06-01,106,Comisión Nacional de Actividades Espaciales,255.57417423
+2020-07-01,106,Comisión Nacional de Actividades Espaciales,84.94162515
+2020-08-01,106,Comisión Nacional de Actividades Espaciales,132.31159663
+2020-09-01,106,Comisión Nacional de Actividades Espaciales,291.90745168
+2020-10-01,106,Comisión Nacional de Actividades Espaciales,69.89194331
+2020-11-01,106,Comisión Nacional de Actividades Espaciales,184.52249644
+2020-12-01,106,Comisión Nacional de Actividades Espaciales,767.89852876
+2020-01-01,107,Administración de Parques Nacionales,118.32483363
+2020-02-01,107,Administración de Parques Nacionales,210.95380939
+2020-03-01,107,Administración de Parques Nacionales,246.15005847999998
+2020-04-01,107,Administración de Parques Nacionales,136.77896408
+2020-05-01,107,Administración de Parques Nacionales,185.50541958
+2020-06-01,107,Administración de Parques Nacionales,350.38709501
+2020-07-01,107,Administración de Parques Nacionales,148.61040581
+2020-08-01,107,Administración de Parques Nacionales,303.4156924
+2020-09-01,107,Administración de Parques Nacionales,244.46103444
+2020-10-01,107,Administración de Parques Nacionales,220.0976731
+2020-11-01,107,Administración de Parques Nacionales,179.03926625
+2020-12-01,107,Administración de Parques Nacionales,568.2967492
+2020-01-01,108,Instituto Nacional del Agua,15.47586088
+2020-02-01,108,Instituto Nacional del Agua,31.77636877
+2020-03-01,108,Instituto Nacional del Agua,23.5764272
+2020-04-01,108,Instituto Nacional del Agua,24.38919679
+2020-05-01,108,Instituto Nacional del Agua,22.54852259
+2020-06-01,108,Instituto Nacional del Agua,35.22907632
+2020-07-01,108,Instituto Nacional del Agua,23.45824162
+2020-08-01,108,Instituto Nacional del Agua,25.78806061
+2020-09-01,108,Instituto Nacional del Agua,25.02103709
+2020-10-01,108,Instituto Nacional del Agua,28.40967967
+2020-11-01,108,Instituto Nacional del Agua,23.64653243
+2020-12-01,108,Instituto Nacional del Agua,40.32828971
+2020-01-01,109,Sindicatura General de la Nación,79.19734742
+2020-02-01,109,Sindicatura General de la Nación,84.64046212
+2020-03-01,109,Sindicatura General de la Nación,86.74839326
+2020-04-01,109,Sindicatura General de la Nación,83.10618115999999
+2020-05-01,109,Sindicatura General de la Nación,81.79203736
+2020-06-01,109,Sindicatura General de la Nación,112.55608848
+2020-07-01,109,Sindicatura General de la Nación,90.81792919
+2020-08-01,109,Sindicatura General de la Nación,89.40153667
+2020-09-01,109,Sindicatura General de la Nación,86.59120668
+2020-10-01,109,Sindicatura General de la Nación,90.57574564
+2020-11-01,109,Sindicatura General de la Nación,87.87872022
+2020-12-01,109,Sindicatura General de la Nación,145.47242502
+2020-01-01,112,Autoridad Regulatoria Nuclear,44.459767920000004
+2020-02-01,112,Autoridad Regulatoria Nuclear,56.23281172
+2020-03-01,112,Autoridad Regulatoria Nuclear,58.72817094
+2020-04-01,112,Autoridad Regulatoria Nuclear,55.73852815
+2020-05-01,112,Autoridad Regulatoria Nuclear,54.37235016
+2020-06-01,112,Autoridad Regulatoria Nuclear,85.41683845
+2020-07-01,112,Autoridad Regulatoria Nuclear,90.68093177
+2020-08-01,112,Autoridad Regulatoria Nuclear,70.7545925
+2020-09-01,112,Autoridad Regulatoria Nuclear,89.72805794
+2020-10-01,112,Autoridad Regulatoria Nuclear,98.46365945000001
+2020-11-01,112,Autoridad Regulatoria Nuclear,83.47875494
+2020-12-01,112,Autoridad Regulatoria Nuclear,170.13187462
+2020-01-01,113,Teatro Nacional Cervantes,21.449147749999998
+2020-02-01,113,Teatro Nacional Cervantes,28.0986188
+2020-03-01,113,Teatro Nacional Cervantes,31.95040654
+2020-04-01,113,Teatro Nacional Cervantes,34.5842735
+2020-05-01,113,Teatro Nacional Cervantes,28.851894910000002
+2020-06-01,113,Teatro Nacional Cervantes,44.14723831
+2020-07-01,113,Teatro Nacional Cervantes,28.21440826
+2020-08-01,113,Teatro Nacional Cervantes,28.916184649999998
+2020-09-01,113,Teatro Nacional Cervantes,45.04811331
+2020-10-01,113,Teatro Nacional Cervantes,38.05751219
+2020-11-01,113,Teatro Nacional Cervantes,36.20332777
+2020-12-01,113,Teatro Nacional Cervantes,104.81083115
+2020-01-01,114,Instituto Nacional de Asociativismo y Economía Social,36.11767299
+2020-02-01,114,Instituto Nacional de Asociativismo y Economía Social,28.36320941
+2020-03-01,114,Instituto Nacional de Asociativismo y Economía Social,102.48849852
+2020-04-01,114,Instituto Nacional de Asociativismo y Economía Social,35.57457727
+2020-05-01,114,Instituto Nacional de Asociativismo y Economía Social,56.24175428
+2020-06-01,114,Instituto Nacional de Asociativismo y Economía Social,236.11464947
+2020-07-01,114,Instituto Nacional de Asociativismo y Economía Social,46.45369915
+2020-08-01,114,Instituto Nacional de Asociativismo y Economía Social,45.58930517
+2020-09-01,114,Instituto Nacional de Asociativismo y Economía Social,198.84926967
+2020-10-01,114,Instituto Nacional de Asociativismo y Economía Social,55.340424490000004
+2020-11-01,114,Instituto Nacional de Asociativismo y Economía Social,76.84194031
+2020-12-01,114,Instituto Nacional de Asociativismo y Economía Social,299.74055885
+2020-01-01,116,Biblioteca Nacional,52.96725542
+2020-02-01,116,Biblioteca Nacional,71.74191114
+2020-03-01,116,Biblioteca Nacional,73.72266123
+2020-04-01,116,Biblioteca Nacional,67.89599413
+2020-05-01,116,Biblioteca Nacional,68.02577231
+2020-06-01,116,Biblioteca Nacional,116.63773238
+2020-07-01,116,Biblioteca Nacional,68.19007324
+2020-08-01,116,Biblioteca Nacional,74.90601063
+2020-09-01,116,Biblioteca Nacional,80.6041581
+2020-10-01,116,Biblioteca Nacional,82.56313441
+2020-11-01,116,Biblioteca Nacional,79.99247249
+2020-12-01,116,Biblioteca Nacional,206.34741964
+2020-01-01,117,Instituto Nacional del Teatro,13.29125512
+2020-02-01,117,Instituto Nacional del Teatro,0.0
+2020-03-01,117,Instituto Nacional del Teatro,85.38885435
+2020-04-01,117,Instituto Nacional del Teatro,26.20467142
+2020-05-01,117,Instituto Nacional del Teatro,34.66015511
+2020-06-01,117,Instituto Nacional del Teatro,102.52114568
+2020-07-01,117,Instituto Nacional del Teatro,51.05353046
+2020-08-01,117,Instituto Nacional del Teatro,46.520421400000004
+2020-09-01,117,Instituto Nacional del Teatro,40.43865452
+2020-10-01,117,Instituto Nacional del Teatro,61.108092819999996
+2020-11-01,117,Instituto Nacional del Teatro,85.63147173
+2020-12-01,117,Instituto Nacional del Teatro,195.41129232
+2020-01-01,118,Instituto Nacional de Asuntos Indígenas,13.3129975
+2020-02-01,118,Instituto Nacional de Asuntos Indígenas,15.1956495
+2020-03-01,118,Instituto Nacional de Asuntos Indígenas,18.44928481
+2020-04-01,118,Instituto Nacional de Asuntos Indígenas,16.57208025
+2020-05-01,118,Instituto Nacional de Asuntos Indígenas,17.80873352
+2020-06-01,118,Instituto Nacional de Asuntos Indígenas,36.66555838
+2020-07-01,118,Instituto Nacional de Asuntos Indígenas,12.46437244
+2020-08-01,118,Instituto Nacional de Asuntos Indígenas,19.33374449
+2020-09-01,118,Instituto Nacional de Asuntos Indígenas,38.08924215
+2020-10-01,118,Instituto Nacional de Asuntos Indígenas,3.04026854
+2020-11-01,118,Instituto Nacional de Asuntos Indígenas,24.65078119
+2020-12-01,118,Instituto Nacional de Asuntos Indígenas,88.53381949
+2020-01-01,119,Instituto Nacional de Promoción Turística,26.09415243
+2020-02-01,119,Instituto Nacional de Promoción Turística,30.393656319999998
+2020-03-01,119,Instituto Nacional de Promoción Turística,22.50729707
+2020-04-01,119,Instituto Nacional de Promoción Turística,16.693345830000002
+2020-05-01,119,Instituto Nacional de Promoción Turística,13.89620752
+2020-06-01,119,Instituto Nacional de Promoción Turística,15.44592052
+2020-07-01,119,Instituto Nacional de Promoción Turística,7.6437097199999995
+2020-08-01,119,Instituto Nacional de Promoción Turística,15.94828266
+2020-09-01,119,Instituto Nacional de Promoción Turística,22.75518284
+2020-10-01,119,Instituto Nacional de Promoción Turística,49.95212964
+2020-11-01,119,Instituto Nacional de Promoción Turística,107.37563723
+2020-12-01,119,Instituto Nacional de Promoción Turística,684.04380811
+2020-01-01,121,Banco Nacional de Datos Genéticos (BNDG),2.8707946
+2020-02-01,121,Banco Nacional de Datos Genéticos (BNDG),3.0216683
+2020-03-01,121,Banco Nacional de Datos Genéticos (BNDG),3.0183114900000003
+2020-04-01,121,Banco Nacional de Datos Genéticos (BNDG),2.9069979
+2020-05-01,121,Banco Nacional de Datos Genéticos (BNDG),2.98764457
+2020-06-01,121,Banco Nacional de Datos Genéticos (BNDG),4.99582627
+2020-07-01,121,Banco Nacional de Datos Genéticos (BNDG),2.21018649
+2020-08-01,121,Banco Nacional de Datos Genéticos (BNDG),3.3785941999999998
+2020-09-01,121,Banco Nacional de Datos Genéticos (BNDG),4.49142868
+2020-10-01,121,Banco Nacional de Datos Genéticos (BNDG),5.62814644
+2020-11-01,121,Banco Nacional de Datos Genéticos (BNDG),3.9843227199999998
+2020-12-01,121,Banco Nacional de Datos Genéticos (BNDG),19.22284889
+2020-01-01,200,Registro Nacional de las Personas,174.01483757
+2020-02-01,200,Registro Nacional de las Personas,144.47180122
+2020-03-01,200,Registro Nacional de las Personas,717.24409225
+2020-04-01,200,Registro Nacional de las Personas,246.42484911
+2020-05-01,200,Registro Nacional de las Personas,270.49287928
+2020-06-01,200,Registro Nacional de las Personas,715.49827196
+2020-07-01,200,Registro Nacional de las Personas,219.92605431
+2020-08-01,200,Registro Nacional de las Personas,345.45841888
+2020-09-01,200,Registro Nacional de las Personas,398.79832316
+2020-10-01,200,Registro Nacional de las Personas,345.84992514
+2020-11-01,200,Registro Nacional de las Personas,345.74430552
+2020-12-01,200,Registro Nacional de las Personas,1078.71114195
+2020-01-01,201,Dirección Nacional de Migraciones,250.19877184999999
+2020-02-01,201,Dirección Nacional de Migraciones,384.49600462
+2020-03-01,201,Dirección Nacional de Migraciones,835.03549513
+2020-04-01,201,Dirección Nacional de Migraciones,185.41741768
+2020-05-01,201,Dirección Nacional de Migraciones,450.11001329
+2020-06-01,201,Dirección Nacional de Migraciones,887.33176728
+2020-07-01,201,Dirección Nacional de Migraciones,392.31775136
+2020-08-01,201,Dirección Nacional de Migraciones,380.67018759
+2020-09-01,201,Dirección Nacional de Migraciones,603.92545605
+2020-10-01,201,Dirección Nacional de Migraciones,519.37313686
+2020-11-01,201,Dirección Nacional de Migraciones,498.75044128
+2020-12-01,201,Dirección Nacional de Migraciones,1181.18343958
+2020-01-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",0.0
+2020-02-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",27.91797935
+2020-03-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",29.5517306
+2020-04-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",17.7633444
+2020-05-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",14.29389855
+2020-06-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",48.235439570000004
+2020-07-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",22.13462712
+2020-08-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",21.26916553
+2020-09-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",21.71766969
+2020-10-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",24.99623905
+2020-11-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",21.24444116
+2020-12-01,202,"Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo",45.14633732
+2020-01-01,203,Agencia Nacional de Seguridad Vial,46.377886950000004
+2020-02-01,203,Agencia Nacional de Seguridad Vial,56.30301802
+2020-03-01,203,Agencia Nacional de Seguridad Vial,57.71511051
+2020-04-01,203,Agencia Nacional de Seguridad Vial,46.69515862
+2020-05-01,203,Agencia Nacional de Seguridad Vial,50.33498638
+2020-06-01,203,Agencia Nacional de Seguridad Vial,116.03734183
+2020-07-01,203,Agencia Nacional de Seguridad Vial,56.2253598
+2020-08-01,203,Agencia Nacional de Seguridad Vial,73.73978535
+2020-09-01,203,Agencia Nacional de Seguridad Vial,70.32990293
+2020-10-01,203,Agencia Nacional de Seguridad Vial,70.47204144
+2020-11-01,203,Agencia Nacional de Seguridad Vial,55.11618572
+2020-12-01,203,Agencia Nacional de Seguridad Vial,380.50996066
+2020-01-01,205,Agencia de Administración de Bienes del Estado,30.6632376
+2020-02-01,205,Agencia de Administración de Bienes del Estado,58.525419979999995
+2020-03-01,205,Agencia de Administración de Bienes del Estado,58.14777454
+2020-04-01,205,Agencia de Administración de Bienes del Estado,46.86180098
+2020-05-01,205,Agencia de Administración de Bienes del Estado,56.790223250000004
+2020-06-01,205,Agencia de Administración de Bienes del Estado,65.81035699
+2020-07-01,205,Agencia de Administración de Bienes del Estado,45.58643875
+2020-08-01,205,Agencia de Administración de Bienes del Estado,50.30778315
+2020-09-01,205,Agencia de Administración de Bienes del Estado,61.25290094
+2020-10-01,205,Agencia de Administración de Bienes del Estado,55.16186957
+2020-11-01,205,Agencia de Administración de Bienes del Estado,60.60562645
+2020-12-01,205,Agencia de Administración de Bienes del Estado,88.243349
+2020-01-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.05801147
+2020-02-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.97709236
+2020-03-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.26264716
+2020-04-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.75019366
+2020-05-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.7240390700000001
+2020-06-01,206,Centro Internacional para la Promoción de los Derechos Humanos,4.21573153
+2020-07-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.01934713
+2020-08-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.5091533
+2020-09-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.45336758
+2020-10-01,206,Centro Internacional para la Promoción de los Derechos Humanos,1.5586582
+2020-11-01,206,Centro Internacional para la Promoción de los Derechos Humanos,2.71007116
+2020-12-01,206,Centro Internacional para la Promoción de los Derechos Humanos,6.16191835
+2020-01-01,207,Ente Nacional de Comunicaciones,152.22022302
+2020-02-01,207,Ente Nacional de Comunicaciones,244.24391033
+2020-03-01,207,Ente Nacional de Comunicaciones,382.79748632
+2020-04-01,207,Ente Nacional de Comunicaciones,231.57703615
+2020-05-01,207,Ente Nacional de Comunicaciones,269.28202375
+2020-06-01,207,Ente Nacional de Comunicaciones,380.464496
+2020-07-01,207,Ente Nacional de Comunicaciones,276.58122280000003
+2020-08-01,207,Ente Nacional de Comunicaciones,270.90860634
+2020-09-01,207,Ente Nacional de Comunicaciones,347.71436962
+2020-10-01,207,Ente Nacional de Comunicaciones,322.44476051
+2020-11-01,207,Ente Nacional de Comunicaciones,317.87779602
+2020-12-01,207,Ente Nacional de Comunicaciones,847.1625259599999
+2020-01-01,208,Agencia Nacional de Materiales Controlados,0.0
+2020-02-01,208,Agencia Nacional de Materiales Controlados,15.469685029999999
+2020-03-01,208,Agencia Nacional de Materiales Controlados,7.5522633500000005
+2020-04-01,208,Agencia Nacional de Materiales Controlados,6.64617438
+2020-05-01,208,Agencia Nacional de Materiales Controlados,6.73262255
+2020-06-01,208,Agencia Nacional de Materiales Controlados,12.16292033
+2020-07-01,208,Agencia Nacional de Materiales Controlados,6.18804097
+2020-08-01,208,Agencia Nacional de Materiales Controlados,7.3104818300000005
+2020-09-01,208,Agencia Nacional de Materiales Controlados,7.94795262
+2020-10-01,208,Agencia Nacional de Materiales Controlados,5.62993423
+2020-11-01,208,Agencia Nacional de Materiales Controlados,5.77388134
+2020-12-01,208,Agencia Nacional de Materiales Controlados,105.39242842
+2020-01-01,209,Agencia de Acceso a la Información Pública,3.29136465
+2020-02-01,209,Agencia de Acceso a la Información Pública,5.28392227
+2020-03-01,209,Agencia de Acceso a la Información Pública,7.3589856099999995
+2020-04-01,209,Agencia de Acceso a la Información Pública,5.09888256
+2020-05-01,209,Agencia de Acceso a la Información Pública,5.05832958
+2020-06-01,209,Agencia de Acceso a la Información Pública,8.685855309999999
+2020-07-01,209,Agencia de Acceso a la Información Pública,3.84332495
+2020-08-01,209,Agencia de Acceso a la Información Pública,5.5293803399999994
+2020-09-01,209,Agencia de Acceso a la Información Pública,6.130584720000001
+2020-10-01,209,Agencia de Acceso a la Información Pública,6.27196553
+2020-11-01,209,Agencia de Acceso a la Información Pública,5.93495484
+2020-12-01,209,Agencia de Acceso a la Información Pública,12.50579442
+2020-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",6096.37000162
+2020-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",7308.87515952
+2020-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",6970.60147048
+2020-04-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",6929.0389818
+2020-05-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",6893.41058596
+2020-06-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",10231.85286708
+2020-07-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",6994.44588063
+2020-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",6960.61200688
+2020-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",7085.885659019999
+2020-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",8217.08346951
+2020-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",8833.45229363
+2020-12-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",12601.945469080001
+2020-01-01,301,Secretaría General de la Presidencia de la Nación,79.30452847
+2020-02-01,301,Secretaría General de la Presidencia de la Nación,134.38672711
+2020-03-01,301,Secretaría General de la Presidencia de la Nación,192.47601449
+2020-04-01,301,Secretaría General de la Presidencia de la Nación,155.45199509
+2020-05-01,301,Secretaría General de la Presidencia de la Nación,226.90065223
+2020-06-01,301,Secretaría General de la Presidencia de la Nación,305.82794913
+2020-07-01,301,Secretaría General de la Presidencia de la Nación,185.0245839
+2020-08-01,301,Secretaría General de la Presidencia de la Nación,219.17485247000002
+2020-09-01,301,Secretaría General de la Presidencia de la Nación,223.87109609
+2020-10-01,301,Secretaría General de la Presidencia de la Nación,199.17291344
+2020-11-01,301,Secretaría General de la Presidencia de la Nación,316.77701263
+2020-12-01,301,Secretaría General de la Presidencia de la Nación,899.03459507
+2020-01-01,302,Agencia Federal de Inteligencia,0.0
+2020-02-01,302,Agencia Federal de Inteligencia,298.88973087
+2020-03-01,302,Agencia Federal de Inteligencia,438.71414524
+2020-04-01,302,Agencia Federal de Inteligencia,230.21199990999997
+2020-05-01,302,Agencia Federal de Inteligencia,0.0
+2020-06-01,302,Agencia Federal de Inteligencia,462.31100000000004
+2020-07-01,302,Agencia Federal de Inteligencia,170.321985
+2020-08-01,302,Agencia Federal de Inteligencia,170.29323095
+2020-09-01,302,Agencia Federal de Inteligencia,169.95996058
+2020-10-01,302,Agencia Federal de Inteligencia,272.30386563
+2020-11-01,302,Agencia Federal de Inteligencia,240.39525073000001
+2020-12-01,302,Agencia Federal de Inteligencia,460.24635120000005
+2020-01-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),89.05293603
+2020-02-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),182.25559267
+2020-03-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),204.56936117
+2020-04-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),234.93372474
+2020-05-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),184.19834072999998
+2020-06-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),274.01827557
+2020-07-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),166.28622035
+2020-08-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),199.25019742
+2020-09-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),215.87820361
+2020-10-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),205.58378486
+2020-11-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),203.38861814
+2020-12-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),344.91936239
+2020-01-01,305,Jefatura de Gabinete de Ministros,129.87343457
+2020-02-01,305,Jefatura de Gabinete de Ministros,142.60041895
+2020-03-01,305,Jefatura de Gabinete de Ministros,270.3548277
+2020-04-01,305,Jefatura de Gabinete de Ministros,319.0863628
+2020-05-01,305,Jefatura de Gabinete de Ministros,156.53889384
+2020-06-01,305,Jefatura de Gabinete de Ministros,246.85280257
+2020-07-01,305,Jefatura de Gabinete de Ministros,141.00775613
+2020-08-01,305,Jefatura de Gabinete de Ministros,167.75009251
+2020-09-01,305,Jefatura de Gabinete de Ministros,179.10173251
+2020-10-01,305,Jefatura de Gabinete de Ministros,10197.58307527
+2020-11-01,305,Jefatura de Gabinete de Ministros,184.59828669
+2020-12-01,305,Jefatura de Gabinete de Ministros,3363.68344863
+2020-01-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",1061.57143654
+2020-02-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",2056.5963530100003
+2020-03-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",2369.1968934799997
+2020-04-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",1475.3533905200002
+2020-05-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",1596.90076759
+2020-06-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",3529.10122432
+2020-07-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",1870.1639830000001
+2020-08-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",2100.04710217
+2020-09-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",2972.01048675
+2020-10-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",2600.57706793
+2020-11-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",1274.50847422
+2020-12-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",6631.50618262
+2020-01-01,310,Ministerio de Salud,1160.26371831
+2020-02-01,310,Ministerio de Salud,4196.8326293499995
+2020-03-01,310,Ministerio de Salud,12382.36799868
+2020-04-01,310,Ministerio de Salud,11042.85606686
+2020-05-01,310,Ministerio de Salud,6142.89705135
+2020-06-01,310,Ministerio de Salud,8307.6600284
+2020-07-01,310,Ministerio de Salud,5200.44658362
+2020-08-01,310,Ministerio de Salud,7914.19689157
+2020-09-01,310,Ministerio de Salud,19463.38215255
+2020-10-01,310,Ministerio de Salud,8430.5810047
+2020-11-01,310,Ministerio de Salud,9807.25784731
+2020-12-01,310,Ministerio de Salud,14008.97843026
+2020-01-01,311,Ministerio de Desarrollo Social,8735.79749685
+2020-02-01,311,Ministerio de Desarrollo Social,11179.4667476
+2020-03-01,311,Ministerio de Desarrollo Social,22286.00828342
+2020-04-01,311,Ministerio de Desarrollo Social,19039.75997582
+2020-05-01,311,Ministerio de Desarrollo Social,20978.8300628
+2020-06-01,311,Ministerio de Desarrollo Social,19132.47045217
+2020-07-01,311,Ministerio de Desarrollo Social,18723.62143333
+2020-08-01,311,Ministerio de Desarrollo Social,14168.25547688
+2020-09-01,311,Ministerio de Desarrollo Social,19947.26321864
+2020-10-01,311,Ministerio de Desarrollo Social,17264.03770894
+2020-11-01,311,Ministerio de Desarrollo Social,18661.57447573
+2020-12-01,311,Ministerio de Desarrollo Social,43204.48306518
+2020-01-01,312,Senado de la Nación,911.4989090600001
+2020-02-01,312,Senado de la Nación,869.20052629
+2020-03-01,312,Senado de la Nación,1225.24619209
+2020-04-01,312,Senado de la Nación,930.7325798799999
+2020-05-01,312,Senado de la Nación,990.55171191
+2020-06-01,312,Senado de la Nación,1208.36396717
+2020-07-01,312,Senado de la Nación,1034.39788026
+2020-08-01,312,Senado de la Nación,1044.3571672399999
+2020-09-01,312,Senado de la Nación,983.80658339
+2020-10-01,312,Senado de la Nación,1010.1908512
+2020-11-01,312,Senado de la Nación,1108.05539658
+2020-12-01,312,Senado de la Nación,1975.65352601
+2020-01-01,313,Cámara de Diputados,879.81357096
+2020-02-01,313,Cámara de Diputados,875.88144362
+2020-03-01,313,Cámara de Diputados,1075.80661276
+2020-04-01,313,Cámara de Diputados,915.7210721
+2020-05-01,313,Cámara de Diputados,933.0251962899999
+2020-06-01,313,Cámara de Diputados,1207.64481493
+2020-07-01,313,Cámara de Diputados,951.70884417
+2020-08-01,313,Cámara de Diputados,961.86526908
+2020-09-01,313,Cámara de Diputados,1048.04325465
+2020-10-01,313,Cámara de Diputados,1151.96694704
+2020-11-01,313,Cámara de Diputados,1092.46033364
+2020-12-01,313,Cámara de Diputados,2160.28912919
+2020-01-01,314,Biblioteca del Congreso,253.66882182
+2020-02-01,314,Biblioteca del Congreso,253.48361429
+2020-03-01,314,Biblioteca del Congreso,254.37058256
+2020-04-01,314,Biblioteca del Congreso,251.23776168
+2020-05-01,314,Biblioteca del Congreso,255.18968637999998
+2020-06-01,314,Biblioteca del Congreso,329.78118768
+2020-07-01,314,Biblioteca del Congreso,268.29539121
+2020-08-01,314,Biblioteca del Congreso,263.58065446
+2020-09-01,314,Biblioteca del Congreso,253.45199775999998
+2020-10-01,314,Biblioteca del Congreso,252.96629483
+2020-11-01,314,Biblioteca del Congreso,258.3931692
+2020-12-01,314,Biblioteca del Congreso,505.03189324
+2020-01-01,315,Imprenta del Congreso,65.46150404000001
+2020-02-01,315,Imprenta del Congreso,66.16609874
+2020-03-01,315,Imprenta del Congreso,70.62325602
+2020-04-01,315,Imprenta del Congreso,64.09252089
+2020-05-01,315,Imprenta del Congreso,66.74216329
+2020-06-01,315,Imprenta del Congreso,93.35752798
+2020-07-01,315,Imprenta del Congreso,67.15566366
+2020-08-01,315,Imprenta del Congreso,67.7398496
+2020-09-01,315,Imprenta del Congreso,72.98267451
+2020-10-01,315,Imprenta del Congreso,70.47760204
+2020-11-01,315,Imprenta del Congreso,91.06738856
+2020-12-01,315,Imprenta del Congreso,160.50724523
+2020-01-01,316,Ayuda Social Personal del Congreso de la Nación,207.35901282
+2020-02-01,316,Ayuda Social Personal del Congreso de la Nación,207.54535077
+2020-03-01,316,Ayuda Social Personal del Congreso de la Nación,207.34029105
+2020-04-01,316,Ayuda Social Personal del Congreso de la Nación,156.21134845
+2020-05-01,316,Ayuda Social Personal del Congreso de la Nación,157.01819380999999
+2020-06-01,316,Ayuda Social Personal del Congreso de la Nación,191.77619436
+2020-07-01,316,Ayuda Social Personal del Congreso de la Nación,193.48045414
+2020-08-01,316,Ayuda Social Personal del Congreso de la Nación,194.81973191
+2020-09-01,316,Ayuda Social Personal del Congreso de la Nación,133.30651226
+2020-10-01,316,Ayuda Social Personal del Congreso de la Nación,248.33568655
+2020-11-01,316,Ayuda Social Personal del Congreso de la Nación,229.4573989
+2020-12-01,316,Ayuda Social Personal del Congreso de la Nación,277.60888277
+2020-01-01,317,Ministerio de Ambiente y Desarrollo Sostenible,54.926641350000004
+2020-02-01,317,Ministerio de Ambiente y Desarrollo Sostenible,78.91441936
+2020-03-01,317,Ministerio de Ambiente y Desarrollo Sostenible,106.70570054
+2020-04-01,317,Ministerio de Ambiente y Desarrollo Sostenible,79.35933605
+2020-05-01,317,Ministerio de Ambiente y Desarrollo Sostenible,90.41555982
+2020-06-01,317,Ministerio de Ambiente y Desarrollo Sostenible,247.28070189
+2020-07-01,317,Ministerio de Ambiente y Desarrollo Sostenible,619.43556972
+2020-08-01,317,Ministerio de Ambiente y Desarrollo Sostenible,115.47447965
+2020-09-01,317,Ministerio de Ambiente y Desarrollo Sostenible,222.57474543
+2020-10-01,317,Ministerio de Ambiente y Desarrollo Sostenible,207.43726297999999
+2020-11-01,317,Ministerio de Ambiente y Desarrollo Sostenible,427.71945829
+2020-12-01,317,Ministerio de Ambiente y Desarrollo Sostenible,523.61416303
+2020-01-01,319,Defensoría del Pueblo de la Nación,64.54304999
+2020-02-01,319,Defensoría del Pueblo de la Nación,66.57195345
+2020-03-01,319,Defensoría del Pueblo de la Nación,65.9988256
+2020-04-01,319,Defensoría del Pueblo de la Nación,66.35388164
+2020-05-01,319,Defensoría del Pueblo de la Nación,65.55980244999999
+2020-06-01,319,Defensoría del Pueblo de la Nación,86.53167673
+2020-07-01,319,Defensoría del Pueblo de la Nación,73.46139817
+2020-08-01,319,Defensoría del Pueblo de la Nación,71.98090289
+2020-09-01,319,Defensoría del Pueblo de la Nación,66.14041288
+2020-10-01,319,Defensoría del Pueblo de la Nación,71.03592981999999
+2020-11-01,319,Defensoría del Pueblo de la Nación,78.07600296
+2020-12-01,319,Defensoría del Pueblo de la Nación,140.82813830999999
+2020-01-01,320,Consejo de la Magistratura,4838.82871659
+2020-02-01,320,Consejo de la Magistratura,4925.05425474
+2020-03-01,320,Consejo de la Magistratura,1169.23428115
+2020-04-01,320,Consejo de la Magistratura,8602.05767054
+2020-05-01,320,Consejo de la Magistratura,4870.7876442
+2020-06-01,320,Consejo de la Magistratura,8248.49408967
+2020-07-01,320,Consejo de la Magistratura,3108.01214688
+2020-08-01,320,Consejo de la Magistratura,5890.41705627
+2020-09-01,320,Consejo de la Magistratura,5032.26931943
+2020-10-01,320,Consejo de la Magistratura,5031.37129766
+2020-11-01,320,Consejo de la Magistratura,6028.22241096
+2020-12-01,320,Consejo de la Magistratura,8381.0640308
+2020-01-01,321,Instituto Nacional de Estadística y Censos,94.2926964
+2020-02-01,321,Instituto Nacional de Estadística y Censos,133.39721288
+2020-03-01,321,Instituto Nacional de Estadística y Censos,131.55310553
+2020-04-01,321,Instituto Nacional de Estadística y Censos,105.58393826
+2020-05-01,321,Instituto Nacional de Estadística y Censos,113.63469399
+2020-06-01,321,Instituto Nacional de Estadística y Censos,315.88560855
+2020-07-01,321,Instituto Nacional de Estadística y Censos,125.07305891
+2020-08-01,321,Instituto Nacional de Estadística y Censos,136.26761794
+2020-09-01,321,Instituto Nacional de Estadística y Censos,136.41099429
+2020-10-01,321,Instituto Nacional de Estadística y Censos,175.52096778
+2020-11-01,321,Instituto Nacional de Estadística y Censos,155.60106037
+2020-12-01,321,Instituto Nacional de Estadística y Censos,348.67765281
+2020-01-01,322,Ministerio de Turismo y Deportes,64.65270073
+2020-02-01,322,Ministerio de Turismo y Deportes,140.64089635
+2020-03-01,322,Ministerio de Turismo y Deportes,183.45747308
+2020-04-01,322,Ministerio de Turismo y Deportes,149.63369335000002
+2020-05-01,322,Ministerio de Turismo y Deportes,185.42070433
+2020-06-01,322,Ministerio de Turismo y Deportes,325.76191466
+2020-07-01,322,Ministerio de Turismo y Deportes,673.58638814
+2020-08-01,322,Ministerio de Turismo y Deportes,835.18830115
+2020-09-01,322,Ministerio de Turismo y Deportes,1705.72116733
+2020-10-01,322,Ministerio de Turismo y Deportes,405.14363753
+2020-11-01,322,Ministerio de Turismo y Deportes,2341.0696983000003
+2020-12-01,322,Ministerio de Turismo y Deportes,3579.64170711
+2020-01-01,323,Comisión Nacional de Comercio Exterior,7.00166958
+2020-02-01,323,Comisión Nacional de Comercio Exterior,3.17388835
+2020-03-01,323,Comisión Nacional de Comercio Exterior,7.31432793
+2020-04-01,323,Comisión Nacional de Comercio Exterior,5.91278351
+2020-05-01,323,Comisión Nacional de Comercio Exterior,6.97853001
+2020-06-01,323,Comisión Nacional de Comercio Exterior,10.5890341
+2020-07-01,323,Comisión Nacional de Comercio Exterior,8.967834269999999
+2020-08-01,323,Comisión Nacional de Comercio Exterior,4.83396559
+2020-09-01,323,Comisión Nacional de Comercio Exterior,8.49323373
+2020-10-01,323,Comisión Nacional de Comercio Exterior,6.85822214
+2020-11-01,323,Comisión Nacional de Comercio Exterior,5.88909346
+2020-12-01,323,Comisión Nacional de Comercio Exterior,11.76835977
+2020-01-01,325,Ministerio del Interior,80.18894277
+2020-02-01,325,Ministerio del Interior,240.57847907
+2020-03-01,325,Ministerio del Interior,4085.07669212
+2020-04-01,325,Ministerio del Interior,23493.00430529
+2020-05-01,325,Ministerio del Interior,11231.165108379999
+2020-06-01,325,Ministerio del Interior,924.3757685100001
+2020-07-01,325,Ministerio del Interior,10308.46658272
+2020-08-01,325,Ministerio del Interior,430.58648763
+2020-09-01,325,Ministerio del Interior,8183.1786132
+2020-10-01,325,Ministerio del Interior,1060.23663159
+2020-11-01,325,Ministerio del Interior,502.60406162
+2020-12-01,325,Ministerio del Interior,12963.75637099
+2020-01-01,326,Policía Federal Argentina,3087.53999855
+2020-02-01,326,Policía Federal Argentina,3310.16999986
+2020-03-01,326,Policía Federal Argentina,3450.6836510900002
+2020-04-01,326,Policía Federal Argentina,3407.28364756
+2020-05-01,326,Policía Federal Argentina,3838.98596965
+2020-06-01,326,Policía Federal Argentina,4880.85443984
+2020-07-01,326,Policía Federal Argentina,3477.5133626
+2020-08-01,326,Policía Federal Argentina,3491.71975955
+2020-09-01,326,Policía Federal Argentina,3512.63560914
+2020-10-01,326,Policía Federal Argentina,3791.52682266
+2020-11-01,326,Policía Federal Argentina,3862.35175071
+2020-12-01,326,Policía Federal Argentina,6063.49354437
+2020-01-01,327,Ministerio de Transporte,74.54998583
+2020-02-01,327,Ministerio de Transporte,4416.46447723
+2020-03-01,327,Ministerio de Transporte,6174.64320452
+2020-04-01,327,Ministerio de Transporte,5482.99222091
+2020-05-01,327,Ministerio de Transporte,156.44168937999999
+2020-06-01,327,Ministerio de Transporte,6626.998929169999
+2020-07-01,327,Ministerio de Transporte,5946.0714654
+2020-08-01,327,Ministerio de Transporte,6712.02809317
+2020-09-01,327,Ministerio de Transporte,11787.50163327
+2020-10-01,327,Ministerio de Transporte,142.96891317
+2020-11-01,327,Ministerio de Transporte,8364.84284369
+2020-12-01,327,Ministerio de Transporte,24479.276747580003
+2020-01-01,328,Secretaría de Energía,71.3228906
+2020-02-01,328,Secretaría de Energía,2007.6098912999998
+2020-03-01,328,Secretaría de Energía,27419.27069901
+2020-04-01,328,Secretaría de Energía,31462.32577924
+2020-05-01,328,Secretaría de Energía,44824.93052665
+2020-06-01,328,Secretaría de Energía,47892.50221574
+2020-07-01,328,Secretaría de Energía,33507.0000066
+2020-08-01,328,Secretaría de Energía,39524.681801729996
+2020-09-01,328,Secretaría de Energía,63609.06086605
+2020-10-01,328,Secretaría de Energía,25268.91695267
+2020-11-01,328,Secretaría de Energía,42222.102089989996
+2020-12-01,328,Secretaría de Energía,51941.78774083
+2020-01-01,330,Ministerio de Educación,14508.51344269
+2020-02-01,330,Ministerio de Educación,15705.04453127
+2020-03-01,330,Ministerio de Educación,22826.03098893
+2020-04-01,330,Ministerio de Educación,20307.68873616
+2020-05-01,330,Ministerio de Educación,17522.11249428
+2020-06-01,330,Ministerio de Educación,35717.05592583
+2020-07-01,330,Ministerio de Educación,20454.94371639
+2020-08-01,330,Ministerio de Educación,25294.1605792
+2020-09-01,330,Ministerio de Educación,31207.85295366
+2020-10-01,330,Ministerio de Educación,20764.027122299998
+2020-11-01,330,Ministerio de Educación,17688.58486549
+2020-12-01,330,Ministerio de Educación,33583.8367388
+2020-01-01,331,Servicio Penitenciario Federal,1212.25909933
+2020-02-01,331,Servicio Penitenciario Federal,1318.0929269399999
+2020-03-01,331,Servicio Penitenciario Federal,1601.29897301
+2020-04-01,331,Servicio Penitenciario Federal,1326.49143379
+2020-05-01,331,Servicio Penitenciario Federal,1324.36623374
+2020-06-01,331,Servicio Penitenciario Federal,2262.47627398
+2020-07-01,331,Servicio Penitenciario Federal,1360.58672555
+2020-08-01,331,Servicio Penitenciario Federal,1399.594289
+2020-09-01,331,Servicio Penitenciario Federal,1629.12587579
+2020-10-01,331,Servicio Penitenciario Federal,1487.34370351
+2020-11-01,331,Servicio Penitenciario Federal,1600.67294588
+2020-12-01,331,Servicio Penitenciario Federal,3180.31012856
+2020-01-01,332,Ministerio de Justicia y Derechos Humanos,128.82439198
+2020-02-01,332,Ministerio de Justicia y Derechos Humanos,147.00386237
+2020-03-01,332,Ministerio de Justicia y Derechos Humanos,225.82661777
+2020-04-01,332,Ministerio de Justicia y Derechos Humanos,129.81137817
+2020-05-01,332,Ministerio de Justicia y Derechos Humanos,215.48747913
+2020-06-01,332,Ministerio de Justicia y Derechos Humanos,421.00944545
+2020-07-01,332,Ministerio de Justicia y Derechos Humanos,153.00465637
+2020-08-01,332,Ministerio de Justicia y Derechos Humanos,330.25037591
+2020-09-01,332,Ministerio de Justicia y Derechos Humanos,480.01116235
+2020-10-01,332,Ministerio de Justicia y Derechos Humanos,247.03902405
+2020-11-01,332,Ministerio de Justicia y Derechos Humanos,290.66881466999996
+2020-12-01,332,Ministerio de Justicia y Derechos Humanos,1267.02560847
+2020-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,116.27328949
+2020-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,132.10313076
+2020-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,122.86292431000001
+2020-04-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,120.16282086
+2020-05-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,129.69630768
+2020-06-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,191.1168576
+2020-07-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,115.88127621
+2020-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,120.43551948000001
+2020-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,134.82214306
+2020-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,136.34743831999998
+2020-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,142.49006517
+2020-12-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,240.52493510000002
+2020-01-01,335,Corte Suprema de Justicia de la Nación,1.8359705400000002
+2020-02-01,335,Corte Suprema de Justicia de la Nación,1361.55885716
+2020-03-01,335,Corte Suprema de Justicia de la Nación,658.84613846
+2020-04-01,335,Corte Suprema de Justicia de la Nación,689.42304491
+2020-05-01,335,Corte Suprema de Justicia de la Nación,649.89268311
+2020-06-01,335,Corte Suprema de Justicia de la Nación,837.73656948
+2020-07-01,335,Corte Suprema de Justicia de la Nación,782.44576366
+2020-08-01,335,Corte Suprema de Justicia de la Nación,826.13278089
+2020-09-01,335,Corte Suprema de Justicia de la Nación,678.88837614
+2020-10-01,335,Corte Suprema de Justicia de la Nación,678.38771039
+2020-11-01,335,Corte Suprema de Justicia de la Nación,822.9807471400001
+2020-12-01,335,Corte Suprema de Justicia de la Nación,1145.92931026
+2020-01-01,336,"Ministerio de Ciencia, Tecnología e Innovación",133.55554679
+2020-02-01,336,"Ministerio de Ciencia, Tecnología e Innovación",282.62714407
+2020-03-01,336,"Ministerio de Ciencia, Tecnología e Innovación",290.39025903
+2020-04-01,336,"Ministerio de Ciencia, Tecnología e Innovación",259.21030743
+2020-05-01,336,"Ministerio de Ciencia, Tecnología e Innovación",474.60486005
+2020-06-01,336,"Ministerio de Ciencia, Tecnología e Innovación",687.75434303
+2020-07-01,336,"Ministerio de Ciencia, Tecnología e Innovación",320.89432907
+2020-08-01,336,"Ministerio de Ciencia, Tecnología e Innovación",313.48920698
+2020-09-01,336,"Ministerio de Ciencia, Tecnología e Innovación",581.62156767
+2020-10-01,336,"Ministerio de Ciencia, Tecnología e Innovación",288.89248722
+2020-11-01,336,"Ministerio de Ciencia, Tecnología e Innovación",387.17546652
+2020-12-01,336,"Ministerio de Ciencia, Tecnología e Innovación",1835.27330943
+2020-01-01,337,Ministerio de Cultura,184.21162684
+2020-02-01,337,Ministerio de Cultura,231.81343737
+2020-03-01,337,Ministerio de Cultura,371.97568042
+2020-04-01,337,Ministerio de Cultura,246.97879852
+2020-05-01,337,Ministerio de Cultura,370.38774973
+2020-06-01,337,Ministerio de Cultura,524.64506348
+2020-07-01,337,Ministerio de Cultura,250.55399448
+2020-08-01,337,Ministerio de Cultura,370.17988429
+2020-09-01,337,Ministerio de Cultura,567.30663736
+2020-10-01,337,Ministerio de Cultura,280.46968075
+2020-11-01,337,Ministerio de Cultura,898.1916297700001
+2020-12-01,337,Ministerio de Cultura,2231.00083062
+2020-01-01,338,Secretaría Legal y Técnica,33.1899437
+2020-02-01,338,Secretaría Legal y Técnica,39.925839700000004
+2020-03-01,338,Secretaría Legal y Técnica,37.14380299
+2020-04-01,338,Secretaría Legal y Técnica,33.0267561
+2020-05-01,338,Secretaría Legal y Técnica,42.12756015
+2020-06-01,338,Secretaría Legal y Técnica,52.04456464
+2020-07-01,338,Secretaría Legal y Técnica,36.9939789
+2020-08-01,338,Secretaría Legal y Técnica,35.9698016
+2020-09-01,338,Secretaría Legal y Técnica,36.4091282
+2020-10-01,338,Secretaría Legal y Técnica,40.92047378
+2020-11-01,338,Secretaría Legal y Técnica,40.83985567
+2020-12-01,338,Secretaría Legal y Técnica,82.01525183
+2020-01-01,340,Procuración Penitenciaria de la Nación,44.80640236
+2020-02-01,340,Procuración Penitenciaria de la Nación,47.23777393
+2020-03-01,340,Procuración Penitenciaria de la Nación,48.4117955
+2020-04-01,340,Procuración Penitenciaria de la Nación,46.21011567
+2020-05-01,340,Procuración Penitenciaria de la Nación,50.72433222
+2020-06-01,340,Procuración Penitenciaria de la Nación,70.78509733
+2020-07-01,340,Procuración Penitenciaria de la Nación,49.80896449
+2020-08-01,340,Procuración Penitenciaria de la Nación,51.88278155
+2020-09-01,340,Procuración Penitenciaria de la Nación,55.7856109
+2020-10-01,340,Procuración Penitenciaria de la Nación,47.11791198
+2020-11-01,340,Procuración Penitenciaria de la Nación,55.68681393
+2020-12-01,340,Procuración Penitenciaria de la Nación,132.10888693
+2020-01-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",173.17509223
+2020-02-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",248.9579553
+2020-03-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",334.36078589
+2020-04-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",226.58488049
+2020-05-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",485.02588534
+2020-06-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",452.80494152
+2020-07-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",281.99063731
+2020-08-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",357.62976711
+2020-09-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",338.11724997
+2020-10-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",329.62421725
+2020-11-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",318.9359916
+2020-12-01,341,"Secretaría Nacional de Niñez, Adolescencia y Familia",565.88516284
+2020-01-01,343,Ministerio de Seguridad,126.63351661
+2020-02-01,343,Ministerio de Seguridad,259.66841156
+2020-03-01,343,Ministerio de Seguridad,804.90689579
+2020-04-01,343,Ministerio de Seguridad,330.65422157
+2020-05-01,343,Ministerio de Seguridad,536.7238661499999
+2020-06-01,343,Ministerio de Seguridad,1296.45290001
+2020-07-01,343,Ministerio de Seguridad,420.82395423
+2020-08-01,343,Ministerio de Seguridad,452.30089106
+2020-09-01,343,Ministerio de Seguridad,975.04628996
+2020-10-01,343,Ministerio de Seguridad,250.10994139
+2020-11-01,343,Ministerio de Seguridad,414.92718569
+2020-12-01,343,Ministerio de Seguridad,1407.11107991
+2020-01-01,345,Consejo Nacional de Coordinación de Políticas Sociales,13.17763937
+2020-02-01,345,Consejo Nacional de Coordinación de Políticas Sociales,16.44539674
+2020-03-01,345,Consejo Nacional de Coordinación de Políticas Sociales,20.40177689
+2020-04-01,345,Consejo Nacional de Coordinación de Políticas Sociales,16.19267541
+2020-05-01,345,Consejo Nacional de Coordinación de Políticas Sociales,19.78558849
+2020-06-01,345,Consejo Nacional de Coordinación de Políticas Sociales,43.50489189
+2020-07-01,345,Consejo Nacional de Coordinación de Políticas Sociales,25.85445592
+2020-08-01,345,Consejo Nacional de Coordinación de Políticas Sociales,25.56437578
+2020-09-01,345,Consejo Nacional de Coordinación de Políticas Sociales,62.32586402
+2020-10-01,345,Consejo Nacional de Coordinación de Políticas Sociales,29.91147549
+2020-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,23.85427338
+2020-12-01,345,Consejo Nacional de Coordinación de Políticas Sociales,53.3683708
+2020-01-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,9.73970419
+2020-02-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,14.16441975
+2020-03-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,19.82709742
+2020-04-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,8.43058469
+2020-05-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,12.860068629999999
+2020-06-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,17.10388615
+2020-07-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,15.82200025
+2020-08-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,17.78383432
+2020-09-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,19.51445879
+2020-10-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,16.747063
+2020-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,17.824338479999998
+2020-12-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,40.01489752
+2020-01-01,347,Secretaría de Medios y Comunicación Pública,30.54646508
+2020-02-01,347,Secretaría de Medios y Comunicación Pública,83.05897066
+2020-03-01,347,Secretaría de Medios y Comunicación Pública,80.32883149
+2020-04-01,347,Secretaría de Medios y Comunicación Pública,21.12651006
+2020-05-01,347,Secretaría de Medios y Comunicación Pública,25.36168399
+2020-06-01,347,Secretaría de Medios y Comunicación Pública,206.08450483
+2020-07-01,347,Secretaría de Medios y Comunicación Pública,260.26053403
+2020-08-01,347,Secretaría de Medios y Comunicación Pública,294.05115363
+2020-09-01,347,Secretaría de Medios y Comunicación Pública,353.52449492
+2020-10-01,347,Secretaría de Medios y Comunicación Pública,336.18601817999996
+2020-11-01,347,Secretaría de Medios y Comunicación Pública,354.79070585
+2020-12-01,347,Secretaría de Medios y Comunicación Pública,1114.1905893
+2020-01-01,349,Procuración del Tesoro de la Nación,12.54475273
+2020-02-01,349,Procuración del Tesoro de la Nación,18.05187493
+2020-03-01,349,Procuración del Tesoro de la Nación,97.09770411999999
+2020-04-01,349,Procuración del Tesoro de la Nación,16.02366714
+2020-05-01,349,Procuración del Tesoro de la Nación,87.95141965000002
+2020-06-01,349,Procuración del Tesoro de la Nación,75.29583692
+2020-07-01,349,Procuración del Tesoro de la Nación,23.963475380000002
+2020-08-01,349,Procuración del Tesoro de la Nación,17.50142753
+2020-09-01,349,Procuración del Tesoro de la Nación,15.80638105
+2020-10-01,349,Procuración del Tesoro de la Nación,14.291028429999999
+2020-11-01,349,Procuración del Tesoro de la Nación,54.93874924
+2020-12-01,349,Procuración del Tesoro de la Nación,287.63442375
+2020-01-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",320.59565202
+2020-02-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",578.57186794
+2020-03-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",1323.34604392
+2020-04-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",348.61247615
+2020-05-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",463.79974208
+2020-06-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",1406.90206967
+2020-07-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",441.13893256
+2020-08-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",953.11864086
+2020-09-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",1807.53318623
+2020-10-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",587.05319738
+2020-11-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",1570.67305783
+2020-12-01,350,"Ministerio de Trabajo, Empleo y Seguridad Social",4452.99643105
+2020-01-01,355,Servicio de la Deuda Pública,14847.01511456
+2020-02-01,355,Servicio de la Deuda Pública,50173.44240344
+2020-03-01,355,Servicio de la Deuda Pública,60930.47578806
+2020-04-01,355,Servicio de la Deuda Pública,51339.21161987999
+2020-05-01,355,Servicio de la Deuda Pública,102382.08565253
+2020-06-01,355,Servicio de la Deuda Pública,60656.95713752
+2020-07-01,355,Servicio de la Deuda Pública,56424.31970972
+2020-08-01,355,Servicio de la Deuda Pública,41112.16153925
+2020-09-01,355,Servicio de la Deuda Pública,51895.649903180005
+2020-10-01,355,Servicio de la Deuda Pública,70942.41087592
+2020-11-01,355,Servicio de la Deuda Pública,37230.498489289996
+2020-12-01,355,Servicio de la Deuda Pública,33706.70363498
+2020-01-01,356,Obligaciones a Cargo del Tesoro,21791.10768166
+2020-02-01,356,Obligaciones a Cargo del Tesoro,20286.16195038
+2020-03-01,356,Obligaciones a Cargo del Tesoro,29061.45844358
+2020-04-01,356,Obligaciones a Cargo del Tesoro,30346.91568779
+2020-05-01,356,Obligaciones a Cargo del Tesoro,52873.2390378
+2020-06-01,356,Obligaciones a Cargo del Tesoro,43193.82805442
+2020-07-01,356,Obligaciones a Cargo del Tesoro,42646.56223751
+2020-08-01,356,Obligaciones a Cargo del Tesoro,31636.42014335
+2020-09-01,356,Obligaciones a Cargo del Tesoro,39250.07669834
+2020-10-01,356,Obligaciones a Cargo del Tesoro,23704.76300288
+2020-11-01,356,Obligaciones a Cargo del Tesoro,37895.43555819
+2020-12-01,356,Obligaciones a Cargo del Tesoro,46854.1570533
+2020-01-01,357,Ministerio de Economía,200.17247007
+2020-02-01,357,Ministerio de Economía,255.61336555
+2020-03-01,357,Ministerio de Economía,412.56300834
+2020-04-01,357,Ministerio de Economía,350.97335052
+2020-05-01,357,Ministerio de Economía,279.68526841
+2020-06-01,357,Ministerio de Economía,403.10817071
+2020-07-01,357,Ministerio de Economía,313.46114131
+2020-08-01,357,Ministerio de Economía,243.41194157
+2020-09-01,357,Ministerio de Economía,550.88548284
+2020-10-01,357,Ministerio de Economía,302.53557358
+2020-11-01,357,Ministerio de Economía,371.49331788
+2020-12-01,357,Ministerio de Economía,783.80310017
+2020-01-01,360,Procuración General de la Nación,1323.16634743
+2020-02-01,360,Procuración General de la Nación,1327.85395287
+2020-03-01,360,Procuración General de la Nación,1322.67986806
+2020-04-01,360,Procuración General de la Nación,1310.6120333400002
+2020-05-01,360,Procuración General de la Nación,1331.91855364
+2020-06-01,360,Procuración General de la Nación,1570.24924742
+2020-07-01,360,Procuración General de la Nación,1586.31558044
+2020-08-01,360,Procuración General de la Nación,1541.95661521
+2020-09-01,360,Procuración General de la Nación,1353.8099463199999
+2020-10-01,360,Procuración General de la Nación,1349.15920167
+2020-11-01,360,Procuración General de la Nación,1620.4374923999999
+2020-12-01,360,Procuración General de la Nación,2276.74245866
+2020-01-01,361,Defensoría General de la Nación,733.77070233
+2020-02-01,361,Defensoría General de la Nación,735.06572906
+2020-03-01,361,Defensoría General de la Nación,744.45517406
+2020-04-01,361,Defensoría General de la Nación,732.5293924
+2020-05-01,361,Defensoría General de la Nación,729.5920689000001
+2020-06-01,361,Defensoría General de la Nación,870.33424033
+2020-07-01,361,Defensoría General de la Nación,843.78423596
+2020-08-01,361,Defensoría General de la Nación,860.67230042
+2020-09-01,361,Defensoría General de la Nación,761.34916889
+2020-10-01,361,Defensoría General de la Nación,745.78830026
+2020-11-01,361,Defensoría General de la Nación,908.70996639
+2020-12-01,361,Defensoría General de la Nación,1341.2677184699999
+2020-01-01,362,Ministerio de Desarrollo Productivo,90.32233228
+2020-02-01,362,Ministerio de Desarrollo Productivo,160.25758899
+2020-03-01,362,Ministerio de Desarrollo Productivo,2079.02997413
+2020-04-01,362,Ministerio de Desarrollo Productivo,30186.418663660002
+2020-05-01,362,Ministerio de Desarrollo Productivo,37296.57249844
+2020-06-01,362,Ministerio de Desarrollo Productivo,426.5673543
+2020-07-01,362,Ministerio de Desarrollo Productivo,1029.28738132
+2020-08-01,362,Ministerio de Desarrollo Productivo,264.63075764
+2020-09-01,362,Ministerio de Desarrollo Productivo,373.65268058
+2020-10-01,362,Ministerio de Desarrollo Productivo,41682.75900594
+2020-11-01,362,Ministerio de Desarrollo Productivo,644.58974385
+2020-12-01,362,Ministerio de Desarrollo Productivo,20249.97982121
+2020-01-01,363,"Ministerio de Agricultura, Ganadería y Pesca",231.3431979
+2020-02-01,363,"Ministerio de Agricultura, Ganadería y Pesca",298.4945858
+2020-03-01,363,"Ministerio de Agricultura, Ganadería y Pesca",565.03328038
+2020-04-01,363,"Ministerio de Agricultura, Ganadería y Pesca",286.79187541
+2020-05-01,363,"Ministerio de Agricultura, Ganadería y Pesca",333.43885856
+2020-06-01,363,"Ministerio de Agricultura, Ganadería y Pesca",819.57337689
+2020-07-01,363,"Ministerio de Agricultura, Ganadería y Pesca",368.22721141
+2020-08-01,363,"Ministerio de Agricultura, Ganadería y Pesca",514.13491386
+2020-09-01,363,"Ministerio de Agricultura, Ganadería y Pesca",868.16680352
+2020-10-01,363,"Ministerio de Agricultura, Ganadería y Pesca",367.22015173
+2020-11-01,363,"Ministerio de Agricultura, Ganadería y Pesca",6699.783407249999
+2020-12-01,363,"Ministerio de Agricultura, Ganadería y Pesca",1828.52538308
+2020-01-01,364,Ministerio de Obras Públicas,20.33176189
+2020-02-01,364,Ministerio de Obras Públicas,526.9161206900001
+2020-03-01,364,Ministerio de Obras Públicas,3472.94479004
+2020-04-01,364,Ministerio de Obras Públicas,3267.67177592
+2020-05-01,364,Ministerio de Obras Públicas,5110.70640525
+2020-06-01,364,Ministerio de Obras Públicas,7495.13075006
+2020-07-01,364,Ministerio de Obras Públicas,2323.48788458
+2020-08-01,364,Ministerio de Obras Públicas,5614.7282386
+2020-09-01,364,Ministerio de Obras Públicas,2190.24367189
+2020-10-01,364,Ministerio de Obras Públicas,1762.26626767
+2020-11-01,364,Ministerio de Obras Públicas,4886.75480335
+2020-12-01,364,Ministerio de Obras Públicas,11241.04865629
+2020-01-01,365,Ministerio de Desarrollo Territorial y Hábitat,18.27608393
+2020-02-01,365,Ministerio de Desarrollo Territorial y Hábitat,68.07929459
+2020-03-01,365,Ministerio de Desarrollo Territorial y Hábitat,2250.6248470799997
+2020-04-01,365,Ministerio de Desarrollo Territorial y Hábitat,1850.88745165
+2020-05-01,365,Ministerio de Desarrollo Territorial y Hábitat,183.01109482
+2020-06-01,365,Ministerio de Desarrollo Territorial y Hábitat,1225.79268861
+2020-07-01,365,Ministerio de Desarrollo Territorial y Hábitat,6287.05933979
+2020-08-01,365,Ministerio de Desarrollo Territorial y Hábitat,241.52456564000002
+2020-09-01,365,Ministerio de Desarrollo Territorial y Hábitat,5099.12287218
+2020-10-01,365,Ministerio de Desarrollo Territorial y Hábitat,3793.37858914
+2020-11-01,365,Ministerio de Desarrollo Territorial y Hábitat,350.79233546
+2020-12-01,365,Ministerio de Desarrollo Territorial y Hábitat,1902.48453141
+2020-01-01,366,Secretaría de Innovación Pública,91.89243904
+2020-02-01,366,Secretaría de Innovación Pública,95.80761813
+2020-03-01,366,Secretaría de Innovación Pública,84.04331555
+2020-04-01,366,Secretaría de Innovación Pública,60.70268391
+2020-05-01,366,Secretaría de Innovación Pública,97.05645876
+2020-06-01,366,Secretaría de Innovación Pública,175.83708468
+2020-07-01,366,Secretaría de Innovación Pública,65.39756702
+2020-08-01,366,Secretaría de Innovación Pública,105.47315433
+2020-09-01,366,Secretaría de Innovación Pública,139.31199828
+2020-10-01,366,Secretaría de Innovación Pública,108.48584715
+2020-11-01,366,Secretaría de Innovación Pública,117.11068592000001
+2020-12-01,366,Secretaría de Innovación Pública,704.48624084
+2020-11-01,368,Secretaría de Comunicación y Prensa,16.04125475
+2020-12-01,368,Secretaría de Comunicación y Prensa,29.77990734
+2020-01-01,370,Ministerio de Defensa (Gastos Propios),66.35341032
+2020-02-01,370,Ministerio de Defensa (Gastos Propios),91.15169603
+2020-03-01,370,Ministerio de Defensa (Gastos Propios),158.62532948999998
+2020-04-01,370,Ministerio de Defensa (Gastos Propios),97.14258507
+2020-05-01,370,Ministerio de Defensa (Gastos Propios),164.96028229
+2020-06-01,370,Ministerio de Defensa (Gastos Propios),175.07379545999999
+2020-07-01,370,Ministerio de Defensa (Gastos Propios),143.45633884
+2020-08-01,370,Ministerio de Defensa (Gastos Propios),201.0536572
+2020-09-01,370,Ministerio de Defensa (Gastos Propios),178.50431728
+2020-10-01,370,Ministerio de Defensa (Gastos Propios),158.61805185
+2020-11-01,370,Ministerio de Defensa (Gastos Propios),480.45700753000006
+2020-12-01,370,Ministerio de Defensa (Gastos Propios),1501.9719938899998
+2020-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,50.117376209999996
+2020-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,38.21742965
+2020-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,332.71348212000004
+2020-04-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,285.19734035
+2020-05-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,114.06307006
+2020-06-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,133.73493861
+2020-07-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,47.11700461
+2020-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,80.10227152
+2020-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,68.56522201
+2020-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,93.28424916
+2020-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,136.53973405
+2020-12-01,371,Estado Mayor Conjunto de las Fuerzas Armadas,793.44970905
+2020-01-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,34.98151917
+2020-02-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,40.0710358
+2020-03-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,37.483723690000005
+2020-04-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,36.946291699999996
+2020-05-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,36.85065073
+2020-06-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,61.7401022
+2020-07-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,39.26148772
+2020-08-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,38.70492051
+2020-09-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,38.02615732
+2020-10-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,49.56715914
+2020-11-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,52.94312548
+2020-12-01,372,Instituto de Investigaciones Científicas y Técnicas de las Fuerzas Armadas,82.72554352
+2020-01-01,374,Estado Mayor General del Ejercito,3873.56168476
+2020-02-01,374,Estado Mayor General del Ejercito,4254.17887825
+2020-03-01,374,Estado Mayor General del Ejercito,5033.48150316
+2020-04-01,374,Estado Mayor General del Ejercito,4561.5977157
+2020-05-01,374,Estado Mayor General del Ejercito,4504.26135599
+2020-06-01,374,Estado Mayor General del Ejercito,6697.8746016
+2020-07-01,374,Estado Mayor General del Ejercito,4405.4073597
+2020-08-01,374,Estado Mayor General del Ejercito,4704.88738393
+2020-09-01,374,Estado Mayor General del Ejercito,4537.18400842
+2020-10-01,374,Estado Mayor General del Ejercito,5145.69827025
+2020-11-01,374,Estado Mayor General del Ejercito,5969.58189125
+2020-12-01,374,Estado Mayor General del Ejercito,10683.15297872
+2020-01-01,375,Gendarmería Nacional,3590.0647253399998
+2020-02-01,375,Gendarmería Nacional,3862.37147655
+2020-03-01,375,Gendarmería Nacional,4472.17328104
+2020-04-01,375,Gendarmería Nacional,4208.97434852
+2020-05-01,375,Gendarmería Nacional,4065.08984664
+2020-06-01,375,Gendarmería Nacional,5610.49283635
+2020-07-01,375,Gendarmería Nacional,4100.84248867
+2020-08-01,375,Gendarmería Nacional,4037.71319775
+2020-09-01,375,Gendarmería Nacional,4024.66863056
+2020-10-01,375,Gendarmería Nacional,4552.96670329
+2020-11-01,375,Gendarmería Nacional,4709.83445427
+2020-12-01,375,Gendarmería Nacional,8548.42239949
+2020-01-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.0
+2020-02-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.16788925
+2020-03-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1.4529947
+2020-04-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,0.9046758
+2020-05-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,7.42780733
+2020-06-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,12.3683122
+2020-07-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,19.30851679
+2020-08-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,10.01021493
+2020-09-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,43.91291084
+2020-10-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,18.718198450000003
+2020-11-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,1.70058638
+2020-12-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,10.118025770000001
+2020-01-01,379,Estado Mayor General de la Armada,2311.71630075
+2020-02-01,379,Estado Mayor General de la Armada,2436.55764552
+2020-03-01,379,Estado Mayor General de la Armada,2635.71645431
+2020-04-01,379,Estado Mayor General de la Armada,2472.04524486
+2020-05-01,379,Estado Mayor General de la Armada,2585.6555339
+2020-06-01,379,Estado Mayor General de la Armada,3543.3141328
+2020-07-01,379,Estado Mayor General de la Armada,2619.50190717
+2020-08-01,379,Estado Mayor General de la Armada,2606.54310182
+2020-09-01,379,Estado Mayor General de la Armada,2979.29273689
+2020-10-01,379,Estado Mayor General de la Armada,3417.85213633
+2020-11-01,379,Estado Mayor General de la Armada,3252.45881911
+2020-12-01,379,Estado Mayor General de la Armada,4642.62655293
+2020-01-01,380,Prefectura Naval Argentina,2129.43040721
+2020-02-01,380,Prefectura Naval Argentina,2346.9723048299998
+2020-03-01,380,Prefectura Naval Argentina,2429.11720406
+2020-04-01,380,Prefectura Naval Argentina,2449.16022582
+2020-05-01,380,Prefectura Naval Argentina,2297.37864787
+2020-06-01,380,Prefectura Naval Argentina,3348.58632185
+2020-07-01,380,Prefectura Naval Argentina,2288.15066615
+2020-08-01,380,Prefectura Naval Argentina,2371.05915679
+2020-09-01,380,Prefectura Naval Argentina,2503.68434515
+2020-10-01,380,Prefectura Naval Argentina,2527.74657841
+2020-11-01,380,Prefectura Naval Argentina,2587.21398403
+2020-12-01,380,Prefectura Naval Argentina,3705.2418362
+2020-01-01,381,Estado Mayor General de la Fuerza Aérea,1524.185993
+2020-02-01,381,Estado Mayor General de la Fuerza Aérea,1710.10956851
+2020-03-01,381,Estado Mayor General de la Fuerza Aérea,2604.78780872
+2020-04-01,381,Estado Mayor General de la Fuerza Aérea,1804.25099723
+2020-05-01,381,Estado Mayor General de la Fuerza Aérea,1982.34810602
+2020-06-01,381,Estado Mayor General de la Fuerza Aérea,3197.7584086
+2020-07-01,381,Estado Mayor General de la Fuerza Aérea,1745.39121734
+2020-08-01,381,Estado Mayor General de la Fuerza Aérea,1855.96234992
+2020-09-01,381,Estado Mayor General de la Fuerza Aérea,2277.35080517
+2020-10-01,381,Estado Mayor General de la Fuerza Aérea,2052.71645729
+2020-11-01,381,Estado Mayor General de la Fuerza Aérea,2230.11160805
+2020-12-01,381,Estado Mayor General de la Fuerza Aérea,4004.67982101
+2020-01-01,382,Policía de Seguridad Aeroportuaria,411.06719798
+2020-02-01,382,Policía de Seguridad Aeroportuaria,441.74495684
+2020-03-01,382,Policía de Seguridad Aeroportuaria,454.02302481
+2020-04-01,382,Policía de Seguridad Aeroportuaria,411.23087743
+2020-05-01,382,Policía de Seguridad Aeroportuaria,474.78468151
+2020-06-01,382,Policía de Seguridad Aeroportuaria,690.09443507
+2020-07-01,382,Policía de Seguridad Aeroportuaria,457.83162078
+2020-08-01,382,Policía de Seguridad Aeroportuaria,461.18091654
+2020-09-01,382,Policía de Seguridad Aeroportuaria,491.70723245
+2020-10-01,382,Policía de Seguridad Aeroportuaria,626.77352443
+2020-11-01,382,Policía de Seguridad Aeroportuaria,530.47067179
+2020-12-01,382,Policía de Seguridad Aeroportuaria,811.47832013
+2020-01-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",19.47395248
+2020-02-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",20.60086158
+2020-03-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",33.22480031
+2020-04-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",18.57206051
+2020-05-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",48.11509879
+2020-06-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",66.56019832
+2020-07-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",91.03450904
+2020-08-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",54.87534595
+2020-09-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",64.83737021
+2020-10-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",73.63985994
+2020-11-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",76.9852113
+2020-12-01,386,"Ministerio de las Mujeres, Géneros y Diversidad",372.83412618
+2020-01-01,450,Instituto Geográfico Nacional,14.69384212
+2020-02-01,450,Instituto Geográfico Nacional,18.62002046
+2020-03-01,450,Instituto Geográfico Nacional,19.38501775
+2020-04-01,450,Instituto Geográfico Nacional,15.78921541
+2020-05-01,450,Instituto Geográfico Nacional,16.20991329
+2020-06-01,450,Instituto Geográfico Nacional,25.98904983
+2020-07-01,450,Instituto Geográfico Nacional,16.22228048
+2020-08-01,450,Instituto Geográfico Nacional,16.50485002
+2020-09-01,450,Instituto Geográfico Nacional,17.63421344
+2020-10-01,450,Instituto Geográfico Nacional,20.248702090000002
+2020-11-01,450,Instituto Geográfico Nacional,19.0404457
+2020-12-01,450,Instituto Geográfico Nacional,37.65815506
+2020-01-01,452,Servicio Meteorológico Nacional,60.93375449
+2020-02-01,452,Servicio Meteorológico Nacional,53.79466837
+2020-03-01,452,Servicio Meteorológico Nacional,97.08041772
+2020-04-01,452,Servicio Meteorológico Nacional,65.14774898
+2020-05-01,452,Servicio Meteorológico Nacional,52.39250269
+2020-06-01,452,Servicio Meteorológico Nacional,130.40091443
+2020-07-01,452,Servicio Meteorológico Nacional,49.71409932
+2020-08-01,452,Servicio Meteorológico Nacional,76.96729332
+2020-09-01,452,Servicio Meteorológico Nacional,96.12317142
+2020-10-01,452,Servicio Meteorológico Nacional,106.12623531
+2020-11-01,452,Servicio Meteorológico Nacional,67.8264896
+2020-12-01,452,Servicio Meteorológico Nacional,191.22759306
+2020-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,4131.27805037
+2020-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,5876.22876884
+2020-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,5152.64759057
+2020-04-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,5216.69928612
+2020-05-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,5252.18587155
+2020-06-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,7909.32475711
+2020-07-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,5264.91183099
+2020-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,5202.21576885
+2020-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,5172.54799992
+2020-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,6536.98134089
+2020-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,7437.2014760600005
+2020-12-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,10680.89349065
+2020-01-01,602,Comisión Nacional de Valores,32.51834737
+2020-02-01,602,Comisión Nacional de Valores,38.96392949
+2020-03-01,602,Comisión Nacional de Valores,58.98997236
+2020-04-01,602,Comisión Nacional de Valores,39.02172874
+2020-05-01,602,Comisión Nacional de Valores,35.517634
+2020-06-01,602,Comisión Nacional de Valores,59.9109531
+2020-07-01,602,Comisión Nacional de Valores,40.7005928
+2020-08-01,602,Comisión Nacional de Valores,44.18977479
+2020-09-01,602,Comisión Nacional de Valores,43.98306468
+2020-10-01,602,Comisión Nacional de Valores,51.40941135
+2020-11-01,602,Comisión Nacional de Valores,41.705449009999995
+2020-12-01,602,Comisión Nacional de Valores,108.6603694
+2020-01-01,603,Superintendencia de Seguros de la Nación,45.1988121
+2020-02-01,603,Superintendencia de Seguros de la Nación,98.05523898
+2020-03-01,603,Superintendencia de Seguros de la Nación,81.39409577
+2020-04-01,603,Superintendencia de Seguros de la Nación,61.8069124
+2020-05-01,603,Superintendencia de Seguros de la Nación,73.22639953
+2020-06-01,603,Superintendencia de Seguros de la Nación,113.97942642
+2020-07-01,603,Superintendencia de Seguros de la Nación,62.27139744
+2020-08-01,603,Superintendencia de Seguros de la Nación,83.00439438
+2020-09-01,603,Superintendencia de Seguros de la Nación,82.26487978
+2020-10-01,603,Superintendencia de Seguros de la Nación,76.05282769
+2020-11-01,603,Superintendencia de Seguros de la Nación,81.40586458
+2020-12-01,603,Superintendencia de Seguros de la Nación,141.81345114
+2020-01-01,604,Dirección Nacional de Vialidad,0.0
+2020-02-01,604,Dirección Nacional de Vialidad,2944.26342192
+2020-03-01,604,Dirección Nacional de Vialidad,7181.10270527
+2020-04-01,604,Dirección Nacional de Vialidad,3754.12088032
+2020-05-01,604,Dirección Nacional de Vialidad,8085.79995973
+2020-06-01,604,Dirección Nacional de Vialidad,5049.61984853
+2020-07-01,604,Dirección Nacional de Vialidad,6956.49828282
+2020-08-01,604,Dirección Nacional de Vialidad,7092.11966246
+2020-09-01,604,Dirección Nacional de Vialidad,7723.17130439
+2020-10-01,604,Dirección Nacional de Vialidad,7335.21445882
+2020-11-01,604,Dirección Nacional de Vialidad,6890.8730133
+2020-12-01,604,Dirección Nacional de Vialidad,16463.79751555
+2020-01-01,606,Instituto Nacional de Tecnología Agropecuaria,624.71904127
+2020-02-01,606,Instituto Nacional de Tecnología Agropecuaria,717.35934049
+2020-03-01,606,Instituto Nacional de Tecnología Agropecuaria,736.58009973
+2020-04-01,606,Instituto Nacional de Tecnología Agropecuaria,545.08932862
+2020-05-01,606,Instituto Nacional de Tecnología Agropecuaria,814.19648643
+2020-06-01,606,Instituto Nacional de Tecnología Agropecuaria,1415.42401835
+2020-07-01,606,Instituto Nacional de Tecnología Agropecuaria,688.98918121
+2020-08-01,606,Instituto Nacional de Tecnología Agropecuaria,748.20753887
+2020-09-01,606,Instituto Nacional de Tecnología Agropecuaria,1083.36359832
+2020-10-01,606,Instituto Nacional de Tecnología Agropecuaria,765.27354397
+2020-11-01,606,Instituto Nacional de Tecnología Agropecuaria,815.98575469
+2020-12-01,606,Instituto Nacional de Tecnología Agropecuaria,1738.24973054
+2020-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,27.259735029999998
+2020-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,8.27599627
+2020-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,130.59866302
+2020-04-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,30.53386277
+2020-05-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,34.32769108
+2020-06-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,70.25110509
+2020-07-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,33.41170079
+2020-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,34.19987628
+2020-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,75.23915551
+2020-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,44.91630478
+2020-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,54.73715106
+2020-12-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,281.41091366
+2020-01-01,608,Instituto Nacional de Tecnología Industrial,215.09693255000002
+2020-02-01,608,Instituto Nacional de Tecnología Industrial,264.88431356
+2020-03-01,608,Instituto Nacional de Tecnología Industrial,266.06758966
+2020-04-01,608,Instituto Nacional de Tecnología Industrial,233.70276873
+2020-05-01,608,Instituto Nacional de Tecnología Industrial,242.95678564
+2020-06-01,608,Instituto Nacional de Tecnología Industrial,488.53941563
+2020-07-01,608,Instituto Nacional de Tecnología Industrial,256.74737956
+2020-08-01,608,Instituto Nacional de Tecnología Industrial,271.04596407
+2020-09-01,608,Instituto Nacional de Tecnología Industrial,560.00728622
+2020-10-01,608,Instituto Nacional de Tecnología Industrial,282.23687872
+2020-11-01,608,Instituto Nacional de Tecnología Industrial,484.09093084
+2020-12-01,608,Instituto Nacional de Tecnología Industrial,834.54644366
+2020-01-01,609,Instituto Nacional de Vitivinicultura,41.86781457
+2020-02-01,609,Instituto Nacional de Vitivinicultura,54.00997772
+2020-03-01,609,Instituto Nacional de Vitivinicultura,54.97457245
+2020-04-01,609,Instituto Nacional de Vitivinicultura,50.933567159999996
+2020-05-01,609,Instituto Nacional de Vitivinicultura,47.63777651
+2020-06-01,609,Instituto Nacional de Vitivinicultura,75.41191189999999
+2020-07-01,609,Instituto Nacional de Vitivinicultura,46.81464406
+2020-08-01,609,Instituto Nacional de Vitivinicultura,49.48530226
+2020-09-01,609,Instituto Nacional de Vitivinicultura,49.9564532
+2020-10-01,609,Instituto Nacional de Vitivinicultura,58.73752666
+2020-11-01,609,Instituto Nacional de Vitivinicultura,53.94180822
+2020-12-01,609,Instituto Nacional de Vitivinicultura,160.28085135
+2020-01-01,612,Tribunal de Tasaciones de la Nación,5.37770394
+2020-02-01,612,Tribunal de Tasaciones de la Nación,9.45471206
+2020-03-01,612,Tribunal de Tasaciones de la Nación,11.13697981
+2020-04-01,612,Tribunal de Tasaciones de la Nación,5.9952194500000004
+2020-05-01,612,Tribunal de Tasaciones de la Nación,8.80813968
+2020-06-01,612,Tribunal de Tasaciones de la Nación,15.10717065
+2020-07-01,612,Tribunal de Tasaciones de la Nación,6.51166096
+2020-08-01,612,Tribunal de Tasaciones de la Nación,9.16584321
+2020-09-01,612,Tribunal de Tasaciones de la Nación,11.652474960000001
+2020-10-01,612,Tribunal de Tasaciones de la Nación,6.80303505
+2020-11-01,612,Tribunal de Tasaciones de la Nación,9.447530949999999
+2020-12-01,612,Tribunal de Tasaciones de la Nación,17.14639928
+2020-01-01,613,Ente Nacional de Obras Hídricas de Saneamiento,29.873788349999998
+2020-02-01,613,Ente Nacional de Obras Hídricas de Saneamiento,336.62482893
+2020-03-01,613,Ente Nacional de Obras Hídricas de Saneamiento,701.5798200500001
+2020-04-01,613,Ente Nacional de Obras Hídricas de Saneamiento,218.19511323
+2020-05-01,613,Ente Nacional de Obras Hídricas de Saneamiento,2771.4651991700002
+2020-06-01,613,Ente Nacional de Obras Hídricas de Saneamiento,2539.69953804
+2020-07-01,613,Ente Nacional de Obras Hídricas de Saneamiento,2198.40546169
+2020-08-01,613,Ente Nacional de Obras Hídricas de Saneamiento,249.14590755
+2020-09-01,613,Ente Nacional de Obras Hídricas de Saneamiento,5166.14914094
+2020-10-01,613,Ente Nacional de Obras Hídricas de Saneamiento,1438.76076497
+2020-11-01,613,Ente Nacional de Obras Hídricas de Saneamiento,1007.31218165
+2020-12-01,613,Ente Nacional de Obras Hídricas de Saneamiento,1902.01835143
+2020-01-01,614,Instituto Nacional de Semillas,16.25541006
+2020-02-01,614,Instituto Nacional de Semillas,18.65699949
+2020-03-01,614,Instituto Nacional de Semillas,17.97052394
+2020-04-01,614,Instituto Nacional de Semillas,16.380195490000002
+2020-05-01,614,Instituto Nacional de Semillas,15.63207681
+2020-06-01,614,Instituto Nacional de Semillas,36.62198522
+2020-07-01,614,Instituto Nacional de Semillas,14.43003818
+2020-08-01,614,Instituto Nacional de Semillas,28.98190134
+2020-09-01,614,Instituto Nacional de Semillas,27.09706728
+2020-10-01,614,Instituto Nacional de Semillas,20.2267089
+2020-11-01,614,Instituto Nacional de Semillas,32.72409231
+2020-12-01,614,Instituto Nacional de Semillas,93.30531581
+2020-01-01,620,Tribunal Fiscal de la Nación,29.23086541
+2020-02-01,620,Tribunal Fiscal de la Nación,32.183348980000005
+2020-03-01,620,Tribunal Fiscal de la Nación,31.95652132
+2020-04-01,620,Tribunal Fiscal de la Nación,31.19805456
+2020-05-01,620,Tribunal Fiscal de la Nación,32.36260829
+2020-06-01,620,Tribunal Fiscal de la Nación,40.8398514
+2020-07-01,620,Tribunal Fiscal de la Nación,34.08290606
+2020-08-01,620,Tribunal Fiscal de la Nación,35.84068155
+2020-09-01,620,Tribunal Fiscal de la Nación,33.25186239
+2020-10-01,620,Tribunal Fiscal de la Nación,36.52142372
+2020-11-01,620,Tribunal Fiscal de la Nación,34.49147921
+2020-12-01,620,Tribunal Fiscal de la Nación,58.27376742
+2020-01-01,622,Instituto Nacional de la Propiedad Industrial,29.00985135
+2020-02-01,622,Instituto Nacional de la Propiedad Industrial,16.354910320000002
+2020-03-01,622,Instituto Nacional de la Propiedad Industrial,101.08015945
+2020-04-01,622,Instituto Nacional de la Propiedad Industrial,31.70456497
+2020-05-01,622,Instituto Nacional de la Propiedad Industrial,46.43054821
+2020-06-01,622,Instituto Nacional de la Propiedad Industrial,91.56273165
+2020-07-01,622,Instituto Nacional de la Propiedad Industrial,41.44568909
+2020-08-01,622,Instituto Nacional de la Propiedad Industrial,53.41506487
+2020-09-01,622,Instituto Nacional de la Propiedad Industrial,80.75597278
+2020-10-01,622,Instituto Nacional de la Propiedad Industrial,40.00413204
+2020-11-01,622,Instituto Nacional de la Propiedad Industrial,29.71886808
+2020-12-01,622,Instituto Nacional de la Propiedad Industrial,176.76251586
+2020-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,285.6882604
+2020-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,573.50386714
+2020-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,1031.107251
+2020-04-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,566.27638349
+2020-05-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,577.82095056
+2020-06-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,1080.59932179
+2020-07-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,572.46902408
+2020-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,656.35712857
+2020-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,1054.72807601
+2020-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,817.04331796
+2020-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,763.4129033
+2020-12-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,1694.03403641
+2020-01-01,624,Servicio Geológico Minero Argentino,27.94695452
+2020-02-01,624,Servicio Geológico Minero Argentino,32.416933719999996
+2020-03-01,624,Servicio Geológico Minero Argentino,30.39931877
+2020-04-01,624,Servicio Geológico Minero Argentino,29.88683998
+2020-05-01,624,Servicio Geológico Minero Argentino,30.18911036
+2020-06-01,624,Servicio Geológico Minero Argentino,55.150349059999996
+2020-07-01,624,Servicio Geológico Minero Argentino,35.27466276
+2020-08-01,624,Servicio Geológico Minero Argentino,34.5261885
+2020-09-01,624,Servicio Geológico Minero Argentino,46.0928901
+2020-10-01,624,Servicio Geológico Minero Argentino,38.93977241
+2020-11-01,624,Servicio Geológico Minero Argentino,41.11815536
+2020-12-01,624,Servicio Geológico Minero Argentino,87.87755612
+2020-01-01,651,Ente Nacional Regulador del Gas,112.78265962
+2020-02-01,651,Ente Nacional Regulador del Gas,125.25342647000001
+2020-03-01,651,Ente Nacional Regulador del Gas,121.57029054
+2020-04-01,651,Ente Nacional Regulador del Gas,145.67862374
+2020-05-01,651,Ente Nacional Regulador del Gas,144.51279298
+2020-06-01,651,Ente Nacional Regulador del Gas,232.07628529
+2020-07-01,651,Ente Nacional Regulador del Gas,161.57830934
+2020-08-01,651,Ente Nacional Regulador del Gas,167.28794298
+2020-09-01,651,Ente Nacional Regulador del Gas,203.12041223
+2020-10-01,651,Ente Nacional Regulador del Gas,171.81893094
+2020-11-01,651,Ente Nacional Regulador del Gas,203.17557424
+2020-12-01,651,Ente Nacional Regulador del Gas,367.40381737
+2020-01-01,652,Ente Nacional Regulador de la Electricidad,45.51954427
+2020-02-01,652,Ente Nacional Regulador de la Electricidad,53.529585999999995
+2020-03-01,652,Ente Nacional Regulador de la Electricidad,48.23511279
+2020-04-01,652,Ente Nacional Regulador de la Electricidad,49.80891565
+2020-05-01,652,Ente Nacional Regulador de la Electricidad,49.34195452
+2020-06-01,652,Ente Nacional Regulador de la Electricidad,70.69238618
+2020-07-01,652,Ente Nacional Regulador de la Electricidad,54.4730699
+2020-08-01,652,Ente Nacional Regulador de la Electricidad,53.694719109999994
+2020-09-01,652,Ente Nacional Regulador de la Electricidad,56.93060001
+2020-10-01,652,Ente Nacional Regulador de la Electricidad,56.65782373
+2020-11-01,652,Ente Nacional Regulador de la Electricidad,52.278829189999996
+2020-12-01,652,Ente Nacional Regulador de la Electricidad,114.71825691000001
+2020-01-01,656,Organismo Regulador de Seguridad de Presas,8.73696259
+2020-02-01,656,Organismo Regulador de Seguridad de Presas,11.95852686
+2020-03-01,656,Organismo Regulador de Seguridad de Presas,10.52374799
+2020-04-01,656,Organismo Regulador de Seguridad de Presas,9.29481116
+2020-05-01,656,Organismo Regulador de Seguridad de Presas,9.53551869
+2020-06-01,656,Organismo Regulador de Seguridad de Presas,14.374582760000001
+2020-07-01,656,Organismo Regulador de Seguridad de Presas,9.60152458
+2020-08-01,656,Organismo Regulador de Seguridad de Presas,9.61644645
+2020-09-01,656,Organismo Regulador de Seguridad de Presas,10.34007015
+2020-10-01,656,Organismo Regulador de Seguridad de Presas,10.23988248
+2020-11-01,656,Organismo Regulador de Seguridad de Presas,10.42306159
+2020-12-01,656,Organismo Regulador de Seguridad de Presas,22.06777791
+2020-01-01,661,Comisión Nacional de Regulación del Transporte,59.45223073
+2020-02-01,661,Comisión Nacional de Regulación del Transporte,110.18331660999999
+2020-03-01,661,Comisión Nacional de Regulación del Transporte,135.98957817
+2020-04-01,661,Comisión Nacional de Regulación del Transporte,104.92859245
+2020-05-01,661,Comisión Nacional de Regulación del Transporte,104.61998282
+2020-06-01,661,Comisión Nacional de Regulación del Transporte,173.22410903
+2020-07-01,661,Comisión Nacional de Regulación del Transporte,102.73015136
+2020-08-01,661,Comisión Nacional de Regulación del Transporte,111.30967846
+2020-09-01,661,Comisión Nacional de Regulación del Transporte,112.46922187
+2020-10-01,661,Comisión Nacional de Regulación del Transporte,118.22462372
+2020-11-01,661,Comisión Nacional de Regulación del Transporte,121.95947535
+2020-12-01,661,Comisión Nacional de Regulación del Transporte,217.16439698
+2020-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,0.0
+2020-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,75.57997499
+2020-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,49.52857214
+2020-04-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,39.702642749999995
+2020-05-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,43.68266875
+2020-06-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,56.17475263
+2020-07-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,47.404090599999996
+2020-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,47.640288500000004
+2020-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,49.323949770000006
+2020-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,55.29658246
+2020-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,48.289056269999996
+2020-12-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,76.95589515
+2020-01-01,669,Administración Nacional de Aviación Civil,186.160385
+2020-02-01,669,Administración Nacional de Aviación Civil,234.51915757
+2020-03-01,669,Administración Nacional de Aviación Civil,232.10972609
+2020-04-01,669,Administración Nacional de Aviación Civil,191.50791971
+2020-05-01,669,Administración Nacional de Aviación Civil,227.15025083999998
+2020-06-01,669,Administración Nacional de Aviación Civil,329.50744922
+2020-07-01,669,Administración Nacional de Aviación Civil,202.12403753
+2020-08-01,669,Administración Nacional de Aviación Civil,210.26628903
+2020-09-01,669,Administración Nacional de Aviación Civil,238.09801902
+2020-10-01,669,Administración Nacional de Aviación Civil,232.73857098
+2020-11-01,669,Administración Nacional de Aviación Civil,222.22901632
+2020-12-01,669,Administración Nacional de Aviación Civil,430.89555809
+2020-01-01,670,Unidad de Información Financiera,23.98168526
+2020-02-01,670,Unidad de Información Financiera,36.13884235
+2020-03-01,670,Unidad de Información Financiera,37.83870874
+2020-04-01,670,Unidad de Información Financiera,28.24772118
+2020-05-01,670,Unidad de Información Financiera,31.033381390000002
+2020-06-01,670,Unidad de Información Financiera,51.101497630000004
+2020-07-01,670,Unidad de Información Financiera,29.692687869999997
+2020-08-01,670,Unidad de Información Financiera,38.63644041
+2020-09-01,670,Unidad de Información Financiera,65.02189697
+2020-10-01,670,Unidad de Información Financiera,45.83480267
+2020-11-01,670,Unidad de Información Financiera,43.13127248
+2020-12-01,670,Unidad de Información Financiera,83.29453597
+2020-01-01,671,Junta de Seguridad en el Transporte,7.63035852
+2020-02-01,671,Junta de Seguridad en el Transporte,7.8967487400000005
+2020-03-01,671,Junta de Seguridad en el Transporte,15.957776240000001
+2020-04-01,671,Junta de Seguridad en el Transporte,16.46382091
+2020-05-01,671,Junta de Seguridad en el Transporte,18.01665505
+2020-06-01,671,Junta de Seguridad en el Transporte,27.28516494
+2020-07-01,671,Junta de Seguridad en el Transporte,42.32452792
+2020-08-01,671,Junta de Seguridad en el Transporte,29.64802495
+2020-09-01,671,Junta de Seguridad en el Transporte,64.19989937
+2020-10-01,671,Junta de Seguridad en el Transporte,20.374962670000002
+2020-11-01,671,Junta de Seguridad en el Transporte,24.3998508
+2020-12-01,671,Junta de Seguridad en el Transporte,160.43607309
+2020-01-01,802,Fondo Nacional de las Artes,12.39777211
+2020-02-01,802,Fondo Nacional de las Artes,16.87604609
+2020-03-01,802,Fondo Nacional de las Artes,24.05041692
+2020-04-01,802,Fondo Nacional de las Artes,11.49540096
+2020-05-01,802,Fondo Nacional de las Artes,14.92983241
+2020-06-01,802,Fondo Nacional de las Artes,27.76678183
+2020-07-01,802,Fondo Nacional de las Artes,13.258507569999999
+2020-08-01,802,Fondo Nacional de las Artes,208.28866814
+2020-09-01,802,Fondo Nacional de las Artes,279.54544665
+2020-10-01,802,Fondo Nacional de las Artes,182.91192173
+2020-11-01,802,Fondo Nacional de las Artes,16.418705
+2020-12-01,802,Fondo Nacional de las Artes,66.14514223
+2020-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,12.74380628
+2020-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,15.8739012
+2020-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,19.78013527
+2020-04-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,17.58362086
+2020-05-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,18.50512006
+2020-06-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,24.70953196
+2020-07-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,19.57152727
+2020-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,18.56256537
+2020-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,23.78939258
+2020-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,20.74303543
+2020-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,21.18508825
+2020-12-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,40.41193586
+2020-01-01,850,Administración Nacional de la Seguridad Social,174028.28209675
+2020-02-01,850,Administración Nacional de la Seguridad Social,215723.69022122
+2020-03-01,850,Administración Nacional de la Seguridad Social,239385.94671975
+2020-04-01,850,Administración Nacional de la Seguridad Social,296158.86120162
+2020-05-01,850,Administración Nacional de la Seguridad Social,258621.48485726
+2020-06-01,850,Administración Nacional de la Seguridad Social,395143.18811947
+2020-07-01,850,Administración Nacional de la Seguridad Social,289840.61304895
+2020-08-01,850,Administración Nacional de la Seguridad Social,323159.29706072
+2020-09-01,850,Administración Nacional de la Seguridad Social,271831.0419151
+2020-10-01,850,Administración Nacional de la Seguridad Social,265328.07121641
+2020-11-01,850,Administración Nacional de la Seguridad Social,249080.7261297
+2020-12-01,850,Administración Nacional de la Seguridad Social,384854.61528692
+2020-01-01,852,Superintendencia de Riesgos del Trabajo,32.002974630000004
+2020-02-01,852,Superintendencia de Riesgos del Trabajo,56.688955480000004
+2020-03-01,852,Superintendencia de Riesgos del Trabajo,94.24765963
+2020-04-01,852,Superintendencia de Riesgos del Trabajo,38.508978909999996
+2020-05-01,852,Superintendencia de Riesgos del Trabajo,55.88951388
+2020-06-01,852,Superintendencia de Riesgos del Trabajo,102.23037230999999
+2020-07-01,852,Superintendencia de Riesgos del Trabajo,27.123284360000003
+2020-08-01,852,Superintendencia de Riesgos del Trabajo,51.9621706
+2020-09-01,852,Superintendencia de Riesgos del Trabajo,77.52650585
+2020-10-01,852,Superintendencia de Riesgos del Trabajo,38.33452523
+2020-11-01,852,Superintendencia de Riesgos del Trabajo,58.940433139999996
+2020-12-01,852,Superintendencia de Riesgos del Trabajo,126.31446624
+2020-01-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',27.71458139
+2020-02-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',34.485954029999995
+2020-03-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',37.883284429999996
+2020-04-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',40.06718294
+2020-05-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',36.46020644
+2020-06-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',53.83404235
+2020-07-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',37.281581509999995
+2020-08-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',28.33847873
+2020-09-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',50.78828158
+2020-10-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',44.8603731
+2020-11-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',43.95319569
+2020-12-01,902,Hospital Nacional en Red Especializado en Salud Mental y Adicciones 'Licenciada Laura Bonaparte',103.58315585
+2020-01-01,903,Hospital Nacional Dr. Baldomero Sommer,70.8195138
+2020-02-01,903,Hospital Nacional Dr. Baldomero Sommer,99.36663251
+2020-03-01,903,Hospital Nacional Dr. Baldomero Sommer,126.05858096
+2020-04-01,903,Hospital Nacional Dr. Baldomero Sommer,93.77115859
+2020-05-01,903,Hospital Nacional Dr. Baldomero Sommer,104.7447375
+2020-06-01,903,Hospital Nacional Dr. Baldomero Sommer,178.37805784
+2020-07-01,903,Hospital Nacional Dr. Baldomero Sommer,107.59018635
+2020-08-01,903,Hospital Nacional Dr. Baldomero Sommer,126.44800282
+2020-09-01,903,Hospital Nacional Dr. Baldomero Sommer,167.24758756
+2020-10-01,903,Hospital Nacional Dr. Baldomero Sommer,113.95158568
+2020-11-01,903,Hospital Nacional Dr. Baldomero Sommer,129.85135746
+2020-12-01,903,Hospital Nacional Dr. Baldomero Sommer,328.38904263
+2020-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",87.12683150000001
+2020-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",122.88752749
+2020-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",127.84076646
+2020-04-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",121.33602623
+2020-05-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",116.0296159
+2020-06-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",171.29644564
+2020-07-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",125.61633954
+2020-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",118.24853839000001
+2020-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",134.60329726
+2020-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",139.68423238
+2020-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",136.50268137
+2020-12-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",297.67492824
+2020-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,25.18528849
+2020-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,32.55970622
+2020-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,36.74641466
+2020-04-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,30.65098937
+2020-05-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,51.95418088
+2020-06-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,52.37760271
+2020-07-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,43.27811867
+2020-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,84.46444009
+2020-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,180.64346589000002
+2020-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,36.25474833
+2020-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,62.61849884
+2020-12-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,280.68913889
+2020-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,69.14187616
+2020-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,95.3581355
+2020-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,136.3827585
+2020-04-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,145.00662979
+2020-05-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,181.20235273
+2020-06-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,269.83911597
+2020-07-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,384.55301999
+2020-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,246.50878448
+2020-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,294.67698690000003
+2020-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,240.13637882
+2020-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,188.89540815
+2020-12-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,554.5124888
+2020-01-01,908,Hospital Nacional Profesor Alejandro Posadas,349.12110813
+2020-02-01,908,Hospital Nacional Profesor Alejandro Posadas,444.34638921
+2020-03-01,908,Hospital Nacional Profesor Alejandro Posadas,679.62285773
+2020-04-01,908,Hospital Nacional Profesor Alejandro Posadas,482.59381973
+2020-05-01,908,Hospital Nacional Profesor Alejandro Posadas,552.25021891
+2020-06-01,908,Hospital Nacional Profesor Alejandro Posadas,727.93988138
+2020-07-01,908,Hospital Nacional Profesor Alejandro Posadas,616.6705660800001
+2020-08-01,908,Hospital Nacional Profesor Alejandro Posadas,668.23716666
+2020-09-01,908,Hospital Nacional Profesor Alejandro Posadas,639.11776473
+2020-10-01,908,Hospital Nacional Profesor Alejandro Posadas,701.52769977
+2020-11-01,908,Hospital Nacional Profesor Alejandro Posadas,757.93790199
+2020-12-01,908,Hospital Nacional Profesor Alejandro Posadas,1148.6863027
+2020-01-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,48.36847355
+2020-02-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,66.02002512
+2020-03-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,136.80437482000002
+2020-04-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,61.19539661
+2020-05-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,92.76303561
+2020-06-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,168.15208522
+2020-07-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,78.07750027
+2020-08-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,102.95123564
+2020-09-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,115.59398962
+2020-10-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,87.06679078
+2020-11-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,99.00190931
+2020-12-01,909,Colonia Nacional Dr. Manuel A. Montes de Oca,262.26861187000003
+2020-01-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,25.703574749999998
+2020-02-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,29.76779315
+2020-03-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,35.44106476
+2020-04-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,31.70646901
+2020-05-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,34.12144566
+2020-06-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,57.0409494
+2020-07-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,43.1913957
+2020-08-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,40.57331981
+2020-09-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,39.88063878
+2020-10-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,40.70570534
+2020-11-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,39.97592637
+2020-12-01,910,Instituto Nacional de Rehabilitación Psicofísica del Sur Dr. Juan Otimio Tesone,66.8282917
+2020-01-01,914,Superintendencia de Servicios de Salud,1246.43810319
+2020-02-01,914,Superintendencia de Servicios de Salud,2110.82625182
+2020-03-01,914,Superintendencia de Servicios de Salud,5131.99219463
+2020-04-01,914,Superintendencia de Servicios de Salud,1037.14887394
+2020-05-01,914,Superintendencia de Servicios de Salud,6179.229226540001
+2020-06-01,914,Superintendencia de Servicios de Salud,4154.68986519
+2020-07-01,914,Superintendencia de Servicios de Salud,2166.35814592
+2020-08-01,914,Superintendencia de Servicios de Salud,3138.1941624099995
+2020-09-01,914,Superintendencia de Servicios de Salud,2637.0263269699994
+2020-10-01,914,Superintendencia de Servicios de Salud,1487.7671144199999
+2020-11-01,914,Superintendencia de Servicios de Salud,2891.1097722800005
+2020-12-01,914,Superintendencia de Servicios de Salud,1849.1966464600002
+2020-01-01,915,Instituto Nacional del Cáncer (INC),0.18357032
+2020-02-01,915,Instituto Nacional del Cáncer (INC),7.12450688
+2020-03-01,915,Instituto Nacional del Cáncer (INC),6.2567255
+2020-04-01,915,Instituto Nacional del Cáncer (INC),9.52570932
+2020-05-01,915,Instituto Nacional del Cáncer (INC),5.06203036
+2020-06-01,915,Instituto Nacional del Cáncer (INC),13.92904495
+2020-07-01,915,Instituto Nacional del Cáncer (INC),1.5751248899999999
+2020-08-01,915,Instituto Nacional del Cáncer (INC),8.912909240000001
+2020-09-01,915,Instituto Nacional del Cáncer (INC),6.55944324
+2020-10-01,915,Instituto Nacional del Cáncer (INC),7.66106748
+2020-11-01,915,Instituto Nacional del Cáncer (INC),7.66523293
+2020-12-01,915,Instituto Nacional del Cáncer (INC),45.03205285
+2020-01-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),0.8892523099999999
+2020-02-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),1.72762661
+2020-03-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),4.11079094
+2020-04-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),1.4321931399999999
+2020-05-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),2.15473229
+2020-06-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),23.92464606
+2020-07-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),3.40605839
+2020-08-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),16.64601841
+2020-09-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),19.66251313
+2020-10-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),1.99165142
+2020-11-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),2.91080258
+2020-12-01,916,Agencia Nacional de Laboratorios Públicos (ANLAP),4.15905711
+2020-01-01,917,Agencia Nacional de Discapacidad,16235.35873142
+2020-02-01,917,Agencia Nacional de Discapacidad,1624.88170928
+2020-03-01,917,Agencia Nacional de Discapacidad,27857.55218218
+2020-04-01,917,Agencia Nacional de Discapacidad,13764.91758535
+2020-05-01,917,Agencia Nacional de Discapacidad,2266.1582917
+2020-06-01,917,Agencia Nacional de Discapacidad,32611.06794224
+2020-07-01,917,Agencia Nacional de Discapacidad,3766.78004199
+2020-08-01,917,Agencia Nacional de Discapacidad,27135.44009317
+2020-09-01,917,Agencia Nacional de Discapacidad,16666.95815877
+2020-10-01,917,Agencia Nacional de Discapacidad,2635.14791083
+2020-11-01,917,Agencia Nacional de Discapacidad,14821.73554217
+2020-12-01,917,Agencia Nacional de Discapacidad,42622.58413732

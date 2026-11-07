@@ -4083,3 +4083,114 @@ graficos:
     fuentes:
       - {nombre: "OMS y UNICEF, estimaciones de cobertura de vacunación (WUENIC), vía Banco Mundial", url: "https://data.worldbank.org/indicator/SH.IMM.IDPT?locations=AR", nivel: secundaria}
     metodo: "Estimaciones anuales de OMS y UNICEF a partir de los registros del Ministerio de Salud y de encuestas. El original mostraba el porcentaje de adultos que no completan el calendario y sus razones (falta de vacunas o rechazo): no hay ninguna fuente pública con ese dato, así que se muestra la cobertura infantil, que es el indicador oficial de seguimiento."
+
+  - id: gasto_indec_inpi_coneau
+    tema: 3
+    titulo: "Gasto en INDEC, INPI y CONEAU"
+    que_muestra: "Gasto ejecutado (devengado) por cada organismo, en pesos de hoy."
+    original: {ficha: p89, imagen: 1382}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "millones de pesos de hoy"
+    tipo_valor: flujo
+    moneda: ARS
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: pre_indec, nombre: "INDEC (estadísticas)"}
+      - {serie: pre_inpi, nombre: "INPI (propiedad industrial)"}
+      - {serie: pre_coneau, nombre: "CONEAU (acreditación universitaria)"}
+    fuentes:
+      - {nombre: "Secretaría de Hacienda, Presupuesto de gastos y su ejecución detallada (agrupación mensual), por servicio administrativo financiero", url: "https://www.economia.gob.ar/onp/ejecucion", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Gasto devengado mensual de cada organismo (todas sus fuentes de financiamiento, incluidos sus recursos propios), en pesos corrientes llevados a pesos del último mes con dato con el IPC empalmado. Se muestra por defecto la suma de 12 meses porque el gasto mensual tiene saltos (aguinaldos, compras grandes). Los saltos del INDEC coinciden con los censos (2001, 2010 y 2022)."
+
+  - id: gasto_anmat_senasa_inta
+    tema: 3
+    titulo: "Gasto en ANMAT, SENASA e INTA"
+    que_muestra: "Gasto ejecutado (devengado) por cada organismo, en pesos de hoy."
+    original: {ficha: p90, imagen: 1383}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "millones de pesos de hoy"
+    tipo_valor: flujo
+    moneda: ARS
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: pre_inta, nombre: "INTA (tecnología agropecuaria)"}
+      - {serie: pre_senasa, nombre: "SENASA (sanidad agroalimentaria)"}
+      - {serie: pre_anmat, nombre: "ANMAT (medicamentos y alimentos)"}
+    fuentes:
+      - {nombre: "Secretaría de Hacienda, Presupuesto de gastos y su ejecución detallada (agrupación mensual), por servicio administrativo financiero", url: "https://www.economia.gob.ar/onp/ejecucion", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Gasto devengado mensual de cada organismo (todas sus fuentes de financiamiento, incluidos sus recursos propios), en pesos corrientes llevados a pesos del último mes con dato con el IPC empalmado. Se muestra por defecto la suma de 12 meses porque el gasto mensual tiene saltos (aguinaldos, compras grandes)."
+
+  - id: gasto_ign_inase_segemar
+    tema: 3
+    titulo: "Gasto en IGN, INASE y SEGEMAR"
+    que_muestra: "Gasto ejecutado (devengado) por cada organismo, en pesos de hoy."
+    original: {ficha: p94, imagen: 1388}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "millones de pesos de hoy"
+    tipo_valor: flujo
+    moneda: ARS
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: pre_ign, nombre: "IGN (Instituto Geográfico Nacional)"}
+      - {serie: pre_inase, nombre: "INASE (semillas)", sin_ceros: true}
+      - {serie: pre_segemar, nombre: "SEGEMAR (servicio geológico minero)"}
+    fuentes:
+      - {nombre: "Secretaría de Hacienda, Presupuesto de gastos y su ejecución detallada (agrupación mensual), por servicio administrativo financiero", url: "https://www.economia.gob.ar/onp/ejecucion", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Gasto devengado mensual de cada organismo (todas sus fuentes de financiamiento, incluidos sus recursos propios), en pesos corrientes llevados a pesos del último mes con dato con el IPC empalmado. Se muestra por defecto la suma de 12 meses porque el gasto mensual tiene saltos (aguinaldos, compras grandes). El IGN se llamaba Instituto Geográfico Militar hasta 2009."
+
+  - id: gasto_organismos_culturales
+    tema: 3
+    titulo: "Gasto en organismos culturales nacionales"
+    que_muestra: "Gasto ejecutado (devengado) por cada organismo, en pesos de hoy."
+    original: {ficha: p96, imagen: 1390}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "millones de pesos de hoy"
+    tipo_valor: flujo
+    moneda: ARS
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: pre_bnmm, nombre: "Biblioteca Nacional"}
+      - {serie: pre_int, nombre: "Instituto Nacional del Teatro"}
+      - {serie: pre_cervantes, nombre: "Teatro Nacional Cervantes"}
+    fuentes:
+      - {nombre: "Secretaría de Hacienda, Presupuesto de gastos y su ejecución detallada (agrupación mensual), por servicio administrativo financiero", url: "https://www.economia.gob.ar/onp/ejecucion", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Gasto devengado mensual de cada organismo (todas sus fuentes de financiamiento, incluidos sus recursos propios), en pesos corrientes llevados a pesos del último mes con dato con el IPC empalmado. Se muestra por defecto la suma de 12 meses porque el gasto mensual tiene saltos (aguinaldos, compras grandes). El INCAA, que pedía el original, figura en el presupuesto nacional solo hasta 2002: desde entonces se financia con un fondo propio fuera de esta base, así que no se incluye. Se suma el Teatro Cervantes."
+
+  - id: gasto_entes_reguladores
+    tema: 3
+    titulo: "Gasto en entes reguladores nacionales"
+    que_muestra: "Gasto ejecutado (devengado) por cada organismo, en pesos de hoy."
+    original: {ficha: p97, imagen: 1391}
+    tipo: lineas
+    frecuencia: M
+    desde: "2001-01"
+    unidad: "millones de pesos de hoy"
+    tipo_valor: flujo
+    moneda: ARS
+    flujo: true
+    medida_inicial: acumulado_12m
+    series:
+      - {serie: pre_enacom, nombre: "ENACOM y antecesores (CNC, COMFER, AFSCA)"}
+      - {serie: pre_enre_enargas, nombre: "ENRE y ENARGAS (fusionados en 2026)"}
+      - {serie: pre_cnrt, nombre: "CNRT (transporte)"}
+      - {serie: pre_anac, nombre: "ANAC (aviación civil)"}
+    fuentes:
+      - {nombre: "Secretaría de Hacienda, Presupuesto de gastos y su ejecución detallada (agrupación mensual), por servicio administrativo financiero", url: "https://www.economia.gob.ar/onp/ejecucion", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Gasto devengado mensual de cada organismo (todas sus fuentes de financiamiento, incluidos sus recursos propios), en pesos corrientes llevados a pesos del último mes con dato con el IPC empalmado. Se muestra por defecto la suma de 12 meses porque el gasto mensual tiene saltos (aguinaldos, compras grandes). ENACOM reúne desde 2016 a la CNC (telecomunicaciones) y al COMFER/AFSCA (radiodifusión): se suman sus antecesores. ENRE y ENARGAS se fusionaron en 2026 en el Ente Nacional Regulador del Gas y la Electricidad. La ANAC existe como organismo desde 2009; antes la aviación civil dependía de la Fuerza Aérea."

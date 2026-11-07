@@ -87,6 +87,7 @@ def extraer(definicion: dict) -> pd.Series:
     if df.empty:
         raise RuntimeError(f"Sin ejecución para los servicios {ids}")
     s = df.groupby("fecha")["devengado"].sum().sort_index()
+    s = s[s.index < pd.Timestamp.today().normalize().replace(day=1)]  # el mes en curso está incompleto
     # Rellena con 0 los meses sin gasto dentro del período del organismo
     idx = pd.date_range(s.index.min(), s.index.max(), freq="MS")
     return s.reindex(idx, fill_value=0.0).astype(float)

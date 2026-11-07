@@ -1,0 +1,931 @@
+serie,fecha,valor,tramo
+Biblioteca Nacional,2001-01-01,53.215094,observado
+Biblioteca Nacional,2001-02-01,2222.175672,observado
+Biblioteca Nacional,2001-03-01,1707.634464,observado
+Biblioteca Nacional,2001-04-01,1257.622474,observado
+Biblioteca Nacional,2001-05-01,773.289557,observado
+Biblioteca Nacional,2001-06-01,3059.309686,observado
+Biblioteca Nacional,2001-07-01,1281.951509,observado
+Biblioteca Nacional,2001-08-01,1148.305771,observado
+Biblioteca Nacional,2001-09-01,1388.045308,observado
+Biblioteca Nacional,2001-10-01,973.604168,observado
+Biblioteca Nacional,2001-11-01,995.626055,observado
+Biblioteca Nacional,2001-12-01,2307.662989,observado
+Biblioteca Nacional,2002-01-01,704.467022,observado
+Biblioteca Nacional,2002-02-01,643.886565,observado
+Biblioteca Nacional,2002-03-01,1634.503399,observado
+Biblioteca Nacional,2002-04-01,802.999207,observado
+Biblioteca Nacional,2002-05-01,1022.941302,observado
+Biblioteca Nacional,2002-06-01,1760.3645,observado
+Biblioteca Nacional,2002-07-01,965.180286,observado
+Biblioteca Nacional,2002-08-01,759.09988,observado
+Biblioteca Nacional,2002-09-01,1201.645905,observado
+Biblioteca Nacional,2002-10-01,600.50091,observado
+Biblioteca Nacional,2002-11-01,817.827674,observado
+Biblioteca Nacional,2002-12-01,1570.165107,observado
+Biblioteca Nacional,2003-01-01,627.792693,observado
+Biblioteca Nacional,2003-02-01,852.825056,observado
+Biblioteca Nacional,2003-03-01,1168.949959,observado
+Biblioteca Nacional,2003-04-01,695.095923,observado
+Biblioteca Nacional,2003-05-01,769.647907,observado
+Biblioteca Nacional,2003-06-01,1539.143627,observado
+Biblioteca Nacional,2003-07-01,141.683467,observado
+Biblioteca Nacional,2003-08-01,1480.875849,observado
+Biblioteca Nacional,2003-09-01,1268.790076,observado
+Biblioteca Nacional,2003-10-01,632.875422,observado
+Biblioteca Nacional,2003-11-01,702.175368,observado
+Biblioteca Nacional,2003-12-01,2200.272741,observado
+Biblioteca Nacional,2004-01-01,35.256982,observado
+Biblioteca Nacional,2004-02-01,994.881598,observado
+Biblioteca Nacional,2004-03-01,1646.792233,observado
+Biblioteca Nacional,2004-04-01,756.226218,observado
+Biblioteca Nacional,2004-05-01,818.26538,observado
+Biblioteca Nacional,2004-06-01,1289.61507,observado
+Biblioteca Nacional,2004-07-01,837.449356,observado
+Biblioteca Nacional,2004-08-01,951.323394,observado
+Biblioteca Nacional,2004-09-01,1167.938214,observado
+Biblioteca Nacional,2004-10-01,978.88747,observado
+Biblioteca Nacional,2004-11-01,889.870344,observado
+Biblioteca Nacional,2004-12-01,2258.171506,observado
+Biblioteca Nacional,2005-01-01,637.579628,observado
+Biblioteca Nacional,2005-02-01,941.602073,observado
+Biblioteca Nacional,2005-03-01,1743.88378,observado
+Biblioteca Nacional,2005-04-01,1013.011803,observado
+Biblioteca Nacional,2005-05-01,775.479097,observado
+Biblioteca Nacional,2005-06-01,1426.579496,observado
+Biblioteca Nacional,2005-07-01,826.535508,observado
+Biblioteca Nacional,2005-08-01,1366.085206,observado
+Biblioteca Nacional,2005-09-01,1812.997786,observado
+Biblioteca Nacional,2005-10-01,1323.282751,observado
+Biblioteca Nacional,2005-11-01,1294.81691,observado
+Biblioteca Nacional,2005-12-01,4422.287252,observado
+Biblioteca Nacional,2006-01-01,857.734188,observado
+Biblioteca Nacional,2006-02-01,1846.096069,observado
+Biblioteca Nacional,2006-03-01,1648.828535,observado
+Biblioteca Nacional,2006-04-01,1402.560164,observado
+Biblioteca Nacional,2006-05-01,1617.020527,observado
+Biblioteca Nacional,2006-06-01,2479.875086,observado
+Biblioteca Nacional,2006-07-01,1714.674915,observado
+Biblioteca Nacional,2006-08-01,1906.00951,observado
+Biblioteca Nacional,2006-09-01,2181.621631,observado
+Biblioteca Nacional,2006-10-01,2149.177894,observado
+Biblioteca Nacional,2006-11-01,1929.029547,observado
+Biblioteca Nacional,2006-12-01,5476.824363,observado
+Biblioteca Nacional,2007-01-01,1192.79969,observado
+Biblioteca Nacional,2007-02-01,1477.252719,observado
+Biblioteca Nacional,2007-03-01,2577.607793,observado
+Biblioteca Nacional,2007-04-01,1292.839136,observado
+Biblioteca Nacional,2007-05-01,2092.452185,observado
+Biblioteca Nacional,2007-06-01,2456.71525,observado
+Biblioteca Nacional,2007-07-01,1780.747752,observado
+Biblioteca Nacional,2007-08-01,2384.759624,observado
+Biblioteca Nacional,2007-09-01,2764.193835,observado
+Biblioteca Nacional,2007-10-01,1773.179012,observado
+Biblioteca Nacional,2007-11-01,2536.174148,observado
+Biblioteca Nacional,2007-12-01,4582.946815,observado
+Biblioteca Nacional,2008-01-01,1385.877471,observado
+Biblioteca Nacional,2008-02-01,2291.390546,observado
+Biblioteca Nacional,2008-03-01,2154.356117,observado
+Biblioteca Nacional,2008-04-01,2127.719042,observado
+Biblioteca Nacional,2008-05-01,2006.034946,observado
+Biblioteca Nacional,2008-06-01,2933.34078,observado
+Biblioteca Nacional,2008-07-01,2386.332631,observado
+Biblioteca Nacional,2008-08-01,2621.856272,observado
+Biblioteca Nacional,2008-09-01,3171.506557,observado
+Biblioteca Nacional,2008-10-01,2267.9132,observado
+Biblioteca Nacional,2008-11-01,2946.224921,observado
+Biblioteca Nacional,2008-12-01,4674.449895,observado
+Biblioteca Nacional,2009-01-01,1619.286932,observado
+Biblioteca Nacional,2009-02-01,2513.001516,observado
+Biblioteca Nacional,2009-03-01,2508.414781,observado
+Biblioteca Nacional,2009-04-01,1982.229324,observado
+Biblioteca Nacional,2009-05-01,1398.855227,observado
+Biblioteca Nacional,2009-06-01,5482.528292,observado
+Biblioteca Nacional,2009-07-01,2273.251446,observado
+Biblioteca Nacional,2009-08-01,2879.536789,observado
+Biblioteca Nacional,2009-09-01,3132.251294,observado
+Biblioteca Nacional,2009-10-01,1900.904446,observado
+Biblioteca Nacional,2009-11-01,2991.87044,observado
+Biblioteca Nacional,2009-12-01,6323.868643,observado
+Biblioteca Nacional,2010-01-01,1596.209213,observado
+Biblioteca Nacional,2010-02-01,2179.323836,observado
+Biblioteca Nacional,2010-03-01,1965.399757,observado
+Biblioteca Nacional,2010-04-01,1702.241475,observado
+Biblioteca Nacional,2010-05-01,2525.601386,observado
+Biblioteca Nacional,2010-06-01,5247.921674,observado
+Biblioteca Nacional,2010-07-01,2217.485454,observado
+Biblioteca Nacional,2010-08-01,2401.582489,observado
+Biblioteca Nacional,2010-09-01,3967.725798,observado
+Biblioteca Nacional,2010-10-01,2146.955414,observado
+Biblioteca Nacional,2010-11-01,2946.249474,observado
+Biblioteca Nacional,2010-12-01,7404.973628,observado
+Biblioteca Nacional,2011-01-01,1913.306473,observado
+Biblioteca Nacional,2011-02-01,2087.580954,observado
+Biblioteca Nacional,2011-03-01,4675.690498,observado
+Biblioteca Nacional,2011-04-01,1906.849799,observado
+Biblioteca Nacional,2011-05-01,2691.703255,observado
+Biblioteca Nacional,2011-06-01,5559.300656,observado
+Biblioteca Nacional,2011-07-01,171.096726,observado
+Biblioteca Nacional,2011-08-01,4311.111824,observado
+Biblioteca Nacional,2011-09-01,5374.158435,observado
+Biblioteca Nacional,2011-10-01,2723.1308,observado
+Biblioteca Nacional,2011-11-01,2822.191502,observado
+Biblioteca Nacional,2011-12-01,6103.311345,observado
+Biblioteca Nacional,2012-01-01,2269.970418,observado
+Biblioteca Nacional,2012-02-01,2611.98839,observado
+Biblioteca Nacional,2012-03-01,4414.962265,observado
+Biblioteca Nacional,2012-04-01,2259.31858,observado
+Biblioteca Nacional,2012-05-01,5016.764575,observado
+Biblioteca Nacional,2012-06-01,5958.131093,observado
+Biblioteca Nacional,2012-07-01,2394.65216,observado
+Biblioteca Nacional,2012-08-01,4071.069824,observado
+Biblioteca Nacional,2012-09-01,4223.877841,observado
+Biblioteca Nacional,2012-10-01,4491.774596,observado
+Biblioteca Nacional,2012-11-01,3915.451166,observado
+Biblioteca Nacional,2012-12-01,8748.648604,observado
+Biblioteca Nacional,2013-01-01,2977.538378,observado
+Biblioteca Nacional,2013-02-01,1410.902115,observado
+Biblioteca Nacional,2013-03-01,7021.967901,observado
+Biblioteca Nacional,2013-04-01,2596.934546,observado
+Biblioteca Nacional,2013-05-01,4663.744524,observado
+Biblioteca Nacional,2013-06-01,4744.504132,observado
+Biblioteca Nacional,2013-07-01,3758.783956,observado
+Biblioteca Nacional,2013-08-01,8406.284165,observado
+Biblioteca Nacional,2013-09-01,7051.911983,observado
+Biblioteca Nacional,2013-10-01,5125.242818,observado
+Biblioteca Nacional,2013-11-01,5393.350935,observado
+Biblioteca Nacional,2013-12-01,9476.131611,observado
+Biblioteca Nacional,2014-01-01,3336.173032,observado
+Biblioteca Nacional,2014-02-01,3356.413285,observado
+Biblioteca Nacional,2014-03-01,7937.687947,observado
+Biblioteca Nacional,2014-04-01,3913.380912,observado
+Biblioteca Nacional,2014-05-01,4136.986411,observado
+Biblioteca Nacional,2014-06-01,7109.698266,observado
+Biblioteca Nacional,2014-07-01,4712.240882,observado
+Biblioteca Nacional,2014-08-01,4811.205179,observado
+Biblioteca Nacional,2014-09-01,4993.247872,observado
+Biblioteca Nacional,2014-10-01,4830.889116,observado
+Biblioteca Nacional,2014-11-01,4635.674668,observado
+Biblioteca Nacional,2014-12-01,10465.008938,observado
+Biblioteca Nacional,2015-01-01,3088.410496,observado
+Biblioteca Nacional,2015-02-01,4398.873164,observado
+Biblioteca Nacional,2015-03-01,7713.420529,observado
+Biblioteca Nacional,2015-04-01,4315.440432,observado
+Biblioteca Nacional,2015-05-01,5077.487702,observado
+Biblioteca Nacional,2015-06-01,9815.113875,observado
+Biblioteca Nacional,2015-07-01,6316.076051,observado
+Biblioteca Nacional,2015-08-01,5546.381512,observado
+Biblioteca Nacional,2015-09-01,8053.981685,observado
+Biblioteca Nacional,2015-10-01,4991.34834,observado
+Biblioteca Nacional,2015-11-01,6936.006092,observado
+Biblioteca Nacional,2015-12-01,11874.880046,observado
+Biblioteca Nacional,2016-01-01,4280.847346,observado
+Biblioteca Nacional,2016-02-01,4487.429609,observado
+Biblioteca Nacional,2016-03-01,6288.856474,observado
+Biblioteca Nacional,2016-04-01,4180.04002,observado
+Biblioteca Nacional,2016-05-01,5257.20798,observado
+Biblioteca Nacional,2016-06-01,6390.07006,observado
+Biblioteca Nacional,2016-07-01,4655.396056,observado
+Biblioteca Nacional,2016-08-01,5258.608363,observado
+Biblioteca Nacional,2016-09-01,5619.252582,observado
+Biblioteca Nacional,2016-10-01,6075.445594,observado
+Biblioteca Nacional,2016-11-01,5485.612818,observado
+Biblioteca Nacional,2016-12-01,8821.912817,observado
+Biblioteca Nacional,2017-01-01,4322.030054,observado
+Biblioteca Nacional,2017-02-01,4223.847748,observado
+Biblioteca Nacional,2017-03-01,4328.107127,observado
+Biblioteca Nacional,2017-04-01,4100.094367,observado
+Biblioteca Nacional,2017-05-01,3926.353309,observado
+Biblioteca Nacional,2017-06-01,7462.407959,observado
+Biblioteca Nacional,2017-07-01,4382.172677,observado
+Biblioteca Nacional,2017-08-01,6443.949869,observado
+Biblioteca Nacional,2017-09-01,7428.30558,observado
+Biblioteca Nacional,2017-10-01,4620.727467,observado
+Biblioteca Nacional,2017-11-01,4169.339613,observado
+Biblioteca Nacional,2017-12-01,8891.584908,observado
+Biblioteca Nacional,2018-01-01,3883.992299,observado
+Biblioteca Nacional,2018-02-01,4102.313299,observado
+Biblioteca Nacional,2018-03-01,4173.176649,observado
+Biblioteca Nacional,2018-04-01,5288.503873,observado
+Biblioteca Nacional,2018-05-01,3999.134123,observado
+Biblioteca Nacional,2018-06-01,5798.504859,observado
+Biblioteca Nacional,2018-07-01,3672.378117,observado
+Biblioteca Nacional,2018-08-01,4526.953159,observado
+Biblioteca Nacional,2018-09-01,3618.924775,observado
+Biblioteca Nacional,2018-10-01,3831.015598,observado
+Biblioteca Nacional,2018-11-01,4180.097335,observado
+Biblioteca Nacional,2018-12-01,6261.337633,observado
+Biblioteca Nacional,2019-01-01,2869.182644,observado
+Biblioteca Nacional,2019-02-01,3334.038629,observado
+Biblioteca Nacional,2019-03-01,4024.859661,observado
+Biblioteca Nacional,2019-04-01,3116.474923,observado
+Biblioteca Nacional,2019-05-01,3068.663239,observado
+Biblioteca Nacional,2019-06-01,4547.488737,observado
+Biblioteca Nacional,2019-07-01,3066.173543,observado
+Biblioteca Nacional,2019-08-01,2485.316691,observado
+Biblioteca Nacional,2019-09-01,4096.18323,observado
+Biblioteca Nacional,2019-10-01,3102.18032,observado
+Biblioteca Nacional,2019-11-01,3019.014957,observado
+Biblioteca Nacional,2019-12-01,3854.822622,observado
+Biblioteca Nacional,2020-01-01,2243.614618,observado
+Biblioteca Nacional,2020-02-01,2978.897321,observado
+Biblioteca Nacional,2020-03-01,2962.105769,observado
+Biblioteca Nacional,2020-04-01,2687.771427,observado
+Biblioteca Nacional,2020-05-01,2651.995606,observado
+Biblioteca Nacional,2020-06-01,4447.362323,observado
+Biblioteca Nacional,2020-07-01,2550.731267,observado
+Biblioteca Nacional,2020-08-01,2728.282306,observado
+Biblioteca Nacional,2020-09-01,2854.873894,observado
+Biblioteca Nacional,2020-10-01,2818.263738,observado
+Biblioteca Nacional,2020-11-01,2646.881448,observado
+Biblioteca Nacional,2020-12-01,6564.895607,observado
+Biblioteca Nacional,2021-01-01,2351.912563,observado
+Biblioteca Nacional,2021-02-01,2624.138511,observado
+Biblioteca Nacional,2021-03-01,3704.133886,observado
+Biblioteca Nacional,2021-04-01,2410.574357,observado
+Biblioteca Nacional,2021-05-01,2926.73921,observado
+Biblioteca Nacional,2021-06-01,6462.915968,observado
+Biblioteca Nacional,2021-07-01,2841.998237,observado
+Biblioteca Nacional,2021-08-01,3561.143885,observado
+Biblioteca Nacional,2021-09-01,5268.65486,observado
+Biblioteca Nacional,2021-10-01,4178.744036,observado
+Biblioteca Nacional,2021-11-01,3611.346269,observado
+Biblioteca Nacional,2021-12-01,13180.677265,observado
+Biblioteca Nacional,2022-01-01,2952.310329,observado
+Biblioteca Nacional,2022-02-01,3832.627037,observado
+Biblioteca Nacional,2022-03-01,4049.471194,observado
+Biblioteca Nacional,2022-04-01,3363.365324,observado
+Biblioteca Nacional,2022-05-01,3656.636602,observado
+Biblioteca Nacional,2022-06-01,8953.000818,observado
+Biblioteca Nacional,2022-07-01,3647.327593,observado
+Biblioteca Nacional,2022-08-01,5028.13343,observado
+Biblioteca Nacional,2022-09-01,7014.858465,observado
+Biblioteca Nacional,2022-10-01,5644.189722,observado
+Biblioteca Nacional,2022-11-01,4785.535703,observado
+Biblioteca Nacional,2022-12-01,9002.736024,observado
+Biblioteca Nacional,2023-01-01,3250.323123,observado
+Biblioteca Nacional,2023-02-01,3866.215285,observado
+Biblioteca Nacional,2023-03-01,4761.39251,observado
+Biblioteca Nacional,2023-04-01,4398.66577,observado
+Biblioteca Nacional,2023-05-01,5142.161744,observado
+Biblioteca Nacional,2023-06-01,11409.509745,observado
+Biblioteca Nacional,2023-07-01,6204.079181,observado
+Biblioteca Nacional,2023-08-01,5807.153324,observado
+Biblioteca Nacional,2023-09-01,8667.1398,observado
+Biblioteca Nacional,2023-10-01,6356.754021,observado
+Biblioteca Nacional,2023-11-01,7007.579547,observado
+Biblioteca Nacional,2023-12-01,6978.552132,observado
+Biblioteca Nacional,2024-01-01,2997.105132,observado
+Biblioteca Nacional,2024-02-01,2976.513523,observado
+Biblioteca Nacional,2024-03-01,3262.770149,observado
+Biblioteca Nacional,2024-04-01,3004.010887,observado
+Biblioteca Nacional,2024-05-01,2950.160465,observado
+Biblioteca Nacional,2024-06-01,4149.55472,observado
+Biblioteca Nacional,2024-07-01,2653.60242,observado
+Biblioteca Nacional,2024-08-01,4363.614951,observado
+Biblioteca Nacional,2024-09-01,3818.334623,observado
+Biblioteca Nacional,2024-10-01,2618.015626,observado
+Biblioteca Nacional,2024-11-01,3167.831793,observado
+Biblioteca Nacional,2024-12-01,7970.920852,observado
+Biblioteca Nacional,2025-01-01,2481.233435,observado
+Biblioteca Nacional,2025-02-01,2295.491555,observado
+Biblioteca Nacional,2025-03-01,2998.503908,observado
+Biblioteca Nacional,2025-04-01,2822.625798,observado
+Biblioteca Nacional,2025-05-01,2801.812255,observado
+Biblioteca Nacional,2025-06-01,3894.082781,observado
+Biblioteca Nacional,2025-07-01,3062.535847,observado
+Biblioteca Nacional,2025-08-01,2680.720882,observado
+Biblioteca Nacional,2025-09-01,2551.718888,observado
+Biblioteca Nacional,2025-10-01,3178.96059,observado
+Biblioteca Nacional,2025-11-01,2629.486278,observado
+Biblioteca Nacional,2025-12-01,6076.338033,observado
+Biblioteca Nacional,2026-01-01,1898.378052,observado
+Biblioteca Nacional,2026-02-01,2393.922974,observado
+Biblioteca Nacional,2026-03-01,2993.173842,observado
+Biblioteca Nacional,2026-04-01,2901.347971,observado
+Biblioteca Nacional,2026-05-01,2202.649808,observado
+Biblioteca Nacional,2026-06-01,3159.94595,observado
+Biblioteca Nacional,2026-07-01,2482.749129,observado
+Biblioteca Nacional,2026-08-01,3239.432377,observado
+Biblioteca Nacional,2026-09-01,3532.707341,observado
+Biblioteca Nacional,2026-10-01,2810.781493,observado
+Instituto Nacional del Teatro,2001-01-01,184.209652,observado
+Instituto Nacional del Teatro,2001-02-01,655.14759,observado
+Instituto Nacional del Teatro,2001-03-01,2259.917313,observado
+Instituto Nacional del Teatro,2001-04-01,436.588977,observado
+Instituto Nacional del Teatro,2001-05-01,876.767777,observado
+Instituto Nacional del Teatro,2001-06-01,2415.510847,observado
+Instituto Nacional del Teatro,2001-07-01,591.984744,observado
+Instituto Nacional del Teatro,2001-08-01,1138.413196,observado
+Instituto Nacional del Teatro,2001-09-01,1236.398921,observado
+Instituto Nacional del Teatro,2001-10-01,354.849007,observado
+Instituto Nacional del Teatro,2001-11-01,1128.270894,observado
+Instituto Nacional del Teatro,2001-12-01,3361.095347,observado
+Instituto Nacional del Teatro,2002-01-01,165.446099,observado
+Instituto Nacional del Teatro,2002-02-01,644.546406,observado
+Instituto Nacional del Teatro,2002-03-01,631.079182,observado
+Instituto Nacional del Teatro,2002-04-01,307.955696,observado
+Instituto Nacional del Teatro,2002-05-01,317.57799,observado
+Instituto Nacional del Teatro,2002-06-01,909.227206,observado
+Instituto Nacional del Teatro,2002-07-01,715.153638,observado
+Instituto Nacional del Teatro,2002-08-01,350.316036,observado
+Instituto Nacional del Teatro,2002-09-01,1049.585539,observado
+Instituto Nacional del Teatro,2002-10-01,833.127393,observado
+Instituto Nacional del Teatro,2002-11-01,1160.091757,observado
+Instituto Nacional del Teatro,2002-12-01,2828.244825,observado
+Instituto Nacional del Teatro,2003-01-01,152.520128,observado
+Instituto Nacional del Teatro,2003-02-01,1121.753646,observado
+Instituto Nacional del Teatro,2003-03-01,1141.184166,observado
+Instituto Nacional del Teatro,2003-04-01,520.537578,observado
+Instituto Nacional del Teatro,2003-05-01,1460.179295,observado
+Instituto Nacional del Teatro,2003-06-01,1420.76793,observado
+Instituto Nacional del Teatro,2003-07-01,997.347647,observado
+Instituto Nacional del Teatro,2003-08-01,1491.154813,observado
+Instituto Nacional del Teatro,2003-09-01,771.670109,observado
+Instituto Nacional del Teatro,2003-10-01,787.779623,observado
+Instituto Nacional del Teatro,2003-11-01,590.162756,observado
+Instituto Nacional del Teatro,2003-12-01,2007.628195,observado
+Instituto Nacional del Teatro,2004-01-01,204.399606,observado
+Instituto Nacional del Teatro,2004-02-01,791.384681,observado
+Instituto Nacional del Teatro,2004-03-01,1153.961063,observado
+Instituto Nacional del Teatro,2004-04-01,444.323652,observado
+Instituto Nacional del Teatro,2004-05-01,1379.874905,observado
+Instituto Nacional del Teatro,2004-06-01,1778.061538,observado
+Instituto Nacional del Teatro,2004-07-01,536.048764,observado
+Instituto Nacional del Teatro,2004-08-01,1006.746903,observado
+Instituto Nacional del Teatro,2004-09-01,792.317838,observado
+Instituto Nacional del Teatro,2004-10-01,1127.993439,observado
+Instituto Nacional del Teatro,2004-11-01,2262.341502,observado
+Instituto Nacional del Teatro,2004-12-01,4095.824658,observado
+Instituto Nacional del Teatro,2005-01-01,64.534127,observado
+Instituto Nacional del Teatro,2005-02-01,1614.165432,observado
+Instituto Nacional del Teatro,2005-03-01,1020.772303,observado
+Instituto Nacional del Teatro,2005-04-01,626.093452,observado
+Instituto Nacional del Teatro,2005-05-01,636.443063,observado
+Instituto Nacional del Teatro,2005-06-01,2994.095075,observado
+Instituto Nacional del Teatro,2005-07-01,713.96251,observado
+Instituto Nacional del Teatro,2005-08-01,1098.061758,observado
+Instituto Nacional del Teatro,2005-09-01,1520.702897,observado
+Instituto Nacional del Teatro,2005-10-01,1046.369626,observado
+Instituto Nacional del Teatro,2005-11-01,1056.183946,observado
+Instituto Nacional del Teatro,2005-12-01,3411.301031,observado
+Instituto Nacional del Teatro,2006-01-01,224.161825,observado
+Instituto Nacional del Teatro,2006-02-01,806.467995,observado
+Instituto Nacional del Teatro,2006-03-01,1309.108134,observado
+Instituto Nacional del Teatro,2006-04-01,775.185448,observado
+Instituto Nacional del Teatro,2006-05-01,754.104107,observado
+Instituto Nacional del Teatro,2006-06-01,1419.147084,observado
+Instituto Nacional del Teatro,2006-07-01,1053.587997,observado
+Instituto Nacional del Teatro,2006-08-01,1732.757379,observado
+Instituto Nacional del Teatro,2006-09-01,1529.380216,observado
+Instituto Nacional del Teatro,2006-10-01,2399.414405,observado
+Instituto Nacional del Teatro,2006-11-01,1286.257761,observado
+Instituto Nacional del Teatro,2006-12-01,3918.686639,observado
+Instituto Nacional del Teatro,2007-01-01,400.0697,observado
+Instituto Nacional del Teatro,2007-02-01,2262.149664,observado
+Instituto Nacional del Teatro,2007-03-01,1272.905308,observado
+Instituto Nacional del Teatro,2007-04-01,1549.645637,observado
+Instituto Nacional del Teatro,2007-05-01,1551.497311,observado
+Instituto Nacional del Teatro,2007-06-01,1723.969593,observado
+Instituto Nacional del Teatro,2007-07-01,1159.965221,observado
+Instituto Nacional del Teatro,2007-08-01,1239.873639,observado
+Instituto Nacional del Teatro,2007-09-01,1843.16058,observado
+Instituto Nacional del Teatro,2007-10-01,2005.970201,observado
+Instituto Nacional del Teatro,2007-11-01,1507.919169,observado
+Instituto Nacional del Teatro,2007-12-01,2939.602417,observado
+Instituto Nacional del Teatro,2008-01-01,498.82633,observado
+Instituto Nacional del Teatro,2008-02-01,1382.51815,observado
+Instituto Nacional del Teatro,2008-03-01,2289.397642,observado
+Instituto Nacional del Teatro,2008-04-01,1063.687251,observado
+Instituto Nacional del Teatro,2008-05-01,1162.456277,observado
+Instituto Nacional del Teatro,2008-06-01,1899.973312,observado
+Instituto Nacional del Teatro,2008-07-01,1249.695989,observado
+Instituto Nacional del Teatro,2008-08-01,1217.342095,observado
+Instituto Nacional del Teatro,2008-09-01,1828.413522,observado
+Instituto Nacional del Teatro,2008-10-01,1409.367118,observado
+Instituto Nacional del Teatro,2008-11-01,1242.41448,observado
+Instituto Nacional del Teatro,2008-12-01,8237.71902,observado
+Instituto Nacional del Teatro,2009-01-01,371.447591,observado
+Instituto Nacional del Teatro,2009-02-01,635.759713,observado
+Instituto Nacional del Teatro,2009-03-01,2195.390274,observado
+Instituto Nacional del Teatro,2009-04-01,1196.106054,observado
+Instituto Nacional del Teatro,2009-05-01,1213.623694,observado
+Instituto Nacional del Teatro,2009-06-01,2109.182779,observado
+Instituto Nacional del Teatro,2009-07-01,1721.744704,observado
+Instituto Nacional del Teatro,2009-08-01,1478.069072,observado
+Instituto Nacional del Teatro,2009-09-01,1725.596402,observado
+Instituto Nacional del Teatro,2009-10-01,2198.494155,observado
+Instituto Nacional del Teatro,2009-11-01,1873.331651,observado
+Instituto Nacional del Teatro,2009-12-01,8125.639844,observado
+Instituto Nacional del Teatro,2010-01-01,651.299641,observado
+Instituto Nacional del Teatro,2010-02-01,1579.503292,observado
+Instituto Nacional del Teatro,2010-03-01,2629.675527,observado
+Instituto Nacional del Teatro,2010-04-01,1645.609119,observado
+Instituto Nacional del Teatro,2010-05-01,1539.014409,observado
+Instituto Nacional del Teatro,2010-06-01,1973.309512,observado
+Instituto Nacional del Teatro,2010-07-01,1393.78723,observado
+Instituto Nacional del Teatro,2010-08-01,2201.358891,observado
+Instituto Nacional del Teatro,2010-09-01,1705.409075,observado
+Instituto Nacional del Teatro,2010-10-01,2462.447306,observado
+Instituto Nacional del Teatro,2010-11-01,2147.952378,observado
+Instituto Nacional del Teatro,2010-12-01,6863.667903,observado
+Instituto Nacional del Teatro,2011-01-01,551.984752,observado
+Instituto Nacional del Teatro,2011-02-01,1422.476298,observado
+Instituto Nacional del Teatro,2011-03-01,1477.480191,observado
+Instituto Nacional del Teatro,2011-04-01,1536.409332,observado
+Instituto Nacional del Teatro,2011-05-01,2301.523978,observado
+Instituto Nacional del Teatro,2011-06-01,2143.878952,observado
+Instituto Nacional del Teatro,2011-07-01,1750.673123,observado
+Instituto Nacional del Teatro,2011-08-01,1963.35732,observado
+Instituto Nacional del Teatro,2011-09-01,2841.128342,observado
+Instituto Nacional del Teatro,2011-10-01,1089.867146,observado
+Instituto Nacional del Teatro,2011-11-01,1606.795607,observado
+Instituto Nacional del Teatro,2011-12-01,4989.988741,observado
+Instituto Nacional del Teatro,2012-01-01,619.686189,observado
+Instituto Nacional del Teatro,2012-02-01,1162.6594,observado
+Instituto Nacional del Teatro,2012-03-01,1734.150529,observado
+Instituto Nacional del Teatro,2012-04-01,1192.48652,observado
+Instituto Nacional del Teatro,2012-05-01,1413.602588,observado
+Instituto Nacional del Teatro,2012-06-01,1963.560371,observado
+Instituto Nacional del Teatro,2012-07-01,1344.781235,observado
+Instituto Nacional del Teatro,2012-08-01,3109.243068,observado
+Instituto Nacional del Teatro,2012-09-01,1560.213017,observado
+Instituto Nacional del Teatro,2012-10-01,1802.230026,observado
+Instituto Nacional del Teatro,2012-11-01,1835.807481,observado
+Instituto Nacional del Teatro,2012-12-01,8168.683952,observado
+Instituto Nacional del Teatro,2013-01-01,188.637578,observado
+Instituto Nacional del Teatro,2013-02-01,1736.088984,observado
+Instituto Nacional del Teatro,2013-03-01,1786.58191,observado
+Instituto Nacional del Teatro,2013-04-01,1776.378549,observado
+Instituto Nacional del Teatro,2013-05-01,1344.653806,observado
+Instituto Nacional del Teatro,2013-06-01,2120.20736,observado
+Instituto Nacional del Teatro,2013-07-01,1358.375934,observado
+Instituto Nacional del Teatro,2013-08-01,2541.267796,observado
+Instituto Nacional del Teatro,2013-09-01,2363.537615,observado
+Instituto Nacional del Teatro,2013-10-01,1827.510738,observado
+Instituto Nacional del Teatro,2013-11-01,2929.309366,observado
+Instituto Nacional del Teatro,2013-12-01,7295.510709,observado
+Instituto Nacional del Teatro,2014-01-01,1006.242867,observado
+Instituto Nacional del Teatro,2014-02-01,2244.879208,observado
+Instituto Nacional del Teatro,2014-03-01,1507.430048,observado
+Instituto Nacional del Teatro,2014-04-01,1453.701699,observado
+Instituto Nacional del Teatro,2014-05-01,1590.845962,observado
+Instituto Nacional del Teatro,2014-06-01,1962.550713,observado
+Instituto Nacional del Teatro,2014-07-01,2332.185189,observado
+Instituto Nacional del Teatro,2014-08-01,1581.396418,observado
+Instituto Nacional del Teatro,2014-09-01,1932.029835,observado
+Instituto Nacional del Teatro,2014-10-01,1849.742266,observado
+Instituto Nacional del Teatro,2014-11-01,2500.123324,observado
+Instituto Nacional del Teatro,2014-12-01,9881.297235,observado
+Instituto Nacional del Teatro,2015-01-01,757.299247,observado
+Instituto Nacional del Teatro,2015-02-01,1523.467409,observado
+Instituto Nacional del Teatro,2015-03-01,1580.833634,observado
+Instituto Nacional del Teatro,2015-04-01,1765.958706,observado
+Instituto Nacional del Teatro,2015-05-01,1347.919831,observado
+Instituto Nacional del Teatro,2015-06-01,2431.160045,observado
+Instituto Nacional del Teatro,2015-07-01,1738.959049,observado
+Instituto Nacional del Teatro,2015-08-01,2004.534497,observado
+Instituto Nacional del Teatro,2015-09-01,2438.83216,observado
+Instituto Nacional del Teatro,2015-10-01,1930.607645,observado
+Instituto Nacional del Teatro,2015-11-01,1820.966581,observado
+Instituto Nacional del Teatro,2015-12-01,7126.509272,observado
+Instituto Nacional del Teatro,2016-01-01,677.618212,observado
+Instituto Nacional del Teatro,2016-02-01,1016.359452,observado
+Instituto Nacional del Teatro,2016-03-01,1505.871088,observado
+Instituto Nacional del Teatro,2016-04-01,806.665224,observado
+Instituto Nacional del Teatro,2016-05-01,1302.926982,observado
+Instituto Nacional del Teatro,2016-06-01,2215.172074,observado
+Instituto Nacional del Teatro,2016-07-01,2018.448778,observado
+Instituto Nacional del Teatro,2016-08-01,2626.665473,observado
+Instituto Nacional del Teatro,2016-09-01,2297.344809,observado
+Instituto Nacional del Teatro,2016-10-01,1315.555591,observado
+Instituto Nacional del Teatro,2016-11-01,2323.568602,observado
+Instituto Nacional del Teatro,2016-12-01,12079.303537,observado
+Instituto Nacional del Teatro,2017-01-01,352.572485,observado
+Instituto Nacional del Teatro,2017-02-01,1152.25936,observado
+Instituto Nacional del Teatro,2017-03-01,2079.328696,observado
+Instituto Nacional del Teatro,2017-04-01,1536.549863,observado
+Instituto Nacional del Teatro,2017-05-01,1395.188367,observado
+Instituto Nacional del Teatro,2017-06-01,2521.860955,observado
+Instituto Nacional del Teatro,2017-07-01,1457.130267,observado
+Instituto Nacional del Teatro,2017-08-01,1911.718175,observado
+Instituto Nacional del Teatro,2017-09-01,1637.634428,observado
+Instituto Nacional del Teatro,2017-10-01,1387.326047,observado
+Instituto Nacional del Teatro,2017-11-01,4206.405814,observado
+Instituto Nacional del Teatro,2017-12-01,12710.432988,observado
+Instituto Nacional del Teatro,2018-01-01,557.675937,observado
+Instituto Nacional del Teatro,2018-02-01,1868.807769,observado
+Instituto Nacional del Teatro,2018-03-01,2625.066121,observado
+Instituto Nacional del Teatro,2018-04-01,1609.889911,observado
+Instituto Nacional del Teatro,2018-05-01,1997.404093,observado
+Instituto Nacional del Teatro,2018-06-01,2161.589428,observado
+Instituto Nacional del Teatro,2018-07-01,1918.401009,observado
+Instituto Nacional del Teatro,2018-08-01,2684.687264,observado
+Instituto Nacional del Teatro,2018-09-01,2233.109182,observado
+Instituto Nacional del Teatro,2018-10-01,1615.667294,observado
+Instituto Nacional del Teatro,2018-11-01,1757.738303,observado
+Instituto Nacional del Teatro,2018-12-01,5401.742533,observado
+Instituto Nacional del Teatro,2019-01-01,695.872372,observado
+Instituto Nacional del Teatro,2019-02-01,394.427514,observado
+Instituto Nacional del Teatro,2019-03-01,1604.514113,observado
+Instituto Nacional del Teatro,2019-04-01,1180.682127,observado
+Instituto Nacional del Teatro,2019-05-01,1250.844544,observado
+Instituto Nacional del Teatro,2019-06-01,1798.761362,observado
+Instituto Nacional del Teatro,2019-07-01,1380.147138,observado
+Instituto Nacional del Teatro,2019-08-01,1514.851509,observado
+Instituto Nacional del Teatro,2019-09-01,2238.127295,observado
+Instituto Nacional del Teatro,2019-10-01,1739.916623,observado
+Instituto Nacional del Teatro,2019-11-01,1216.42972,observado
+Instituto Nacional del Teatro,2019-12-01,9754.334193,observado
+Instituto Nacional del Teatro,2020-01-01,562.997913,observado
+Instituto Nacional del Teatro,2020-02-01,0.0,observado
+Instituto Nacional del Teatro,2020-03-01,3430.842211,observado
+Instituto Nacional del Teatro,2020-04-01,1037.353794,observado
+Instituto Nacional del Teatro,2020-05-01,1351.231687,observado
+Instituto Nacional del Teatro,2020-06-01,3909.101037,observado
+Instituto Nacional del Teatro,2020-07-01,1909.718383,observado
+Instituto Nacional del Teatro,2020-08-01,1694.40131,observado
+Instituto Nacional del Teatro,2020-09-01,1432.274238,observado
+Instituto Nacional del Teatro,2020-10-01,2085.903392,observado
+Instituto Nacional del Teatro,2020-11-01,2833.471036,observado
+Instituto Nacional del Teatro,2020-12-01,6216.965237,observado
+Instituto Nacional del Teatro,2021-01-01,448.477705,observado
+Instituto Nacional del Teatro,2021-02-01,798.200595,observado
+Instituto Nacional del Teatro,2021-03-01,3040.710742,observado
+Instituto Nacional del Teatro,2021-04-01,1432.19761,observado
+Instituto Nacional del Teatro,2021-05-01,2909.364609,observado
+Instituto Nacional del Teatro,2021-06-01,2894.056648,observado
+Instituto Nacional del Teatro,2021-07-01,1130.711237,observado
+Instituto Nacional del Teatro,2021-08-01,1987.082804,observado
+Instituto Nacional del Teatro,2021-09-01,3234.546077,observado
+Instituto Nacional del Teatro,2021-10-01,964.110287,observado
+Instituto Nacional del Teatro,2021-11-01,2738.19051,observado
+Instituto Nacional del Teatro,2021-12-01,7794.111067,observado
+Instituto Nacional del Teatro,2022-01-01,803.745101,observado
+Instituto Nacional del Teatro,2022-02-01,1116.79404,observado
+Instituto Nacional del Teatro,2022-03-01,2006.774825,observado
+Instituto Nacional del Teatro,2022-04-01,1235.225154,observado
+Instituto Nacional del Teatro,2022-05-01,1270.793659,observado
+Instituto Nacional del Teatro,2022-06-01,1397.347778,observado
+Instituto Nacional del Teatro,2022-07-01,1075.216282,observado
+Instituto Nacional del Teatro,2022-08-01,2024.947656,observado
+Instituto Nacional del Teatro,2022-09-01,2519.479685,observado
+Instituto Nacional del Teatro,2022-10-01,1097.332022,observado
+Instituto Nacional del Teatro,2022-11-01,2029.792826,observado
+Instituto Nacional del Teatro,2022-12-01,6084.833023,observado
+Instituto Nacional del Teatro,2023-01-01,838.420131,observado
+Instituto Nacional del Teatro,2023-02-01,1111.623475,observado
+Instituto Nacional del Teatro,2023-03-01,1794.680247,observado
+Instituto Nacional del Teatro,2023-04-01,1158.373672,observado
+Instituto Nacional del Teatro,2023-05-01,1760.483487,observado
+Instituto Nacional del Teatro,2023-06-01,2582.950231,observado
+Instituto Nacional del Teatro,2023-07-01,1064.716003,observado
+Instituto Nacional del Teatro,2023-08-01,1299.460251,observado
+Instituto Nacional del Teatro,2023-09-01,1589.129936,observado
+Instituto Nacional del Teatro,2023-10-01,1494.612162,observado
+Instituto Nacional del Teatro,2023-11-01,1633.071994,observado
+Instituto Nacional del Teatro,2023-12-01,1409.623485,observado
+Instituto Nacional del Teatro,2024-01-01,496.313532,observado
+Instituto Nacional del Teatro,2024-02-01,709.023417,observado
+Instituto Nacional del Teatro,2024-03-01,825.8738,observado
+Instituto Nacional del Teatro,2024-04-01,533.654326,observado
+Instituto Nacional del Teatro,2024-05-01,731.5641,observado
+Instituto Nacional del Teatro,2024-06-01,1174.821903,observado
+Instituto Nacional del Teatro,2024-07-01,709.790733,observado
+Instituto Nacional del Teatro,2024-08-01,679.080419,observado
+Instituto Nacional del Teatro,2024-09-01,639.408131,observado
+Instituto Nacional del Teatro,2024-10-01,527.334332,observado
+Instituto Nacional del Teatro,2024-11-01,812.121314,observado
+Instituto Nacional del Teatro,2024-12-01,3546.300078,observado
+Instituto Nacional del Teatro,2025-01-01,486.826728,observado
+Instituto Nacional del Teatro,2025-02-01,566.671273,observado
+Instituto Nacional del Teatro,2025-03-01,793.441981,observado
+Instituto Nacional del Teatro,2025-04-01,614.261847,observado
+Instituto Nacional del Teatro,2025-05-01,490.888436,observado
+Instituto Nacional del Teatro,2025-06-01,880.867703,observado
+Instituto Nacional del Teatro,2025-07-01,424.172125,observado
+Instituto Nacional del Teatro,2025-08-01,316.201707,observado
+Instituto Nacional del Teatro,2025-09-01,362.127024,observado
+Instituto Nacional del Teatro,2025-10-01,352.194301,observado
+Instituto Nacional del Teatro,2025-11-01,495.422351,observado
+Instituto Nacional del Teatro,2025-12-01,1125.557865,observado
+Instituto Nacional del Teatro,2026-01-01,283.251539,observado
+Instituto Nacional del Teatro,2026-02-01,508.401554,observado
+Instituto Nacional del Teatro,2026-03-01,834.818357,observado
+Instituto Nacional del Teatro,2026-04-01,468.519042,observado
+Instituto Nacional del Teatro,2026-05-01,514.255535,observado
+Instituto Nacional del Teatro,2026-06-01,884.686052,observado
+Instituto Nacional del Teatro,2026-07-01,433.157861,observado
+Instituto Nacional del Teatro,2026-08-01,490.140357,observado
+Instituto Nacional del Teatro,2026-09-01,952.717493,observado
+Instituto Nacional del Teatro,2026-10-01,418.916665,observado
+Teatro Nacional Cervantes,2001-01-01,143.382276,observado
+Teatro Nacional Cervantes,2001-02-01,639.915669,observado
+Teatro Nacional Cervantes,2001-03-01,637.209642,observado
+Teatro Nacional Cervantes,2001-04-01,629.121264,observado
+Teatro Nacional Cervantes,2001-05-01,748.32178,observado
+Teatro Nacional Cervantes,2001-06-01,846.129992,observado
+Teatro Nacional Cervantes,2001-07-01,627.575025,observado
+Teatro Nacional Cervantes,2001-08-01,660.181624,observado
+Teatro Nacional Cervantes,2001-09-01,583.193933,observado
+Teatro Nacional Cervantes,2001-10-01,447.450079,observado
+Teatro Nacional Cervantes,2001-11-01,480.316343,observado
+Teatro Nacional Cervantes,2001-12-01,627.08786,observado
+Teatro Nacional Cervantes,2002-01-01,195.761964,observado
+Teatro Nacional Cervantes,2002-02-01,204.284324,observado
+Teatro Nacional Cervantes,2002-03-01,715.106031,observado
+Teatro Nacional Cervantes,2002-04-01,308.348383,observado
+Teatro Nacional Cervantes,2002-05-01,370.069184,observado
+Teatro Nacional Cervantes,2002-06-01,642.320544,observado
+Teatro Nacional Cervantes,2002-07-01,359.372221,observado
+Teatro Nacional Cervantes,2002-08-01,397.237508,observado
+Teatro Nacional Cervantes,2002-09-01,518.705563,observado
+Teatro Nacional Cervantes,2002-10-01,353.466386,observado
+Teatro Nacional Cervantes,2002-11-01,364.912373,observado
+Teatro Nacional Cervantes,2002-12-01,695.325875,observado
+Teatro Nacional Cervantes,2003-01-01,201.69966,observado
+Teatro Nacional Cervantes,2003-02-01,361.666575,observado
+Teatro Nacional Cervantes,2003-03-01,584.994124,observado
+Teatro Nacional Cervantes,2003-04-01,263.486587,observado
+Teatro Nacional Cervantes,2003-05-01,410.516357,observado
+Teatro Nacional Cervantes,2003-06-01,592.880867,observado
+Teatro Nacional Cervantes,2003-07-01,234.450509,observado
+Teatro Nacional Cervantes,2003-08-01,328.724632,observado
+Teatro Nacional Cervantes,2003-09-01,650.696727,observado
+Teatro Nacional Cervantes,2003-10-01,344.284245,observado
+Teatro Nacional Cervantes,2003-11-01,394.573288,observado
+Teatro Nacional Cervantes,2003-12-01,707.620731,observado
+Teatro Nacional Cervantes,2004-01-01,194.384459,observado
+Teatro Nacional Cervantes,2004-02-01,479.630279,observado
+Teatro Nacional Cervantes,2004-03-01,529.391002,observado
+Teatro Nacional Cervantes,2004-04-01,497.136604,observado
+Teatro Nacional Cervantes,2004-05-01,436.990743,observado
+Teatro Nacional Cervantes,2004-06-01,544.898062,observado
+Teatro Nacional Cervantes,2004-07-01,476.183984,observado
+Teatro Nacional Cervantes,2004-08-01,492.334337,observado
+Teatro Nacional Cervantes,2004-09-01,364.605246,observado
+Teatro Nacional Cervantes,2004-10-01,655.013418,observado
+Teatro Nacional Cervantes,2004-11-01,305.24493,observado
+Teatro Nacional Cervantes,2004-12-01,1093.015265,observado
+Teatro Nacional Cervantes,2005-01-01,296.232227,observado
+Teatro Nacional Cervantes,2005-02-01,551.031887,observado
+Teatro Nacional Cervantes,2005-03-01,676.63577,observado
+Teatro Nacional Cervantes,2005-04-01,491.793847,observado
+Teatro Nacional Cervantes,2005-05-01,530.113228,observado
+Teatro Nacional Cervantes,2005-06-01,903.97489,observado
+Teatro Nacional Cervantes,2005-07-01,238.328342,observado
+Teatro Nacional Cervantes,2005-08-01,890.967363,observado
+Teatro Nacional Cervantes,2005-09-01,639.907501,observado
+Teatro Nacional Cervantes,2005-10-01,328.645116,observado
+Teatro Nacional Cervantes,2005-11-01,532.120335,observado
+Teatro Nacional Cervantes,2005-12-01,1407.340925,observado
+Teatro Nacional Cervantes,2006-01-01,533.691053,observado
+Teatro Nacional Cervantes,2006-02-01,502.735028,observado
+Teatro Nacional Cervantes,2006-03-01,764.222794,observado
+Teatro Nacional Cervantes,2006-04-01,450.759322,observado
+Teatro Nacional Cervantes,2006-05-01,648.515649,observado
+Teatro Nacional Cervantes,2006-06-01,896.645476,observado
+Teatro Nacional Cervantes,2006-07-01,517.616232,observado
+Teatro Nacional Cervantes,2006-08-01,634.525061,observado
+Teatro Nacional Cervantes,2006-09-01,706.625335,observado
+Teatro Nacional Cervantes,2006-10-01,385.06575,observado
+Teatro Nacional Cervantes,2006-11-01,553.955107,observado
+Teatro Nacional Cervantes,2006-12-01,1510.215151,observado
+Teatro Nacional Cervantes,2007-01-01,436.175081,observado
+Teatro Nacional Cervantes,2007-02-01,510.883494,observado
+Teatro Nacional Cervantes,2007-03-01,791.128276,observado
+Teatro Nacional Cervantes,2007-04-01,544.03159,observado
+Teatro Nacional Cervantes,2007-05-01,499.036867,observado
+Teatro Nacional Cervantes,2007-06-01,1119.335148,observado
+Teatro Nacional Cervantes,2007-07-01,398.428848,observado
+Teatro Nacional Cervantes,2007-08-01,722.139521,observado
+Teatro Nacional Cervantes,2007-09-01,714.536699,observado
+Teatro Nacional Cervantes,2007-10-01,591.300264,observado
+Teatro Nacional Cervantes,2007-11-01,782.266434,observado
+Teatro Nacional Cervantes,2007-12-01,3917.749269,observado
+Teatro Nacional Cervantes,2008-01-01,20.0622,observado
+Teatro Nacional Cervantes,2008-02-01,1347.548344,observado
+Teatro Nacional Cervantes,2008-03-01,975.024564,observado
+Teatro Nacional Cervantes,2008-04-01,1099.829523,observado
+Teatro Nacional Cervantes,2008-05-01,1249.107652,observado
+Teatro Nacional Cervantes,2008-06-01,1576.002577,observado
+Teatro Nacional Cervantes,2008-07-01,958.133365,observado
+Teatro Nacional Cervantes,2008-08-01,1833.806854,observado
+Teatro Nacional Cervantes,2008-09-01,1641.65645,observado
+Teatro Nacional Cervantes,2008-10-01,1456.894682,observado
+Teatro Nacional Cervantes,2008-11-01,1598.485309,observado
+Teatro Nacional Cervantes,2008-12-01,3412.230787,observado
+Teatro Nacional Cervantes,2009-01-01,1020.652483,observado
+Teatro Nacional Cervantes,2009-02-01,1144.418155,observado
+Teatro Nacional Cervantes,2009-03-01,1644.06897,observado
+Teatro Nacional Cervantes,2009-04-01,1102.579082,observado
+Teatro Nacional Cervantes,2009-05-01,1394.044665,observado
+Teatro Nacional Cervantes,2009-06-01,2479.25204,observado
+Teatro Nacional Cervantes,2009-07-01,1083.799419,observado
+Teatro Nacional Cervantes,2009-08-01,1447.721373,observado
+Teatro Nacional Cervantes,2009-09-01,1674.6575,observado
+Teatro Nacional Cervantes,2009-10-01,1349.003531,observado
+Teatro Nacional Cervantes,2009-11-01,1282.368211,observado
+Teatro Nacional Cervantes,2009-12-01,3907.101812,observado
+Teatro Nacional Cervantes,2010-01-01,887.151925,observado
+Teatro Nacional Cervantes,2010-02-01,878.325118,observado
+Teatro Nacional Cervantes,2010-03-01,1410.508411,observado
+Teatro Nacional Cervantes,2010-04-01,1059.815907,observado
+Teatro Nacional Cervantes,2010-05-01,1270.473119,observado
+Teatro Nacional Cervantes,2010-06-01,1993.924036,observado
+Teatro Nacional Cervantes,2010-07-01,790.587806,observado
+Teatro Nacional Cervantes,2010-08-01,1157.903808,observado
+Teatro Nacional Cervantes,2010-09-01,2495.237899,observado
+Teatro Nacional Cervantes,2010-10-01,433.550261,observado
+Teatro Nacional Cervantes,2010-11-01,1473.176954,observado
+Teatro Nacional Cervantes,2010-12-01,4028.556795,observado
+Teatro Nacional Cervantes,2011-01-01,26.420996,observado
+Teatro Nacional Cervantes,2011-02-01,1813.856675,observado
+Teatro Nacional Cervantes,2011-03-01,2075.239084,observado
+Teatro Nacional Cervantes,2011-04-01,142.326255,observado
+Teatro Nacional Cervantes,2011-05-01,2432.595089,observado
+Teatro Nacional Cervantes,2011-06-01,2607.24335,observado
+Teatro Nacional Cervantes,2011-07-01,163.099049,observado
+Teatro Nacional Cervantes,2011-08-01,1789.044092,observado
+Teatro Nacional Cervantes,2011-09-01,2736.857705,observado
+Teatro Nacional Cervantes,2011-10-01,1539.467036,observado
+Teatro Nacional Cervantes,2011-11-01,2125.434041,observado
+Teatro Nacional Cervantes,2011-12-01,4548.984573,observado
+Teatro Nacional Cervantes,2012-01-01,1181.870709,observado
+Teatro Nacional Cervantes,2012-02-01,1048.394041,observado
+Teatro Nacional Cervantes,2012-03-01,2184.412718,observado
+Teatro Nacional Cervantes,2012-04-01,1040.680602,observado
+Teatro Nacional Cervantes,2012-05-01,1129.599854,observado
+Teatro Nacional Cervantes,2012-06-01,3728.211417,observado
+Teatro Nacional Cervantes,2012-07-01,1358.799654,observado
+Teatro Nacional Cervantes,2012-08-01,1742.625174,observado
+Teatro Nacional Cervantes,2012-09-01,2595.797237,observado
+Teatro Nacional Cervantes,2012-10-01,1776.808132,observado
+Teatro Nacional Cervantes,2012-11-01,1495.738542,observado
+Teatro Nacional Cervantes,2012-12-01,3101.283317,observado
+Teatro Nacional Cervantes,2013-01-01,36.271034,observado
+Teatro Nacional Cervantes,2013-02-01,2361.860554,observado
+Teatro Nacional Cervantes,2013-03-01,1553.686015,observado
+Teatro Nacional Cervantes,2013-04-01,1507.636063,observado
+Teatro Nacional Cervantes,2013-05-01,743.279732,observado
+Teatro Nacional Cervantes,2013-06-01,3307.213113,observado
+Teatro Nacional Cervantes,2013-07-01,1907.439765,observado
+Teatro Nacional Cervantes,2013-08-01,2096.586247,observado
+Teatro Nacional Cervantes,2013-09-01,2485.367815,observado
+Teatro Nacional Cervantes,2013-10-01,1997.28532,observado
+Teatro Nacional Cervantes,2013-11-01,453.630398,observado
+Teatro Nacional Cervantes,2013-12-01,5387.942436,observado
+Teatro Nacional Cervantes,2014-01-01,1226.746444,observado
+Teatro Nacional Cervantes,2014-02-01,1681.039179,observado
+Teatro Nacional Cervantes,2014-03-01,1520.918765,observado
+Teatro Nacional Cervantes,2014-04-01,1087.767391,observado
+Teatro Nacional Cervantes,2014-05-01,2420.611324,observado
+Teatro Nacional Cervantes,2014-06-01,4245.485643,observado
+Teatro Nacional Cervantes,2014-07-01,2333.276944,observado
+Teatro Nacional Cervantes,2014-08-01,1957.806665,observado
+Teatro Nacional Cervantes,2014-09-01,2886.578205,observado
+Teatro Nacional Cervantes,2014-10-01,2042.203037,observado
+Teatro Nacional Cervantes,2014-11-01,880.902092,observado
+Teatro Nacional Cervantes,2014-12-01,4385.647785,observado
+Teatro Nacional Cervantes,2015-01-01,169.923535,observado
+Teatro Nacional Cervantes,2015-02-01,2413.698667,observado
+Teatro Nacional Cervantes,2015-03-01,2622.27472,observado
+Teatro Nacional Cervantes,2015-04-01,1473.272632,observado
+Teatro Nacional Cervantes,2015-05-01,1574.236687,observado
+Teatro Nacional Cervantes,2015-06-01,2687.015553,observado
+Teatro Nacional Cervantes,2015-07-01,2457.529206,observado
+Teatro Nacional Cervantes,2015-08-01,2597.569407,observado
+Teatro Nacional Cervantes,2015-09-01,3100.623034,observado
+Teatro Nacional Cervantes,2015-10-01,1967.94609,observado
+Teatro Nacional Cervantes,2015-11-01,2447.855521,observado
+Teatro Nacional Cervantes,2015-12-01,3651.526122,observado
+Teatro Nacional Cervantes,2016-01-01,1289.842863,observado
+Teatro Nacional Cervantes,2016-02-01,1503.682752,observado
+Teatro Nacional Cervantes,2016-03-01,2314.371336,observado
+Teatro Nacional Cervantes,2016-04-01,1398.373389,observado
+Teatro Nacional Cervantes,2016-05-01,1592.845152,observado
+Teatro Nacional Cervantes,2016-06-01,2494.965941,observado
+Teatro Nacional Cervantes,2016-07-01,1883.402098,observado
+Teatro Nacional Cervantes,2016-08-01,2089.735562,observado
+Teatro Nacional Cervantes,2016-09-01,2499.22673,observado
+Teatro Nacional Cervantes,2016-10-01,1643.715234,observado
+Teatro Nacional Cervantes,2016-11-01,2168.401392,observado
+Teatro Nacional Cervantes,2016-12-01,4291.483046,observado
+Teatro Nacional Cervantes,2017-01-01,1549.606219,observado
+Teatro Nacional Cervantes,2017-02-01,1504.832852,observado
+Teatro Nacional Cervantes,2017-03-01,1774.838535,observado
+Teatro Nacional Cervantes,2017-04-01,1436.168031,observado
+Teatro Nacional Cervantes,2017-05-01,1981.49657,observado
+Teatro Nacional Cervantes,2017-06-01,2955.327656,observado
+Teatro Nacional Cervantes,2017-07-01,1476.076777,observado
+Teatro Nacional Cervantes,2017-08-01,1943.768514,observado
+Teatro Nacional Cervantes,2017-09-01,2404.144162,observado
+Teatro Nacional Cervantes,2017-10-01,2040.240591,observado
+Teatro Nacional Cervantes,2017-11-01,1674.399464,observado
+Teatro Nacional Cervantes,2017-12-01,4389.556886,observado
+Teatro Nacional Cervantes,2018-01-01,1448.02788,observado
+Teatro Nacional Cervantes,2018-02-01,1402.728316,observado
+Teatro Nacional Cervantes,2018-03-01,1995.148339,observado
+Teatro Nacional Cervantes,2018-04-01,1451.77567,observado
+Teatro Nacional Cervantes,2018-05-01,1619.154739,observado
+Teatro Nacional Cervantes,2018-06-01,2677.402472,observado
+Teatro Nacional Cervantes,2018-07-01,1463.135761,observado
+Teatro Nacional Cervantes,2018-08-01,1909.402932,observado
+Teatro Nacional Cervantes,2018-09-01,1863.968043,observado
+Teatro Nacional Cervantes,2018-10-01,1807.596877,observado
+Teatro Nacional Cervantes,2018-11-01,1255.298767,observado
+Teatro Nacional Cervantes,2018-12-01,3909.173954,observado
+Teatro Nacional Cervantes,2019-01-01,1203.177917,observado
+Teatro Nacional Cervantes,2019-02-01,1409.722193,observado
+Teatro Nacional Cervantes,2019-03-01,1697.756266,observado
+Teatro Nacional Cervantes,2019-04-01,1530.409431,observado
+Teatro Nacional Cervantes,2019-05-01,1445.475653,observado
+Teatro Nacional Cervantes,2019-06-01,2118.982444,observado
+Teatro Nacional Cervantes,2019-07-01,1362.322189,observado
+Teatro Nacional Cervantes,2019-08-01,1587.973873,observado
+Teatro Nacional Cervantes,2019-09-01,1764.710034,observado
+Teatro Nacional Cervantes,2019-10-01,1338.320137,observado
+Teatro Nacional Cervantes,2019-11-01,1187.999043,observado
+Teatro Nacional Cervantes,2019-12-01,2013.553756,observado
+Teatro Nacional Cervantes,2020-01-01,908.554182,observado
+Teatro Nacional Cervantes,2020-02-01,1166.722477,observado
+Teatro Nacional Cervantes,2020-03-01,1283.736669,observado
+Teatro Nacional Cervantes,2020-04-01,1369.073733,observado
+Teatro Nacional Cervantes,2020-05-01,1124.795734,observado
+Teatro Nacional Cervantes,2020-06-01,1683.321172,observado
+Teatro Nacional Cervantes,2020-07-01,1055.393694,observado
+Teatro Nacional Cervantes,2020-08-01,1053.206736,observado
+Teatro Nacional Cervantes,2020-09-01,1595.534098,observado
+Teatro Nacional Cervantes,2020-10-01,1299.079878,observado
+Teatro Nacional Cervantes,2020-11-01,1197.936677,observado
+Teatro Nacional Cervantes,2020-12-01,3334.532441,observado
+Teatro Nacional Cervantes,2021-01-01,867.729504,observado
+Teatro Nacional Cervantes,2021-02-01,1049.493777,observado
+Teatro Nacional Cervantes,2021-03-01,1527.64829,observado
+Teatro Nacional Cervantes,2021-04-01,1011.137093,observado
+Teatro Nacional Cervantes,2021-05-01,1101.512956,observado
+Teatro Nacional Cervantes,2021-06-01,1980.867912,observado
+Teatro Nacional Cervantes,2021-07-01,1120.279217,observado
+Teatro Nacional Cervantes,2021-08-01,1636.793981,observado
+Teatro Nacional Cervantes,2021-09-01,1879.633458,observado
+Teatro Nacional Cervantes,2021-10-01,1111.357435,observado
+Teatro Nacional Cervantes,2021-11-01,1435.15117,observado
+Teatro Nacional Cervantes,2021-12-01,3141.52247,observado
+Teatro Nacional Cervantes,2022-01-01,1027.763421,observado
+Teatro Nacional Cervantes,2022-02-01,1109.709057,observado
+Teatro Nacional Cervantes,2022-03-01,1559.180275,observado
+Teatro Nacional Cervantes,2022-04-01,841.889122,observado
+Teatro Nacional Cervantes,2022-05-01,1314.659732,observado
+Teatro Nacional Cervantes,2022-06-01,2379.024825,observado
+Teatro Nacional Cervantes,2022-07-01,1020.783186,observado
+Teatro Nacional Cervantes,2022-08-01,1643.538587,observado
+Teatro Nacional Cervantes,2022-09-01,2039.659412,observado
+Teatro Nacional Cervantes,2022-10-01,969.598504,observado
+Teatro Nacional Cervantes,2022-11-01,1553.804873,observado
+Teatro Nacional Cervantes,2022-12-01,3860.737471,observado
+Teatro Nacional Cervantes,2023-01-01,1182.685934,observado
+Teatro Nacional Cervantes,2023-02-01,1264.691257,observado
+Teatro Nacional Cervantes,2023-03-01,1612.446073,observado
+Teatro Nacional Cervantes,2023-04-01,1314.528983,observado
+Teatro Nacional Cervantes,2023-05-01,957.937518,observado
+Teatro Nacional Cervantes,2023-06-01,3045.236077,observado
+Teatro Nacional Cervantes,2023-07-01,1267.647953,observado
+Teatro Nacional Cervantes,2023-08-01,1458.788771,observado
+Teatro Nacional Cervantes,2023-09-01,2042.181039,observado
+Teatro Nacional Cervantes,2023-10-01,1417.418591,observado
+Teatro Nacional Cervantes,2023-11-01,1177.660431,observado
+Teatro Nacional Cervantes,2023-12-01,2530.932642,observado
+Teatro Nacional Cervantes,2024-01-01,811.586653,observado
+Teatro Nacional Cervantes,2024-02-01,1140.44369,observado
+Teatro Nacional Cervantes,2024-03-01,1608.592277,observado
+Teatro Nacional Cervantes,2024-04-01,1326.004944,observado
+Teatro Nacional Cervantes,2024-05-01,866.478303,observado
+Teatro Nacional Cervantes,2024-06-01,2045.415655,observado
+Teatro Nacional Cervantes,2024-07-01,1252.008171,observado
+Teatro Nacional Cervantes,2024-08-01,1440.371109,observado
+Teatro Nacional Cervantes,2024-09-01,1429.685734,observado
+Teatro Nacional Cervantes,2024-10-01,1107.289163,observado
+Teatro Nacional Cervantes,2024-11-01,1184.209788,observado
+Teatro Nacional Cervantes,2024-12-01,2158.296713,observado
+Teatro Nacional Cervantes,2025-01-01,1035.19483,observado
+Teatro Nacional Cervantes,2025-02-01,1133.408636,observado
+Teatro Nacional Cervantes,2025-03-01,1405.31617,observado
+Teatro Nacional Cervantes,2025-04-01,1156.278327,observado
+Teatro Nacional Cervantes,2025-05-01,1279.499158,observado
+Teatro Nacional Cervantes,2025-06-01,1758.865273,observado
+Teatro Nacional Cervantes,2025-07-01,1158.86454,observado
+Teatro Nacional Cervantes,2025-08-01,1177.005384,observado
+Teatro Nacional Cervantes,2025-09-01,1473.513988,observado
+Teatro Nacional Cervantes,2025-10-01,1273.724595,observado
+Teatro Nacional Cervantes,2025-11-01,795.487356,observado
+Teatro Nacional Cervantes,2025-12-01,2752.238836,observado
+Teatro Nacional Cervantes,2026-01-01,916.40433,observado
+Teatro Nacional Cervantes,2026-02-01,906.007241,observado
+Teatro Nacional Cervantes,2026-03-01,1589.00825,observado
+Teatro Nacional Cervantes,2026-04-01,1067.628254,observado
+Teatro Nacional Cervantes,2026-05-01,866.383405,observado
+Teatro Nacional Cervantes,2026-06-01,2312.593028,observado
+Teatro Nacional Cervantes,2026-07-01,986.846873,observado
+Teatro Nacional Cervantes,2026-08-01,862.450427,observado
+Teatro Nacional Cervantes,2026-09-01,1971.906312,observado
+Teatro Nacional Cervantes,2026-10-01,840.417292,observado

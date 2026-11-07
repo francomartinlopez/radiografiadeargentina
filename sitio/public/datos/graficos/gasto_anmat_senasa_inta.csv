@@ -1,0 +1,931 @@
+serie,fecha,valor,tramo
+INTA (tecnología agropecuaria),2001-01-01,16250.415056,observado
+INTA (tecnología agropecuaria),2001-02-01,18279.297819,observado
+INTA (tecnología agropecuaria),2001-03-01,21318.319447,observado
+INTA (tecnología agropecuaria),2001-04-01,17309.696978,observado
+INTA (tecnología agropecuaria),2001-05-01,17382.908383,observado
+INTA (tecnología agropecuaria),2001-06-01,25126.291626,observado
+INTA (tecnología agropecuaria),2001-07-01,16679.270808,observado
+INTA (tecnología agropecuaria),2001-08-01,16792.396886,observado
+INTA (tecnología agropecuaria),2001-09-01,19167.217531,observado
+INTA (tecnología agropecuaria),2001-10-01,15636.893066,observado
+INTA (tecnología agropecuaria),2001-11-01,17236.999175,observado
+INTA (tecnología agropecuaria),2001-12-01,26347.554908,observado
+INTA (tecnología agropecuaria),2002-01-01,14820.015194,observado
+INTA (tecnología agropecuaria),2002-02-01,16436.166318,observado
+INTA (tecnología agropecuaria),2002-03-01,17155.068036,observado
+INTA (tecnología agropecuaria),2002-04-01,13293.275024,observado
+INTA (tecnología agropecuaria),2002-05-01,15562.813042,observado
+INTA (tecnología agropecuaria),2002-06-01,20271.915976,observado
+INTA (tecnología agropecuaria),2002-07-01,12128.767838,observado
+INTA (tecnología agropecuaria),2002-08-01,13664.185966,observado
+INTA (tecnología agropecuaria),2002-09-01,14903.510528,observado
+INTA (tecnología agropecuaria),2002-10-01,11604.932409,observado
+INTA (tecnología agropecuaria),2002-11-01,15811.982215,observado
+INTA (tecnología agropecuaria),2002-12-01,23833.589457,observado
+INTA (tecnología agropecuaria),2003-01-01,12940.485571,observado
+INTA (tecnología agropecuaria),2003-02-01,14755.188636,observado
+INTA (tecnología agropecuaria),2003-03-01,23349.97437,observado
+INTA (tecnología agropecuaria),2003-04-01,16236.520297,observado
+INTA (tecnología agropecuaria),2003-05-01,19580.793127,observado
+INTA (tecnología agropecuaria),2003-06-01,45929.256824,observado
+INTA (tecnología agropecuaria),2003-07-01,14554.040389,observado
+INTA (tecnología agropecuaria),2003-08-01,18933.26262,observado
+INTA (tecnología agropecuaria),2003-09-01,32552.40283,observado
+INTA (tecnología agropecuaria),2003-10-01,15133.689854,observado
+INTA (tecnología agropecuaria),2003-11-01,23326.09561,observado
+INTA (tecnología agropecuaria),2003-12-01,31459.387174,observado
+INTA (tecnología agropecuaria),2004-01-01,13453.912184,observado
+INTA (tecnología agropecuaria),2004-02-01,21558.21481,observado
+INTA (tecnología agropecuaria),2004-03-01,28276.540132,observado
+INTA (tecnología agropecuaria),2004-04-01,19697.233398,observado
+INTA (tecnología agropecuaria),2004-05-01,20877.614577,observado
+INTA (tecnología agropecuaria),2004-06-01,28837.798411,observado
+INTA (tecnología agropecuaria),2004-07-01,18786.53039,observado
+INTA (tecnología agropecuaria),2004-08-01,19915.552574,observado
+INTA (tecnología agropecuaria),2004-09-01,35633.656447,observado
+INTA (tecnología agropecuaria),2004-10-01,22414.898497,observado
+INTA (tecnología agropecuaria),2004-11-01,32318.748132,observado
+INTA (tecnología agropecuaria),2004-12-01,51899.257591,observado
+INTA (tecnología agropecuaria),2005-01-01,17593.356883,observado
+INTA (tecnología agropecuaria),2005-02-01,21674.222992,observado
+INTA (tecnología agropecuaria),2005-03-01,27344.165705,observado
+INTA (tecnología agropecuaria),2005-04-01,22045.247241,observado
+INTA (tecnología agropecuaria),2005-05-01,25212.422647,observado
+INTA (tecnología agropecuaria),2005-06-01,37080.885574,observado
+INTA (tecnología agropecuaria),2005-07-01,24157.539528,observado
+INTA (tecnología agropecuaria),2005-08-01,26684.769289,observado
+INTA (tecnología agropecuaria),2005-09-01,39300.006942,observado
+INTA (tecnología agropecuaria),2005-10-01,27414.155852,observado
+INTA (tecnología agropecuaria),2005-11-01,35052.47318,observado
+INTA (tecnología agropecuaria),2005-12-01,105732.230184,observado
+INTA (tecnología agropecuaria),2006-01-01,1010.961105,observado
+INTA (tecnología agropecuaria),2006-02-01,51086.224985,observado
+INTA (tecnología agropecuaria),2006-03-01,34455.874229,observado
+INTA (tecnología agropecuaria),2006-04-01,31516.609718,observado
+INTA (tecnología agropecuaria),2006-05-01,31615.287258,observado
+INTA (tecnología agropecuaria),2006-06-01,50874.555387,observado
+INTA (tecnología agropecuaria),2006-07-01,31302.982665,observado
+INTA (tecnología agropecuaria),2006-08-01,37582.476204,observado
+INTA (tecnología agropecuaria),2006-09-01,46409.697756,observado
+INTA (tecnología agropecuaria),2006-10-01,44555.994568,observado
+INTA (tecnología agropecuaria),2006-11-01,56258.468497,observado
+INTA (tecnología agropecuaria),2006-12-01,147816.670424,observado
+INTA (tecnología agropecuaria),2007-01-01,32874.127994,observado
+INTA (tecnología agropecuaria),2007-02-01,38174.655103,observado
+INTA (tecnología agropecuaria),2007-03-01,46249.305835,observado
+INTA (tecnología agropecuaria),2007-04-01,40000.306526,observado
+INTA (tecnología agropecuaria),2007-05-01,40975.154201,observado
+INTA (tecnología agropecuaria),2007-06-01,60544.541211,observado
+INTA (tecnología agropecuaria),2007-07-01,38529.834815,observado
+INTA (tecnología agropecuaria),2007-08-01,43108.843793,observado
+INTA (tecnología agropecuaria),2007-09-01,50182.920708,observado
+INTA (tecnología agropecuaria),2007-10-01,51481.407925,observado
+INTA (tecnología agropecuaria),2007-11-01,60431.59191,observado
+INTA (tecnología agropecuaria),2007-12-01,97794.389646,observado
+INTA (tecnología agropecuaria),2008-01-01,37340.347133,observado
+INTA (tecnología agropecuaria),2008-02-01,43635.248846,observado
+INTA (tecnología agropecuaria),2008-03-01,47111.173725,observado
+INTA (tecnología agropecuaria),2008-04-01,43427.048669,observado
+INTA (tecnología agropecuaria),2008-05-01,51425.875403,observado
+INTA (tecnología agropecuaria),2008-06-01,67603.144643,observado
+INTA (tecnología agropecuaria),2008-07-01,47454.284908,observado
+INTA (tecnología agropecuaria),2008-08-01,49076.228403,observado
+INTA (tecnología agropecuaria),2008-09-01,58682.416667,observado
+INTA (tecnología agropecuaria),2008-10-01,53299.559568,observado
+INTA (tecnología agropecuaria),2008-11-01,58613.269947,observado
+INTA (tecnología agropecuaria),2008-12-01,126523.878011,observado
+INTA (tecnología agropecuaria),2009-01-01,42785.664189,observado
+INTA (tecnología agropecuaria),2009-02-01,47372.138306,observado
+INTA (tecnología agropecuaria),2009-03-01,53966.265218,observado
+INTA (tecnología agropecuaria),2009-04-01,49540.251877,observado
+INTA (tecnología agropecuaria),2009-05-01,49131.053907,observado
+INTA (tecnología agropecuaria),2009-06-01,85262.385202,observado
+INTA (tecnología agropecuaria),2009-07-01,48255.52857,observado
+INTA (tecnología agropecuaria),2009-08-01,51725.74484,observado
+INTA (tecnología agropecuaria),2009-09-01,58401.942994,observado
+INTA (tecnología agropecuaria),2009-10-01,49418.932041,observado
+INTA (tecnología agropecuaria),2009-11-01,54165.257622,observado
+INTA (tecnología agropecuaria),2009-12-01,91080.961505,observado
+INTA (tecnología agropecuaria),2010-01-01,41034.458871,observado
+INTA (tecnología agropecuaria),2010-02-01,42952.830768,observado
+INTA (tecnología agropecuaria),2010-03-01,52055.361097,observado
+INTA (tecnología agropecuaria),2010-04-01,42254.23951,observado
+INTA (tecnología agropecuaria),2010-05-01,47326.805454,observado
+INTA (tecnología agropecuaria),2010-06-01,72449.894424,observado
+INTA (tecnología agropecuaria),2010-07-01,48768.926079,observado
+INTA (tecnología agropecuaria),2010-08-01,50897.552688,observado
+INTA (tecnología agropecuaria),2010-09-01,58384.796307,observado
+INTA (tecnología agropecuaria),2010-10-01,48858.536973,observado
+INTA (tecnología agropecuaria),2010-11-01,21210.011368,observado
+INTA (tecnología agropecuaria),2010-12-01,117295.9383,observado
+INTA (tecnología agropecuaria),2011-01-01,40454.639217,observado
+INTA (tecnología agropecuaria),2011-02-01,43783.116833,observado
+INTA (tecnología agropecuaria),2011-03-01,52446.379388,observado
+INTA (tecnología agropecuaria),2011-04-01,40035.994481,observado
+INTA (tecnología agropecuaria),2011-05-01,53421.819839,observado
+INTA (tecnología agropecuaria),2011-06-01,75452.659395,observado
+INTA (tecnología agropecuaria),2011-07-01,45883.319281,observado
+INTA (tecnología agropecuaria),2011-08-01,56062.343672,observado
+INTA (tecnología agropecuaria),2011-09-01,73185.977801,observado
+INTA (tecnología agropecuaria),2011-10-01,48287.927408,observado
+INTA (tecnología agropecuaria),2011-11-01,62595.588463,observado
+INTA (tecnología agropecuaria),2011-12-01,110357.087289,observado
+INTA (tecnología agropecuaria),2012-01-01,42250.211478,observado
+INTA (tecnología agropecuaria),2012-02-01,16802.038847,observado
+INTA (tecnología agropecuaria),2012-03-01,96712.848815,observado
+INTA (tecnología agropecuaria),2012-04-01,47364.391578,observado
+INTA (tecnología agropecuaria),2012-05-01,51204.442902,observado
+INTA (tecnología agropecuaria),2012-06-01,83233.390083,observado
+INTA (tecnología agropecuaria),2012-07-01,49574.127583,observado
+INTA (tecnología agropecuaria),2012-08-01,60448.451687,observado
+INTA (tecnología agropecuaria),2012-09-01,70478.79829,observado
+INTA (tecnología agropecuaria),2012-10-01,53078.913972,observado
+INTA (tecnología agropecuaria),2012-11-01,57363.007913,observado
+INTA (tecnología agropecuaria),2012-12-01,92141.512973,observado
+INTA (tecnología agropecuaria),2013-01-01,47207.230866,observado
+INTA (tecnología agropecuaria),2013-02-01,50071.975538,observado
+INTA (tecnología agropecuaria),2013-03-01,63143.789414,observado
+INTA (tecnología agropecuaria),2013-04-01,51827.73218,observado
+INTA (tecnología agropecuaria),2013-05-01,55955.609101,observado
+INTA (tecnología agropecuaria),2013-06-01,86139.370861,observado
+INTA (tecnología agropecuaria),2013-07-01,55406.222043,observado
+INTA (tecnología agropecuaria),2013-08-01,61652.727542,observado
+INTA (tecnología agropecuaria),2013-09-01,70347.657492,observado
+INTA (tecnología agropecuaria),2013-10-01,60674.087534,observado
+INTA (tecnología agropecuaria),2013-11-01,58658.748981,observado
+INTA (tecnología agropecuaria),2013-12-01,94603.047066,observado
+INTA (tecnología agropecuaria),2014-01-01,45193.54025,observado
+INTA (tecnología agropecuaria),2014-02-01,49271.925636,observado
+INTA (tecnología agropecuaria),2014-03-01,54608.523463,observado
+INTA (tecnología agropecuaria),2014-04-01,45871.832043,observado
+INTA (tecnología agropecuaria),2014-05-01,49902.525878,observado
+INTA (tecnología agropecuaria),2014-06-01,82086.047508,observado
+INTA (tecnología agropecuaria),2014-07-01,50129.415371,observado
+INTA (tecnología agropecuaria),2014-08-01,54637.093139,observado
+INTA (tecnología agropecuaria),2014-09-01,63647.526765,observado
+INTA (tecnología agropecuaria),2014-10-01,53841.951052,observado
+INTA (tecnología agropecuaria),2014-11-01,53564.459795,observado
+INTA (tecnología agropecuaria),2014-12-01,110033.382748,observado
+INTA (tecnología agropecuaria),2015-01-01,43710.312521,observado
+INTA (tecnología agropecuaria),2015-02-01,45865.866396,observado
+INTA (tecnología agropecuaria),2015-03-01,56492.584861,observado
+INTA (tecnología agropecuaria),2015-04-01,46416.942045,observado
+INTA (tecnología agropecuaria),2015-05-01,48612.482647,observado
+INTA (tecnología agropecuaria),2015-06-01,82725.133691,observado
+INTA (tecnología agropecuaria),2015-07-01,53318.557523,observado
+INTA (tecnología agropecuaria),2015-08-01,54917.853933,observado
+INTA (tecnología agropecuaria),2015-09-01,66148.990083,observado
+INTA (tecnología agropecuaria),2015-10-01,54071.391427,observado
+INTA (tecnología agropecuaria),2015-11-01,54393.648322,observado
+INTA (tecnología agropecuaria),2015-12-01,98936.449254,observado
+INTA (tecnología agropecuaria),2016-01-01,42519.802563,observado
+INTA (tecnología agropecuaria),2016-02-01,46264.116659,observado
+INTA (tecnología agropecuaria),2016-03-01,62475.884429,observado
+INTA (tecnología agropecuaria),2016-04-01,40665.402702,observado
+INTA (tecnología agropecuaria),2016-05-01,41999.67784,observado
+INTA (tecnología agropecuaria),2016-06-01,70466.019843,observado
+INTA (tecnología agropecuaria),2016-07-01,43872.94472,observado
+INTA (tecnología agropecuaria),2016-08-01,53787.000486,observado
+INTA (tecnología agropecuaria),2016-09-01,58493.280182,observado
+INTA (tecnología agropecuaria),2016-10-01,46651.526754,observado
+INTA (tecnología agropecuaria),2016-11-01,8602.52331,observado
+INTA (tecnología agropecuaria),2016-12-01,123054.915359,observado
+INTA (tecnología agropecuaria),2017-01-01,42861.953938,observado
+INTA (tecnología agropecuaria),2017-02-01,44458.38264,observado
+INTA (tecnología agropecuaria),2017-03-01,51645.066003,observado
+INTA (tecnología agropecuaria),2017-04-01,14010.153812,observado
+INTA (tecnología agropecuaria),2017-05-01,71481.529541,observado
+INTA (tecnología agropecuaria),2017-06-01,71466.766488,observado
+INTA (tecnología agropecuaria),2017-07-01,43061.872189,observado
+INTA (tecnología agropecuaria),2017-08-01,50905.744982,observado
+INTA (tecnología agropecuaria),2017-09-01,55712.362538,observado
+INTA (tecnología agropecuaria),2017-10-01,49087.082717,observado
+INTA (tecnología agropecuaria),2017-11-01,47790.725092,observado
+INTA (tecnología agropecuaria),2017-12-01,80063.141226,observado
+INTA (tecnología agropecuaria),2018-01-01,39912.945399,observado
+INTA (tecnología agropecuaria),2018-02-01,45844.172372,observado
+INTA (tecnología agropecuaria),2018-03-01,51521.47223,observado
+INTA (tecnología agropecuaria),2018-04-01,38303.784601,observado
+INTA (tecnología agropecuaria),2018-05-01,39570.698659,observado
+INTA (tecnología agropecuaria),2018-06-01,62079.025434,observado
+INTA (tecnología agropecuaria),2018-07-01,30198.84205,observado
+INTA (tecnología agropecuaria),2018-08-01,46036.313305,observado
+INTA (tecnología agropecuaria),2018-09-01,38657.447497,observado
+INTA (tecnología agropecuaria),2018-10-01,36214.810437,observado
+INTA (tecnología agropecuaria),2018-11-01,35999.851136,observado
+INTA (tecnología agropecuaria),2018-12-01,56030.722902,observado
+INTA (tecnología agropecuaria),2019-01-01,32293.699623,observado
+INTA (tecnología agropecuaria),2019-02-01,33870.953367,observado
+INTA (tecnología agropecuaria),2019-03-01,33561.764097,observado
+INTA (tecnología agropecuaria),2019-04-01,29581.881676,observado
+INTA (tecnología agropecuaria),2019-05-01,32758.676997,observado
+INTA (tecnología agropecuaria),2019-06-01,48115.644644,observado
+INTA (tecnología agropecuaria),2019-07-01,31162.634985,observado
+INTA (tecnología agropecuaria),2019-08-01,28966.61117,observado
+INTA (tecnología agropecuaria),2019-09-01,40672.906603,observado
+INTA (tecnología agropecuaria),2019-10-01,31085.393431,observado
+INTA (tecnología agropecuaria),2019-11-01,29340.000149,observado
+INTA (tecnología agropecuaria),2019-12-01,42764.253581,observado
+INTA (tecnología agropecuaria),2020-01-01,26462.174832,observado
+INTA (tecnología agropecuaria),2020-02-01,29786.491383,observado
+INTA (tecnología agropecuaria),2020-03-01,29595.081434,observado
+INTA (tecnología agropecuaria),2020-04-01,21578.232136,observado
+INTA (tecnología agropecuaria),2020-05-01,31741.580153,observado
+INTA (tecnología agropecuaria),2020-06-01,53969.700218,observado
+INTA (tecnología agropecuaria),2020-07-01,25772.464573,observado
+INTA (tecnología agropecuaria),2020-08-01,27251.770214,observado
+INTA (tecnología agropecuaria),2020-09-01,38371.053401,observado
+INTA (tecnología agropecuaria),2020-10-01,26122.344971,observado
+INTA (tecnología agropecuaria),2020-11-01,27000.260011,observado
+INTA (tecnología agropecuaria),2020-12-01,55302.014632,observado
+INTA (tecnología agropecuaria),2021-01-01,24696.157933,observado
+INTA (tecnología agropecuaria),2021-02-01,26171.246183,observado
+INTA (tecnología agropecuaria),2021-03-01,35434.63505,observado
+INTA (tecnología agropecuaria),2021-04-01,24976.687123,observado
+INTA (tecnología agropecuaria),2021-05-01,28130.472703,observado
+INTA (tecnología agropecuaria),2021-06-01,47566.701564,observado
+INTA (tecnología agropecuaria),2021-07-01,26383.029767,observado
+INTA (tecnología agropecuaria),2021-08-01,31201.942892,observado
+INTA (tecnología agropecuaria),2021-09-01,41215.125615,observado
+INTA (tecnología agropecuaria),2021-10-01,29358.475005,observado
+INTA (tecnología agropecuaria),2021-11-01,32353.380913,observado
+INTA (tecnología agropecuaria),2021-12-01,58981.533846,observado
+INTA (tecnología agropecuaria),2022-01-01,26339.824351,observado
+INTA (tecnología agropecuaria),2022-02-01,27876.136713,observado
+INTA (tecnología agropecuaria),2022-03-01,33866.722373,observado
+INTA (tecnología agropecuaria),2022-04-01,7883.577048,observado
+INTA (tecnología agropecuaria),2022-05-01,45599.06459,observado
+INTA (tecnología agropecuaria),2022-06-01,51379.430179,observado
+INTA (tecnología agropecuaria),2022-07-01,14307.495642,observado
+INTA (tecnología agropecuaria),2022-08-01,48766.209732,observado
+INTA (tecnología agropecuaria),2022-09-01,61472.742737,observado
+INTA (tecnología agropecuaria),2022-10-01,28793.104377,observado
+INTA (tecnología agropecuaria),2022-11-01,32521.823187,observado
+INTA (tecnología agropecuaria),2022-12-01,69314.868415,observado
+INTA (tecnología agropecuaria),2023-01-01,982.480992,observado
+INTA (tecnología agropecuaria),2023-02-01,53012.909248,observado
+INTA (tecnología agropecuaria),2023-03-01,36687.088328,observado
+INTA (tecnología agropecuaria),2023-04-01,28151.938379,observado
+INTA (tecnología agropecuaria),2023-05-01,47253.676922,observado
+INTA (tecnología agropecuaria),2023-06-01,65434.515138,observado
+INTA (tecnología agropecuaria),2023-07-01,45780.395978,observado
+INTA (tecnología agropecuaria),2023-08-01,44499.765226,observado
+INTA (tecnología agropecuaria),2023-09-01,49757.982786,observado
+INTA (tecnología agropecuaria),2023-10-01,27356.17988,observado
+INTA (tecnología agropecuaria),2023-11-01,50404.627969,observado
+INTA (tecnología agropecuaria),2023-12-01,61028.393491,observado
+INTA (tecnología agropecuaria),2024-01-01,26992.955385,observado
+INTA (tecnología agropecuaria),2024-02-01,32272.346288,observado
+INTA (tecnología agropecuaria),2024-03-01,34583.202944,observado
+INTA (tecnología agropecuaria),2024-04-01,25893.805146,observado
+INTA (tecnología agropecuaria),2024-05-01,33283.212818,observado
+INTA (tecnología agropecuaria),2024-06-01,48894.933314,observado
+INTA (tecnología agropecuaria),2024-07-01,27283.349092,observado
+INTA (tecnología agropecuaria),2024-08-01,27951.47096,observado
+INTA (tecnología agropecuaria),2024-09-01,35218.667987,observado
+INTA (tecnología agropecuaria),2024-10-01,27129.028019,observado
+INTA (tecnología agropecuaria),2024-11-01,28084.375898,observado
+INTA (tecnología agropecuaria),2024-12-01,61000.959541,observado
+INTA (tecnología agropecuaria),2025-01-01,23278.501947,observado
+INTA (tecnología agropecuaria),2025-02-01,25560.126009,observado
+INTA (tecnología agropecuaria),2025-03-01,26561.49086,observado
+INTA (tecnología agropecuaria),2025-04-01,24028.619794,observado
+INTA (tecnología agropecuaria),2025-05-01,25747.992469,observado
+INTA (tecnología agropecuaria),2025-06-01,36616.326505,observado
+INTA (tecnología agropecuaria),2025-07-01,22155.217375,observado
+INTA (tecnología agropecuaria),2025-08-01,21695.942909,observado
+INTA (tecnología agropecuaria),2025-09-01,26497.5117,observado
+INTA (tecnología agropecuaria),2025-10-01,22401.555314,observado
+INTA (tecnología agropecuaria),2025-11-01,23096.565838,observado
+INTA (tecnología agropecuaria),2025-12-01,35889.637487,observado
+INTA (tecnología agropecuaria),2026-01-01,20206.783504,observado
+INTA (tecnología agropecuaria),2026-02-01,20092.79029,observado
+INTA (tecnología agropecuaria),2026-03-01,25586.034322,observado
+INTA (tecnología agropecuaria),2026-04-01,20152.211411,observado
+INTA (tecnología agropecuaria),2026-05-01,21439.774463,observado
+INTA (tecnología agropecuaria),2026-06-01,89259.323569,observado
+INTA (tecnología agropecuaria),2026-07-01,23375.465051,observado
+INTA (tecnología agropecuaria),2026-08-01,19836.009078,observado
+INTA (tecnología agropecuaria),2026-09-01,20876.548368,observado
+INTA (tecnología agropecuaria),2026-10-01,18137.834929,observado
+SENASA (sanidad agroalimentaria),2001-01-01,17974.284728,observado
+SENASA (sanidad agroalimentaria),2001-02-01,18330.6221,observado
+SENASA (sanidad agroalimentaria),2001-03-01,27364.832298,observado
+SENASA (sanidad agroalimentaria),2001-04-01,14113.1079,observado
+SENASA (sanidad agroalimentaria),2001-05-01,21120.706151,observado
+SENASA (sanidad agroalimentaria),2001-06-01,26668.659656,observado
+SENASA (sanidad agroalimentaria),2001-07-01,20207.475884,observado
+SENASA (sanidad agroalimentaria),2001-08-01,25602.027254,observado
+SENASA (sanidad agroalimentaria),2001-09-01,98807.002575,observado
+SENASA (sanidad agroalimentaria),2001-10-01,16678.108221,observado
+SENASA (sanidad agroalimentaria),2001-11-01,17275.455403,observado
+SENASA (sanidad agroalimentaria),2001-12-01,17835.065308,observado
+SENASA (sanidad agroalimentaria),2002-01-01,12203.001506,observado
+SENASA (sanidad agroalimentaria),2002-02-01,13058.567385,observado
+SENASA (sanidad agroalimentaria),2002-03-01,24100.467065,observado
+SENASA (sanidad agroalimentaria),2002-04-01,11218.038296,observado
+SENASA (sanidad agroalimentaria),2002-05-01,13752.758016,observado
+SENASA (sanidad agroalimentaria),2002-06-01,33118.197856,observado
+SENASA (sanidad agroalimentaria),2002-07-01,32927.865933,observado
+SENASA (sanidad agroalimentaria),2002-08-01,26897.136668,observado
+SENASA (sanidad agroalimentaria),2002-09-01,16457.458591,observado
+SENASA (sanidad agroalimentaria),2002-10-01,11775.376237,observado
+SENASA (sanidad agroalimentaria),2002-11-01,13059.484978,observado
+SENASA (sanidad agroalimentaria),2002-12-01,42008.595961,observado
+SENASA (sanidad agroalimentaria),2003-01-01,10245.380322,observado
+SENASA (sanidad agroalimentaria),2003-02-01,11901.181937,observado
+SENASA (sanidad agroalimentaria),2003-03-01,13428.787933,observado
+SENASA (sanidad agroalimentaria),2003-04-01,11671.536285,observado
+SENASA (sanidad agroalimentaria),2003-05-01,13568.248418,observado
+SENASA (sanidad agroalimentaria),2003-06-01,30370.819703,observado
+SENASA (sanidad agroalimentaria),2003-07-01,14264.009036,observado
+SENASA (sanidad agroalimentaria),2003-08-01,19243.164116,observado
+SENASA (sanidad agroalimentaria),2003-09-01,18993.592749,observado
+SENASA (sanidad agroalimentaria),2003-10-01,16957.40438,observado
+SENASA (sanidad agroalimentaria),2003-11-01,18962.507972,observado
+SENASA (sanidad agroalimentaria),2003-12-01,34453.554168,observado
+SENASA (sanidad agroalimentaria),2004-01-01,13911.444517,observado
+SENASA (sanidad agroalimentaria),2004-02-01,17734.538372,observado
+SENASA (sanidad agroalimentaria),2004-03-01,17730.090871,observado
+SENASA (sanidad agroalimentaria),2004-04-01,17115.837272,observado
+SENASA (sanidad agroalimentaria),2004-05-01,15615.756987,observado
+SENASA (sanidad agroalimentaria),2004-06-01,25140.581257,observado
+SENASA (sanidad agroalimentaria),2004-07-01,17486.010466,observado
+SENASA (sanidad agroalimentaria),2004-08-01,16523.164914,observado
+SENASA (sanidad agroalimentaria),2004-09-01,19785.170633,observado
+SENASA (sanidad agroalimentaria),2004-10-01,16683.796256,observado
+SENASA (sanidad agroalimentaria),2004-11-01,24533.415157,observado
+SENASA (sanidad agroalimentaria),2004-12-01,44561.551226,observado
+SENASA (sanidad agroalimentaria),2005-01-01,7588.553218,observado
+SENASA (sanidad agroalimentaria),2005-02-01,28968.292966,observado
+SENASA (sanidad agroalimentaria),2005-03-01,20900.151474,observado
+SENASA (sanidad agroalimentaria),2005-04-01,20281.140942,observado
+SENASA (sanidad agroalimentaria),2005-05-01,21665.192115,observado
+SENASA (sanidad agroalimentaria),2005-06-01,30592.787373,observado
+SENASA (sanidad agroalimentaria),2005-07-01,21661.647301,observado
+SENASA (sanidad agroalimentaria),2005-08-01,23581.208257,observado
+SENASA (sanidad agroalimentaria),2005-09-01,23313.771047,observado
+SENASA (sanidad agroalimentaria),2005-10-01,18822.294136,observado
+SENASA (sanidad agroalimentaria),2005-11-01,32660.388916,observado
+SENASA (sanidad agroalimentaria),2005-12-01,48070.072441,observado
+SENASA (sanidad agroalimentaria),2006-01-01,18231.199968,observado
+SENASA (sanidad agroalimentaria),2006-02-01,20446.390732,observado
+SENASA (sanidad agroalimentaria),2006-03-01,43016.647876,observado
+SENASA (sanidad agroalimentaria),2006-04-01,20197.426357,observado
+SENASA (sanidad agroalimentaria),2006-05-01,27037.828943,observado
+SENASA (sanidad agroalimentaria),2006-06-01,36983.327478,observado
+SENASA (sanidad agroalimentaria),2006-07-01,25792.708253,observado
+SENASA (sanidad agroalimentaria),2006-08-01,29467.047291,observado
+SENASA (sanidad agroalimentaria),2006-09-01,31883.399727,observado
+SENASA (sanidad agroalimentaria),2006-10-01,30064.313284,observado
+SENASA (sanidad agroalimentaria),2006-11-01,43034.393575,observado
+SENASA (sanidad agroalimentaria),2006-12-01,52534.83892,observado
+SENASA (sanidad agroalimentaria),2007-01-01,20219.020907,observado
+SENASA (sanidad agroalimentaria),2007-02-01,31047.324449,observado
+SENASA (sanidad agroalimentaria),2007-03-01,37054.729725,observado
+SENASA (sanidad agroalimentaria),2007-04-01,30147.443517,observado
+SENASA (sanidad agroalimentaria),2007-05-01,34550.764563,observado
+SENASA (sanidad agroalimentaria),2007-06-01,46638.137479,observado
+SENASA (sanidad agroalimentaria),2007-07-01,34081.049342,observado
+SENASA (sanidad agroalimentaria),2007-08-01,35596.13507,observado
+SENASA (sanidad agroalimentaria),2007-09-01,42344.124099,observado
+SENASA (sanidad agroalimentaria),2007-10-01,26903.865863,observado
+SENASA (sanidad agroalimentaria),2007-11-01,41800.01749,observado
+SENASA (sanidad agroalimentaria),2007-12-01,60855.579369,observado
+SENASA (sanidad agroalimentaria),2008-01-01,23288.296038,observado
+SENASA (sanidad agroalimentaria),2008-02-01,30633.503986,observado
+SENASA (sanidad agroalimentaria),2008-03-01,33794.866368,observado
+SENASA (sanidad agroalimentaria),2008-04-01,27369.236053,observado
+SENASA (sanidad agroalimentaria),2008-05-01,31575.998393,observado
+SENASA (sanidad agroalimentaria),2008-06-01,45874.528264,observado
+SENASA (sanidad agroalimentaria),2008-07-01,27336.039677,observado
+SENASA (sanidad agroalimentaria),2008-08-01,32109.534265,observado
+SENASA (sanidad agroalimentaria),2008-09-01,37501.838118,observado
+SENASA (sanidad agroalimentaria),2008-10-01,29973.944894,observado
+SENASA (sanidad agroalimentaria),2008-11-01,36121.879312,observado
+SENASA (sanidad agroalimentaria),2008-12-01,78289.910188,observado
+SENASA (sanidad agroalimentaria),2009-01-01,25786.577762,observado
+SENASA (sanidad agroalimentaria),2009-02-01,27630.989651,observado
+SENASA (sanidad agroalimentaria),2009-03-01,35783.025813,observado
+SENASA (sanidad agroalimentaria),2009-04-01,29190.739839,observado
+SENASA (sanidad agroalimentaria),2009-05-01,33271.669683,observado
+SENASA (sanidad agroalimentaria),2009-06-01,50035.596825,observado
+SENASA (sanidad agroalimentaria),2009-07-01,39094.974574,observado
+SENASA (sanidad agroalimentaria),2009-08-01,34634.060672,observado
+SENASA (sanidad agroalimentaria),2009-09-01,49620.457077,observado
+SENASA (sanidad agroalimentaria),2009-10-01,39733.352309,observado
+SENASA (sanidad agroalimentaria),2009-11-01,41787.952297,observado
+SENASA (sanidad agroalimentaria),2009-12-01,84880.775752,observado
+SENASA (sanidad agroalimentaria),2010-01-01,24009.002323,observado
+SENASA (sanidad agroalimentaria),2010-02-01,29652.66351,observado
+SENASA (sanidad agroalimentaria),2010-03-01,59089.64963,observado
+SENASA (sanidad agroalimentaria),2010-04-01,31581.949588,observado
+SENASA (sanidad agroalimentaria),2010-05-01,35524.988643,observado
+SENASA (sanidad agroalimentaria),2010-06-01,64695.321819,observado
+SENASA (sanidad agroalimentaria),2010-07-01,37626.2896,observado
+SENASA (sanidad agroalimentaria),2010-08-01,37476.099531,observado
+SENASA (sanidad agroalimentaria),2010-09-01,65570.366182,observado
+SENASA (sanidad agroalimentaria),2010-10-01,33440.052469,observado
+SENASA (sanidad agroalimentaria),2010-11-01,36221.033296,observado
+SENASA (sanidad agroalimentaria),2010-12-01,95379.806894,observado
+SENASA (sanidad agroalimentaria),2011-01-01,25583.572363,observado
+SENASA (sanidad agroalimentaria),2011-02-01,29757.170954,observado
+SENASA (sanidad agroalimentaria),2011-03-01,53809.989594,observado
+SENASA (sanidad agroalimentaria),2011-04-01,20177.22399,observado
+SENASA (sanidad agroalimentaria),2011-05-01,34915.27771,observado
+SENASA (sanidad agroalimentaria),2011-06-01,66917.270611,observado
+SENASA (sanidad agroalimentaria),2011-07-01,22187.684783,observado
+SENASA (sanidad agroalimentaria),2011-08-01,39462.25703,observado
+SENASA (sanidad agroalimentaria),2011-09-01,51897.445216,observado
+SENASA (sanidad agroalimentaria),2011-10-01,31927.58968,observado
+SENASA (sanidad agroalimentaria),2011-11-01,58572.743572,observado
+SENASA (sanidad agroalimentaria),2011-12-01,91204.907442,observado
+SENASA (sanidad agroalimentaria),2012-01-01,25830.664572,observado
+SENASA (sanidad agroalimentaria),2012-02-01,33616.153436,observado
+SENASA (sanidad agroalimentaria),2012-03-01,53659.228969,observado
+SENASA (sanidad agroalimentaria),2012-04-01,35265.675059,observado
+SENASA (sanidad agroalimentaria),2012-05-01,42336.139831,observado
+SENASA (sanidad agroalimentaria),2012-06-01,61583.92843,observado
+SENASA (sanidad agroalimentaria),2012-07-01,38288.17091,observado
+SENASA (sanidad agroalimentaria),2012-08-01,60227.591488,observado
+SENASA (sanidad agroalimentaria),2012-09-01,46054.697966,observado
+SENASA (sanidad agroalimentaria),2012-10-01,34022.315061,observado
+SENASA (sanidad agroalimentaria),2012-11-01,43283.488065,observado
+SENASA (sanidad agroalimentaria),2012-12-01,78713.773067,observado
+SENASA (sanidad agroalimentaria),2013-01-01,29284.27457,observado
+SENASA (sanidad agroalimentaria),2013-02-01,35783.12187,observado
+SENASA (sanidad agroalimentaria),2013-03-01,48239.592587,observado
+SENASA (sanidad agroalimentaria),2013-04-01,38731.291942,observado
+SENASA (sanidad agroalimentaria),2013-05-01,42734.344979,observado
+SENASA (sanidad agroalimentaria),2013-06-01,59362.286243,observado
+SENASA (sanidad agroalimentaria),2013-07-01,39299.136178,observado
+SENASA (sanidad agroalimentaria),2013-08-01,50442.262782,observado
+SENASA (sanidad agroalimentaria),2013-09-01,48885.517742,observado
+SENASA (sanidad agroalimentaria),2013-10-01,40067.054203,observado
+SENASA (sanidad agroalimentaria),2013-11-01,53232.430599,observado
+SENASA (sanidad agroalimentaria),2013-12-01,87464.531222,observado
+SENASA (sanidad agroalimentaria),2014-01-01,28420.131032,observado
+SENASA (sanidad agroalimentaria),2014-02-01,33870.731527,observado
+SENASA (sanidad agroalimentaria),2014-03-01,37285.200787,observado
+SENASA (sanidad agroalimentaria),2014-04-01,33473.055346,observado
+SENASA (sanidad agroalimentaria),2014-05-01,38706.340895,observado
+SENASA (sanidad agroalimentaria),2014-06-01,45505.768567,observado
+SENASA (sanidad agroalimentaria),2014-07-01,44245.86286,observado
+SENASA (sanidad agroalimentaria),2014-08-01,44303.8163,observado
+SENASA (sanidad agroalimentaria),2014-09-01,51222.809938,observado
+SENASA (sanidad agroalimentaria),2014-10-01,31346.05181,observado
+SENASA (sanidad agroalimentaria),2014-11-01,49535.097688,observado
+SENASA (sanidad agroalimentaria),2014-12-01,89543.844752,observado
+SENASA (sanidad agroalimentaria),2015-01-01,29771.131034,observado
+SENASA (sanidad agroalimentaria),2015-02-01,38121.876482,observado
+SENASA (sanidad agroalimentaria),2015-03-01,52967.303446,observado
+SENASA (sanidad agroalimentaria),2015-04-01,37980.964328,observado
+SENASA (sanidad agroalimentaria),2015-05-01,43066.312711,observado
+SENASA (sanidad agroalimentaria),2015-06-01,57218.420381,observado
+SENASA (sanidad agroalimentaria),2015-07-01,37157.645814,observado
+SENASA (sanidad agroalimentaria),2015-08-01,41562.815256,observado
+SENASA (sanidad agroalimentaria),2015-09-01,44467.861536,observado
+SENASA (sanidad agroalimentaria),2015-10-01,44877.50351,observado
+SENASA (sanidad agroalimentaria),2015-11-01,47599.269059,observado
+SENASA (sanidad agroalimentaria),2015-12-01,99936.878951,observado
+SENASA (sanidad agroalimentaria),2016-01-01,16054.357876,observado
+SENASA (sanidad agroalimentaria),2016-02-01,35453.163421,observado
+SENASA (sanidad agroalimentaria),2016-03-01,71218.334602,observado
+SENASA (sanidad agroalimentaria),2016-04-01,31700.375261,observado
+SENASA (sanidad agroalimentaria),2016-05-01,30082.654477,observado
+SENASA (sanidad agroalimentaria),2016-06-01,54025.529253,observado
+SENASA (sanidad agroalimentaria),2016-07-01,21161.49934,observado
+SENASA (sanidad agroalimentaria),2016-08-01,45108.373347,observado
+SENASA (sanidad agroalimentaria),2016-09-01,57172.589035,observado
+SENASA (sanidad agroalimentaria),2016-10-01,30231.271322,observado
+SENASA (sanidad agroalimentaria),2016-11-01,44692.473661,observado
+SENASA (sanidad agroalimentaria),2016-12-01,88695.421993,observado
+SENASA (sanidad agroalimentaria),2017-01-01,19273.13844,observado
+SENASA (sanidad agroalimentaria),2017-02-01,28430.254179,observado
+SENASA (sanidad agroalimentaria),2017-03-01,45094.166708,observado
+SENASA (sanidad agroalimentaria),2017-04-01,28769.104473,observado
+SENASA (sanidad agroalimentaria),2017-05-01,38488.846102,observado
+SENASA (sanidad agroalimentaria),2017-06-01,57776.882821,observado
+SENASA (sanidad agroalimentaria),2017-07-01,22628.065308,observado
+SENASA (sanidad agroalimentaria),2017-08-01,47267.806755,observado
+SENASA (sanidad agroalimentaria),2017-09-01,56063.682964,observado
+SENASA (sanidad agroalimentaria),2017-10-01,18874.440651,observado
+SENASA (sanidad agroalimentaria),2017-11-01,41157.364638,observado
+SENASA (sanidad agroalimentaria),2017-12-01,72581.10555,observado
+SENASA (sanidad agroalimentaria),2018-01-01,19005.284499,observado
+SENASA (sanidad agroalimentaria),2018-02-01,33576.198788,observado
+SENASA (sanidad agroalimentaria),2018-03-01,34866.181005,observado
+SENASA (sanidad agroalimentaria),2018-04-01,15752.625837,observado
+SENASA (sanidad agroalimentaria),2018-05-01,32500.985273,observado
+SENASA (sanidad agroalimentaria),2018-06-01,46102.072342,observado
+SENASA (sanidad agroalimentaria),2018-07-01,19898.68199,observado
+SENASA (sanidad agroalimentaria),2018-08-01,32317.38501,observado
+SENASA (sanidad agroalimentaria),2018-09-01,35678.931193,observado
+SENASA (sanidad agroalimentaria),2018-10-01,24179.691148,observado
+SENASA (sanidad agroalimentaria),2018-11-01,23506.7528,observado
+SENASA (sanidad agroalimentaria),2018-12-01,61651.741068,observado
+SENASA (sanidad agroalimentaria),2019-01-01,11530.375222,observado
+SENASA (sanidad agroalimentaria),2019-02-01,22658.275118,observado
+SENASA (sanidad agroalimentaria),2019-03-01,37444.859408,observado
+SENASA (sanidad agroalimentaria),2019-04-01,13591.481226,observado
+SENASA (sanidad agroalimentaria),2019-05-01,27275.547049,observado
+SENASA (sanidad agroalimentaria),2019-06-01,41794.519057,observado
+SENASA (sanidad agroalimentaria),2019-07-01,15961.824918,observado
+SENASA (sanidad agroalimentaria),2019-08-01,26378.257614,observado
+SENASA (sanidad agroalimentaria),2019-09-01,35282.393994,observado
+SENASA (sanidad agroalimentaria),2019-10-01,28035.852129,observado
+SENASA (sanidad agroalimentaria),2019-11-01,25285.640969,observado
+SENASA (sanidad agroalimentaria),2019-12-01,45664.21653,observado
+SENASA (sanidad agroalimentaria),2020-01-01,12101.332271,observado
+SENASA (sanidad agroalimentaria),2020-02-01,23813.26489,observado
+SENASA (sanidad agroalimentaria),2020-03-01,41428.899683,observado
+SENASA (sanidad agroalimentaria),2020-04-01,22416.955561,observado
+SENASA (sanidad agroalimentaria),2020-05-01,22526.442108,observado
+SENASA (sanidad agroalimentaria),2020-06-01,41202.933324,observado
+SENASA (sanidad agroalimentaria),2020-07-01,21413.8887,observado
+SENASA (sanidad agroalimentaria),2020-08-01,23906.32641,observado
+SENASA (sanidad agroalimentaria),2020-09-01,37356.827745,observado
+SENASA (sanidad agroalimentaria),2020-10-01,27889.488114,observado
+SENASA (sanidad agroalimentaria),2020-11-01,25260.670014,observado
+SENASA (sanidad agroalimentaria),2020-12-01,53895.302512,observado
+SENASA (sanidad agroalimentaria),2021-01-01,16596.969844,observado
+SENASA (sanidad agroalimentaria),2021-02-01,20730.430382,observado
+SENASA (sanidad agroalimentaria),2021-03-01,23769.969743,observado
+SENASA (sanidad agroalimentaria),2021-04-01,19288.207559,observado
+SENASA (sanidad agroalimentaria),2021-05-01,25238.028914,observado
+SENASA (sanidad agroalimentaria),2021-06-01,38099.359964,observado
+SENASA (sanidad agroalimentaria),2021-07-01,21254.037648,observado
+SENASA (sanidad agroalimentaria),2021-08-01,19046.806018,observado
+SENASA (sanidad agroalimentaria),2021-09-01,47097.71213,observado
+SENASA (sanidad agroalimentaria),2021-10-01,12755.229468,observado
+SENASA (sanidad agroalimentaria),2021-11-01,47920.690287,observado
+SENASA (sanidad agroalimentaria),2021-12-01,74788.385122,observado
+SENASA (sanidad agroalimentaria),2022-01-01,21751.021261,observado
+SENASA (sanidad agroalimentaria),2022-02-01,19280.715634,observado
+SENASA (sanidad agroalimentaria),2022-03-01,49961.746495,observado
+SENASA (sanidad agroalimentaria),2022-04-01,21040.985306,observado
+SENASA (sanidad agroalimentaria),2022-05-01,28736.206669,observado
+SENASA (sanidad agroalimentaria),2022-06-01,47305.224307,observado
+SENASA (sanidad agroalimentaria),2022-07-01,40197.79591,observado
+SENASA (sanidad agroalimentaria),2022-08-01,32559.943054,observado
+SENASA (sanidad agroalimentaria),2022-09-01,32161.39944,observado
+SENASA (sanidad agroalimentaria),2022-10-01,29457.633611,observado
+SENASA (sanidad agroalimentaria),2022-11-01,31471.154174,observado
+SENASA (sanidad agroalimentaria),2022-12-01,88167.168722,observado
+SENASA (sanidad agroalimentaria),2023-01-01,17958.457137,observado
+SENASA (sanidad agroalimentaria),2023-02-01,26774.583057,observado
+SENASA (sanidad agroalimentaria),2023-03-01,33578.474883,observado
+SENASA (sanidad agroalimentaria),2023-04-01,26792.07423,observado
+SENASA (sanidad agroalimentaria),2023-05-01,35085.469208,observado
+SENASA (sanidad agroalimentaria),2023-06-01,45342.232655,observado
+SENASA (sanidad agroalimentaria),2023-07-01,27711.900847,observado
+SENASA (sanidad agroalimentaria),2023-08-01,21863.989462,observado
+SENASA (sanidad agroalimentaria),2023-09-01,43468.217856,observado
+SENASA (sanidad agroalimentaria),2023-10-01,49133.774502,observado
+SENASA (sanidad agroalimentaria),2023-11-01,24015.014338,observado
+SENASA (sanidad agroalimentaria),2023-12-01,49729.237812,observado
+SENASA (sanidad agroalimentaria),2024-01-01,17608.35923,observado
+SENASA (sanidad agroalimentaria),2024-02-01,24404.951491,observado
+SENASA (sanidad agroalimentaria),2024-03-01,22649.544272,observado
+SENASA (sanidad agroalimentaria),2024-04-01,24815.441207,observado
+SENASA (sanidad agroalimentaria),2024-05-01,22408.232468,observado
+SENASA (sanidad agroalimentaria),2024-06-01,36752.81323,observado
+SENASA (sanidad agroalimentaria),2024-07-01,18551.532377,observado
+SENASA (sanidad agroalimentaria),2024-08-01,21454.649898,observado
+SENASA (sanidad agroalimentaria),2024-09-01,27698.593281,observado
+SENASA (sanidad agroalimentaria),2024-10-01,18828.596547,observado
+SENASA (sanidad agroalimentaria),2024-11-01,20844.674123,observado
+SENASA (sanidad agroalimentaria),2024-12-01,51682.67376,observado
+SENASA (sanidad agroalimentaria),2025-01-01,13600.561009,observado
+SENASA (sanidad agroalimentaria),2025-02-01,18037.018443,observado
+SENASA (sanidad agroalimentaria),2025-03-01,25685.860897,observado
+SENASA (sanidad agroalimentaria),2025-04-01,19573.526467,observado
+SENASA (sanidad agroalimentaria),2025-05-01,18821.831098,observado
+SENASA (sanidad agroalimentaria),2025-06-01,29889.841704,observado
+SENASA (sanidad agroalimentaria),2025-07-01,16942.298232,observado
+SENASA (sanidad agroalimentaria),2025-08-01,22650.316721,observado
+SENASA (sanidad agroalimentaria),2025-09-01,22245.851492,observado
+SENASA (sanidad agroalimentaria),2025-10-01,17819.472352,observado
+SENASA (sanidad agroalimentaria),2025-11-01,20048.389705,observado
+SENASA (sanidad agroalimentaria),2025-12-01,42789.413474,observado
+SENASA (sanidad agroalimentaria),2026-01-01,12522.387164,observado
+SENASA (sanidad agroalimentaria),2026-02-01,11725.052672,observado
+SENASA (sanidad agroalimentaria),2026-03-01,28224.693505,observado
+SENASA (sanidad agroalimentaria),2026-04-01,15577.907549,observado
+SENASA (sanidad agroalimentaria),2026-05-01,17656.406652,observado
+SENASA (sanidad agroalimentaria),2026-06-01,32093.714802,observado
+SENASA (sanidad agroalimentaria),2026-07-01,16227.673281,observado
+SENASA (sanidad agroalimentaria),2026-08-01,19736.817891,observado
+SENASA (sanidad agroalimentaria),2026-09-01,23679.254675,observado
+SENASA (sanidad agroalimentaria),2026-10-01,20922.001033,observado
+ANMAT (medicamentos y alimentos),2001-01-01,462.398497,observado
+ANMAT (medicamentos y alimentos),2001-02-01,4633.104033,observado
+ANMAT (medicamentos y alimentos),2001-03-01,3256.957223,observado
+ANMAT (medicamentos y alimentos),2001-04-01,2977.091112,observado
+ANMAT (medicamentos y alimentos),2001-05-01,2579.67665,observado
+ANMAT (medicamentos y alimentos),2001-06-01,4982.1829,observado
+ANMAT (medicamentos y alimentos),2001-07-01,2914.973698,observado
+ANMAT (medicamentos y alimentos),2001-08-01,3347.844116,observado
+ANMAT (medicamentos y alimentos),2001-09-01,3017.665775,observado
+ANMAT (medicamentos y alimentos),2001-10-01,2975.309864,observado
+ANMAT (medicamentos y alimentos),2001-11-01,2973.996081,observado
+ANMAT (medicamentos y alimentos),2001-12-01,4479.787904,observado
+ANMAT (medicamentos y alimentos),2002-01-01,1948.780462,observado
+ANMAT (medicamentos y alimentos),2002-02-01,3009.169823,observado
+ANMAT (medicamentos y alimentos),2002-03-01,2452.636791,observado
+ANMAT (medicamentos y alimentos),2002-04-01,2056.761919,observado
+ANMAT (medicamentos y alimentos),2002-05-01,2746.24132,observado
+ANMAT (medicamentos y alimentos),2002-06-01,2987.32984,observado
+ANMAT (medicamentos y alimentos),2002-07-01,1974.607341,observado
+ANMAT (medicamentos y alimentos),2002-08-01,2172.14297,observado
+ANMAT (medicamentos y alimentos),2002-09-01,2897.612591,observado
+ANMAT (medicamentos y alimentos),2002-10-01,2322.830292,observado
+ANMAT (medicamentos y alimentos),2002-11-01,2426.673697,observado
+ANMAT (medicamentos y alimentos),2002-12-01,2974.564021,observado
+ANMAT (medicamentos y alimentos),2003-01-01,2039.155004,observado
+ANMAT (medicamentos y alimentos),2003-02-01,2118.179958,observado
+ANMAT (medicamentos y alimentos),2003-03-01,2757.885182,observado
+ANMAT (medicamentos y alimentos),2003-04-01,2229.223014,observado
+ANMAT (medicamentos y alimentos),2003-05-01,2124.972986,observado
+ANMAT (medicamentos y alimentos),2003-06-01,2926.168655,observado
+ANMAT (medicamentos y alimentos),2003-07-01,2448.182785,observado
+ANMAT (medicamentos y alimentos),2003-08-01,2544.370071,observado
+ANMAT (medicamentos y alimentos),2003-09-01,2525.841544,observado
+ANMAT (medicamentos y alimentos),2003-10-01,2285.634659,observado
+ANMAT (medicamentos y alimentos),2003-11-01,2564.893235,observado
+ANMAT (medicamentos y alimentos),2003-12-01,3996.300145,observado
+ANMAT (medicamentos y alimentos),2004-01-01,2002.752681,observado
+ANMAT (medicamentos y alimentos),2004-02-01,2424.32472,observado
+ANMAT (medicamentos y alimentos),2004-03-01,2406.993198,observado
+ANMAT (medicamentos y alimentos),2004-04-01,2381.246411,observado
+ANMAT (medicamentos y alimentos),2004-05-01,2421.35958,observado
+ANMAT (medicamentos y alimentos),2004-06-01,3158.604911,observado
+ANMAT (medicamentos y alimentos),2004-07-01,2508.968314,observado
+ANMAT (medicamentos y alimentos),2004-08-01,2555.204602,observado
+ANMAT (medicamentos y alimentos),2004-09-01,2370.107656,observado
+ANMAT (medicamentos y alimentos),2004-10-01,3285.221348,observado
+ANMAT (medicamentos y alimentos),2004-11-01,3425.717415,observado
+ANMAT (medicamentos y alimentos),2004-12-01,4375.920329,observado
+ANMAT (medicamentos y alimentos),2005-01-01,2295.402753,observado
+ANMAT (medicamentos y alimentos),2005-02-01,2326.262818,observado
+ANMAT (medicamentos y alimentos),2005-03-01,2558.743714,observado
+ANMAT (medicamentos y alimentos),2005-04-01,2609.634031,observado
+ANMAT (medicamentos y alimentos),2005-05-01,2447.787288,observado
+ANMAT (medicamentos y alimentos),2005-06-01,4569.642735,observado
+ANMAT (medicamentos y alimentos),2005-07-01,2394.053809,observado
+ANMAT (medicamentos y alimentos),2005-08-01,3720.683472,observado
+ANMAT (medicamentos y alimentos),2005-09-01,4265.006834,observado
+ANMAT (medicamentos y alimentos),2005-10-01,2900.228075,observado
+ANMAT (medicamentos y alimentos),2005-11-01,3066.487321,observado
+ANMAT (medicamentos y alimentos),2005-12-01,5516.912774,observado
+ANMAT (medicamentos y alimentos),2006-01-01,2559.404905,observado
+ANMAT (medicamentos y alimentos),2006-02-01,3262.396034,observado
+ANMAT (medicamentos y alimentos),2006-03-01,3709.478912,observado
+ANMAT (medicamentos y alimentos),2006-04-01,3136.128023,observado
+ANMAT (medicamentos y alimentos),2006-05-01,3835.071335,observado
+ANMAT (medicamentos y alimentos),2006-06-01,4672.945874,observado
+ANMAT (medicamentos y alimentos),2006-07-01,4014.466911,observado
+ANMAT (medicamentos y alimentos),2006-08-01,4121.25157,observado
+ANMAT (medicamentos y alimentos),2006-09-01,3877.379531,observado
+ANMAT (medicamentos y alimentos),2006-10-01,3380.793098,observado
+ANMAT (medicamentos y alimentos),2006-11-01,4936.836045,observado
+ANMAT (medicamentos y alimentos),2006-12-01,6835.816518,observado
+ANMAT (medicamentos y alimentos),2007-01-01,3078.7437,observado
+ANMAT (medicamentos y alimentos),2007-02-01,3578.726584,observado
+ANMAT (medicamentos y alimentos),2007-03-01,4518.733931,observado
+ANMAT (medicamentos y alimentos),2007-04-01,3967.017904,observado
+ANMAT (medicamentos y alimentos),2007-05-01,3335.623018,observado
+ANMAT (medicamentos y alimentos),2007-06-01,5789.099888,observado
+ANMAT (medicamentos y alimentos),2007-07-01,3966.615271,observado
+ANMAT (medicamentos y alimentos),2007-08-01,4147.105763,observado
+ANMAT (medicamentos y alimentos),2007-09-01,4218.850722,observado
+ANMAT (medicamentos y alimentos),2007-10-01,4201.456508,observado
+ANMAT (medicamentos y alimentos),2007-11-01,5105.797549,observado
+ANMAT (medicamentos y alimentos),2007-12-01,6317.604419,observado
+ANMAT (medicamentos y alimentos),2008-01-01,3328.550664,observado
+ANMAT (medicamentos y alimentos),2008-02-01,3649.205757,observado
+ANMAT (medicamentos y alimentos),2008-03-01,4093.041447,observado
+ANMAT (medicamentos y alimentos),2008-04-01,3536.641969,observado
+ANMAT (medicamentos y alimentos),2008-05-01,4019.996788,observado
+ANMAT (medicamentos y alimentos),2008-06-01,5252.687049,observado
+ANMAT (medicamentos y alimentos),2008-07-01,3691.996337,observado
+ANMAT (medicamentos y alimentos),2008-08-01,4225.852721,observado
+ANMAT (medicamentos y alimentos),2008-09-01,4980.871594,observado
+ANMAT (medicamentos y alimentos),2008-10-01,4010.977,observado
+ANMAT (medicamentos y alimentos),2008-11-01,4435.114402,observado
+ANMAT (medicamentos y alimentos),2008-12-01,6632.56805,observado
+ANMAT (medicamentos y alimentos),2009-01-01,2714.728227,observado
+ANMAT (medicamentos y alimentos),2009-02-01,4081.690448,observado
+ANMAT (medicamentos y alimentos),2009-03-01,5587.407323,observado
+ANMAT (medicamentos y alimentos),2009-04-01,3987.285596,observado
+ANMAT (medicamentos y alimentos),2009-05-01,3830.42611,observado
+ANMAT (medicamentos y alimentos),2009-06-01,6740.146966,observado
+ANMAT (medicamentos y alimentos),2009-07-01,4369.871587,observado
+ANMAT (medicamentos y alimentos),2009-08-01,4457.035684,observado
+ANMAT (medicamentos y alimentos),2009-09-01,4647.590149,observado
+ANMAT (medicamentos y alimentos),2009-10-01,4559.55037,observado
+ANMAT (medicamentos y alimentos),2009-11-01,4473.528713,observado
+ANMAT (medicamentos y alimentos),2009-12-01,12766.528653,observado
+ANMAT (medicamentos y alimentos),2010-01-01,4603.750531,observado
+ANMAT (medicamentos y alimentos),2010-02-01,5468.794106,observado
+ANMAT (medicamentos y alimentos),2010-03-01,4817.658171,observado
+ANMAT (medicamentos y alimentos),2010-04-01,4654.990379,observado
+ANMAT (medicamentos y alimentos),2010-05-01,5057.308718,observado
+ANMAT (medicamentos y alimentos),2010-06-01,7754.500646,observado
+ANMAT (medicamentos y alimentos),2010-07-01,4961.168108,observado
+ANMAT (medicamentos y alimentos),2010-08-01,5431.238808,observado
+ANMAT (medicamentos y alimentos),2010-09-01,6566.360371,observado
+ANMAT (medicamentos y alimentos),2010-10-01,5644.57074,observado
+ANMAT (medicamentos y alimentos),2010-11-01,3795.992019,observado
+ANMAT (medicamentos y alimentos),2010-12-01,10917.055674,observado
+ANMAT (medicamentos y alimentos),2011-01-01,4639.028168,observado
+ANMAT (medicamentos y alimentos),2011-02-01,5443.301033,observado
+ANMAT (medicamentos y alimentos),2011-03-01,6187.325445,observado
+ANMAT (medicamentos y alimentos),2011-04-01,4846.986281,observado
+ANMAT (medicamentos y alimentos),2011-05-01,5261.949002,observado
+ANMAT (medicamentos y alimentos),2011-06-01,8244.475652,observado
+ANMAT (medicamentos y alimentos),2011-07-01,5590.249734,observado
+ANMAT (medicamentos y alimentos),2011-08-01,5744.693427,observado
+ANMAT (medicamentos y alimentos),2011-09-01,5431.482324,observado
+ANMAT (medicamentos y alimentos),2011-10-01,3928.37644,observado
+ANMAT (medicamentos y alimentos),2011-11-01,9530.1804,observado
+ANMAT (medicamentos y alimentos),2011-12-01,12596.210029,observado
+ANMAT (medicamentos y alimentos),2012-01-01,5380.440056,observado
+ANMAT (medicamentos y alimentos),2012-02-01,5361.037036,observado
+ANMAT (medicamentos y alimentos),2012-03-01,6213.668362,observado
+ANMAT (medicamentos y alimentos),2012-04-01,5235.887646,observado
+ANMAT (medicamentos y alimentos),2012-05-01,5450.109805,observado
+ANMAT (medicamentos y alimentos),2012-06-01,8786.083309,observado
+ANMAT (medicamentos y alimentos),2012-07-01,5694.454168,observado
+ANMAT (medicamentos y alimentos),2012-08-01,4309.237731,observado
+ANMAT (medicamentos y alimentos),2012-09-01,7764.822469,observado
+ANMAT (medicamentos y alimentos),2012-10-01,6251.249662,observado
+ANMAT (medicamentos y alimentos),2012-11-01,8275.095917,observado
+ANMAT (medicamentos y alimentos),2012-12-01,17386.287007,observado
+ANMAT (medicamentos y alimentos),2013-01-01,5256.535296,observado
+ANMAT (medicamentos y alimentos),2013-02-01,6105.613334,observado
+ANMAT (medicamentos y alimentos),2013-03-01,5734.357647,observado
+ANMAT (medicamentos y alimentos),2013-04-01,6010.000334,observado
+ANMAT (medicamentos y alimentos),2013-05-01,6239.354624,observado
+ANMAT (medicamentos y alimentos),2013-06-01,9429.988439,observado
+ANMAT (medicamentos y alimentos),2013-07-01,5988.404825,observado
+ANMAT (medicamentos y alimentos),2013-08-01,6828.126174,observado
+ANMAT (medicamentos y alimentos),2013-09-01,5400.698355,observado
+ANMAT (medicamentos y alimentos),2013-10-01,6870.472342,observado
+ANMAT (medicamentos y alimentos),2013-11-01,8369.992357,observado
+ANMAT (medicamentos y alimentos),2013-12-01,17197.587625,observado
+ANMAT (medicamentos y alimentos),2014-01-01,5691.760459,observado
+ANMAT (medicamentos y alimentos),2014-02-01,6440.149896,observado
+ANMAT (medicamentos y alimentos),2014-03-01,6344.321166,observado
+ANMAT (medicamentos y alimentos),2014-04-01,5508.118452,observado
+ANMAT (medicamentos y alimentos),2014-05-01,6323.401124,observado
+ANMAT (medicamentos y alimentos),2014-06-01,8508.501258,observado
+ANMAT (medicamentos y alimentos),2014-07-01,6387.137021,observado
+ANMAT (medicamentos y alimentos),2014-08-01,6817.4449,observado
+ANMAT (medicamentos y alimentos),2014-09-01,5997.970306,observado
+ANMAT (medicamentos y alimentos),2014-10-01,7732.951428,observado
+ANMAT (medicamentos y alimentos),2014-11-01,6435.911158,observado
+ANMAT (medicamentos y alimentos),2014-12-01,17970.928296,observado
+ANMAT (medicamentos y alimentos),2015-01-01,4058.878442,observado
+ANMAT (medicamentos y alimentos),2015-02-01,7847.387868,observado
+ANMAT (medicamentos y alimentos),2015-03-01,6258.877243,observado
+ANMAT (medicamentos y alimentos),2015-04-01,6194.525274,observado
+ANMAT (medicamentos y alimentos),2015-05-01,6291.618566,observado
+ANMAT (medicamentos y alimentos),2015-06-01,10379.191295,observado
+ANMAT (medicamentos y alimentos),2015-07-01,6713.335758,observado
+ANMAT (medicamentos y alimentos),2015-08-01,7577.714032,observado
+ANMAT (medicamentos y alimentos),2015-09-01,7957.756515,observado
+ANMAT (medicamentos y alimentos),2015-10-01,7717.953013,observado
+ANMAT (medicamentos y alimentos),2015-11-01,4884.812529,observado
+ANMAT (medicamentos y alimentos),2015-12-01,22583.420219,observado
+ANMAT (medicamentos y alimentos),2016-01-01,5937.848675,observado
+ANMAT (medicamentos y alimentos),2016-02-01,5869.036365,observado
+ANMAT (medicamentos y alimentos),2016-03-01,8442.843767,observado
+ANMAT (medicamentos y alimentos),2016-04-01,5495.638567,observado
+ANMAT (medicamentos y alimentos),2016-05-01,6286.022555,observado
+ANMAT (medicamentos y alimentos),2016-06-01,9733.750349,observado
+ANMAT (medicamentos y alimentos),2016-07-01,6967.878894,observado
+ANMAT (medicamentos y alimentos),2016-08-01,7582.688171,observado
+ANMAT (medicamentos y alimentos),2016-09-01,7509.715497,observado
+ANMAT (medicamentos y alimentos),2016-10-01,6978.704467,observado
+ANMAT (medicamentos y alimentos),2016-11-01,6686.876419,observado
+ANMAT (medicamentos y alimentos),2016-12-01,16732.148923,observado
+ANMAT (medicamentos y alimentos),2017-01-01,5944.206705,observado
+ANMAT (medicamentos y alimentos),2017-02-01,6630.232823,observado
+ANMAT (medicamentos y alimentos),2017-03-01,7343.920984,observado
+ANMAT (medicamentos y alimentos),2017-04-01,6249.340654,observado
+ANMAT (medicamentos y alimentos),2017-05-01,6476.262424,observado
+ANMAT (medicamentos y alimentos),2017-06-01,10501.536493,observado
+ANMAT (medicamentos y alimentos),2017-07-01,5608.541038,observado
+ANMAT (medicamentos y alimentos),2017-08-01,7001.13951,observado
+ANMAT (medicamentos y alimentos),2017-09-01,7682.665299,observado
+ANMAT (medicamentos y alimentos),2017-10-01,6747.119366,observado
+ANMAT (medicamentos y alimentos),2017-11-01,7205.772586,observado
+ANMAT (medicamentos y alimentos),2017-12-01,17459.676032,observado
+ANMAT (medicamentos y alimentos),2018-01-01,5351.168028,observado
+ANMAT (medicamentos y alimentos),2018-02-01,6649.362385,observado
+ANMAT (medicamentos y alimentos),2018-03-01,5627.632649,observado
+ANMAT (medicamentos y alimentos),2018-04-01,5233.221803,observado
+ANMAT (medicamentos y alimentos),2018-05-01,6004.583632,observado
+ANMAT (medicamentos y alimentos),2018-06-01,8478.850696,observado
+ANMAT (medicamentos y alimentos),2018-07-01,5538.30336,observado
+ANMAT (medicamentos y alimentos),2018-08-01,6506.236663,observado
+ANMAT (medicamentos y alimentos),2018-09-01,5664.361249,observado
+ANMAT (medicamentos y alimentos),2018-10-01,6824.868717,observado
+ANMAT (medicamentos y alimentos),2018-11-01,8041.986328,observado
+ANMAT (medicamentos y alimentos),2018-12-01,12828.171236,observado
+ANMAT (medicamentos y alimentos),2019-01-01,3474.502707,observado
+ANMAT (medicamentos y alimentos),2019-02-01,6270.914271,observado
+ANMAT (medicamentos y alimentos),2019-03-01,5227.151796,observado
+ANMAT (medicamentos y alimentos),2019-04-01,4855.315373,observado
+ANMAT (medicamentos y alimentos),2019-05-01,4492.253538,observado
+ANMAT (medicamentos y alimentos),2019-06-01,6501.692286,observado
+ANMAT (medicamentos y alimentos),2019-07-01,5677.164405,observado
+ANMAT (medicamentos y alimentos),2019-08-01,6606.155501,observado
+ANMAT (medicamentos y alimentos),2019-09-01,5686.647829,observado
+ANMAT (medicamentos y alimentos),2019-10-01,5104.275651,observado
+ANMAT (medicamentos y alimentos),2019-11-01,5136.459644,observado
+ANMAT (medicamentos y alimentos),2019-12-01,12779.736783,observado
+ANMAT (medicamentos y alimentos),2020-01-01,3690.56375,observado
+ANMAT (medicamentos y alimentos),2020-02-01,5102.586768,observado
+ANMAT (medicamentos y alimentos),2020-03-01,5136.519294,observado
+ANMAT (medicamentos y alimentos),2020-04-01,4803.280496,observado
+ANMAT (medicamentos y alimentos),2020-05-01,4523.43312,observado
+ANMAT (medicamentos y alimentos),2020-06-01,6531.482934,observado
+ANMAT (medicamentos y alimentos),2020-07-01,4698.829457,observado
+ANMAT (medicamentos y alimentos),2020-08-01,4306.936016,observado
+ANMAT (medicamentos y alimentos),2020-09-01,4767.439404,observado
+ANMAT (medicamentos y alimentos),2020-10-01,4768.072455,observado
+ANMAT (medicamentos y alimentos),2020-11-01,4516.755186,observado
+ANMAT (medicamentos y alimentos),2020-12-01,9470.459249,observado
+ANMAT (medicamentos y alimentos),2021-01-01,3766.59233,observado
+ANMAT (medicamentos y alimentos),2021-02-01,4065.224036,observado
+ANMAT (medicamentos y alimentos),2021-03-01,5060.631145,observado
+ANMAT (medicamentos y alimentos),2021-04-01,4468.784863,observado
+ANMAT (medicamentos y alimentos),2021-05-01,4368.212386,observado
+ANMAT (medicamentos y alimentos),2021-06-01,7527.221278,observado
+ANMAT (medicamentos y alimentos),2021-07-01,4942.071058,observado
+ANMAT (medicamentos y alimentos),2021-08-01,5962.069143,observado
+ANMAT (medicamentos y alimentos),2021-09-01,6151.360066,observado
+ANMAT (medicamentos y alimentos),2021-10-01,6026.180507,observado
+ANMAT (medicamentos y alimentos),2021-11-01,6041.730511,observado
+ANMAT (medicamentos y alimentos),2021-12-01,11599.740809,observado
+ANMAT (medicamentos y alimentos),2022-01-01,4779.060824,observado
+ANMAT (medicamentos y alimentos),2022-02-01,5314.425975,observado
+ANMAT (medicamentos y alimentos),2022-03-01,6131.010938,observado
+ANMAT (medicamentos y alimentos),2022-04-01,5418.16075,observado
+ANMAT (medicamentos y alimentos),2022-05-01,5442.82226,observado
+ANMAT (medicamentos y alimentos),2022-06-01,8202.200376,observado
+ANMAT (medicamentos y alimentos),2022-07-01,3675.645578,observado
+ANMAT (medicamentos y alimentos),2022-08-01,8661.008025,observado
+ANMAT (medicamentos y alimentos),2022-09-01,5776.653284,observado
+ANMAT (medicamentos y alimentos),2022-10-01,5773.126472,observado
+ANMAT (medicamentos y alimentos),2022-11-01,6955.968687,observado
+ANMAT (medicamentos y alimentos),2022-12-01,10257.390402,observado
+ANMAT (medicamentos y alimentos),2023-01-01,4959.287651,observado
+ANMAT (medicamentos y alimentos),2023-02-01,4967.935262,observado
+ANMAT (medicamentos y alimentos),2023-03-01,8437.357155,observado
+ANMAT (medicamentos y alimentos),2023-04-01,6219.903781,observado
+ANMAT (medicamentos y alimentos),2023-05-01,6372.89238,observado
+ANMAT (medicamentos y alimentos),2023-06-01,9214.807922,observado
+ANMAT (medicamentos y alimentos),2023-07-01,6439.792528,observado
+ANMAT (medicamentos y alimentos),2023-08-01,7079.151369,observado
+ANMAT (medicamentos y alimentos),2023-09-01,6545.635356,observado
+ANMAT (medicamentos y alimentos),2023-10-01,7337.433269,observado
+ANMAT (medicamentos y alimentos),2023-11-01,5115.015925,observado
+ANMAT (medicamentos y alimentos),2023-12-01,10252.770661,observado
+ANMAT (medicamentos y alimentos),2024-01-01,5169.843,observado
+ANMAT (medicamentos y alimentos),2024-02-01,5639.7094,observado
+ANMAT (medicamentos y alimentos),2024-03-01,5043.75158,observado
+ANMAT (medicamentos y alimentos),2024-04-01,5381.08894,observado
+ANMAT (medicamentos y alimentos),2024-05-01,5239.032377,observado
+ANMAT (medicamentos y alimentos),2024-06-01,7312.156183,observado
+ANMAT (medicamentos y alimentos),2024-07-01,5357.324548,observado
+ANMAT (medicamentos y alimentos),2024-08-01,5350.500376,observado
+ANMAT (medicamentos y alimentos),2024-09-01,5303.017082,observado
+ANMAT (medicamentos y alimentos),2024-10-01,5240.235882,observado
+ANMAT (medicamentos y alimentos),2024-11-01,6646.595912,observado
+ANMAT (medicamentos y alimentos),2024-12-01,9771.850998,observado
+ANMAT (medicamentos y alimentos),2025-01-01,4118.491511,observado
+ANMAT (medicamentos y alimentos),2025-02-01,5011.734722,observado
+ANMAT (medicamentos y alimentos),2025-03-01,5513.400051,observado
+ANMAT (medicamentos y alimentos),2025-04-01,4653.446784,observado
+ANMAT (medicamentos y alimentos),2025-05-01,3601.151585,observado
+ANMAT (medicamentos y alimentos),2025-06-01,7619.294026,observado
+ANMAT (medicamentos y alimentos),2025-07-01,4460.888292,observado
+ANMAT (medicamentos y alimentos),2025-08-01,4767.604207,observado
+ANMAT (medicamentos y alimentos),2025-09-01,4225.502157,observado
+ANMAT (medicamentos y alimentos),2025-10-01,5116.37879,observado
+ANMAT (medicamentos y alimentos),2025-11-01,3534.360521,observado
+ANMAT (medicamentos y alimentos),2025-12-01,11846.747548,observado
+ANMAT (medicamentos y alimentos),2026-01-01,2178.634961,observado
+ANMAT (medicamentos y alimentos),2026-02-01,3801.111524,observado
+ANMAT (medicamentos y alimentos),2026-03-01,6394.911561,observado
+ANMAT (medicamentos y alimentos),2026-04-01,3526.643225,observado
+ANMAT (medicamentos y alimentos),2026-05-01,2387.977797,observado
+ANMAT (medicamentos y alimentos),2026-06-01,6946.161698,observado
+ANMAT (medicamentos y alimentos),2026-07-01,4535.014352,observado
+ANMAT (medicamentos y alimentos),2026-08-01,3596.816035,observado
+ANMAT (medicamentos y alimentos),2026-09-01,5912.240427,observado
+ANMAT (medicamentos y alimentos),2026-10-01,4553.41604,observado
