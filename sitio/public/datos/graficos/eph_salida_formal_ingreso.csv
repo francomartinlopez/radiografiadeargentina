@@ -1,0 +1,25 @@
+categoria,valor,periodo,variante,casos
+Siguió formal,-1.3,completo,promedio,43741
+Siguió formal,-1.7,completo,mediana,43741
+Pasó al sector público,-1.8,completo,promedio,2628
+Pasó al sector público,-5.3,completo,mediana,2628
+Pasó a empleo en negro,-15.9,completo,promedio,3661
+Pasó a empleo en negro,-20.2,completo,mediana,3661
+Pasó a cuenta propia,-27.7,completo,promedio,1488
+Pasó a cuenta propia,-35.5,completo,mediana,1488
+Quedó desocupado,-61.2,completo,promedio,1221
+Quedó desocupado,-100.0,completo,mediana,1221
+Salió del mercado laboral,-61.1,completo,promedio,2276
+Salió del mercado laboral,-100.0,completo,mediana,2276
+Siguió formal,11.2,mandato,promedio,6178
+Siguió formal,8.1,mandato,mediana,6178
+Pasó al sector público,10.4,mandato,promedio,302
+Pasó al sector público,-0.1,mandato,mediana,302
+Pasó a empleo en negro,6.8,mandato,promedio,572
+Pasó a empleo en negro,-5.1,mandato,mediana,572
+Pasó a cuenta propia,-14.5,mandato,promedio,233
+Pasó a cuenta propia,-25.9,mandato,mediana,233
+Quedó desocupado,-70.1,mandato,promedio,218
+Quedó desocupado,-100.0,mandato,mediana,218
+Salió del mercado laboral,-27.8,mandato,promedio,285
+Salió del mercado laboral,-100.0,mandato,mediana,285

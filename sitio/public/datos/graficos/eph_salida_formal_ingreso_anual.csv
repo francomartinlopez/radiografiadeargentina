@@ -1,0 +1,409 @@
+serie,fecha,valor,tramo
+Siguió formal,2017-02-01,3.4,observado
+Siguió formal,2017-05-01,2.0,observado
+Siguió formal,2017-08-01,-1.1,observado
+Siguió formal,2017-11-01,-6.1,observado
+Siguió formal,2018-02-01,-10.2,observado
+Siguió formal,2018-05-01,-13.1,observado
+Siguió formal,2018-08-01,-13.2,observado
+Siguió formal,2018-11-01,-11.2,observado
+Siguió formal,2019-02-01,-8.2,observado
+Siguió formal,2019-05-01,-5.6,observado
+Siguió formal,2019-08-01,-5.3,observado
+Siguió formal,2019-11-01,-5.1,observado
+Siguió formal,2020-02-01,-7.0,observado
+Siguió formal,2020-05-01,-8.0,observado
+Siguió formal,2020-08-01,-6.0,observado
+Siguió formal,2020-11-01,-4.1,observado
+Siguió formal,2021-02-01,0.8,observado
+Siguió formal,2021-05-01,3.6,observado
+Siguió formal,2021-08-01,3.0,observado
+Siguió formal,2021-11-01,0.7,observado
+Siguió formal,2022-02-01,-2.4,observado
+Siguió formal,2022-05-01,-4.2,observado
+Siguió formal,2022-08-01,-2.9,observado
+Siguió formal,2022-11-01,-1.6,observado
+Siguió formal,2023-02-01,-3.8,observado
+Siguió formal,2023-05-01,-6.2,observado
+Siguió formal,2023-08-01,-6.3,observado
+Siguió formal,2023-11-01,-2.2,observado
+Siguió formal,2024-02-01,9.0,observado
+Siguió formal,2024-05-01,18.3,observado
+Siguió formal,2024-08-01,21.3,observado
+Siguió formal,2024-11-01,18.1,observado
+Siguió formal,2025-02-01,9.7,observado
+Siguió formal,2025-05-01,3.7,observado
+Pasó al sector público,2017-02-01,6.2,observado
+Pasó al sector público,2017-05-01,3.2,observado
+Pasó al sector público,2017-08-01,-1.8,observado
+Pasó al sector público,2017-11-01,-4.3,observado
+Pasó al sector público,2018-02-01,-12.0,observado
+Pasó al sector público,2018-05-01,-16.1,observado
+Pasó al sector público,2018-08-01,-14.0,observado
+Pasó al sector público,2018-11-01,-13.1,observado
+Pasó al sector público,2019-02-01,-7.5,observado
+Pasó al sector público,2019-05-01,-6.9,observado
+Pasó al sector público,2019-08-01,-5.9,observado
+Pasó al sector público,2019-11-01,-4.1,observado
+Pasó al sector público,2020-02-01,-7.6,observado
+Pasó al sector público,2020-05-01,-5.9,observado
+Pasó al sector público,2020-08-01,-8.4,observado
+Pasó al sector público,2020-11-01,-2.8,observado
+Pasó al sector público,2021-02-01,3.9,observado
+Pasó al sector público,2021-05-01,9.8,observado
+Pasó al sector público,2021-08-01,14.8,observado
+Pasó al sector público,2021-11-01,3.0,observado
+Pasó al sector público,2022-02-01,1.4,observado
+Pasó al sector público,2022-05-01,-1.8,observado
+Pasó al sector público,2022-08-01,-5.4,observado
+Pasó al sector público,2022-11-01,-3.8,observado
+Pasó al sector público,2023-02-01,-9.0,observado
+Pasó al sector público,2023-05-01,-10.2,observado
+Pasó al sector público,2023-08-01,-9.1,observado
+Pasó al sector público,2023-11-01,-9.7,observado
+Pasó al sector público,2024-02-01,-3.2,observado
+Pasó al sector público,2024-05-01,4.4,observado
+Pasó al sector público,2024-08-01,7.2,observado
+Pasó al sector público,2024-11-01,9.5,observado
+Pasó al sector público,2025-02-01,10.6,observado
+Pasó al sector público,2025-05-01,4.2,observado
+Pasó a empleo en negro,2017-02-01,-20.3,observado
+Pasó a empleo en negro,2017-05-01,-12.8,observado
+Pasó a empleo en negro,2017-08-01,-10.4,observado
+Pasó a empleo en negro,2017-11-01,-12.9,observado
+Pasó a empleo en negro,2018-02-01,-15.1,observado
+Pasó a empleo en negro,2018-05-01,-28.0,observado
+Pasó a empleo en negro,2018-08-01,-29.3,observado
+Pasó a empleo en negro,2018-11-01,-27.8,observado
+Pasó a empleo en negro,2019-02-01,-25.4,observado
+Pasó a empleo en negro,2019-05-01,-22.6,observado
+Pasó a empleo en negro,2019-08-01,-22.6,observado
+Pasó a empleo en negro,2019-11-01,-18.2,observado
+Pasó a empleo en negro,2020-02-01,-19.2,observado
+Pasó a empleo en negro,2020-05-01,-19.6,observado
+Pasó a empleo en negro,2020-08-01,-17.9,observado
+Pasó a empleo en negro,2020-11-01,-25.3,observado
+Pasó a empleo en negro,2021-02-01,-22.2,observado
+Pasó a empleo en negro,2021-05-01,-20.0,observado
+Pasó a empleo en negro,2021-08-01,-18.0,observado
+Pasó a empleo en negro,2021-11-01,-17.3,observado
+Pasó a empleo en negro,2022-02-01,-18.0,observado
+Pasó a empleo en negro,2022-05-01,-19.1,observado
+Pasó a empleo en negro,2022-08-01,-18.8,observado
+Pasó a empleo en negro,2022-11-01,-19.4,observado
+Pasó a empleo en negro,2023-02-01,-20.9,observado
+Pasó a empleo en negro,2023-05-01,-24.7,observado
+Pasó a empleo en negro,2023-08-01,-24.9,observado
+Pasó a empleo en negro,2023-11-01,-24.7,observado
+Pasó a empleo en negro,2024-02-01,-5.3,observado
+Pasó a empleo en negro,2024-05-01,7.9,observado
+Pasó a empleo en negro,2024-08-01,13.7,observado
+Pasó a empleo en negro,2024-11-01,20.6,observado
+Pasó a empleo en negro,2025-02-01,-1.4,observado
+Pasó a empleo en negro,2025-05-01,-4.7,observado
+Pasó a cuenta propia,2017-02-01,-15.0,observado
+Pasó a cuenta propia,2017-05-01,-14.3,observado
+Pasó a cuenta propia,2017-08-01,-19.0,observado
+Pasó a cuenta propia,2017-11-01,-23.0,observado
+Pasó a cuenta propia,2018-02-01,-29.1,observado
+Pasó a cuenta propia,2018-05-01,-30.5,observado
+Pasó a cuenta propia,2018-08-01,-34.8,observado
+Pasó a cuenta propia,2018-11-01,-31.7,observado
+Pasó a cuenta propia,2019-02-01,-31.4,observado
+Pasó a cuenta propia,2019-05-01,-32.8,observado
+Pasó a cuenta propia,2019-08-01,-30.4,observado
+Pasó a cuenta propia,2019-11-01,-36.2,observado
+Pasó a cuenta propia,2020-02-01,-37.2,observado
+Pasó a cuenta propia,2020-05-01,-37.1,observado
+Pasó a cuenta propia,2020-08-01,-37.6,observado
+Pasó a cuenta propia,2020-11-01,-42.0,observado
+Pasó a cuenta propia,2021-02-01,-44.2,observado
+Pasó a cuenta propia,2021-05-01,-43.6,observado
+Pasó a cuenta propia,2021-08-01,-45.1,observado
+Pasó a cuenta propia,2021-11-01,-38.5,observado
+Pasó a cuenta propia,2022-02-01,-29.9,observado
+Pasó a cuenta propia,2022-05-01,-29.0,observado
+Pasó a cuenta propia,2022-08-01,-21.9,observado
+Pasó a cuenta propia,2022-11-01,-28.1,observado
+Pasó a cuenta propia,2023-02-01,-38.0,observado
+Pasó a cuenta propia,2023-05-01,-46.1,observado
+Pasó a cuenta propia,2023-08-01,-41.4,observado
+Pasó a cuenta propia,2023-11-01,-35.3,observado
+Pasó a cuenta propia,2024-02-01,-25.1,observado
+Pasó a cuenta propia,2024-05-01,-14.3,observado
+Pasó a cuenta propia,2024-08-01,-16.6,observado
+Pasó a cuenta propia,2024-11-01,-9.3,observado
+Pasó a cuenta propia,2025-02-01,-13.1,observado
+Pasó a cuenta propia,2025-05-01,-17.8,observado
+Quedó desocupado,2017-02-01,-63.3,observado
+Quedó desocupado,2017-05-01,-66.9,observado
+Quedó desocupado,2017-08-01,-68.6,observado
+Quedó desocupado,2017-11-01,-70.2,observado
+Quedó desocupado,2018-02-01,-59.6,observado
+Quedó desocupado,2018-05-01,-63.4,observado
+Quedó desocupado,2018-08-01,-60.9,observado
+Quedó desocupado,2018-11-01,-59.1,observado
+Quedó desocupado,2019-02-01,-66.4,observado
+Quedó desocupado,2019-05-01,-63.0,observado
+Quedó desocupado,2019-08-01,-64.5,observado
+Quedó desocupado,2019-11-01,-71.9,observado
+Quedó desocupado,2020-02-01,-73.1,observado
+Quedó desocupado,2020-05-01,-74.6,observado
+Quedó desocupado,2020-08-01,-80.9,pocos_casos
+Quedó desocupado,2020-11-01,-87.4,pocos_casos
+Quedó desocupado,2021-02-01,-92.6,pocos_casos
+Quedó desocupado,2021-05-01,-84.2,pocos_casos
+Quedó desocupado,2021-08-01,-26.4,pocos_casos
+Quedó desocupado,2021-11-01,-23.9,pocos_casos
+Quedó desocupado,2022-02-01,20.4,pocos_casos
+Quedó desocupado,2022-05-01,-0.9,pocos_casos
+Quedó desocupado,2022-08-01,-46.8,pocos_casos
+Quedó desocupado,2022-11-01,-34.6,pocos_casos
+Quedó desocupado,2023-02-01,-61.3,pocos_casos
+Quedó desocupado,2023-05-01,-60.6,pocos_casos
+Quedó desocupado,2023-08-01,-66.8,observado
+Quedó desocupado,2023-11-01,-49.7,observado
+Quedó desocupado,2024-02-01,-53.3,observado
+Quedó desocupado,2024-05-01,-56.0,observado
+Quedó desocupado,2024-08-01,-54.3,observado
+Quedó desocupado,2024-11-01,-78.0,observado
+Quedó desocupado,2025-02-01,-73.5,observado
+Quedó desocupado,2025-05-01,-65.5,observado
+Salió del mercado laboral,2017-02-01,-54.1,observado
+Salió del mercado laboral,2017-05-01,-57.7,observado
+Salió del mercado laboral,2017-08-01,-61.3,observado
+Salió del mercado laboral,2017-11-01,-57.1,observado
+Salió del mercado laboral,2018-02-01,-65.6,observado
+Salió del mercado laboral,2018-05-01,-64.1,observado
+Salió del mercado laboral,2018-08-01,-65.5,observado
+Salió del mercado laboral,2018-11-01,-64.8,observado
+Salió del mercado laboral,2019-02-01,-55.8,observado
+Salió del mercado laboral,2019-05-01,-55.1,observado
+Salió del mercado laboral,2019-08-01,-56.4,observado
+Salió del mercado laboral,2019-11-01,-60.7,observado
+Salió del mercado laboral,2020-02-01,-71.1,observado
+Salió del mercado laboral,2020-05-01,-72.7,observado
+Salió del mercado laboral,2020-08-01,-65.5,observado
+Salió del mercado laboral,2020-11-01,-63.1,observado
+Salió del mercado laboral,2021-02-01,-69.6,observado
+Salió del mercado laboral,2021-05-01,-71.3,observado
+Salió del mercado laboral,2021-08-01,-76.7,observado
+Salió del mercado laboral,2021-11-01,-73.1,observado
+Salió del mercado laboral,2022-02-01,-71.2,observado
+Salió del mercado laboral,2022-05-01,-72.6,observado
+Salió del mercado laboral,2022-08-01,-76.9,observado
+Salió del mercado laboral,2022-11-01,-79.2,observado
+Salió del mercado laboral,2023-02-01,-81.2,observado
+Salió del mercado laboral,2023-05-01,-84.4,observado
+Salió del mercado laboral,2023-08-01,-80.4,observado
+Salió del mercado laboral,2023-11-01,-80.4,observado
+Salió del mercado laboral,2024-02-01,-74.3,observado
+Salió del mercado laboral,2024-05-01,-5.3,observado
+Salió del mercado laboral,2024-08-01,-3.1,observado
+Salió del mercado laboral,2024-11-01,13.6,observado
+Salió del mercado laboral,2025-02-01,-2.5,observado
+Salió del mercado laboral,2025-05-01,-68.9,observado
+Siguió formal,2017-02-01,5.0,observado
+Siguió formal,2017-05-01,5.3,observado
+Siguió formal,2017-08-01,-0.7,observado
+Siguió formal,2017-11-01,-2.5,observado
+Siguió formal,2018-02-01,-9.2,observado
+Siguió formal,2018-05-01,-12.2,observado
+Siguió formal,2018-08-01,-12.9,observado
+Siguió formal,2018-11-01,-12.0,observado
+Siguió formal,2019-02-01,-10.4,observado
+Siguió formal,2019-05-01,-8.9,observado
+Siguió formal,2019-08-01,-3.6,observado
+Siguió formal,2019-11-01,-5.3,observado
+Siguió formal,2020-02-01,-7.7,observado
+Siguió formal,2020-05-01,-7.0,observado
+Siguió formal,2020-08-01,-4.0,observado
+Siguió formal,2020-11-01,-1.2,observado
+Siguió formal,2021-02-01,-0.8,observado
+Siguió formal,2021-05-01,-0.3,observado
+Siguió formal,2021-08-01,-0.8,observado
+Siguió formal,2021-11-01,1.4,observado
+Siguió formal,2022-02-01,-1.2,observado
+Siguió formal,2022-05-01,-0.5,observado
+Siguió formal,2022-08-01,-1.5,observado
+Siguió formal,2022-11-01,-0.8,observado
+Siguió formal,2023-02-01,-7.9,observado
+Siguió formal,2023-05-01,-7.1,observado
+Siguió formal,2023-08-01,-5.6,observado
+Siguió formal,2023-11-01,-1.7,observado
+Siguió formal,2024-02-01,13.2,observado
+Siguió formal,2024-05-01,16.8,observado
+Siguió formal,2024-08-01,18.4,observado
+Siguió formal,2024-11-01,13.1,observado
+Siguió formal,2025-02-01,2.8,observado
+Siguió formal,2025-05-01,-0.4,observado
+Pasó al sector público,2017-02-01,12.1,observado
+Pasó al sector público,2017-05-01,14.3,observado
+Pasó al sector público,2017-08-01,2.8,observado
+Pasó al sector público,2017-11-01,-7.5,observado
+Pasó al sector público,2018-02-01,-11.5,observado
+Pasó al sector público,2018-05-01,-11.8,observado
+Pasó al sector público,2018-08-01,-14.7,observado
+Pasó al sector público,2018-11-01,-10.3,observado
+Pasó al sector público,2019-02-01,-9.8,observado
+Pasó al sector público,2019-05-01,-2.4,observado
+Pasó al sector público,2019-08-01,-2.4,observado
+Pasó al sector público,2019-11-01,-11.2,observado
+Pasó al sector público,2020-02-01,-5.3,observado
+Pasó al sector público,2020-05-01,-0.5,observado
+Pasó al sector público,2020-08-01,0.8,observado
+Pasó al sector público,2020-11-01,0.3,observado
+Pasó al sector público,2021-02-01,5.0,observado
+Pasó al sector público,2021-05-01,8.9,observado
+Pasó al sector público,2021-08-01,7.4,observado
+Pasó al sector público,2021-11-01,6.0,observado
+Pasó al sector público,2022-02-01,-1.6,observado
+Pasó al sector público,2022-05-01,-4.0,observado
+Pasó al sector público,2022-08-01,-8.5,observado
+Pasó al sector público,2022-11-01,-8.2,observado
+Pasó al sector público,2023-02-01,-10.9,observado
+Pasó al sector público,2023-05-01,-8.0,observado
+Pasó al sector público,2023-08-01,-18.3,observado
+Pasó al sector público,2023-11-01,-7.2,observado
+Pasó al sector público,2024-02-01,-3.5,observado
+Pasó al sector público,2024-05-01,5.6,observado
+Pasó al sector público,2024-08-01,7.0,observado
+Pasó al sector público,2024-11-01,-0.1,observado
+Pasó al sector público,2025-02-01,-4.8,observado
+Pasó al sector público,2025-05-01,-12.4,observado
+Pasó a empleo en negro,2017-02-01,-18.3,observado
+Pasó a empleo en negro,2017-05-01,-15.0,observado
+Pasó a empleo en negro,2017-08-01,-17.8,observado
+Pasó a empleo en negro,2017-11-01,-20.0,observado
+Pasó a empleo en negro,2018-02-01,-21.6,observado
+Pasó a empleo en negro,2018-05-01,-28.4,observado
+Pasó a empleo en negro,2018-08-01,-31.0,observado
+Pasó a empleo en negro,2018-11-01,-29.7,observado
+Pasó a empleo en negro,2019-02-01,-25.5,observado
+Pasó a empleo en negro,2019-05-01,-19.1,observado
+Pasó a empleo en negro,2019-08-01,-23.2,observado
+Pasó a empleo en negro,2019-11-01,-23.5,observado
+Pasó a empleo en negro,2020-02-01,-26.4,observado
+Pasó a empleo en negro,2020-05-01,-35.4,observado
+Pasó a empleo en negro,2020-08-01,-26.0,observado
+Pasó a empleo en negro,2020-11-01,-24.9,observado
+Pasó a empleo en negro,2021-02-01,-17.5,observado
+Pasó a empleo en negro,2021-05-01,-22.4,observado
+Pasó a empleo en negro,2021-08-01,-21.3,observado
+Pasó a empleo en negro,2021-11-01,-23.0,observado
+Pasó a empleo en negro,2022-02-01,-29.6,observado
+Pasó a empleo en negro,2022-05-01,-20.7,observado
+Pasó a empleo en negro,2022-08-01,-16.5,observado
+Pasó a empleo en negro,2022-11-01,-20.4,observado
+Pasó a empleo en negro,2023-02-01,-19.3,observado
+Pasó a empleo en negro,2023-05-01,-35.7,observado
+Pasó a empleo en negro,2023-08-01,-36.2,observado
+Pasó a empleo en negro,2023-11-01,-31.1,observado
+Pasó a empleo en negro,2024-02-01,-24.8,observado
+Pasó a empleo en negro,2024-05-01,-7.7,observado
+Pasó a empleo en negro,2024-08-01,11.1,observado
+Pasó a empleo en negro,2024-11-01,12.3,observado
+Pasó a empleo en negro,2025-02-01,-0.9,observado
+Pasó a empleo en negro,2025-05-01,-8.6,observado
+Pasó a cuenta propia,2017-02-01,-9.0,observado
+Pasó a cuenta propia,2017-05-01,1.7,observado
+Pasó a cuenta propia,2017-08-01,-18.4,observado
+Pasó a cuenta propia,2017-11-01,-17.8,observado
+Pasó a cuenta propia,2018-02-01,-25.6,observado
+Pasó a cuenta propia,2018-05-01,-29.2,observado
+Pasó a cuenta propia,2018-08-01,-35.3,observado
+Pasó a cuenta propia,2018-11-01,-34.1,observado
+Pasó a cuenta propia,2019-02-01,-33.5,observado
+Pasó a cuenta propia,2019-05-01,-38.4,observado
+Pasó a cuenta propia,2019-08-01,-46.0,observado
+Pasó a cuenta propia,2019-11-01,-50.1,observado
+Pasó a cuenta propia,2020-02-01,-51.9,observado
+Pasó a cuenta propia,2020-05-01,-46.1,observado
+Pasó a cuenta propia,2020-08-01,-47.4,observado
+Pasó a cuenta propia,2020-11-01,-57.1,observado
+Pasó a cuenta propia,2021-02-01,-53.4,observado
+Pasó a cuenta propia,2021-05-01,-50.7,observado
+Pasó a cuenta propia,2021-08-01,-43.6,observado
+Pasó a cuenta propia,2021-11-01,-44.0,observado
+Pasó a cuenta propia,2022-02-01,-38.3,observado
+Pasó a cuenta propia,2022-05-01,-33.9,observado
+Pasó a cuenta propia,2022-08-01,-25.7,observado
+Pasó a cuenta propia,2022-11-01,-25.0,observado
+Pasó a cuenta propia,2023-02-01,-33.5,observado
+Pasó a cuenta propia,2023-05-01,-46.9,observado
+Pasó a cuenta propia,2023-08-01,-53.1,observado
+Pasó a cuenta propia,2023-11-01,-50.5,observado
+Pasó a cuenta propia,2024-02-01,-43.9,observado
+Pasó a cuenta propia,2024-05-01,-26.2,observado
+Pasó a cuenta propia,2024-08-01,-24.2,observado
+Pasó a cuenta propia,2024-11-01,-16.1,observado
+Pasó a cuenta propia,2025-02-01,-26.1,observado
+Pasó a cuenta propia,2025-05-01,-34.8,observado
+Quedó desocupado,2017-02-01,-100.0,observado
+Quedó desocupado,2017-05-01,-100.0,observado
+Quedó desocupado,2017-08-01,-100.0,observado
+Quedó desocupado,2017-11-01,-100.0,observado
+Quedó desocupado,2018-02-01,-100.0,observado
+Quedó desocupado,2018-05-01,-100.0,observado
+Quedó desocupado,2018-08-01,-100.0,observado
+Quedó desocupado,2018-11-01,-100.0,observado
+Quedó desocupado,2019-02-01,-100.0,observado
+Quedó desocupado,2019-05-01,-100.0,observado
+Quedó desocupado,2019-08-01,-100.0,observado
+Quedó desocupado,2019-11-01,-100.0,observado
+Quedó desocupado,2020-02-01,-100.0,observado
+Quedó desocupado,2020-05-01,-100.0,observado
+Quedó desocupado,2020-08-01,-100.0,pocos_casos
+Quedó desocupado,2020-11-01,-100.0,pocos_casos
+Quedó desocupado,2021-02-01,-100.0,pocos_casos
+Quedó desocupado,2021-05-01,-100.0,pocos_casos
+Quedó desocupado,2021-08-01,-100.0,pocos_casos
+Quedó desocupado,2021-11-01,-100.0,pocos_casos
+Quedó desocupado,2022-02-01,-100.0,pocos_casos
+Quedó desocupado,2022-05-01,-100.0,pocos_casos
+Quedó desocupado,2022-08-01,-100.0,pocos_casos
+Quedó desocupado,2022-11-01,-100.0,pocos_casos
+Quedó desocupado,2023-02-01,-100.0,pocos_casos
+Quedó desocupado,2023-05-01,-100.0,pocos_casos
+Quedó desocupado,2023-08-01,-100.0,observado
+Quedó desocupado,2023-11-01,-100.0,observado
+Quedó desocupado,2024-02-01,-100.0,observado
+Quedó desocupado,2024-05-01,-100.0,observado
+Quedó desocupado,2024-08-01,-100.0,observado
+Quedó desocupado,2024-11-01,-100.0,observado
+Quedó desocupado,2025-02-01,-100.0,observado
+Quedó desocupado,2025-05-01,-100.0,observado
+Salió del mercado laboral,2017-02-01,-75.0,observado
+Salió del mercado laboral,2017-05-01,-92.8,observado
+Salió del mercado laboral,2017-08-01,-100.0,observado
+Salió del mercado laboral,2017-11-01,-100.0,observado
+Salió del mercado laboral,2018-02-01,-100.0,observado
+Salió del mercado laboral,2018-05-01,-100.0,observado
+Salió del mercado laboral,2018-08-01,-100.0,observado
+Salió del mercado laboral,2018-11-01,-100.0,observado
+Salió del mercado laboral,2019-02-01,-100.0,observado
+Salió del mercado laboral,2019-05-01,-100.0,observado
+Salió del mercado laboral,2019-08-01,-100.0,observado
+Salió del mercado laboral,2019-11-01,-90.7,observado
+Salió del mercado laboral,2020-02-01,-92.4,observado
+Salió del mercado laboral,2020-05-01,-93.5,observado
+Salió del mercado laboral,2020-08-01,-88.0,observado
+Salió del mercado laboral,2020-11-01,-92.8,observado
+Salió del mercado laboral,2021-02-01,-100.0,observado
+Salió del mercado laboral,2021-05-01,-100.0,observado
+Salió del mercado laboral,2021-08-01,-100.0,observado
+Salió del mercado laboral,2021-11-01,-100.0,observado
+Salió del mercado laboral,2022-02-01,-100.0,observado
+Salió del mercado laboral,2022-05-01,-100.0,observado
+Salió del mercado laboral,2022-08-01,-100.0,observado
+Salió del mercado laboral,2022-11-01,-100.0,observado
+Salió del mercado laboral,2023-02-01,-100.0,observado
+Salió del mercado laboral,2023-05-01,-100.0,observado
+Salió del mercado laboral,2023-08-01,-100.0,observado
+Salió del mercado laboral,2023-11-01,-100.0,observado
+Salió del mercado laboral,2024-02-01,-100.0,observado
+Salió del mercado laboral,2024-05-01,-100.0,observado
+Salió del mercado laboral,2024-08-01,-100.0,observado
+Salió del mercado laboral,2024-11-01,-100.0,observado
+Salió del mercado laboral,2025-02-01,-100.0,observado
+Salió del mercado laboral,2025-05-01,-100.0,observado

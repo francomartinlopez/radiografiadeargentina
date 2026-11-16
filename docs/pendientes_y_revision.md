@@ -4,6 +4,7 @@ Actualizado el 7/11/2026. Inventario: 305 con gráfico, 174 sin fuente, 0 pendie
 
 ## 1. A revisar o corregir (hechos con datos parciales)
 
+- **Cambios de empleo e ingresos (7 gráficos eph_*, extra, no están en el documento original):** panel de la EPH desde 2016. Revisar en la próxima actualización con trimestre nuevo de INDEC que el recálculo automático corra bien (baja todos los microdatos desde 2016). Algunos puntos tienen menos de 100 casos (marcados ⚠). Los pasos entre empleo formal y en negro incluyen errores de respuesta de la encuesta.
 - **Cheques rechazados (p140, p141):** informes mensuales del BCRA desde septiembre de 2022 hasta agosto de 2026, y prensa que los cita para dic-2025, may-2026 y jun-2026. Faltan jul, ago y oct-dic 2023, abr-2025 y feb-2026; septiembre en adelante hay que cargarlo a mano con cada informe nuevo (sale a fin de mes).
 - **Encuestas vs. resultados (p387):** hecho para 2011-2023 (encuestas_vs_resultados). Faltan 2003 y 2007, sin recopilación de encuestas.
 - **Cartera de las AFJP 2008 (p448):** hecho (afjp_cartera_2008) con cifras de la SAFJP publicadas en la prensa en octubre de 2008; 'Otros' es la diferencia hasta 100%. Sería mejor confirmarlo con un boletín de la SAFJP si aparece.

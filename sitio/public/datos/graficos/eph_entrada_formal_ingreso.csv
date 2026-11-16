@@ -1,0 +1,17 @@
+categoria,valor,periodo,variante,casos
+De en negro a formal,24.5,completo,promedio,4416
+De en negro a formal,35.2,completo,mediana,4416
+Siguió en negro,-1.0,completo,promedio,24273
+Siguió en negro,-0.2,completo,mediana,24273
+De cuenta propia a formal,37.6,completo,promedio,1180
+De cuenta propia a formal,62.2,completo,mediana,1180
+Siguió por cuenta propia,-0.8,completo,promedio,24211
+Siguió por cuenta propia,-0.1,completo,mediana,24211
+De en negro a formal,56.8,mandato,promedio,645
+De en negro a formal,75.5,mandato,mediana,645
+Siguió en negro,18.6,mandato,promedio,3987
+Siguió en negro,23.4,mandato,mediana,3987
+De cuenta propia a formal,64.3,mandato,promedio,161
+De cuenta propia a formal,86.1,mandato,mediana,161
+Siguió por cuenta propia,27.8,mandato,promedio,3939
+Siguió por cuenta propia,25.7,mandato,mediana,3939

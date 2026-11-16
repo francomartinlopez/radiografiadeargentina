@@ -8,7 +8,7 @@ const COLORES = ["--s1", "--s2", "--s3", "--s4", "--s5", "--s6", "--s7", "--s8"]
 const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
 const MESES_LARGO = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 const NIVELES = { primaria: "Primaria", secundaria: "Secundaria", terciaria: "Terciaria", estimacion: "Estimación" };
-const TRAMOS = { estimado: "estimado", interpolado: "interpolado", proyectado: "proyectado" };
+const TRAMOS = { estimado: "estimado", interpolado: "interpolado", proyectado: "proyectado", pocos_casos: "con pocos casos en la encuesta (menos de 100)" };
 let META = null; // radiografia.json: temas, gobiernos, base del último mandato
 
 /* ---------- Utilidades ---------- */
@@ -132,7 +132,8 @@ function colorSerie(s, i) {
 function prepararTemporal(g, estado) {
   const desdePeriodo = estado.periodo === "mandato" ? fecha(META.base_ultimo_mandato) : fecha(g.desde);
   let ci = 0;
-  const series = g.series.map((s) => {
+  const lista = g.variantes ? g.series.filter((s) => !s.variante || s.variante === estado.variante) : g.series;
+  const series = lista.map((s) => {
     const puntos = s.puntos.map((p) => ({ t: fecha(p[0]), v: p[1], tramo: p[2] || null }));
     const color = colorSerie(s, s.color === "gris" ? 0 : ci++);
     let medidos = aplicarMedida(puntos, estado.medida, g);
@@ -378,7 +379,7 @@ function dibujarCategorias(contenedor, cfg) {
   const etiquetas = Math.min(150, Math.max(...cfg.categorias.map((c) => c.length)) * 6.5 + 8);
   const m = { t: cfg.unidadEje ? 20 : 6, r: 54, b: 18, l: etiquetas };
   const vals = cfg.series.flatMap((s) => s.valores.filter(Boolean).map((v) => v.valor)).concat([0]);
-  const tx = ticksLindos(Math.min(...vals), Math.max(...vals), 4);
+  const tx = ticksLindos(Math.min(...vals), Math.max(...vals), W < 500 ? 3 : 4);
   const v0 = tx[0], v1 = tx[tx.length - 1];
   const X = (v) => m.l + ((v - v0) / (v1 - v0 || 1)) * (W - m.l - m.r);
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": cfg.titulo });
@@ -399,12 +400,19 @@ function dibujarCategorias(contenedor, cfg) {
       r.addEventListener("mousemove", (ev) => {
         tip.innerHTML = "";
         tip.append(el("div", { class: "t-fecha", text: c }), el("div", { class: "t-fila" }, el("span", { text: k > 1 ? s.nombre : "Valor" }), el("span", { text: cfg.tip(v.valor) })));
+        if (v.casos) tip.append(el("div", { class: "t-fila" }, el("span", { text: "Casos en la encuesta" }), el("span", { text: fmt(v.casos, 0) })));
         if (v.tramo) tip.append(el("div", { class: "t-tramo", text: `⚠ Dato ${TRAMOS[v.tramo] || v.tramo}` }));
         mostrarTip(tip, ev);
       });
       r.addEventListener("mouseleave", () => { tip.hidden = true; });
       svg.append(r);
-      if (k === 1) { const vt = svgEl("text", { class: "val-cat", x: X(v.valor) + (v.valor >= 0 ? 4 : -4), y: y + barra / 2 + 3, "text-anchor": v.valor >= 0 ? "start" : "end" }); vt.textContent = cfg.tip(v.valor); svg.append(vt); }
+      if (k === 1) {
+        const txt = cfg.tip(v.valor), ancho = txt.length * 6.5;
+        // si la etiqueta de un valor negativo se pisaría con el nombre de la categoría, va adentro de la barra
+        const adentro = v.valor < 0 && X(v.valor) - 4 - ancho < m.l && X(0) - X(v.valor) > ancho + 8;
+        const vt = svgEl("text", { class: adentro ? "val-cat val-dentro" : "val-cat", x: adentro ? X(v.valor) + 4 : X(v.valor) + (v.valor >= 0 ? 4 : -4), y: y + barra / 2 + 3, "text-anchor": adentro || v.valor >= 0 ? "start" : "end" });
+        vt.textContent = txt; svg.append(vt);
+      }
     });
   });
   svg.append(svgEl("line", { class: "ref", x1: X(0), x2: X(0), y1: m.t, y2: H - m.b }));
@@ -467,9 +475,16 @@ function dibujarBurbujas(contenedor, g) {
 
 function insigniaNivel(n) { return el("span", { class: `nivel nivel-${n}`, text: NIVELES[n] || n }); }
 
+// Gráficos cuyas únicas marcas son datos con pocos casos de encuesta (no estimaciones)
+function soloPocosCasos(g) {
+  if (g.estimacion || (g.tramos || []).length) return false;
+  const marcas = [...(g.categorias || []).map((c) => c.tramo), ...(g.series || []).flatMap((x) => x.puntos.map((p) => p[2]))].filter(Boolean);
+  return marcas.length > 0 && marcas.every((t) => t === "pocos_casos");
+}
+
 function cifra(g) {
-  if (!g.series || g.tipo === "barras_gobierno" || g.tipo === "lineas_pais") return null;
-  const s = g.series.find((x) => x.color !== "gris") || g.series[0];
+  if (!g.series || g.sin_cifra || g.tipo === "barras_gobierno" || g.tipo === "lineas_pais") return null;
+  const s = (g.cifra_serie && g.series.find((x) => x.serie === g.cifra_serie)) || g.series.find((x) => x.color !== "gris") || g.series[0];
   const p = s.puntos[s.puntos.length - 1];
   if (!p) return null;
   const pts = s.puntos.map((q) => ({ t: fecha(q[0]), v: q[1], tramo: q[2] }));
@@ -486,7 +501,7 @@ function cifra(g) {
   if (g.tipo === "areas") v = g.series.reduce((t, x) => t + (x.puntos.find((q) => q[0] === p[0])?.[1] || 0), 0);
   if (g.medida_inicial === "acumulado_12m" && g.tipo !== "areas") { const med = aplicarMedida(pts, "acumulado_12m", g); v = med[med.length - 1]?.v; }
   const mg = magnitud(g.unidad, Math.abs(v));
-  return { grande: fmt(v / mg.div, decimales(v / mg.div)), chica: `${mg.unidad}${g.medida_inicial === "acumulado_12m" ? " (12 meses)" : ""} · ${periodo(p[0], g.frecuencia)}` };
+  return { grande: g.cifra_serie ? signo(v, decimales(v)) + (/^%/.test(g.unidad) ? "%" : "") : fmt(v / mg.div, decimales(v / mg.div)), chica: `${g.cifra_serie ? s.nombre + ", " : ""}${mg.unidad}${g.medida_inicial === "acumulado_12m" ? " (12 meses)" : ""} · ${periodo(p[0], g.frecuencia)}` };
 }
 
 function detalle(g) {
@@ -508,12 +523,21 @@ function detalle(g) {
 
 function ficha(g) {
   const temporal = !!g.series && g.tipo !== "barras_gobierno";
-  const estado = { periodo: "completo", medida: g.medida_inicial || "nivel", gobiernos: true };
+  const estado = { periodo: "completo", medida: g.medida_inicial || "nivel", gobiernos: true, variante: g.variantes ? g.variantes[0].id : null };
+  const conPeriodos = !temporal && (g.categorias || []).some((c) => c.periodo);
   if (temporal && !medidasDisponibles(g).includes(estado.medida)) estado.medida = "nivel";
   const grafico = el("div", { class: g.tipo === "burbujas" ? "grafico burbujas" : "grafico" });
   const leyendaVista = el("p", { class: "leyenda-vista" });
   const leyenda = el("ul", { class: "leyenda", hidden: true });
   const controles = el("div", { class: "controles" });
+  const selVariante = () => { const sv = el("select", { "aria-label": "Cálculo", onchange: () => { estado.variante = sv.value; render(); } },
+    ...g.variantes.map((v) => el("option", { value: v.id, text: v.nombre, selected: v.id === estado.variante }))); return sv; };
+  if (conPeriodos) {
+    const botones = [["completo", `Completo (desde ${g.desde.slice(0, 4)})`], ["mandato", "Último mandato"]].map(([id, txt]) =>
+      el("button", { type: "button", "aria-pressed": String(estado.periodo === id), text: txt, onclick: () => { estado.periodo = id; botones.forEach((b, i) => b.setAttribute("aria-pressed", String(i === (id === "completo" ? 0 : 1)))); render(); } }));
+    controles.append(el("div", { class: "segmentos", role: "group", "aria-label": "Período" }, ...botones));
+  }
+  if (!temporal && g.variantes) controles.append(selVariante());
   if (temporal) {
     const botones = [["completo", `Completo (desde ${g.frecuencia === "A" ? g.desde.slice(0, 4) : mesAnio(g.desde.slice(0, 7))})`], ["mandato", "Último mandato"]].map(([id, txt]) =>
       el("button", { type: "button", "aria-pressed": String(estado.periodo === id), text: txt, onclick: () => { estado.periodo = id; botones.forEach((b, i) => b.setAttribute("aria-pressed", String(i === (id === "completo" ? 0 : 1)))); render(); } }));
@@ -521,7 +545,8 @@ function ficha(g) {
     controles.append(el("div", { class: "segmentos", role: "group", "aria-label": "Período" }, ...botones));
     const sel = el("select", { "aria-label": "Medida", onchange: () => { estado.medida = sel.value; render(); } },
       ...medidasDisponibles(g).map((k) => el("option", { value: k, text: MEDIDAS[k], selected: k === estado.medida })));
-    controles.append(sel);
+    if (medidasDisponibles(g).length > 1 || !g.variantes) controles.append(sel);
+    if (g.variantes) controles.append(selVariante());
     const valores = g.series.flatMap((x) => x.puntos.map((p) => p[1]));
     if (valores.every((v) => v > 0) && Math.max(...valores) / Math.min(...valores) > 15)
       controles.append(el("label", { class: "chk" }, el("input", { type: "checkbox", onchange: (e) => { estado.log = e.target.checked; render(); } }), "Escala logarítmica"));
@@ -538,13 +563,17 @@ function ficha(g) {
         Object.entries(colores).forEach(([n, c]) => leyenda.append(el("li", {}, el("i", { style: `background:${c};height:8px;width:8px;border-radius:50%` }), n)));
         leyenda.append(el("li", { text: "Tamaño: cantidad de asalariados" }));
       }
-      else { const cfg = { ...prepararCategorias(g), titulo: g.titulo }; ponerLeyenda(cfg.series, []); dibujarCategorias(grafico, cfg); }
+      else { const gv = { ...g, categorias: (g.categorias || []).filter((c) => (!c.periodo || c.periodo === estado.periodo) && (!c.variante || c.variante === estado.variante)) };
+        const cfg = { ...prepararCategorias(gv), titulo: g.titulo }; ponerLeyenda(cfg.series, []); dibujarCategorias(grafico, cfg); }
       return;
     }
     leyendaVista.textContent = textoMedida(g, estado.medida);
     const cfg = { ...prepararTemporal(g, estado), titulo: `${g.titulo}: ${textoMedida(g, estado.medida)}` };
-    const hayTramos = cfg.series.some((s) => s.puntos.some((p) => p.tramo));
-    ponerLeyenda(cfg.series, hayTramos ? ["⚠ Estimado o proyectado"] : []);
+    const tiposTramo = new Set(cfg.series.flatMap((s) => s.puntos.map((p) => p.tramo).filter(Boolean)));
+    const extras = [];
+    if ([...tiposTramo].some((t) => t !== "pocos_casos")) extras.push("⚠ Estimado o proyectado");
+    if (tiposTramo.has("pocos_casos")) extras.push("⚠ Pocos casos en la encuesta (menos de 100)");
+    ponerLeyenda(cfg.series, extras);
     dibujarTemporal(grafico, cfg);
   }
   function ponerLeyenda(series, extras) {
@@ -559,7 +588,8 @@ function ficha(g) {
       el("div", {},
         el("h3", { text: g.titulo }),
         el("div", { class: "insignias" }, ...(g.niveles_fuente || []).map(insigniaNivel),
-          g.alerta ? el("span", { class: "alerta", title: "Parte o todo el gráfico es estimado, interpolado o proyectado" }, "⚠ ", g.estimacion ? "Estimación" : "Tramos estimados") : null)),
+          g.alerta ? (soloPocosCasos(g) ? el("span", { class: "alerta", title: "Algunos datos salen de menos de 100 casos de la encuesta" }, "⚠ Pocos casos en algunos datos")
+            : el("span", { class: "alerta", title: "Parte o todo el gráfico es estimado, interpolado o proyectado" }, "⚠ ", g.estimacion ? "Estimación" : "Tramos estimados")) : null)),
       c ? el("div", { class: "cifra" }, el("span", { class: "grande", text: c.grande }), el("span", { class: "chica", text: c.chica })) : null),
     g.que_muestra ? el("p", { class: "que-muestra", text: g.que_muestra }) : null,
     g.estimacion ? el("p", { class: "aviso" }, el("strong", { text: "⚠ Estimación. " }), g.estimacion) : null,

@@ -22,6 +22,7 @@ import pandas as pd
 import yaml
 
 from . import construir, transformar
+from .fuentes import eph_panel
 
 RAIZ = Path(__file__).resolve().parents[1]
 SALIDA = RAIZ / "sitio" / "public" / "datos"
@@ -29,6 +30,9 @@ CATEGORIAS = RAIZ / "data" / "categorias"
 DEFLACTORES = {"ARS": "ipc", "USD": "cpi_eeuu"}
 PREVIO_MESES = 24  # meses antes del inicio que se publican para poder calcular interanual y acumulado
 TIPOS = {"lineas", "areas", "barras", "barras_gobierno", "lineas_pais", "burbujas"}
+# Resultados del panel de la EPH (pipeline/fuentes/eph_panel.py) que puede mostrar un gráfico
+EPH_PANEL = {"salida_ingreso", "salida_ingreso_anual", "salida_destino", "entrada_ingreso", "entrada_ingreso_anual",
+             "entrada_origen", "entradas_salidas"}
 NIVELES = {"primaria", "secundaria", "terciaria", "estimacion"}
 TRAMOS = {"estimado", "interpolado", "proyectado"}
 # Datos de Argentina se actualiza el día 20; Radiografía, el 21. Las series que comparten se toman
@@ -74,6 +78,9 @@ def validar(catalogo: dict, base: dict) -> list[str]:
                 for k in ("x", "y"):
                     if b.get(k) not in conocidas:
                         errores.append(f"{gid}: la serie '{b.get(k)}' no está en indicadores.yaml")
+        elif g.get("eph_panel"):
+            if g["eph_panel"] not in EPH_PANEL:
+                errores.append(f"{gid}: eph_panel '{g['eph_panel']}' no existe ({', '.join(sorted(EPH_PANEL))})")
         elif g.get("categorias"):
             if g["categorias"] != "imagen_dirigentes" and not (CATEGORIAS / f"{g['categorias']}.csv").exists():
                 errores.append(f"{gid}: no existe data/categorias/{g['categorias']}.csv")
@@ -430,12 +437,14 @@ def leer_categorias(nombre: str) -> list[dict]:
     filas = []
     for _, r in df.iterrows():
         fila = {"categoria": str(r["categoria"])}
-        for c in ("serie", "tramo", "fuente_url"):
+        for c in ("serie", "tramo", "fuente_url", "periodo", "variante"):
             if c in df.columns and pd.notna(r[c]):
                 fila[c] = str(r[c])
         for c in ("valor", "x", "y", "tamano"):
             if c in df.columns and pd.notna(r[c]):
                 fila[c] = _f(r[c])
+        if "casos" in df.columns and pd.notna(r["casos"]):
+            fila["casos"] = int(r["casos"])
         filas.append(fila)
     return filas
 
@@ -483,7 +492,8 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
     tramos = g.get("tramos", []) + auto
     salida = {
         k: g[k] for k in ("id", "tema", "titulo", "que_muestra", "original", "tipo", "unidad", "fuentes",
-                          "metodo", "estimacion", "sensible", "nota", "eje_x", "eje_y") if g.get(k) is not None
+                          "metodo", "estimacion", "sensible", "nota", "eje_x", "eje_y", "variantes", "sin_cifra",
+                          "cifra_serie") if g.get(k) is not None
     }
     salida.update({
         "tema_nombre": catalogo["temas"][g["tema"]],
@@ -501,6 +511,18 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
         salida["categorias"], al = burbujas_de_series(g, mensuales)
         salida["ultimo"] = salida["categorias"][0].get("fecha") if salida["categorias"] else None
         return (salida if salida["categorias"] else None), alertas + al
+    if g.get("eph_panel"):
+        res = eph_panel.datos(descargar=not catalogo.get("_offline"))
+        datos = res[g["eph_panel"]]
+        if g["tipo"] == "barras":
+            salida["categorias"] = datos
+            salida["desde"], salida["ultimo"] = res["desde_barras"], res["ultimo"]
+        else:
+            salida["series"] = datos
+            salida["desde"], salida["ultimo"] = res["desde"], res["ultimo"]
+        salida["alerta"] = (salida["alerta"] or any(c.get("tramo") for c in salida.get("categorias", []))
+                            or any(len(p) > 2 for x in salida.get("series", []) for p in x["puntos"]))
+        return salida, alertas
     if g.get("categorias"):
         salida["categorias"] = leer_categorias(g["categorias"])
         salida["alerta"] = salida["alerta"] or any(c.get("tramo") for c in salida["categorias"])
@@ -588,6 +610,7 @@ def main() -> None:
     parser.add_argument("--offline", action="store_true", help="usar datos crudos guardados")
     args = parser.parse_args()
     base, catalogo = cargar()
+    catalogo["_offline"] = args.offline
     errores = validar(catalogo, base)
     if errores:
         raise SystemExit("Errores en graficos.yaml:\n- " + "\n- ".join(errores))

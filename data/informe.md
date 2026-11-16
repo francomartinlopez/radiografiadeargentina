@@ -1,6 +1,6 @@
-# Informe de actualización 2026-11-07
+# Informe de actualización 2026-11-16
 
-Gráficos publicados: 205
+Gráficos publicados: 212
 
 ## Alertas
 

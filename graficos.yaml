@@ -4913,6 +4913,98 @@ graficos:
       - {nombre: "Secretaría de Trabajo, Situación y evolución del trabajo registrado (SIPA)", url: "https://www.argentina.gob.ar/trabajo/estadisticas", nivel: primaria}
     metodo: "La serie de asalariados privados desestacionalizada empieza en 2009. El empleo registrado reacciona más lento y con menos amplitud que la actividad: cae menos en las recesiones y tarda en recuperarse. El empleo informal y el cuentapropismo no están en esta serie."
 
+  - id: eph_salida_formal_ingreso
+    tema: 6
+    titulo: "En total: cuánto cambia el ingreso al dejar un empleo formal"
+    que_muestra: "Personas que tenían un empleo privado registrado: cuánto cambió su ingreso real un año después según qué pasó con ellas. Quienes siguieron en un empleo formal sirven de comparación."
+    tipo: barras
+    eph_panel: salida_ingreso
+    frecuencia: T
+    unidad: "% de cambio del ingreso real"
+    tipo_valor: tasa
+    variantes: &variantes [{id: promedio, nombre: "Promedio"}, {id: mediana, nombre: "Mediana"}]
+    fuentes: &fuentes_eph
+      - {nombre: "INDEC, Encuesta Permanente de Hogares, microdatos trimestrales (31 aglomerados urbanos)", url: "https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos", nivel: primaria}
+      - {nombre: "IPC nacional de INDEC (desde dic-2016) y de la Ciudad de Buenos Aires (antes)", nivel: primaria, nota: "Deflactor"}
+    metodo: &metodo_ingreso "Cálculo propio con los microdatos de la EPH. La encuesta entrevista a cada hogar dos trimestres seguidos, lo deja dos y vuelve dos más, así que la mitad de las personas de un trimestre se puede volver a encontrar un año después. Se las identifica por vivienda, hogar y número de miembro, y se descartan los casos en que no coinciden el sexo o la edad (con hasta 2 años de diferencia). Empleo formal: asalariados del sector privado con descuento jubilatorio. En negro: asalariados privados sin descuento. Cuenta propia incluye a monotributistas y a cuentapropistas sin registrar: la encuesta no permite separarlos. Ingreso: el de la ocupación principal, en moneda constante (cada trimestre deflactado con el IPC de su mes central), ponderado por el factor de ingresos de INDEC. Para quienes quedan desocupados o salen del mercado laboral se compara el ingreso total de la persona (incluye seguro de desempleo, jubilaciones, planes y rentas), porque ya no tienen ingreso laboral; la mayoría no reporta ningún ingreso un año después, por eso su mediana da -100%. Promedio: cambio del ingreso medio del grupo. Mediana: cambio del ingreso de la persona del medio, menos sensible a casos extremos. Completo junta todas las comparaciones desde el 2do trimestre de 2016; Último mandato, las que empiezan desde el 1er trimestre de 2024. En los períodos de suba del salario real (como 2024) el ingreso sube también para quienes no cambian de trabajo: cada barra conviene leerla contra la de quienes siguieron igual. Parte de los pasos entre empleo formal y en negro son errores de respuesta (la persona no cambió de trabajo pero contestó distinto si tiene descuento jubilatorio). La EPH subestima los ingresos, en especial los de los independientes. ⚠ Menos de 100 casos en la encuesta. Se recalcula cuando INDEC publica un trimestre nuevo."
+  - id: eph_salida_formal_ingreso_anual
+    tema: 6
+    titulo: "Año por año: cuánto cambió el ingreso de quienes dejaron un empleo formal"
+    que_muestra: "Cada punto sigue a las mismas personas durante un año: tenían un empleo privado registrado y un año después estaban en otro tipo de trabajo, desocupadas o inactivas. El punto se ubica en el trimestre de la primera medición. La línea gris, la de quienes siguieron formales, sirve de comparación."
+    tipo: lineas
+    eph_panel: salida_ingreso_anual
+    frecuencia: T
+    unidad: "% de cambio del ingreso real"
+    tipo_valor: tasa
+    medidas: [nivel]
+    variantes: *variantes
+    sin_cifra: true
+    fuentes: *fuentes_eph
+    metodo: &metodo_anual "Igual que el gráfico en total, separado en el tiempo: cada punto junta las comparaciones que empiezan en ese trimestre y en los tres anteriores, para tener suficientes casos. 2020 tuvo encuesta telefónica por la pandemia. Cálculo propio con los microdatos de la EPH, siguiendo a las mismas personas un año después (vivienda, hogar, número de miembro, sexo y edad). Ingreso de la ocupación principal en moneda constante; para desocupados e inactivos, ingreso total de la persona. ⚠ Tramos punteados: menos de 100 casos en la encuesta."
+  - id: eph_salida_formal_destino
+    tema: 6
+    titulo: "A dónde van los que dejan un empleo formal"
+    que_muestra: "De las personas que tenían un empleo privado registrado y un año después ya no lo tienen (entre 19% y 23% cada año), qué parte pasó a cada situación."
+    tipo: lineas
+    eph_panel: salida_destino
+    frecuencia: T
+    unidad: "% de los que dejan el empleo formal"
+    tipo_valor: tasa
+    medidas: [nivel]
+    sin_cifra: true
+    fuentes: *fuentes_eph
+    metodo: &metodo_flujos "Cálculo propio con los microdatos de la EPH, siguiendo a las mismas personas un año después (vivienda, hogar, número de miembro, sexo y edad), ponderadas con el factor de expansión de INDEC. Cada punto junta las comparaciones que empiezan en ese trimestre y en los tres anteriores. Empleo formal: asalariados del sector privado con descuento jubilatorio. En negro: asalariados privados sin descuento. Cuenta propia incluye a monotributistas y cuentapropistas sin registrar. Parte de los pasos entre empleo formal y en negro son errores de respuesta (la persona no cambió de trabajo pero contestó distinto si tiene descuento jubilatorio), lo que agranda un poco esos movimientos. 2020 tuvo encuesta telefónica por la pandemia."
+  - id: eph_entrada_formal_ingreso
+    tema: 6
+    titulo: "En total: cuánto cambia el ingreso al conseguir un empleo formal"
+    que_muestra: "Personas que trabajaban en negro o por cuenta propia: cuánto cambió su ingreso real un año después si consiguieron un empleo privado registrado, comparado con quienes siguieron igual."
+    tipo: barras
+    eph_panel: entrada_ingreso
+    frecuencia: T
+    unidad: "% de cambio del ingreso real"
+    tipo_valor: tasa
+    variantes: *variantes
+    fuentes: *fuentes_eph
+    metodo: "No se incluye a quienes venían de la desocupación o la inactividad: casi ninguno tenía ingresos antes y el porcentaje no tiene sentido (aparecen en el gráfico de dónde vienen). Las subas no son todo efecto del cambio de trabajo: quienes consiguen un empleo formal suelen ser los mejor preparados. Cálculo propio con los microdatos de la EPH. La encuesta entrevista a cada hogar dos trimestres seguidos, lo deja dos y vuelve dos más, así que la mitad de las personas se puede volver a encontrar un año después; se las identifica por vivienda, hogar y número de miembro, con el mismo sexo y hasta 2 años más de edad. Ingreso de la ocupación principal en moneda constante (IPC del mes central de cada trimestre), ponderado por el factor de ingresos de INDEC. Promedio: cambio del ingreso medio del grupo. Mediana: cambio del ingreso de la persona del medio. Completo: desde el 2do trimestre de 2016; Último mandato: comparaciones que empiezan desde el 1er trimestre de 2024. La EPH subestima los ingresos de los independientes. ⚠ Menos de 100 casos en la encuesta."
+  - id: eph_entrada_formal_ingreso_anual
+    tema: 6
+    titulo: "Año por año: cuánto cambió el ingreso de quienes consiguieron un empleo formal"
+    que_muestra: "Cada punto sigue a las mismas personas durante un año: trabajaban en negro o por cuenta propia y un año después tenían un empleo privado registrado o seguían igual. El punto se ubica en el trimestre de la primera medición."
+    tipo: lineas
+    eph_panel: entrada_ingreso_anual
+    frecuencia: T
+    unidad: "% de cambio del ingreso real"
+    tipo_valor: tasa
+    medidas: [nivel]
+    variantes: *variantes
+    sin_cifra: true
+    fuentes: *fuentes_eph
+    metodo: *metodo_anual
+  - id: eph_entrada_formal_origen
+    tema: 6
+    titulo: "De dónde vienen los que consiguen un empleo formal"
+    que_muestra: "De las personas que tienen un empleo privado registrado y un año antes no lo tenían, qué parte venía de cada situación."
+    tipo: lineas
+    eph_panel: entrada_origen
+    frecuencia: T
+    unidad: "% de los que consiguen un empleo formal"
+    tipo_valor: tasa
+    medidas: [nivel]
+    sin_cifra: true
+    fuentes: *fuentes_eph
+    metodo: *metodo_flujos
+  - id: eph_entradas_salidas_formal
+    tema: 6
+    titulo: "Entradas y salidas del empleo formal"
+    que_muestra: "Salida: qué parte de los asalariados privados registrados pasa en un año a un empleo en negro o a cuenta propia. Entrada: qué parte de los que trabajan en negro o por cuenta propia consigue en un año un empleo privado registrado."
+    tipo: lineas
+    eph_panel: entradas_salidas
+    frecuencia: T
+    unidad: "% por año"
+    tipo_valor: tasa
+    medidas: [nivel]
+    fuentes: *fuentes_eph
+    metodo: *metodo_flujos
   - id: aprender_primaria
     tema: 16
     titulo: "Pruebas Aprender: alumnos de 6° grado con nivel satisfactorio"

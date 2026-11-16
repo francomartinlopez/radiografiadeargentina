@@ -117,6 +117,7 @@ a { color: var(--acento); }
 .grafico .zona-tramo { fill: var(--alerta-bg); opacity: 0.6; }
 .grafico .etq-cat { font-size: 11px; fill: var(--tinta-2); }
 .grafico .val-cat { font-size: 11px; fill: var(--tinta); font-weight: 600; }
+.grafico .val-dentro { fill: #fff; }
 
 .leyenda { display: flex; flex-wrap: wrap; gap: 4px 12px; margin: 8px 0 0; padding: 0; list-style: none; font-size: 12px; color: var(--tinta-2); }
 .leyenda li { display: flex; align-items: center; gap: 6px; }
