@@ -9,7 +9,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,1,Auditoría General de la Nación,9141.200763069999
 2026-09-01,1,Auditoría General de la Nación,8989.56805773
 2026-10-01,1,Auditoría General de la Nación,8822.77449955
-2026-11-01,1,Auditoría General de la Nación,0.0
+2026-11-01,1,Auditoría General de la Nación,30.84056655
 2026-01-01,101,Fundación Miguel Lillo,740.75843803
 2026-02-01,101,Fundación Miguel Lillo,713.3699164
 2026-03-01,101,Fundación Miguel Lillo,815.6540681
@@ -20,7 +20,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,101,Fundación Miguel Lillo,929.20927012
 2026-09-01,101,Fundación Miguel Lillo,968.28803349
 2026-10-01,101,Fundación Miguel Lillo,1041.19513507
-2026-11-01,101,Fundación Miguel Lillo,0.0
+2026-11-01,101,Fundación Miguel Lillo,61.92536844
 2026-01-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,52825.78400623
 2026-02-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,48776.61763606
 2026-03-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,58403.43951097
@@ -31,7 +31,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,58920.16562998
 2026-09-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,60575.53194885
 2026-10-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,60613.65682566001
-2026-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,208.07169311
+2026-11-01,103,Consejo Nacional de Investigaciones Científicas y Técnicas,2374.60822604
 2026-01-01,105,Comisión Nacional de Energía Atómica,8591.82880703
 2026-02-01,105,Comisión Nacional de Energía Atómica,13764.23719438
 2026-03-01,105,Comisión Nacional de Energía Atómica,39161.494161409995
@@ -42,7 +42,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,105,Comisión Nacional de Energía Atómica,36321.04778383
 2026-09-01,105,Comisión Nacional de Energía Atómica,32022.83736089
 2026-10-01,105,Comisión Nacional de Energía Atómica,24699.95153115
-2026-11-01,105,Comisión Nacional de Energía Atómica,0.0
+2026-11-01,105,Comisión Nacional de Energía Atómica,3608.72614277
 2026-01-01,106,Comisión Nacional de Actividades Espaciales,1417.72593667
 2026-02-01,106,Comisión Nacional de Actividades Espaciales,3005.6371284
 2026-03-01,106,Comisión Nacional de Actividades Espaciales,3986.44656227
@@ -53,7 +53,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,106,Comisión Nacional de Actividades Espaciales,1683.20356485
 2026-09-01,106,Comisión Nacional de Actividades Espaciales,34434.03382947
 2026-10-01,106,Comisión Nacional de Actividades Espaciales,20400.30276051
-2026-11-01,106,Comisión Nacional de Actividades Espaciales,0.0
+2026-11-01,106,Comisión Nacional de Actividades Espaciales,3074.25266672
 2026-01-01,107,Administración de Parques Nacionales,3987.2243698
 2026-02-01,107,Administración de Parques Nacionales,7427.2520761
 2026-03-01,107,Administración de Parques Nacionales,8889.80996589
@@ -64,7 +64,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,107,Administración de Parques Nacionales,9454.06784262
 2026-09-01,107,Administración de Parques Nacionales,10778.94590348
 2026-10-01,107,Administración de Parques Nacionales,7329.40165267
-2026-11-01,107,Administración de Parques Nacionales,646.48376719
+2026-11-01,107,Administración de Parques Nacionales,1735.40996332
 2026-01-01,109,Sindicatura General de la Nación,1786.6837536
 2026-02-01,109,Sindicatura General de la Nación,1861.83243221
 2026-03-01,109,Sindicatura General de la Nación,2156.28090963
@@ -75,7 +75,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,109,Sindicatura General de la Nación,1470.33644948
 2026-09-01,109,Sindicatura General de la Nación,3008.49211506
 2026-10-01,109,Sindicatura General de la Nación,1524.85757562
-2026-11-01,109,Sindicatura General de la Nación,677.9573484
+2026-11-01,109,Sindicatura General de la Nación,736.7587456699999
 2026-01-01,112,Autoridad Regulatoria Nuclear,1301.97849198
 2026-02-01,112,Autoridad Regulatoria Nuclear,1173.70183931
 2026-03-01,112,Autoridad Regulatoria Nuclear,1506.32906266
@@ -86,7 +86,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,112,Autoridad Regulatoria Nuclear,1557.01847757
 2026-09-01,112,Autoridad Regulatoria Nuclear,2770.02247783
 2026-10-01,112,Autoridad Regulatoria Nuclear,1361.91028885
-2026-11-01,112,Autoridad Regulatoria Nuclear,58.89980938
+2026-11-01,112,Autoridad Regulatoria Nuclear,414.70713419000003
 2026-01-01,113,Teatro Nacional Cervantes,777.28504452
 2026-02-01,113,Teatro Nacional Cervantes,790.72357427
 2026-03-01,113,Teatro Nacional Cervantes,1433.72782334
@@ -97,7 +97,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,113,Teatro Nacional Cervantes,862.45042698
 2026-09-01,113,Teatro Nacional Cervantes,1971.9063123600001
 2026-10-01,113,Teatro Nacional Cervantes,840.41729167
-2026-11-01,113,Teatro Nacional Cervantes,29.30438298
+2026-11-01,113,Teatro Nacional Cervantes,314.49752458
 2026-01-01,114,Instituto Nacional de Asociativismo y Economía Social,870.70726611
 2026-02-01,114,Instituto Nacional de Asociativismo y Economía Social,731.70723069
 2026-03-01,114,Instituto Nacional de Asociativismo y Economía Social,2431.2856856099997
@@ -108,7 +108,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,114,Instituto Nacional de Asociativismo y Economía Social,1265.66461264
 2026-09-01,114,Instituto Nacional de Asociativismo y Economía Social,2488.06358369
 2026-10-01,114,Instituto Nacional de Asociativismo y Economía Social,1158.43255462
-2026-11-01,114,Instituto Nacional de Asociativismo y Economía Social,105.46963051
+2026-11-01,114,Instituto Nacional de Asociativismo y Economía Social,127.92289993
 2026-01-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',1610.18539524
 2026-02-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2089.31148022
 2026-03-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2700.67610875
@@ -119,7 +119,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',3239.43237662
 2026-09-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',3532.7073413
 2026-10-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',2810.78149339
-2026-11-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',0.0
+2026-11-01,116,Biblioteca Nacional 'Doctor Mariano Moreno',391.42767965
 2026-01-01,117,Instituto Nacional del Teatro,240.25113973999999
 2026-02-01,117,Instituto Nacional del Teatro,443.71068551
 2026-03-01,117,Instituto Nacional del Teatro,753.23857284
@@ -130,7 +130,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,117,Instituto Nacional del Teatro,490.14035724
 2026-09-01,117,Instituto Nacional del Teatro,952.71749343
 2026-10-01,117,Instituto Nacional del Teatro,418.91666538
-2026-11-01,117,Instituto Nacional del Teatro,35.92973001
+2026-11-01,117,Instituto Nacional del Teatro,70.70842738
 2026-01-01,119,Instituto Nacional de Promoción Turística,890.3017500799999
 2026-02-01,119,Instituto Nacional de Promoción Turística,501.06187936
 2026-03-01,119,Instituto Nacional de Promoción Turística,1204.15543711
@@ -141,7 +141,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,119,Instituto Nacional de Promoción Turística,691.5399527899999
 2026-09-01,119,Instituto Nacional de Promoción Turística,1492.49887838
 2026-10-01,119,Instituto Nacional de Promoción Turística,441.30137678
-2026-11-01,119,Instituto Nacional de Promoción Turística,32.66791303
+2026-11-01,119,Instituto Nacional de Promoción Turística,577.3111252299999
 2026-01-01,121,Banco Nacional de Datos Genéticos (BNDG),0.0
 2026-02-01,121,Banco Nacional de Datos Genéticos (BNDG),269.47303952
 2026-03-01,121,Banco Nacional de Datos Genéticos (BNDG),233.39630363
@@ -152,12 +152,13 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,121,Banco Nacional de Datos Genéticos (BNDG),154.92201994
 2026-09-01,121,Banco Nacional de Datos Genéticos (BNDG),390.60178194
 2026-10-01,121,Banco Nacional de Datos Genéticos (BNDG),330.05385412
-2026-11-01,121,Banco Nacional de Datos Genéticos (BNDG),13.964503520000001
+2026-11-01,121,Banco Nacional de Datos Genéticos (BNDG),83.36369176
 2026-05-01,122,Centro Nacional de Ciberseguridad (CNC),0.0
 2026-07-01,122,Centro Nacional de Ciberseguridad (CNC),0.0
 2026-08-01,122,Centro Nacional de Ciberseguridad (CNC),27.67522155
 2026-09-01,122,Centro Nacional de Ciberseguridad (CNC),70.64081252
 2026-10-01,122,Centro Nacional de Ciberseguridad (CNC),65.51454
+2026-11-01,122,Centro Nacional de Ciberseguridad (CNC),75.470565
 2026-01-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1003.18164431
 2026-02-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1098.1448056
 2026-03-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",2351.49865553
@@ -168,7 +169,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",781.89024132
 2026-09-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",1467.30397775
 2026-10-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",844.05633623
-2026-11-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",24.5936384
+2026-11-01,173,"Agencia Nacional de Promoción de la Investigación, el Desarrollo Tecnológico y la Innovación",266.66411803
 2026-01-01,200,Registro Nacional de las Personas (RENAPER),9846.66856196
 2026-02-01,200,Registro Nacional de las Personas (RENAPER),13234.37051719
 2026-03-01,200,Registro Nacional de las Personas (RENAPER),13844.78695335
@@ -179,7 +180,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,200,Registro Nacional de las Personas (RENAPER),13030.76861415
 2026-09-01,200,Registro Nacional de las Personas (RENAPER),42942.85032654
 2026-10-01,200,Registro Nacional de las Personas (RENAPER),35642.96739406
-2026-11-01,200,Registro Nacional de las Personas (RENAPER),987.53650094
+2026-11-01,200,Registro Nacional de las Personas (RENAPER),9048.40976706
 2026-01-01,201,Dirección Nacional de Migraciones,7797.14081063
 2026-02-01,201,Dirección Nacional de Migraciones,12311.84878173
 2026-03-01,201,Dirección Nacional de Migraciones,20929.24783816
@@ -190,7 +191,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,201,Dirección Nacional de Migraciones,17385.02604677
 2026-09-01,201,Dirección Nacional de Migraciones,20265.42824133
 2026-10-01,201,Dirección Nacional de Migraciones,12238.87846241
-2026-11-01,201,Dirección Nacional de Migraciones,5868.86216796
+2026-11-01,201,Dirección Nacional de Migraciones,7098.41038846
 2026-01-01,203,Agencia Nacional de Seguridad Vial,1425.25098528
 2026-02-01,203,Agencia Nacional de Seguridad Vial,1482.39048255
 2026-03-01,203,Agencia Nacional de Seguridad Vial,1935.21594604
@@ -201,7 +202,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,203,Agencia Nacional de Seguridad Vial,1596.19316614
 2026-09-01,203,Agencia Nacional de Seguridad Vial,2072.55591741
 2026-10-01,203,Agencia Nacional de Seguridad Vial,1249.2554359599999
-2026-11-01,203,Agencia Nacional de Seguridad Vial,96.6050791
+2026-11-01,203,Agencia Nacional de Seguridad Vial,717.0920936699999
 2026-01-01,205,Agencia de Administración de Bienes del Estado,1052.26773833
 2026-02-01,205,Agencia de Administración de Bienes del Estado,1427.52048137
 2026-03-01,205,Agencia de Administración de Bienes del Estado,1515.24383554
@@ -212,7 +213,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,205,Agencia de Administración de Bienes del Estado,3481.1756020099997
 2026-09-01,205,Agencia de Administración de Bienes del Estado,1821.30033171
 2026-10-01,205,Agencia de Administración de Bienes del Estado,1531.75458386
-2026-11-01,205,Agencia de Administración de Bienes del Estado,39.53667173
+2026-11-01,205,Agencia de Administración de Bienes del Estado,252.06192331
 2026-01-01,206,Centro Internacional para la Promoción de los Derechos Humanos,124.59624846
 2026-02-01,206,Centro Internacional para la Promoción de los Derechos Humanos,279.91656495
 2026-03-01,206,Centro Internacional para la Promoción de los Derechos Humanos,249.06349444999998
@@ -234,7 +235,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,207,Ente Nacional de Comunicaciones,6111.96782855
 2026-09-01,207,Ente Nacional de Comunicaciones,6779.52793627
 2026-10-01,207,Ente Nacional de Comunicaciones,5168.73939637
-2026-11-01,207,Ente Nacional de Comunicaciones,265.25647391
+2026-11-01,207,Ente Nacional de Comunicaciones,855.53688226
 2026-01-01,209,Agencia de Acceso a la Información Pública,135.4887867
 2026-02-01,209,Agencia de Acceso a la Información Pública,178.65730603
 2026-03-01,209,Agencia de Acceso a la Información Pública,233.45693877
@@ -245,7 +246,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,209,Agencia de Acceso a la Información Pública,216.62086272000002
 2026-09-01,209,Agencia de Acceso a la Información Pública,255.86288182
 2026-10-01,209,Agencia de Acceso a la Información Pública,232.43369454
-2026-11-01,209,Agencia de Acceso a la Información Pública,9.68503891
+2026-11-01,209,Agencia de Acceso a la Información Pública,24.19126691
 2026-01-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",232265.96904471001
 2026-02-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",249236.29825411
 2026-03-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",242221.94291533998
@@ -256,7 +257,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",102541.41747215
 2026-09-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",484237.81690031
 2026-10-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",307000.07458957
-2026-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",0.0
+2026-11-01,250,"Caja de Retiros, Jubilaciones y Pensiones de la Policía Federal Argentina",592.93694204
 2026-01-01,301,Secretaría General de la Presidencia de la Nación,4709.03971499
 2026-02-01,301,Secretaría General de la Presidencia de la Nación,3939.24909879
 2026-03-01,301,Secretaría General de la Presidencia de la Nación,6240.97635909
@@ -267,7 +268,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,301,Secretaría General de la Presidencia de la Nación,5331.4381776
 2026-09-01,301,Secretaría General de la Presidencia de la Nación,4465.62928877
 2026-10-01,301,Secretaría General de la Presidencia de la Nación,9526.70199701
-2026-11-01,301,Secretaría General de la Presidencia de la Nación,193.16732049
+2026-11-01,301,Secretaría General de la Presidencia de la Nación,2511.13941837
 2026-01-01,302,Secretaría de Inteligencia de Estado,7500.91463663
 2026-02-01,302,Secretaría de Inteligencia de Estado,8178.03854482
 2026-03-01,302,Secretaría de Inteligencia de Estado,7849.28183633
@@ -278,6 +279,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,302,Secretaría de Inteligencia de Estado,17229.747089
 2026-09-01,302,Secretaría de Inteligencia de Estado,25730.858508
 2026-10-01,302,Secretaría de Inteligencia de Estado,18347.318353
+2026-11-01,302,Secretaría de Inteligencia de Estado,16204.198773
 2026-01-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),852.11089843
 2026-02-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6610.16663462
 2026-03-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),12367.09144314
@@ -288,7 +290,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),6827.9115220799995
 2026-09-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),8680.72369722
 2026-10-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),5720.04803227
-2026-11-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1474.09425422
+2026-11-01,303,Secretaría de Políticas Integrales sobre Drogas de la Nación Argentina (SEDRONAR),1674.70546256
 2026-01-01,305,Jefatura de Gabinete de Ministros,1923.38924539
 2026-02-01,305,Jefatura de Gabinete de Ministros,2914.67483183
 2026-03-01,305,Jefatura de Gabinete de Ministros,4410.21766739
@@ -299,7 +301,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,305,Jefatura de Gabinete de Ministros,3206.37480066
 2026-09-01,305,Jefatura de Gabinete de Ministros,3451.30825655
 2026-10-01,305,Jefatura de Gabinete de Ministros,3557.43760146
-2026-11-01,305,Jefatura de Gabinete de Ministros,7494.1474499
+2026-11-01,305,Jefatura de Gabinete de Ministros,8793.18547874
 2026-01-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",37225.28210978
 2026-02-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",39253.76983757
 2026-03-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",84835.84093447
@@ -310,7 +312,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",43340.01387833
 2026-09-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",106678.29393661
 2026-10-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",41250.71963802
-2026-11-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",277.3938596
+2026-11-01,307,"Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",4815.68469914
 2026-01-01,310,Ministerio de Salud,20040.83078825
 2026-02-01,310,Ministerio de Salud,38821.37922145
 2026-03-01,310,Ministerio de Salud,1467730.37271744
@@ -321,7 +323,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,310,Ministerio de Salud,212770.39340423
 2026-09-01,310,Ministerio de Salud,1208926.42783223
 2026-10-01,310,Ministerio de Salud,720734.1389777
-2026-11-01,310,Ministerio de Salud,8677.1381088
+2026-11-01,310,Ministerio de Salud,203016.22196193
 2026-01-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",208094.50406922
 2026-02-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",215155.11766594
 2026-03-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",217885.28794811
@@ -332,7 +334,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",292036.97366702
 2026-09-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",295103.4132622
 2026-10-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",296194.8927928
-2026-11-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",322.72444468000003
+2026-11-01,311,"Secretaría Nacional de Niñez, Adolescencia y Familia",10680.60224084
 2026-01-01,312,Honorable Senado de la Nación Argentina,14487.234453750001
 2026-02-01,312,Honorable Senado de la Nación Argentina,12445.81154778
 2026-03-01,312,Honorable Senado de la Nación Argentina,24296.23149
@@ -343,7 +345,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,312,Honorable Senado de la Nación Argentina,21102.3224025
 2026-09-01,312,Honorable Senado de la Nación Argentina,26816.49096901
 2026-10-01,312,Honorable Senado de la Nación Argentina,17759.74181097
-2026-11-01,312,Honorable Senado de la Nación Argentina,4372.82502237
+2026-11-01,312,Honorable Senado de la Nación Argentina,5291.08145107
 2026-01-01,313,Honorable Cámara de Diputados de la Nación Argentina,18983.22281603
 2026-02-01,313,Honorable Cámara de Diputados de la Nación Argentina,19131.12695556
 2026-03-01,313,Honorable Cámara de Diputados de la Nación Argentina,21384.705291270002
@@ -354,7 +356,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,313,Honorable Cámara de Diputados de la Nación Argentina,20598.232046869998
 2026-09-01,313,Honorable Cámara de Diputados de la Nación Argentina,26528.17905848
 2026-10-01,313,Honorable Cámara de Diputados de la Nación Argentina,23876.644200810002
-2026-11-01,313,Honorable Cámara de Diputados de la Nación Argentina,0.0
+2026-11-01,313,Honorable Cámara de Diputados de la Nación Argentina,660.60059949
 2026-01-01,314,Biblioteca del Congreso de la Nación,4138.25596478
 2026-02-01,314,Biblioteca del Congreso de la Nación,4181.2523366099995
 2026-03-01,314,Biblioteca del Congreso de la Nación,5104.9965205
@@ -365,7 +367,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,314,Biblioteca del Congreso de la Nación,4927.41945675
 2026-09-01,314,Biblioteca del Congreso de la Nación,5031.38116758
 2026-10-01,314,Biblioteca del Congreso de la Nación,6192.15026739
-2026-11-01,314,Biblioteca del Congreso de la Nación,72.06175400000001
+2026-11-01,314,Biblioteca del Congreso de la Nación,73.779954
 2026-01-01,315,Imprenta del Congreso de la Nación,1070.60042171
 2026-02-01,315,Imprenta del Congreso de la Nación,1018.00255119
 2026-03-01,315,Imprenta del Congreso de la Nación,1354.48078599
@@ -376,7 +378,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,315,Imprenta del Congreso de la Nación,1332.58217032
 2026-09-01,315,Imprenta del Congreso de la Nación,1655.73696481
 2026-10-01,315,Imprenta del Congreso de la Nación,1747.6123452
-2026-11-01,315,Imprenta del Congreso de la Nación,0.0
+2026-11-01,315,Imprenta del Congreso de la Nación,49.0
 2026-01-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5160.7027155900005
 2026-02-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5169.38814418
 2026-03-01,316,Dirección de Ayuda Social para el Personal del Congreso de la Nación (DAS),5769.85329964
@@ -398,7 +400,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,319,Defensoría del Pueblo de la Nación,1311.2489458
 2026-09-01,319,Defensoría del Pueblo de la Nación,1327.51249639
 2026-10-01,319,Defensoría del Pueblo de la Nación,1359.26809772
-2026-11-01,319,Defensoría del Pueblo de la Nación,8.36206385
+2026-11-01,319,Defensoría del Pueblo de la Nación,58.28122769
 2026-01-01,320,Consejo de la Magistratura,140545.13212485
 2026-02-01,320,Consejo de la Magistratura,155246.42134695
 2026-03-01,320,Consejo de la Magistratura,160976.24271189
@@ -409,7 +411,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,320,Consejo de la Magistratura,185967.02165615
 2026-09-01,320,Consejo de la Magistratura,184311.47362892
 2026-10-01,320,Consejo de la Magistratura,187674.57147754
-2026-11-01,320,Consejo de la Magistratura,13.318245810000011
+2026-11-01,320,Consejo de la Magistratura,30520.50577697
 2026-01-01,321,Instituto Nacional de Estadística y Censos (INDEC),1845.77021781
 2026-02-01,321,Instituto Nacional de Estadística y Censos (INDEC),3385.84890817
 2026-03-01,321,Instituto Nacional de Estadística y Censos (INDEC),4295.17524654
@@ -420,7 +422,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,321,Instituto Nacional de Estadística y Censos (INDEC),3023.98813349
 2026-09-01,321,Instituto Nacional de Estadística y Censos (INDEC),5733.91411677
 2026-10-01,321,Instituto Nacional de Estadística y Censos (INDEC),3111.68782902
-2026-11-01,321,Instituto Nacional de Estadística y Censos (INDEC),162.18087781
+2026-11-01,321,Instituto Nacional de Estadística y Censos (INDEC),527.08454621
 2026-01-01,322,Secretaría de Turismo y Ambiente,2019.7608945
 2026-02-01,322,Secretaría de Turismo y Ambiente,2334.31043024
 2026-03-01,322,Secretaría de Turismo y Ambiente,2834.24858736
@@ -431,7 +433,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,322,Secretaría de Turismo y Ambiente,1727.41828434
 2026-09-01,322,Secretaría de Turismo y Ambiente,3301.41627608
 2026-10-01,322,Secretaría de Turismo y Ambiente,2213.14778806
-2026-11-01,322,Secretaría de Turismo y Ambiente,16.75493274
+2026-11-01,322,Secretaría de Turismo y Ambiente,254.25335593
 2026-01-01,325,Ministerio del Interior,8899.73598809
 2026-02-01,325,Ministerio del Interior,24775.22072718
 2026-03-01,325,Ministerio del Interior,54384.00348827
@@ -442,7 +444,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,325,Ministerio del Interior,4604.16939475
 2026-09-01,325,Ministerio del Interior,44380.00625134
 2026-10-01,325,Ministerio del Interior,25763.30708796
-2026-11-01,325,Ministerio del Interior,736.2229301
+2026-11-01,325,Ministerio del Interior,2180.69096486
 2026-01-01,326,Policía Federal Argentina (PFA),71304.63091791
 2026-02-01,326,Policía Federal Argentina (PFA),78828.6657334
 2026-03-01,326,Policía Federal Argentina (PFA),86317.18200751
@@ -453,7 +455,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,326,Policía Federal Argentina (PFA),91559.88632425
 2026-09-01,326,Policía Federal Argentina (PFA),91840.19794567
 2026-10-01,326,Policía Federal Argentina (PFA),97975.41615828
-2026-11-01,326,Policía Federal Argentina (PFA),596.05845683
+2026-11-01,326,Policía Federal Argentina (PFA),865.71009283
 2026-01-01,330,Secretaría de Educación,403599.31377324
 2026-02-01,330,Secretaría de Educación,474038.74540057
 2026-03-01,330,Secretaría de Educación,516869.5446755
@@ -464,7 +466,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,330,Secretaría de Educación,559549.15705575
 2026-09-01,330,Secretaría de Educación,1167748.38446583
 2026-10-01,330,Secretaría de Educación,613723.52266795
-2026-11-01,330,Secretaría de Educación,5963.3011648500005
+2026-11-01,330,Secretaría de Educación,60715.87251686
 2026-01-01,331,Servicio Penitenciario Federal,39435.32235088
 2026-02-01,331,Servicio Penitenciario Federal,38649.84826669
 2026-03-01,331,Servicio Penitenciario Federal,48642.58704085
@@ -475,7 +477,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,331,Servicio Penitenciario Federal,50178.456161329996
 2026-09-01,331,Servicio Penitenciario Federal,51167.03023865
 2026-10-01,331,Servicio Penitenciario Federal,52884.82847367
-2026-11-01,331,Servicio Penitenciario Federal,153.01143525
+2026-11-01,331,Servicio Penitenciario Federal,5570.14916317
 2026-01-01,332,Ministerio de Justicia,8672.67923002
 2026-02-01,332,Ministerio de Justicia,9195.89388797
 2026-03-01,332,Ministerio de Justicia,12048.72779389
@@ -486,7 +488,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,332,Ministerio de Justicia,14921.0541882
 2026-09-01,332,Ministerio de Justicia,29569.2854883
 2026-10-01,332,Ministerio de Justicia,19513.86464117
-2026-11-01,332,Ministerio de Justicia,146.36647299
+2026-11-01,332,Ministerio de Justicia,4963.92641731
 2026-01-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1350.68461151
 2026-02-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1365.44086776
 2026-03-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1579.44308251
@@ -497,7 +499,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1462.08855426
 2026-09-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1947.7586839
 2026-10-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,1258.45273767
-2026-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,285.09769209
+2026-11-01,334,Ente de Cooperación Técnica y Financiera del Servicio Penitenciario Federal,378.26151898
 2026-01-01,335,Corte Suprema de Justicia de la Nación,20267.33893631
 2026-02-01,335,Corte Suprema de Justicia de la Nación,21468.05411069
 2026-03-01,335,Corte Suprema de Justicia de la Nación,23765.16299097
@@ -508,6 +510,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,335,Corte Suprema de Justicia de la Nación,26905.14398857
 2026-09-01,335,Corte Suprema de Justicia de la Nación,26211.19887654
 2026-10-01,335,Corte Suprema de Justicia de la Nación,27775.37053681
+2026-11-01,335,Corte Suprema de Justicia de la Nación,2070.6531011800002
 2026-01-01,336,"Secretaría de Innovación, Ciencia y Tecnología",1780.41008932
 2026-02-01,336,"Secretaría de Innovación, Ciencia y Tecnología",5999.9616750000005
 2026-03-01,336,"Secretaría de Innovación, Ciencia y Tecnología",20630.34950442
@@ -518,7 +521,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,336,"Secretaría de Innovación, Ciencia y Tecnología",9003.97108942
 2026-09-01,336,"Secretaría de Innovación, Ciencia y Tecnología",33425.44454099
 2026-10-01,336,"Secretaría de Innovación, Ciencia y Tecnología",-5819.587235669999
-2026-11-01,336,"Secretaría de Innovación, Ciencia y Tecnología",1.1488349
+2026-11-01,336,"Secretaría de Innovación, Ciencia y Tecnología",116.60742984
 2026-01-01,337,Secretaría de Cultura,7017.61720589
 2026-02-01,337,Secretaría de Cultura,10646.89129706
 2026-03-01,337,Secretaría de Cultura,18604.46752752
@@ -529,7 +532,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,337,Secretaría de Cultura,17889.50973324
 2026-09-01,337,Secretaría de Cultura,27434.25592746
 2026-10-01,337,Secretaría de Cultura,15814.82385928
-2026-11-01,337,Secretaría de Cultura,669.03349155
+2026-11-01,337,Secretaría de Cultura,2127.49802297
 2026-01-01,338,Secretaría Legal y Técnica,865.94731489
 2026-02-01,338,Secretaría Legal y Técnica,940.59826911
 2026-03-01,338,Secretaría Legal y Técnica,1151.7626686
@@ -540,7 +543,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,338,Secretaría Legal y Técnica,1236.3410255600002
 2026-09-01,338,Secretaría Legal y Técnica,1434.2657351799999
 2026-10-01,338,Secretaría Legal y Técnica,1271.85604983
-2026-11-01,338,Secretaría Legal y Técnica,8.91103485
+2026-11-01,338,Secretaría Legal y Técnica,38.43695978
 2026-01-01,340,Procuración Penitenciaria de la Nación,1045.57429385
 2026-02-01,340,Procuración Penitenciaria de la Nación,1094.70513766
 2026-03-01,340,Procuración Penitenciaria de la Nación,1508.19474349
@@ -551,7 +554,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,340,Procuración Penitenciaria de la Nación,1598.40682736
 2026-09-01,340,Procuración Penitenciaria de la Nación,1707.43682964
 2026-10-01,340,Procuración Penitenciaria de la Nación,1445.06870759
-2026-11-01,340,Procuración Penitenciaria de la Nación,1.62856445
+2026-11-01,340,Procuración Penitenciaria de la Nación,398.03751619
 2026-01-01,343,Ministerio de Seguridad Nacional,14363.15511066
 2026-02-01,343,Ministerio de Seguridad Nacional,26122.79763382
 2026-03-01,343,Ministerio de Seguridad Nacional,39425.98837039
@@ -562,7 +565,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,343,Ministerio de Seguridad Nacional,27491.53086487
 2026-09-01,343,Ministerio de Seguridad Nacional,44944.68405388
 2026-10-01,343,Ministerio de Seguridad Nacional,57713.866885380005
-2026-11-01,343,Ministerio de Seguridad Nacional,2426.6960599400004
+2026-11-01,343,Ministerio de Seguridad Nacional,5710.45661251
 2026-01-01,345,Consejo Nacional de Coordinación de Políticas Sociales,394.02291339
 2026-02-01,345,Consejo Nacional de Coordinación de Políticas Sociales,307.31063753
 2026-03-01,345,Consejo Nacional de Coordinación de Políticas Sociales,734.76659571
@@ -573,7 +576,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,345,Consejo Nacional de Coordinación de Políticas Sociales,510.77429442
 2026-09-01,345,Consejo Nacional de Coordinación de Políticas Sociales,483.6402748
 2026-10-01,345,Consejo Nacional de Coordinación de Políticas Sociales,581.38709884
-2026-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,1.04971405
+2026-11-01,345,Consejo Nacional de Coordinación de Políticas Sociales,23.21176491
 2026-01-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,88.49578192
 2026-02-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,144.90028422
 2026-03-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,196.5918457
@@ -584,7 +587,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,192.25243136999998
 2026-09-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,201.70116245
 2026-10-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,175.15357534999998
-2026-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,53.68813496
+2026-11-01,346,Defensoría del Público de Servicios de Comunicación Audiovisual,68.95891424
 2026-01-01,349,Procuración del Tesoro de la Nación,557.37596489
 2026-02-01,349,Procuración del Tesoro de la Nación,759.25316825
 2026-03-01,349,Procuración del Tesoro de la Nación,967.1102253900001
@@ -595,7 +598,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,349,Procuración del Tesoro de la Nación,1007.98923432
 2026-09-01,349,Procuración del Tesoro de la Nación,896.62362288
 2026-10-01,349,Procuración del Tesoro de la Nación,688.5143071599999
-2026-11-01,349,Procuración del Tesoro de la Nación,237.4449453
+2026-11-01,349,Procuración del Tesoro de la Nación,320.98859997
 2026-01-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",91048.33381711
 2026-02-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",86212.94672384
 2026-03-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",90948.61653258
@@ -606,7 +609,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",13129.93799302
 2026-09-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",145872.11131397999
 2026-10-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",13317.65096898
-2026-11-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",6890.18896972
+2026-11-01,350,"Secretaría de Trabajo, Empleo y Seguridad Social",10406.85036249
 2026-01-01,355,Servicio de la Deuda Pública,1578299.99861335
 2026-02-01,355,Servicio de la Deuda Pública,2339473.55779105
 2026-03-01,355,Servicio de la Deuda Pública,556743.7957621301
@@ -617,7 +620,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,355,Servicio de la Deuda Pública,2558169.21767277
 2026-09-01,355,Servicio de la Deuda Pública,631101.27029095
 2026-10-01,355,Servicio de la Deuda Pública,388102.70816984
-2026-11-01,355,Servicio de la Deuda Pública,208795.97641911
+2026-11-01,355,Servicio de la Deuda Pública,289940.72684581
 2026-01-01,356,Obligaciones a Cargo del Tesoro,309246.25710985
 2026-02-01,356,Obligaciones a Cargo del Tesoro,415599.46707059
 2026-03-01,356,Obligaciones a Cargo del Tesoro,263442.31345948
@@ -628,7 +631,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,356,Obligaciones a Cargo del Tesoro,444848.37709534
 2026-09-01,356,Obligaciones a Cargo del Tesoro,571769.44852614
 2026-10-01,356,Obligaciones a Cargo del Tesoro,377001.50953832
-2026-11-01,356,Obligaciones a Cargo del Tesoro,9432.60922903
+2026-11-01,356,Obligaciones a Cargo del Tesoro,191349.76123041
 2026-01-01,357,Ministerio de Economía,396348.89254336996
 2026-02-01,357,Ministerio de Economía,289765.3279123
 2026-03-01,357,Ministerio de Economía,430612.30549776
@@ -639,7 +642,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,357,Ministerio de Economía,858734.64949924
 2026-09-01,357,Ministerio de Economía,650745.02923049
 2026-10-01,357,Ministerio de Economía,634013.48207912
-2026-11-01,357,Ministerio de Economía,95780.73955161001
+2026-11-01,357,Ministerio de Economía,98044.63345855002
 2026-01-01,360,Procuración General de la Nación,43787.72758082001
 2026-02-01,360,Procuración General de la Nación,47492.86872818
 2026-03-01,360,Procuración General de la Nación,48820.1308727
@@ -650,7 +653,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,360,Procuración General de la Nación,53159.783447179994
 2026-09-01,360,Procuración General de la Nación,64626.02169493
 2026-10-01,360,Procuración General de la Nación,60721.16145425
-2026-11-01,360,Procuración General de la Nación,553.88873758
+2026-11-01,360,Procuración General de la Nación,1364.07547336
 2026-01-01,361,Defensoría General de la Nación,23468.68669289
 2026-02-01,361,Defensoría General de la Nación,25980.51017708
 2026-03-01,361,Defensoría General de la Nación,27789.57603213
@@ -661,7 +664,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,361,Defensoría General de la Nación,31220.96044938
 2026-09-01,361,Defensoría General de la Nación,31574.46353858
 2026-10-01,361,Defensoría General de la Nación,31552.41652019
-2026-11-01,361,Defensoría General de la Nación,322.77287693
+2026-11-01,361,Defensoría General de la Nación,870.7747390400001
 2026-01-01,362,Secretaría de Industria y Desarrollo Productivo,5616.12755679
 2026-02-01,362,Secretaría de Industria y Desarrollo Productivo,13030.61500932
 2026-03-01,362,Secretaría de Industria y Desarrollo Productivo,15657.20942408
@@ -672,7 +675,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,362,Secretaría de Industria y Desarrollo Productivo,11832.6768295
 2026-09-01,362,Secretaría de Industria y Desarrollo Productivo,22516.26035741
 2026-10-01,362,Secretaría de Industria y Desarrollo Productivo,9082.45958268
-2026-11-01,362,Secretaría de Industria y Desarrollo Productivo,451.46553114
+2026-11-01,362,Secretaría de Industria y Desarrollo Productivo,4247.65944728
 2026-01-01,368,Secretaría de Comunicación y Prensa,480.46187580000003
 2026-02-01,368,Secretaría de Comunicación y Prensa,582.89250706
 2026-03-01,368,Secretaría de Comunicación y Prensa,868.94267802
@@ -683,7 +686,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,368,Secretaría de Comunicación y Prensa,791.4561287
 2026-09-01,368,Secretaría de Comunicación y Prensa,865.9999863
 2026-10-01,368,Secretaría de Comunicación y Prensa,758.07429416
-2026-11-01,368,Secretaría de Comunicación y Prensa,62.1765193
+2026-11-01,368,Secretaría de Comunicación y Prensa,70.28651930000001
 2026-01-01,369,Oficina de Presupuesto del Congreso,104.13412962
 2026-02-01,369,Oficina de Presupuesto del Congreso,108.94186888
 2026-03-01,369,Oficina de Presupuesto del Congreso,136.04626313
@@ -694,6 +697,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,369,Oficina de Presupuesto del Congreso,150.22741465
 2026-09-01,369,Oficina de Presupuesto del Congreso,161.32063627
 2026-10-01,369,Oficina de Presupuesto del Congreso,141.98977791
+2026-11-01,369,Oficina de Presupuesto del Congreso,0.0
 2026-01-01,370,Ministerio de Defensa,4322.497682560001
 2026-02-01,370,Ministerio de Defensa,3608.17170618
 2026-03-01,370,Ministerio de Defensa,12640.33130212
@@ -704,7 +708,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,370,Ministerio de Defensa,3259.15984523
 2026-09-01,370,Ministerio de Defensa,3149.62483096
 2026-10-01,370,Ministerio de Defensa,17828.19833056
-2026-11-01,370,Ministerio de Defensa,317.18007272
+2026-11-01,370,Ministerio de Defensa,861.88680066
 2026-01-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),1209.9947727899998
 2026-02-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),7853.72709235
 2026-03-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),6633.84739884
@@ -715,7 +719,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2533.48729495
 2026-09-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),3382.68604093
 2026-10-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),3244.9132607799997
-2026-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),831.10042433
+2026-11-01,371,Estado Mayor Conjunto de las Fuerzas Armadas (EMCO),2438.5110423200003
 2026-01-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),870.03243653
 2026-02-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),899.43948335
 2026-03-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1008.49972169
@@ -726,7 +730,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1076.16965211
 2026-09-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1146.19578945
 2026-10-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),1018.63559187
-2026-11-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),67.05272
+2026-11-01,372,Instituto de Investigaciones Científicas y Técnicas para la Defensa (CITEDEF),161.18588505
 2026-01-01,374,Estado Mayor General del Ejército Argentino (EMGE),118933.36502757
 2026-02-01,374,Estado Mayor General del Ejército Argentino (EMGE),121131.40243023999
 2026-03-01,374,Estado Mayor General del Ejército Argentino (EMGE),175240.69166098
@@ -737,7 +741,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,374,Estado Mayor General del Ejército Argentino (EMGE),156683.97284717
 2026-09-01,374,Estado Mayor General del Ejército Argentino (EMGE),179611.27569223
 2026-10-01,374,Estado Mayor General del Ejército Argentino (EMGE),156594.83128359
-2026-11-01,374,Estado Mayor General del Ejército Argentino (EMGE),13630.8376326
+2026-11-01,374,Estado Mayor General del Ejército Argentino (EMGE),46088.89084943
 2026-01-01,375,Gendarmería Nacional Argentina (GNA),111215.14644723
 2026-02-01,375,Gendarmería Nacional Argentina (GNA),109986.63642098001
 2026-03-01,375,Gendarmería Nacional Argentina (GNA),125322.86627835
@@ -748,7 +752,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,375,Gendarmería Nacional Argentina (GNA),130055.2943606
 2026-09-01,375,Gendarmería Nacional Argentina (GNA),143618.29053367
 2026-10-01,375,Gendarmería Nacional Argentina (GNA),144377.82349166
-2026-11-01,375,Gendarmería Nacional Argentina (GNA),8156.3079578
+2026-11-01,375,Gendarmería Nacional Argentina (GNA),10492.45533201
 2026-01-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,120.93689771
 2026-02-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,359.09719222
 2026-03-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2750.05740038
@@ -759,7 +763,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,3719.3471861700004
 2026-09-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,4695.16022822
 2026-10-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2948.50214349
-2026-11-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,900.73573153
+2026-11-01,376,Subsecretaría de Planeamiento Operativo y Servicio Logístico de la Defensa,2777.69884642
 2026-01-01,377,Infraestructura Económica y Social,3222.09239575
 2026-02-01,377,Infraestructura Económica y Social,90939.84101209
 2026-03-01,377,Infraestructura Económica y Social,145484.02243071
@@ -770,7 +774,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,377,Infraestructura Económica y Social,83950.6030624
 2026-09-01,377,Infraestructura Económica y Social,202592.86723493002
 2026-10-01,377,Infraestructura Económica y Social,32802.85041912
-2026-11-01,377,Infraestructura Económica y Social,804.23222588
+2026-11-01,377,Infraestructura Económica y Social,83910.73627102
 2026-01-01,379,Estado Mayor General de la Armada Argentina (EMGA),60640.22737797
 2026-02-01,379,Estado Mayor General de la Armada Argentina (EMGA),61253.92588632
 2026-03-01,379,Estado Mayor General de la Armada Argentina (EMGA),73198.13232925
@@ -781,7 +785,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,379,Estado Mayor General de la Armada Argentina (EMGA),74658.46121741
 2026-09-01,379,Estado Mayor General de la Armada Argentina (EMGA),117850.34532853999
 2026-10-01,379,Estado Mayor General de la Armada Argentina (EMGA),78666.16873209
-2026-11-01,379,Estado Mayor General de la Armada Argentina (EMGA),1292.02162491
+2026-11-01,379,Estado Mayor General de la Armada Argentina (EMGA),8024.31752824
 2026-01-01,380,Prefectura Naval Argentina (PNA),56689.3805356
 2026-02-01,380,Prefectura Naval Argentina (PNA),56148.76359792
 2026-03-01,380,Prefectura Naval Argentina (PNA),67316.4482637
@@ -792,7 +796,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,380,Prefectura Naval Argentina (PNA),69119.51153275999
 2026-09-01,380,Prefectura Naval Argentina (PNA),75804.08108282
 2026-10-01,380,Prefectura Naval Argentina (PNA),76163.03444887
-2026-11-01,380,Prefectura Naval Argentina (PNA),988.66741284
+2026-11-01,380,Prefectura Naval Argentina (PNA),4642.5498262
 2026-01-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),46234.41747573
 2026-02-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),48626.79711732
 2026-03-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),75516.1703212
@@ -803,7 +807,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),65502.56893508
 2026-09-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),85347.70208556
 2026-10-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),76919.52540502
-2026-11-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),970.35077998
+2026-11-01,381,Estado Mayor General de la Fuerza Aérea Argentina (EMGFA),6732.1946074
 2026-01-01,382,Policía de Seguridad Aeroportuaria (PSA),15128.60894716
 2026-02-01,382,Policía de Seguridad Aeroportuaria (PSA),14975.63979214
 2026-03-01,382,Policía de Seguridad Aeroportuaria (PSA),18964.25128721
@@ -814,7 +818,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,382,Policía de Seguridad Aeroportuaria (PSA),22743.58758987
 2026-09-01,382,Policía de Seguridad Aeroportuaria (PSA),20854.5150799
 2026-10-01,382,Policía de Seguridad Aeroportuaria (PSA),20341.01091681
-2026-11-01,382,Policía de Seguridad Aeroportuaria (PSA),421.82836906
+2026-11-01,382,Policía de Seguridad Aeroportuaria (PSA),1043.95599355
 2026-01-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",643.9689504
 2026-02-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",649.48692514
 2026-03-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",809.53417972
@@ -825,7 +829,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",911.18934575
 2026-09-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",997.2790092700001
 2026-10-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",961.17944458
-2026-11-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",3.40220412
+2026-11-01,385,"Defensoría de los Derechos de las Niñas, Niños y Adolescentes",20.4680398
 2026-01-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),388.50230688
 2026-02-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),454.79042811
 2026-03-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),570.20200536
@@ -836,7 +840,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),544.98592182
 2026-09-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),898.8239125
 2026-10-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),710.49875971
-2026-11-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),25.51900388
+2026-11-01,387,Comité Nacional para la Prevención de la Tortura (CNPT),69.83801609
 2026-01-01,388,Ministerio de Capital Humano,826.19025553
 2026-02-01,388,Ministerio de Capital Humano,786.3100051600001
 2026-03-01,388,Ministerio de Capital Humano,1229.22719629
@@ -847,7 +851,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,388,Ministerio de Capital Humano,1856.98253571
 2026-09-01,388,Ministerio de Capital Humano,12722.41354318
 2026-10-01,388,Ministerio de Capital Humano,1179.99146253
-2026-11-01,388,Ministerio de Capital Humano,361.62582213
+2026-11-01,388,Ministerio de Capital Humano,461.42505093
 2026-01-01,389,Ministerio de Desregulación y Transformación del Estado,1141.54729901
 2026-02-01,389,Ministerio de Desregulación y Transformación del Estado,1877.76349872
 2026-03-01,389,Ministerio de Desregulación y Transformación del Estado,1401.93946269
@@ -858,7 +862,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,389,Ministerio de Desregulación y Transformación del Estado,1683.44776921
 2026-09-01,389,Ministerio de Desregulación y Transformación del Estado,1775.52056393
 2026-10-01,389,Ministerio de Desregulación y Transformación del Estado,1693.47620672
-2026-11-01,389,Ministerio de Desregulación y Transformación del Estado,2.94720154
+2026-11-01,389,Ministerio de Desregulación y Transformación del Estado,22.3781958
 2026-01-01,450,Instituto Geográfico Nacional,504.40238159
 2026-02-01,450,Instituto Geográfico Nacional,102.62538518
 2026-03-01,450,Instituto Geográfico Nacional,1186.55526241
@@ -869,7 +873,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,450,Instituto Geográfico Nacional,576.71693651
 2026-09-01,450,Instituto Geográfico Nacional,998.94356114
 2026-10-01,450,Instituto Geográfico Nacional,707.55691331
-2026-11-01,450,Instituto Geográfico Nacional,0.0
+2026-11-01,450,Instituto Geográfico Nacional,0.74423779
 2026-01-01,452,Servicio Meteorológico Nacional,1221.91885245
 2026-02-01,452,Servicio Meteorológico Nacional,1813.19942909
 2026-03-01,452,Servicio Meteorológico Nacional,3464.41098589
@@ -880,7 +884,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,452,Servicio Meteorológico Nacional,1002.95299159
 2026-09-01,452,Servicio Meteorológico Nacional,4341.00121628
 2026-10-01,452,Servicio Meteorológico Nacional,2013.66253166
-2026-11-01,452,Servicio Meteorológico Nacional,96.62941251
+2026-11-01,452,Servicio Meteorológico Nacional,452.64869239999996
 2026-01-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,170294.85452909
 2026-02-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,165042.91687214
 2026-03-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,188968.30470223
@@ -891,7 +895,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,198592.97635045002
 2026-09-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,216944.17255835
 2026-10-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,220008.4331121
-2026-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,0.0
+2026-11-01,470,Instituto de Ayuda Financiera para Pago de Retiros y Pensiones Militares,2.78096747
 2026-01-01,602,Comisión Nacional de Valores,1123.75627287
 2026-02-01,602,Comisión Nacional de Valores,1543.57342159
 2026-03-01,602,Comisión Nacional de Valores,2095.58026365
@@ -902,7 +906,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,602,Comisión Nacional de Valores,1634.45896962
 2026-09-01,602,Comisión Nacional de Valores,2690.17020698
 2026-10-01,602,Comisión Nacional de Valores,1675.9120143300001
-2026-11-01,602,Comisión Nacional de Valores,0.18174484
+2026-11-01,602,Comisión Nacional de Valores,15.797228480000001
 2026-01-01,603,Superintendencia de Seguros de la Nación,1831.1702724
 2026-02-01,603,Superintendencia de Seguros de la Nación,2270.72889467
 2026-03-01,603,Superintendencia de Seguros de la Nación,4093.45723083
@@ -913,7 +917,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,603,Superintendencia de Seguros de la Nación,2866.25589382
 2026-09-01,603,Superintendencia de Seguros de la Nación,3789.42307661
 2026-10-01,603,Superintendencia de Seguros de la Nación,2182.48210964
-2026-11-01,603,Superintendencia de Seguros de la Nación,87.21992165
+2026-11-01,603,Superintendencia de Seguros de la Nación,922.39302581
 2026-01-01,604,Dirección Nacional de Vialidad,10614.36610046
 2026-02-01,604,Dirección Nacional de Vialidad,49104.60348354
 2026-03-01,604,Dirección Nacional de Vialidad,66974.39672539
@@ -924,7 +928,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,604,Dirección Nacional de Vialidad,61440.85322892
 2026-09-01,604,Dirección Nacional de Vialidad,73294.89334681
 2026-10-01,604,Dirección Nacional de Vialidad,49056.03120554
-2026-11-01,604,Dirección Nacional de Vialidad,26927.89452516
+2026-11-01,604,Dirección Nacional de Vialidad,44078.54700408
 2026-01-01,606,Instituto Nacional de Tecnología Agropecuaria,17139.19292912
 2026-02-01,606,Instituto Nacional de Tecnología Agropecuaria,17536.11034105
 2026-03-01,606,Instituto Nacional de Tecnología Agropecuaria,23085.72614433
@@ -935,7 +939,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,606,Instituto Nacional de Tecnología Agropecuaria,19836.00907791
 2026-09-01,606,Instituto Nacional de Tecnología Agropecuaria,20876.5483679
 2026-10-01,606,Instituto Nacional de Tecnología Agropecuaria,18137.83492947
-2026-11-01,606,Instituto Nacional de Tecnología Agropecuaria,241.12523172000002
+2026-11-01,606,Instituto Nacional de Tecnología Agropecuaria,995.80252932
 2026-01-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,212.24235081999998
 2026-02-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1613.7810456
 2026-03-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2276.18233101
@@ -946,7 +950,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2773.78001198
 2026-09-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,2275.81270099
 2026-10-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,799.17684502
-2026-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1342.26772891
+2026-11-01,607,Instituto Nacional de Investigación y Desarrollo Pesquero,1751.17612923
 2026-01-01,608,Instituto Nacional de Tecnología Industrial,4736.27651641
 2026-02-01,608,Instituto Nacional de Tecnología Industrial,7493.60338021
 2026-03-01,608,Instituto Nacional de Tecnología Industrial,6945.16280774
@@ -957,7 +961,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,608,Instituto Nacional de Tecnología Industrial,5682.250077969999
 2026-09-01,608,Instituto Nacional de Tecnología Industrial,12485.50817715
 2026-10-01,608,Instituto Nacional de Tecnología Industrial,121.8578549
-2026-11-01,608,Instituto Nacional de Tecnología Industrial,0.0
+2026-11-01,608,Instituto Nacional de Tecnología Industrial,7626.9100244
 2026-01-01,609,Instituto Nacional de Vitivinicultura,1215.0307959
 2026-02-01,609,Instituto Nacional de Vitivinicultura,1186.14919262
 2026-03-01,609,Instituto Nacional de Vitivinicultura,1455.41536165
@@ -968,7 +972,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,609,Instituto Nacional de Vitivinicultura,1554.75341075
 2026-09-01,609,Instituto Nacional de Vitivinicultura,1467.10879563
 2026-10-01,609,Instituto Nacional de Vitivinicultura,1358.38798929
-2026-11-01,609,Instituto Nacional de Vitivinicultura,13.28370013
+2026-11-01,609,Instituto Nacional de Vitivinicultura,65.22902602
 2026-01-01,612,Tribunal de Tasaciones de la Nación,15.931982049999998
 2026-02-01,612,Tribunal de Tasaciones de la Nación,458.81753823
 2026-03-01,612,Tribunal de Tasaciones de la Nación,334.62265347
@@ -979,7 +983,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,612,Tribunal de Tasaciones de la Nación,355.98095205
 2026-09-01,612,Tribunal de Tasaciones de la Nación,352.83139342
 2026-10-01,612,Tribunal de Tasaciones de la Nación,239.62673179
-2026-11-01,612,Tribunal de Tasaciones de la Nación,108.52841646
+2026-11-01,612,Tribunal de Tasaciones de la Nación,114.71315321
 2026-01-01,614,Instituto Nacional de Semillas,440.25934907
 2026-02-01,614,Instituto Nacional de Semillas,644.77509388
 2026-03-01,614,Instituto Nacional de Semillas,757.87634056
@@ -990,7 +994,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,614,Instituto Nacional de Semillas,558.69711948
 2026-09-01,614,Instituto Nacional de Semillas,1092.9135076
 2026-10-01,614,Instituto Nacional de Semillas,535.84777116
-2026-11-01,614,Instituto Nacional de Semillas,16.8490057
+2026-11-01,614,Instituto Nacional de Semillas,249.84614126
 2026-01-01,620,Tribunal Fiscal de la Nación,1130.67690719
 2026-02-01,620,Tribunal Fiscal de la Nación,1144.03405965
 2026-03-01,620,Tribunal Fiscal de la Nación,1421.85718284
@@ -1012,7 +1016,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,622,Instituto Nacional de la Propiedad Industrial,1381.21152531
 2026-09-01,622,Instituto Nacional de la Propiedad Industrial,2510.89833817
 2026-10-01,622,Instituto Nacional de la Propiedad Industrial,855.23461864
-2026-11-01,622,Instituto Nacional de la Propiedad Industrial,393.05866905000005
+2026-11-01,622,Instituto Nacional de la Propiedad Industrial,443.42261818000003
 2026-01-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,10621.36432972
 2026-02-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,10233.11418854
 2026-03-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,25466.53133346
@@ -1023,7 +1027,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,19736.81789064
 2026-09-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,23679.254675
 2026-10-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,20922.00103285
-2026-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,1688.27711119
+2026-11-01,623,Servicio Nacional de Sanidad y Calidad Agroalimentaria,2429.94526213
 2026-01-01,624,Servicio Geológico Minero Argentino,1034.34855725
 2026-02-01,624,Servicio Geológico Minero Argentino,980.04268107
 2026-03-01,624,Servicio Geológico Minero Argentino,1160.37328945
@@ -1034,7 +1038,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,624,Servicio Geológico Minero Argentino,1230.18641938
 2026-09-01,624,Servicio Geológico Minero Argentino,1851.7084661
 2026-10-01,624,Servicio Geológico Minero Argentino,1066.1440133199999
-2026-11-01,624,Servicio Geológico Minero Argentino,5.42094338
+2026-11-01,624,Servicio Geológico Minero Argentino,224.53243777
 2026-01-01,656,Organismo Regulador de Seguridad de Presas,239.23887537
 2026-02-01,656,Organismo Regulador de Seguridad de Presas,194.65500883
 2026-03-01,656,Organismo Regulador de Seguridad de Presas,253.68362544
@@ -1045,7 +1049,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,656,Organismo Regulador de Seguridad de Presas,258.54208122
 2026-09-01,656,Organismo Regulador de Seguridad de Presas,219.37284138
 2026-10-01,656,Organismo Regulador de Seguridad de Presas,273.72114199
-2026-11-01,656,Organismo Regulador de Seguridad de Presas,6.15636952
+2026-11-01,656,Organismo Regulador de Seguridad de Presas,7.19087581
 2026-01-01,661,Comisión Nacional de Regulación del Transporte,2972.30358699
 2026-02-01,661,Comisión Nacional de Regulación del Transporte,3549.6395265
 2026-03-01,661,Comisión Nacional de Regulación del Transporte,4368.76542492
@@ -1056,7 +1060,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,661,Comisión Nacional de Regulación del Transporte,3220.66889826
 2026-09-01,661,Comisión Nacional de Regulación del Transporte,6559.730240880001
 2026-10-01,661,Comisión Nacional de Regulación del Transporte,3298.44683684
-2026-11-01,661,Comisión Nacional de Regulación del Transporte,234.70263555
+2026-11-01,661,Comisión Nacional de Regulación del Transporte,367.02770113
 2026-01-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,648.73095343
 2026-02-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,569.26346884
 2026-03-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,621.0166689099999
@@ -1067,7 +1071,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,684.72556203
 2026-09-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,1031.47548337
 2026-10-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,893.69472333
-2026-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,0.0
+2026-11-01,664,Organismo Regulador del Sistema Nacional de Aeropuertos,2.06234108
 2026-01-01,669,Administración Nacional de Aviación Civil,4607.1751461
 2026-02-01,669,Administración Nacional de Aviación Civil,2878.53001147
 2026-03-01,669,Administración Nacional de Aviación Civil,8748.73548482
@@ -1078,7 +1082,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,669,Administración Nacional de Aviación Civil,6292.80361149
 2026-09-01,669,Administración Nacional de Aviación Civil,7293.32111345
 2026-10-01,669,Administración Nacional de Aviación Civil,4646.2566989
-2026-11-01,669,Administración Nacional de Aviación Civil,30.401612829999998
+2026-11-01,669,Administración Nacional de Aviación Civil,290.19456395
 2026-01-01,670,Unidad de Información Financiera,558.72150416
 2026-02-01,670,Unidad de Información Financiera,957.68584778
 2026-03-01,670,Unidad de Información Financiera,1184.0848947499999
@@ -1089,7 +1093,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,670,Unidad de Información Financiera,999.3157461
 2026-09-01,670,Unidad de Información Financiera,2085.62893257
 2026-10-01,670,Unidad de Información Financiera,630.88513922
-2026-11-01,670,Unidad de Información Financiera,904.96444731
+2026-11-01,670,Unidad de Información Financiera,1052.37086404
 2026-01-01,671,Junta de Seguridad en el Transporte,681.72900224
 2026-02-01,671,Junta de Seguridad en el Transporte,658.6919111
 2026-03-01,671,Junta de Seguridad en el Transporte,762.990472
@@ -1100,7 +1104,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,671,Junta de Seguridad en el Transporte,779.24689469
 2026-09-01,671,Junta de Seguridad en el Transporte,928.0913567299999
 2026-10-01,671,Junta de Seguridad en el Transporte,815.86747043
-2026-11-01,671,Junta de Seguridad en el Transporte,1.11899032
+2026-11-01,671,Junta de Seguridad en el Transporte,85.52928787
 2026-01-01,673,Agencia Nacional de Puertos y Navegación,125.4797189
 2026-02-01,673,Agencia Nacional de Puertos y Navegación,544.0247701999999
 2026-03-01,673,Agencia Nacional de Puertos y Navegación,1022.0187920599999
@@ -1111,7 +1115,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,673,Agencia Nacional de Puertos y Navegación,443.97025958
 2026-09-01,673,Agencia Nacional de Puertos y Navegación,8209.87087142
 2026-10-01,673,Agencia Nacional de Puertos y Navegación,390.72539062000004
-2026-11-01,673,Agencia Nacional de Puertos y Navegación,86.394
+2026-11-01,673,Agencia Nacional de Puertos y Navegación,-1733.57649243
 2026-01-01,674,Ente Nacional Regulador del Gas y la Electricidad,5352.62900008
 2026-02-01,674,Ente Nacional Regulador del Gas y la Electricidad,5279.7709873700005
 2026-03-01,674,Ente Nacional Regulador del Gas y la Electricidad,8276.021391530001
@@ -1122,7 +1126,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,674,Ente Nacional Regulador del Gas y la Electricidad,8451.05918348
 2026-09-01,674,Ente Nacional Regulador del Gas y la Electricidad,8028.51213962
 2026-10-01,674,Ente Nacional Regulador del Gas y la Electricidad,5402.78030314
-2026-11-01,674,Ente Nacional Regulador del Gas y la Electricidad,1425.51475647
+2026-11-01,674,Ente Nacional Regulador del Gas y la Electricidad,2465.98563632
 2026-01-01,802,Fondo Nacional de las Artes,114.18870106
 2026-02-01,802,Fondo Nacional de las Artes,167.96711131
 2026-03-01,802,Fondo Nacional de las Artes,617.84012465
@@ -1133,7 +1137,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,802,Fondo Nacional de las Artes,424.98384264
 2026-09-01,802,Fondo Nacional de las Artes,768.06097471
 2026-10-01,802,Fondo Nacional de las Artes,249.18916588
-2026-11-01,802,Fondo Nacional de las Artes,8.66797364
+2026-11-01,802,Fondo Nacional de las Artes,39.19879497
 2026-01-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,373.20081992
 2026-02-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,383.29511046
 2026-03-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,546.58265639
@@ -1144,7 +1148,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,524.89580866
 2026-09-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,524.85063073
 2026-10-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,574.44211246
-2026-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,35.698
+2026-11-01,804,Comisión Nacional de Evaluación y Acreditación Universitaria,72.98585449
 2026-01-01,850,Administración Nacional de la Seguridad Social,5803878.05364707
 2026-02-01,850,Administración Nacional de la Seguridad Social,5930509.47414098
 2026-03-01,850,Administración Nacional de la Seguridad Social,6507791.19946112
@@ -1155,7 +1159,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,850,Administración Nacional de la Seguridad Social,6920562.29531201
 2026-09-01,850,Administración Nacional de la Seguridad Social,7013990.95631424
 2026-10-01,850,Administración Nacional de la Seguridad Social,7110388.48439541
-2026-11-01,850,Administración Nacional de la Seguridad Social,35722.9868261
+2026-11-01,850,Administración Nacional de la Seguridad Social,771344.5151512501
 2026-01-01,852,Superintendencia de Riesgos del Trabajo,1164.38829529
 2026-02-01,852,Superintendencia de Riesgos del Trabajo,928.71421655
 2026-03-01,852,Superintendencia de Riesgos del Trabajo,1296.78325842
@@ -1166,7 +1170,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,852,Superintendencia de Riesgos del Trabajo,1306.56815541
 2026-09-01,852,Superintendencia de Riesgos del Trabajo,1514.2442199600002
 2026-10-01,852,Superintendencia de Riesgos del Trabajo,1353.10098939
-2026-11-01,852,Superintendencia de Riesgos del Trabajo,5.64497144
+2026-11-01,852,Superintendencia de Riesgos del Trabajo,87.50962068999999
 2026-01-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",1847.89651968
 2026-02-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3317.44422491
 2026-03-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",5769.99058004
@@ -1177,7 +1181,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3596.81603455
 2026-09-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",5912.24042712
 2026-10-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",4553.4160399
-2026-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",3.14771612
+2026-11-01,904,"Administración Nacional de Medicamentos, Alimentos y Tecnología Médica",921.52537607
 2026-01-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2742.77228003
 2026-02-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2387.5380971
 2026-03-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,10356.08361509
@@ -1188,7 +1192,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2829.18907165
 2026-09-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,3243.79934516
 2026-10-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,2517.9489191499997
-2026-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1021.12641205
+2026-11-01,905,Instituto Nacional Central Único Coordinador de Ablación e Implante,1324.8961757
 2026-01-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,2913.87720775
 2026-02-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,3855.60772278
 2026-03-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,4619.4632550100005
@@ -1199,7 +1203,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,4507.8011109
 2026-09-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,5476.62648555
 2026-10-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,4553.4203517900005
-2026-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,133.27872766000002
+2026-11-01,906,Administración Nacional de Laboratorios e Institutos de Salud Dr. Carlos G. Malbrán,1148.90169221
 2026-01-01,914,Superintendencia de Servicios de Salud,4618.39043029
 2026-02-01,914,Superintendencia de Servicios de Salud,13958.28677327
 2026-03-01,914,Superintendencia de Servicios de Salud,6768.09059345
@@ -1210,7 +1214,7 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,914,Superintendencia de Servicios de Salud,10014.16539265
 2026-09-01,914,Superintendencia de Servicios de Salud,10269.57211518
 2026-10-01,914,Superintendencia de Servicios de Salud,5889.52136948
-2026-11-01,914,Superintendencia de Servicios de Salud,1418.5253555
+2026-11-01,914,Superintendencia de Servicios de Salud,1893.79935502
 2026-01-01,919,Administración Nacional de Establecimientos de Salud,18715.84003549
 2026-02-01,919,Administración Nacional de Establecimientos de Salud,22570.30248225
 2026-03-01,919,Administración Nacional de Establecimientos de Salud,37070.03455572
@@ -1221,4 +1225,4 @@ fecha,servicio_id,servicio_desc,devengado
 2026-08-01,919,Administración Nacional de Establecimientos de Salud,25587.00484161
 2026-09-01,919,Administración Nacional de Establecimientos de Salud,39012.57677079
 2026-10-01,919,Administración Nacional de Establecimientos de Salud,22980.152248
-2026-11-01,919,Administración Nacional de Establecimientos de Salud,1969.9864725900002
+2026-11-01,919,Administración Nacional de Establecimientos de Salud,6574.08425591

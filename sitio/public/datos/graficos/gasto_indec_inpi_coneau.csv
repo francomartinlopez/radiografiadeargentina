@@ -1,931 +1,931 @@
 serie,fecha,valor,tramo
-INDEC (estadísticas),2001-01-01,4558.091195,observado
-INDEC (estadísticas),2001-02-01,4890.976863,observado
-INDEC (estadísticas),2001-03-01,8557.072743,observado
-INDEC (estadísticas),2001-04-01,6367.225994,observado
-INDEC (estadísticas),2001-05-01,12868.488454,observado
-INDEC (estadísticas),2001-06-01,15797.620239,observado
-INDEC (estadísticas),2001-07-01,6610.215982,observado
-INDEC (estadísticas),2001-08-01,7502.172423,observado
-INDEC (estadísticas),2001-09-01,12760.275206,observado
-INDEC (estadísticas),2001-10-01,5025.865307,observado
-INDEC (estadísticas),2001-11-01,65078.384184,observado
-INDEC (estadísticas),2001-12-01,49465.583915,observado
-INDEC (estadísticas),2002-01-01,3646.108813,observado
-INDEC (estadísticas),2002-02-01,3863.490302,observado
-INDEC (estadísticas),2002-03-01,7672.524272,observado
-INDEC (estadísticas),2002-04-01,5077.985289,observado
-INDEC (estadísticas),2002-05-01,5810.330441,observado
-INDEC (estadísticas),2002-06-01,14083.310062,observado
-INDEC (estadísticas),2002-07-01,11136.039316,observado
-INDEC (estadísticas),2002-08-01,4705.266018,observado
-INDEC (estadísticas),2002-09-01,22968.860834,observado
-INDEC (estadísticas),2002-10-01,4194.845046,observado
-INDEC (estadísticas),2002-11-01,6378.630589,observado
-INDEC (estadísticas),2002-12-01,19801.834521,observado
-INDEC (estadísticas),2003-01-01,3188.573286,observado
-INDEC (estadísticas),2003-02-01,4995.548275,observado
-INDEC (estadísticas),2003-03-01,6028.977664,observado
-INDEC (estadísticas),2003-04-01,4887.425443,observado
-INDEC (estadísticas),2003-05-01,5653.975498,observado
-INDEC (estadísticas),2003-06-01,10543.874766,observado
-INDEC (estadísticas),2003-07-01,3769.160014,observado
-INDEC (estadísticas),2003-08-01,4996.239644,observado
-INDEC (estadísticas),2003-09-01,12425.422723,observado
-INDEC (estadísticas),2003-10-01,4803.904956,observado
-INDEC (estadísticas),2003-11-01,5343.802503,observado
-INDEC (estadísticas),2003-12-01,15216.566732,observado
-INDEC (estadísticas),2004-01-01,3535.325857,observado
-INDEC (estadísticas),2004-02-01,4351.732108,observado
-INDEC (estadísticas),2004-03-01,8221.83272,observado
-INDEC (estadísticas),2004-04-01,4770.357659,observado
-INDEC (estadísticas),2004-05-01,4293.559107,observado
-INDEC (estadísticas),2004-06-01,8429.865348,observado
-INDEC (estadísticas),2004-07-01,4342.593405,observado
-INDEC (estadísticas),2004-08-01,4698.807911,observado
-INDEC (estadísticas),2004-09-01,8957.511818,observado
-INDEC (estadísticas),2004-10-01,6237.444276,observado
-INDEC (estadísticas),2004-11-01,6554.907841,observado
-INDEC (estadísticas),2004-12-01,70040.322455,observado
-INDEC (estadísticas),2005-01-01,4055.175829,observado
-INDEC (estadísticas),2005-02-01,4111.516276,observado
-INDEC (estadísticas),2005-03-01,5077.777392,observado
-INDEC (estadísticas),2005-04-01,6292.667362,observado
-INDEC (estadísticas),2005-05-01,11189.40921,observado
-INDEC (estadísticas),2005-06-01,19741.888111,observado
-INDEC (estadísticas),2005-07-01,5091.309428,observado
-INDEC (estadísticas),2005-08-01,5356.09383,observado
-INDEC (estadísticas),2005-09-01,14713.181864,observado
-INDEC (estadísticas),2005-10-01,5821.697655,observado
-INDEC (estadísticas),2005-11-01,6267.387989,observado
-INDEC (estadísticas),2005-12-01,17818.191605,observado
-INDEC (estadísticas),2006-01-01,4122.088757,observado
-INDEC (estadísticas),2006-02-01,4747.315406,observado
-INDEC (estadísticas),2006-03-01,7270.972409,observado
-INDEC (estadísticas),2006-04-01,5027.755191,observado
-INDEC (estadísticas),2006-05-01,6267.540062,observado
-INDEC (estadísticas),2006-06-01,9803.446383,observado
-INDEC (estadísticas),2006-07-01,6941.646219,observado
-INDEC (estadísticas),2006-08-01,6457.848366,observado
-INDEC (estadísticas),2006-09-01,6631.174404,observado
-INDEC (estadísticas),2006-10-01,5801.111053,observado
-INDEC (estadísticas),2006-11-01,9459.672845,observado
-INDEC (estadísticas),2006-12-01,16270.882026,observado
-INDEC (estadísticas),2007-01-01,4994.751503,observado
-INDEC (estadísticas),2007-02-01,5469.53953,observado
-INDEC (estadísticas),2007-03-01,6907.401122,observado
-INDEC (estadísticas),2007-04-01,6430.624083,observado
-INDEC (estadísticas),2007-05-01,5744.27163,observado
-INDEC (estadísticas),2007-06-01,14030.504814,observado
-INDEC (estadísticas),2007-07-01,5223.427117,observado
-INDEC (estadísticas),2007-08-01,5732.313248,observado
-INDEC (estadísticas),2007-09-01,9269.790747,observado
-INDEC (estadísticas),2007-10-01,7694.575682,observado
-INDEC (estadísticas),2007-11-01,10025.742771,observado
-INDEC (estadísticas),2007-12-01,33621.591107,observado
-INDEC (estadísticas),2008-01-01,5422.263465,observado
-INDEC (estadísticas),2008-02-01,6345.21027,observado
-INDEC (estadísticas),2008-03-01,7833.865608,observado
-INDEC (estadísticas),2008-04-01,7284.232849,observado
-INDEC (estadísticas),2008-05-01,7019.557498,observado
-INDEC (estadísticas),2008-06-01,11143.391523,observado
-INDEC (estadísticas),2008-07-01,21132.204688,observado
-INDEC (estadísticas),2008-08-01,9731.218446,observado
-INDEC (estadísticas),2008-09-01,9703.20109,observado
-INDEC (estadísticas),2008-10-01,9982.562446,observado
-INDEC (estadísticas),2008-11-01,9949.520937,observado
-INDEC (estadísticas),2008-12-01,18711.169143,observado
-INDEC (estadísticas),2009-01-01,6175.967888,observado
-INDEC (estadísticas),2009-02-01,6965.1146,observado
-INDEC (estadísticas),2009-03-01,8782.65314,observado
-INDEC (estadísticas),2009-04-01,6881.58036,observado
-INDEC (estadísticas),2009-05-01,6350.211742,observado
-INDEC (estadísticas),2009-06-01,15514.968081,observado
-INDEC (estadísticas),2009-07-01,6360.455681,observado
-INDEC (estadísticas),2009-08-01,7112.045592,observado
-INDEC (estadísticas),2009-09-01,17172.079679,observado
-INDEC (estadísticas),2009-10-01,9499.990997,observado
-INDEC (estadísticas),2009-11-01,11982.600432,observado
-INDEC (estadísticas),2009-12-01,25158.450033,observado
-INDEC (estadísticas),2010-01-01,7029.33786,observado
-INDEC (estadísticas),2010-02-01,7013.088426,observado
-INDEC (estadísticas),2010-03-01,9469.758408,observado
-INDEC (estadísticas),2010-04-01,6919.772823,observado
-INDEC (estadísticas),2010-05-01,13245.71478,observado
-INDEC (estadísticas),2010-06-01,114941.540915,observado
-INDEC (estadísticas),2010-07-01,7761.826614,observado
-INDEC (estadísticas),2010-08-01,12160.97837,observado
-INDEC (estadísticas),2010-09-01,64466.547986,observado
-INDEC (estadísticas),2010-10-01,16009.367575,observado
-INDEC (estadísticas),2010-11-01,143908.241919,observado
-INDEC (estadísticas),2010-12-01,57255.283279,observado
-INDEC (estadísticas),2011-01-01,7386.406926,observado
-INDEC (estadísticas),2011-02-01,8011.928911,observado
-INDEC (estadísticas),2011-03-01,7901.561447,observado
-INDEC (estadísticas),2011-04-01,7266.22043,observado
-INDEC (estadísticas),2011-05-01,7996.61771,observado
-INDEC (estadísticas),2011-06-01,11315.472892,observado
-INDEC (estadísticas),2011-07-01,16468.908642,observado
-INDEC (estadísticas),2011-08-01,9860.053745,observado
-INDEC (estadísticas),2011-09-01,11660.478217,observado
-INDEC (estadísticas),2011-10-01,8482.213524,observado
-INDEC (estadísticas),2011-11-01,9239.595941,observado
-INDEC (estadísticas),2011-12-01,20634.651944,observado
-INDEC (estadísticas),2012-01-01,6894.76564,observado
-INDEC (estadísticas),2012-02-01,7779.940006,observado
-INDEC (estadísticas),2012-03-01,10579.029259,observado
-INDEC (estadísticas),2012-04-01,7375.860868,observado
-INDEC (estadísticas),2012-05-01,10109.505935,observado
-INDEC (estadísticas),2012-06-01,13359.736304,observado
-INDEC (estadísticas),2012-07-01,9047.801161,observado
-INDEC (estadísticas),2012-08-01,12774.850607,observado
-INDEC (estadísticas),2012-09-01,18097.699109,observado
-INDEC (estadísticas),2012-10-01,7767.750097,observado
-INDEC (estadísticas),2012-11-01,7854.522155,observado
-INDEC (estadísticas),2012-12-01,31735.964439,observado
-INDEC (estadísticas),2013-01-01,7159.447629,observado
-INDEC (estadísticas),2013-02-01,7344.860119,observado
-INDEC (estadísticas),2013-03-01,8170.595619,observado
-INDEC (estadísticas),2013-04-01,6994.056685,observado
-INDEC (estadísticas),2013-05-01,11539.345105,observado
-INDEC (estadísticas),2013-06-01,16567.345855,observado
-INDEC (estadísticas),2013-07-01,8500.187797,observado
-INDEC (estadísticas),2013-08-01,12293.556488,observado
-INDEC (estadísticas),2013-09-01,9865.347701,observado
-INDEC (estadísticas),2013-10-01,14274.765358,observado
-INDEC (estadísticas),2013-11-01,9976.409486,observado
-INDEC (estadísticas),2013-12-01,21401.296083,observado
-INDEC (estadísticas),2014-01-01,6688.872708,observado
-INDEC (estadísticas),2014-02-01,7645.25355,observado
-INDEC (estadísticas),2014-03-01,7743.90775,observado
-INDEC (estadísticas),2014-04-01,6263.141532,observado
-INDEC (estadísticas),2014-05-01,6881.958585,observado
-INDEC (estadísticas),2014-06-01,11945.462105,observado
-INDEC (estadísticas),2014-07-01,13039.467031,observado
-INDEC (estadísticas),2014-08-01,8534.877653,observado
-INDEC (estadísticas),2014-09-01,14624.618902,observado
-INDEC (estadísticas),2014-10-01,7928.577919,observado
-INDEC (estadísticas),2014-11-01,8924.096844,observado
-INDEC (estadísticas),2014-12-01,12348.624529,observado
-INDEC (estadísticas),2015-01-01,7666.415815,observado
-INDEC (estadísticas),2015-02-01,8060.428145,observado
-INDEC (estadísticas),2015-03-01,7228.575945,observado
-INDEC (estadísticas),2015-04-01,6729.001936,observado
-INDEC (estadísticas),2015-05-01,7294.792743,observado
-INDEC (estadísticas),2015-06-01,11171.65213,observado
-INDEC (estadísticas),2015-07-01,8086.616221,observado
-INDEC (estadísticas),2015-08-01,9837.708433,observado
-INDEC (estadísticas),2015-09-01,12509.350865,observado
-INDEC (estadísticas),2015-10-01,8064.655726,observado
-INDEC (estadísticas),2015-11-01,13279.673516,observado
-INDEC (estadísticas),2015-12-01,11916.158994,observado
-INDEC (estadísticas),2016-01-01,5834.095864,observado
-INDEC (estadísticas),2016-02-01,6491.872326,observado
-INDEC (estadísticas),2016-03-01,9108.045403,observado
-INDEC (estadísticas),2016-04-01,6913.721835,observado
-INDEC (estadísticas),2016-05-01,7784.787442,observado
-INDEC (estadísticas),2016-06-01,10254.473522,observado
-INDEC (estadísticas),2016-07-01,6909.070707,observado
-INDEC (estadísticas),2016-08-01,7750.697274,observado
-INDEC (estadísticas),2016-09-01,8001.604919,observado
-INDEC (estadísticas),2016-10-01,8575.310589,observado
-INDEC (estadísticas),2016-11-01,8346.456667,observado
-INDEC (estadísticas),2016-12-01,16235.040791,observado
-INDEC (estadísticas),2017-01-01,6413.362832,observado
-INDEC (estadísticas),2017-02-01,5753.132889,observado
-INDEC (estadísticas),2017-03-01,7525.111917,observado
-INDEC (estadísticas),2017-04-01,6763.433138,observado
-INDEC (estadísticas),2017-05-01,9035.349794,observado
-INDEC (estadísticas),2017-06-01,12933.935179,observado
-INDEC (estadísticas),2017-07-01,12886.544408,observado
-INDEC (estadísticas),2017-08-01,8373.49108,observado
-INDEC (estadísticas),2017-09-01,11562.396558,observado
-INDEC (estadísticas),2017-10-01,9542.432532,observado
-INDEC (estadísticas),2017-11-01,12581.929295,observado
-INDEC (estadísticas),2017-12-01,16654.180827,observado
-INDEC (estadísticas),2018-01-01,6666.813022,observado
-INDEC (estadísticas),2018-02-01,9460.327318,observado
-INDEC (estadísticas),2018-03-01,8024.811422,observado
-INDEC (estadísticas),2018-04-01,6232.664107,observado
-INDEC (estadísticas),2018-05-01,10649.207992,observado
-INDEC (estadísticas),2018-06-01,11948.81235,observado
-INDEC (estadísticas),2018-07-01,34139.579651,observado
-INDEC (estadísticas),2018-08-01,9765.168023,observado
-INDEC (estadísticas),2018-09-01,9392.988676,observado
-INDEC (estadísticas),2018-10-01,7333.430547,observado
-INDEC (estadísticas),2018-11-01,7517.304565,observado
-INDEC (estadísticas),2018-12-01,12460.220001,observado
-INDEC (estadísticas),2019-01-01,5045.374874,observado
-INDEC (estadísticas),2019-02-01,6845.510954,observado
-INDEC (estadísticas),2019-03-01,6675.162257,observado
-INDEC (estadísticas),2019-04-01,5709.094117,observado
-INDEC (estadísticas),2019-05-01,6902.096783,observado
-INDEC (estadísticas),2019-06-01,15491.164019,observado
-INDEC (estadísticas),2019-07-01,6734.324585,observado
-INDEC (estadísticas),2019-08-01,6445.293243,observado
-INDEC (estadísticas),2019-09-01,8458.855275,observado
-INDEC (estadísticas),2019-10-01,7401.015095,observado
-INDEC (estadísticas),2019-11-01,7486.783691,observado
-INDEC (estadísticas),2019-12-01,7587.494702,observado
-INDEC (estadísticas),2020-01-01,3994.099191,observado
-INDEC (estadísticas),2020-02-01,5538.974274,observado
-INDEC (estadísticas),2020-03-01,5285.677515,observado
-INDEC (estadísticas),2020-04-01,4179.708921,observado
-INDEC (estadísticas),2020-05-01,4430.066707,observado
-INDEC (estadísticas),2020-06-01,12044.625056,observado
-INDEC (estadísticas),2020-07-01,4678.507396,observado
-INDEC (estadísticas),2020-08-01,4963.240303,observado
-INDEC (estadísticas),2020-09-01,4831.46522,observado
-INDEC (estadísticas),2020-10-01,5991.346893,observado
-INDEC (estadísticas),2020-11-01,5148.703962,observado
-INDEC (estadísticas),2020-12-01,11093.099178,observado
-INDEC (estadísticas),2021-01-01,3795.464423,observado
-INDEC (estadísticas),2021-02-01,5814.818074,observado
-INDEC (estadísticas),2021-03-01,10995.517937,observado
-INDEC (estadísticas),2021-04-01,4491.239974,observado
-INDEC (estadísticas),2021-05-01,3457.76952,observado
-INDEC (estadísticas),2021-06-01,7109.231512,observado
-INDEC (estadísticas),2021-07-01,4861.757246,observado
-INDEC (estadísticas),2021-08-01,6248.653982,observado
-INDEC (estadísticas),2021-09-01,7586.153055,observado
-INDEC (estadísticas),2021-10-01,6535.635065,observado
-INDEC (estadísticas),2021-11-01,5794.26435,observado
-INDEC (estadísticas),2021-12-01,24793.571144,observado
-INDEC (estadísticas),2022-01-01,3666.10081,observado
-INDEC (estadísticas),2022-02-01,31905.184884,observado
-INDEC (estadísticas),2022-03-01,28360.81349,observado
-INDEC (estadísticas),2022-04-01,10958.716082,observado
-INDEC (estadísticas),2022-05-01,66976.065414,observado
-INDEC (estadísticas),2022-06-01,96691.00708,observado
-INDEC (estadísticas),2022-07-01,25499.334417,observado
-INDEC (estadísticas),2022-08-01,12712.962594,observado
-INDEC (estadísticas),2022-09-01,14013.817348,observado
-INDEC (estadísticas),2022-10-01,17588.771151,observado
-INDEC (estadísticas),2022-11-01,5435.86147,observado
-INDEC (estadísticas),2022-12-01,20245.069272,observado
-INDEC (estadísticas),2023-01-01,4414.135893,observado
-INDEC (estadísticas),2023-02-01,6637.405136,observado
-INDEC (estadísticas),2023-03-01,6325.671154,observado
-INDEC (estadísticas),2023-04-01,5311.289687,observado
-INDEC (estadísticas),2023-05-01,11318.999261,observado
-INDEC (estadísticas),2023-06-01,7674.343146,observado
-INDEC (estadísticas),2023-07-01,5281.350236,observado
-INDEC (estadísticas),2023-08-01,9019.221443,observado
-INDEC (estadísticas),2023-09-01,8469.570768,observado
-INDEC (estadísticas),2023-10-01,4641.995075,observado
-INDEC (estadísticas),2023-11-01,6638.360894,observado
-INDEC (estadísticas),2023-12-01,9255.902214,observado
-INDEC (estadísticas),2024-01-01,2810.27578,observado
-INDEC (estadísticas),2024-02-01,4928.223827,observado
-INDEC (estadísticas),2024-03-01,7008.490587,observado
-INDEC (estadísticas),2024-04-01,3367.339355,observado
-INDEC (estadísticas),2024-05-01,4811.730454,observado
-INDEC (estadísticas),2024-06-01,6834.926404,observado
-INDEC (estadísticas),2024-07-01,5699.000998,observado
-INDEC (estadísticas),2024-08-01,4285.378701,observado
-INDEC (estadísticas),2024-09-01,5259.451318,observado
-INDEC (estadísticas),2024-10-01,3826.221532,observado
-INDEC (estadísticas),2024-11-01,4131.272527,observado
-INDEC (estadísticas),2024-12-01,9200.213738,observado
-INDEC (estadísticas),2025-01-01,2288.565662,observado
-INDEC (estadísticas),2025-02-01,4850.205028,observado
-INDEC (estadísticas),2025-03-01,4110.356928,observado
-INDEC (estadísticas),2025-04-01,3192.623876,observado
-INDEC (estadísticas),2025-05-01,3666.240846,observado
-INDEC (estadísticas),2025-06-01,8902.092676,observado
-INDEC (estadísticas),2025-07-01,2644.136624,observado
-INDEC (estadísticas),2025-08-01,3453.880601,observado
-INDEC (estadísticas),2025-09-01,5344.839782,observado
-INDEC (estadísticas),2025-10-01,2859.304154,observado
-INDEC (estadísticas),2025-11-01,3598.688333,observado
-INDEC (estadísticas),2025-12-01,7155.580989,observado
-INDEC (estadísticas),2026-01-01,2176.128091,observado
-INDEC (estadísticas),2026-02-01,3879.489279,observado
-INDEC (estadísticas),2026-03-01,4760.365803,observado
-INDEC (estadísticas),2026-04-01,2908.08997,observado
-INDEC (estadísticas),2026-05-01,3060.555004,observado
-INDEC (estadísticas),2026-06-01,6105.806015,observado
-INDEC (estadísticas),2026-07-01,3246.500689,observado
-INDEC (estadísticas),2026-08-01,3023.988133,observado
-INDEC (estadísticas),2026-09-01,5733.914117,observado
+INDEC (estadísticas),2001-01-01,4747.133287,observado
+INDEC (estadísticas),2001-02-01,5093.82504,observado
+INDEC (estadísticas),2001-03-01,8911.968435,observado
+INDEC (estadísticas),2001-04-01,6631.300069,observado
+INDEC (estadísticas),2001-05-01,13402.195627,observado
+INDEC (estadísticas),2001-06-01,16452.810106,observado
+INDEC (estadísticas),2001-07-01,6884.367815,observado
+INDEC (estadísticas),2001-08-01,7813.317221,observado
+INDEC (estadísticas),2001-09-01,13289.494347,observado
+INDEC (estadísticas),2001-10-01,5234.307842,observado
+INDEC (estadísticas),2001-11-01,67777.442476,observado
+INDEC (estadísticas),2001-12-01,51517.117555,observado
+INDEC (estadísticas),2002-01-01,3797.327383,observado
+INDEC (estadísticas),2002-02-01,4023.724544,observado
+INDEC (estadísticas),2002-03-01,7990.734236,observado
+INDEC (estadísticas),2002-04-01,5288.589447,observado
+INDEC (estadísticas),2002-05-01,6051.307852,observado
+INDEC (estadísticas),2002-06-01,14667.400698,observado
+INDEC (estadísticas),2002-07-01,11597.894963,observado
+INDEC (estadísticas),2002-08-01,4900.412032,observado
+INDEC (estadísticas),2002-09-01,23921.470446,observado
+INDEC (estadísticas),2002-10-01,4368.821881,observado
+INDEC (estadísticas),2002-11-01,6643.177658,observado
+INDEC (estadísticas),2002-12-01,20623.09501,observado
+INDEC (estadísticas),2003-01-01,3320.816046,observado
+INDEC (estadísticas),2003-02-01,5202.733444,observado
+INDEC (estadísticas),2003-03-01,6279.023241,observado
+INDEC (estadísticas),2003-04-01,5090.12633,observado
+INDEC (estadísticas),2003-05-01,5888.468251,observado
+INDEC (estadísticas),2003-06-01,10981.171004,observado
+INDEC (estadísticas),2003-07-01,3925.482005,observado
+INDEC (estadísticas),2003-08-01,5203.453487,observado
+INDEC (estadísticas),2003-09-01,12940.754206,observado
+INDEC (estadísticas),2003-10-01,5003.141918,observado
+INDEC (estadísticas),2003-11-01,5565.431154,observado
+INDEC (estadísticas),2003-12-01,15847.658009,observado
+INDEC (estadísticas),2004-01-01,3681.949819,observado
+INDEC (estadísticas),2004-02-01,4532.215671,observado
+INDEC (estadísticas),2004-03-01,8562.82468,observado
+INDEC (estadísticas),2004-04-01,4968.203281,observado
+INDEC (estadísticas),2004-05-01,4465.525391,observado
+INDEC (estadísticas),2004-06-01,8779.485244,observado
+INDEC (estadísticas),2004-07-01,4522.697949,observado
+INDEC (estadísticas),2004-08-01,4893.686081,observado
+INDEC (estadísticas),2004-09-01,9329.015303,observado
+INDEC (estadísticas),2004-10-01,6496.13579,observado
+INDEC (estadísticas),2004-11-01,6826.765825,observado
+INDEC (estadísticas),2004-12-01,72945.171975,observado
+INDEC (estadísticas),2005-01-01,4223.360029,observado
+INDEC (estadísticas),2005-02-01,4282.037137,observado
+INDEC (estadísticas),2005-03-01,5288.372928,observado
+INDEC (estadísticas),2005-04-01,6553.649196,observado
+INDEC (estadísticas),2005-05-01,11653.478319,observado
+INDEC (estadísticas),2005-06-01,20560.662386,observado
+INDEC (estadísticas),2005-07-01,5302.466191,observado
+INDEC (estadísticas),2005-08-01,5578.23225,observado
+INDEC (estadísticas),2005-09-01,15323.395778,observado
+INDEC (estadísticas),2005-10-01,6063.14651,observado
+INDEC (estadísticas),2005-11-01,6527.321387,observado
+INDEC (estadísticas),2005-12-01,18557.182568,observado
+INDEC (estadísticas),2006-01-01,4293.0481,observado
+INDEC (estadísticas),2006-02-01,4944.205375,observado
+INDEC (estadísticas),2006-03-01,7572.528427,observado
+INDEC (estadísticas),2006-04-01,5236.276108,observado
+INDEC (estadísticas),2006-05-01,6527.479767,observado
+INDEC (estadísticas),2006-06-01,10210.034125,observado
+INDEC (estadísticas),2006-07-01,7229.543776,observado
+INDEC (estadísticas),2006-08-01,6725.68091,observado
+INDEC (estadísticas),2006-09-01,6906.195465,observado
+INDEC (estadísticas),2006-10-01,6041.7061,observado
+INDEC (estadísticas),2006-11-01,9852.002936,observado
+INDEC (estadísticas),2006-12-01,16945.699934,observado
+INDEC (estadísticas),2007-01-01,5201.903627,observado
+INDEC (estadísticas),2007-02-01,5696.382992,observado
+INDEC (estadísticas),2007-03-01,7193.878399,observado
+INDEC (estadísticas),2007-04-01,6697.327528,observado
+INDEC (estadísticas),2007-05-01,5982.509321,observado
+INDEC (estadísticas),2007-06-01,14612.405407,observado
+INDEC (estadísticas),2007-07-01,5440.063324,observado
+INDEC (estadísticas),2007-08-01,5970.054977,observado
+INDEC (estadísticas),2007-09-01,9654.245676,observado
+INDEC (estadísticas),2007-10-01,8013.700205,observado
+INDEC (estadísticas),2007-11-01,10441.550024,observado
+INDEC (estadísticas),2007-12-01,35016.011627,observado
+INDEC (estadísticas),2008-01-01,5647.146203,observado
+INDEC (estadísticas),2008-02-01,6608.371265,observado
+INDEC (estadísticas),2008-03-01,8158.767035,observado
+INDEC (estadísticas),2008-04-01,7586.338829,observado
+INDEC (estadísticas),2008-05-01,7310.686344,observado
+INDEC (estadísticas),2008-06-01,11605.552096,observado
+INDEC (estadísticas),2008-07-01,22008.640897,observado
+INDEC (estadísticas),2008-08-01,10134.810609,observado
+INDEC (estadísticas),2008-09-01,10105.631262,observado
+INDEC (estadísticas),2008-10-01,10396.57884,observado
+INDEC (estadísticas),2008-11-01,10362.166969,observado
+INDEC (estadísticas),2008-12-01,19487.195421,observado
+INDEC (estadísticas),2009-01-01,6432.109732,observado
+INDEC (estadísticas),2009-02-01,7253.985483,observado
+INDEC (estadísticas),2009-03-01,9146.904543,observado
+INDEC (estadísticas),2009-04-01,7166.986747,observado
+INDEC (estadísticas),2009-05-01,6613.580169,observado
+INDEC (estadísticas),2009-06-01,16158.435245,observado
+INDEC (estadísticas),2009-07-01,6624.248964,observado
+INDEC (estadísticas),2009-08-01,7407.010285,observado
+INDEC (estadísticas),2009-09-01,17884.273822,observado
+INDEC (estadísticas),2009-10-01,9893.993242,observado
+INDEC (estadísticas),2009-11-01,12479.566321,observado
+INDEC (estadísticas),2009-12-01,26201.870579,observado
+INDEC (estadísticas),2010-01-01,7320.872336,observado
+INDEC (estadísticas),2010-02-01,7303.948973,observado
+INDEC (estadísticas),2010-03-01,9862.506788,observado
+INDEC (estadísticas),2010-04-01,7206.763203,observado
+INDEC (estadísticas),2010-05-01,13795.067023,observado
+INDEC (estadísticas),2010-06-01,119708.621766,observado
+INDEC (estadísticas),2010-07-01,8083.740299,observado
+INDEC (estadísticas),2010-08-01,12665.342299,observado
+INDEC (estadísticas),2010-09-01,67140.231008,observado
+INDEC (estadísticas),2010-10-01,16673.339442,observado
+INDEC (estadísticas),2010-11-01,149876.686564,observado
+INDEC (estadísticas),2010-12-01,59629.886598,observado
+INDEC (estadísticas),2011-01-01,7692.75047,observado
+INDEC (estadísticas),2011-02-01,8344.215329,observado
+INDEC (estadísticas),2011-03-01,8229.270489,observado
+INDEC (estadísticas),2011-04-01,7567.579365,observado
+INDEC (estadísticas),2011-05-01,8328.269112,observado
+INDEC (estadísticas),2011-06-01,11784.77036,observado
+INDEC (estadísticas),2011-07-01,17151.939498,observado
+INDEC (estadísticas),2011-08-01,10268.989218,observado
+INDEC (estadísticas),2011-09-01,12144.084422,observado
+INDEC (estadísticas),2011-10-01,8834.004507,observado
+INDEC (estadísticas),2011-11-01,9622.798572,observado
+INDEC (estadísticas),2011-12-01,21490.45267,observado
+INDEC (estadísticas),2012-01-01,7180.718873,observado
+INDEC (estadísticas),2012-02-01,8102.604925,observado
+INDEC (estadísticas),2012-03-01,11017.783494,observado
+INDEC (estadísticas),2012-04-01,7681.767025,observado
+INDEC (estadísticas),2012-05-01,10528.787178,observado
+INDEC (estadísticas),2012-06-01,13913.817471,observado
+INDEC (estadísticas),2012-07-01,9423.049303,observado
+INDEC (estadísticas),2012-08-01,13304.674248,observado
+INDEC (estadísticas),2012-09-01,18848.282355,observado
+INDEC (estadísticas),2012-10-01,8089.909452,observado
+INDEC (estadísticas),2012-11-01,8180.280291,observado
+INDEC (estadísticas),2012-12-01,33052.180553,observado
+INDEC (estadísticas),2013-01-01,7456.378272,observado
+INDEC (estadísticas),2013-02-01,7649.480553,observado
+INDEC (estadísticas),2013-03-01,8509.462574,observado
+INDEC (estadísticas),2013-04-01,7284.127911,observado
+INDEC (estadísticas),2013-05-01,12017.92744,observado
+INDEC (estadísticas),2013-06-01,17254.459291,observado
+INDEC (estadísticas),2013-07-01,8852.724244,observado
+INDEC (estadísticas),2013-08-01,12803.418957,observado
+INDEC (estadísticas),2013-09-01,10274.502735,observado
+INDEC (estadísticas),2013-10-01,14866.796403,observado
+INDEC (estadísticas),2013-11-01,10390.170693,observado
+INDEC (estadísticas),2013-12-01,22288.892577,observado
+INDEC (estadísticas),2014-01-01,6966.286746,observado
+INDEC (estadísticas),2014-02-01,7962.332488,observado
+INDEC (estadísticas),2014-03-01,8065.078269,observado
+INDEC (estadísticas),2014-04-01,6522.898812,observado
+INDEC (estadísticas),2014-05-01,7167.380659,observado
+INDEC (estadísticas),2014-06-01,12440.887721,observado
+INDEC (estadísticas),2014-07-01,13580.265362,observado
+INDEC (estadísticas),2014-08-01,8888.852826,observado
+INDEC (estadísticas),2014-09-01,15231.159758,observado
+INDEC (estadísticas),2014-10-01,8257.407441,observado
+INDEC (estadísticas),2014-11-01,9294.214478,observado
+INDEC (estadísticas),2014-12-01,12860.770887,observado
+INDEC (estadísticas),2015-01-01,7984.372437,observado
+INDEC (estadísticas),2015-02-01,8394.726018,observado
+INDEC (estadísticas),2015-03-01,7528.373613,observado
+INDEC (estadísticas),2015-04-01,7008.080293,observado
+INDEC (estadísticas),2015-05-01,7597.336684,observado
+INDEC (estadísticas),2015-06-01,11634.984782,observado
+INDEC (estadísticas),2015-07-01,8422.000218,observado
+INDEC (estadísticas),2015-08-01,10245.717157,observado
+INDEC (estadísticas),2015-09-01,13028.163181,observado
+INDEC (estadísticas),2015-10-01,8399.128934,observado
+INDEC (estadísticas),2015-11-01,13830.434162,observado
+INDEC (estadísticas),2015-12-01,12410.369294,observado
+INDEC (estadísticas),2016-01-01,6076.058922,observado
+INDEC (estadísticas),2016-02-01,6761.115979,observado
+INDEC (estadísticas),2016-03-01,9485.792112,observado
+INDEC (estadísticas),2016-04-01,7200.461257,observado
+INDEC (estadísticas),2016-05-01,8107.653403,observado
+INDEC (estadísticas),2016-06-01,10679.767145,observado
+INDEC (estadísticas),2016-07-01,7195.617228,observado
+INDEC (estadísticas),2016-08-01,8072.149382,observado
+INDEC (estadísticas),2016-09-01,8333.46316,observado
+INDEC (estadísticas),2016-10-01,8930.962676,observado
+INDEC (estadísticas),2016-11-01,8692.617276,observado
+INDEC (estadísticas),2016-12-01,16908.37222,observado
+INDEC (estadísticas),2017-01-01,6679.350384,observado
+INDEC (estadísticas),2017-02-01,5991.738091,observado
+INDEC (estadísticas),2017-03-01,7837.208107,observado
+INDEC (estadísticas),2017-04-01,7043.939492,observado
+INDEC (estadísticas),2017-05-01,9410.081528,observado
+INDEC (estadísticas),2017-06-01,13470.356687,observado
+INDEC (estadísticas),2017-07-01,13421.000433,observado
+INDEC (estadísticas),2017-08-01,8720.772913,observado
+INDEC (estadísticas),2017-09-01,12041.934928,observado
+INDEC (estadísticas),2017-10-01,9938.194995,observado
+INDEC (estadísticas),2017-11-01,13103.751725,observado
+INDEC (estadísticas),2017-12-01,17344.895654,observado
+INDEC (estadísticas),2018-01-01,6943.312157,observado
+INDEC (estadísticas),2018-02-01,9852.684553,observado
+INDEC (estadísticas),2018-03-01,8357.632129,observado
+INDEC (estadísticas),2018-04-01,6491.157368,observado
+INDEC (estadísticas),2018-05-01,11090.872817,observado
+INDEC (estadísticas),2018-06-01,12444.376914,observado
+INDEC (estadísticas),2018-07-01,35555.483206,observado
+INDEC (estadísticas),2018-08-01,10170.16821,observado
+INDEC (estadísticas),2018-09-01,9782.553111,observado
+INDEC (estadísticas),2018-10-01,7637.576951,observado
+INDEC (estadísticas),2018-11-01,7829.076952,observado
+INDEC (estadísticas),2018-12-01,12976.994665,observado
+INDEC (estadísticas),2019-01-01,5254.626549,observado
+INDEC (estadísticas),2019-02-01,7129.4214,observado
+INDEC (estadísticas),2019-03-01,6952.007668,observado
+INDEC (estadísticas),2019-04-01,5943.303675,observado
+INDEC (estadísticas),2019-05-01,7188.354067,observado
+INDEC (estadísticas),2019-06-01,16133.643933,observado
+INDEC (estadísticas),2019-07-01,7013.623693,observado
+INDEC (estadísticas),2019-08-01,6712.605077,observado
+INDEC (estadísticas),2019-09-01,8809.677499,observado
+INDEC (estadísticas),2019-10-01,7707.964498,observado
+INDEC (estadísticas),2019-11-01,7797.290257,observado
+INDEC (estadísticas),2019-12-01,7902.178153,observado
+INDEC (estadísticas),2020-01-01,4159.750301,observado
+INDEC (estadísticas),2020-02-01,5768.69747,observado
+INDEC (estadísticas),2020-03-01,5504.895492,observado
+INDEC (estadísticas),2020-04-01,4353.058001,observado
+INDEC (estadísticas),2020-05-01,4613.799116,observado
+INDEC (estadísticas),2020-06-01,12544.163352,observado
+INDEC (estadísticas),2020-07-01,4872.543623,observado
+INDEC (estadísticas),2020-08-01,5169.085532,observado
+INDEC (estadísticas),2020-09-01,5031.845215,observado
+INDEC (estadísticas),2020-10-01,6239.831773,observado
+INDEC (estadísticas),2020-11-01,5362.241103,observado
+INDEC (estadísticas),2020-12-01,11553.173928,observado
+INDEC (estadísticas),2021-01-01,3952.877362,observado
+INDEC (estadísticas),2021-02-01,6055.981606,observado
+INDEC (estadísticas),2021-03-01,11451.545607,observado
+INDEC (estadísticas),2021-04-01,4677.509481,observado
+INDEC (estadísticas),2021-05-01,3601.176914,observado
+INDEC (estadísticas),2021-06-01,7404.079494,observado
+INDEC (estadísticas),2021-07-01,5063.393571,observado
+INDEC (estadísticas),2021-08-01,6507.810406,observado
+INDEC (estadísticas),2021-09-01,7900.780862,observado
+INDEC (estadísticas),2021-10-01,6806.693731,observado
+INDEC (estadísticas),2021-11-01,6034.575436,observado
+INDEC (estadísticas),2021-12-01,25821.858717,observado
+INDEC (estadísticas),2022-01-01,3818.148528,observado
+INDEC (estadísticas),2022-02-01,33228.419241,observado
+INDEC (estadísticas),2022-03-01,29537.048729,observado
+INDEC (estadísticas),2022-04-01,11413.217433,observado
+INDEC (estadísticas),2022-05-01,69753.828061,observado
+INDEC (estadísticas),2022-06-01,100701.166025,observado
+INDEC (estadísticas),2022-07-01,26556.892789,observado
+INDEC (estadísticas),2022-08-01,13240.219494,observado
+INDEC (estadísticas),2022-09-01,14595.025846,observado
+INDEC (estadísticas),2022-10-01,18318.24714,observado
+INDEC (estadísticas),2022-11-01,5661.30817,observado
+INDEC (estadísticas),2022-12-01,21084.712462,observado
+INDEC (estadísticas),2023-01-01,4597.207587,observado
+INDEC (estadísticas),2023-02-01,6912.68461,observado
+INDEC (estadísticas),2023-03-01,6588.021785,observado
+INDEC (estadísticas),2023-04-01,5531.569902,observado
+INDEC (estadísticas),2023-05-01,11788.442981,observado
+INDEC (estadísticas),2023-06-01,7992.628545,observado
+INDEC (estadísticas),2023-07-01,5500.388744,observado
+INDEC (estadísticas),2023-08-01,9393.284271,observado
+INDEC (estadísticas),2023-09-01,8820.837405,observado
+INDEC (estadísticas),2023-10-01,4834.516992,observado
+INDEC (estadísticas),2023-11-01,6913.680007,observado
+INDEC (estadísticas),2023-12-01,9639.78113,observado
+INDEC (estadísticas),2024-01-01,2926.829045,observado
+INDEC (estadísticas),2024-02-01,5132.616784,observado
+INDEC (estadísticas),2024-03-01,7299.160444,observado
+INDEC (estadísticas),2024-04-01,3506.996252,observado
+INDEC (estadísticas),2024-05-01,5011.278356,observado
+INDEC (estadísticas),2024-06-01,7118.397867,observado
+INDEC (estadísticas),2024-07-01,5935.361137,observado
+INDEC (estadísticas),2024-08-01,4463.110325,observado
+INDEC (estadísticas),2024-09-01,5477.581591,observado
+INDEC (estadísticas),2024-10-01,3984.91009,observado
+INDEC (estadísticas),2024-11-01,4302.612758,observado
+INDEC (estadísticas),2024-12-01,9581.783033,observado
+INDEC (estadísticas),2025-01-01,2383.481542,observado
+INDEC (estadísticas),2025-02-01,5051.362236,observado
+INDEC (estadísticas),2025-03-01,4280.829706,observado
+INDEC (estadísticas),2025-04-01,3325.034631,observado
+INDEC (estadísticas),2025-05-01,3818.294372,observado
+INDEC (estadísticas),2025-06-01,9271.29771,observado
+INDEC (estadísticas),2025-07-01,2753.79944,observado
+INDEC (estadísticas),2025-08-01,3597.126706,observado
+INDEC (estadísticas),2025-09-01,5566.511453,observado
+INDEC (estadísticas),2025-10-01,2977.890819,observado
+INDEC (estadísticas),2025-11-01,3747.940188,observado
+INDEC (estadísticas),2025-12-01,7452.351267,observado
+INDEC (estadísticas),2026-01-01,2266.38074,observado
+INDEC (estadísticas),2026-02-01,4040.387062,observado
+INDEC (estadísticas),2026-03-01,4957.797023,observado
+INDEC (estadísticas),2026-04-01,3028.699976,observado
+INDEC (estadísticas),2026-05-01,3187.48834,observado
+INDEC (estadísticas),2026-06-01,6359.037968,observado
+INDEC (estadísticas),2026-07-01,3381.145928,observado
+INDEC (estadísticas),2026-08-01,3149.404896,observado
+INDEC (estadísticas),2026-09-01,5858.442793,observado
 INDEC (estadísticas),2026-10-01,3111.687829,observado
-INPI (propiedad industrial),2001-01-01,1460.455702,observado
-INPI (propiedad industrial),2001-02-01,1483.953994,observado
-INPI (propiedad industrial),2001-03-01,2020.186977,observado
-INPI (propiedad industrial),2001-04-01,1116.802591,observado
-INPI (propiedad industrial),2001-05-01,2085.177221,observado
-INPI (propiedad industrial),2001-06-01,2646.605709,observado
-INPI (propiedad industrial),2001-07-01,1349.964403,observado
-INPI (propiedad industrial),2001-08-01,1613.271332,observado
-INPI (propiedad industrial),2001-09-01,1590.330483,observado
-INPI (propiedad industrial),2001-10-01,1319.19775,observado
-INPI (propiedad industrial),2001-11-01,1582.461327,observado
-INPI (propiedad industrial),2001-12-01,2139.547217,observado
-INPI (propiedad industrial),2002-01-01,1269.780532,observado
-INPI (propiedad industrial),2002-02-01,1519.942985,observado
-INPI (propiedad industrial),2002-03-01,1480.025911,observado
-INPI (propiedad industrial),2002-04-01,877.697083,observado
-INPI (propiedad industrial),2002-05-01,1448.609333,observado
-INPI (propiedad industrial),2002-06-01,1620.905547,observado
-INPI (propiedad industrial),2002-07-01,956.004082,observado
-INPI (propiedad industrial),2002-08-01,1165.978492,observado
-INPI (propiedad industrial),2002-09-01,1387.220042,observado
-INPI (propiedad industrial),2002-10-01,1029.886769,observado
-INPI (propiedad industrial),2002-11-01,1034.058012,observado
-INPI (propiedad industrial),2002-12-01,1997.739218,observado
-INPI (propiedad industrial),2003-01-01,1111.537315,observado
-INPI (propiedad industrial),2003-02-01,1282.059284,observado
-INPI (propiedad industrial),2003-03-01,1378.097671,observado
-INPI (propiedad industrial),2003-04-01,1183.796673,observado
-INPI (propiedad industrial),2003-05-01,1374.855072,observado
-INPI (propiedad industrial),2003-06-01,1112.3733,observado
-INPI (propiedad industrial),2003-07-01,703.015545,observado
-INPI (propiedad industrial),2003-08-01,2673.885028,observado
-INPI (propiedad industrial),2003-09-01,1680.174322,observado
-INPI (propiedad industrial),2003-10-01,1180.465718,observado
-INPI (propiedad industrial),2003-11-01,1231.356682,observado
-INPI (propiedad industrial),2003-12-01,1986.855873,observado
-INPI (propiedad industrial),2004-01-01,1122.930699,observado
-INPI (propiedad industrial),2004-02-01,1429.253428,observado
-INPI (propiedad industrial),2004-03-01,1352.090738,observado
-INPI (propiedad industrial),2004-04-01,1068.588786,observado
-INPI (propiedad industrial),2004-05-01,1232.767418,observado
-INPI (propiedad industrial),2004-06-01,1918.160195,observado
-INPI (propiedad industrial),2004-07-01,1159.36346,observado
-INPI (propiedad industrial),2004-08-01,1400.957651,observado
-INPI (propiedad industrial),2004-09-01,1549.341021,observado
-INPI (propiedad industrial),2004-10-01,1502.899373,observado
-INPI (propiedad industrial),2004-11-01,1688.084957,observado
-INPI (propiedad industrial),2004-12-01,3019.345517,observado
-INPI (propiedad industrial),2005-01-01,1268.612899,observado
-INPI (propiedad industrial),2005-02-01,1503.255435,observado
-INPI (propiedad industrial),2005-03-01,1398.164391,observado
-INPI (propiedad industrial),2005-04-01,1318.680971,observado
-INPI (propiedad industrial),2005-05-01,1428.576697,observado
-INPI (propiedad industrial),2005-06-01,2069.84557,observado
-INPI (propiedad industrial),2005-07-01,1255.87593,observado
-INPI (propiedad industrial),2005-08-01,1383.104335,observado
-INPI (propiedad industrial),2005-09-01,1498.711749,observado
-INPI (propiedad industrial),2005-10-01,1449.166535,observado
-INPI (propiedad industrial),2005-11-01,1551.390461,observado
-INPI (propiedad industrial),2005-12-01,3133.120196,observado
-INPI (propiedad industrial),2006-01-01,1239.044357,observado
-INPI (propiedad industrial),2006-02-01,1569.954382,observado
-INPI (propiedad industrial),2006-03-01,1562.524031,observado
-INPI (propiedad industrial),2006-04-01,1726.888331,observado
-INPI (propiedad industrial),2006-05-01,1534.141667,observado
-INPI (propiedad industrial),2006-06-01,2380.884488,observado
-INPI (propiedad industrial),2006-07-01,1623.186815,observado
-INPI (propiedad industrial),2006-08-01,1292.035222,observado
-INPI (propiedad industrial),2006-09-01,2295.542358,observado
-INPI (propiedad industrial),2006-10-01,1692.083586,observado
-INPI (propiedad industrial),2006-11-01,1510.539739,observado
-INPI (propiedad industrial),2006-12-01,5369.567702,observado
-INPI (propiedad industrial),2007-01-01,1601.119112,observado
-INPI (propiedad industrial),2007-02-01,1823.122475,observado
-INPI (propiedad industrial),2007-03-01,1929.507125,observado
-INPI (propiedad industrial),2007-04-01,1311.340002,observado
-INPI (propiedad industrial),2007-05-01,2292.386017,observado
-INPI (propiedad industrial),2007-06-01,2603.314757,observado
-INPI (propiedad industrial),2007-07-01,2364.852196,observado
-INPI (propiedad industrial),2007-08-01,1994.676387,observado
-INPI (propiedad industrial),2007-09-01,1495.820313,observado
-INPI (propiedad industrial),2007-10-01,2654.013272,observado
-INPI (propiedad industrial),2007-11-01,2101.455941,observado
-INPI (propiedad industrial),2007-12-01,4443.207955,observado
-INPI (propiedad industrial),2008-01-01,1242.665683,observado
-INPI (propiedad industrial),2008-02-01,2428.216829,observado
-INPI (propiedad industrial),2008-03-01,2093.61266,observado
-INPI (propiedad industrial),2008-04-01,1705.919269,observado
-INPI (propiedad industrial),2008-05-01,1713.094184,observado
-INPI (propiedad industrial),2008-06-01,2798.035628,observado
-INPI (propiedad industrial),2008-07-01,1843.696115,observado
-INPI (propiedad industrial),2008-08-01,1935.089422,observado
-INPI (propiedad industrial),2008-09-01,2078.485144,observado
-INPI (propiedad industrial),2008-10-01,2197.834086,observado
-INPI (propiedad industrial),2008-11-01,2601.651685,observado
-INPI (propiedad industrial),2008-12-01,5311.028913,observado
-INPI (propiedad industrial),2009-01-01,2042.186246,observado
-INPI (propiedad industrial),2009-02-01,2208.272674,observado
-INPI (propiedad industrial),2009-03-01,2176.926612,observado
-INPI (propiedad industrial),2009-04-01,2189.571523,observado
-INPI (propiedad industrial),2009-05-01,2162.218398,observado
-INPI (propiedad industrial),2009-06-01,3251.221961,observado
-INPI (propiedad industrial),2009-07-01,2369.460004,observado
-INPI (propiedad industrial),2009-08-01,2359.768788,observado
-INPI (propiedad industrial),2009-09-01,2584.430598,observado
-INPI (propiedad industrial),2009-10-01,2382.785029,observado
-INPI (propiedad industrial),2009-11-01,1698.181853,observado
-INPI (propiedad industrial),2009-12-01,5232.242608,observado
-INPI (propiedad industrial),2010-01-01,1423.822873,observado
-INPI (propiedad industrial),2010-02-01,2019.10898,observado
-INPI (propiedad industrial),2010-03-01,2734.786979,observado
-INPI (propiedad industrial),2010-04-01,1919.886938,observado
-INPI (propiedad industrial),2010-05-01,1962.686748,observado
-INPI (propiedad industrial),2010-06-01,3009.194508,observado
-INPI (propiedad industrial),2010-07-01,2133.078996,observado
-INPI (propiedad industrial),2010-08-01,2234.787528,observado
-INPI (propiedad industrial),2010-09-01,2236.889422,observado
-INPI (propiedad industrial),2010-10-01,2245.600697,observado
-INPI (propiedad industrial),2010-11-01,2330.868455,observado
-INPI (propiedad industrial),2010-12-01,4224.445292,observado
-INPI (propiedad industrial),2011-01-01,1951.481417,observado
-INPI (propiedad industrial),2011-02-01,2058.124374,observado
-INPI (propiedad industrial),2011-03-01,2024.267232,observado
-INPI (propiedad industrial),2011-04-01,2014.165833,observado
-INPI (propiedad industrial),2011-05-01,1920.118026,observado
-INPI (propiedad industrial),2011-06-01,3151.13867,observado
-INPI (propiedad industrial),2011-07-01,2112.975605,observado
-INPI (propiedad industrial),2011-08-01,2396.150091,observado
-INPI (propiedad industrial),2011-09-01,2156.351978,observado
-INPI (propiedad industrial),2011-10-01,2271.752442,observado
-INPI (propiedad industrial),2011-11-01,2101.999981,observado
-INPI (propiedad industrial),2011-12-01,4094.863518,observado
-INPI (propiedad industrial),2012-01-01,2031.635456,observado
-INPI (propiedad industrial),2012-02-01,2161.531809,observado
-INPI (propiedad industrial),2012-03-01,2201.492738,observado
-INPI (propiedad industrial),2012-04-01,1942.697752,observado
-INPI (propiedad industrial),2012-05-01,1969.787065,observado
-INPI (propiedad industrial),2012-06-01,3092.460012,observado
-INPI (propiedad industrial),2012-07-01,2046.624299,observado
-INPI (propiedad industrial),2012-08-01,2136.764526,observado
-INPI (propiedad industrial),2012-09-01,2624.727382,observado
-INPI (propiedad industrial),2012-10-01,2054.798424,observado
-INPI (propiedad industrial),2012-11-01,2305.9429,observado
-INPI (propiedad industrial),2012-12-01,5403.824154,observado
-INPI (propiedad industrial),2013-01-01,2059.414533,observado
-INPI (propiedad industrial),2013-02-01,1901.487773,observado
-INPI (propiedad industrial),2013-03-01,2278.561137,observado
-INPI (propiedad industrial),2013-04-01,2097.565523,observado
-INPI (propiedad industrial),2013-05-01,2152.443141,observado
-INPI (propiedad industrial),2013-06-01,3877.903539,observado
-INPI (propiedad industrial),2013-07-01,1799.975009,observado
-INPI (propiedad industrial),2013-08-01,2644.800532,observado
-INPI (propiedad industrial),2013-09-01,3471.46524,observado
-INPI (propiedad industrial),2013-10-01,1871.836786,observado
-INPI (propiedad industrial),2013-11-01,2489.91513,observado
-INPI (propiedad industrial),2013-12-01,6455.833051,observado
-INPI (propiedad industrial),2014-01-01,2149.705742,observado
-INPI (propiedad industrial),2014-02-01,2088.932279,observado
-INPI (propiedad industrial),2014-03-01,2498.628004,observado
-INPI (propiedad industrial),2014-04-01,1677.13687,observado
-INPI (propiedad industrial),2014-05-01,1931.389561,observado
-INPI (propiedad industrial),2014-06-01,3939.704819,observado
-INPI (propiedad industrial),2014-07-01,2236.875034,observado
-INPI (propiedad industrial),2014-08-01,2637.691039,observado
-INPI (propiedad industrial),2014-09-01,2742.526803,observado
-INPI (propiedad industrial),2014-10-01,2168.479604,observado
-INPI (propiedad industrial),2014-11-01,1047.676511,observado
-INPI (propiedad industrial),2014-12-01,7124.446832,observado
-INPI (propiedad industrial),2015-01-01,2005.735088,observado
-INPI (propiedad industrial),2015-02-01,2036.805365,observado
-INPI (propiedad industrial),2015-03-01,2602.305479,observado
-INPI (propiedad industrial),2015-04-01,2025.114967,observado
-INPI (propiedad industrial),2015-05-01,1526.389553,observado
-INPI (propiedad industrial),2015-06-01,4534.9,observado
-INPI (propiedad industrial),2015-07-01,2583.257833,observado
-INPI (propiedad industrial),2015-08-01,1998.178093,observado
-INPI (propiedad industrial),2015-09-01,3236.720404,observado
-INPI (propiedad industrial),2015-10-01,3163.660652,observado
-INPI (propiedad industrial),2015-11-01,2057.638301,observado
-INPI (propiedad industrial),2015-12-01,7056.788158,observado
-INPI (propiedad industrial),2016-01-01,1727.422527,observado
-INPI (propiedad industrial),2016-02-01,3085.869714,observado
-INPI (propiedad industrial),2016-03-01,3981.296823,observado
-INPI (propiedad industrial),2016-04-01,1625.971605,observado
-INPI (propiedad industrial),2016-05-01,2427.871073,observado
-INPI (propiedad industrial),2016-06-01,4588.022394,observado
-INPI (propiedad industrial),2016-07-01,2176.216646,observado
-INPI (propiedad industrial),2016-08-01,2488.468604,observado
-INPI (propiedad industrial),2016-09-01,5891.667415,observado
-INPI (propiedad industrial),2016-10-01,2126.577612,observado
-INPI (propiedad industrial),2016-11-01,3096.769842,observado
-INPI (propiedad industrial),2016-12-01,7667.24972,observado
-INPI (propiedad industrial),2017-01-01,2040.056976,observado
-INPI (propiedad industrial),2017-02-01,2558.542919,observado
-INPI (propiedad industrial),2017-03-01,4055.233444,observado
-INPI (propiedad industrial),2017-04-01,2203.011956,observado
-INPI (propiedad industrial),2017-05-01,3371.500901,observado
-INPI (propiedad industrial),2017-06-01,5133.383505,observado
-INPI (propiedad industrial),2017-07-01,3319.309225,observado
-INPI (propiedad industrial),2017-08-01,2591.124942,observado
-INPI (propiedad industrial),2017-09-01,5207.511622,observado
-INPI (propiedad industrial),2017-10-01,2266.787252,observado
-INPI (propiedad industrial),2017-11-01,3105.028007,observado
-INPI (propiedad industrial),2017-12-01,6926.811912,observado
-INPI (propiedad industrial),2018-01-01,1103.648631,observado
-INPI (propiedad industrial),2018-02-01,3289.942158,observado
-INPI (propiedad industrial),2018-03-01,4608.742745,observado
-INPI (propiedad industrial),2018-04-01,1456.787507,observado
-INPI (propiedad industrial),2018-05-01,2614.572378,observado
-INPI (propiedad industrial),2018-06-01,6496.472922,observado
-INPI (propiedad industrial),2018-07-01,1681.113349,observado
-INPI (propiedad industrial),2018-08-01,2923.800994,observado
-INPI (propiedad industrial),2018-09-01,3374.648908,observado
-INPI (propiedad industrial),2018-10-01,2334.779729,observado
-INPI (propiedad industrial),2018-11-01,2436.00034,observado
-INPI (propiedad industrial),2018-12-01,7214.164116,observado
-INPI (propiedad industrial),2019-01-01,1262.536998,observado
-INPI (propiedad industrial),2019-02-01,2070.197513,observado
-INPI (propiedad industrial),2019-03-01,3153.515126,observado
-INPI (propiedad industrial),2019-04-01,1633.428825,observado
-INPI (propiedad industrial),2019-05-01,2455.935145,observado
-INPI (propiedad industrial),2019-06-01,3893.325084,observado
-INPI (propiedad industrial),2019-07-01,1862.486415,observado
-INPI (propiedad industrial),2019-08-01,2809.697558,observado
-INPI (propiedad industrial),2019-09-01,3248.743645,observado
-INPI (propiedad industrial),2019-10-01,1510.264157,observado
-INPI (propiedad industrial),2019-11-01,2145.210395,observado
-INPI (propiedad industrial),2019-12-01,7585.538156,observado
-INPI (propiedad industrial),2020-01-01,1228.814407,observado
-INPI (propiedad industrial),2020-02-01,679.095354,observado
-INPI (propiedad industrial),2020-03-01,4061.303789,observado
-INPI (propiedad industrial),2020-04-01,1255.075869,observado
-INPI (propiedad industrial),2020-05-01,1810.102343,observado
-INPI (propiedad industrial),2020-06-01,3491.259943,observado
-INPI (propiedad industrial),2020-07-01,1550.325583,observado
-INPI (propiedad industrial),2020-08-01,1945.523131,observado
-INPI (propiedad industrial),2020-09-01,2860.250934,observado
-INPI (propiedad industrial),2020-10-01,1365.527066,observado
-INPI (propiedad industrial),2020-11-01,983.371537,observado
-INPI (propiedad industrial),2020-12-01,5623.658711,observado
-INPI (propiedad industrial),2021-01-01,1268.374919,observado
-INPI (propiedad industrial),2021-02-01,1788.50301,observado
-INPI (propiedad industrial),2021-03-01,2347.956357,observado
-INPI (propiedad industrial),2021-04-01,1209.136405,observado
-INPI (propiedad industrial),2021-05-01,1629.823963,observado
-INPI (propiedad industrial),2021-06-01,2341.11589,observado
-INPI (propiedad industrial),2021-07-01,2272.96486,observado
-INPI (propiedad industrial),2021-08-01,1164.53499,observado
-INPI (propiedad industrial),2021-09-01,3811.602567,observado
-INPI (propiedad industrial),2021-10-01,527.174424,observado
-INPI (propiedad industrial),2021-11-01,3461.073834,observado
-INPI (propiedad industrial),2021-12-01,6166.158555,observado
-INPI (propiedad industrial),2022-01-01,84.699005,observado
-INPI (propiedad industrial),2022-02-01,2930.62735,observado
-INPI (propiedad industrial),2022-03-01,1877.147283,observado
-INPI (propiedad industrial),2022-04-01,1769.550299,observado
-INPI (propiedad industrial),2022-05-01,926.932798,observado
-INPI (propiedad industrial),2022-06-01,4218.962896,observado
-INPI (propiedad industrial),2022-07-01,588.85899,observado
-INPI (propiedad industrial),2022-08-01,2221.516549,observado
-INPI (propiedad industrial),2022-09-01,1300.837131,observado
-INPI (propiedad industrial),2022-10-01,2907.444257,observado
-INPI (propiedad industrial),2022-11-01,1500.314015,observado
-INPI (propiedad industrial),2022-12-01,6088.00768,observado
-INPI (propiedad industrial),2023-01-01,1112.085464,observado
-INPI (propiedad industrial),2023-02-01,766.883605,observado
-INPI (propiedad industrial),2023-03-01,2824.756554,observado
-INPI (propiedad industrial),2023-04-01,1813.791247,observado
-INPI (propiedad industrial),2023-05-01,1696.74145,observado
-INPI (propiedad industrial),2023-06-01,2764.48953,observado
-INPI (propiedad industrial),2023-07-01,2029.360648,observado
-INPI (propiedad industrial),2023-08-01,1979.972159,observado
-INPI (propiedad industrial),2023-09-01,2378.58978,observado
-INPI (propiedad industrial),2023-10-01,1945.803042,observado
-INPI (propiedad industrial),2023-11-01,1017.974042,observado
-INPI (propiedad industrial),2023-12-01,4259.763027,observado
-INPI (propiedad industrial),2024-01-01,1094.408277,observado
-INPI (propiedad industrial),2024-02-01,1480.622978,observado
-INPI (propiedad industrial),2024-03-01,1823.342923,observado
-INPI (propiedad industrial),2024-04-01,1484.147712,observado
-INPI (propiedad industrial),2024-05-01,1402.516382,observado
-INPI (propiedad industrial),2024-06-01,2279.573377,observado
-INPI (propiedad industrial),2024-07-01,1326.479977,observado
-INPI (propiedad industrial),2024-08-01,1761.666455,observado
-INPI (propiedad industrial),2024-09-01,1775.144336,observado
-INPI (propiedad industrial),2024-10-01,1152.040511,observado
-INPI (propiedad industrial),2024-11-01,1552.027063,observado
-INPI (propiedad industrial),2024-12-01,2877.470942,observado
-INPI (propiedad industrial),2025-01-01,823.336332,observado
-INPI (propiedad industrial),2025-02-01,1494.135696,observado
-INPI (propiedad industrial),2025-03-01,1366.662261,observado
-INPI (propiedad industrial),2025-04-01,1324.959289,observado
-INPI (propiedad industrial),2025-05-01,1288.83355,observado
-INPI (propiedad industrial),2025-06-01,2191.490967,observado
-INPI (propiedad industrial),2025-07-01,1211.965374,observado
-INPI (propiedad industrial),2025-08-01,1238.931487,observado
-INPI (propiedad industrial),2025-09-01,1948.576559,observado
-INPI (propiedad industrial),2025-10-01,1051.191245,observado
-INPI (propiedad industrial),2025-11-01,1221.085161,observado
-INPI (propiedad industrial),2025-12-01,4043.802319,observado
-INPI (propiedad industrial),2026-01-01,699.749131,observado
-INPI (propiedad industrial),2026-02-01,1241.324853,observado
-INPI (propiedad industrial),2026-03-01,1365.957783,observado
-INPI (propiedad industrial),2026-04-01,1127.540205,observado
-INPI (propiedad industrial),2026-05-01,1365.11836,observado
-INPI (propiedad industrial),2026-06-01,2742.598235,observado
-INPI (propiedad industrial),2026-07-01,1144.839738,observado
-INPI (propiedad industrial),2026-08-01,1381.211525,observado
-INPI (propiedad industrial),2026-09-01,2510.898338,observado
+INPI (propiedad industrial),2001-01-01,1521.026584,observado
+INPI (propiedad industrial),2001-02-01,1545.499442,observado
+INPI (propiedad industrial),2001-03-01,2103.972131,observado
+INPI (propiedad industrial),2001-04-01,1163.120817,observado
+INPI (propiedad industrial),2001-05-01,2171.657778,observado
+INPI (propiedad industrial),2001-06-01,2756.370928,observado
+INPI (propiedad industrial),2001-07-01,1405.952772,observado
+INPI (propiedad industrial),2001-08-01,1680.180083,observado
+INPI (propiedad industrial),2001-09-01,1656.287785,observado
+INPI (propiedad industrial),2001-10-01,1373.910104,observado
+INPI (propiedad industrial),2001-11-01,1648.092264,observado
+INPI (propiedad industrial),2001-12-01,2228.282713,observado
+INPI (propiedad industrial),2002-01-01,1322.443359,observado
+INPI (propiedad industrial),2002-02-01,1582.981039,observado
+INPI (propiedad industrial),2002-03-01,1541.408446,observado
+INPI (propiedad industrial),2002-04-01,914.098656,observado
+INPI (propiedad industrial),2002-05-01,1508.688898,observado
+INPI (propiedad industrial),2002-06-01,1688.130919,observado
+INPI (propiedad industrial),2002-07-01,995.653357,observado
+INPI (propiedad industrial),2002-08-01,1214.336237,observado
+INPI (propiedad industrial),2002-09-01,1444.75355,observado
+INPI (propiedad industrial),2002-10-01,1072.600251,observado
+INPI (propiedad industrial),2002-11-01,1076.944492,observado
+INPI (propiedad industrial),2002-12-01,2080.593374,observado
+INPI (propiedad industrial),2003-01-01,1157.637169,observado
+INPI (propiedad industrial),2003-02-01,1335.231359,observado
+INPI (propiedad industrial),2003-03-01,1435.252838,observado
+INPI (propiedad industrial),2003-04-01,1232.893409,observado
+INPI (propiedad industrial),2003-05-01,1431.875756,observado
+INPI (propiedad industrial),2003-06-01,1158.507826,observado
+INPI (propiedad industrial),2003-07-01,732.172384,observado
+INPI (propiedad industrial),2003-08-01,2784.781628,observado
+INPI (propiedad industrial),2003-09-01,1749.857804,observado
+INPI (propiedad industrial),2003-10-01,1229.424305,observado
+INPI (propiedad industrial),2003-11-01,1282.42592,observado
+INPI (propiedad industrial),2003-12-01,2069.258654,observado
+INPI (propiedad industrial),2004-01-01,1169.503082,observado
+INPI (propiedad industrial),2004-02-01,1488.530227,observado
+INPI (propiedad industrial),2004-03-01,1408.167295,observado
+INPI (propiedad industrial),2004-04-01,1112.907394,observado
+INPI (propiedad industrial),2004-05-01,1282.142406,observado
+INPI (propiedad industrial),2004-06-01,1997.713894,observado
+INPI (propiedad industrial),2004-07-01,1207.446853,observado
+INPI (propiedad industrial),2004-08-01,1459.060913,observado
+INPI (propiedad industrial),2004-09-01,1613.598328,observado
+INPI (propiedad industrial),2004-10-01,1565.230561,observado
+INPI (propiedad industrial),2004-11-01,1758.096525,observado
+INPI (propiedad industrial),2004-12-01,3144.569732,observado
+INPI (propiedad industrial),2005-01-01,1321.227299,observado
+INPI (propiedad industrial),2005-02-01,1565.601391,observado
+INPI (propiedad industrial),2005-03-01,1456.151805,observado
+INPI (propiedad industrial),2005-04-01,1373.371893,observado
+INPI (propiedad industrial),2005-05-01,1487.825429,observado
+INPI (propiedad industrial),2005-06-01,2155.690262,observado
+INPI (propiedad industrial),2005-07-01,1307.962078,observado
+INPI (propiedad industrial),2005-08-01,1440.467148,observado
+INPI (propiedad industrial),2005-09-01,1560.86926,observado
+INPI (propiedad industrial),2005-10-01,1509.26921,observado
+INPI (propiedad industrial),2005-11-01,1615.732767,observado
+INPI (propiedad industrial),2005-12-01,3263.063098,observado
+INPI (propiedad industrial),2006-01-01,1290.432433,observado
+INPI (propiedad industrial),2006-02-01,1635.066607,observado
+INPI (propiedad industrial),2006-03-01,1627.32809,observado
+INPI (propiedad industrial),2006-04-01,1798.509229,observado
+INPI (propiedad industrial),2006-05-01,1597.768597,observado
+INPI (propiedad industrial),2006-06-01,2479.629196,observado
+INPI (propiedad industrial),2006-07-01,1690.5068,observado
+INPI (propiedad industrial),2006-08-01,1345.621039,observado
+INPI (propiedad industrial),2006-09-01,2390.74759,observado
+INPI (propiedad industrial),2006-10-01,1762.260993,observado
+INPI (propiedad industrial),2006-11-01,1573.187803,observado
+INPI (propiedad industrial),2006-12-01,5592.264937,observado
+INPI (propiedad industrial),2007-01-01,1667.523861,observado
+INPI (propiedad industrial),2007-02-01,1898.734583,observado
+INPI (propiedad industrial),2007-03-01,2009.531426,observado
+INPI (propiedad industrial),2007-04-01,1365.726465,observado
+INPI (propiedad industrial),2007-05-01,2387.460343,observado
+INPI (propiedad industrial),2007-06-01,2711.284528,observado
+INPI (propiedad industrial),2007-07-01,2462.931981,observado
+INPI (propiedad industrial),2007-08-01,2077.403515,observado
+INPI (propiedad industrial),2007-09-01,1557.857905,observado
+INPI (propiedad industrial),2007-10-01,2764.085712,observado
+INPI (propiedad industrial),2007-11-01,2188.61164,observado
+INPI (propiedad industrial),2007-12-01,4627.485384,observado
+INPI (propiedad industrial),2008-01-01,1294.20395,observado
+INPI (propiedad industrial),2008-02-01,2528.924596,observado
+INPI (propiedad industrial),2008-03-01,2180.443068,observado
+INPI (propiedad industrial),2008-04-01,1776.670496,observado
+INPI (propiedad industrial),2008-05-01,1784.142983,observado
+INPI (propiedad industrial),2008-06-01,2914.081245,observado
+INPI (propiedad industrial),2008-07-01,1920.161494,observado
+INPI (propiedad industrial),2008-08-01,2015.345243,observado
+INPI (propiedad industrial),2008-09-01,2164.688153,observado
+INPI (propiedad industrial),2008-10-01,2288.986969,observado
+INPI (propiedad industrial),2008-11-01,2709.552483,observado
+INPI (propiedad industrial),2008-12-01,5531.298313,observado
+INPI (propiedad industrial),2009-01-01,2126.883796,observado
+INPI (propiedad industrial),2009-02-01,2299.858486,observado
+INPI (propiedad industrial),2009-03-01,2267.212379,observado
+INPI (propiedad industrial),2009-04-01,2280.381725,observado
+INPI (propiedad industrial),2009-05-01,2251.894157,observado
+INPI (propiedad industrial),2009-06-01,3386.06301,observado
+INPI (propiedad industrial),2009-07-01,2467.730893,observado
+INPI (propiedad industrial),2009-08-01,2457.637744,observado
+INPI (propiedad industrial),2009-09-01,2691.617169,observado
+INPI (propiedad industrial),2009-10-01,2481.60856,observado
+INPI (propiedad industrial),2009-11-01,1768.612179,observado
+INPI (propiedad industrial),2009-12-01,5449.244428,observado
+INPI (propiedad industrial),2010-01-01,1482.874445,observado
+INPI (propiedad industrial),2010-02-01,2102.849425,observado
+INPI (propiedad industrial),2010-03-01,2848.209424,observado
+INPI (propiedad industrial),2010-04-01,1999.512251,observado
+INPI (propiedad industrial),2010-05-01,2044.087139,observado
+INPI (propiedad industrial),2010-06-01,3133.997721,observado
+INPI (propiedad industrial),2010-07-01,2221.546228,observado
+INPI (propiedad industrial),2010-08-01,2327.473016,observado
+INPI (propiedad industrial),2010-09-01,2329.662084,observado
+INPI (propiedad industrial),2010-10-01,2338.73465,observado
+INPI (propiedad industrial),2010-11-01,2427.5388,observado
+INPI (propiedad industrial),2010-12-01,4399.649766,observado
+INPI (propiedad industrial),2011-01-01,2032.417079,observado
+INPI (propiedad industrial),2011-02-01,2143.482942,observado
+INPI (propiedad industrial),2011-03-01,2108.22161,observado
+INPI (propiedad industrial),2011-04-01,2097.701265,observado
+INPI (propiedad industrial),2011-05-01,1999.752924,observado
+INPI (propiedad industrial),2011-06-01,3281.828869,observado
+INPI (propiedad industrial),2011-07-01,2200.60907,observado
+INPI (propiedad industrial),2011-08-01,2495.527923,observado
+INPI (propiedad industrial),2011-09-01,2245.784433,observado
+INPI (propiedad industrial),2011-10-01,2365.971011,observado
+INPI (propiedad industrial),2011-11-01,2189.178244,observado
+INPI (propiedad industrial),2011-12-01,4264.693723,observado
+INPI (propiedad industrial),2012-01-01,2115.895423,observado
+INPI (propiedad industrial),2012-02-01,2251.179093,observado
+INPI (propiedad industrial),2012-03-01,2292.797359,observado
+INPI (propiedad industrial),2012-04-01,2023.269121,observado
+INPI (propiedad industrial),2012-05-01,2051.481935,observado
+INPI (propiedad industrial),2012-06-01,3220.716574,observado
+INPI (propiedad industrial),2012-07-01,2131.505913,observado
+INPI (propiedad industrial),2012-08-01,2225.384613,observado
+INPI (propiedad industrial),2012-09-01,2733.58522,observado
+INPI (propiedad industrial),2012-10-01,2140.019051,observado
+INPI (propiedad industrial),2012-11-01,2401.579483,observado
+INPI (propiedad industrial),2012-12-01,5627.94214,observado
+INPI (propiedad industrial),2013-01-01,2144.826609,observado
+INPI (propiedad industrial),2013-02-01,1980.350001,observado
+INPI (propiedad industrial),2013-03-01,2373.06209,observado
+INPI (propiedad industrial),2013-04-01,2184.559872,observado
+INPI (propiedad industrial),2013-05-01,2241.713481,observado
+INPI (propiedad industrial),2013-06-01,4038.735555,observado
+INPI (propiedad industrial),2013-07-01,1874.627101,observado
+INPI (propiedad industrial),2013-08-01,2754.490883,observado
+INPI (propiedad industrial),2013-09-01,3615.44065,observado
+INPI (propiedad industrial),2013-10-01,1949.46927,observado
+INPI (propiedad industrial),2013-11-01,2593.18177,observado
+INPI (propiedad industrial),2013-12-01,6723.582012,observado
+INPI (propiedad industrial),2014-01-01,2238.862551,observado
+INPI (propiedad industrial),2014-02-01,2175.568572,observado
+INPI (propiedad industrial),2014-03-01,2602.256001,observado
+INPI (propiedad industrial),2014-04-01,1746.694377,observado
+INPI (propiedad industrial),2014-05-01,2011.491934,observado
+INPI (propiedad industrial),2014-06-01,4103.099978,observado
+INPI (propiedad industrial),2014-07-01,2329.6471,observado
+INPI (propiedad industrial),2014-08-01,2747.086532,observado
+INPI (propiedad industrial),2014-09-01,2856.270249,observado
+INPI (propiedad industrial),2014-10-01,2258.41504,observado
+INPI (propiedad industrial),2014-11-01,1091.127805,observado
+INPI (propiedad industrial),2014-12-01,7419.925853,observado
+INPI (propiedad industrial),2015-01-01,2088.920865,observado
+INPI (propiedad industrial),2015-02-01,2121.279749,observado
+INPI (propiedad industrial),2015-03-01,2710.233392,observado
+INPI (propiedad industrial),2015-04-01,2109.104504,observado
+INPI (propiedad industrial),2015-05-01,1589.694972,observado
+INPI (propiedad industrial),2015-06-01,4722.98026,observado
+INPI (propiedad industrial),2015-07-01,2690.395764,observado
+INPI (propiedad industrial),2015-08-01,2081.050451,observado
+INPI (propiedad industrial),2015-09-01,3370.960016,observado
+INPI (propiedad industrial),2015-10-01,3294.870186,observado
+INPI (propiedad industrial),2015-11-01,2142.976709,observado
+INPI (propiedad industrial),2015-12-01,7349.461106,observado
+INPI (propiedad industrial),2016-01-01,1799.065579,observado
+INPI (propiedad industrial),2016-02-01,3213.85295,observado
+INPI (propiedad industrial),2016-03-01,4146.416967,observado
+INPI (propiedad industrial),2016-04-01,1693.407087,observado
+INPI (propiedad industrial),2016-05-01,2528.564501,observado
+INPI (propiedad industrial),2016-06-01,4778.305851,observado
+INPI (propiedad industrial),2016-07-01,2266.472967,observado
+INPI (propiedad industrial),2016-08-01,2591.675251,observado
+INPI (propiedad industrial),2016-09-01,6136.018193,observado
+INPI (propiedad industrial),2016-10-01,2214.775206,observado
+INPI (propiedad industrial),2016-11-01,3225.20515,observado
+INPI (propiedad industrial),2016-12-01,7985.240927,observado
+INPI (propiedad industrial),2017-01-01,2124.666217,observado
+INPI (propiedad industrial),2017-02-01,2664.655826,observado
+INPI (propiedad industrial),2017-03-01,4223.420033,observado
+INPI (propiedad industrial),2017-04-01,2294.379586,observado
+INPI (propiedad industrial),2017-05-01,3511.330394,observado
+INPI (propiedad industrial),2017-06-01,5346.285247,observado
+INPI (propiedad industrial),2017-07-01,3456.974122,observado
+INPI (propiedad industrial),2017-08-01,2698.589153,observado
+INPI (propiedad industrial),2017-09-01,5423.48775,observado
+INPI (propiedad industrial),2017-10-01,2360.799896,observado
+INPI (propiedad industrial),2017-11-01,3233.805814,observado
+INPI (propiedad industrial),2017-12-01,7214.094231,observado
+INPI (propiedad industrial),2018-01-01,1149.42131,observado
+INPI (propiedad industrial),2018-02-01,3426.389087,observado
+INPI (propiedad industrial),2018-03-01,4799.885556,observado
+INPI (propiedad industrial),2018-04-01,1517.206254,observado
+INPI (propiedad industrial),2018-05-01,2723.009048,observado
+INPI (propiedad industrial),2018-06-01,6765.907379,observado
+INPI (propiedad industrial),2018-07-01,1750.835776,observado
+INPI (propiedad industrial),2018-08-01,3045.062599,observado
+INPI (propiedad industrial),2018-09-01,3514.608961,observado
+INPI (propiedad industrial),2018-10-01,2431.61229,observado
+INPI (propiedad industrial),2018-11-01,2537.03092,observado
+INPI (propiedad industrial),2018-12-01,7513.364069,observado
+INPI (propiedad industrial),2019-01-01,1314.899407,observado
+INPI (propiedad industrial),2019-02-01,2156.056801,observado
+INPI (propiedad industrial),2019-03-01,3284.303886,observado
+INPI (propiedad industrial),2019-04-01,1700.438517,observado
+INPI (propiedad industrial),2019-05-01,2557.792501,observado
+INPI (propiedad industrial),2019-06-01,4054.796693,observado
+INPI (propiedad industrial),2019-07-01,1939.731101,observado
+INPI (propiedad industrial),2019-08-01,2926.226842,observado
+INPI (propiedad industrial),2019-09-01,3383.481908,observado
+INPI (propiedad industrial),2019-10-01,1572.900792,observado
+INPI (propiedad industrial),2019-11-01,2234.180765,observado
+INPI (propiedad industrial),2019-12-01,7900.140461,observado
+INPI (propiedad industrial),2020-01-01,1279.778206,observado
+INPI (propiedad industrial),2020-02-01,707.260127,observado
+INPI (propiedad industrial),2020-03-01,4229.74214,observado
+INPI (propiedad industrial),2020-04-01,1307.128835,observado
+INPI (propiedad industrial),2020-05-01,1885.174455,observado
+INPI (propiedad industrial),2020-06-01,3636.056318,observado
+INPI (propiedad industrial),2020-07-01,1614.623724,observado
+INPI (propiedad industrial),2020-08-01,2026.211679,observado
+INPI (propiedad industrial),2020-09-01,2978.876866,observado
+INPI (propiedad industrial),2020-10-01,1422.160881,observado
+INPI (propiedad industrial),2020-11-01,1024.155848,observado
+INPI (propiedad industrial),2020-12-01,5856.894106,observado
+INPI (propiedad industrial),2021-01-01,1320.979449,observado
+INPI (propiedad industrial),2021-02-01,1862.679312,observado
+INPI (propiedad industrial),2021-03-01,2445.335404,observado
+INPI (propiedad industrial),2021-04-01,1259.28408,observado
+INPI (propiedad industrial),2021-05-01,1697.419216,observado
+INPI (propiedad industrial),2021-06-01,2438.211236,observado
+INPI (propiedad industrial),2021-07-01,2367.233714,observado
+INPI (propiedad industrial),2021-08-01,1212.832867,observado
+INPI (propiedad industrial),2021-09-01,3969.684819,observado
+INPI (propiedad industrial),2021-10-01,549.038435,observado
+INPI (propiedad industrial),2021-11-01,3604.618271,observado
+INPI (propiedad industrial),2021-12-01,6421.893567,observado
+INPI (propiedad industrial),2022-01-01,88.211808,observado
+INPI (propiedad industrial),2022-02-01,3052.172071,observado
+INPI (propiedad industrial),2022-03-01,1955.000014,observado
+INPI (propiedad industrial),2022-04-01,1842.940557,observado
+INPI (propiedad industrial),2022-05-01,965.376371,observado
+INPI (propiedad industrial),2022-06-01,4393.939994,observado
+INPI (propiedad industrial),2022-07-01,613.281304,observado
+INPI (propiedad industrial),2022-08-01,2313.651637,observado
+INPI (propiedad industrial),2022-09-01,1354.787998,observado
+INPI (propiedad industrial),2022-10-01,3028.027484,observado
+INPI (propiedad industrial),2022-11-01,1562.537978,observado
+INPI (propiedad industrial),2022-12-01,6340.501466,observado
+INPI (propiedad industrial),2023-01-01,1158.208052,observado
+INPI (propiedad industrial),2023-02-01,798.689305,observado
+INPI (propiedad industrial),2023-03-01,2941.910394,observado
+INPI (propiedad industrial),2023-04-01,1889.016352,observado
+INPI (propiedad industrial),2023-05-01,1767.112037,observado
+INPI (propiedad industrial),2023-06-01,2879.143857,observado
+INPI (propiedad industrial),2023-07-01,2113.52627,observado
+INPI (propiedad industrial),2023-08-01,2062.089445,observado
+INPI (propiedad industrial),2023-09-01,2477.239317,observado
+INPI (propiedad industrial),2023-10-01,2026.503199,observado
+INPI (propiedad industrial),2023-11-01,1060.193456,observado
+INPI (propiedad industrial),2023-12-01,4436.432268,observado
+INPI (propiedad industrial),2024-01-01,1139.797721,observado
+INPI (propiedad industrial),2024-02-01,1542.030276,observado
+INPI (propiedad industrial),2024-03-01,1898.964174,observado
+INPI (propiedad industrial),2024-04-01,1545.701194,observado
+INPI (propiedad industrial),2024-05-01,1460.680322,observado
+INPI (propiedad industrial),2024-06-01,2374.116312,observado
+INPI (propiedad industrial),2024-07-01,1381.494354,observado
+INPI (propiedad industrial),2024-08-01,1834.729739,observado
+INPI (propiedad industrial),2024-09-01,1848.766601,observado
+INPI (propiedad industrial),2024-10-01,1199.820193,observado
+INPI (propiedad industrial),2024-11-01,1616.395771,observado
+INPI (propiedad industrial),2024-12-01,2996.811056,observado
+INPI (propiedad industrial),2025-01-01,857.483349,observado
+INPI (propiedad industrial),2025-02-01,1556.10342,observado
+INPI (propiedad industrial),2025-03-01,1423.343157,observado
+INPI (propiedad industrial),2025-04-01,1379.910597,observado
+INPI (propiedad industrial),2025-05-01,1342.286581,observado
+INPI (propiedad industrial),2025-06-01,2282.380775,observado
+INPI (propiedad industrial),2025-07-01,1262.230378,observado
+INPI (propiedad industrial),2025-08-01,1290.314881,observado
+INPI (propiedad industrial),2025-09-01,2029.391745,observado
+INPI (propiedad industrial),2025-10-01,1094.788309,observado
+INPI (propiedad industrial),2025-11-01,1271.728398,observado
+INPI (propiedad industrial),2025-12-01,4211.514814,observado
+INPI (propiedad industrial),2026-01-01,728.770498,observado
+INPI (propiedad industrial),2026-02-01,1292.80751,observado
+INPI (propiedad industrial),2026-03-01,1422.609461,observado
+INPI (propiedad industrial),2026-04-01,1174.303763,observado
+INPI (propiedad industrial),2026-05-01,1421.735224,observado
+INPI (propiedad industrial),2026-06-01,2856.344645,observado
+INPI (propiedad industrial),2026-07-01,1192.320775,observado
+INPI (propiedad industrial),2026-08-01,1438.495837,observado
+INPI (propiedad industrial),2026-09-01,2565.429822,observado
 INPI (propiedad industrial),2026-10-01,855.234619,observado
-CONEAU (acreditación universitaria),2001-01-01,257.429004,observado
-CONEAU (acreditación universitaria),2001-02-01,608.404319,observado
-CONEAU (acreditación universitaria),2001-03-01,550.908514,observado
-CONEAU (acreditación universitaria),2001-04-01,474.302668,observado
-CONEAU (acreditación universitaria),2001-05-01,695.468083,observado
-CONEAU (acreditación universitaria),2001-06-01,1013.77949,observado
-CONEAU (acreditación universitaria),2001-07-01,504.397924,observado
-CONEAU (acreditación universitaria),2001-08-01,462.974316,observado
-CONEAU (acreditación universitaria),2001-09-01,903.485774,observado
-CONEAU (acreditación universitaria),2001-10-01,259.147073,observado
-CONEAU (acreditación universitaria),2001-11-01,598.435309,observado
-CONEAU (acreditación universitaria),2001-12-01,698.087203,observado
-CONEAU (acreditación universitaria),2002-01-01,341.199615,observado
-CONEAU (acreditación universitaria),2002-02-01,278.989041,observado
-CONEAU (acreditación universitaria),2002-03-01,533.200477,observado
-CONEAU (acreditación universitaria),2002-04-01,324.011825,observado
-CONEAU (acreditación universitaria),2002-05-01,407.322276,observado
-CONEAU (acreditación universitaria),2002-06-01,643.854399,observado
-CONEAU (acreditación universitaria),2002-07-01,280.2356,observado
-CONEAU (acreditación universitaria),2002-08-01,400.975872,observado
-CONEAU (acreditación universitaria),2002-09-01,1005.986935,observado
-CONEAU (acreditación universitaria),2002-10-01,182.754112,observado
-CONEAU (acreditación universitaria),2002-11-01,551.038554,observado
-CONEAU (acreditación universitaria),2002-12-01,1343.782302,observado
-CONEAU (acreditación universitaria),2003-01-01,191.423575,observado
-CONEAU (acreditación universitaria),2003-02-01,344.630213,observado
-CONEAU (acreditación universitaria),2003-03-01,726.499966,observado
-CONEAU (acreditación universitaria),2003-04-01,354.170418,observado
-CONEAU (acreditación universitaria),2003-05-01,483.717785,observado
-CONEAU (acreditación universitaria),2003-06-01,1511.676191,observado
-CONEAU (acreditación universitaria),2003-07-01,269.147867,observado
-CONEAU (acreditación universitaria),2003-08-01,326.842107,observado
-CONEAU (acreditación universitaria),2003-09-01,754.06992,observado
-CONEAU (acreditación universitaria),2003-10-01,524.332074,observado
-CONEAU (acreditación universitaria),2003-11-01,591.809567,observado
-CONEAU (acreditación universitaria),2003-12-01,834.227183,observado
-CONEAU (acreditación universitaria),2004-01-01,228.324855,observado
-CONEAU (acreditación universitaria),2004-02-01,486.290527,observado
-CONEAU (acreditación universitaria),2004-03-01,563.129253,observado
-CONEAU (acreditación universitaria),2004-04-01,551.531786,observado
-CONEAU (acreditación universitaria),2004-05-01,541.543362,observado
-CONEAU (acreditación universitaria),2004-06-01,814.711055,observado
-CONEAU (acreditación universitaria),2004-07-01,467.581797,observado
-CONEAU (acreditación universitaria),2004-08-01,577.614658,observado
-CONEAU (acreditación universitaria),2004-09-01,679.18249,observado
-CONEAU (acreditación universitaria),2004-10-01,633.212027,observado
-CONEAU (acreditación universitaria),2004-11-01,763.452896,observado
-CONEAU (acreditación universitaria),2004-12-01,1149.775445,observado
-CONEAU (acreditación universitaria),2005-01-01,188.93739,observado
-CONEAU (acreditación universitaria),2005-02-01,799.871411,observado
-CONEAU (acreditación universitaria),2005-03-01,639.567486,observado
-CONEAU (acreditación universitaria),2005-04-01,575.269881,observado
-CONEAU (acreditación universitaria),2005-05-01,788.699474,observado
-CONEAU (acreditación universitaria),2005-06-01,899.202308,observado
-CONEAU (acreditación universitaria),2005-07-01,541.014945,observado
-CONEAU (acreditación universitaria),2005-08-01,644.613532,observado
-CONEAU (acreditación universitaria),2005-09-01,818.519623,observado
-CONEAU (acreditación universitaria),2005-10-01,520.043921,observado
-CONEAU (acreditación universitaria),2005-11-01,828.15811,observado
-CONEAU (acreditación universitaria),2005-12-01,1080.125993,observado
-CONEAU (acreditación universitaria),2006-01-01,395.823508,observado
-CONEAU (acreditación universitaria),2006-02-01,604.177078,observado
-CONEAU (acreditación universitaria),2006-03-01,482.017575,observado
-CONEAU (acreditación universitaria),2006-04-01,548.770619,observado
-CONEAU (acreditación universitaria),2006-05-01,799.652516,observado
-CONEAU (acreditación universitaria),2006-06-01,731.09202,observado
-CONEAU (acreditación universitaria),2006-07-01,644.888349,observado
-CONEAU (acreditación universitaria),2006-08-01,624.116355,observado
-CONEAU (acreditación universitaria),2006-09-01,908.402286,observado
-CONEAU (acreditación universitaria),2006-10-01,630.690731,observado
-CONEAU (acreditación universitaria),2006-11-01,1035.117429,observado
-CONEAU (acreditación universitaria),2006-12-01,1188.570821,observado
-CONEAU (acreditación universitaria),2007-01-01,533.600748,observado
-CONEAU (acreditación universitaria),2007-02-01,571.651086,observado
-CONEAU (acreditación universitaria),2007-03-01,724.918564,observado
-CONEAU (acreditación universitaria),2007-04-01,597.524348,observado
-CONEAU (acreditación universitaria),2007-05-01,668.886919,observado
-CONEAU (acreditación universitaria),2007-06-01,885.377592,observado
-CONEAU (acreditación universitaria),2007-07-01,521.056299,observado
-CONEAU (acreditación universitaria),2007-08-01,827.662352,observado
-CONEAU (acreditación universitaria),2007-09-01,754.060244,observado
-CONEAU (acreditación universitaria),2007-10-01,827.389328,observado
-CONEAU (acreditación universitaria),2007-11-01,836.519766,observado
-CONEAU (acreditación universitaria),2007-12-01,1624.837908,observado
-CONEAU (acreditación universitaria),2008-01-01,356.833952,observado
-CONEAU (acreditación universitaria),2008-02-01,912.149824,observado
-CONEAU (acreditación universitaria),2008-03-01,559.910201,observado
-CONEAU (acreditación universitaria),2008-04-01,832.173509,observado
-CONEAU (acreditación universitaria),2008-05-01,790.798368,observado
-CONEAU (acreditación universitaria),2008-06-01,857.302904,observado
-CONEAU (acreditación universitaria),2008-07-01,762.222766,observado
-CONEAU (acreditación universitaria),2008-08-01,863.369018,observado
-CONEAU (acreditación universitaria),2008-09-01,994.459649,observado
-CONEAU (acreditación universitaria),2008-10-01,885.227425,observado
-CONEAU (acreditación universitaria),2008-11-01,1154.78524,observado
-CONEAU (acreditación universitaria),2008-12-01,2312.74651,observado
-CONEAU (acreditación universitaria),2009-01-01,415.582173,observado
-CONEAU (acreditación universitaria),2009-02-01,841.285069,observado
-CONEAU (acreditación universitaria),2009-03-01,919.640419,observado
-CONEAU (acreditación universitaria),2009-04-01,779.233062,observado
-CONEAU (acreditación universitaria),2009-05-01,1161.786206,observado
-CONEAU (acreditación universitaria),2009-06-01,2303.773781,observado
-CONEAU (acreditación universitaria),2009-07-01,450.91039,observado
-CONEAU (acreditación universitaria),2009-08-01,827.960615,observado
-CONEAU (acreditación universitaria),2009-09-01,1701.328459,observado
-CONEAU (acreditación universitaria),2009-10-01,599.378882,observado
-CONEAU (acreditación universitaria),2009-11-01,792.886468,observado
-CONEAU (acreditación universitaria),2009-12-01,3307.418751,observado
-CONEAU (acreditación universitaria),2010-01-01,525.990057,observado
-CONEAU (acreditación universitaria),2010-02-01,688.329712,observado
-CONEAU (acreditación universitaria),2010-03-01,1492.510056,observado
-CONEAU (acreditación universitaria),2010-04-01,612.262478,observado
-CONEAU (acreditación universitaria),2010-05-01,687.816056,observado
-CONEAU (acreditación universitaria),2010-06-01,1974.058605,observado
-CONEAU (acreditación universitaria),2010-07-01,529.573315,observado
-CONEAU (acreditación universitaria),2010-08-01,728.818404,observado
-CONEAU (acreditación universitaria),2010-09-01,1463.987756,observado
-CONEAU (acreditación universitaria),2010-10-01,853.680289,observado
-CONEAU (acreditación universitaria),2010-11-01,1050.358316,observado
-CONEAU (acreditación universitaria),2010-12-01,3137.277205,observado
-CONEAU (acreditación universitaria),2011-01-01,426.166931,observado
-CONEAU (acreditación universitaria),2011-02-01,462.438787,observado
-CONEAU (acreditación universitaria),2011-03-01,884.897323,observado
-CONEAU (acreditación universitaria),2011-04-01,834.974092,observado
-CONEAU (acreditación universitaria),2011-05-01,939.620846,observado
-CONEAU (acreditación universitaria),2011-06-01,1348.216838,observado
-CONEAU (acreditación universitaria),2011-07-01,835.720135,observado
-CONEAU (acreditación universitaria),2011-08-01,1060.53495,observado
-CONEAU (acreditación universitaria),2011-09-01,1152.823903,observado
-CONEAU (acreditación universitaria),2011-10-01,802.55336,observado
-CONEAU (acreditación universitaria),2011-11-01,972.439847,observado
-CONEAU (acreditación universitaria),2011-12-01,2803.935158,observado
-CONEAU (acreditación universitaria),2012-01-01,683.959779,observado
-CONEAU (acreditación universitaria),2012-02-01,747.381306,observado
-CONEAU (acreditación universitaria),2012-03-01,906.618115,observado
-CONEAU (acreditación universitaria),2012-04-01,869.085419,observado
-CONEAU (acreditación universitaria),2012-05-01,1609.432364,observado
-CONEAU (acreditación universitaria),2012-06-01,1540.009478,observado
-CONEAU (acreditación universitaria),2012-07-01,958.291554,observado
-CONEAU (acreditación universitaria),2012-08-01,1147.844788,observado
-CONEAU (acreditación universitaria),2012-09-01,1356.499875,observado
-CONEAU (acreditación universitaria),2012-10-01,1109.049271,observado
-CONEAU (acreditación universitaria),2012-11-01,1133.826352,observado
-CONEAU (acreditación universitaria),2012-12-01,2292.008748,observado
-CONEAU (acreditación universitaria),2013-01-01,792.190457,observado
-CONEAU (acreditación universitaria),2013-02-01,915.37513,observado
-CONEAU (acreditación universitaria),2013-03-01,1301.340962,observado
-CONEAU (acreditación universitaria),2013-04-01,897.642358,observado
-CONEAU (acreditación universitaria),2013-05-01,1197.260501,observado
-CONEAU (acreditación universitaria),2013-06-01,1557.214759,observado
-CONEAU (acreditación universitaria),2013-07-01,945.956222,observado
-CONEAU (acreditación universitaria),2013-08-01,1701.422018,observado
-CONEAU (acreditación universitaria),2013-09-01,1245.066066,observado
-CONEAU (acreditación universitaria),2013-10-01,1093.393614,observado
-CONEAU (acreditación universitaria),2013-11-01,1398.500547,observado
-CONEAU (acreditación universitaria),2013-12-01,2303.815394,observado
-CONEAU (acreditación universitaria),2014-01-01,571.048096,observado
-CONEAU (acreditación universitaria),2014-02-01,916.088751,observado
-CONEAU (acreditación universitaria),2014-03-01,960.28174,observado
-CONEAU (acreditación universitaria),2014-04-01,1213.424622,observado
-CONEAU (acreditación universitaria),2014-05-01,1196.765342,observado
-CONEAU (acreditación universitaria),2014-06-01,1084.594163,observado
-CONEAU (acreditación universitaria),2014-07-01,1194.996264,observado
-CONEAU (acreditación universitaria),2014-08-01,1028.123167,observado
-CONEAU (acreditación universitaria),2014-09-01,1307.84145,observado
-CONEAU (acreditación universitaria),2014-10-01,1022.32092,observado
-CONEAU (acreditación universitaria),2014-11-01,1276.310045,observado
-CONEAU (acreditación universitaria),2014-12-01,2302.675657,observado
+CONEAU (acreditación universitaria),2001-01-01,268.105604,observado
+CONEAU (acreditación universitaria),2001-02-01,633.637255,observado
+CONEAU (acreditación universitaria),2001-03-01,573.756872,observado
+CONEAU (acreditación universitaria),2001-04-01,493.973878,observado
+CONEAU (acreditación universitaria),2001-05-01,724.311899,observado
+CONEAU (acreditación universitaria),2001-06-01,1055.824939,observado
+CONEAU (acreditación universitaria),2001-07-01,525.317303,observado
+CONEAU (acreditación universitaria),2001-08-01,482.175694,observado
+CONEAU (acreditación universitaria),2001-09-01,940.956907,observado
+CONEAU (acreditación universitaria),2001-10-01,269.894928,observado
+CONEAU (acreditación universitaria),2001-11-01,623.254791,observado
+CONEAU (acreditación universitaria),2001-12-01,727.039644,observado
+CONEAU (acreditación universitaria),2002-01-01,355.350514,observado
+CONEAU (acreditación universitaria),2002-02-01,290.559821,observado
+CONEAU (acreditación universitaria),2002-03-01,555.314413,observado
+CONEAU (acreditación universitaria),2002-04-01,337.449878,observado
+CONEAU (acreditación universitaria),2002-05-01,424.215544,observado
+CONEAU (acreditación universitaria),2002-06-01,670.557591,observado
+CONEAU (acreditación universitaria),2002-07-01,291.85808,observado
+CONEAU (acreditación universitaria),2002-08-01,417.60593,observado
+CONEAU (acreditación universitaria),2002-09-01,1047.709197,observado
+CONEAU (acreditación universitaria),2002-10-01,190.333648,observado
+CONEAU (acreditación universitaria),2002-11-01,573.892305,observado
+CONEAU (acreditación universitaria),2002-12-01,1399.514275,observado
+CONEAU (acreditación universitaria),2003-01-01,199.362669,observado
+CONEAU (acreditación universitaria),2003-02-01,358.923393,observado
+CONEAU (acreditación universitaria),2003-03-01,756.630797,observado
+CONEAU (acreditación universitaria),2003-04-01,368.859267,observado
+CONEAU (acreditación universitaria),2003-05-01,503.779476,observado
+CONEAU (acreditación universitaria),2003-06-01,1574.371389,observado
+CONEAU (acreditación universitaria),2003-07-01,280.310495,observado
+CONEAU (acreditación universitaria),2003-08-01,340.397543,observado
+CONEAU (acreditación universitaria),2003-09-01,785.344186,observado
+CONEAU (acreditación universitaria),2003-10-01,546.078201,observado
+CONEAU (acreditación universitaria),2003-11-01,616.354253,observado
+CONEAU (acreditación universitaria),2003-12-01,868.825888,observado
+CONEAU (acreditación universitaria),2004-01-01,237.794391,observado
+CONEAU (acreditación universitaria),2004-02-01,506.45892,observado
+CONEAU (acreditación universitaria),2004-03-01,586.484453,observado
+CONEAU (acreditación universitaria),2004-04-01,574.405993,observado
+CONEAU (acreditación universitaria),2004-05-01,563.233339,observado
+CONEAU (acreditación universitaria),2004-06-01,848.500348,observado
+CONEAU (acreditación universitaria),2004-07-01,486.974265,observado
+CONEAU (acreditación universitaria),2004-08-01,601.570625,observado
+CONEAU (acreditación universitaria),2004-09-01,707.350877,observado
+CONEAU (acreditación universitaria),2004-10-01,659.473837,observado
+CONEAU (acreditación universitaria),2004-11-01,795.116311,observado
+CONEAU (acreditación universitaria),2004-12-01,1197.461186,observado
+CONEAU (acreditación universitaria),2005-01-01,196.773372,observado
+CONEAU (acreditación universitaria),2005-02-01,833.045246,observado
+CONEAU (acreditación universitaria),2005-03-01,666.092882,observado
+CONEAU (acreditación universitaria),2005-04-01,599.128601,observado
+CONEAU (acreditación universitaria),2005-05-01,821.409964,observado
+CONEAU (acreditación universitaria),2005-06-01,936.495789,observado
+CONEAU (acreditación universitaria),2005-07-01,563.452977,observado
+CONEAU (acreditación universitaria),2005-08-01,671.348208,observado
+CONEAU (acreditación universitaria),2005-09-01,852.466873,observado
+CONEAU (acreditación universitaria),2005-10-01,541.612202,observado
+CONEAU (acreditación universitaria),2005-11-01,862.505106,observado
+CONEAU (acreditación universitaria),2005-12-01,1124.923095,observado
+CONEAU (acreditación universitaria),2006-01-01,412.239876,observado
+CONEAU (acreditación universitaria),2006-02-01,629.234694,observado
+CONEAU (acreditación universitaria),2006-03-01,502.008753,observado
+CONEAU (acreditación universitaria),2006-04-01,571.53031,observado
+CONEAU (acreditación universitaria),2006-05-01,832.817272,observado
+CONEAU (acreditación universitaria),2006-06-01,761.413302,observado
+CONEAU (acreditación universitaria),2006-07-01,671.634423,observado
+CONEAU (acreditación universitaria),2006-08-01,650.000932,observado
+CONEAU (acreditación universitaria),2006-09-01,946.077326,observado
+CONEAU (acreditación universitaria),2006-10-01,656.847973,observado
+CONEAU (acreditación universitaria),2006-11-01,1078.047848,observado
+CONEAU (acreditación universitaria),2006-12-01,1237.86556,observado
+CONEAU (acreditación universitaria),2007-01-01,555.731284,observado
+CONEAU (acreditación universitaria),2007-02-01,595.35972,observado
+CONEAU (acreditación universitaria),2007-03-01,754.983808,observado
+CONEAU (acreditación universitaria),2007-04-01,622.306049,observado
+CONEAU (acreditación universitaria),2007-05-01,696.628308,observado
+CONEAU (acreditación universitaria),2007-06-01,922.097707,observado
+CONEAU (acreditación universitaria),2007-07-01,542.666567,observado
+CONEAU (acreditación universitaria),2007-08-01,861.988787,observado
+CONEAU (acreditación universitaria),2007-09-01,785.334109,observado
+CONEAU (acreditación universitaria),2007-10-01,861.70444,observado
+CONEAU (acreditación universitaria),2007-11-01,871.213553,observado
+CONEAU (acreditación universitaria),2007-12-01,1692.22637,observado
+CONEAU (acreditación universitaria),2008-01-01,371.633269,observado
+CONEAU (acreditación universitaria),2008-02-01,949.980289,observado
+CONEAU (acreditación universitaria),2008-03-01,583.131894,observado
+CONEAU (acreditación universitaria),2008-04-01,866.68704,observado
+CONEAU (acreditación universitaria),2008-05-01,823.595908,observado
+CONEAU (acreditación universitaria),2008-06-01,892.858651,observado
+CONEAU (acreditación universitaria),2008-07-01,793.835163,observado
+CONEAU (acreditación universitaria),2008-08-01,899.17635,observado
+CONEAU (acreditación universitaria),2008-09-01,1035.703829,observado
+CONEAU (acreditación universitaria),2008-10-01,921.941312,observado
+CONEAU (acreditación universitaria),2008-11-01,1202.678757,observado
+CONEAU (acreditación universitaria),2008-12-01,2408.665266,observado
+CONEAU (acreditación universitaria),2009-01-01,432.818012,observado
+CONEAU (acreditación universitaria),2009-02-01,876.176492,observado
+CONEAU (acreditación universitaria),2009-03-01,957.781549,observado
+CONEAU (acreditación universitaria),2009-04-01,811.550943,observado
+CONEAU (acreditación universitaria),2009-05-01,1209.970081,observado
+CONEAU (acreditación universitaria),2009-06-01,2399.320403,observado
+CONEAU (acreditación universitaria),2009-07-01,469.61143,observado
+CONEAU (acreditación universitaria),2009-08-01,862.29942,observado
+CONEAU (acreditación universitaria),2009-09-01,1771.889287,observado
+CONEAU (acreditación universitaria),2009-10-01,624.237497,observado
+CONEAU (acreditación universitaria),2009-11-01,825.770609,observado
+CONEAU (acreditación universitaria),2009-12-01,3444.590503,observado
+CONEAU (acreditación universitaria),2010-01-01,547.804948,observado
+CONEAU (acreditación universitaria),2010-02-01,716.877471,observado
+CONEAU (acreditación universitaria),2010-03-01,1554.410358,observado
+CONEAU (acreditación universitaria),2010-04-01,637.655428,observado
+CONEAU (acreditación universitaria),2010-05-01,716.342512,observado
+CONEAU (acreditación universitaria),2010-06-01,2055.930632,observado
+CONEAU (acreditación universitaria),2010-07-01,551.536818,observado
+CONEAU (acreditación universitaria),2010-08-01,759.04539,observado
+CONEAU (acreditación universitaria),2010-09-01,1524.705125,observado
+CONEAU (acreditación universitaria),2010-10-01,889.085791,observado
+CONEAU (acreditación universitaria),2010-11-01,1093.920834,observado
+CONEAU (acreditación universitaria),2010-12-01,3267.392513,observado
+CONEAU (acreditación universitaria),2011-01-01,443.841762,observado
+CONEAU (acreditación universitaria),2011-02-01,481.617955,observado
+CONEAU (acreditación universitaria),2011-03-01,921.597519,observado
+CONEAU (acreditación universitaria),2011-04-01,869.603773,observado
+CONEAU (acreditación universitaria),2011-05-01,978.590644,observado
+CONEAU (acreditación universitaria),2011-06-01,1404.132729,observado
+CONEAU (acreditación universitaria),2011-07-01,870.380758,observado
+CONEAU (acreditación universitaria),2011-08-01,1104.519534,observado
+CONEAU (acreditación universitaria),2011-09-01,1200.636076,observado
+CONEAU (acreditación universitaria),2011-10-01,835.838425,observado
+CONEAU (acreditación universitaria),2011-11-01,1012.770779,observado
+CONEAU (acreditación universitaria),2011-12-01,2920.225452,observado
+CONEAU (acreditación universitaria),2012-01-01,712.3263,observado
+CONEAU (acreditación universitaria),2012-02-01,778.378168,observado
+CONEAU (acreditación universitaria),2012-03-01,944.219158,observado
+CONEAU (acreditación universitaria),2012-04-01,905.129833,observado
+CONEAU (acreditación universitaria),2012-05-01,1676.181897,observado
+CONEAU (acreditación universitaria),2012-06-01,1603.879769,observado
+CONEAU (acreditación universitaria),2012-07-01,998.035699,observado
+CONEAU (acreditación universitaria),2012-08-01,1195.450457,observado
+CONEAU (acreditación universitaria),2012-09-01,1412.759296,observado
+CONEAU (acreditación universitaria),2012-10-01,1155.045935,observado
+CONEAU (acreditación universitaria),2012-11-01,1180.85062,observado
+CONEAU (acreditación universitaria),2012-12-01,2387.067427,observado
+CONEAU (acreditación universitaria),2013-01-01,825.045733,observado
+CONEAU (acreditación universitaria),2013-02-01,953.339361,observado
+CONEAU (acreditación universitaria),2013-03-01,1355.312725,observado
+CONEAU (acreditación universitaria),2013-04-01,934.871141,observado
+CONEAU (acreditación universitaria),2013-05-01,1246.915635,observado
+CONEAU (acreditación universitaria),2013-06-01,1621.798621,observado
+CONEAU (acreditación universitaria),2013-07-01,985.188772,observado
+CONEAU (acreditación universitaria),2013-08-01,1771.986726,observado
+CONEAU (acreditación universitaria),2013-09-01,1296.703886,observado
+CONEAU (acreditación universitaria),2013-10-01,1138.740977,observado
+CONEAU (acreditación universitaria),2013-11-01,1456.501903,observado
+CONEAU (acreditación universitaria),2013-12-01,2399.363741,observado
+CONEAU (acreditación universitaria),2014-01-01,594.731722,observado
+CONEAU (acreditación universitaria),2014-02-01,954.08258,observado
+CONEAU (acreditación universitaria),2014-03-01,1000.108426,observado
+CONEAU (acreditación universitaria),2014-04-01,1263.750146,observado
+CONEAU (acreditación universitaria),2014-05-01,1246.399939,observado
+CONEAU (acreditación universitaria),2014-06-01,1129.576578,observado
+CONEAU (acreditación universitaria),2014-07-01,1244.557491,observado
+CONEAU (acreditación universitaria),2014-08-01,1070.763506,observado
+CONEAU (acreditación universitaria),2014-09-01,1362.082814,observado
+CONEAU (acreditación universitaria),2014-10-01,1064.720616,observado
+CONEAU (acreditación universitaria),2014-11-01,1329.243677,observado
+CONEAU (acreditación universitaria),2014-12-01,2398.176734,observado
 CONEAU (acreditación universitaria),2015-01-01,0.0,observado
-CONEAU (acreditación universitaria),2015-02-01,883.615172,observado
-CONEAU (acreditación universitaria),2015-03-01,1734.405884,observado
-CONEAU (acreditación universitaria),2015-04-01,361.923496,observado
-CONEAU (acreditación universitaria),2015-05-01,1812.381867,observado
-CONEAU (acreditación universitaria),2015-06-01,1509.535443,observado
-CONEAU (acreditación universitaria),2015-07-01,1118.272895,observado
-CONEAU (acreditación universitaria),2015-08-01,1106.566526,observado
-CONEAU (acreditación universitaria),2015-09-01,1482.481973,observado
-CONEAU (acreditación universitaria),2015-10-01,1095.578495,observado
-CONEAU (acreditación universitaria),2015-11-01,1447.495771,observado
-CONEAU (acreditación universitaria),2015-12-01,2477.378239,observado
-CONEAU (acreditación universitaria),2016-01-01,697.720745,observado
-CONEAU (acreditación universitaria),2016-02-01,895.674364,observado
-CONEAU (acreditación universitaria),2016-03-01,1363.857441,observado
-CONEAU (acreditación universitaria),2016-04-01,771.727766,observado
-CONEAU (acreditación universitaria),2016-05-01,941.46455,observado
-CONEAU (acreditación universitaria),2016-06-01,1701.521745,observado
-CONEAU (acreditación universitaria),2016-07-01,782.808026,observado
-CONEAU (acreditación universitaria),2016-08-01,1221.179524,observado
-CONEAU (acreditación universitaria),2016-09-01,1072.520118,observado
-CONEAU (acreditación universitaria),2016-10-01,1174.950533,observado
-CONEAU (acreditación universitaria),2016-11-01,1290.328316,observado
-CONEAU (acreditación universitaria),2016-12-01,1814.407554,observado
-CONEAU (acreditación universitaria),2017-01-01,616.770616,observado
-CONEAU (acreditación universitaria),2017-02-01,872.252304,observado
-CONEAU (acreditación universitaria),2017-03-01,1190.270801,observado
-CONEAU (acreditación universitaria),2017-04-01,921.596952,observado
-CONEAU (acreditación universitaria),2017-05-01,1040.14632,observado
-CONEAU (acreditación universitaria),2017-06-01,1541.454764,observado
-CONEAU (acreditación universitaria),2017-07-01,1047.476367,observado
-CONEAU (acreditación universitaria),2017-08-01,1358.64712,observado
-CONEAU (acreditación universitaria),2017-09-01,1492.231134,observado
-CONEAU (acreditación universitaria),2017-10-01,1331.566661,observado
-CONEAU (acreditación universitaria),2017-11-01,2443.651275,observado
-CONEAU (acreditación universitaria),2017-12-01,2554.111089,observado
-CONEAU (acreditación universitaria),2018-01-01,687.486652,observado
-CONEAU (acreditación universitaria),2018-02-01,1052.055689,observado
-CONEAU (acreditación universitaria),2018-03-01,1089.444672,observado
-CONEAU (acreditación universitaria),2018-04-01,1035.387986,observado
-CONEAU (acreditación universitaria),2018-05-01,1118.410503,observado
-CONEAU (acreditación universitaria),2018-06-01,1470.554404,observado
-CONEAU (acreditación universitaria),2018-07-01,1063.368704,observado
-CONEAU (acreditación universitaria),2018-08-01,1155.611004,observado
-CONEAU (acreditación universitaria),2018-09-01,1224.656585,observado
-CONEAU (acreditación universitaria),2018-10-01,1005.675625,observado
-CONEAU (acreditación universitaria),2018-11-01,973.075577,observado
-CONEAU (acreditación universitaria),2018-12-01,1543.76814,observado
-CONEAU (acreditación universitaria),2019-01-01,585.601076,observado
-CONEAU (acreditación universitaria),2019-02-01,1103.025476,observado
-CONEAU (acreditación universitaria),2019-03-01,1067.646836,observado
-CONEAU (acreditación universitaria),2019-04-01,771.778583,observado
-CONEAU (acreditación universitaria),2019-05-01,1032.181718,observado
-CONEAU (acreditación universitaria),2019-06-01,1435.011768,observado
-CONEAU (acreditación universitaria),2019-07-01,955.926166,observado
-CONEAU (acreditación universitaria),2019-08-01,806.712513,observado
-CONEAU (acreditación universitaria),2019-09-01,1250.144606,observado
-CONEAU (acreditación universitaria),2019-10-01,756.878404,observado
-CONEAU (acreditación universitaria),2019-11-01,908.912319,observado
-CONEAU (acreditación universitaria),2019-12-01,1571.079316,observado
-CONEAU (acreditación universitaria),2020-01-01,539.80879,observado
-CONEAU (acreditación universitaria),2020-02-01,659.122694,observado
-CONEAU (acreditación universitaria),2020-03-01,794.74685,observado
-CONEAU (acreditación universitaria),2020-04-01,696.075731,observado
-CONEAU (acreditación universitaria),2020-05-01,721.425063,observado
-CONEAU (acreditación universitaria),2020-06-01,942.167163,observado
-CONEAU (acreditación universitaria),2020-07-01,732.096391,observado
-CONEAU (acreditación universitaria),2020-08-01,676.099531,observado
-CONEAU (acreditación universitaria),2020-09-01,842.583279,observado
-CONEAU (acreditación universitaria),2020-10-01,708.056265,observado
-CONEAU (acreditación universitaria),2020-11-01,700.996173,observado
-CONEAU (acreditación universitaria),2020-12-01,1285.696427,observado
-CONEAU (acreditación universitaria),2021-01-01,472.495128,observado
-CONEAU (acreditación universitaria),2021-02-01,616.051678,observado
-CONEAU (acreditación universitaria),2021-03-01,722.248101,observado
-CONEAU (acreditación universitaria),2021-04-01,609.729399,observado
-CONEAU (acreditación universitaria),2021-05-01,749.98275,observado
-CONEAU (acreditación universitaria),2021-06-01,892.957318,observado
-CONEAU (acreditación universitaria),2021-07-01,694.216164,observado
-CONEAU (acreditación universitaria),2021-08-01,708.060884,observado
-CONEAU (acreditación universitaria),2021-09-01,1145.50899,observado
-CONEAU (acreditación universitaria),2021-10-01,740.063925,observado
-CONEAU (acreditación universitaria),2021-11-01,751.326099,observado
-CONEAU (acreditación universitaria),2021-12-01,1328.978476,observado
-CONEAU (acreditación universitaria),2022-01-01,547.224375,observado
-CONEAU (acreditación universitaria),2022-02-01,731.357328,observado
-CONEAU (acreditación universitaria),2022-03-01,791.755551,observado
-CONEAU (acreditación universitaria),2022-04-01,593.037344,observado
-CONEAU (acreditación universitaria),2022-05-01,648.999498,observado
-CONEAU (acreditación universitaria),2022-06-01,875.677,observado
-CONEAU (acreditación universitaria),2022-07-01,713.083253,observado
-CONEAU (acreditación universitaria),2022-08-01,586.403466,observado
-CONEAU (acreditación universitaria),2022-09-01,1125.980815,observado
-CONEAU (acreditación universitaria),2022-10-01,486.677376,observado
-CONEAU (acreditación universitaria),2022-11-01,920.685962,observado
-CONEAU (acreditación universitaria),2022-12-01,1442.645798,observado
-CONEAU (acreditación universitaria),2023-01-01,452.250653,observado
-CONEAU (acreditación universitaria),2023-02-01,635.467993,observado
-CONEAU (acreditación universitaria),2023-03-01,1008.162014,observado
-CONEAU (acreditación universitaria),2023-04-01,636.543212,observado
-CONEAU (acreditación universitaria),2023-05-01,595.441426,observado
-CONEAU (acreditación universitaria),2023-06-01,1275.766265,observado
-CONEAU (acreditación universitaria),2023-07-01,557.732911,observado
-CONEAU (acreditación universitaria),2023-08-01,984.53192,observado
-CONEAU (acreditación universitaria),2023-09-01,966.7839,observado
-CONEAU (acreditación universitaria),2023-10-01,808.548024,observado
-CONEAU (acreditación universitaria),2023-11-01,503.553768,observado
-CONEAU (acreditación universitaria),2023-12-01,1164.917348,observado
-CONEAU (acreditación universitaria),2024-01-01,412.041521,observado
-CONEAU (acreditación universitaria),2024-02-01,565.239046,observado
-CONEAU (acreditación universitaria),2024-03-01,754.445727,observado
-CONEAU (acreditación universitaria),2024-04-01,543.624899,observado
-CONEAU (acreditación universitaria),2024-05-01,370.423645,observado
-CONEAU (acreditación universitaria),2024-06-01,700.409642,observado
-CONEAU (acreditación universitaria),2024-07-01,916.310491,observado
-CONEAU (acreditación universitaria),2024-08-01,479.581723,observado
-CONEAU (acreditación universitaria),2024-09-01,768.122006,observado
-CONEAU (acreditación universitaria),2024-10-01,534.713168,observado
-CONEAU (acreditación universitaria),2024-11-01,333.154364,observado
-CONEAU (acreditación universitaria),2024-12-01,2203.422645,observado
-CONEAU (acreditación universitaria),2025-01-01,499.283548,observado
-CONEAU (acreditación universitaria),2025-02-01,506.577335,observado
-CONEAU (acreditación universitaria),2025-03-01,519.960621,observado
-CONEAU (acreditación universitaria),2025-04-01,526.052328,observado
-CONEAU (acreditación universitaria),2025-05-01,503.695255,observado
-CONEAU (acreditación universitaria),2025-06-01,1056.38104,observado
-CONEAU (acreditación universitaria),2025-07-01,536.953368,observado
-CONEAU (acreditación universitaria),2025-08-01,390.37738,observado
-CONEAU (acreditación universitaria),2025-09-01,861.218982,observado
-CONEAU (acreditación universitaria),2025-10-01,480.336722,observado
-CONEAU (acreditación universitaria),2025-11-01,1326.987975,observado
-CONEAU (acreditación universitaria),2025-12-01,1650.522366,observado
-CONEAU (acreditación universitaria),2026-01-01,439.996691,observado
-CONEAU (acreditación universitaria),2026-02-01,439.177681,observado
-CONEAU (acreditación universitaria),2026-03-01,605.780495,observado
-CONEAU (acreditación universitaria),2026-04-01,467.738333,observado
-CONEAU (acreditación universitaria),2026-05-01,512.442518,observado
-CONEAU (acreditación universitaria),2026-06-01,671.944719,observado
-CONEAU (acreditación universitaria),2026-07-01,478.861846,observado
-CONEAU (acreditación universitaria),2026-08-01,524.895809,observado
-CONEAU (acreditación universitaria),2026-09-01,524.850631,observado
+CONEAU (acreditación universitaria),2015-02-01,920.262192,observado
+CONEAU (acreditación universitaria),2015-03-01,1806.338564,observado
+CONEAU (acreditación universitaria),2015-04-01,376.933896,observado
+CONEAU (acreditación universitaria),2015-05-01,1887.54852,observado
+CONEAU (acreditación universitaria),2015-06-01,1572.141855,observado
+CONEAU (acreditación universitaria),2015-07-01,1164.652101,observado
+CONEAU (acreditación universitaria),2015-08-01,1152.460222,observado
+CONEAU (acreditación universitaria),2015-09-01,1543.966371,observado
+CONEAU (acreditación universitaria),2015-10-01,1141.016473,observado
+CONEAU (acreditación universitaria),2015-11-01,1507.529153,observado
+CONEAU (acreditación universitaria),2015-12-01,2580.124925,observado
+CONEAU (acreditación universitaria),2016-01-01,726.657987,observado
+CONEAU (acreditación universitaria),2016-02-01,932.821527,observado
+CONEAU (acreditación universitaria),2016-03-01,1420.42201,observado
+CONEAU (acreditación universitaria),2016-04-01,803.734372,observado
+CONEAU (acreditación universitaria),2016-05-01,980.510813,observado
+CONEAU (acreditación universitaria),2016-06-01,1772.090589,observado
+CONEAU (acreditación universitaria),2016-07-01,815.274174,observado
+CONEAU (acreditación universitaria),2016-08-01,1271.826675,observado
+CONEAU (acreditación universitaria),2016-09-01,1117.001774,observado
+CONEAU (acreditación universitaria),2016-10-01,1223.680384,observado
+CONEAU (acreditación universitaria),2016-11-01,1343.843341,observado
+CONEAU (acreditación universitaria),2016-12-01,1889.65822,observado
+CONEAU (acreditación universitaria),2017-01-01,642.350536,observado
+CONEAU (acreditación universitaria),2017-02-01,908.428061,observado
+CONEAU (acreditación universitaria),2017-03-01,1239.636044,observado
+CONEAU (acreditación universitaria),2017-04-01,959.819227,observado
+CONEAU (acreditación universitaria),2017-05-01,1083.285307,observado
+CONEAU (acreditación universitaria),2017-06-01,1605.384997,observado
+CONEAU (acreditación universitaria),2017-07-01,1090.91936,observado
+CONEAU (acreditación universitaria),2017-08-01,1414.995596,observado
+CONEAU (acreditación universitaria),2017-09-01,1554.119868,observado
+CONEAU (acreditación universitaria),2017-10-01,1386.792003,observado
+CONEAU (acreditación universitaria),2017-11-01,2544.99917,observado
+CONEAU (acreditación universitaria),2017-12-01,2660.04019,observado
+CONEAU (acreditación universitaria),2018-01-01,715.999446,observado
+CONEAU (acreditación universitaria),2018-02-01,1095.688604,observado
+CONEAU (acreditación universitaria),2018-03-01,1134.628256,observado
+CONEAU (acreditación universitaria),2018-04-01,1078.329625,observado
+CONEAU (acreditación universitaria),2018-05-01,1164.795415,observado
+CONEAU (acreditación universitaria),2018-06-01,1531.544119,observado
+CONEAU (acreditación universitaria),2018-07-01,1107.470815,observado
+CONEAU (acreditación universitaria),2018-08-01,1203.538768,observado
+CONEAU (acreditación universitaria),2018-09-01,1275.447943,observado
+CONEAU (acreditación universitaria),2018-10-01,1047.384976,observado
+CONEAU (acreditación universitaria),2018-11-01,1013.432874,observado
+CONEAU (acreditación universitaria),2018-12-01,1607.794318,observado
+CONEAU (acreditación universitaria),2019-01-01,609.888272,observado
+CONEAU (acreditación universitaria),2019-02-01,1148.77231,observado
+CONEAU (acreditación universitaria),2019-03-01,1111.926378,observado
+CONEAU (acreditación universitaria),2019-04-01,803.439984,observado
+CONEAU (acreditación universitaria),2019-05-01,1074.990381,observado
+CONEAU (acreditación universitaria),2019-06-01,1494.527389,observado
+CONEAU (acreditación universitaria),2019-07-01,995.572209,observado
+CONEAU (acreditación universitaria),2019-08-01,840.170076,observado
+CONEAU (acreditación universitaria),2019-09-01,1301.993053,observado
+CONEAU (acreditación universitaria),2019-10-01,788.269149,observado
+CONEAU (acreditación universitaria),2019-11-01,946.608512,observado
+CONEAU (acreditación universitaria),2019-12-01,1636.238197,observado
+CONEAU (acreditación universitaria),2020-01-01,562.196798,observado
+CONEAU (acreditación universitaria),2020-02-01,686.459122,observado
+CONEAU (acreditación universitaria),2020-03-01,827.708149,observado
+CONEAU (acreditación universitaria),2020-04-01,724.944748,observado
+CONEAU (acreditación universitaria),2020-05-01,751.345417,observado
+CONEAU (acreditación universitaria),2020-06-01,981.242567,observado
+CONEAU (acreditación universitaria),2020-07-01,762.459328,observado
+CONEAU (acreditación universitaria),2020-08-01,704.140056,observado
+CONEAU (acreditación universitaria),2020-09-01,877.528544,observado
+CONEAU (acreditación universitaria),2020-10-01,737.422162,observado
+CONEAU (acreditación universitaria),2020-11-01,730.06926,observado
+CONEAU (acreditación universitaria),2020-12-01,1339.019349,observado
+CONEAU (acreditación universitaria),2021-01-01,492.091372,observado
+CONEAU (acreditación universitaria),2021-02-01,641.60178,observado
+CONEAU (acreditación universitaria),2021-03-01,752.202589,observado
+CONEAU (acreditación universitaria),2021-04-01,635.017292,observado
+CONEAU (acreditación universitaria),2021-05-01,781.087504,observado
+CONEAU (acreditación universitaria),2021-06-01,929.991794,observado
+CONEAU (acreditación universitaria),2021-07-01,723.008057,observado
+CONEAU (acreditación universitaria),2021-08-01,737.426973,observado
+CONEAU (acreditación universitaria),2021-09-01,1193.017784,observado
+CONEAU (acreditación universitaria),2021-10-01,770.757306,observado
+CONEAU (acreditación universitaria),2021-11-01,782.486567,observado
+CONEAU (acreditación universitaria),2021-12-01,1384.096476,observado
+CONEAU (acreditación universitaria),2022-01-01,569.919937,observado
+CONEAU (acreditación universitaria),2022-02-01,761.689612,observado
+CONEAU (acreditación universitaria),2022-03-01,824.592789,observado
+CONEAU (acreditación universitaria),2022-04-01,617.632951,observado
+CONEAU (acreditación universitaria),2022-05-01,675.916077,observado
+CONEAU (acreditación universitaria),2022-06-01,911.994793,observado
+CONEAU (acreditación universitaria),2022-07-01,742.657639,observado
+CONEAU (acreditación universitaria),2022-08-01,610.723939,observado
+CONEAU (acreditación universitaria),2022-09-01,1172.679698,observado
+CONEAU (acreditación universitaria),2022-10-01,506.861814,observado
+CONEAU (acreditación universitaria),2022-11-01,958.870454,observado
+CONEAU (acreditación universitaria),2022-12-01,1502.478032,observado
+CONEAU (acreditación universitaria),2023-01-01,471.007279,observado
+CONEAU (acreditación universitaria),2023-02-01,661.823367,observado
+CONEAU (acreditación universitaria),2023-03-01,1049.974484,observado
+CONEAU (acreditación universitaria),2023-04-01,662.94318,observado
+CONEAU (acreditación universitaria),2023-05-01,620.13674,observado
+CONEAU (acreditación universitaria),2023-06-01,1328.677344,observado
+CONEAU (acreditación universitaria),2023-07-01,580.864303,observado
+CONEAU (acreditación universitaria),2023-08-01,1025.364357,observado
+CONEAU (acreditación universitaria),2023-09-01,1006.880257,observado
+CONEAU (acreditación universitaria),2023-10-01,842.081712,observado
+CONEAU (acreditación universitaria),2023-11-01,524.438136,observado
+CONEAU (acreditación universitaria),2023-12-01,1213.231084,observado
+CONEAU (acreditación universitaria),2024-01-01,429.130514,observado
+CONEAU (acreditación universitaria),2024-02-01,588.681748,observado
+CONEAU (acreditación universitaria),2024-03-01,785.735578,observado
+CONEAU (acreditación universitaria),2024-04-01,566.171177,observado
+CONEAU (acreditación universitaria),2024-05-01,385.785532,observado
+CONEAU (acreditación universitaria),2024-06-01,729.458403,observado
+CONEAU (acreditación universitaria),2024-07-01,954.313515,observado
+CONEAU (acreditación universitaria),2024-08-01,499.471877,observado
+CONEAU (acreditación universitaria),2024-09-01,799.979067,observado
+CONEAU (acreditación universitaria),2024-10-01,556.889841,observado
+CONEAU (acreditación universitaria),2024-11-01,346.971595,observado
+CONEAU (acreditación universitaria),2024-12-01,2294.807307,observado
+CONEAU (acreditación universitaria),2025-01-01,519.990814,observado
+CONEAU (acreditación universitaria),2025-02-01,527.587103,observado
+CONEAU (acreditación universitaria),2025-03-01,541.525447,observado
+CONEAU (acreditación universitaria),2025-04-01,547.869801,observado
+CONEAU (acreditación universitaria),2025-05-01,524.585491,observado
+CONEAU (acreditación universitaria),2025-06-01,1100.193345,observado
+CONEAU (acreditación universitaria),2025-07-01,559.22295,observado
+CONEAU (acreditación universitaria),2025-08-01,406.567876,observado
+CONEAU (acreditación universitaria),2025-09-01,896.937144,observado
+CONEAU (acreditación universitaria),2025-10-01,500.258188,observado
+CONEAU (acreditación universitaria),2025-11-01,1382.023421,observado
+CONEAU (acreditación universitaria),2025-12-01,1718.976065,observado
+CONEAU (acreditación universitaria),2026-01-01,458.245096,observado
+CONEAU (acreditación universitaria),2026-02-01,457.392119,observado
+CONEAU (acreditación universitaria),2026-03-01,630.904611,observado
+CONEAU (acreditación universitaria),2026-04-01,487.137294,observado
+CONEAU (acreditación universitaria),2026-05-01,533.695539,observado
+CONEAU (acreditación universitaria),2026-06-01,699.812927,observado
+CONEAU (acreditación universitaria),2026-07-01,498.722142,observado
+CONEAU (acreditación universitaria),2026-08-01,546.665316,observado
+CONEAU (acreditación universitaria),2026-09-01,536.249294,observado
 CONEAU (acreditación universitaria),2026-10-01,574.442112,observado

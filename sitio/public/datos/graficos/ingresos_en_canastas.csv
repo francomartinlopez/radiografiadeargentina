@@ -39,7 +39,7 @@ Remuneración promedio (SIPA),2004-01-01,1.191729,estimado
 Remuneración promedio (SIPA),2004-02-01,1.175116,estimado
 Remuneración promedio (SIPA),2004-03-01,1.199606,estimado
 Remuneración promedio (SIPA),2004-04-01,1.159058,estimado
-Remuneración promedio (SIPA),2004-05-01,1.127562,estimado
+Remuneración promedio (SIPA),2004-05-01,1.126023,estimado
 Remuneración promedio (SIPA),2004-06-01,1.610819,estimado
 Remuneración promedio (SIPA),2004-07-01,1.111894,estimado
 Remuneración promedio (SIPA),2004-08-01,1.109861,estimado
@@ -299,12 +299,13 @@ Remuneración promedio (SIPA),2025-09-01,1.520057,observado
 Remuneración promedio (SIPA),2025-10-01,1.509356,observado
 Remuneración promedio (SIPA),2025-11-01,1.46742,observado
 Remuneración promedio (SIPA),2025-12-01,2.138663,observado
-Remuneración promedio (SIPA),2026-01-01,1.541313,observado
-Remuneración promedio (SIPA),2026-02-01,1.503054,observado
-Remuneración promedio (SIPA),2026-03-01,1.514198,observado
-Remuneración promedio (SIPA),2026-04-01,1.518076,observado
-Remuneración promedio (SIPA),2026-05-01,1.435422,observado
-Remuneración promedio (SIPA),2026-06-01,2.065021,observado
+Remuneración promedio (SIPA),2026-01-01,1.54029,observado
+Remuneración promedio (SIPA),2026-02-01,1.503136,observado
+Remuneración promedio (SIPA),2026-03-01,1.513442,observado
+Remuneración promedio (SIPA),2026-04-01,1.517342,observado
+Remuneración promedio (SIPA),2026-05-01,1.434823,observado
+Remuneración promedio (SIPA),2026-06-01,2.078839,observado
+Remuneración promedio (SIPA),2026-07-01,1.442346,observado
 Salario mínimo,2001-01-01,0.30021,estimado
 Salario mínimo,2001-02-01,0.300877,estimado
 Salario mínimo,2001-03-01,0.300301,estimado
@@ -345,7 +346,7 @@ Salario mínimo,2004-01-01,0.363979,estimado
 Salario mínimo,2004-02-01,0.363623,estimado
 Salario mínimo,2004-03-01,0.361455,estimado
 Salario mínimo,2004-04-01,0.358398,estimado
-Salario mínimo,2004-05-01,0.356266,estimado
+Salario mínimo,2004-05-01,0.35578,estimado
 Salario mínimo,2004-06-01,0.3538,estimado
 Salario mínimo,2004-07-01,0.352174,estimado
 Salario mínimo,2004-08-01,0.350965,estimado
@@ -614,6 +615,7 @@ Salario mínimo,2026-06-01,0.240161,observado
 Salario mínimo,2026-07-01,0.237998,observado
 Salario mínimo,2026-08-01,0.234569,observado
 Salario mínimo,2026-09-01,0.235099,observado
+Salario mínimo,2026-10-01,0.231479,observado
 Jubilación mínima,2001-01-01,0.225158,estimado
 Jubilación mínima,2001-02-01,0.225658,estimado
 Jubilación mínima,2001-03-01,0.225226,estimado
@@ -654,7 +656,7 @@ Jubilación mínima,2004-01-01,0.249585,estimado
 Jubilación mínima,2004-02-01,0.249342,estimado
 Jubilación mínima,2004-03-01,0.247855,estimado
 Jubilación mínima,2004-04-01,0.245758,estimado
-Jubilación mínima,2004-05-01,0.244297,estimado
+Jubilación mínima,2004-05-01,0.243963,estimado
 Jubilación mínima,2004-06-01,0.262823,estimado
 Jubilación mínima,2004-07-01,0.261615,estimado
 Jubilación mínima,2004-08-01,0.260717,estimado
@@ -923,3 +925,4 @@ Jubilación mínima,2026-06-01,0.263353,observado
 Jubilación mínima,2026-07-01,0.2633,observado
 Jubilación mínima,2026-08-01,0.261462,observado
 Jubilación mínima,2026-09-01,0.262562,observado
+Jubilación mínima,2026-10-01,0.257839,observado

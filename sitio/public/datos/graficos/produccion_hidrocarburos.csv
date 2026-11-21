@@ -304,9 +304,10 @@ Petróleo,2026-02-01,3848.069471,observado
 Petróleo,2026-03-01,4284.61813,observado
 Petróleo,2026-04-01,4218.216765,observado
 Petróleo,2026-05-01,4406.237436,observado
-Petróleo,2026-06-01,4303.53924,observado
+Petróleo,2026-06-01,4310.699613,observado
 Petróleo,2026-07-01,4482.060944,observado
 Petróleo,2026-08-01,4603.022218,observado
+Petróleo,2026-09-01,4596.149822,observado
 Gas natural,2001-01-01,3471.212554,observado
 Gas natural,2001-02-01,3146.144156,observado
 Gas natural,2001-03-01,4926.902997,observado
@@ -611,5 +612,8 @@ Gas natural,2026-01-01,4081.939118,observado
 Gas natural,2026-02-01,3923.676721,observado
 Gas natural,2026-03-01,4396.835464,observado
 Gas natural,2026-04-01,4218.858757,observado
-Gas natural,2026-05-01,4857.306894,observado
-Gas natural,2026-06-01,4795.644082,observado
+Gas natural,2026-05-01,4850.516264,observado
+Gas natural,2026-06-01,4792.689775,observado
+Gas natural,2026-07-01,4908.99945,observado
+Gas natural,2026-08-01,4817.31701,observado
+Gas natural,2026-09-01,4284.2686,observado
