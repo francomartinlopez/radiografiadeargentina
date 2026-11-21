@@ -76,18 +76,18 @@ Total,2007-02-01,3067.131,observado
 Total,2007-03-01,3730.915,observado
 Total,2007-04-01,3777.286,observado
 Total,2007-05-01,3840.596,observado
-Total,2007-06-01,3619.978,observado
+Total,2007-06-01,3614.688,observado
 Total,2007-07-01,3695.316,observado
 Total,2007-08-01,3629.961,observado
-Total,2007-09-01,3448.212,observado
-Total,2007-10-01,3304.842,observado
-Total,2007-11-01,3195.443,observado
-Total,2007-12-01,3394.866,observado
+Total,2007-09-01,3448.045,observado
+Total,2007-10-01,3304.514,observado
+Total,2007-11-01,3176.0,observado
+Total,2007-12-01,3353.157,observado
 Total,2008-01-01,3250.616,observado
 Total,2008-02-01,3180.747,observado
 Total,2008-03-01,3444.883,observado
-Total,2008-04-01,3334.945,observado
-Total,2008-05-01,3331.768,observado
+Total,2008-04-01,3334.935,observado
+Total,2008-05-01,3331.588,observado
 Total,2008-06-01,3505.558,observado
 Total,2008-07-01,3724.941,observado
 Total,2008-08-01,3628.089,observado
@@ -299,12 +299,14 @@ Total,2025-09-01,3332.899,observado
 Total,2025-10-01,2999.911,observado
 Total,2025-11-01,2881.842,observado
 Total,2025-12-01,3213.593,observado
-Total,2026-01-01,3292.499,observado
-Total,2026-02-01,3111.487,observado
-Total,2026-03-01,3438.66,observado
-Total,2026-04-01,3366.04,observado
-Total,2026-05-01,3965.349,observado
-Total,2026-06-01,4241.55,observado
+Total,2026-01-01,3291.087,observado
+Total,2026-02-01,3109.367,observado
+Total,2026-03-01,3457.094,observado
+Total,2026-04-01,3368.802,observado
+Total,2026-05-01,3984.061,observado
+Total,2026-06-01,4262.161,observado
+Total,2026-07-01,4394.546,observado
+Total,2026-08-01,4064.588,observado
 Centrales eléctricas,2001-01-01,821.862,observado
 Centrales eléctricas,2001-02-01,834.284,observado
 Centrales eléctricas,2001-03-01,990.632,observado
@@ -606,11 +608,13 @@ Centrales eléctricas,2025-10-01,842.656,observado
 Centrales eléctricas,2025-11-01,978.0,observado
 Centrales eléctricas,2025-12-01,1433.098,observado
 Centrales eléctricas,2026-01-01,1505.684,observado
-Centrales eléctricas,2026-02-01,1384.822,observado
-Centrales eléctricas,2026-03-01,1411.389,observado
-Centrales eléctricas,2026-04-01,1112.171,observado
-Centrales eléctricas,2026-05-01,1000.762,observado
-Centrales eléctricas,2026-06-01,1079.15,observado
+Centrales eléctricas,2026-02-01,1384.817,observado
+Centrales eléctricas,2026-03-01,1411.474,observado
+Centrales eléctricas,2026-04-01,1111.71,observado
+Centrales eléctricas,2026-05-01,999.49,observado
+Centrales eléctricas,2026-06-01,1079.213,observado
+Centrales eléctricas,2026-07-01,996.689,observado
+Centrales eléctricas,2026-08-01,834.839,observado
 Industria,2001-01-01,663.743,observado
 Industria,2001-02-01,607.822,observado
 Industria,2001-03-01,720.978,observado
@@ -911,12 +915,14 @@ Industria,2025-09-01,810.156,observado
 Industria,2025-10-01,802.503,observado
 Industria,2025-11-01,766.288,observado
 Industria,2025-12-01,816.612,observado
-Industria,2026-01-01,848.738,observado
-Industria,2026-02-01,778.68,observado
-Industria,2026-03-01,858.666,observado
-Industria,2026-04-01,860.255,observado
-Industria,2026-05-01,754.406,observado
+Industria,2026-01-01,847.326,observado
+Industria,2026-02-01,777.259,observado
+Industria,2026-03-01,874.259,observado
+Industria,2026-04-01,865.04,observado
+Industria,2026-05-01,762.527,observado
 Industria,2026-06-01,782.18,observado
+Industria,2026-07-01,796.041,observado
+Industria,2026-08-01,821.453,observado
 Residencial,2001-01-01,216.529,observado
 Residencial,2001-02-01,190.299,observado
 Residencial,2001-03-01,281.877,observado
@@ -1218,11 +1224,13 @@ Residencial,2025-10-01,644.532,observado
 Residencial,2025-11-01,460.797,observado
 Residencial,2025-12-01,346.719,observado
 Residencial,2026-01-01,297.385,observado
-Residencial,2026-02-01,283.664,observado
-Residencial,2026-03-01,408.059,observado
-Residencial,2026-04-01,639.329,observado
-Residencial,2026-05-01,1367.527,observado
-Residencial,2026-06-01,1536.239,observado
+Residencial,2026-02-01,283.433,observado
+Residencial,2026-03-01,405.739,observado
+Residencial,2026-04-01,634.371,observado
+Residencial,2026-05-01,1377.021,observado
+Residencial,2026-06-01,1556.787,observado
+Residencial,2026-07-01,1728.494,observado
+Residencial,2026-08-01,1609.047,observado
 GNC,2001-01-01,145.725,observado
 GNC,2001-02-01,132.421,observado
 GNC,2001-03-01,151.505,observado
@@ -1524,8 +1532,10 @@ GNC,2025-10-01,168.105,observado
 GNC,2025-11-01,160.876,observado
 GNC,2025-12-01,168.487,observado
 GNC,2026-01-01,156.828,observado
-GNC,2026-02-01,146.814,observado
-GNC,2026-03-01,164.509,observado
-GNC,2026-04-01,163.784,observado
-GNC,2026-05-01,166.856,observado
+GNC,2026-02-01,146.763,observado
+GNC,2026-03-01,164.504,observado
+GNC,2026-04-01,163.832,observado
+GNC,2026-05-01,168.331,observado
 GNC,2026-06-01,163.388,observado
+GNC,2026-07-01,164.537,observado
+GNC,2026-08-01,171.913,observado

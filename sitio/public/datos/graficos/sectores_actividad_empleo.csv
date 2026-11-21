@@ -1,13 +1,13 @@
 categoria,x,y,tamano,var_y,grupo,fecha
-Agro,12.825102,5.720553,321.178,0.689703,Creó empleo,2026-06-01
-Pesca,49.718992,0.254717,14.301,1.360834,Creó empleo,2026-06-01
-Minería y petróleo,14.366533,1.543533,86.661,-2.578832,Destruyó empleo,2026-06-01
-Industria,-2.037181,19.688778,1105.418,-4.538369,Destruyó empleo,2026-06-01
-"Electricidad, gas y agua",2.225884,1.360434,76.381,0.150788,Sin cambios,2026-06-01
-Construcción,2.788701,6.735024,378.135,-0.32081,Sin cambios,2026-06-01
-Comercio,0.000951,21.694333,1218.019,-3.160897,Destruyó empleo,2026-06-01
-Hoteles y restaurantes,2.296582,4.912746,275.824,-1.702067,Destruyó empleo,2026-06-01
-Transporte y comunicaciones,1.891565,8.986568,504.547,-1.983651,Destruyó empleo,2026-06-01
-Inmobiliarias y servicios a empresas,0.782273,15.694269,881.148,-1.334062,Destruyó empleo,2026-06-01
-Enseñanza,0.128943,7.550436,423.916,-0.002359,Sin cambios,2026-06-01
-Salud,0.4158,5.858608,328.929,-0.052871,Sin cambios,2026-06-01
+Agro,8.936904,5.727508,320.953,0.285277,Sin cambios,2026-07-01
+Pesca,112.690376,0.256187,14.356,6.498516,Creó empleo,2026-07-01
+Minería y petróleo,14.101024,1.55695,87.247,-1.36009,Destruyó empleo,2026-07-01
+Industria,-2.3789,19.683849,1103.026,-4.395949,Destruyó empleo,2026-07-01
+"Electricidad, gas y agua",3.045766,1.364506,76.463,0.266195,Sin cambios,2026-07-01
+Construcción,1.972183,6.724579,376.826,-0.638894,Destruyó empleo,2026-07-01
+Comercio,-0.647067,21.662734,1213.917,-3.356636,Destruyó empleo,2026-07-01
+Hoteles y restaurantes,2.505544,4.905856,274.91,-1.789446,Destruyó empleo,2026-07-01
+Transporte y comunicaciones,1.137343,8.960116,502.099,-2.402334,Destruyó empleo,2026-07-01
+Inmobiliarias y servicios a empresas,0.754141,15.709697,880.326,-1.079853,Destruyó empleo,2026-07-01
+Enseñanza,0.144683,7.566771,424.02,0.036332,Sin cambios,2026-07-01
+Salud,0.412107,5.881245,329.568,0.031263,Sin cambios,2026-07-01

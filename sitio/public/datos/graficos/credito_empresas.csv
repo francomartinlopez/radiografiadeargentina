@@ -1,853 +1,856 @@
 serie,fecha,valor,tramo
-Documentos,2003-01-01,8944131.404736,observado
-Documentos,2003-02-01,8739550.120444,observado
-Documentos,2003-03-01,8495547.879377,observado
-Documentos,2003-04-01,8267854.551379,observado
-Documentos,2003-05-01,8269639.813015,observado
-Documentos,2003-06-01,8233978.666063,observado
-Documentos,2003-07-01,8170711.226265,observado
-Documentos,2003-08-01,8138670.136267,observado
-Documentos,2003-09-01,8158064.864528,observado
-Documentos,2003-10-01,8054857.012724,observado
-Documentos,2003-11-01,8070218.926199,observado
-Documentos,2003-12-01,8120148.789573,observado
-Documentos,2004-01-01,8218935.815336,observado
-Documentos,2004-02-01,8013696.564634,observado
-Documentos,2004-03-01,8088843.935302,observado
-Documentos,2004-04-01,8328874.396256,observado
-Documentos,2004-05-01,8484240.323202,observado
-Documentos,2004-06-01,8913955.94194,observado
-Documentos,2004-07-01,8986749.949294,observado
-Documentos,2004-08-01,9048409.709322,observado
-Documentos,2004-09-01,9417904.434594,observado
-Documentos,2004-10-01,10172087.316229,observado
-Documentos,2004-11-01,10549683.816991,observado
-Documentos,2004-12-01,10794679.284763,observado
-Documentos,2005-01-01,10738675.97022,observado
-Documentos,2005-02-01,10638853.588629,observado
-Documentos,2005-03-01,10605462.359325,observado
-Documentos,2005-04-01,10870262.512683,observado
-Documentos,2005-05-01,11414527.750664,observado
-Documentos,2005-06-01,11677188.213104,observado
-Documentos,2005-07-01,11979911.893781,observado
-Documentos,2005-08-01,12262585.658375,observado
-Documentos,2005-09-01,12768460.760466,observado
-Documentos,2005-10-01,13609173.638756,observado
-Documentos,2005-11-01,14115079.392292,observado
-Documentos,2005-12-01,14877288.499441,observado
-Documentos,2006-01-01,15515290.946591,observado
-Documentos,2006-02-01,15452359.044453,observado
-Documentos,2006-03-01,15436149.294491,observado
-Documentos,2006-04-01,15627524.485511,observado
-Documentos,2006-05-01,15560733.494578,observado
-Documentos,2006-06-01,15751515.600724,observado
-Documentos,2006-07-01,16112549.899415,observado
-Documentos,2006-08-01,16487699.967265,observado
-Documentos,2006-09-01,16963562.523781,observado
-Documentos,2006-10-01,17475500.738059,observado
-Documentos,2006-11-01,17823834.514639,observado
-Documentos,2006-12-01,18382771.620976,observado
-Documentos,2007-01-01,18617788.96428,observado
-Documentos,2007-02-01,18377018.045136,observado
-Documentos,2007-03-01,18436848.700158,observado
-Documentos,2007-04-01,18337308.161131,observado
-Documentos,2007-05-01,18092898.022061,observado
-Documentos,2007-06-01,17736331.175376,observado
-Documentos,2007-07-01,18058594.430884,observado
-Documentos,2007-08-01,18068909.481858,observado
-Documentos,2007-09-01,18388069.576067,observado
-Documentos,2007-10-01,18450707.112454,observado
-Documentos,2007-11-01,18905001.4936,observado
-Documentos,2007-12-01,19579500.157986,observado
-Documentos,2008-01-01,19240080.712294,observado
-Documentos,2008-02-01,18598653.492706,observado
-Documentos,2008-03-01,18317891.239982,observado
-Documentos,2008-04-01,18342111.929191,observado
-Documentos,2008-05-01,18803043.415753,observado
-Documentos,2008-06-01,17919694.480436,observado
-Documentos,2008-07-01,17540215.446712,observado
-Documentos,2008-08-01,17468307.110387,observado
-Documentos,2008-09-01,17549144.15643,observado
-Documentos,2008-10-01,18129807.001617,observado
-Documentos,2008-11-01,17981686.41254,observado
-Documentos,2008-12-01,17474210.770287,observado
-Documentos,2009-01-01,16703320.069917,observado
-Documentos,2009-02-01,16358147.501966,observado
-Documentos,2009-03-01,16555643.60998,observado
-Documentos,2009-04-01,16580846.491811,observado
-Documentos,2009-05-01,16331285.386445,observado
-Documentos,2009-06-01,16435992.10881,observado
-Documentos,2009-07-01,16770242.469881,observado
-Documentos,2009-08-01,16604369.187341,observado
-Documentos,2009-09-01,16556587.457641,observado
-Documentos,2009-10-01,16630460.323132,observado
-Documentos,2009-11-01,16755326.881216,observado
-Documentos,2009-12-01,16844500.357494,observado
-Documentos,2010-01-01,16824928.713213,observado
-Documentos,2010-02-01,16132768.063846,observado
-Documentos,2010-03-01,16024374.872649,observado
-Documentos,2010-04-01,16462469.71857,observado
-Documentos,2010-05-01,16641877.522788,observado
-Documentos,2010-06-01,16812593.349216,observado
-Documentos,2010-07-01,17519472.856664,observado
-Documentos,2010-08-01,18036941.452789,observado
-Documentos,2010-09-01,18536065.019885,observado
-Documentos,2010-10-01,18831296.576102,observado
-Documentos,2010-11-01,19233788.29875,observado
-Documentos,2010-12-01,20082463.656825,observado
-Documentos,2011-01-01,20817035.295983,observado
-Documentos,2011-02-01,20714723.659168,observado
-Documentos,2011-03-01,20559733.645856,observado
-Documentos,2011-04-01,20713109.659531,observado
-Documentos,2011-05-01,21219364.752092,observado
-Documentos,2011-06-01,21486171.842052,observado
-Documentos,2011-07-01,22455977.437047,observado
-Documentos,2011-08-01,22947650.666205,observado
-Documentos,2011-09-01,24125885.414993,observado
-Documentos,2011-10-01,25060171.027097,observado
-Documentos,2011-11-01,24843031.64463,observado
-Documentos,2011-12-01,24682472.79275,observado
-Documentos,2012-01-01,24793648.520115,observado
-Documentos,2012-02-01,23873699.779673,observado
-Documentos,2012-03-01,22894986.908737,observado
-Documentos,2012-04-01,22430907.810275,observado
-Documentos,2012-05-01,22064526.949512,observado
-Documentos,2012-06-01,22509703.761179,observado
-Documentos,2012-07-01,24127892.467135,observado
-Documentos,2012-08-01,24703614.217349,observado
-Documentos,2012-09-01,25596293.536656,observado
-Documentos,2012-10-01,26634334.916574,observado
-Documentos,2012-11-01,27602427.883867,observado
-Documentos,2012-12-01,29256021.573193,observado
-Documentos,2013-01-01,29809008.968428,observado
-Documentos,2013-02-01,29286404.971658,observado
-Documentos,2013-03-01,29466088.404707,observado
-Documentos,2013-04-01,29373713.062701,observado
-Documentos,2013-05-01,29798324.124174,observado
-Documentos,2013-06-01,30357823.787061,observado
-Documentos,2013-07-01,31130223.098123,observado
-Documentos,2013-08-01,31240277.380921,observado
-Documentos,2013-09-01,31879274.66657,observado
-Documentos,2013-10-01,32484393.184331,observado
-Documentos,2013-11-01,32538894.220293,observado
-Documentos,2013-12-01,33809419.086739,observado
-Documentos,2014-01-01,32839958.500911,observado
-Documentos,2014-02-01,31302937.030953,observado
-Documentos,2014-03-01,29586823.319601,observado
-Documentos,2014-04-01,28345179.89566,observado
-Documentos,2014-05-01,27224538.810472,observado
-Documentos,2014-06-01,26847830.613883,observado
-Documentos,2014-07-01,26918438.489747,observado
-Documentos,2014-08-01,26862275.165587,observado
-Documentos,2014-09-01,27437496.896995,observado
-Documentos,2014-10-01,28467406.238863,observado
-Documentos,2014-11-01,28774088.307955,observado
-Documentos,2014-12-01,29434474.039665,observado
-Documentos,2015-01-01,28933323.134703,observado
-Documentos,2015-02-01,28263833.025027,observado
-Documentos,2015-03-01,28320670.556612,observado
-Documentos,2015-04-01,28254934.996145,observado
-Documentos,2015-05-01,28168230.659741,observado
-Documentos,2015-06-01,28318596.520612,observado
-Documentos,2015-07-01,29074245.097058,observado
-Documentos,2015-08-01,29951580.513345,observado
-Documentos,2015-09-01,30696216.028849,observado
-Documentos,2015-10-01,31516354.275239,observado
-Documentos,2015-11-01,32599782.541479,observado
-Documentos,2015-12-01,33204282.469274,observado
-Documentos,2016-01-01,30748507.023121,observado
-Documentos,2016-02-01,28650052.660681,observado
-Documentos,2016-03-01,27815552.403133,observado
-Documentos,2016-04-01,26048232.82367,observado
-Documentos,2016-05-01,24558906.206575,observado
-Documentos,2016-06-01,23318518.885423,observado
-Documentos,2016-07-01,23233770.445786,observado
-Documentos,2016-08-01,23416108.092374,observado
-Documentos,2016-09-01,23135763.482193,observado
-Documentos,2016-10-01,22455814.957308,observado
-Documentos,2016-11-01,22611668.91139,observado
-Documentos,2016-12-01,23311388.617355,observado
-Documentos,2017-01-01,23841053.272535,observado
-Documentos,2017-02-01,23405632.196118,observado
-Documentos,2017-03-01,22821469.574706,observado
-Documentos,2017-04-01,22805944.921709,observado
-Documentos,2017-05-01,22836076.079573,observado
-Documentos,2017-06-01,23161516.229801,observado
-Documentos,2017-07-01,24343750.23679,observado
-Documentos,2017-08-01,25014546.126024,observado
-Documentos,2017-09-01,25812931.472056,observado
-Documentos,2017-10-01,26421434.281687,observado
-Documentos,2017-11-01,27007779.830405,observado
-Documentos,2017-12-01,27353350.247358,observado
-Documentos,2018-01-01,27199619.797335,observado
-Documentos,2018-02-01,26046784.776254,observado
-Documentos,2018-03-01,25717765.278108,observado
-Documentos,2018-04-01,25355717.728857,observado
-Documentos,2018-05-01,24842471.760729,observado
-Documentos,2018-06-01,23638485.764375,observado
-Documentos,2018-07-01,23143630.175083,observado
-Documentos,2018-08-01,21979254.701523,observado
-Documentos,2018-09-01,20387657.909975,observado
-Documentos,2018-10-01,18641373.350924,observado
-Documentos,2018-11-01,17186593.985283,observado
-Documentos,2018-12-01,16723972.830439,observado
-Documentos,2019-01-01,15409206.59788,observado
-Documentos,2019-02-01,14205427.798946,observado
-Documentos,2019-03-01,13604772.881106,observado
-Documentos,2019-04-01,13174816.86135,observado
-Documentos,2019-05-01,12556491.319258,observado
-Documentos,2019-06-01,12015000.790667,observado
-Documentos,2019-07-01,11719624.623075,observado
-Documentos,2019-08-01,11364532.398035,observado
-Documentos,2019-09-01,11586102.687111,observado
-Documentos,2019-10-01,12141791.752581,observado
-Documentos,2019-11-01,12259160.733691,observado
-Documentos,2019-12-01,12666121.374587,observado
-Documentos,2020-01-01,12339475.877857,observado
-Documentos,2020-02-01,12034373.898089,observado
-Documentos,2020-03-01,12410720.975861,observado
-Documentos,2020-04-01,14009286.657831,observado
-Documentos,2020-05-01,17611972.272842,observado
-Documentos,2020-06-01,19185736.356422,observado
-Documentos,2020-07-01,19869751.569009,observado
-Documentos,2020-08-01,20654538.086025,observado
-Documentos,2020-09-01,20915972.753139,observado
-Documentos,2020-10-01,21125936.304381,observado
-Documentos,2020-11-01,20984727.977888,observado
-Documentos,2020-12-01,20503984.744918,observado
-Documentos,2021-01-01,19798234.034603,observado
-Documentos,2021-02-01,19156117.847395,observado
-Documentos,2021-03-01,18453742.368937,observado
-Documentos,2021-04-01,17639386.808082,observado
-Documentos,2021-05-01,17192665.141726,observado
-Documentos,2021-06-01,17014947.168003,observado
-Documentos,2021-07-01,16949144.107699,observado
-Documentos,2021-08-01,17506427.776983,observado
-Documentos,2021-09-01,18152286.013594,observado
-Documentos,2021-10-01,18755627.985238,observado
-Documentos,2021-11-01,20503433.757998,observado
-Documentos,2021-12-01,21298379.988409,observado
-Documentos,2022-01-01,21304384.69847,observado
-Documentos,2022-02-01,20517190.285776,observado
-Documentos,2022-03-01,19960691.207211,observado
-Documentos,2022-04-01,20126633.97269,observado
-Documentos,2022-05-01,20095870.312795,observado
-Documentos,2022-06-01,20043839.456823,observado
-Documentos,2022-07-01,20164102.880469,observado
-Documentos,2022-08-01,20184216.041472,observado
-Documentos,2022-09-01,19154587.033967,observado
-Documentos,2022-10-01,18470815.035724,observado
-Documentos,2022-11-01,18501688.846162,observado
-Documentos,2022-12-01,18486974.296542,observado
-Documentos,2023-01-01,18159334.134395,observado
-Documentos,2023-02-01,17583292.810117,observado
-Documentos,2023-03-01,17756316.928876,observado
-Documentos,2023-04-01,18566211.788609,observado
-Documentos,2023-05-01,19728441.908574,observado
-Documentos,2023-06-01,19865440.06386,observado
-Documentos,2023-07-01,20388238.598072,observado
-Documentos,2023-08-01,20214492.592083,observado
-Documentos,2023-09-01,19233954.551079,observado
-Documentos,2023-10-01,21138640.60786,observado
-Documentos,2023-11-01,19954791.437501,observado
-Documentos,2023-12-01,16476304.68495,observado
-Documentos,2024-01-01,12826820.81938,observado
-Documentos,2024-02-01,12090880.816648,observado
-Documentos,2024-03-01,11840405.132172,observado
-Documentos,2024-04-01,11555619.022435,observado
-Documentos,2024-05-01,12038800.511354,observado
-Documentos,2024-06-01,14095314.838853,observado
-Documentos,2024-07-01,17089891.085807,observado
-Documentos,2024-08-01,19003589.857041,observado
-Documentos,2024-09-01,20999659.713281,observado
-Documentos,2024-10-01,22653081.801556,observado
-Documentos,2024-11-01,23445262.358694,observado
-Documentos,2024-12-01,24461285.509723,observado
-Documentos,2025-01-01,24252237.127678,observado
-Documentos,2025-02-01,23917154.364994,observado
-Documentos,2025-03-01,23922637.114945,observado
-Documentos,2025-04-01,24559207.701705,observado
-Documentos,2025-05-01,24463923.797787,observado
-Documentos,2025-06-01,24527034.602099,observado
-Documentos,2025-07-01,25068640.739471,observado
-Documentos,2025-08-01,25078423.325527,observado
-Documentos,2025-09-01,24738140.354159,observado
-Documentos,2025-10-01,23897917.729606,observado
-Documentos,2025-11-01,24186099.306375,observado
-Documentos,2025-12-01,23786923.95513,observado
-Documentos,2026-01-01,24675329.001905,observado
-Documentos,2026-02-01,24297465.319885,observado
-Documentos,2026-03-01,23789367.865592,observado
-Documentos,2026-04-01,23358045.314869,observado
-Documentos,2026-05-01,23935168.172888,observado
-Documentos,2026-06-01,23900287.037638,observado
-Documentos,2026-07-01,24759601.920928,observado
-Documentos,2026-08-01,25182737.709677,observado
-Adelantos,2003-01-01,7254578.542534,observado
-Adelantos,2003-02-01,6763810.29659,observado
-Adelantos,2003-03-01,6437201.387684,observado
-Adelantos,2003-04-01,6562403.002826,observado
-Adelantos,2003-05-01,6501184.837125,observado
-Adelantos,2003-06-01,6642800.320812,observado
-Adelantos,2003-07-01,6515716.268648,observado
-Adelantos,2003-08-01,6827614.834684,observado
-Adelantos,2003-09-01,7163170.438685,observado
-Adelantos,2003-10-01,7130749.071095,observado
-Adelantos,2003-11-01,7195974.853663,observado
-Adelantos,2003-12-01,7534090.695084,observado
-Adelantos,2004-01-01,6953571.615916,observado
-Adelantos,2004-02-01,7239844.527992,observado
-Adelantos,2004-03-01,7994927.143846,observado
-Adelantos,2004-04-01,8471417.701787,observado
-Adelantos,2004-05-01,8824433.009084,observado
-Adelantos,2004-06-01,9351894.762216,observado
-Adelantos,2004-07-01,9758940.330603,observado
-Adelantos,2004-08-01,9867906.594463,observado
-Adelantos,2004-09-01,10009343.806999,observado
-Adelantos,2004-10-01,10073400.253983,observado
-Adelantos,2004-11-01,10249957.411717,observado
-Adelantos,2004-12-01,10288433.08372,observado
-Adelantos,2005-01-01,9750475.092039,observado
-Adelantos,2005-02-01,9922715.040327,observado
-Adelantos,2005-03-01,9844953.075416,observado
-Adelantos,2005-04-01,10000108.764476,observado
-Adelantos,2005-05-01,10311397.023937,observado
-Adelantos,2005-06-01,10920926.177156,observado
-Adelantos,2005-07-01,11350167.158632,observado
-Adelantos,2005-08-01,11414200.473329,observado
-Adelantos,2005-09-01,11286395.777626,observado
-Adelantos,2005-10-01,11664183.555752,observado
-Adelantos,2005-11-01,12245484.841964,observado
-Adelantos,2005-12-01,12232880.432641,observado
-Adelantos,2006-01-01,11759610.175978,observado
-Adelantos,2006-02-01,11942992.769461,observado
-Adelantos,2006-03-01,11750585.101897,observado
-Adelantos,2006-04-01,11387754.741268,observado
-Adelantos,2006-05-01,12022858.951492,observado
-Adelantos,2006-06-01,13018390.128269,observado
-Adelantos,2006-07-01,13817226.143113,observado
-Adelantos,2006-08-01,13950685.967026,observado
-Adelantos,2006-09-01,14008045.156598,observado
-Adelantos,2006-10-01,14480967.355433,observado
-Adelantos,2006-11-01,14965275.850317,observado
-Adelantos,2006-12-01,15181877.406586,observado
-Adelantos,2007-01-01,14405599.816204,observado
-Adelantos,2007-02-01,14150798.383312,observado
-Adelantos,2007-03-01,14134299.976465,observado
-Adelantos,2007-04-01,14290948.102743,observado
-Adelantos,2007-05-01,14997826.25725,observado
-Adelantos,2007-06-01,15051783.708276,observado
-Adelantos,2007-07-01,15684465.082648,observado
-Adelantos,2007-08-01,14802694.575771,observado
-Adelantos,2007-09-01,14149193.499593,observado
-Adelantos,2007-10-01,14220628.384471,observado
-Adelantos,2007-11-01,14918535.593455,observado
-Adelantos,2007-12-01,15353940.299369,observado
-Adelantos,2008-01-01,15798402.95855,observado
-Adelantos,2008-02-01,15228055.38731,observado
-Adelantos,2008-03-01,14640668.45197,observado
-Adelantos,2008-04-01,14900742.341522,observado
-Adelantos,2008-05-01,15603621.821337,observado
-Adelantos,2008-06-01,14985790.726791,observado
-Adelantos,2008-07-01,14997819.107317,observado
-Adelantos,2008-08-01,14827611.683674,observado
-Adelantos,2008-09-01,15371975.185314,observado
-Adelantos,2008-10-01,15137310.900753,observado
-Adelantos,2008-11-01,14268655.32332,observado
-Adelantos,2008-12-01,14088659.152092,observado
-Adelantos,2009-01-01,14029990.551617,observado
-Adelantos,2009-02-01,14474793.384241,observado
-Adelantos,2009-03-01,14407994.089362,observado
-Adelantos,2009-04-01,14211409.808484,observado
-Adelantos,2009-05-01,14660748.537441,observado
-Adelantos,2009-06-01,15112341.649845,observado
-Adelantos,2009-07-01,15278026.718208,observado
-Adelantos,2009-08-01,14731369.085997,observado
-Adelantos,2009-09-01,14398126.306333,observado
-Adelantos,2009-10-01,13661990.402056,observado
-Adelantos,2009-11-01,13350752.31966,observado
-Adelantos,2009-12-01,13293993.981423,observado
-Adelantos,2010-01-01,12383702.569924,observado
-Adelantos,2010-02-01,11620227.584963,observado
-Adelantos,2010-03-01,11340407.002036,observado
-Adelantos,2010-04-01,11758504.809845,observado
-Adelantos,2010-05-01,12739738.434966,observado
-Adelantos,2010-06-01,13205662.841005,observado
-Adelantos,2010-07-01,13199133.187982,observado
-Adelantos,2010-08-01,13137076.60152,observado
-Adelantos,2010-09-01,12999456.13403,observado
-Adelantos,2010-10-01,13205620.47352,observado
-Adelantos,2010-11-01,12984413.035094,observado
-Adelantos,2010-12-01,13110065.427959,observado
-Adelantos,2011-01-01,12777396.686048,observado
-Adelantos,2011-02-01,13396756.36096,observado
-Adelantos,2011-03-01,13124858.879181,observado
-Adelantos,2011-04-01,12977469.810951,observado
-Adelantos,2011-05-01,13867783.612176,observado
-Adelantos,2011-06-01,14676068.446515,observado
-Adelantos,2011-07-01,15092216.794159,observado
-Adelantos,2011-08-01,14411387.647308,observado
-Adelantos,2011-09-01,14446850.811305,observado
-Adelantos,2011-10-01,14719999.097529,observado
-Adelantos,2011-11-01,14815831.609287,observado
-Adelantos,2011-12-01,14926949.797838,observado
-Adelantos,2012-01-01,14828726.107668,observado
-Adelantos,2012-02-01,15584957.030692,observado
-Adelantos,2012-03-01,16069172.98609,observado
-Adelantos,2012-04-01,15725601.249136,observado
-Adelantos,2012-05-01,16165639.815418,observado
-Adelantos,2012-06-01,17239004.544088,observado
-Adelantos,2012-07-01,17851633.093864,observado
-Adelantos,2012-08-01,18412511.429678,observado
-Adelantos,2012-09-01,18641457.483659,observado
-Adelantos,2012-10-01,18226677.738297,observado
-Adelantos,2012-11-01,18117723.986971,observado
-Adelantos,2012-12-01,18177565.862637,observado
-Adelantos,2013-01-01,18214273.570157,observado
-Adelantos,2013-02-01,18783775.916059,observado
-Adelantos,2013-03-01,18640865.222761,observado
-Adelantos,2013-04-01,18633321.815281,observado
-Adelantos,2013-05-01,18512519.866304,observado
-Adelantos,2013-06-01,17999495.352472,observado
-Adelantos,2013-07-01,18669000.310965,observado
-Adelantos,2013-08-01,18906917.973154,observado
-Adelantos,2013-09-01,19223289.707574,observado
-Adelantos,2013-10-01,18912387.49664,observado
-Adelantos,2013-11-01,17905363.759278,observado
-Adelantos,2013-12-01,17186733.134295,observado
-Adelantos,2014-01-01,16917858.875135,observado
-Adelantos,2014-02-01,16816041.490502,observado
-Adelantos,2014-03-01,16649784.070155,observado
-Adelantos,2014-04-01,16059478.778143,observado
-Adelantos,2014-05-01,16223753.760881,observado
-Adelantos,2014-06-01,16177136.139732,observado
-Adelantos,2014-07-01,16821644.86904,observado
-Adelantos,2014-08-01,16753201.314537,observado
-Adelantos,2014-09-01,16208170.493122,observado
-Adelantos,2014-10-01,15372478.325219,observado
-Adelantos,2014-11-01,14409283.28311,observado
-Adelantos,2014-12-01,14677884.4031,observado
-Adelantos,2015-01-01,15264912.24523,observado
-Adelantos,2015-02-01,15192080.121059,observado
-Adelantos,2015-03-01,15502144.620058,observado
-Adelantos,2015-04-01,15198095.996025,observado
-Adelantos,2015-05-01,14836377.302045,observado
-Adelantos,2015-06-01,15443455.886216,observado
-Adelantos,2015-07-01,16174710.350263,observado
-Adelantos,2015-08-01,15715197.711228,observado
-Adelantos,2015-09-01,15628490.398614,observado
-Adelantos,2015-10-01,15623521.908834,observado
-Adelantos,2015-11-01,16038360.43736,observado
-Adelantos,2015-12-01,16289081.100224,observado
-Adelantos,2016-01-01,16036180.899581,observado
-Adelantos,2016-02-01,15569515.209132,observado
-Adelantos,2016-03-01,15029035.967982,observado
-Adelantos,2016-04-01,13905000.367616,observado
-Adelantos,2016-05-01,13723645.01925,observado
-Adelantos,2016-06-01,13593821.025677,observado
-Adelantos,2016-07-01,13557819.375552,observado
-Adelantos,2016-08-01,13600304.576124,observado
-Adelantos,2016-09-01,13406764.862995,observado
-Adelantos,2016-10-01,13591680.594581,observado
-Adelantos,2016-11-01,12936866.611335,observado
-Adelantos,2016-12-01,13170467.041835,observado
-Adelantos,2017-01-01,12712606.073472,observado
-Adelantos,2017-02-01,13050562.831959,observado
-Adelantos,2017-03-01,12565058.394039,observado
-Adelantos,2017-04-01,11788309.194972,observado
-Adelantos,2017-05-01,11627639.888006,observado
-Adelantos,2017-06-01,11228539.895052,observado
-Adelantos,2017-07-01,11378706.366062,observado
-Adelantos,2017-08-01,11449531.164338,observado
-Adelantos,2017-09-01,11587017.955786,observado
-Adelantos,2017-10-01,12214188.260658,observado
-Adelantos,2017-11-01,12729708.390113,observado
-Adelantos,2017-12-01,12835502.303412,observado
-Adelantos,2018-01-01,12784412.909006,observado
-Adelantos,2018-02-01,13120481.981308,observado
-Adelantos,2018-03-01,13288568.380931,observado
-Adelantos,2018-04-01,13618604.00086,observado
-Adelantos,2018-05-01,13986171.157781,observado
-Adelantos,2018-06-01,13679739.302052,observado
-Adelantos,2018-07-01,13934034.258454,observado
-Adelantos,2018-08-01,13580852.654346,observado
-Adelantos,2018-09-01,12898805.611772,observado
-Adelantos,2018-10-01,11648435.028943,observado
-Adelantos,2018-11-01,10792254.240558,observado
-Adelantos,2018-12-01,10280528.515868,observado
-Adelantos,2019-01-01,9348573.874006,observado
-Adelantos,2019-02-01,9053922.015632,observado
-Adelantos,2019-03-01,8583237.301751,observado
-Adelantos,2019-04-01,8132154.79106,observado
-Adelantos,2019-05-01,8205964.3025,observado
-Adelantos,2019-06-01,8176842.802397,observado
-Adelantos,2019-07-01,8448107.336938,observado
-Adelantos,2019-08-01,8493855.416232,observado
-Adelantos,2019-09-01,9085764.231179,observado
-Adelantos,2019-10-01,10083916.578364,observado
-Adelantos,2019-11-01,9797869.912736,observado
-Adelantos,2019-12-01,9723553.559875,observado
-Adelantos,2020-01-01,9334629.328798,observado
-Adelantos,2020-02-01,9076823.998447,observado
-Adelantos,2020-03-01,9789314.672057,observado
-Adelantos,2020-04-01,12093670.066843,observado
-Adelantos,2020-05-01,12061033.821073,observado
-Adelantos,2020-06-01,10866381.259142,observado
-Adelantos,2020-07-01,10354007.387634,observado
-Adelantos,2020-08-01,9736298.303409,observado
-Adelantos,2020-09-01,9652879.090779,observado
-Adelantos,2020-10-01,9444988.426871,observado
-Adelantos,2020-11-01,9122928.365255,observado
-Adelantos,2020-12-01,8897407.744505,observado
-Adelantos,2021-01-01,8971978.905847,observado
-Adelantos,2021-02-01,9020769.761177,observado
-Adelantos,2021-03-01,7933217.227294,observado
-Adelantos,2021-04-01,7086551.123054,observado
-Adelantos,2021-05-01,6826979.33372,observado
-Adelantos,2021-06-01,6944023.220216,observado
-Adelantos,2021-07-01,7759318.63317,observado
-Adelantos,2021-08-01,7736282.416947,observado
-Adelantos,2021-09-01,7367444.548384,observado
-Adelantos,2021-10-01,7754743.420903,observado
-Adelantos,2021-11-01,8064619.324951,observado
-Adelantos,2021-12-01,8279415.98946,observado
-Adelantos,2022-01-01,8076296.551705,observado
-Adelantos,2022-02-01,7994281.844295,observado
-Adelantos,2022-03-01,8064728.259292,observado
-Adelantos,2022-04-01,7825115.458215,observado
-Adelantos,2022-05-01,8157489.490481,observado
-Adelantos,2022-06-01,8681351.875893,observado
-Adelantos,2022-07-01,8799666.529013,observado
-Adelantos,2022-08-01,8632315.118861,observado
-Adelantos,2022-09-01,7934393.884307,observado
-Adelantos,2022-10-01,7889076.49349,observado
-Adelantos,2022-11-01,8386834.276905,observado
-Adelantos,2022-12-01,8388234.337128,observado
-Adelantos,2023-01-01,7740069.033563,observado
-Adelantos,2023-02-01,8036365.707584,observado
-Adelantos,2023-03-01,7795954.988896,observado
-Adelantos,2023-04-01,8281516.555843,observado
-Adelantos,2023-05-01,7831581.208152,observado
-Adelantos,2023-06-01,7573713.351991,observado
-Adelantos,2023-07-01,7939254.618203,observado
-Adelantos,2023-08-01,7353639.52918,observado
-Adelantos,2023-09-01,6606140.503748,observado
-Adelantos,2023-10-01,6871997.637822,observado
-Adelantos,2023-11-01,6289998.260194,observado
-Adelantos,2023-12-01,5651143.405151,observado
-Adelantos,2024-01-01,5018465.399473,observado
-Adelantos,2024-02-01,6247508.634929,observado
-Adelantos,2024-03-01,6131795.9636,observado
-Adelantos,2024-04-01,6331308.79333,observado
-Adelantos,2024-05-01,6881807.650426,observado
-Adelantos,2024-06-01,7414062.714332,observado
-Adelantos,2024-07-01,7939723.041516,observado
-Adelantos,2024-08-01,7603327.557322,observado
-Adelantos,2024-09-01,7481733.774171,observado
-Adelantos,2024-10-01,7493015.925877,observado
-Adelantos,2024-11-01,7682152.950504,observado
-Adelantos,2024-12-01,7698306.738731,observado
-Adelantos,2025-01-01,8174551.214001,observado
-Adelantos,2025-02-01,8298613.717724,observado
-Adelantos,2025-03-01,9050717.079076,observado
-Adelantos,2025-04-01,9833381.396708,observado
-Adelantos,2025-05-01,10302055.171483,observado
-Adelantos,2025-06-01,11319460.387118,observado
-Adelantos,2025-07-01,12054668.586955,observado
-Adelantos,2025-08-01,10963416.474495,observado
-Adelantos,2025-09-01,9841217.446648,observado
-Adelantos,2025-10-01,10625730.392959,observado
-Adelantos,2025-11-01,11170423.756998,observado
-Adelantos,2025-12-01,11164713.890424,observado
-Adelantos,2026-01-01,11032750.087741,observado
-Adelantos,2026-02-01,10815153.237722,observado
-Adelantos,2026-03-01,10344798.327213,observado
-Adelantos,2026-04-01,10207921.689108,observado
-Adelantos,2026-05-01,10528270.965969,observado
-Adelantos,2026-06-01,10334758.932771,observado
-Adelantos,2026-07-01,10537479.95887,observado
-Adelantos,2026-08-01,11239960.967742,observado
-Otros comerciales,2003-01-01,4734534.825707,observado
-Otros comerciales,2003-02-01,4965374.056019,observado
-Otros comerciales,2003-03-01,4866527.611577,observado
-Otros comerciales,2003-04-01,4703925.564485,observado
-Otros comerciales,2003-05-01,4834785.305616,observado
-Otros comerciales,2003-06-01,4710846.26095,observado
-Otros comerciales,2003-07-01,4579921.218696,observado
-Otros comerciales,2003-08-01,4544274.73754,observado
-Otros comerciales,2003-09-01,4581860.267516,observado
-Otros comerciales,2003-10-01,4578848.5355,observado
-Otros comerciales,2003-11-01,4562513.250902,observado
-Otros comerciales,2003-12-01,4406101.888412,observado
-Otros comerciales,2004-01-01,4261065.524112,observado
-Otros comerciales,2004-02-01,4320502.008887,observado
-Otros comerciales,2004-03-01,4237050.019205,observado
-Otros comerciales,2004-04-01,4152619.409308,observado
-Otros comerciales,2004-05-01,4389560.395362,observado
-Otros comerciales,2004-06-01,4587550.466613,observado
-Otros comerciales,2004-07-01,4750326.876281,observado
-Otros comerciales,2004-08-01,5121070.77727,observado
-Otros comerciales,2004-09-01,5269415.594491,observado
-Otros comerciales,2004-10-01,5387291.971659,observado
-Otros comerciales,2004-11-01,5520287.796474,observado
-Otros comerciales,2004-12-01,5651898.865301,observado
-Otros comerciales,2005-01-01,5558481.990097,observado
-Otros comerciales,2005-02-01,5453861.503279,observado
-Otros comerciales,2005-03-01,5291736.953431,observado
-Otros comerciales,2005-04-01,5559980.973952,observado
-Otros comerciales,2005-05-01,5586567.052099,observado
-Otros comerciales,2005-06-01,5575786.311702,observado
-Otros comerciales,2005-07-01,5269812.685046,observado
-Otros comerciales,2005-08-01,5301655.550031,observado
-Otros comerciales,2005-09-01,5198994.579093,observado
-Otros comerciales,2005-10-01,4987605.440345,observado
-Otros comerciales,2005-11-01,4905694.077052,observado
-Otros comerciales,2005-12-01,5194065.810279,observado
-Otros comerciales,2006-01-01,4990864.696089,observado
-Otros comerciales,2006-02-01,5044492.53971,observado
-Otros comerciales,2006-03-01,5001194.900353,observado
-Otros comerciales,2006-04-01,4921499.010934,observado
-Otros comerciales,2006-05-01,4908407.334032,observado
-Otros comerciales,2006-06-01,4801060.342962,observado
-Otros comerciales,2006-07-01,4989742.321979,observado
-Otros comerciales,2006-08-01,4946384.456214,observado
-Otros comerciales,2006-09-01,4975283.895562,observado
-Otros comerciales,2006-10-01,4931630.773451,observado
-Otros comerciales,2006-11-01,4727606.060212,observado
-Otros comerciales,2006-12-01,4734675.425581,observado
-Otros comerciales,2007-01-01,4577423.588338,observado
-Otros comerciales,2007-02-01,4487000.219445,observado
-Otros comerciales,2007-03-01,4783513.573033,observado
-Otros comerciales,2007-04-01,4707702.326284,observado
-Otros comerciales,2007-05-01,4486038.623105,observado
-Otros comerciales,2007-06-01,4571774.534653,observado
-Otros comerciales,2007-07-01,4514133.697495,observado
-Otros comerciales,2007-08-01,4338099.67403,observado
-Otros comerciales,2007-09-01,4404357.063548,observado
-Otros comerciales,2007-10-01,4480619.278219,observado
-Otros comerciales,2007-11-01,4478504.623716,observado
-Otros comerciales,2007-12-01,4656252.504575,observado
-Otros comerciales,2008-01-01,4751050.275882,observado
-Otros comerciales,2008-02-01,4459433.158781,observado
-Otros comerciales,2008-03-01,4275503.136201,observado
-Otros comerciales,2008-04-01,4244779.751127,observado
-Otros comerciales,2008-05-01,4393959.764365,observado
-Otros comerciales,2008-06-01,4561641.32029,observado
-Otros comerciales,2008-07-01,4492369.891024,observado
-Otros comerciales,2008-08-01,4387543.948198,observado
-Otros comerciales,2008-09-01,4402223.824682,observado
-Otros comerciales,2008-10-01,4418817.832081,observado
-Otros comerciales,2008-11-01,4388503.743186,observado
-Otros comerciales,2008-12-01,4444029.302731,observado
-Otros comerciales,2009-01-01,4475316.529957,observado
-Otros comerciales,2009-02-01,4419510.329972,observado
-Otros comerciales,2009-03-01,4403840.878016,observado
-Otros comerciales,2009-04-01,4320152.822694,observado
-Otros comerciales,2009-05-01,4258717.020477,observado
-Otros comerciales,2009-06-01,4688964.308885,observado
-Otros comerciales,2009-07-01,4930554.407942,observado
-Otros comerciales,2009-08-01,4938152.946013,observado
-Otros comerciales,2009-09-01,4873773.788005,observado
-Otros comerciales,2009-10-01,4906368.15302,observado
-Otros comerciales,2009-11-01,5015049.730813,observado
-Otros comerciales,2009-12-01,5053669.467544,observado
-Otros comerciales,2010-01-01,5257420.548013,observado
-Otros comerciales,2010-02-01,5000719.844124,observado
-Otros comerciales,2010-03-01,4927036.082636,observado
-Otros comerciales,2010-04-01,4957058.352061,observado
-Otros comerciales,2010-05-01,5074930.502834,observado
-Otros comerciales,2010-06-01,5464259.747211,observado
-Otros comerciales,2010-07-01,5755603.31557,observado
-Otros comerciales,2010-08-01,5814433.683818,observado
-Otros comerciales,2010-09-01,5736609.660683,observado
-Otros comerciales,2010-10-01,5895640.457823,observado
-Otros comerciales,2010-11-01,6245805.402199,observado
-Otros comerciales,2010-12-01,6421258.886114,observado
-Otros comerciales,2011-01-01,6386088.243317,observado
-Otros comerciales,2011-02-01,6000007.118153,observado
-Otros comerciales,2011-03-01,5898568.994757,observado
-Otros comerciales,2011-04-01,5954841.916479,observado
-Otros comerciales,2011-05-01,6083844.151211,observado
-Otros comerciales,2011-06-01,6297150.277889,observado
-Otros comerciales,2011-07-01,7767624.007639,observado
-Otros comerciales,2011-08-01,8094518.221138,observado
-Otros comerciales,2011-09-01,8253999.502651,observado
-Otros comerciales,2011-10-01,8429491.48146,observado
-Otros comerciales,2011-11-01,8585343.792732,observado
-Otros comerciales,2011-12-01,8613243.029719,observado
-Otros comerciales,2012-01-01,8540662.918498,observado
-Otros comerciales,2012-02-01,8572519.183406,observado
-Otros comerciales,2012-03-01,8376718.509439,observado
-Otros comerciales,2012-04-01,8769654.16184,observado
-Otros comerciales,2012-05-01,9211377.462056,observado
-Otros comerciales,2012-06-01,9719738.265498,observado
-Otros comerciales,2012-07-01,10455825.485868,observado
-Otros comerciales,2012-08-01,10529539.33297,observado
-Otros comerciales,2012-09-01,10582073.890873,observado
-Otros comerciales,2012-10-01,10552120.136357,observado
-Otros comerciales,2012-11-01,10397070.256549,observado
-Otros comerciales,2012-12-01,10591702.207438,observado
-Otros comerciales,2013-01-01,10345176.780246,observado
-Otros comerciales,2013-02-01,10027789.09346,observado
-Otros comerciales,2013-03-01,9980460.145405,observado
-Otros comerciales,2013-04-01,10188110.089423,observado
-Otros comerciales,2013-05-01,10576728.445091,observado
-Otros comerciales,2013-06-01,10829295.644971,observado
-Otros comerciales,2013-07-01,11061964.557627,observado
-Otros comerciales,2013-08-01,10748763.379558,observado
-Otros comerciales,2013-09-01,10706644.697244,observado
-Otros comerciales,2013-10-01,10499779.225015,observado
-Otros comerciales,2013-11-01,10474203.861626,observado
-Otros comerciales,2013-12-01,10752794.103462,observado
-Otros comerciales,2014-01-01,10427596.313041,observado
-Otros comerciales,2014-02-01,9840896.712792,observado
-Otros comerciales,2014-03-01,9539591.324682,observado
-Otros comerciales,2014-04-01,9225397.241035,observado
-Otros comerciales,2014-05-01,9126878.803706,observado
-Otros comerciales,2014-06-01,9061308.384827,observado
-Otros comerciales,2014-07-01,9085223.400215,observado
-Otros comerciales,2014-08-01,8968791.175199,observado
-Otros comerciales,2014-09-01,8691966.917669,observado
-Otros comerciales,2014-10-01,8635819.705851,observado
-Otros comerciales,2014-11-01,8753817.741657,observado
-Otros comerciales,2014-12-01,8934493.887435,observado
-Otros comerciales,2015-01-01,8774217.410733,observado
-Otros comerciales,2015-02-01,8624953.754147,observado
-Otros comerciales,2015-03-01,8570980.570564,observado
-Otros comerciales,2015-04-01,8486938.884622,observado
-Otros comerciales,2015-05-01,8369003.039645,observado
-Otros comerciales,2015-06-01,8664720.019709,observado
-Otros comerciales,2015-07-01,8740939.810091,observado
-Otros comerciales,2015-08-01,8506650.366182,observado
-Otros comerciales,2015-09-01,8381145.460561,observado
-Otros comerciales,2015-10-01,8428294.060787,observado
-Otros comerciales,2015-11-01,8375206.809065,observado
-Otros comerciales,2015-12-01,6894450.591941,observado
-Otros comerciales,2016-01-01,6590732.076732,observado
-Otros comerciales,2016-02-01,6032733.672098,observado
-Otros comerciales,2016-03-01,5751772.204252,observado
-Otros comerciales,2016-04-01,5426515.600104,observado
-Otros comerciales,2016-05-01,5213360.801368,observado
-Otros comerciales,2016-06-01,5073779.293381,observado
-Otros comerciales,2016-07-01,4862370.559502,observado
-Otros comerciales,2016-08-01,4639330.590651,observado
-Otros comerciales,2016-09-01,4607789.991049,observado
-Otros comerciales,2016-10-01,4355965.941653,observado
-Otros comerciales,2016-11-01,4266481.685392,observado
-Otros comerciales,2016-12-01,4514935.146137,observado
-Otros comerciales,2017-01-01,4600332.906977,observado
-Otros comerciales,2017-02-01,4435448.064202,observado
-Otros comerciales,2017-03-01,4351084.866067,observado
-Otros comerciales,2017-04-01,4354931.514596,observado
-Otros comerciales,2017-05-01,4480686.763654,observado
-Otros comerciales,2017-06-01,4670574.724332,observado
-Otros comerciales,2017-07-01,4908964.87931,observado
-Otros comerciales,2017-08-01,4876090.384259,observado
-Otros comerciales,2017-09-01,4734486.124005,observado
-Otros comerciales,2017-10-01,4729665.122526,observado
-Otros comerciales,2017-11-01,4725916.99384,observado
-Otros comerciales,2017-12-01,4890474.69777,observado
-Otros comerciales,2018-01-01,4998981.398574,observado
-Otros comerciales,2018-02-01,4732338.928121,observado
-Otros comerciales,2018-03-01,4445106.274262,observado
-Otros comerciales,2018-04-01,4524121.388579,observado
-Otros comerciales,2018-05-01,4516676.094266,observado
-Otros comerciales,2018-06-01,4351872.300704,observado
-Otros comerciales,2018-07-01,4365562.285559,observado
-Otros comerciales,2018-08-01,4064145.770086,observado
-Otros comerciales,2018-09-01,3675472.027014,observado
-Otros comerciales,2018-10-01,3206001.056305,observado
-Otros comerciales,2018-11-01,3132965.41079,observado
-Otros comerciales,2018-12-01,3181724.253103,observado
-Otros comerciales,2019-01-01,3319498.210323,observado
-Otros comerciales,2019-02-01,2988670.084609,observado
-Otros comerciales,2019-03-01,2704677.646864,observado
-Otros comerciales,2019-04-01,2586313.184612,observado
-Otros comerciales,2019-05-01,2512468.468729,observado
-Otros comerciales,2019-06-01,2468934.355717,observado
-Otros comerciales,2019-07-01,2500090.896407,observado
-Otros comerciales,2019-08-01,2554850.814076,observado
-Otros comerciales,2019-09-01,2411696.381589,observado
-Otros comerciales,2019-10-01,2388427.065495,observado
-Otros comerciales,2019-11-01,2571197.170386,observado
-Otros comerciales,2019-12-01,2788798.940809,observado
-Otros comerciales,2020-01-01,2925865.670038,observado
-Otros comerciales,2020-02-01,2963248.492985,observado
-Otros comerciales,2020-03-01,3277196.932977,observado
-Otros comerciales,2020-04-01,4300206.371833,observado
-Otros comerciales,2020-05-01,5001630.00431,observado
-Otros comerciales,2020-06-01,5427005.991426,observado
-Otros comerciales,2020-07-01,5430122.374409,observado
-Otros comerciales,2020-08-01,5651122.37621,observado
-Otros comerciales,2020-09-01,5705263.239565,observado
-Otros comerciales,2020-10-01,5490613.591103,observado
-Otros comerciales,2020-11-01,5483857.366273,observado
-Otros comerciales,2020-12-01,5536113.709915,observado
-Otros comerciales,2021-01-01,5359818.057532,observado
-Otros comerciales,2021-02-01,5297641.217331,observado
-Otros comerciales,2021-03-01,5048891.939143,observado
-Otros comerciales,2021-04-01,4959381.69955,observado
-Otros comerciales,2021-05-01,5049203.733105,observado
-Otros comerciales,2021-06-01,4998657.858108,observado
-Otros comerciales,2021-07-01,4886702.45362,observado
-Otros comerciales,2021-08-01,4818650.49642,observado
-Otros comerciales,2021-09-01,4749915.332894,observado
-Otros comerciales,2021-10-01,4523625.122019,observado
-Otros comerciales,2021-11-01,4706810.356415,observado
-Otros comerciales,2021-12-01,4779287.314428,observado
-Otros comerciales,2022-01-01,4735933.108845,observado
-Otros comerciales,2022-02-01,4507342.486735,observado
-Otros comerciales,2022-03-01,4327769.435661,observado
-Otros comerciales,2022-04-01,4468629.973311,observado
-Otros comerciales,2022-05-01,4437413.68317,observado
-Otros comerciales,2022-06-01,4573190.45725,observado
-Otros comerciales,2022-07-01,4254251.0214,observado
-Otros comerciales,2022-08-01,3966688.631891,observado
-Otros comerciales,2022-09-01,3823275.318554,observado
-Otros comerciales,2022-10-01,3684921.252566,observado
-Otros comerciales,2022-11-01,3512348.217386,observado
-Otros comerciales,2022-12-01,3567594.707638,observado
-Otros comerciales,2023-01-01,3346074.145115,observado
-Otros comerciales,2023-02-01,3102020.701749,observado
-Otros comerciales,2023-03-01,3043679.461651,observado
-Otros comerciales,2023-04-01,3218237.221765,observado
-Otros comerciales,2023-05-01,3163824.835224,observado
-Otros comerciales,2023-06-01,3182751.958614,observado
-Otros comerciales,2023-07-01,3189544.690777,observado
-Otros comerciales,2023-08-01,2918392.11785,observado
-Otros comerciales,2023-09-01,2792703.334752,observado
-Otros comerciales,2023-10-01,2938835.446649,observado
-Otros comerciales,2023-11-01,2833282.31008,observado
-Otros comerciales,2023-12-01,2514334.510173,observado
-Otros comerciales,2024-01-01,2082991.613436,observado
-Otros comerciales,2024-02-01,1937580.050098,observado
-Otros comerciales,2024-03-01,1864055.760598,observado
-Otros comerciales,2024-04-01,1749758.601521,observado
-Otros comerciales,2024-05-01,1884484.59491,observado
-Otros comerciales,2024-06-01,2508754.185038,observado
-Otros comerciales,2024-07-01,2848453.707002,observado
-Otros comerciales,2024-08-01,3161371.127711,observado
-Otros comerciales,2024-09-01,3335567.423832,observado
-Otros comerciales,2024-10-01,3373207.882513,observado
-Otros comerciales,2024-11-01,3334360.848266,observado
-Otros comerciales,2024-12-01,3620558.597177,observado
-Otros comerciales,2025-01-01,3997895.331352,observado
-Otros comerciales,2025-02-01,4216383.653168,observado
-Otros comerciales,2025-03-01,4232349.213564,observado
-Otros comerciales,2025-04-01,4544360.672223,observado
-Otros comerciales,2025-05-01,4825935.216986,observado
-Otros comerciales,2025-06-01,5253063.350287,observado
-Otros comerciales,2025-07-01,5874497.811397,observado
-Otros comerciales,2025-08-01,5895287.25288,observado
-Otros comerciales,2025-09-01,6095278.552044,observado
-Otros comerciales,2025-10-01,5937069.848989,observado
-Otros comerciales,2025-11-01,5700687.017715,observado
-Otros comerciales,2025-12-01,5817497.327604,observado
-Otros comerciales,2026-01-01,6971230.915625,observado
-Otros comerciales,2026-02-01,6924857.859271,observado
-Otros comerciales,2026-03-01,6889236.565639,observado
-Otros comerciales,2026-04-01,6794980.882858,observado
-Otros comerciales,2026-05-01,6682589.109465,observado
-Otros comerciales,2026-06-01,6816558.763338,observado
-Otros comerciales,2026-07-01,6998878.521853,observado
-Otros comerciales,2026-08-01,7293852.935484,observado
+Documentos,2003-01-01,9315079.951384,observado
+Documentos,2003-02-01,9102013.871124,observado
+Documentos,2003-03-01,8847891.890911,observado
+Documentos,2003-04-01,8610755.218973,observado
+Documentos,2003-05-01,8612614.522478,observado
+Documentos,2003-06-01,8575474.36655,observado
+Documentos,2003-07-01,8509582.975494,observado
+Documentos,2003-08-01,8476213.014617,observado
+Documentos,2003-09-01,8496412.119058,observado
+Documentos,2003-10-01,8388923.828955,observado
+Documentos,2003-11-01,8404922.861812,observado
+Documentos,2003-12-01,8456923.514334,observado
+Documentos,2004-01-01,8559807.629236,observado
+Documentos,2004-02-01,8346056.294094,observado
+Documentos,2004-03-01,8424320.323795,observado
+Documentos,2004-04-01,8674305.798445,observado
+Documentos,2004-05-01,8824052.409475,observado
+Documentos,2004-06-01,9283652.992656,observado
+Documentos,2004-07-01,9359466.055747,observado
+Documentos,2004-08-01,9423683.090186,observado
+Documentos,2004-09-01,9808502.224853,observado
+Documentos,2004-10-01,10593964.057031,observado
+Documentos,2004-11-01,10987220.979899,observado
+Documentos,2004-12-01,11242377.379861,observado
+Documentos,2005-01-01,11184051.386101,observado
+Documentos,2005-02-01,11080088.975065,observado
+Documentos,2005-03-01,11045312.879258,observado
+Documentos,2005-04-01,11321095.343541,observado
+Documentos,2005-05-01,11887933.416142,observado
+Documentos,2005-06-01,12161487.448052,observado
+Documentos,2005-07-01,12476766.278503,observado
+Documentos,2005-08-01,12771163.643456,observado
+Documentos,2005-09-01,13298019.389213,observado
+Documentos,2005-10-01,14173599.959651,observado
+Documentos,2005-11-01,14700487.628089,observado
+Documentos,2005-12-01,15494308.565135,observado
+Documentos,2006-01-01,16158771.500154,observado
+Documentos,2006-02-01,16093229.562834,observado
+Documentos,2006-03-01,16076347.530353,observado
+Documentos,2006-04-01,16275659.808359,observado
+Documentos,2006-05-01,16206098.73055,observado
+Documentos,2006-06-01,16404793.326105,observado
+Documentos,2006-07-01,16780801.146799,observado
+Documentos,2006-08-01,17171510.173496,observado
+Documentos,2006-09-01,17667108.634567,observado
+Documentos,2006-10-01,18200278.953783,observado
+Documentos,2006-11-01,18563059.511423,observado
+Documentos,2006-12-01,19145177.952859,observado
+Documentos,2007-01-01,19389942.396019,observado
+Documentos,2007-02-01,19139185.753445,observado
+Documentos,2007-03-01,19201497.822651,observado
+Documentos,2007-04-01,19097828.943306,observado
+Documentos,2007-05-01,18843282.147945,observado
+Documentos,2007-06-01,18471927.062182,observado
+Documentos,2007-07-01,18807555.851006,observado
+Documentos,2007-08-01,18818298.707989,observado
+Documentos,2007-09-01,19150695.635126,observado
+Documentos,2007-10-01,19215930.998182,observado
+Documentos,2007-11-01,19689066.766245,observado
+Documentos,2007-12-01,20391539.561148,observado
+Documentos,2008-01-01,20038043.046997,observado
+Documentos,2008-02-01,19370013.300666,observado
+Documentos,2008-03-01,19077606.725549,observado
+Documentos,2008-04-01,19102831.94265,observado
+Documentos,2008-05-01,19582880.083173,observado
+Documentos,2008-06-01,18662895.169592,observado
+Documentos,2008-07-01,18267677.637664,observado
+Documentos,2008-08-01,18192786.977887,observado
+Documentos,2008-09-01,18276976.65633,observado
+Documentos,2008-10-01,18881721.889036,observado
+Documentos,2008-11-01,18727458.152597,observado
+Documentos,2008-12-01,18198935.48594,observado
+Documentos,2009-01-01,17396072.895625,observado
+Documentos,2009-02-01,17036584.654454,observado
+Documentos,2009-03-01,17242271.708119,observado
+Documentos,2009-04-01,17268519.853259,observado
+Documentos,2009-05-01,17008608.460633,observado
+Documentos,2009-06-01,17117657.785395,observado
+Documentos,2009-07-01,17465770.832517,observado
+Documentos,2009-08-01,17293018.128119,observado
+Documentos,2009-09-01,17243254.700881,observado
+Documentos,2009-10-01,17320191.366628,observado
+Documentos,2009-11-01,17450236.635327,observado
+Documentos,2009-12-01,17543108.488778,observado
+Documentos,2010-01-01,17522725.130908,observado
+Documentos,2010-02-01,16801857.838569,observado
+Documentos,2010-03-01,16688969.152514,observado
+Documentos,2010-04-01,17145233.52648,observado
+Documentos,2010-05-01,17332082.082764,observado
+Documentos,2010-06-01,17509878.170521,observado
+Documentos,2010-07-01,18246074.770269,observado
+Documentos,2010-08-01,18785004.838166,observado
+Documentos,2010-09-01,19304829.036037,observado
+Documentos,2010-10-01,19612305.013959,observado
+Documentos,2010-11-01,20031489.662147,observado
+Documentos,2010-12-01,20915362.947936,observado
+Documentos,2011-01-01,21680400.181753,observado
+Documentos,2011-02-01,21573845.276223,observado
+Documentos,2011-03-01,21412427.213323,observado
+Documentos,2011-04-01,21572164.337629,observado
+Documentos,2011-05-01,22099415.833566,observado
+Documentos,2011-06-01,22377288.470059,observado
+Documentos,2011-07-01,23387315.743349,observado
+Documentos,2011-08-01,23899380.608266,observado
+Documentos,2011-09-01,25126481.417702,observado
+Documentos,2011-10-01,26099515.553759,observado
+Documentos,2011-11-01,25873370.541264,observado
+Documentos,2011-12-01,25706152.67801,observado
+Documentos,2012-01-01,25821939.303027,observado
+Documentos,2012-02-01,24863836.645471,observado
+Documentos,2012-03-01,23844532.676236,observado
+Documentos,2012-04-01,23361206.379883,observado
+Documentos,2012-05-01,22979630.254016,observado
+Documentos,2012-06-01,23443270.31089,observado
+Documentos,2012-07-01,25128571.710245,observado
+Documentos,2012-08-01,25728170.921203,observado
+Documentos,2012-09-01,26657873.186746,observado
+Documentos,2012-10-01,27738966.253163,observado
+Documentos,2012-11-01,28747209.869298,observado
+Documentos,2012-12-01,30469384.636881,observado
+Documentos,2013-01-01,31045306.609136,observado
+Documentos,2013-02-01,30501028.155193,observado
+Documentos,2013-03-01,30688163.771728,observado
+Documentos,2013-04-01,30591957.258497,observado
+Documentos,2013-05-01,31034178.62208,observado
+Documentos,2013-06-01,31616882.951514,observado
+Documentos,2013-07-01,32421316.720581,observado
+Documentos,2013-08-01,32535935.390283,observado
+Documentos,2013-09-01,33201434.423693,observado
+Documentos,2013-10-01,33831649.602555,observado
+Documentos,2013-11-01,33888411.012293,observado
+Documentos,2013-12-01,35211629.576021,observado
+Documentos,2014-01-01,34201961.620793,observado
+Documentos,2014-02-01,32601193.784124,observado
+Documentos,2014-03-01,30813906.041633,observado
+Documentos,2014-04-01,29520766.748197,observado
+Documentos,2014-05-01,28353648.239651,observado
+Documentos,2014-06-01,27961316.462447,observado
+Documentos,2014-07-01,28034852.726518,observado
+Documentos,2014-08-01,27976360.086909,observado
+Documentos,2014-09-01,28575438.541302,observado
+Documentos,2014-10-01,29648062.301849,observado
+Documentos,2014-11-01,29967463.690757,observado
+Documentos,2014-12-01,30655238.23378,observado
+Documentos,2015-01-01,30133302.616314,observado
+Documentos,2015-02-01,29436046.100718,observado
+Documentos,2015-03-01,29495240.909805,observado
+Documentos,2015-04-01,29426779.035344,observado
+Documentos,2015-05-01,29336478.726774,observado
+Documentos,2015-06-01,29493080.85532,observado
+Documentos,2015-07-01,30280069.170476,observado
+Documentos,2015-08-01,31193791.16058,observado
+Documentos,2015-09-01,31969309.659547,observado
+Documentos,2015-10-01,32823462.286628,observado
+Documentos,2015-11-01,33951824.613267,observado
+Documentos,2015-12-01,34581395.546788,observado
+Documentos,2016-01-01,32023769.368415,observado
+Documentos,2016-02-01,29838283.79403,observado
+Documentos,2016-03-01,28969173.506316,observado
+Documentos,2016-04-01,27128556.185598,observado
+Documentos,2016-05-01,25577461.296203,observado
+Documentos,2016-06-01,24285630.201112,observado
+Documentos,2016-07-01,24197366.908093,observado
+Documentos,2016-08-01,24387266.818912,observado
+Documentos,2016-09-01,24095295.207629,observado
+Documentos,2016-10-01,23387146.524932,observado
+Documentos,2016-11-01,23549464.359646,observado
+Documentos,2016-12-01,24278204.212593,observado
+Documentos,2017-01-01,24829836.158408,observado
+Documentos,2017-02-01,24376356.445756,observado
+Documentos,2017-03-01,23767966.287246,observado
+Documentos,2017-04-01,23751797.765414,observado
+Documentos,2017-05-01,23783178.581709,observado
+Documentos,2017-06-01,24122116.023656,observado
+Documentos,2017-07-01,25353381.956368,observado
+Documentos,2017-08-01,26051998.40737,observado
+Documentos,2017-09-01,26883495.955178,observado
+Documentos,2017-10-01,27517235.785896,observado
+Documentos,2017-11-01,28127899.406351,observado
+Documentos,2017-12-01,28487801.996897,observado
+Documentos,2018-01-01,28327695.736364,observado
+Documentos,2018-02-01,27127048.081921,observado
+Documentos,2018-03-01,26784382.842324,observado
+Documentos,2018-04-01,26407319.747557,observado
+Documentos,2018-05-01,25872787.43676,observado
+Documentos,2018-06-01,24618867.373551,observado
+Documentos,2018-07-01,24103488.163424,observado
+Documentos,2018-08-01,22890821.428239,observado
+Documentos,2018-09-01,21233214.815283,observado
+Documentos,2018-10-01,19414504.920568,observado
+Documentos,2018-11-01,17899390.093946,observado
+Documentos,2018-12-01,17417582.207907,observado
+Documentos,2019-01-01,16048287.413425,observado
+Documentos,2019-02-01,14794583.140933,observado
+Documentos,2019-03-01,14169016.685155,observado
+Documentos,2019-04-01,13715299.81074,observado
+Documentos,2019-05-01,13077258.735914,observado
+Documentos,2019-06-01,12513310.450888,observado
+Documentos,2019-07-01,12205683.863985,observado
+Documentos,2019-08-01,11835864.558266,observado
+Documentos,2019-09-01,12066624.244612,observado
+Documentos,2019-10-01,12645359.936065,observado
+Documentos,2019-11-01,12767596.673583,observado
+Documentos,2019-12-01,13191435.583755,observado
+Documentos,2020-01-01,12851242.804813,observado
+Documentos,2020-02-01,12533487.03779,observado
+Documentos,2020-03-01,12925442.71915,observado
+Documentos,2020-04-01,14590307.250009,observado
+Documentos,2020-05-01,18342410.503518,observado
+Documentos,2020-06-01,19981444.815492,observado
+Documentos,2020-07-01,20693828.847534,observado
+Documentos,2020-08-01,21511163.569036,observado
+Documentos,2020-09-01,21783440.967034,observado
+Documentos,2020-10-01,22002112.538167,observado
+Documentos,2020-11-01,21855047.743213,observado
+Documentos,2020-12-01,21354366.184707,observado
+Documentos,2021-01-01,20619345.197777,observado
+Documentos,2021-02-01,19950597.909612,observado
+Documentos,2021-03-01,19219092.13877,observado
+Documentos,2021-04-01,18370962.028092,observado
+Documentos,2021-05-01,17905713.045288,observado
+Documentos,2021-06-01,17720624.40346,observado
+Documentos,2021-07-01,17652092.229676,observado
+Documentos,2021-08-01,18232488.659477,observado
+Documentos,2021-09-01,18905133.194654,observado
+Documentos,2021-10-01,19533498.146997,observado
+Documentos,2021-11-01,21353792.346177,observado
+Documentos,2021-12-01,22181708.14462,observado
+Documentos,2022-01-01,22187961.893785,observado
+Documentos,2022-02-01,21368119.411636,observado
+Documentos,2022-03-01,20788540.112638,observado
+Documentos,2022-04-01,20961365.181708,observado
+Documentos,2022-05-01,20929325.631017,observado
+Documentos,2022-06-01,20875136.849415,observado
+Documentos,2022-07-01,21000388.073462,observado
+Documentos,2022-08-01,21021335.406897,observado
+Documentos,2022-09-01,19949003.607289,observado
+Documentos,2022-10-01,19236872.876654,observado
+Documentos,2022-11-01,19269027.146266,observado
+Documentos,2022-12-01,19253702.326006,observado
+Documentos,2023-01-01,18912473.628933,observado
+Documentos,2023-02-01,18312541.589909,observado
+Documentos,2023-03-01,18492741.704019,observado
+Documentos,2023-04-01,19336226.110637,observado
+Documentos,2023-05-01,20546658.515917,observado
+Documentos,2023-06-01,20689338.527193,observado
+Documentos,2023-07-01,21233819.586815,observado
+Documentos,2023-08-01,21052867.645952,observado
+Documentos,2023-09-01,20031662.809618,observado
+Documentos,2023-10-01,22015343.739418,observado
+Documentos,2023-11-01,20782395.656116,observado
+Documentos,2023-12-01,17159642.283699,observado
+Documentos,2024-01-01,13358799.870867,observado
+Documentos,2024-02-01,12592337.52202,observado
+Documentos,2024-03-01,12331473.619066,observado
+Documentos,2024-04-01,12034876.301652,observado
+Documentos,2024-05-01,12538063.178948,observado
+Documentos,2024-06-01,14679903.360355,observado
+Documentos,2024-07-01,17798676.542301,observado
+Documentos,2024-08-01,19791743.979511,observado
+Documentos,2024-09-01,21870598.7568,observado
+Documentos,2024-10-01,23592594.806356,observado
+Documentos,2024-11-01,24417630.228103,observado
+Documentos,2024-12-01,25475791.88249,observado
+Documentos,2025-01-01,25258073.436244,observado
+Documentos,2025-02-01,24909093.464519,observado
+Documentos,2025-03-01,24914803.605821,observado
+Documentos,2025-04-01,25577775.29553,observado
+Documentos,2025-05-01,25478539.590807,observado
+Documentos,2025-06-01,25544267.850082,observado
+Documentos,2025-07-01,26108336.538643,observado
+Documentos,2025-08-01,26118524.84728,observado
+Documentos,2025-09-01,25764128.993625,observado
+Documentos,2025-10-01,24889059.009688,observado
+Documentos,2025-11-01,25189192.617597,observado
+Documentos,2025-12-01,24773461.883867,observado
+Documentos,2026-01-01,25698712.60587,observado
+Documentos,2026-02-01,25305177.420678,observado
+Documentos,2026-03-01,24776007.152974,observado
+Documentos,2026-04-01,24326795.948106,observado
+Documentos,2026-05-01,24927854.376359,observado
+Documentos,2026-06-01,24891526.582306,observado
+Documentos,2026-07-01,25786480.656552,observado
+Documentos,2026-08-01,26227165.562009,observado
+Documentos,2026-09-01,25916419.563868,observado
+Adelantos,2003-01-01,7555454.641635,observado
+Adelantos,2003-02-01,7044332.293169,observado
+Adelantos,2003-03-01,6704177.619494,observado
+Adelantos,2003-04-01,6834571.841392,observado
+Adelantos,2003-05-01,6770814.715946,observado
+Adelantos,2003-06-01,6918303.554516,observado
+Adelantos,2003-07-01,6785948.823477,observado
+Adelantos,2003-08-01,7110783.058113,observado
+Adelantos,2003-09-01,7460255.481757,observado
+Adelantos,2003-10-01,7426489.47167,observado
+Adelantos,2003-11-01,7494420.425724,observado
+Adelantos,2003-12-01,7846559.269973,observado
+Adelantos,2004-01-01,7241963.765831,observado
+Adelantos,2004-02-01,7540109.549165,observado
+Adelantos,2004-03-01,8326508.431102,observado
+Adelantos,2004-04-01,8822760.939305,observado
+Adelantos,2004-05-01,9177870.544651,observado
+Adelantos,2004-06-01,9739754.869975,observado
+Adelantos,2004-07-01,10163682.229916,observado
+Adelantos,2004-08-01,10277167.756227,observado
+Adelantos,2004-09-01,10424470.930035,observado
+Adelantos,2004-10-01,10491184.051528,observado
+Adelantos,2004-11-01,10675063.733731,observado
+Adelantos,2004-12-01,10715135.14421,observado
+Adelantos,2005-01-01,10154865.904389,observado
+Adelantos,2005-02-01,10334249.325374,observado
+Adelantos,2005-03-01,10253262.263853,observado
+Adelantos,2005-04-01,10414852.873729,observado
+Adelantos,2005-05-01,10739051.489961,observado
+Adelantos,2005-06-01,11373860.230799,observado
+Adelantos,2005-07-01,11820903.535501,observado
+Adelantos,2005-08-01,11887592.565319,observado
+Adelantos,2005-09-01,11754487.3028,observado
+Adelantos,2005-10-01,12147943.436064,observado
+Adelantos,2005-11-01,12753353.588472,observado
+Adelantos,2005-12-01,12740226.424383,observado
+Adelantos,2006-01-01,12247327.776104,observado
+Adelantos,2006-02-01,12438315.971903,observado
+Adelantos,2006-03-01,12237928.396463,observado
+Adelantos,2006-04-01,11860050.024029,observado
+Adelantos,2006-05-01,12521494.52076,observado
+Adelantos,2006-06-01,13558314.317578,observado
+Adelantos,2006-07-01,14390281.225218,observado
+Adelantos,2006-08-01,14529276.156507,observado
+Adelantos,2006-09-01,14589014.258804,observado
+Adelantos,2006-10-01,15081550.413919,observado
+Adelantos,2006-11-01,15585945.099868,observado
+Adelantos,2006-12-01,15811529.980382,observado
+Adelantos,2007-01-01,15003057.084395,observado
+Adelantos,2007-02-01,14737688.027109,observado
+Adelantos,2007-03-01,14720505.365998,observado
+Adelantos,2007-04-01,14883650.310374,observado
+Adelantos,2007-05-01,15619845.501071,observado
+Adelantos,2007-06-01,15676040.781253,observado
+Adelantos,2007-07-01,16334961.957535,observado
+Adelantos,2007-08-01,15416620.936071,observado
+Adelantos,2007-09-01,14736016.582507,observado
+Adelantos,2007-10-01,14810414.154931,observado
+Adelantos,2007-11-01,15537266.33947,observado
+Adelantos,2007-12-01,15990729.00267,observado
+Adelantos,2008-01-01,16453625.288326,observado
+Adelantos,2008-02-01,15859623.144824,observado
+Adelantos,2008-03-01,15247874.947319,observado
+Adelantos,2008-04-01,15518735.130921,observado
+Adelantos,2008-05-01,16250765.806051,observado
+Adelantos,2008-06-01,15607310.809505,observado
+Adelantos,2008-07-01,15619838.054602,observado
+Adelantos,2008-08-01,15442571.455106,observado
+Adelantos,2008-09-01,16009511.86675,observado
+Adelantos,2008-10-01,15765115.125076,observado
+Adelantos,2008-11-01,14860432.961114,observado
+Adelantos,2008-12-01,14672971.635909,observado
+Adelantos,2009-01-01,14611869.816254,observado
+Adelantos,2009-02-01,15075120.383694,observado
+Adelantos,2009-03-01,15005550.657542,observado
+Adelantos,2009-04-01,14800813.248094,observado
+Adelantos,2009-05-01,15268787.833448,observado
+Adelantos,2009-06-01,15739110.300459,observado
+Adelantos,2009-07-01,15911666.984693,observado
+Adelantos,2009-08-01,15342337.295799,observado
+Adelantos,2009-09-01,14995273.618476,observado
+Adelantos,2009-10-01,14228607.243271,observado
+Adelantos,2009-11-01,13904460.885146,observado
+Adelantos,2009-12-01,13845348.553868,observado
+Adelantos,2010-01-01,12897303.75293,observado
+Adelantos,2010-02-01,12102164.437107,observado
+Adelantos,2010-03-01,11810738.586563,observado
+Adelantos,2010-04-01,12246176.56606,observado
+Adelantos,2010-05-01,13268105.835139,observado
+Adelantos,2010-06-01,13753353.97128,observado
+Adelantos,2010-07-01,13746553.50769,observado
+Adelantos,2010-08-01,13681923.188854,observado
+Adelantos,2010-09-01,13538595.055623,observado
+Adelantos,2010-10-01,13753309.846648,observado
+Adelantos,2010-11-01,13522928.059806,observado
+Adelantos,2010-12-01,13653791.754965,observado
+Adelantos,2011-01-01,13307325.923014,observado
+Adelantos,2011-02-01,13952372.896207,observado
+Adelantos,2011-03-01,13669198.74919,observado
+Adelantos,2011-04-01,13515696.872663,observado
+Adelantos,2011-05-01,14442935.512722,observado
+Adelantos,2011-06-01,15284743.119816,observado
+Adelantos,2011-07-01,15718150.787316,observado
+Adelantos,2011-08-01,15009084.959774,observado
+Adelantos,2011-09-01,15046018.92161,observado
+Adelantos,2011-10-01,15330495.748886,observado
+Adelantos,2011-11-01,15430302.814387,observado
+Adelantos,2011-12-01,15546029.514227,observado
+Adelantos,2012-01-01,15443732.098676,observado
+Adelantos,2012-02-01,16231326.912628,observado
+Adelantos,2012-03-01,16735625.221113,observado
+Adelantos,2012-04-01,16377804.20374,observado
+Adelantos,2012-05-01,16836092.911846,observado
+Adelantos,2012-06-01,17953974.326162,observado
+Adelantos,2012-07-01,18592011.007806,observado
+Adelantos,2012-08-01,19176151.189193,observado
+Adelantos,2012-09-01,19414592.542621,observado
+Adelantos,2012-10-01,18982610.238759,observado
+Adelantos,2012-11-01,18869137.743926,observado
+Adelantos,2012-12-01,18931461.49914,observado
+Adelantos,2013-01-01,18969691.620647,observado
+Adelantos,2013-02-01,19562813.48397,observado
+Adelantos,2013-03-01,19413975.718318,observado
+Adelantos,2013-04-01,19406119.45586,observado
+Adelantos,2013-05-01,19280307.371703,observado
+Adelantos,2013-06-01,18746005.699788,observado
+Adelantos,2013-07-01,19443277.680041,observado
+Adelantos,2013-08-01,19691062.729795,observado
+Adelantos,2013-09-01,20020555.652821,observado
+Adelantos,2013-10-01,19696759.096078,observado
+Adelantos,2013-11-01,18647970.096679,observado
+Adelantos,2013-12-01,17899535.014018,observado
+Adelantos,2014-01-01,17619509.474633,observado
+Adelantos,2014-02-01,17513469.31988,observado
+Adelantos,2014-03-01,17340316.545959,observado
+Adelantos,2014-04-01,16725528.955975,observado
+Adelantos,2014-05-01,16896617.072749,observado
+Adelantos,2014-06-01,16848066.034253,observado
+Adelantos,2014-07-01,17519305.092714,observado
+Adelantos,2014-08-01,17448022.91298,observado
+Adelantos,2014-09-01,16880387.505169,observado
+Adelantos,2014-10-01,16010035.873859,observado
+Adelantos,2014-11-01,15006893.319259,observado
+Adelantos,2014-12-01,15286634.391312,observado
+Adelantos,2015-01-01,15898008.602589,observado
+Adelantos,2015-02-01,15822155.841825,observado
+Adelantos,2015-03-01,16145079.943402,observado
+Adelantos,2015-04-01,15828421.218948,observado
+Adelantos,2015-05-01,15451700.618382,observado
+Adelantos,2015-06-01,16083957.15537,observado
+Adelantos,2015-07-01,16845539.637689,observado
+Adelantos,2015-08-01,16366969.189919,observado
+Adelantos,2015-09-01,16276665.781704,observado
+Adelantos,2015-10-01,16271491.228978,observado
+Adelantos,2015-11-01,16703534.753974,observado
+Adelantos,2015-12-01,16964653.79554,observado
+Adelantos,2016-01-01,16701264.822133,observado
+Adelantos,2016-02-01,16215244.657582,observado
+Adelantos,2016-03-01,15652349.602091,observado
+Adelantos,2016-04-01,14481695.794382,observado
+Adelantos,2016-05-01,14292818.921582,observado
+Adelantos,2016-06-01,14157610.612914,observado
+Adelantos,2016-07-01,14120115.831797,observado
+Adelantos,2016-08-01,14164363.061872,observado
+Adelantos,2016-09-01,13962796.490454,observado
+Adelantos,2016-10-01,14155381.409664,observado
+Adelantos,2016-11-01,13473409.697577,observado
+Adelantos,2016-12-01,13716698.462949,observado
+Adelantos,2017-01-01,13239848.187174,observado
+Adelantos,2017-02-01,13591821.350689,observado
+Adelantos,2017-03-01,13086181.12121,observado
+Adelantos,2017-04-01,12277217.057058,observado
+Adelantos,2017-05-01,12109884.157708,observado
+Adelantos,2017-06-01,11694231.907676,observado
+Adelantos,2017-07-01,11850626.376874,observado
+Adelantos,2017-08-01,11924388.559989,observado
+Adelantos,2017-09-01,12067577.473103,observado
+Adelantos,2017-10-01,12720759.014009,observado
+Adelantos,2017-11-01,13257659.804608,observado
+Adelantos,2017-12-01,13367841.410418,observado
+Adelantos,2018-01-01,13314633.136521,observado
+Adelantos,2018-02-01,13664640.324029,observado
+Adelantos,2018-03-01,13839697.93224,observado
+Adelantos,2018-04-01,14183421.436215,observado
+Adelantos,2018-05-01,14566233.058638,observado
+Adelantos,2018-06-01,14247092.260433,observado
+Adelantos,2018-07-01,14511933.835642,observado
+Adelantos,2018-08-01,14144104.391871,observado
+Adelantos,2018-09-01,13433770.157647,observado
+Adelantos,2018-10-01,12131541.755485,observado
+Adelantos,2018-11-01,11239851.759471,observado
+Adelantos,2018-12-01,10706902.742628,observado
+Adelantos,2019-01-01,9736296.25138,observado
+Adelantos,2019-02-01,9429424.013667,observado
+Adelantos,2019-03-01,8939218.140867,observado
+Adelantos,2019-04-01,8465767.853968,observado
+Adelantos,2019-05-01,8546298.136398,observado
+Adelantos,2019-06-01,8515968.852369,observado
+Adelantos,2019-07-01,8798483.80132,observado
+Adelantos,2019-08-01,8846129.234618,observado
+Adelantos,2019-09-01,9462586.851983,observado
+Adelantos,2019-10-01,10502136.529525,observado
+Adelantos,2019-11-01,10204226.375976,observado
+Adelantos,2019-12-01,10126827.829681,observado
+Adelantos,2020-01-01,9721773.370664,observado
+Adelantos,2020-02-01,9453275.832397,observado
+Adelantos,2020-03-01,10195316.315588,observado
+Adelantos,2020-04-01,12595242.453465,observado
+Adelantos,2020-05-01,12561252.653348,observado
+Adelantos,2020-06-01,11317053.119046,observado
+Adelantos,2020-07-01,10783429.07417,observado
+Adelantos,2020-08-01,10140101.148196,observado
+Adelantos,2020-09-01,10053222.210492,observado
+Adelantos,2020-10-01,9836709.497539,observado
+Adelantos,2020-11-01,9501292.329863,observado
+Adelantos,2020-12-01,9266418.475945,observado
+Adelantos,2021-01-01,9344082.398637,observado
+Adelantos,2021-02-01,9394896.803942,observado
+Adelantos,2021-03-01,8262239.159949,observado
+Adelantos,2021-04-01,7380458.459707,observado
+Adelantos,2021-05-01,7110121.200408,observado
+Adelantos,2021-06-01,7232019.360351,observado
+Adelantos,2021-07-01,8081128.302517,observado
+Adelantos,2021-08-01,8057136.683187,observado
+Adelantos,2021-09-01,7673001.647677,observado
+Adelantos,2021-10-01,8076363.33808,observado
+Adelantos,2021-11-01,8399091.022926,observado
+Adelantos,2021-12-01,8622796.155672,observado
+Adelantos,2022-01-01,8411252.550515,observado
+Adelantos,2022-02-01,8325836.368423,observado
+Adelantos,2022-03-01,8399204.475206,observado
+Adelantos,2022-04-01,8149653.982441,observado
+Adelantos,2022-05-01,8495812.881972,observado
+Adelantos,2022-06-01,9041401.914916,observado
+Adelantos,2022-07-01,9164623.545208,observado
+Adelantos,2022-08-01,8990331.409393,observado
+Adelantos,2022-09-01,8263464.617588,observado
+Adelantos,2022-10-01,8216267.735124,observado
+Adelantos,2022-11-01,8734669.504857,observado
+Adelantos,2022-12-01,8736127.631121,observado
+Adelantos,2023-01-01,8061080.345789,observado
+Adelantos,2023-02-01,8369665.616168,observado
+Adelantos,2023-03-01,8119284.112989,observado
+Adelantos,2023-04-01,8624983.840861,observado
+Adelantos,2023-05-01,8156387.892631,observado
+Adelantos,2023-06-01,7887825.235361,observado
+Adelantos,2023-07-01,8268526.945366,observado
+Adelantos,2023-08-01,7658624.079662,observado
+Adelantos,2023-09-01,6880123.309671,observado
+Adelantos,2023-10-01,7157006.591846,observado
+Adelantos,2023-11-01,6550869.395405,observado
+Adelantos,2023-12-01,5885518.699764,observado
+Adelantos,2024-01-01,5226601.031889,observado
+Adelantos,2024-02-01,6506617.557129,observado
+Adelantos,2024-03-01,6386105.823117,observado
+Adelantos,2024-04-01,6593893.239934,observado
+Adelantos,2024-05-01,7167203.993872,observado
+Adelantos,2024-06-01,7721553.253568,observado
+Adelantos,2024-07-01,8269014.796049,observado
+Adelantos,2024-08-01,7918667.659055,observado
+Adelantos,2024-09-01,7792030.900224,observado
+Adelantos,2024-10-01,7803780.967437,observado
+Adelantos,2024-11-01,8000762.253428,observado
+Adelantos,2024-12-01,8017586.003218,observado
+Adelantos,2025-01-01,8513582.222727,observado
+Adelantos,2025-02-01,8642790.089747,observado
+Adelantos,2025-03-01,9426086.1557,observado
+Adelantos,2025-04-01,10241210.661807,observado
+Adelantos,2025-05-01,10729322.193893,observado
+Adelantos,2025-06-01,11788923.232578,observado
+Adelantos,2025-07-01,12554623.427767,observado
+Adelantos,2025-08-01,11418112.769023,observado
+Adelantos,2025-09-01,10249371.703767,observado
+Adelantos,2025-10-01,11066421.508505,observado
+Adelantos,2025-11-01,11633705.463247,observado
+Adelantos,2025-12-01,11627758.785896,observado
+Adelantos,2026-01-01,11490321.921761,observado
+Adelantos,2026-02-01,11263700.468723,observado
+Adelantos,2026-03-01,10773838.077548,observado
+Adelantos,2026-04-01,10631284.623251,observado
+Adelantos,2026-05-01,10964920.053154,observado
+Adelantos,2026-06-01,10763382.309663,observado
+Adelantos,2026-07-01,10974510.979457,observado
+Adelantos,2026-08-01,11706126.657476,observado
+Adelantos,2026-09-01,11450541.877023,observado
+Otros comerciales,2003-01-01,4930894.732911,observado
+Otros comerciales,2003-02-01,5171307.780189,observado
+Otros comerciales,2003-03-01,5068361.78228,observado
+Otros comerciales,2003-04-01,4899015.984418,observado
+Otros comerciales,2003-05-01,5035302.997197,observado
+Otros comerciales,2003-06-01,4906223.70957,observado
+Otros comerciales,2003-07-01,4769868.687373,observado
+Otros comerciales,2003-08-01,4732743.805489,observado
+Otros comerciales,2003-09-01,4771888.156225,observado
+Otros comerciales,2003-10-01,4768751.515757,observado
+Otros comerciales,2003-11-01,4751738.742221,observado
+Otros comerciales,2003-12-01,4588840.381166,observado
+Otros comerciales,2004-01-01,4437788.784518,observado
+Otros comerciales,2004-02-01,4499690.335675,observado
+Otros comerciales,2004-03-01,4412777.261525,observado
+Otros comerciales,2004-04-01,4324844.979904,observado
+Otros comerciales,2004-05-01,4565371.737208,observado
+Otros comerciales,2004-06-01,4777814.350411,observado
+Otros comerciales,2004-07-01,4947341.742356,observado
+Otros comerciales,2004-08-01,5333461.861004,observado
+Otros comerciales,2004-09-01,5487959.125216,observado
+Otros comerciales,2004-10-01,5610724.302516,observado
+Otros comerciales,2004-11-01,5749235.990828,observado
+Otros comerciales,2004-12-01,5886305.491837,observado
+Otros comerciales,2005-01-01,5789014.248903,observado
+Otros comerciales,2005-02-01,5680054.736217,observado
+Otros comerciales,2005-03-01,5511206.239301,observado
+Otros comerciales,2005-04-01,5790575.401555,observado
+Otros comerciales,2005-05-01,5818264.109638,observado
+Otros comerciales,2005-06-01,5807036.249248,observado
+Otros comerciales,2005-07-01,5488372.684688,observado
+Otros comerciales,2005-08-01,5521536.199378,observado
+Otros comerciales,2005-09-01,5414617.471454,observado
+Otros comerciales,2005-10-01,5194461.188056,observado
+Otros comerciales,2005-11-01,5109152.636171,observado
+Otros comerciales,2005-12-01,5409484.28708,observado
+Otros comerciales,2006-01-01,5197855.618041,observado
+Otros comerciales,2006-02-01,5253707.620695,observado
+Otros comerciales,2006-03-01,5208614.256783,observado
+Otros comerciales,2006-04-01,5125613.063246,observado
+Otros comerciales,2006-05-01,5111978.422662,observado
+Otros comerciales,2006-06-01,5000179.326796,observado
+Otros comerciales,2006-07-01,5196686.694632,observado
+Otros comerciales,2006-08-01,5151530.606485,observado
+Otros comerciales,2006-09-01,5181628.620019,observado
+Otros comerciales,2006-10-01,5136165.030075,observado
+Otros comerciales,2006-11-01,4923678.604074,observado
+Otros comerciales,2006-12-01,4931041.164019,observado
+Otros comerciales,2007-01-01,4767267.470394,observado
+Otros comerciales,2007-02-01,4673093.88633,observado
+Otros comerciales,2007-03-01,4981904.822836,observado
+Otros comerciales,2007-04-01,4902949.383484,observado
+Otros comerciales,2007-05-01,4672092.408782,observado
+Otros comerciales,2007-06-01,4761384.128082,observado
+Otros comerciales,2007-07-01,4701352.697159,observado
+Otros comerciales,2007-08-01,4518017.845675,observado
+Otros comerciales,2007-09-01,4587023.191505,observado
+Otros comerciales,2007-10-01,4666448.302204,observado
+Otros comerciales,2007-11-01,4664245.944605,observado
+Otros comerciales,2007-12-01,4849365.733936,observado
+Otros comerciales,2008-01-01,4948095.144202,observado
+Otros comerciales,2008-02-01,4644383.510499,observado
+Otros comerciales,2008-03-01,4452825.181551,observado
+Otros comerciales,2008-04-01,4420827.576038,observado
+Otros comerciales,2008-05-01,4576194.675153,observado
+Otros comerciales,2008-06-01,4750830.649194,observado
+Otros comerciales,2008-07-01,4678686.259453,observado
+Otros comerciales,2008-08-01,4569512.769685,observado
+Otros comerciales,2008-09-01,4584801.478776,observado
+Otros comerciales,2008-10-01,4602083.705372,observado
+Otros comerciales,2008-11-01,4570512.371171,observado
+Otros comerciales,2008-12-01,4628340.795542,observado
+Otros comerciales,2009-01-01,4660925.627974,observado
+Otros comerciales,2009-02-01,4602804.923892,observado
+Otros comerciales,2009-03-01,4586485.597715,observado
+Otros comerciales,2009-04-01,4499326.667348,observado
+Otros comerciales,2009-05-01,4435342.879137,observado
+Otros comerciales,2009-06-01,4883434.226304,observado
+Otros comerciales,2009-07-01,5135044.023427,observado
+Otros comerciales,2009-08-01,5142957.70296,observado
+Otros comerciales,2009-09-01,5075908.486338,observado
+Otros comerciales,2009-10-01,5109854.668739,observado
+Otros comerciales,2009-11-01,5223043.701925,observado
+Otros comerciales,2009-12-01,5263265.152066,observado
+Otros comerciales,2010-01-01,5475466.596662,observado
+Otros comerciales,2010-02-01,5208119.49809,observado
+Otros comerciales,2010-03-01,5131379.779237,observado
+Otros comerciales,2010-04-01,5162647.191059,observado
+Otros comerciales,2010-05-01,5285407.966679,observado
+Otros comerciales,2010-06-01,5690884.2365,observado
+Otros comerciales,2010-07-01,5994310.976312,observado
+Otros comerciales,2010-08-01,6055581.27289,observado
+Otros comerciales,2010-09-01,5974529.579345,observado
+Otros comerciales,2010-10-01,6140156.013378,observado
+Otros comerciales,2010-11-01,6504843.684594,observado
+Otros comerciales,2010-12-01,6687573.919253,observado
+Otros comerciales,2011-01-01,6650944.610629,observado
+Otros comerciales,2011-02-01,6248851.172387,observado
+Otros comerciales,2011-03-01,6143206.008336,observado
+Otros comerciales,2011-04-01,6201812.790953,observado
+Otros comerciales,2011-05-01,6336165.259187,observado
+Otros comerciales,2011-06-01,6558318.035596,observado
+Otros comerciales,2011-07-01,8089778.133753,observado
+Otros comerciales,2011-08-01,8430229.944734,observado
+Otros comerciales,2011-09-01,8596325.54651,observado
+Otros comerciales,2011-10-01,8779095.8726,observado
+Otros comerciales,2011-11-01,8941411.99637,observado
+Otros comerciales,2011-12-01,8970468.325192,observado
+Otros comerciales,2012-01-01,8894878.029353,observado
+Otros comerciales,2012-02-01,8928055.499712,observado
+Otros comerciales,2012-03-01,8724134.196457,observado
+Otros comerciales,2012-04-01,9133366.446324,observado
+Otros comerciales,2012-05-01,9593409.760952,observado
+Otros comerciales,2012-06-01,10122854.299938,observado
+Otros comerciales,2012-07-01,10889469.972121,observado
+Otros comerciales,2012-08-01,10966241.024358,observado
+Otros comerciales,2012-09-01,11020954.398405,observado
+Otros comerciales,2012-10-01,10989758.343077,observado
+Otros comerciales,2012-11-01,10828277.930782,observado
+Otros comerciales,2012-12-01,11030982.039385,observado
+Otros comerciales,2013-01-01,10774232.226527,observado
+Otros comerciales,2013-02-01,10443681.215566,observado
+Otros comerciales,2013-03-01,10394389.34862,observado
+Otros comerciales,2013-04-01,10610651.358077,observado
+Otros comerciales,2013-05-01,11015387.255819,observado
+Otros comerciales,2013-06-01,11278429.417602,observado
+Otros comerciales,2013-07-01,11520748.031397,observado
+Otros comerciales,2013-08-01,11194557.160249,observado
+Otros comerciales,2013-09-01,11150691.649396,observado
+Otros comerciales,2013-10-01,10935246.64688,observado
+Otros comerciales,2013-11-01,10908610.571897,observado
+Otros comerciales,2013-12-01,11198755.054234,observado
+Otros comerciales,2014-01-01,10860070.023714,observado
+Otros comerciales,2014-02-01,10249037.667809,observado
+Otros comerciales,2014-03-01,9935235.952133,observado
+Otros comerciales,2014-04-01,9608010.99568,observado
+Otros comerciales,2014-05-01,9505406.608639,observado
+Otros comerciales,2014-06-01,9437116.724841,observado
+Otros comerciales,2014-07-01,9462023.590616,observado
+Otros comerciales,2014-08-01,9340762.460177,observado
+Otros comerciales,2014-09-01,9052457.204509,observado
+Otros comerciales,2014-10-01,8993981.345483,observado
+Otros comerciales,2014-11-01,9116873.227087,observado
+Otros comerciales,2014-12-01,9305042.728077,observado
+Otros comerciales,2015-01-01,9138118.951218,observado
+Otros comerciales,2015-02-01,8982664.739734,observado
+Otros comerciales,2015-03-01,8926453.074503,observado
+Otros comerciales,2015-04-01,8838925.847054,observado
+Otros comerciales,2015-05-01,8716098.735579,observado
+Otros comerciales,2015-06-01,9024080.269796,observado
+Otros comerciales,2015-07-01,9103461.196704,observado
+Otros comerciales,2015-08-01,8859454.841808,observado
+Otros comerciales,2015-09-01,8728744.750772,observado
+Otros comerciales,2015-10-01,8777848.79015,observado
+Otros comerciales,2015-11-01,8722559.799882,observado
+Otros comerciales,2015-12-01,7180390.758882,observado
+Otros comerciales,2016-01-01,6864075.834172,observado
+Otros comerciales,2016-02-01,6282935.026115,observado
+Otros comerciales,2016-03-01,5990320.973637,observado
+Otros comerciales,2016-04-01,5651574.690152,observado
+Otros comerciales,2016-05-01,5429579.517855,observado
+Otros comerciales,2016-06-01,5284209.012012,observado
+Otros comerciales,2016-07-01,5064032.320795,observado
+Otros comerciales,2016-08-01,4831742.001234,observado
+Otros comerciales,2016-09-01,4798893.28807,observado
+Otros comerciales,2016-10-01,4536625.098164,observado
+Otros comerciales,2016-11-01,4443429.575453,observado
+Otros comerciales,2016-12-01,4702187.38505,observado
+Otros comerciales,2017-01-01,4791126.929193,observado
+Otros comerciales,2017-02-01,4619403.659071,observado
+Otros comerciales,2017-03-01,4531541.585046,observado
+Otros comerciales,2017-04-01,4535547.769321,observado
+Otros comerciales,2017-05-01,4666518.586527,observado
+Otros comerciales,2017-06-01,4864281.95286,observado
+Otros comerciales,2017-07-01,5112559.091551,observado
+Otros comerciales,2017-08-01,5078321.161013,observado
+Otros comerciales,2017-09-01,4930844.011356,observado
+Otros comerciales,2017-10-01,4925823.063855,observado
+Otros comerciales,2017-11-01,4921919.485431,observado
+Otros comerciales,2017-12-01,5093302.048964,observado
+Otros comerciales,2018-01-01,5206308.952319,observado
+Otros comerciales,2018-02-01,4928607.762756,observado
+Otros comerciales,2018-03-01,4629462.433347,observado
+Otros comerciales,2018-04-01,4711754.617342,observado
+Otros comerciales,2018-05-01,4704000.537192,observado
+Otros comerciales,2018-06-01,4532361.677715,observado
+Otros comerciales,2018-07-01,4546619.440452,observado
+Otros comerciales,2018-08-01,4232701.988522,observado
+Otros comerciales,2018-09-01,3827908.40624,observado
+Otros comerciales,2018-10-01,3338966.615348,observado
+Otros comerciales,2018-11-01,3262901.892405,observado
+Otros comerciales,2018-12-01,3313682.956985,observado
+Otros comerciales,2019-01-01,3457170.945774,observado
+Otros comerciales,2019-02-01,3112622.067661,observado
+Otros comerciales,2019-03-01,2816851.338959,observado
+Otros comerciales,2019-04-01,2692413.951915,observado
+Otros comerciales,2019-05-01,2616670.48509,observado
+Otros comerciales,2019-06-01,2571330.840024,observado
+Otros comerciales,2019-07-01,2603779.56583,observado
+Otros comerciales,2019-08-01,2660810.594126,observado
+Otros comerciales,2019-09-01,2511718.980456,observado
+Otros comerciales,2019-10-01,2487484.593681,observado
+Otros comerciales,2019-11-01,2677834.898561,observado
+Otros comerciales,2019-12-01,2904461.476071,observado
+Otros comerciales,2020-01-01,3047212.905322,observado
+Otros comerciales,2020-02-01,3086146.141967,observado
+Otros comerciales,2020-03-01,3413115.26695,observado
+Otros comerciales,2020-04-01,4478552.958185,observado
+Otros comerciales,2020-05-01,5209067.406224,observado
+Otros comerciales,2020-06-01,5652085.419944,observado
+Otros comerciales,2020-07-01,5655331.05167,observado
+Otros comerciales,2020-08-01,5885496.798669,observado
+Otros comerciales,2020-09-01,5941883.098016,observado
+Otros comerciales,2020-10-01,5718331.078656,observado
+Otros comerciales,2020-11-01,5711294.646429,observado
+Otros comerciales,2020-12-01,5765718.267568,observado
+Otros comerciales,2021-01-01,5582110.936378,observado
+Otros comerciales,2021-02-01,5517355.376404,observado
+Otros comerciales,2021-03-01,5258289.480644,observado
+Otros comerciales,2021-04-01,5165066.896968,observado
+Otros comerciales,2021-05-01,5258614.205936,observado
+Otros comerciales,2021-06-01,5205971.993349,observado
+Otros comerciales,2021-07-01,5089373.354912,observado
+Otros comerciales,2021-08-01,5018499.013573,observado
+Otros comerciales,2021-09-01,4946913.130635,observado
+Otros comerciales,2021-10-01,4711237.768643,observado
+Otros comerciales,2021-11-01,4902020.420092,observado
+Otros comerciales,2021-12-01,4977503.284551,observado
+Otros comerciales,2022-01-01,4932351.008387,observado
+Otros comerciales,2022-02-01,4694279.827997,observado
+Otros comerciales,2022-03-01,4507259.171415,observado
+Otros comerciales,2022-04-01,4653961.753346,observado
+Otros comerciales,2022-05-01,4621450.800041,observado
+Otros comerciales,2022-06-01,4762858.774596,observado
+Otros comerciales,2022-07-01,4430691.657394,observado
+Otros comerciales,2022-08-01,4131202.916892,observado
+Otros comerciales,2022-09-01,3981841.685557,observado
+Otros comerciales,2022-10-01,3837749.528594,observado
+Otros comerciales,2022-11-01,3658019.206284,observado
+Otros comerciales,2022-12-01,3715556.987254,observado
+Otros comerciales,2023-01-01,3484849.089818,observado
+Otros comerciales,2023-02-01,3230673.783743,observado
+Otros comerciales,2023-03-01,3169912.901397,observado
+Otros comerciales,2023-04-01,3351710.263043,observado
+Otros comerciales,2023-05-01,3295041.179368,observado
+Otros comerciales,2023-06-01,3314753.285514,observado
+Otros comerciales,2023-07-01,3321827.739177,observado
+Otros comerciales,2023-08-01,3039429.395331,observado
+Otros comerciales,2023-09-01,2908527.800691,observado
+Otros comerciales,2023-10-01,3060720.589928,observado
+Otros comerciales,2023-11-01,2950789.746813,observado
+Otros comerciales,2023-12-01,2618613.918662,observado
+Otros comerciales,2024-01-01,2169381.52395,observado
+Otros comerciales,2024-02-01,2017939.167275,observado
+Otros comerciales,2024-03-01,1941365.534345,observado
+Otros comerciales,2024-04-01,1822328.019483,observado
+Otros comerciales,2024-05-01,1962636.301553,observado
+Otros comerciales,2024-06-01,2612802.155347,observado
+Otros comerciales,2024-07-01,2966590.361641,observado
+Otros comerciales,2024-08-01,3292485.706888,observado
+Otros comerciales,2024-09-01,3473906.613199,observado
+Otros comerciales,2024-10-01,3513108.170751,observado
+Otros comerciales,2024-11-01,3472649.996165,observado
+Otros comerciales,2024-12-01,3770717.49902,observado
+Otros comerciales,2025-01-01,4163703.881753,observado
+Otros comerciales,2025-02-01,4391253.779452,observado
+Otros comerciales,2025-03-01,4407881.494859,observado
+Otros comerciales,2025-04-01,4732833.304223,observado
+Otros comerciales,2025-05-01,5026085.860346,observado
+Otros comerciales,2025-06-01,5470928.688693,observado
+Otros comerciales,2025-07-01,6118136.497683,observado
+Otros comerciales,2025-08-01,6139788.159628,observado
+Otros comerciales,2025-09-01,6348073.889901,observado
+Otros comerciales,2025-10-01,6183303.645449,observado
+Otros comerciales,2025-11-01,5937117.082125,observado
+Otros comerciales,2025-12-01,6058771.978116,observado
+Otros comerciales,2026-01-01,7260355.466627,observado
+Otros comerciales,2026-02-01,7212059.135996,observado
+Otros comerciales,2026-03-01,7174960.486263,observado
+Otros comerciales,2026-04-01,7076795.64708,observado
+Otros comerciales,2026-05-01,6959742.541792,observado
+Otros comerciales,2026-06-01,7099268.447709,observado
+Otros comerciales,2026-07-01,7289149.728565,observado
+Otros comerciales,2026-08-01,7596357.89918,observado
+Otros comerciales,2026-09-01,7579016.669159,observado
