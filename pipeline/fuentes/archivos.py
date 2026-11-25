@@ -33,6 +33,7 @@ ARCHIVOS = {
     "ingresos": INDEC + "sociedad/cuadros_informe_ingresos_{MM}_{AA}.xls",
     "cin": INDEC + "economia/cin_{T}_{AAAA}.xls",
     "maquinaria": INDEC + "economia/sh_industria_maquinaria_agricola.xls",
+    "ipi_minero": INDEC + "economia/serie_ipi_minero.xlsx",
 }
 PAGINA_DEUDA = "https://www.argentina.gob.ar/economia/finanzas/datos-trimestrales-de-la-deuda"
 PAGINA_PROVINCIAS = "https://www.argentina.gob.ar/economia/sechacienda/coordinacion-fiscal-provincial/ejecucion-presupuestaria-provincial/ejecuciones"
@@ -942,8 +943,94 @@ def indec_maquinaria(campo: str, h: dict | None = None) -> pd.Series:
                 datos[pd.Timestamp(anio, 3 * int(m[1]) - 2, 1)] = float(v)
     return pd.Series(datos, dtype=float).sort_index()
 
+MESES_ES = {m: i for i, m in enumerate(["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+                                          "septiembre", "octubre", "noviembre", "diciembre"], 1)}
+# campo -> (cuadro, texto con que empieza el encabezado de la columna)
+CAMPOS_IPI_MINERO = {
+    "nivel_general": ("Cuadro 2", "Nivel general"),
+    "petroleo_gas": ("Cuadro 2", "Extracción de petróleo crudo y gas natural y servicios"),
+    "metaliferos": ("Cuadro 2", "Extracción de minerales metalíferos"),
+    "oro_plata": ("Cuadro 2", "Plata y oro"),
+    "dore": ("Cuadro 2", "Bullón Dorado"),
+    "metaliferos_resto": ("Cuadro 2", "Resto (incluye hierro, cobre"),
+    "no_metaliferos": ("Cuadro 2", "Extracción de minerales no metalíferos"),
+    "litio": ("Cuadro 2", "Carbonato de litio"),
+    "carbonato_litio_t": ("Cuadro 7", "Carbonato de litio"),
+}
+
+
+def leer_ipi_minero(h: dict, campo: str) -> pd.Series:
+    """Serie del IPI minero del INDEC (base 2016=100) o toneladas de carbonato de litio (cuadro 7)."""
+    cuadro, rotulo = CAMPOS_IPI_MINERO[campo]
+    df = h[cuadro]
+    col = None
+    for c in range(3, df.shape[1]):
+        if any(_texto(v).startswith(rotulo) for v in df.iloc[:10, c]):
+            col = c
+            break
+    if col is None:
+        raise ValueError(f"IPI minero: no está la columna '{rotulo}' en {cuadro}")
+    fechas, valores, anio = [], [], None
+    for _, fila in df.iterrows():
+        a, m = fila.iloc[1], _texto(fila.iloc[2]).lower().rstrip("*").strip()
+        if pd.notna(a) and re.fullmatch(r"\d{4}\*?", _texto(a).split(".")[0].rstrip("*")):
+            anio = int(_texto(a).split(".")[0].rstrip("*"))
+        if anio and m in MESES_ES:
+            v = pd.to_numeric(fila.iloc[col], errors="coerce")  # "s" (secreto estadístico) queda vacío
+            fechas.append(pd.Timestamp(anio, MESES_ES[m], 1))
+            valores.append(v)
+    return pd.Series(valores, index=fechas, dtype=float).dropna()
+
+
+def indec_ipi_minero(campo: str, h: dict | None = None) -> pd.Series:
+    return leer_ipi_minero(h or hojas("ipi_minero"), campo)
+
+
+# ---------- Exportaciones mineras (informe mensual de la Secretaría de Minería, en PDF) ----------
+
+MINERIA_PDF = "https://www.argentina.gob.ar/sites/default/files/{AAAA}.{MM}_{nombre}.pdf"
+MINERIA_NOMBRES = ["origen_provincial_de_las_exportaciones_mineras", "origen_provincias_de_las_exportaciones_mineras"]
+CRUDOS_DIR = Path(__file__).resolve().parents[2] / "data" / "crudos"
+
+
+def leer_informe_mineria(contenido: bytes) -> dict | None:
+    """Del texto del informe: mes de referencia y exportaciones mineras del país en millones de US$."""
+    from pypdf import PdfReader
+    t = re.sub(r"\s+", " ", "".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(contenido)).pages))
+    m = re.search(r"(?:Durante el mes de|En) (\w+) de (\d{4}),? el sector minero realizó exportaciones por USD ([\d\.,]+) millones", t)
+    if not m or m.group(1).lower() not in MESES_ES:
+        return None
+    num = lambda x: float(x.replace(".", "").replace(",", "."))
+    return {"fecha": pd.Timestamp(int(m.group(2)), MESES_ES[m.group(1).lower()], 1), "nacional": num(m.group(3))}
+
+
+def mineria_exportaciones(campo: str = "nacional") -> pd.Series:
+    """Exportaciones mineras mensuales (millones de US$ FOB). Conserva lo ya guardado y suma los informes nuevos:
+    el informe que se publica en el mes M trae el dato del mes M-1."""
+    archivo = CRUDOS_DIR / f"mineria_expo_{campo}.csv"
+    previo = pd.read_csv(archivo, parse_dates=["fecha"]).set_index("fecha")["valor"] if archivo.exists() else pd.Series(dtype=float)
+    desde = (previo.index.max() + pd.DateOffset(months=2)) if len(previo) else pd.Timestamp(2022, 10, 1)
+    nuevos = {}
+    for pub in pd.date_range(desde, pd.Timestamp(date.today()).replace(day=1), freq="MS"):
+        for nombre in MINERIA_NOMBRES:
+            try:
+                r = requests.get(MINERIA_PDF.format(AAAA=pub.year, MM=f"{pub.month:02d}", nombre=nombre), headers=CABECERAS, timeout=TIMEOUT)
+            except requests.RequestException:
+                continue
+            if r.status_code == 200 and r.content[:4] == b"%PDF":
+                d = leer_informe_mineria(r.content)
+                if d:
+                    nuevos[d["fecha"]] = d[campo]
+                break
+    if not len(previo) and not nuevos:
+        raise RuntimeError("no se pudo leer ningún informe de exportaciones mineras")
+    return pd.concat([previo, pd.Series(nuevos, dtype=float)]).sort_index().groupby(level=0).last()
+
+
 LECTORES = {
     "indec_maquinaria": indec_maquinaria,
+    "indec_ipi_minero": indec_ipi_minero,
+    "mineria_exportaciones": mineria_exportaciones,
     "arca_recaudacion": arca_recaudacion,
     "provincias_iibb": provincias_iibb,
     "economia_politica_ingresos": economia_politica_ingresos,

@@ -970,6 +970,18 @@ series:
   viales_heridos:      {fuente: datosgobar, id: "snic_6_victimas_arg"}
   cheques_rechazo_cantidad: {fuente: manual, id: cheques_rechazo_cantidad}
   cheques_rechazo_monto:    {fuente: manual, id: cheques_rechazo_monto}
+  # Minería: IPI minero del INDEC (base 2016=100) y exportaciones del informe mensual de la Secretaría de Minería
+  ipi_minero_general:  {fuente: archivo, lector: indec_ipi_minero, campo: nivel_general}
+  ipi_minero_petroleo: {fuente: archivo, lector: indec_ipi_minero, campo: petroleo_gas}
+  ipi_minero_metaliferos: {fuente: archivo, lector: indec_ipi_minero, campo: metaliferos}
+  ipi_minero_oro_plata: {fuente: archivo, lector: indec_ipi_minero, campo: oro_plata}
+  ipi_minero_dore:     {fuente: archivo, lector: indec_ipi_minero, campo: dore}
+  ipi_minero_resto_metaliferos: {fuente: archivo, lector: indec_ipi_minero, campo: metaliferos_resto}
+  ipi_minero_no_metaliferos: {fuente: archivo, lector: indec_ipi_minero, campo: no_metaliferos}
+  ipi_minero_litio:    {fuente: archivo, lector: indec_ipi_minero, campo: litio}
+  carbonato_litio_t:   {fuente: archivo, lector: indec_ipi_minero, campo: carbonato_litio_t}
+  mineria_expo_nacional: {fuente: archivo, lector: mineria_exportaciones, campo: nacional}
+  empleo_mineria_petroleo: {fuente: datosgobar, id: "155.1_MRIA_PELEO_C_0_0_16"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
   ipim_indec:          {fuente: manual, id: ipim_indec}   # variaciones de los informes de prensa del INDEC (mientras datos.gob.ar no se actualice)
 

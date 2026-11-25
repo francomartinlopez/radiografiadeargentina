@@ -56,6 +56,7 @@ temas:
   20: "Criminalidad, violencia de género y homicidios"
   21: "Memoria y derechos humanos (1973–1983)"
   22: "Sistema previsional y AFJP"
+  23: "Minería"
 
 # Gobiernos para las franjas (fecha de asunción). Puerta, Rodríguez Saá y Camaño se agrupan.
 gobiernos:
@@ -5242,3 +5243,125 @@ graficos:
       - {nombre: "BCRA, Informe Mensual de Pagos Minoristas (septiembre de 2022 a agosto de 2026; un enlace por mes en el CSV)", url: "https://www.bcra.gob.ar/informe-de-pagos-minoristas/", nivel: primaria}
       - {nombre: "Infobae, Diario Uno y Mundo Empresarial sobre el mismo informe (diciembre de 2025, marzo a junio de 2026)", url: "https://www.infobae.com/economia/2026/05/01/crecieron-los-cheques-rechazados-por-falta-de-fondos-y-duplican-el-nivel-de-hace-un-ano/", nivel: secundaria}
     metodo: "Cheques físicos y electrónicos (ECHEQ) rechazados por el motivo sin fondos suficientes, sobre el total compensado en el mes. El BCRA publica el dato solo en el texto de su informe mensual en PDF; se tomó de cada informe disponible. Septiembre de 2023 se calculó con las cantidades y montos del cuadro del informe. Diciembre de 2025, mayo y junio de 2026 se tomaron de la prensa que cita el informe (fuente secundaria). Faltan julio, agosto y octubre a diciembre de 2023, abril de 2025 (monto también abril de 2026), febrero de 2026 y los meses posteriores a agosto de 2026: en esos tramos la línea se corta. Antes del período: en los 12 meses previos a la pandemia el promedio fue 1,14% en cantidad y en mayo de 2020 llegó a cerca de 6%. El original pedía también los pagarés, que no tienen estadística pública."
+
+  - id: mineria_produccion
+    tema: 23
+    titulo: "Producción minera"
+    que_muestra: "Índice de producción minera del INDEC: minería metalífera (oro, plata y otros metales), minerales no metalíferos (litio, arenas, cal, rocas) y, como referencia, petróleo y gas."
+    tipo: lineas
+    frecuencia: M
+    desde: "2017-01"
+    unidad: "índice 2016 = 100"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, interanual]
+    series:
+      - {serie: ipi_minero_metaliferos, nombre: "Minería metalífera"}
+      - {serie: ipi_minero_no_metaliferos, nombre: "Minerales no metalíferos y litio"}
+      - {serie: ipi_minero_petroleo, nombre: "Petróleo y gas (referencia)", color: gris}
+    fuentes: &fuente_ipi_minero
+      - {nombre: "INDEC, Índice de producción industrial minero (serie desde 2017)", url: "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipi_minero.xlsx", nivel: primaria}
+    metodo: "Índice de volumen físico de producción, base 2016 = 100, serie original (sin desestacionalizar). El INDEC lo publica cada mes con unos dos meses de rezago. La minería metalífera cae desde 2018 por el cierre de Bajo la Alumbrera (cobre y oro, Catamarca) y el agotamiento de otras minas de oro y plata; los no metalíferos crecen sobre todo por el litio."
+  - id: mineria_oro_plata_cobre
+    tema: 23
+    titulo: "Oro, plata y cobre: producción"
+    que_muestra: "Producción de las tres partes de la minería metalífera: concentrados de oro y plata, doré (barras de oro y plata sin refinar) y el resto de los metales, que incluye el cobre."
+    tipo: lineas
+    frecuencia: M
+    desde: "2017-01"
+    unidad: "índice 2016 = 100"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, interanual]
+    series:
+      - {serie: ipi_minero_oro_plata, nombre: "Oro y plata en concentrados"}
+      - {serie: ipi_minero_dore, nombre: "Doré (oro y plata sin refinar)"}
+      - {serie: ipi_minero_resto_metaliferos, nombre: "Resto (incluye cobre)"}
+    fuentes: *fuente_ipi_minero
+    metodo: "Subclases del índice de producción minera del INDEC, base 2016 = 100. El rubro que incluye el cobre (también hierro, plomo, cinc y molibdeno) casi desaparece desde que cerró Bajo la Alumbrera en 2018: hoy en el país no hay una mina de cobre en producción y el cobre aparece en proyectos. Algunos meses no se publican por secreto estadístico (pocas empresas) y la línea se corta."
+  - id: mineria_litio
+    tema: 23
+    titulo: "Producción de litio"
+    que_muestra: "Toneladas de carbonato de litio producidas cada mes."
+    tipo: lineas
+    frecuencia: M
+    desde: "2023-06"
+    unidad: "toneladas"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: nivel
+    medidas: [nivel, interanual, acumulado_12m]
+    series:
+      - {serie: carbonato_litio_t, nombre: "Carbonato de litio"}
+    fuentes: *fuente_ipi_minero
+    metodo: "Cuadro 7 de la serie del índice de producción minera del INDEC. Antes de junio de 2023 el dato no se publica por secreto estadístico (había muy pocas empresas productoras). No incluye otros compuestos de litio, como el cloruro o el hidróxido."
+  - id: mineria_exportaciones
+    tema: 23
+    titulo: "Exportaciones mineras"
+    que_muestra: "Ventas al exterior de la minería (oro, plata, litio y otros minerales), en millones de dólares de cada mes."
+    tipo: lineas
+    frecuencia: M
+    desde: "2022-09"
+    unidad: "millones de US$"
+    tipo_valor: flujo
+    flujo: true
+    medida_inicial: nivel
+    medidas: [nivel, interanual, acumulado_12m]
+    series:
+      - {serie: mineria_expo_nacional, nombre: "Exportaciones mineras"}
+    tramos:
+      - {desde: "2024-05", hasta: "2024-05", tipo: estimado}
+      - {desde: "2024-09", hasta: "2024-09", tipo: estimado}
+      - {desde: "2025-01", hasta: "2025-01", tipo: estimado}
+      - {desde: "2025-03", hasta: "2025-03", tipo: estimado}
+    fuentes:
+      - {nombre: "Secretaría de Minería, informe mensual Origen provincial de las exportaciones mineras (con datos de Aduana)", url: "https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf", nivel: primaria}
+    metodo: "Valor FOB de cada mes, tomado del texto del informe mensual de la Secretaría de Minería (sale a fin del mes siguiente). ⚠ Mayo y septiembre de 2024 y enero y marzo de 2025 no tienen informe publicado: se calculan restando los acumulados del año de los informes vecinos. Noviembre y diciembre de 2023 no se pueden reconstruir y la línea se corta. Los informes corrigen a veces los meses anteriores; se usa el primer dato publicado de cada mes."
+  - id: mineria_expo_provincias
+    tema: 23
+    titulo: "Exportaciones mineras por provincia"
+    que_muestra: "De qué provincias salen las exportaciones mineras: acumulado de enero a octubre de 2026, en millones de dólares."
+    tipo: barras
+    categorias: mineria_expo_provincias
+    unidad: "millones de US$"
+    tipo_valor: flujo
+    fuentes:
+      - {nombre: "Secretaría de Minería, informe Origen provincial de las exportaciones mineras, noviembre de 2026", url: "https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf", nivel: primaria}
+    metodo: "Acumulado de enero a octubre de 2026. El informe da Santa Cruz, San Juan y Jujuy por separado y Catamarca y Salta juntas (como parte de las provincias del NOA); el resto del país es la diferencia con el total nacional (USD 7.455 millones). Se actualiza a mano con cada informe."
+  - id: mineria_peso_provincias
+    tema: 23
+    titulo: "Cuánto pesa la minería en las exportaciones de cada provincia"
+    que_muestra: "Parte de las exportaciones de cada provincia minera que es minería, acumulado de enero a octubre de 2026."
+    tipo: barras
+    categorias: mineria_peso_provincias
+    unidad: "% de las exportaciones de la provincia"
+    tipo_valor: tasa
+    fuentes:
+      - {nombre: "Secretaría de Minería, informe Origen provincial de las exportaciones mineras, noviembre de 2026", url: "https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf", nivel: primaria}
+    metodo: "Exportaciones mineras sobre exportaciones totales de cada provincia, en dólares FOB, acumulado de enero a octubre de 2026. Se actualiza a mano con cada informe."
+  - id: mineria_complejos
+    tema: 23
+    titulo: "Exportaciones mineras por mineral"
+    que_muestra: "Exportaciones de los complejos mineros por año: oro y plata, litio, plomo y otros metales, en millones de dólares."
+    tipo: barras
+    categorias: mineria_complejos
+    unidad: "millones de US$"
+    tipo_valor: flujo
+    fuentes:
+      - {nombre: "INDEC, Complejos exportadores, año 2025 (cuadro 3)", url: "https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf", nivel: primaria}
+    metodo: "Complejos exportadores del INDEC: cada complejo junta el mineral y sus productos (por ejemplo, el complejo litio es casi todo carbonato de litio). 2023 a 2025 son datos provisorios. No se incluyen el aluminio ni el acero, que el INDEC agrupa con la minería metalífera pero son industria. No hay complejo del cobre porque desde 2019 casi no se exporta. Falta sumar los años anteriores a 2022 desde los informes de cada año."
+  - id: mineria_empleo
+    tema: 23
+    titulo: "Empleo en minería y petróleo"
+    que_muestra: "Asalariados registrados del sector privado en minería y petróleo (la serie oficial los junta)."
+    tipo: lineas
+    frecuencia: T
+    unidad: "personas"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, interanual]
+    series:
+      - {serie: empleo_mineria_petroleo, nombre: "Minería y petróleo"}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, SIPA: empleo registrado del sector privado por rama (vía datos.gob.ar)", url: "https://datos.gob.ar/series/api/series/?ids=155.1_MRIA_PELEO_C_0_0_16", nivel: primaria}
+    metodo: "Promedio trimestral de asalariados registrados. ⚠ Incluye la extracción de petróleo y gas y sus servicios, que son la mayor parte; el empleo solo minero por provincia lo publica la Secretaría de Minería en archivos que hoy no se pueden descargar en forma automática."
