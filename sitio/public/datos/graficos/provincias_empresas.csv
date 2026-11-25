@@ -1,0 +1,726 @@
+serie,fecha,valor,tramo
+Buenos Aires,1996-01-01,134902.0,observado
+Buenos Aires,1997-01-01,136148.0,observado
+Buenos Aires,1998-01-01,137023.0,observado
+Buenos Aires,1999-01-01,139089.0,observado
+Buenos Aires,2000-01-01,131686.0,observado
+Buenos Aires,2001-01-01,125679.0,observado
+Buenos Aires,2002-01-01,119376.0,observado
+Buenos Aires,2003-01-01,128959.0,observado
+Buenos Aires,2004-01-01,152313.0,observado
+Buenos Aires,2005-01-01,166083.0,observado
+Buenos Aires,2006-01-01,179302.0,observado
+Buenos Aires,2007-01-01,188763.0,observado
+Buenos Aires,2008-01-01,196058.0,observado
+Buenos Aires,2009-01-01,197295.0,observado
+Buenos Aires,2010-01-01,200301.0,observado
+Buenos Aires,2011-01-01,203643.0,observado
+Buenos Aires,2012-01-01,204094.0,observado
+Buenos Aires,2013-01-01,203746.0,observado
+Buenos Aires,2014-01-01,202344.0,observado
+Buenos Aires,2015-01-01,203439.0,observado
+Buenos Aires,2016-01-01,203299.0,observado
+Buenos Aires,2017-01-01,203860.0,observado
+Buenos Aires,2018-01-01,199277.0,observado
+Buenos Aires,2019-01-01,193709.0,observado
+Buenos Aires,2020-01-01,185043.0,observado
+Buenos Aires,2021-01-01,185620.0,observado
+Buenos Aires,2022-01-01,198246.0,observado
+Buenos Aires,2023-01-01,197857.0,observado
+Buenos Aires,2024-01-01,193912.0,observado
+CABA,1996-01-01,115152.0,observado
+CABA,1997-01-01,119538.0,observado
+CABA,1998-01-01,119894.0,observado
+CABA,1999-01-01,118301.0,observado
+CABA,2000-01-01,109961.0,observado
+CABA,2001-01-01,106455.0,observado
+CABA,2002-01-01,101330.0,observado
+CABA,2003-01-01,106533.0,observado
+CABA,2004-01-01,121217.0,observado
+CABA,2005-01-01,127423.0,observado
+CABA,2006-01-01,132900.0,observado
+CABA,2007-01-01,137278.0,observado
+CABA,2008-01-01,139624.0,observado
+CABA,2009-01-01,139629.0,observado
+CABA,2010-01-01,141357.0,observado
+CABA,2011-01-01,142598.0,observado
+CABA,2012-01-01,142540.0,observado
+CABA,2013-01-01,142765.0,observado
+CABA,2014-01-01,142323.0,observado
+CABA,2015-01-01,143253.0,observado
+CABA,2016-01-01,142948.0,observado
+CABA,2017-01-01,143321.0,observado
+CABA,2018-01-01,141717.0,observado
+CABA,2019-01-01,138366.0,observado
+CABA,2020-01-01,132560.0,observado
+CABA,2021-01-01,131244.0,observado
+CABA,2022-01-01,137664.0,observado
+CABA,2023-01-01,136335.0,observado
+CABA,2024-01-01,135236.0,observado
+Córdoba,1996-01-01,38623.0,observado
+Córdoba,1997-01-01,39230.0,observado
+Córdoba,1998-01-01,39505.0,observado
+Córdoba,1999-01-01,38978.0,observado
+Córdoba,2000-01-01,39044.0,observado
+Córdoba,2001-01-01,38481.0,observado
+Córdoba,2002-01-01,37024.0,observado
+Córdoba,2003-01-01,41077.0,observado
+Córdoba,2004-01-01,46810.0,observado
+Córdoba,2005-01-01,50762.0,observado
+Córdoba,2006-01-01,54631.0,observado
+Córdoba,2007-01-01,57882.0,observado
+Córdoba,2008-01-01,60587.0,observado
+Córdoba,2009-01-01,60992.0,observado
+Córdoba,2010-01-01,61367.0,observado
+Córdoba,2011-01-01,62237.0,observado
+Córdoba,2012-01-01,62164.0,observado
+Córdoba,2013-01-01,61531.0,observado
+Córdoba,2014-01-01,60731.0,observado
+Córdoba,2015-01-01,60184.0,observado
+Córdoba,2016-01-01,60113.0,observado
+Córdoba,2017-01-01,60018.0,observado
+Córdoba,2018-01-01,59226.0,observado
+Córdoba,2019-01-01,57532.0,observado
+Córdoba,2020-01-01,54402.0,observado
+Córdoba,2021-01-01,54504.0,observado
+Córdoba,2022-01-01,57121.0,observado
+Córdoba,2023-01-01,58274.0,observado
+Córdoba,2024-01-01,55365.0,observado
+Santa Fe,1996-01-01,39555.0,observado
+Santa Fe,1997-01-01,40156.0,observado
+Santa Fe,1998-01-01,40242.0,observado
+Santa Fe,1999-01-01,40871.0,observado
+Santa Fe,2000-01-01,40602.0,observado
+Santa Fe,2001-01-01,39475.0,observado
+Santa Fe,2002-01-01,37552.0,observado
+Santa Fe,2003-01-01,40927.0,observado
+Santa Fe,2004-01-01,45550.0,observado
+Santa Fe,2005-01-01,49338.0,observado
+Santa Fe,2006-01-01,52362.0,observado
+Santa Fe,2007-01-01,54725.0,observado
+Santa Fe,2008-01-01,56489.0,observado
+Santa Fe,2009-01-01,56433.0,observado
+Santa Fe,2010-01-01,57296.0,observado
+Santa Fe,2011-01-01,58869.0,observado
+Santa Fe,2012-01-01,58825.0,observado
+Santa Fe,2013-01-01,58787.0,observado
+Santa Fe,2014-01-01,58198.0,observado
+Santa Fe,2015-01-01,57949.0,observado
+Santa Fe,2016-01-01,57368.0,observado
+Santa Fe,2017-01-01,57387.0,observado
+Santa Fe,2018-01-01,56391.0,observado
+Santa Fe,2019-01-01,54843.0,observado
+Santa Fe,2020-01-01,53036.0,observado
+Santa Fe,2021-01-01,53359.0,observado
+Santa Fe,2022-01-01,54542.0,observado
+Santa Fe,2023-01-01,54032.0,observado
+Santa Fe,2024-01-01,52602.0,observado
+Neuquén,1996-01-01,5298.0,observado
+Neuquén,1997-01-01,5356.0,observado
+Neuquén,1998-01-01,6028.0,observado
+Neuquén,1999-01-01,5903.0,observado
+Neuquén,2000-01-01,5361.0,observado
+Neuquén,2001-01-01,5213.0,observado
+Neuquén,2002-01-01,4960.0,observado
+Neuquén,2003-01-01,5437.0,observado
+Neuquén,2004-01-01,6658.0,observado
+Neuquén,2005-01-01,7361.0,observado
+Neuquén,2006-01-01,7998.0,observado
+Neuquén,2007-01-01,8496.0,observado
+Neuquén,2008-01-01,8989.0,observado
+Neuquén,2009-01-01,9059.0,observado
+Neuquén,2010-01-01,9056.0,observado
+Neuquén,2011-01-01,9189.0,observado
+Neuquén,2012-01-01,9254.0,observado
+Neuquén,2013-01-01,9567.0,observado
+Neuquén,2014-01-01,9660.0,observado
+Neuquén,2015-01-01,9964.0,observado
+Neuquén,2016-01-01,10010.0,observado
+Neuquén,2017-01-01,10013.0,observado
+Neuquén,2018-01-01,9948.0,observado
+Neuquén,2019-01-01,9931.0,observado
+Neuquén,2020-01-01,9571.0,observado
+Neuquén,2021-01-01,9696.0,observado
+Neuquén,2022-01-01,10165.0,observado
+Neuquén,2023-01-01,10302.0,observado
+Neuquén,2024-01-01,10364.0,observado
+Mendoza,1996-01-01,18090.0,observado
+Mendoza,1997-01-01,18305.0,observado
+Mendoza,1998-01-01,18152.0,observado
+Mendoza,1999-01-01,18208.0,observado
+Mendoza,2000-01-01,17954.0,observado
+Mendoza,2001-01-01,17238.0,observado
+Mendoza,2002-01-01,16322.0,observado
+Mendoza,2003-01-01,17603.0,observado
+Mendoza,2004-01-01,19553.0,observado
+Mendoza,2005-01-01,21249.0,observado
+Mendoza,2006-01-01,22639.0,observado
+Mendoza,2007-01-01,23908.0,observado
+Mendoza,2008-01-01,24683.0,observado
+Mendoza,2009-01-01,24819.0,observado
+Mendoza,2010-01-01,25212.0,observado
+Mendoza,2011-01-01,26120.0,observado
+Mendoza,2012-01-01,26746.0,observado
+Mendoza,2013-01-01,27391.0,observado
+Mendoza,2014-01-01,27537.0,observado
+Mendoza,2015-01-01,27941.0,observado
+Mendoza,2016-01-01,28484.0,observado
+Mendoza,2017-01-01,29812.0,observado
+Mendoza,2018-01-01,29954.0,observado
+Mendoza,2019-01-01,26845.0,observado
+Mendoza,2020-01-01,25290.0,observado
+Mendoza,2021-01-01,26531.0,observado
+Mendoza,2022-01-01,27933.0,observado
+Mendoza,2023-01-01,24793.0,observado
+Mendoza,2024-01-01,23944.0,observado
+Chubut,1996-01-01,4432.0,observado
+Chubut,1997-01-01,4559.0,observado
+Chubut,1998-01-01,5469.0,observado
+Chubut,1999-01-01,6023.0,observado
+Chubut,2000-01-01,6648.0,observado
+Chubut,2001-01-01,6328.0,observado
+Chubut,2002-01-01,6010.0,observado
+Chubut,2003-01-01,6557.0,observado
+Chubut,2004-01-01,7366.0,observado
+Chubut,2005-01-01,7945.0,observado
+Chubut,2006-01-01,8428.0,observado
+Chubut,2007-01-01,8758.0,observado
+Chubut,2008-01-01,9087.0,observado
+Chubut,2009-01-01,9158.0,observado
+Chubut,2010-01-01,9367.0,observado
+Chubut,2011-01-01,9470.0,observado
+Chubut,2012-01-01,9487.0,observado
+Chubut,2013-01-01,9474.0,observado
+Chubut,2014-01-01,9553.0,observado
+Chubut,2015-01-01,9656.0,observado
+Chubut,2016-01-01,9634.0,observado
+Chubut,2017-01-01,9501.0,observado
+Chubut,2018-01-01,9253.0,observado
+Chubut,2019-01-01,9016.0,observado
+Chubut,2020-01-01,8687.0,observado
+Chubut,2021-01-01,8757.0,observado
+Chubut,2022-01-01,9164.0,observado
+Chubut,2023-01-01,8956.0,observado
+Chubut,2024-01-01,8686.0,observado
+Santa Cruz,1996-01-01,2507.0,observado
+Santa Cruz,1997-01-01,2548.0,observado
+Santa Cruz,1998-01-01,2781.0,observado
+Santa Cruz,1999-01-01,2756.0,observado
+Santa Cruz,2000-01-01,2686.0,observado
+Santa Cruz,2001-01-01,2553.0,observado
+Santa Cruz,2002-01-01,2448.0,observado
+Santa Cruz,2003-01-01,2656.0,observado
+Santa Cruz,2004-01-01,3156.0,observado
+Santa Cruz,2005-01-01,3520.0,observado
+Santa Cruz,2006-01-01,3789.0,observado
+Santa Cruz,2007-01-01,4009.0,observado
+Santa Cruz,2008-01-01,4252.0,observado
+Santa Cruz,2009-01-01,4231.0,observado
+Santa Cruz,2010-01-01,4432.0,observado
+Santa Cruz,2011-01-01,4673.0,observado
+Santa Cruz,2012-01-01,4733.0,observado
+Santa Cruz,2013-01-01,4780.0,observado
+Santa Cruz,2014-01-01,4875.0,observado
+Santa Cruz,2015-01-01,4941.0,observado
+Santa Cruz,2016-01-01,4804.0,observado
+Santa Cruz,2017-01-01,4749.0,observado
+Santa Cruz,2018-01-01,4561.0,observado
+Santa Cruz,2019-01-01,4402.0,observado
+Santa Cruz,2020-01-01,4050.0,observado
+Santa Cruz,2021-01-01,4232.0,observado
+Santa Cruz,2022-01-01,4546.0,observado
+Santa Cruz,2023-01-01,4576.0,observado
+Santa Cruz,2024-01-01,4536.0,observado
+Río Negro,1996-01-01,7578.0,observado
+Río Negro,1997-01-01,7536.0,observado
+Río Negro,1998-01-01,7439.0,observado
+Río Negro,1999-01-01,7513.0,observado
+Río Negro,2000-01-01,7323.0,observado
+Río Negro,2001-01-01,7030.0,observado
+Río Negro,2002-01-01,6749.0,observado
+Río Negro,2003-01-01,7433.0,observado
+Río Negro,2004-01-01,8746.0,observado
+Río Negro,2005-01-01,9498.0,observado
+Río Negro,2006-01-01,10106.0,observado
+Río Negro,2007-01-01,10635.0,observado
+Río Negro,2008-01-01,11141.0,observado
+Río Negro,2009-01-01,11167.0,observado
+Río Negro,2010-01-01,11162.0,observado
+Río Negro,2011-01-01,11358.0,observado
+Río Negro,2012-01-01,11409.0,observado
+Río Negro,2013-01-01,11562.0,observado
+Río Negro,2014-01-01,11618.0,observado
+Río Negro,2015-01-01,11830.0,observado
+Río Negro,2016-01-01,11906.0,observado
+Río Negro,2017-01-01,11763.0,observado
+Río Negro,2018-01-01,11473.0,observado
+Río Negro,2019-01-01,11108.0,observado
+Río Negro,2020-01-01,10636.0,observado
+Río Negro,2021-01-01,10770.0,observado
+Río Negro,2022-01-01,11413.0,observado
+Río Negro,2023-01-01,11359.0,observado
+Río Negro,2024-01-01,11098.0,observado
+San Juan,1996-01-01,4927.0,observado
+San Juan,1997-01-01,5158.0,observado
+San Juan,1998-01-01,5477.0,observado
+San Juan,1999-01-01,5650.0,observado
+San Juan,2000-01-01,5569.0,observado
+San Juan,2001-01-01,5394.0,observado
+San Juan,2002-01-01,5018.0,observado
+San Juan,2003-01-01,5294.0,observado
+San Juan,2004-01-01,5745.0,observado
+San Juan,2005-01-01,6136.0,observado
+San Juan,2006-01-01,6593.0,observado
+San Juan,2007-01-01,6954.0,observado
+San Juan,2008-01-01,7281.0,observado
+San Juan,2009-01-01,7538.0,observado
+San Juan,2010-01-01,7817.0,observado
+San Juan,2011-01-01,7932.0,observado
+San Juan,2012-01-01,8049.0,observado
+San Juan,2013-01-01,8113.0,observado
+San Juan,2014-01-01,8070.0,observado
+San Juan,2015-01-01,8055.0,observado
+San Juan,2016-01-01,8017.0,observado
+San Juan,2017-01-01,8022.0,observado
+San Juan,2018-01-01,7900.0,observado
+San Juan,2019-01-01,7651.0,observado
+San Juan,2020-01-01,7194.0,observado
+San Juan,2021-01-01,7229.0,observado
+San Juan,2022-01-01,7653.0,observado
+San Juan,2023-01-01,7577.0,observado
+San Juan,2024-01-01,7466.0,observado
+Catamarca,1996-01-01,2134.0,observado
+Catamarca,1997-01-01,2204.0,observado
+Catamarca,1998-01-01,2202.0,observado
+Catamarca,1999-01-01,2208.0,observado
+Catamarca,2000-01-01,2160.0,observado
+Catamarca,2001-01-01,2156.0,observado
+Catamarca,2002-01-01,1998.0,observado
+Catamarca,2003-01-01,2185.0,observado
+Catamarca,2004-01-01,2363.0,observado
+Catamarca,2005-01-01,2595.0,observado
+Catamarca,2006-01-01,2841.0,observado
+Catamarca,2007-01-01,3030.0,observado
+Catamarca,2008-01-01,3202.0,observado
+Catamarca,2009-01-01,3155.0,observado
+Catamarca,2010-01-01,3269.0,observado
+Catamarca,2011-01-01,3332.0,observado
+Catamarca,2012-01-01,3387.0,observado
+Catamarca,2013-01-01,3457.0,observado
+Catamarca,2014-01-01,3438.0,observado
+Catamarca,2015-01-01,3517.0,observado
+Catamarca,2016-01-01,3496.0,observado
+Catamarca,2017-01-01,3724.0,observado
+Catamarca,2018-01-01,3534.0,observado
+Catamarca,2019-01-01,3293.0,observado
+Catamarca,2020-01-01,3123.0,observado
+Catamarca,2021-01-01,3165.0,observado
+Catamarca,2022-01-01,3564.0,observado
+Catamarca,2023-01-01,3906.0,observado
+Catamarca,2024-01-01,3590.0,observado
+Jujuy,1996-01-01,3063.0,observado
+Jujuy,1997-01-01,3068.0,observado
+Jujuy,1998-01-01,3142.0,observado
+Jujuy,1999-01-01,3188.0,observado
+Jujuy,2000-01-01,3300.0,observado
+Jujuy,2001-01-01,3142.0,observado
+Jujuy,2002-01-01,2980.0,observado
+Jujuy,2003-01-01,3122.0,observado
+Jujuy,2004-01-01,3394.0,observado
+Jujuy,2005-01-01,3658.0,observado
+Jujuy,2006-01-01,4031.0,observado
+Jujuy,2007-01-01,4283.0,observado
+Jujuy,2008-01-01,4603.0,observado
+Jujuy,2009-01-01,4912.0,observado
+Jujuy,2010-01-01,5136.0,observado
+Jujuy,2011-01-01,5177.0,observado
+Jujuy,2012-01-01,5223.0,observado
+Jujuy,2013-01-01,5282.0,observado
+Jujuy,2014-01-01,5335.0,observado
+Jujuy,2015-01-01,5437.0,observado
+Jujuy,2016-01-01,5500.0,observado
+Jujuy,2017-01-01,5580.0,observado
+Jujuy,2018-01-01,5569.0,observado
+Jujuy,2019-01-01,5336.0,observado
+Jujuy,2020-01-01,5131.0,observado
+Jujuy,2021-01-01,5175.0,observado
+Jujuy,2022-01-01,5420.0,observado
+Jujuy,2023-01-01,5491.0,observado
+Jujuy,2024-01-01,5337.0,observado
+Salta,1996-01-01,5790.0,observado
+Salta,1997-01-01,6153.0,observado
+Salta,1998-01-01,6001.0,observado
+Salta,1999-01-01,6391.0,observado
+Salta,2000-01-01,6821.0,observado
+Salta,2001-01-01,6515.0,observado
+Salta,2002-01-01,6014.0,observado
+Salta,2003-01-01,6347.0,observado
+Salta,2004-01-01,6941.0,observado
+Salta,2005-01-01,7508.0,observado
+Salta,2006-01-01,8144.0,observado
+Salta,2007-01-01,8818.0,observado
+Salta,2008-01-01,9336.0,observado
+Salta,2009-01-01,9827.0,observado
+Salta,2010-01-01,10273.0,observado
+Salta,2011-01-01,10750.0,observado
+Salta,2012-01-01,10709.0,observado
+Salta,2013-01-01,10978.0,observado
+Salta,2014-01-01,10925.0,observado
+Salta,2015-01-01,11098.0,observado
+Salta,2016-01-01,11136.0,observado
+Salta,2017-01-01,11251.0,observado
+Salta,2018-01-01,10980.0,observado
+Salta,2019-01-01,10529.0,observado
+Salta,2020-01-01,9989.0,observado
+Salta,2021-01-01,10072.0,observado
+Salta,2022-01-01,10431.0,observado
+Salta,2023-01-01,10554.0,observado
+Salta,2024-01-01,10383.0,observado
+Santa Cruz,1996-01-01,2507.0,observado
+Santa Cruz,1997-01-01,2548.0,observado
+Santa Cruz,1998-01-01,2781.0,observado
+Santa Cruz,1999-01-01,2756.0,observado
+Santa Cruz,2000-01-01,2686.0,observado
+Santa Cruz,2001-01-01,2553.0,observado
+Santa Cruz,2002-01-01,2448.0,observado
+Santa Cruz,2003-01-01,2656.0,observado
+Santa Cruz,2004-01-01,3156.0,observado
+Santa Cruz,2005-01-01,3520.0,observado
+Santa Cruz,2006-01-01,3789.0,observado
+Santa Cruz,2007-01-01,4009.0,observado
+Santa Cruz,2008-01-01,4252.0,observado
+Santa Cruz,2009-01-01,4231.0,observado
+Santa Cruz,2010-01-01,4432.0,observado
+Santa Cruz,2011-01-01,4673.0,observado
+Santa Cruz,2012-01-01,4733.0,observado
+Santa Cruz,2013-01-01,4780.0,observado
+Santa Cruz,2014-01-01,4875.0,observado
+Santa Cruz,2015-01-01,4941.0,observado
+Santa Cruz,2016-01-01,4804.0,observado
+Santa Cruz,2017-01-01,4749.0,observado
+Santa Cruz,2018-01-01,4561.0,observado
+Santa Cruz,2019-01-01,4402.0,observado
+Santa Cruz,2020-01-01,4050.0,observado
+Santa Cruz,2021-01-01,4232.0,observado
+Santa Cruz,2022-01-01,4546.0,observado
+Santa Cruz,2023-01-01,4576.0,observado
+Santa Cruz,2024-01-01,4536.0,observado
+Chaco,1996-01-01,8548.0,observado
+Chaco,1997-01-01,8358.0,observado
+Chaco,1998-01-01,8194.0,observado
+Chaco,1999-01-01,8128.0,observado
+Chaco,2000-01-01,8437.0,observado
+Chaco,2001-01-01,7592.0,observado
+Chaco,2002-01-01,6725.0,observado
+Chaco,2003-01-01,6853.0,observado
+Chaco,2004-01-01,7211.0,observado
+Chaco,2005-01-01,7495.0,observado
+Chaco,2006-01-01,7965.0,observado
+Chaco,2007-01-01,8303.0,observado
+Chaco,2008-01-01,8887.0,observado
+Chaco,2009-01-01,9101.0,observado
+Chaco,2010-01-01,8749.0,observado
+Chaco,2011-01-01,9358.0,observado
+Chaco,2012-01-01,9534.0,observado
+Chaco,2013-01-01,9728.0,observado
+Chaco,2014-01-01,9651.0,observado
+Chaco,2015-01-01,9701.0,observado
+Chaco,2016-01-01,9852.0,observado
+Chaco,2017-01-01,9840.0,observado
+Chaco,2018-01-01,9763.0,observado
+Chaco,2019-01-01,9365.0,observado
+Chaco,2020-01-01,9017.0,observado
+Chaco,2021-01-01,9028.0,observado
+Chaco,2022-01-01,9717.0,observado
+Chaco,2023-01-01,10311.0,observado
+Chaco,2024-01-01,9574.0,observado
+Corrientes,1996-01-01,6595.0,observado
+Corrientes,1997-01-01,6496.0,observado
+Corrientes,1998-01-01,6643.0,observado
+Corrientes,1999-01-01,6569.0,observado
+Corrientes,2000-01-01,6124.0,observado
+Corrientes,2001-01-01,5963.0,observado
+Corrientes,2002-01-01,5559.0,observado
+Corrientes,2003-01-01,5891.0,observado
+Corrientes,2004-01-01,6449.0,observado
+Corrientes,2005-01-01,7313.0,observado
+Corrientes,2006-01-01,7680.0,observado
+Corrientes,2007-01-01,8033.0,observado
+Corrientes,2008-01-01,8530.0,observado
+Corrientes,2009-01-01,8673.0,observado
+Corrientes,2010-01-01,8859.0,observado
+Corrientes,2011-01-01,9325.0,observado
+Corrientes,2012-01-01,9443.0,observado
+Corrientes,2013-01-01,9558.0,observado
+Corrientes,2014-01-01,9615.0,observado
+Corrientes,2015-01-01,9730.0,observado
+Corrientes,2016-01-01,9808.0,observado
+Corrientes,2017-01-01,9880.0,observado
+Corrientes,2018-01-01,9768.0,observado
+Corrientes,2019-01-01,9470.0,observado
+Corrientes,2020-01-01,9095.0,observado
+Corrientes,2021-01-01,9182.0,observado
+Corrientes,2022-01-01,10136.0,observado
+Corrientes,2023-01-01,10509.0,observado
+Corrientes,2024-01-01,9602.0,observado
+Formosa,1996-01-01,1976.0,observado
+Formosa,1997-01-01,1947.0,observado
+Formosa,1998-01-01,1951.0,observado
+Formosa,1999-01-01,2023.0,observado
+Formosa,2000-01-01,2203.0,observado
+Formosa,2001-01-01,2011.0,observado
+Formosa,2002-01-01,1883.0,observado
+Formosa,2003-01-01,1964.0,observado
+Formosa,2004-01-01,2058.0,observado
+Formosa,2005-01-01,2264.0,observado
+Formosa,2006-01-01,2451.0,observado
+Formosa,2007-01-01,2592.0,observado
+Formosa,2008-01-01,2769.0,observado
+Formosa,2009-01-01,2804.0,observado
+Formosa,2010-01-01,2918.0,observado
+Formosa,2011-01-01,3004.0,observado
+Formosa,2012-01-01,3008.0,observado
+Formosa,2013-01-01,3040.0,observado
+Formosa,2014-01-01,3048.0,observado
+Formosa,2015-01-01,3073.0,observado
+Formosa,2016-01-01,3097.0,observado
+Formosa,2017-01-01,3086.0,observado
+Formosa,2018-01-01,2990.0,observado
+Formosa,2019-01-01,2886.0,observado
+Formosa,2020-01-01,2793.0,observado
+Formosa,2021-01-01,2799.0,observado
+Formosa,2022-01-01,2961.0,observado
+Formosa,2023-01-01,2926.0,observado
+Formosa,2024-01-01,2807.0,observado
+Misiones,1996-01-01,6485.0,observado
+Misiones,1997-01-01,6606.0,observado
+Misiones,1998-01-01,6432.0,observado
+Misiones,1999-01-01,6577.0,observado
+Misiones,2000-01-01,6437.0,observado
+Misiones,2001-01-01,6132.0,observado
+Misiones,2002-01-01,5712.0,observado
+Misiones,2003-01-01,6301.0,observado
+Misiones,2004-01-01,7112.0,observado
+Misiones,2005-01-01,7770.0,observado
+Misiones,2006-01-01,8422.0,observado
+Misiones,2007-01-01,8818.0,observado
+Misiones,2008-01-01,9187.0,observado
+Misiones,2009-01-01,9242.0,observado
+Misiones,2010-01-01,9441.0,observado
+Misiones,2011-01-01,9652.0,observado
+Misiones,2012-01-01,9728.0,observado
+Misiones,2013-01-01,10054.0,observado
+Misiones,2014-01-01,10157.0,observado
+Misiones,2015-01-01,10317.0,observado
+Misiones,2016-01-01,10254.0,observado
+Misiones,2017-01-01,10504.0,observado
+Misiones,2018-01-01,10391.0,observado
+Misiones,2019-01-01,10045.0,observado
+Misiones,2020-01-01,9785.0,observado
+Misiones,2021-01-01,9983.0,observado
+Misiones,2022-01-01,10631.0,observado
+Misiones,2023-01-01,10981.0,observado
+Misiones,2024-01-01,10303.0,observado
+Santiago del Estero,1996-01-01,3862.0,observado
+Santiago del Estero,1997-01-01,3847.0,observado
+Santiago del Estero,1998-01-01,3700.0,observado
+Santiago del Estero,1999-01-01,3809.0,observado
+Santiago del Estero,2000-01-01,3738.0,observado
+Santiago del Estero,2001-01-01,3612.0,observado
+Santiago del Estero,2002-01-01,3337.0,observado
+Santiago del Estero,2003-01-01,3573.0,observado
+Santiago del Estero,2004-01-01,3890.0,observado
+Santiago del Estero,2005-01-01,4303.0,observado
+Santiago del Estero,2006-01-01,4618.0,observado
+Santiago del Estero,2007-01-01,5033.0,observado
+Santiago del Estero,2008-01-01,5278.0,observado
+Santiago del Estero,2009-01-01,5526.0,observado
+Santiago del Estero,2010-01-01,5731.0,observado
+Santiago del Estero,2011-01-01,5954.0,observado
+Santiago del Estero,2012-01-01,6067.0,observado
+Santiago del Estero,2013-01-01,6094.0,observado
+Santiago del Estero,2014-01-01,6138.0,observado
+Santiago del Estero,2015-01-01,6233.0,observado
+Santiago del Estero,2016-01-01,6321.0,observado
+Santiago del Estero,2017-01-01,6507.0,observado
+Santiago del Estero,2018-01-01,6519.0,observado
+Santiago del Estero,2019-01-01,6126.0,observado
+Santiago del Estero,2020-01-01,5808.0,observado
+Santiago del Estero,2021-01-01,5901.0,observado
+Santiago del Estero,2022-01-01,6678.0,observado
+Santiago del Estero,2023-01-01,6490.0,observado
+Santiago del Estero,2024-01-01,6377.0,observado
+Tucumán,1996-01-01,7443.0,observado
+Tucumán,1997-01-01,7657.0,observado
+Tucumán,1998-01-01,7734.0,observado
+Tucumán,1999-01-01,7839.0,observado
+Tucumán,2000-01-01,8023.0,observado
+Tucumán,2001-01-01,7810.0,observado
+Tucumán,2002-01-01,7496.0,observado
+Tucumán,2003-01-01,8020.0,observado
+Tucumán,2004-01-01,8956.0,observado
+Tucumán,2005-01-01,9496.0,observado
+Tucumán,2006-01-01,10499.0,observado
+Tucumán,2007-01-01,12336.0,observado
+Tucumán,2008-01-01,13776.0,observado
+Tucumán,2009-01-01,13918.0,observado
+Tucumán,2010-01-01,13753.0,observado
+Tucumán,2011-01-01,13940.0,observado
+Tucumán,2012-01-01,13883.0,observado
+Tucumán,2013-01-01,13854.0,observado
+Tucumán,2014-01-01,13732.0,observado
+Tucumán,2015-01-01,13661.0,observado
+Tucumán,2016-01-01,13628.0,observado
+Tucumán,2017-01-01,13668.0,observado
+Tucumán,2018-01-01,13298.0,observado
+Tucumán,2019-01-01,12908.0,observado
+Tucumán,2020-01-01,12251.0,observado
+Tucumán,2021-01-01,12098.0,observado
+Tucumán,2022-01-01,12356.0,observado
+Tucumán,2023-01-01,12212.0,observado
+Tucumán,2024-01-01,12230.0,observado
+La Rioja,1996-01-01,1783.0,observado
+La Rioja,1997-01-01,1892.0,observado
+La Rioja,1998-01-01,1976.0,observado
+La Rioja,1999-01-01,2026.0,observado
+La Rioja,2000-01-01,2007.0,observado
+La Rioja,2001-01-01,2026.0,observado
+La Rioja,2002-01-01,1863.0,observado
+La Rioja,2003-01-01,1930.0,observado
+La Rioja,2004-01-01,2094.0,observado
+La Rioja,2005-01-01,2244.0,observado
+La Rioja,2006-01-01,2346.0,observado
+La Rioja,2007-01-01,2522.0,observado
+La Rioja,2008-01-01,2574.0,observado
+La Rioja,2009-01-01,2626.0,observado
+La Rioja,2010-01-01,2739.0,observado
+La Rioja,2011-01-01,2795.0,observado
+La Rioja,2012-01-01,2754.0,observado
+La Rioja,2013-01-01,2797.0,observado
+La Rioja,2014-01-01,2796.0,observado
+La Rioja,2015-01-01,2816.0,observado
+La Rioja,2016-01-01,2861.0,observado
+La Rioja,2017-01-01,2858.0,observado
+La Rioja,2018-01-01,2823.0,observado
+La Rioja,2019-01-01,2683.0,observado
+La Rioja,2020-01-01,2561.0,observado
+La Rioja,2021-01-01,2604.0,observado
+La Rioja,2022-01-01,3017.0,observado
+La Rioja,2023-01-01,3388.0,observado
+La Rioja,2024-01-01,3082.0,observado
+Entre Ríos,1996-01-01,12895.0,observado
+Entre Ríos,1997-01-01,13189.0,observado
+Entre Ríos,1998-01-01,13076.0,observado
+Entre Ríos,1999-01-01,12898.0,observado
+Entre Ríos,2000-01-01,12698.0,observado
+Entre Ríos,2001-01-01,12342.0,observado
+Entre Ríos,2002-01-01,11668.0,observado
+Entre Ríos,2003-01-01,12729.0,observado
+Entre Ríos,2004-01-01,14284.0,observado
+Entre Ríos,2005-01-01,15657.0,observado
+Entre Ríos,2006-01-01,16879.0,observado
+Entre Ríos,2007-01-01,17882.0,observado
+Entre Ríos,2008-01-01,18756.0,observado
+Entre Ríos,2009-01-01,18665.0,observado
+Entre Ríos,2010-01-01,19053.0,observado
+Entre Ríos,2011-01-01,19583.0,observado
+Entre Ríos,2012-01-01,19501.0,observado
+Entre Ríos,2013-01-01,19376.0,observado
+Entre Ríos,2014-01-01,19074.0,observado
+Entre Ríos,2015-01-01,19028.0,observado
+Entre Ríos,2016-01-01,18801.0,observado
+Entre Ríos,2017-01-01,18792.0,observado
+Entre Ríos,2018-01-01,18289.0,observado
+Entre Ríos,2019-01-01,17764.0,observado
+Entre Ríos,2020-01-01,17317.0,observado
+Entre Ríos,2021-01-01,17426.0,observado
+Entre Ríos,2022-01-01,18354.0,observado
+Entre Ríos,2023-01-01,18785.0,observado
+Entre Ríos,2024-01-01,18033.0,observado
+La Pampa,1996-01-01,6059.0,observado
+La Pampa,1997-01-01,6046.0,observado
+La Pampa,1998-01-01,5924.0,observado
+La Pampa,1999-01-01,5738.0,observado
+La Pampa,2000-01-01,5523.0,observado
+La Pampa,2001-01-01,5402.0,observado
+La Pampa,2002-01-01,5249.0,observado
+La Pampa,2003-01-01,5598.0,observado
+La Pampa,2004-01-01,6212.0,observado
+La Pampa,2005-01-01,6736.0,observado
+La Pampa,2006-01-01,7053.0,observado
+La Pampa,2007-01-01,7333.0,observado
+La Pampa,2008-01-01,7435.0,observado
+La Pampa,2009-01-01,7191.0,observado
+La Pampa,2010-01-01,7150.0,observado
+La Pampa,2011-01-01,7312.0,observado
+La Pampa,2012-01-01,7310.0,observado
+La Pampa,2013-01-01,7299.0,observado
+La Pampa,2014-01-01,7116.0,observado
+La Pampa,2015-01-01,7079.0,observado
+La Pampa,2016-01-01,7158.0,observado
+La Pampa,2017-01-01,7160.0,observado
+La Pampa,2018-01-01,7065.0,observado
+La Pampa,2019-01-01,6941.0,observado
+La Pampa,2020-01-01,6703.0,observado
+La Pampa,2021-01-01,6779.0,observado
+La Pampa,2022-01-01,7176.0,observado
+La Pampa,2023-01-01,7182.0,observado
+La Pampa,2024-01-01,6912.0,observado
+San Luis,1996-01-01,3498.0,observado
+San Luis,1997-01-01,3530.0,observado
+San Luis,1998-01-01,4125.0,observado
+San Luis,1999-01-01,4219.0,observado
+San Luis,2000-01-01,3623.0,observado
+San Luis,2001-01-01,3544.0,observado
+San Luis,2002-01-01,3473.0,observado
+San Luis,2003-01-01,3769.0,observado
+San Luis,2004-01-01,4021.0,observado
+San Luis,2005-01-01,4279.0,observado
+San Luis,2006-01-01,4563.0,observado
+San Luis,2007-01-01,4863.0,observado
+San Luis,2008-01-01,5024.0,observado
+San Luis,2009-01-01,5264.0,observado
+San Luis,2010-01-01,5421.0,observado
+San Luis,2011-01-01,5655.0,observado
+San Luis,2012-01-01,5743.0,observado
+San Luis,2013-01-01,5840.0,observado
+San Luis,2014-01-01,5787.0,observado
+San Luis,2015-01-01,5951.0,observado
+San Luis,2016-01-01,5876.0,observado
+San Luis,2017-01-01,5919.0,observado
+San Luis,2018-01-01,5888.0,observado
+San Luis,2019-01-01,5685.0,observado
+San Luis,2020-01-01,5314.0,observado
+San Luis,2021-01-01,5339.0,observado
+San Luis,2022-01-01,5702.0,observado
+San Luis,2023-01-01,5643.0,observado
+San Luis,2024-01-01,5496.0,observado
+Tierra del Fuego,1996-01-01,1292.0,observado
+Tierra del Fuego,1997-01-01,1315.0,observado
+Tierra del Fuego,1998-01-01,1421.0,observado
+Tierra del Fuego,1999-01-01,1593.0,observado
+Tierra del Fuego,2000-01-01,1774.0,observado
+Tierra del Fuego,2001-01-01,1750.0,observado
+Tierra del Fuego,2002-01-01,1576.0,observado
+Tierra del Fuego,2003-01-01,1726.0,observado
+Tierra del Fuego,2004-01-01,1864.0,observado
+Tierra del Fuego,2005-01-01,2036.0,observado
+Tierra del Fuego,2006-01-01,2221.0,observado
+Tierra del Fuego,2007-01-01,2329.0,observado
+Tierra del Fuego,2008-01-01,2455.0,observado
+Tierra del Fuego,2009-01-01,2452.0,observado
+Tierra del Fuego,2010-01-01,2645.0,observado
+Tierra del Fuego,2011-01-01,2754.0,observado
+Tierra del Fuego,2012-01-01,2922.0,observado
+Tierra del Fuego,2013-01-01,2980.0,observado
+Tierra del Fuego,2014-01-01,3012.0,observado
+Tierra del Fuego,2015-01-01,3076.0,observado
+Tierra del Fuego,2016-01-01,3028.0,observado
+Tierra del Fuego,2017-01-01,3023.0,observado
+Tierra del Fuego,2018-01-01,2910.0,observado
+Tierra del Fuego,2019-01-01,2785.0,observado
+Tierra del Fuego,2020-01-01,2596.0,observado
+Tierra del Fuego,2021-01-01,2703.0,observado
+Tierra del Fuego,2022-01-01,2851.0,observado
+Tierra del Fuego,2023-01-01,2855.0,observado
+Tierra del Fuego,2024-01-01,2719.0,observado

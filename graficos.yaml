@@ -5401,3 +5401,178 @@ graficos:
     fuentes:
       - {nombre: "Secretaría de Minería, Compendio estadístico de la actividad minera metalífera y compuestos de litio, primer semestre de 2025 (cartera de agosto de 2025)", url: "https://www.argentina.gob.ar/sites/default/files/compendio_estadistico_de_la_actividad_minera_1er_semestre_2025.pdf", nivel: primaria}
     metodo: "Cartera de proyectos de la Secretaría de Minería a agosto de 2025: 320 proyectos. Estudios avanzados son los proyectos con factibilidad, prefactibilidad o evaluación económica preliminar. La cartera actualizada (con el detalle de cada proyecto, mineral y provincia) solo está en una planilla del Ministerio de Economía que no se puede descargar en forma automática. Según la prensa que cita el compendio del primer semestre de 2026, en septiembre de 2026 había 63 proyectos avanzados: 27 en producción y 36 en etapas previas (fuente secundaria). El cobre está todo en proyectos: hoy no hay minas de cobre en producción."
+
+  - id: provincias_empleo
+    tema: 6
+    titulo: "Empleo privado registrado por provincia"
+    que_muestra: "Asalariados registrados en empresas privadas de cada provincia. Se elige el grupo de provincias en el selector."
+    tipo: lineas
+    frecuencia: M
+    desde: "2009-01"
+    unidad: "miles de personas"
+    tipo_valor: nivel
+    medida_inicial: base_100
+    medidas: [base_100, interanual, nivel]
+    variantes: [{id: nucleo, nombre: "Buenos Aires, CABA, Córdoba y Santa Fe"}, {id: energia, nombre: "Provincias petroleras: Neuquén, Mendoza, Chubut, Santa Cruz y Río Negro"}, {id: mineria, nombre: "Provincias mineras: San Juan, Catamarca, Jujuy, Salta y Santa Cruz"}, {id: norte, nombre: "Norte: Chaco, Corrientes, Formosa, Misiones, Santiago del Estero, Tucumán y La Rioja"}, {id: resto, nombre: "Resto: Entre Ríos, La Pampa, San Luis y Tierra del Fuego"}]
+    variantes_titulo: "Provincias"
+    sin_cifra: true
+    series:
+      - {serie: prov_empleo_bsas, nombre: "Buenos Aires", variante: nucleo}
+      - {serie: prov_empleo_caba, nombre: "CABA", variante: nucleo}
+      - {serie: prov_empleo_cordoba, nombre: "Córdoba", variante: nucleo}
+      - {serie: prov_empleo_santafe, nombre: "Santa Fe", variante: nucleo}
+      - {serie: prov_empleo_neuquen, nombre: "Neuquén", variante: energia}
+      - {serie: prov_empleo_mendoza, nombre: "Mendoza", variante: energia}
+      - {serie: prov_empleo_chubut, nombre: "Chubut", variante: energia}
+      - {serie: prov_empleo_santacruz, nombre: "Santa Cruz", variante: energia}
+      - {serie: prov_empleo_rionegro, nombre: "Río Negro", variante: energia}
+      - {serie: prov_empleo_sanjuan, nombre: "San Juan", variante: mineria}
+      - {serie: prov_empleo_catamarca, nombre: "Catamarca", variante: mineria}
+      - {serie: prov_empleo_jujuy, nombre: "Jujuy", variante: mineria}
+      - {serie: prov_empleo_salta, nombre: "Salta", variante: mineria}
+      - {serie: prov_empleo_santacruz, nombre: "Santa Cruz", variante: mineria}
+      - {serie: prov_empleo_chaco, nombre: "Chaco", variante: norte}
+      - {serie: prov_empleo_corrientes, nombre: "Corrientes", variante: norte}
+      - {serie: prov_empleo_formosa, nombre: "Formosa", variante: norte}
+      - {serie: prov_empleo_misiones, nombre: "Misiones", variante: norte}
+      - {serie: prov_empleo_sgoestero, nombre: "Santiago del Estero", variante: norte}
+      - {serie: prov_empleo_tucuman, nombre: "Tucumán", variante: norte}
+      - {serie: prov_empleo_larioja, nombre: "La Rioja", variante: norte}
+      - {serie: prov_empleo_entrerios, nombre: "Entre Ríos", variante: resto}
+      - {serie: prov_empleo_lapampa, nombre: "La Pampa", variante: resto}
+      - {serie: prov_empleo_sanluis, nombre: "San Luis", variante: resto}
+      - {serie: prov_empleo_tdf, nombre: "Tierra del Fuego", variante: resto}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, SIPA: asalariados registrados del sector privado por provincia (vía datos.gob.ar)", url: "https://datos.gob.ar/series/api/series/?ids=154.1_COBAOBA_C_0_0_7", nivel: primaria}
+    metodo: "Asalariados registrados del sector privado según la provincia donde trabajan, serie mensual original. Base 100 al inicio permite comparar cuánto creció el empleo en cada provincia aunque tengan tamaños muy distintos; en Nivel se ven los miles de personas. No incluye empleo público, monotributistas ni trabajo no registrado. Santa Cruz aparece en dos grupos (petrolera y minera)."
+  - id: provincias_salario
+    tema: 6
+    titulo: "Salario real por provincia"
+    que_muestra: "Salario promedio de los asalariados privados registrados de cada provincia, descontada la inflación."
+    tipo: lineas
+    frecuencia: M
+    desde: "2009-01"
+    unidad: "pesos de hoy"
+    tipo_valor: nivel
+    moneda: ARS
+    medida_inicial: interanual
+    medidas: [interanual, base_100, nivel]
+    variantes: [{id: nucleo, nombre: "Buenos Aires, CABA, Córdoba y Santa Fe"}, {id: energia, nombre: "Provincias petroleras: Neuquén, Mendoza, Chubut, Santa Cruz y Río Negro"}, {id: mineria, nombre: "Provincias mineras: San Juan, Catamarca, Jujuy, Salta y Santa Cruz"}, {id: norte, nombre: "Norte: Chaco, Corrientes, Formosa, Misiones, Santiago del Estero, Tucumán y La Rioja"}, {id: resto, nombre: "Resto: Entre Ríos, La Pampa, San Luis y Tierra del Fuego"}]
+    variantes_titulo: "Provincias"
+    sin_cifra: true
+    series:
+      - {serie: prov_salario_bsas, nombre: "Buenos Aires", variante: nucleo}
+      - {serie: prov_salario_caba, nombre: "CABA", variante: nucleo}
+      - {serie: prov_salario_cordoba, nombre: "Córdoba", variante: nucleo}
+      - {serie: prov_salario_santafe, nombre: "Santa Fe", variante: nucleo}
+      - {serie: prov_salario_neuquen, nombre: "Neuquén", variante: energia}
+      - {serie: prov_salario_mendoza, nombre: "Mendoza", variante: energia}
+      - {serie: prov_salario_chubut, nombre: "Chubut", variante: energia}
+      - {serie: prov_salario_santacruz, nombre: "Santa Cruz", variante: energia}
+      - {serie: prov_salario_rionegro, nombre: "Río Negro", variante: energia}
+      - {serie: prov_salario_sanjuan, nombre: "San Juan", variante: mineria}
+      - {serie: prov_salario_catamarca, nombre: "Catamarca", variante: mineria}
+      - {serie: prov_salario_jujuy, nombre: "Jujuy", variante: mineria}
+      - {serie: prov_salario_salta, nombre: "Salta", variante: mineria}
+      - {serie: prov_salario_santacruz, nombre: "Santa Cruz", variante: mineria}
+      - {serie: prov_salario_chaco, nombre: "Chaco", variante: norte}
+      - {serie: prov_salario_corrientes, nombre: "Corrientes", variante: norte}
+      - {serie: prov_salario_formosa, nombre: "Formosa", variante: norte}
+      - {serie: prov_salario_misiones, nombre: "Misiones", variante: norte}
+      - {serie: prov_salario_sgoestero, nombre: "Santiago del Estero", variante: norte}
+      - {serie: prov_salario_tucuman, nombre: "Tucumán", variante: norte}
+      - {serie: prov_salario_larioja, nombre: "La Rioja", variante: norte}
+      - {serie: prov_salario_entrerios, nombre: "Entre Ríos", variante: resto}
+      - {serie: prov_salario_lapampa, nombre: "La Pampa", variante: resto}
+      - {serie: prov_salario_sanluis, nombre: "San Luis", variante: resto}
+      - {serie: prov_salario_tdf, nombre: "Tierra del Fuego", variante: resto}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, OEDE: remuneración promedio por provincia (boletín de remuneraciones provinciales)", url: "https://www.argentina.gob.ar/trabajo/estadisticas/oede-estadisticas-provinciales", nivel: primaria}
+      - {nombre: "IPC empalmado (ver Inflación minorista)", nivel: primaria, nota: "Deflactor"}
+    metodo: "Remuneración bruta promedio por todo concepto de los asalariados privados registrados, según la provincia donde trabajan, llevada a pesos de hoy con el IPC nacional (no hay índices de precios de cada provincia para toda la serie). Junio y diciembre incluyen el aguinaldo: por eso se muestra la variación interanual, que compara cada mes con el mismo mes del año anterior. Buenos Aires es el interior de la provincia, sin los partidos del Gran Buenos Aires."
+  - id: provincias_empresas
+    tema: 7
+    titulo: "Empresas privadas por provincia"
+    que_muestra: "Cantidad de empresas privadas con empleados registrados en cada provincia, por año."
+    tipo: lineas
+    frecuencia: A
+    desde: "1996"
+    unidad: "empresas"
+    tipo_valor: nivel
+    medida_inicial: base_100
+    medidas: [base_100, variacion, nivel]
+    variantes: [{id: nucleo, nombre: "Buenos Aires, CABA, Córdoba y Santa Fe"}, {id: energia, nombre: "Provincias petroleras: Neuquén, Mendoza, Chubut, Santa Cruz y Río Negro"}, {id: mineria, nombre: "Provincias mineras: San Juan, Catamarca, Jujuy, Salta y Santa Cruz"}, {id: norte, nombre: "Norte: Chaco, Corrientes, Formosa, Misiones, Santiago del Estero, Tucumán y La Rioja"}, {id: resto, nombre: "Resto: Entre Ríos, La Pampa, San Luis y Tierra del Fuego"}]
+    variantes_titulo: "Provincias"
+    sin_cifra: true
+    series:
+      - {serie: prov_empresas_bsas, nombre: "Buenos Aires", variante: nucleo}
+      - {serie: prov_empresas_caba, nombre: "CABA", variante: nucleo}
+      - {serie: prov_empresas_cordoba, nombre: "Córdoba", variante: nucleo}
+      - {serie: prov_empresas_santafe, nombre: "Santa Fe", variante: nucleo}
+      - {serie: prov_empresas_neuquen, nombre: "Neuquén", variante: energia}
+      - {serie: prov_empresas_mendoza, nombre: "Mendoza", variante: energia}
+      - {serie: prov_empresas_chubut, nombre: "Chubut", variante: energia}
+      - {serie: prov_empresas_santacruz, nombre: "Santa Cruz", variante: energia}
+      - {serie: prov_empresas_rionegro, nombre: "Río Negro", variante: energia}
+      - {serie: prov_empresas_sanjuan, nombre: "San Juan", variante: mineria}
+      - {serie: prov_empresas_catamarca, nombre: "Catamarca", variante: mineria}
+      - {serie: prov_empresas_jujuy, nombre: "Jujuy", variante: mineria}
+      - {serie: prov_empresas_salta, nombre: "Salta", variante: mineria}
+      - {serie: prov_empresas_santacruz, nombre: "Santa Cruz", variante: mineria}
+      - {serie: prov_empresas_chaco, nombre: "Chaco", variante: norte}
+      - {serie: prov_empresas_corrientes, nombre: "Corrientes", variante: norte}
+      - {serie: prov_empresas_formosa, nombre: "Formosa", variante: norte}
+      - {serie: prov_empresas_misiones, nombre: "Misiones", variante: norte}
+      - {serie: prov_empresas_sgoestero, nombre: "Santiago del Estero", variante: norte}
+      - {serie: prov_empresas_tucuman, nombre: "Tucumán", variante: norte}
+      - {serie: prov_empresas_larioja, nombre: "La Rioja", variante: norte}
+      - {serie: prov_empresas_entrerios, nombre: "Entre Ríos", variante: resto}
+      - {serie: prov_empresas_lapampa, nombre: "La Pampa", variante: resto}
+      - {serie: prov_empresas_sanluis, nombre: "San Luis", variante: resto}
+      - {serie: prov_empresas_tdf, nombre: "Tierra del Fuego", variante: resto}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, OEDE: boletín anual de empresas por provincia", url: "https://www.argentina.gob.ar/trabajo/estadisticas/oede-estadisticas-provinciales", nivel: primaria}
+    metodo: "Empresas privadas que tuvieron al menos un asalariado registrado en el año, contadas en cada provincia donde declaran trabajadores: una empresa con empleados en varias provincias cuenta en cada una. Buenos Aires suma los partidos del Gran Buenos Aires y el resto de la provincia. El dato anual sale con más de un año de rezago."
+  - id: provincias_exportaciones
+    tema: 1
+    titulo: "Exportaciones por provincia"
+    que_muestra: "Valor de los bienes exportados según la provincia donde se producen."
+    tipo: lineas
+    frecuencia: A
+    desde: "1993"
+    unidad: "millones de US$"
+    tipo_valor: flujo
+    medida_inicial: nivel
+    medidas: [nivel, base_100, variacion]
+    variantes: [{id: nucleo, nombre: "Buenos Aires, CABA, Córdoba y Santa Fe"}, {id: energia, nombre: "Provincias petroleras: Neuquén, Mendoza, Chubut, Santa Cruz y Río Negro"}, {id: mineria, nombre: "Provincias mineras: San Juan, Catamarca, Jujuy, Salta y Santa Cruz"}, {id: norte, nombre: "Norte: Chaco, Corrientes, Formosa, Misiones, Santiago del Estero, Tucumán y La Rioja"}, {id: resto, nombre: "Resto: Entre Ríos, La Pampa, San Luis y Tierra del Fuego"}]
+    variantes_titulo: "Provincias"
+    sin_cifra: true
+    series:
+      - {serie: prov_expo_bsas, nombre: "Buenos Aires", variante: nucleo}
+      - {serie: prov_expo_caba, nombre: "CABA", variante: nucleo}
+      - {serie: prov_expo_cordoba, nombre: "Córdoba", variante: nucleo}
+      - {serie: prov_expo_santafe, nombre: "Santa Fe", variante: nucleo}
+      - {serie: prov_expo_neuquen, nombre: "Neuquén", variante: energia}
+      - {serie: prov_expo_mendoza, nombre: "Mendoza", variante: energia}
+      - {serie: prov_expo_chubut, nombre: "Chubut", variante: energia}
+      - {serie: prov_expo_santacruz, nombre: "Santa Cruz", variante: energia}
+      - {serie: prov_expo_rionegro, nombre: "Río Negro", variante: energia}
+      - {serie: prov_expo_sanjuan, nombre: "San Juan", variante: mineria}
+      - {serie: prov_expo_catamarca, nombre: "Catamarca", variante: mineria}
+      - {serie: prov_expo_jujuy, nombre: "Jujuy", variante: mineria}
+      - {serie: prov_expo_salta, nombre: "Salta", variante: mineria}
+      - {serie: prov_expo_santacruz, nombre: "Santa Cruz", variante: mineria}
+      - {serie: prov_expo_chaco, nombre: "Chaco", variante: norte}
+      - {serie: prov_expo_corrientes, nombre: "Corrientes", variante: norte}
+      - {serie: prov_expo_formosa, nombre: "Formosa", variante: norte}
+      - {serie: prov_expo_misiones, nombre: "Misiones", variante: norte}
+      - {serie: prov_expo_sgoestero, nombre: "Santiago del Estero", variante: norte}
+      - {serie: prov_expo_tucuman, nombre: "Tucumán", variante: norte}
+      - {serie: prov_expo_larioja, nombre: "La Rioja", variante: norte}
+      - {serie: prov_expo_entrerios, nombre: "Entre Ríos", variante: resto}
+      - {serie: prov_expo_lapampa, nombre: "La Pampa", variante: resto}
+      - {serie: prov_expo_sanluis, nombre: "San Luis", variante: resto}
+      - {serie: prov_expo_tdf, nombre: "Tierra del Fuego", variante: resto}
+    fuentes:
+      - {nombre: "INDEC, Origen provincial de las exportaciones (vía datos.gob.ar)", url: "https://datos.gob.ar/dataset/sspm-exportaciones-por-provincia-rubro", nivel: primaria}
+    metodo: "Exportaciones FOB en millones de dólares de cada año, según la provincia de origen de la mercadería (no el puerto de salida). Es la mejor señal anual de la actividad de cada provincia: no hay un índice oficial de actividad mensual por provincia y el producto bruto de cada una lo calcula su oficina de estadística con métodos y rezagos distintos. Dólares corrientes, sin descontar la inflación de EE.UU."

@@ -983,6 +983,103 @@ series:
   mineria_expo_nacional: {fuente: archivo, lector: mineria_exportaciones, campo: nacional}
   empleo_minero_anterior: {fuente: manual, id: empleo_minero_anterior}
   empleo_minero_2026:  {fuente: manual, id: empleo_minero_2026}
+  # Lectura por provincia: empleo privado (SIPA), exportaciones (INDEC, origen provincial), empresas y salarios (OEDE)
+  prov_empleo_bsas: {fuente: datosgobar, id: "154.1_BOS_AIRRES_C_0_0_12"}
+  prov_expo_bsas: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: buenos_aires_total_buenos_aires}
+  prov_empresas_bsas: {fuente: archivo, lector: oede_prov_empresas, campo: "Partidos de GBA+Resto de Buenos Aires"}
+  prov_salario_bsas: {fuente: archivo, lector: oede_prov_remuneracion, campo: "BUENOS AIRES"}
+  prov_empleo_caba: {fuente: datosgobar, id: "154.1_CABA_C_0_0_4"}
+  prov_expo_caba: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: ciudad_de_buenos_aires_total_ciudad_de_buenos_aires}
+  prov_empresas_caba: {fuente: archivo, lector: oede_prov_empresas, campo: "Capital Federal"}
+  prov_salario_caba: {fuente: archivo, lector: oede_prov_remuneracion, campo: "CAPITAL FEDERAL"}
+  prov_empleo_cordoba: {fuente: datosgobar, id: "154.1_COBAOBA_C_0_0_7"}
+  prov_expo_cordoba: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: cordoba_total_cordoba}
+  prov_empresas_cordoba: {fuente: archivo, lector: oede_prov_empresas, campo: "Cordoba"}
+  prov_salario_cordoba: {fuente: archivo, lector: oede_prov_remuneracion, campo: "CORDOBA"}
+  prov_empleo_santafe: {fuente: datosgobar, id: "154.1_SA_FE_FE_C_0_0_8"}
+  prov_expo_santafe: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: santa_fe_total_santa_fe}
+  prov_empresas_santafe: {fuente: archivo, lector: oede_prov_empresas, campo: "Santa Fe"}
+  prov_salario_santafe: {fuente: archivo, lector: oede_prov_remuneracion, campo: "SANTA FE"}
+  prov_empleo_neuquen: {fuente: datosgobar, id: "154.1_NUENUEN_C_0_0_7"}
+  prov_expo_neuquen: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: neuquen_total_neuquen}
+  prov_empresas_neuquen: {fuente: archivo, lector: oede_prov_empresas, campo: "Neuquen"}
+  prov_salario_neuquen: {fuente: archivo, lector: oede_prov_remuneracion, campo: "NEUQUEN"}
+  prov_empleo_mendoza: {fuente: datosgobar, id: "154.1_MOZAOZA_C_0_0_7"}
+  prov_expo_mendoza: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: mendoza_total_mendoza}
+  prov_empresas_mendoza: {fuente: archivo, lector: oede_prov_empresas, campo: "Mendoza"}
+  prov_salario_mendoza: {fuente: archivo, lector: oede_prov_remuneracion, campo: "MENDOZA"}
+  prov_empleo_chubut: {fuente: datosgobar, id: "154.1_CUTBUT_C_0_0_6"}
+  prov_expo_chubut: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: chubut_total_chubut}
+  prov_empresas_chubut: {fuente: archivo, lector: oede_prov_empresas, campo: "Chubut"}
+  prov_salario_chubut: {fuente: archivo, lector: oede_prov_remuneracion, campo: "CHUBUT"}
+  prov_empleo_santacruz: {fuente: datosgobar, id: "154.1_SA_CRUZRUZ_C_0_0_10"}
+  prov_expo_santacruz: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: santa_cruz_total_santa_cruz}
+  prov_empresas_santacruz: {fuente: archivo, lector: oede_prov_empresas, campo: "Santa Cruz"}
+  prov_salario_santacruz: {fuente: archivo, lector: oede_prov_remuneracion, campo: "SANTA CRUZ"}
+  prov_empleo_rionegro: {fuente: datosgobar, id: "154.1_RNEGROGRO_C_0_0_9"}
+  prov_expo_rionegro: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: rio_negro_total_rio_negro}
+  prov_empresas_rionegro: {fuente: archivo, lector: oede_prov_empresas, campo: "Rio Negro"}
+  prov_salario_rionegro: {fuente: archivo, lector: oede_prov_remuneracion, campo: "RIO NEGRO"}
+  prov_empleo_sanjuan: {fuente: datosgobar, id: "154.1_SJUANUAN_C_0_0_8"}
+  prov_expo_sanjuan: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: san_juan_total_san_juan}
+  prov_empresas_sanjuan: {fuente: archivo, lector: oede_prov_empresas, campo: "San Juan"}
+  prov_salario_sanjuan: {fuente: archivo, lector: oede_prov_remuneracion, campo: "SAN JUAN"}
+  prov_empleo_catamarca: {fuente: datosgobar, id: "154.1_CMARCARCA_C_0_0_9"}
+  prov_expo_catamarca: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: catamarca_total_catamarca}
+  prov_empresas_catamarca: {fuente: archivo, lector: oede_prov_empresas, campo: "Catamarca"}
+  prov_salario_catamarca: {fuente: archivo, lector: oede_prov_remuneracion, campo: "CATAMARCA"}
+  prov_empleo_jujuy: {fuente: datosgobar, id: "154.1_JYJUY_C_0_0_5"}
+  prov_expo_jujuy: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: jujuy_total_jujuy}
+  prov_empresas_jujuy: {fuente: archivo, lector: oede_prov_empresas, campo: "Jujuy"}
+  prov_salario_jujuy: {fuente: archivo, lector: oede_prov_remuneracion, campo: "JUJUY"}
+  prov_empleo_salta: {fuente: datosgobar, id: "154.1_SALTA_C_0_0_5"}
+  prov_expo_salta: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: salta_total_salta}
+  prov_empresas_salta: {fuente: archivo, lector: oede_prov_empresas, campo: "Salta"}
+  prov_salario_salta: {fuente: archivo, lector: oede_prov_remuneracion, campo: "SALTA"}
+  prov_empleo_chaco: {fuente: datosgobar, id: "154.1_COACO_C_0_0_5"}
+  prov_expo_chaco: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: chaco_total_chaco}
+  prov_empresas_chaco: {fuente: archivo, lector: oede_prov_empresas, campo: "Chaco"}
+  prov_salario_chaco: {fuente: archivo, lector: oede_prov_remuneracion, campo: "CHACO"}
+  prov_empleo_corrientes: {fuente: datosgobar, id: "154.1_CIENTESTES_C_0_0_10"}
+  prov_expo_corrientes: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: corrientes_total_corrientes}
+  prov_empresas_corrientes: {fuente: archivo, lector: oede_prov_empresas, campo: "Corrientes"}
+  prov_salario_corrientes: {fuente: archivo, lector: oede_prov_remuneracion, campo: "CORRIENTES"}
+  prov_empleo_entrerios: {fuente: datosgobar, id: "154.1_EE_RIOSIOS_C_0_0_10"}
+  prov_expo_entrerios: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: entre_rios_total_entre_rios}
+  prov_empresas_entrerios: {fuente: archivo, lector: oede_prov_empresas, campo: "Entre Rios"}
+  prov_salario_entrerios: {fuente: archivo, lector: oede_prov_remuneracion, campo: "ENTRE RIOS"}
+  prov_empleo_formosa: {fuente: datosgobar, id: "154.1_FOSAOSA_C_0_0_7"}
+  prov_expo_formosa: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: formosa_total_formosa}
+  prov_empresas_formosa: {fuente: archivo, lector: oede_prov_empresas, campo: "Formosa"}
+  prov_salario_formosa: {fuente: archivo, lector: oede_prov_remuneracion, campo: "FORMOSA"}
+  prov_empleo_lapampa: {fuente: datosgobar, id: "154.1_LAMPAMPA_C_0_0_8"}
+  prov_expo_lapampa: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: la_pampa_total_la_pampa}
+  prov_empresas_lapampa: {fuente: archivo, lector: oede_prov_empresas, campo: "La Pampa"}
+  prov_salario_lapampa: {fuente: archivo, lector: oede_prov_remuneracion, campo: "LA PAMPA"}
+  prov_empleo_larioja: {fuente: datosgobar, id: "154.1_LIOJAOJA_C_0_0_8"}
+  prov_expo_larioja: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: la_rioja_total_la_rioja}
+  prov_empresas_larioja: {fuente: archivo, lector: oede_prov_empresas, campo: "La Rioja"}
+  prov_salario_larioja: {fuente: archivo, lector: oede_prov_remuneracion, campo: "LA RIOJA"}
+  prov_empleo_misiones: {fuente: datosgobar, id: "154.1_MONESNES_C_0_0_8"}
+  prov_expo_misiones: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: misiones_total_misiones}
+  prov_empresas_misiones: {fuente: archivo, lector: oede_prov_empresas, campo: "Misiones"}
+  prov_salario_misiones: {fuente: archivo, lector: oede_prov_remuneracion, campo: "MISIONES"}
+  prov_empleo_sanluis: {fuente: datosgobar, id: "154.1_SLUISUIS_C_0_0_8"}
+  prov_expo_sanluis: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: san_luis_total_san_luis}
+  prov_empresas_sanluis: {fuente: archivo, lector: oede_prov_empresas, campo: "San Luis"}
+  prov_salario_sanluis: {fuente: archivo, lector: oede_prov_remuneracion, campo: "SAN LUIS"}
+  prov_empleo_sgoestero: {fuente: datosgobar, id: "154.1_SIAGO_EERO_C_0_0_15"}
+  prov_expo_sgoestero: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: santiago_del_estero_total_santiago_del_estero}
+  prov_empresas_sgoestero: {fuente: archivo, lector: oede_prov_empresas, campo: "Santiago del Estero"}
+  prov_salario_sgoestero: {fuente: archivo, lector: oede_prov_remuneracion, campo: "SANTIAGO DEL ESTERO"}
+  prov_empleo_tdf: {fuente: datosgobar, id: "154.1_TRA_FUEEGO_C_0_0_12"}
+  prov_expo_tdf: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: tierra_del_fuego_total_tierra_del_fuego}
+  prov_empresas_tdf: {fuente: archivo, lector: oede_prov_empresas, campo: "Tierra del Fuego"}
+  prov_salario_tdf: {fuente: archivo, lector: oede_prov_remuneracion, campo: "TIERRA DEL FUEGO"}
+  prov_empleo_tucuman: {fuente: datosgobar, id: "154.1_TMANMAN_C_0_0_7"}
+  prov_expo_tucuman: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: tucuman_total_tucuman}
+  prov_empresas_tucuman: {fuente: archivo, lector: oede_prov_empresas, campo: "Tucuman"}
+  prov_salario_tucuman: {fuente: archivo, lector: oede_prov_remuneracion, campo: "TUCUMAN"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
   ipim_indec:          {fuente: manual, id: ipim_indec}   # variaciones de los informes de prensa del INDEC (mientras datos.gob.ar no se actualice)
 

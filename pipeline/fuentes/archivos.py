@@ -16,6 +16,7 @@ import re
 from datetime import date
 from functools import lru_cache
 from pathlib import Path
+from urllib.parse import urljoin
 
 import pandas as pd
 import requests
@@ -1027,9 +1028,69 @@ def mineria_exportaciones(campo: str = "nacional") -> pd.Series:
     return pd.concat([previo, pd.Series(nuevos, dtype=float)]).sort_index().groupby(level=0).last()
 
 
+# ---------- OEDE (Secretaría de Trabajo): series por provincia ----------
+
+PAGINA_OEDE_PROV = "https://www.argentina.gob.ar/trabajo/estadisticas/oede-estadisticas-provinciales"
+
+
+@lru_cache(maxsize=None)
+def oede_prov_hojas(prefijo: str) -> dict[str, pd.DataFrame]:
+    """Planilla más reciente de la página de estadísticas provinciales de OEDE cuyo nombre empieza con prefijo."""
+    html = requests.get(PAGINA_OEDE_PROV, headers=CABECERAS, timeout=TIMEOUT).text
+    enlaces = re.findall(r'href="(?:blank:#)?([^"]*/' + re.escape(prefijo) + r'[^"/]*\.xlsx)"', html)
+    if not enlaces:
+        raise RuntimeError(f"No se encontró la planilla {prefijo} en la página de OEDE")
+    r = requests.get(urljoin(PAGINA_OEDE_PROV, enlaces[0]), headers=CABECERAS, timeout=TIMEOUT)
+    r.raise_for_status()
+    return pd.read_excel(io.BytesIO(r.content), sheet_name=None, header=None)
+
+
+def leer_oede_prov_empresas(h: dict, hojas_prov: list[str]) -> pd.Series:
+    """Empresas privadas activas en el año (fila TOTAL). Si son varias hojas (Buenos Aires = partidos del GBA
+    + resto de la provincia) se suman."""
+    total = None
+    for hoja in hojas_prov:
+        df = h[hoja]
+        fila_anios = next(i for i in range(10) if _texto(df.iat[i, 1]).lower().startswith("ramas"))
+        fila_total = next(i for i in range(len(df)) if _texto(df.iat[i, 1]).upper() == "TOTAL")
+        s = {}
+        for c in range(2, df.shape[1]):
+            a = _texto(df.iat[fila_anios, c]).split(".")[0]
+            v = pd.to_numeric(df.iat[fila_total, c], errors="coerce")
+            if re.fullmatch(r"\d{4}", a) and pd.notna(v):
+                s[pd.Timestamp(int(a), 1, 1)] = float(v)
+        s = pd.Series(s, dtype=float)
+        total = s if total is None else total.add(s, fill_value=0)
+    return total.sort_index()
+
+
+def oede_prov_empresas(campo: str) -> pd.Series:
+    return leer_oede_prov_empresas(oede_prov_hojas("provinciales_serie_empresas1"), campo.split("+"))
+
+
+def leer_oede_prov_remuneracion(h: dict, fila: str) -> pd.Series:
+    """Remuneración promedio por todo concepto de los asalariados privados registrados (pesos corrientes)."""
+    df = h["Total"]
+    fila_fechas = next(i for i in range(10) if _texto(df.iat[i, 0]).lower() == "provincia")
+    i = next(i for i in range(len(df)) if _texto(df.iat[i, 0]).upper() == fila.upper())
+    s = {}
+    for c in range(1, df.shape[1]):
+        f = pd.to_datetime(df.iat[fila_fechas, c], errors="coerce")
+        v = pd.to_numeric(df.iat[i, c], errors="coerce")
+        if pd.notna(f) and pd.notna(v):
+            s[pd.Timestamp(f.year, f.month, 1)] = float(v)
+    return pd.Series(s, dtype=float).sort_index()
+
+
+def oede_prov_remuneracion(campo: str) -> pd.Series:
+    return leer_oede_prov_remuneracion(oede_prov_hojas("provinciales_serie_remuneraciones_mensual_2dig"), campo)
+
+
 LECTORES = {
     "indec_maquinaria": indec_maquinaria,
     "indec_ipi_minero": indec_ipi_minero,
+    "oede_prov_empresas": oede_prov_empresas,
+    "oede_prov_remuneracion": oede_prov_remuneracion,
     "mineria_exportaciones": mineria_exportaciones,
     "arca_recaudacion": arca_recaudacion,
     "provincias_iibb": provincias_iibb,

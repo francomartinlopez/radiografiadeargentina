@@ -492,7 +492,7 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
     tramos = g.get("tramos", []) + auto
     salida = {
         k: g[k] for k in ("id", "tema", "titulo", "que_muestra", "original", "tipo", "unidad", "fuentes",
-                          "metodo", "estimacion", "sensible", "nota", "eje_x", "eje_y", "variantes", "sin_cifra",
+                          "metodo", "estimacion", "sensible", "nota", "eje_x", "eje_y", "variantes", "variantes_titulo", "sin_cifra",
                           "cifra_serie") if g.get(k) is not None
     }
     salida.update({
@@ -552,7 +552,8 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
             t = tramo_de(f, tramos, sd["serie"])
             puntos.append([f.strftime("%Y-%m-%d"), _f(v)] + ([t] if t else []))
         series.append({"nombre": sd.get("nombre", sd["serie"]), "serie": sd["serie"],
-                        **({"color": sd["color"]} if sd.get("color") else {}), "puntos": puntos})
+                        **({"color": sd["color"]} if sd.get("color") else {}),
+                        **({"variante": sd["variante"]} if sd.get("variante") else {}), "puntos": puntos})
     if not series:
         return None, alertas + [f"{g['id']}: sin datos, no se publica"]
 

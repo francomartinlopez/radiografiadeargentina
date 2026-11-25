@@ -530,7 +530,7 @@ function ficha(g) {
   const leyendaVista = el("p", { class: "leyenda-vista" });
   const leyenda = el("ul", { class: "leyenda", hidden: true });
   const controles = el("div", { class: "controles" });
-  const selVariante = () => { const sv = el("select", { "aria-label": "Cálculo", onchange: () => { estado.variante = sv.value; render(); } },
+  const selVariante = () => { const sv = el("select", { "aria-label": g.variantes_titulo || "Cálculo", onchange: () => { estado.variante = sv.value; render(); } },
     ...g.variantes.map((v) => el("option", { value: v.id, text: v.nombre, selected: v.id === estado.variante }))); return sv; };
   if (conPeriodos) {
     const botones = [["completo", `Completo (desde ${g.desde.slice(0, 4)})`], ["mandato", "Último mandato"]].map(([id, txt]) =>
