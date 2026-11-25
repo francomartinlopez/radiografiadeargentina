@@ -21,7 +21,7 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
-from . import construir, transformar
+from . import construir, mineria_informes, transformar
 from .fuentes import eph_panel
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -437,7 +437,7 @@ def leer_categorias(nombre: str) -> list[dict]:
     filas = []
     for _, r in df.iterrows():
         fila = {"categoria": str(r["categoria"])}
-        for c in ("serie", "tramo", "fuente_url", "periodo", "variante"):
+        for c in ("serie", "tramo", "fuente_url", "periodo", "variante", "fecha"):
             if c in df.columns and pd.notna(r[c]):
                 fila[c] = str(r[c])
         for c in ("valor", "x", "y", "tamano"):
@@ -525,6 +525,12 @@ def construir_grafico(g: dict, mensuales: dict, catalogo: dict) -> tuple[dict | 
         return salida, alertas
     if g.get("categorias"):
         salida["categorias"] = leer_categorias(g["categorias"])
+        fechas_cat = [c["fecha"] for c in salida["categorias"] if c.get("fecha")]
+        if fechas_cat:  # barras con mes de referencia (p. ej. las que salen de los informes mensuales de minería)
+            salida["ultimo"] = max(fechas_cat)
+            urls = {c["fuente_url"] for c in salida["categorias"] if c.get("fuente_url")}
+            if len(urls) == 1 and salida.get("fuentes"):  # la fuente del gráfico apunta al informe usado
+                salida["fuentes"] = [{**salida["fuentes"][0], "url": urls.pop()}] + salida["fuentes"][1:]
         salida["alerta"] = salida["alerta"] or any(c.get("tramo") for c in salida["categorias"])
         return salida, alertas
 
@@ -617,6 +623,8 @@ def main() -> None:
         raise SystemExit("Errores en graficos.yaml:\n- " + "\n- ".join(errores))
     sub = subconfig(base, catalogo)
     crudas, alertas = obtener_series(sub, args.offline)
+    if not args.offline:  # barras de minería desde los informes mensuales en PDF
+        alertas += mineria_informes.actualizar()
     mensuales, alertas_proc = construir.procesar(sub, crudas)
     catalogo["_tramos_auto"], alertas_calc = calculos_propios(catalogo, mensuales)
     # Las series cerradas (bases viejas, ediciones fijas) no esperan datos nuevos

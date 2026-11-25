@@ -94,9 +94,9 @@ calculos:
     nota_puente: "El INDEC no publicó el índice industrial entre octubre y diciembre de 2015, y el IPI nuevo recién tiene variación desde febrero de 2016; esos meses se completan con la variación interanual del EMAE de la industria aplicada al mismo mes del año anterior."
   ipim_largo:
     operacion: empalme
-    tramos: [{serie: ipim1993, hasta: "2015-10"}, {serie: ipim, hasta: "2026-08"}, {serie: ipim_indec, hasta: "2026-10"}, {serie: ipim}]
+    tramos: [{serie: ipim1993, hasta: "2015-10"}, {serie: ipim}]
     puente: ipc
-    nota_puente: "El INDEC no publicó el índice mayorista en noviembre y diciembre de 2015; se usa la variación del IPC empalmado. Desde septiembre de 2026 la serie de datos.gob.ar dejó de actualizarse bien; esos meses se toman de las variaciones mensuales de los informes de prensa del INDEC."
+    nota_puente: "El INDEC no publicó el índice mayorista en noviembre y diciembre de 2015; se usa la variación del IPC empalmado."
   brecha_ccl:
     operacion: brecha
     a: dolar_ccl
@@ -5320,25 +5320,25 @@ graficos:
   - id: mineria_expo_provincias
     tema: 23
     titulo: "Exportaciones mineras por provincia"
-    que_muestra: "De qué provincias salen las exportaciones mineras: acumulado de enero a octubre de 2026, en millones de dólares."
+    que_muestra: "De qué provincias salen las exportaciones mineras: acumulado del año hasta el último mes publicado, en millones de dólares."
     tipo: barras
     categorias: mineria_expo_provincias
     unidad: "millones de US$"
     tipo_valor: flujo
     fuentes:
-      - {nombre: "Secretaría de Minería, informe Origen provincial de las exportaciones mineras, noviembre de 2026", url: "https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf", nivel: primaria}
-    metodo: "Acumulado de enero a octubre de 2026. El informe da Santa Cruz, San Juan y Jujuy por separado y Catamarca y Salta juntas (como parte de las provincias del NOA); el resto del país es la diferencia con el total nacional (USD 7.455 millones). Se actualiza a mano con cada informe."
+      - {nombre: "Secretaría de Minería, informe mensual Origen provincial de las exportaciones mineras (último publicado)", url: "https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf", nivel: primaria}
+    metodo: "Acumulado desde enero hasta el mes del último informe. El informe da Santa Cruz, San Juan y Jujuy por separado; Catamarca y Salta se calculan juntas como el total de las provincias del NOA menos Jujuy, y el resto del país es la diferencia con el total nacional. Se actualiza sola cada mes con el informe nuevo."
   - id: mineria_peso_provincias
     tema: 23
     titulo: "Cuánto pesa la minería en las exportaciones de cada provincia"
-    que_muestra: "Parte de las exportaciones de cada provincia minera que es minería, acumulado de enero a octubre de 2026."
+    que_muestra: "Parte de las exportaciones de cada provincia minera que es minería, acumulado del año hasta el último mes publicado."
     tipo: barras
     categorias: mineria_peso_provincias
     unidad: "% de las exportaciones de la provincia"
     tipo_valor: tasa
     fuentes:
-      - {nombre: "Secretaría de Minería, informe Origen provincial de las exportaciones mineras, noviembre de 2026", url: "https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf", nivel: primaria}
-    metodo: "Exportaciones mineras sobre exportaciones totales de cada provincia, en dólares FOB, acumulado de enero a octubre de 2026. Se actualiza a mano con cada informe."
+      - {nombre: "Secretaría de Minería, informe mensual Origen provincial de las exportaciones mineras (último publicado)", url: "https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf", nivel: primaria}
+    metodo: "Exportaciones mineras sobre exportaciones totales de cada provincia, en dólares FOB, acumulado desde enero hasta el mes del último informe. Se actualiza sola cada mes con el informe nuevo."
   - id: mineria_complejos
     tema: 23
     titulo: "Exportaciones mineras por mineral"
@@ -5371,36 +5371,36 @@ graficos:
   - id: mineria_empleo_provincias
     tema: 23
     titulo: "Empleo minero por provincia"
-    que_muestra: "Dónde trabajan los empleados de la minería, junio de 2026."
+    que_muestra: "Dónde trabajan los empleados de la minería, último mes publicado."
     tipo: barras
     categorias: mineria_empleo_provincias
     unidad: "puestos de trabajo"
     tipo_valor: nivel
     fuentes:
-      - {nombre: "Secretaría de Minería, Informe mensual de empleo minero, septiembre de 2026 (datos de junio)", url: "https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf", nivel: primaria}
-    metodo: "Puestos de trabajo registrados en junio de 2026 en las siete provincias con más empleo minero, que reúnen el 82% del total. Buenos Aires y Córdoba tienen sobre todo canteras y rocas para la construcción; Santa Cruz, San Juan, Jujuy, Salta y Catamarca, oro, plata y litio. Se actualiza a mano con cada informe."
+      - {nombre: "Secretaría de Minería, informe mensual Empleo minero en Argentina (último publicado)", url: "https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf", nivel: primaria}
+    metodo: "Puestos de trabajo registrados en las provincias con más empleo minero, que reúnen más del 80% del total. Buenos Aires y Córdoba tienen sobre todo canteras y rocas para la construcción; Santa Cruz, San Juan, Jujuy, Salta y Catamarca, oro, plata y litio. El informe sale con unos tres meses de rezago. Se actualiza sola cada mes con el informe nuevo."
   - id: mineria_empleo_rubros
     tema: 23
     titulo: "Empleo minero por actividad"
-    que_muestra: "En qué parte de la minería trabajan los empleados del sector, junio de 2026."
+    que_muestra: "En qué parte de la minería trabajan los empleados del sector, último mes publicado."
     tipo: barras
     categorias: mineria_empleo_rubros
     unidad: "puestos de trabajo"
     tipo_valor: nivel
     fuentes:
-      - {nombre: "Secretaría de Minería, Informe mensual de empleo minero, septiembre de 2026 (datos de junio)", url: "https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf", nivel: primaria}
-    metodo: "Puestos de trabajo registrados en junio de 2026 según la actividad de la empresa. Metalíferos incluye producción, exploración y financiamiento de proyectos de oro, plata y cobre. Se actualiza a mano con cada informe."
+      - {nombre: "Secretaría de Minería, informe mensual Empleo minero en Argentina (último publicado)", url: "https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf", nivel: primaria}
+    metodo: "Puestos de trabajo registrados según la actividad de la empresa. Metalíferos incluye producción, exploración y financiamiento de proyectos de oro, plata y cobre. Se actualiza sola cada mes con el informe nuevo."
   - id: mineria_proyectos_etapa
     tema: 23
     titulo: "Proyectos de metales y litio, por etapa"
-    que_muestra: "Cuántos proyectos de oro, plata, cobre, litio y otros metales hay en el país y en qué etapa están."
+    que_muestra: "Cuántos proyectos avanzados de oro, plata, cobre, litio y otros metales hay en el país y en qué etapa están."
     tipo: barras
     categorias: mineria_proyectos_etapa
     unidad: "proyectos"
     tipo_valor: nivel
     fuentes:
-      - {nombre: "Secretaría de Minería, Compendio estadístico de la actividad minera metalífera y compuestos de litio, primer semestre de 2025 (cartera de agosto de 2025)", url: "https://www.argentina.gob.ar/sites/default/files/compendio_estadistico_de_la_actividad_minera_1er_semestre_2025.pdf", nivel: primaria}
-    metodo: "Cartera de proyectos de la Secretaría de Minería a agosto de 2025: 320 proyectos. Estudios avanzados son los proyectos con factibilidad, prefactibilidad o evaluación económica preliminar. La cartera actualizada (con el detalle de cada proyecto, mineral y provincia) solo está en una planilla del Ministerio de Economía que no se puede descargar en forma automática. Según la prensa que cita el compendio del primer semestre de 2026, en septiembre de 2026 había 63 proyectos avanzados: 27 en producción y 36 en etapas previas (fuente secundaria). El cobre está todo en proyectos: hoy no hay minas de cobre en producción."
+      - {nombre: "Secretaría de Minería, Compendio estadístico de la actividad minera metalífera y compuestos de litio, primer semestre de 2026 (cartera de septiembre de 2026); copia del informe publicada por Acero y Roca", url: "https://aceroyroca.com/wp-content/uploads/2026/11/Compendio-Estadistico-de-la-Actividad-Minera_compressed-1.pdf", nivel: secundaria}
+    metodo: "Cartera de proyectos de la Secretaría de Minería a septiembre de 2026: 63 proyectos desde la evaluación económica preliminar hasta la producción. No incluye los proyectos en exploración, que este compendio ya no cuenta (en agosto de 2025 eran unos 260). El informe oficial no está en una dirección fija de argentina.gob.ar, así que se toma de una copia publicada por un medio especializado. Se actualiza a mano cada semestre, cuando sale el compendio nuevo. El cobre está todo en proyectos: hoy no hay minas de cobre en producción."
 
   - id: provincias_empleo
     tema: 6
@@ -5576,3 +5576,83 @@ graficos:
     fuentes:
       - {nombre: "INDEC, Origen provincial de las exportaciones (vía datos.gob.ar)", url: "https://datos.gob.ar/dataset/sspm-exportaciones-por-provincia-rubro", nivel: primaria}
     metodo: "Exportaciones FOB en millones de dólares de cada año, según la provincia de origen de la mercadería (no el puerto de salida). Es la mejor señal anual de la actividad de cada provincia: no hay un índice oficial de actividad mensual por provincia y el producto bruto de cada una lo calcula su oficina de estadística con métodos y rezagos distintos. Dólares corrientes, sin descontar la inflación de EE.UU."
+
+  - id: provincias_petroleo_gas
+    tema: 9
+    titulo: "Producción de petróleo y gas por provincia"
+    que_muestra: "Cuánto petróleo y gas se extrae en cada provincia por trimestre. Se elige petróleo o gas en el selector."
+    tipo: lineas
+    frecuencia: T
+    unidad: "millones de m³ por trimestre"
+    tipo_valor: flujo
+    medida_inicial: nivel
+    medidas: [nivel, interanual]
+    estimacion: "La producción de cada provincia se calcula con el total del trimestre y el porcentaje provincial, que la fuente redondea a un decimal."
+    variantes: [{id: petroleo, nombre: "Petróleo"}, {id: gas, nombre: "Gas natural"}]
+    variantes_titulo: "Producto"
+    sin_cifra: true
+    series:
+      - {serie: eiti_petroleo_neuquen, nombre: "Neuquén", variante: petroleo}
+      - {serie: eiti_petroleo_chubut, nombre: "Chubut", variante: petroleo}
+      - {serie: eiti_petroleo_santacruz, nombre: "Santa Cruz", variante: petroleo}
+      - {serie: eiti_petroleo_mendoza, nombre: "Mendoza", variante: petroleo}
+      - {serie: eiti_petroleo_rionegro, nombre: "Río Negro", variante: petroleo}
+      - {serie: eiti_petroleo_lapampa, nombre: "La Pampa", variante: petroleo}
+      - {serie: eiti_petroleo_tierradelfuego, nombre: "Tierra del Fuego", variante: petroleo}
+      - {serie: eiti_petroleo_salta, nombre: "Salta", variante: petroleo}
+      - {serie: eiti_gas_neuquen, nombre: "Neuquén", variante: gas}
+      - {serie: eiti_gas_estadonacional, nombre: "Estado Nacional (costa afuera)", variante: gas}
+      - {serie: eiti_gas_santacruz, nombre: "Santa Cruz", variante: gas}
+      - {serie: eiti_gas_chubut, nombre: "Chubut", variante: gas}
+      - {serie: eiti_gas_tierradelfuego, nombre: "Tierra del Fuego", variante: gas}
+      - {serie: eiti_gas_salta, nombre: "Salta", variante: gas}
+      - {serie: eiti_gas_rionegro, nombre: "Río Negro", variante: gas}
+      - {serie: eiti_gas_mendoza, nombre: "Mendoza", variante: gas}
+    fuentes:
+      - {nombre: "EITI Argentina (Ministerio de Economía), Producción de petróleo", url: "https://www.argentina.gob.ar/node/260358", nivel: primaria}
+      - {nombre: "EITI Argentina (Ministerio de Economía), Producción de gas", url: "https://www.argentina.gob.ar/node/260361", nivel: primaria}
+    metodo: "⚠ Valores calculados: el portal EITI publica la producción total de cada trimestre y el porcentaje de cada provincia redondeado a un decimal; la producción provincial es total × porcentaje, con un margen de error de hasta 0,05 puntos del total. Estado Nacional es la producción costa afuera, que no pertenece a ninguna provincia. El portal muestra los últimos dos años y llega con unos 12 meses de rezago; el sitio guarda los trimestres viejos y suma los nuevos a medida que se publican. La serie oficial con el detalle mensual por pozo (Secretaría de Energía) está en un servidor que hoy no se puede descargar en forma automática."
+  - id: provincias_empleo_petroleo
+    tema: 9
+    titulo: "Empleo en petróleo y gas por provincia"
+    que_muestra: "Asalariados registrados en empresas de extracción de petróleo y gas en cada provincia petrolera."
+    tipo: lineas
+    frecuencia: T
+    desde: "1996-01"
+    unidad: "personas"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, base_100, interanual]
+    sin_cifra: true
+    series:
+      - {serie: oede_petroleo_neuquen, nombre: "Neuquén"}
+      - {serie: oede_petroleo_chubut, nombre: "Chubut"}
+      - {serie: oede_petroleo_santacruz, nombre: "Santa Cruz"}
+      - {serie: oede_petroleo_mendoza, nombre: "Mendoza"}
+      - {serie: oede_petroleo_rionegro, nombre: "Río Negro"}
+      - {serie: oede_petroleo_salta, nombre: "Salta"}
+      - {serie: oede_petroleo_tierradelfuego, nombre: "Tierra del Fuego"}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, OEDE: asalariados registrados del sector privado por provincia y rama de actividad (2 dígitos), trimestral", url: "https://www.argentina.gob.ar/trabajo/estadisticas/oede-estadisticas-provinciales", nivel: primaria}
+    metodo: "Rama 11 de la clasificación CIIU (revisión 3): extracción de petróleo crudo y gas natural y los servicios de apoyo que hacen las mismas empresas. Cuenta a los empleados según la provincia donde trabajan. No incluye a las empresas de servicios petroleros que están clasificadas en otras ramas (transporte, construcción, alquiler de equipos), así que es un piso del empleo petrolero. Se actualiza solo cada trimestre."
+  - id: provincias_empleo_mineria
+    tema: 23
+    titulo: "Empleo en minería metalífera por provincia"
+    que_muestra: "Asalariados registrados en empresas de minería metalífera (oro, plata, cobre y otros metales) en cada provincia minera."
+    tipo: lineas
+    frecuencia: T
+    desde: "1996-01"
+    unidad: "personas"
+    tipo_valor: nivel
+    medida_inicial: nivel
+    medidas: [nivel, interanual]
+    sin_cifra: true
+    series:
+      - {serie: oede_metaliferos_sanjuan, nombre: "San Juan"}
+      - {serie: oede_metaliferos_santacruz, nombre: "Santa Cruz"}
+      - {serie: oede_metaliferos_catamarca, nombre: "Catamarca"}
+      - {serie: oede_metaliferos_jujuy, nombre: "Jujuy"}
+      - {serie: oede_metaliferos_salta, nombre: "Salta"}
+    fuentes:
+      - {nombre: "Secretaría de Trabajo, OEDE: asalariados registrados del sector privado por provincia y rama de actividad (2 dígitos), trimestral", url: "https://www.argentina.gob.ar/trabajo/estadisticas/oede-estadisticas-provinciales", nivel: primaria}
+    metodo: "Rama 13 de la clasificación CIIU (revisión 3): extracción de minerales metalíferos. El litio no está en esta rama (según la empresa, queda en minerales no metalíferos o en química), y tampoco los contratistas de servicios mineros, por eso las cifras son menores que las del informe de empleo minero de la Secretaría de Minería. Los trimestres sin dato son los que la fuente oculta por secreto estadístico (muy pocas empresas en la provincia). Se actualiza solo cada trimestre."

@@ -100,7 +100,7 @@ a { color: var(--acento); }
 .segmentos { display: flex; gap: 2px; background: var(--insignia); border-radius: 8px; padding: 2px; }
 .segmentos button { border: 0; background: transparent; color: var(--tinta-2); font: inherit; font-size: 13px; padding: 5px 10px; border-radius: 6px; cursor: pointer; white-space: nowrap; }
 .segmentos button[aria-pressed="true"] { background: var(--superficie); color: var(--tinta); box-shadow: var(--sombra); font-weight: 600; }
-.controles select { font: inherit; font-size: 13px; padding: 5px 8px; border: 1px solid var(--borde); border-radius: 8px; background: var(--superficie); color: var(--tinta); }
+.controles select { font: inherit; font-size: 13px; padding: 5px 8px; border: 1px solid var(--borde); border-radius: 8px; background: var(--superficie); color: var(--tinta); max-width: 100%; min-width: 0; text-overflow: ellipsis; }
 .controles label.chk { font-size: 13px; color: var(--tinta-2); display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
 .controles button:focus-visible, .controles select:focus-visible { outline: 2px solid var(--acento); outline-offset: 1px; }
 .leyenda-vista { font-size: 12px; color: var(--tinta-3); margin: 6px 0 0; min-height: 18px; }

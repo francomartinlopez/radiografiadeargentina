@@ -1,6 +1,6 @@
-categoria,valor,fuente_url
-"Catamarca",92.5,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf
-"Jujuy",88.6,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf
-"Santa Cruz",87.2,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf
-"San Juan",86.1,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf
-"Salta",57.3,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf
+categoria,valor,fuente_url,fecha
+Catamarca,92.5,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf,2026-10-01
+Jujuy,88.6,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf,2026-10-01
+Santa Cruz,87.2,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf,2026-10-01
+San Juan,86.1,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf,2026-10-01
+Salta,57.3,https://www.argentina.gob.ar/sites/default/files/2026.11_origen_provincial_de_las_exportaciones_mineras.pdf,2026-10-01

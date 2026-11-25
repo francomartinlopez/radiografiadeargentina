@@ -1,8 +1,8 @@
-categoria,valor,fuente_url
-"Metalíferos (oro, plata, cobre)",13671,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf
-"Servicios mineros",8833,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf
-"Litio",5508,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf
-"Rocas de aplicación",5350,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf
-"Minerales no metalíferos",3428,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf
-"Minerales combustibles",2035,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf
-"Otros minerales",1690,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf
+categoria,valor,fuente_url,fecha
+"Metalíferos (oro, plata, cobre)",13671,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01
+Servicios mineros,8833,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01
+Litio,5508,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01
+Rocas de aplicación,5350,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01
+Minerales no metalíferos,3428,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01
+Minerales combustibles,2035,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01
+Otros minerales,1690,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01

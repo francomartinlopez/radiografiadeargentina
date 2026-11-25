@@ -1,0 +1,397 @@
+serie,fecha,valor,tramo
+San Juan,2000-01-01,141.0,observado
+San Juan,2000-04-01,129.0,observado
+San Juan,2000-07-01,135.0,observado
+San Juan,2000-10-01,192.0,observado
+San Juan,2004-10-01,485.0,observado
+San Juan,2005-01-01,545.0,observado
+San Juan,2005-04-01,639.0,observado
+San Juan,2005-07-01,730.0,observado
+San Juan,2005-10-01,814.0,observado
+San Juan,2006-01-01,881.0,observado
+San Juan,2006-04-01,914.0,observado
+San Juan,2006-07-01,999.0,observado
+San Juan,2006-10-01,1067.0,observado
+San Juan,2007-01-01,1118.0,observado
+San Juan,2007-04-01,1163.0,observado
+San Juan,2007-07-01,1211.0,observado
+San Juan,2007-10-01,1232.0,observado
+San Juan,2008-01-01,1315.0,observado
+San Juan,2008-04-01,1391.0,observado
+San Juan,2008-07-01,1466.0,observado
+San Juan,2008-10-01,1507.0,observado
+San Juan,2009-01-01,1560.0,observado
+San Juan,2009-04-01,1569.0,observado
+San Juan,2009-07-01,1625.0,observado
+San Juan,2009-10-01,1779.0,observado
+San Juan,2010-01-01,1856.0,observado
+San Juan,2010-04-01,1867.0,observado
+San Juan,2010-07-01,1911.0,observado
+San Juan,2010-10-01,1986.0,observado
+San Juan,2011-01-01,2075.0,observado
+San Juan,2011-04-01,2153.0,observado
+San Juan,2011-07-01,2213.0,observado
+San Juan,2011-10-01,2253.0,observado
+San Juan,2012-01-01,2302.0,observado
+San Juan,2012-04-01,2425.0,observado
+San Juan,2012-07-01,2366.0,observado
+San Juan,2012-10-01,2428.0,observado
+San Juan,2013-01-01,2444.0,observado
+San Juan,2013-04-01,2484.0,observado
+San Juan,2013-07-01,2497.0,observado
+San Juan,2013-10-01,2583.0,observado
+San Juan,2014-01-01,2606.0,observado
+San Juan,2014-04-01,2617.0,observado
+San Juan,2014-07-01,2645.0,observado
+San Juan,2014-10-01,2712.0,observado
+San Juan,2015-01-01,2802.0,observado
+San Juan,2015-04-01,2730.0,observado
+San Juan,2015-07-01,2695.0,observado
+San Juan,2015-10-01,2535.0,observado
+San Juan,2016-01-01,2348.0,observado
+San Juan,2016-04-01,2384.0,observado
+San Juan,2016-07-01,2492.0,observado
+San Juan,2016-10-01,2580.0,observado
+San Juan,2017-01-01,2679.0,observado
+San Juan,2017-04-01,2679.0,observado
+San Juan,2017-07-01,2776.0,observado
+San Juan,2017-10-01,2795.0,observado
+San Juan,2018-01-01,2714.0,observado
+San Juan,2018-04-01,2524.0,observado
+San Juan,2018-07-01,2397.0,observado
+San Juan,2018-10-01,2341.0,observado
+San Juan,2019-01-01,2311.0,observado
+San Juan,2019-04-01,2152.0,observado
+San Juan,2019-07-01,2082.0,observado
+San Juan,2019-10-01,2106.0,observado
+San Juan,2020-01-01,2134.0,observado
+San Juan,2020-04-01,2113.0,observado
+San Juan,2020-07-01,2112.0,observado
+San Juan,2020-10-01,2175.0,observado
+San Juan,2021-01-01,2261.0,observado
+San Juan,2021-04-01,2343.0,observado
+San Juan,2021-07-01,2363.0,observado
+San Juan,2021-10-01,2381.0,observado
+San Juan,2022-01-01,2489.0,observado
+San Juan,2022-04-01,2483.0,observado
+San Juan,2022-07-01,2437.0,observado
+San Juan,2022-10-01,2406.0,observado
+San Juan,2023-01-01,2323.0,observado
+San Juan,2023-04-01,2234.0,observado
+San Juan,2023-07-01,2165.0,observado
+San Juan,2023-10-01,2253.0,observado
+San Juan,2024-01-01,2306.0,observado
+San Juan,2024-04-01,2136.0,observado
+San Juan,2024-07-01,2022.0,observado
+San Juan,2024-10-01,2016.0,observado
+San Juan,2025-01-01,2043.0,observado
+San Juan,2025-04-01,2044.0,observado
+San Juan,2025-07-01,2029.0,observado
+San Juan,2025-10-01,2132.0,observado
+San Juan,2026-01-01,2272.0,observado
+Santa Cruz,1996-01-01,1241.0,observado
+Santa Cruz,1996-04-01,1343.0,observado
+Santa Cruz,1996-07-01,1231.0,observado
+Santa Cruz,1996-10-01,1227.0,observado
+Santa Cruz,1997-01-01,1285.0,observado
+Santa Cruz,1997-04-01,1213.0,observado
+Santa Cruz,1997-07-01,1097.0,observado
+Santa Cruz,1997-10-01,1115.0,observado
+Santa Cruz,1998-01-01,1113.0,observado
+Santa Cruz,1998-04-01,1219.0,observado
+Santa Cruz,1998-07-01,1229.0,observado
+Santa Cruz,1998-10-01,1228.0,observado
+Santa Cruz,1999-01-01,1193.0,observado
+Santa Cruz,1999-04-01,1192.0,observado
+Santa Cruz,1999-07-01,1196.0,observado
+Santa Cruz,1999-10-01,1174.0,observado
+Santa Cruz,2000-01-01,1144.0,observado
+Santa Cruz,2000-04-01,1114.0,observado
+Santa Cruz,2000-07-01,1079.0,observado
+Santa Cruz,2000-10-01,1099.0,observado
+Santa Cruz,2001-01-01,1098.0,observado
+Santa Cruz,2001-04-01,1082.0,observado
+Santa Cruz,2001-07-01,1149.0,observado
+Santa Cruz,2001-10-01,1144.0,observado
+Santa Cruz,2002-01-01,1129.0,observado
+Santa Cruz,2002-04-01,329.0,observado
+Santa Cruz,2002-07-01,359.0,observado
+Santa Cruz,2002-10-01,384.0,observado
+Santa Cruz,2003-01-01,427.0,observado
+Santa Cruz,2003-04-01,426.0,observado
+Santa Cruz,2003-07-01,448.0,observado
+Santa Cruz,2003-10-01,457.0,observado
+Santa Cruz,2004-01-01,470.0,observado
+Santa Cruz,2004-04-01,492.0,observado
+Santa Cruz,2004-07-01,580.0,observado
+Santa Cruz,2004-10-01,635.0,observado
+Santa Cruz,2005-01-01,699.0,observado
+Santa Cruz,2005-04-01,821.0,observado
+Santa Cruz,2005-07-01,881.0,observado
+Santa Cruz,2005-10-01,912.0,observado
+Santa Cruz,2006-01-01,972.0,observado
+Santa Cruz,2006-04-01,1012.0,observado
+Santa Cruz,2006-07-01,1077.0,observado
+Santa Cruz,2006-10-01,1175.0,observado
+Santa Cruz,2007-01-01,1397.0,observado
+Santa Cruz,2007-04-01,1580.0,observado
+Santa Cruz,2007-07-01,1666.0,observado
+Santa Cruz,2007-10-01,1773.0,observado
+Santa Cruz,2008-01-01,1959.0,observado
+Santa Cruz,2008-04-01,2233.0,observado
+Santa Cruz,2008-07-01,2175.0,observado
+Santa Cruz,2008-10-01,2186.0,observado
+Santa Cruz,2009-01-01,2255.0,observado
+Santa Cruz,2009-04-01,2364.0,observado
+Santa Cruz,2009-07-01,2473.0,observado
+Santa Cruz,2009-10-01,2541.0,observado
+Santa Cruz,2010-01-01,2663.0,observado
+Santa Cruz,2010-04-01,2772.0,observado
+Santa Cruz,2010-07-01,2905.0,observado
+Santa Cruz,2010-10-01,2943.0,observado
+Santa Cruz,2011-01-01,3022.0,observado
+Santa Cruz,2011-04-01,3070.0,observado
+Santa Cruz,2011-07-01,3233.0,observado
+Santa Cruz,2011-10-01,3321.0,observado
+Santa Cruz,2012-01-01,3435.0,observado
+Santa Cruz,2012-04-01,3500.0,observado
+Santa Cruz,2012-07-01,3568.0,observado
+Santa Cruz,2012-10-01,3595.0,observado
+Santa Cruz,2013-01-01,3759.0,observado
+Santa Cruz,2013-04-01,3871.0,observado
+Santa Cruz,2013-07-01,3856.0,observado
+Santa Cruz,2013-10-01,3797.0,observado
+Santa Cruz,2014-01-01,4075.0,observado
+Santa Cruz,2014-04-01,4448.0,observado
+Santa Cruz,2014-07-01,4676.0,observado
+Santa Cruz,2014-10-01,4806.0,observado
+Santa Cruz,2015-01-01,4824.0,observado
+Santa Cruz,2015-04-01,4839.0,observado
+Santa Cruz,2015-07-01,4724.0,observado
+Santa Cruz,2015-10-01,4665.0,observado
+Santa Cruz,2016-01-01,4679.0,observado
+Santa Cruz,2016-04-01,4603.0,observado
+Santa Cruz,2016-07-01,4531.0,observado
+Santa Cruz,2016-10-01,4636.0,observado
+Santa Cruz,2017-01-01,4680.0,observado
+Santa Cruz,2017-04-01,4663.0,observado
+Santa Cruz,2017-07-01,4662.0,observado
+Santa Cruz,2017-10-01,4676.0,observado
+Santa Cruz,2018-01-01,4740.0,observado
+Santa Cruz,2018-04-01,4737.0,observado
+Santa Cruz,2018-07-01,4805.0,observado
+Santa Cruz,2018-10-01,4874.0,observado
+Santa Cruz,2019-01-01,4973.0,observado
+Santa Cruz,2019-04-01,5020.0,observado
+Santa Cruz,2019-07-01,5024.0,observado
+Santa Cruz,2019-10-01,5013.0,observado
+Santa Cruz,2020-01-01,4964.0,observado
+Santa Cruz,2020-04-01,4967.0,observado
+Santa Cruz,2020-07-01,4991.0,observado
+Santa Cruz,2020-10-01,5081.0,observado
+Santa Cruz,2021-01-01,5158.0,observado
+Santa Cruz,2021-04-01,5272.0,observado
+Santa Cruz,2021-07-01,5276.0,observado
+Santa Cruz,2021-10-01,5234.0,observado
+Santa Cruz,2022-01-01,5184.0,observado
+Santa Cruz,2022-04-01,5071.0,observado
+Santa Cruz,2022-07-01,5020.0,observado
+Santa Cruz,2022-10-01,4979.0,observado
+Santa Cruz,2023-01-01,4770.0,observado
+Santa Cruz,2023-04-01,4626.0,observado
+Santa Cruz,2023-07-01,4663.0,observado
+Santa Cruz,2023-10-01,4612.0,observado
+Santa Cruz,2024-01-01,4629.0,observado
+Santa Cruz,2024-04-01,4592.0,observado
+Santa Cruz,2024-07-01,4606.0,observado
+Santa Cruz,2024-10-01,4628.0,observado
+Santa Cruz,2025-01-01,4660.0,observado
+Santa Cruz,2025-04-01,4738.0,observado
+Santa Cruz,2025-07-01,4829.0,observado
+Santa Cruz,2025-10-01,4833.0,observado
+Santa Cruz,2026-01-01,4862.0,observado
+Catamarca,2008-01-01,1359.0,observado
+Catamarca,2008-04-01,1395.0,observado
+Catamarca,2008-07-01,1436.0,observado
+Catamarca,2008-10-01,1441.0,observado
+Catamarca,2010-01-01,1358.0,observado
+Catamarca,2010-04-01,1386.0,observado
+Catamarca,2010-07-01,1363.0,observado
+Catamarca,2010-10-01,1352.0,observado
+Catamarca,2023-07-01,824.0,observado
+Catamarca,2023-10-01,914.0,observado
+Catamarca,2024-01-01,952.0,observado
+Catamarca,2024-04-01,1017.0,observado
+Catamarca,2024-07-01,999.0,observado
+Catamarca,2024-10-01,963.0,observado
+Catamarca,2025-01-01,950.0,observado
+Catamarca,2025-04-01,936.0,observado
+Catamarca,2025-07-01,1004.0,observado
+Catamarca,2025-10-01,1144.0,observado
+Catamarca,2026-01-01,1169.0,observado
+Jujuy,1997-01-01,699.0,observado
+Jujuy,1997-04-01,691.0,observado
+Jujuy,1997-07-01,698.0,observado
+Jujuy,1997-10-01,751.0,observado
+Jujuy,1998-01-01,764.0,observado
+Jujuy,1998-04-01,803.0,observado
+Jujuy,1998-07-01,790.0,observado
+Jujuy,1998-10-01,745.0,observado
+Jujuy,2003-01-01,928.0,observado
+Jujuy,2003-04-01,926.0,observado
+Jujuy,2003-07-01,923.0,observado
+Jujuy,2003-10-01,924.0,observado
+Jujuy,2006-01-01,1124.0,observado
+Jujuy,2006-04-01,1163.0,observado
+Jujuy,2006-07-01,1224.0,observado
+Jujuy,2006-10-01,1261.0,observado
+Jujuy,2007-01-01,1418.0,observado
+Jujuy,2007-04-01,1345.0,observado
+Jujuy,2007-07-01,1375.0,observado
+Jujuy,2007-10-01,1520.0,observado
+Jujuy,2008-01-01,1468.0,observado
+Jujuy,2008-04-01,1498.0,observado
+Jujuy,2008-07-01,1623.0,observado
+Jujuy,2008-10-01,1653.0,observado
+Jujuy,2009-01-01,1521.0,observado
+Jujuy,2009-04-01,1543.0,observado
+Jujuy,2009-07-01,1557.0,observado
+Jujuy,2009-10-01,1552.0,observado
+Jujuy,2010-01-01,1574.0,observado
+Jujuy,2010-04-01,1509.0,observado
+Jujuy,2010-07-01,1532.0,observado
+Jujuy,2010-10-01,1617.0,observado
+Jujuy,2011-01-01,1695.0,observado
+Jujuy,2011-04-01,1690.0,observado
+Jujuy,2011-07-01,1705.0,observado
+Jujuy,2011-10-01,1755.0,observado
+Jujuy,2012-01-01,1808.0,observado
+Jujuy,2012-04-01,1770.0,observado
+Jujuy,2012-07-01,1780.0,observado
+Jujuy,2012-10-01,1822.0,observado
+Jujuy,2013-01-01,1827.0,observado
+Jujuy,2013-04-01,1779.0,observado
+Jujuy,2013-07-01,1721.0,observado
+Jujuy,2013-10-01,1630.0,observado
+Jujuy,2014-01-01,1648.0,observado
+Jujuy,2014-04-01,1626.0,observado
+Jujuy,2014-07-01,1627.0,observado
+Jujuy,2014-10-01,1685.0,observado
+Jujuy,2015-01-01,1693.0,observado
+Jujuy,2015-04-01,1624.0,observado
+Jujuy,2015-07-01,1610.0,observado
+Jujuy,2015-10-01,1591.0,observado
+Jujuy,2016-01-01,1560.0,observado
+Jujuy,2016-04-01,1529.0,observado
+Jujuy,2016-07-01,1495.0,observado
+Jujuy,2016-10-01,1488.0,observado
+Jujuy,2017-01-01,1398.0,observado
+Jujuy,2017-04-01,1314.0,observado
+Jujuy,2017-07-01,1336.0,observado
+Jujuy,2017-10-01,1422.0,observado
+Jujuy,2018-01-01,1471.0,observado
+Jujuy,2018-04-01,1462.0,observado
+Jujuy,2018-07-01,1556.0,observado
+Jujuy,2018-10-01,1710.0,observado
+Jujuy,2019-01-01,1618.0,observado
+Jujuy,2019-04-01,1629.0,observado
+Jujuy,2019-07-01,1670.0,observado
+Jujuy,2019-10-01,1683.0,observado
+Jujuy,2020-01-01,1726.0,observado
+Jujuy,2020-04-01,1756.0,observado
+Jujuy,2020-07-01,1794.0,observado
+Jujuy,2020-10-01,1804.0,observado
+Jujuy,2021-01-01,1629.0,observado
+Jujuy,2021-04-01,1420.0,observado
+Jujuy,2021-07-01,1437.0,observado
+Jujuy,2021-10-01,1449.0,observado
+Jujuy,2022-01-01,1570.0,observado
+Jujuy,2022-04-01,1707.0,observado
+Jujuy,2022-07-01,1920.0,observado
+Jujuy,2022-10-01,1954.0,observado
+Jujuy,2023-01-01,1988.0,observado
+Jujuy,2023-04-01,2005.0,observado
+Jujuy,2023-07-01,1998.0,observado
+Jujuy,2023-10-01,2036.0,observado
+Jujuy,2024-01-01,2005.0,observado
+Jujuy,2024-04-01,2003.0,observado
+Jujuy,2024-07-01,2010.0,observado
+Jujuy,2024-10-01,2018.0,observado
+Jujuy,2025-01-01,2029.0,observado
+Jujuy,2025-04-01,2005.0,observado
+Jujuy,2025-07-01,1966.0,observado
+Jujuy,2025-10-01,1956.0,observado
+Jujuy,2026-01-01,1968.0,observado
+Salta,1996-01-01,10.0,observado
+Salta,1996-04-01,11.0,observado
+Salta,1996-07-01,12.0,observado
+Salta,1996-10-01,31.0,observado
+Salta,1997-01-01,46.0,observado
+Salta,1997-04-01,59.0,observado
+Salta,1997-07-01,48.0,observado
+Salta,1997-10-01,33.0,observado
+Salta,1998-01-01,35.0,observado
+Salta,1998-04-01,30.0,observado
+Salta,1998-07-01,16.0,observado
+Salta,1998-10-01,11.0,observado
+Salta,2009-01-01,7.0,observado
+Salta,2009-04-01,7.0,observado
+Salta,2009-07-01,15.0,observado
+Salta,2009-10-01,18.0,observado
+Salta,2010-01-01,19.0,observado
+Salta,2010-04-01,19.0,observado
+Salta,2010-07-01,25.0,observado
+Salta,2010-10-01,34.0,observado
+Salta,2011-01-01,53.0,observado
+Salta,2011-04-01,89.0,observado
+Salta,2011-07-01,110.0,observado
+Salta,2011-10-01,128.0,observado
+Salta,2012-01-01,96.0,observado
+Salta,2012-04-01,86.0,observado
+Salta,2012-07-01,82.0,observado
+Salta,2012-10-01,61.0,observado
+Salta,2013-01-01,64.0,observado
+Salta,2013-04-01,42.0,observado
+Salta,2013-07-01,28.0,observado
+Salta,2013-10-01,31.0,observado
+Salta,2014-01-01,21.0,observado
+Salta,2014-04-01,20.0,observado
+Salta,2014-07-01,23.0,observado
+Salta,2014-10-01,22.0,observado
+Salta,2015-01-01,23.0,observado
+Salta,2015-04-01,25.0,observado
+Salta,2015-07-01,24.0,observado
+Salta,2015-10-01,23.0,observado
+Salta,2016-01-01,15.0,observado
+Salta,2016-04-01,13.0,observado
+Salta,2016-07-01,13.0,observado
+Salta,2016-10-01,14.0,observado
+Salta,2019-01-01,24.0,observado
+Salta,2019-04-01,36.0,observado
+Salta,2019-07-01,45.0,observado
+Salta,2019-10-01,68.0,observado
+Salta,2020-01-01,75.0,observado
+Salta,2020-04-01,73.0,observado
+Salta,2020-07-01,69.0,observado
+Salta,2020-10-01,73.0,observado
+Salta,2021-01-01,85.0,observado
+Salta,2021-04-01,108.0,observado
+Salta,2021-07-01,143.0,observado
+Salta,2021-10-01,161.0,observado
+Salta,2022-01-01,203.0,observado
+Salta,2022-04-01,241.0,observado
+Salta,2022-07-01,274.0,observado
+Salta,2022-10-01,308.0,observado
+Salta,2023-01-01,352.0,observado
+Salta,2023-04-01,387.0,observado
+Salta,2023-07-01,432.0,observado
+Salta,2023-10-01,471.0,observado
+Salta,2024-01-01,514.0,observado
+Salta,2024-04-01,569.0,observado
+Salta,2024-07-01,592.0,observado
+Salta,2024-10-01,616.0,observado
+Salta,2025-01-01,614.0,observado
+Salta,2025-04-01,655.0,observado
+Salta,2025-07-01,741.0,observado
+Salta,2025-10-01,769.0,observado
+Salta,2026-01-01,768.0,observado

@@ -159,7 +159,7 @@ series:
   dolar_mep:           {fuente: argentinadatos, id: "cotizaciones/dolares/bolsa", campo: venta, agregacion: promedio}
   riesgo_pais:         {fuente: argentinadatos, id: "finanzas/indices/riesgo-pais", campo: valor, agregacion: promedio}
   # --- Ampliación fase 1 (IDs verificados con pipeline.sondear, oct-2026) ---
-  ipim:                {fuente: datosgobar, id: "448.1_NIVEL_GENERAL_0_0_13_46"}
+  ipim:                {fuente: archivo, lector: indec_sipm, campo: "IPIM:NG"}   # INDEC, series_sipm_dic2015.xls (dic 2015 = 100)
   autoservicios_desest: {fuente: datosgobar, id: "456.1_VENTAS_PREADA_0_M_44_40"}
   shoppings_desest:    {fuente: datosgobar, id: "458.1_VENTAS_TOTADA_0_M_52_56"}
   produccion_gas:      {fuente: datosgobar, id: "364.3_PRODUCCIoNRAL__25"}
@@ -1080,8 +1080,37 @@ series:
   prov_expo_tucuman: {fuente: csv_url, url: "https://infra.datos.gob.ar/catalog/sspm/dataset/350/distribution/350.1/download/exportaciones-provincia-rubro.csv", fecha: indice_tiempo, valor: tucuman_total_tucuman}
   prov_empresas_tucuman: {fuente: archivo, lector: oede_prov_empresas, campo: "Tucuman"}
   prov_salario_tucuman: {fuente: archivo, lector: oede_prov_remuneracion, campo: "TUCUMAN"}
+  # --- Producción de petróleo y gas por provincia (EITI Argentina, trimestral, millones de m³; desde el 4.º trimestre de 2023) ---
+  eiti_petroleo_neuquen: {fuente: archivo, lector: eiti_produccion, campo: "petroleo:Neuquén"}
+  eiti_petroleo_chubut: {fuente: archivo, lector: eiti_produccion, campo: "petroleo:Chubut"}
+  eiti_petroleo_santacruz: {fuente: archivo, lector: eiti_produccion, campo: "petroleo:Santa Cruz"}
+  eiti_petroleo_mendoza: {fuente: archivo, lector: eiti_produccion, campo: "petroleo:Mendoza"}
+  eiti_petroleo_rionegro: {fuente: archivo, lector: eiti_produccion, campo: "petroleo:Río Negro"}
+  eiti_petroleo_lapampa: {fuente: archivo, lector: eiti_produccion, campo: "petroleo:La Pampa"}
+  eiti_petroleo_tierradelfuego: {fuente: archivo, lector: eiti_produccion, campo: "petroleo:Tierra del Fuego"}
+  eiti_petroleo_salta: {fuente: archivo, lector: eiti_produccion, campo: "petroleo:Salta"}
+  eiti_gas_neuquen: {fuente: archivo, lector: eiti_produccion, campo: "gas:Neuquén"}
+  eiti_gas_estadonacional: {fuente: archivo, lector: eiti_produccion, campo: "gas:Estado Nacional"}
+  eiti_gas_santacruz: {fuente: archivo, lector: eiti_produccion, campo: "gas:Santa Cruz"}
+  eiti_gas_chubut: {fuente: archivo, lector: eiti_produccion, campo: "gas:Chubut"}
+  eiti_gas_tierradelfuego: {fuente: archivo, lector: eiti_produccion, campo: "gas:Tierra del Fuego"}
+  eiti_gas_salta: {fuente: archivo, lector: eiti_produccion, campo: "gas:Salta"}
+  eiti_gas_rionegro: {fuente: archivo, lector: eiti_produccion, campo: "gas:Río Negro"}
+  eiti_gas_mendoza: {fuente: archivo, lector: eiti_produccion, campo: "gas:Mendoza"}
+  # --- Asalariados privados registrados por rama y provincia (OEDE, trimestral; CIIU 11 petróleo y gas, 13 minerales metalíferos) ---
+  oede_petroleo_neuquen: {fuente: archivo, lector: oede_prov_rama, campo: "Neuquen:11"}
+  oede_petroleo_chubut: {fuente: archivo, lector: oede_prov_rama, campo: "Chubut:11"}
+  oede_petroleo_santacruz: {fuente: archivo, lector: oede_prov_rama, campo: "Santa Cruz:11"}
+  oede_petroleo_mendoza: {fuente: archivo, lector: oede_prov_rama, campo: "Mendoza:11"}
+  oede_petroleo_rionegro: {fuente: archivo, lector: oede_prov_rama, campo: "Rio Negro:11"}
+  oede_petroleo_salta: {fuente: archivo, lector: oede_prov_rama, campo: "Salta:11"}
+  oede_petroleo_tierradelfuego: {fuente: archivo, lector: oede_prov_rama, campo: "Tierra del Fuego:11"}
+  oede_metaliferos_sanjuan: {fuente: archivo, lector: oede_prov_rama, campo: "San Juan:13"}
+  oede_metaliferos_santacruz: {fuente: archivo, lector: oede_prov_rama, campo: "Santa Cruz:13"}
+  oede_metaliferos_catamarca: {fuente: archivo, lector: oede_prov_rama, campo: "Catamarca:13"}
+  oede_metaliferos_jujuy: {fuente: archivo, lector: oede_prov_rama, campo: "Jujuy:13"}
+  oede_metaliferos_salta: {fuente: archivo, lector: oede_prov_rama, campo: "Salta:13"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
-  ipim_indec:          {fuente: manual, id: ipim_indec}   # variaciones de los informes de prensa del INDEC (mientras datos.gob.ar no se actualice)
 
 empalmes:
   ipc:

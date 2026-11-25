@@ -1,9 +1,9 @@
-categoria,fuente_url,valor
-Santa Cruz,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,9085.0
-Salta,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,5661.0
-San Juan,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,5572.0
-Buenos Aires,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,3871.0
-Jujuy,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,3652.0
-Catamarca,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,3572.0
-Córdoba,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,1981.0
-Resto del país,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,7121.0
+categoria,fuente_url,fecha,valor
+Santa Cruz,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01,9085.0
+Salta,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01,5661.0
+San Juan,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01,5572.0
+Buenos Aires,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01,3871.0
+Jujuy,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01,3652.0
+Catamarca,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01,3572.0
+Córdoba,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01,1981.0
+Resto del país,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,2026-06-01,7121.0

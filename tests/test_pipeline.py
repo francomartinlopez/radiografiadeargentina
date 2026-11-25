@@ -246,3 +246,39 @@ def test_descargar_conserva_si_la_fuente_retrocede(tmp_path, monkeypatch):
     crudas, alertas = construir.descargar({"series": {"x": {"fuente": "manual", "id": "x"}}}, False)
     assert crudas["x"].index.max() == guardada.index.max() and not escritas
     assert any("se conserva el dato anterior" in a for a in alertas)
+
+
+def test_leer_sipm_lee_meses_con_variantes():
+    import pandas as pd
+    from pipeline.fuentes.archivos import leer_sipm
+    df = pd.DataFrame([["t", None, None, None, None], [None] * 5, [None] * 5,
+                       ["Código", "Descripción", 2015, 2016, None],
+                       [None, None, "Dic", "Ene", "Set"], [None] * 5, [None] * 5,
+                       ["NG", "Nivel general", 100, 108.8, 112.0]])
+    s = leer_sipm({"IPIM": df}, "IPIM:NG")
+    assert list(s.index.strftime("%Y-%m")) == ["2015-12", "2016-01", "2016-09"]
+
+
+def test_leer_eiti_produccion_calcula_provincias():
+    from pipeline.fuentes.archivos import leer_eiti_produccion
+    html = ("<p>2025</p><p>Julio, agosto y septiembre</p><p>En el tercer trimestre de 2025 la producción total fue de "
+            "11,97 millones de m3. Las provincias...</p><p>Neuquén: 66,2%</p><p>Rio Negro: 2,3%</p>"
+            "<p>Abril, mayo y junio</p><p>En el segundo trimestre de 2025 la producción total fue de 10,92 millones de m3.</p>"
+            "<p>Neuquén: 66,2%</p>")
+    d = leer_eiti_produccion(html)
+    import pandas as pd
+    assert round(d[pd.Timestamp(2025, 7, 1)]["Neuquén"], 3) == round(11.97 * 0.662, 3)
+    assert "Río Negro" in d[pd.Timestamp(2025, 7, 1)] and "Río Negro" not in d[pd.Timestamp(2025, 4, 1)]
+
+
+def test_leer_empleo_minero_cuadra_provincias_y_rubros():
+    from pipeline.mineria_informes import leer_empleo
+    p1 = ("Durante el mes de junio de 2026 el empleo minero en Argentina alcanzó los 100 puestos de trabajo. "
+          "se registraron 40 puestos de trabajo vinculados a metalíferos, servicios y actividades relacionadas con la "
+          "minería, que explicó un total de 20 puestos. el litio con 10 puestos. rocas de aplicación con 10 puestos. "
+          "minerales no metalíferos con 10 puestos. minerales combustibles con 5 puestos. minerales no clasificados "
+          "previamente con 5 puestos.")
+    p2 = "Empleo minero por provincia y rubro\n30\n70\n0 20 40 60 80\nResto\nSanta Cruz\nMetalíferos Servicios mineros\nEmpleo minero por provincia"
+    d = leer_empleo([p1, p2])
+    assert d["provincias"] == {"Resto del país": 30, "Santa Cruz": 70}
+    assert sum(d["rubros"].values()) == 100

@@ -1,5 +1,6 @@
-categoria,valor,fuente_url
-"En producción",24,https://www.argentina.gob.ar/sites/default/files/compendio_estadistico_de_la_actividad_minera_1er_semestre_2025.pdf
-"En construcción",7,https://www.argentina.gob.ar/sites/default/files/compendio_estadistico_de_la_actividad_minera_1er_semestre_2025.pdf
-"Estudios avanzados",27,https://www.argentina.gob.ar/sites/default/files/compendio_estadistico_de_la_actividad_minera_1er_semestre_2025.pdf
-"Exploración y prospección",262,https://www.argentina.gob.ar/sites/default/files/compendio_estadistico_de_la_actividad_minera_1er_semestre_2025.pdf
+categoria,valor,fuente_url,fecha
+En producción,27,https://aceroyroca.com/wp-content/uploads/2026/11/Compendio-Estadistico-de-la-Actividad-Minera_compressed-1.pdf,2026-09-01
+En construcción,6,https://aceroyroca.com/wp-content/uploads/2026/11/Compendio-Estadistico-de-la-Actividad-Minera_compressed-1.pdf,2026-09-01
+Factibilidad,10,https://aceroyroca.com/wp-content/uploads/2026/11/Compendio-Estadistico-de-la-Actividad-Minera_compressed-1.pdf,2026-09-01
+Prefactibilidad,6,https://aceroyroca.com/wp-content/uploads/2026/11/Compendio-Estadistico-de-la-Actividad-Minera_compressed-1.pdf,2026-09-01
+Evaluación económica preliminar,14,https://aceroyroca.com/wp-content/uploads/2026/11/Compendio-Estadistico-de-la-Actividad-Minera_compressed-1.pdf,2026-09-01

@@ -35,6 +35,7 @@ ARCHIVOS = {
     "cin": INDEC + "economia/cin_{T}_{AAAA}.xls",
     "maquinaria": INDEC + "economia/sh_industria_maquinaria_agricola.xls",
     "ipi_minero": INDEC + "economia/serie_ipi_minero.xlsx",
+    "sipm": INDEC + "economia/series_sipm_dic2015.xls",
 }
 PAGINA_DEUDA = "https://www.argentina.gob.ar/economia/finanzas/datos-trimestrales-de-la-deuda"
 PAGINA_PROVINCIAS = "https://www.argentina.gob.ar/economia/sechacienda/coordinacion-fiscal-provincial/ejecucion-presupuestaria-provincial/ejecuciones"
@@ -944,7 +945,7 @@ def indec_maquinaria(campo: str, h: dict | None = None) -> pd.Series:
                 datos[pd.Timestamp(anio, 3 * int(m[1]) - 2, 1)] = float(v)
     return pd.Series(datos, dtype=float).sort_index()
 
-MESES_ES = {m: i for i, m in enumerate(["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+MESES_NUM = {m: i for i, m in enumerate(["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
                                           "septiembre", "octubre", "noviembre", "diciembre"], 1)}
 # campo -> (cuadro, texto con que empieza el encabezado de la columna)
 CAMPOS_IPI_MINERO = {
@@ -976,15 +977,42 @@ def leer_ipi_minero(h: dict, campo: str) -> pd.Series:
         a, m = fila.iloc[1], _texto(fila.iloc[2]).lower().rstrip("*").strip()
         if pd.notna(a) and re.fullmatch(r"\d{4}\*?", _texto(a).split(".")[0].rstrip("*")):
             anio = int(_texto(a).split(".")[0].rstrip("*"))
-        if anio and m in MESES_ES:
+        if anio and m in MESES_NUM:
             v = pd.to_numeric(fila.iloc[col], errors="coerce")  # "s" (secreto estadístico) queda vacío
-            fechas.append(pd.Timestamp(anio, MESES_ES[m], 1))
+            fechas.append(pd.Timestamp(anio, MESES_NUM[m], 1))
             valores.append(v)
     return pd.Series(valores, index=fechas, dtype=float).dropna()
 
 
 def indec_ipi_minero(campo: str, h: dict | None = None) -> pd.Series:
     return leer_ipi_minero(h or hojas("ipi_minero"), campo)
+
+
+# ---------- Precios mayoristas (INDEC, base 1993 con diciembre 2015 = 100) ----------
+
+MESES_CORTOS = {m: i for i, m in enumerate(["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"], 1)}
+
+
+def leer_sipm(h: dict, campo: str) -> pd.Series:
+    """campo = "IPIM:NG" (hoja:código de fila). Años en la fila 4 del cuadro, meses en la 5."""
+    hoja, codigo = campo.split(":")
+    df = h[hoja]
+    fila_cod = next(i for i in range(len(df)) if _texto(df.iloc[i, 0]) == codigo)
+    fila_anio = next(i for i in range(10) if _texto(df.iloc[i, 0]).lower().startswith("código"))
+    fechas, valores, anio = [], [], None
+    for c in range(2, df.shape[1]):
+        a = _texto(df.iloc[fila_anio, c]).split(".")[0]
+        if re.fullmatch(r"\d{4}", a):
+            anio = int(a)
+        m = _texto(df.iloc[fila_anio + 1, c]).lower().rstrip("*.").strip()[:3].replace("set", "sep")
+        if anio and m in MESES_CORTOS:
+            fechas.append(pd.Timestamp(anio, MESES_CORTOS[m], 1))
+            valores.append(pd.to_numeric(df.iloc[fila_cod, c], errors="coerce"))
+    return pd.Series(valores, index=fechas, dtype=float).dropna()
+
+
+def indec_sipm(campo: str, h: dict | None = None) -> pd.Series:
+    return leer_sipm(h or hojas("sipm"), campo)
 
 
 # ---------- Exportaciones mineras (informe mensual de la Secretaría de Minería, en PDF) ----------
@@ -999,10 +1027,10 @@ def leer_informe_mineria(contenido: bytes) -> dict | None:
     from pypdf import PdfReader
     t = re.sub(r"\s+", " ", "".join(p.extract_text() or "" for p in PdfReader(io.BytesIO(contenido)).pages))
     m = re.search(r"(?:Durante el mes de|En) (\w+) de (\d{4}),? el sector minero realizó exportaciones por USD ([\d\.,]+) millones", t)
-    if not m or m.group(1).lower() not in MESES_ES:
+    if not m or m.group(1).lower() not in MESES_NUM:
         return None
     num = lambda x: float(x.replace(".", "").replace(",", "."))
-    return {"fecha": pd.Timestamp(int(m.group(2)), MESES_ES[m.group(1).lower()], 1), "nacional": num(m.group(3))}
+    return {"fecha": pd.Timestamp(int(m.group(2)), MESES_NUM[m.group(1).lower()], 1), "nacional": num(m.group(3))}
 
 
 def mineria_exportaciones(campo: str = "nacional") -> pd.Series:
@@ -1026,6 +1054,52 @@ def mineria_exportaciones(campo: str = "nacional") -> pd.Series:
     if not len(previo) and not nuevos:
         raise RuntimeError("no se pudo leer ningún informe de exportaciones mineras")
     return pd.concat([previo, pd.Series(nuevos, dtype=float)]).sort_index().groupby(level=0).last()
+
+
+# ---------- EITI (Ministerio de Economía): producción de petróleo y gas por provincia, trimestral ----------
+
+EITI_PAGINAS = {"petroleo": "https://www.argentina.gob.ar/node/260358", "gas": "https://www.argentina.gob.ar/node/260361"}
+ORDINALES_TRIM = {"primer": 1, "segundo": 2, "tercer": 3, "cuarto": 4}
+
+
+def leer_eiti_produccion(html_txt: str) -> dict[pd.Timestamp, dict[str, float]]:
+    """Por trimestre: producción total (millones de m³) y producción de cada provincia = total × participación.
+    Las participaciones vienen redondeadas a un decimal, así que el valor provincial es aproximado."""
+    import html as _html
+    x = re.sub(r"<script.*?</script>|<style.*?</style>", "", html_txt, flags=re.S)
+    x = _html.unescape(re.sub(r"<[^>]+>", "\n", x)).replace("\xa0", " ")
+    num = lambda v: float(v.replace(".", "").replace(",", "."))
+    bloques = re.split(r"(?=En el (?:primer|segundo|tercer|cuarto) trimestre de \d{4} la producción total)", x)
+    salida = {}
+    for b in bloques[1:]:
+        m = re.match(r"En el (\w+) trimestre de (\d{4}) la producción total fue de ([\d.,]+) millones de m3", b)
+        if not m:
+            continue
+        fecha = pd.Timestamp(int(m.group(2)), 3 * ORDINALES_TRIM[m.group(1)] - 2, 1)
+        total = num(m.group(3))
+        fin = re.search(r"\n(?:Enero|Abril|Julio|Octubre),|\n\d{4}\n", b)
+        cuerpo = b[: fin.start()] if fin else b
+        d = {"Total": total}
+        for prov, pct in re.findall(r"\n\s*([A-ZÁÉÍÓÚ][\wáéíóúñ ]+?):\s*([\d.,]+)\s*%", cuerpo):
+            d[prov.strip().replace("Rio Negro", "Río Negro")] = round(total * num(pct) / 100, 4)
+        salida[fecha] = d
+    return salida
+
+
+def eiti_produccion(campo: str) -> pd.Series:
+    """campo = "petroleo:Neuquén" o "gas:Total". Suma los trimestres nuevos a lo ya guardado, porque la página
+    muestra solo los últimos dos años."""
+    producto, prov = campo.split(":")
+    clave = re.sub(r"[^a-z]", "", prov.lower().translate(str.maketrans("áéíóú", "aeiou")))
+    archivo = CRUDOS_DIR / f"eiti_{producto}_{clave}.csv"
+    previo = pd.read_csv(archivo, parse_dates=["fecha"]).set_index("fecha")["valor"] if archivo.exists() else pd.Series(dtype=float)
+    r = requests.get(EITI_PAGINAS[producto], headers=CABECERAS, timeout=TIMEOUT)
+    r.raise_for_status()
+    datos = leer_eiti_produccion(r.text)
+    nuevos = pd.Series({f: d[prov] for f, d in datos.items() if prov in d}, dtype=float)
+    if not len(previo) and not len(nuevos):
+        raise RuntimeError(f"EITI: no se encontró {campo}")
+    return pd.concat([previo, nuevos]).sort_index().groupby(level=0).last()
 
 
 # ---------- OEDE (Secretaría de Trabajo): series por provincia ----------
@@ -1086,9 +1160,32 @@ def oede_prov_remuneracion(campo: str) -> pd.Series:
     return leer_oede_prov_remuneracion(oede_prov_hojas("provinciales_serie_remuneraciones_mensual_2dig"), campo)
 
 
+def leer_oede_prov_rama(h: dict, campo: str) -> pd.Series:
+    """Asalariados privados registrados de una rama (CIIU rev. 3, 2 dígitos o letra) en una provincia, por
+    trimestre. campo = "Hoja:código", p. ej. "San Juan:13". "s.d." y secreto estadístico quedan vacíos."""
+    hoja, codigo = campo.split(":")
+    df = h[hoja]
+    fila_t = next(i for i in range(10) if _texto(df.iat[i, 1]).lower().startswith("ramas"))
+    i = next(i for i in range(fila_t + 1, len(df)) if _texto(df.iat[i, 0]).split(".")[0] == codigo)
+    s = {}
+    for c in range(2, df.shape[1]):
+        m = re.search(r"([1-4])\D*trim\D*(\d{4})", _texto(df.iat[fila_t, c]), flags=re.I)
+        v = pd.to_numeric(df.iat[i, c], errors="coerce")
+        if m and pd.notna(v):
+            s[pd.Timestamp(int(m.group(2)), 3 * int(m.group(1)) - 2, 1)] = float(v)
+    return pd.Series(s, dtype=float).sort_index()
+
+
+def oede_prov_rama(campo: str) -> pd.Series:
+    return leer_oede_prov_rama(oede_prov_hojas("provinciales_serie_empleo_trimestral_2dig"), campo)
+
+
 LECTORES = {
+    "eiti_produccion": eiti_produccion,
+    "oede_prov_rama": oede_prov_rama,
     "indec_maquinaria": indec_maquinaria,
     "indec_ipi_minero": indec_ipi_minero,
+    "indec_sipm": indec_sipm,
     "oede_prov_empresas": oede_prov_empresas,
     "oede_prov_remuneracion": oede_prov_remuneracion,
     "mineria_exportaciones": mineria_exportaciones,
