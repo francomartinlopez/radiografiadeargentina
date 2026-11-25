@@ -1110,6 +1110,11 @@ series:
   oede_metaliferos_catamarca: {fuente: archivo, lector: oede_prov_rama, campo: "Catamarca:13"}
   oede_metaliferos_jujuy: {fuente: archivo, lector: oede_prov_rama, campo: "Jujuy:13"}
   oede_metaliferos_salta: {fuente: archivo, lector: oede_prov_rama, campo: "Salta:13"}
+  # --- Complejos exportadores mineros (INDEC, anual desde 2002, millones de US$) ---
+  complejo_oro_plata:  {fuente: archivo, lector: indec_complejos, campo: "Complejo oro y plata"}
+  complejo_litio:      {fuente: archivo, lector: indec_complejos, campo: "Complejo litio"}
+  complejo_plomo:      {fuente: archivo, lector: indec_complejos, campo: "Complejo plomo"}
+  complejo_otros_metal: {fuente: archivo, lector: indec_complejos, campo: "Complejo otros minerales metalíferos"}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
 
 empalmes:

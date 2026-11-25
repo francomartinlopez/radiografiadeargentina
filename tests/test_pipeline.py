@@ -282,3 +282,12 @@ def test_leer_empleo_minero_cuadra_provincias_y_rubros():
     d = leer_empleo([p1, p2])
     assert d["provincias"] == {"Resto del país": 30, "Santa Cruz": 70}
     assert sum(d["rubros"].values()) == 100
+
+
+def test_leer_complejos_lee_anios_provisorios():
+    import pandas as pd
+    from pipeline.fuentes.archivos import leer_complejos
+    df = pd.DataFrame([["t", None, None], [None] * 3, ["Complejos exportadores", "Años", None],
+                       [None, 2024, "2025*"], [None, "Millones de USD", None], ["Complejo litio", 655.3, 931.5]])
+    s = leer_complejos({"hoja": df}, "Complejo litio")
+    assert list(s.index.year) == [2024, 2025] and s.iloc[-1] == 931.5

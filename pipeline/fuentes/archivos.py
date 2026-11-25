@@ -35,6 +35,7 @@ ARCHIVOS = {
     "cin": INDEC + "economia/cin_{T}_{AAAA}.xls",
     "maquinaria": INDEC + "economia/sh_industria_maquinaria_agricola.xls",
     "ipi_minero": INDEC + "economia/serie_ipi_minero.xlsx",
+    "complejos": INDEC + "economia/complejos_exportadores_serie_2002_{AAAA}.xlsx",
     "sipm": INDEC + "economia/series_sipm_dic2015.xls",
 }
 PAGINA_DEUDA = "https://www.argentina.gob.ar/economia/finanzas/datos-trimestrales-de-la-deuda"
@@ -50,6 +51,8 @@ def candidatos(patron: str, meses_atras: int = 15) -> list[str]:
             f = hoy - pd.DateOffset(months=3 * k)
             out.append(patron.format(T=["I", "II", "III", "IV"][(f.month - 1) // 3], AAAA=f.year))
         return out
+    if "{AAAA}" in patron and "{MM}" not in patron:  # serie anual con el último año en el nombre
+        return [patron.format(AAAA=date.today().year - k) for k in range(3)]
     if "{MM}" not in patron:
         return [patron]
     hoy = pd.Timestamp(date.today()).replace(day=1)
@@ -988,6 +991,25 @@ def indec_ipi_minero(campo: str, h: dict | None = None) -> pd.Series:
     return leer_ipi_minero(h or hojas("ipi_minero"), campo)
 
 
+# ---------- Complejos exportadores (INDEC, serie anual desde 2002, millones de US$) ----------
+
+def leer_complejos(h: dict, campo: str) -> pd.Series:
+    """Fila cuyo rótulo empieza con campo (p. ej. "Complejo litio"); años en la fila de encabezado."""
+    df = next(iter(h.values()))
+    fila_anios = next(i for i in range(10) if any(re.fullmatch(r"\d{4}\*?", _texto(v).split(".")[0]) for v in df.iloc[i, 1:4]))
+    i = next(i for i in range(len(df)) if _texto(df.iat[i, 0]).lower() == campo.lower())
+    s = {}
+    for c in range(1, df.shape[1]):
+        a = re.match(r"(\d{4})", _texto(df.iat[fila_anios, c]))
+        v = pd.to_numeric(df.iat[i, c], errors="coerce")
+        if a and pd.notna(v):
+            s[pd.Timestamp(int(a.group(1)), 1, 1)] = float(v)
+    return pd.Series(s, dtype=float).sort_index()
+
+
+def indec_complejos(campo: str, h: dict | None = None) -> pd.Series:
+    return leer_complejos(h or hojas("complejos"), campo)
+
 # ---------- Precios mayoristas (INDEC, base 1993 con diciembre 2015 = 100) ----------
 
 MESES_CORTOS = {m: i for i, m in enumerate(["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"], 1)}
@@ -1181,6 +1203,7 @@ def oede_prov_rama(campo: str) -> pd.Series:
 
 
 LECTORES = {
+    "indec_complejos": indec_complejos,
     "eiti_produccion": eiti_produccion,
     "oede_prov_rama": oede_prov_rama,
     "indec_maquinaria": indec_maquinaria,

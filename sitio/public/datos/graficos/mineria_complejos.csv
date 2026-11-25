@@ -1,17 +1,97 @@
-categoria,serie,fuente_url,valor
-Oro y plata,2022,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,2946.0
-Oro y plata,2023,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,2968.0
-Oro y plata,2024,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,3827.0
-Oro y plata,2025,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,4886.0
-Litio,2022,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,698.0
-Litio,2023,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,848.0
-Litio,2024,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,655.0
-Litio,2025,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,932.0
-Plomo,2022,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,2.0
-Plomo,2023,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,14.0
-Plomo,2024,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,35.0
-Plomo,2025,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,53.0
-Otros minerales metalíferos,2022,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,20.0
-Otros minerales metalíferos,2023,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,31.0
-Otros minerales metalíferos,2024,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,23.0
-Otros minerales metalíferos,2025,https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf,34.0
+serie,fecha,valor,tramo
+Oro y plata,2002-01-01,114.589792,observado
+Oro y plata,2003-01-01,116.324064,observado
+Oro y plata,2004-01-01,145.594973,observado
+Oro y plata,2005-01-01,161.049825,observado
+Oro y plata,2006-01-01,589.193317,observado
+Oro y plata,2007-01-01,630.23728,observado
+Oro y plata,2008-01-01,865.095506,observado
+Oro y plata,2009-01-01,1333.274095,observado
+Oro y plata,2010-01-01,2530.573661,observado
+Oro y plata,2011-01-01,3025.285194,observado
+Oro y plata,2012-01-01,2989.291544,observado
+Oro y plata,2013-01-01,2335.957315,observado
+Oro y plata,2014-01-01,2267.333049,observado
+Oro y plata,2015-01-01,2680.432763,observado
+Oro y plata,2016-01-01,2492.598079,observado
+Oro y plata,2017-01-01,2715.960284,observado
+Oro y plata,2018-01-01,2628.080884,observado
+Oro y plata,2019-01-01,2838.736758,observado
+Oro y plata,2020-01-01,2365.664688,observado
+Oro y plata,2021-01-01,2908.452999,observado
+Oro y plata,2022-01-01,2946.434337,observado
+Oro y plata,2023-01-01,2988.592514,observado
+Oro y plata,2024-01-01,3826.58875,observado
+Oro y plata,2025-01-01,4886.444424,observado
+Otros metales (cobre y resto),2002-01-01,471.003521,observado
+Otros metales (cobre y resto),2003-01-01,497.553999,observado
+Otros metales (cobre y resto),2004-01-01,690.604309,observado
+Otros metales (cobre y resto),2005-01-01,1026.130797,observado
+Otros metales (cobre y resto),2006-01-01,1419.0,observado
+Otros metales (cobre y resto),2007-01-01,1567.241724,observado
+Otros metales (cobre y resto),2008-01-01,1187.526495,observado
+Otros metales (cobre y resto),2009-01-01,1174.532258,observado
+Otros metales (cobre y resto),2010-01-01,1554.332823,observado
+Otros metales (cobre y resto),2011-01-01,1554.453684,observado
+Otros metales (cobre y resto),2012-01-01,1603.190746,observado
+Otros metales (cobre y resto),2013-01-01,1032.868053,observado
+Otros metales (cobre y resto),2014-01-01,1000.731016,observado
+Otros metales (cobre y resto),2015-01-01,501.081447,observado
+Otros metales (cobre y resto),2016-01-01,685.899829,observado
+Otros metales (cobre y resto),2017-01-01,479.791192,observado
+Otros metales (cobre y resto),2018-01-01,343.017485,observado
+Otros metales (cobre y resto),2019-01-01,45.611603,observado
+Otros metales (cobre y resto),2020-01-01,12.673894,observado
+Otros metales (cobre y resto),2021-01-01,28.304524,observado
+Otros metales (cobre y resto),2022-01-01,20.423628,observado
+Otros metales (cobre y resto),2023-01-01,31.286432,observado
+Otros metales (cobre y resto),2024-01-01,22.589911,observado
+Otros metales (cobre y resto),2025-01-01,34.202637,observado
+Litio,2002-01-01,20.896997,observado
+Litio,2003-01-01,27.390869,observado
+Litio,2004-01-01,41.957708,observado
+Litio,2005-01-01,53.808352,observado
+Litio,2006-01-01,62.799971,observado
+Litio,2007-01-01,59.531975,observado
+Litio,2008-01-01,83.561766,observado
+Litio,2009-01-01,56.298351,observado
+Litio,2010-01-01,71.046082,observado
+Litio,2011-01-01,54.830368,observado
+Litio,2012-01-01,58.567261,observado
+Litio,2013-01-01,61.088639,observado
+Litio,2014-01-01,82.85641,observado
+Litio,2015-01-01,90.394274,observado
+Litio,2016-01-01,191.969376,observado
+Litio,2017-01-01,224.954554,observado
+Litio,2018-01-01,279.907191,observado
+Litio,2019-01-01,184.779844,observado
+Litio,2020-01-01,135.450331,observado
+Litio,2021-01-01,206.550984,observado
+Litio,2022-01-01,697.592477,observado
+Litio,2023-01-01,847.814751,observado
+Litio,2024-01-01,655.268125,observado
+Litio,2025-01-01,931.519427,observado
+Plomo,2002-01-01,10.95373,observado
+Plomo,2003-01-01,9.114752,observado
+Plomo,2004-01-01,22.668041,observado
+Plomo,2005-01-01,24.169464,observado
+Plomo,2006-01-01,23.259519,observado
+Plomo,2007-01-01,72.415904,observado
+Plomo,2008-01-01,70.792582,observado
+Plomo,2009-01-01,43.164089,observado
+Plomo,2010-01-01,71.205106,observado
+Plomo,2011-01-01,106.832747,observado
+Plomo,2012-01-01,109.2413,observado
+Plomo,2013-01-01,77.076375,observado
+Plomo,2014-01-01,88.533252,observado
+Plomo,2015-01-01,55.749398,observado
+Plomo,2016-01-01,73.391794,observado
+Plomo,2017-01-01,154.065151,observado
+Plomo,2018-01-01,109.350506,observado
+Plomo,2019-01-01,96.742172,observado
+Plomo,2020-01-01,7.311121,observado
+Plomo,2021-01-01,17.537824,observado
+Plomo,2022-01-01,2.355009,observado
+Plomo,2023-01-01,13.790729,observado
+Plomo,2024-01-01,34.61209,observado
+Plomo,2025-01-01,52.649258,observado

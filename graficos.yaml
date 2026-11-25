@@ -5342,14 +5342,22 @@ graficos:
   - id: mineria_complejos
     tema: 23
     titulo: "Exportaciones mineras por mineral"
-    que_muestra: "Exportaciones de los complejos mineros por año: oro y plata, litio, plomo y otros metales, en millones de dólares."
-    tipo: barras
-    categorias: mineria_complejos
+    que_muestra: "Exportaciones de los complejos mineros por año desde 2002: oro y plata, litio, plomo y otros metales (incluido el cobre), en dólares."
+    tipo: areas
+    frecuencia: A
+    desde: "2002"
     unidad: "millones de US$"
     tipo_valor: flujo
+    medida_inicial: nivel
+    medidas: [nivel, variacion]
+    series:
+      - {serie: complejo_oro_plata, nombre: "Oro y plata"}
+      - {serie: complejo_otros_metal, nombre: "Otros metales (cobre y resto)"}
+      - {serie: complejo_litio, nombre: "Litio"}
+      - {serie: complejo_plomo, nombre: "Plomo"}
     fuentes:
-      - {nombre: "INDEC, Complejos exportadores, año 2025 (cuadro 3)", url: "https://www.indec.gob.ar/uploads/informesdeprensa/complejos_03_2686A1604947.pdf", nivel: primaria}
-    metodo: "Complejos exportadores del INDEC: cada complejo junta el mineral y sus productos (por ejemplo, el complejo litio es casi todo carbonato de litio). 2023 a 2025 son datos provisorios. No se incluyen el aluminio ni el acero, que el INDEC agrupa con la minería metalífera pero son industria. No hay complejo del cobre porque desde 2019 casi no se exporta. Falta sumar los años anteriores a 2022 desde los informes de cada año."
+      - {nombre: "INDEC, Exportaciones de bienes por complejos exportadores, serie histórica 2002 en adelante (revisión 2018)", url: "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-2-39", nivel: primaria}
+    metodo: "Complejos exportadores del INDEC: cada complejo junta el mineral y sus productos (por ejemplo, el complejo litio es casi todo carbonato de litio). Otros metales es sobre todo el concentrado de cobre de Bajo la Alumbrera, que dejó de producir en 2018; por eso cae a casi nada desde entonces. Los dos últimos años son datos provisorios. No se incluyen el aluminio ni el acero, que el INDEC agrupa con la minería metalífera pero son industrias. Se actualiza solo cuando el INDEC publica el año nuevo (en mayo)."
   - id: mineria_empleo
     tema: 23
     titulo: "Empleo minero"
