@@ -318,3 +318,9 @@ def test_datos_informe_fechas_variaciones_y_faltantes():
     falt = {f["id"]: f for f in d["faltantes"]}
     assert falt["pobreza-personas"]["ultimo_dato"] == "2025-12-31"  # conserva la fecha del último publicado
     assert falt["exportaciones-mineras-acumuladas-jujuy"]["ultimo_dato"] is None
+    # versión 1.3: serie, tipo de valor, comparaciones y grupos
+    assert d["version"] == "1.3"
+    assert des["tipo_valor"] == "tasa" and des["frecuencia"] == "trimestral" and des["comparar"] == ["interanual"]
+    assert des["serie"][-1] == {"fecha": "2026-06-30", "valor": 7.9} and len(des["serie"]) == 3
+    assert sf["tipo_valor"] == "nivel" and sf["comparar"] == ["mensual", "interanual"]
+    assert "grupo" not in sf  # un grupo necesita al menos 3 provincias

@@ -61,6 +61,34 @@ def nombre_periodo(f: pd.Timestamp, frecuencia: str) -> str:
     return str(f.year)
 
 
+FRECUENCIAS = {"M": "mensual", "T": "trimestral", "S": "semestral", "A": "anual"}
+LARGO_SERIE = {"M": 25, "T": 9, "S": 5, "A": 6}  # puntos que se publican en "serie" (versión 1.3)
+
+
+def tipo_valor(e: dict) -> str:
+    return "tasa" if e.get("variacion", "").endswith("_pp") or e["unidad"].startswith("%") else "nivel"
+
+
+def serie_publicada(puntos: list, frecuencia: str) -> list[dict]:
+    """Últimos valores de la serie, del más viejo al más nuevo, fechados al fin de cada período."""
+    pts = [p for p in puntos if p[1] is not None][-LARGO_SERIE.get(frecuencia, 25):]
+    return [{"fecha": fin_de_periodo(pd.Timestamp(f), frecuencia).strftime("%Y-%m-%d"), "valor": redondear(p[1])} for p in pts for f in [p[0]]]
+
+
+def comparar(e: dict, serie: list[dict], frecuencia: str) -> list[str]:
+    """Interanual si hay al menos un año de historia; mensual solo en series mensuales que la admiten."""
+    if len(serie) < 2:
+        return []
+    anio = pd.Timestamp(serie[-1]["fecha"]) - pd.DateOffset(years=1)
+    con_anio = any(abs((pd.Timestamp(x["fecha"]) - anio).days) <= 3 for x in serie)
+    salida = []
+    if frecuencia == "M" and not e.get("sin_mensual"):
+        salida.append("mensual")
+    if con_anio:
+        salida.append("interanual")
+    return salida
+
+
 def redondear(v: float) -> float | int:
     a = abs(v)
     r = round(v, 0 if a >= 10000 else 1 if a >= 100 else 2)
@@ -88,10 +116,17 @@ def variacion(puntos: list, frecuencia: str, tipo: str | None) -> dict | None:
 
 
 def registro(e: dict, cfg: dict, g: dict, valor, fecha: pd.Timestamp, frecuencia: str, var: dict | None,
-             provincia: str = "", nombre: str | None = None, ident: str | None = None, url_fuente: str = "") -> dict:
+             provincia: str = "", nombre: str | None = None, ident: str | None = None, url_fuente: str = "",
+             puntos: list | None = None) -> dict:
     r = {"id": ident or e["id"], "nombre": nombre or e["nombre"], "valor": valor, "unidad": e["unidad"]}
     if var:
         r["variacion"] = var
+    serie = serie_publicada(puntos, frecuencia) if puntos else []
+    r["tipo_valor"] = tipo_valor(e)
+    r["frecuencia"] = e.get("frecuencia") or FRECUENCIAS.get(frecuencia, "mensual")
+    r["comparar"] = comparar(e, serie, frecuencia)
+    if len(serie) >= 2:
+        r["serie"] = serie
     r["fecha_dato"] = fin_de_periodo(fecha, frecuencia).strftime("%Y-%m-%d")
     p = periodo(fecha, frecuencia)
     if p:
@@ -136,7 +171,7 @@ def generar(graficos: list[dict], previo: dict | None = None) -> dict:
                 f = pd.Timestamp(pts[-1][0])
                 indicadores.append(registro(e, cfg, g, redondear(pts[-1][1]), f, g.get("frecuencia", "M"),
                                             variacion(pts, g.get("frecuencia", "M"), e.get("variacion")),
-                                            provincia=prov, nombre=nombre, ident=ident))
+                                            provincia=prov, nombre=nombre, ident=ident, puntos=pts))
         elif e.get("categorias") is not None:
             cats = {c["categoria"]: c for c in (g or {}).get("categorias", [])}
             for prov in e["categorias"]:
@@ -163,8 +198,23 @@ def generar(graficos: list[dict], previo: dict | None = None) -> dict:
                 continue
             frec = g.get("frecuencia", "M")
             indicadores.append(registro(e, cfg, g, redondear(pts[-1][1]), pd.Timestamp(pts[-1][0]), frec,
-                                        variacion(pts, frec, e.get("variacion"))))
+                                        variacion(pts, frec, e.get("variacion")), puntos=pts))
 
+    # Grupos por provincia (base de los mapas): mismo id, nombre y unidad, y la misma fecha_dato. Si una provincia
+    # tiene un dato más viejo que el resto, queda afuera del grupo (sigue como indicador suelto).
+    for e in cfg["indicadores"]:
+        if not (e.get("provincias") or e.get("categorias")):
+            continue
+        miembros = [i for i in indicadores if i["id"].startswith(e["id"] + "-") and i["alcance"]["nivel"] == "provincia"
+                    and i["id"][len(e["id"]) + 1:] in {slug(p) for p in PROVINCIAS}]
+        if not miembros:
+            continue
+        fecha = max(i["fecha_dato"] for i in miembros)
+        al_dia = [i for i in miembros if i["fecha_dato"] == fecha]
+        if len(al_dia) >= 3:
+            for i in al_dia:
+                i["grupo"] = {"id": f"{e['id']}-por-provincia", "nombre": e["nombre"], "dimension": "provincia",
+                              "clave": i["alcance"]["provincia"]}
     return {
         "web": cfg["web"],
         "version": cfg["version"],

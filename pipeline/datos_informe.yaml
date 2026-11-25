@@ -13,9 +13,11 @@
 #                período anterior), interanual_pp (puntos contra el mismo período del año anterior) o nada
 #   fuente       fuente original (organismo)
 #   rubros, subrubros, exposicion: listas cerradas de la especificación
+#   frecuencia   texto de la frecuencia cuando no sale del gráfico (p. ej. semestral en barras de un compendio)
+#   sin_mensual  true: la comparación mensual no tiene sentido (p. ej. salarios, por el aguinaldo)
 
 web: "Radiografía Argentina"
-version: "1.0"
+version: "1.3"
 sitio: "https://radiografiadeargentina.netlify.app"
 eje: "Economía nacional"
 
@@ -41,12 +43,12 @@ indicadores:
   - {id: produccion-carbonato-litio, grafico: mineria_litio, serie: carbonato_litio_t, nombre: "Producción de carbonato de litio", unidad: "toneladas", variacion: interanual, fuente: "INDEC, IPI minero", rubros: ["Minería"], subrubros: ["litio"]}
   - {id: exportaciones-oro-plata-anual, grafico: mineria_complejos, serie: complejo_oro_plata, nombre: "Exportaciones del complejo oro y plata (anual)", unidad: "millones de US$", variacion: interanual, fuente: "INDEC, Complejos exportadores", rubros: ["Minería"], subrubros: ["oro y plata"], exposicion: ["Exporta"]}
   - {id: exportaciones-litio-anual, grafico: mineria_complejos, serie: complejo_litio, nombre: "Exportaciones del complejo litio (anual)", unidad: "millones de US$", variacion: interanual, fuente: "INDEC, Complejos exportadores", rubros: ["Minería"], subrubros: ["litio"], exposicion: ["Exporta"]}
-  - {id: proyectos-mineros-produccion, grafico: mineria_proyectos_etapa, categoria: "En producción", nombre: "Proyectos de metales y litio en producción", unidad: "proyectos", fuente: "Secretaría de Minería, Compendio estadístico", rubros: ["Minería"]}
-  - {id: proyectos-mineros-construccion, grafico: mineria_proyectos_etapa, categoria: "En construcción", nombre: "Proyectos de metales y litio en construcción", unidad: "proyectos", fuente: "Secretaría de Minería, Compendio estadístico", rubros: ["Minería"]}
+  - {id: proyectos-mineros-produccion, grafico: mineria_proyectos_etapa, categoria: "En producción", nombre: "Proyectos de metales y litio en producción", unidad: "proyectos", frecuencia: semestral, fuente: "Secretaría de Minería, Compendio estadístico", rubros: ["Minería"]}
+  - {id: proyectos-mineros-construccion, grafico: mineria_proyectos_etapa, categoria: "En construcción", nombre: "Proyectos de metales y litio en construcción", unidad: "proyectos", frecuencia: semestral, fuente: "Secretaría de Minería, Compendio estadístico", rubros: ["Minería"]}
 
   # ---------- Por provincia ----------
   - {id: empleo-privado-registrado, grafico: provincias_empleo, provincias: true, nombre: "Asalariados privados registrados", unidad: "miles de personas", variacion: interanual, fuente: "Secretaría de Trabajo, SIPA"}
-  - {id: salario-real, grafico: provincias_salario, provincias: true, nombre: "Salario promedio de los asalariados privados registrados", unidad: "pesos de {base_ipc}", variacion: interanual, fuente: "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC", nota_buenos_aires: " (sin el Gran Buenos Aires)"}
+  - {id: salario-real, grafico: provincias_salario, provincias: true, nombre: "Salario promedio de los asalariados privados registrados", unidad: "pesos de {base_ipc}", variacion: interanual, fuente: "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC", nota_buenos_aires: " (sin el Gran Buenos Aires)", sin_mensual: true}
   - {id: empresas-privadas, grafico: provincias_empresas, provincias: true, nombre: "Empresas privadas con empleo registrado", unidad: "empresas", variacion: interanual, fuente: "Secretaría de Trabajo, OEDE"}
   - {id: exportaciones, grafico: provincias_exportaciones, provincias: true, nombre: "Exportaciones de origen provincial", unidad: "millones de US$", variacion: interanual, fuente: "INDEC, Origen provincial de las exportaciones", exposicion: ["Exporta"]}
   - {id: empleo-petroleo-gas, grafico: provincias_empleo_petroleo, provincias: true, nombre: "Asalariados registrados en extracción de petróleo y gas", unidad: "personas", variacion: interanual, fuente: "Secretaría de Trabajo, OEDE", rubros: ["Energía"], subrubros: ["petróleo y gas"]}
