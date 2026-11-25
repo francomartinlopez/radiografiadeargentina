@@ -5352,16 +5352,52 @@ graficos:
     metodo: "Complejos exportadores del INDEC: cada complejo junta el mineral y sus productos (por ejemplo, el complejo litio es casi todo carbonato de litio). 2023 a 2025 son datos provisorios. No se incluyen el aluminio ni el acero, que el INDEC agrupa con la minería metalífera pero son industria. No hay complejo del cobre porque desde 2019 casi no se exporta. Falta sumar los años anteriores a 2022 desde los informes de cada año."
   - id: mineria_empleo
     tema: 23
-    titulo: "Empleo en minería y petróleo"
-    que_muestra: "Asalariados registrados del sector privado en minería y petróleo (la serie oficial los junta)."
+    titulo: "Empleo minero"
+    que_muestra: "Puestos de trabajo registrados en la minería (sin petróleo ni gas): producción, exploración y servicios mineros."
     tipo: lineas
-    frecuencia: T
-    unidad: "personas"
+    frecuencia: M
+    desde: "2022-10"
+    unidad: "puestos de trabajo"
     tipo_valor: nivel
     medida_inicial: nivel
-    medidas: [nivel, interanual]
+    medidas: [nivel]
     series:
-      - {serie: empleo_mineria_petroleo, nombre: "Minería y petróleo"}
+      - {serie: empleo_minero_anterior, nombre: "Medición anterior"}
+      - {serie: empleo_minero_2026, nombre: "Medición desde 2026"}
+    cifra_serie: empleo_minero_2026
     fuentes:
-      - {nombre: "Secretaría de Trabajo, SIPA: empleo registrado del sector privado por rama (vía datos.gob.ar)", url: "https://datos.gob.ar/series/api/series/?ids=155.1_MRIA_PELEO_C_0_0_16", nivel: primaria}
-    metodo: "Promedio trimestral de asalariados registrados. ⚠ Incluye la extracción de petróleo y gas y sus servicios, que son la mayor parte; el empleo solo minero por provincia lo publica la Secretaría de Minería en archivos que hoy no se pueden descargar en forma automática."
+      - {nombre: "Secretaría de Minería, Informe mensual de empleo minero en Argentina (con datos de MECTRA, ARCA); un informe por mes", url: "https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf", nivel: primaria}
+    metodo: "Dato de cada mes tomado del informe mensual de la Secretaría de Minería, que sale con unos tres meses de rezago; faltan los meses cuyos informes no están publicados y en ellos la línea se corta. En 2026 la Secretaría cambió la medición (reclasificó rubros y sumó empresas del registro de actividades mineras de ARCA), por eso hay dos líneas: no se pueden unir. Los meses de 2025 de la medición nueva se calculan con el dato de 2026 menos los puestos creados en el año, según el mismo informe."
+  - id: mineria_empleo_provincias
+    tema: 23
+    titulo: "Empleo minero por provincia"
+    que_muestra: "Dónde trabajan los empleados de la minería, junio de 2026."
+    tipo: barras
+    categorias: mineria_empleo_provincias
+    unidad: "puestos de trabajo"
+    tipo_valor: nivel
+    fuentes:
+      - {nombre: "Secretaría de Minería, Informe mensual de empleo minero, septiembre de 2026 (datos de junio)", url: "https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf", nivel: primaria}
+    metodo: "Puestos de trabajo registrados en junio de 2026 en las siete provincias con más empleo minero, que reúnen el 82% del total. Buenos Aires y Córdoba tienen sobre todo canteras y rocas para la construcción; Santa Cruz, San Juan, Jujuy, Salta y Catamarca, oro, plata y litio. Se actualiza a mano con cada informe."
+  - id: mineria_empleo_rubros
+    tema: 23
+    titulo: "Empleo minero por actividad"
+    que_muestra: "En qué parte de la minería trabajan los empleados del sector, junio de 2026."
+    tipo: barras
+    categorias: mineria_empleo_rubros
+    unidad: "puestos de trabajo"
+    tipo_valor: nivel
+    fuentes:
+      - {nombre: "Secretaría de Minería, Informe mensual de empleo minero, septiembre de 2026 (datos de junio)", url: "https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf", nivel: primaria}
+    metodo: "Puestos de trabajo registrados en junio de 2026 según la actividad de la empresa. Metalíferos incluye producción, exploración y financiamiento de proyectos de oro, plata y cobre. Se actualiza a mano con cada informe."
+  - id: mineria_proyectos_etapa
+    tema: 23
+    titulo: "Proyectos de metales y litio, por etapa"
+    que_muestra: "Cuántos proyectos de oro, plata, cobre, litio y otros metales hay en el país y en qué etapa están."
+    tipo: barras
+    categorias: mineria_proyectos_etapa
+    unidad: "proyectos"
+    tipo_valor: nivel
+    fuentes:
+      - {nombre: "Secretaría de Minería, Compendio estadístico de la actividad minera metalífera y compuestos de litio, primer semestre de 2025 (cartera de agosto de 2025)", url: "https://www.argentina.gob.ar/sites/default/files/compendio_estadistico_de_la_actividad_minera_1er_semestre_2025.pdf", nivel: primaria}
+    metodo: "Cartera de proyectos de la Secretaría de Minería a agosto de 2025: 320 proyectos. Estudios avanzados son los proyectos con factibilidad, prefactibilidad o evaluación económica preliminar. La cartera actualizada (con el detalle de cada proyecto, mineral y provincia) solo está en una planilla del Ministerio de Economía que no se puede descargar en forma automática. Según la prensa que cita el compendio del primer semestre de 2026, en septiembre de 2026 había 63 proyectos avanzados: 27 en producción y 36 en etapas previas (fuente secundaria). El cobre está todo en proyectos: hoy no hay minas de cobre en producción."

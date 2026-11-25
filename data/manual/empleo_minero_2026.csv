@@ -1,0 +1,11 @@
+fecha,valor,fuente_url,nota
+2025-02-01,39826,https://www.argentina.gob.ar/sites/default/files/2026.05_empleo_minero_en_argentina.pdf,"calculado: dato del año siguiente menos los puestos creados en el año, según el mismo informe"
+2025-03-01,39650,https://www.argentina.gob.ar/sites/default/files/2026.06_empleo_minero_en_argentina.pdf,"calculado: dato del año siguiente menos los puestos creados en el año, según el mismo informe"
+2025-04-01,39495,https://www.argentina.gob.ar/sites/default/files/2026.07_empleo_minero_en_argentina.pdf,"calculado: dato del año siguiente menos los puestos creados en el año, según el mismo informe"
+2025-05-01,39427,https://www.argentina.gob.ar/sites/default/files/2026.08_empleo_minero_en_argentina.pdf,"calculado: dato del año siguiente menos los puestos creados en el año, según el mismo informe"
+2025-06-01,39083,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,"calculado: dato del año siguiente menos los puestos creados en el año, según el mismo informe"
+2026-02-01,40040,https://www.argentina.gob.ar/sites/default/files/2026.05_empleo_minero_en_argentina.pdf,
+2026-03-01,40141,https://www.argentina.gob.ar/sites/default/files/2026.06_empleo_minero_en_argentina.pdf,
+2026-04-01,40408,https://www.argentina.gob.ar/sites/default/files/2026.07_empleo_minero_en_argentina.pdf,
+2026-05-01,40443,https://www.argentina.gob.ar/sites/default/files/2026.08_empleo_minero_en_argentina.pdf,
+2026-06-01,40515,https://www.argentina.gob.ar/sites/default/files/2026.09_empleo_minero_en_argentina.pdf,

@@ -981,7 +981,8 @@ series:
   ipi_minero_litio:    {fuente: archivo, lector: indec_ipi_minero, campo: litio}
   carbonato_litio_t:   {fuente: archivo, lector: indec_ipi_minero, campo: carbonato_litio_t}
   mineria_expo_nacional: {fuente: archivo, lector: mineria_exportaciones, campo: nacional}
-  empleo_mineria_petroleo: {fuente: datosgobar, id: "155.1_MRIA_PELEO_C_0_0_16"}
+  empleo_minero_anterior: {fuente: manual, id: empleo_minero_anterior}
+  empleo_minero_2026:  {fuente: manual, id: empleo_minero_2026}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
   ipim_indec:          {fuente: manual, id: ipim_indec}   # variaciones de los informes de prensa del INDEC (mientras datos.gob.ar no se actualice)
 
