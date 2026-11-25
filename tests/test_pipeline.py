@@ -232,3 +232,17 @@ def test_sin_claves_ni_ids_repetidos():
         assert not repetidas, f"claves repetidas en {bloques[i]}: {repetidas}"
     ids = re.findall(r"^  - \{id: ([A-Za-z0-9_]+)", texto, re.M)
     assert not [k for k, v in collections.Counter(ids).items() if v > 1]
+
+
+def test_descargar_conserva_si_la_fuente_retrocede(tmp_path, monkeypatch):
+    import pandas as pd
+    from pipeline import construir
+    guardada = pd.Series([1.0, 2.0, 3.0], index=pd.date_range("2026-01-01", periods=3, freq="MS"))
+    corta = pd.Series([1.0], index=pd.date_range("2026-01-01", periods=1, freq="MS"))
+    monkeypatch.setattr(construir, "leer_crudo", lambda n: guardada)
+    monkeypatch.setattr(construir, "extraer", lambda d: corta)
+    escritas = []
+    monkeypatch.setattr(construir, "guardar_crudo", lambda n, s: escritas.append(n))
+    crudas, alertas = construir.descargar({"series": {"x": {"fuente": "manual", "id": "x"}}}, False)
+    assert crudas["x"].index.max() == guardada.index.max() and not escritas
+    assert any("se conserva el dato anterior" in a for a in alertas)

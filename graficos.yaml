@@ -93,9 +93,9 @@ calculos:
     nota_puente: "El INDEC no publicó el índice industrial entre octubre y diciembre de 2015, y el IPI nuevo recién tiene variación desde febrero de 2016; esos meses se completan con la variación interanual del EMAE de la industria aplicada al mismo mes del año anterior."
   ipim_largo:
     operacion: empalme
-    tramos: [{serie: ipim1993, hasta: "2015-10"}, {serie: ipim}]
+    tramos: [{serie: ipim1993, hasta: "2015-10"}, {serie: ipim, hasta: "2026-08"}, {serie: ipim_indec, hasta: "2026-10"}, {serie: ipim}]
     puente: ipc
-    nota_puente: "El INDEC no publicó el índice mayorista en noviembre y diciembre de 2015; se usa la variación del IPC empalmado."
+    nota_puente: "El INDEC no publicó el índice mayorista en noviembre y diciembre de 2015; se usa la variación del IPC empalmado. Desde septiembre de 2026 la serie de datos.gob.ar dejó de actualizarse bien; esos meses se toman de las variaciones mensuales de los informes de prensa del INDEC."
   brecha_ccl:
     operacion: brecha
     a: dolar_ccl

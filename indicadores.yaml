@@ -971,6 +971,7 @@ series:
   cheques_rechazo_cantidad: {fuente: manual, id: cheques_rechazo_cantidad}
   cheques_rechazo_monto:    {fuente: manual, id: cheques_rechazo_monto}
   ipim1993:            {fuente: datosgobar, id: "106.3_I1NG_1993_M_23", cerrada: true}
+  ipim_indec:          {fuente: manual, id: ipim_indec}   # variaciones de los informes de prensa del INDEC (mientras datos.gob.ar no se actualice)
 
 empalmes:
   ipc:

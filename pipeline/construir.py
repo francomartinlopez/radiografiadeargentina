@@ -60,6 +60,12 @@ def descargar(config: dict, offline: bool) -> tuple[dict, list[str]]:
             if anterior is not None:
                 crudas[nombre] = anterior
             continue
+        if anterior is not None and not anterior.empty and nueva.index.max() < anterior.index.max():
+            # la fuente devolvió una serie más corta que la guardada (le faltan los últimos datos): se conserva la guardada
+            alertas.append(f"{nombre}: la fuente devolvió datos hasta {nueva.index.max():%Y-%m}, más viejos que los guardados "
+                           f"(hasta {anterior.index.max():%Y-%m}); se conserva el dato anterior")
+            crudas[nombre] = anterior
+            continue
         alertas += calidad.revisar(nombre, transformar.a_mensual(nueva, definicion.get("agregacion", "promedio")),
                                    transformar.a_mensual(anterior, definicion.get("agregacion", "promedio")) if anterior is not None else None)
         guardar_crudo(nombre, nueva)
