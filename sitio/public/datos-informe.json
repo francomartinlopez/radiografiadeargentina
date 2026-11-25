@@ -1,0 +1,3627 @@
+{
+ "web": "Radiografía Argentina",
+ "version": "1.0",
+ "generado": "2026-11-25T10:51:05-03:00",
+ "indicadores": [
+  {
+   "id": "pobreza-personas",
+   "nombre": "Pobreza (personas)",
+   "valor": 32.3,
+   "unidad": "% de las personas",
+   "variacion": {
+    "valor": 4.1,
+    "unidad": "p. p.",
+    "contra": "período anterior (2.º semestre de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "fuente_original": "INDEC, EPH",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#pobreza_indigencia"
+  },
+  {
+   "id": "indigencia-personas",
+   "nombre": "Indigencia (personas)",
+   "valor": 7.5,
+   "unidad": "% de las personas",
+   "variacion": {
+    "valor": 1.2,
+    "unidad": "p. p.",
+    "contra": "período anterior (2.º semestre de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "fuente_original": "INDEC, EPH",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#pobreza_indigencia"
+  },
+  {
+   "id": "desocupacion",
+   "nombre": "Desocupación",
+   "valor": 7.9,
+   "unidad": "% de la población activa",
+   "variacion": {
+    "valor": 0.3,
+    "unidad": "p. p.",
+    "contra": "mismo período del año anterior (2.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-T2",
+   "fuente_original": "INDEC, EPH",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#desocupacion_subocupacion"
+  },
+  {
+   "id": "subocupacion",
+   "nombre": "Subocupación",
+   "valor": 11.5,
+   "unidad": "% de la población activa",
+   "variacion": {
+    "valor": -0.1,
+    "unidad": "p. p.",
+    "contra": "mismo período del año anterior (2.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-T2",
+   "fuente_original": "INDEC, EPH",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#desocupacion_subocupacion"
+  },
+  {
+   "id": "informalidad-asalariados",
+   "nombre": "Asalariados sin descuento jubilatorio",
+   "valor": 37.9,
+   "unidad": "% de los asalariados",
+   "variacion": {
+    "valor": 0.2,
+    "unidad": "p. p.",
+    "contra": "mismo período del año anterior (2.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-T2",
+   "fuente_original": "INDEC, EPH",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#empleo_informalidad"
+  },
+  {
+   "id": "empleo-privado-registrado",
+   "nombre": "Asalariados privados registrados",
+   "valor": 6106.8,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -2.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#empleo_privado"
+  },
+  {
+   "id": "empresas-empleadoras",
+   "nombre": "Empresas con empleo registrado",
+   "valor": 537353,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -2.7,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#empresas_empleadoras"
+  },
+  {
+   "id": "apertura-empresas",
+   "nombre": "Apertura de empresas",
+   "valor": 2.68,
+   "unidad": "% de las empresas activas",
+   "variacion": {
+    "valor": -0.5,
+    "unidad": "p. p.",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#apertura_cierre_empresas"
+  },
+  {
+   "id": "cierre-empresas",
+   "nombre": "Cierre de empresas",
+   "valor": 3.48,
+   "unidad": "% de las empresas activas",
+   "variacion": {
+    "valor": 0.0,
+    "unidad": "p. p.",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#apertura_cierre_empresas"
+  },
+  {
+   "id": "inversion-fbcf",
+   "nombre": "Inversión (formación bruta de capital fijo)",
+   "valor": 130870,
+   "unidad": "millones de pesos de 2004",
+   "variacion": {
+    "valor": -11.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-T2",
+   "fuente_original": "INDEC, Cuentas nacionales",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Construcción",
+    "Industria"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#inversion_fbcf"
+  },
+  {
+   "id": "pib-por-habitante",
+   "nombre": "PIB por habitante",
+   "valor": 16133,
+   "unidad": "pesos de 2004 por habitante",
+   "variacion": {
+    "valor": 4.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2024)"
+   },
+   "fecha_dato": "2025-12-31",
+   "fuente_original": "INDEC, Cuentas nacionales",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#pib_per_capita_pesos"
+  },
+  {
+   "id": "exportaciones-mineras",
+   "nombre": "Exportaciones mineras",
+   "valor": 660,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 1.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (octubre de 2025)"
+   },
+   "fecha_dato": "2026-10-31",
+   "periodo": "2026-10",
+   "fuente_original": "Secretaría de Minería",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_exportaciones"
+  },
+  {
+   "id": "empleo-minero",
+   "nombre": "Empleo minero",
+   "valor": 40515,
+   "unidad": "puestos de trabajo",
+   "variacion": {
+    "valor": 3.7,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Minería, SIACAM",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_empleo"
+  },
+  {
+   "id": "produccion-minera-metalifera",
+   "nombre": "Producción de minería metalífera",
+   "valor": 45.98,
+   "unidad": "índice 2016 = 100",
+   "variacion": {
+    "valor": -18.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (septiembre de 2025)"
+   },
+   "fecha_dato": "2026-09-30",
+   "periodo": "2026-09",
+   "fuente_original": "INDEC, IPI minero",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "minería metalífera"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_produccion"
+  },
+  {
+   "id": "produccion-minera-no-metaliferos-litio",
+   "nombre": "Producción de minerales no metalíferos y litio",
+   "valor": 206,
+   "unidad": "índice 2016 = 100",
+   "variacion": {
+    "valor": 13.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (septiembre de 2025)"
+   },
+   "fecha_dato": "2026-09-30",
+   "periodo": "2026-09",
+   "fuente_original": "INDEC, IPI minero",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "minerales no metalíferos",
+    "litio"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_produccion"
+  },
+  {
+   "id": "produccion-carbonato-litio",
+   "nombre": "Producción de carbonato de litio",
+   "valor": 9798,
+   "unidad": "toneladas",
+   "variacion": {
+    "valor": 6.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (septiembre de 2025)"
+   },
+   "fecha_dato": "2026-09-30",
+   "periodo": "2026-09",
+   "fuente_original": "INDEC, IPI minero",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "litio"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_litio"
+  },
+  {
+   "id": "exportaciones-oro-plata-anual",
+   "nombre": "Exportaciones del complejo oro y plata (anual)",
+   "valor": 4886.4,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 27.7,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2024)"
+   },
+   "fecha_dato": "2025-12-31",
+   "fuente_original": "INDEC, Complejos exportadores",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "oro y plata"
+   ],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_complejos"
+  },
+  {
+   "id": "exportaciones-litio-anual",
+   "nombre": "Exportaciones del complejo litio (anual)",
+   "valor": 931.5,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 42.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2024)"
+   },
+   "fecha_dato": "2025-12-31",
+   "fuente_original": "INDEC, Complejos exportadores",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "litio"
+   ],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_complejos"
+  },
+  {
+   "id": "proyectos-mineros-produccion",
+   "nombre": "Proyectos de metales y litio en producción",
+   "valor": 27,
+   "unidad": "proyectos",
+   "fecha_dato": "2026-09-30",
+   "periodo": "2026-09",
+   "fuente_original": "Secretaría de Minería, Compendio estadístico",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_proyectos_etapa"
+  },
+  {
+   "id": "proyectos-mineros-construccion",
+   "nombre": "Proyectos de metales y litio en construcción",
+   "valor": 6,
+   "unidad": "proyectos",
+   "fecha_dato": "2026-09-30",
+   "periodo": "2026-09",
+   "fuente_original": "Secretaría de Minería, Compendio estadístico",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "nacional",
+    "provincia": "",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_proyectos_etapa"
+  },
+  {
+   "id": "empleo-privado-registrado-buenos-aires",
+   "nombre": "Asalariados privados registrados en Buenos Aires",
+   "valor": 1903,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -3.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-caba",
+   "nombre": "Asalariados privados registrados en CABA",
+   "valor": 1482.5,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -1.3,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "CABA",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-cordoba",
+   "nombre": "Asalariados privados registrados en Córdoba",
+   "valor": 509.7,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -2.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-santa-fe",
+   "nombre": "Asalariados privados registrados en Santa Fe",
+   "valor": 502,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -1.7,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-neuquen",
+   "nombre": "Asalariados privados registrados en Neuquén",
+   "valor": 156.4,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": 5.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Neuquén",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-mendoza",
+   "nombre": "Asalariados privados registrados en Mendoza",
+   "valor": 230.7,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -4.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Mendoza",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-chubut",
+   "nombre": "Asalariados privados registrados en Chubut",
+   "valor": 87.89,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -1.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chubut",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-santa-cruz",
+   "nombre": "Asalariados privados registrados en Santa Cruz",
+   "valor": 49.1,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -2.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-rio-negro",
+   "nombre": "Asalariados privados registrados en Río Negro",
+   "valor": 112.8,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": 3.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Río Negro",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-san-juan",
+   "nombre": "Asalariados privados registrados en San Juan",
+   "valor": 79.41,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": 1.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-catamarca",
+   "nombre": "Asalariados privados registrados en Catamarca",
+   "valor": 34.98,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -2.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-jujuy",
+   "nombre": "Asalariados privados registrados en Jujuy",
+   "valor": 54.62,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -3.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-salta",
+   "nombre": "Asalariados privados registrados en Salta",
+   "valor": 116.6,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -2.3,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-chaco",
+   "nombre": "Asalariados privados registrados en Chaco",
+   "valor": 69.56,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -4.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chaco",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-corrientes",
+   "nombre": "Asalariados privados registrados en Corrientes",
+   "valor": 74.97,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -5.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Corrientes",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-formosa",
+   "nombre": "Asalariados privados registrados en Formosa",
+   "valor": 21.93,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -4.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Formosa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-misiones",
+   "nombre": "Asalariados privados registrados en Misiones",
+   "valor": 100.3,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -5.8,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-santiago-del-estero",
+   "nombre": "Asalariados privados registrados en Santiago del Estero",
+   "valor": 48.97,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -4.3,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santiago del Estero",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-tucuman",
+   "nombre": "Asalariados privados registrados en Tucumán",
+   "valor": 168,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -0.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tucumán",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-la-rioja",
+   "nombre": "Asalariados privados registrados en La Rioja",
+   "valor": 27.87,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -0.8,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Rioja",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-entre-rios",
+   "nombre": "Asalariados privados registrados en Entre Ríos",
+   "valor": 134.1,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -1.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Entre Ríos",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-la-pampa",
+   "nombre": "Asalariados privados registrados en La Pampa",
+   "valor": 38.13,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -1.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Pampa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-san-luis",
+   "nombre": "Asalariados privados registrados en San Luis",
+   "valor": 50.24,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -3.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Luis",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "empleo-privado-registrado-tierra-del-fuego",
+   "nombre": "Asalariados privados registrados en Tierra del Fuego",
+   "valor": 30.72,
+   "unidad": "miles de personas",
+   "variacion": {
+    "valor": -13.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (julio de 2025)"
+   },
+   "fecha_dato": "2026-07-31",
+   "periodo": "2026-07",
+   "fuente_original": "Secretaría de Trabajo, SIPA",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tierra del Fuego",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo"
+  },
+  {
+   "id": "salario-real-buenos-aires",
+   "nombre": "Salario promedio de los asalariados privados registrados en Buenos Aires (sin el Gran Buenos Aires)",
+   "valor": 3358374,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -1.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-caba",
+   "nombre": "Salario promedio de los asalariados privados registrados en CABA",
+   "valor": 4125307,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -0.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "CABA",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-cordoba",
+   "nombre": "Salario promedio de los asalariados privados registrados en Córdoba",
+   "valor": 2929181,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -1.8,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-santa-fe",
+   "nombre": "Salario promedio de los asalariados privados registrados en Santa Fe",
+   "valor": 3148452,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -2.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-neuquen",
+   "nombre": "Salario promedio de los asalariados privados registrados en Neuquén",
+   "valor": 6129508,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -6.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Neuquén",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-mendoza",
+   "nombre": "Salario promedio de los asalariados privados registrados en Mendoza",
+   "valor": 2699438,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -3.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Mendoza",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-chubut",
+   "nombre": "Salario promedio de los asalariados privados registrados en Chubut",
+   "valor": 5162715,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -6.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chubut",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-santa-cruz",
+   "nombre": "Salario promedio de los asalariados privados registrados en Santa Cruz",
+   "valor": 6012983,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -1.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-rio-negro",
+   "nombre": "Salario promedio de los asalariados privados registrados en Río Negro",
+   "valor": 3550229,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -2.8,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Río Negro",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-san-juan",
+   "nombre": "Salario promedio de los asalariados privados registrados en San Juan",
+   "valor": 2877445,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": 1.7,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-catamarca",
+   "nombre": "Salario promedio de los asalariados privados registrados en Catamarca",
+   "valor": 2790765,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": 0.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-jujuy",
+   "nombre": "Salario promedio de los asalariados privados registrados en Jujuy",
+   "valor": 2795036,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": 0.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-salta",
+   "nombre": "Salario promedio de los asalariados privados registrados en Salta",
+   "valor": 2860642,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -2.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-chaco",
+   "nombre": "Salario promedio de los asalariados privados registrados en Chaco",
+   "valor": 2403661,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -3.7,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chaco",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-corrientes",
+   "nombre": "Salario promedio de los asalariados privados registrados en Corrientes",
+   "valor": 2382897,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -2.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Corrientes",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-formosa",
+   "nombre": "Salario promedio de los asalariados privados registrados en Formosa",
+   "valor": 2565644,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": 0.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Formosa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-misiones",
+   "nombre": "Salario promedio de los asalariados privados registrados en Misiones",
+   "valor": 2174175,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -1.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-santiago-del-estero",
+   "nombre": "Salario promedio de los asalariados privados registrados en Santiago del Estero",
+   "valor": 2227793,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -1.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santiago del Estero",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-tucuman",
+   "nombre": "Salario promedio de los asalariados privados registrados en Tucumán",
+   "valor": 2098994,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -5.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tucumán",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-la-rioja",
+   "nombre": "Salario promedio de los asalariados privados registrados en La Rioja",
+   "valor": 2369464,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -3.3,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Rioja",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-entre-rios",
+   "nombre": "Salario promedio de los asalariados privados registrados en Entre Ríos",
+   "valor": 2688559,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -2.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Entre Ríos",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-la-pampa",
+   "nombre": "Salario promedio de los asalariados privados registrados en La Pampa",
+   "valor": 3041183,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": 1.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Pampa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-san-luis",
+   "nombre": "Salario promedio de los asalariados privados registrados en San Luis",
+   "valor": 2985691,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -2.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Luis",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "salario-real-tierra-del-fuego",
+   "nombre": "Salario promedio de los asalariados privados registrados en Tierra del Fuego",
+   "valor": 4553666,
+   "unidad": "pesos de octubre de 2026",
+   "variacion": {
+    "valor": -7.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (junio de 2025)"
+   },
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tierra del Fuego",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_salario"
+  },
+  {
+   "id": "empresas-privadas-buenos-aires",
+   "nombre": "Empresas privadas con empleo registrado en Buenos Aires",
+   "valor": 193912,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -2.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-caba",
+   "nombre": "Empresas privadas con empleo registrado en CABA",
+   "valor": 135236,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -0.8,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "CABA",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-cordoba",
+   "nombre": "Empresas privadas con empleo registrado en Córdoba",
+   "valor": 55365,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -5.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-santa-fe",
+   "nombre": "Empresas privadas con empleo registrado en Santa Fe",
+   "valor": 52602,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -2.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-neuquen",
+   "nombre": "Empresas privadas con empleo registrado en Neuquén",
+   "valor": 10364,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": 0.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Neuquén",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-mendoza",
+   "nombre": "Empresas privadas con empleo registrado en Mendoza",
+   "valor": 23944,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -3.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Mendoza",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-chubut",
+   "nombre": "Empresas privadas con empleo registrado en Chubut",
+   "valor": 8686,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -3.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chubut",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-santa-cruz",
+   "nombre": "Empresas privadas con empleo registrado en Santa Cruz",
+   "valor": 4536,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -0.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-rio-negro",
+   "nombre": "Empresas privadas con empleo registrado en Río Negro",
+   "valor": 11098,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -2.3,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Río Negro",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-san-juan",
+   "nombre": "Empresas privadas con empleo registrado en San Juan",
+   "valor": 7466,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -1.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-catamarca",
+   "nombre": "Empresas privadas con empleo registrado en Catamarca",
+   "valor": 3590,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -8.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-jujuy",
+   "nombre": "Empresas privadas con empleo registrado en Jujuy",
+   "valor": 5337,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -2.8,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-salta",
+   "nombre": "Empresas privadas con empleo registrado en Salta",
+   "valor": 10383,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -1.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-chaco",
+   "nombre": "Empresas privadas con empleo registrado en Chaco",
+   "valor": 9574,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -7.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chaco",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-corrientes",
+   "nombre": "Empresas privadas con empleo registrado en Corrientes",
+   "valor": 9602,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -8.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Corrientes",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-formosa",
+   "nombre": "Empresas privadas con empleo registrado en Formosa",
+   "valor": 2807,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -4.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Formosa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-misiones",
+   "nombre": "Empresas privadas con empleo registrado en Misiones",
+   "valor": 10303,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -6.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-santiago-del-estero",
+   "nombre": "Empresas privadas con empleo registrado en Santiago del Estero",
+   "valor": 6377,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -1.7,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santiago del Estero",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-tucuman",
+   "nombre": "Empresas privadas con empleo registrado en Tucumán",
+   "valor": 12230,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": 0.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tucumán",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-la-rioja",
+   "nombre": "Empresas privadas con empleo registrado en La Rioja",
+   "valor": 3082,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -9.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Rioja",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-entre-rios",
+   "nombre": "Empresas privadas con empleo registrado en Entre Ríos",
+   "valor": 18033,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -4.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Entre Ríos",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-la-pampa",
+   "nombre": "Empresas privadas con empleo registrado en La Pampa",
+   "valor": 6912,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -3.8,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Pampa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-san-luis",
+   "nombre": "Empresas privadas con empleo registrado en San Luis",
+   "valor": 5496,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -2.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Luis",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "empresas-privadas-tierra-del-fuego",
+   "nombre": "Empresas privadas con empleo registrado en Tierra del Fuego",
+   "valor": 2719,
+   "unidad": "empresas",
+   "variacion": {
+    "valor": -4.8,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tierra del Fuego",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empresas"
+  },
+  {
+   "id": "exportaciones-buenos-aires",
+   "nombre": "Exportaciones de origen provincial en Buenos Aires",
+   "valor": 29144,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 11.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-caba",
+   "nombre": "Exportaciones de origen provincial en CABA",
+   "valor": 363,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 14.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "CABA",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-cordoba",
+   "nombre": "Exportaciones de origen provincial en Córdoba",
+   "valor": 9964.6,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 20.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-santa-fe",
+   "nombre": "Exportaciones de origen provincial en Santa Fe",
+   "valor": 14658,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 26.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Fe",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-neuquen",
+   "nombre": "Exportaciones de origen provincial en Neuquén",
+   "valor": 3807.8,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 25.3,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Neuquén",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-mendoza",
+   "nombre": "Exportaciones de origen provincial en Mendoza",
+   "valor": 1566.3,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 19.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Mendoza",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-chubut",
+   "nombre": "Exportaciones de origen provincial en Chubut",
+   "valor": 3509.2,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 29.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chubut",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-santa-cruz",
+   "nombre": "Exportaciones de origen provincial en Santa Cruz",
+   "valor": 2267.4,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 6.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-rio-negro",
+   "nombre": "Exportaciones de origen provincial en Río Negro",
+   "valor": 601,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 23.8,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Río Negro",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-san-juan",
+   "nombre": "Exportaciones de origen provincial en San Juan",
+   "valor": 1820.7,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 56.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-catamarca",
+   "nombre": "Exportaciones de origen provincial en Catamarca",
+   "valor": 325.2,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 17.7,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-jujuy",
+   "nombre": "Exportaciones de origen provincial en Jujuy",
+   "valor": 1060.4,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 0.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-salta",
+   "nombre": "Exportaciones de origen provincial en Salta",
+   "valor": 1279.8,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 16.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-chaco",
+   "nombre": "Exportaciones de origen provincial en Chaco",
+   "valor": 401.7,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 32.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chaco",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-corrientes",
+   "nombre": "Exportaciones de origen provincial en Corrientes",
+   "valor": 257.7,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 10.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Corrientes",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-formosa",
+   "nombre": "Exportaciones de origen provincial en Formosa",
+   "valor": 37.06,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 79.6,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Formosa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-misiones",
+   "nombre": "Exportaciones de origen provincial en Misiones",
+   "valor": 440.6,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 21.3,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Misiones",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-santiago-del-estero",
+   "nombre": "Exportaciones de origen provincial en Santiago del Estero",
+   "valor": 1317.3,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 49.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santiago del Estero",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-tucuman",
+   "nombre": "Exportaciones de origen provincial en Tucumán",
+   "valor": 946.6,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 22.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tucumán",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-la-rioja",
+   "nombre": "Exportaciones de origen provincial en La Rioja",
+   "valor": 181.6,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": -8.7,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Rioja",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-entre-rios",
+   "nombre": "Exportaciones de origen provincial en Entre Ríos",
+   "valor": 1396.5,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 25.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Entre Ríos",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-la-pampa",
+   "nombre": "Exportaciones de origen provincial en La Pampa",
+   "valor": 1025.1,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 31.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "La Pampa",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-san-luis",
+   "nombre": "Exportaciones de origen provincial en San Luis",
+   "valor": 641.7,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 5.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Luis",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "exportaciones-tierra-del-fuego",
+   "nombre": "Exportaciones de origen provincial en Tierra del Fuego",
+   "valor": 412.3,
+   "unidad": "millones de US$",
+   "variacion": {
+    "valor": 27.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (2023)"
+   },
+   "fecha_dato": "2024-12-31",
+   "fuente_original": "INDEC, Origen provincial de las exportaciones",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tierra del Fuego",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_exportaciones"
+  },
+  {
+   "id": "empleo-petroleo-gas-neuquen",
+   "nombre": "Asalariados registrados en extracción de petróleo y gas en Neuquén",
+   "valor": 25154,
+   "unidad": "personas",
+   "variacion": {
+    "valor": -4.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Neuquén",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Energía"
+   ],
+   "subrubros": [
+    "petróleo y gas"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_petroleo"
+  },
+  {
+   "id": "empleo-petroleo-gas-chubut",
+   "nombre": "Asalariados registrados en extracción de petróleo y gas en Chubut",
+   "valor": 9629,
+   "unidad": "personas",
+   "variacion": {
+    "valor": -22.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Chubut",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Energía"
+   ],
+   "subrubros": [
+    "petróleo y gas"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_petroleo"
+  },
+  {
+   "id": "empleo-petroleo-gas-santa-cruz",
+   "nombre": "Asalariados registrados en extracción de petróleo y gas en Santa Cruz",
+   "valor": 5100,
+   "unidad": "personas",
+   "variacion": {
+    "valor": -28.5,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Energía"
+   ],
+   "subrubros": [
+    "petróleo y gas"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_petroleo"
+  },
+  {
+   "id": "empleo-petroleo-gas-mendoza",
+   "nombre": "Asalariados registrados en extracción de petróleo y gas en Mendoza",
+   "valor": 3338,
+   "unidad": "personas",
+   "variacion": {
+    "valor": -8.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Mendoza",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Energía"
+   ],
+   "subrubros": [
+    "petróleo y gas"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_petroleo"
+  },
+  {
+   "id": "empleo-petroleo-gas-rio-negro",
+   "nombre": "Asalariados registrados en extracción de petróleo y gas en Río Negro",
+   "valor": 3106,
+   "unidad": "personas",
+   "variacion": {
+    "valor": -5.4,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Río Negro",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Energía"
+   ],
+   "subrubros": [
+    "petróleo y gas"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_petroleo"
+  },
+  {
+   "id": "empleo-petroleo-gas-salta",
+   "nombre": "Asalariados registrados en extracción de petróleo y gas en Salta",
+   "valor": 547,
+   "unidad": "personas",
+   "variacion": {
+    "valor": -13.3,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Energía"
+   ],
+   "subrubros": [
+    "petróleo y gas"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_petroleo"
+  },
+  {
+   "id": "empleo-petroleo-gas-tierra-del-fuego",
+   "nombre": "Asalariados registrados en extracción de petróleo y gas en Tierra del Fuego",
+   "valor": 680,
+   "unidad": "personas",
+   "variacion": {
+    "valor": -20.9,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Tierra del Fuego",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Energía"
+   ],
+   "subrubros": [
+    "petróleo y gas"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_petroleo"
+  },
+  {
+   "id": "empleo-mineria-metalifera-san-juan",
+   "nombre": "Asalariados registrados en minería metalífera en San Juan",
+   "valor": 2272,
+   "unidad": "personas",
+   "variacion": {
+    "valor": 11.2,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "minería metalífera"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_mineria"
+  },
+  {
+   "id": "empleo-mineria-metalifera-santa-cruz",
+   "nombre": "Asalariados registrados en minería metalífera en Santa Cruz",
+   "valor": 4862,
+   "unidad": "personas",
+   "variacion": {
+    "valor": 4.3,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "minería metalífera"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_mineria"
+  },
+  {
+   "id": "empleo-mineria-metalifera-catamarca",
+   "nombre": "Asalariados registrados en minería metalífera en Catamarca",
+   "valor": 1169,
+   "unidad": "personas",
+   "variacion": {
+    "valor": 23.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "minería metalífera"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_mineria"
+  },
+  {
+   "id": "empleo-mineria-metalifera-jujuy",
+   "nombre": "Asalariados registrados en minería metalífera en Jujuy",
+   "valor": 1968,
+   "unidad": "personas",
+   "variacion": {
+    "valor": -3.0,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "minería metalífera"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_mineria"
+  },
+  {
+   "id": "empleo-mineria-metalifera-salta",
+   "nombre": "Asalariados registrados en minería metalífera en Salta",
+   "valor": 768,
+   "unidad": "personas",
+   "variacion": {
+    "valor": 25.1,
+    "unidad": "%",
+    "contra": "mismo período del año anterior (1.º trimestre de 2025)"
+   },
+   "fecha_dato": "2026-03-31",
+   "periodo": "2026-T1",
+   "fuente_original": "Secretaría de Trabajo, OEDE",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [
+    "minería metalífera"
+   ],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#provincias_empleo_mineria"
+  },
+  {
+   "id": "empleo-minero-santa-cruz",
+   "nombre": "Empleo minero en Santa Cruz",
+   "valor": 9085,
+   "unidad": "puestos de trabajo",
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Minería, SIACAM",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_empleo_provincias"
+  },
+  {
+   "id": "empleo-minero-salta",
+   "nombre": "Empleo minero en Salta",
+   "valor": 5661,
+   "unidad": "puestos de trabajo",
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Minería, SIACAM",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_empleo_provincias"
+  },
+  {
+   "id": "empleo-minero-san-juan",
+   "nombre": "Empleo minero en San Juan",
+   "valor": 5572,
+   "unidad": "puestos de trabajo",
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Minería, SIACAM",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_empleo_provincias"
+  },
+  {
+   "id": "empleo-minero-buenos-aires",
+   "nombre": "Empleo minero en Buenos Aires",
+   "valor": 3871,
+   "unidad": "puestos de trabajo",
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Minería, SIACAM",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Buenos Aires",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_empleo_provincias"
+  },
+  {
+   "id": "empleo-minero-jujuy",
+   "nombre": "Empleo minero en Jujuy",
+   "valor": 3652,
+   "unidad": "puestos de trabajo",
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Minería, SIACAM",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_empleo_provincias"
+  },
+  {
+   "id": "empleo-minero-catamarca",
+   "nombre": "Empleo minero en Catamarca",
+   "valor": 3572,
+   "unidad": "puestos de trabajo",
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Minería, SIACAM",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_empleo_provincias"
+  },
+  {
+   "id": "empleo-minero-cordoba",
+   "nombre": "Empleo minero en Córdoba",
+   "valor": 1981,
+   "unidad": "puestos de trabajo",
+   "fecha_dato": "2026-06-30",
+   "periodo": "2026-06",
+   "fuente_original": "Secretaría de Minería, SIACAM",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Córdoba",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_empleo_provincias"
+  },
+  {
+   "id": "exportaciones-mineras-acumuladas-santa-cruz",
+   "nombre": "Exportaciones mineras acumuladas del año en Santa Cruz",
+   "valor": 2898,
+   "unidad": "millones de US$",
+   "fecha_dato": "2026-10-31",
+   "periodo": "2026-10",
+   "fuente_original": "Secretaría de Minería",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_expo_provincias"
+  },
+  {
+   "id": "exportaciones-mineras-acumuladas-san-juan",
+   "nombre": "Exportaciones mineras acumuladas del año en San Juan",
+   "valor": 1516,
+   "unidad": "millones de US$",
+   "fecha_dato": "2026-10-31",
+   "periodo": "2026-10",
+   "fuente_original": "Secretaría de Minería",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_expo_provincias"
+  },
+  {
+   "id": "exportaciones-mineras-acumuladas-jujuy",
+   "nombre": "Exportaciones mineras acumuladas del año en Jujuy",
+   "valor": 1467,
+   "unidad": "millones de US$",
+   "fecha_dato": "2026-10-31",
+   "periodo": "2026-10",
+   "fuente_original": "Secretaría de Minería",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_expo_provincias"
+  },
+  {
+   "id": "peso-mineria-exportaciones-catamarca",
+   "nombre": "Peso de la minería en las exportaciones (acumulado del año) en Catamarca",
+   "valor": 92.5,
+   "unidad": "% de las exportaciones de la provincia",
+   "fecha_dato": "2026-10-31",
+   "periodo": "2026-10",
+   "fuente_original": "Secretaría de Minería",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Catamarca",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_peso_provincias"
+  },
+  {
+   "id": "peso-mineria-exportaciones-jujuy",
+   "nombre": "Peso de la minería en las exportaciones (acumulado del año) en Jujuy",
+   "valor": 88.6,
+   "unidad": "% de las exportaciones de la provincia",
+   "fecha_dato": "2026-10-31",
+   "periodo": "2026-10",
+   "fuente_original": "Secretaría de Minería",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Jujuy",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_peso_provincias"
+  },
+  {
+   "id": "peso-mineria-exportaciones-santa-cruz",
+   "nombre": "Peso de la minería en las exportaciones (acumulado del año) en Santa Cruz",
+   "valor": 87.2,
+   "unidad": "% de las exportaciones de la provincia",
+   "fecha_dato": "2026-10-31",
+   "periodo": "2026-10",
+   "fuente_original": "Secretaría de Minería",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Santa Cruz",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_peso_provincias"
+  },
+  {
+   "id": "peso-mineria-exportaciones-san-juan",
+   "nombre": "Peso de la minería en las exportaciones (acumulado del año) en San Juan",
+   "valor": 86.1,
+   "unidad": "% de las exportaciones de la provincia",
+   "fecha_dato": "2026-10-31",
+   "periodo": "2026-10",
+   "fuente_original": "Secretaría de Minería",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "San Juan",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_peso_provincias"
+  },
+  {
+   "id": "peso-mineria-exportaciones-salta",
+   "nombre": "Peso de la minería en las exportaciones (acumulado del año) en Salta",
+   "valor": 57.3,
+   "unidad": "% de las exportaciones de la provincia",
+   "fecha_dato": "2026-10-31",
+   "periodo": "2026-10",
+   "fuente_original": "Secretaría de Minería",
+   "eje": "Economía nacional",
+   "alcance": {
+    "nivel": "provincia",
+    "provincia": "Salta",
+    "localidad": "",
+    "pais": "Argentina"
+   },
+   "rubros": [
+    "Minería"
+   ],
+   "subrubros": [],
+   "exposicion": [
+    "Exporta"
+   ],
+   "url": "https://radiografiadeargentina.netlify.app/#mineria_peso_provincias"
+  }
+ ],
+ "novedades": [],
+ "agenda": [],
+ "faltantes": []
+}

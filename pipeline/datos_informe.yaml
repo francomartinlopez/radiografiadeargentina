@@ -1,0 +1,56 @@
+# Qué publica Radiografía en datos-informe.json (para la web de informes de Plexum, especificación v1.2).
+# El archivo sale de los mismos gráficos que muestra el sitio: no se calculan ni se estiman datos nuevos.
+# Un id nunca se cambia: el informe lo usa para seguir cada indicador en el tiempo.
+#
+# Campos de cada entrada:
+#   grafico      id del gráfico del sitio
+#   serie        clave de la serie (gráficos de líneas) o categoria (gráficos de barras)
+#   provincias   true: una entrada por cada serie del gráfico, con la provincia en alcance (id = id + "-" + provincia)
+#   categorias   lista de categorías de un gráfico de barras que son provincias (las demás se ignoran)
+#   id, nombre   id estable y nombre del indicador (en provincias, el nombre lleva " en <provincia>" al final)
+#   unidad       unidad del valor publicado
+#   variacion    interanual (% contra el mismo período del año anterior), anterior_pp (puntos contra el
+#                período anterior), interanual_pp (puntos contra el mismo período del año anterior) o nada
+#   fuente       fuente original (organismo)
+#   rubros, subrubros, exposicion: listas cerradas de la especificación
+
+web: "Radiografía Argentina"
+version: "1.0"
+sitio: "https://radiografiadeargentina.netlify.app"
+eje: "Economía nacional"
+
+indicadores:
+  # ---------- Nacionales: empleo, pobreza, empresas e inversión ----------
+  - {id: pobreza-personas, grafico: pobreza_indigencia, serie: pobreza_personas, nombre: "Pobreza (personas)", unidad: "% de las personas", variacion: anterior_pp, fuente: "INDEC, EPH"}
+  - {id: indigencia-personas, grafico: pobreza_indigencia, serie: indigencia_personas, nombre: "Indigencia (personas)", unidad: "% de las personas", variacion: anterior_pp, fuente: "INDEC, EPH"}
+  - {id: desocupacion, grafico: desocupacion_subocupacion, serie: desocupacion, nombre: "Desocupación", unidad: "% de la población activa", variacion: interanual_pp, fuente: "INDEC, EPH"}
+  - {id: subocupacion, grafico: desocupacion_subocupacion, serie: subocupacion, nombre: "Subocupación", unidad: "% de la población activa", variacion: interanual_pp, fuente: "INDEC, EPH"}
+  - {id: informalidad-asalariados, grafico: empleo_informalidad, serie: informalidad_pct, nombre: "Asalariados sin descuento jubilatorio", unidad: "% de los asalariados", variacion: interanual_pp, fuente: "INDEC, EPH"}
+  - {id: empleo-privado-registrado, grafico: empleo_privado, serie: asal_privados_desest, nombre: "Asalariados privados registrados", unidad: "miles de personas", variacion: interanual, fuente: "Secretaría de Trabajo, SIPA"}
+  - {id: empresas-empleadoras, grafico: empresas_empleadoras, serie: empresas_activas, nombre: "Empresas con empleo registrado", unidad: "empresas", variacion: interanual, fuente: "Secretaría de Trabajo, OEDE"}
+  - {id: apertura-empresas, grafico: apertura_cierre_empresas, serie: empresas_aperturas_pct, nombre: "Apertura de empresas", unidad: "% de las empresas activas", variacion: interanual_pp, fuente: "Secretaría de Trabajo, OEDE"}
+  - {id: cierre-empresas, grafico: apertura_cierre_empresas, serie: empresas_cierres_pct, nombre: "Cierre de empresas", unidad: "% de las empresas activas", variacion: interanual_pp, fuente: "Secretaría de Trabajo, OEDE"}
+  - {id: inversion-fbcf, grafico: inversion_fbcf, serie: fbcf_real, nombre: "Inversión (formación bruta de capital fijo)", unidad: "millones de pesos de 2004", variacion: interanual, fuente: "INDEC, Cuentas nacionales", rubros: ["Construcción", "Industria"]}
+  - {id: pib-por-habitante, grafico: pib_per_capita_pesos, serie: pib_pc_pesos, nombre: "PIB por habitante", unidad: "pesos de 2004 por habitante", variacion: interanual, fuente: "INDEC, Cuentas nacionales"}
+
+  # ---------- Nacionales: minería ----------
+  - {id: exportaciones-mineras, grafico: mineria_exportaciones, serie: mineria_expo_nacional, nombre: "Exportaciones mineras", unidad: "millones de US$", variacion: interanual, fuente: "Secretaría de Minería", rubros: ["Minería"], exposicion: ["Exporta"]}
+  - {id: empleo-minero, grafico: mineria_empleo, serie: empleo_minero_2026, nombre: "Empleo minero", unidad: "puestos de trabajo", variacion: interanual, fuente: "Secretaría de Minería, SIACAM", rubros: ["Minería"]}
+  - {id: produccion-minera-metalifera, grafico: mineria_produccion, serie: ipi_minero_metaliferos, nombre: "Producción de minería metalífera", unidad: "índice 2016 = 100", variacion: interanual, fuente: "INDEC, IPI minero", rubros: ["Minería"], subrubros: ["minería metalífera"]}
+  - {id: produccion-minera-no-metaliferos-litio, grafico: mineria_produccion, serie: ipi_minero_no_metaliferos, nombre: "Producción de minerales no metalíferos y litio", unidad: "índice 2016 = 100", variacion: interanual, fuente: "INDEC, IPI minero", rubros: ["Minería"], subrubros: ["minerales no metalíferos", "litio"]}
+  - {id: produccion-carbonato-litio, grafico: mineria_litio, serie: carbonato_litio_t, nombre: "Producción de carbonato de litio", unidad: "toneladas", variacion: interanual, fuente: "INDEC, IPI minero", rubros: ["Minería"], subrubros: ["litio"]}
+  - {id: exportaciones-oro-plata-anual, grafico: mineria_complejos, serie: complejo_oro_plata, nombre: "Exportaciones del complejo oro y plata (anual)", unidad: "millones de US$", variacion: interanual, fuente: "INDEC, Complejos exportadores", rubros: ["Minería"], subrubros: ["oro y plata"], exposicion: ["Exporta"]}
+  - {id: exportaciones-litio-anual, grafico: mineria_complejos, serie: complejo_litio, nombre: "Exportaciones del complejo litio (anual)", unidad: "millones de US$", variacion: interanual, fuente: "INDEC, Complejos exportadores", rubros: ["Minería"], subrubros: ["litio"], exposicion: ["Exporta"]}
+  - {id: proyectos-mineros-produccion, grafico: mineria_proyectos_etapa, categoria: "En producción", nombre: "Proyectos de metales y litio en producción", unidad: "proyectos", fuente: "Secretaría de Minería, Compendio estadístico", rubros: ["Minería"]}
+  - {id: proyectos-mineros-construccion, grafico: mineria_proyectos_etapa, categoria: "En construcción", nombre: "Proyectos de metales y litio en construcción", unidad: "proyectos", fuente: "Secretaría de Minería, Compendio estadístico", rubros: ["Minería"]}
+
+  # ---------- Por provincia ----------
+  - {id: empleo-privado-registrado, grafico: provincias_empleo, provincias: true, nombre: "Asalariados privados registrados", unidad: "miles de personas", variacion: interanual, fuente: "Secretaría de Trabajo, SIPA"}
+  - {id: salario-real, grafico: provincias_salario, provincias: true, nombre: "Salario promedio de los asalariados privados registrados", unidad: "pesos de {base_ipc}", variacion: interanual, fuente: "Secretaría de Trabajo, OEDE; deflactado con el IPC del INDEC", nota_buenos_aires: " (sin el Gran Buenos Aires)"}
+  - {id: empresas-privadas, grafico: provincias_empresas, provincias: true, nombre: "Empresas privadas con empleo registrado", unidad: "empresas", variacion: interanual, fuente: "Secretaría de Trabajo, OEDE"}
+  - {id: exportaciones, grafico: provincias_exportaciones, provincias: true, nombre: "Exportaciones de origen provincial", unidad: "millones de US$", variacion: interanual, fuente: "INDEC, Origen provincial de las exportaciones", exposicion: ["Exporta"]}
+  - {id: empleo-petroleo-gas, grafico: provincias_empleo_petroleo, provincias: true, nombre: "Asalariados registrados en extracción de petróleo y gas", unidad: "personas", variacion: interanual, fuente: "Secretaría de Trabajo, OEDE", rubros: ["Energía"], subrubros: ["petróleo y gas"]}
+  - {id: empleo-mineria-metalifera, grafico: provincias_empleo_mineria, provincias: true, nombre: "Asalariados registrados en minería metalífera", unidad: "personas", variacion: interanual, fuente: "Secretaría de Trabajo, OEDE", rubros: ["Minería"], subrubros: ["minería metalífera"]}
+  - {id: empleo-minero, grafico: mineria_empleo_provincias, categorias: [Santa Cruz, Salta, San Juan, Buenos Aires, Jujuy, Catamarca, Córdoba], nombre: "Empleo minero", unidad: "puestos de trabajo", fuente: "Secretaría de Minería, SIACAM", rubros: ["Minería"]}
+  - {id: exportaciones-mineras-acumuladas, grafico: mineria_expo_provincias, categorias: [Santa Cruz, San Juan, Jujuy], nombre: "Exportaciones mineras acumuladas del año", unidad: "millones de US$", fuente: "Secretaría de Minería", rubros: ["Minería"], exposicion: ["Exporta"]}
+  - {id: peso-mineria-exportaciones, grafico: mineria_peso_provincias, categorias: [Catamarca, Jujuy, Santa Cruz, San Juan, Salta], nombre: "Peso de la minería en las exportaciones (acumulado del año)", unidad: "% de las exportaciones de la provincia", fuente: "Secretaría de Minería", rubros: ["Minería"], exposicion: ["Exporta"]}

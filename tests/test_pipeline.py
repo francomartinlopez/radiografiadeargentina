@@ -291,3 +291,30 @@ def test_leer_complejos_lee_anios_provisorios():
                        [None, 2024, "2025*"], [None, "Millones de USD", None], ["Complejo litio", 655.3, 931.5]])
     s = leer_complejos({"hoja": df}, "Complejo litio")
     assert list(s.index.year) == [2024, 2025] and s.iloc[-1] == 931.5
+
+
+def test_datos_informe_fechas_variaciones_y_faltantes():
+    from pipeline.datos_informe import generar
+    graficos = [
+        {"id": "inflacion_minorista", "ultimo": "2026-10-01", "series": []},
+        {"id": "desocupacion_subocupacion", "frecuencia": "T", "series": [
+            {"serie": "desocupacion", "nombre": "Desocupación", "puntos": [["2025-04-01", 7.6], ["2026-01-01", 7.5], ["2026-04-01", 7.9]]}]},
+        {"id": "provincias_empleo", "frecuencia": "M", "series": [
+            {"serie": "prov_empleo_santafe", "nombre": "Santa Fe", "puntos": [["2025-07-01", 500.0], ["2026-07-01", 510.0]]},
+            {"serie": "prov_empleo_santafe", "nombre": "Santa Fe", "puntos": [["2025-07-01", 500.0], ["2026-07-01", 510.0]]}]},
+        {"id": "mineria_expo_provincias", "categorias": [{"categoria": "Santa Cruz", "valor": 2898.0, "fecha": "2026-10-01"},
+                                                         {"categoria": "Catamarca y Salta", "valor": 1415.0, "fecha": "2026-10-01"}]},
+    ]
+    d = generar(graficos, {"faltantes": [], "indicadores": [{"id": "pobreza-personas", "fecha_dato": "2025-12-31"}]})
+    ind = {i["id"]: i for i in d["indicadores"]}
+    assert d["web"] == "Radiografía Argentina" and d["novedades"] == [] and d["agenda"] == []
+    des = ind["desocupacion"]
+    assert des["fecha_dato"] == "2026-06-30" and des["periodo"] == "2026-T2"
+    assert des["variacion"] == {"valor": 0.3, "unidad": "p. p.", "contra": "mismo período del año anterior (2.º trimestre de 2025)"}
+    sf = ind["empleo-privado-registrado-santa-fe"]  # una sola vez aunque la serie aparezca en dos grupos
+    assert sf["alcance"]["provincia"] == "Santa Fe" and sf["variacion"]["valor"] == 2.0 and sf["fecha_dato"] == "2026-07-31"
+    assert [i["id"] for i in d["indicadores"]].count("empleo-privado-registrado-santa-fe") == 1
+    assert ind["exportaciones-mineras-acumuladas-santa-cruz"]["valor"] == 2898
+    falt = {f["id"]: f for f in d["faltantes"]}
+    assert falt["pobreza-personas"]["ultimo_dato"] == "2025-12-31"  # conserva la fecha del último publicado
+    assert falt["exportaciones-mineras-acumuladas-jujuy"]["ultimo_dato"] is None

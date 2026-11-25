@@ -642,6 +642,8 @@ async function iniciar() {
     }
     document.getElementById("sin-resultados").hidden = total > 0;
   });
+  // Enlaces a un gráfico o tema (#id): el contenido se arma después de cargar la página, así que se va ahí al final
+  if (location.hash) { const destino = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (destino) destino.scrollIntoView(); }
 }
 
 iniciar().catch((e) => { const c = document.getElementById("cargando"); if (c) c.textContent = "No se pudieron cargar los datos."; console.error(e); });

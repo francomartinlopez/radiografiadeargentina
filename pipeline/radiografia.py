@@ -21,7 +21,7 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
-from . import construir, mineria_informes, transformar
+from . import construir, datos_informe, mineria_informes, transformar
 from .fuentes import eph_panel
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -647,6 +647,7 @@ def main() -> None:
         alertas += al
         if graf:
             graficos.append(graf)
+    alertas += datos_informe.escribir(graficos)  # archivo de datos para la web de informes de Plexum
     escribir(graficos, catalogo, alertas)
     print(f"Listo: {len(graficos)} gráficos, {len(alertas)} alertas (ver data/informe.md)")
 
